@@ -58,10 +58,11 @@ All files are stored in the repository data directory (see the [Directory Struct
 .
 ├── data/
   ├── processed/
-    ├── ess-dive_wfsfa_soil_dataset_urls.csv       --> CSV file containing URLs pointing to 27 directories on Google Drive, each containing source package data
-    ├── ess-dive_harmonized_soil_urls.csv          --> CSV file containing URLs pointing to 13 CSV files on Google Drive, one per harmonized package
-    ├── location_data_harmonized_with_uuid.csv     --> Single CSV containing site‑level metadata
-    └── sm_data_harmonization_mapping.json         --> JSON describing variable mappings & transformations
+    └── ess-dive_wfsfa_soil_datasets/ 
+      ├── ess-dive_wfsfa_soil_dataset_urls.csv       --> CSV file containing URLs pointing to 27 directories on Google Drive, each containing source package data
+      ├── ess-dive_harmonized_soil_urls.csv          --> CSV file containing URLs pointing to 13 CSV files on Google Drive, one per harmonized package
+      ├── location_data_harmonized_with_uuid.csv     --> Single CSV containing site‑level metadata
+      └── sm_data_harmonization_mapping.json         --> JSON describing variable mappings & transformations
 ```
 
 *The complete directory tree can be visualized with `tree -L 2 .` on a Unix‑like system.*

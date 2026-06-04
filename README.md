@@ -29,6 +29,8 @@ benchmark-datasets/
 ├── notebooks/             # Data processing scripts
 │   ├── scrape_ess-dive.py
 │   └── harmonize_ess-dive_soilmoisture_data.py
+├── skills/                # Claude Code skills for AI-assisted workflows
+│   └── wfsfa_sm_harmonization/  # Interactive harmonization skill
 ├── src/
 │   └── benchmark_datasets/  # Python package source
 └── tests/                 # Unit and integration tests
@@ -91,6 +93,32 @@ Data harmonization workflow that transforms heterogeneous soil moisture datasets
 - `data/processed/ess-dive_wfsfa_soil_datasets/*.csv` — Harmonized data files
 - `data/processed/ess-dive_wfsfa_soil_datasets/location_data_harmonized_with_uuid.csv` — Site metadata
 - `data/processed/ess-dive_wfsfa_soil_datasets/sm_data_harmonization_mapping.json` — Transformation provenance
+
+## AI-Assisted Workflows
+
+The [`skills/`](skills/) directory contains Claude Code skills for interactive, AI-assisted data harmonization:
+
+### WFSFA Soil Moisture Harmonization Skill
+
+**Location:** [`skills/wfsfa_sm_harmonization/`](skills/wfsfa_sm_harmonization/)
+
+An interactive skill that guides Claude through evaluating, harmonizing, and documenting new ESS-DIVE soil moisture datasets into the WFSFA harmonization framework.
+
+**Capabilities:**
+- **Interactive evaluation**: Systematically assess new datasets for inclusion using established decision rules
+- **Code generation**: Produce Python harmonization code conforming to project conventions
+- **Mapping documentation**: Generate JSON mapping entries with full transformation provenance
+- **Quality assurance**: Apply schema validation, unit conversion checks, and QC flag assignment
+
+**Usage:** Invoke when adding a new ESS-DIVE soil moisture dataset to the harmonization pipeline. The skill handles dataset evaluation, variable mapping, location resolution, time series detection, and generates both Python code and JSON documentation.
+
+**Outputs:**
+- Python code block for the harmonization script
+- JSON mapping entry for `sm_data_harmonization_mapping.json`
+- Inclusion/exclusion decision with documented reasoning
+- QC flags for approximated depths or locations
+
+See [`skills/wfsfa_sm_harmonization/SKILL.md`](skills/wfsfa_sm_harmonization/SKILL.md) for complete documentation and [`soilmoisture_harmonization_general_insights.md`](skills/wfsfa_sm_harmonization/soilmoisture_harmonization_general_insights.md) for general insights from the harmonization process.
 
 ## Setup
 

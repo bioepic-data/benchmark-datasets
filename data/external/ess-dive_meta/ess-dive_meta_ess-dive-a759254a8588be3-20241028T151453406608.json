@@ -1,0 +1,341 @@
+{
+  "id": "ess-dive-a759254a8588be3-20241028T151453406608",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15486/NGT/1961178",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a759254a8588be3-20241028T151453406608",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-b5f96817addbfc6-20240913T175303522237",
+  "dateUploaded": "2024-10-28T15:14:56.980Z",
+  "dateModified": "2024-10-28T22:51:00.170Z",
+  "isPublic": true,
+  "citation": "Zuleta D; Arellano G; Aguilar S; Bunyavejchewin S; Casta\u00f1o N; Chang-Yang C; Duque A; Mitre D; Nasardin M; P\u00e9rez R; Sun I; Yao T L; Valencia R; McMahon S; Davies S (2023): Tree damage and mortality measurements across seven ForestGEO plots in the tropics between Oct 2016 and Mar 2023. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15486/NGT/1961178",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15486/NGT/1961178",
+    "name": "Tree damage and mortality measurements across seven ForestGEO plots in the tropics between Oct 2016 and Mar 2023",
+    "description": [
+      "This dataset contains annual records (raw data) on tree survival and structural completeness of 36,524 trees (2,467 species) collected across 29 censuses in seven tropical forests distributed across the Neotropics (Amacayacu, Colombia; Barro Colorado Island (BCI), Panam\u00e1; Yasun\u00ed, Ecuador) and Asia (Fushan, Taiwan; Huai Kha Khaeng (HKK), Thailand; Khao Chong (KC), Thailand; Pasoh, Malaysia). This dataset was used to compare aboveground biomass loss via damage to living trees relative to total AGB loss (mortality + damage). Data is contained within a single CSV file.Variable definitions: site: name of the ForestGEO plot; stemID.ams: Unique ID for the stem in the annual mortality surveys (ams); treeID.ams: Unique ID for the tree in the ams; date.full.census: date of the previous full census of the plot, format: YYYY-MM-DD; dbh.full.census: diameter at the breast height (dbh in mm) measured during the previous full census of the plot; home: height of measurement of dbh (in m); meanWD: species-level wood density (g cm-3); date.ams: date of the ams, format: YYYY-MM-DD; status: survival status of the tree (A: alive; D: dead; NF: not found; \"?\": unknown); H_considering_damage: living length of the main axis in meters; provides an estimate of the amount of remaining living tissues along the main axis of the stem (e.g., the height of breakage or the height discounting wood decay); b: the remaining proportion of branch volume within the living length (b\u2208[0,1]). ; weights.ind: frequency of the [size class x species] bins within the forest plot relative to their frequency in the sample. It is necessary to extrapolate estimates to the whole plot.",
+      "This dataset was originally published on the NGEE Tropics Archive and is being mirrored on ESS-DIVE for long-term archival",
+      "Please see the NGT0201_acknowledgements.txt file for a full listing of dataset acknowledgements."
+    ],
+    "alternateName": [
+      "https://doi.org/10.15486/ngt/1961178",
+      "NGT0201"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9832-6188",
+        "givenName": "Daniel",
+        "familyName": "Zuleta",
+        "email": "dfzuleta@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-3990-5344",
+        "givenName": "Gabriel",
+        "familyName": "Arellano",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "gabriel.arellano.torres@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Salom\u00f3n",
+        "familyName": "Aguilar",
+        "email": "AguilarS@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sarayudh",
+        "familyName": "Bunyavejchewin",
+        "email": "sarayudh_b@yahoo.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nicolas",
+        "familyName": "Casta\u00f1o",
+        "email": "ncastano@sinchi.org.co"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Chia-Hao",
+        "familyName": "Chang-Yang",
+        "email": "c.h.changyang@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alvaro",
+        "familyName": "Duque",
+        "email": "ajduque09@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Mitre",
+        "email": "MitreDS@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Musalmah",
+        "familyName": "Nasardin",
+        "email": "musalmah@frim.gov.my"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Rolando",
+        "familyName": "P\u00e9rez",
+        "email": "perezro@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "I-Fang",
+        "familyName": "Sun",
+        "email": "ifsun@mail.ndhu.edu.tw"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Tze Leong",
+        "familyName": "Yao",
+        "email": "yaotzeleong@frim.gov.my"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Renato",
+        "familyName": "Valencia",
+        "email": "lrvalencia@puce.edu.ec"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sean",
+        "familyName": "McMahon",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "McMahonS@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-8596-7522",
+        "givenName": "Stuart",
+        "familyName": "Davies",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "daviess@si.edu"
+      }
+    ],
+    "datePublished": "2023-03-16",
+    "keywords": [
+      "Next-Generation Ecosystem Experiements Tropics",
+      "NGEE-T",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Demography",
+      "Other"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site Name: Amacayacu National Natural Park. Site ID: CO-ANP. The Amacayacu site is located at the Amacayacu National Natural Park, Colombian Amazonia. The site was established on Tertiary sedimentary plains (Pebas Formation), characterized by a hilly and moderated dissected topography. (From ForestGEO site information page) For more information on this site, visit: https://forestgeo.si.edu/sites/neotropics/amacayacu Site contact(s): (Daniel Zuleta <dfzuleta@gmail.com>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -3.8091,
+            "longitude": -70.2678
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -3.8091,
+            "longitude": -70.2678
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Site Name: Yasun\u00ed National Park. Site ID: EC-YNP. Yasun\u00ed National Park in eastern Ecuador is one of the most biologically diverse areas in the world. In 1995, the Pontificia Universidad Cat\u00f3lica de Ecuador (PUCE), the University of Aarhus in Denmark, and ForestGEO-STRI initiated a Forest Dynamics Plot in the northwest portion of the Park in lowland, aseasonal, old-growth rainforest. In 1 ha of the Yasun\u00ed FDP, there are 670 tree species. Comparing this number with species counts in 1 ha of forest at other sites\u2014BCI, Panama (168 species); Pasoh, Peninsular Malaysia (497 species)\u2014illustrates the exceptional richness of the Yasun\u00ed forest. In the entire 50 ha site we recorded 1,150 species. To date, more than 30 species have been discovered that are new to science. Trees have been censused once for the entire 50-ha site and four times in the western half of the site, providing demographic data for 25 ha. Ongoing research at the Yasun\u00ed FDP includes biweekly monitoring of 200 seed traps, annual censuses of seedlings, and a liana census in part of the site. Annual protocols to evaluate the carbon fluxes are implemented since 2009 and a mortality annual protocol is being incorporated in 2019. Soil structure and nutrient content have been analyzed twice in the western 25 ha of the site. (From ForestGEO site information page) For more information on this site, visit: https://forestgeo.si.edu/sites/neotropics/yasuni Site contact(s): (Daniel Zuleta <dfzuleta@gmail.com>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -0.6859,
+            "longitude": -76.397
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -0.6859,
+            "longitude": -76.397
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Site Name: Pasoh Forest Reserve. Site ID: MY-PSO. In 1986, the second Forest Dynamics Plot was initiated in peninsular Malaysia in collaboration between the Forest Research Institute Malaysia, ForestGEO/Harvard University, and STRI. Since the project's initiation, the National Institute for Environmental Studies and affiliations in Japan including Kyoto University, Hiroshima University and Forestry and Forest Products Research Institute has become project partners. The 50-ha plot is located in a primary forest area of the Pasoh Forest Reserve, a lowland dipterocarp forest, a type of evergreen tropical moist forest. The area is aseasonal and has a flat terrain. The first census was completed in 1989, and has been repeated every five years since then. This plot contains more than 800 species and approximately 340,000 trees. Many of the plot's species are commercially important and are the focus of intensive demographic study. Furthermore, analyses of the human uses of the Pasoh forest and economic valuations of forest resources based on Pasoh FDP data have been conducted. In collaboration with the Japanese institutions, micro climate related studies, soil respiration and phenology, among other studies have been conducted adjacent the 50-ha plot but still within the reserve. (From ForestGEO site information page) For more information on this site, visit: https://forestgeo.si.edu/sites/asia/pasohhttps://fluxnet.org/sites/siteinfo/MY-PSO Site contact(s): (Daniel Zuleta <dfzuleta@gmail.com>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 2.982,
+            "longitude": 102.313
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 2.982,
+            "longitude": 102.313
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Site Name: Barro Colorado Island (BCI). Site ID: PA-BCI. Located in Panama. Barro Colorado Island (BCI) is a humid tropical forest with high biodiversity, around 300 species in 50 ha. The climate has a sever dty season from and of December to end of April. Several decidous species drop their leaves during this period. Lianas are very abundant in this forest accounting up to 30% of leaf area. (AMERIFLUX)Barro Colorado Island (BCI), a 1,560-hectare island, is STRI's primary site for the study of lowland moist tropical forests. Together with five adjacent peninsulas, BCI forms the 5,600-hectare Barro Colorado Nature Monument (BCNM), which is located in the middle of the Panama Canal. Established in April 17, 1923, BCNM and has been administered by the Smithsonian since 1946 (STRI CTFS). For more information on this site, visit: http://fluxnet.ornl.gov/site/4247, http://ameriflux-data.lbl.gov:8080/SitePages/siteInfo.aspx?PA-Bar,http://biogeodb.stri.si.edu/physical_monitoring/research/barrocolorado Site contact(s): (Joseph Wright <wrightj@si.edu>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 9.177125,
+            "longitude": -79.87
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 9.130659,
+            "longitude": -79.82
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Site Name: Huai Kha Khaeng Wildlife Sanctuary (HKK). Site ID: TH-HKK. The Huai Kha Khaeng (HKK) Forest Dynamics Plot was initiated in 1992 by the Thai Royal Forest Department in collaboration with ForestGEO and Harvard University, with censusing beginning in 1993. The HKK plot is located in the Huai Kha Khaeng Wildlife Sanctuary, a World Heritage Site in western Thailand. The plot is dominated by seasonal evergreen forest, a critically endangered habitat in the region, embedded within a landscape-scale matrix that also includes mixed deciduous and deciduous dipterocarp forests. The area is notable for its abundance of large vertebrate herbivores, such as elephants, gaur, banteng, and tapir, and their predators, such as tigers, leopards, and wild dogs. In addition, Huai Kha Khaeng is renowned for its remarkable bird diversity, which includes the endangered green peafowl and white wood duck, as well as many hornbills, woodpeckers, and other bird groups. (From ForestGEO site information page) For more information on this site, visit: https://forestgeo.si.edu/sites/asia/huai-kha-khaeng Site contact(s): (Daniel Zuleta <dfzuleta@gmail.com>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 15.6324,
+            "longitude": 99.217
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 15.6324,
+            "longitude": 99.217
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Site Name: Khao Chong Forest Reserve. Site ID: TH-KCF. In 2000, the Khao Chong Forest Dynamics Plot was initiated under the direction of Sarayudh Bunyavejchewin of the Thai Royal Forest Department. The field crew, led by graduates from Kasetsart University, completed the census of the first 16 ha in 2001, and the total 24-ha census was finished in 2003. The forest is more diverse than expected, the 612 species includes an interesting mix of species typical of forest farther south as well as those in northern regions. The plot encompasses a valley that extends up the side of steep granite and includes ridge forest dominated by massive trees of Dipterocarpus costatus. A forest phenology study monitoring ~1300 mature trees of ~250 species in and around the study plot has been running since 2001. Khao Chong forest phenology appears to coincide with the \"General Flowering\" events that occur to the south of peninsular Malaysia. Other ongoing studies include a study of seedling recruitment of seven dominant species of Dipterocarpaceae in the forest and a study of seasonality of biomass dynamics in the forest. Support for the project has been provided by the Thai Royal Forest Department, National Institute for Environmental Studies in Japan, and the US National Science Foundation. (From ForestGEO site information page) For more information on this site, visit: https://forestgeo.si.edu/sites/asia/khao-chong Site contact(s): (Daniel Zuleta <dfzuleta@gmail.com>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 7.5435,
+            "longitude": 99.798
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 7.5435,
+            "longitude": 99.798
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Site Name: Fushan Experimental Forest. Site ID: TW-FEF. The 25 ha (500m x 500m) Fushan Forest Dynamics Plot had its first census from 2003-2004. Three subsequent censuses of growth, mortality, and recruitment were conducted during 2008-2009, 2013-2014, and 2019 respectively. A mean total of 115,778 individuals, which belongs to 111 species, was recorded in the first census (Su et al. 2007). Fushan FDP is located in the subtropical rainforest of northern Taiwan (24\u00b045\u201940\u201dN, 121\u00b033\u201928\u201dE). The site is situated in an old-growth sub montane rainforest which can be categorized as the Machilus-Castanopsis zone of broad-leaved forests in Taiwan (Su 1984). The Fushan FDP is located in a small upstream watershed and the topography is uneven and rugged with the elevation ranging from 600 to 733 above sea level. The soils are extremely acidic (pH 3.3~4.3) with low organic carbon content and fertility (Su et al. 2007). The climate of Fushan is influenced by the northern monsoon in winter and by typhoons during the summer. Mean annual rainfall is 4271 mm with an average temperature of 18.2 \u00baC and a mean relative humidity of 95.1 % (Su et al. 2007). Rain falls throughout the year (no dry months with < 100 mm of precipitation), but is heavier during the typhoon season from July to September. (From ForestGEO site information page) For more information on this site, visit: https://forestgeo.si.edu/sites/asia/fushan Site contact(s): (Daniel Zuleta <dfzuleta@gmail.com>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 24.7614,
+            "longitude": 121.555
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 24.7614,
+            "longitude": 121.555
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "Forest Global Earth Observatory (ForestGEO), Smithsonian Tropical Research Institute"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-10-10",
+      "endDate": "2022-03-12",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9832-6188",
+      "givenName": "Daniel",
+      "familyName": "Zuleta",
+      "email": "dfzuleta@gmail.com"
+    },
+    "citation": [
+      "Zuleta, D., Arellano, G., McMahon, S. M., Aguilar, S., Bunyavejchewin, S., Casta\u00f1o, N., Chang-Yang, C., Duque, A., Mitre, D., Nasardin, M., P\u00e9rez, R., Sun, I., Yao, T. L., Valencia, R., Krishna Moorthy, S. M., Verbeeck, H. Davies, S. J. Damage on living trees contributes to almost half of the biomass losses in tropical forests. Accepted/in press. Global Change Biology."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Please see the associated publication for methods details. We evaluated the survival status and structural completeness of the trees following the ForestGEO Tree Mortality and Damage protocol. Depending on the site, each tree was visited annually from two to six times between 2016 and 2022, making a total of 151,208 tree \u00d7 census (154,227 at the tree level) observations in 22 census intervals (Table S1). The first census was used to establish the initial aboveground structural completeness of the trees, and subsequent censuses were used to assess tree survival (dead/alive) and the structural completeness of surviving trees. Tree diameter was obtained during the previous full census in each plot."
+    ],
+    "distribution": [
+      {
+        "contentSize": 8.759765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2c92a59b0d0ee41-20240405T151122196911",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2c92a59b0d0ee41-20240405T151122196911",
+        "name": "NGT0201_locations.csv"
+      },
+      {
+        "contentSize": 18096.2734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-50d71d759c7c879-20240405T151126152801",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-50d71d759c7c879-20240405T151126152801",
+        "name": "ForestGEO.AMSs.2022.damage.paper_20230314191302.csv"
+      },
+      {
+        "contentSize": 21.876953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a759254a8588be3-20241028T151453406608",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-a759254a8588be3-20241028T151453406608",
+        "name": "Tree_damage_and_mortality_measurements_across_seven_ForestGEO_plots_in_the_tropics_between_Oct_2016_and_Mar_2023.xml"
+      },
+      {
+        "contentSize": 6.529296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fe94009e73ca279-20240405T151124121949",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-fe94009e73ca279-20240405T151124121949",
+        "name": "NGT0201_acknowledgements.txt"
+      }
+    ]
+  }
+}

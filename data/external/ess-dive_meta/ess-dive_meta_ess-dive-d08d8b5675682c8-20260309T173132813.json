@@ -1,0 +1,228 @@
+{
+  "id": "ess-dive-d08d8b5675682c8-20260309T173132813",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3005940",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-d08d8b5675682c8-20260309T173132813",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d08d8b5675682c8-20251216T012206034",
+  "dateUploaded": "2026-03-09T17:31:34.785Z",
+  "dateModified": "2026-03-09T17:31:34.978Z",
+  "isPublic": true,
+  "citation": "Stolze L; Dipankar D; Steefel C; Molins S; Dong W; Beutler C; Newman A; Williams K (2025): 2D reactive transport model of shale chemical weathering and biogeochemical fluxes along a mountainous hillslope, East River Watershed, Colorado: Input files and simulation results. Watershed Function SFA. Dataset. doi:10.15485/3005940",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3005940",
+    "name": "2D reactive transport model of shale chemical weathering and biogeochemical fluxes along a mountainous hillslope, East River Watershed, Colorado: Input files and simulation results",
+    "description": [
+      "This data package contains input files and simulation results for a two-dimensional (2D) reactive transport model used to quantitatively analyze the coupled hydrological and biogeochemical processes governing shale weathering and associated biogeochemical fluxes under realistic environmental conditions in the high-elevation East River Watershed. These data support the conclusions presented in Stolze et al. (Water Resources Research, under review), \"Model-based interpretation of solute exports and carbon partitioning during shale weathering in a mountainous hillslope\".",
+      "The model simulates atmospheric-subsurface gas exchange, subsurface water flow, and shale weathering processes under dynamic, year-scale conditions along a shale-underlain hillslope located in the East River watershed. The simulations were performed using the PFLOTRAN flow and reactive transport code and executed on the Perlmutter supercomputer to leverage its large-scale parallel computing capabilities.",
+      "The data package contains two zipped folders, \"model_input_files\" and \"simulation_results\", and one readme.txt file.",
+      "\"model_input_files\" contains the necessary input files to run the calibrated base-base model presented in Stolze et al. (Water Resources Research, under review).",
+      "\"simulation_results\" contains a single hdf5 file (\"Output_2D_hillslope_model.h5\") which includes the results of simulation performed using the base-case model. This file can be opened with HDFView 3.1.4, Python, or MATLAB.",
+      "\"readme.txt\" contains relevant information about the base-case model and provides guidelines on how to run the associated input files provided in the folder \"model_input_files\". Furthermore, readme.txt provides information regarding the model results provided in \"Output_2D_hillslope_model.h5\" such as matrix dimensionality and output units.",
+      "Field datasets used to evaluate model performance were collected at three monitoring wells located along a hillslope transect (PLM1, PLM2, and PLM3).",
+      "Dissolved ion concentration data were collected from November 2016 to October 2021 for Ca, Mg, DIC, Na, K, SO4 (Dong et al., 2025 - dic_npoc_data_2014_2024.zip - DOI:10.15485/1660459; Williams et al., 2025 - anion_data_2014_2024.zip - DOI:10.15485/1668054; Dong et al., 2025 - cation_data_2014_2024.zip - DOI:10.15485/1668055). Note that we used the files named er_PLM1_xx_yy, er_PLM2_xx_yy, and er_PLM3_xx_yy where xx stands for the name of the aqueous species and yy stands for the depth where the measurements were performed.",
+      "Soil water content ([0 - 1] m) and water table depth were collected from November 2016 to October 2021 (Wan et al., 2024 - Dynamic_water_table__depthsFig2b.csv and Soil_water_content_Fig4e.csv - DOI:10.15485/2322567).",
+      "Gaseous CO2 concentration were collected from October 2020 to December 2021(Wan et al., 2024 - Soil_CO2_concentrations_Fig4h.csv - DOI:10.15485/2322567)",
+      "Gaseous CO2 flux from the subsurface to the atmosphere were collected in the vicinity of PLM2 from October 2019 to May 2022 (Wu et al., 2025).",
+      "Soil microbial biomass concentration was measured from August 2016 to June 2017 (Sorensen et al., 2019 - 2017_East_River_Pumphouse_Microbial_Biomass__1_.csv - DOI:10.15485/1577267)",
+      "All field data are published as CSV files compatible with Microsoft Excel, MATLAB, and Python, or as text files.",
+      "The coordinates of the monitoring wells and the CO2(g) flux sensor in the coordinate system WGS84 are:",
+      "-PLM1: [38.9197710 ; -106.9492750]",
+      "-PLM2: [38.9201580 ; -106.9487170]",
+      "-PLM3: [38.9207843 ; -106.9483668]",
+      "-PLM4: 38.9210060 ; -106.9479528]",
+      "-CO2(g) flux sensor: [38.9199180 ; -106.9489906]",
+      "-------------------------------------------------------------------------------------------",
+      "This work was supported by the Watershed Function Science Focus Area at Lawrence Berkeley National Laboratory funded by the US Department of Energy, Office of Science, Biological and Environmental Research under Contract No. DE-AC02-05CH11231. This research used resources of the National Energy Research Scientific Computing Center (NERSC), a Department of Energy User Facility using NERSC award BER-ERCAP 23980, BER-ERCAP 28550, and BER-ERCAP 33789."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0722-8342",
+        "givenName": "Lucien",
+        "familyName": "Stolze",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "lstolze@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1788-1900",
+        "givenName": "Dwivedi",
+        "familyName": "Dipankar",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ddwivedi@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2802-611X",
+        "givenName": "Carl",
+        "familyName": "Steefel",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cisteefel@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7675-3218",
+        "givenName": "Sergi",
+        "familyName": "Molins",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "smolins@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2074-8887",
+        "givenName": "Wenming",
+        "familyName": "Dong",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "wenmingdong@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Curtis",
+        "familyName": "Beutler",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "cbeutler@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alexander",
+        "familyName": "Newman",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "alexnewman760@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      }
+    ],
+    "datePublished": "2025-12-16",
+    "keywords": [
+      "WEATHERING",
+      "SHALE",
+      "REACTIVE TRANSPORT MODELING",
+      "HILLSLOPE",
+      "CARBON",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Model Data Archiving Guidelines"
+    ],
+    "variableMeasured": [
+      "LIQUID SATURATION",
+      "DARCY VELOCITY",
+      "MINERAL CONCENTRATION",
+      "AQUEOUS CONCENTRATION",
+      "BIOMASS CONCENTRATION",
+      "GAS CONCENTRATION",
+      "MINERAL REACTION RATE",
+      "POROSITY"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory and SLAC Accelerator Laboratory's Watershed Function Scientific Focus Area (WFSFA). This portion of the ER watershed contains the project-defined boundaries of East River, Washington Gulch, Slate River, and Coal Creek, as described in the location metadata. Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. This data package contains geographic metadata for specific observation points throughout the watershed. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2025) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.033,
+            "longitude": -107.12
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.82,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0205CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-11-01",
+      "endDate": "2021-10-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0722-8342",
+      "givenName": "Lucien",
+      "familyName": "Stolze",
+      "email": "lstolze@lbl.gov"
+    },
+    "citation": [
+      "Stolze, L., Dwivedi, D., Steefel, C., Molins, S., Dong, W., Beutler, C., Newman, A., Williams, K. Model-based interpretation of shale weathering, solute exports, and carbon partitioning in a mountainous hillslope. Water Resources Research. DOI: 10.1029/2025WR041597",
+      "Wan J ; Tokunaga T ; Beutler C ; Newman A ; Dong W ; Bill M ; Brown W ; Henderson A ; Tran A ; Williams K (2024): Hydrological control of chemical weathering and rock-carbon fluxes: East River, Colorado. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/2322567",
+      "Dong W ; Beutler C ; Brown W ; Newman A ; O'Ryan D ; Shirley A ; Versteeg R ; Williams K (2025): Cation Data for the East River Watershed, Colorado (2014-2024). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1668055",
+      "Williams K ; Beutler C ; Brown W ; Newman A ; O'Ryan D ; Shirley A ; Versteeg R (2025): Anion Data for the East River Watershed, Colorado (2014-2024). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1668054",
+      "Dong W ; Beutler C ; Brown W ; Newman A ; O'Ryan D ; Shirley A ; Versteeg R ; Williams K (2025): Dissolved Inorganic Carbon and Dissolved Organic Carbon Data for the East River Watershed, Colorado (2015-2024). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660459",
+      "Sorensen P ; Brodie E ; Beller H ; Wang S ; Bill M ; Bouskill N (2019): Soil Nitrogen, Water Content, Microbial Biomass, and Archaeal, Bacterial and Fungal Communities from the East River Watershed, Colorado collected in 2016-2017. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1577267",
+      "Wu Y ; Chou C ; Beutler C ; Henderson A ; Dafflon B ; Wielandt S ; Newman A ; Brodie E ; Gilbert B ; Peruzzo L ; Williams K (2025): Meteorological and Soil Data from Ecohydrology Sensor Tower Monitoring Sites at Pump House and Snodgrass Mountain in East River Watershed, Colorado. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/3007697",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Boye K ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Perzan Z ; Pierce S ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Thibaut R ; Tokunaga T ; Versteeg R ; Wielandt S ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2025): Location Identifiers, Metadata, and Map for Field Measurements at the East-Taylor Watershed Community Observatory, Colorado, USA (Version 3.2). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The methods described herein are adapted from Stolze et al. (WRR, in review). For a comprehensive description of the governing equations, model parameterization, and numerical implementation, please refer to the full publication.\nCitation: Stolze, L., Dipankar, D., Steefel, C., Molins, S., Dong, W., Beutler, C., Newman, A., Williams, K. (WRR, in review), Model-based interpretation of solute exports and carbon partitioning during shale weathering in a mountainous hillslope.\nThis dataset was generated using a two-dimensional (2-D), multidimensional, multiphase reactive transport model. The primary objective was to simulate the coupled hydrological, biological, and geochemical processes in a shale-underlain hillslope to quantitatively interpret annual biogeochemical fluxes, including solute exports and carbon partitioning under transient environmental conditions.\nThe model domain represents a hillslope cross-section. To capture the measured spatiotemporal variations in hydrology (water table and water content), we defined four distinct hydrostratigraphic units. The unit-specific hydrogeological properties, such as permeability and water retention parameters, were calibrated to reproduce observed hydrological dynamics (e.g., water table depth and water content). Geochemical heterogeneity was represented by spatially distributing mineral and organic matter concentrations based on interpolated mass fraction profiles from monitoring wells using a Gaussian process regression model. The domain was discretized into 92,880 active elements with a horizontal resolution of 1 meter and a vertical resolution of 0.2 meters.\nKey simulated processes include variably saturated water flow, multiphase transport of solutes and gases (advection, dispersion, and diffusion), and a comprehensive network of biogeochemical reactions. This network accounts for soil respiration, microbial growth and decay, the oxidative dissolution of pyrite, and the weathering of carbonate, silicate, and clay minerals.\nSimulations were run for a one-year period representing the climate conditions of 2016, following a 50-year spin-up to establish stable initial conditions. The maximum time step was set to one hour. Hydrological boundary conditions included a transient, spatially uniform flux at the surface for meteoric water infiltration and evapotranspiration. No-flux boundaries were defined for the bottom and upslope sides of the domain, while the downslope boundary was treated as a dynamic seepage face coupled to the adjacent river stage. Dirichlet boundary conditions were applied for chemical species concentrations at the atmosphere-subsurface and river interfaces.\nThe simulations were performed using the PFLOTRAN finite volume reactive transport code. The computational tasks were executed on the Perlmutter supercomputer at the National Energy Research Scientific Computing Center (NERSC), with runs distributed across 640 processors. The model generated transient and spatially resolved data for key hydrological variables, such as water saturation and discharge, as well as the concentrations of aqueous and gas species.\nSimulations were performed using the PFLOTRAN finite volume reactive transport code on the Perlmutter supercomputer at the National Energy Research Scientific Computing Center (NERSC), utilizing 640 processors per run. The model generated transient, spatially resolved data for key hydrological variables and the concentrations of aqueous and gaseous species. This published dataset includes these simulation results as well as all input files required to execute the calibrated base-case model."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4a007143382cb77-20251209T123451625",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-4a007143382cb77-20251209T123451625",
+        "name": "readme.txt",
+        "contentSize": 5.4951171875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-726f5022e130847-20251210T184711400",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-726f5022e130847-20251210T184711400",
+        "name": "flmd.csv",
+        "contentSize": 1.505859375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-484b1bea6ecf3c4-20251209T104550897",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-484b1bea6ecf3c4-20251209T104550897",
+        "name": "simulation_results.zip",
+        "contentSize": 2206988.20703125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ebee51c207facbd-20251209T123451617",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ebee51c207facbd-20251209T123451617",
+        "name": "model_input_files.zip",
+        "contentSize": 2406.623046875
+      }
+    ]
+  }
+}

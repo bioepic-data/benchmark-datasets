@@ -1,0 +1,205 @@
+{
+  "id": "ess-dive-151cb88b8269df2-20230620T232534848",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1985921",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-151cb88b8269df2-20230620T232534848",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-9a5916ebe85b477-20230613T170143451",
+  "dateUploaded": "2023-06-20T23:25:36.080Z",
+  "dateModified": "2023-06-22T00:01:40.846Z",
+  "isPublic": true,
+  "citation": "Bennett K; Schwenk J (2023): Recent streamflow trends across permafrost basins of North America: Datasets. Interdisciplinary Research for Arctic Coastal Environments (InteRFACE). Dataset. doi:10.15485/1985921",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1985921",
+    "name": "Recent streamflow trends across permafrost basins of North America: Datasets",
+    "description": [
+      "Climate change impacts, including changing temperatures, precipitation, and vegetation, are widely anticipated to cause major shifts to the permafrost with resulting impacts to hydro-ecosystems across the high latitudes of the globe. However, it is challenging to examine streamflow shifts in these regions owing to a paucity of data, discontinuity of records, and other issues related to data consistency and accuracy. We looked at recent changes in streamflow over 1976-2021 in watersheds affected by varying degrees of permafrost coverage to characterize trends and drivers for a range of watersheds across North America. Data sets are described in detail in the paper associated with this data set, Bennett et al. 2023, Front. Water - Water and Critical Zone, DOI: 10.3389/frwa.2023.1099660.",
+      "These data contain CSV files of the streamflow, climate, and land surface characteristics for several sites located across the high latitude regions of North America. Both observed and reanalysis data products are provided. These files can be opened using Excel or a text editor, or they can be read, and analyzed in software tools such as Python or R. A brief description of the files is below, and more details can be found in the Methods section.",
+      "rabpro_stats_north_select_74_55m.csv - This file describes the observed gages used in the analysis.",
+      "GF31_23_metadat.csv - This file describes the 23 permafrost systems. Columns are as described in rabpro_stats_north_select_74_55m.csv above, with rabpro_id, the id used for the timeseries file mapping in GF31_23_time_series.csv.",
+      "GF31_23_time_series.csv - This file contains the time series data for the stations described in GF31_23_metadat.csv.",
+      "GF31_random_reaches_1583.csv - This file describes the 1583 randomly selected permafrost-dominant sites for machine learning analysis.",
+      "era5_GF31_monthly_vars_random_reaches_1583.csv - This file contains the monthly ERA5 land data for the 1583 randomly selected permafrost-dominant sites.",
+      "observed.zip: USGS and Hydat station data for the 74 gages analyzed in this study. Monthly, seasonal, and annual streamflow observations for minimum streamflow, mean streamflow, and maximum streamflow. Units are m3/sec. 1975-2022.",
+      "streamflow_daily_GF31_infilled_1979_2022.csv - infilled daily streamflow data (infilled using GloFAS v 3.1) for 55 gages. Units are m3/sec. 1979-2022.",
+      "glofas_23.zip - Glofas v3.1 file for the 23 permafrost-dominant gages in the study. Monthly, seasonal, and annual streamflow observations for minimum streamflow, mean streamflow, and maximum streamflow. Units are m3/sec. 1979-2021.",
+      "glofas_1583.zip - Glofas v3.1 file for the 1583 randomly selected permafrost-dominant gages in the study. Monthly, seasonal, and annual streamflow observations for minimum streamflow, mean streamflow, and maximum streamflow. Units are m3/sec. 1979-2021."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2433-8607",
+        "givenName": "Katrina",
+        "familyName": "Bennett",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "kbennett@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5803-9686",
+        "givenName": "Jon",
+        "familyName": "Schwenk",
+        "email": "jschwenk@lanl.gov"
+      }
+    ],
+    "datePublished": "2023-06-16",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > LAND SURFACE > FROZEN GROUND"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > RIVER",
+      "EARTH SCIENCE > LAND SURFACE > FROZEN GROUND > PERMAFROST"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "North American High Latitudes",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71,
+            "longitude": -164
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 54,
+            "longitude": -76
+          }
+        ]
+      }
+    ],
+    "award": [
+      "89233218CNA000001"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1944-01-01",
+      "endDate": "2021-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2433-8607",
+      "givenName": "Katrina",
+      "familyName": "Bennett",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "kbennett@lanl.gov"
+    },
+    "citation": [
+      "Katrina Bennett, Jon Schwenk, Claire Bachand, Eve Gasarch, Jemma Stachelek, William R. Bolton, Joel C Rowland. 2023. Recent streamflow trends across permafrost basins of North America. Frontiers in Water - Water and Critical Zone. DOI: 10.3389/frwa.2023.1099660.",
+      "Mu\u00f1oz-Sabater, J., Dutra, E., Agust\u00ed-Panareda, A., Albergel, C., Arduini, G., Balsamo, G., et al. (2021). ERA5-Land: A state-of-the-art global reanalysis dataset for land applications. Earth Syst. Sci. Data 13, 4349\u20134383. doi: 10.5194/essd-13-4349-2021.",
+      "Harrigan, S., Zsoter, E., Alfieri, L., Prudhomme, C., Salamon, P., Wetterhall, F., et al. (2020). GloFAS-ERA5 operational global river discharge reanalysis 1979\u2013present. Earth Syst. Sci. Data 12, 2043\u20132060. doi: 10.5194/essd-12-2043-2020."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "39046a95-7219-40fa-b1f1-5c3cc6a06c24"
+      },
+      "name": "Interdisciplinary Research for Arctic Coastal Environments (InteRFACE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Recent trends in observed minimum, mean, and maximum streamflow were analyzed for a range of watersheds across North America affected by varying degrees of permafrost coverage for long-term periods (1990-2021, 1976-2021). We looked at seasonal and annual results for the work. The files include monthly, seasonal, and annual data compilations. There is additional data to support analysis, including ERA5-Land, streamflow reanalysis data (GloFAS v3.1), and land surface information (extracted from VoTE and rabpro). Details can be found in Bennett et al. 2023.\nDetails for files are found below.",
+      "rabpro_stats_north_select_74_55m.csv - This file describes the observed gages used in the analysis. Columns are described below.\nstation_id: The USGS or HYDAT station identifier.\nsource: USGS or HYDAT source of original data.\nstation_name: The name of the station.\nprovided_lat: Latitude provided by station source. Decimal degrees.\nprovided_lon: Longitude provided by station source. Decimal degrees.\nprovided_drainage_area: Drainage are provided by station source. Square km.\nMERIT_lat: Latitude provided by MERIT (based on match). Decimal degrees.\nMERIT_lon: Longitude provided by MERIT (based on match). Decimal degrees.\nMERIT_da: Drainage are provided by MERIT (based on match). Square km.\nstartyr: year station started monitoring.\nendyr: year station ended monitoring or last year in the study.\nlength: length of record.\nelev: mean elevation of watershed/basin where station drains. Source: Amatulli, G., McInerney, D., Sethi, T., Strobl, P., Domisch, S. (2020). Geomorpho90m - Global High-Resolution Geomorphometry Layers. Distributed by OpenTopography. https://doi.org/10.5069/G91R6NPX. Accessed: 2023-06-13. Meters.\nslope: mean slope of watershed/basin where station drains. Source: Amatulli, G., McInerney, D., Sethi, T., Strobl, P., Domisch, S. (2020). Geomorpho90m - Global High-Resolution Geomorphometry Layers. Distributed by OpenTopography. https://doi.org/10.5069/G91R6NPX. Accessed: 2023-06-13. Percent.\ntemp_gd \u2013 temperature as calculated by the GLDAS dataset. Source: GD = GLDAS e.g. https://hydro1.gesdisc.eosdis.nasa.gov/data/GLDAS/GLDAS_CLSM025_DA1_D.2.2/doc/README_GLDAS2.pdf. Celsius.\ntemp_gswp3 - temperature as calculated by the GSWP3 dataset. Source: https://data.isimip.org/10.48364/ISIMIP.886955. Celsius.\nprec \u2013 Precipitation as calculated by ERA5-Land. Source: ERA5-Land: https://essd.copernicus.org/articles/13/4349/2021/. mm.\nswe \u2013 SWE as calculated by the ERA5-Land dataset. Source: ERA5-Land: https://essd.copernicus.org/articles/13/4349/2021/. mm.\noperma \u2013 Percent of permafrost from Obu et al. 2019. Source: https://www.sciencedirect.com/science/article/pii/S0012825218305907. Percent.\noalt \u2013 Active layer depth of permafrost from Obu et al. 2019. Source: https://apgc.awi.de/dataset/permafrost-cci-alt-north-hemisphere-v3-1997-2019. Meters.\ngmean \u2013Glacier area from the Randolph Glacier Inventory (RGI Consortium, 2017). Square km. GLIMS: https://www.glims.org/RGI/. Fraction of basin area covered by glacier.\nid55 \u2013 whether the station is also in the 55 sites infilled using Glofas v3.1.\npgroup \u2013 permafrost group, 1, 2, or 3. 1 is 0-25%, 2 is 25-50%, 3 is 50-100% of basin covered by permafrost, on average. Percent.",
+      "GF31_23_metadat.csv - This file describes the 23 permafrost systems. Columns are as described in rabpro_stats_north_select_74_55m.csv above, with rabpro_id, the id used for the timeseries file mapping in GF31_23_time_series.csv. Columns at the end are related to the Glofas v3.1 matched data set.\nGF31_23_time_series.csv - This file contains the time series data for the stations described in GF31_23_metadat.csv. Columns are described below.\nid of station (23 across columns) by rabpro_id\ndate - date of records",
+      "GF31_random_reaches_1583.csv - This file describes the 1583 randomly selected permafrost-dominant sites for machine learning analysis. Columns are described below.\nfid \u2013 ranked number of all data in file. No particular order.\nid_location: rabpro id of the sites for matching with other data.\nda_mapped_km2: drainage area of mapped basin.\nda_provided_km2: drainage area of original basin.\nda_pct_diff: percent difference between da_mapped_km2 and da_provided_km2\nmethod: method to extract data.\nsw_extent: Amount of water occurring in the basin. Source: https://www.nature.com/articles/nature20584, units: fraction (0-1)\nsw_occur: Amount of water occurring in the basin. Source: https://www.nature.com/articles/nature20584, units: percentage (occurrence is the fraction of time a pixel is water, and this is the spatial average of those pixels)\nglacier: Glacier area from the Randolph Glacier Inventory (RGI Consortium, 2017). Square km. GLIMS: https://www.glims.org/RGI/. Fraction of basin area covered by glacier.\nobu_pf: Percent of permafrost from Obu et al. 2019. Percent. Source: https://www.sciencedirect.com/science/article/pii/S0012825218305907\ncentroid_x: Centroid longitude of basin. MERIT-Hydro. https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019WR024873. Decimal degrees.\ncentroid_y: Centroid latitude of basin. MERIT-Hydro. https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019WR024873. Decimal degrees.",
+      "era5_GF31_monthly_vars_random_reaches_1583.csv - This file contains the monthly ERA5 land data for the 1583 randomly selected permafrost-dominant sites. Columns are described below.\nid_location: rabpro id of the sites for matching with other data.\ndate: date of data record.\ntotal_precip_m: total precipitation. Meters.\nsnow_dwe_mwe: snow depth. Meters of water equivalent.\nsnowfall_mwe: snow fall. Meters of water equivalent.\ntemp_K: Temperature. Kelvin.\nrunoff_m: Runoff. Meters.",
+      "observed.zip: USGS and Hydat station data for the 74 gages analyzed in this study. Monthly, seasonal, and annual streamflow observations for minimum streamflow, mean streamflow, and maximum streamflow. Units are m3/sec. 1975-2022.",
+      "streamflow_daily_GF31_infilled_1979_2022.csv - infilled daily streamflow data (infilled using GloFAS v 3.1) for 55 gages. Units are m3/sec. 1979-2022. Columns described below.\nyear - year\nwtryr - water year (based on Nov-Oct)\nmonth - month\nday - day\njday - Julian day of year\nX[Station id] - station id for 55 gages (note, across columns)",
+      "glofas_23.zip - Glofas v3.1 file for the 23 permafrost-dominant gages in the study. Monthly, seasonal, and annual streamflow observations for minimum streamflow, mean streamflow, and maximum streamflow. Units are m3/sec. 1979-2021.",
+      "glofas_1583.zip - Glofas v3.1 file for the 1583 randomly selected permafrost-dominant gages in the study. Monthly, seasonal, and annual streamflow observations for minimum streamflow, mean streamflow, and maximum streamflow. Units are m3/sec. 1979-2021."
+    ],
+    "distribution": [
+      {
+        "contentSize": 16.6884765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-151cb88b8269df2-20230620T232534848",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-151cb88b8269df2-20230620T232534848",
+        "name": "Recent_streamflow_trends_across_permafrost_basins.xml"
+      },
+      {
+        "contentSize": 174.69921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3e8f5fa171dc5c1-20230612T234303543",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3e8f5fa171dc5c1-20230612T234303543",
+        "name": "GF31_random_reaches_1583.csv"
+      },
+      {
+        "contentSize": 596.443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d457cd6c79fd797-20230612T234303548",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d457cd6c79fd797-20230612T234303548",
+        "name": "observed.zip"
+      },
+      {
+        "contentSize": 6294.0341796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-823d411486a4e72-20230612T234303551",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-823d411486a4e72-20230612T234303551",
+        "name": "streamflow_daily_GF31_infilled_1979_2022.csv"
+      },
+      {
+        "contentSize": 16.76171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-82cf8237dba69bd-20230612T234303549",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-82cf8237dba69bd-20230612T234303549",
+        "name": "rabpro_stats_north_select_74_55m.csv"
+      },
+      {
+        "contentSize": 53904.7841796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ac3c671d4ecb6a7-20230612T234303536",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ac3c671d4ecb6a7-20230612T234303536",
+        "name": "era5_GF31_monthly_vars_random_reaches_1583.csv"
+      },
+      {
+        "contentSize": 3228.5888671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9ba6564c3ed9edd-20230612T234303542",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9ba6564c3ed9edd-20230612T234303542",
+        "name": "GF31_23_time_series.csv"
+      },
+      {
+        "contentSize": 201.185546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b0d322c744c1cc4-20230612T234303545",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b0d322c744c1cc4-20230612T234303545",
+        "name": "glofas_23.zip"
+      },
+      {
+        "contentSize": 12810.078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f2c6bb11a2fb010-20230612T234303546",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f2c6bb11a2fb010-20230612T234303546",
+        "name": "glofas_1583.zip"
+      },
+      {
+        "contentSize": 8.4833984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fac0bebdf5125cb-20230612T234303540",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fac0bebdf5125cb-20230612T234303540",
+        "name": "GF31_23_metadat.csv"
+      }
+    ]
+  }
+}

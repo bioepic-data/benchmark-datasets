@@ -1,0 +1,320 @@
+{
+  "id": "ess-dive-b3ec79236d5aa3c-20230504T212240212130",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1813868",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-b3ec79236d5aa3c-20230504T212240212130",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-b106e236a307146-20230407T154056693482",
+  "dateUploaded": "2023-05-04T21:22:41.369Z",
+  "dateModified": "2023-05-04T21:22:43.729Z",
+  "isPublic": true,
+  "citation": "Simmonds M B; Crystal-Ornelas R; Riley W J; Agarwal D A; Chen X; Cholia S; Coon E T; Dwivedi D; Hendrix V C; Huang M; Jan A; Kakalia Z; Kumar J; Koven C D; Li L; Melara M; Ramakrishnan L; Ricciuto D M; Walker A P; Zhi W; Zhu Q; Varadharajan C (2021): ESS-DIVE guidelines for archiving terrestrial model data. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). Dataset. doi:10.15485/1813868",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1813868",
+    "name": "ESS-DIVE guidelines for archiving terrestrial model data",
+    "description": [
+      "This dataset contains supporting documents and images for ESS-DIVE terrestrial model data archiving guidelines.Terrestrial models are broadly defined as numerical models that couple both land dynamics and energy, water, carbon, or nutrient fluxes. We created these guidelines based on input from the U.S. Department of Energy\u2019s Biological and Environmental Research land modeling community. The guidelines are intended to help modelers determine which components of their terrestrial model data associated with publication should be archived. Based on input from the land modeling community, the guidelines recommend archiving both model input and testing data, as well as code, script, and metadata. The guidelines also recommend archiving model data output, depending on the limitations set by data repositories. Lastly, we provide recommendations for bundling data files for publication as well as a discussion about tools that can facilitate model data archiving and reuse.",
+      "This dataset is an archive of the associated GitHub repository for our model archiving guidelines (https://github.com/ess-dive-community/essdive-model-data-archiving-guidelines). The \u2018README.pdf\u2019 file gives a general introduction to the guidelines, and the \u2018instructions.pdf\u2019 file provides more detailed steps for following the guidelines. We also provide 2 figures in this data package: 1) a decision tree (model_data_guidelines_decision_tree.png) that can help users determine which components of their model data to archive. and 2) the \u2018model_data_guidelines_flmd.png\u2019 file depicts the different files that can be archived in addition to the model data itself. Lastly, we include 3 digitized tables from our associated manuscript and 3 CSV files with anonymized input from DOE scientists about the importance of different aspects of model data archiving from which we developed the guidelines.",
+      "Dataset updates for v1.1.0: We updated this data package on 2021-11-22 in response to review comments on our related manuscript. In this update we removed one figure so that the model archiving guidelines are conveyed in text rather than an image. We updated the file-level metadata (FLMD) figure to be in accord with the most recent FLMD recommendations. We made minor edits to the README file to update the recommended citation and added two co-authors. We also added 6 new data files (3 are anonymized input from DOE scientists that helped to inform guidelines, and 3 are digitized tables from our manuscript."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7796-7154",
+        "givenName": "Maegen B.",
+        "familyName": "Simmonds",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "maegen.simmonds@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6339-1139",
+        "givenName": "Robert",
+        "familyName": "Crystal-Ornelas",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "rcrystalornelas@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4615-2304",
+        "givenName": "William J.",
+        "familyName": "Riley",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "wjriley@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5045-2396",
+        "givenName": "Deborah A.",
+        "familyName": "Agarwal",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "daagarwal@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Xingyuan.Chen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4775-8201",
+        "givenName": "Shreyas",
+        "familyName": "Cholia",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "scholia@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8124-9622",
+        "givenName": "Ethan T.",
+        "familyName": "Coon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "coonet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Dipankar",
+        "familyName": "Dwivedi",
+        "affiliation": "Lawrence Berkeley National Laboratory"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9061-8952",
+        "givenName": "Valerie C.",
+        "familyName": "Hendrix",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "vchendrix@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9154-9485",
+        "givenName": "Maoyi",
+        "familyName": "Huang",
+        "affiliation": "National Oceanic and Atmospheric Administration",
+        "email": "maoyi.huang@noaa.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ahmad",
+        "familyName": "Jan",
+        "affiliation": "Oak Ridge National Laboratory"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9045-1160",
+        "givenName": "Zarine",
+        "familyName": "Kakalia",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "zarinekakalia@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0159-0546",
+        "givenName": "Jitendra",
+        "familyName": "Kumar",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "kumarj@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Charles D.",
+        "familyName": "Koven",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cdkoven@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Li",
+        "familyName": "Li",
+        "affiliation": "Pennsylvania State University",
+        "email": "lxl35@psu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mario",
+        "familyName": "Melara",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mamelara@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1761-4132",
+        "givenName": "Lavanya",
+        "familyName": "Ramakrishnan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "LRamakrishnan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Daniel M.",
+        "familyName": "Ricciuto",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "ricciutodm@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Anthony P.",
+        "familyName": "Walker",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "walkerap@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Wei",
+        "familyName": "Zhi",
+        "affiliation": "Pennsylvania State University",
+        "email": "weizhi7367@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2441-944X",
+        "givenName": "Qing",
+        "familyName": "Zhu",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "qzhu@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "data management",
+      "model data",
+      "archiving guidelines",
+      "FAIR",
+      "terrestrial models",
+      "simulations"
+    ],
+    "variableMeasured": [
+      "model types",
+      "model data volumes",
+      "importance ranking for archiving model data components"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7796-7154",
+      "givenName": "Maegen B.",
+      "familyName": "Simmonds",
+      "email": "maegen.simmonds@gmail.com"
+    },
+    "citation": [
+      "Paper explaining guidelines: Simmonds, M.B; Riley, W.J.; Agarwal, D.A.; Chen, X.; Cholia, S.; Crystal-Ornelas R.; Coon, E.T.; Dwivedi D.; Hendrix V.C; Huang M.; Jan A.; Kakalia, Z.; Kumar, J.; Koven, C.D.; Li, L.; Melara, M.; Ramakrishnan, L.; Ricciuto, D.M.; Walker, A.P.; Zhi, W.; Zhu, Q.; Varadharajan, C. (In Revision) Guidelines for publicly archiving terrestrial model data to enhance usability, intercomparison, and synthesisWebsite with latest guidelineshttps://github.com/ess-dive-community/essdive-model-data-archiving-guidelines"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "f5bb4f8b-224d-4d6a-9040-ae5a4a2959e6"
+      },
+      "name": "Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "daagarwal@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "We developed these model data guidelines with input from the U.S. Department of Energy\u2019s Environmental System Science (ESS) land modeling community. We also conducted a review of pre-existing model data archiving guidelines (e.g., guidelines from the National Science Foundation, EarthCube Model Data Research Coordination Networking and the American Geophysical Union). We synthesized input from DOE land modelers and our review of existing model archiving recommendations to form the set of guidelines included in this dataset.\nFor further details on our methods please see our associated publication:\nSimmonds, M.B; Riley, W.J.; Agarwal, D.A.; Chen, X.; Cholia, S.; Crystal-Ornelas R.; Coon, E.T.; Dwivedi D.; Hendrix, V.C.; Huang M.; Jan A.; Kakalia, Z.; Kumar, J.; Koven, C.D.; Li, L.; Melara, M.; Ramakrishnan, L.; Ricciuto, D.M.; Walker, A.P.; Zhi, W.; Zhu, Q.; Varadharajan, C. (In Revision) Guidelines for publicly archiving terrestrial model data to enhance usability, intercomparison, and synthesis"
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.7001953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4297758def44c5c-20211122T230335073",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4297758def44c5c-20211122T230335073",
+        "name": "table1_data_center_summary.csv"
+      },
+      {
+        "contentSize": 198.240234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5efe2361d29b1b1-20211122T230335053",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-5efe2361d29b1b1-20211122T230335053",
+        "name": "model_data_guidelines_flmd.png"
+      },
+      {
+        "contentSize": 2.5126953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5da8466f3435f7b-20211122T230335089",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5da8466f3435f7b-20211122T230335089",
+        "name": "input_which_model_data.csv"
+      },
+      {
+        "contentSize": 1.5732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5864dc0a95e91c7-20211122T230335062",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5864dc0a95e91c7-20211122T230335062",
+        "name": "table3_archiving_needs_for_spatial_data.csv"
+      },
+      {
+        "contentSize": 267.03515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7eb41bf457665d2-20211122T230335038",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-7eb41bf457665d2-20211122T230335038",
+        "name": "instructions.pdf"
+      },
+      {
+        "contentSize": 2.48828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7794fb83f47cc83-20211122T230335083",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7794fb83f47cc83-20211122T230335083",
+        "name": "input_which_repository_uses.csv"
+      },
+      {
+        "contentSize": 42.6865234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8b1ac6703dc6a87-20211122T230335048",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-8b1ac6703dc6a87-20211122T230335048",
+        "name": "README.pdf"
+      },
+      {
+        "contentSize": 0.138671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b5ac0bd74365e1f-20211122T230335078",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b5ac0bd74365e1f-20211122T230335078",
+        "name": "input_usefulness_longevity.csv"
+      },
+      {
+        "contentSize": 180.8017578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b5ce777747c23af-20211122T230335057",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-b5ce777747c23af-20211122T230335057",
+        "name": "model_data_guidelines_decision_tree.png"
+      },
+      {
+        "contentSize": 17.8330078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b3ec79236d5aa3c-20230504T212240212130",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-b3ec79236d5aa3c-20230504T212240212130",
+        "name": "ESS_DIVE_guidelines_for_archiving_terrestrial_model_data.xml"
+      },
+      {
+        "contentSize": 3.3564453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c954f1fab25e2e4-20211122T230335068",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c954f1fab25e2e4-20211122T230335068",
+        "name": "table2_summary_of_terrestrial_models.csv"
+      }
+    ]
+  }
+}

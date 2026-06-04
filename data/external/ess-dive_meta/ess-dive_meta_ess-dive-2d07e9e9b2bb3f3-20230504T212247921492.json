@@ -1,0 +1,255 @@
+{
+  "id": "ess-dive-2d07e9e9b2bb3f3-20230504T212247921492",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1734841",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-2d07e9e9b2bb3f3-20230504T212247921492",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a18861340928d0e-20230407T153703295166",
+  "dateUploaded": "2023-05-04T21:22:49.291Z",
+  "dateModified": "2023-05-04T21:22:52.437Z",
+  "isPublic": true,
+  "citation": "Velliquette T; Welch J; Crow M; Devarakonda R; Heinz S; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). Dataset. doi:10.15485/1734841",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1734841",
+    "name": "ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure",
+    "description": [
+      "The ESS-DIVE reporting format for Comma-separated Values (CSV) file structure is based on a combination of existing guidelines and recommendations including some found within the Earth Science Community with valuable input from the Environmental Systems Science (ESS) Community. The CSV reporting format is designed to promote interoperability and machine-readability of CSV data files while also facilitating the collection of some file-level metadata content. Tabular data in the form of rows and columns should be archived in its simplest form, and we recommend submitting these tabular data following the ESS-DIVE reporting format for generic comma-separated values (CSV) text format files.",
+      "In general, the CSV file format is more likely accessible by future systems when compared to a proprietary format and CSV files are preferred because this format is easier to exchange between different programs increasing the interoperability of a data file. By defining the reporting format and providing guidelines for how to structure CSV files and some field content within, this can increase the machine-readability of the data file for extracting, compiling, and comparing the data across files and systems.",
+      "Data package files are in .csv, .png, and .md. Open the .csv with e.g. Microsoft Excel, LibreOffice, or Google Sheets. Open the .md files by downloading and using a text editor (e.g., notepad or TextEdit). Open the .png in e.g. a web browser, photo viewer/editor, or Google Drive."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9855-5191",
+        "givenName": "Terri",
+        "familyName": "Velliquette",
+        "email": "velliquettet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5987-6387",
+        "givenName": "Jessica",
+        "familyName": "Welch",
+        "affiliation": "Information International Associates",
+        "email": "welchjn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7260-807X",
+        "givenName": "Michael",
+        "familyName": "Crow",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "crowmc@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2661-1937",
+        "givenName": "Ranjeet",
+        "familyName": "Devarakonda",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "devarakondar@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4150-2686",
+        "givenName": "Susan",
+        "familyName": "Heinz",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "heinzsl@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6339-1139",
+        "givenName": "Robert",
+        "familyName": "Crystal-Ornelas",
+        "email": "rcrystalornelas@lbl.gov"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "Reporting Format",
+      "FAIR data",
+      "data guidelines",
+      "community data standard"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-01-01",
+      "endDate": "2021-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9855-5191",
+      "givenName": "Terri",
+      "familyName": "Velliquette",
+      "email": "velliquettet@ornl.gov"
+    },
+    "citation": [
+      "GitHub repository with the most up-to-date CSV reporting format documentation: https://github.com/ess-dive-community/essdive-csv-structure",
+      "Website with up-to-date CSV reporting format documentation: https://ess-dive.gitbook.io/csv-file-structure-reporting-format/"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "f5bb4f8b-224d-4d6a-9040-ae5a4a2959e6"
+      },
+      "name": "Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "daagarwal@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "In order to create the CSV reporting format, we compared existing standards and best practices for CSV, spreadsheets, and similar data at relevant agencies both within the United States and internationally. The CSV file format is not standardized and there are many variants with RFC 4180 (Shafranovich 2005) commonly treated as the standard. The BADC-CSV format (Pepler & Parton 2009) is a variant of the CSV file format created by the British Atmospheric Data Centre for atmospheric observation data. The BADC-CSV format (Pepler & Parton 2009) is a variant of the CSV file format created by the British Atmospheric Data Centre for atmospheric observation data. The format requires that the file be self-describing through the implementation of a strict and detailed header. The ASCII format follows RFC 4180, is intuitive, and was created for Earth science data. CSV files are compatible with Unicode and ASCII character sets; however, the EDIrecommends ASCII text (256 characters) delimited by tab or comma (EDI 2019).",
+      "We also compared CSV formatted data from select DOE ESS Community research programs. This involved comparing two CSV data files from each program - AmeriFLUX, EDI, HgSFA, NGEEA, NGEET, SPRUCE, WHONDRS. We provide crosswalk within this data package to provide a summary of how these different projects organize and structure their CSV files. Within the crosswalk, the first column is used to order the rows, the second column provides evaluation categories, the third column is a description of how the data files are evaluated, and the following 14 columns are the data file evaluations. The final column provides whether there was a consensus across the file evaluations. The initial research and comparisons contributed to the first draft of a CSV reporting format. Later stages of the draft were used to develop a crosswalk table comparing this CSV reporting format to multiple other guidelines and best practices within DOE and beyond.",
+      "We gathered feedback on the various drafts of the CSV reporting format through email solicitations, presentations at multiple meetings, one-on-one sessions, and small group discussions. We interacted with numerous projects/people across the ESS Community and with each interaction improved the CSV reporting format.\nPresentations included the ESS-DIVE Community Fund meeting, 2020 ESS Cyberinfrastructure meeting, and ESS-DIVE Monthly webinar. We received detailed feedback from 26 people representing SPRUCE, FACE, NGEE Tropics, Mercury SFA, NASA DAAC, NGEE Arctic, WHONDRS, ESS-DIVE, Joint Global Change Research, SBIR Phase ll Quantitative BioSciences and SLAC National Accelerator Laboratory Groundwater Quality SFA, IDEAS Watershed Project, Integrated Coastal Modeling (ICoM), AmeriFlux, Watershed Function SFA, InteRFACE, International Arctic Research Center, and Biogeochemistry of Actinides SFA.\nThis data package includes a quick guide to the CSV reporting format, detailed guide, a data file example, and crosswalk table.",
+      "References\nEDI (Environmental Data Initiative). 2019. Five phases of data publishing - Phase 2: Format and QC data tables. https://environmentaldatainitiative.org/five-phases-of-data-publishing/phase-2/\nEvans, K., et al. 2016. ESDS-RFC-027v1.1 - ASCII File Format Guidelines for Earth Science Data. https://cdn.earthdata.nasa.gov/conduit/upload/4827/ESDS-RFC-027v1.1.pdf\nKlyne, G. (2002) RFC 3339 - Date and Time on the Internet: Timestamps. https://tools.ietf.org/html/rfc3339\nPepler, S., Parton, G. (2009) The BADC Text File Guide for users, and producers. Documentation. https://help.ceda.ac.uk/article/105-badc-csv\nShafranovich, Y. (2005) RFC 4180 - Common Format and MIME Type for Comma-Separated Values (CSV) Files. https://tools.ietf.org/html/rfc4180",
+      "Bibliography\nAustrian Centre for Digital Humanities and Cultural Heritage, Austrian Academy of Sciences. Filenames, Formats & Metadata. Accessed Winter/Spring 2020. https://arche.acdh.oeaw.ac.at/browser/formats-filenames-and-metadata#filenames\nCalifornia Open Data Portal. Preparing Data for Publication in the Datastore. Accessed Summer/Fall 2020. https://data.ca.gov/pages/preparing-data-publication-datastore\nCalifornia Open Data Portal; Open Data Glossary. Accessed Summer/Fall 2020. https://data.ca.gov/pages/open-data-glossary#csv\nThe Carpentries. Data Carpentry. Accessed Summer/Fall 2020. https://datacarpentry.org/\nCornell University. Research Data Management Service Group. Preparing tabular data for description and archiving. Accessed Summer/Fall 2020. https://data.research.cornell.edu/content/tabular-data\nCornell University. Research Data Management Service Group. Guide to writing \"readme\" style metadata. Accessed Summer/Fall 2020. https://data.research.cornell.edu/content/readme\nCornell University. Research Data Management Service Group. File Management. Accessed Summer/Fall 2020. https://data.research.cornell.edu/content/file-management\nConsortium of Universities for the Advancement of Hydrologic Science, Inc. CUAHSI Community Observations Data Model (ODM) Version 1.1.1 Design Specifications. Accessed Summer/Fall 2020. https://www.cuahsi.org/uploads/pages/img/ODM1.1_.1DesignSpecifications_.pdf\nConsortium of Universities for the Advancement of Hydrologic Science, Inc. Data Management Plans. Accessed Summer/Fall 2020. https://www.cuahsi.org/data-models/data-management-plans/\nConsortium of Universities for the Advancement of Hydrologic Science, Inc. CUAHSI Tools for Data Management. Accessed Summer/Fall 2020. https://www.youtube.com/watch?v=LqoOiQ1iB_M&feature=youtu.be\nCook R.B., Wei Y., Hook L.A., Vannan S.K.S., McNelis J.J. 2018. Preserve: Protecting Data for Long-Term Use. In: Recknagel F., Michener W. (eds) Ecological Informatics. Springer, Cham. https://doi.org/10.1007/978-3-319-59928-1_6\nDappert, A., and M. Enders. 2010. Digital Preservation Metadata Standards. Information Standards Quarterly. Spring 2010. 22(2), 4-13. doi:10.3789/isqv22n2.2010.01\nData Curation Network. Microsoft Excel Data Curation Primer. Accessed Summer/Fall 2020. https://github.com/DataCurationNetwork/data-primers/blob/master/Excel%20Data%20Curation%20Primer/Excel%20Data%20Curation%20Primer.md\nDataONE DM Skillbuilding Hub - info pages with best practices describe https://dataoneorg.github.io/Education/\nDarwin Core. Text Guide version 2020-09-05. Accessed Summer/Fall 2020. https://dwc.tdwg.org/text/\nEcological Metadata Language (EML). Accessed Summer/Fall 2020. https://eml.ecoinformatics.org/\nEarth Science Information Partners (ESIP). Data to Action: Increasing the Use and Value of Earth Science Data and Information. Accessed Summer/Fall 2020. https://2019esipsummermeeting.sched.com/event/PtOs\nEarth Science Information Partners (ESIP). A Metadata Database and Usage Patterns in the LTER Network. Accessed Summer/Fall 2020. https://esip.figshare.com/articles/A_Metadata_Database_and_Usage_Patterns_in_the_LTER_Network/9399512/1",
+      "Environmental Data Initiative. What are metadata and structured metadata? Accessed Summer/Fall 2020. https://www.youtube.com/watch?v=_o9gXtHuyes&t=2s\nHydroshare. Hydroshare Support. Accessed Summer/Fall 2020. https://help.hydroshare.org/\nKunze, J. and T. Baker. 2007. RFC5013: The Dublin Core\u2122 Metadata Element Set. Accessed Winter/Spring 2020. https://www.ietf.org/rfc/rfc5013.txt\nLibrary of Congress. Recommended Formats Statement, 2020-2021. Accessed Summer/Fall 2020. https://www.loc.gov/preservation/resources/rfs/RFS%202020-2021.pdf\nLTER, USGS, USFS. Climate and Hydrology Database Projects (CLIMDB/HYDRODB). Accessed Summer/Fall 2020. https://climhy.lternet.edu/\nLong-Term Ecological Research (LTER). Core Metabase. Accessed Summer/Fall 2020. https://github.com/lter/LTER-core-metabase\nNational Information Standards Organization (NISO). Understanding Metadata; What is Metadata and What is it for? 2017. Accessed Winter/Spring 2020. https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf\nOpen Science Framework. How to create a data dictionary. Accessed Summer/Fall 2020. https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary\nORNL DAAC. Data Management. Accessed Summer/Fall 2020. https://daac.ornl.gov/datamanagement/",
+      "Purdue University. Data Sharing and Publication - ILS 695: File Level Documentation: README, Data Dictionaries and Code Books. Accessed Summer/Fall 2020. https://guides.lib.purdue.edu/c.php?g=902259&p=6561607\nU.S. Geological Survey. Community for Data Integration. Forum. How \"clean\" should an Excel file be to be considered machine readable. Accessed Summer/Fall 2020. https://my.usgs.gov/confluence/pages/viewpage.action?pageId=559852026\nU.S. Geological Survey. Data Management. Data Dictionaries. Accessed Summer/Fall 2020. https://www.usgs.gov/products/data-and-tools/data-management/data-dictionaries\nUniversity of North Carolina. The Odum Institute. Odum Institute Data Archive Metadata Guidelines. 2017. Accessed Winter/Spring 2020. https://irss.unc.edu/wp-content/uploads/sites/383/2017/05/Guidelines_Metadata_20170501.pdf\nW3C. CSV on the Web: A Primer. Accessed Summer/Fall 2020. https://www.w3.org/TR/tabular-data-primer/\nWashington State University. Center for Digital Scholarship and Curation. Sustainable Heritage Network. 2018. Accessed Winter/Spring 2020. https://sustainableheritagenetwork.org/digital-heritage/how-create-descriptive-metadata-plan\nWestern Australian Land Information Authority. Creating machine readable data. Accessed Summer/Fall 2020. https://data.wa.gov.au/junk/fact-sheets-and-toolkit/creating-machine-readable-data\nWilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18"
+    ],
+    "distribution": [
+      {
+        "contentSize": 185.703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-08d39eb5c8c24a9-20210910T164812629",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-08d39eb5c8c24a9-20210910T164812629",
+        "name": "datamatrix3.png"
+      },
+      {
+        "contentSize": 88.064453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-09d2c48d0364fad-20210910T164812670",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-09d2c48d0364fad-20210910T164812670",
+        "name": "units.png"
+      },
+      {
+        "contentSize": 1.3623046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-15dceaf2e6a5e57-20210910T164608182",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-15dceaf2e6a5e57-20210910T164608182",
+        "name": "csv_instructions.md"
+      },
+      {
+        "contentSize": 81.07421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-24b9ec4e3ea45cf-20210910T164812608",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-24b9ec4e3ea45cf-20210910T164812608",
+        "name": "consistent_values.png"
+      },
+      {
+        "contentSize": 9.333984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-114fd2bc0f08f3f-20210910T164608177",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-114fd2bc0f08f3f-20210910T164608177",
+        "name": "csv_detailed_guide.md"
+      },
+      {
+        "contentSize": 4.287109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3c8c93a6bcd630e-20210910T164608198",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-3c8c93a6bcd630e-20210910T164608198",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 148.6103515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-36af0e47904332a-20210910T164812658",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-36af0e47904332a-20210910T164812658",
+        "name": "spatial.png"
+      },
+      {
+        "contentSize": 27.494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2d07e9e9b2bb3f3-20230504T212247921492",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-2d07e9e9b2bb3f3-20230504T212247921492",
+        "name": "ESS_DIVE_Reporting_Format_for_Comma_separated_Values_CSV_File_Structure.xml"
+      },
+      {
+        "contentSize": 308.9765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2e23ad45a0e5fbd-20210910T164812634",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-2e23ad45a0e5fbd-20210910T164812634",
+        "name": "delimiter.png"
+      },
+      {
+        "contentSize": 213.08203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-631314534935f78-20210910T164812621",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-631314534935f78-20210910T164812621",
+        "name": "datamatrix2.png"
+      },
+      {
+        "contentSize": 10.3740234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-582029af9050056-20210910T164608189",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-582029af9050056-20210910T164608189",
+        "name": "csv_quick_guide.md"
+      },
+      {
+        "contentSize": 18.2568359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-59a4df793d625bb-20210910T164608194",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-59a4df793d625bb-20210910T164608194",
+        "name": "LICENSE.md"
+      },
+      {
+        "contentSize": 18.6025390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7153f2bfb215554-20210910T164812615",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-7153f2bfb215554-20210910T164812615",
+        "name": "datamatrix1.png"
+      },
+      {
+        "contentSize": 39.9677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8161ff238bc557c-20210910T164608172",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8161ff238bc557c-20210910T164608172",
+        "name": "csv_crosswalk.csv"
+      },
+      {
+        "contentSize": 158.4267578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8efa19cd17d94bc-20210910T164812653",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-8efa19cd17d94bc-20210910T164812653",
+        "name": "missing_data.png"
+      },
+      {
+        "contentSize": 86.095703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9b866be10846fdb-20210910T164812647",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-9b866be10846fdb-20210910T164812647",
+        "name": "field_name_row_or_column_2.png"
+      },
+      {
+        "contentSize": 110.86328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b4e0c38d1c141a4-20210910T164812664",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-b4e0c38d1c141a4-20210910T164812664",
+        "name": "table1.png"
+      },
+      {
+        "contentSize": 83.537109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cbfad94d45a875c-20210910T164812641",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-cbfad94d45a875c-20210910T164812641",
+        "name": "field_name_row_or_column_1.png"
+      }
+    ]
+  }
+}

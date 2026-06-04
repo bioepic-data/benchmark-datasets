@@ -1,0 +1,134 @@
+{
+  "id": "ess-dive-1677beaa2cd5479-20250404T164534657",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1764110",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1677beaa2cd5479-20250404T164534657",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-424efca3ec7960e-20250331T213131631512",
+  "dateUploaded": "2025-04-04T16:45:36.425Z",
+  "dateModified": "2026-02-12T00:19:49.866Z",
+  "isPublic": true,
+  "citation": "Jafarov E; Svyatsky D (2021): The Importance of Freeze/Thaw Cycles on Lateral Transport in Ice-Wedge Polygons: Modeling Archive. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1764110",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1764110",
+    "archivedAt": [
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (Globus)",
+        "url": "https://app.globus.org/file-manager?origin_id=e1b775d6-0125-11ed-a2da-25ff8664e4e5&origin_path=%2Ftier2%2Fdoi-10-5440-1764110%2F"
+      },
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (HTTP)",
+        "url": "https://tier2.ess-dive.lbl.gov/doi-10-5440-1764110/"
+      }
+    ],
+    "name": "The Importance of Freeze/Thaw Cycles on Lateral Transport in Ice-Wedge Polygons: Modeling Archive",
+    "description": [
+      "This Modeling Archive is in support of an NGEE Arctic publication \"The importance of freeze/thaw cycles on lateral transport in ice-wedge polygons\". The dataset includes xml input/configuration files. These files are compatible with the ATS version 1.0 and higher. The mesh folder contains mesh files used for high-centered polygon (hcp) and low-centered polygon (lcp). The mesh files represent the transect of the polygonal tundra (Fig 1). Here we used two types of mesh with impermeable layer and without. The mesh with an impermeable layer corresponds to the synthetic permafrost (no freezeup case). The freeze up case uses mesh without impermeable layer to simulated frozen ground start at the same depth where the impermeable layer is for the no freezeup case. The meteorological data used drive the model saved in the \"inputs\" folder. The processed tracer flow rates are saved in the \"tracer-flow-ratesCfolder. To plot figures 1 and 2, we used VisIt software. To plot all the flow rates, we used ipython notebook script. All required inputs are saved in \"freezeup\" and \"no freezeup\" folders. Each folder includes the corresponding \"lcp\" and \"hcp\" folders. The \"freezeup\" folder has also flat-centered polygon (fcp) case, low porosity \"lpor\", and low permeability \"lper\" cases. Included are *.xml, *.exo, *.h5, *pdf, *.ipynb, *.sh, *.py, and *.out files.",
+      "NGEE Arctic Project Summary: The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1764110",
+      "NGA242"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8310-3261",
+        "givenName": "Elchin",
+        "familyName": "Jafarov",
+        "email": "elchin@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Daniil",
+        "familyName": "Svyatsky",
+        "email": "dasvyat@lanl.gov"
+      }
+    ],
+    "datePublished": "2021-05-14",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE",
+      "EARTH SCIENCE SERVICES > MODELS > HYDROLOGIC AND TERRESTRIAL WATER CYCLE MODELS"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUND WATER PROCESSES/MEASUREMENTS > SUBSURFACE FLOW",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Utqiagvik (Barrow), Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.35,
+            "longitude": -156.7
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 71.2,
+            "longitude": -156.4
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8310-3261",
+      "givenName": "Elchin",
+      "familyName": "Jafarov",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "elchin@lanl.gov"
+    },
+    "citation": [
+      "Jafarov, E. E., Svyatsky, D., Newman, B., Harp, D., Moulton, D., and Wilson, C.: The importance of freeze-thaw cycles for lateral tracer transport in ice-wedge polygons, The Cryosphere, 16, 851-862, https://doi.org/10.5194/tc-16-851-2022, 2022.",
+      "Coon, E., Berndt, M., Jan, A., Svyatsky, D., Atchley, A., Kikinzon, E., Harp, D., Manzini, G., Shelef, E., Lipnikov, K., Garimella, R., Xu, C., Moulton, D., Karra, S., Painter, S., Jafarov, E., and Molins, S.: Advanced Terrestrial Simulator. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA, https://doi.org/10.11578/dc.20190911.1 , 2019."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Model\nTo produce the results provided in this archive, we used the Advanced Terrestrial Simulator (ATS v1.0) numerical simulator with a new subsurface non-reactive transport capability which was coupled with hydro-thermal permafrost processes (https://github.com/amanzi/ats/releases/tag/ats-1.0.0, Coon et al., 2019). See the user guide for details.",
+      "Details on model setup for no freeze-up and freeze-up cases, input and output data, post-processing scripts are provided."
+    ],
+    "distribution": [
+      {
+        "contentSize": 8.1201171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1677beaa2cd5479-20250404T164534657",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-1677beaa2cd5479-20250404T164534657",
+        "name": "The_Importance_of_Freeze_Thaw_Cycles_on_Lateral.xml"
+      }
+    ]
+  }
+}

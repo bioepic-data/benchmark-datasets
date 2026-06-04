@@ -1,0 +1,182 @@
+{
+  "id": "ess-dive-3b1858e29d5f204-20241028T152017211291",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15486/NGT/1678733",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-3b1858e29d5f204-20241028T152017211291",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-527fc3d3f470ad4-20240913T175815705540",
+  "dateUploaded": "2024-10-28T15:20:25.923Z",
+  "dateModified": "2024-10-28T22:56:22.026Z",
+  "isPublic": true,
+  "citation": "Pivovaroff A; McDowell N; Davies S; Detto M; Wolfe B; Wright J; Zambrano A (2020): Sap flow data from San Lorenzo, Panama (PA-SLZ) from January - June 2020. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15486/NGT/1678733",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15486/NGT/1678733",
+    "name": "Sap flow data from San Lorenzo, Panama (PA-SLZ) from January - June 2020",
+    "description": [
+      "This data package contains sap flow data from the NGEE Tropics site in San Lorenzo, Panama (PA-SLZ) from 01 January 2020 to 01 June 2020. Sap flow measurements quantify plant-level transpiration, which varies across spatial and temporal scales. It is a key trait in understanding plant hydraulic functioning. Here sap flow was measured using \u2018Granier-type\u2019 thermal dissipation probes. Raw data downloaded from the data logger is in the 'Raw data' folder as a CSV file. The data was processed using the AquaFlux package in R. R code for preparing the data for use in AquaFlux is in the 'R code for pre-processing data folder'; it is saved as a text file that can be copy and pasted into R. Each core sap flow tree has two sensors. The data was processed for each sensor as well as for each tree. These processed data files are in the 'Processed data' folder as CSV files. Documentation for the Granier sensors and AquaFlux package is in the \u2018Manuals\u2019 folder as PDF files.",
+      "This dataset was originally published on the NGEE Tropics Archive and is being mirrored on ESS-DIVE for long-term archival",
+      "Acknowledgement: Funding for NGEE-Tropics data resources was provided by the U.S. Department of Energy Office of Science, Office of Biological and Environmental Research."
+    ],
+    "alternateName": [
+      "https://doi.org/10.15486/ngt/1678733",
+      "NGT0157"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-3104-1900",
+        "givenName": "Alexandria",
+        "familyName": "Pivovaroff",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "alexandria.pivovaroff@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-2178-2254",
+        "givenName": "Nate",
+        "familyName": "McDowell",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "nate.mcdowell@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-8596-7522",
+        "givenName": "Stuart",
+        "familyName": "Davies",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "daviess@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Matteo",
+        "familyName": "Detto",
+        "affiliation": "Princeton",
+        "email": "mdetto@princeton.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0001-7535-045X",
+        "givenName": "Brett",
+        "familyName": "Wolfe",
+        "affiliation": "Louisiana State University",
+        "email": "btwolfe@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-4260-5676",
+        "givenName": "Joseph",
+        "familyName": "Wright",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "wrightj@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5442-5897",
+        "givenName": "Alfonso",
+        "familyName": "Zambrano",
+        "affiliation": "Smithsonian Institution",
+        "email": "ZambranoAJ@si.edu"
+      }
+    ],
+    "datePublished": "2020-10-16",
+    "keywords": [
+      "Next-Generation Ecosystem Experiements Tropics",
+      "NGEE-T",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Air Temperature",
+      "Relative humidity",
+      "Sapflow",
+      "Solar Radiation"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site Name: Bosque Protector San Lorenzo (Fort Sherman). Site ID: PA-SLZ. Located in Panama. Established in 1997, the FTS canopy crane is located approximately 11km South West from the city of Colon, in the middle theParque Natural San Lorenzo (formerly known as FortSherman) and is surrounded by 300-year old, low-landtropical rainforest. The crane is 52 meters tall with aradius of 54 meters, and can reach approximately 240species of trees and lianas. (Paton 2015 FTS Met report) For more information on this site, visit: http://biogeodb.stri.si.edu/physical_monitoring/research/sherman,http://www.stri.si.edu/english/research/facilities/terrestrial/cranes/cranes_and_sites.php Site contact(s): (Argelis Ruiz <ruiza@si.edu>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 9.309974,
+            "longitude": -80.060054
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 9.167649,
+            "longitude": -79.928904
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-05CH11231",
+      "71073"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-01-01",
+      "endDate": "2020-06-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "http://orcid.org/0000-0002-3104-1900",
+      "givenName": "Alexandria",
+      "familyName": "Pivovaroff",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "alexandria.pivovaroff@pnnl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The data was processed using the AquaFlux package in R. AquaFlux can autoselect \u2019Tmax\u2019 points (the maximum temperature difference when sap flux = 0) based on vapor pressure deficit (VPD), which requires associated meteorological data (downloaded from the Smithsonian Tropical Research Institute \u2018Physical Monitoring\u2019 site). While the AquaFlux documentation says it can use \"spline interpolation to make the VPD data have the same timestamps as the dT {temperature difference between probes} data,\" in practice this is not the case. To make the sap flow timestamps match the meteorological data timestamps, the 5-minute sap flow measurements were averaged for every 15-minutes. In addition, the sap flow timestamps were shifted by 15 minutes, because the sap flow timestamps represent the START of the measurement, while the meteorological data timestamps represent the END of the measurement. Shifting the sap flow timestamps allowed the actual time intervals over which measurements were taken to now overlap. Manuals for the sap flow sensors and AquaFlux are in the 'Manuals' folder.' R code for preparing the data for use in AquaFlux is in the 'R code for pre-processing data folder'; it is saved as a text file that can be copy and pasted into R. The processed data is in the 'Processed data' folder. Each core sap flow tree has 2 sensors. The data was processed for each sensor as well as for each tree by simply taking the mean for the two sensors in each tree. See the documentation 'AquaFlux_README.pdf' section 'Chapter 5: Process dt Data - QAQC' for additional details about QAQC."
+    ],
+    "distribution": [
+      {
+        "contentSize": 18995.6533203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-07635324ef71de0-20211202T041611904407",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-07635324ef71de0-20211202T041611904407",
+        "name": "SLZ_2020_sapflow_results_20201002172952.zip"
+      },
+      {
+        "contentSize": 1.609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f29b22d5c5b7d86-20240913T175813588632",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f29b22d5c5b7d86-20240913T175813588632",
+        "name": "NGT0157_locations.csv"
+      },
+      {
+        "contentSize": 9.9443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3b1858e29d5f204-20241028T152017211291",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-3b1858e29d5f204-20241028T152017211291",
+        "name": "Sap_flow_data_from_San_Lorenzo_Panama_PA_SLZ_from_January_June_2020.xml"
+      }
+    ]
+  }
+}

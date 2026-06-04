@@ -1,0 +1,178 @@
+{
+  "id": "ess-dive-7e73979f4993834-20230407T144756424156",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5281/ZENODO.7306086",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-7e73979f4993834-20230407T144756424156",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-abef8b30335499b-20230406T141245512816",
+  "dateUploaded": "2023-04-07T14:47:57.357Z",
+  "dateModified": "2023-04-07T14:47:58.686Z",
+  "isPublic": true,
+  "citation": "Regier P; Duggan M; Myers-Pigg A; Ward N (2022): Data and code used in: \"Effects of Random Forest modeling decisions on biogeochemical time series predictions\". COMPASS-FME. Dataset. doi:10.5281/ZENODO.7306086",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5281/ZENODO.7306086",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.5281/zenodo.7306086"
+      }
+    ],
+    "sameAs": [
+      "https://doi.org/10.5281/zenodo.7306086"
+    ],
+    "name": "Data and code used in: \"Effects of Random Forest modeling decisions on biogeochemical time series predictions\"",
+    "description": [
+      "Note: All data and code used to reproduce this analysis are located in the Zenodo DOI and described in README_rf_synthesis.pdf.",
+      "This data package is associated with \"Effects of random forest modeling decisions on biogeochemical time series predictions\": https://doi.org/10.1002/lom3.10523 (Regier et al 2022).",
+      "We explored the role that parameter decisions, including training/testing data splitting strategies, variable selection, and hyperparameters play on Random Forest goodness-of-fit by constructing models using 1296 unique parameter combinations to predict concentrations of nitrate, a key nutrient for biogeochemical cycling in aquatic ecosystems. This dataset includes data from the publicly available National Estuarine Research Reserve (NERR) data portal.",
+      "Data used for modeling is stored in the \u2018data\u2019 folder (rf-synthesis-LOM/data/) and organized by site (\u2018cbv\u2019 or \u2018owc\u2019). Within site directories, data are further organized by type (\u2018meteorology\u2019, \u2018nutrients\u2019, and \u2018water_quality\u2019). Within these sub-directories, individual .csv files are labeled by the 3-letter site abbreviation followed by a 2-letter station abbreviation followed by a 2 or 3- letter data type abbreviation followed by a 4-digit year. For detailed information on how these data were collected, and quality-controlled, as well as definitions for column names, please refer to NERR documentation (https://cdmo.baruch.sc.edu/)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8375-1314",
+        "givenName": "Peter",
+        "familyName": "Regier",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "peter.regier@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Matthew",
+        "familyName": "Duggan",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "matthew.duggan@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6905-6841",
+        "givenName": "Allison",
+        "familyName": "Myers-Pigg",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "allison.myers-pigg@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6174-5581",
+        "givenName": "Nicholas",
+        "familyName": "Ward",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "nicholas.ward@pnnl.gov"
+      }
+    ],
+    "datePublished": "2022-11-11",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY"
+    ],
+    "variableMeasured": [
+      "Nitrate"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "National Oceanic and Atmospheric Administration, National Estuarine Research Reserve, Chesapeake Bay, Virginia (CBV) site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.55,
+            "longitude": -76.86
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.55,
+            "longitude": -76.86
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "National Oceanic and Atmospheric Administration, National Estuarine Research Reserve, Old Woman Creek, Ohio (OWC) site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.38,
+            "longitude": -82.52
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.38,
+            "longitude": -82.52
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "DOE"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2002-01-16",
+      "endDate": "2019-12-06",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8375-1314",
+      "givenName": "Peter",
+      "familyName": "Regier",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "peter.regier@pnnl.gov"
+    },
+    "citation": [
+      "Publication: Regier, P., Duggan, M., Myers-Pigg, A. and Ward, N. (2023), Effects of random forest modeling decisions on biogeochemical time series predictions. Limnol Oceanogr Methods. https://doi.org/10.1002/lom3.10523",
+      "All NERR data used in this project are publicly available, along with additional details on data collection and quality assurance, on NERR\u2019s data portal (http://cdmo.baruch.sc.edu/)."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a688a033-da45-46ad-b72b-d6fef5139a9c"
+      },
+      "name": "COMPASS-FME",
+      "member": {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Data were downloaded from the National Estuarine Research Reserve (NERR) data portal (http://cdmo.baruch.sc.edu/), which is operated by the National Oceanographic and Atmospheric Administration.",
+      "Data were downloaded from two sites: a brackish estuarine tributary to Chesapeake Bay located along the York Town River (abbreviated CBV representing Chesapeake Bay - Virginia), a brackish estuary in southern Chesapeake Bay, and Old Woman Creek (abbreviated OWC), a freshwater estuarine tributary to western Lake Erie. Each site contains several monitoring stations organized along an upstream-downstream gradient. We chose these sites as end members of the estuarine salinity spectrum, with mean specific conductivity (SpCond) values of 16.7 and 0.5 mS cm-1 for CBV and OWC datasets, respectively. We also selected these contrasting ecosystems to represent a range of nitrate regimes and the potential for different dominant drivers between sites (i.e., different predictor importance)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 46.2158203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-553bc5540d3c888-20230106T162857007",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-553bc5540d3c888-20230106T162857007",
+        "name": "README_rf_synthesis.pdf"
+      },
+      {
+        "contentSize": 9.1650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7e73979f4993834-20230407T144756424156",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-7e73979f4993834-20230407T144756424156",
+        "name": "Data_and_code_used_in_Effects_of_Random_Forest_modeling_decisions_on_biogeochemical_time_series_predictions_.xml"
+      }
+    ]
+  }
+}

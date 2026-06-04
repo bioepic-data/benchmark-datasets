@@ -1,0 +1,574 @@
+{
+  "id": "ess-dive-02f2dec6c23192c-20240813T180641391",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2336869",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-02f2dec6c23192c-20240813T180641391",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-02f2dec6c23192c-20240729T200936645",
+  "dateUploaded": "2024-08-13T18:06:41.959Z",
+  "dateModified": "2024-08-13T22:58:42.981Z",
+  "isPublic": true,
+  "citation": "Fitch A; Goldsmith S; Lankau R; Wurzburger N; Shortt Z; Vrattos A; Laurent E; Pries C H (2024): Seedling nitrogen uptake and rhizodeposition between mycorrhizal types. Testing mechanisms of how mycorrhizal associations affect forest soil carbon and nitrogen cycling. Dataset. doi:10.15485/2336869",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2336869",
+    "name": "Seedling nitrogen uptake and rhizodeposition between mycorrhizal types",
+    "description": [
+      "Tree mycorrhizal associations are associated with patterns in N cycling and soil organic matter (SOM) storage, however, we still lack a mechanistic understanding of what tree and fungal traits drive these patterns and how they will respond to global changes in soil N availability. To address this knowledge gap, we investigated how arbuscular mycorrhizal (AM)- and ectomycorrhizal (EcM)-associated seedlings alter rhizodeposition in response to increased inorganic N acquisition. Specifically, we conducted this greenhouse experiment in a sealed labeling chamber with an enriched 13Carbon atmosphere and 15Nitrogen enriched fertilizer over the course of five months from April 2021 - August 2021. To include the variability across tree species, we grew eight species of seedlings belonging to eight families that were either arbuscular (Acer rubrum, Nyssa sylvatica, Thuja occidentalis, and Prunus seritina) or ectomycorrhizal-associated (Quercus rubra, Tilia americana, Pinus strobus, and Betula lenta). We measured rhizodeposition (mg 13C), plant N uptake from fertilizer (mg N), net soil carbon, and the abundance of mycorrhizal fungi (ITS sequencing and qPCR). We also characterized fungal (ITS2) and bacterial (16S) soil communities.",
+      "The data from this project are \".csv\" files that can up downloaded into a folder, and then run in the associated R markdown scripts after changing the source folder location at the top of the script. These data include raw outputs and processed files (using the R markdown files) for seedling growth and biomass, 15N content, soil 13C content, raw reads and processed file versions for fungal and bacterial ASVS, and a final summary file used for modeling. R software is needed to run these data, and the packages needed are listed at the top of the R markdown file."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1757-2219",
+        "givenName": "Amelia",
+        "familyName": "Fitch",
+        "affiliation": "Oregon State University",
+        "email": "amelia.a.fitch.gr@dartmouth.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sarah",
+        "familyName": "Goldsmith",
+        "affiliation": "Dartmouth College",
+        "email": "sarah.b.goldsmith@dartmouth.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Richard",
+        "familyName": "Lankau",
+        "affiliation": "University of Wisconsin, Madison",
+        "email": "lankau@wisc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nina",
+        "familyName": "Wurzburger",
+        "affiliation": "University of Georgia",
+        "email": "ninawurz@uga.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zachary",
+        "familyName": "Shortt",
+        "affiliation": "Dartmouth College",
+        "email": "zachary.d.shortt.25@dartmouth.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Augustos",
+        "familyName": "Vrattos",
+        "email": "vrattosgus@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ella",
+        "familyName": "Laurent",
+        "affiliation": "Dartmouth College",
+        "email": "ella.n.laurent.25@dartmouth.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Caitlin",
+        "familyName": "Hicks Pries",
+        "affiliation": "Dartmouth College",
+        "email": "caitlin.hicks.pries@dartmouth.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > BIOLOGICAL CLASSIFICATION > FUNGI",
+      "EARTH SCIENCE > LAND SURFACE > SOILS"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > ATMOSPHERE > AEROSOLS > NITRATE PARTICLES",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > ORGANIC MATTER",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > BIOMASS",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > NITROGEN COMPOUNDS > AMMONIA",
+      "EARTH SCIENCE > OCEANS > OCEAN CHEMISTRY > ORGANIC CARBON",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > NITROGEN"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The inoculum sourced for this experiment was collected from within 15 miles of Hanover, NH.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.7037,
+            "longitude": -72.293
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.7037,
+            "longitude": -72.293
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0020228"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-04-03",
+      "endDate": "2021-08-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1757-2219",
+      "givenName": "Amelia",
+      "familyName": "Fitch",
+      "email": "amelia.a.fitch.gr@dartmouth.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1afc0f54-6cec-4372-8158-cb909116f99d"
+      },
+      "name": "Testing mechanisms of how mycorrhizal associations affect forest soil carbon and nitrogen cycling",
+      "member": {
+        "@type": "Person",
+        "givenName": "Caitlin",
+        "familyName": "Pries",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Trustees of Dartmouth College, Hanover, NH",
+        "email": "caitlin.hicks.pries@dartmouth.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Experiment overview\nWe conducted this experiment in a sealed labeling chamber with an enriched 13C atmosphere and 15N enriched fertilizer over five months from April-August 2021. We grew eight species of seedlings belonging to two phyla and eight families that were either AM- (Acer rubrum, Nyssa sylvatica, Thuja occidentalis, and Prunus seritina) or EcM-associated (Quercus rubra, Tilia americana, Pinus strobus, and Betula lenta). Following a regression-based design, we planted each species in duplicate across three nitrogen treatments for a total of 48 planted pots and five no-seedling controls. At the end of the experiment, we measured 13C-labeled rhizodeposition in soil contained within three sizes of mesh bags (root and hyphal-exclusion, root-exclusion, or root-ingrowth), measured plant growth and 15N uptake, and analyzed soil fungal and bacterial communities.\nSetup\nWe planted seedlings in a potting mix consisting of 75% sand and 25% soil inside 15 cm diameter pots (2650 cm^3). The soil was collected from a forest stand with 50% EcM- and 50% AM-associating trees (based on basal area) near Etna, NH (43.719324, -72.165677) in October 2020. The soil was sieved through a 2 mm mesh and stored at 4\u00b0C. For the mesh bags filled with 100% 50/50 EcM-AM soil, we also added inoculum that was made from roots and rhizosphere soil collected from beneath each tree species from west-central NH. We combined all inoculum with the sieved soil as one mixture so that seedlings had access to mycorrhizal fungi. Within each pot, we placed three bags filled with the same soil-inoculum mixture, made from three sizes of mesh to capture the effects of root vs hyphal presence: root-ingrowth (450 \u03bcm), root-exclusion (50 \u03bcm), and root and hyphal-exclusion (1 \u03bcm). Each bag held 67g of field wet soil (50g dry wt equivalent) at the start of the experiment.\nWe sourced A. rubrum, P. serotina, T. americana, and Q. rubra from Cold Stream Farm in Free Soil, MI, B. lenta and N. sylvatica from Native Forest Nursery in Chatsworth, GA, and T. occidentalis and P. strobus from the New Hampshire State Nursery in Boscawin, NH. Before planting, we rinsed seedling roots to remove nursery soil and treated them with a 0.1% bleach soak (5 minutes) followed by thorough rinsing. We stored seedlings in a dark walk-in cooler and planted them prior to budburst. We planted six seedlings of each species for a total of 48, with two of each assigned to one of three N treatments. Our intention was to estimate the effect of mycorrhizal type, using seedling species as a random effect, and the N treatment as a continuous predictor; thus, the treatments are not replicated to the same extent as they would be for a two-way ANOVA design. There were also five unplanted control pots, which contained the same potting mix, inoculum, and soil mesh bags. These unplanted control pots received the medium and high N treatments in duplicate and one of the low N treatments due to lack of space in the labeling chamber. We then semi-randomly placed the 53 plots within four quadrants of the chamber so that each quadrant contained at least one of each species, at least two of each N treatment, and at least one control (See supplement for chamber setup description, Fig. S1).\nThree nitrogen fertilizer treatments with different concentrations of N (5 atom % 15N ammonium nitrate) provided 0.0 g (low), 0.1 g (medium), or 0.2 g (high) N to each pot in biweekly doses. We added equal amounts P and K to each N treatment, where the medium N treatment was at a 2.5:1.5:1 (N:P:K) ratio. We determined the medium fertilizer concentration by calculating the amount of N a seedling could realistically utilize over the course of one growing season using values from the literature (Giertych et al., 2015; Modrzy\u0144ski et al., 2015), and doubled this for the high N treatment (see supplemental \u201cFertilizations calculations\u201d spreadsheet). This high N treatment is equivalent to 4.5 g N/m^2/yr, which is similar to N addition experiments in forests (e.g., the Harvard Forest N addition experiment; Magill et al., 2004) and higher than estimated rates of N deposition at 1-1.4 g N/m^2/yr (Benish et al., 2022).\nChamber maintenance\nThe plexiglass labeling chamber was 1.2 m tall, 2.4 m long, and 1.2 m wide. In order to continuously label the seedlings and maintain the chamber atmosphere during the experiment, we monitored the atmosphere\u2019s CO2 concentration, soil moisture, humidity, and air temperature using sensors wired to a datalogger (CR1000, Campbell Scientific, USA). We opened the chamber every other week to administer fertilizer and collect any leaves that had fallen from the seedlings for the biomass calculations. The chamber system maintained CO2 around 450 ppm. To do so, the air was monitored with an infrared gas analyzer (IRGA, SBA-5, PP Systems), and solenoid valves controlled by the datalogger opened when CO2 levels were below 450 ppm to let in 10 atom % 13CO2 (Cambridge Isotope Laboratories, USA). To keep seedlings in optimum growing conditions, the system maintained soil moisture above 0.2 VWC with averages from two sensors (Teros 12, Meter group), humidity between 30-60% using a sensor (HX71 RH probe/transmitter, Omega) to activate a dehumidifier, and temperature between 15\u00b0-18\u00b0C when possible using a sensor (Model 108 Temperature Probe, Campbell Scientific) to modulate a cooling system (Fig. S1).",
+      "Seedling mesocosm processing and measurements\nSeedling and soil destructive harvest\nAt the end of the experiment, we destructively harvested seedlings and collected all soil from the mesh bags. We clipped the root system from the stem and rinsed roots before collecting 10, 1 cm sections of fine roots (< 2 mm diameter) randomly throughout the root system to verify mycorrhizal colonization. Roots collected for these analyses were considered negligible for biomass calculations. We separated roots into fine (< 2 mm diameter) and coarse, and leaves from stems, and weighed each harvested tissue before drying at 60\u00b0C for 48 hours, and reweighing to calculate dry seedling biomass. We ground dried plant tissues on a Spex mill (Spex 8000D Mixer/Mill) for downstream isotope and elemental analyses. For soil analyses, we collected all soil from mesh bags by scraping soil from mesh and rinsing the mesh into a pre-weighed container to be dried and added to the soil measurements. We picked all roots from root-ingrowth bag soil and rinsed roots into a separate container. All samples were weighed before subsampling approximately 2 g of soil and freezing at -80\u00b0C for microbial DNA sequencing. To prepare samples and calculate dry soil mass, we dried samples at 60\u00b0C until dry, reweighed, and ground a subset for IRMS analyses.\nAllometric equations to predict starting experimental seedling biomass\nAt the start of the experiment, we destructively harvested 12 plants of each species (referred to as \u201cinitial harvest\u201d) and measured dry plant biomass and volume to generate allometric equations for each tissue type (stem and root) for each species. For the stem, we measured length and root collar diameter and calculated volume using the equation for a cone, and used Rhizovision software to measure the length and calculate the volume of roots from photos taken against a 0.3 m x 1 m lighted backdrop. We took the same measurements on the experimental seedlings before planting, and used the allometric equations (see supplemental methods section \u201callometric equations\u201d) to predict their starting biomass. At the end of the experiment, we took the same measurements, as well as leaf biomass, before destructively harvesting the seedlings, to calculate plant productivity (finalbiomass - initialbiomass = netbiomass ).\nPlant nitrogen analyses and calculations\nTo characterize how much N plants utilized fertilizer additions, we analyzed seedlings for %N and 15N on an isotope ratio mass spectrometer (IRMS, Thermo Scientific Flash EA with Delta V Advantage). We then calculated grams of N in each seedling by multiplying biomass (dry g) of each tissue type (fine roots, coarse roots, leaves, stem) by the corresponding N concentration. Second, we added fine and coarse root masses for a belowground total, and leaf and stem masses for an aboveground total. To calculate belowground and aboveground 15N, we used a weighted average based on each tissue types\u2019 N mass. We calculated the plant N uptake from fertilizer using the following equations:\n15N plant tissue = 15N soil* f.soil + 15N fertilizer* f.fertilizer + 15N initial * f.initial\n1 = f.soil + f.fertilizer + f initial\nf.soil = 1 - f.fertilizer - f initial\nf.initial = initial N / final N\nN uptake from fertilizer (mg N) = f.fertilizer * mg N plant tissue.\nEquation 1 describes the relative contributions of 15N atom percent measured plant tissue from different sources, where 15N soil atom percent was measured from bulk soil in the mesh bags, 15N fertilizer atom percent was 5, and 5N initial atom percent was measured from initially harvested seedlings and averaged for each seedling species. For the isotopic fractions in equations 1 and 2, f.soil is the fraction of N taken up from the soil, f.fertilizer is the fraction of N from the fertilizer, and f.initial is the proportion of N that was in each seedling initially. In equation 3, this latter value was determined by dividing the species average of initial N mass (based on the initial harvest) by the final N mass in each seedling. Finally, we solved the equations for f.fertilizer to calculate the mg of N within each seedling that came from the fertilizer.\nSoil carbon analyses and calculations\nTo calculate rhizodeposition and the change in soil C, we ran dried, ground subsamples of the mesh bag soils on the IRMS for %C and 13C. We calculated the amount of rhizodeposits (13C mg) and the change in C over the growing season using the following equations:\n1. Net rhizodeposition (mg 13C) = (atom% final - atom% initial soil)/100 * final mg C\n2. Change in soil C = final mg C - initial mg C\nWhere \u201catom % final\u201d refers to the 13C atom% of the soils at the end of the experiment, and \u201catom% initial soil\u201d refers to the initial soil 13C value. Mesh bag soil was assigned an initial 13C value based on a mean of three subsamples of the 50/50 EcM/AM soil. The amount of 13C in the mesh bags is technically net rhizodeposition due to microbial respiration of 13C rhizodeposits throughout the course of the experiment; however, we refer to net rhizodeposition as rhizodeposition for brevity from here on. Lastly, we the calculated the N return on rhizodeposition:\n3. N return on rhizodeposition = Net rhizodeposition (mg 13C) / N uptake from fertilizer (mg N)\nFor this calculation, we excluded the zero N addition samples. We also calculated the change in soil N (mg) the same way we calculated the change in C over the growing season. Code in an R markdown file for these calculations is available via the link in the data availability section.\nAllometric equations\nSeedling stem volume was calculated as the volume of a cone: pi*r^2*h/3, where r was measured as the root collar diameter and h was the height of the seedling. We also counted the number of initial branches for cedar and pine. We used linear regressions to relate seedling stem volume, root volume, and the number of branches (when applicable) to the mass of each of those tissue types to generate slope coefficients. These slope coefficients were then multiplied by the initial volume measurements, with the intercept set as zero, for planted seedlings to estimate the starting biomass of each tissue type. We also estimated initial N contents of planted seedlings by multiplying the predicted starting biomass by the species-specific percent N average of the initial destructively harvested seedlings. This information is also shown in the R code from the data availability section.",
+      "Potting mix pH analysis\nWe measured pH at the end of the experiment, as it could affect rhizodeposition and microbial community composition and abundance. Because the mesh bag soil was limited (50 g dry mass), we performed this analysis on the potting mix. We measured soil pH with a 1:1 ratio with deionized water on 5 g of potting mix using a benchtop pH meter (Mettler Toledo, Columbus, OH).",
+      "Microbial community analyses\nTo characterize soil fungal and bacterial community composition, we extracted DNA from previously frozen soil. We amplified the fungal ITS2 and ITS4 regions and the V3 and V4 region of 16S bacterial rRNA. The abundance of total bacteria and fungi in the soil samples were determined by quantitative PCR targeting bacterial 16S rRNA and fungal ITS regions. Fungal and bacterial community composition\nTo characterize soil fungal and bacterial community composition, we extracted DNA from previously frozen soil (-80\u00b0 C) using the Omega Bio-tek E.Z.N.A. Soil DNA kit following the manufacturer\u2019s protocol. We amplified the fungal ITS2 region using a two-step PCR protocol with primers ITS3-KYO2 (Toju et al., 2012) and ITS4 (Ihrmark et al., 2012), and the V3 and V4 region of 16S bacterial rRNA primer sets V3F (CCTACGGGAGGCAGCAG) and 806R (GGACTACHVGGGTWTCTAAT) (Gohl et al., 2016). External fusion PCR primers contained a 14-bp overlap to the trailing end of the initial primers followed by either an 8-bp i7 index, 7-bp spacer, and P5 flow cell adapter sequence or an 8-bp i5 index, 7-bp spacer, and P5 flow cell adapter (See Allsup et al., 2023 for more details). The first round of PCR amplified the ITS2 marker along with priming regions for the Nextera read primers. We performed PCR in 10 \u00b5l reactions using 0.2 \u00b5L of a hot-start, high fidelity polymerase (Clonetech Prime Star GLX) with 2 \u00b5L of its 5X buffer, 0.8 \u00b5L dNTPs (at 10 nM concentration), 0.25 \u00b5L of each primer (at 10 nM), 0.7 \u00b5g T4 gene 32 protein, and 10 ng of template DNA. Thermal cycling conditions included a 5- minute hot start at 98\u02daC, 35 cycles of denaturing (98\u02daC, 0:30), annealing (50\u02daC, 0:45), and extension (68\u02daC, 1:00) and a final extension of 15 minutes at 68\u02daC. Successful amplification was verified using agarose gel electrophoresis.\nThe second round of PCR added the P5 and P7 flow cell adapters to prepare the library for sequencing on an Illumina MiSeq, along with an external set of sample barcodes located between the flow cell adaptors and read primers. PCR was performed in 25 \u03bcl reactions using 0.5 \u00b5L of a hot-start, high fidelity polymerase (Clonetech Prime Star GLX, location) with 5 \u00b5L of its 5X buffer, 2 \u00b5L dNTPs (at 10 nM concentration), 1 \u00b5L of each primer (at 10 nM), and 1 \u00b5L of product from the first PCR as template. Amplicons were cleaned with the Omega BioTek E-Z 96 Cycle Pure kit. Purified products were quantified using a Qubit 2.0 fluorometer with the Qubit dsDNA HS assay (Thermo Scientific, Grand Island, NY). Amplicons were pooled at equal concentration and sequenced on an Illumina MiSeq using V3 chemistry using paired-end sequencing (300 cycles).\nSequences were separated by barcode by the University of Wisconsin-Biotechnology center, then filtered for quality and assigned to amplicon sequence variants (ASV\u2019s, equivalent to 100% identity operational taxonomic units) using the DADA2 program (Callahan et al., 2016) as implemented in the QIIME2 pipeline. Non-singleton ASVs were identified to the lowest confident taxonomic level using the na\u00efve Bayesian classifier RDP using the UNITE database for ITS reads (Nilsson et al., 2019) and the Silva database for bacterial reads. Since exact sequence variants are not appropriate biological units for fungi (Tedersoo et al., 2022), we agglomerated ASVs to species level based on taxonomic identification. We used the FungalTraits database to assign fungal species to functional groups (P\u00f5lme et al., 2020). We assigned all fungal species to one of six broad putative categories: AMF, EMF, plant pathogens/endophytes, saprotrophs, other, and unassigned. The \u201cother\u201d category consisted of species assigned to rarer categories (lichenized fungi, animal pathogens, etc.). We made no attempt to separate plant pathogens from other, non-pathogenic plant endophytes because even individual fungal strains can switch between these lifestyles based on plant host and environmental conditions. For species assigned to multiple categories, for analytical purposes we assigned them to a single guild with the following priority (EMF > plant pathogen/endophyte > saprotroph).\nFungal and bacterial abundance\nThe abundance of total bacteria and fungi in the soil samples were determined by quantitative PCR targeting bacterial 16S rRNA and fungal ITS, respectively. Primers used were Eub338 (ACTCCTACGGGAGGCAGCAG) and Eub518 (ATTACCGCGGCTGCTGG) for total bacteria (Fierer et al., 2005), ITS86F (GTGAATCATCGAATCTTTGAA) and ITS4 (TCCTCCGCTTATTGATATGC) for total fungi (Op De Beeck et al., 2014). Standard curves were created by 10-fold serial dilution of the target gene cloned into an E. coli plasmid (pGem-T Vector, Promega, Madison, WI). Standard curves showed PCR amplification efficiencies of 90-105%, with r2>0.99. Each qPCR reaction contained 5 \u00b5L of Sooadvanced Sybr Green supermix (Bio-rad, Hercules, CA), 0.4 \u00b5L of each of the 20 \u00b5M forward and reverse primers, 2.7 \u00b5L nuclease free water, and 1.5 \u00b5L diluted soil DNA. PCR cycling conditions were 95\u00b0C for 5 min; 38 cycles of 95\u00b0C for 15 s, selected annealing temperature for 30 s, and 72\u00b0C for 30 s; and a melting curve from 65\u00b0C to 95\u00b0C with an increase of 0.5\u00b0C per cycle. We calculated absolute abundance by multiplying relative abundance matrices by the final qPCR value for each sample.",
+      "Mycorrhizal fungal colonization of roots\nWe verified that seedlings had formed mycorrhizal symbioses by measuring percent root colonization (Table S1). We stored 1 cm root subsamples in 95% ethanol-filled glass vials prior to staining and/or colonization analysis. We cleared AM-associated roots by autoclaving them in 10% KOH and then bleaching with 3% hydrogen peroxide. We then stained successfully cleared roots using 5% Pelikan blank ink in 5% acetic acid, following a modified protocol (Wurzburger 2021, Lang and Ayres 2017). Each of the four AM species\u2019 roots were effectively cleared and stained (see supplemental photos 1-3). We analyzed AM-associated root colonization by placing ten representative cleared and stained root sections on a 1x1 mm gridded glass slide, choosing and measuring the length of the most clear and intact sections, and counting the number of times a grid intersection was colonized for ten grid intersections per root (McGonigle 1989). The presence of vesicles, arbuscules, and interior stained hyphae were counted as colonization structures.\nEcM-associated roots were not stained as the Hartig net structure had distinguishable color and texture differences from the root. We analyzed EcM-associated root colonization using a 10x magnification dissecting microscope by randomly placing each root section on a 5x5 mm gridded petri dish, and redistributing each root three times to obtain an average of technical replicates. We calculated colonization as the number of times a colonized root tip crossed a grid line, divided by the total number of times any fine root crossed a grid line. To relativize percent colonization by root length, we used the Rhizovision software (Seethepalli et al., 2021) to measure the sample\u2019s root length."
+    ],
+    "distribution": [
+      {
+        "contentSize": 291.8193359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-02a08183116c693-20240318T222059847",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-02a08183116c693-20240318T222059847",
+        "name": "guild_ITS_2022_root_sterile.csv"
+      },
+      {
+        "contentSize": 36.30078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-02f2dec6c23192c-20240813T180641391",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-02f2dec6c23192c-20240813T180641391",
+        "name": "Seedling_nitrogen_uptake_and_rhizodeposition.xml"
+      },
+      {
+        "contentSize": 16.671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-251b29a8a4305cb-20230508T144930848",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-251b29a8a4305cb-20230508T144930848",
+        "name": "Seedling_Nitrogen_final.rmd"
+      },
+      {
+        "contentSize": 126.052734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0ac807263ed8ea5-20240318T222503864",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0ac807263ed8ea5-20240318T222503864",
+        "name": "_bacterial_rare_species.csv"
+      },
+      {
+        "contentSize": 10.5859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-07a0df6a3243fd8-20240318T221633199",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-07a0df6a3243fd8-20240318T221633199",
+        "name": "hyphae_and_control_mesh_bags.csv"
+      },
+      {
+        "contentSize": 17.271484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-093165a92b40e10-20240318T221615829",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-093165a92b40e10-20240318T221615829",
+        "name": "seedling_biomass_N.csv"
+      },
+      {
+        "contentSize": 0.4580078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-09bfdb5396590a5-20240318T221615807",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-09bfdb5396590a5-20240318T221615807",
+        "name": "Pottingmix_ph.csv"
+      },
+      {
+        "contentSize": 169.9775390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-23ad2fb74f3bbc5-20240318T221615845",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-23ad2fb74f3bbc5-20240318T221615845",
+        "name": "chamber_corrected_IRMS_plant_soil.csv"
+      },
+      {
+        "contentSize": 94.6640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1c94caddc8506e9-20240318T221615803",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1c94caddc8506e9-20240318T221615803",
+        "name": "SEM_data.csv"
+      },
+      {
+        "contentSize": 2.8349609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3f67c5359c7e48d-20230508T145050948",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3f67c5359c7e48d-20230508T145050948",
+        "name": "Seedling_measurements_before_planting.csv"
+      },
+      {
+        "contentSize": 2724.3828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-30769b846c46a67-20240318T222503852",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-30769b846c46a67-20240318T222503852",
+        "name": "DOE_16S_soils_2022_table.csv"
+      },
+      {
+        "contentSize": 150.5341796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-43793d2e505a1a1-20240318T221615821",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-43793d2e505a1a1-20240318T221615821",
+        "name": "all_isotopes.csv"
+      },
+      {
+        "contentSize": 430.4013671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-44d32f1cf00cff1-20240318T222003719",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-44d32f1cf00cff1-20240318T222003719",
+        "name": "guild_Chamber_ITS_2022_unsterile.csv"
+      },
+      {
+        "contentSize": 430.4013671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-48c71ff321c99b4-20240318T222059841",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-48c71ff321c99b4-20240318T222059841",
+        "name": "guild_Chamber_ITS_2022_unsterile.csv"
+      },
+      {
+        "contentSize": 875.908203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ea6802082394a6d-20240318T222503836",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ea6802082394a6d-20240318T222503836",
+        "name": "_bacterial_rarefied_species.csv"
+      },
+      {
+        "contentSize": 19.1328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ec51489ff1e1d64-20240318T221615832",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ec51489ff1e1d64-20240318T221615832",
+        "name": "_biomass_combine.csv"
+      },
+      {
+        "contentSize": 3.6640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2abf220bb7f02cf-20230508T145117145",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2abf220bb7f02cf-20230508T145117145",
+        "name": "Soil_and_plant_data_Initial_Destructive_Harvest__for_allometry_.csv"
+      },
+      {
+        "contentSize": 16.6796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e1ede530c3dc939-20240729T190843560",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-e1ede530c3dc939-20240729T190843560",
+        "name": "Fertilization_Calculations.xlsx"
+      },
+      {
+        "contentSize": 1096.73046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e1faac691930a8f-20240318T222003686",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e1faac691930a8f-20240318T222003686",
+        "name": "_soil_rawcounts.csv"
+      },
+      {
+        "contentSize": 8.365234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-348de8858f961c3-20240729T192503023",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "identifier": "ess-dive-348de8858f961c3-20240729T192503023",
+        "name": "Root_clearing_and_staining_protocol.docx"
+      },
+      {
+        "contentSize": 371.6181640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-352d3b42bb7699c-20240318T222003681",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-352d3b42bb7699c-20240318T222003681",
+        "name": "_soil_relabund.csv"
+      },
+      {
+        "contentSize": 228.5380859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ebdcafd5195454-20240318T222503858",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5ebdcafd5195454-20240318T222503858",
+        "name": "_bacterial_data.csv"
+      },
+      {
+        "contentSize": 184.5205078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6083f2411c2761b-20240318T222003667",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6083f2411c2761b-20240318T222003667",
+        "name": "EM_relabund.csv"
+      },
+      {
+        "contentSize": 5.39453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-60e5bc00944cfff-20240318T221648262",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-60e5bc00944cfff-20240318T221648262",
+        "name": "Soil_bag_root_weight.csv"
+      },
+      {
+        "contentSize": 2.7431640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4c5116f1e2547b8-20230508T145448724",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4c5116f1e2547b8-20230508T145448724",
+        "name": "Harvested_plant_biomass.csv"
+      },
+      {
+        "contentSize": 56.4140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-56e48758ec045c0-20240318T221122747",
+        "encodingFormat": "text/x-rmarkdown",
+        "identifier": "ess-dive-56e48758ec045c0-20240318T221122747",
+        "name": "Chamber_Analsysis.Rmd"
+      },
+      {
+        "contentSize": 11.7998046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-57f077062793740-20240318T222132118",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-57f077062793740-20240318T222132118",
+        "name": "meta_chamber.csv"
+      },
+      {
+        "contentSize": 13953.1923828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5937cad677b2990-20240318T222059835",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5937cad677b2990-20240318T222059835",
+        "name": "datalong_chamberfungi.csv"
+      },
+      {
+        "contentSize": 56.0888671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ac25c6551ace5c-20240318T221615810",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7ac25c6551ace5c-20240318T221615810",
+        "name": "soil_data_fungi2.csv"
+      },
+      {
+        "contentSize": 302.259765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-882e8ecfaef58ce-20240318T222003646",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-882e8ecfaef58ce-20240318T222003646",
+        "name": "soil_absabund.csv"
+      },
+      {
+        "contentSize": 185.8056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6bd38f1ea48e527-20240318T222003662",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6bd38f1ea48e527-20240318T222003662",
+        "name": "AM_relabund.csv"
+      },
+      {
+        "contentSize": 14.9619140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ec3f311264cd8b-20230508T145503238",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7ec3f311264cd8b-20230508T145503238",
+        "name": "root_volume_seedling_growth.csv"
+      },
+      {
+        "contentSize": 2.6337890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-74f6d4dbe1174f6-20240318T221615836",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-74f6d4dbe1174f6-20240318T221615836",
+        "name": "_N15_initial.csv"
+      },
+      {
+        "contentSize": 312.79296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-74fbeb49c208279-20240318T222059828",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-74fbeb49c208279-20240318T222059828",
+        "name": "free_living_fungi.csv"
+      },
+      {
+        "contentSize": 319.861328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8bd60df9990e07d-20240318T222003656",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8bd60df9990e07d-20240318T222003656",
+        "name": "soil_relabund2.csv"
+      },
+      {
+        "contentSize": 82.2958984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-aa77c440827507f-20240318T222003701",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-aa77c440827507f-20240318T222003701",
+        "name": "_roots_relabund.csv"
+      },
+      {
+        "contentSize": 291.8193359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9b0d7a17976c50a-20240318T222003724",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9b0d7a17976c50a-20240318T222003724",
+        "name": "guild_ITS_2022_root_sterile.csv"
+      },
+      {
+        "contentSize": 22.919921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9c734fb5374e99b-20240318T222003672",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9c734fb5374e99b-20240318T222003672",
+        "name": "DOE_ITS_2022_qPCR.csv"
+      },
+      {
+        "contentSize": 61.0732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9d3527e742f05c8-20240318T222003707",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9d3527e742f05c8-20240318T222003707",
+        "name": "_roots_rarefied.csv"
+      },
+      {
+        "contentSize": 38.09375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a5d839db128fbce-20230508T145134847",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a5d839db128fbce-20230508T145134847",
+        "name": "destructive_harvest_root_volume_all.csv"
+      },
+      {
+        "contentSize": 0.8212890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-92d7713c582dd4e-20240813T180635135",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-92d7713c582dd4e-20240813T180635135",
+        "name": "readme_chamberms.csv"
+      },
+      {
+        "contentSize": 18.302734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9e6b243ec054ebc-20240318T221122757",
+        "encodingFormat": "text/x-rmarkdown",
+        "identifier": "ess-dive-9e6b243ec054ebc-20240318T221122757",
+        "name": "Seedling_Nitrogen_and_Carbon.Rmd"
+      },
+      {
+        "contentSize": 90.5205078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-94ba564923e63b1-20240318T221615814",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-94ba564923e63b1-20240318T221615814",
+        "name": "fungi_data.csv"
+      },
+      {
+        "contentSize": 439.8681640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c0c021f750b71f7-20240318T222003693",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c0c021f750b71f7-20240318T222003693",
+        "name": "_roots_rawcounts.csv"
+      },
+      {
+        "contentSize": 1506.962890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b4b858a255ee9b6-20240318T222503844",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b4b858a255ee9b6-20240318T222503844",
+        "name": "_bacterial_relabund_species.csv"
+      },
+      {
+        "contentSize": 25.759765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b61f3a98c19d2a8-20240318T222003652",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b61f3a98c19d2a8-20240318T222003652",
+        "name": "EM_absabund.csv"
+      },
+      {
+        "contentSize": 43.896484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bd559b7ae7e591a-20240318T221122754",
+        "encodingFormat": "text/x-rmarkdown",
+        "identifier": "ess-dive-bd559b7ae7e591a-20240318T221122754",
+        "name": "Chamber_DNA_analysis.Rmd"
+      },
+      {
+        "contentSize": 201.494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ba52399f47b05f8-20240318T222003676",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ba52399f47b05f8-20240318T222003676",
+        "name": "_soil_rarefied.csv"
+      },
+      {
+        "contentSize": 1.5009765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ae4d74af76d24ee-20240318T221615867",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ae4d74af76d24ee-20240318T221615867",
+        "name": "Chamber_myc_colonization.csv"
+      },
+      {
+        "contentSize": 169.9775390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ce82d504488df0a-20230508T145309423",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ce82d504488df0a-20230508T145309423",
+        "name": "chamber_corrected_IRMS_plant_soil.csv"
+      },
+      {
+        "contentSize": 1.5859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b18afe85671cbc5-20240318T222003713",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b18afe85671cbc5-20240318T222003713",
+        "name": "Chamber_meta.csv"
+      },
+      {
+        "contentSize": 19.5009765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b1e62e0a141af93-20240318T221615850",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b1e62e0a141af93-20240318T221615850",
+        "name": "_qPCR_processed.csv"
+      },
+      {
+        "contentSize": 3.2099609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f5ec8febf187d63-20230508T145050961",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f5ec8febf187d63-20230508T145050961",
+        "name": "Seedling_allometry_initial_harvest.csv"
+      },
+      {
+        "contentSize": 70.2861328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fd505204d660880-20240318T221615817",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fd505204d660880-20240318T221615817",
+        "name": "chamber_model_data.csv"
+      },
+      {
+        "contentSize": 33.677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fdca3de9a1eec59-20240318T222503871",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fdca3de9a1eec59-20240318T222503871",
+        "name": "DOE_ITS_16S_2022_qPCR_bacteria.csv"
+      },
+      {
+        "contentSize": 6.603515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e341e1a1ff1351a-20240318T221615860",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e341e1a1ff1351a-20240318T221615860",
+        "name": "_meta_roots_unsterile.csv"
+      },
+      {
+        "contentSize": 15.0126953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e5317c7c770fc5a-20240318T221615841",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e5317c7c770fc5a-20240318T221615841",
+        "name": "_seedling_biomass_N.csv"
+      },
+      {
+        "contentSize": 3.6396484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dc86e6d33060015-20240318T221615855",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-dc86e6d33060015-20240318T221615855",
+        "name": "BiomassC_N.csv"
+      },
+      {
+        "contentSize": 2.5654296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dc9205b419a940a-20230508T145448732",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-dc9205b419a940a-20230508T145448732",
+        "name": "growth_seedlings.csv"
+      }
+    ]
+  }
+}

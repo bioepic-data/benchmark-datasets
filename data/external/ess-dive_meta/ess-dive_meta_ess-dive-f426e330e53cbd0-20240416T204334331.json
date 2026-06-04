@@ -1,0 +1,386 @@
+{
+  "id": "ess-dive-f426e330e53cbd0-20240416T204334331",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2335802",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f426e330e53cbd0-20240416T204334331",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-b95f1664fab0c80-20240404T225959202",
+  "dateUploaded": "2024-04-16T20:43:35.233Z",
+  "dateModified": "2024-04-16T20:43:40.272Z",
+  "isPublic": true,
+  "citation": "Kassianov E; Flynn C; Barnard J; Berg L; Beus S; Chen X; China S; Comstock J; Ermold B; Fakoya A; Kulkarni G; Lata N N; Mcdowell N; Morris V; Pekour M; Powers-McCormack B; Rasmussen J; Riihimaki L; Shi M; Shrivastava M; Telg H; Zelenyuk A (2024): Data associated with the manuscript \u201cRadiative impact of record-breaking wildfires from integrated ground-based data\u201d collected in Richland, Washington in September 2020. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2335802",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2335802",
+    "name": "Data associated with the manuscript \u201cRadiative impact of record-breaking wildfires from integrated ground-based data\u201d collected in Richland, Washington in September 2020",
+    "description": [
+      "This data package is associated with the publication \u201cRadiative impact of record-breaking wildfires from integrated ground-based data\u201d submitted to Nature Scientific Reports (Kassianov et al., 2024). Data from ground-based measurements of shortwave and spectrally resolved irradiance and aerosol optical depth (AOD) in the visible and near-infrared spectral ranges were assessed to quantify the radiative impact of the September 2020 wildfires that occurred in the Western United States. Data were collected in September 2020 by several ground-based instruments at the Atmospheric Measurements Laboratory (AML) located in Richland, Washington (46.3451, -119.2792). These data include (1) Aerosol Optical Depth (AOD); (2) spectrally resolved and shortwave (SW) irradiances; (3) backscatter profiles; (4) total sky images; and (5) near-surface ambient air temperatures.",
+      "The data package consists of five sub-directories: (1) \u201cAML_Ceilometer_\u201d; (2)\u201d AML_CSPHOT_\u201d; (3) \u201cAML_MFRSR_irradiances_\u201d; (4) \u201cAML_SW_irradiances_and_Temp_\u201d; (5) \u201cAML_TSI_images_\u201d; and 6 files stored at the directory level, including the readme, file-level metadata file, and data dictionary. The file-level metadata file (the file ending in \u201c_flmd.csv\u201d) lists all files contained in this data package and descriptions for each. The data dictionary (the file ending in \u201c_dd.csv\u201d) describes each tabular column header\u2019s unit, definition, and structure. Below are descriptions of each sub-directory:",
+      "\u201cAML_Ceilometer_\u201d includes ceilometer data collected at the AML. These files contain the corresponding narratives of data. Details related to the ceilometer data can be found in Morris (2016). \u201cAML_CSPHOT_\u201d includes ascii files with high-temporal resolution (about 10-15 min) AML CSPHOT data and their daily-averaged counterparts. These two files contain the corresponding narratives of data. Details related to the CSPHOT data can be found in Gregory (2011). \u201cAML_MFRSR_irradiances_\u201d includes ascii files with the AML MFRSR-measured diffuse, normal, and total spectrally resolved irradiance. Details related to the MFRSR data can be found in Hodges and Michalsky (2016) and Koontz et al. (2013). \u201cAML_SW_irradiances_+_Temp_\u201d includes near-surface ambient air temperature and SW irradiances, namely direct normal, diffuse hemispherical, and total hemispheric (global), measured at the AML. These files also incorporate the corresponding narratives of data. Details related to the SW irradiances can be found in Andreas et al. (2018). \u201cAML_TSI_images_\u201d includes Total Sky Images (TSIs) collected at the AML. Details related to the TSI data can be found in Morris (2005)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5659-3077",
+        "givenName": "Evgueni",
+        "familyName": "Kassianov",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "evgueni.kassianov@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9182-6531",
+        "givenName": "Connor",
+        "familyName": "Flynn",
+        "affiliation": "University of Oklahoma",
+        "email": "connor.j.flynn@ou.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "Barnard",
+        "affiliation": "University of Nevada",
+        "email": "jbarnard@unr.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3362-9492",
+        "givenName": "Larry",
+        "familyName": "Berg",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "larry.berg@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sherman",
+        "familyName": "Beus",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "sherman.beus@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1928-5555",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Xingyuan.Chen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7670-335X",
+        "givenName": "Swarup",
+        "familyName": "China",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "swarup.china@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4183-7355",
+        "givenName": "Jennifer",
+        "familyName": "Comstock",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "jennifer.comstock@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9493-3001",
+        "givenName": "Brian",
+        "familyName": "Ermold",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "brian.ermold@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3926-7410",
+        "givenName": "Abdulamid",
+        "familyName": "Fakoya",
+        "affiliation": "University of Oklahoma",
+        "email": "abdulamid.fakoya@ou.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8069-4281",
+        "givenName": "Gourihar",
+        "familyName": "Kulkarni",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "gourihar.kulkarni@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1466-3545",
+        "givenName": "Nurun Nahar",
+        "familyName": "Lata",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "nurunnlata@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nate",
+        "familyName": "Mcdowell",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "nate.mcdowell@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3843-1864",
+        "givenName": "Victor",
+        "familyName": "Morris",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "victor.morris@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9821-0078",
+        "givenName": "Mikhail",
+        "familyName": "Pekour",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "mikhail.pekour@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Joseph",
+        "familyName": "Rasmussen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "joseph.rasmussen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1794-3860",
+        "givenName": "Laura",
+        "familyName": "Riihimaki",
+        "affiliation": "Cooperative Institute for Research in the Environmental Sciences",
+        "email": "laura.riihimaki@noaa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2469-4831",
+        "givenName": "Mingjie",
+        "familyName": "Shi",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "mingjie.shi@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9053-2400",
+        "givenName": "Manish",
+        "familyName": "Shrivastava",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "manishkumar.shrivastava@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Hagen",
+        "familyName": "Telg",
+        "affiliation": "Cooperative Institute for Research in the Environmental Sciences",
+        "email": "hagen.telg@noaa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0674-0910",
+        "givenName": "Alla",
+        "familyName": "Zelenyuk",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "alla.zelenyuk-imre@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "Wildfire",
+      "Pacific Northwest",
+      "Western United States",
+      "AML",
+      "Atmospheric Measurements Laboratory",
+      "EMSL",
+      "Environmental Molecular Sciences Laboratory",
+      "Washington",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Backscatter Profiles",
+      "Biomass Burning Plumes",
+      "Biomass",
+      "Plumes",
+      "AOD",
+      "Spectrally Resolved Aerosol Optical Depth",
+      "Spectrally Resolved Aerosol Optical Depth Daily Averages",
+      "Surface Shortwave Direct Normal Irradiance",
+      "Surface Shortwave Direct Diffuse Irradiance",
+      "Surface Shortwave Direct Total Irradiance",
+      "Spectrally Resolved Normal Irradiance",
+      "Spectrally Resolved Diffuse Irradiance",
+      "Spectrally Resolved Total Irradiance",
+      "Air Temperature",
+      "Sky Images"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Atmospheric Measurements Laboratory, Richland, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.35,
+            "longitude": -119.28
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.35,
+            "longitude": -119.28
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5659-3077",
+      "givenName": "Evgueni",
+      "familyName": "Kassianov",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "evgueni.kassianov@pnnl.gov"
+    },
+    "citation": [
+      "Andreas, A., M. Dooraghi, A. Habte, M. Kutchenreiter, I. Reda, & Sangupta, M. Solar Infrared Radiation Station (SIRS), Sky Radiation (SKYRAD), Ground Radiation (GNDRAD), and Broadband Radiometer Station (BRS) Instrument Handbook. Preprint at https://www.arm.gov/publications/tech_reports/handbooks/sirs_handbook.pdf (2018).",
+      "Gregory, L.C. Cimel Sunphotometer (CSPHOT) Handbook. Preprint at https://www.arm.gov/publications/tech_reports/handbooks/csphot_handbook.pdf (2011).",
+      "Hodges, G. B. & Michalsky, J. J. Multiflter Rotating Shadowband Radiometer Instrument Handbook with subsections for derivative instruments: Multiflter Radiometer (MFR) Normal Incidence Multiflter Radiometer (NIMFR). Preprint at https://www.arm.gov/publications/tech_reports/handbooks/mfrsr_handbook.pdf (2016).",
+      "Koontz, A., C. Flynn, G. Hodges, J. Michalsky, & Barnard, J. Aerosol Optical Depth Value-Added Product. Preprint at https://www.arm.gov/ publications/tech_reports/handbooks/doe-sc-arm-tr-129.pdf (2013).",
+      "Morris V.R. Total Sky Imager (TSI) Handbook. U.S. Department of Energy. Preprint at https://www.arm.gov/publications/tech_reports/handbooks/tsi_handbook.pdf (2005).",
+      "Morris, V.R. Ceilometer Instrument Handbook. Preprint at https://www.arm.gov/publications/tech_reports/handbooks/ceil_handbook.pdf (2016).",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Data were collected over a 12-day period between the 9th and 20th of September 2020 at the Atmospheric Measurements Laboratory (AML) and the co-located Environmental Molecular Sciences Laboratory (EMSL). EMSL is a national scientific user facility sponsored by the U.S. Department of Energy\u2019s (U.S. DOE) Office of Biological and Environmental Research. The AML and EMSL are part of the Pacific Northwest National Laboratory (PNNL) campus, located in Richland, Washington, United States. The AML instrumental suite includes a ceilometer, radiometers for measuring both broadband and narrowband downwelling surface irradiances, and a Cimel sunphotometer (CSPHOT) for measuring and retrieving aerosol columnar properties, such as aerosol optical depth (AOD), single scattering albedo (SSA), and asymmetry parameter (ASY). The AML instruments, data collection, and processing are identical to those supported by the Atmospheric Radiation Measurement (ARM) user facility (https://www.arm.gov). The data captured strong evolution of biomass burning plumes produced by intense wildfires. The included sky images are for qualitative value only, while the \u201cpolluted\u201d and \u201cclean\u201d periods are defined quantitively using a combination of values (e.g., AOD, backscatter profiles, and surface irradiances). The terms \u201cpolluted\u201d and \u201cclean\u201d denote observational conditions with low and high aerosol loadings, respectively. Additional details pertaining to the methods used can be found in this data package\u2019s associated manuscript."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1102.9296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3f99c46c6f727e1-20240404T225007380",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-3f99c46c6f727e1-20240404T225007380",
+        "name": "AML_MFRSR_irradiances_.zip"
+      },
+      {
+        "contentSize": 7.6904296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5919e918e40c1f5-20240404T225904051",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5919e918e40c1f5-20240404T225904051",
+        "name": "Kassianov_2024_AML_Plumes_flmd.csv"
+      },
+      {
+        "contentSize": 565.3662109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4df24968c52ce94-20240404T225034789",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4df24968c52ce94-20240404T225034789",
+        "name": "AML_TSI_images_.zip"
+      },
+      {
+        "contentSize": 19055.23046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7856cacee8f76e5-20240404T224953586",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7856cacee8f76e5-20240404T224953586",
+        "name": "AML_Ceilometer_.zip"
+      },
+      {
+        "contentSize": 8.12109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-748907d1a1570e1-20240404T225103247",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-748907d1a1570e1-20240404T225103247",
+        "name": "EMSL_miniSPLAT__mass_spectrum__September_11_2020.txt"
+      },
+      {
+        "contentSize": 4.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8e3a22ed5501303-20240404T225107492",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-8e3a22ed5501303-20240404T225107492",
+        "name": "EMSL_SMPS__size_distribution__September_11_2020.txt"
+      },
+      {
+        "contentSize": 234.9482421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9f3b01ac2645d5c-20240404T225000222",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9f3b01ac2645d5c-20240404T225000222",
+        "name": "AML_CSPHOT_.zip"
+      },
+      {
+        "contentSize": 844.7578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b5a9344644a42e7-20240404T225019180",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b5a9344644a42e7-20240404T225019180",
+        "name": "AML_SW_irradiances_and_Temp_.zip"
+      },
+      {
+        "contentSize": 1.9365234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bcd76d4c0ac7bf6-20240404T225514326",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bcd76d4c0ac7bf6-20240404T225514326",
+        "name": "Kassianov_2024_AML_Plumes_dd.csv"
+      },
+      {
+        "contentSize": 3158.6552734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-aec8627063a546a-20240404T225907930",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-aec8627063a546a-20240404T225907930",
+        "name": "readme_Kassianov_2024_AML_Plumes.pdf"
+      },
+      {
+        "contentSize": 1.95703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-af05fdab11b779a-20240404T225043905",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-af05fdab11b779a-20240404T225043905",
+        "name": "AML_LAS__size_distribution__September12smoke_September20background_2020.csv"
+      },
+      {
+        "contentSize": 19.86328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f426e330e53cbd0-20240416T204334331",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f426e330e53cbd0-20240416T204334331",
+        "name": "Data_associated_with_the_manuscript_Radiative.xml"
+      }
+    ]
+  }
+}

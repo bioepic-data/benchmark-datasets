@@ -1,0 +1,312 @@
+{
+  "id": "ess-dive-9afe723b0361952-20230808T205535705",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1908248",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-9afe723b0361952-20230808T205535705",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ae2ff541254cfe8-20230407T145253258969",
+  "dateUploaded": "2023-08-08T20:55:41.483Z",
+  "dateModified": "2023-08-08T20:55:45.025Z",
+  "isPublic": true,
+  "citation": "Perzan Z; Pierce S; Boye K (2022): Groundwater level elevation and temperature data, Oct 2018-Dec 2021, Slate River Floodplain, Crested Butte, CO. Groundwater Quality SFA. Dataset. doi:10.15485/1908248",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1908248",
+    "name": "Groundwater level elevation and temperature data, Oct 2018-Dec 2021, Slate River Floodplain, Crested Butte, CO",
+    "description": [
+      "This data package includes a time series of water level and temperature measurements from October 2018 to December 2021 in groundwater and surface water from the Slate River floodplain outside Crested Butte, CO, a focus field site for the SLAC Floodplain Hydro-Biogeochemistry SFA. The data was generated as part of the work targeting the overarching research question for the SLAC SFA: How do ubiquitous subsurface interfaces mediate molecular-scale biogeochemical processes and groundwater quality in floodplains and watersheds? The data were recorded by pressure transducers were installed in four types of piezometers:",
+      "1) a network of gravel bed (\"GB\") drive-point piezometers with a 6-inch screen interval installed all at ~330 cm below ground surface.",
+      "2) a network of piezometers screened across the water table, used to measure evapotranspiration (\"ET\") using the White method. Each of these piezometers is screened along almost its entire length.",
+      "3) a suite nested piezometers used the measure the vertical hydraulic gradient (\"VHG\") across the fines-cobble interface. Each of these piezometers uses a 6-inch screen length.",
+      "4) a group of piezometers scattered across the boundaries of the floodplain, used to monitor boundary conditions (\"BC\") flowing into and out of the floodplain. With the exception of \"SR-BD-WT\", each of these piezometers is screened along its entire length.",
+      "Within the data package, \"FLMD.csv\" describes file-level metadata and \"dd.csv\" defines column headers and universal terms across the dataset. The data package includes 11 \"*data.csv\" files, one for each piezometer type for each calendar year. Because piezometers have been added over time, not every sensor has data dating back to Oct 2018. Each \"*data.csv\" file has a corresponding \"*_InstallationMethods.csv\" file that describes the location, elevation, screen depth, sediment type and sensor metadata for each piezometer and pressure transducer."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2676-2452",
+        "givenName": "Zach",
+        "familyName": "Perzan",
+        "affiliation": "Stanford University",
+        "email": "zperzan@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7614-0227",
+        "givenName": "Samuel",
+        "familyName": "Pierce",
+        "affiliation": "SLAC National Accelerator Laboratory",
+        "email": "swpierce@slac.stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2087-607X",
+        "givenName": "Kristin",
+        "familyName": "Boye",
+        "affiliation": "SLAC National Accelerator Laboratory",
+        "email": "kboye@slac.stanford.edu"
+      }
+    ],
+    "datePublished": "2022-12-30",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUND WATER FEATURES > WATER TABLE",
+      "piezometric surface",
+      "water table",
+      "groundwater level",
+      "groundwater temperature",
+      "ESS-DIVE Hydrologic Monitoring Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "piezometric surface",
+      "elevation",
+      "groundwater level",
+      "groundwater temperature",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUND WATER FEATURES > WATER TABLE > WATER TABLE DEPTH",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUND WATER FEATURES > WATER TABLE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUND WATER PROCESSES/MEASUREMENTS > AQUIFER RECHARGE > AQUIFER DEPTH"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Slate River Floodplain, Crested Butte, Colorado. The Slate River is a snow-dominated, headwater catchment within the Upper Colorado River Basin and a key testbed for the Floodplain Hydro-Biogeochemistry Science Focus Area at SLAC National Accelerator Laboratory. This portion of the floodplain (~2,700 m elevation) sits downstream of the confluence of Oh Be Joyful (OBJ) Creek and upstream of Gunsight Bridge, on a portion of the river with heavy beaver activity.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.909799,
+            "longitude": -107.029871
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.908484,
+            "longitude": -107.028107
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-10-06",
+      "endDate": "2021-01-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2676-2452",
+      "givenName": "Zach",
+      "familyName": "Perzan",
+      "affiliation": "Stanford University",
+      "email": "zperzan@stanford.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "14a7e1cf-5a60-4ac3-9527-ec20fed6815f"
+      },
+      "name": "Groundwater Quality SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Bargar",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Stanford Linear Accelerator Center",
+        "email": "bargar@slac.stanford.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Water level elevation was obtained by subtracting absolute atmospheric pressure from the pressure measured by each transducer. These pressure values were then converted to water level elevation using the depth of the transducer from the top of each piezometer casing and the surveyed elevation of the top of each piezometer casing. Temperature measurements are raw temperature data measured by the sensor. Sensor-derived water levels were compared to water levels manually measured 2-4 times per year and differences are generally <5 cm.",
+      "Where possible, absolute atmospheric pressure was determined using either a Campbell Scientific CS100 barometer or an Onset HOBO U20L-04 deployed above ground. However, during periods where either of these data sensors were offline, absolute atmospheric pressure was determined from weather stations several kilometers from the site. The source of atmospheric pressure data used to correct transducer data is listed in the \"DataFlag_02\" column within \"*data.csv\" files.",
+      "Most piezometers were surveyed using a real-time kinematic (RTK) global positioning system (GPS). However, for a subset of piezometers, the top of casing elevation was measured using a Trimble total station. Absolute position of the total station was determined by sighting piezometers previously surveyed via RTK."
+    ],
+    "distribution": [
+      {
+        "contentSize": 10.2138671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-023176e182fb36b-20221230T063643354",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-023176e182fb36b-20221230T063643354",
+        "name": "SLT_GB_Transducers_2021_InstallationMethods.csv"
+      },
+      {
+        "contentSize": 2298.2646484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-23fee1f81e14b76-20221230T063643375",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-23fee1f81e14b76-20221230T063643375",
+        "name": "SLT_VHG_Transducers_2020_data.csv"
+      },
+      {
+        "contentSize": 9.9677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-18a4ae5811b5383-20221230T063643327",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-18a4ae5811b5383-20221230T063643327",
+        "name": "SLT_ET_Transducers_2021_InstallationMethods.csv"
+      },
+      {
+        "contentSize": 381.857421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-408fa7c77515789-20221230T063643253",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-408fa7c77515789-20221230T063643253",
+        "name": "SLT_BC_Transducers_2020_data.csv"
+      },
+      {
+        "contentSize": 18.7978515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-441ede6bbdf8cf5-20221230T063643397",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-441ede6bbdf8cf5-20221230T063643397",
+        "name": "SLT_VHG_Transducers_2021_InstallationMethods.csv"
+      },
+      {
+        "contentSize": 102.7763671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-45bbfcb51ee6f48-20221230T063800042",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-45bbfcb51ee6f48-20221230T063800042",
+        "name": "SLT_ET_Transducers_2018_data.csv"
+      },
+      {
+        "contentSize": 7.744140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3ba7332a3f450bd-20221230T063643341",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3ba7332a3f450bd-20221230T063643341",
+        "name": "SLT_GB_Transducers_2020_InstallationMethods.csv"
+      },
+      {
+        "contentSize": 653.7607421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-eb37e5d2c013457-20221230T063643334",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-eb37e5d2c013457-20221230T063643334",
+        "name": "SLT_GB_Transducers_2020_data.csv"
+      },
+      {
+        "contentSize": 3.94921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d42dba6d2d40cdd-20221230T063643237",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d42dba6d2d40cdd-20221230T063643237",
+        "name": "dd.csv"
+      },
+      {
+        "contentSize": 1505.357421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-519e2164ba69518-20221230T063643319",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-519e2164ba69518-20221230T063643319",
+        "name": "SLT_ET_Transducers_2021_data.csv"
+      },
+      {
+        "contentSize": 2905.271484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a15312d9d4120d-20221230T063643390",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7a15312d9d4120d-20221230T063643390",
+        "name": "SLT_VHG_Transducers_2021_data.csv"
+      },
+      {
+        "contentSize": 1189.095703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8674447590ab964-20221230T063643265",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8674447590ab964-20221230T063643265",
+        "name": "SLT_BC_Transducers_2021_data.csv"
+      },
+      {
+        "contentSize": 430.2412109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6d0462469a867d6-20221230T063643291",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6d0462469a867d6-20221230T063643291",
+        "name": "SLT_ET_Transducers_2019_data.csv"
+      },
+      {
+        "contentSize": 1.509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7c96292072f9de5-20221230T063800054",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7c96292072f9de5-20221230T063800054",
+        "name": "SLT_ET_Transducers_2018_InstallationMethods.csv"
+      },
+      {
+        "contentSize": 1102.455078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-76cd485b9eaab80-20221230T063643306",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-76cd485b9eaab80-20221230T063643306",
+        "name": "SLT_ET_Transducers_2020_data.csv"
+      },
+      {
+        "contentSize": 1689.525390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-723ba581bbce463-20221230T063643349",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-723ba581bbce463-20221230T063643349",
+        "name": "SLT_GB_Transducers_2021_data.csv"
+      },
+      {
+        "contentSize": 5.060546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ad1ee4005704ec0-20221230T063643246",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ad1ee4005704ec0-20221230T063643246",
+        "name": "FLMD.csv"
+      },
+      {
+        "contentSize": 13.6455078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9afe723b0361952-20230808T205535705",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-9afe723b0361952-20230808T205535705",
+        "name": "Groundwater_level_elevation_and_temperature_data_.xml"
+      },
+      {
+        "contentSize": 5.1044921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-954b7376dbb9e7f-20221230T063643258",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-954b7376dbb9e7f-20221230T063643258",
+        "name": "SLT_BC_Transducers_2020_InstallationMethods.csv"
+      },
+      {
+        "contentSize": 1.509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ba43fb5141fbee1-20221230T063643298",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ba43fb5141fbee1-20221230T063643298",
+        "name": "SLT_ET_Transducers_2019_InstallationMethods.csv"
+      },
+      {
+        "contentSize": 13.8115234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b0147f88f594ccc-20221230T063643383",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b0147f88f594ccc-20221230T063643383",
+        "name": "SLT_VHG_Transducers_2020_InstallationMethods.csv"
+      },
+      {
+        "contentSize": 6.349609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c7ae938f30286bc-20221230T063643312",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c7ae938f30286bc-20221230T063643312",
+        "name": "SLT_ET_Transducers_2020_InstallationMethods.csv"
+      },
+      {
+        "contentSize": 6.3349609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c351837a6dd14c3-20221230T063643272",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c351837a6dd14c3-20221230T063643272",
+        "name": "SLT_BC_Transducers_2021_InstallationMethods.csv"
+      },
+      {
+        "contentSize": 239.30859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b28e9a77cf66df6-20221230T063643361",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b28e9a77cf66df6-20221230T063643361",
+        "name": "SLT_VHG_Transducers_2019_data.csv"
+      },
+      {
+        "contentSize": 7.6181640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fb1d1ebbeb52c6b-20221230T063643368",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fb1d1ebbeb52c6b-20221230T063643368",
+        "name": "SLT_VHG_Transducers_2019_InstallationMethods.csv"
+      }
+    ]
+  }
+}

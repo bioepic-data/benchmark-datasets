@@ -1,0 +1,310 @@
+{
+  "id": "ess-dive-a697f9ff47c674b-20250310T225835651",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2526256",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a697f9ff47c674b-20250310T225835651",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-1dd6be17a461145-20250227T173057801",
+  "dateUploaded": "2025-03-10T22:58:36.931Z",
+  "dateModified": "2025-03-13T00:02:13.643Z",
+  "isPublic": true,
+  "citation": "Longo M; Keller M; Kueppers L; Bowman K; Csillik O; Ferraz A; Moorcroft P; Ometto J P; Soares-Filho B; Xu X; Assis M d; G\u00f6rgens E; Larson E; Needham J; Ordway E; Pereira F; Pinag\u00e9 E R; Sato L; Xu L; Saatchi S (2025): Monthly averages of ED2 model simulations initialized with airborne lidar structure, Jan 1981-Dec 2018, Brazilian Amazon. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15485/2526256",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2526256",
+    "name": "Monthly averages of ED2 model simulations initialized with airborne lidar structure, Jan 1981-Dec 2018, Brazilian Amazon",
+    "description": [
+      "Deforestation and forest degradation (selective logging, fires, fragmentation) have impacted nearly 40% of the original extent of the Brazilian Amazon, and have markedly impacted forest structure across the region. To date, few studies analysed how shifts in forest structure from degradation influence the forest sensitivity to climate extremes, because of the complex interactions between forest structure and micro-environmental conditions. To address this knowledge gap, we carried out a series of simulations across the Brazilian Amazon using the Ecosystem Demography Model (ED2), using observed forest structure derived from 541 airborne lidar transects (375 ha each) and two scenarios representing forest recovery and expansion of degradation to investigate how shifts in forest structure impact ecosystem function under near-average and extreme climate conditions, as part of the manuscript Longo et al 2025 \"Degradation and Deforestation Increase the Sensitivity of the Amazon Forest to Climate Extremes\".",
+      "This dataset provides the output results from the ED2 model simulations for the three simulations at monthly time scales, in NetCDF format. For all simulations, we used bias-corrected hourly reanalyses (WFDE5) for most meteorological drivers, except for precipitation, which was obtained from CHIRPS. The meteorological drivers used in the study span 38 years (Jan 1981\u2013Dec 2018). The output results correspond to the last 38 years of simulation (one full cycle of meteorological drivers), in which ED2 simulations used static stand structure (i.e., the forest structure was held constant). The following files are provided:",
+      "ED2_emean_Global_R004_BrAmaz_s1c0t0l0f0.nc. This corresponds to the Control simulation. The forest structure was obtained from the airborne lidar.",
+      "ED2_emean_Global_R005_BrAmaz_s1c0t1l1f0.nc. This corresponds to the Degraded simulation. The forest structure was obtained from a spin-up simulation initialized with airborne lidar and a scenario that expanded deforestation and selective logging across the Amazon.",
+      "ED2_emean_Global_R006_BrAmaz_s1c0t1l0f0.nc. This corresponds to the Recovery simulation. The forest structure was obtained from a spin-up simulation initialized with airborne lidar and a scenario that completely halted deforestation and degradation, allowing degraded forests to recover for 38 years.",
+      "We also provide file ED2_zones_R004_BrAmaz_s1c0t0l0f0.nc, which classifies each grid cell into zones used in the reference manuscript: 1: Southeast. 2: South. 3: West. 4: Central. 5: Northeast. 6: North. 7: Northwest\". Index 0 corresponds to grid cells excluded from sub-region analyses because they were dominated by flooded forests, deforestation, and naturally non-forest vegetation."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5062-6245",
+        "givenName": "Marcos",
+        "familyName": "Longo",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mlongo@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0253-3359",
+        "givenName": "Michael",
+        "familyName": "Keller",
+        "affiliation": "USDA Forest Service, International Institute of Tropical Forestry",
+        "email": "mkeller.co2@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8134-3579",
+        "givenName": "Lara",
+        "familyName": "Kueppers",
+        "affiliation": "University of California Berkeley",
+        "email": "lmkueppers@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8659-1117",
+        "givenName": "Kevin",
+        "familyName": "Bowman",
+        "affiliation": "NASA Jet Propulsion Laboratory (JPL)",
+        "email": "Kevin.w.bowman@jpl.nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4590-3807",
+        "givenName": "Ovidiu",
+        "familyName": "Csillik",
+        "affiliation": "Wake Forest University",
+        "email": "ovidiu.csillik@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5328-5471",
+        "givenName": "Ant\u00f3nio",
+        "familyName": "Ferraz",
+        "affiliation": "NASA Jet Propulsion Laboratory (JPL)",
+        "email": "antonio.a.ferraz@jpl.nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2876-4673",
+        "givenName": "Paul",
+        "familyName": "Moorcroft",
+        "affiliation": "Harvard University",
+        "email": "paul_moorcroft@harvard.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4221-1039",
+        "givenName": "Jean Pierre",
+        "familyName": "Ometto",
+        "affiliation": "Instituto Nacional de Pesquisas Espaciais",
+        "email": "jean.ometto@inpe.br"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7703-946X",
+        "givenName": "Britaldo",
+        "familyName": "Soares-Filho",
+        "affiliation": "Universidade Federal de Minas Gerais",
+        "email": "britaldo@csr.ufmg.br"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9402-9474",
+        "givenName": "Xiangtao",
+        "familyName": "Xu",
+        "affiliation": "Cornell University",
+        "email": "xx286@cornell.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2455-0299",
+        "givenName": "Mauro",
+        "familyName": "de Assis",
+        "affiliation": "Instituto Nacional de Pesquisas Espaciais",
+        "email": "assismauro@hotmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2517-0279",
+        "givenName": "Eric",
+        "familyName": "G\u00f6rgens",
+        "affiliation": "Universidade Federal dos Vales do Jequitinhonha e Mucuri",
+        "email": "eric.gorgens@ufvjm.edu.br"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8994-1258",
+        "givenName": "Erik",
+        "familyName": "Larson",
+        "affiliation": "Harvard University",
+        "email": "erik_larson@fas.harvard.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3653-3848",
+        "givenName": "Jessica",
+        "familyName": "Needham",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jfneedham@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7720-1754",
+        "givenName": "Elsa",
+        "familyName": "Ordway",
+        "affiliation": "University of California Los Angeles",
+        "email": "elsaordway@ucla.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1319-7717",
+        "givenName": "Francisca",
+        "familyName": "Pereira",
+        "affiliation": "Instituto Nacional de Pesquisas Espaciais",
+        "email": "franrspereira@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3714-8175",
+        "givenName": "Ekena",
+        "familyName": "Rangel Pinag\u00e9",
+        "affiliation": "Wildlife Conservation Society",
+        "email": "ekenapinage@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8449-8656",
+        "givenName": "Luciane",
+        "familyName": "Sato",
+        "affiliation": "Instituto Nacional de Pesquisas Espaciais",
+        "email": "lucianesato@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7400-3827",
+        "givenName": "Liang",
+        "familyName": "Xu",
+        "affiliation": "Pachama, Inc.",
+        "email": "xuliang@pachama.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8524-4917",
+        "givenName": "Sassan",
+        "familyName": "Saatchi",
+        "affiliation": "NASA Jet Propulsion Laboratory (JPL)",
+        "email": "Sasan.S.Saatchi@jpl.nasa.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > PRIMARY PRODUCTION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR PROCESSES > EVAPOTRANSPIRATION",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > INCOMING SOLAR RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > VAPOR PRESSURE",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL MOISTURE/WATER CONTENT",
+      "surface_upward_sensible_heat_flux"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Brazilian Amazon",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 5,
+            "longitude": -74
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -14,
+            "longitude": -45
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000104",
+        "name": "National Aeronautics and Space Administration (NASA)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1981-01-01",
+      "endDate": "2018-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5062-6245",
+      "givenName": "Marcos",
+      "familyName": "Longo",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "mlongo@lbl.gov"
+    },
+    "citation": [
+      "Longo, M., M. Keller, L. M. Kueppers, K. Bowman, O. Csillik, A. Ferraz, P. R. Moorcroft, J. P. Ometto, B. S. Soares-Filho, X. Xu, M. L. F. de Assis, E. B. G\u00f6rgens, E. J. L. Larson, J. F. Needham, E. M. Ordway, F. R. S. Pereira, E. Rangel Pinag\u00e9, L. Sato, L. Xu, and S. Saatchi. (2025). Degradation and Deforestation Increase the Sensitivity of the Amazon Forest to Climate Extremes. Environmental Research Letters, in review."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "To carry out the ED2 simulations, we used ED2 initialization files generated following the algorithm described in Longo et al. (2020) and available on https://doi.org/10.5281/zenodo.14768399",
+      "We carried out ED2 simulations using the version tag v.2.2.1-BrAmazALS2, which is available both on GitHub (https://github.com/mpaiao/ED2) and on a permanent archive (https://doi.org/10.5281/zenodo.14736060). Using the boundary conditions archived on Zenodo (https://doi.org/10.5281/zenodo.14773328), we carried out 5 sets of simulations using the configuration settings archived on Zenodo (https://doi.org/10.5281/zenodo.14736560), and used the initial post-processing R scripts available on the same archive.",
+      "The consolidated R objects were converted to NetCDF files using the R Markdown notebooks available on Zenodo (https://doi.org/10.5281/zenodo.14775423), and defining the output for NetCDF files to span from 1981 to 2018."
+    ],
+    "distribution": [
+      {
+        "contentSize": 5.29296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-462135e767ecdc8-20250227T184105446",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-462135e767ecdc8-20250227T184105446",
+        "name": "ED2_zones_R004_BrAmaz_s1c0t0l0f0.nc"
+      },
+      {
+        "contentSize": 1332170.7109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2eab17d11da4d23-20250227T184019788",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-2eab17d11da4d23-20250227T184019788",
+        "name": "ED2_emean_Global_R006_BrAmaz_s1c0t1l0f0.nc"
+      },
+      {
+        "contentSize": 1332170.7109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e09d0e83f67d6e1-20250227T173144387",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-e09d0e83f67d6e1-20250227T173144387",
+        "name": "ED2_emean_Global_R004_BrAmaz_s1c0t0l0f0.nc"
+      },
+      {
+        "contentSize": 1332170.7109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4f9b274321a8fca-20250227T175627257",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-4f9b274321a8fca-20250227T175627257",
+        "name": "ED2_emean_Global_R005_BrAmaz_s1c0t1l1f0.nc"
+      },
+      {
+        "contentSize": 15.953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a697f9ff47c674b-20250310T225835651",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-a697f9ff47c674b-20250310T225835651",
+        "name": "Monthly_averages_of_ED2_model_simulations.xml"
+      }
+    ]
+  }
+}

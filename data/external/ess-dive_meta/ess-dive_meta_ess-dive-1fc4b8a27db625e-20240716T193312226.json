@@ -1,0 +1,192 @@
+{
+  "id": "ess-dive-1fc4b8a27db625e-20240716T193312226",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1834773",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1fc4b8a27db625e-20240716T193312226",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-b8bfbdb8fba45a3-20240716T180047947",
+  "dateUploaded": "2024-07-16T19:33:15.204Z",
+  "dateModified": "2024-07-24T19:02:31.981Z",
+  "isPublic": true,
+  "citation": "Abolt C; Atchley A; Harp D; Rumpca C (2024): Maps of ice wedge thermokarst pool expansion from twenty-seven circumpolar survey areas. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1834773",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1834773",
+    "name": "Maps of ice wedge thermokarst pool expansion from twenty-seven circumpolar survey areas",
+    "description": [
+      "This repository includes data and code to accompany the manuscript 'Topography controls variability in circumpolar permafrost thaw pond expansion' by Abolt et al. The data include satellite imagery and derived maps of thermokarst pools from twenty-seven survey areas in North America and Siberia. The code, written in MATLAB (R2021a), contains demonstrations of the workflow for generating the maps. The demonstrations include training a generalized UNet for mapping thermokarst pools using data from three survey areas, 'fine tuning' the UNet for use at a specific survey area using transfer learning, applying a trained UNet to infer thermokarst pool extent within satellite imagery, and performing histogram matching as a pre-processing step to improve satellite imagery contrast. Contains MATLAB script files and M files, TIF files, shape files, XML, Excel, TXT, and CSV files.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic) was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1834773",
+      "NGA272"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6052-199X",
+        "givenName": "Charles",
+        "familyName": "Abolt",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "cabolt@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2203-1994",
+        "givenName": "Adam",
+        "familyName": "Atchley",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "aatchley@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9777-8000",
+        "givenName": "Dylan",
+        "familyName": "Harp",
+        "email": "dylan@thefreshwatertrust.org"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Collin",
+        "familyName": "Rumpca",
+        "email": "Rumpca@dsu.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "area",
+      "Canada",
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "Siberia",
+      "Alaska",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "Arctic",
+      "thermokarst pool area"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > VISIBLE WAVELENGTHS > VISIBLE IMAGERY"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "PanArctic dataset",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 89,
+            "longitude": 0
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 50,
+            "longitude": 180
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "PanArctic dataset",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 89,
+            "longitude": -180
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 50,
+            "longitude": 0
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2011-07-02",
+      "endDate": "2020-07-06",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6052-199X",
+      "givenName": "Charles",
+      "familyName": "Abolt",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "cabolt@lanl.gov"
+    },
+    "citation": [
+      "Abolt, C. J., A. L. Atchley, D. R. Harp, M. T. Jorgenson, C. Witharana, W. R. Bolton, G. Grosse, I. Nitze, J. Boike, T. Rettelbach, A. K. Liljedahl, C. Rumpca, and C. J. Wilson, in revision, Topography controls variability in circumpolar permafrost thaw pond expansion: Journal of Geophysical Research Earth Surface."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Panchromatic imagery from the WorldView satellites was downloaded from the Digital Globe EnhancedView Web Hosting Service (https://evwhs.digitalglobe.com/). Imagery was re-projected into the local UTM coordinate system at 50 cm horizontal resolution. Thermokarst pools were extracted from the imagery using a workflow which incorporated a convolutional neural network and a fully connected conditional random field, as described in the accompanying manuscript and the notes within the code contained within this data set."
+    ],
+    "distribution": [
+      {
+        "contentSize": 4.3828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-022a9882a8cec1d-20240716T181517614",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-022a9882a8cec1d-20240716T181517614",
+        "name": "README.txt"
+      },
+      {
+        "contentSize": 8.46484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1fc4b8a27db625e-20240716T193312226",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-1fc4b8a27db625e-20240716T193312226",
+        "name": "Maps_of_ice_wedge_thermokarst_pool_expansion_from.xml"
+      },
+      {
+        "contentSize": 2.98828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3bdf267bf676098-20240522T221106868",
+        "encodingFormat": "application/MATLAB",
+        "identifier": "ess-dive-3bdf267bf676098-20240522T221106868",
+        "name": "UnpackData.m"
+      },
+      {
+        "contentSize": 235889.953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d14b153e959213d-20240522T215245978",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d14b153e959213d-20240522T215245978",
+        "name": "workspace.zip"
+      },
+      {
+        "contentSize": 6974888.1953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b1cad4e525bc60a-20240716T180518923",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b1cad4e525bc60a-20240716T180518923",
+        "name": "final_products.zip"
+      }
+    ]
+  }
+}

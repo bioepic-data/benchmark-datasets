@@ -1,0 +1,341 @@
+{
+  "id": "ess-dive-f5cfdfb999b20ac-20250814T020551912",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2583332",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f5cfdfb999b20ac-20250814T020551912",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-cb97f91f3236964-20250804T153616014",
+  "dateUploaded": "2025-08-14T02:05:54.201Z",
+  "dateModified": "2025-08-26T00:44:10.860Z",
+  "isPublic": true,
+  "citation": "Perez G; Coon E; Le P V V; Wright D B; Rathore S S; Nduka I C; Persad G (2025): Data and code for Daily and Multi-Day Extreme Rainfall Analysis Under Future Climates Using Stochastic Storm Transposition and NEX-GDDP-CMIP6 Over CONUS. Southeast Texas Urban Integrated Field Laboratory (SETx UIFL) \u2013 Equitable solutions for communities caught between floods and air pollution. Dataset. doi:10.15485/2583332",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2583332",
+    "name": "Data and code for Daily and Multi-Day Extreme Rainfall Analysis Under Future Climates Using Stochastic Storm Transposition and NEX-GDDP-CMIP6 Over CONUS",
+    "description": [
+      "This data package provides inputs, codes, and outputs for a comprehensive analysis of projected changes in extreme precipitation across 10 regions of the continental United States, using 34 downscaled Earth System Models (ESMs) from the NASA Earth Exchange Global Daily Downscaled Projections, Coupled Model Intercomparison Project Phase 6 (NEX-GDDP-CMIP6) dataset. These models are part of the Coupled Model Intercomparison Project Phase 6 (CMIP6), a coordinated climate modeling framework widely used to assess climate change impacts. The analysis applies a stochastic storm transposition method to quantify changes in extreme rainfall under two Shared Socioeconomic Pathway (SSP) climate scenarios\u2014SSP2-4.5 (moderate emissions) and SSP5-8.5 (high emissions)\u2014compared to historical conditions (1995\u20132014 vs. 2081\u20132100). The dataset includes rainfall depth estimates for extreme events with return periods from 2 to 500 years across multiple storm durations (1, 3, and 5 days) for each of the 10 U.S. regions. Weighted ensemble statistics are derived from individual ESM performance against historical precipitation patterns, enabling robust uncertainty quantification through both sign-based and permutation-test-based model agreement assessments. Key analyses address: (1) relative changes in extreme precipitation for each climate scenario, (2) differences between SSP scenarios (SSP5-8.5 vs. SSP2-4.5), (3) contrasts between rare and frequent events, and (4) variations between multi-day and daily storm durations. The workflow produces ensemble statistics\u2014median, 5th, 25th, 75th, and 95th percentiles\u2014along with model agreement metrics that identify regions and event types with robust climate change signals. The dataset includes: processed rainfall depth outputs (netCDF format) from the RainyDay Python package, ESM weights from historical performance evaluation using DayMet observations, ensemble statistics across all storm dimensions, and figures summarizing key findings."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3880-0874",
+        "givenName": "Gabriel",
+        "familyName": "Perez",
+        "affiliation": "Oklahoma State University",
+        "email": "gabriel.perez_mesa@okstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8124-9622",
+        "givenName": "Ethan",
+        "familyName": "Coon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "coonet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5558-1023",
+        "givenName": "Phong",
+        "familyName": "V. V. Le",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "lepv@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9050-4266",
+        "givenName": "Daniel B.",
+        "familyName": "Wright",
+        "affiliation": "University of Wisconsin - Madison",
+        "email": "danielb.wright@wisc.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0469-2959",
+        "givenName": "Saubhagya S.",
+        "familyName": "Rathore",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "rathoress@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1978-7048",
+        "givenName": "Ifeanyichukwu C.",
+        "familyName": "Nduka",
+        "affiliation": "University of Texas at Austin",
+        "email": "icnduka@jsg.utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4690-0867",
+        "givenName": "Geeta",
+        "familyName": "Persad",
+        "affiliation": "University of Texas at Austin",
+        "email": "geeta.persad@jsg.utexas.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "Extreme Precipitation",
+      "Storm Duration",
+      "Stochastic Storm Transposition",
+      "Climate Projections",
+      "Earth System Models (ESMs)",
+      "NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP)",
+      "Coupled Model Intercomparison Project Phase 6 (CMIP6)",
+      "Downscaled CMIP6"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Southeast Texas (Region 1)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.46,
+            "longitude": -96.28
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 28.33,
+            "longitude": -90.95
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Florida (Region 2)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 28.93,
+            "longitude": -83.17
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 24.4,
+            "longitude": -79.84
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Mid-Atlantic (Region 3)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.73,
+            "longitude": -77.58
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.11,
+            "longitude": -74.42
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Southern Lake Michigan (Region 4)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.45,
+            "longitude": -88.74
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.41,
+            "longitude": -85.73
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Great Plain (Region 5)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.54,
+            "longitude": -96.06
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.5,
+            "longitude": -90.95
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Yellowstone (Region 6)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.94,
+            "longitude": -111.15
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.08,
+            "longitude": -109.25
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Pacific Northwest (Region 7)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.92,
+            "longitude": -124.29
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.57,
+            "longitude": -122.14
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "California Coast (Region 8)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.17,
+            "longitude": -122.6
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.27,
+            "longitude": -119.47
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Desert Southwest (Region 9)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.15,
+            "longitude": -114.73
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.35,
+            "longitude": -111.64
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Northern Texas (Region 10)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.9,
+            "longitude": -103.06
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.75,
+            "longitude": -101.45
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1995-01-01",
+      "endDate": "2100-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3880-0874",
+      "givenName": "Gabriel",
+      "familyName": "Perez",
+      "affiliation": "Oklahoma State University",
+      "email": "gabriel.perez_mesa@okstate.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "20eba4b6-ac19-4616-806a-e253ed67b1af"
+      },
+      "name": "Southeast Texas Urban Integrated Field Laboratory (SETx UIFL) \u2013 Equitable solutions for communities caught between floods and air pollution",
+      "member": {
+        "@type": "Person",
+        "givenName": "Paola",
+        "familyName": "Passalacqua",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of Texas at Austin",
+        "email": "paola@austin.utexas.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Data Collection and Sources\nClimate Model Data: Extreme precipitation analysis utilized 34 Earth System Models (ESMs) from the NEX-GDDP-CMIP6 dataset. The dataset provides bias-corrected and downscaled daily precipitation data at 0.25\u00b0 spatial resolution for three time periods: historical (1995-2014), SSP245 (2081-2100), and SSP585 (2081-2100) scenarios.\nObservational Data: Historical precipitation validation used DayMet daily precipitation observations for the period 1995-2014 to evaluate ESM performance and compute model weights.\nSpatial Domains: Analysis focused on ten climatically homogeneous regions across the continental United States (CONUS), defined using transposition domains that exhibit meteorological homogeneity for stochastic storm transposition applications.",
+      "Data Processing and Extreme Precipitation Analysis\nStochastic Storm Transposition: Raw daily precipitation data from each ESM was processed using the RainyDay Python package to generate rainfall depth estimates for extreme events. The methodology employed stochastic storm transposition to:\nExtract storm catalogs from the climate model data\nApply spatial transposition within defined homogeneous domains\nGenerate synthetic extreme precipitation through resampling\nCompute rainfall depths for return periods of 2, 5, 10, 25, 50, 100, 166.67, and 500 years\nStorm Duration Analysis: Three accumulation periods were analyzed: 1-day, 3-day, and 5-day durations, enabling assessment of both daily and multiday extreme precipitation events.",
+      "Model Performance Evaluation and Weighting\nPerformance Metrics: Individual ESM performance was evaluated against DayMet observations using mean annual precipitation patterns during the historical period (1995-2014). Performance assessment followed established methodologies for climate model evaluation.\nWeight Computation: Model weights were computed for each region based on historical precipitation performance, with better-performing models receiving higher weights in ensemble calculations. Weights were normalized to sum to 100% for each region.",
+      "Statistical Analysis and Ensemble Computation\nRelative Change Calculation: For each ESM, region, duration, and return period, relative changes (RC) were computed as: RC = (Future - Historical) / Historical \u00d7 100%\nEnsemble Statistics: Both weighted and unweighted ensemble statistics were computed, including:\nMedian (50th percentile)\nInterquartile range (25th and 75th percentiles)\n90% confidence interval (5th and 95th percentiles)\nComparative Analysis: Differences in relative changes (\u0394RC) were computed for:\nScenario comparison: \u0394RC = RC(SSP585) - RC(SSP245)\nEvent rarity: \u0394RC = RC(rare events) - RC(common events)\nDuration comparison: \u0394RC = RC(multiday) - RC(daily)",
+      "Model Agreement Assessment\nSign-Based Agreement: Model agreement was quantified using the percentage of models agreeing on the direction of change (increase or decrease) for each variable and location.\nPermutation Test-Based Agreement: Statistical significance of model agreement was assessed using permutation tests to distinguish robust climate change signals from random variability. This approach provides a more stringent assessment of model consensus by accounting for the expected level of agreement due to chance.\nWeighted Agreement: Both unweighted (equal weight for all models) and weighted (performance-based weights) agreement metrics were computed to assess the sensitivity of conclusions to model performance.",
+      "Quality Assurance and Quality Control (QA/QC)\nData Integrity Checks:\nVerification of complete temporal coverage for all ESMs across historical and future periods\nValidation of spatial domain consistency across models\nCross-checking of return period calculations against theoretical expectations\nStatistical Validation:\nVerification that ensemble statistics sum to 100% where appropriate\nConsistency checks between weighted and unweighted analyses\nValidation of agreement metrics against expected random distributions\nReproducibility Measures:\nStandardized file naming conventions for all outputs\nComplete documentation of processing parameters in NetCDF metadata\nVersion control of analysis scripts and configuration files",
+      "Data Organization and Documentation\nAll processed data, intermediate results, and final statistics are organized in NetCDF format with comprehensive metadata including:\nData provenance and processing history\nVariable descriptions and units\nSpatial and temporal coordinate information\nProcessing parameters and methodology references\nThe complete computational workflow is documented through eight Jupyter notebooks that provide full reproducibility of the analysis from raw climate model data to final ensemble statistics and visualizations."
+    ],
+    "distribution": [
+      {
+        "contentSize": 181.8837890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-13c9b1008ebb7f7-20250804T153632722",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-13c9b1008ebb7f7-20250804T153632722",
+        "name": "Readme.pdf"
+      },
+      {
+        "contentSize": 201581.1298828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6012ad38d92d0c3-20250804T153642444",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6012ad38d92d0c3-20250804T153642444",
+        "name": "Data_codes_extreme_rainfall_NEX_GDDP_CMIP6_CONUS.zip"
+      },
+      {
+        "contentSize": 16.7880859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f5cfdfb999b20ac-20250814T020551912",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f5cfdfb999b20ac-20250814T020551912",
+        "name": "Data_and_code_for_Daily_and_Multi_Day_Extreme.xml"
+      }
+    ]
+  }
+}

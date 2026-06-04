@@ -1,0 +1,289 @@
+{
+  "id": "ess-dive-811ab9412c1fa65-20250812T220444843",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2404585",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-811ab9412c1fa65-20250812T220444843",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-811ab9412c1fa65-20250724T222750545",
+  "dateUploaded": "2025-08-12T22:04:45.883Z",
+  "dateModified": "2025-08-12T22:04:46.531Z",
+  "isPublic": true,
+  "citation": "Worsham H M; Wainwright H; Powell T; Falco N; Kueppers L (2025): Data from: 'Abiotic influences on continuous conifer forest structure across a subalpine watershed'. Integrating tree hydraulic trait, forest stand structure, and topographic controls on ecohydrologic function in a Rocky Mountain subalpine watershed. Dataset. doi:10.15485/2404585",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2404585",
+    "name": "Data from: 'Abiotic influences on continuous conifer forest structure across a subalpine watershed'",
+    "description": [
+      "This package archives the core data used for analysis and inference in 'Abiotic influences on continuous conifer forest structure across a subalpine watershed' (Worsham et al., 2025). All data were collected in the East River, Washington Gulch, Slate River, and Coal Creek watersheds of Colorado. In the paper, we quantified the relative influence of climate, topographic, edaphic, and geologic factors on conifer stand structure and composition, and their functional relationships, at the watershed scale. We used waveform LiDAR data to derive spatially continuous stand structure metrics. We fused these with a species-level classification map to estimate tree species abundance. We applied generalized additive and generalized boosted models to evaluate the covariability of structural and compositional metrics with abiotic variables. The package contains the essential products required for reproducing our analysis and the tables and figures reported in the publication. The products comprise four classes: (1) geospatial data, (2) tabular data used for inferential analysis, (3) tabular data describing analytical results and performance statistics, and (4) a data user guide. (1) includes discretized waveform LiDAR data, locations and attributes of individual tree crowns, sampling locations and domain boundaries, a canopy height model, and raster files of estimated forest structural and compositional metrics at 100 m grid scale. (2) includes all response and explanatory variable values applied in inferential models. Response variables include conifer forest stand density, basal area, 95th percentile height, quadratic mean diameter, and others. Explanatory variables include climatic water deficit, actual evapotranspiration, elevation, heat load, soil available water content, and others. (3) includes results of training and testing several individual tree detection (ITD) algorithms, as well as inferential modeling results. (4) is a PDF user guide for this data package, including detailed descriptions and data dictionaries for all files. The data package root contains 17 assets: 8 compressed tape archive (.tar.gz) files, 5 comma-separated values (.csv) files, 3 Geographic Tagged Image File Format (GeoTIFF) (.tif) files, and 1 Portable Document Format (.pdf) file. The compressed .tar.gz archives contain ESRI shapefiles (.shp) .tif, compressed LASer (.laz), and .csv files. The archives must first be decompressed using the widely distributed command-line software utility TAR. All other files, including constituent files within the .tar.gz archives, can be opened in the open-source R statistical computing environment. Alternatively, .csv files may also be read in any simple text editor software or Microsoft Excel. Geospatial files including .shp and .tif files can also be opened in GIS software, such as QGIS (open-source) or ESRI ArcGIS (proprietary). The .pdf Data User Guide can be read with Adobe Acrobat Reader or other compatible readers."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7924-040X",
+        "givenName": "H. Marshall",
+        "familyName": "Worsham",
+        "affiliation": "University of California Berkeley",
+        "email": "worsham@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2140-6072",
+        "givenName": "Haruko",
+        "familyName": "Wainwright",
+        "affiliation": "Massachusetts Institute of Technology",
+        "email": "hmwainw@mit.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3516-7164",
+        "givenName": "Thomas",
+        "familyName": "Powell",
+        "affiliation": "The University of the South",
+        "email": "tlpowell@sewanee.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3307-6098",
+        "givenName": "Nicola",
+        "familyName": "Falco",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "nicolafalco@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8134-3579",
+        "givenName": "Lara",
+        "familyName": "Kueppers",
+        "affiliation": "University of California Berkeley",
+        "email": "lmkueppers@berkeley.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY",
+      "Forest structure",
+      "Forest composition",
+      "Subalpine",
+      "Remote sensing",
+      "LiDAR",
+      "NEON AOP",
+      "NEON Campaign 2018"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > FOREST COMPOSITION/VEGETATION STRUCTURE: VARIABLE:GCMD",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CANOPY CHARACTERISTICS: VARIABLE:GCMD",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CROWN: VARIABLE:GCMD",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW WATER EQUIVALENT: VARIABLE:GCMD",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL MOISTURE/WATER CONTENT: VARIABLE:GCMD",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL PH: VARIABLE:GCMD",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION > DIGITAL ELEVATION/TERRAIN MODEL (DEM): VARIABLE:GCMD",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > CATION EXCHANGE CAPACITY: VARIABLE:GCMD",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > HYDRAULIC CONDUCTIVITY: VARIABLE:GCMD",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > ORGANIC MATTER: VARIABLE:GCMD",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR PROCESSES > EVAPOTRANSPIRATION: VARIABLE:GCMD",
+      "EARTH SCIENCE > LAND SURFACE > SURFACE RADIATIVE PROPERTIES > REFLECTANCE: VARIABLE:GCMD",
+      "Canopy_height: VARIABLE:CF",
+      "Discretized waveform LiDAR: VARIABLE:NONE",
+      "Climatic water deficit: VARIABLE:NONE",
+      "Generalized boosted model performance: VARIABLE:NONE",
+      "Generalized additive model performance: VARIABLE:NONE",
+      "Geologic substrate: VARIABLE:NONE",
+      "Individual tree crowns: VARIABLE:NONE",
+      "Individual tree detection algorithm performance: VARIABLE:NONE",
+      "Sampling location identifiers: VARIABLE:NONE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The NSF NEON Airborne Observation Platform (AOP) acquired raw waveform LiDAR and hyperspectral data exploited for this dataset over a 334 km<sup>2</sup> footprint spanning the East River, Washington Gulch, Slate River, and Coal Creek watersheds in the in the Elk Range of the Colorado Rocky Mountains, USA. Field data used in this experiment were collected from plots installed as part of a long-term subalpine conifer forest demography study in the same watersheds, as well as the adjacent Carbon Creek and Brush Creek watersheds. A total of 25 demography plots were censused, but data from only 22 sites were used for this publication.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.04,
+            "longitude": -107.129
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.814,
+            "longitude": -106.877
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-06-12",
+      "endDate": "2022-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7924-040X",
+      "givenName": "H. Marshall",
+      "familyName": "Worsham",
+      "email": "worsham@berkeley.edu"
+    },
+    "citation": [
+      "Worsham H M ; Wainwright H M ; Powell T L ; Falco N ; Kueppers L M (2025). Abiotic influences on continuous conifer forest structure across a subalpine watershed. Remote Sens. Env. 318, 114587. doi: 10.1016/j.rse.2024.114587.",
+      "Goulden T ; Worsham H M ; Hass B ; Brodie E ; Chadwick K D ; Falco N ; Maher K ; Wainwright H ; Williams K ; Kueppers L (2024): NEON AOP Survey of Upper East River CO Watersheds: Waveform LiDAR Binary Data. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/2403350"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a69ad334-b336-4aae-99fa-b7105872d994"
+      },
+      "name": "Integrating tree hydraulic trait, forest stand structure, and topographic controls on ecohydrologic function in a Rocky Mountain subalpine watershed",
+      "member": {
+        "@type": "Person",
+        "givenName": "Lara",
+        "familyName": "Kueppers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "University of California, Berkeley",
+        "email": "lmkueppers@berkeley.edu"
+      }
+    },
+    "measurementTechnique": [
+      "We used full-waveform LiDAR acquired by the NSF National Ecological Observatory Network (NEON) Airborne Observation Platform (AOP) over Colorado\u2019s East River watershed to quantify forest stand structure through the vertical profile. We integrated these metrics with individual-scale species data derived from co-acquired imaging spectrometry. We assessed the accuracy of structural and compositional estimates against measurements from field inventory. We then used inferential models to quantify the relative influence of abiotic factors on the spatial variability of stand structure and composition. For the detailed description of materials and methods, see the publication corresponding to this dataset."
+    ],
+    "distribution": [
+      {
+        "contentSize": 487.9189453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-000512b86ccd996-20240702T000538123",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-000512b86ccd996-20240702T000538123",
+        "name": "itd_results_tar.gz"
+      },
+      {
+        "contentSize": 4.7890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-09a40efbda23a8b-20240702T000554812",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-09a40efbda23a8b-20240702T000554812",
+        "name": "gbm_relative_influence.csv"
+      },
+      {
+        "contentSize": 1965.4599609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-178307ad1d3f865-20240722T193039447",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-178307ad1d3f865-20240722T193039447",
+        "name": "explanatory_rasters_tar.gz"
+      },
+      {
+        "contentSize": 114.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3e01c18f9d4bedc-20240702T000609317",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-3e01c18f9d4bedc-20240702T000609317",
+        "name": "eastriver_aop_2018_boundary_tar.gz"
+      },
+      {
+        "contentSize": 5.056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3b3190e69a13c6a-20240701T230752544",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-3b3190e69a13c6a-20240701T230752544",
+        "name": "kueppers_eastriver_allplots_centroid_2023_WGS84UTM13N_tar.gz"
+      },
+      {
+        "contentSize": 30.1591796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-61b9fa4913373c4-20240701T230719885",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-61b9fa4913373c4-20240701T230719885",
+        "name": "uc2_chm.tif"
+      },
+      {
+        "contentSize": 512.4228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5bd24ea215f31f0-20240702T000601545",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-5bd24ea215f31f0-20240702T000601545",
+        "name": "forest_structure_rasters_tar.gz"
+      },
+      {
+        "contentSize": 118526.03125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-49ee7757f9b2569-20240701T230719879",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-49ee7757f9b2569-20240701T230719879",
+        "name": "trees_species_masked_5m.csv"
+      },
+      {
+        "contentSize": 330.3291015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-53dbe7bc351c4e9-20250109T225929903",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-53dbe7bc351c4e9-20250109T225929903",
+        "name": "worsham_etal_2024_data_user_guide.pdf"
+      },
+      {
+        "contentSize": 3067901.9443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7b0c0ff46c071c1-20240701T230719846",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7b0c0ff46c071c1-20240701T230719846",
+        "name": "trees_masked_5m.csv"
+      },
+      {
+        "contentSize": 14.94921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-811ab9412c1fa65-20250812T220444843",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-811ab9412c1fa65-20250812T220444843",
+        "name": "Data_from_Abiotic_influences_on_continuous.xml"
+      },
+      {
+        "contentSize": 43448537.98339844,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7179219d9d715f1-20240719T135436685904",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-7179219d9d715f1-20240719T135436685904",
+        "name": "las_decimated.tar.gz"
+      },
+      {
+        "contentSize": 1989.2041015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-719ae190e0b6366-20250107T031128494",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-719ae190e0b6366-20250107T031128494",
+        "name": "eastriver_census1_data_collated.csv"
+      },
+      {
+        "contentSize": 320454.125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ac0d8e9a3cfa648-20240702T000616683",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-ac0d8e9a3cfa648-20240702T000616683",
+        "name": "aop_naip_ortho_3m.tif"
+      },
+      {
+        "contentSize": 6.3046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9bdef858ed7643e-20240701T230752561",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-9bdef858ed7643e-20240701T230752561",
+        "name": "kueppers_eastriver_allplots_polygon_2023_WGS84UTM13N_tar.gz"
+      },
+      {
+        "contentSize": 327.6875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-975f0caabf98feb-20240701T230752570",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-975f0caabf98feb-20240701T230752570",
+        "name": "optimal_itd_tar.gz"
+      },
+      {
+        "contentSize": 1572546.1220703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c123b1b369deb98-20240722T194015808",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-c123b1b369deb98-20240722T194015808",
+        "name": "dem.tif"
+      },
+      {
+        "contentSize": 8199.9912109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b86b434da14013b-20240702T000629386",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b86b434da14013b-20240702T000629386",
+        "name": "all_variables_unscaled.csv"
+      }
+    ]
+  }
+}

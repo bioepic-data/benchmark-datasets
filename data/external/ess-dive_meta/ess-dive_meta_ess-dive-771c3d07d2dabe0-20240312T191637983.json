@@ -1,0 +1,222 @@
+{
+  "id": "ess-dive-771c3d07d2dabe0-20240312T191637983",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2332921",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-771c3d07d2dabe0-20240312T191637983",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-2bd93fec558cca5-20240312T022707203",
+  "dateUploaded": "2024-03-12T19:16:38.974Z",
+  "dateModified": "2024-04-05T00:01:21.130Z",
+  "isPublic": true,
+  "citation": "Ture\u021bcaia A B; Garayburu-Caruso V A; Kaufman M H; Danczak R E; Stegen J C; Chu R K; Toyoda J G; Cardenas M B; Graham E B (2023): Water chemistry in flume channel and hyporheic zone (i.e., porewater) associated with: \u201cRethinking Aerobic Respiration in the Hyporheic Zone Under Variation in Carbon and Nitrogen Stoichiometry\u201d. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2332921",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2332921",
+    "name": "Water chemistry in flume channel and hyporheic zone (i.e., porewater) associated with: \u201cRethinking Aerobic Respiration in the Hyporheic Zone Under Variation in Carbon and Nitrogen Stoichiometry\u201d",
+    "description": [
+      "Dissolved oxygen (DO), total organic carbon (TOC), total nitrogen (TN), molecular data for organic matter, and biochemical reactions for surface water and porewater (i.e., hyporheic zone) collected from a water recirculating flume located at the University of Texas, Austin. The flume contained real river water from Lower Colorado River(Austin, TX) and clean sand. Hyporheic exchange in the flume was induced through The study aims to understand relationships between aerobic metabolism of organic matter and molecular characteristics of organic matter, such as thermodynamic signature and nitrogen content, through the extent of the hyporheic zone at 10 cm- resolution, and through time. During the experiment, organic matter (dry leaves) was added to the flume and removed after 24 hours. The water samples were collected before the addition of leaves, at the time of removal of leaves, and at hour 72. The water samples were analyzed using ultrahigh resolution Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS) and total organic carbon (TOC) and total nitrogen (TN) analysis. Dissolved oxygen content throughout the surface water and the hyporheic zone of the flume was measured with a large planar optode.",
+      "This data package is associated with the publication \u2019 Rethinking Aerobic Respiration in the Hyporheic Zone Under Variation in Carbon and Nitrogen Stoichiometry\u2019 published in Environmental Science and Technology (Ture\u021bcaia et al., 2023 https://doi.org/10.1021/acs.est.3c04765).",
+      "The dataset is comprised of five folders (1) Diss_O2_pic, (2) input_files (3) output_files; (4) python_code; and (5) R_code . Diss_O2_pic contains siximages of dissolved oxygen distribution in a bedform at hours 0, 24, and 72 of the experiment conducted in a large recirculation flume. Images are in separate R and G channels (i.e., RGB). The input_files contains (1) a csv file with FTICR peaks identified within each sample, (2) a csv file with molecular information pertinent to FTICR data with Gibbs free energy calculations adjusted for environmental temperature, (3) a csv file containing concentrations of non-purgeable organic carbon measured throughout the experiment , (4) a csv file containing concentrations of total nitrogen measured throughout the experiment, (5) a csv file containing total biochemical reactions (i.e., transformations) identified in the dataset, (6) a csv containing transformation profiles, and (7) a csv file containing transformations with formulas, and (8) a jpg file with schematic representation of locations for sample collection. The output_files contains (1) and xlsx file containing percent biochemical reactions containing nitrogen identified across all 39 sample, (2) a csv file of merged FTICR data and molecular information files, (3) a csv files containing average Gibbs free energy within sampling domains and at each sampling location, (4) a csv file with average concentrations of dissolved oxygen across sampling locations at hour 0, (5) a csv file with average concentrations of dissolved oxygen across sampling locations at hour 24, (6) a csv file with average concentrations of dissolved oxygen across sampling locations at hour 72, (7) a csv file with percent chemical classes identified across sampling locations at hour 0, (8) a csv file with percent chemical classes identified across sampling locations at hour 24, (9) a csv file with percent chemical classes identified across sampling locations at hour 72, and (10) a csv file containing percent nitrogen containing biochemical reactions identified across sampling locations at hours 0, 24, and 72. The python_code contains seven ipynb files which are Jupyter Notebooks used for data analysis and figures generation. The R_code contains 3 R files with R code used for data analysis and figures generation. This data package contains the processed data used in the associated manuscript. This data has not been previously published."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1630-5741",
+        "givenName": "Anna B.",
+        "familyName": "Ture\u021bcaia",
+        "affiliation": "University of Texas at Austin",
+        "email": "aturetcaia@utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1498-8219",
+        "givenName": "Matthew H.",
+        "familyName": "Kaufman",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "matthew.kaufman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert E.",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "james.stegen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Rosalie K.",
+        "familyName": "Chu",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "rosalie.chu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6299-2146",
+        "givenName": "Jason G.",
+        "familyName": "Toyoda",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "jason.toyoda@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6270-3105",
+        "givenName": "M. Bayani",
+        "familyName": "Cardenas",
+        "affiliation": "The University of Texas at Austin",
+        "email": "Cardenas@jsg.utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4623-7076",
+        "givenName": "Emily B.",
+        "familyName": "Graham",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "emily.graham@pnnl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Pawel M.",
+        "familyName": "Wojtowicz",
+        "email": "pawelmwo@gmail.com"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "River corridor",
+      "Flume",
+      "Nutrient cycling",
+      "Dissolved organic matter",
+      "Hyporheic zone",
+      "FTICR-MS",
+      "Aerobic metabolism",
+      "Metabolomics",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "Dissolved oxygen",
+      "Total nitrogen",
+      "Total organic carbon",
+      "Optode images of dissolved oxygen distribution"
+    ],
+    "variableMeasured": [
+      "FTICR-MS",
+      "Organic matter thermodynamic traits (Gibbs free energy)",
+      "Dissolved oxygen",
+      "Nonpurgeable organic carbon",
+      "Total nitrogen",
+      "Biochemical reactions (Transformations)"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Water recirculating flume at the University of Texas at Austin using river water from Lower Colorado River, TX.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 30.232612,
+            "longitude": -97.653293
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30.232612,
+            "longitude": -97.653293
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0014664",
+      "DE-SC0018042",
+      "EMSL User proposal 51750"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Office of Workforce Development for Teachers and Scientists > Office of Science Graduate Student Research (SCGSR)"
+      },
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Environmental Molecular Science Laboratory > Office of Science User Facility > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019",
+      "endDate": "2019",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1630-5741",
+      "givenName": "Anna",
+      "familyName": "Turetcaia",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "anna.turetcaia@pnnl.gov"
+    },
+    "citation": [
+      "Ture\u021bcaia et al., 2023, \u2019Rethinking Aerobic Respiration in the Hyporheic Zone Under Variation in Carbon and Nitrogen Stoichiometry\u2019, ES&T, https://doi.org/10.1021/acs.est.3c04765."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "For full description of methods, see the manuscript and the supplementary material of Turetcaia et al., 2023 (https://doi.org/10.1021/acs.est.3c04765).",
+      "The study used a large water recirculating flume with natural river water (Lower Colorado River, Austin Texas, USA) and clean play-sand (Pioneer Sands in Brady, Texas, USA). The size of the flume (5m (L) x 0.3m (W) x 0.7m (D)) allows HZ sampling at high spatial resolution while also mimicking natural stream dynamics. Hyporheic flow in and out of the sand was induced via manually shaped bedforms. The stoss side of the bedform or the downwelling side of the HZ is referred to as \"DW\", and the lee side of the bedform or the upwelling side of the HZ is referred to as \"UW\". No particulate organic matter was added to the sand. Rigid insulating foam and a black plastic sheet covered flume top and the walls to offset temperature and light variation, known to impact metabolic activity and DOM photodegradation. The system was given a five-month incubation period to populate the sand with microbes while periodically adding leaf leachate. After the incubation, for this experiment, we added 200 grams of loosely packed, slightly crushed dry leaves in a permeable double-bag into the flume channel for 24 hours. This process allowed DOM to leach into the system while minimizing input of particulates.\nSurface water and porewater samples were collected before the addition of leaves \"hour 0\", at the time of removal of leaves \u201chour 24\", and at \"hour 72\". To investigate relationships between preferential utilization of DOM across HZ flowpaths and the spatiotemporal evolution of C/N ratios, sampling locations captured porewater composition in DW and UW spatial domains of the HZ between 10-60 cm depths at 10 cm intervals. Porewater samples were collected from a single bedform via drive-point method using sterile syringes attached to the stainless-steel mini-piezometers with Tygon tubing equipped with a stopcock and sterile 0.22\u03bcm polyethersulfone filters into pre-combusted VOA vials (pre-acidified for FTICR-MS and not acidified for non-purgeable organic carbon (NPOC) and total nitrogen (TN) analysis). Sample collection was constrained to a single bedform to match the extent of the DO monitoring equipment. Channel water samples were collected directly using syringes. The pH was measured at the time of collection. In total, we collected 39 samples between hour-0 and hour-72, as 3 channel water samples and 36 porewater samples from DW and UW combined.\nSamples designated for FTICR-MS molecular analysis were shipped on blue ice to Pacific Northwest National Laboratory (Richland Washington, USA) and frozen at -20 \u00b0C until analysis. TOC and TN analysis were conducted at the University of Texas, at Austin, Department of Earth and Planetary Sciences, Laboratory for aqueous geochemistry."
+    ],
+    "distribution": [
+      {
+        "contentSize": 15.0703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-771c3d07d2dabe0-20240312T191637983",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-771c3d07d2dabe0-20240312T191637983",
+        "name": "Water_chemistry_in_flume_channel_and_hyporheic.xml"
+      },
+      {
+        "contentSize": 28058.0322265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a03ec7a74096ddd-20240312T022612435",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a03ec7a74096ddd-20240312T022612435",
+        "name": "Turetcaia_2023.zip"
+      }
+    ]
+  }
+}

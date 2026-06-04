@@ -1,0 +1,190 @@
+{
+  "id": "ess-dive-cda4e16a7ff07a7-20230522T062628666",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1974598",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-cda4e16a7ff07a7-20230522T062628666",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-7f870ed418bed47-20230505T005028120",
+  "dateUploaded": "2023-05-22T06:26:29.181Z",
+  "dateModified": "2023-05-24T07:00:19.415Z",
+  "isPublic": true,
+  "citation": "Shao S; Pries C H; Sulman B; Wurzburger N (2023): Ectomycorrhizal effects on decomposition are highly dependent on fungal traits, climate, and litter properties: A model-based assessment. Dataset.. Testing mechanisms of how mycorrhizal associations affect forest soil carbon and nitrogen cycling. Dataset. doi:10.15485/1974598",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1974598",
+    "name": "Ectomycorrhizal effects on decomposition are highly dependent on fungal traits, climate, and litter properties: A model-based assessment. Dataset.",
+    "description": [
+      "To simulate the effects of mycorrhizal fungi on soil organic matter cycling, we incorporated mycorrhizal processes into the Carbon, Organisms, Rhizosphere, and Protection in the Soil Environment (CORPSE) model to develop a new soil model Myco-CORPSE. The new model was calibrated and evaluated against soil measurements taken at temperate forests in New Hampshire (NH) and Georgia (GA). A series of scenario analysis were also conducted to explore the conditions under which ectomycorrhizal (ECM) N acquisition processes can induce different soil C accumulation in ECM systems compared to arbuscular (AM) systems.",
+      "In this data package, we included:",
+      "-The Python codes of the standard Myco-CORPSE model we developed: \"Standard Myco_CORPSE python codes.zip\". The main program is the \"gradient_sim.py\" which calculates the bulk soil microbes and CN content along a user defined gradient of clay, soil temperature, soil moisture and mycorrhizal dominance, and relies on two subprograms \"CORPSE_deriv.py\" and \"CORPSE_integrate.py\". \"CORPSE_deriv.py\" calculated the changes in all simulated soil stock within every time step and \"CORPSE_integrate.py\" integrate the changes in all simulated soil stock within simulated time period. The program \"Plot.py\" is used to plot the major outputs produced by the main program \"gradient_sim.py\".",
+      "-The modified Python codes of Myco-CORPSE models with site-level environmental inputs (in NH and GA) used to conduct simulations in NH and GA sites: \"NH_GA model simulations.zip\".",
+      "-The Python codes used to evaluate the Myco-CORPSE simulation outputs in NH and GA sites against site-level measurements: \"Plot NH_GA simulation against measurements.zip\". It includes both the evaluation Python code, the model outputs on NH and GA sites, and the measured soil properties in both sites.",
+      "-The modified Python codes of Myco-CORPSE models \"Scenario analysis_model simulations.zip\" that is used to conduct scenario analysis of how different litter properties, mycorrhizal fungal traits, climate, and seasonal variation in temperature and vegetation phenology impact the mycorrhizal effects on soil CN properties. The sub file folder \"Scenario analysis_litter traits\" contains the codes for scenario analysis of different litter properties; The sub file folder \"Scenario analysis_ECM types\" contains the codes for scenario analysis of different ECM fungal traits; The sub file folder \"Scenario analysis_climate&seasonality\" contains the codes for scenario analysis of different climate and seasonalities;",
+      "-\"Scenario analysis_model results and plotting codes.zip\" contains all the output files from the the scenario analysis of Myco-CORPSE model as described above and the plotting codes used to the generate the heatmaps and scatterplots shown in the manuscript \"Ectomycorrhizal effects on decomposition are highly dependent on fungal traits, climate, and litter properties: A model-based assessment\"",
+      "The majority of the model outputs did not have specific geographic information or temporal coverage because the analysis we conducted are mainly hypothetical model simulations. We only provided geographic description, coordinates and temporal coverage for those soil measurements which we used for model evaluations (included in the \"Plot NH_GA simulation against measurements.zip\")."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8449-986X",
+        "givenName": "Siya",
+        "familyName": "Shao",
+        "email": "siya.shao@mail.mcgill.ca"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0813-2211",
+        "givenName": "Caitlin",
+        "familyName": "Hicks Pries",
+        "email": "caitlin.hicks.pries@dartmouth.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3265-6691",
+        "givenName": "Benjamin",
+        "familyName": "Sulman",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "sulmanbn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6143-0317",
+        "givenName": "Nina",
+        "familyName": "Wurzburger",
+        "affiliation": "University of Georgia",
+        "email": "ninawurz@uga.edu"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "Process-based Model",
+      "Mycorrhizal fungi",
+      "Soil Organic Carbon",
+      "Soil Organic Nitrogen",
+      "Ectomycorrhizal fungi"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Hanover/Etna, New Hampshire (Moose Mountain) (NH sites)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.719219,
+            "longitude": -72.165257
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.719219,
+            "longitude": -72.165257
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Chattahoochee National Forest, Georgia (GA sites)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.957273,
+            "longitude": -83.481655
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.957273,
+            "longitude": -83.481655
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2017-01-01",
+      "endDate": "2017-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8449-986X",
+      "givenName": "Siya",
+      "familyName": "Shao",
+      "email": "siya.shao@mail.mcgill.ca"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1afc0f54-6cec-4372-8158-cb909116f99d"
+      },
+      "name": "Testing mechanisms of how mycorrhizal associations affect forest soil carbon and nitrogen cycling",
+      "member": {
+        "@type": "Person",
+        "givenName": "Caitlin",
+        "familyName": "Pries",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Trustees of Dartmouth College, Hanover, NH",
+        "email": "caitlin.hicks.pries@dartmouth.edu"
+      }
+    },
+    "measurementTechnique": [
+      "We used top soil measurements taken in two temperate forest sites in New Hampshire and Georgia respectively. The detailed description of how those soil measurements were collected can be found in Hicks Pries et al. (2022).\nHicks Pries, Caitlin E., et al. \"Differences in soil organic matter between EcM\u2010and AM\u2010dominated forests depend on tree and fungal identity.\" Ecology 104.3 (2023): e3929."
+    ],
+    "distribution": [
+      {
+        "contentSize": 17.65625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-14edd8dda696e2a-20230502T090118732",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-14edd8dda696e2a-20230502T090118732",
+        "name": "Standard_Myco_CORPSE_python_codes.zip"
+      },
+      {
+        "contentSize": 134197.84375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-180c3e79e25e047-20230502T090118741",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-180c3e79e25e047-20230502T090118741",
+        "name": "Scenario_analysis_model_results_and_plotting_codes.zip"
+      },
+      {
+        "contentSize": 44.8134765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-30d222fc5d32fb7-20230502T090118739",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-30d222fc5d32fb7-20230502T090118739",
+        "name": "Scenario_analysis_model_simulations.zip"
+      },
+      {
+        "contentSize": 5.798828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-52833791efce37b-20230504T234312180",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-52833791efce37b-20230504T234312180",
+        "name": "Plot_NH_GA_simulations.py"
+      },
+      {
+        "contentSize": 28.4208984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5f3a8069cb701ac-20230504T234312177",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-5f3a8069cb701ac-20230504T234312177",
+        "name": "NH_GA_simulation.zip"
+      },
+      {
+        "contentSize": 9.3193359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cda4e16a7ff07a7-20230522T062628666",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-cda4e16a7ff07a7-20230522T062628666",
+        "name": "Ectomycorrhizal_effects_on_decomposition_are.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "id": "ess-dive-9ea5fe57db73c90-20241024T093714082510",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2453885",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-9ea5fe57db73c90-20241024T093714082510",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-0b3b4e0599390ff-20241024T143038818",
+  "dateUploaded": "2024-10-24T16:37:15.860Z",
+  "dateModified": "2024-10-26T00:00:28.757Z",
+  "isPublic": true,
+  "citation": "Carroll R; Williams K (2024): Groundwater and Surface Water Flow (GSFLOW) model files to explore bedrock circulation depth and porosity in Copper Creek, Colorado. Watershed Function SFA. Dataset. doi:10.15485/2453885",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2453885",
+    "name": "Groundwater and Surface Water Flow (GSFLOW) model files to explore bedrock circulation depth and porosity in Copper Creek, Colorado",
+    "description": [
+      "This data package contains integrated hydrological model input and output files for Copper Creek, Colorado (24 km2), a tributary of the East River located in the headwaters of the Upper Colorado River Basin. The model code is the U.S. Geological Survey (USGS) Groundwater and Surface Water Flow (GSFLOW) model. The model contains a 100-m grid resolution and a daily timestep. The land surface model is dynamically linked to a three-dimensional groundwater flow model that allows for streamflow gaining and losing conditions. The groundwater model contains 12 model layers and extends 400 m below land surface. The original Copper Creek model was modified to contain geologic layers representing saprolite, shallow bedrock, and deep bedrock. Endmember depth versus hydraulic conductivity relationships and porosity values for fractured crystalline rock are simulated. For the shallow case, median flow depths occur in the shallow saprolite at depths <8 m, while the deep case promotes a median groundwater flow depth of 100 m. With this modeling framework we compare streamflow response to a plausible worst-case drought lasting up to five years. Streamflow metrics of analysis include average streamflow, fraction of stream network that is dry, no-flow duration, average groundwater flow to streams and time to recovery following the drought. Results and implications are presented in a paper submitted to Geophysical Research Letters titled, \"The role of bedrock circulation depth and porosity in mountain streamflow response to prolonged drought\" by Rosemary WH. Carroll, Andrew H. Manning and Kenneth H Williams. A Readme.txt file provides instructions on how to download all model files and execute each model scenario. In addition to the GSFLOW output/prms/copper_drought.csv file containing daily basin water stores and fluxes (refer to GSFLOW manual) and the output/prms/copper_drought_statvar.dat file with output defined in the gsflow3.control file (refer to GSFLOW Manual), output files also include spatially distributed daily values of total evapotranspiration, canopy evaporation, precipitation, snowfall, infiltration, snow water equivalent, potential evapotranspiration, recharge, sublimation, soil moisture, contributing interflow, water table elevations, changes in groundwater storage, groundwater evapotranspiration, interbasin groundwater flow (limited to the alluvium below the stream outlet), and surface-groundwater exchanges within the river system."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9302-8074",
+        "givenName": "Rosemary",
+        "familyName": "Carroll",
+        "affiliation": "Desert Research Institute",
+        "email": "rosemary.carroll@dri.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      }
+    ],
+    "datePublished": "2024-10-01",
+    "keywords": [
+      "East River",
+      "Groundwater and Surface Water Flow (GSFLOW) Model",
+      "hydraulic conductivity",
+      "porosity",
+      "streamflow",
+      "low-flow"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Copper Creek, Colorado (a tributary of the East River)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0165729,
+            "longitude": -106.9901761
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.95674,
+            "longitude": -106.9065798
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2023) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0165729,
+            "longitude": -106.9901761
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.95674,
+            "longitude": -106.9065798
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2002-10-01",
+      "endDate": "2014-10-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9302-8074",
+      "givenName": "Rosemary",
+      "familyName": "Carroll",
+      "affiliation": "Desert Research Institute",
+      "email": "rosemary.carroll@dri.edu"
+    },
+    "citation": [
+      "Original Model filesCarroll, R., Deems, J., Niswonger, R., Schumer, R., Williams, K.H. (2019). The importance of interflow to groundwater recharge in a snowmelt-dominated, alpine watershed, Geophysical Research Letters: Modeling and Data Package. https://data.ess-dive.lbl.gov/view/doi:10.21952/WTR/1508390",
+      "Original paperCarroll, R. W. H., Deems, J. S., Niswonger, R., Schumer, R., & Williams, K. H. (2019). The Importance of Interflow to Groundwater Recharge in a Snowmelt\u2010Dominated Headwater Basin. Geophysical Research Letters, 46(11), 5899\u20135908. https://doi.org/10.1029/2019GL082447",
+      "Model used for this paper too.Carroll, R. W. H., Manning, A. H., Niswonger, R., Marchetti, D., & Williams, K. H. (2020a). Baseflow Age Distributions and Depth of Active Groundwater Flow in a Snow\u2010Dominated Mountain Headwater Basin. Water Resources Research, 56(12). https://doi.org/10.1029/2020WR028161",
+      "Overall metadata for data to constrain the original modelVaradharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2023): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA (Version 3.1). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Model simulations conducted using GSFLOW. Output generated by model used to test streamflow sensitivity to changes in depth decay of hydraulic conductivity and drainable storage."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-11d6f4eb8bdeb26-20241009T174615031",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-11d6f4eb8bdeb26-20241009T174615031",
+        "name": "Copper_Grid.zip",
+        "contentSize": 106.953125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0f482c07bf39599-20241023T180322870300",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-0f482c07bf39599-20241023T180322870300",
+        "name": "model_DH_3y.zip",
+        "contentSize": 2411714.0908203125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-428342d8ce385e7-20241023T180316615483",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-428342d8ce385e7-20241023T180316615483",
+        "name": "model_DH_2y.zip",
+        "contentSize": 2419786.947265625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-49815715a9c29f0-20241009T174624249",
+        "encodingFormat": "application/vnd.google-earth.kmz",
+        "identifier": "ess-dive-49815715a9c29f0-20241009T174624249",
+        "name": "Copper_Grid.kmz",
+        "contentSize": 305.31640625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4c77dcb91dcc052-20241023T181207514581",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4c77dcb91dcc052-20241023T181207514581",
+        "name": "model_SL_1y.zip",
+        "contentSize": 2562988.5546875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-66faca5ccc9dc17-20241023T180817429868",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-66faca5ccc9dc17-20241023T180817429868",
+        "name": "model_SH_0y.zip",
+        "contentSize": 3001998.701171875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8e7d335949c2c89-20241023T181016892626",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8e7d335949c2c89-20241023T181016892626",
+        "name": "model_SH_2y.zip",
+        "contentSize": 2578032.859375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a45f86b4a187e26-20241023T181201347735",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a45f86b4a187e26-20241023T181201347735",
+        "name": "model_SL_0y.zip",
+        "contentSize": 2981727.798828125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a22849faa47162a-20241023T181402262827",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a22849faa47162a-20241023T181402262827",
+        "name": "model_SL_3y.zip",
+        "contentSize": 2553389.3017578125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-94c043d98920f7d-20241023T180328065410",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-94c043d98920f7d-20241023T180328065410",
+        "name": "model_DH_4y.zip",
+        "contentSize": 2402813.9267578125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c16813ca70b5e12-20241023T181027396326",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c16813ca70b5e12-20241023T181027396326",
+        "name": "model_SH_4y.zip",
+        "contentSize": 2569411.677734375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bc6a6c929ed088d-20241023T181535192315",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-bc6a6c929ed088d-20241023T181535192315",
+        "name": "model_SL_5y.zip",
+        "contentSize": 2543843.453125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b93cfbbcf12386b-20241023T180811829846",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b93cfbbcf12386b-20241023T180811829846",
+        "name": "model_DL_5y.zip",
+        "contentSize": 2273926.232421875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-af28fb22c899ff9-20241023T180447001193",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-af28fb22c899ff9-20241023T180447001193",
+        "name": "model_DH_5y.zip",
+        "contentSize": 2645509.7177734375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c424d5cdaaa312f-20241023T180641455484",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c424d5cdaaa312f-20241023T180641455484",
+        "name": "model_DL_2y.zip",
+        "contentSize": 2292313.474609375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cd79e1166f2c81b-20241023T181407191338",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-cd79e1166f2c81b-20241023T181407191338",
+        "name": "model_SL_4y.zip",
+        "contentSize": 2548710.427734375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ce56df46af8522b-20241023T181154715972",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ce56df46af8522b-20241023T181154715972",
+        "name": "model_SH_5y.zip",
+        "contentSize": 2977622.8505859375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7fe522d98de0c9e-20241023T180646061042",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7fe522d98de0c9e-20241023T180646061042",
+        "name": "model_DL_3y.zip",
+        "contentSize": 2287116.24609375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-81fd540fd3c8573-20241023T180650680165",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-81fd540fd3c8573-20241023T180650680165",
+        "name": "model_DL_4y.zip",
+        "contentSize": 2280586.5
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fc89743ad990eb3-20241023T182123716817",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-fc89743ad990eb3-20241023T182123716817",
+        "name": "model_DH_0y.zip",
+        "contentSize": 2697656.24609375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-637417a6abf40b0-20241023T181357413314",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-637417a6abf40b0-20241023T181357413314",
+        "name": "model_SL_2y.zip",
+        "contentSize": 2558364.412109375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d945f67ce1a842f-20241024T093552102254",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d945f67ce1a842f-20241024T093552102254",
+        "name": "model_DH_1y.zip",
+        "contentSize": 2689495.65234375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d9d87e921c8c903-20241023T180457089975",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d9d87e921c8c903-20241023T180457089975",
+        "name": "model_DL_1y.zip",
+        "contentSize": 2298620.46875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d6ea3b0e7fb35b6-20241023T180824524866",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d6ea3b0e7fb35b6-20241023T180824524866",
+        "name": "model_SH_1y.zip",
+        "contentSize": 2582168.5947265625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e7763c7dc1731ed-20241023T181021827318",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-e7763c7dc1731ed-20241023T181021827318",
+        "name": "model_SH_3y.zip",
+        "contentSize": 2573836.7958984375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d26a8f60322072a-20241024T143033556",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-d26a8f60322072a-20241024T143033556",
+        "name": "readme.txt",
+        "contentSize": 10.76953125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e2542f3c4a7d2de-20241023T180452001758",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-e2542f3c4a7d2de-20241023T180452001758",
+        "name": "model_DL_0y.zip",
+        "contentSize": 2564990.4345703125
+      }
+    ]
+  }
+}

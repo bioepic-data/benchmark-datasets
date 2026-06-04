@@ -1,0 +1,199 @@
+{
+  "id": "ess-dive-56936e1ac640f74-20230407T151757199358",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1872248",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-56936e1ac640f74-20230407T151757199358",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-f1ebc7302f70e28-20230406T143836705011",
+  "dateUploaded": "2023-04-07T15:17:58.141Z",
+  "dateModified": "2023-04-07T15:18:04.017Z",
+  "isPublic": true,
+  "citation": "Bhanja S; Coon E; Painter S (2022): Advanced Terrestrial Simulator (ATS) evaluation dataset at 7 catchments across the continental United States. ExaSheds. Dataset. doi:10.15485/1872248",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1872248",
+    "name": "Advanced Terrestrial Simulator (ATS) evaluation dataset at 7 catchments across the continental United States",
+    "description": [
+      "This dataset comprises of the input files and other files required for Advanced Terrestrial Simulator (ATS) simulations at 7 catchments across the continental United States. ATS is an integrated surface-subsurface hydrology model. We include Jupyter notebooks (within scripts folder) for individual catchments showing information (including data sources, river network, soil, geology, landuse types etc.) on preparing the machine readable input files. ATS observation output files are provided in the output folder. Figures and analyses (.xlsx sheets) are also provided. The catchments include, Taylor River Upstream (Colorado); (b) Cossatot River (Arkansas); (c) Panther Creek (Alabama); (d) Little Tennessee River (North Carolina and Georgia); (e) Mayo River (Virginia); (f) Flat Brook (New Jersey); (g) Neversink River headwaters (New York). Readme files are provided inside the directories providing more details. Files types include: .xml, .h5, .xlsx, .png, .ipynb, .py, .nc, .txt. All of the files types can be accessed by open source software, details on software requirements are following: .xml (any text editors including notepad and textedit), .h5 (in python using hdf libraries), .xlsx (WPS Office Spreadsheets, OpenOffice Calc, LibreOffice Calc, Microsoft Office etc.), .png (any image viewer), .ipynb (Jupyter notebook), .py (any text editors including notepad and textedit), .nc (using python or other open source software)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9434-8483",
+        "givenName": "Soumendra",
+        "familyName": "Bhanja",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "bhanjasn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ethan",
+        "familyName": "Coon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "coonet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Painter",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "paintersl@ornl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "earth science",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The 7 catchments selected in this study are all within the continental United States. The bounding box latitude and longitudes are provided here",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43,
+            "longitude": -108
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30,
+            "longitude": -73
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1980-10-01",
+      "endDate": "2014-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9434-8483",
+      "givenName": "Soumendra",
+      "familyName": "Bhanja",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "bhanjasn@ornl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "e4429d85-2c8f-43d7-bd0b-f642a2e6fda9"
+      },
+      "name": "ExaSheds",
+      "member": {
+        "@type": "Person",
+        "givenName": "Carl",
+        "familyName": "Steefel",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "CISteefel@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Data sources:\nMeteorological data: Daymet V4 from ORNL, https://daymet.ornl.gov Resolution: 1 \u00d7 1 km2, Daily\nLeaf Area Index: MODIS data from NASA, https://earthdata.nasa.gov Resolution: 500 \u00d7 500 m2, 8-Day\nSoil data: National Resources Conservation Service Soil Survey (NRCS) SSURGO data, https://datagateway.nrcs.usda.gov\nGeologic data: GLobal HYdrogeology MaPS (GLHYMPS), https://dataverse.scholarsportal.info/dataset.xhtml?persistentId=doi:10.5683/SP2/DLGXYO\nSoil thickness data: SoilGRIDS, https://www.isric.org/explore/soilgrids Resolution: 250 \u00d7 250 m2\nElevation data: National Elevation Dataset (NED) from USGS, https://apps.nationalmap.gov/downloader/#/ Resolution: ~10 \u00d7 10 m2\nRiver reaches and rivers: National Hydrography Dataset (NHD) Plus High Resolution, USGS, https://apps.nationalmap.gov/downloader/#/\nLand use land cover (LULC) data: National Land Cover Database (NLCD), https://www.mrlc.gov Resolution: ~30 \u00d7 30 m2\nModel evaluation datasets\nStreamflow: from USGS, https://maps.waterdata.usgs.gov/mapper/index.html Resolution: Site-scale, Daily\nEvapotranspiration: MODIS data from NASA, https://earthdata.nasa.gov Resolution: 500 \u00d7 500 m2, 8-Day",
+      "ATS simulation was performed using these data and the catchment-averaged outputs are provided",
+      "Please see the publication (in review) associated with it for more details on methods. The publication is in review now, the links will be provided once it gets published."
+    ],
+    "distribution": [
+      {
+        "contentSize": 448075.1826171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3885a41d8ba260a-20220608T135716887",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-3885a41d8ba260a-20220608T135716887",
+        "name": "CossatotRiver.zip"
+      },
+      {
+        "contentSize": 1061149.6337890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d88748bcace9f8e-20220608T142128191",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d88748bcace9f8e-20220608T142128191",
+        "name": "Flatbrook.zip"
+      },
+      {
+        "contentSize": 881874.2646484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6109339646a35c2-20220608T144033127",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6109339646a35c2-20220608T144033127",
+        "name": "LittleTennessee.zip"
+      },
+      {
+        "contentSize": 764732.2646484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5588d0db973ecb0-20220608T161556579",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-5588d0db973ecb0-20220608T161556579",
+        "name": "TaylorUpstreamLULCFinal.zip"
+      },
+      {
+        "contentSize": 9.6337890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-56936e1ac640f74-20230407T151757199358",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-56936e1ac640f74-20230407T151757199358",
+        "name": "Advanced_Terrestrial_Simulator_ATS_evaluation_dataset_at_7_catchments_across_the_continental_United_States.xml"
+      },
+      {
+        "contentSize": 1.296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6f2266c566d0fa9-20220608T171144180",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-6f2266c566d0fa9-20220608T171144180",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 153605.7529296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-70058c55bf31bbd-20220608T141740102",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-70058c55bf31bbd-20220608T141740102",
+        "name": "Figures_Analyses.zip"
+      },
+      {
+        "contentSize": 506441.7802734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a3875a288e3771b-20220608T155447385",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a3875a288e3771b-20220608T155447385",
+        "name": "PantherCreek.zip"
+      },
+      {
+        "contentSize": 674769.447265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a3fd7b126823248-20220608T153237712",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a3fd7b126823248-20220608T153237712",
+        "name": "NeversinkHeadwatersSSURGOallmodDTB.zip"
+      },
+      {
+        "contentSize": 449417.5234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bd008a29004d1e0-20220608T140845185",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-bd008a29004d1e0-20220608T140845185",
+        "name": "CossatotRiverAdj.zip"
+      },
+      {
+        "contentSize": 752076.8369140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-baf38326828f221-20220608T150134442",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-baf38326828f221-20220608T150134442",
+        "name": "MayoRiver.zip"
+      },
+      {
+        "contentSize": 669258.111328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c2c973d0045b13b-20220608T152043941",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c2c973d0045b13b-20220608T152043941",
+        "name": "NeversinkHeadwaters.zip"
+      }
+    ]
+  }
+}

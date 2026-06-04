@@ -1,0 +1,301 @@
+{
+  "id": "ess-dive-2bafd1417b6bb9f-20240125T164623442",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2283421",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-2bafd1417b6bb9f-20240125T164623442",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-6ab07542b18d256-20231221T162229124",
+  "dateUploaded": "2024-01-25T16:46:24.249Z",
+  "dateModified": "2024-02-01T00:00:30.521Z",
+  "isPublic": true,
+  "citation": "Ahlswede B; Drewniak B; Gonzalez-Meler M; Berkelhammer M (2023): Earth System Model Simulations of Ameriflux sites using dynamic roots and dynamic leaf to root allocation. Water foraging with dynamic roots in E3SM; The role of roots in terrestrial ecosystem memory on intermediate timescales. Dataset. doi:10.15485/2283421",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2283421",
+    "name": "Earth System Model Simulations of Ameriflux sites using dynamic roots and dynamic leaf to root allocation",
+    "description": [
+      "This data package contains point-scale Earth System Model simulations run with DOE's E3SM Model. The package includes four sets of simulations, one set of simulations run in the default configuration, a second set of simulations run with the dynamic root module enabled, the third set with dynamic leaf to fine root allocation, and the fourth with the combination of dynamic roots and dynamic allocation. These simulations were run in point mode a Ameriflux sites, US-MMS, US-Moz, US-Syv, and US-NR1. These datasets can be used to assess the impact that dynamic roots have on Land Surface fluxes such as carbon and water. The simulations were run with atmospheric forcing from the Global Soil Wetness Project. We provide specifically here Gross Primary Production, Transpiration, relative root fraction per soil layer as well as Air Temperature, Precipitation and all the parameterizations used for the simulations. Our purpose for generating and analyzing these simulations was to assess the role that root dynamics and foraging for water has in the recovery timescale of ecosystems following climate perturbation. All data provided are in the \"netcdf\" format using standard CF-1 (Climate and Forecast) Convention. The data are all machine readable using various software platforms including Matlab, NCO, Panoply and R."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9888-7628",
+        "givenName": "Benjamin",
+        "familyName": "Ahlswede",
+        "email": "bja5623@psu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Beth",
+        "familyName": "Drewniak",
+        "email": "bbye@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Miquel",
+        "familyName": "Gonzalez-Meler",
+        "email": "mmeler@uic.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Max",
+        "familyName": "Berkelhammer",
+        "email": "berkelha@uic.edu"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "Earth System Model",
+      "Ecosystem Legacy",
+      "Land Surface Modeling",
+      "Roots",
+      "Ecohydrology"
+    ],
+    "variableMeasured": [
+      "GPP",
+      "RE",
+      "NPP",
+      "Temperature",
+      "Precipitation",
+      "Gross Primary Production",
+      "Ecosystem Respiration",
+      "Net Primary Production"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "US-MMS, Morgan Monroe State Forest, Deciduous Broadleaf forest, represented in the model, data not collected on site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.3232,
+            "longitude": -86.4131
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.3232,
+            "longitude": -86.4131
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-MoZ, Missouri Ozarks, Deciduous Broadleaf forest, represented in the model, data not collected on site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.3232,
+            "longitude": -86.4131
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.3232,
+            "longitude": -86.4131
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Syv, Sylvania Wilderness Area, Mixed Forest, represented in the model, data not collected on site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.242,
+            "longitude": -89.3477
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.242,
+            "longitude": -89.3477
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-NR1, Niwot Ridge Forest, Evergreen Needleleaf Forest, represented in the model, data not collected on site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0329,
+            "longitude": -105.5464
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.0329,
+            "longitude": -105.5464
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1850-01-01",
+      "endDate": "2015-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9888-7628",
+      "givenName": "Benjamin",
+      "familyName": "Ahlswede",
+      "email": "bja5623@psu.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "72092e62-2d71-4502-a18b-26145303e36c"
+      },
+      "name": "Water foraging with dynamic roots in E3SM; The role of roots in terrestrial ecosystem memory on intermediate timescales",
+      "member": {
+        "@type": "Person",
+        "givenName": "Max",
+        "familyName": "Berkelhammer",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Board of Trustees of the University of Illinois, Chicago, IL",
+        "email": "berkelha@uic.edu"
+      }
+    },
+    "measurementTechnique": [
+      "We implemented use of the DOE's Energy Exascale Earth System Model (E3SM) to conduct point scale simulations of the listed ameriflux sites. We used the global soil wetness project (GSWP3) atmospheric forcing dataset. We ran the model in default mode, with dynamic fine root distribution module, and with dynamic fine root to leaf allocation module, and a final simulation with these modules combined. We used the advanced decomposition scheme to spin up the model runs and analyzed data from the transient run (1950-2015).",
+      "We combined each transient simulation into one file for easier download and data management."
+    ],
+    "distribution": [
+      {
+        "contentSize": 365469.94140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-16a2d6237e0966e-20231221T150935916",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-16a2d6237e0966e-20231221T150935916",
+        "name": "ROOT_DYN_US_Syv_1850_2015.nc"
+      },
+      {
+        "contentSize": 370659.06640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1f5961386979072-20231221T150935965",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-1f5961386979072-20231221T150935965",
+        "name": "DYN_ALLOC_ROOT_US_MOz_1850_2015.nc"
+      },
+      {
+        "contentSize": 366167.85546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-42ded9e39339beb-20231221T150935960",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-42ded9e39339beb-20231221T150935960",
+        "name": "DYN_ALLOC_ROOT_US_Syv_1850_2015.nc"
+      },
+      {
+        "contentSize": 369952.59375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ea70a52e027219a-20231221T150935939",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ea70a52e027219a-20231221T150935939",
+        "name": "NO_DYN_US_MOz_1850_2015.nc"
+      },
+      {
+        "contentSize": 10.4443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2bafd1417b6bb9f-20240125T164623442",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-2bafd1417b6bb9f-20240125T164623442",
+        "name": "Earth_System_Model_Simulations_of_Ameriflux_sites.xml"
+      },
+      {
+        "contentSize": 369952.59765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e66e988e277e3da-20231221T150935930",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-e66e988e277e3da-20231221T150935930",
+        "name": "ROOT_DYN_US_MOz_1850_2015.nc"
+      },
+      {
+        "contentSize": 365469.9375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e6c12be89f78e59-20231221T150935945",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-e6c12be89f78e59-20231221T150935945",
+        "name": "NO_DYN_US_Syv_1850_2015.nc"
+      },
+      {
+        "contentSize": 370659.0546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d08c3d507db4b99-20231221T150935950",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-d08c3d507db4b99-20231221T150935950",
+        "name": "DYN_ALLOC_US_NR1_1850_2015.nc"
+      },
+      {
+        "contentSize": 366167.84375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-64f59230646ac37-20231221T150935947",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-64f59230646ac37-20231221T150935947",
+        "name": "DYN_ALLOC_US_Syv_1850_2015.nc"
+      },
+      {
+        "contentSize": 370659.06640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a247fe7fa117e3-20231221T150935962",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-7a247fe7fa117e3-20231221T150935962",
+        "name": "DYN_ALLOC_ROOT_US_NR1_1850_2015.nc"
+      },
+      {
+        "contentSize": 369952.59765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-86424008a8b4847-20231221T150935927",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-86424008a8b4847-20231221T150935927",
+        "name": "ROOT_DYN_US_MMS_1850_2015.nc"
+      },
+      {
+        "contentSize": 370659.0546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6ba7a9ee715f235-20231221T150935957",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-6ba7a9ee715f235-20231221T150935957",
+        "name": "DYN_ALLOC_US_MMS_1850_2015.nc"
+      },
+      {
+        "contentSize": 370659.0546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6c4d5d27ae6dd1e-20231221T150935954",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-6c4d5d27ae6dd1e-20231221T150935954",
+        "name": "DYN_ALLOC_US_MOz_1850_2015.nc"
+      },
+      {
+        "contentSize": 369952.59375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-96363e79bf36cbf-20231221T150935936",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-96363e79bf36cbf-20231221T150935936",
+        "name": "NO_DYN_US_MMS_1850_2015.nc"
+      },
+      {
+        "contentSize": 370659.06640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bcd743c64a3d82f-20231221T150935968",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-bcd743c64a3d82f-20231221T150935968",
+        "name": "DYN_ALLOC_ROOT_US_MMS_1850_2015.nc"
+      },
+      {
+        "contentSize": 369952.59375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f26051810836c5c-20231221T150935942",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-f26051810836c5c-20231221T150935942",
+        "name": "NO_DYN_US_NR1_1850_2015.nc"
+      },
+      {
+        "contentSize": 369952.59765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f999cd2d042b796-20231221T150935933",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-f999cd2d042b796-20231221T150935933",
+        "name": "ROOT_DYN_US_NR1_1850_2015.nc"
+      }
+    ]
+  }
+}

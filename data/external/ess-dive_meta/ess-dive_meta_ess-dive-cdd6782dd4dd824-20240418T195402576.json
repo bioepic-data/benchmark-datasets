@@ -1,0 +1,203 @@
+{
+  "id": "ess-dive-cdd6782dd4dd824-20240418T195402576",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2338028",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-cdd6782dd4dd824-20240418T195402576",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-cd4877103aa32c0-20240418T195149185",
+  "dateUploaded": "2024-04-18T19:54:03.266Z",
+  "dateModified": "2024-04-20T00:02:10.527Z",
+  "isPublic": true,
+  "citation": "Thomas L; Bachand C; Maebius S (2024): iButton snow-ground interface temperature measurements in Los Alamos, New Mexico from 2023-2024. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2338028",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2338028",
+    "name": "iButton snow-ground interface temperature measurements in Los Alamos, New Mexico from 2023-2024",
+    "description": [
+      "Snow/ground interface temperature measurements were collected at two sites in Los Alamos, New Mexico. Data were collected from November 29, 2023 to April 8, 2024 using iButton Link DS1921G-F5# Thermochron miniature temperature sensors (https://www.ibuttonlink.com/products/ds1921g). These sensors are a cost-efficient way to collect snowpack temperatures at a higher spatial resolution than what is normally achieved. iButton data were collected every 3 hours from a total of 19 iButtons. iButtons were placed in pairs, with one iButton placed at the ground surface and another buried 1 - 5 cm below the ground surface. One buried iButton did not successfully collect data, and therefore was excluded from this dataset. Data were collected throughout the snow cover season so that snowpack characteristics could be derived using the temperature data. Specifically, this dataset was used as a validation source for a novel machine learning approach to estimating snow depth (see related publication). Sensors were placed in areas with bare ground or minimal grass coverage, located away from any large vegetation.",
+      "At Site A (TA51), manual snow depths were collected as validation data. These measurements were taken next to iButtons periodically throughout the winter, and notes on other precipitation types were also recorded. At Site B (TA6 Meteorological Station), a nearby sensor collected snow depths throughout the winter. This dataset contains one *.csv file of snow/ground interface temperatures at two sites, one *.csv file of manually collected snow depths, and one *.kml file of sensor locations.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic) was a 15-year research effort (2012-2027) to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy\u2019s Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy\u2019s Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "NGA529",
+      "LA-UR-24-23465"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5002-2177",
+        "givenName": "Lauren",
+        "familyName": "Thomas",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "lnthomas@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8422-9675",
+        "givenName": "Claire",
+        "familyName": "Bachand",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "cbachand@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sarah",
+        "familyName": "Maebius",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "skmaebius@lanl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE",
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE > SNOW/ICE TEMPERATURE",
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE > SNOW DEPTH"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site A (TA51): Location of 9 iButton temperature sensors and site where manual snow depth measurements were collected.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.8504274,
+            "longitude": -106.2733568
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.8504274,
+            "longitude": -106.2733568
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Site B (TA6 Met Station): Location of 10 iButton temperature sensors next to automated snow depth measurements.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.8615967,
+            "longitude": -106.3188648
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.8615967,
+            "longitude": -106.3188648
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2023-11-29",
+      "endDate": "2024-04-08",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2433-8607",
+      "givenName": "Katrina",
+      "familyName": "Bennett",
+      "email": "kbennett@lanl.gov"
+    },
+    "citation": [
+      "Bachand, C. L., Bennett, K. E., Wang, C., Thomas, L., Maebius, S., Dafflon, B. Brief Communication: Monitoring snow depth using small, cheap, and easy-to-deploy ground surface temperature sensors. In Prep."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Ground surface temperature data were collected using DS1921G Thermochron iButtons, low cost, miniature temperature sensors suited for moderately long logging rates. The iButtons (Figure 1) have a temperature range of -40\u00b0C to +85\u00b0C with an accuracy of \u00b11\u00b0C in the range of -30\u00b0C to +70\u00b0C and a thermal resolution of 0.5\u00b0C. Prior to deployment, iButton sensors were synced to Mountain Daylight Time (MDT) and programmed to record temperatures at 240 minute (4 hour) intervals starting on October 1, 2022. A maximum of 2048 temperatures can be logged and stored on each sensor. iButtons are not waterproof, so each sensor was vacuum sealed in a plastic bag to provide extra protection from moisture before being deployed in the field.",
+      "Temperature sensors were placed in clusters at Site A (TA51) and Site B (TA6) in Los Alamos, New Mexico. Locations were selected based on proximity to snow depth monitoring stations. iButtons were installed in pairs at each site. Each pair included an iButton on the ground surface (or snow-ground interface) and an iButton buried in soil about 5 cm beneath the ground surface. iButton pairings are noted in the .csv of temperature measurements. At Site A, manual snow depth measurements were collected periodically throughout the winter using a thaw probe and a tape measure. Between 1 and 6 snow depth measurements were collected each time at flagged locations along a 3 meter long transect. When possible, multiple measurements were taken so that snow depth measurements can account for the impacts of minor variations in topography, drifting, and solar radiation at this study site. At Site B, pairs of iButtons were installed around a pre-existing snow depth sensor so that future work with this data can be validated (see Figure 2 in User Guide .pdf file)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 2346.373046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-41e06c859a75566-20240417T165636134",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-41e06c859a75566-20240417T165636134",
+        "name": "2023_2024_New_Mexico_iButton_snow_temperatures.csv"
+      },
+      {
+        "contentSize": 3.9013671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-43ad8aca75490b7-20240418T195350057",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-43ad8aca75490b7-20240418T195350057",
+        "name": "2023_2024_New_Mexico_Site_A_Snow_Depths.csv"
+      },
+      {
+        "contentSize": 2.1396484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-71365d691ffb5a0-20240416T233236738",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-71365d691ffb5a0-20240416T233236738",
+        "name": "Site_Locations.kml"
+      },
+      {
+        "contentSize": 6110.28125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7e276baf8aa70da-20240416T231428112",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-7e276baf8aa70da-20240416T231428112",
+        "name": "NGA529_2023_2024_New_Mexico_iButton_Data_User_Guide.pdf"
+      },
+      {
+        "contentSize": 1.81640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-76632524ad42198-20240417T170254466",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-76632524ad42198-20240417T170254466",
+        "name": "NGA529_flmd.csv"
+      },
+      {
+        "contentSize": 0.7509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-aedb5dffe975b5d-20240418T194757602",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-aedb5dffe975b5d-20240418T194757602",
+        "name": "2023_2024_New_Mexico_iButton_snow_temperatures_dd.csv"
+      },
+      {
+        "contentSize": 10.75,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cdd6782dd4dd824-20240418T195402576",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-cdd6782dd4dd824-20240418T195402576",
+        "name": "iButton_snow_ground_interface_temperature.xml"
+      },
+      {
+        "contentSize": 1.2431640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f6b94162e98ab28-20240418T195143337",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f6b94162e98ab28-20240418T195143337",
+        "name": "2023_2024_New_Mexico_Site_A_Snow_Depths_dd.csv"
+      }
+    ]
+  }
+}

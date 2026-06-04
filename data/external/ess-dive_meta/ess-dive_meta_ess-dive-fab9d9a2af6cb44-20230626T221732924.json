@@ -1,0 +1,283 @@
+{
+  "id": "ess-dive-fab9d9a2af6cb44-20230626T221732924",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1814208",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-fab9d9a2af6cb44-20230626T221732924",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d108bca852e6950-20210831T194636256",
+  "dateUploaded": "2023-06-26T22:17:33.173Z",
+  "dateModified": "2023-06-26T22:17:34.581Z",
+  "isPublic": true,
+  "citation": "Kueppers L M; Conlisk E; Castanha C; Moyes A B; Germino M J; Valpine P d; Torn M S; Mitton J B (2021): Data from: \"Warming and provenance limit tree recruitment across and beyond the elevation range of subalpine forest\". Subalpine and Alpine Species Range Shifts with Climate Change: Temperature and Soil Moisture Manipulations to Test Species and Population Responses (Alpine Treeline Warming Experiment). Dataset. doi:10.15485/1814208",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1814208",
+    "name": "Data from: \"Warming and provenance limit tree recruitment across and beyond the elevation range of subalpine forest\"",
+    "description": [
+      "This data package contains data used to support conclusions drawn in \u201cWarming and provenance limit tree recruitment across and beyond the elevation range of subalpine forest\u201d, by Kueppers et al. 2017. Data were collected in field sites within the Alpine Treeline Warming Experiment (ATWE), located on Niwot Ridge, on the eastern slope of the Colorado Rocky Mountains, USA. Files containing geospatial data are also included, to provide additional locational context.",
+      "There are four document formats associated with this archive: three comma-separated values (.csv) files, three Microsoft Excel (.xlsx) files, one .pdf data user\u2019s guide, four keyhole markup language (.kml) files, and a compressed folder containing seven ESRI shapefiles (.shp). The .csv files can be opened using any simple text-editor software, R, or Microsoft Excel. The .xlsx files can only be opened using Microsoft Excel. The .kml file can be opened by Google Earth and Google Maps, and the shapefiles can be opened with any GIS application compatible with the file type, such as ESRI\u2019s ArcGIS, and QGIS.",
+      "We provide two versions of the seedling data file: \u201cPIEN_PIFLseedlings20150522_20150525rev12222020.csv/.xlsx\u201d (hereafter PIEN_PIFLseedlings2015) and \u201cPIEN_PIFLseedlings20160408rev12222020.csv/.xlsx\u201d (hereafter PIEN_PIFLseedlings2016).",
+      "PIEN_PIFLseedlings2015 contains the data we used in the paper. PIEN_PIFLseedlings2016 contains an updated version of these data that includes sampling from later years. The main differences between the two files lie in the columns titled \u201ck[YEAR],\u201d which describe the number of seedlings that were killed in a particular year. In PIEN_PIFLseedlings2016, there also is an additional year of data for k2015, and k2014 also has additional data input for the 2014 cohort. Additionally, in years 2010-2014, there are minor differences in the number of seedlings killed -- in as few as 0 plots (in 2011) to as many as 5 plots (in 2014) -- due to errors in data input that were rectified in later years.",
+      "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "Upslope range shifts by subalpine tree species are a widely anticipated effect of climate change. Climate niche models predict subalpine forests to expand upslope, given more suitable growing conditions for adult trees. However, these models do not take into account climates required for successful seedling recruitment and establishment, an essential element for expansion. Further, localized upper treeline populations are hypothesized to contain favorable traits for colonizing the alpine.",
+      "To test these expectations and to expand our knowledge of seedling recruitment under climate change, we designed a common garden, climate-warming experiment spread across an elevation gradient at Niwot Ridge in the Colorado Rocky Mountains. We focus on two widespread Western North American species, Engelmann spruce (Picea engelmannii Parry ex. Engelm) and limber pine (Pinus flexilis James), which occur at treeline. While the former is considered a late-seral species more tolerant of shade, limber pine is a shade-intolerant pioneer species able to establish on infertile sites.",
+      "Every autumn, seeds of the two species were collected from high- (3370 m\u20133570 m) and low-provenance (2910\u20133240 m) sources close to the experimental sites and sown in our plots. A subset of plots were heated and another subset watered over the summer months to offset the effects of warming. Across five years, we found that seeds originating from low elevation recruited more strongly for both species, although this provenance difference diminished by the fourth year for Engelmann spruce, likely due to small sample sizes. Despite the recruitment of low-provenance seed, warming treatments decreased recruitment at all elevations. Combining this with the likeliness and availability of lower-quality, high provenance seed moving upslope at the treeline, tree migration into the alpine may be slowed. Overall, our findings suggest that the hardier limber pine is likely to become a more significant species in subalpine forest communities in the future, while the more sensitive Engelmann spruce may experience range contraction."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8134-3579",
+        "givenName": "Lara M.",
+        "familyName": "Kueppers",
+        "affiliation": "University of California Berkeley",
+        "email": "lmkueppers@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4049-4805",
+        "givenName": "Erin",
+        "familyName": "Conlisk",
+        "affiliation": "University of California Berkeley; now at Point Blue Conservation Science",
+        "email": "erin.conlisk@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7327-5169",
+        "givenName": "Cristina",
+        "familyName": "Castanha",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ccastanha@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9137-8118",
+        "givenName": "Andrew B.",
+        "familyName": "Moyes",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "abmoyes@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6326-7579",
+        "givenName": "Matthew J.",
+        "familyName": "Germino",
+        "affiliation": "U.S. Geological Survey",
+        "email": "mgermino@usgs.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8329-6796",
+        "givenName": "Perry",
+        "familyName": "de Valpine",
+        "affiliation": "University of California Berkeley",
+        "email": "pdevalpine@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8174-0099",
+        "givenName": "Margaret S.",
+        "familyName": "Torn",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mstorn@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5352-8947",
+        "givenName": "Jeffry B.",
+        "familyName": "Mitton",
+        "affiliation": "University of Colorado Boulder",
+        "email": "mitton@colorado.edu"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "alpine treeline",
+      "climate change experiment",
+      "Engelmann spruce",
+      "limber pine",
+      "Picea engelmannii",
+      "Pinus flexilis",
+      "seedling demography",
+      "species range shift",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS"
+    ],
+    "variableMeasured": [
+      "Seedling survey",
+      "Germination",
+      "Seedling kills",
+      "Seedling survival",
+      "Geospatial data"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Research was conducted within the Alpine Treeline Warming Experiment (ATWE), on Niwot Ridge in the Front Range of the Colorado Rocky Mountains, USA. The lower subalpine site (LSA; 3060 m) is a previously logged forest that has since naturally-regenerated. The site is composed mostly of mature Engelmann spruce (Picea engelmannii) and lodgepole pine (Pinus contorta), with subalpine fir (Abies lasiocarpa) and limber pine (Pinus flexilis) also present. The site has a southeastern aspect, and is located on the lower-elevation edge of the subalpine forest.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0372327984,
+            "longitude": -105.5485367804
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.036677137,
+            "longitude": -105.5474293342
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The upper subalpine site (USA; 3430 m) is located on the upper-elevation edge of the subalpine forest, and is an open meadow surrounded by krummholz mats and flag trees. The site has a south-southwestern aspect, and has the highest snowpack due to snow being blown in and trapped from upwind.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0515289883,
+            "longitude": -105.5810412026
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.051155963,
+            "longitude": -105.5804451819
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The alpine site (ALP; 3540 m) is on Niwot Ridge and is located on a shallow southeastern slope approximately 400 m above timberline. The site is dominated by sedges, forbs, and grasses, and is characterized as an alpine meadow.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0545378322,
+            "longitude": -105.59426183
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.0536736148,
+            "longitude": -105.593352459
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-FG02-07ER64457",
+      "DE-SC0007071"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2009",
+      "endDate": "2014",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8134-3579",
+      "givenName": "Lara M.",
+      "familyName": "Kueppers",
+      "affiliation": "University of California Berkeley",
+      "email": "lmkueppers@berkeley.edu"
+    },
+    "citation": [
+      "Kueppers, L.M., E. Conlisk, C. Castanha, A. Moyes, M. Germino, P. de Valpine, M. S. Torn, and J. B. Mitton. 2017. Warming and provenance limit tree recruitment across and beyond the elevation range of subalpine forest. Global Change Biology 23(6): 2383-2395, doi:10.1111/gcb.13561.",
+      "C. Castanha , M.S. Torn , M.J. Germino , B. Weibel & L.M. Kueppers (2013) Conifer seedling recruitment across a gradient from forest to alpine tundra: effects of species, provenance, and site, Plant Ecology & Diversity, 6:3-4, 307-318, DOI: 10.1080/17550874.2012.716087"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "6b570210-4fc0-4737-a52a-73f3e2875ce1"
+      },
+      "name": "Subalpine and Alpine Species Range Shifts with Climate Change: Temperature and Soil Moisture Manipulations to Test Species and Population Responses (Alpine Treeline Warming Experiment)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Lara",
+        "familyName": "Kueppers",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of California-Merced",
+        "email": "lkueppers@ucmerced.edu"
+      }
+    },
+    "measurementTechnique": [
+      "The methods below are adapted from those given in the publication, and in this data package's Data User's Guide. The full publication and its supporting document can be found at https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.13561?.\nCitation: Kueppers, L.M., E. Conlisk, C. Castanha, A. Moyes, M. Germino, P. de Valpine, M. S. Torn, and J. B. Mitton. 2017. Warming and provenance limit tree recruitment across and beyond the elevation range of subalpine forest. Global Change Biology 23(6): 2383-2395, doi:10.1111/gcb.13561.\nExperimental design\nOur study was conducted at Niwot Ridge, on the eastern slope of the Rocky Mountains in Colorado, USA. We established experimental sites in (i) a stand of mature trees near the low-elevation edge of subalpine forest (3060 m), (ii) an open meadow surrounded by krummholz mats and low tree islands at upper treeline (3430 m), and (iii) an alpine meadow approximately 400 m upslope from local timberline (3540 m; Fig. 1 and Table 1 of publication). Soils were thin and rocky at all sites, with higher organic matter in the treeline and alpine sites than in the forest, and a ~2-cm organic horizon in the forest site (Castanha et al., 2013). During the period of the experiment, ambient annual air temperature differed by 4.6 \u00b0C across the three experimental sites and mean snow-free season length differed by 30 days (Table 1 of publication). Snowfall is typically greater at higher elevations at Niwot Ridge due to orographic effects (Kittel et al., 2015), but snow depth is locally variable due to substantial wind redistribution, and was greatest at the treeline site. Aside from an extreme rainfall event in September 2013, which resulted in significant flooding at lower elevations and raised plot soil moisture but did not damage or otherwise directly affect our research sites, climate variability during the years of the experiment (2009\u20132014) was within the range of historical climate variability documented by the nearest USHCN station in Boulder, CO, from 1931 to 2014.\nEach site had 20 circular, 3-m-diameter plots assigned to four groups: control, heated, watered, and heated and watered (Fig. 1 of publication). Six 1000-W infrared heaters arrayed around the perimeters of heated plots (following the geometry of Kimball et al., 2008) with constant heater output (following Harte et al., 1995) raised mean daily 5\u201310 cm soil temperature (ECTM and 5TM sensors; Decagon Devices, Pullman, WA, USA) during the snow-free periods, with larger increases (+3.8 \u00b0C) in the forest than in the alpine and treeline (+1.4 and +1.7 \u00b0C, respectively) sites because greater wind speed at high elevations reduced heating efficiency (Kimball et al., 2008) (Table 1 of publication). Seedlings are tightly coupled to near-surface air temperature, which is well predicted from soil temperature (Moyes et al., 2015). Our model for air temperature at 1 cm during the 2012 snow-free season indicates that our heating treatments increased near-surface air and seedling temperatures by only 0.2 \u00b0C (alpine), 0.1 \u00b0C (treeline), and 0.6 \u00b0C (forest) more than they increased soil temperatures. Except in 2009\u20132010, heater output was reduced between November and March, the windiest time of year, to avoid hydrological artifacts and potentially intermittent snowpack (Meromy et al., 2015). Heating also extended the snow-free season and reduced summer soil moisture (Table 1 of publication). We designed the watering treatments (2.5 mm week-1) to compensate for evaporative losses due to heating, adding water manually with hand-held sprayers once per week, starting 2\u20133 weeks after snow melt and ending in September. Watering slightly increased soil volumetric water content (+0.01 m3 m-3) at 5\u201310 cm depth at all sites (Table 1 of publication).\nSeedling recruitment\nOur two focal species are widely distributed in Western North America. Engelmann spruce (P. engelmannii Parry ex. Engelm.) occurs at high elevations up to treeline in the Rocky Mountains and in the Cascade Ranges. Limber pine (P. flexilis James) also occurs up to treeline in the Rocky Mountains, Sierra Nevada, and Great Basin ranges. Unlike the late-seral, shade-tolerant Engelmann spruce, limber pine is often a shade-intolerant pioneer species and can persist on exposed, infertile sites. Both species can live for hundreds or >1000 years. Each autumn, we collected local seeds from high (3370\u20133570 m) and low (2910\u20133240 m) elevations (Castanha et al., 2013). Each species and seed provenance was randomly assigned to one of four 11 m quadrats nested within each 7.1-m2 circular plot at the start of the experiment. We sowed 280\u20131400 seeds per quadrat each autumn (>750 000 seeds total over 5 years), depending on seed viability (as determined by X-ray analysis) and availability. For each provenance and year, we collected 200\u20131300 limber pine cones from trees and 1500 to\n15 000 Engelmann spruce cones from new caches (we estimate an average of 15\u201370 cones per tree, with some interannual variability). When new seed availability was low, we sowed excess seed from a prior year that had been stored at 20 \u00b0C. USFS personnel extracted Engelmann spruce seed from cones and dewinged it in their Coeur d\u2019Alene nursery, and we extracted limber pine seed from cones. Seed was not treated prior to sowing and was carefully blended among source trees to ensure comparable seed went into all plots. Initial trials transplanting glasshouse-started seedlings into the experimental plots were discontinued after we determined that survival rates were elevated for transplants relative to in situ germinants (Castanha et al., 2013). To exclude small mammals, we placed hardware cloth cages (1-cm2 openings) over each plot. The exclosures substantially reduced granivory and herbivory (Castanha et al., 2013); remaining noise in the data from damage by animals was likely greatest at the forest site where small mammal pressure was greatest (C. Castanha, personal observation). We tracked the number of seeds sown and number of seedlings surviving to autumn of each year for each cohort. The 2010 and 2011 cohorts were observed for 4 years, the 2012 for 3 years, the 2013 for 2 years and the 2014 for 1 year."
+    ],
+    "distribution": [
+      {
+        "contentSize": 12.1484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2019d1e4ce16462-20210812T212818585",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2019d1e4ce16462-20210812T212818585",
+        "name": "Climate_Table.zip"
+      },
+      {
+        "contentSize": 209.9677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-30aed64b114fa12-20210812T004723603",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-30aed64b114fa12-20210812T004723603",
+        "name": "PIEN_PIFLseedlings20150522_20150525rev12222020.xlsx"
+      },
+      {
+        "contentSize": 5.712890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7f08ca8100245a0-20210812T004755084",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7f08ca8100245a0-20210812T004755084",
+        "name": "ATWE_KMLs.zip"
+      },
+      {
+        "contentSize": 39.6201171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-77393fa85d49d71-20210812T004827710",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-77393fa85d49d71-20210812T004827710",
+        "name": "ATWE_allplots_GIS.zip"
+      },
+      {
+        "contentSize": 183.8310546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-be165e6120f118f-20210812T004723607",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-be165e6120f118f-20210812T004723607",
+        "name": "PIEN_PIFLseedlings20160408rev12222020.csv"
+      },
+      {
+        "contentSize": 1037.8681640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b146bdcfca84c3d-20210823T221639264",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-b146bdcfca84c3d-20210823T221639264",
+        "name": "Kueppers_et_al_2017_GCB_Data_Users_Guide.pdf"
+      },
+      {
+        "contentSize": 259.369140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f2b07e7149bf352-20210812T004723610",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-f2b07e7149bf352-20210812T004723610",
+        "name": "PIEN_PIFLseedlings20160408rev12222020.xlsx"
+      },
+      {
+        "contentSize": 21.837890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fab9d9a2af6cb44-20230626T221732924",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-fab9d9a2af6cb44-20230626T221732924",
+        "name": "Data_from_Warming_and_provenance_limit_tree.xml"
+      },
+      {
+        "contentSize": 158.32421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fc710d9bb8b19e7-20210812T004723592",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fc710d9bb8b19e7-20210812T004723592",
+        "name": "PIEN_PIFLseedlings20150522_20150525rev12222020.csv"
+      }
+    ]
+  }
+}

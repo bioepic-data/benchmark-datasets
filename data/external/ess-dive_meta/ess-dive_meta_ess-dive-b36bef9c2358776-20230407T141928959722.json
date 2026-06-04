@@ -1,0 +1,192 @@
+{
+  "id": "ess-dive-b36bef9c2358776-20230407T141928959722",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1756193",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-b36bef9c2358776-20230407T141928959722",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-38c3b9ec79ae828-20230406T234942491640",
+  "dateUploaded": "2023-04-07T14:19:29.881Z",
+  "dateModified": "2023-04-07T14:19:35.402Z",
+  "isPublic": true,
+  "citation": "Cromwell E; Shuai P; Jiang P; Coon E; Painter S; Moulton D; Lin Y; Chen X (2020): Estimating Watershed Subsurface Permeability From Stream Discharge Data using Deep Neural Networks, Frontiers in Earth Science: Dataset. ExaSheds. Dataset. doi:10.15485/1756193",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1756193",
+    "name": "Estimating Watershed Subsurface Permeability From Stream Discharge Data using Deep Neural Networks, Frontiers in Earth Science: Dataset",
+    "description": [
+      "This data package contains watershed modeling inputs and outputs as well as deep neural networks training and testing results used in \"Estimating Watershed Subsurface Permeability From Stream Discharge Data using Deep Neural Networks\" (Cromwell et al., 2021). We train various deep neural network models with different architectures to predict subsurface permeability from stream discharge hydrograph at the watershed outlet. The training data are obtained from ensemble simulations of hydrographs corresponding to an permeability ensemble using a fully-distributed, integrated surface-subsurface hydrologic model. The trained model is then applied to estimate the permeability of the real watershed using its observed hydrograph at the outlet. Our study demonstrates that the permeabilities of the soil and geologic facies that make significant contributions to the outlet discharge can be more accurately estimated from the discharge data. Their estimations are also more robust with observation errors. Compared to the traditional ensemble smoother method, DNNs show stronger performance in capturing the nonlinear relationship between permeability and stream hydrograph to accurately estimate permeability. Our study sheds new light on the value of the emerging deep learning methods in assisting integrated watershed modeling by improving parameter estimation, which will eventually reduce the uncertainty in predictive watershed models. For detailed information regarding watershed model description and DNNs setup, please refer to Cromwell et al., 2021.",
+      "The deep_learning.zip file contains the inputs and outputs for the different deep neural networks. The watershed_model.zip file contains the inputs and outputs for watershed simulation using ATS. The figures.zip file contains raw figures and their corresponding scripts. For a more detailed description, please see the README.md file within each compressed file."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "Erol",
+        "familyName": "Cromwell",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "erol.cromwell@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2511-9828",
+        "givenName": "Pin",
+        "familyName": "Shuai",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "pin.shuai@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Peishi",
+        "familyName": "Jiang",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "peishi.jiang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ethan",
+        "familyName": "Coon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "coonet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Scott",
+        "familyName": "Painter",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "paintersl@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Moulton",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "moulton@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Youzuo",
+        "familyName": "Lin",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "ylin@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1928-5555",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Xingyuan.Chen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2020",
+    "keywords": [
+      "Deep Neural Networks",
+      "Watershed modeling",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW > AVERAGE FLOW"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Rock Creek is a small (3 square km) primary catchment in the East River watershed near Crested Butte, CO. The watershed is a high alpine, snow dominated catchment, characterized as Dfb, or warm summer, humid continental climate on the Koppen classification system. It is characterized by majority aspen, meadow, and mixed conifer vegetation types, and receives approximately 70 cm of precipitation per year. This site is part of the Watershed Function Science Focus Area of the Department of Energy, and has a significant history of hydrologic studies on mountainous, primary watersheds. This data package contains geographic metadata for one observation point located at the outlet of the watershed.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.98,
+            "longitude": -107.04
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.96,
+            "longitude": -107.0
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2014-08-31",
+      "endDate": "2016-08-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1928-5555",
+      "givenName": "Xingyuan",
+      "familyName": "Chen",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "pin.shuai@pnnl.gov"
+    },
+    "citation": [
+      "Cromwell et al., (2021) Estimating Watershed Subsurface Permeability From Stream Discharge Data using Deep Neural Networks. (in revision)"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "e4429d85-2c8f-43d7-bd0b-f642a2e6fda9"
+      },
+      "name": "ExaSheds",
+      "member": {
+        "@type": "Person",
+        "givenName": "Carl",
+        "familyName": "Steefel",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "CISteefel@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The watershed model is developed in Advanced Terrestrial Simulator (ATS). More details are provided in the README file and the main manuscript."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3.4580078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1a8be4fd292ef65-20201222T182358326",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-1a8be4fd292ef65-20201222T182358326",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 6899.8564453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d59fbebe319fdcb-20201222T182343853",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d59fbebe319fdcb-20201222T182343853",
+        "name": "deep_learning.zip"
+      },
+      {
+        "contentSize": 19391.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7fa388d1baff586-20201222T182354225",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7fa388d1baff586-20201222T182354225",
+        "name": "figures.zip"
+      },
+      {
+        "contentSize": 18.7001953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b36bef9c2358776-20230407T141928959722",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-b36bef9c2358776-20230407T141928959722",
+        "name": "Estimating_Watershed_Subsurface_Permeability_From_Stream_Discharge_Data_using_Deep_Neural_Networks_Frontiers_in_Earth_Science_Dataset.xml"
+      },
+      {
+        "contentSize": 28589.7705078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f6093507c00e3c0-20201222T182349954",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f6093507c00e3c0-20201222T182349954",
+        "name": "watershed_model.zip"
+      }
+    ]
+  }
+}

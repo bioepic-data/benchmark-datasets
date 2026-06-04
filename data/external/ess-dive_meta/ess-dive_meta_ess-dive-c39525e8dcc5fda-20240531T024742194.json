@@ -1,0 +1,177 @@
+{
+  "id": "ess-dive-c39525e8dcc5fda-20240531T024742194",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2370458",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-c39525e8dcc5fda-20240531T024742194",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-11685f5a347bc70-20240529T031255831",
+  "dateUploaded": "2024-05-31T02:47:46.081Z",
+  "dateModified": "2024-06-07T00:01:36.845Z",
+  "isPublic": true,
+  "citation": "Zhou Y; O'Meara T; Cardon Z G; Wang J; Sulman B N; Giblin A E; Forbrich I (2024): Dataset for scientific paper \"Simulated plant\u2011mediated oxygen input has strong impacts on fine\u2011scale porewater biogeochemistry and weak impacts on integrated methane fluxes in coastal wetlands\", a modeling study based on field observation at the tidal salt marshes of the Parker River Estuary, Massachusetts, United States. From tides to seasons: How cyclic tidal drivers and plant physiology interact to affect carbon cycling at the terrestrial-estuarine boundary. Dataset. doi:10.15485/2370458",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2370458",
+    "name": "Dataset for scientific paper \"Simulated plant\u2011mediated oxygen input has strong impacts on fine\u2011scale porewater biogeochemistry and weak impacts on integrated methane fluxes in coastal wetlands\", a modeling study based on field observation at the tidal salt marshes of the Parker River Estuary, Massachusetts, United States",
+    "description": [
+      "This dataset is the raw and processed data for the paper \"Simulated plant \u2011 mediated oxygen input has strong impacts on fine \u2011 scale porewater biogeochemistry and weak impacts on integrated methane fluxes in coastal wetlands\". This study investigated how plant-mediated oxygen input affects subsurface biogeochemical reactions of organic carbon degradation and the resulting methane emissions of coastal wetlands by model simulation. We used the subsurface geochemical simulator PFLOTRAN for the modeling, which produced the simulated changes in porewater chemical substances and methane emissions over 10 days under different scenarios of plant-mediated oxygen input.",
+      "Specifically, this dataset contains:",
+      "1) the input files for PFLOTRAN of all simulation runs conducted in this study. Those files are with an extension of \".in\", containing information of the biogeochemical reaction network (stoichiometry, reaction rate, Monod constants, etc), fluid flow rate and oxygen concentration in the fluid which together simulated the plant-mediated oxygen input, the configuration of artificial reactions that simulated the methane fluxes, etc. The PFLOTRAN input files are text files, which can be opened by NotePad, but running these input files will require proper installation of PFLOTRAN (instruction: https://documentation.pflotran.org/user_guide/how_to/installation/installation.html).",
+      "2) the raw and processed model output from PFLOTRAN of all simulation runs, and 3) the python scripts used to process the raw model output, including random allocation of root cells, converting raw data into organized formats, calculating the methane fluxes based on the model output, data visualization, etc. The raw and processed model output from PFLOTRAN are in .spydata format, which can be viewed with Python.",
+      "and",
+      "3) the python scripts for data processing and analysis are programming scripts, which can be opened with Python.",
+      "This modeling work, in particular the model parameterization of root density and initial conditions of porewater concentrations of biogeochemical substances, was based on field measurements at the salt marsh of the Upper Parker River Estuary, Massachusetts, United States."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8403-6315",
+        "givenName": "Yongli",
+        "familyName": "Zhou",
+        "affiliation": "The Ecosystems Center, Marine Biological Laboratory",
+        "email": "zhou0303@e.ntu.edu.sg"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8132-9761",
+        "givenName": "Teri",
+        "familyName": "O'Meara",
+        "affiliation": "Environmental Sciences Division and Climate Change Science Institute, Oak Ridge National Laboratory"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8725-7842",
+        "givenName": "Zoe",
+        "familyName": "G. Cardon",
+        "affiliation": "The Ecosystems Center, Marine Biological Laboratory"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9126-9731",
+        "givenName": "Jiaze",
+        "familyName": "Wang",
+        "affiliation": "School of Earth and Climate Sciences, University of Maine"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3265-6691",
+        "givenName": "Benjamin",
+        "familyName": "N. Sulman",
+        "affiliation": "Environmental Sciences Division and Climate Change Science Institute, Oak Ridge National Laboratory"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3851-2178",
+        "givenName": "Anne",
+        "familyName": "E. Giblin",
+        "affiliation": "The Ecosystems Center, Marine Biological Laboratory"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0632-7317",
+        "givenName": "Inke",
+        "familyName": "Forbrich",
+        "affiliation": "The Ecosystems Center, Marine Biological Laboratory"
+      }
+    ],
+    "datePublished": "2024-05-23",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS",
+      "EARTH SCIENCE > OCEANS > COASTAL PROCESSES",
+      "EARTH SCIENCE > OCEANS > OCEAN CHEMISTRY"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > MARINE ECOSYSTEMS > COASTAL > SALT MARSH",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > AQUATIC ECOSYSTEMS > WETLANDS > MARSHES",
+      "EARTH SCIENCE > OCEANS > OCEAN CHEMISTRY > BIOGEOCHEMICAL CYCLES"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The parameterization of this modeling work was based on field observations at our site for porewater sampling and eddy-covariance flux monitoring at the salt marsh of the Upper Parker River Estuary, Massachusetts, United States. The salt marsh site is vegetated with Typha angustifolia, which enables oxygen diffusion from the atmosphere into subsurface porewater of the soil through its aerenchyma tissues. The salt marsh site is mesotidal and is the largest remaining tidal wetland complex in the northeastern United States. The porewater salinity at this site is typically less than 5 ppt, but it can vary dramatically depending on riverine discharge and seawater intrusion. This site is therefore an ideal observation site to support model parameterization to investigate how plant-mediated oxygen input influences subsurface biogeochemistry and methane emissions from coastal wetland ecosystems.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.753052,
+            "longitude": -70.916566
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.752424,
+            "longitude": -70.915992
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8403-6315",
+      "givenName": "Yongli",
+      "familyName": "Zhou",
+      "email": "zhou0303@e.ntu.edu.sg"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a8baace6-a1d4-40f1-a355-c8dd8dc03ddd"
+      },
+      "name": "From tides to seasons: How cyclic tidal drivers and plant physiology interact to affect carbon cycling at the terrestrial-estuarine boundary",
+      "member": {
+        "@type": "Person",
+        "givenName": "Inke",
+        "familyName": "Forbrich",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Marine Biological Laboratory",
+        "email": "iforbrich@mbl.edu"
+      }
+    },
+    "measurementTechnique": [
+      "The full methods description of generating this dataset can be found in the publication \"Simulated plant\u2011mediated oxygen input has strong impacts on fine\u2011scale porewater biogeochemistry and weak impacts on integrated methane fluxes in coastal wetlands\" (http:\\\\doi.org\\10.1007/s10533-024-01145-z). We have included a brief description of the methods below.\nCreate a simulation domain in PFLOTRAN, representing the simulated soil profile. The simulation domain has a dimension of 10cm * 10cm * 70cm with a porosity of 0.8. The simulation domain was then divided up into 9 vertical layers and each layer was divided into 10*10 horizontal grids.",
+      "Create the microbial reaction network in PFLOTRAN to simulate the biogeochemical processes that regulates organic carbon degradation in wetland soil porewater and greenhouse gas production/consumption. The reaction network include soil organic matter hydrolysis, organic carbon aerobic decomposition, methanogenesis, methane aerobic oxidation, sulfate reduction and sulfide oxidation. The reaction rate constants were parameterized based on published literatures of both experimental work and modeling studies.",
+      "Set up three different scenarios of the plant-mediated oxygen input in the model, i.e., 1) no oxygen input, 2) homogeneous oxygen input, and 3) heterogeneous input. The oxygen input rate was parameterized based on root density of Typha angustifolia (from our field survey) and published data of weight-normalized oxygen input rate.",
+      "Define initial conditions for the investigate biogeochemical substances (dissolved organic carbon, methane, sulfate, sulfide, and oxygen) based on our field observation data.",
+      "Run model simulations for the three different scenarios of plant-mediated oxygen input (Step 3). The PFLOTRAN will provide simulated daily changes in the porewater concentrations of all investigated biogeochemical substances over a 10 days. We further calculated the methane emissions fluxes based on the model output (See further details in the paper).",
+      "Calculate the differences in the modeled porewater concentration and the modeled methane fluxes between the three different simulation scenarios of plant-mediated oxygen input, to examine how plant-mediated oxygen input affects both the subsurface biogeochemical substances and the resulting methane emissions from coastal wetlands."
+    ],
+    "distribution": [
+      {
+        "contentSize": 416.0791015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0f56bbee8f4bd16-20240529T025531065",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-0f56bbee8f4bd16-20240529T025531065",
+        "name": "DataAnalysis_PythonScripts.zip"
+      },
+      {
+        "contentSize": 14741.408203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4349d4338237c6b-20240529T025531070",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4349d4338237c6b-20240529T025531070",
+        "name": "Model_Input_and_Output.zip"
+      },
+      {
+        "contentSize": 11.966796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c39525e8dcc5fda-20240531T024742194",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-c39525e8dcc5fda-20240531T024742194",
+        "name": "Dataset_for_scientific_paper_Simulated.xml"
+      }
+    ]
+  }
+}

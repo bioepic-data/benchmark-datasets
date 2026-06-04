@@ -1,0 +1,336 @@
+{
+  "id": "ess-dive-3b439ff48ee447d-20260309T160420948",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2403350",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-3b439ff48ee447d-20260309T160420948",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-3b439ff48ee447d-20250707T154028386",
+  "dateUploaded": "2026-03-09T16:04:22.981Z",
+  "dateModified": "2026-03-09T16:04:23.108Z",
+  "isPublic": true,
+  "citation": "Goulden T; Worsham H M; Hass B; Brodie E; Chadwick K D; Falco N; Maher K; Wainwright H; Williams K; Kueppers L (2024): NEON AOP Survey of Upper East River CO Watersheds: Waveform LiDAR Binary Data. Watershed Function SFA. Dataset. doi:10.15485/2403350",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2403350",
+    "name": "NEON AOP Survey of Upper East River CO Watersheds: Waveform LiDAR Binary Data",
+    "description": [
+      "The waveform Light Detection and Ranging (LiDAR) data in this package were generated through a National Ecological Observatory Network Airborne Observation Platform (NEON AOP) acquisition over watersheds of interest surrounding Crested Butte, Colorado. The remote sensing imagery acquired by the NEON AOP supports an interdisciplinary project on hydrology, biogeochemistry, and ecosystem functioning in a snow-dominated headwater environment. These waveform LiDAR data enable spatially continuous estimation of vegetation structure parameters to facilitate analyses of the major environmental drivers of structural and compositional variability. The package contains 97 compressed file archives in 7-zip (.7z) format, each corresponding to one acquisition flightpath. Within each .7z archive is a set of constituent files describing properties of the LiDAR waveforms, such as return intensity, geolocation, outgoing pulse and other behavior of the sensor and signals. Once downloaded, the files must first be unzipped using the widely distributed command-line software utility 7z, using the command '7z x \\[filename\\].7z \\[target_directory\\]'. All files within the .7z archives can be opened in IDL, MatLab, or the open-source R statistical computing environment. Further details about the data package are in the attached user guide (neon_aop_crbu_waveformlidar_userguide.pdf)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "Tristan",
+        "familyName": "Goulden",
+        "affiliation": "National Ecological Observatory Network",
+        "email": "tgoulden@battelleecology.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7924-040X",
+        "givenName": "H. Marshall",
+        "familyName": "Worsham",
+        "affiliation": "University of California Berkeley",
+        "email": "worsham@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bridget",
+        "familyName": "Hass",
+        "affiliation": "National Ecological Observatory Network",
+        "email": "bhass@battelleecology.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8453-8435",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5633-4865",
+        "givenName": "K. Dana",
+        "familyName": "Chadwick",
+        "affiliation": "Stanford University",
+        "email": "kdc@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3307-6098",
+        "givenName": "Nicola",
+        "familyName": "Falco",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "nicolafalco@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5982-6064",
+        "givenName": "Kate",
+        "familyName": "Maher",
+        "affiliation": "Stanford University",
+        "email": "kmaher@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2140-6072",
+        "givenName": "Haruko",
+        "familyName": "Wainwright",
+        "affiliation": "Massachusetts Institute of Technology",
+        "email": "hmwainw@mit.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8134-3579",
+        "givenName": "Lara",
+        "familyName": "Kueppers",
+        "affiliation": "University of California Berkeley",
+        "email": "lmkueppers@berkeley.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY",
+      "Remote sensing",
+      "LiDAR",
+      "Waveform",
+      "NEON AOP",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "Light Detection and Ranging",
+      "National Ecological Observatory Network Airborne Observation Platform",
+      "NEON Campaign 2018",
+      "2018 NEON and 2025 CHESS Campaigns"
+    ],
+    "variableMeasured": [
+      "Waveform LiDAR",
+      "LiDAR return intensity"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The NEON AOP acquired the waveform LiDAR data over a 334 km2 footprint in the East River (ER) watershed, a snow\u2010dominated headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is a designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.04,
+            "longitude": -107.129
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.814,
+            "longitude": -106.877
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2023) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-06-12",
+      "endDate": "2018-06-26",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7924-040X",
+      "givenName": "H. Marshall",
+      "familyName": "Worsham",
+      "email": "worsham@berkeley.edu"
+    },
+    "citation": [
+      "Goulden T ; Musinsky J (2020): Post survey report for AOP Assignable Asset collection of Crested Butte, CO. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1617202",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2023): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA (Version 3.1). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Please see the NEON AOP Report Document (citation in Related Reference) for full description of these data. Lawrence Berkeley National Laboratory (LBNL) contracted the NEON AOP to observe watersheds of interest surrounding Crested Butte, Colorado, with airborne remote sensing data, including LiDAR. The waveform LiDAR files in this package are the original data provided by NEON. The flight box design encompassed the watersheds, surveying a total area of 334 km2 across 102 lines. The instrument used was an Optech Gemini, with a pulse density of 2-9 pulses m-2 across the study area (see final report document for detailed information). LiDAR data were processed with the Optech LMS software. This generated both LAS and ascii formats, and the ascii data were then read into the waveform processor. The waveform processor is IDL code written within NEON to read in the raw Optech waveform format, synchronize GPS time tags, calculate range, and then geolocate the waveforms onto the Earth surface. Currently the output waveform product format is a series of flat binary files for easy reading into R, IDL, Matlab, or equivalent analytical software."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-61a70749a1967c7-20240627T190805507",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-61a70749a1967c7-20240627T190805507",
+        "name": "2018_CRBU_1_2018062614_FL005.7z",
+        "contentSize": 3445168.6650390625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c7d2d8c364737be-20240628T165515608",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-c7d2d8c364737be-20240628T165515608",
+        "name": "2018_CRBU_1_2018062514_FL008.7z",
+        "contentSize": 3724781.71875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ba50356fddb9e9d-20240627T190805445",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-ba50356fddb9e9d-20240627T190805445",
+        "name": "2018_CRBU_1_2018062614_FL003.7z",
+        "contentSize": 3081899.92578125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4d505a098d0fd75-20240628T165515708",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-4d505a098d0fd75-20240628T165515708",
+        "name": "2018_CRBU_1_2018062514_FL013.7z",
+        "contentSize": 3483044.3740234375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fdcc29daceaa31b-20240627T190805516",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-fdcc29daceaa31b-20240627T190805516",
+        "name": "2018_CRBU_1_2018062614_FL006.7z",
+        "contentSize": 3759580.154296875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-824d76107b2966f-20240715T220914394",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-824d76107b2966f-20240715T220914394",
+        "name": "flmd.csv",
+        "contentSize": 3.2998046875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-74231d0572f95c9-20240627T190805570",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-74231d0572f95c9-20240627T190805570",
+        "name": "2018_CRBU_1_2018062614_FL009.7z",
+        "contentSize": 972160.5283203125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a2e37e9c8b22d65-20240628T165515652",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-a2e37e9c8b22d65-20240628T165515652",
+        "name": "2018_CRBU_1_2018062514_FL009.7z",
+        "contentSize": 3513170.2705078125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7e18fa791c5d6ba-20240627T190805541",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-7e18fa791c5d6ba-20240627T190805541",
+        "name": "2018_CRBU_1_2018062614_FL007.7z",
+        "contentSize": 3880561.1591796875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fa9c08fd1c8da08-20240627T190805462",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-fa9c08fd1c8da08-20240627T190805462",
+        "name": "2018_CRBU_1_2018062614_FL004.7z",
+        "contentSize": 3598123.18359375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d631f380daeb291-20240628T165515718",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-d631f380daeb291-20240628T165515718",
+        "name": "2018_CRBU_1_2018062514_FL014.7z",
+        "contentSize": 3631730.078125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-52d2e23719c1c59-20240627T190805563",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-52d2e23719c1c59-20240627T190805563",
+        "name": "2018_CRBU_1_2018062614_FL008.7z",
+        "contentSize": 4038367.9296875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-96cd0dfcd2628c3-20240628T165515695",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-96cd0dfcd2628c3-20240628T165515695",
+        "name": "2018_CRBU_1_2018062514_FL012.7z",
+        "contentSize": 3546050.265625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2bcdd6f9cfd47b7-20240628T165515728",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-2bcdd6f9cfd47b7-20240628T165515728",
+        "name": "2018_CRBU_1_2018062514_FL015.7z",
+        "contentSize": 2680836.533203125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-aa03514f581f2cd-20240628T165515673",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-aa03514f581f2cd-20240628T165515673",
+        "name": "2018_CRBU_1_2018062514_FL011.7z",
+        "contentSize": 3507329.5908203125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-29f4ebf27a809e0-20240716T184404499",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-29f4ebf27a809e0-20240716T184404499",
+        "name": "NEON_AOP_2018_CRBU_waveformlidar_userguide.pdf",
+        "contentSize": 315.8359375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f02304e7095ced3-20240628T165515664",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-f02304e7095ced3-20240628T165515664",
+        "name": "2018_CRBU_1_2018062514_FL010.7z",
+        "contentSize": 3626734.4189453125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-85a1560c7f39601-20240627T190805438",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-85a1560c7f39601-20240627T190805438",
+        "name": "2018_CRBU_1_2018062614_FL002.7z",
+        "contentSize": 3367576.5048828125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6f13024ecdc9511-20240627T190805429",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-6f13024ecdc9511-20240627T190805429",
+        "name": "2018_CRBU_1_2018062614_FL001.7z",
+        "contentSize": 2996358.1123046875
+      }
+    ]
+  }
+}

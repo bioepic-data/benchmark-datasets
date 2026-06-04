@@ -1,0 +1,146 @@
+{
+  "id": "ess-dive-cb5e7693a0414e9-20230407T150801077755",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1889747",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-cb5e7693a0414e9-20230407T150801077755",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-b845009b5b54144-20230406T143139847107",
+  "dateUploaded": "2023-04-07T15:08:01.905Z",
+  "dateModified": "2024-02-08T19:43:01.682Z",
+  "isPublic": true,
+  "citation": "Carroll R (2022): Model files for estimating snow dynamics and stable water isotopes across the East River, CO.. Watershed Function SFA. Dataset. doi:10.15485/1889747",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1889747",
+    "name": "Model files for estimating snow dynamics and stable water isotopes across the East River, CO.",
+    "description": [
+      "A coupled hydrologic and snowpack stable water isotope model is used to assesses controls on isotopic inputs across the East River, Colorado, a large, mountainous basin. The hydrologic model uses the semi-empirical, spatially distributed and publicly available U.S. Geological Survey numerical code Precipitation-Modelling Runoff System (PRMS). Water and energy are tracked daily through the atmosphere, canopy and subsurface at a 100-m grid resolution. The isotope mass balance model follows previous work by Ala-aho et al. (2017) to track stable isotopes entering the soil system as snowmelt or rain. Water stores and fluxes needed for the isotope model use hydrologic model output for each timestep and model modeled grid location. This data package provides all files related to the hydrologic model (executable, input and output files), the isotopic model calibration and the historic isotopic model (water years 2015-2020). The isotope model source code and executable are provided. The file \"readme.txt\" includes information on the file structure, steps to run the model, and description of included folders."
+    ],
+    "alternateName": [
+      "paf_867_871"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9302-8074",
+        "givenName": "Rosemary",
+        "familyName": "Carroll",
+        "affiliation": "Desert Research Institute",
+        "email": "rosemary.carroll@dri.edu"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "East River",
+      "stable water isotopes",
+      "snow dynamics",
+      "post-depositional fractionation"
+    ],
+    "variableMeasured": [
+      "Isotopes"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "These are the edges of the domain which is described by this modeling dataset. This domain describes the contributing watershed area above the USGS stream gage 09112500, East River at Almont, CO.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.04,
+            "longitude": -107.13
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.65,
+            "longitude": -106.74
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2015-10-01",
+      "endDate": "2020-10-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9302-8074",
+      "givenName": "Rosemary",
+      "familyName": "Carroll",
+      "affiliation": "Desert Research Institute",
+      "email": "rosemary.carroll@dri.edu"
+    },
+    "citation": [
+      "Model files pertain to the publication: Carroll, R., Deems, J., Sprenger, M., Maxwell, R., Brown, W., Newman, A., Beutler, C., Williams, K.H. (2022). Modeling snow dynamics and stable water isotopes across mountain landscapes. Geophysical Research Letters. http://dx.doi.org/10.1029/2022GL098780",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Kakalia Z ; Burrus M ; O'Ryan D ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; Elbashandy H ; Enquist B J ; Fox P ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Matheus Carnevali P ; Newman A ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Agarwal D (2022): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA (Version 3.0). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Hydrologic model files and isotopic model files; including source codes, executables, and input/output text files are provided for the East River Watershed. Detailed instructions on how to run the sequence of models is provided in the data package (readme) to guide the user on how to execute models as well as access raw and processed model output needed to replicate published results."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ac8fa0732ee43d-20221011T214300811",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-5ac8fa0732ee43d-20221011T214300811",
+        "name": "codes.zip",
+        "contentSize": 10.2783203125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-555e3ee21cb8159-20221011T214254262",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-555e3ee21cb8159-20221011T214254262",
+        "name": "readme.txt",
+        "contentSize": 12.2080078125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-811e73da35fb818-20221011T214548389",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-811e73da35fb818-20221011T214548389",
+        "name": "PRMS.zip",
+        "contentSize": 1085888.3515625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-723f2493968383f-20221011T214308019",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-723f2493968383f-20221011T214308019",
+        "name": "processed_output.zip",
+        "contentSize": 8552.884765625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e4ed593cf85c900-20221011T214334938",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-e4ed593cf85c900-20221011T214334938",
+        "name": "Isotope_Model.zip",
+        "contentSize": 1137813.3486328125
+      }
+    ]
+  }
+}

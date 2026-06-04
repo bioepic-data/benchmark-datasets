@@ -1,0 +1,202 @@
+{
+  "id": "ess-dive-9bf889626ce6634-20241028T152114412181",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15486/NGT/1871026",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-9bf889626ce6634-20241028T152114412181",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ecf48478baa36d1-20240913T175853468607",
+  "dateUploaded": "2024-10-28T15:21:21.279Z",
+  "dateModified": "2024-10-28T22:57:03.581Z",
+  "isPublic": true,
+  "citation": "Needham J; Arellano G; Davies S; Fisher R; Hammer V; Knox R; Mitre D; Muller-Landau H; Zuleta D; Koven C (2022): FATES crown damage simulation outputs 2022. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15486/NGT/1871026",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15486/NGT/1871026",
+    "name": "FATES crown damage simulation outputs 2022",
+    "description": [
+      "This dataset contains outputs from the Functionally Assembled Terrestrial Ecosystem Simulator (FATES) and accompanies the paper \"Needham, J.F., Arellano, A., Davies, S.J., Fisher, R.A., Hammer, V., Knox, R., Mitre, D., Muller-Landau, H.C., Zuleta, D., Koven, C.D. Tree crown damage and its effects on forest carbon cycling in a tropical forest, 2022, Global Change Biology\". Data are unprocessed netcdf file outputs from simulations that were run to test the effect of a new crown damage module in FATES. Specifically, this data package contains a sensitivity analysis to the carbon cushion parameter damage_Ccushion_ensemble_e1b5bd9_bf013ef_2021-09-02.h0.ensemble.sofar.nc, a sensitivity analysis to the root nitrogen stoichiometry parameter damage_Nstoich_ensemble_e1b5bd9_bf013ef_2021-09-02.h0.ensemble.sofar.nc, a sensitivity analysis to parameters controlling crown damage and recovery damage_recovery_ensemble_e1b5bd9_354f0b0_2021-09-02.h0.ensemble.sofar.nc, and a sensitivity analysis to the number of crown damage bins elm_fates_bci_*_damagebins.Eac53ccb80b-F8f994c29.2022-04-19.elm.h0.fullrun.nc. This data package also contains a high root nitrogen configuration of FATES, including both a control, and a crown damage simulation high_root_N_control_e1b5bd9_354f0b0_2021-09-02.clm2.h0.fullrun.nc and high_root_N_damage_e1b5bd9_354f0b0_2021-09-02.clm2.h0.fullrun.nc. There is an analogous low root nitrogen configuration of FATES, including a control, low_root_N_control_e1b5bd9_bf013ef_2021-09-02.clm2.h0.fullrun.nc a damage only simulation low_root_N_damageonly_e1b5bd9_bf013ef_2021-09-02.clm2.h0.fullrun.nc, a damage plus mortality simulation low_root_N_damage_mort_e1b5bd9_bf013ef_2021-09-02.clm2.h0.fullrun.nc, and a mortality only simulation low_root_N_mort_only_e1b5bd9_ef845c8_2021-09-02.clm2.h0.fullrun.nc. Finally, there is a two PFT simulation in which we test the effect of recovery on competitive dynamics, low_root_N_damage_two_pfts_stoichastic_e1b5bd9_bf013ef_2021-09-10.clm2.h0.fullrun.nc. These simulations test the effect of representing crown damage in FATES, compared with simulations that have an equivalent increase in mortality. Jupyter notebooks to analyse these files can be found at https://github.com/JessicaNeedham/Needham_etal_GCB_2022_FATES_crown_damage.",
+      "This dataset was originally published on the NGEE Tropics Archive and is being mirrored on ESS-DIVE for long-term archival",
+      "Acknowledgement: Funding for NGEE-Tropics data resources was provided by the U.S. Department of Energy Office of Science, Office of Biological and Environmental Research."
+    ],
+    "alternateName": [
+      "https://doi.org/10.15486/ngt/1871026",
+      "NGT0187"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-3653-3848",
+        "givenName": "Jessica",
+        "familyName": "Needham",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jfneedham@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-3990-5344",
+        "givenName": "Gabriel",
+        "familyName": "Arellano",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "gabriel.arellano.torres@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-8596-7522",
+        "givenName": "Stuart",
+        "familyName": "Davies",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "daviess@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-3260-9227",
+        "givenName": "Rosie",
+        "familyName": "Fisher",
+        "affiliation": "National Center for Atmospheric Research",
+        "email": "rosieafisher@googlemail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Valerie",
+        "familyName": "Hammer",
+        "email": "vhammer@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-1140-3350",
+        "givenName": "Ryan",
+        "familyName": "Knox",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "rgknox@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Mitre",
+        "email": "MitreDS@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-3526-9021",
+        "givenName": "Helene",
+        "familyName": "Muller-Landau",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "mullerh@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0001-9832-6188",
+        "givenName": "Daniel",
+        "familyName": "Zuleta",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "dfzuleta@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-3367-0065",
+        "givenName": "Charlie",
+        "familyName": "Koven",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cdkoven@lbl.gov"
+      }
+    ],
+    "datePublished": "2022-06-07",
+    "keywords": [
+      "Next-Generation Ecosystem Experiements Tropics",
+      "NGEE-T",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Model output"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site Name: Barro Colorado Island (BCI). Site ID: PA-BCI. Located in Panama. Barro Colorado Island (BCI) is a humid tropical forest with high biodiversity, around 300 species in 50 ha. The climate has a sever dty season from and of December to end of April. Several decidous species drop their leaves during this period. Lianas are very abundant in this forest accounting up to 30% of leaf area. (AMERIFLUX)Barro Colorado Island (BCI), a 1,560-hectare island, is STRI's primary site for the study of lowland moist tropical forests. Together with five adjacent peninsulas, BCI forms the 5,600-hectare Barro Colorado Nature Monument (BCNM), which is located in the middle of the Panama Canal. Established in April 17, 1923, BCNM and has been administered by the Smithsonian since 1946 (STRI CTFS). For more information on this site, visit: http://fluxnet.ornl.gov/site/4247, http://ameriflux-data.lbl.gov:8080/SitePages/siteInfo.aspx?PA-Bar,http://biogeodb.stri.si.edu/physical_monitoring/research/barrocolorado Site contact(s): (Joseph Wright <wrightj@si.edu>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 9.177125,
+            "longitude": -79.87
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 9.130659,
+            "longitude": -79.82
+          }
+        ]
+      }
+    ],
+    "award": [
+      "AC02-05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-09-03",
+      "endDate": "2022-04-20",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "http://orcid.org/0000-0003-3653-3848",
+      "givenName": "Jessica",
+      "familyName": "Needham",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "jfneedham@lbl.gov"
+    },
+    "citation": [
+      "Needham, J.F., Arellano, A., Davies, S.J., Fisher, R.A., Hammer, V., Knox, R., Mitre, D., Muller-Landau, H.C., Zuleta, D., Koven, C.D. Tree crown damage and its effects on forest carbon cycling in a tropical forest, 2022, Global Change Biology. https://doi.org/10.1111/gcb.16318"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Please see the related publication for methods details. In brief, the crown damage module reduces the crown area and crown biomass of damaged trees, altering forest biomass and canopy organisation.\nAll FATES source code is available at https://github.com/NGEET/fates. Commits used in simulations here are on JFN\u2019s fork of the main FATES repository. High carbon starvation mortality configurations use commit 354f0b0c, low carbon starvation mortality configurations use commit bf013ef, and low carbon starvation mortality with mortality only use commit ef845c8, all from the branch JessicaNeedham-damage_recovery found here:\nhttps://github.com/JessicaNeedham/fates/tree/JessicaNeedham-damage_recovery. The sensitivity to the number of crown damage classes used commit 8f994c2 on the branch JessicaNeedham-crowndamage_module found here:\nhttps://github.com/JessicaNeedham/fates/tree/JessicaNeedham-crowndamage_module"
+    ],
+    "distribution": [
+      {
+        "contentSize": 1.5869140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6f94c020a03cc60-20240913T175851574260",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6f94c020a03cc60-20240913T175851574260",
+        "name": "NGT0187_locations.csv"
+      },
+      {
+        "contentSize": 12.083984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9bf889626ce6634-20241028T152114412181",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-9bf889626ce6634-20241028T152114412181",
+        "name": "FATES_crown_damage_simulation_outputs_2022.xml"
+      },
+      {
+        "contentSize": 2033815.134765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-903da47281fe80c-20220607T170933457002",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-903da47281fe80c-20220607T170933457002",
+        "name": "NGT0187_Model_simulations_20220603185505.zip"
+      }
+    ]
+  }
+}

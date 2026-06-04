@@ -1,0 +1,147 @@
+{
+  "id": "ess-dive-f7df3090f5c1222-20230809T200635880",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1994877",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f7df3090f5c1222-20230809T200635880",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-cfe69a34e0cbea1-20230809T193936647",
+  "dateUploaded": "2023-08-09T20:06:36.560Z",
+  "dateModified": "2023-08-16T00:01:20.186Z",
+  "isPublic": true,
+  "citation": "Kannenberg S; Barnes M; Bowling D; Driscoll A; Guo J; Anderegg W (2023): Stem psychrometer and flux data from US-CdM. A general mechanistic framework for cross-scale understanding of hot spots and hot moments in carbon and water fluxes. Dataset. doi:10.15485/1994877",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1994877",
+    "name": "Stem psychrometer and flux data from US-CdM",
+    "description": [
+      "Cleaned midday and predawn water potential data from 14 stem psychrometers installed within the footprint of the US-CdM flux tower, from May-October 2021. These data were collected in order to link environmental drivers, vegetation responses to seasonal water stress, and ecosystem fluxes of carbon and water at a pinyon-juniper woodland in southeastern Utah.",
+      "Data include a comma separated values file containing all water potential data used in the published paper. Data were first published in Kannenberg et al. 2023 Agricultural and Forest Meteorology (doi: 10.1016/j.agrformet.2022.109269). Flux data are publicly available from the AmeriFlux portal (doi: 10.17190/AMF/1865477). This data file and the AmeriFlux data are all that is necessary to replicate the analyses in Kannenberg et al. 2023 Agricultural and Forest Meteorology."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4097-9140",
+        "givenName": "Steve",
+        "familyName": "Kannenberg",
+        "email": "steven.kannenberg@mail.wvu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mallory",
+        "familyName": "Barnes",
+        "email": "malbarn@indiana.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Bowling",
+        "email": "david.bowling@utah.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Avery",
+        "familyName": "Driscoll",
+        "email": "avery.driscoll@colostate.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jessica",
+        "familyName": "Guo",
+        "email": "jessicaguo@arizona.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "William",
+        "familyName": "Anderegg",
+        "email": "anderegg@utah.edu"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "psychrometer",
+      "eddy covariance"
+    ],
+    "variableMeasured": [
+      "water potential",
+      "gross primary productivity",
+      "evapotranspiration",
+      "soil moisture"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Eddy covariance tower (site ID: US-CdM) located in a pinyon-juniper woodland in southeastern Utah.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.5241,
+            "longitude": -109.7471
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.5241,
+            "longitude": -109.7471
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-05-24",
+      "endDate": "2021-11-05",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4097-9140",
+      "givenName": "Steve",
+      "familyName": "Kannenberg",
+      "email": "steven.kannenberg@mail.wvu.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "ebb3561f-c5ac-400b-b703-215672ee370b"
+      },
+      "name": "A general mechanistic framework for cross-scale understanding of hot spots and hot moments in carbon and water fluxes",
+      "member": {
+        "@type": "Person",
+        "givenName": "Steven",
+        "familyName": "Kannenberg",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "University of Utah",
+        "email": "steve.kannenberg@colostate.edu"
+      }
+    },
+    "measurementTechnique": [
+      "On May 24, 2021, 14 ICT PSY1 automated stem psychrometers were installed on Utah juniper trees within 20 m of the flux tower. Stem psychrometers measure xylem water potential through a dual-thermocouple design that generates wet bulb depression and corrects for temperature gradients in the chamber. Since this method is minimally destructive, it can be used to obtain a continuous time series of stem water potential. All instruments were calibrated prior to installation in the field, as per the manufacturer\u2019s instructions. Briefly, solutions of potassium chloride were created that correspond to water potentials of 0.46, 0.91, 1.37, 1.82, 2.28, 4.64, and 6.9 MPa. Filter paper discs were soaked in each solution and placed in a metal cap, which was sealed on to the psychrometer chamber with a small amount of vacuum grease. The water vapor in the psychrometer chamber was then allowed to equilibrate with the solution on the disc for at least 30 min, after which a water potential measurement was taken. The procedure was then repeated for the remaining solutions. The slope and y-intercept between measured and actual water potential were applied to each psychrometer; calibrations were re-run if the R2 of this linear fit was below 0.99.\nSeven mature, healthy trees (between 2 and 3 m in height) were selected, and 2 psychrometers were installed on different branches within each tree. Psychrometers were installed as per the manufacturer\u2019s instructions, by removing bark and phloem with a flat knife, cleaning the exposed xylem with water and a cloth, and attaching the instrument chamber to the exposed xylem with a clamp. The psychrometer chambers were further secured to the branch with self-adhesive silicone tape to ensure a tight seal and covered in a reflective and watertight radiation shield to minimize temperature fluctuation and keep the instruments (along with any exposed xylem external to the instrument chamber) dry. The psychrometers were then set to take one measurement every 30 minutes and remained installed until November 5, 2021.\nStem psychrometer data are only accurate when there is a tight seal between the chamber and the exposed xylem. Thus, the wounding response of plants can impact the validity of the data and psychrometers cannot be installed indefinitely. Every 4 \u2013 5 weeks (5 times throughout the study period), all psychrometers were uninstalled, organic material (wood, resin, etc.) was removed from the sensor using chloroform and water, the chamber was gently dried with compressed air, and the psychrometers were reinstalled on new branches. This reinstallation period was chosen to reflect the average time that these instruments remained functional. No branch was used twice over the entire study period. One day after each reinstallation period, psychrometer-derived stem water potential data were validated with traditional pressure chamber measurements via a PMS Instruments Model 610 Scholander pressure chamber (Fig. S3, p < 0.0001, R2 = 0.58). On each of these days, two such water potential measurements were conducted on each tree that the psychrometers were installed on (total of n = 14 for each day). We do note that the psychrometer-derived measurements of tree water potential were more negative than those derived from the pressure chamber during extremely dry conditions (Fig. S3), though the exclusion of these values (< -6 MPa) do not alter our conclusions.\nStem water potential data were visually assessed to screen for measurement artifacts and errors. Our criteria for removing data were as follows: 1) during maintenance/cleaning periods, and for 1 day following these periods, 2) outliers that were > 0.5 MPa away from adjacent points, 3) after any sizeable \u2018step change\u2019 in the magnitude of measured stem water potential that could not be attributed to a precipitation event, and 4) any time a diurnal cycle in water potential was lost. This data processing procedure resulted in quality data being available for 10 stem psychrometers on average at a given moment, with at least half of the psychrometers active during 93% of the study period. Following this data processing, water potential data were aggregated into daily stand-level means during predawn (2 \u2013 4 am) and midday (1 \u2013 3 pm) periods."
+    ],
+    "distribution": [
+      {
+        "contentSize": 46.82421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9063e86fc9f0439-20230217T202759539",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9063e86fc9f0439-20230217T202759539",
+        "name": "Stem_psychrometer_data.csv"
+      },
+      {
+        "contentSize": 9.77734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f7df3090f5c1222-20230809T200635880",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f7df3090f5c1222-20230809T200635880",
+        "name": "Stem_psychrometer_and_flux_data_from.xml"
+      }
+    ]
+  }
+}

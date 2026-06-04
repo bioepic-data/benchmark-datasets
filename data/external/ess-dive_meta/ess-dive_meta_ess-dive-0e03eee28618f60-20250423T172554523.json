@@ -1,0 +1,564 @@
+{
+  "id": "ess-dive-0e03eee28618f60-20250423T172554523",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2319038",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-0e03eee28618f60-20250423T172554523",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-0e03eee28618f60-20250417T153038295",
+  "dateUploaded": "2025-04-23T17:25:56.041Z",
+  "dateModified": "2025-04-23T17:26:02.565Z",
+  "isPublic": true,
+  "citation": "Cavaiani J; Regier P; Roebuck A; Barnes M; Garayburu-Caruso V A; Gillespie X; McKever S A; Renteria L; Forbes B; Powers-McCormack B; Myers-Pigg A (2024): Data and scripts associated with a manuscript on a meta-analysis synthesizing stream biogeochemical response to wildfires across space and time (v2). River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2319038",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2319038",
+    "name": "Data and scripts associated with a manuscript on a meta-analysis synthesizing stream biogeochemical response to wildfires across space and time (v2)",
+    "description": [
+      "This data package is associated with the publication \u201cCatchment characteristics modulate the influence of wildfires on nitrate and dissolved organic carbon in lotic systems across space and time: A meta-analysis\u201d submitted to Global Biogeochemical Cycles (Cavaiani et al. 2025). This study uses meta-analytical techniques to evaluate the effect of wildfire on in-stream responses in burned and unburned watersheds. The study aims to provide additional insight into the range of responses and net influences that wildfires have on hydro-biogeochemistry across broad spatial scales, burn extents, and the persistence of water-quality change. This study compiles data and metadata from 18 total publications that includes 1) surface water geochemistry data (dissolved organic carbon; nitrate), 2) climate classifications, 3) year of the wildfire, 4) the time lag between when the fire occurred and when the sampling occurred, and 5) study design of the publication. In total, this meta-analysis draws data that spans 8 climate guilds, 3 biomes, 62 watersheds, and 20 unique wildfires. See Sites_meta_data.csv for citations of the papers used in this meta-analysis. All R scripts and the associated data can also be found on GitHub at",
+      "This data package was originally published in March 2024. It was updated in April 2025 (v2; new and modified files). See the change history section in the readme for more details.",
+      "This data package contains five primary folders that include the following: (1) inputs; (2) output for analysis; (3) initial plots; (4) R scripts; and (5) GIS data. The data package also contains a data dictionary (dd) that provides column header definitions and a file-level metadata (flmd) file that describes every file. The \u201cinputs\u201d folder contains a list of all publications identified during the formal web search and an indication of whether each publication was included in the final analysis. Additionally, it includes site-level metadata, catchment characteristics, and GIS data for all publications included in the final analysis. The \u201cOutput_for_analysis\u201d folder contains all data frames and figures generated from each R script used for additional data analysis. The \u201cinitial_plots\u201d folder includes all exploratory figures that will be included in a supplemental and figures that will be submitted with the manuscript for publication. The \u201cR_scripts\u201d folder contains the scripts that perform all the data manipulations, statistical analyses, and plots. The \u201cgis_data\u201d folder includes shape files for each fire included in this meta-analysis. This data package contains the following file types: csv, pdf, jpeg, cpg, dbf, prj, shp, shp.ea.iso.xml, shp.iso.xml, shx."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-5497-0840",
+        "givenName": "Jake",
+        "familyName": "Cavaiani",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "jake.cavaiani@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8375-1314",
+        "givenName": "Peter",
+        "familyName": "Regier",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "peter.regier@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8575-2572",
+        "givenName": "Alan",
+        "familyName": "Roebuck",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "alan.roebuck@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8722-6552",
+        "givenName": "Morgan",
+        "familyName": "Barnes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "morgan.barnes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Xia",
+        "familyName": "Gillespie",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "xia.gillespie@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophia A.",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "sophia.mckever@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6905-6841",
+        "givenName": "Allison",
+        "familyName": "Myers-Pigg",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "allison.myers-pigg@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024-02-29",
+    "keywords": [
+      "Wildfire",
+      "Watershed",
+      "Biogeochemistry",
+      "Meta-analysis",
+      "Hydrobiogeochemical function",
+      "Stream",
+      "River",
+      "Disturbance",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "Dissolved organic carbon",
+      "DOC",
+      "Nitrate",
+      "NO3_",
+      "Burn extent",
+      "Time-since-fire",
+      "Climate"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Abbott et al. (2021), Anaktuvuk River Fire, Alaska, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 69.047,
+            "longitude": -150.837
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 69.047,
+            "longitude": -150.837
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Burd et al. (2018), Northwest Territories Fire, Northwest Territories, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 61.1333,
+            "longitude": -120.2833
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 61.1333,
+            "longitude": -120.2833
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Coombs & Melack (2013), Gaviota Fire , California, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.473,
+            "longitude": -120.1873
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.473,
+            "longitude": -120.1873
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Crandall et al. (2021), Pole Creek Fire Complex , Utah, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.1335,
+            "longitude": -111.7712
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.1335,
+            "longitude": -111.7712
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Gerla & Galloway (1998), Clover-Mist Fire, Wyoming, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5129,
+            "longitude": -109.9842
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5129,
+            "longitude": -109.9842
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Gluns & Toews (1989), Matt Fire, British Columbia, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 49.6773,
+            "longitude": -116.0061
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 49.6773,
+            "longitude": -116.0061
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Hauer & Spencer (1998), Red Bench Fire , Montana, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 48.763,
+            "longitude": -114.226
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 48.763,
+            "longitude": -114.226
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Hickenbottom et al. (2023), Caldor Fire, California, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8987,
+            "longitude": -119.9488
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8987,
+            "longitude": -119.9488
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Hickenbottom et al. (2023), Mosquito Fire, California, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9587,
+            "longitude": -120.9205
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9587,
+            "longitude": -120.9205
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Mast & Clow, (2008), Rampage Fire, Montana, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 48.789,
+            "longitude": -113.796
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 48.789,
+            "longitude": -113.796
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Murphy et al. (2015), Fourmile Canyon Fire, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0333,
+            "longitude": -105.4167
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.0333,
+            "longitude": -105.4167
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Neary & Currier, 1982), Jumping Branch Fire, South Carolina, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.0953,
+            "longitude": -82.265
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.0953,
+            "longitude": -82.265
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Oliver et al. (2012), Angora Fire, California, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8964,
+            "longitude": -120.0416
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8964,
+            "longitude": -120.0416
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Rhea et al. (2021), Hayman Fire, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.2624,
+            "longitude": -105.5908
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.2624,
+            "longitude": -105.5908
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Tiedemann 1973), Safety Harbor Fire, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 48.1027,
+            "longitude": -120.3523
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 48.1027,
+            "longitude": -120.3523
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Uzun et al. (2020), Wragg Fire, California, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.512,
+            "longitude": -122.0972
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.512,
+            "longitude": -122.0972
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Uzun et al. (2020), Rocky Fire, California, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9236,
+            "longitude": -122.3265
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9236,
+            "longitude": -122.3265
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Wagner et al. (2015), High Park Fire, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.716,
+            "longitude": -105.233
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.716,
+            "longitude": -105.233
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Writer et al. (2014), Hewlett Gulch Fire, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.685,
+            "longitude": -105.4491
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.685,
+            "longitude": -105.4491
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1970-09-19",
+      "endDate": "2022-09-26",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6905-6841",
+      "givenName": "Allison",
+      "familyName": "Myers-Pigg",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "allison.myers-pigg@pnnl.gov"
+    },
+    "citation": [
+      "Abbott, B. W., Rocha, A. V., Shogren, A., Zarnetske, J. P., Iannucci, F., Bowden, W. B., Bratsman, S. P., Patch, L., Watts, R., Fulweber, R., Frei, R. J., Huebner, A. M., Ludwig, S. M., Carling, G. T., & O\u2019Donnell, J. A. (2021). Tundra wildfire triggers sustained lateral nutrient loss in Alaskan Arctic. Global Change Biology, 27(7), 1408\u20131430. https://doi.org/10.1111/gcb.15507",
+      "Burd, K., Tank, S. E., Dion, N., Quinton, W. L., Spence, C., Tanentzap, A. J., & Olefeldt, D. (2018). Seasonal shifts in export of DOC and nutrients from burned and unburned peatland-rich catchments, Northwest Territories, Canada. Hydrology and Earth System Sciences, 22(8), 4455\u20134472. https://doi.org/10.5194/hess-22-4455-2018",
+      "Cavaiani, J., Regier, P., Roebuck Jr, J. A., Barnes, M., Garayburu-Caruso, V. A., Gillespie, X., McKever, S., Renteria, L., & Myers-Pigg, A. N., (2024, in preparation). Catchment characteristics modulate the influence of wildfires on nitrate and dissolved organic carbon in lotic systems across space and time: A meta-analysis",
+      "Coombs, J. S., & Melack, J. M. (2013). Initial impacts of a wildfire on hydrology and suspended sediment and nutrient export in California chaparral watersheds. Hydrological Processes, 27(26), 3842\u20133851. https://doi.org/10.1002/hyp.9508",
+      "Crandall, T., Jones, E., Greenhalgh, M., Frei, R. J., Griffin, N., Severe, E., Maxwell, J., Patch, L., Clair, S. I. S., Bratsman, S., Merritt, M., Norris, A. J., Carling, G. T., Hansen, N., Clair, S. B. S., & Abbott, B. W. (2021). Megafire affects stream sediment flux and dissolved organic matter reactivity, but land use dominates nutrient dynamics in semiarid watersheds. PLOS ONE, 16(9), e0257733. https://doi.org/10.1371/journal.pone.0257733",
+      "Gerla, P. J., & Galloway, J. M. (1998). Water quality of two streams near Yellowstone Park, Wyoming, following the 1988 Clover-Mist wildfire. Environmental Geology, 36(1), 127\u2013136. https://doi.org/10.1007/s002540050328",
+      "Gluns, D. R., & Toews, D. A. (1989). Effect of a major wildfire on water quality in southeastern British Columbia. Proceedings of the Symposium on Headwaters Hydrology. American Water Resources Association, Bethesda Maryland. 1989. p 487-499, 6 Fig, 4 Tab, 28 Ref.",
+      "Hauer, F., & Spencer, C. (1998). Phosphorus and Nitrogen Dynamics in Streams Associated With Wildfire: A Study of Immediate and Longterm Effects. International Journal of Wildland Fire - INT J WILDLAND FIRE, 8. https://doi.org/10.1071/WF9980183",
+      "Hickenbottom, K., Pagilla, K., & Hanigan, D. (2023). Wildfire impact on disinfection byproduct precursor loading in mountain streams and rivers. Water Research, 244, 120474. https://doi.org/10.1016/j.watres.2023.120474",
+      "Mast, M. A., & Clow, D. W. (2008). Effects of 2003 wildfires on stream chemistry in Glacier National Park, Montana. Hydrological Processes, 22(26), 5013\u20135023. https://doi.org/10.1002/hyp.7121",
+      "Murphy, S. F., McCleskey, R. B., Martin, D. A., Writer, J. H., & Ebel, B. A. (2018). Fire, Flood, and Drought: Extreme Climate Events Alter Flow Paths and Stream Chemistry. Journal of Geophysical Research: Biogeosciences, 123(8), 2513\u20132526. https://doi.org/10.1029/2017JG004349",
+      "Murphy, S. F., Writer, J. H., McCleskey, R. B., & Martin, D. A. (2015). The role of precipitation type, intensity, and spatial distribution in source water quality after wildfire. Environmental Research Letters, 10(8), 084007. https://doi.org/10.1088/1748-9326/10/8/084007",
+      "Neary, D. G., & Currier, J. B. (1982). Impact of wildfire and watershed restoration on water quality in South Carolina\u2019s Blue Ridge Mountains. Southern Journal of Applied Forestry, 6(2), 81\u201390. https://doi.org/10.1093/sjaf/6.2.81",
+      "Oliver, A. A., Reuter, J. E., Heyvaert, A. C., & Dahlgren, R. A. (2012). Water quality response to the Angora Fire, Lake Tahoe, California. Biogeochemistry, 111(1/3), 361\u2013376. https://doi.org/10.1007/s10533-011-9657-0",
+      "Rhea, A. E., Covino, T. P., & Rhoades, C. C. (2021). Reduced N-Limitation and Increased In-Stream Productivity of Autotrophic Biofilms 5 and 15 Years After Severe Wildfire. Journal of Geophysical Research: Biogeosciences, 126(9), e2020JG006095. https://doi.org/10.1029/2020JG006095",
+      "Tiedemann, A. R. (1973). Stream chemistry following a forest fire and urea fertilization in north-central Washington. Res. Note PNW-RN-203. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station: 1-20, 203. https://www.fs.usda.gov/research/treesearch/25489",
+      "Uzun, H., Dahlgren, R. A., Olivares, C., Erdem, C. U., Karanfil, T., & Chow, A. T. (2020). Two years of post-wildfire impacts on dissolved organic matter, nitrogen, and precursors of disinfection by-products in California stream waters. Water Research, 181, 115891. https://doi.org/10.1016/j.watres.2020.115891",
+      "Wagner, S., Cawley, K. M., Rosario-Ortiz, F. L., & Jaff\u00e9, R. (2015). In-stream sources and links between particulate and dissolved black carbon following a wildfire. Biogeochemistry, 124(1), 145\u2013161. https://doi.org/10.1007/s10533-015-0088-1",
+      "Writer, J. H., Hohner, A., Oropeza, J., Schmidt, A., Cawley, K. M., & Rosario-Ortiz, F. L. (2014). Water treatment implications after the High Park Wildfire, Colorado. Journal AWWA, 106(4), E189\u2013E199. https://doi.org/10.5942/jawwa.2014.106.0055",
+      "Kathryn Willi, & Matthew R. V. Ross. (2023). Geospatial Data Puller for Waters in the Contiguous United States (Version v1). Zenodo. https://doi.org/10.5281/zenodo.8140272",
+      "Eidenshink, J., Schwind, B., Brewer, K., Zhu, Z. L., Quayle, B., & Howard, S. (2007). A project for monitoring trends in burn severity. Fire ecology, 3, 3-21.). https://doi.org/10.4996/fireecology.0301003",
+      "Hill, R. A., Weber, M. H., Leibowitz, S. G., Olsen, A. R., & Thornbrugh, D. J. (2016). The stream\u2010catchment (StreamCat) dataset: A database of watershed metrics for the conterminous United States. JAWRA Journal of the American Water Resources Association, 52(1), 120-128. https://doi.org/10.1111/1752-1688.12372",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "We performed a systematic literature search in September 2023 on Scopus and Web of Science to generate a list of peer-reviewed publications reporting the effects of fire on dissolved organic carbon and nitrate in burned versus unburned watersheds. The following keywords were used: \u201cwildfire\u201d OR \u201cfire\u201d AND \u201cdissolved organic carbon\u201d OR \u201cnitrate\u201d AND \u201cconcentration\u201d AND \u201cexport\u201d OR \u201cdischarge\u201d OR \u201cstream\u201d OR \u201criver\u201d OR \u201ccreek\u201d OR \u201cwatershed\u201d. From the initial list of publications, we only retained studies matching all five of the following criteria: (1) the burn was a wildfire; (2) paired watershed study design encompassed both burned and unburned reference sites; (3) data included either DOC or nitrate; 4) data were reported as time-series allowing us to interpret seasonal variability in concentrations, and 5) located within North America.\nTo prepare the data for meta-analysis, we created a summary file (\u201ceffect_size_geospatial_fire_lat_long.csv\u201d) that consists of site level metadata, climate characteristics, and the effect size calculated for each site included in the study. Due to the lack of accessible data across publications, we generated a pseudo yield metric to facilitate intercomparisons across watersheds of different sizes. To analyze the proportional difference between burned and unburned in-stream solute concentrations, we calculated the effect size statistical metric. Effect sizes were converted to percent differences. Mixed-effects models were used to determine the significance of climate, time-since-fire, and burn extent response to fire."
+    ],
+    "distribution": [
+      {
+        "contentSize": 28.74609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0e03eee28618f60-20250423T172554523",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-0e03eee28618f60-20250423T172554523",
+        "name": "Data_and_scripts_associated_with_a_manuscript_on.xml"
+      },
+      {
+        "contentSize": 750556.3623046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d42787f58f6d518-20250414T181328799",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d42787f58f6d518-20250414T181328799",
+        "name": "v2_Cavaiani_2024_Metaanalysis.zip"
+      }
+    ]
+  }
+}

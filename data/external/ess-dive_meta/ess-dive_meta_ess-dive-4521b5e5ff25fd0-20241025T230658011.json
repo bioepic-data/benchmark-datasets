@@ -1,0 +1,203 @@
+{
+  "id": "ess-dive-4521b5e5ff25fd0-20241025T230658011",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2447557",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-4521b5e5ff25fd0-20241025T230658011",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-4521b5e5ff25fd0-20241024T224408445",
+  "dateUploaded": "2024-10-25T23:07:00.041Z",
+  "dateModified": "2024-10-26T00:00:45.710Z",
+  "isPublic": true,
+  "citation": "Buschow P; Luo L; Mobley W; Pierce S (2024): Real-time kinematic (RTK) Drone-collected Data and Processed Models of Port Arthur Coastal Neighborhood and Pleasure Island Golf Course, June 2024. Southeast Texas Urban Integrated Field Laboratory (SETx UIFL) \u2013 Equitable solutions for communities caught between floods and air pollution. Dataset. doi:10.15485/2447557",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2447557",
+    "archivedAt": [
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (HTTP)",
+        "url": "https://tier2.ess-dive.lbl.gov/doi-10-15485-2447557/"
+      },
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (Globus)",
+        "url": "https://app.globus.org/file-manager?origin_id=e1b775d6-0125-11ed-a2da-25ff8664e4e5&origin_path=%2Ftier2%2Fdoi-10-15485-2447557%2F"
+      }
+    ],
+    "name": "Real-time kinematic (RTK) Drone-collected Data and Processed Models of Port Arthur Coastal Neighborhood and Pleasure Island Golf Course, June 2024",
+    "description": [
+      "The Southeast Texas Urban Integrated field lab\u2019s Co-design team captured aerial photos in the Port Arthur Coastal Neighborhood Community and the Golf Course on Pleasure Island, Texas, in June 2024. Aerial photos taken were through autonomous flight, and models were processed through the DroneDeploy engine. All aerial photos are in .JPG format and contained in zipped files for each area. The processed data package includes 3D models, geospatial data, mappings, and point clouds. Please be aware that DTM, Elevation toolbox, Point Cloud, and Orthomosaic use EPSG: 6588. And 3D Model uses EPSG: 3857.",
+      "For using these data:",
+      "- The Adobe Suite gives you great software to open .Tif files.",
+      "- You can use LASUtility (Windows), ESRI ArcGIS Pro (Windows), or Blaze3D (Windows, Linux) to open a LAS file and view the data it contains.",
+      "- Open an .OBJ file with a large number of free and commercial applications. Some examples include Microsoft 3D Builder, Apple Preview, Blender, and Autodesk.",
+      "- You may use ArcGIS, Merkaartor, Blender (with the Google Earth Importer plug-in), Global Mapper, and Marble to open .KML files.",
+      "- The .tfw world file is a text file used to georeference the GeoTIFF raster images, like the orthomosaic and the DSM. You need suitable software like ArcView to open a .TFW file.",
+      "This dataset provides researchers with sufficient geometric data and the status quo of the land surface at the locations mentioned above. This dataset will support researchers' decision-making processes under uncertainties."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Buschow",
+        "email": "paul@csr.utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0006-0057-7901",
+        "givenName": "Linchao",
+        "familyName": "Luo",
+        "email": "lukaluo89@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1783-0599",
+        "givenName": "William",
+        "familyName": "Mobley",
+        "affiliation": "The University of Texas, Austin",
+        "email": "wmobley@tacc.utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3050-1987",
+        "givenName": "Suzanne",
+        "familyName": "Pierce",
+        "affiliation": "The University of Texas, Austin",
+        "email": "spierce@tacc.utexas.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "William",
+        "familyName": "Mobley",
+        "email": "wmobley@tacc.utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Fernanda",
+        "familyName": "Leite",
+        "email": "fernanda.leite@utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Suzanne",
+        "familyName": "Pierce",
+        "email": "spierce@tacc.utexas.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "Aerial photographs",
+      "Aerial photos",
+      "Orthoimagery",
+      "Air photos",
+      "Aerial photography",
+      "Image collections",
+      "Reality Capture",
+      "Geospatial analysis",
+      "Geospatial datasets",
+      "2D mapping",
+      "3D model",
+      "Point Cloud data",
+      "Digital elevation/terrain models",
+      "Geometric data",
+      "Drone",
+      "DroneDeploy",
+      "Autonomous flight",
+      "Photogrammetry",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "EARTH SCIENCE > LAND SURFACE > LANDSCAPE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The neighborhood community is selected by the task force, which is prone to be impacted by flood events",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 29.8780111,
+            "longitude": -93.9585543
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 29.8547885,
+            "longitude": -93.935895
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The golf course on Pleasure Island has the potential to serve as an additional green area or buffer zone to mitigate the impact of flood events",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 29.8849694,
+            "longitude": -93.9297152
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 29.8721315,
+            "longitude": -93.9080429
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2024-06-17",
+      "endDate": "2024-06-20",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0006-0057-7901",
+      "givenName": "Linchao",
+      "familyName": "Luo",
+      "email": "lukaluo89@gmail.com"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "20eba4b6-ac19-4616-806a-e253ed67b1af"
+      },
+      "name": "Southeast Texas Urban Integrated Field Laboratory (SETx UIFL) \u2013 Equitable solutions for communities caught between floods and air pollution",
+      "member": {
+        "@type": "Person",
+        "givenName": "Paola",
+        "familyName": "Passalacqua",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of Texas at Austin",
+        "email": "paola@austin.utexas.edu"
+      }
+    },
+    "measurementTechnique": [
+      "PLAN THE DRONE FLIGHT\nCertain flights required permissions from LAANC (Low Altitude Authorization and Notification Capability).\nPermissions were obtained from local authorities for each flight.",
+      "DURING THE DRONE FLIGHT\nFrequently check Battery level and SD card storage when flying autonomously.\nSet up timed(2s) shooting to get a more stable drone camera gimbal for higher-quality photos.\nFrequently perform data QA/AC for each location.\nStore data to the DroneDeploy or any backup storage for each location.",
+      "AFTER THE DRONE FLIGHT\nCheck the quality of the photos, then delete mistaken and low-resolution photos.\nUpload aerial photos to generate point clouds and 3D models.\nCheck the accuracy of the map and 3D model\nCheck Orthomosaic Resolution and any issues."
+    ],
+    "distribution": [
+      {
+        "contentSize": 9.583984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4521b5e5ff25fd0-20241025T230658011",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-4521b5e5ff25fd0-20241025T230658011",
+        "name": "Real_time_kinematic_RTK_Drone_collected_Data.xml"
+      }
+    ]
+  }
+}

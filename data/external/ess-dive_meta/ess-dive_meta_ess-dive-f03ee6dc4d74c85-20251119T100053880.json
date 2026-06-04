@@ -1,0 +1,404 @@
+{
+  "id": "ess-dive-f03ee6dc4d74c85-20251119T100053880",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3003878",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f03ee6dc4d74c85-20251119T100053880",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-c50fc02fe891583-20251118T221940957",
+  "dateUploaded": "2025-11-19T10:00:54.806Z",
+  "dateModified": "2025-11-21T00:00:48.185Z",
+  "isPublic": true,
+  "citation": "Stetten L; Boyanov M; O'Loughlin E; Thomas S P; Bellsmith K; Peixoto R B; Machado-Silva F; Day D; Wilson S; Vugteveen T; Myers-Pigg A; Otenburg O; Spanbauer T; Shevchenko E; Weisenhorn P; Ward N; Megonigal J P; Weintraub M; Bailey V; Kemner K (2025): Data for Stetten et al. (2025), \"Biogeochemical controls on iron speciation and cycling across upland to shoreline gradients in freshwater and estuarine coastal soils (Lake Erie and Chesapeake Bay, United States)\". COMPASS-FME. Dataset. doi:10.15485/3003878",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3003878",
+    "name": "Data for Stetten et al. (2025), \"Biogeochemical controls on iron speciation and cycling across upland to shoreline gradients in freshwater and estuarine coastal soils (Lake Erie and Chesapeake Bay, United States)\"",
+    "description": [
+      "Coastal environments are dynamic interfaces that mediate carbon and nutrient exchanges between terrestrial landscapes and open waters, but it is unclear how biogeochemical reactions, in particular iron (Fe) redox transformations, affect the understanding and prediction of coastal ecosystem functions. This dataset includes measurements from two freshwater sites in the Western and Central basins of Lake Erie (Ohio, United States) and two estuarine sites in the Chesapeake Bay (Maryland, United States); the analytical results were reported by Stetten et al. (2025) in Science of the Total Environment. It was produced as part of the COMPASS-FME project, which seeks to advance a scalable, predictive understanding of the fundamental biogeochemical processes, ecological structure, and ecosystem dynamics that distinguish coastal terrestrial-aquatic interfaces from the purely terrestrial or aquatic systems to which they are coupled. The sites were sampled in November 2022 (CRC), December 2022 (MSM), February 2023 (GCW), and March 2023 (OWC); site codes follow those used by Pennington et al. (2025).",
+      "The dataset consists of the following soil data:",
+      "- Solid data (Fe concentration, etc.)",
+      "- Porewater data (sulfate, sulfide, etc.)",
+      "- Linear combination fitting results of X-ray absorption near edge structure (XANES) spectra; i.e., quantitative results of the oxidation state of Fe, indicated as a proportion of pure Fe(III) and Fe(II) model compounds",
+      "- Linear combination fitting results of EXAFS (extended X-ray absorption fine structure) spectra, indicated as proportion of of Fe-model compounds (illite, smectite, etc.)",
+      "Each data type has a single file in comma-separated value (CSV) format. No special software is required to read it."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5403-5055",
+        "givenName": "Lucie",
+        "familyName": "Stetten",
+        "affiliation": "University of Manchester",
+        "email": "lucie.stetten@manchester.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8758-5248",
+        "givenName": "Maxim",
+        "familyName": "Boyanov",
+        "affiliation": "University of Manchester",
+        "email": "mboyanov@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1607-9529",
+        "givenName": "Edward",
+        "familyName": "O'Loughlin",
+        "affiliation": "Argonne National Laboratory",
+        "email": "oloughlin@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Shan",
+        "familyName": "Pushpajom Thomas",
+        "affiliation": "University of Toledo",
+        "email": "pushpajomthomas.shan@rockets.utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2778-299X",
+        "givenName": "Kathleen",
+        "familyName": "Bellsmith",
+        "affiliation": "Argonne National Laboratory",
+        "email": "kbeilsmith@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8053-2730",
+        "givenName": "Roberta",
+        "familyName": "Bittencourt Peixoto",
+        "affiliation": "University of Toledo",
+        "email": "roberta.bittencourtpeixoto@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2165-3284",
+        "givenName": "Fausto",
+        "familyName": "Machado-Silva",
+        "affiliation": "University of Toledo",
+        "email": "fausto.silva@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9454-7602",
+        "givenName": "Donnie",
+        "familyName": "Day",
+        "affiliation": "University of Toledo",
+        "email": "donnie.day@rockets.utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5484-0748",
+        "givenName": "Stephanie",
+        "familyName": "Wilson",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "wilsonsj@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Vugteveen",
+        "affiliation": "Argonne National Laboratory",
+        "email": "tvugteveen@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6905-6841",
+        "givenName": "Allison",
+        "familyName": "Myers-Pigg",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "allison.myers-pigg@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2944-2868",
+        "givenName": "Opal",
+        "familyName": "Otenburg",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "opal.otenburg@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4014-4995",
+        "givenName": "Trisha",
+        "familyName": "Spanbauer",
+        "affiliation": "University of Toledo",
+        "email": "trisha.spanbauer@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Elena",
+        "familyName": "Shevchenko",
+        "affiliation": "Argonne National Laboratory",
+        "email": "eshevchenko@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1844-5502",
+        "givenName": "Pamela",
+        "familyName": "Weisenhorn",
+        "affiliation": "Argonne National Laboratory",
+        "email": "pweisenhorn@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6174-5581",
+        "givenName": "Nicholas",
+        "familyName": "Ward",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "nicholas.ward@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2018-7883",
+        "givenName": "J. Patrick",
+        "familyName": "Megonigal",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "megonigalp@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9623-2855",
+        "givenName": "Michael",
+        "familyName": "Weintraub",
+        "affiliation": "University of Toledo",
+        "email": "michael.weintraub@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2248-8890",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "vanessa.bailey@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1409-8542",
+        "givenName": "Kenneth",
+        "familyName": "Kemner",
+        "affiliation": "Argonne National Laboratory",
+        "email": "kemner@anl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9525-4633",
+        "givenName": "Ben",
+        "familyName": "Bond-Lamberty",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bondlamberty@pnnl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > OCEANS > COASTAL PROCESSES",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY",
+      "EARTH SCIENCE > SOLID EARTH > GEOCHEMISTRY",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL CHEMISTRY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUNDWATER CHEMISTRY"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Moneystump Swamp (MSM); one of COMPASS-FME synoptic sites located in the Blackwater National Wildlife Refuge along the mesohaline Beaverdam Creek. This synoptic site consists of three plots: upland (\"UP\"; located at 38.4315N, 76.2267W), transition (\"TR\"; 38.4310N, 76.2277W), and wetland (\"W\"; 38.4308N, 76.2286W). The site was established in June 2022. The transect spans a coastal loblolly pine forest and a mesohaline marsh dominated by Spartina and Distichlis.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.431,
+            "longitude": -76.2277
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.431,
+            "longitude": -76.2277
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Old Woman Creek (OWC); one of COMPASS-FME synoptic sites located within the Old Woman Creek lacustuary, 2.8 miles (4.5km) east of Huron, Ohio. This site is owned by the Ohio Department of Natural Resources (ODNR), managed by ODNR\u2019s Division of Natural Areas & Preserves as Old Woman Creek National Estuarine Research Reserve. This site consists of four plots: upland (\"UP\"; located at 41.3763N, 82.5070W), transition (\"TR\"; 41.3758N, 82.5063W), wetland transition edge (\"WTE\"; 41.3760N, 82.5071W), and wetland (\"W\"; 41.3761N, 82.5078W). The site was established in December 2021.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3758,
+            "longitude": -82.5063
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3758,
+            "longitude": -82.5063
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Crane Creek (CRC); one of COMPASS-FME synoptic sites within the Crane Creek lacustuary region of southwestern Lake Erie, 9.25 miles (14.9 km) northwest of Oak Harbor, Ohio. This site is owned by the USFWS and managed as a part of the Ottawa National WIldlife Refuge complex. This site consists of three plots: upland (\"UP\"; located at 41.6153N, 83.2297W), transition (\"TR\"; 41.6219N, 83.2381W), and wetland (\"W\"; 41.6219N, 83.2389W). This site was established in December 2021.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.6219,
+            "longitude": -83.2381
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.6219,
+            "longitude": -83.2381
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "GCReW (GCW); one of COMPASS-FME synoptic sites, and has three plots: upland (\"UP\"; located at 38.8741N, 76.5522W), transition (\"TR\"; 38.8745, 76.5515W), and wetland (\"W\"; 38.8750N, 76.5500W). Note that this site overlaps spatially with the TEMPEST (TMP) plots, the upland portion of the transect overlaps with the TEMPEST experiment control plot. This transect spans a mid- to late-successional (~80 years old) temperate, deciduous coastal forest and a mesohaline marsh along the Rhode River in Edgewater, MD.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8745,
+            "longitude": -76.5515
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8745,
+            "longitude": -76.5515
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-11-01",
+      "endDate": "2023-03-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5403-5055",
+      "givenName": "Lucie",
+      "familyName": "Stetten",
+      "affiliation": "University of Manchester",
+      "email": "lucie.stetten@manchester.ac.uk"
+    },
+    "citation": [
+      "Stetten, L., Boyanov, M. I., O\u2019Loughlin, E. J., Thomas, S. P., Beilsmith, K. R., Peixoto, R. B., Machado-Silva, F., Day, D. J., Wilson, S. J., Vugteveen, T. W., Myers-Pigg, A. N., Otenburg, O., Spanbauer, T. L., Shevchenko, E. V., Weisenhorn, P. B., Ward, N. D., Megonigal, J. P., Weintraub, M. N., Bailey, V. L., and Kemner, K. M.: Biogeochemical controls on iron speciation and cycling across upland to shoreline gradients in freshwater and estuarine coastal soils (Lake Erie and Chesapeake Bay, United States), Sci. Total Environ., 991, 179878, 2025. https://doi.org/10.1016/j.scitotenv.2025.179878",
+      "Pennington, S., Bond-Lamberty, B., Rich, R., Bittencourt Peixoto, R., Machado-Silva, F., Maier, K., Megonigal, J. P., Phillips, E., Regier, P., Sandoval, L., Stearns, A., Ward, N., Weintraub, M., Wilson, S. J., and Bailey, V.: COMPASS-FME synoptic sites Level 1 sensor data v2-0, https://doi.org/10.15485/2588616, 2025."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a688a033-da45-46ad-b72b-d6fef5139a9c"
+      },
+      "name": "COMPASS-FME",
+      "member": {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Soil cores were collected in each zone. For the unsaturated upland and transition soils, cores of 2.5 cm diameter and 45 cm length were collected using a hand-corer; for the water-saturated transition and wetland soils, cores of 7 cm diameter and 30 cm length were collected. The cores were transported to Argonne National Laboratory within 24 to 48 h and transferred into a glove box to be processed under anoxic conditions.",
+      "To extract porewaters from the water-saturated cores, 5 cm long Rhizon\u00ae samplers were inserted into the 2-mm holes and connected to syringes. Immediately after the collection of the porewater samples, the solutions were divided into aliquots and either immediately analyzed or stored at 4 \u00b0C or \u221218 \u00b0C for later analysis. The pre-cut cores were then longitudinally split using a thin, sharp blade to divide the soil columns with minimal disturbance to the soil layers. The flat surface of one of the sections was sealed using Kapton film and prepared for X-ray absorption spectroscopy analyses, while the other section was used to collect solid samples at various depths.",
+      "The pH, dissolved Fe(II), and total sulfide (H2S + HS\u2212 + S2\u2212) concentrations were measured immediately after porewater extraction. The pH was measured using a gel-filled pH combination electrode connected to a Thermo Scientific Orion\u2122 Versa Star Pro\u2122 Benchtop pH-meter. Dissolved Fe(II) and total sulfide concentrations were measured by spectrophotometry. Porewaters were also analyzed for dissolved organic carbon (DOC) using a Shimadzu TOC-L, and sulfate concentration using a ThermoFisher Dionex ICS-6000 high pressure ion chromatography system. Metal concentrations were measured using a PerkinElmer 4300DV inductively coupled plasma-optical emission spectrometer.",
+      "The solid samples were analyzed for total organic carbon by dry combustion at 650 \u00b0C using an elemental analyzer. To qualitatively determine the mineralogical composition of the soil samples, powder X-ray diffraction analyses were performed using a Rigaku MiniFlex 600 X-ray diffractometer (Cu K\u03b1-radiation wavelength). Fe-bearing minerals were also identified by Scanning Electron Microscopy coupled with Energy Dispersive X-ray Spectroscopy (SEM-EDXS) using a JEOL IT800HL SEM equipped with an Oxford Instruments Ultim Max 40 EDS detector. In addition, elemental composition of the solids was determined by acid digestion.",
+      "Microbial communities were characterized by short-read 16S rRNA amplicon sequencing analyses, obtained on two replicates for each depth along the soil cores. RNA was extracted from each replicate sample and stored at \u221220 \u00b0C until conversion into complementary DNA. The V4 region of the 16S rRNA gene was amplified with primers 515F and 806R, and libraries were sequenced on the Illumina MiSeq with V2 reagents.",
+      "Full methodological details are given in Stetten et al. (2025)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.6845703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-011120a8679d34a-20251106T122711505",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-011120a8679d34a-20251106T122711505",
+        "name": "porewater_data_dd.csv"
+      },
+      {
+        "contentSize": 4.74609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-da4d31f082aaf72-20251106T122711512",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-da4d31f082aaf72-20251106T122711512",
+        "name": "XANES_data.csv"
+      },
+      {
+        "contentSize": 2.021484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e226be63d615221-20251106T122711506",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e226be63d615221-20251106T122711506",
+        "name": "porewater_data.csv"
+      },
+      {
+        "contentSize": 21.1025390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f03ee6dc4d74c85-20251119T100053880",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f03ee6dc4d74c85-20251119T100053880",
+        "name": "Data_for_Stetten_et_al_2025_Biogeochemical.xml"
+      },
+      {
+        "contentSize": 1.80859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7d19da83080ef48-20251119T100049633",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7d19da83080ef48-20251119T100049633",
+        "name": "EXAFS_data.csv"
+      },
+      {
+        "contentSize": 1.880859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9ac66deca90a916-20251106T122711509",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9ac66deca90a916-20251106T122711509",
+        "name": "solid_data.csv"
+      },
+      {
+        "contentSize": 0.5029296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a1532edd207ad70-20251106T122711507",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a1532edd207ad70-20251106T122711507",
+        "name": "solid_data_dd.csv"
+      },
+      {
+        "contentSize": 0.8857421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bcf3bae48da2c14-20251106T122711503",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bcf3bae48da2c14-20251106T122711503",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 1.52734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c2b57c9a1825458-20251106T122711510",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c2b57c9a1825458-20251106T122711510",
+        "name": "XANES_data_dd.csv"
+      },
+      {
+        "contentSize": 2.298828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b2c38101731192d-20251106T122711495",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b2c38101731192d-20251106T122711495",
+        "name": "EXAFS_data_dd.csv"
+      }
+    ]
+  }
+}

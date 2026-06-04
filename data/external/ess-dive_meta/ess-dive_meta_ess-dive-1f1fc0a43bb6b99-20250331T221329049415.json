@@ -1,0 +1,147 @@
+{
+  "id": "ess-dive-1f1fc0a43bb6b99-20250331T221329049415",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/2368860",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1f1fc0a43bb6b99-20250331T221329049415",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-2f3f2509cfad3c6-20241231T144752379",
+  "dateUploaded": "2025-03-31T22:13:34.138Z",
+  "dateModified": "2026-02-12T00:19:53.865Z",
+  "isPublic": true,
+  "citation": "Yang D; McMahon A; Ely K; Serbin S (2024): UAS remote sensing (Osprey platform): Red-green-blue (RGB) imagery, thermal infrared (TIR) imagery, and canopy reflectance, Seward Peninsula, Alaska, 2019. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/2368860",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/2368860",
+    "archivedAt": [
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (HTTP)",
+        "url": "https://tier2.ess-dive.lbl.gov/doi-10-5440-2368860/"
+      },
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (Globus)",
+        "url": "https://app.globus.org/file-manager?origin_id=e1b775d6-0125-11ed-a2da-25ff8664e4e5&origin_path=%2Ftier2%2Fdoi-10-5440-2368860%2F"
+      }
+    ],
+    "name": "UAS remote sensing (Osprey platform): Red-green-blue (RGB) imagery, thermal infrared (TIR) imagery, and canopy reflectance, Seward Peninsula, Alaska, 2019",
+    "description": [
+      "Airborne remote sensing data collected using the Brookhaven National Laboratory's (BNL) heavy-lift unoccupied aerial system (UAS) octocopter platform - the Osprey - operated by the Terrestrial Ecosystem Science and Technology (TEST) group (https://www.bnl.gov/testgroup). This package includes data from 17 flights flown over the NGEE-Arctic Council Mile Maker 64 (MM64) and Teller MM27 sites in July, 2019. The Osprey is a multi-sensor UAS platform that simultaneously measures very high spatial resolution optical red/green/blue (RGB) and thermal infrared (TIR) surface \"skin\" temperature imagery, as well as surface reflectance at 1 nm intervals in the visible to near-infrared spectral range from ~350-1000 nm measured at regular intervals along each flight path. This package provide the Level 0 (raw, unprocessed) data collected by the Osprey platform. Ancillary aircraft data, flight mission parameters, and general flight conditions provided by the onboard flight and data collection computers are also included. Data and metadata are provided as text (*.txt, *.json), tabular (*.dat, *.csv, *.waypoint), and image (*.jpg) formats. This metadata document contains flight campaign, instrument and file metadata, along with a description of the L0 data, and file naming scheme. The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/2368860",
+      "NGA211"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1705-7823",
+        "givenName": "Dedi",
+        "familyName": "Yang",
+        "email": "dediyang@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8836-6645",
+        "givenName": "Andrew",
+        "familyName": "McMahon",
+        "email": "amcmahon@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3915-001X",
+        "givenName": "Kim",
+        "familyName": "Ely",
+        "email": "kely@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4136-8971",
+        "givenName": "Shawn",
+        "familyName": "Serbin",
+        "email": "sserbin@bnl.gov"
+      }
+    ],
+    "datePublished": "2024-06-04",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CANOPY CHARACTERISTICS",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > INFRARED WAVELENGTHS > THERMAL INFRARED",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > VISIBLE WAVELENGTHS > VISIBLE IMAGERY",
+      "Teller",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > PLATFORM CHARACTERISTICS",
+      "Kougarok"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Seward Peninsula, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.952,
+            "longitude": -168.14
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.03,
+            "longitude": -159.19
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-07-23",
+      "endDate": "2019-07-28",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4136-8971",
+      "givenName": "Shawn",
+      "familyName": "Serbin",
+      "affiliation": "Brookhaven National Laboratory",
+      "email": "sserbin@bnl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Data were collected using an unoccupied aerial system (UAS) octocopter platform, equipped with a RGB camera, thermal infrared sensor, and dual broad range (350-1000 nm) reflectance spectrometers (one upward facing and one downward facing). See included metadata for further platform and sensor specifications. Flights had a duration of 5-12 minutes, conducted in clear or stable sky conditions. Each flight was executed in routines of parallel rows, at an average flying speed of 5 m/s and at a height about 40 m above home locations. For spectral measurements, a dark current measurement (i.e., the electric current from the spectrometers) was recorded before each flight with the lens caps placed on both up-facing and down-facing spectrometers. We then collected the white reference spectra of a 10 inch \u00d7 10 inch Spectralon reflectance standard plate (LABSPHERE, INC.) to convert the radiance of each triggered spectrum to surface reflectance. The data in this package is the raw RGB, thermal, spectral reflectance, and ancillary outputs from the Osprey UAS platform; the data has not undergone any processing. Data is formatted following the guidelines of a preliminary version of the ESS-DIVE Reporting Format for Unoccupied Aerial System (UAS) data and metadata (v0.2.0)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 8.939453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1f1fc0a43bb6b99-20250331T221329049415",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-1f1fc0a43bb6b99-20250331T221329049415",
+        "name": "UAS_remote_sensing_Osprey_platform_Red_green_blue_RGB_imagery_thermal_infrared_TIR_imagery_and_canopy_reflectance_Seward_Peninsula_Alaska_2019.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "id": "ess-dive-7a905990228f63f-20251104T225538046",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2448101",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-7a905990228f63f-20251104T225538046",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-7a905990228f63f-20251104T225404604",
+  "dateUploaded": "2025-11-04T22:55:40.089Z",
+  "dateModified": "2025-11-04T22:55:40.414Z",
+  "isPublic": true,
+  "citation": "Butler Z; Good S; Hu H; Forbes B; Powers-McCormack B; Chen X; Dugger A (2025): Data and scripts associated with \u201cSequential Precipitation Input Tagging (SPIT) to Estimate Water Transit Times and Hydrologic Tracer Dynamics within Water-Tagging Enabled Hydrologic Models\u201d (v3). River Corridor Hydro-biogeochemistry from Molecular to Multi-Basin Scales SFA. Dataset. doi:10.15485/2448101",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2448101",
+    "name": "Data and scripts associated with \u201cSequential Precipitation Input Tagging (SPIT) to Estimate Water Transit Times and Hydrologic Tracer Dynamics within Water-Tagging Enabled Hydrologic Models\u201d (v3)",
+    "description": [
+      "This data package is associated with the publication \u201cSequential Precipitation Input Tagging (SPIT) to Estimate Water Transit Times and Hydrologic Tracer Dynamics within Water-Tagging Enabled Hydrologic Models\u201d submitted to Journal of Advances in Modeling Earth Systems (Butler et al. 2025).",
+      "This study developed the Sequential Precipitation Input Tagging (SPIT) framework to tag input precipitation and estimate water transit times and hydrologic tracers. SPIT tags all precipitation events at regular intervals over an extended period (monthly tags over seven years) in a hydrologic model from 2016-2022. SPIT is applied at six National Ecological Observatory Network (NEON) sites across the continental United States to calculate transit time distributions (TTD) and derive from these mean transit times (MTT), fractions of young water (Fyw), and hydrologic tracer concentrations in stream water (\u03b418O) within a water-tagging enabled version of the Weather Research and Forecast (WT-WRF-Hydro) model with national water model (NWM) configurations. We go on to validate WT-WRF-Hydro estimates against Butler et al. (2023), who analyzed the same NEON sites using stable water isotope data to estimate water transit times. This new tracking method provides a detailed picture of water movement and helps improve predictions about water availability in the future.",
+      "This data package was originally published in January 2025. It was updated May 2025 (v2; new and modified files) and October 2025 (v3; new and modified files). File and folder names were not revised to indicate changes. See the change history section in the readme for more details.",
+      "This data package contains the data and scripts used to develop the SPIT framework WT-WRF-Hydro (Water Tagging Weather Research and Forecasting Hydrologic) model and is associated with the following GitHub repository: https://github.com/zbutler33/SPIT-Framework.",
+      "This data package contains five parent folders: (1) \u201cManipulated_outputs\u201d, (2) \u201cMetadata\u201d, (3) \u201cObserved\u201d, (4) \u201cOutputs\u201d, and (5) \u201cScripts\u201d. Each of these parent folders contains additional subfolders and files. Please see the FLMD (\u201cv*_Butler_2024_WT_WRF_Hydro_flmd.csv\u201d) for a list of all the files contained in this data package and descriptions for each. See the data dictionary (\u201cv*_Butler_2024_WT_WRF_Hydro_dd.csv\u201d) for definitions and units of all of the tabular (files ending in \u201c.csv\u201d and \".tsv\") column headers."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0007-0883-7103",
+        "givenName": "Zachariah",
+        "familyName": "Butler",
+        "affiliation": "Oregon State University",
+        "email": "butlerz@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4363-1577",
+        "givenName": "Stephen",
+        "familyName": "Good",
+        "affiliation": "Oregon State University",
+        "email": "Stephen.Good@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4276-1890",
+        "givenName": "Huancui",
+        "familyName": "Hu",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "huancui.hu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1928-5555",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Xingyuan.Chen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8250-4218",
+        "givenName": "Aubrey",
+        "familyName": "Dugger",
+        "affiliation": "National Center for Atmospheric Research (NCAR)",
+        "email": "adugger@ucar.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "Water transit times",
+      "Hydrologic modeling",
+      "Mean transit time",
+      "Fraction young water",
+      "Stable water isotopes",
+      "Transit time distribution",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Model Data Archiving Guidelines",
+      "Model",
+      "Observation",
+      "Water"
+    ],
+    "variableMeasured": [
+      "Water tracer weather research and forecasting model",
+      "WT-WRF-Hydro",
+      "Date",
+      "Total Streamflow",
+      "Tracer",
+      "Threshold",
+      "NEON Site Name",
+      "Groundwater",
+      "Weighted daily precipitation",
+      "Daily Precipitation",
+      "Daily Groundwater",
+      "Precipitation",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUNDWATER CHEMISTRY"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "HOPB (Observation): Lower Hop Brook NEON site, Massachusetts",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.4717,
+            "longitude": -72.3306
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.4717,
+            "longitude": -72.3306
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "HOPB (Model): Lower Hop Brook NEON site, Massachusetts",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.4674,
+            "longitude": -72.3188
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.4674,
+            "longitude": -72.3188
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "KING (Observation): King's Creek NEON site, Kansas",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.1052,
+            "longitude": -96.6034
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.1052,
+            "longitude": -96.6034
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "KING (Model): King's Creek NEON site, Kansas",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.1057,
+            "longitude": -96.6065
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.1057,
+            "longitude": -96.6065
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "LECO (Observation): LeConte Creek NEON site, Tennessee",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.6922,
+            "longitude": -83.5044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.6922,
+            "longitude": -83.5044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "LECO (Model): LeConte Creek NEON site, Tennessee",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.6965,
+            "longitude": -83.5079
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.6965,
+            "longitude": -83.5079
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MART (Observation): Martha Creek NEON site, Washington",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.793,
+            "longitude": -121.9271
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.793,
+            "longitude": -121.9271
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MART (Model): Martha Creek NEON site, Washington",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7982,
+            "longitude": -121.9124
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7982,
+            "longitude": -121.9124
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MCDI (Observation): McDiffett Creek NEON site, Kansas",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9465,
+            "longitude": -96.443
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9465,
+            "longitude": -96.443
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MCDI (Model): McDiffett Creek NEON site, Kansas",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9387,
+            "longitude": -96.4336
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9387,
+            "longitude": -96.4336
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SYCA (Observation): Sycamore Creek NEON site, Arizona",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.7507,
+            "longitude": -111.5077
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.7507,
+            "longitude": -111.5077
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SYCA (Model): Sycamore Creek NEON site, Arizona",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.7481,
+            "longitude": -111.5125
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.7481,
+            "longitude": -111.5125
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-01-01",
+      "endDate": "2022-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0007-0883-7103",
+      "givenName": "Zachariah",
+      "familyName": "Butler",
+      "affiliation": "Oregon State University",
+      "email": "butlerz@oregonstate.edu"
+    },
+    "citation": [
+      "Butler, Z., Good, S., Haagsma, M., Segura, C., & Hu, H. (2023), Relationship between isotope ratios in precipitation and stream water across watersheds of the National Ecological Observation Network. Hydrological Processes, 37(11), e15018. https://doi.org/10.1002/hyp.15018",
+      "Finkenbiner, C. E., Good, S. P., Allen, S. T., Fiorella, R. P., & Bowen, G. J. (2021), A Statistical Method for Generating Temporally Downscaled Geochemical Tracers in Precipitation. Journal of Hydrometeorology, 22(10), 1473\u20131486. https://doi.org/10.1175/JHM-D-20-0142.1",
+      "Finkenbiner, C. E., Li, B., Spencer, L., Butler, Z., Haagsma, M., Fiorella, R. P., Allen, S. T., Anderegg, W., Still, C. J., Noone, D., Bowen, G. J., & Good, S. P. (2022b), The NEON daily isotopic composition of environmental exchanges dataset. Scientific Data, 9(1), 353. https://doi.org/ 10.1038/s41597-022-01412-4",
+      "Hu, H., Leung, L. R., Dominguez, F., Gochis, D., Chen, X., Good, S., et al. (2024), Integrating a Water Tracer Model Into WRF\u2010Hydro for Characterizing the Effect of Lateral Flow in Hydrologic Simulations. Water Resources Research, 60(7), e2023WR034938. https://doi.org/10.1029/2023WR034938",
+      "Rhea, S., Gubbins, N., DelVecchia, A. G., Ross, M. R. V., & Bernhardt, E. S. (2023). User-focused evaluation of National Ecological Observatory Network streamflow estimates. Scientific Data, 10(1), 89. https://doi. org/10.1038/s41597-023-01983-w",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor Hydro-biogeochemistry from Molecular to Multi-Basin Scales SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "Stegen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "james.stegen@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This data package includes hydrologic model simulations from WT-WRF-Hydro, which is in the model outputs folder. To create these model outputs, we develop the SPIT framework in a C-shell script that tags monthly precipitation events continuously over a defined period. The monthly events and the running period can be customized. In our case, we used monthly tags over 7 years from 2016-2022. From the model outputs, we use Python scripts provided in the \u201cScripts\u201d folder to estimate model based MTTs, Fyw, and hydrologic tracer concentrations. The output model data is in the \u201cOutputs\u201d folder with additional manipulated model data in the \u201cManipulated_outputs\u201d folder to analyze and understand model water transit times and hydrologic tracer concentrations. The model data is validated with observed data from Butler et al. (2023) in the \u201cObserved\u201d folder. For more details on the steps used to create this workflow, see the associated manuscript."
+    ],
+    "distribution": [
+      {
+        "contentSize": 98843.8681640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-34236463fda9bbc-20251104T225324436",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-34236463fda9bbc-20251104T225324436",
+        "name": "v3_Butler_2024_WT_WRF_Hydro.zip"
+      },
+      {
+        "contentSize": 17.8173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a905990228f63f-20251104T225538046",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-7a905990228f63f-20251104T225538046",
+        "name": "Data_and_scripts_associated_with_Sequential.xml"
+      }
+    ]
+  }
+}

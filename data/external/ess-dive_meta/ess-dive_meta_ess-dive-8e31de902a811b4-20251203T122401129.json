@@ -1,0 +1,210 @@
+{
+  "id": "ess-dive-8e31de902a811b4-20251203T122401129",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3006140",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-8e31de902a811b4-20251203T122401129",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a08d1728c8e7f93-20251201T135837425",
+  "dateUploaded": "2025-12-03T12:24:01.581Z",
+  "dateModified": "2025-12-05T00:28:28.595Z",
+  "isPublic": true,
+  "citation": "Forbrich I; Orton H (2025): 15-minute Parker River gap-filled tide height and salinity data, PIE LTER, Plum Island Sound, MA (2014\u20132023), for ELM PFLOTRAN modeling. From tides to seasons: How cyclic tidal drivers and plant physiology interact to affect carbon cycling at the terrestrial-estuarine boundary. Dataset. doi:10.15485/3006140",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3006140",
+    "name": "15-minute Parker River gap-filled tide height and salinity data, PIE LTER, Plum Island Sound, MA (2014\u20132023), for ELM PFLOTRAN modeling",
+    "description": [
+      "This dataset contains 15-minute tide height and salinity data from the Typha site along the Parker River, part of the Plum Island Ecosystems Long Term Ecological Research (PIE LTER) site in Plum Island Sound, Massachusetts (MA) 2014-2023. Tide height (in NAVD88) was compiled from measurements conducted at the mouth of Plum Island Sound and corrected for time lags. Gap-filling of missing periods were done by fitting tidal constituents to the time series. Salinity was measured (and is stored on ESS DIVE ) in 2022 and 2023 using HOBO U24-002 conductivity loggers. River discharge is the most important control on tidal river water salinity at the location (Vallino & Hopkinson, 1998). An artificial neural network was trained to predict river water salinity at the location using Parker River discharge (USGS station 01101000, Parker River at Byfield, MA) and gap-filled salinity observations from a long-term monitoring station ca. 3km downstream from the Typha site (LTER station \u2018Middle Road\u2019) as input variables to create continuous time series information. The data set was used in the spin up and simulations of a land surface model coupled to a biogeochemical reaction network (ELM PFLOTRAN) assessing impacts of hydrology and salinity input on methane fluxes in 2022 and 2023 (Sulman et al., 2024). Metadata files ELMPFLOTRAN_tide_salinity_dd.csv and ELMPFLOTRAN_tide_salinity_flmd.csv provide details on site location, data variables, and QA/QC methods ."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0632-7317",
+        "givenName": "Inke",
+        "familyName": "Forbrich",
+        "affiliation": "University of Toledo",
+        "email": "inke.forbrich@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0008-5082-2439",
+        "givenName": "Hannah",
+        "familyName": "Orton",
+        "affiliation": "Marine Biological Laboratory",
+        "email": "horton@mbl.edu"
+      }
+    ],
+    "datePublished": "2025-11-19",
+    "keywords": [
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "salt marsh",
+      "tidal",
+      "brackish",
+      "EARTH SCIENCE > SOLID EARTH > GEOCHEMISTRY",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS",
+      "EARTH SCIENCE > OCEANS > TIDES",
+      "EARTH SCIENCE > OCEANS > SALINITY/DENSITY",
+      "EARTH SCIENCE > OCEANS > WATER QUALITY"
+    ],
+    "variableMeasured": [
+      "Timestamp",
+      "tide_height",
+      "salinity"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Ameriflux site US-PLo, Newbury, MA, established May 2022. It is a brackish tidal wetland located in the upper estuary of the Parker River, dominated by Typha angustifolia.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.7496,
+            "longitude": -70.9157
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.7496,
+            "longitude": -70.9157
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Ipswich Bay Yacht Club pier, Ipswich MA. Located in the mouth of the Ipswich River that connects to the lower Plum Island Sound.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.708995819092,
+            "longitude": -70.796577453613
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.708995819092,
+            "longitude": -70.796577453613
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Middle Road Bridge, Byfield, MA. A YSI water quality sonde site ~100m upstream from Middle Rd (Thurlow's Bridge) on the Parker River.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.75821685791,
+            "longitude": -70.901908874512
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.75821685791,
+            "longitude": -70.901908874512
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0022108"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2014-01-01",
+      "endDate": "2023-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0632-7317",
+      "givenName": "Inke",
+      "familyName": "Forbrich",
+      "affiliation": "University of Toledo",
+      "email": "inke.forbrich@utoledo.edu"
+    },
+    "citation": [
+      "Giblin, A. and R. McNellis. 2023. PIE LTER Year 2022 15-minute interval water quality measurements of water column temperature, salinity, oxygen, pH, and depth at four sites in the Plum Island Estuary. ver 2. Environmental Data Initiative. https://doi.org/10.6073/pasta/839e4a8c38624cf84014aa64fbef7bdc (Accessed 2025-11-17).",
+      "Giblin, A. and R. McNellis. 2023. PIE LTER YSI EXO2 sonde 15-minute interval water quality measurements of water column temperature, salinity, oxygen, pH, algae, fluorescent dissolved organic matter, turbidity, and depth at four sites in the Plum Island Estuary in year 2023. ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/273fc64764c76b91217891864162b7f0 (Accessed 2025-11-17).",
+      "Grinsted, A. (2025). Tidal fitting toolbox (https://www.mathworks.com/matlabcentral/fileexchange/19099-tidal-fitting-toolbox), MATLAB Central File Exchange.",
+      "Knox, S.H., Sturtevant, C., Matthes, J.H., Koteen, L., Verfaillie, J. and Baldocchi, D. (2015), Agricultural peatland restoration: effects of land-use change on greenhouse gas (CO2 and CH4) fluxes in the Sacramento-San Joaquin Delta. Glob Change Biol, 21: 750-765. https://doi.org/10.1111/gcb.12745",
+      "Vallino, J. J. and C. S. Hopkinson, Jr. 1998. Estimation of dispersion and characteristic mixing times in Plum Island Sound Estuary. Estuarine, Coastal and Shelf Science 46: 333-350. https://doi.org/10.1006/ecss.1997.0281 (Accessed 2025-11-17).",
+      "Vallino, J. 2015. Hach, OTT RLS measurements of water column depth at 15 minute intervals in the lower Plum Island Sound off the Ipswich Bay Yacht Club pier, Ipswich, MA, year 2014 ver 2. Environmental Data Initiative. https://doi.org/10.6073/pasta/d8432cca512469043c52bee7f8408a42 (Accessed 2025-11-18).",
+      "Vallino, J. 2016. Hach, OTT RLS measurements of water column depth at 15 minute intervals in the lower Plum Island Sound off the Ipswich Bay Yacht Club pier, Ipswich, MA, year 2015 ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/4a1280cf45dc6dcefcf072cc77e21444 (Accessed 2025-11-18).",
+      "Vallino, J. 2017. Hach, OTT RLS measurements of water column depth at 15 minute intervals in the lower Plum Island Sound off the Ipswich Bay Yacht Club pier, Ipswich, MA, year 2016 ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/c55f6ebdd6212aec5f0270dc89633d02 (Accessed 2025-11-18).",
+      "Vallino, J. and Plum Island Ecosystems LTER. 2018. PIE LTER, Hach, OTT RLS measurements of water column depth at 15 minute intervals in the lower Plum Island Sound off the Ipswich Bay Yacht Club pier, Ipswich, MA, year 2017 ver 2. Environmental Data Initiative. https://doi.org/10.6073/pasta/b341b4ac9a4174ab95b9477735dfa5c0 (Accessed 2025-11-18).",
+      "Vallino, J. 2019. PIE LTER, Hach, OTT RLS measurements of water column depth at 15 minute intervals in the lower Plum Island Sound off the Ipswich Bay Yacht Club pier, Ipswich, MA, year 2018 ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/1007461a5bbd09703069abda35bcb1a2 (Accessed 2025-11-18).",
+      "Vallino, J. 2020. PIE LTER, Hach, OTT RLS measurements of water column depth at 15 minute intervals in the lower Plum Island Sound off the Ipswich Bay Yacht Club pier, Ipswich, MA, year 2019. ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/ecc5cfd01c5e97c8bb65e94fa698ab30 (Accessed 2025-11-18).",
+      "Vallino, J. 2021. PIE LTER, Hach, OTT RLS measurements of water column depth at 15 minute intervals in the lower Plum Island Sound off the Ipswich Bay Yacht Club pier, Ipswich, MA, year 2020. ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/d24a5ac199704f4be3dc32e34383af75 (Accessed 2025-11-18).",
+      "Vallino, J. 2021. PIE LTER, Hach, OTT RLS measurements of water column depth at 15 minute intervals in the lower Plum Island Sound off the Ipswich Bay Yacht Club pier, Ipswich, MA, year 2021. ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/2dd296be31fb77add619927213430ea6 (Accessed 2025-11-18).",
+      "Vallino, J. and R. McNellis. 2024. PIE LTER, OTT RLS measurements of water column depth at 15 minute intervals in the lower Plum Island Sound off the Ipswich Bay Yacht Club pier, Ipswich, MA, year 2022. ver 2. Environmental Data Initiative. https://doi.org/10.6073/pasta/aa567684209f56fe6fbb7af283fb2004 (Accessed 2025-11-18).",
+      "Vallino, J. and R. McNellis. 2024. PIE LTER 15-minute OTT RLS measurements of water column depth at 15 minute intervals in the lower Plum Island Sound off the Ipswich Bay Yacht Club pier, Ipswich, MA, year 2023. ver 3. Environmental Data Initiative. https://doi.org/10.6073/pasta/982059a0963341578877bc3116fc00c4 (Accessed 2025-11-18).",
+      "Weston, N. and A. Giblin. 2022. Year 2014, 15 minute interval, water quality measurements of water column temperature, salinity, oxygen, and depth in the upper Parker River Estuary near Middle Road Bridge, Newbury, MA. ver 2. Environmental Data Initiative. https://doi.org/10.6073/pasta/9b48ea6eea26e39d96392dca3a9c86fa (Accessed 2025-11-18).",
+      "Weston, N. and A. Giblin. 2022. Year 2015, 15 minute interval, water quality measurements of water column temperature, salinity, oxygen, and depth in the upper Parker River Estuary near Middle Road Bridge, Newbury, MA. ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/6708b04137da4487d0f832976fe0afa0 (Accessed 2025-11-18).",
+      "Weston, N. and A. Giblin. 2022. Year 2016, 15 minute interval, water quality measurements of water column temperature, salinity, oxygen, and depth in the upper Parker River Estuary near Middle Road Bridge, Newbury, MA. ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/9d7f78c56030d9f5cc7ffed9e28ad6c2 (Accessed 2025-11-18).",
+      "Weston, N. and A. Giblin. 2022. Year 2017, 15 minute interval, water quality measurements of water column temperature, salinity, oxygen, and depth in the upper Parker River Estuary near Middle Road Bridge, Newbury, MA. ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/75151035a43129da1a6c6f4052d79681 (Accessed 2025-11-18).",
+      "Weston, N. and A. Giblin. 2022. Year 2018, 15 minute interval, water quality measurements of water column temperature, salinity, oxygen, and depth in the upper Parker River Estuary near Middle Road Bridge, Newbury, MA. ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/ce76e6bc46691d65ed456c51343dda27 (Accessed 2025-11-18).",
+      "Weston, N. and A. Giblin. 2022. Year 2019, 15 minute interval, water quality measurements of water column temperature, salinity, oxygen, and depth in the upper Parker River Estuary near Middle Road Bridge, Newbury, MA. ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/d3b92c62ec810ef40cfc49ea07f7ec93 (Accessed 2025-11-18).",
+      "Sulman, B. N., J. Wang, S. LaFond-Hudson, T. A. O\u2019Meara, F. Yuan, S. Molins, G. Hammond, I. Forbrich, Z. G. Cardon, and A. Giblin. 2024. Integrating Tide-Driven Wetland Soil Redox and Biogeochemical Interactions Into a Land Surface Model. ver 1. Journal of Advances in Modeling Earth Systems 16(4), e2023MS004002. https://doi.org/10.1029/2023MS004002 (Accessed 2025-12-01)."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a8baace6-a1d4-40f1-a355-c8dd8dc03ddd"
+      },
+      "name": "From tides to seasons: How cyclic tidal drivers and plant physiology interact to affect carbon cycling at the terrestrial-estuarine boundary",
+      "member": {
+        "@type": "Person",
+        "givenName": "Inke",
+        "familyName": "Forbrich",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Marine Biological Laboratory",
+        "email": "iforbrich@mbl.edu"
+      }
+    },
+    "measurementTechnique": [
+      "The PIE LTER project conducts measurements of water column depth at 15-minute intervals in Plum Island Sound at the Ipswich Bay Yacht Club since 2011. An OTT radar level sensor (RLS) was installed September 20 2011 out of the water under the concrete pad on the Ipswich Bay Yacht Club pier, Ipswich, MA. The RLS was mounted so that continuous year-round measurements can be conducted without the concern of ice flows damaging the sensor. The annual time series data were downloaded from DataOne . To gap-fill the timeseries of tide height 2014-2023, tidal components were fit to the detrended time series using the \u2018tidalfit\u2019 Matlab function provided by Grinsted (2025).\nTo create time series 2014-2023 of Parker River salinity at the Typha site, an artificial neural network (Knox et al., 2015 ) using Parker River discharge (USGS station Parker River at Byfield, MA - USGS-01101000) as sole input to predict salinity for the most brackish site (station \u2018Middle Road\u2019) monitored by the LTER project for the entire year for 2014-2023 was used, since river discharge determines salinity along the tidal part of the Parker River (Vallino & Hopkinson, 1998). This same approach was used with river discharge and continuous salinity from the brackish site to predict river water salinity at the Typha site."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1.1455078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0e457f3a9972b57-20251201T135833181",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0e457f3a9972b57-20251201T135833181",
+        "name": "ELMPFLOTRAN_tide_salinity_flmd.csv"
+      },
+      {
+        "contentSize": 10307.025390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-753553554c8fcdc-20251119T163935488",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-753553554c8fcdc-20251119T163935488",
+        "name": "ELM_PFLOTRAN_tide_salinity_data.csv"
+      },
+      {
+        "contentSize": 16.0302734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8e31de902a811b4-20251203T122401129",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-8e31de902a811b4-20251203T122401129",
+        "name": "15_minute_Parker_River_gap_filled_tide_height_and.xml"
+      },
+      {
+        "contentSize": 0.7001953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-984310067fa3eca-20251201T135833174",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-984310067fa3eca-20251201T135833174",
+        "name": "ELMPFLOTRAN_tide_salinity_dd.csv"
+      }
+    ]
+  }
+}

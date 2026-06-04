@@ -1,0 +1,227 @@
+{
+  "id": "ess-dive-2ce5269771e078f-20230808T205632081",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1958211",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-2ce5269771e078f-20230808T205632081",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-05ae6e1dd80a932-20230407T144430129649",
+  "dateUploaded": "2023-08-08T20:56:35.528Z",
+  "dateModified": "2023-08-08T20:56:36.668Z",
+  "isPublic": true,
+  "citation": "Perzan Z; Maher K; Boye K; Bargar J (2023): Meteorological, reference evapotranspiration and estimated transpiration data, July 2020-Dec 2021, Slate River Floodplain, Crested Butte, Colorado. Groundwater Quality SFA. Dataset. doi:10.15485/1958211",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1958211",
+    "name": "Meteorological, reference evapotranspiration and estimated transpiration data, July 2020-Dec 2021, Slate River Floodplain, Crested Butte, Colorado",
+    "description": [
+      "This data package includes a time series of meteorological data (air temperature, relative humidity, barometric pressure, precipitation, wind speed, soil heat flux, incoming shortwave radiation, incoming longwave radiation, outgoing shortwave radiation and outgoing longwave radiation) from the Slate River floodplain outside Crested Butte, Colorado, a focus field site for the SLAC Floodplain Hydro-Biogeochemistry SFA. The data was generated as part of the work targeting the overarching research question for the SLAC SFA: How do ubiquitous subsurface interfaces mediate molecular-scale biogeochemical processes and groundwater quality in floodplains and watersheds?",
+      "The package also includes reference evapotranspiration calculated via the Penman-Monteith equation and an estimate of willow (Salix spp.) evapotranspiration using the method of Irmak et al., J. Hydrology, 2013. Due to two malfunctioning sensors (incoming shortwave radiation from Oct 2020-May 2021 and incoming longwave radiation from May 2021-March 2022), observed net radiation and calculated evapotranspiration are only included from July-October 2020. However, users may be able to extend calculated evapotranspiration using estimates of these two parameters from other sources. Both sensors have been replaced and data beyond 2021 be uploaded to this repository when it is available.",
+      "Within the data package, \"FLMD.csv\" describes file-level metadata and \"dd.csv\" defines column headers and universal terms across the dataset. The data package includes 3 \"*data.csv\" files, two for meteorological data for 2020 and 2021 and one for reference evapotranspiration and transpiration data from 2020 (\"SLT_OBJ2_PenmanMonteith_2020_data.csv\"). Each \"*data.csv\" file of meteorological data has a corresponding \"*_InstallationMethods.csv\" file that describes the location, sensor model, sensor serial number and other metadata corresponding to each measured parameter. We also include a Jupyter notebook (\"PenmanMonteithET_Calculations.ipynb\") that details the assumptions and equations used to calculate daily and hourly reference evapotranspiration and daily willow transpiration from raw meteorological data."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2676-2452",
+        "givenName": "Zach",
+        "familyName": "Perzan",
+        "affiliation": "Stanford University",
+        "email": "zperzan@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5982-6064",
+        "givenName": "Kate",
+        "familyName": "Maher",
+        "affiliation": "Stanford University",
+        "email": "kmaher@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2087-607X",
+        "givenName": "Kristin",
+        "familyName": "Boye",
+        "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+        "email": "kboye@slac.stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9303-4901",
+        "givenName": "John",
+        "familyName": "Bargar",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "john.bargar@pnnl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7614-0227",
+        "givenName": "Sam",
+        "familyName": "Pierce",
+        "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+        "email": "swpierce@slac.stanford.edu"
+      }
+    ],
+    "datePublished": "2023-02-18",
+    "keywords": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > WEATHER EVENTS",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS",
+      "ESS-DIVE Hydrologic Monitoring Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > RELATIVE HUMIDITY",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > SURFACE PRESSURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > ATMOSPHERIC PRESSURE MEASUREMENTS",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT > HOURLY PRECIPITATION AMOUNT",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > WIND SPEED",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL HEAT BUDGET",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SHORTWAVE RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > LONGWAVE RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > OUTGOING LONGWAVE RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > NET RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR PROCESSES > EVAPOTRANSPIRATION > POTENTIAL EVAPOTRANSPIRATION",
+      "transpiration_flux",
+      "upward_heat_flux_at_ground_level_in_soil"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site OBJ2, Slate River Floodplain, Crested Butte, Colorado. The Slate River is a snow-dominated, headwater catchment within the Upper Colorado River Basin and a key testbed for the Floodplain Hydro-Biogeochemistry Science Focus Area at SLAC National Accelerator Laboratory. This portion of the floodplain (~2,700 m elevation) sits downstream of the confluence of Oh Be Joyful (OBJ) Creek and upstream of Gunsight Bridge, on a portion of the river with heavy beaver activity. All of these data are from location OBJ2, which hosts an array of soil, meteorological and water level sensors.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.90943,
+            "longitude": -107.028242
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.90943,
+            "longitude": -107.028242
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-07-28",
+      "endDate": "2021-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2676-2452",
+      "givenName": "Zach",
+      "familyName": "Perzan",
+      "affiliation": "Stanford University",
+      "email": "zperzan@stanford.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "14a7e1cf-5a60-4ac3-9527-ec20fed6815f"
+      },
+      "name": "Groundwater Quality SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Bargar",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Stanford Linear Accelerator Center",
+        "email": "bargar@slac.stanford.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Air temperature and relative humidity were measured 2 m from ground surface using a digital sensor (Campbell Scientific HygroVUE5) mounted inside a radiation shield. Barometric pressure was measured using a pressure transducer (Setra 278) deployed inside a vented weatherproof enclosure. Liquid precipitation was recorded using a tipping bucket rain gage (Texas Electronics TR-525M) in an open portion of the floodplain with no canopy overhead. The precipitation gage has no heating element installed, so precipitation values during winter may be unreliable. Wind speed was measured using a 3-cup anemometer (Met One 014A) mounted on a control arm 2 m above the land surface. Soil heat flux was measured using a heat flux sensor (Huskeflux HFP01) installed at 5 cm depth below the ground surface. Finally, net radiation is calculated from incoming and outgoing long- and shortwave radiation measurements from thermopile pyranometers (Apogee SP-510 and Apogee SP-610) and pyrgeometers (Apogee SL-510 and Apogee SL-610). The radiation sensors are installed 2.6 m above the ground surface on a tripod arm and the viewshed of the downward-looking sensors includes both grass and bare soil. Sensors are connected to one central datalogger (Campbell Scientific CR1000X) via a multiplexer (Campbell Scientific AM16/32B) and serial expansion peripheral (Campbell Scientific SDM-SIO4A). All sensors were sampled at variable frequency depending on the time period (high power vs low power mode) and reported values are averages of multiple individual scans according to the \"ScansPerRec\" column in each data file.",
+      "Reference evapotranspiration was calculated using the Penman-Monteith equation by assuming values for an alfalfa reference crop, with fixed surface resistance of 45 s/m and an albedo value of 0.23. Daily willow transpiration was estimated using variable crop coefficients according to the method of Irmak et al., J. Hydrology, 2013 (doi:10.1016/j.jhydrol.2012.12.032). This method assigns variable crop coefficients according to the number of growing degree days. To calculate growing degree days for time periods prior to installation of the meteorological station, we use data recorded at the USC00051959 Global Historical Climatology Network (GHCN) site in Crested Butte, Colorado. The exact equations, assumptions and references used to calculate evapotranspiration are detailed in markdown cells in the \"PenmanMonteithET_Calculations.ipynb\" Jupyter notebook within the repository. Note that an up-to-date installation of python and the numpy, pandas and matplotlib packages are required to run this notebook."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1072.3427734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-270f414302e57db-20230218T192434224",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-270f414302e57db-20230218T192434224",
+        "name": "SLT_OBJ2_MetStation_2021_data.csv"
+      },
+      {
+        "contentSize": 4.5244140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0856550f53aacdf-20230218T192434188",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0856550f53aacdf-20230218T192434188",
+        "name": "dd.csv"
+      },
+      {
+        "contentSize": 501.966796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1492a78f32120e8-20230218T192434211",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1492a78f32120e8-20230218T192434211",
+        "name": "SLT_OBJ2_MetStation_2020_data.csv"
+      },
+      {
+        "contentSize": 7.6083984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4220e3c9622f392-20230218T192434230",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4220e3c9622f392-20230218T192434230",
+        "name": "SLT_OBJ2_MetStation_2021_InstallationMethods.csv"
+      },
+      {
+        "contentSize": 2.3349609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-35c500c98c999ed-20230218T192434195",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-35c500c98c999ed-20230218T192434195",
+        "name": "FLMD.csv"
+      },
+      {
+        "contentSize": 237.87890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3602656b57cd39f-20230218T192434206",
+        "encodingFormat": "application/x-ipynb+json",
+        "identifier": "ess-dive-3602656b57cd39f-20230218T192434206",
+        "name": "PenmanMonteithET_Calculations.ipynb"
+      },
+      {
+        "contentSize": 14.1865234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2ce5269771e078f-20230808T205632081",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-2ce5269771e078f-20230808T205632081",
+        "name": "Meteorological_reference_evapotranspiration_and.xml"
+      },
+      {
+        "contentSize": 276.908203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-756eaa0926e05c0-20230218T192434200",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-756eaa0926e05c0-20230218T192434200",
+        "name": "GHCN_USC00051959_20040101to20211231.csv"
+      },
+      {
+        "contentSize": 7.6083984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-be2e4d1318e96fb-20230218T192434217",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-be2e4d1318e96fb-20230218T192434217",
+        "name": "SLT_OBJ2_MetStation_2020_InstallationMethods.csv"
+      },
+      {
+        "contentSize": 72.8955078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ce43f9a9f9f4793-20230218T192434236",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ce43f9a9f9f4793-20230218T192434236",
+        "name": "SLT_OBJ2_PenmanMonteith_2020_data.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1699 @@
+{
+  "id": "ess-dive-120a44f1c8a626c-20250311T003739070",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1960313",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-120a44f1c8a626c-20250311T003739070",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-120a44f1c8a626c-20250218T155328609",
+  "dateUploaded": "2025-03-11T00:37:41.113Z",
+  "dateModified": "2025-03-11T00:37:43.315Z",
+  "isPublic": true,
+  "citation": "Pennington S C; Alford S; Back M P; Bailey V; Baldwin A; Bolinger J; Bowe M; Boyanov M I; Cianci-Gaskill J A; Conroy N A; Cooper M J; Day D; Demeo A; Derby K; Detweiler D; Devres-Zimmerman S; Eberhard E; Gedan K; Haaf L; Homolka K K; Johnson E; Kemner K M; Khan A; Kirwan M; Kittaka P; Koontz E; Langley A; Leff R; Lerberg S; Lewis A M; Malkin S; Marcarelli A M; McMurray S E; Messerschmidt T; Michael T C; Michael H A; Minor E C; Moye B; Mozdzer T J; Neubauer S; Norris C G; O'Loughlin E J; Otenburg O; Pain A; Patel K F; Philben M; Phillips E; Pratt D; Regier P; Jr. J A R; Sage L; Sandborn D; Smith S; Smith A; Soin-Voshell S; Song B; Sprague-Getsy A; Laurent K S; Staver L; Stearns A; Stetten L; Swerida R; Theuerkauf E J; Tully K; Vargas R; Ward N D; Watson E; Weilminster C; Myers-Pigg A N (2023): EXCHANGE Campaign 1: A Community-Driven Baseline Characterization of Soils, Sediments, and Water Across Coastal Gradients. COMPASS-FME. Dataset. doi:10.15485/1960313",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1960313",
+    "name": "EXCHANGE Campaign 1: A Community-Driven Baseline Characterization of Soils, Sediments, and Water Across Coastal Gradients",
+    "description": [
+      "The EXploration of Coastal Hydrobiogeochemistry Across a Network of Gradients and Experiments (EXCHANGE) program is a consortium of scientists working together to improve our understanding of how the two-way exchange of water between estuaries or large lake lacustuaries and the terrestrial landscape influence the state and function of ecosystems across the coastal interface. EXCHANGE Campaign 1 (EC1) focuses on the spatial variation in biogeochemical structure and function at the coastal terrestrial-aquatic interface (TAI). In the Fall of 2021, the EXCHANGE Consortium gathered samples from 52 TAIs. Samples collected from EC1 were analyzed for bulk geochemical parameters, bulk physicochemical parameters, organic matter characteristics, and redox-sensitive elements.",
+      "Please download ec1_README.pdf for a complete list of available data in each .zip folder, package version history, and detailed information about the project. This README will serve as the central place for EC1 Data Package updates. Experimental setup and v1 methods are documented in Myers-Pigg and Pennington et al., 2023 (https://doi.org/10.1038/s41597-023-02548-7).",
+      "EC1 Data Package Structure:",
+      "ec1_README.pdf",
+      "ec1_methods.pdf",
+      "ec1_metadata_v3.zip",
+      "...ec1_dd.csv",
+      "...ec1_flmd.csv",
+      "...ec1_sample_catalog.csv",
+      "...ec1_metadata_kitlevel.csv",
+      "...ec1_metadata_collectionlevel.csv",
+      "...ec1_data_collectionlevel.csv",
+      "...ec1_igsn_metadata.csv",
+      "ec1_soil_v3.zip",
+      "ec1_sediment_v3.zip",
+      "ec1_water_v3.zip",
+      "ec1_processingscripts_v3.zip",
+      "This data package is on v3 and was originally published May 2023 (v1). Subsequent updates will be published here with new version numbers. Please see the Change History section in ec1_README.pdf for detailed changes.",
+      "---",
+      "Acknowledging EXCHANGE: General Support and Data Product Use",
+      "We ask that users of EXCHANGE data add the following acknowledgement when publishing data in scholarly articles and data repositories:",
+      "\"This research is based on work supported by COMPASS-FME, a multi-institutional project supported by the U.S. Department of Energy, Office of Science, Biological and Environmental Research as part of the Environmental System Science Program.\""
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2685-1092",
+        "givenName": "Stephanie C.",
+        "familyName": "Pennington",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "stephanie.pennington@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Silver",
+        "familyName": "Alford",
+        "affiliation": "University of Maryland",
+        "email": "lsilver2@umd.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Michael P.",
+        "familyName": "Back",
+        "affiliation": "Kent State University",
+        "email": "mback@kent.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2248-8890",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6656-4066",
+        "givenName": "Andy",
+        "familyName": "Baldwin",
+        "affiliation": "University of Maryland",
+        "email": "baldwin@umd.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jade",
+        "familyName": "Bolinger",
+        "affiliation": "Old Woman Creek National Estuarine Research Reserve",
+        "email": "Jade.Bolinger@dnr.ohio.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3031-5946",
+        "givenName": "Madison",
+        "familyName": "Bowe",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "madison.bowe@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Maxim I.",
+        "familyName": "Boyanov",
+        "affiliation": "Argonne National Laboratory",
+        "email": "mboyanov@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6778-6170",
+        "givenName": "Jacob A.",
+        "familyName": "Cianci-Gaskill",
+        "affiliation": "Old Woman Creek National Estuarine Research Reserve",
+        "email": "jacob.cianci-gaskill@dnr.ohio.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0597-3373",
+        "givenName": "Nathan A.",
+        "familyName": "Conroy",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "nconroy@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5170-8728",
+        "givenName": "Matthew J.",
+        "familyName": "Cooper",
+        "affiliation": "Grand Valley State University",
+        "email": "coopmat@gvsu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9454-7602",
+        "givenName": "Donnie",
+        "familyName": "Day",
+        "affiliation": "University of Toledo",
+        "email": "donnie.day@rockets.utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alex",
+        "familyName": "Demeo",
+        "affiliation": "Virginia Institute of Marine Science",
+        "email": "awdemeo@vims.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0006-4131-7399",
+        "givenName": "Kyle",
+        "familyName": "Derby",
+        "affiliation": "Maryland Department of Natural Resources",
+        "email": "kyle.derby@maryland.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8356-1548",
+        "givenName": "Derek",
+        "familyName": "Detweiler",
+        "affiliation": "Virginia Institute of Marine Science",
+        "email": "djdetweiler@vims.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2501-9683",
+        "givenName": "Suzanne",
+        "familyName": "Devres-Zimmerman",
+        "affiliation": "Hope College",
+        "email": "zimmerman@hope.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6742-8325",
+        "givenName": "Erin",
+        "familyName": "Eberhard",
+        "affiliation": "Michigan Technological University",
+        "email": "ekeberha@mtu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4020-5441",
+        "givenName": "Keryn",
+        "familyName": "Gedan",
+        "affiliation": "George Washington University; Columbian College of Arts and Science",
+        "email": "kgedan@gwu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1130-5793",
+        "givenName": "LeeAnn",
+        "familyName": "Haaf",
+        "affiliation": "Partnership for the Delaware Estuary",
+        "email": "lhaaf@delawareestuary.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5208-8740",
+        "givenName": "Khadijah K.",
+        "familyName": "Homolka",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "khadijah.homolka@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Erin",
+        "familyName": "Johnson",
+        "affiliation": "Villanova University",
+        "email": "erin.johnson@villanova.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1409-8542",
+        "givenName": "Kenneth M.",
+        "familyName": "Kemner",
+        "affiliation": "Argonne National Laboratory",
+        "email": "kemner@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Aliya",
+        "familyName": "Khan",
+        "affiliation": "George Washington University",
+        "email": "akhan65@email.gwu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0658-3038",
+        "givenName": "Matthew",
+        "familyName": "Kirwan",
+        "affiliation": "Virginia Institute of Marine Science",
+        "email": "kirwan@vims.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Payton",
+        "familyName": "Kittaka",
+        "affiliation": "University of Minnesota",
+        "email": "kitta085@d.umn.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8768-872X",
+        "givenName": "Erika",
+        "familyName": "Koontz",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "koontze@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5164-4760",
+        "givenName": "Adam",
+        "familyName": "Langley",
+        "affiliation": "Villanova University",
+        "email": "adam.langley@villanova.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Riley",
+        "familyName": "Leff",
+        "affiliation": "George Washington University",
+        "email": "rileyleff@gwmail.gwu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0895-7715",
+        "givenName": "Scott",
+        "familyName": "Lerberg",
+        "affiliation": "Virginia Institute of Marine Science",
+        "email": "lerbergs@vims.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5125-2641",
+        "givenName": "Allison M.",
+        "familyName": "Lewis",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "allilewis@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7523-1589",
+        "givenName": "Sairah",
+        "familyName": "Malkin",
+        "affiliation": "University of Maryland Center for Environmental Science",
+        "email": "smalkin@umces.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4175-9211",
+        "givenName": "Amy M.",
+        "familyName": "Marcarelli",
+        "affiliation": "Michigan Technological University",
+        "email": "ammarcar@mtu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1187-5916",
+        "givenName": "Steven E.",
+        "familyName": "McMurray",
+        "affiliation": "Old Woman Creek National Estuarine Research Reserve",
+        "email": "steven.mcmurray@dnr.ohio.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5494-4352",
+        "givenName": "Tyler",
+        "familyName": "Messerschmidt",
+        "affiliation": "Virginia Institute of Marine Science",
+        "email": "tcmesserschmidt@vims.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5685-5396",
+        "givenName": "Taylor C.",
+        "familyName": "Michael",
+        "affiliation": "Kent State University",
+        "email": "tmichae9@kent.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1107-7698",
+        "givenName": "Holly A.",
+        "familyName": "Michael",
+        "affiliation": "University of Delaware",
+        "email": "hmichael@udel.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6930-9338",
+        "givenName": "Elizabeth C.",
+        "familyName": "Minor",
+        "affiliation": "Large Lakes Observatory, University of Minnesota Duluth",
+        "email": "eminor@d.umn.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Brian",
+        "familyName": "Moye",
+        "affiliation": "University of Maryland",
+        "email": "bmoyer@umd.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1053-0967",
+        "givenName": "Thomas J.",
+        "familyName": "Mozdzer",
+        "affiliation": "Bryn Mawr College",
+        "email": "tmozdzer@brynmawr.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8948-2832",
+        "givenName": "Scott",
+        "familyName": "Neubauer",
+        "affiliation": "Virginia Commonwealth University",
+        "email": "sneubauer@vcu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Cooper G.",
+        "familyName": "Norris",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Cooper.Norris@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1607-9529",
+        "givenName": "Edward J.",
+        "familyName": "O'Loughlin",
+        "affiliation": "Argonne National Laboratory",
+        "email": "oloughlin@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2944-2868",
+        "givenName": "Opal",
+        "familyName": "Otenburg",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "opal.otenburg@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2873-3180",
+        "givenName": "Andrea",
+        "familyName": "Pain",
+        "affiliation": "University of Maryland Center for Environmental Science",
+        "email": "apain@umces.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6437-7809",
+        "givenName": "Kaizad F.",
+        "familyName": "Patel",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "kaizad.patel@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8598-9043",
+        "givenName": "Michael",
+        "familyName": "Philben",
+        "affiliation": "Hope College",
+        "email": "philben@hope.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Evan",
+        "familyName": "Phillips",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "PhillipsE@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6796-6227",
+        "givenName": "Dannielle",
+        "familyName": "Pratt",
+        "affiliation": "University of Delaware",
+        "email": "depratt@udel.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8375-1314",
+        "givenName": "Peter",
+        "familyName": "Regier",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "peter.regier@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8575-2572",
+        "givenName": "Jesse Alan",
+        "familyName": "Roebuck Jr.",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "alan.roebuck@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Lauren",
+        "familyName": "Sage",
+        "affiliation": "Villanova University"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9653-2287",
+        "givenName": "Daniel",
+        "familyName": "Sandborn",
+        "affiliation": "Large Lakes Observatory, University of Minnesota Duluth",
+        "email": "sandb425@umn.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stacy",
+        "familyName": "Smith",
+        "affiliation": "Delaware State University",
+        "email": "SLSmith@desu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alex",
+        "familyName": "Smith",
+        "affiliation": "Virginia Institute of Marine Science",
+        "email": "ajsmith@vims.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Samina",
+        "familyName": "Soin-Voshell",
+        "affiliation": "Chesapeake Bay National Estuarine Research Reserve - Maryland",
+        "email": "soin-voshell.s@northeastern.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6645-7025",
+        "givenName": "Bongkeun",
+        "familyName": "Song",
+        "affiliation": "Virginia Institute of Marine Science",
+        "email": "songb@vims.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1602-8502",
+        "givenName": "Amanda",
+        "familyName": "Sprague-Getsy",
+        "affiliation": "University of Delaware",
+        "email": "amandaspraguegetsy@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kari",
+        "familyName": "St. Laurent",
+        "affiliation": "Delaware Department of Natural Resources and Environmental Control",
+        "email": "Kari.StLaurent@delaware.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1443-4008",
+        "givenName": "Lorie",
+        "familyName": "Staver",
+        "affiliation": "University of Maryland Center for Environmental Science",
+        "email": "lstaver@umces.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alice",
+        "familyName": "Stearns",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "StearnsA@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5403-5055",
+        "givenName": "Lucie",
+        "familyName": "Stetten",
+        "affiliation": "Argonne National Laboratory",
+        "email": "lstetten@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Rebecca",
+        "familyName": "Swerida",
+        "affiliation": "Maryland Department of Natural Resources",
+        "email": "rebecca.swerida@maryland.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9035-7454",
+        "givenName": "Ethan J.",
+        "familyName": "Theuerkauf",
+        "affiliation": "Michigan State University",
+        "email": "theuerk5@msu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6190-2679",
+        "givenName": "Katherine",
+        "familyName": "Tully",
+        "affiliation": "University of Maryland",
+        "email": "kltully@umd.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6829-5333",
+        "givenName": "Rodrigo",
+        "familyName": "Vargas",
+        "affiliation": "University of Delaware",
+        "email": "rvargas@udel.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6174-5581",
+        "givenName": "Nicholas D.",
+        "familyName": "Ward",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "nicholas.ward@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8496-1647",
+        "givenName": "Elizabeth",
+        "familyName": "Watson",
+        "affiliation": "Stony Brook University",
+        "email": "elizabeth.b.watson@stonybrook.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Coreen",
+        "familyName": "Weilminster",
+        "affiliation": "Chesapeake Bay National Estuarine Research Reserve - Maryland",
+        "email": "coreen.weilminster@maryland.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6905-6841",
+        "givenName": "Allison N.",
+        "familyName": "Myers-Pigg",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "allison.myers-pigg@pnnl.gov"
+      }
+    ],
+    "datePublished": "2023-02-12",
+    "keywords": [
+      "Biogeochemistry",
+      "ESS-DIVE Sample ID and Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "EXCHANGE Campaign 1",
+      "related identifiers"
+    ],
+    "variableMeasured": [
+      "Dissolved organic carbon",
+      "Non-purgeable organic carbon",
+      "FTICR-MS",
+      "soil cations",
+      "soil visual metrics",
+      "soil extractable iron",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > ALKALINITY",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL BULK DENSITY",
+      "EARTH SCIENCE > OCEANS > OCEAN CHEMISTRY > SUSPENDED SOLIDS",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL SALINITY/SOIL SODICITY",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL MOISTURE/WATER CONTENT",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > GASES > DISSOLVED NITROGEN"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "K001, Crane Creek, OH, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.6219,
+            "longitude": -83.2381
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.6219,
+            "longitude": -83.2381
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K004, Portage River, OH, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.5018,
+            "longitude": -83.0456
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.5018,
+            "longitude": -83.0456
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K007, Old Woman Creek, OH, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3759,
+            "longitude": -82.5064
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3759,
+            "longitude": -82.5064
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K008, Mouth, Old Woman Creek National Estuarine Research Reserve, OH, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3827,
+            "longitude": -82.515
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3827,
+            "longitude": -82.515
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K009, West of Star Island, Old Woman Creek National Estuarine Research Reserve, OH, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3745,
+            "longitude": -82.5169
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3745,
+            "longitude": -82.5169
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K010, Eagle Cove, Old Woman Creek National Estuarine Research Reserve, OH, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3731,
+            "longitude": -82.5076
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3731,
+            "longitude": -82.5076
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K011, Red Trail, Old Woman Creek National Estuarine Research Reserve, OH, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3765,
+            "longitude": -82.5081
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3765,
+            "longitude": -82.5081
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K012, Quanicassee Wildlife Area, MI, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.5831,
+            "longitude": -83.688
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.5831,
+            "longitude": -83.688
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K013, Wigwam Bay State Wildlife Area, MI, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9687,
+            "longitude": -83.862
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9687,
+            "longitude": -83.862
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K014, Salem River, NJ, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.6696,
+            "longitude": -75.4661
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.6696,
+            "longitude": -75.4661
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K015, Taskinas Creek, VA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.4142,
+            "longitude": -76.715
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.4142,
+            "longitude": -76.715
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K016, Transect 4, Catlett Islands, VA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.3047,
+            "longitude": -76.553
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.3047,
+            "longitude": -76.553
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K017, Transect 1, Sweet Hall Marsh, VA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.5687,
+            "longitude": -76.8871
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.5687,
+            "longitude": -76.8871
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K018, Goodwin Islands, VA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.2197,
+            "longitude": -76.4133
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.2197,
+            "longitude": -76.4133
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K019, Boy Scout Landing/St. Louis River, MN, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6536,
+            "longitude": -92.2269
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6536,
+            "longitude": -92.2269
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K020, Tischer Creek, Lake Superior, MN, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.8143,
+            "longitude": -92.0515
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.8143,
+            "longitude": -92.0515
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K021, Magee Marsh Turtle Creek Bay, OH, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.6053,
+            "longitude": -83.1536
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.6053,
+            "longitude": -83.1536
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K022, Winous Point, OH, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.4623,
+            "longitude": -82.9974
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.4623,
+            "longitude": -82.9974
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K023, Jug Bay- Chris Swarth Boardwalk, MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8014,
+            "longitude": -76.7033
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8014,
+            "longitude": -76.7033
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K024, Monie Bay - CBNERR-MD, MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.2105,
+            "longitude": -75.8056
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.2105,
+            "longitude": -75.8056
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K025, Muddy Creek, MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8873,
+            "longitude": -76.5621
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8873,
+            "longitude": -76.5621
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K026, Lang Farm Rd., VA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.7128,
+            "longitude": -75.6086
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.7128,
+            "longitude": -75.6086
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K027, Greenhead Farm, MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.9923,
+            "longitude": -75.8218
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.9923,
+            "longitude": -75.8218
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K029, Gum Tree Corner, NJ, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.4187,
+            "longitude": -75.3786
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.4187,
+            "longitude": -75.3786
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K030, St. Jones Reserve, DE, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0884,
+            "longitude": -75.4374
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.0884,
+            "longitude": -75.4374
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K033, Nara Nature Park, MI, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.1041,
+            "longitude": -88.5153
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.1041,
+            "longitude": -88.5153
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K034, King's Creek Marsh (Nature Conservancy Site), MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.7744,
+            "longitude": -75.9753
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.7744,
+            "longitude": -75.9753
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K035, Horn Point Laboratory, MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5922,
+            "longitude": -76.1302
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5922,
+            "longitude": -76.1302
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K036, Calfpasture Cove, Eastern Neck National Wildlife Refuge (ENNWR), MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0381,
+            "longitude": -76.2242
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.0381,
+            "longitude": -76.2242
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K037, Cumberland Marsh, VA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.5569,
+            "longitude": -76.9731
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.5569,
+            "longitude": -76.9731
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K038, Harris Creek, VA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.3264,
+            "longitude": -77.2078
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.3264,
+            "longitude": -77.2078
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K039, Pentwater River, MI, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.7604,
+            "longitude": -86.4078
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.7604,
+            "longitude": -86.4078
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K040, Brownsville Nature Preserve, VA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.4644,
+            "longitude": -75.8358
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.4644,
+            "longitude": -75.8358
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K041, Brownsville Nature Preserve, VA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.4638,
+            "longitude": -75.8357
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.4638,
+            "longitude": -75.8357
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K042, Heinz Wildlife Refuge- Wildrice, PA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.8815,
+            "longitude": -75.2648
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.8815,
+            "longitude": -75.2648
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K043, Bowers Beach, DE, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.062,
+            "longitude": -75.394
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.062,
+            "longitude": -75.394
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K044, Canoe Shed, Smithsonian Environmental Research Center, MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8842,
+            "longitude": -76.5583
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8842,
+            "longitude": -76.5583
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K045, Rancocas, NJ, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.9905,
+            "longitude": -74.8443
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.9905,
+            "longitude": -74.8443
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K046, St. Jones Reserve, DE, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0892,
+            "longitude": -75.4365
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.0892,
+            "longitude": -75.4365
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K047, White River, MI, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.4166,
+            "longitude": -86.3508
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.4166,
+            "longitude": -86.3508
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K048, Spadderclock Reef, John Heinz Natural Wildlife Refuge at Tinacum, PA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.8801,
+            "longitude": -75.2666
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.8801,
+            "longitude": -75.2666
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K049, Saugatuch Harbor Natural Area, MI, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.6709,
+            "longitude": -86.2106
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.6709,
+            "longitude": -86.2106
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K050, Kimages Creek, VA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.3347,
+            "longitude": -77.2058
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.3347,
+            "longitude": -77.2058
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K051, Bar Neck Farm, MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5747,
+            "longitude": -76.2191
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5747,
+            "longitude": -76.2191
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K052, Almodington Farm, MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.1604,
+            "longitude": -75.7899
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.1604,
+            "longitude": -75.7899
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K053, Patuxent Wetland Park, MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.812,
+            "longitude": -76.7061
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.812,
+            "longitude": -76.7061
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K054, Delaware Forest, DE, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9681,
+            "longitude": -75.3698
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9681,
+            "longitude": -75.3698
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K055, Mantua Creek, NJ, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.8055,
+            "longitude": -75.2077
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.8055,
+            "longitude": -75.2077
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K056, Jake's Landing, Partnership for the Delaware Estuary, NJ, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.1836,
+            "longitude": -74.8517
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.1836,
+            "longitude": -74.8517
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K057, Silver Lake, DE, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.1683,
+            "longitude": -75.5211
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.1683,
+            "longitude": -75.5211
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K058, Owl's Nest, Partnership for the Delaware Estuary, NJ, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.2574,
+            "longitude": -75.0903
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.2574,
+            "longitude": -75.0903
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K059, Blackwater National Wildlife Refuge, MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.4303,
+            "longitude": -76.2269
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.4303,
+            "longitude": -76.2269
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K060, Woodland Beach, DE, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.3259,
+            "longitude": -75.4749
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.3259,
+            "longitude": -75.4749
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K061, Delaware Ag, DE, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.2152,
+            "longitude": -75.4607
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.2152,
+            "longitude": -75.4607
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "K062, GCReW, Smithsonian Environmental Research Center, MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8747,
+            "longitude": -76.5516
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8747,
+            "longitude": -76.5516
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-10-01",
+      "endDate": "2021-12-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6905-6841",
+      "givenName": "Allison N.",
+      "familyName": "Myers-Pigg",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "allison.myers-pigg@pnnl.gov"
+    },
+    "citation": [
+      "SAMPLES IN THIS DATASET",
+      "Globally unique identifier (IGSN) for physical sample associated with dataset. There are a total of 880 individual samples associated with the dataset, which consist of 495 Soil, 275 Liquid>aqueous, and 110 Sediment samples. More information describing the samples is provided in the ec1_metadata_igsn_samples.csv dataset file (within ec1_metadata_v3.zip)",
+      "ASSOCIATED JOURNAL ARTICLE(S)",
+      "Myers-Pigg et al., (2023) \u201cBiogeochemistry of upland to wetland soils, sediments, and surface waters across Mid-Atlantic and Great Lakes coastal interfaces\u201d https://doi.org/10.1038/s41597-023-02548-7",
+      "REFERENCES - RELATED DATASET(S)",
+      "Pennington et al., (2024) \"COMPASS-FME Synoptic Sites Level 1 Sensor Data v1-1\". ESS-DIVE. https://doi.org/10.15485/2439400",
+      "SOURCE DATA",
+      "Environmental Molecular Sciences Laboratory (EMSL) Award for \"Coastal Observations, Mechanisms, and Predictions Across Systems and Scales \u2013 Field, Measurements and Experiments\" https://doi.org/10.46936/cpcy.proj.2022.60511/60008517"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a688a033-da45-46ad-b72b-d6fef5139a9c"
+      },
+      "name": "COMPASS-FME",
+      "member": {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "All v1 analyte methods are located in Myers-Pigg, A.N., Pennington, S.C., Homolka, K.K. et al. Biogeochemistry of upland to wetland soils, sediments, and surface waters across Mid-Atlantic and Great Lakes coastal interfaces. Sci Data 10, 822 (2023). https://doi.org/10.1038/s41597-023-02548-7",
+      "v2 analytes not located in the above publication are located in ec1_methods.pdf in the data package. Please see the supplemental information in Myers-Pigg and Pennington et al., 2023 for soil iron methods."
+    ],
+    "distribution": [
+      {
+        "contentSize": 4605.2900390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-050c6b10806d3e2-20250311T003706270",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-050c6b10806d3e2-20250311T003706270",
+        "name": "ec1_water_v3.zip"
+      },
+      {
+        "contentSize": 229.08984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-05cb5576502ec1b-20250311T003649512",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-05cb5576502ec1b-20250311T003649512",
+        "name": "ec1_methods.pdf"
+      },
+      {
+        "contentSize": 62.880859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-17fe362d044fc41-20250311T003658413",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-17fe362d044fc41-20250311T003658413",
+        "name": "ec1_processingscripts_v3.zip"
+      },
+      {
+        "contentSize": 759.7802734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1e9311fd0fe1a01-20250311T003647503",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-1e9311fd0fe1a01-20250311T003647503",
+        "name": "ec1_README.pdf"
+      },
+      {
+        "contentSize": 56.017578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-120a44f1c8a626c-20250311T003739070",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-120a44f1c8a626c-20250311T003739070",
+        "name": "EXCHANGE_Campaign_1_A_Community_Driven_Baseline.xml"
+      },
+      {
+        "contentSize": 25.091796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2ce025b9dc4b999-20250311T003704283",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2ce025b9dc4b999-20250311T003704283",
+        "name": "ec1_soil_v3.zip"
+      },
+      {
+        "contentSize": 43.73046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-98ab28dba559bdd-20250311T003654282",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-98ab28dba559bdd-20250311T003654282",
+        "name": "ec1_metadata_v3.zip"
+      },
+      {
+        "contentSize": 1.4921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ceb647b37bd0383-20250311T003702463",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ceb647b37bd0383-20250311T003702463",
+        "name": "ec1_sediment_v3.zip"
+      }
+    ]
+  }
+}

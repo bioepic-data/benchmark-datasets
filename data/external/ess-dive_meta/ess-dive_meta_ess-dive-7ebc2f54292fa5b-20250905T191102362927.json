@@ -1,0 +1,307 @@
+{
+  "id": "ess-dive-7ebc2f54292fa5b-20250905T191102362927",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2574352",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-7ebc2f54292fa5b-20250905T191102362927",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-45b50f2d2a2e523-20250905T184453600626",
+  "dateUploaded": "2025-09-06T02:11:03.852Z",
+  "dateModified": "2025-09-09T00:14:11.007Z",
+  "isPublic": true,
+  "citation": "Burns S P; Humphrey V; Raleigh M S; Bowling D R; Gutmann E D; Blanken P D (2025): GNSS-based Vegetation Optical Depth, Tree Sway, and Evapotranspiration data from the Niwot Ridge Subalpine Forest (US-NR1) AmeriFlux site. AmeriFlux Management Project. Dataset. doi:10.15485/2574352",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2574352",
+    "name": "GNSS-based Vegetation Optical Depth, Tree Sway, and Evapotranspiration data from the Niwot Ridge Subalpine Forest (US-NR1) AmeriFlux site",
+    "description": [
+      "This data package contains data and information about Global Navigation Satellite System (GNSS)-based Vegetation Optical Depth (VOD), tree sway motion, and eddy-covariance evapotranspiration (ET) data collected at the Niwot Ridge Subalpine Forest AmeriFlux site (US-NR1). The raw GNSS data were collected between May 2022 and August 2023. Other processed datasets such as tree sway motion and ET data are also included. The goal was to study the water content within a subalpine forest and, more specifically, examine the canopy evaporation process. This data archive includes all data that were used within the following Biogeosciences discussion paper that further summarizes the research objectives and conclusions:",
+      "Burns, S.P., V. Humphrey, E.D. Gutmann, M.S. Raleigh, D.R. Bowling, and P.D. Blanken, 2025: Using GNSS-based vegetation optical depth, tree sway motion, and eddy-covariance to examine evaporation of canopy-intercepted rainfall in a subalpine forest. EGUsphere [preprint],",
+      "https://doi.org/10.5194/egusphere-2025-1755",
+      "This data archive also supplements the 30-min Lawrence Berkeley National Laboratory (LBNL) AmeriFlux dataset for US-NR1 (i.e., https://doi.org/10.17190/AMF/1246088) and updates what was in the 2020 ESS-DIVE US-NR1 archive (https://doi.org/10.15485/1671825) to include data from the years 2020-2025. More specifically, the following updates are provided: (i) five-minute statistics (means, variances, covariances) of all data measured by the US-NR1 data system between Sep 2020 and Jun 2025 in netCDF format, (ii) the electronic logbook of US-NR1 site visits, (iii) a web calendar (in HTML format) documenting activity at the site (a replica of https://urquell.colorado.edu/calendar/), (iv) photos taken at the site between years 2020 and present day (Aug 2025), and (v) several auxiliary datasets, primary related to trees near the site, soil properties, soil moisture and soil temperature, and subcanopy radiation data. The data package is setup so that the web calendar, photos, and electronic logbook can be easily accessed on a local computer using a web browser. The provided data files are in either BINEX or SBF format (for the raw GNSS data), netCDF, CSV, ASCII, or MATLAB format. To obtain a better understanding about the archive, please start by reading the following PDF which is included within the data archive:",
+      "README_ESS_DIVE_USNR1_2025_readme_first.pdf."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6258-1838",
+        "givenName": "Sean P.",
+        "familyName": "Burns",
+        "affiliation": "University of Colorado Boulder and NSF National Center for Atmospheric Research",
+        "email": "sean.burns@colorado.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2541-6382",
+        "givenName": "Vincent",
+        "familyName": "Humphrey",
+        "affiliation": "Federal Of\ufb01ce of Meteorology and Climatology MeteoSwiss, Z\u00fcrich Airport, Switzerland",
+        "email": "Vincent.Humphrey@meteoswiss.ch"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1303-3472",
+        "givenName": "Mark S.",
+        "familyName": "Raleigh",
+        "affiliation": "College of Earth, Ocean, and Atmospheric Sciences, Oregon State University, Corvallis, OR, USA",
+        "email": "raleigma@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3864-4042",
+        "givenName": "David R.",
+        "familyName": "Bowling",
+        "affiliation": "School of Biological Sciences, University of Utah, UT, USA",
+        "email": "david.bowling@utah.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4077-3430",
+        "givenName": "Ethan D.",
+        "familyName": "Gutmann",
+        "affiliation": "NSF National Center for Atmospheric Research",
+        "email": "gutmann@ucar.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7405-2220",
+        "givenName": "Peter D.",
+        "familyName": "Blanken",
+        "affiliation": "Department of Geography, University of Colorado, Boulder, Colorado, USA",
+        "email": "blanken@colorado.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "AmeriFlux",
+      "Niwot Ridge",
+      "Subalpine Forest",
+      "GNSS-based Vegetation Optical Depth (VOD)",
+      "Tree Sway Motion",
+      "Canopy Interception",
+      "Canopy Evaporation",
+      "Evapotranspiration"
+    ],
+    "variableMeasured": [
+      "Tree Sway Motion",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR PROCESSES > EVAPOTRANSPIRATION",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > PLANT CHARACTERISTICS > VEGETATION WATER CONTENT",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > TERRESTRIAL ECOSYSTEMS > ALPINE/TUNDRA > SUBALPINE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "US-NR1, Niwot Ridge Subalpine Forest, Colorado, United States of America, North America",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0328750561,
+            "longitude": -105.54697078
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.0328750561,
+            "longitude": -105.54697078
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1998-11-01",
+      "endDate": "2025-07-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6258-1838",
+      "givenName": "Sean",
+      "familyName": "Burns",
+      "affiliation": "University of Colorado Boulder and NSF National Center for Atmospheric Research",
+      "email": "sean.burns@colorado.edu"
+    },
+    "citation": [
+      "Burns, S.P., V. Humphrey, E.D. Gutmann, M.S. Raleigh, D.R. Bowling, and P.D. Blanken, 2025: Using GNSS-based vegetation optical depth, tree sway motion, and eddy-covariance to examine evaporation of canopy-intercepted rainfall in a subalpine forest. EGUsphere [preprint],https://doi.org/10.5194/egusphere-2025-1755",
+      "Burns, S.P., G.D. Maclean, P.D. Blanken, S.P. Oncley, S.R. Semmer, and R.K. Monson, 2016: The Niwot Ridge Subalpine Forest US-NR1 AmeriFlux site \u2013 Part I: Data acquisition and site record-keeping. Geoscientific Instrumentation, Methods and Data Systems, 5, 451-471, https://doi.org/10.5194/gi-5-451-2016",
+      "Burns, S.P., P.D. Blanken, and R.K. Monson, 2020: Data, Photographs, Videos, and Information for the Niwot Ridge Subalpine Forest (US-NR1) AmeriFlux site. AmeriFlux Management Project, ESS-DIVE Dataset, https://doi.org/10.15485/1671825",
+      "Peter D. Blanken, Russel K. Monson, Sean P. Burns, David R. Bowling, Andrew A. Turnipseed (2025), AmeriFlux BASE US-NR1 Niwot Ridge Forest (LTER NWT1), Ver. 23-5, AmeriFlux AMP, (Dataset). https://doi.org/10.17190/AMF/1246088"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "620c30f3-61c8-42aa-9020-a0fa58cbb6d0"
+      },
+      "name": "AmeriFlux Management Project",
+      "member": {
+        "@type": "Person",
+        "givenName": "Margaret",
+        "familyName": "Torn",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mstorn@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Data Sampling:\nThe US-NR1 AmeriFlux tower hi-rate time series data are collected using steps described in the following paper:\nBurns, S.P., G.D. Maclean, P.D. Blanken, S.P. Oncley, S.R. Semmer, and R.K. Monson, 2016: The Niwot Ridge Subalpine Forest US-NR1 AmeriFlux site \u2013 Part I: Data acquisition and site record-keeping. Geoscientific Instrumentation, Methods and Data Systems, 5, 451-471, https://doi.org/10.5194/gi-5-451-2016\nFlux calculations are done using standard methods recommended by AmeriFlux. The flux calculations have been checked/confirmed by the AmeriFlux tower team several different times.\nThe collection of the raw GNSS data and calculated vegations optical depth (VOD), as well as the tree sway accelerometer data are described here:\nBurns, S.P., V. Humphrey, E.D. Gutmann, M.S. Raleigh, D.R. Bowling, and P.D. Blanken, 2025: Using GNSS-based vegetation optical depth, tree sway motion, and eddy-covariance to examine evaporation ofcanopy-intercepted rainfall in a subalpine forest. EGUsphere [preprint], https://doi.org/10.5194/egusphere-2025-1755\nMore specific information on the VOD calculation can be found here:\nHumphrey, V. and Frankenberg, C.: Continuous ground monitoring of vegetation optical depth and water content with GPS signals, Biogeosciences, 20, 1789\u20131811, https://doi.org/10.5194/bg-20-1789-2023, 2023\nMore specific information on the tree sway frequency calculation can be found here:\nRaleigh, M. S., Gutmann, E. D., Van Stan, J. T. II., Burns, S. P., Blanken, P. D., & Small, E. E. (2022). Challenges and capabilities in estimating snow mass intercepted in conifer canopies with tree sway monitoring. Water Resources Research, 58, e2021WR030972. https://doi.org/10.1029/2021WR030972"
+    ],
+    "distribution": [
+      {
+        "contentSize": 5959.4990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-04690cec8053f17-20250901T195944634",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-04690cec8053f17-20250901T195944634",
+        "name": "README_ESS_DIVE_USNR1_photos_gpscam.pdf"
+      },
+      {
+        "contentSize": 223819.123046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-217e01acfa9ed25-20250730T032226779",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-217e01acfa9ed25-20250730T032226779",
+        "name": "ess_dive_USNR1_tree_water_content.zip"
+      },
+      {
+        "contentSize": 659.716796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-13cf2773779aa48-20250829T191202338",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-13cf2773779aa48-20250829T191202338",
+        "name": "ess_dive_USNR1_calendar_2025.zip"
+      },
+      {
+        "contentSize": 88.720703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4195de07079a523-20250901T200118562",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-4195de07079a523-20250901T200118562",
+        "name": "README_ESS_DIVE_USNR1_tree_sway.pdf"
+      },
+      {
+        "contentSize": 76.10546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-397d84f541cdd84-20250901T195944626",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-397d84f541cdd84-20250901T195944626",
+        "name": "README_ESS_DIVE_USNR1_tree_water_content.pdf"
+      },
+      {
+        "contentSize": 81.119140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-626d629bd2bcc34-20250901T195944641",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-626d629bd2bcc34-20250901T195944641",
+        "name": "README_ESS_DIVE_USNR1_data_5min_2025.pdf"
+      },
+      {
+        "contentSize": 3142191.8759765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2a63aaf8b3fa295-20250901T154113728",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2a63aaf8b3fa295-20250901T154113728",
+        "name": "ess_dive_USNR1_gpscam.zip"
+      },
+      {
+        "contentSize": 220.2119140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d6d23bcebc7936f-20250901T195944649",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-d6d23bcebc7936f-20250901T195944649",
+        "name": "README_ESS_DIVE_USNR1_calendar.pdf"
+      },
+      {
+        "contentSize": 73.046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ed006ac4fe09124-20250901T200118570",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-ed006ac4fe09124-20250901T200118570",
+        "name": "README_ESS_DIVE_USNR1_logbook.pdf"
+      },
+      {
+        "contentSize": 74.3271484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-332a359534739ae-20250901T195944657",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-332a359534739ae-20250901T195944657",
+        "name": "README_ESS_DIVE_USNR1_bg_burns_2025_data.pdf"
+      },
+      {
+        "contentSize": 343627.345703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-534a428871bd69a-20250829T192051284",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-534a428871bd69a-20250829T192051284",
+        "name": "ess_dive_USNR1_data_ameriflux.zip"
+      },
+      {
+        "contentSize": 393397.724609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5de6d01b41ab541-20250829T192548389",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-5de6d01b41ab541-20250829T192548389",
+        "name": "ess_dive_USNR1_data_5min_2020_2025.zip"
+      },
+      {
+        "contentSize": 84.11328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4e81f2dd8115966-20250901T200118544",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-4e81f2dd8115966-20250901T200118544",
+        "name": "README_ESS_DIVE_USNR1_gps_unavco.pdf"
+      },
+      {
+        "contentSize": 101.3046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-799edd6d1fca597-20250901T195944618",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-799edd6d1fca597-20250901T195944618",
+        "name": "README_ESS_DIVE_USNR1_data_ameriflux.pdf"
+      },
+      {
+        "contentSize": 16.2587890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ebc2f54292fa5b-20250905T191102362927",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-7ebc2f54292fa5b-20250905T191102362927",
+        "name": "GNSS_based_Vegetation_Optical_Depth_Tree_Sway_and_Evapotranspiration_data_from_the_Niwot_Ridge_Subalpine_Forest_US_NR1_AmeriFlux_site.xml"
+      },
+      {
+        "contentSize": 6434519.7041015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-93defc9cf1e0891-20250905T132422891493",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-93defc9cf1e0891-20250905T132422891493",
+        "name": "ess_dive_USNR1_photos_2020_2025.zip"
+      },
+      {
+        "contentSize": 4617.0947265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-94f952fcb3903c0-20250829T191202356",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-94f952fcb3903c0-20250829T191202356",
+        "name": "ess_dive_USNR1_logbook_2025.zip"
+      },
+      {
+        "contentSize": 83.958984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bf5181ca02f33e3-20250901T195944603",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-bf5181ca02f33e3-20250901T195944603",
+        "name": "README_ESS_DIVE_USNR1_2025_readme_first.pdf"
+      },
+      {
+        "contentSize": 78107.1796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f15ce50e92c1ed2-20250829T191248848",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f15ce50e92c1ed2-20250829T191248848",
+        "name": "ess_dive_USNR1_bg_burns_2025_data.zip"
+      },
+      {
+        "contentSize": 41751.599609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f3b8e780c21a469-20250730T032135302",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f3b8e780c21a469-20250730T032135302",
+        "name": "ess_dive_USNR1_tree_sway.zip"
+      },
+      {
+        "contentSize": 37101623.884765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fc1a5044c2eb685-20250905T184810904418",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-fc1a5044c2eb685-20250905T184810904418",
+        "name": "ess_dive_USNR1_data_gps_unavco.zip"
+      }
+    ]
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "id": "ess-dive-957104ea11180fd-20241028T151110334932",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15486/NGT/1696806",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-957104ea11180fd-20241028T151110334932",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-bd6153ac83f6e32-20240913T175010682732",
+  "dateUploaded": "2024-10-28T15:11:17.832Z",
+  "dateModified": "2024-10-28T22:47:23.354Z",
+  "isPublic": true,
+  "citation": "Chitra-Tarak R; Xu C; Aguilar S; Anderson-Teixeira K; Chambers J; Detto M; Faybishenko B; Fisher R; Knox R; Koven C; Kueppers L; Norbert K; Kupers S; McDowell N; Newman B; Paton S; P\u00e9rez R; Ruiz L; Sack L; Warren J; Wolfe B; Wright C; Wright J; Zailaa J; McMahon S (2021): Soil Water Potentials (1990-2018) from a calibrated ELM-FATES, and rooting depth analyses scripts, PA-BCI, Panama. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15486/NGT/1696806",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15486/NGT/1696806",
+    "name": "Soil Water Potentials (1990-2018) from a calibrated ELM-FATES, and rooting depth analyses scripts, PA-BCI, Panama",
+    "description": [
+      "This dataset has ELM-FATES simulation outputs and scripts that accompany and reproduce the manuscript, Chitra-Tarak et al. (2021) Hydraulically-vulnerable trees survive on deep-water access during droughts in a tropical forest. New Phytologist. https: //doi.org/10.1111/nph.17464\u201d. This dataset is organized into four parts: (1) source code for the model, Energy Exascale Earth System Land Model-Functionally Assembled Advanced Terrestrial simulator (ELM-FATES) (2) R scripts associated with ELM-FATES simulations: to prepare files for parameter ensemble simulation runs, calibrate the model with observed hydrological fluxes observed at BCI, re-run the model with tuned parameters and obtain long-term soil matric potentials by depth (3) ELM-FATES hydrological simulation outputs at PA-BCI, Panama (1990-2018, daily), and (4) R scripts for inverse rooting depth modeling and post-processing: prepare datasets and inversely model tree rooting depths at BCI, test hypotheses about the relationship of rooting depths with plant hydraulic traits and drought-induced mortality, and reproduce the manuscript itself. n.b. 1. Data needed to run R scripts in (2) and (4) and thus to reproduce the manuscript are sourced from various public datasets. Refer to the data availability section of the accompanying manuscript. 2. This dataset version (prepared on May 12, 2021) matches the revised and published version of the accompanying manuscript (published May 16, 2021) replacing a previous version. In the publication, this dataset is cited as follows: Chitra-Tarak R, Xu C, Aguilar S, Anderson-Teixeira K, Chambers J, Detto M, Faybishenko B, Fisher R, Knox R, Koven C et al. 2020. Soil water potentials (1990\u20132018) from a calibrated ELM-FATES, and rooting depth analyses scripts, PA-BCI, Panama. 2.0. NGEE Tropics Data Collection. doi: 10.15486/ngt/1696806",
+      "This dataset was originally published on the NGEE Tropics Archive and is being mirrored on ESS-DIVE for long-term archival",
+      "Acknowledgement: Funding for NGEE-Tropics data resources was provided by the U.S. Department of Energy Office of Science, Office of Biological and Environmental Research."
+    ],
+    "alternateName": [
+      "http://dx.doi.org/10.15486/ngt/1696806",
+      "NGT0160"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0001-9714-7524",
+        "givenName": "Rutuja",
+        "familyName": "Chitra-Tarak",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "rutuja@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-0937-5744",
+        "givenName": "Chonggang",
+        "familyName": "Xu",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "cxu@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Salom\u00f3n",
+        "familyName": "Aguilar",
+        "email": "AguilarS@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0001-8461-9713",
+        "givenName": "Kristina",
+        "familyName": "Anderson-Teixeira",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "TeixeiraK@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-3983-7847",
+        "givenName": "Jeff",
+        "familyName": "Chambers",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Matteo",
+        "familyName": "Detto",
+        "affiliation": "Princeton",
+        "email": "mdetto@princeton.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-0085-8499",
+        "givenName": "Boris",
+        "familyName": "Faybishenko",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bafaybishenko@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-3260-9227",
+        "givenName": "Rosie",
+        "familyName": "Fisher",
+        "affiliation": "National Center for Atmospheric Research",
+        "email": "rosieafisher@googlemail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-1140-3350",
+        "givenName": "Ryan",
+        "familyName": "Knox",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "rgknox@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-3367-0065",
+        "givenName": "Charlie",
+        "familyName": "Koven",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cdkoven@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-8134-3579",
+        "givenName": "Lara",
+        "familyName": "Kueppers",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "lmkueppers@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kunert",
+        "familyName": "Norbert",
+        "email": "kunnob@aol.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stefan",
+        "familyName": "Kupers",
+        "email": "stefankupers@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-2178-2254",
+        "givenName": "Nate",
+        "familyName": "McDowell",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "nate.mcdowell@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0001-9177-8675",
+        "givenName": "Brent",
+        "familyName": "Newman",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "bnewman@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Steve",
+        "familyName": "Paton",
+        "affiliation": "Smithsonian Tropical Research Institution",
+        "email": "patons@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Rolanod",
+        "familyName": "P\u00e9rez",
+        "email": "perezro@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Laurent",
+        "familyName": "Ruiz",
+        "email": "Laurent.Ruiz@inrae.fr"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Lawren",
+        "familyName": "Sack",
+        "email": "lawrensack@ucla.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-0680-4697",
+        "givenName": "Jeffrey",
+        "familyName": "Warren",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "warrenjm@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0001-7535-045X",
+        "givenName": "Brett",
+        "familyName": "Wolfe",
+        "affiliation": "Louisiana State University",
+        "email": "btwolfe@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-2571-7334",
+        "givenName": "Cynthia",
+        "familyName": "Wright",
+        "affiliation": "Smithsonian Institution",
+        "email": "clouwri@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-4260-5676",
+        "givenName": "Joseph",
+        "familyName": "Wright",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "wrightj@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Joseph",
+        "familyName": "Zailaa",
+        "email": "joseph.zailaa@yale.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sean",
+        "familyName": "McMahon",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "McMahonS@si.edu"
+      }
+    ],
+    "datePublished": "2021-07-30",
+    "keywords": [
+      "Next-Generation Ecosystem Experiements Tropics",
+      "NGEE-T",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Model Code",
+      "Model output",
+      "Soil matric potential",
+      "Soil water content (saturation)"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site Name: Barro Colorado Island (BCI). Site ID: PA-BCI. Located in Panama. Barro Colorado Island (BCI) is a humid tropical forest with high biodiversity, around 300 species in 50 ha. The climate has a sever dty season from and of December to end of April. Several decidous species drop their leaves during this period. Lianas are very abundant in this forest accounting up to 30% of leaf area. (AMERIFLUX)Barro Colorado Island (BCI), a 1,560-hectare island, is STRI's primary site for the study of lowland moist tropical forests. Together with five adjacent peninsulas, BCI forms the 5,600-hectare Barro Colorado Nature Monument (BCNM), which is located in the middle of the Panama Canal. Established in April 17, 1923, BCNM and has been administered by the Smithsonian since 1946 (STRI CTFS). For more information on this site, visit: http://fluxnet.ornl.gov/site/4247, http://ameriflux-data.lbl.gov:8080/SitePages/siteInfo.aspx?PA-Bar,http://biogeodb.stri.si.edu/physical_monitoring/research/barrocolorado Site contact(s): (Joseph Wright <wrightj@si.edu>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 9.177125,
+            "longitude": -79.87
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 9.130659,
+            "longitude": -79.82
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-05CH11231",
+      "LANL DOE 7537545",
+      "NSF 1137366",
+      "NSF 1046113"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "National Science Foundation"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1990-01-01",
+      "endDate": "2018-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "http://orcid.org/0000-0001-9714-7524",
+      "givenName": "Rutuja",
+      "familyName": "Chitra-Tarak",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "rutuja@lanl.gov"
+    },
+    "citation": [
+      "Chitra-Tarak, Rutuja, Chonggang Xu, Salom\u00f3n Aguilar, Kristina Anderson-Teixeira, Jeff Chambers, Matteo Detto, Boris Faybishenko, Rosie Fisher, Ryan Knox, Charlie Koven, Lara Kueppers, Nobert Kunert, Stefan J. Kupers, Nathan G. McDowell, Brent Newman, Steve Paton, Rolando P\u00e9rez, Laurent Ruiz, Lawren Sack, Jeffrey M. Warren, Brett T. Wolfe, Cynthia Wright, S. Joseph Wright, Joseph Zailaa, Sean M. McMahon. (2021) Hydraulically-vulnerable trees survive on deep-water access during droughts in a tropical forest. New Phytologist https: //doi.org/10.1111/nph.17464"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "See associated publication for methods information."
+    ],
+    "distribution": [
+      {
+        "contentSize": 15.8984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-957104ea11180fd-20241028T151110334932",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-957104ea11180fd-20241028T151110334932",
+        "name": "Soil_Water_Potentials_1990_2018_from_a_calibrated_ELM_FATES_and_rooting_depth_analyses_scripts_PA_BCI_Panama.xml"
+      },
+      {
+        "contentSize": 1.5869140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b6154b63bc8dc38-20240913T175009479974",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b6154b63bc8dc38-20240913T175009479974",
+        "name": "NGT0160_locations.csv"
+      },
+      {
+        "contentSize": 131859.1455078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-afd4cc47dd104cd-20220608T192357350963",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-afd4cc47dd104cd-20220608T192357350963",
+        "name": "submission_July2_2021_20210727020433.zip"
+      }
+    ]
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "id": "ess-dive-9bc90875de2423c-20251003T165341775",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2589181",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-9bc90875de2423c-20251003T165341775",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-9bc90875de2423c-20251003T165002598",
+  "dateUploaded": "2025-10-03T16:53:43.146Z",
+  "dateModified": "2025-10-04T00:00:49.805Z",
+  "isPublic": true,
+  "citation": "Bandopadhyay S; Danczak R; Patel K; Beilsmith K; Weisenhorn P; Spanbauer T; Reichart N; Weintraub M; Bailey V (2025): Data for Bandopadhyay et al., \"Soil microbial ecology and microbiome-metabolite linkages improve understanding of ecosystem states along terrestrial-aquatic interfaces\". COMPASS-FME. Dataset. doi:10.15485/2589181",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2589181",
+    "name": "Data for Bandopadhyay et al., \"Soil microbial ecology and microbiome-metabolite linkages improve understanding of ecosystem states along terrestrial-aquatic interfaces\"",
+    "description": [
+      "These data are from Bandopadhyay et al., \"Soil microbial ecology and microbiome-metabolite linkages improve understanding of ecosystem states along terrestrial-aquatic interfaces\". This study aims to understand the soil microbial ecology along terrestrial-aquatic interfaces of a freshwater and estuarine region and how it relates to organic matter. We analyzed soil microbial (16S rRNA gene) and organic matter (Fourier-transform ion cyclotron resonance mass spectrometry, FTICR-MS) composition from upland (forested), transition (stressed forest), and wetland positions at three sites in each of the Lake Erie (freshwater) and Chesapeake Bay (estuarine) regions.",
+      "This dataset includes 16S rRNA gene amplicon data (only processed file types included here) and organic matter composition from FTICR-MS data (raw and processed files included here) from upland (forested), transition (stressed forest), and wetland positions at three sites in each of the Lake Erie and Chesapeake Bay regions. These sites are part of the COMPASS-FME project (https://compass.pnnl.gov/FME/COMPASSFME).",
+      "File formats and software needed to access files:",
+      "16S rRNA gene amplicon data:",
+      "These files follow the format reported here https://ess-dive.gitbook.io/amplicon-sequencing-reporting-format#updates-in-v1.0.1. As per this format, there are four file types reported:",
+      "1. Taxon tables (also called sequence-by-sample or OTU (operational taxonomic unit)/ESV (exact sequence variant) tables) : available in a .txt file format and accessible using TextEdit or MS Excel.",
+      "2. Representative sequences (also called consensus sequences) : available in a .fasta format and accessible using TextEdit.",
+      "3. Sequencing metadata : available in a MS Excel workbook file format and CSV file format",
+      "4. Bioinformatic metadata : available in a MS Excel workbook file format and CSV file format",
+      "FTICR-MS data:",
+      "1. Raw data converted to a processed file with intensities of the peaks in the given samples : available in a MS Excel CSV file format",
+      "2. Processed file used in analyses and visualizations (appended as icr_long_) : available in a MS Excel CSV file format",
+      "3. Metadata file for ICR features (appended as icr_meta) : available in a MS Excel CSV file format"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4694-2461",
+        "givenName": "Sreejata",
+        "familyName": "Bandopadhyay",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "sreejata.bandopadhyay@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6437-7809",
+        "givenName": "Kaizad",
+        "familyName": "Patel",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "kaizad.patel@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2778-299X",
+        "givenName": "Kathleen",
+        "familyName": "Beilsmith",
+        "affiliation": "Argonne National Laboratory",
+        "email": "kbeilsmith@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1844-5502",
+        "givenName": "Pamela",
+        "familyName": "Weisenhorn",
+        "affiliation": "Argonne National Laboratory",
+        "email": "pweisenhorn@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4014-4995",
+        "givenName": "Trisha",
+        "familyName": "Spanbauer",
+        "affiliation": "University of Kentucky",
+        "email": "trisha.spanbauer@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nicholas",
+        "familyName": "Reichart",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "nicholas.reichart@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9623-2855",
+        "givenName": "Michael",
+        "familyName": "Weintraub",
+        "affiliation": "University of Toledo",
+        "email": "michael.weintraub@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2248-8890",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "vanessa.bailey@pnnl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9525-4633",
+        "givenName": "Ben",
+        "familyName": "Bond-Lamberty",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bondlamberty@pnnl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > OCEANS > COASTAL PROCESSES",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE Amplicon Sequencing Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS > MICROFAUNA"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Moneystump Swamp (MSM); one of COMPASS-FME synoptic sites located in the Blackwater National Wildlife Refuge along the mesohaline Beaverdam Creek. This synoptic site consists of three plots: upland (\"UP\"; located at 38.4315N, 76.2267W), transition (\"TR\"; 38.4310N, 76.2277W), and wetland (\"W\"; 38.4308N, 76.2286W). The site was established in June 2022. The transect spans a coastal loblolly pine forest and a mesohaline marsh dominated by Spartina and Distichlis.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.431,
+            "longitude": -76.2277
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.431,
+            "longitude": -76.2277
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Old Woman Creek (OWC); one of COMPASS-FME synoptic sites located within the Old Woman Creek lacustuary, 2.8 miles (4.5km) east of Huron, Ohio. This site is owned by the Ohio Department of Natural Resources (ODNR), managed by ODNR\u2019s Division of Natural Areas & Preserves as Old Woman Creek National Estuarine Research Reserve. This site consists of four plots: upland (\"UP\"; located at 41.3763N, 82.5070W), transition (\"TR\"; 41.3758N, 82.5063W), wetland transition edge (\"WTE\"; 41.3760N, 82.5071W), and wetland (\"W\"; 41.3761N, 82.5078W). The site was established in December 2021.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3758,
+            "longitude": -82.5063
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3758,
+            "longitude": -82.5063
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Portage River (PTR); one of COMPASS-FME synoptic sites located on the shoreline of the Portage River lacustuary of southwestern Lake Erie, at the confluence of the Portage and Little Portage rivers, 5.25 miles (8.5 km) east of Oak Harbor, Ohio. This site is owned by the USFWS and managed as a part of the Ottawa National Wildlife Refuge complex. This site consists of three plots: upland (\"UP\"; located at 41.5015N, 83.0461W), transition (\"TR\"; 41.5020N, 83.0456W), and wetland (\"W\"; 41.5016N, 83.0444W). The site was established in December 2021.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.502,
+            "longitude": -83.0456
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.502,
+            "longitude": -83.0456
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Crane Creek (CRC); one of COMPASS-FME synoptic sites within the Crane Creek lacustuary region of southwestern Lake Erie, 9.25 miles (14.9 km) northwest of Oak Harbor, Ohio. This site is owned by the USFWS and managed as a part of the Ottawa National WIldlife Refuge complex. This site consists of three plots: upland (\"UP\"; located at 41.6153N, 83.2297W), transition (\"TR\"; 41.6219N, 83.2381W), and wetland (\"W\"; 41.6219N, 83.2389W). This site was established in December 2021.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.6219,
+            "longitude": -83.2381
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.6219,
+            "longitude": -83.2381
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "GCReW (GCW); one of COMPASS-FME synoptic sites, and has three plots: upland (\"UP\"; located at 38.8741N, 76.5522W), transition (\"TR\"; 38.8745, 76.5515W), and wetland (\"W\"; 38.8750N, 76.5500W). Note that this site overlaps spatially with the TEMPEST (TMP) plots, the upland portion of the transect overlaps with the TEMPEST experiment control plot. This transect spans a mid- to late-successional (~80 years old) temperate, deciduous coastal forest and a mesohaline marsh along the Rhode River in Edgewater, MD.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8745,
+            "longitude": -76.5515
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8745,
+            "longitude": -76.5515
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Goodwin Island (GWI); one of COMPASS-FME synoptic sites, and has three plots: upland (\"UP\"; located at 37.2192N, 76.4087W), transition (\"TR\"; 37.2194N, 76.4092W), and wetland (\"W\"; 37.2189N, 76.4101W). The site was established in June 2022.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.2194,
+            "longitude": -76.4092
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.2194,
+            "longitude": -76.4092
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-05-01",
+      "endDate": "2022-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4694-2461",
+      "givenName": "Sreejata",
+      "familyName": "Bandopadhyay",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "sreejata.bandopadhyay@pnnl.gov"
+    },
+    "citation": [
+      "Bandopadhyay et al., \"Soil microbial ecology and microbiome-metabolite linkages improve understanding of ecosystem states along terrestrial-aquatic interfaces\", submitted to SBB",
+      "Patel et al., \"Transition zones at the changing coastal terrestrial-aquatic interface\" submitted to JGR-B"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a688a033-da45-46ad-b72b-d6fef5139a9c"
+      },
+      "name": "COMPASS-FME",
+      "member": {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Soil sampling was conducted in the coastal regions of Chesapeake and Erie. Soils were sampled from the Erie sites in December 2021 and from MSM and GWI in May 2022 and from GCW in September 2022. Samples were collected across the three transect locations for each site. At each transect location, soil samples were collected from 8-9 spatially distributed, discrete spots over an area of 200-1000 m2, to account for spatial variability. The samples were frozen at -20\u00b0C until they were processed and analyzed.",
+      "For the Chesapeake samples, DNA extractions were conducted using an automated liquid handler (epMotion 5075, Eppendorf North America). Zymobiomics 96 MagBead DNA kit (Zymo Research Corporation, CA). This was followed with a DNA cleaning and concentrating step using the ZR-96 Genomic DNA Clean & Concentrator-5 Kit (Zymo Research Corporation, CA). For the Erie samples, the Zymobiomics 96 Magbead DNA isolation kit failed to generate appreciable DNA yield. Hence a Zymo soil fecal DNA isolation kit (Zymo Research Corporation, CA) was used as per the manufacturer\u2019s protocol. A total of 118 soil extractions were completed for Chesapeake and 87 from Erie.",
+      "DNA quantification was completed using a Qubit HS DNA assay. Amplicon DNA concentration assay was performed in duplicate (Chesapeake) or triplicate (Erie) on each sample using the Quant-iT PicoGreen dsDNA assay kit.",
+      "For the Chesapeake samples, amplicon sequencing was conducted targeting the V4 region of the 16S rRNA gene. For the Erie samples, amplicon sequencing was conducted similarly to the Chesapeake samples with slight changes to the PCR reaction composition. A negative PCR reagent control was included for both sets of samples.",
+      "Sequence data were analyzed using QIIME2. Raw fastq files were imported into QIIME2 using a virtual environment created in the COMPASS High-Performance computing cluster.",
+      "Full sampling and laboratory processing information can be found in Bandopadhyay et al. (2025) and Patel et al. (2025)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 33145.865234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-25878bc98aba6c7-20250926T221330501",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-25878bc98aba6c7-20250926T221330501",
+        "name": "icr_long_all_samples.csv"
+      },
+      {
+        "contentSize": 22725.876953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-06f90408335dddf-20250926T221330506",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-06f90408335dddf-20250926T221330506",
+        "name": "otu_table_dn_99.txt"
+      },
+      {
+        "contentSize": 39029.1708984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2211b2417b7fa8a-20250926T221330489",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2211b2417b7fa8a-20250926T221330489",
+        "name": "FTICR_MS_raw_1.csv"
+      },
+      {
+        "contentSize": 15.216796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-23e6a036c3d698e-20250926T221330510",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-23e6a036c3d698e-20250926T221330510",
+        "name": "sample_metadata_cb_wle.csv"
+      },
+      {
+        "contentSize": 7.1015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-17e3d4cf5f7327b-20250926T221330491",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-17e3d4cf5f7327b-20250926T221330491",
+        "name": "FTICR_MS_raw_2_dd.csv"
+      },
+      {
+        "contentSize": 0.7783203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-137ace47a948f5a-20250926T221330509",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-137ace47a948f5a-20250926T221330509",
+        "name": "sample_metadata_cb_wle_dd.csv"
+      },
+      {
+        "contentSize": 1.0380859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ea9c4468b24ae8f-20250926T221330503",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ea9c4468b24ae8f-20250926T221330503",
+        "name": "icr_meta_dd.csv"
+      },
+      {
+        "contentSize": 13673.3857421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-67e7790d49b6a71-20250926T221330507",
+        "encodingFormat": "application/x-fasta",
+        "identifier": "ess-dive-67e7790d49b6a71-20250926T221330507",
+        "name": "rep_seqs_dn_99.fasta"
+      },
+      {
+        "contentSize": 13.2900390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ecfa2de64ddc26-20250926T221330487",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5ecfa2de64ddc26-20250926T221330487",
+        "name": "FTICR_MS_raw_1_dd.csv"
+      },
+      {
+        "contentSize": 13915.041015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7d0833d6252b6df-20250926T221330492",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7d0833d6252b6df-20250926T221330492",
+        "name": "FTICR_MS_raw_2.csv"
+      },
+      {
+        "contentSize": 4.22265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-77f72370ace0207-20250926T221330495",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-77f72370ace0207-20250926T221330495",
+        "name": "FTICR_MS_raw_3_dd.csv"
+      },
+      {
+        "contentSize": 2086.6650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8b6e3c3e74a2849-20250926T221330504",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8b6e3c3e74a2849-20250926T221330504",
+        "name": "icr_meta.csv"
+      },
+      {
+        "contentSize": 11.830078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8eb061d1b2d4974-20251003T164202839",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-8eb061d1b2d4974-20251003T164202839",
+        "name": "ess_dive_amplicon_sequencing_metadata.xlsx"
+      },
+      {
+        "contentSize": 1.025390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a861738bc8a17c0-20250926T221330498",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a861738bc8a17c0-20250926T221330498",
+        "name": "icr_long_all_samples_dd.csv"
+      },
+      {
+        "contentSize": 3.087890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9bb64aff5497c17-20251003T163519631",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9bb64aff5497c17-20251003T163519631",
+        "name": "ess_dive_amplicon_bioinformatic_metadata.csv"
+      },
+      {
+        "contentSize": 19.6640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9bc90875de2423c-20251003T165341775",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-9bc90875de2423c-20251003T165341775",
+        "name": "Data_for_Bandopadhyay_et_al_Soil_microbial.xml"
+      },
+      {
+        "contentSize": 2.830078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9e9a49e6c0aeee1-20251003T163633630",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9e9a49e6c0aeee1-20251003T163633630",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 7693.15234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c1732969429a089-20250926T221330497",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c1732969429a089-20250926T221330497",
+        "name": "FTICR_MS_raw_3.csv"
+      },
+      {
+        "contentSize": 2.875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c4e9ebf9c010690-20251003T163519625",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c4e9ebf9c010690-20251003T163519625",
+        "name": "ess_dive_amplicon_sequencing_metadata.csv"
+      },
+      {
+        "contentSize": 11.0927734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f925a31ad4c119b-20251003T163519629",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-f925a31ad4c119b-20251003T163519629",
+        "name": "ess_dive_amplicon_bioinformatic_metadata.xlsx"
+      }
+    ]
+  }
+}

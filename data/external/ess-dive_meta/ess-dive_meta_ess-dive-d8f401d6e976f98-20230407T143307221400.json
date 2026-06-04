@@ -1,0 +1,230 @@
+{
+  "id": "ess-dive-d8f401d6e976f98-20230407T143307221400",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1865732",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-d8f401d6e976f98-20230407T143307221400",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-8e34a999ababf4d-20230407T001644193106",
+  "dateUploaded": "2023-04-07T14:33:08.111Z",
+  "dateModified": "2023-04-07T14:33:11.741Z",
+  "isPublic": true,
+  "citation": "Schwenk J; Rowland J (2022): RiverPIXELS: paired Landsat images and expert-labeled sediment and water pixels for a selection of rivers v1.0. A Global, High-Resolution River Network Model for Improved Flood Risk Prediction. Dataset. doi:10.15485/1865732",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1865732",
+    "name": "RiverPIXELS: paired Landsat images and expert-labeled sediment and water pixels for a selection of rivers v1.0",
+    "description": [
+      "RiverPIXELS contains GeoTIFFs of hand-labeled water and sediment pixels from Landsat images containing rivers. Each of the 104 labeled patches contains 256 x 256 Landsat pixels (30 meter resolution). Our aim in releasing RiverPIXELS is to provide an \"off-the-shelf\" training and testing dataset for building machine-learned models to automatically identify rivers from multispectral imagery. While a number of trained models and/or surface water products already exist, RiverPIXELS aims for pixel-level accuracy in order to precisely identify river boundaries in particular. Our selection of rivers is heavily Arctic, but we include tropical and temperate rivers as well. Patches are provided for the Colville (7), Indigirka (6), Kolyma (4), Ucayali (54), Waitaki (21), and Yana (12) Rivers. For each patch, all surface water pixels are labeled (1) and all in-channel sediment pixels are labeled (2). Sediments not in-channel are considered part of the land (0) class. RiverPIXELS also includes paired surface water data from the Global Surface Water dataset that may be useful as additional features in machine learning models. Each patch therefore contains four aligned GeoTIFFs: labeled, landsat, gswmo, and gswocc."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5803-9686",
+        "givenName": "Jon",
+        "familyName": "Schwenk",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jschwenk@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6308-8976",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "rivers",
+      "training data",
+      "landsat",
+      "sediment",
+      "floodplain"
+    ],
+    "variableMeasured": [
+      "water",
+      "sediment",
+      "water occurrence"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Colville River, Alaska, USA. Arctic river. Landsat path 76, row 11.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 70.245,
+            "longitude": -151.753
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 69.761,
+            "longitude": -150.975
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Indigirka River, Russia. Arctic river. Landsat path 115, row 11.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 70.326,
+            "longitude": 147.015
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.704,
+            "longitude": 147.656
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Kolyma River, Russia. Arctic river. Landsat path 109, row 14.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.834,
+            "longitude": 150.16
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.706,
+            "longitude": 151.015
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Ucayali River, Peru. Landsat path 6, row 66.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -7.852,
+            "longitude": -74.61
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -9.576,
+            "longitude": -74.055
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Waitaki River, New Zealand. Landsat path 74, row 91.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -44.6502,
+            "longitude": 170.433
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -44.9959,
+            "longitude": 171.2103
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Yana River, Russia. Arctic river. Landsat path 122, row 12.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 67.861,
+            "longitude": 135.315
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 67.377,
+            "longitude": 135.854
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100008902",
+        "name": "U.S. DOE > Laboratory Directed Research and Development (LDRD) > Los Alamos National Laboratory"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1991-08-13",
+      "endDate": "2019-03-02",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5803-9686",
+      "givenName": "Jon",
+      "familyName": "Schwenk",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "jschwenk@lanl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "610928ef-8b72-40e3-bea8-f643293366aa"
+      },
+      "name": "A Global, High-Resolution River Network Model for Improved Flood Risk Prediction",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jon",
+        "familyName": "Schwenk",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jschwenk@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The provided \"Methods for the Creation of RiverPIXELS\" document provides detailed information about the generation of the dataset. In brief, we hand-labeled 104 patches of 256 x 256 pixels using a touch-screen and digital pen within QGIS by drawing polygons and polylines around all water and in-channel sediment pixels. We then rasterized these features and combined them with auxiliary data to produce the final labeled patches. We used Google Earth Engine to access Landsat and Global Surface Water data."
+    ],
+    "distribution": [
+      {
+        "contentSize": 9.140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d8f401d6e976f98-20230407T143307221400",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-d8f401d6e976f98-20230407T143307221400",
+        "name": "RiverPIXELS_paired_Landsat_images_and_expert_labeled_sediment_and_water_pixels_for_a_selection_of_rivers_v1_0.xml"
+      },
+      {
+        "contentSize": 336.361328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-677b51d2a499c10-20220317T215700408",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-677b51d2a499c10-20220317T215700408",
+        "name": "Methods_for_the_Creation_of_RiverPIXELS.pdf"
+      },
+      {
+        "contentSize": 90428.9716796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-71681f93c5ba328-20220317T215149533",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-71681f93c5ba328-20220317T215149533",
+        "name": "RiverPIXELS.zip"
+      }
+    ]
+  }
+}

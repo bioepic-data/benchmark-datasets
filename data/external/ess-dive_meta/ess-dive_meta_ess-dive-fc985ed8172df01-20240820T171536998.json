@@ -1,0 +1,234 @@
+{
+  "id": "ess-dive-fc985ed8172df01-20240820T171536998",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1962818",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-fc985ed8172df01-20240820T171536998",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-fc985ed8172df01-20230509T161727126",
+  "dateUploaded": "2024-08-20T17:15:36.931Z",
+  "dateModified": "2024-08-20T17:15:40.323Z",
+  "isPublic": true,
+  "citation": "Son K; Fang Y; Gomez-Velez J D; Chen X (2023): Model Inputs, Outputs, and Scripts associated with: \u201cSpatial microbial respiration variations in the hyporheic zones within the Columbia River Basin\u201d. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1962818",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1962818",
+    "hasPart": [
+      {
+        "@type": "WebPage",
+        "name": "Simplified earlier version of dataset",
+        "url": "https://doi.org/10.5281/zenodo.6954107"
+      }
+    ],
+    "name": "Model Inputs, Outputs, and Scripts associated with: \u201cSpatial microbial respiration variations in the hyporheic zones within the Columbia River Basin\u201d",
+    "description": [
+      "This data package is associated with the publication \u201cSpatial microbial respiration variations in the hyporheic zones within the Columbia River Basin\u201d published in the Journal of Geophysical Research: Biogeosciences (Son et al. 2022) available at doi: 10.1029/2021JG006654.",
+      "This data package includes the key model inputs/outputs of the river corridor model for the Columbia River Basin (CRB) and the model source codes, which were used in the manuscript. The model is a carbon-nitrogen-coupled river corridor model (RCM), and the model is used to quantify hyporheic zone (HZ) aerobic and anaerobic respiration at the NHDPLUS stream reach scales. The RCM used in this study combines empirical substrate models derived from observations and three microbially driven reactions to compute respiration of the HZ for each National Hydrography Dataset (NHD) reach within the CRB. The reactions in HZs of each NHD reach include anaerobic respiration and two-step anaerobic respiration via denitrification. Our HZ respiration estimates are limited to the lotic (or flowing) stream/river systems, and do not account for the respiration process in water column. Note that the RCM only simulates the HZ\u2019s contribution to the dissolved carbon dioxide (CO2) concentrations in the streams, and the CO2 emissions to the atmosphere are not modelled. The model computes at hourly timesteps because of the fast reaction rates. The key input data of the model are exchange flux, residence time, and stream solute (dissolved organic carbon (DOC), dissolved oxygen (DO), and nitrate concentrations). These inputs are constant over time and represent long-term averaged values.",
+      "This modeling framework successfully quantified HZ respiration components over multiple scales. It revealed key mechanisms driving the spatial variation of HZ aerobic and anaerobic respiration in reaches with varying hydrologic and substrate conditions. Thus, this modeling study offers a testing hypothesis in different river system (e.g., climate and biomes) for the HZ respiration processes, and can be used as a sampling design tool for large-scale HZ experimental studies.",
+      "This dataset contains five folders: (1) model_inputs, (2) model_outputs, (3) Rscripts, (4) figures, and (5) model_codes. It also contains a readme, file level metadata (FLMD), and data dictionary (dd). Please see the FLMD for a list of all the files contained in this data package and descriptions for each. The model_inputs folder contains the model inputs used to drive the model simulations. The model_outputs folder contains key model output files from the river corridor model. The Rscripts folder contains the Rscripts for pre- and post- processing model results. The figures folder contains the raw figures associated with the manuscript. The model_codes folder includes key model source codes/input files. All files are .jpg, .jpeg, .out, .e, .od, .dat, .sub, .F90, .0, .R, .sbx, .cpg, .sbn, .shx, .shp, .dbf, .prj, .tfw, .tif, .xml, .pdf, or .csv."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0288-6522",
+        "givenName": "Kyongho",
+        "familyName": "Son",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "kyongho.son@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1969-9889",
+        "givenName": "Yilin",
+        "familyName": "Fang",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "yilin.fang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8045-5926",
+        "givenName": "Jesus D.",
+        "familyName": "Gomez-Velez",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "gomezvelezjd@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1928-5555",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Xingyuan.Chen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "River corridor model",
+      "Hyporheic zone",
+      "Aerobic respiration",
+      "Anaerobic respiration",
+      "CRB",
+      "Watershed",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Stream dissolved organic carbon (mg/l)",
+      "Stream nitrate (mg/l)",
+      "Stream dissolved oxygen (mg/l)",
+      "Hyporheic exchange flux (log10, m/s)",
+      "Residence time (log10, second)",
+      "Aerobic respiration(log10, gC/m2/day)",
+      "Anaerobic respiration(log10, gC/m2/day)",
+      "Total respiration (log10,gC/m2/day)",
+      "Aerobic respiration with spring substrate inputs (log10, gC/m2/day)",
+      "Anaerobic respiration with spring substrate inputs (log10, gC/m2/day)",
+      "Total respiration with spring substrate inputs (log10, gC/m2/day)",
+      "Aerobic respiration with summer substrate inputs (log10, gC/m2/day)",
+      "Anaerobic respiration with summer substrate inputs (log10, gC/m2/day)",
+      "Aerobic respiration with increasing DOC concentration inputs (25,50 and 100%) (log10, gC/m2/day)",
+      "Anaerobic respiration with increasing DOC concentration inputs (25,50 and 100%) (log10, gC/m2/day)",
+      "Anaerobic respiration with increasing nitrate concentration inputs (25,50 and 100%) (log10, gC/m2/day)",
+      "Aerobic respiration with decreasing DO concentration inputs (25 and 50%) (log10, gC/m2/day)",
+      "Anaerobic respiration with decreasing DO concentration inputs (25 and 50%) (log10, gC/m2/day)",
+      "Anaerobic respiration with maximum DOC concentration inputs (log10, gC/m2/day)",
+      "Aerobic respiration with maximum DO concentration inputs (log10, gC/m2/day)",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > GASES > DISSOLVED OXYGEN"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Columbia River Basin, WA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 48.99,
+            "longitude": -124.08
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.13,
+            "longitude": -109.76
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0288-6522",
+      "givenName": "Kyongho",
+      "familyName": "Son",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "kyongho.son@pnnl.gov"
+    },
+    "citation": [
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. doi: 10.15485/1866026",
+      "Son, K., Fang, Y., Gomez-Velez, J. D., Chen, X. (2022). Spatial microbial respiration variations in the hyporheic zones within the Columbia River Basin. Journal of Geophysical Research: Biogeosciences, 127, e2021JG006654. doi: 10.1029/2021JG006654",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. doi:10.15485/1734841",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. doi:10.15485/1734840",
+      "Schwarz, G. E., Jackson, S. E., & Wieczorek, M. E. (2018). Select attributes for NHDPlus version 2.1 reach catchments and modified network routed upstream watersheds for the conterminous United States. United States Geol. Surv.",
+      "National Hydrography Dataset PLUS (NHDPLUS v2) (https://nhdplus.com/NHDPlus/)",
+      "Wise, D. R. (2019). Spatially referenced models of streamflow and nitrogen, phosphorus, and suspended-sediment loads in streams of the Pacificregion of the United States. Scientific Investigations Report \u2013 US Geological Survey (2019-5112). doi: 10.3133/sir20195112",
+      "PRISM Climate Group, Oregon State University, https://prism.oregonstate.edu",
+      "Dewitz, J., 2019, National Land Cover Database (NLCD) 2016 Products: U.S. Geological Survey data release,\u00a0doi: 10.5066/P96HHBIE.",
+      "U.S. Geological Survey, 2021, National Water Information System data available on the World Wide Web (USGS Water Data for the Nation), accessed [December 31, 2021], at https://waterdata.usgs.gov/nwis/"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The data includes the key model inputs/outputs of the river corridor model for the Columbia River Basin (CRB), and the model simulate the long-term averaged (mean annual) hyporheic zone aerobic and anaerobic respiration at the NHDPLUS stream reach scale. The model outputs were post-processed using the Rscripts, provided in the Rscripts.zip file. See additional detail about methods in the associated manuscript."
+    ],
+    "distribution": [
+      {
+        "contentSize": 4.7412109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0ced1afcc9e8628-20230310T195554988",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0ced1afcc9e8628-20230310T195554988",
+        "name": "respiration_dd.csv"
+      },
+      {
+        "contentSize": 16.25,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31acf95d31e9a7c-20230310T201632215",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-31acf95d31e9a7c-20230310T201632215",
+        "name": "Rscripts.zip"
+      },
+      {
+        "contentSize": 205855.9384765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ef92031cc1bc9c5-20230310T201704004",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ef92031cc1bc9c5-20230310T201704004",
+        "name": "model_inputs.zip"
+      },
+      {
+        "contentSize": 6832.98828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-582e030dfed8b65-20230310T201603800",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-582e030dfed8b65-20230310T201603800",
+        "name": "model_codes.zip"
+      },
+      {
+        "contentSize": 720007.8369140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-93ce701e0726f59-20230310T202438239",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-93ce701e0726f59-20230310T202438239",
+        "name": "model_outputs.zip"
+      },
+      {
+        "contentSize": 3212.095703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c5b1305418282ac-20230310T195554977",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-c5b1305418282ac-20230310T195554977",
+        "name": "readme_Respiration_Son_2022.pdf"
+      },
+      {
+        "contentSize": 18521.83203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cc61118ac577500-20230310T201510547",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-cc61118ac577500-20230310T201510547",
+        "name": "figures.zip"
+      },
+      {
+        "contentSize": 13.7958984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fc985ed8172df01-20240820T171536998",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-fc985ed8172df01-20240820T171536998",
+        "name": "Model_Inputs_Outputs_and_Scripts_associated.xml"
+      },
+      {
+        "contentSize": 18.9462890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e304faa58178093-20230310T195554991",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e304faa58178093-20230310T195554991",
+        "name": "respiration_flmd.csv"
+      }
+    ]
+  }
+}

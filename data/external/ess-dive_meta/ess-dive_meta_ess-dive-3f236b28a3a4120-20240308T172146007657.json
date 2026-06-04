@@ -1,0 +1,485 @@
+{
+  "id": "ess-dive-3f236b28a3a4120-20240308T172146007657",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2316038",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-3f236b28a3a4120-20240308T172146007657",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-1c25f69cb3384a5-20240308T170945949341",
+  "dateUploaded": "2024-03-09T01:21:47.149Z",
+  "dateModified": "2024-03-23T00:29:09.830Z",
+  "isPublic": true,
+  "citation": "Dafflon B; Shirley I; Peterson J; Uhlemann S; Ulrich C; Biraud S (2024): Surface elevation, snow depth, vegetation height, and color imagery from multiple UAV surveys from 2018 to 2023 across a watershed near Teller road mile marker 27, Seward Peninsula, Alaska. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2316038",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2316038",
+    "name": "Surface elevation, snow depth, vegetation height, and color imagery from multiple UAV surveys from 2018 to 2023 across a watershed near Teller road mile marker 27, Seward Peninsula, Alaska",
+    "description": [
+      "Multiple photogrammetric surveys using an unoccupied aerial system (UAS) were performed across a watershed along Teller road on the Seward Peninsula (Alaska) to investigate terrain, vegetation and snowpack properties. This work was led by the environmental geophysics team from Lawrence Berkeley National Laboratory as part of the Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic). The multiple photogrammetric surveys used mostly a DJI Matrice 210 UAS with a DJI X5S camera, Ground Control Points (GCPs) surveyed with a Real Time Kinematic (RTK)-GPS, and a structure from motion (SfM) technique for photogrammetric reconstruction. Digital Surface elevation Models (DSMs) were inferred at various times of year, including near peak in plant and leaf density (July 19 2017), close to peak in snow depth (April 1 2019 and April 11 2022), and at low plant and leaf density of tall after the first bare-ground date (June 9 2019). Snow and canopy height were obtained by subtracting DSMs from a Digital Terrain Model (DTM) proxy inferred from the June 9 2019 survey. The derived products include ortho-mosaiced RGB map, DSMs, a DTM proxy, snow depth (April 2019 and 2022) and canopy height (July 2017). Unprocessed and processed data products are included in this package (processing levels 0-2). Data and metadata are provided as text (*.csv), image (*.jpg), and GeoTiff (*.tif) formats. This metadata document contains a description of the survey and processing steps and the inferred products.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic) was a 15-year research effort (2012-2027) to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy\u2019s Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy\u2019s Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "NGEE record_id \u2013 NGA510"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9871-5650",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bdafflon@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2229-1414",
+        "givenName": "Ian",
+        "familyName": "Shirley",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ishirley@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Peterson",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jepeterson@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sebastian",
+        "familyName": "Uhlemann",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "suhlemann@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Craig",
+        "familyName": "Ulrich",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "culrich@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sebastien",
+        "familyName": "Biraud",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "scbiraud@lbl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "Earth Sciences",
+      "ESS-DIVE Unoccupied Aerial Systems (UAS) Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE",
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND",
+      "EARTH SCIENCE > LAND SURFACE > LANDSCAPE",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE > SNOW DEPTH",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CANOPY CHARACTERISTICS",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION > DIGITAL ELEVATION/TERRAIN MODEL (DEM)"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The surveyed area is associated with a watershed near Teller road mile marker 27, Seward Peninsula, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.7409051,
+            "longitude": -165.9761242
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.7279885,
+            "longitude": -165.9421977
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02- 05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2017-07-19",
+      "endDate": "2023-05-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9871-5650",
+      "givenName": "Baptiste",
+      "familyName": "Dafflon",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "bdafflon@lbl.gov"
+    },
+    "citation": [
+      "Shirley, I., Uhlemann, S., Peterson, J., Bennett, K., Hubbard, S. S., and Dafflon, B.: Disentangling the effect of geomorphological features and tall shrubs on snow depth variation in a sub-Arctic watershed using UAV derived products, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2023-968, 2023."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Data acquisition, processing and accuracy\nSurface elevation models were inferred at various times of year, including near peak in plant and leaf density (July 19 2017), close to peak in snow depth (April 1 2019 and April 11 2022), and at low plant and leaf density after the first bare-ground date (June 9 2019). The surveys covered ~1.7 km2 out of the 2.2 km2 watershed with missing areas located along the edges of the watershed. Each survey consisted in 7-10 UAS flights at an elevation between 70 and 100 m above ground surface, providing imagery with a ground resolution in the order of 2 to 5 cm. The GCPs involved approximately 50 targets deployed at each acquisition time, surveyed with a Real Time Kinematic (RTK)-GPS, and used with the UAV-based imagery to generate surface elevation models with 10 cm grid cell size. The photogrammetric reconstructions have been done using a structure-from-motion-based reconstruction software (Agisoft Metashape). The processing has been done following Agisoft Metashape guidelines, and the workflow documentation provided in Over et al., 2021. One step that has been crucial to ensure accurate results is that after an initial \u201calignment\u201d of the pictures using their low-accuracy coordinates from the UAS-camera and picking the high-accuracy GCPs, the \u201calignment\u201d was performed again after unchecking the \u201csource\u201d option (i.e. not considering the UAV picture coordinates anymore) and using only the RTK-surveyed GCPs. It enabled better results than keeping the UAV-camera coordinates, even if those were assigned a high uncertainty.\nThe surveyed area and the number of GCPs is variable. In general, GCPs have been distributed across the surveyed domain in a relatively similar pattern for each survey, though the winter surveys cover a smaller area than the snow-free surveys. The file named GCP_coverage.pdf shows how the GCP are distributed for each acquisition date, as well as the area used for analysis in Shirley et al. (2024). The domain outside the Shirley et al. (2024) studied area (named \u201cbig area\u201d in the pdf document) is expected to be more prone to error as it gets closer to the perimeter of the GCP locations and surveyed area.\nSnow and canopy height were obtained by subtracting DSMs from a Digital Terrain Model (DTM) proxy. The DTM proxy was generated from the June 9 2019 DSM by keeping and interpolating only the grid cells with values that were less than 0.5 m higher than the minimum value in a centered 5 m side window. This approach aimed at removing grid cells that were linked to the presence of willow branches and/or early leaves, with the caveat of slightly smoothing the elevation change at geomorphological features boundaries. Vegetation height and snow depth products were obtained by subtracting the terrain elevation proxy from the other surface elevation models.\nThe comparison of the generated products with RTK-GPS measurement along several transects is discussed in Shirley et al. (2024). In particular, UAV derived products were compared with ground measurements of surface elevation, snow depth, and vegetation height collected using RTK-GPS and snow probe measurements along several transects in the watershed. Please note that snow probe measurements have limited reliability due to either over-probing (into the litter layer or even the soil if it is soft) or under-probing (due to frozen moss or surface ice). Additionally, vegetation height measurements performed with a probe are subject to interpretation of the location of the top of the canopy that may differ significantly from person to person and from the structure-from-motion reconstruction. In spite of these strong limitations, we found strong agreement between the UAV derived products and the ground measurements. The RMSE of the UAV derived ground surface elevation compared to the RTK-GPS measurements is 17 cm, the RMSE of the UAV derived snow surface elevation compared to RTK-GPS plus snow probe measurements is 18 cm for the April 2019 dataset, and the RMSE of the UAV derived snow depths compared to the snow probe measurements is 16 cm for the April 2019 dataset. The snow surface elevation inaccuracy is higher in April 2022 than in April 2019 (based on Agisoft: xy and z error equal to 5.25 and 1.06 cm in April 2019, vs 119.82 and 12.81 cm in April 2022). In April 2022, the RTK-GPS base station tripod did sink/tilt in the snow over a few days, and the base station OPUS corrected coordinates was not obtained for each single day (due to data saving issues on the base station). It involved some inaccuracy in the survey of the GCPs coordinates, that resulted in inaccuracies in the snow surface elevation product. Still, this inaccuracy is believed to be of limited impact on the snow depth estimation because of the smoothed changes in elevation across the domain present in winter. Additional comparison between the snow thickness inferred in April 2022 and other independent datasets (LiDAR and DTP data) will be presented in Chen et al. (in prep).\nWe consider the overall quality of the entire dataset to be high, although we expect that the largest errors are located along the edge of terraces, which are smoothed in the terrain proxy, and at a few locations in dense willow patches where the DTM proxy remains too high. While discrepancies exist between the UAV and GPS products regarding plant height, in general the mean shrub height in each patch is similar for both the UAV product and the ground measurements. Also, we expect that the vegetation height product is primarily associated with tall shrubs while dwarf shrub height (0 to 20 cm high) cannot be precisely estimated due to the limitation in estimating ground surface elevation in this vegetation type. Finally, it is to note that although the above approach used to infer a DTM proxy (and associated snow depth and vegetation height) has been quite effective at this site, its transferability to other sites is strongly dependent on canopy structure at the time of acquisition.\nThe final coordinate system that is used for the various products is NAD83(2011) UTM N3, and NAVD88 Geoid12A for vertical information. And this coordinate system is also used as the reference for the GCP surveys. Note that the reconstructions in Agisoft were performed using GCPs in lat/lon coordinate system and with ellipsoid height (which implied a ~5.97 m upward shift (NAVD88 to WGS transform)), and then exported using NAD83 UTM Zone 3N with ellipsoid height. We then converted the elevation to NAVD88 Geoid12A (negative shift of ~ 5.97 m). Exception was for the 2022April dataset that was processed with elevation in NAD83(2011) ellipsoid height which implied a 5.26 m offset (back and forth). See csv files with GCP coordinates for more information.\nData product types and processing levels\nAll the dataset, with the exception of July 17 2017, have been acquired with a DJI Matrice 210. The survey on July 17 2017 was acquired using an DJI Inspire 1. Although unique values for flight height and forward and side overlap are provided below, those vary during each acquisition. The slope angle in the watershed varies between 0 and 10o, and each flight in the watershed involves moving upslope past the last acquired flight line and using that location as the next take-off location. The UAS is set to fly at a constant height above the take-off locations and thus the distance to the terrain varies during the acquisition, as well as the picture overlaps. The Agisoft Metashape reports provide some indications of the variability in picture coverage.\nDetails on the acquisition, processing steps and products are provided in the archived files based on the guidelines provided by the ESS-DIVE Unoccupied Aerial System (UAS) data and metadata reporting format (Reporting format development v3.1.0, 26 September 2023)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 4.00390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-23235c59d3e6425-20240301T004010356",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-23235c59d3e6425-20240301T004010356",
+        "name": "2019AprilGCPs.csv"
+      },
+      {
+        "contentSize": 5.400390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1dca8a48fb88980-20240301T004010426",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1dca8a48fb88980-20240301T004010426",
+        "name": "2019JuneGCPs.csv"
+      },
+      {
+        "contentSize": 14911141.571289062,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-036514c56521399-20240308T140638823987",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-036514c56521399-20240308T140638823987",
+        "name": "2019april_Pics_notused.zip"
+      },
+      {
+        "contentSize": 325725.8740234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-04a9d88fcd25501-20240222T201756959",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-04a9d88fcd25501-20240222T201756959",
+        "name": "2019April_Ortho.tif"
+      },
+      {
+        "contentSize": 0.08984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-20ed603ecc98375-20240301T003833821",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-20ed603ecc98375-20240301T003833821",
+        "name": "2_PlatformDescription_2017.csv"
+      },
+      {
+        "contentSize": 34586747.736328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-135dd87bb859ff3-20240308T134104700678",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-135dd87bb859ff3-20240308T134104700678",
+        "name": "2017july_Pics.zip"
+      },
+      {
+        "contentSize": 122.9423828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-13c1880de09656a-20240221T172119351",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-13c1880de09656a-20240221T172119351",
+        "name": "Data_description_BD.pdf"
+      },
+      {
+        "contentSize": 25.47265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3f236b28a3a4120-20240308T172146007657",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-3f236b28a3a4120-20240308T172146007657",
+        "name": "Surface_elevation_snow_depth_vegetation_height_and_color_imagery_from_multiple_UAV_surveys_from_2018_to_2023_across_a_watershed_near_Teller_road_mile_marker_27_Seward_Peninsula_Alaska.xml"
+      },
+      {
+        "contentSize": 712897.5087890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-40b51789a965597-20240222T201757018",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-40b51789a965597-20240222T201757018",
+        "name": "2022April_DSM.tif"
+      },
+      {
+        "contentSize": 780600.2998046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-43a71de19a5e422-20240222T201756980",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-43a71de19a5e422-20240222T201756980",
+        "name": "2019June_DSM.tif"
+      },
+      {
+        "contentSize": 1021181.7431640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-447c883ea566068-20240222T201756915",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-447c883ea566068-20240222T201756915",
+        "name": "2017July_DSM.tif"
+      },
+      {
+        "contentSize": 8150.986328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2ed6794a8db5988-20240222T210327934",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-2ed6794a8db5988-20240222T210327934",
+        "name": "2017july_AGIrep.pdf"
+      },
+      {
+        "contentSize": 3.2470703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-29775c1fd1690f6-20240301T004010390",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-29775c1fd1690f6-20240301T004010390",
+        "name": "2017JulyGCPs.csv"
+      },
+      {
+        "contentSize": 2.060546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d2d5939b8d6b7e3-20240222T210304836",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-d2d5939b8d6b7e3-20240222T210304836",
+        "name": "2019April_CGPexpfromAGI.txt"
+      },
+      {
+        "contentSize": 0.4462890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d305d8072c4c411-20240301T003833797",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d305d8072c4c411-20240301T003833797",
+        "name": "1_CampaignSummary.csv"
+      },
+      {
+        "contentSize": 171.9599609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d94123f0f38b5a6-20240222T210304860",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-d94123f0f38b5a6-20240222T210304860",
+        "name": "2019June_CameraexpfromAGI.txt"
+      },
+      {
+        "contentSize": 2.8671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-da41d82771e011b-20240222T210304872",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-da41d82771e011b-20240222T210304872",
+        "name": "2019June_CGPexpfromAGI.txt"
+      },
+      {
+        "contentSize": 259.228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dba9663d3922c26-20240222T210304823",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-dba9663d3922c26-20240222T210304823",
+        "name": "2019April_CameraexpfromAGI.txt"
+      },
+      {
+        "contentSize": 10.89453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cfc6e49d5c0a293-20240301T202929241",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cfc6e49d5c0a293-20240301T202929241",
+        "name": "Files_Teller_BD_flmd.csv"
+      },
+      {
+        "contentSize": 747926.8876953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e0806eef9fdf3bd-20240222T201757045",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-e0806eef9fdf3bd-20240222T201757045",
+        "name": "2022April_SnowDepth.tif"
+      },
+      {
+        "contentSize": 0.2607421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-edb51ca7a0ff846-20240301T003833727",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-edb51ca7a0ff846-20240301T003833727",
+        "name": "3_FlightDetail_2019june.csv"
+      },
+      {
+        "contentSize": 4.173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f02e874e026b5e9-20240301T004010451",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f02e874e026b5e9-20240301T004010451",
+        "name": "2022AprilGCPs.csv"
+      },
+      {
+        "contentSize": 259.0751953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3344df53789898b-20240222T210304906",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-3344df53789898b-20240222T210304906",
+        "name": "April2022_CameraexpfromAGI.txt"
+      },
+      {
+        "contentSize": 14912111.262695312,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6a56f7eb3f9be65-20240308T141825721391",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6a56f7eb3f9be65-20240308T141825721391",
+        "name": "2019april_Pics.zip"
+      },
+      {
+        "contentSize": 1167802.6650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-52e0958be534d38-20240222T201756931",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-52e0958be534d38-20240222T201756931",
+        "name": "2017July_Ortho.tif"
+      },
+      {
+        "contentSize": 3687.8486328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4b670ed08244b8b-20240222T210327945",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-4b670ed08244b8b-20240222T210327945",
+        "name": "2019april_AGIrep.pdf"
+      },
+      {
+        "contentSize": 7287.9609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4cb56b38155ce5f-20240222T210327957",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-4cb56b38155ce5f-20240222T210327957",
+        "name": "2019june_AGIrep.pdf"
+      },
+      {
+        "contentSize": 1351.859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6583d70c1d073b6-20240222T210327971",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-6583d70c1d073b6-20240222T210327971",
+        "name": "2022april_AGIrep.pdf"
+      },
+      {
+        "contentSize": 844373.2333984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-65b266da0075541-20240222T201756941",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-65b266da0075541-20240222T201756941",
+        "name": "2017July_ShrubHeight.tif"
+      },
+      {
+        "contentSize": 20089027.536132812,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-67b584b46ea05ba-20240308T165427672895",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-67b584b46ea05ba-20240308T165427672895",
+        "name": "2019june_Pics.zip"
+      },
+      {
+        "contentSize": 604916.3291015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7b444084a184633-20240222T201756950",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-7b444084a184633-20240222T201756950",
+        "name": "2019April_DSM.tif"
+      },
+      {
+        "contentSize": 0.259765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-827eb6df3e39ddb-20240301T003833751",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-827eb6df3e39ddb-20240301T003833751",
+        "name": "3_FlightDetail_2017july.csv"
+      },
+      {
+        "contentSize": 537.7158203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8825cd8f78171a3-20240215T154417486",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-8825cd8f78171a3-20240215T154417486",
+        "name": "GCP_coverage.pdf"
+      },
+      {
+        "contentSize": 0.26171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6cef60574da9685-20240301T003833775",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6cef60574da9685-20240301T003833775",
+        "name": "3_FlightDetail_2019april.csv"
+      },
+      {
+        "contentSize": 29907653.240234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7203c60b1be4160-20240308T165510358414",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7203c60b1be4160-20240308T165510358414",
+        "name": "2022april_Pics.zip"
+      },
+      {
+        "contentSize": 2.4755859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8dd80df2705818b-20240222T210304916",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-8dd80df2705818b-20240222T210304916",
+        "name": "April2022_CGPexpfromAGI.txt"
+      },
+      {
+        "contentSize": 417747.5126953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a8d58818d1a733f-20240222T201757031",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-a8d58818d1a733f-20240222T201757031",
+        "name": "2022April_Ortho.tif"
+      },
+      {
+        "contentSize": 20119820.8046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9ba419d45b548b0-20240308T171150386369",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9ba419d45b548b0-20240308T171150386369",
+        "name": "2019june_Pics_notused.zip"
+      },
+      {
+        "contentSize": 0.314453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b57097809726976-20240301T003833888",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b57097809726976-20240301T003833888",
+        "name": "4_Sensor_rgb_2019onward.csv"
+      },
+      {
+        "contentSize": 0.26171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bc75b93b65e2040-20240301T003833701",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bc75b93b65e2040-20240301T003833701",
+        "name": "3_FlightDetail_2022april.csv"
+      },
+      {
+        "contentSize": 3.13671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b81792111ce30c9-20240301T003833673",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b81792111ce30c9-20240301T003833673",
+        "name": "UAS_CSV_dd.csv"
+      },
+      {
+        "contentSize": 1231505.8017578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ce8d66b04058c69-20240222T201756991",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-ce8d66b04058c69-20240222T201756991",
+        "name": "2019June_DTMproxy.tif"
+      },
+      {
+        "contentSize": 0.0947265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f47ec0053d36c30-20240301T003833842",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f47ec0053d36c30-20240301T003833842",
+        "name": "2_PlatformDescription_2019onward.csv"
+      },
+      {
+        "contentSize": 600448.6904296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f5fe16defc7cd92-20240222T201756970",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-f5fe16defc7cd92-20240222T201756970",
+        "name": "2019April_SnowDepth.tif"
+      },
+      {
+        "contentSize": 0.306640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f6d8122a19d28c9-20240301T003833866",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f6d8122a19d28c9-20240301T003833866",
+        "name": "4_Sensor_rgb_2017.csv"
+      },
+      {
+        "contentSize": 306.7568359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f8fd931a96c2fb6-20240222T210304790",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-f8fd931a96c2fb6-20240222T210304790",
+        "name": "2017july_CameraexpfromAGI.txt"
+      },
+      {
+        "contentSize": 972623.8115234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e4313d2e842a22b-20240222T201757004",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-e4313d2e842a22b-20240222T201757004",
+        "name": "2019June_Ortho.tif"
+      },
+      {
+        "contentSize": 1.9404296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e60546642160b65-20240222T210304803",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-e60546642160b65-20240222T210304803",
+        "name": "2017July_CGPexpfromAGI.txt"
+      }
+    ]
+  }
+}

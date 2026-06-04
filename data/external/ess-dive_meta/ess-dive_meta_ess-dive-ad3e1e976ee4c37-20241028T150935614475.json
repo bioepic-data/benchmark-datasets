@@ -1,0 +1,146 @@
+{
+  "id": "ess-dive-ad3e1e976ee4c37-20241028T150935614475",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15486/NGT/1771850",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-ad3e1e976ee4c37-20241028T150935614475",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-31b3839dc66c158-20240913T174852145378",
+  "dateUploaded": "2024-10-28T15:09:39.853Z",
+  "dateModified": "2024-10-28T22:45:55.024Z",
+  "isPublic": true,
+  "citation": "Faybishenko B; Paton S (2021): PA-BCI Meteorological dataset 1985-2018. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15486/NGT/1771850",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15486/NGT/1771850",
+    "name": "PA-BCI Meteorological dataset 1985-2018",
+    "description": [
+      "This data package contains a QA/QC-ed meteorological time series dataset from 1985 to 2018, including relative humidity, temperature, solar radiation, rainfall, wind speed, and barometric pressure at Barro Colorado Island (PA-BCI) in Panama. The data were collected at the elevations of 42 m and 48 m at the BCI Lutz station, except for rainfall that was collected at the BCI Clearing station at the elevation of 1 m. Individual time series datasets were collected using electro-mechanical (electronic sensors, data loggers, chart recorders, etc.). The rainfall dataset was collected using the tipping bucket method, and the data could have been underestimated by 13-17% (likely the large values). The data is included as a single CSV file.",
+      "This dataset was originally published on the NGEE Tropics Archive and is being mirrored on ESS-DIVE for long-term archival"
+    ],
+    "alternateName": [
+      "http://dx.doi.org/10.15486/ngt/1771850",
+      "NGT0167"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-0085-8499",
+        "givenName": "Boris",
+        "familyName": "Faybishenko",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bafaybishenko@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Steve",
+        "familyName": "Paton",
+        "affiliation": "Smithsonian Tropical Research Institution",
+        "email": "patons@si.edu"
+      }
+    ],
+    "datePublished": "2021-03-20",
+    "keywords": [
+      "Next-Generation Ecosystem Experiements Tropics",
+      "NGEE-T",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Air Temperature",
+      "Barometric pressure",
+      "Precipitation (rainfall)",
+      "Relative humidity",
+      "Solar Radiation",
+      "Wind speed/direction"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site Name: Barro Colorado Island (BCI). Site ID: PA-BCI. Located in Panama. Barro Colorado Island (BCI) is a humid tropical forest with high biodiversity, around 300 species in 50 ha. The climate has a sever dty season from and of December to end of April. Several decidous species drop their leaves during this period. Lianas are very abundant in this forest accounting up to 30% of leaf area. (AMERIFLUX)Barro Colorado Island (BCI), a 1,560-hectare island, is STRI's primary site for the study of lowland moist tropical forests. Together with five adjacent peninsulas, BCI forms the 5,600-hectare Barro Colorado Nature Monument (BCNM), which is located in the middle of the Panama Canal. Established in April 17, 1923, BCNM and has been administered by the Smithsonian since 1946 (STRI CTFS). For more information on this site, visit: http://fluxnet.ornl.gov/site/4247, http://ameriflux-data.lbl.gov:8080/SitePages/siteInfo.aspx?PA-Bar,http://biogeodb.stri.si.edu/physical_monitoring/research/barrocolorado Site contact(s): (Joseph Wright <wrightj@si.edu>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 9.177125,
+            "longitude": -79.87
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 9.130659,
+            "longitude": -79.82
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "Smithsonian Tropical Research Institute"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1985-01-01",
+      "endDate": "2018-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "http://orcid.org/0000-0003-0085-8499",
+      "givenName": "Boris",
+      "familyName": "Faybishenko",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "bafaybishenko@lbl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The initial QA/QC was provided by Steve Paton of STRI. The final QA/QC was conducted at LBNL, using the outliers detection and removal, and gap filling using statistical methods, with the application the R codes. The description of the statistical methods is given in the archived dataset NGT0062."
+    ],
+    "distribution": [
+      {
+        "contentSize": 12847.810546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e76b248e48eba3b-20220608T192405297150",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e76b248e48eba3b-20220608T192405297150",
+        "name": "BCI_1985_2018c_mod_2018substituted_20210129025453.csv"
+      },
+      {
+        "contentSize": 6.935546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ad3e1e976ee4c37-20241028T150935614475",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-ad3e1e976ee4c37-20241028T150935614475",
+        "name": "PA_BCI_Meteorological_dataset_1985_2018.xml"
+      },
+      {
+        "contentSize": 1.240234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-393b69f356cd2f6-20240913T174849731597",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-393b69f356cd2f6-20240913T174849731597",
+        "name": "NGT0167_locations.csv"
+      }
+    ]
+  }
+}

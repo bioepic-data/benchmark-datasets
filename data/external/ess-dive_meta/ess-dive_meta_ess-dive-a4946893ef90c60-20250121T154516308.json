@@ -1,0 +1,146 @@
+{
+  "id": "ess-dive-a4946893ef90c60-20250121T154516308",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2222681",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a4946893ef90c60-20250121T154516308",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-e2974582dba19a4-20231127T174106018",
+  "dateUploaded": "2025-01-21T15:45:16.911Z",
+  "dateModified": "2025-01-27T17:11:17.978Z",
+  "isPublic": true,
+  "citation": "Slosson J; Larsen I; Winnick M; Marmolejo-Coss\u00edo J (2023): Solute chemistry for streams draining geomorphic features and varying land cover gradients in the East River watershed, Colorado. Abiotic and Biotic Controls on Chemical Weathering Rates and Solute Generation. Dataset. doi:10.15485/2222681",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2222681",
+    "name": "Solute chemistry for streams draining geomorphic features and varying land cover gradients in the East River watershed, Colorado",
+    "description": [
+      "This dataset contains solute chemistry data and GPS coordinates for surface water samples collected in the East River watershed in the Elk and West Elk Ranges of Colorado from August 3rd through August 11th, 2022. Samples were collected from streams and groundwater seeps as part of a comprehensive analysis within the watershed of how different geomorphic features (such as landslides and rock glaciers) along with variations in land cover (such as the presence of vegetation) affect stream water quality in this Rocky Mountain headwater environment. This dataset includes concentrations of the following in a single csv file: fluoride, chloride, sulfate, nitrate, calcium, potassium, magnesium, sodium, silicon, and total organic carbon (TOC). All concentrations are reported in mg/L. The sulfate data in this version have been updated to account for an earlier ion chromatograph instrument method error whereby sulfate and bromide peaks overlapped in calibration solution samples, biasing calculated sulfate concentrations low by 30-50%. Sulfate data reported herein are from a re-run of the samples performed in December 2024 using a corrected instrument method. All samples were stored under refrigerated conditions and filtered on initial collection."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9643-4046",
+        "givenName": "John",
+        "familyName": "Slosson",
+        "email": "jr.slosson@oswego.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3094-4830",
+        "givenName": "Isaac",
+        "familyName": "Larsen",
+        "email": "ilarsen@umass.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4237-9402",
+        "givenName": "Matthew",
+        "familyName": "Winnick",
+        "email": "mwinnick@umass.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jos\u00e9",
+        "familyName": "Marmolejo-Coss\u00edo",
+        "email": "jmarmolejo@umass.edu"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER CHEMISTRY"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Samples collected from tributaries of the East River in the Elk and West Elk Mountains of Colorado",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.02273586,
+            "longitude": -107.0642587
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.85516955,
+            "longitude": -106.91415122
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0020354"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-08-03",
+      "endDate": "2022-08-11",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9643-4046",
+      "givenName": "John",
+      "familyName": "Slosson",
+      "email": "jr.slosson@oswego.edu"
+    },
+    "citation": [
+      "Slosson, J., Larsen, I., Winnick, M., Marmolejo, J., & Williams, K. (2023) Variations in chemical weathering and solute generation from geomorphic features and land cover gradients in Rocky Mountain watersheds, in prep."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a8e351bf-65eb-463c-986e-f019c93edbd2"
+      },
+      "name": "Abiotic and Biotic Controls on Chemical Weathering Rates and Solute Generation",
+      "member": {
+        "@type": "Person",
+        "givenName": "Isaac",
+        "familyName": "Larsen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of Massachusetts Amherst, Amherst, MA",
+        "email": "ilarsen@umass.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Surface water samples from active stream channels and groundwater seeps collected from five primary locations in the East River watershed: Rustler Gulch, Washington Gulch, Copper Creek, Coal Creek, and Snodgrass Mountain.",
+      "Sample locations recorded using a BadElf Flex.",
+      "All samples filtered in the field using 0.2 \u00b5m polyethersulfone (PES) syringe filters.",
+      "Anion and cation samples transported and stored in 15 mL centrifuge tubes. Cation samples acidified with nitric acid prior to transport from Colorado.",
+      "Anion concentrations measured at the University of Massachusetts at Amherst using a Dionex Integrion HPIC ion chromatograph.",
+      "Cation and silicon concentrations measured at the University of Massachusetts at Amherst using an Agilent 5110 ICP-OES.",
+      "Dissolved organic carbon samples were transported and stored in 40 mL amber glass vials and analyzed at University of Massachusetts at Amherst using an OI Analytical Aurora 1030."
+    ],
+    "distribution": [
+      {
+        "contentSize": 10.564453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4dbd566d081cf6a-20250121T154411715",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4dbd566d081cf6a-20250121T154411715",
+        "name": "East_River_chemistry_data.csv"
+      },
+      {
+        "contentSize": 7.3076171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a4946893ef90c60-20250121T154516308",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-a4946893ef90c60-20250121T154516308",
+        "name": "Solute_chemistry_for_streams_draining_geomorphic.xml"
+      }
+    ]
+  }
+}

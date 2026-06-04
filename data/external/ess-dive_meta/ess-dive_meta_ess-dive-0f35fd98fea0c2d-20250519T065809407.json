@@ -1,0 +1,175 @@
+{
+  "id": "ess-dive-0f35fd98fea0c2d-20250519T065809407",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2566876",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-0f35fd98fea0c2d-20250519T065809407",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-862bd8dbd60abea-20250516T152325483",
+  "dateUploaded": "2025-05-19T06:58:11.496Z",
+  "dateModified": "2025-08-27T00:05:26.622Z",
+  "isPublic": true,
+  "citation": "Dafflon B; Peterson J (2025): Stream bed topography in 2016 at the Lower Montane site in the East River Watershed, Colorado. Watershed Function SFA. Dataset. doi:10.15485/2566876",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2566876",
+    "name": "Stream bed topography in 2016 at the Lower Montane site in the East River Watershed, Colorado",
+    "description": [
+      "This dataset contains stream bed topography data from the Lower Montane site in the East River Watershed, Colorado. It is intended to support hydro-biogeochemical analyses for the Watershed Function Scientific Focus Area (SFA). The stream bed was surveyed using a RTK-GPS (Real-Time Kinematic Global Positioning System) and a total station at hundreds of locations during two field campaigns, conducted in October 2015 and October 2016. The two surveys were merged into a single product under the assumption of minimal changes in stream bed topography between the years. A LiDAR (Light Detection and Ranging) derived ground surface elevation product from 2015 (see reference below) was used to interpolate the stream bed topography and estimate water depth at the time of the LiDAR survey. The dataset includes three GeoTIFF products, two *.csv data files, and three *.csv metadata files. Feel free to contact the author with any questions."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9871-5650",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bdafflon@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Peterson",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jepeterson@lbl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > OCEANS > BATHYMETRY/SEAFLOOR TOPOGRAPHY",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > OCEANS > BATHYMETRY/SEAFLOOR TOPOGRAPHY > WATER DEPTH",
+      "EARTH SCIENCE > OCEANS > BATHYMETRY/SEAFLOOR TOPOGRAPHY > BATHYMETRY",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION > BED ELEVATION"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory and SLAC Accelerator Laboratory's Watershed Function Scientific Focus Area (WFSFA). This portion of the ER watershed contains the project-defined boundaries of East River, Washington Gulch, Slate River, and Coal Creek, as described in the location metadata. Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. This data package contains geographic metadata for specific observation points throughout the watershed. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2025) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.033,
+            "longitude": -107.12
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.82,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0205CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2015-10-15",
+      "endDate": "2016-10-15",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9871-5650",
+      "givenName": "Baptiste",
+      "familyName": "Dafflon",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "bdafflon@lbl.gov"
+    },
+    "citation": [
+      "Wainwright H ; Williams K (2017): LiDAR collection in August 2015 over the East River Watershed, Colorado, USA. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.21952/WTR/1412542",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Boye K ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Perzan Z ; Pierce S ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Thibaut R ; Tokunaga T ; Versteeg R ; Wielandt S ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2025): Location Identifiers, Metadata, and Map for Field Measurements at the East-Taylor Watershed Community Observatory, Colorado, USA (Version 3.2). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The two *.csv data files were used to create interpolated products of stream bed topography. These products were merged with the LiDAR dataset (see reference), which provides ground surface elevation where no surface water is present and water surface elevation where surface water is present. This merging allowed the inference of water depth at the time of the LiDAR flight and the generation of a spatially continuous product of stream bed and ground surface elevation. Feel free to contact the author with any questions or collaboration interests."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-60edfccdae11809-20250516T130137204",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-60edfccdae11809-20250516T130137204",
+        "name": "flmd.csv",
+        "contentSize": 1.009765625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9a8c9bba685dc2d-20250516T130137188",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-9a8c9bba685dc2d-20250516T130137188",
+        "name": "BedTopo.tif",
+        "contentSize": 11162.224609375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9ee980e553d07ec-20250516T130137208",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9ee980e553d07ec-20250516T130137208",
+        "name": "StreamBed_Delineation.csv",
+        "contentSize": 11.1533203125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c1e5c50e011a33e-20250516T130137199",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-c1e5c50e011a33e-20250516T130137199",
+        "name": "BedTopoAndLidar.tif",
+        "contentSize": 17320.173828125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7b39c35ad9e98f7-20250516T130137213",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7b39c35ad9e98f7-20250516T130137213",
+        "name": "StreamBed_Elevation.csv",
+        "contentSize": 46.58203125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8621c21a7430615-20250519T065805985",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8621c21a7430615-20250519T065805985",
+        "name": "StreamBed_Elevation_dd.csv",
+        "contentSize": 0.3046875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-025422514b2b790-20250516T130137219",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-025422514b2b790-20250516T130137219",
+        "name": "WaterDepth.tif",
+        "contentSize": 11162.220703125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fcf002c89803a78-20250519T065805977",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fcf002c89803a78-20250519T065805977",
+        "name": "StreamBed_Delineation_dd.csv",
+        "contentSize": 0.1865234375
+      }
+    ]
+  }
+}

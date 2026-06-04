@@ -1,0 +1,397 @@
+{
+  "id": "ess-dive-faddc80b70ba01b-20230925T175833681",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1845448",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-faddc80b70ba01b-20230925T175833681",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-3862a1dd854e42b-20230407T143148495728",
+  "dateUploaded": "2023-09-25T17:58:34.897Z",
+  "dateModified": "2023-09-25T17:58:36.397Z",
+  "isPublic": true,
+  "citation": "Rudisill W; Vincent A; Nash C; Flores A (2022): Dynamically Downscaled (WRF) 1km, Hourly Meteorological Conditions 1987-2020. East/Taylor Watersheds. Science Area 1: Standard Award: Model-Data Fusion to Examine Multiscale Dynamical Controls on Snow Cover and Critical Zone Moisture Inputs. Dataset. doi:10.15485/1845448",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1845448",
+    "name": "Dynamically Downscaled (WRF) 1km, Hourly Meteorological Conditions 1987-2020. East/Taylor Watersheds",
+    "description": [
+      "This dataset contains meteorological output from the Weather Research and Forecasting (WRF) version 3.8.1. This dataset has been created to 1) investigate hydrometeorological processes impacting the East River and water-delivery to the Critical Zone, and 2) provide meteorological forcing data for distributed Earth-science modeling applications in the East River watershed.",
+      "Variables have a 1 kilometer spatial resolution and hourly temporal resolution and encompass a rectangular region encompassing the East and Taylor River watersheds, Colorado, near the town of Crested Butte. WRF was forced using Climate Forecast System Reanalysis (CFSR) lateral boundary conditions. Each .zip file contains one \"water year\" of data (October 1 -- September 30; i.e. water year 2017 starts October 1, 2016 and ends September 30, 2017). Each zip folder contains 12 netcdf (.nc) files containing one month of hourly data each and are approximately 250mb. Model timestamps are in UTC time.",
+      "The files contain the following data variables:",
+      "EAST_MASK: binary mask of the watershed region",
+      "TAYLOR_MASK: binary mask of the watershed region",
+      "GLW downwelling longwave radiation (w/m2)",
+      "HR_PRCP: Hourly Precipitation Rate (mm/hr). Includes all hydrometeors (solid+liquid).",
+      "HFX NoahMP LSM total grid-cell modelled sensible heat flux (w/m2) [positive towards atmosphere]",
+      "LH NoahMP LSM total grid-cell modelled latent heat flux (w/m2) [positive towards atmosphere; can be converted to ET]",
+      "PSFC Surface Barometric Pressure (hPa)",
+      "Q2 Two-meter specific humidity (kg/kg)",
+      "SWDOWN Downwelling shortwave solar radiation (w/m2)",
+      "SWNORM Terrain-normal downwelling shortwave radiation (w/m2)",
+      "T2 Two-meter air temperature (deg K)",
+      "U10 10-m U-component of wind velocity (m/s)",
+      "V10 10m V-component of wind velocity (m/s)",
+      "XLAT Latitude of grid-center point",
+      "XLONG Longitude of grid-center point",
+      "XTIME Model timestamp, **in UTC**"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7293-3561",
+        "givenName": "William",
+        "familyName": "Rudisill",
+        "affiliation": "Boise State University",
+        "email": "williamrudisill@u.boisestate.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Allison",
+        "familyName": "Vincent",
+        "affiliation": "Boise State University",
+        "email": "allisonvincent@u.boisestate.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Caroline",
+        "familyName": "Nash",
+        "affiliation": "Boise State University",
+        "email": "csnash@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alejandro",
+        "familyName": "Flores",
+        "affiliation": "Boise State University",
+        "email": "lejoflores@boisestate.edu"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "METEOROLOGY",
+      "HYDROLOGY",
+      "ATMOSPHERE"
+    ],
+    "variableMeasured": [
+      "Sensible Heat Flux",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > TOTAL SURFACE PRECIPITATION RATE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > SPECIFIC HUMIDITY",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > ATMOSPHERIC PRESSURE MEASUREMENTS",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > LONGWAVE RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SHORTWAVE RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR PROCESSES > EVAPOTRANSPIRATION > EFFECTIVE EVAPOTRANSPIRATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > U/V WIND COMPONENTS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "East and Taylor River Watersheds, Coloado, USA. The datasets encompass a rectangular box surrounding the watersheds. Grid cells are 1km dx/dy.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.1467,
+            "longitude": -107.195
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.4906,
+            "longitude": -106.226
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1986-10-01",
+      "endDate": "2020-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7293-3561",
+      "givenName": "William",
+      "familyName": "Rudisill",
+      "affiliation": "Boise State University",
+      "email": "williamrudisill@u.boisestate.edu"
+    },
+    "citation": [
+      "Rudisill, W., A. Flores, and R. Carroll, 2023: Evaluating three decades of precipitation in the Upper Colorado River Basin from a high-resolution regional climate model. Geoscientific Model Development Discussions, https://doi.org/10.5194/gmd-2023-69."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "26ae12e7-2816-4b31-be58-ad461f2c77ce"
+      },
+      "name": "Science Area 1: Standard Award: Model-Data Fusion to Examine Multiscale Dynamical Controls on Snow Cover and Critical Zone Moisture Inputs",
+      "member": {
+        "@type": "Person",
+        "givenName": "Alejandro",
+        "familyName": "Flores",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Boise State University, Boise, ID",
+        "email": "lejoflores@boisestate.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Data were produced using WRF (https://www.mmm.ucar.edu/weather-research-and-forecasting-model) version 3.8.1. The model is initialized was two weeks prior to the start of each water year and run non-consecutively for water-years 1987-2020. Raw model output variables are post-processed and subset to the region East/Taylor river watershed. The model files contain one month of data each, with hourly timesteps. Files are \"netcdf\" format. Data processing was performed using \"xarray\" (https://xarray.pydata.org/en/stable/). No bias corrections or modifications have been made to the output fields -- these are 'raw' model outputs. Additional details of the model configuration and validation will be provided in an upcoming publication."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1936910.1259765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-27d167f4af100a8-20220201T220207078692",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-27d167f4af100a8-20220201T220207078692",
+        "name": "WY2006.zip"
+      },
+      {
+        "contentSize": 1945067.57421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-14a666742a29b67-20220201T222803043399",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-14a666742a29b67-20220201T222803043399",
+        "name": "WY2017.zip"
+      },
+      {
+        "contentSize": 1939722.056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-14b392b5f86498e-20220201T214921994017",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-14b392b5f86498e-20220201T214921994017",
+        "name": "WY2009.zip"
+      },
+      {
+        "contentSize": 1929281.1064453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-05f07a6db84b112-20220201T210523233072",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-05f07a6db84b112-20220201T210523233072",
+        "name": "WY1989.zip"
+      },
+      {
+        "contentSize": 1941193.4296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0620121bc2246bf-20220201T212529836700",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-0620121bc2246bf-20220201T212529836700",
+        "name": "WY2004.zip"
+      },
+      {
+        "contentSize": 1939093.8291015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-200767a16a0efea-20220201T211624388926",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-200767a16a0efea-20220201T211624388926",
+        "name": "WY1992.zip"
+      },
+      {
+        "contentSize": 1929199.796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2fd872f6daf3a05-20220201T220759206963",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2fd872f6daf3a05-20220201T220759206963",
+        "name": "WY2000.zip"
+      },
+      {
+        "contentSize": 1917599.87109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2c878398e199f5d-20220201T223645363338",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2c878398e199f5d-20220201T223645363338",
+        "name": "WY2018.zip"
+      },
+      {
+        "contentSize": 1941106.8984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-39c27f69cc9e518-20220201T215201735908",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-39c27f69cc9e518-20220201T215201735908",
+        "name": "WY2005.zip"
+      },
+      {
+        "contentSize": 1916091.2763671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-291a368645425a0-20220201T214128047253",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-291a368645425a0-20220201T214128047253",
+        "name": "WY2002.zip"
+      },
+      {
+        "contentSize": 1943054.146484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-296a02a687d7e71-20220201T210235666862",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-296a02a687d7e71-20220201T210235666862",
+        "name": "WY1988.zip"
+      },
+      {
+        "contentSize": 1931094.796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2a074437379e14b-20220201T223117117834",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2a074437379e14b-20220201T223117117834",
+        "name": "WY2012.zip"
+      },
+      {
+        "contentSize": 1945262.111328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d368d40e4b44a1e-20220201T224234913261",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d368d40e4b44a1e-20220201T224234913261",
+        "name": "WY2016.zip"
+      },
+      {
+        "contentSize": 1939061.8515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d3c572ce3543c19-20220201T212828113971",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d3c572ce3543c19-20220201T212828113971",
+        "name": "WY1998.zip"
+      },
+      {
+        "contentSize": 1938420.1044921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dac36f889b52b5b-20220201T214639085203",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dac36f889b52b5b-20220201T214639085203",
+        "name": "WY1996.zip"
+      },
+      {
+        "contentSize": 1929940.0478515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e6506713b0eb8fd-20220201T213337992475",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-e6506713b0eb8fd-20220201T213337992475",
+        "name": "WY2001.zip"
+      },
+      {
+        "contentSize": 1948099.7783203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4cb79901e8792ce-20220201T223939457747",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4cb79901e8792ce-20220201T223939457747",
+        "name": "WY2011.zip"
+      },
+      {
+        "contentSize": 1932699.333984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-54b050276c6eb55-20220201T211904279179",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-54b050276c6eb55-20220201T211904279179",
+        "name": "WY1994.zip"
+      },
+      {
+        "contentSize": 1948643.470703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7913d7a790abf28-20220201T221937521378",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7913d7a790abf28-20220201T221937521378",
+        "name": "WY2014.zip"
+      },
+      {
+        "contentSize": 1938758.3896484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6e4e6ac528cb0f9-20220201T213618990829",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6e4e6ac528cb0f9-20220201T213618990829",
+        "name": "WY2010.zip"
+      },
+      {
+        "contentSize": 1948802.3154296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7f04a669aaf3577-20220201T213853479783",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7f04a669aaf3577-20220201T213853479783",
+        "name": "WY2008.zip"
+      },
+      {
+        "contentSize": 1940687.2294921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-83964c939079214-20220201T215438801781",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-83964c939079214-20220201T215438801781",
+        "name": "WY2007.zip"
+      },
+      {
+        "contentSize": 1947016.5498046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6cce7df7b9c8b9f-20220201T214403487842",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6cce7df7b9c8b9f-20220201T214403487842",
+        "name": "WY1995.zip"
+      },
+      {
+        "contentSize": 1933732.3212890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a588d35fc49b100-20220201T223403141696",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a588d35fc49b100-20220201T223403141696",
+        "name": "WY2013.zip"
+      },
+      {
+        "contentSize": 1939028.892578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-91b0661e7a1c895-20220201T202444404897",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-91b0661e7a1c895-20220201T202444404897",
+        "name": "WY2020.zip"
+      },
+      {
+        "contentSize": 1927934.94921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-93245c9aa2e63ba-20220201T215706430631",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-93245c9aa2e63ba-20220201T215706430631",
+        "name": "WY2003.zip"
+      },
+      {
+        "contentSize": 1934992.771484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-99328c2154d7b91-20220201T220513314289",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-99328c2154d7b91-20220201T220513314289",
+        "name": "WY1990.zip"
+      },
+      {
+        "contentSize": 1939643.31640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-93fb6e7d7411ee3-20220201T213107717627",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-93fb6e7d7411ee3-20220201T213107717627",
+        "name": "WY1999.zip"
+      },
+      {
+        "contentSize": 1939369.609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bed7ac1cdda8d98-20220120T183630385843",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-bed7ac1cdda8d98-20220120T183630385843",
+        "name": "WY1987.zip"
+      },
+      {
+        "contentSize": 1941113.279296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c8e066fe011710b-20220201T222514696799",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c8e066fe011710b-20220201T222514696799",
+        "name": "WY2015.zip"
+      },
+      {
+        "contentSize": 1941978.13671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c969d5f78846fb7-20220201T211330875053",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c969d5f78846fb7-20220201T211330875053",
+        "name": "WY1991.zip"
+      },
+      {
+        "contentSize": 1952171.97265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ca9b638ab6f0b86-20220201T222232511326",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ca9b638ab6f0b86-20220201T222232511326",
+        "name": "WY2019.zip"
+      },
+      {
+        "contentSize": 14.896484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-faddc80b70ba01b-20230925T175833681",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-faddc80b70ba01b-20230925T175833681",
+        "name": "Dynamically_Downscaled_WRF_1km_Hourly.xml"
+      },
+      {
+        "contentSize": 1950317.89453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f882cfafc37816f-20220201T212125289542",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f882cfafc37816f-20220201T212125289542",
+        "name": "WY1997.zip"
+      },
+      {
+        "contentSize": 1940040.6650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dcbe6228577342c-20220201T215936029962",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dcbe6228577342c-20220201T215936029962",
+        "name": "WY1993.zip"
+      }
+    ]
+  }
+}

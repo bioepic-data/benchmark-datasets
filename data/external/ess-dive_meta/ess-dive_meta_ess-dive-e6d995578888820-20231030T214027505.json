@@ -1,0 +1,465 @@
+{
+  "id": "ess-dive-e6d995578888820-20231030T214027505",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2204419",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-e6d995578888820-20231030T214027505",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-5226ed794f83917-20231027T145416091",
+  "dateUploaded": "2023-10-30T21:40:27.644Z",
+  "dateModified": "2023-11-03T00:00:48.089Z",
+  "isPublic": true,
+  "citation": "Douglas M; Blankenship R; Chadwick A; Dunne K; Fischer W; Geyman E; Ke Y; Kemeny P; Li G; Magyar J; Mutter E; Nghiem J; Piliouras A; Reahl J; Rowland J; Schwenk J; Seelen E; Smith M I; West A J; Lamb M (2023): Geomorphic mapping and permafrost occurrence on the Koyukuk River floodplain near Huslia, Alaska. Incorporating the Hydrological Controls on Carbon Cycling in Floodplain Ecosystems into Earth System Models (ESMs). Dataset. doi:10.15485/2204419",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2204419",
+    "name": "Geomorphic mapping and permafrost occurrence on the Koyukuk River floodplain near Huslia, Alaska",
+    "description": [
+      "Permafrost occurrence measured in-situ and geomorphic maps drawn by hand using high-resolution satellite imagery for the Koyukuk River floodplain near Huslia, Alaska. The dataset was collected to characterize permafrost extent and rates of formation and degradation due to river processes and climate change. Permafrost occurrence and thickness of the active layer was measured using a 1 or 2 m long permafrost probe or through direct observation (coring, digging trench, exposed ice). Measurements were from June 27 - July 8, 2018 and September 26 - October 1, 2022 and are saved as a csv file. Geomorphic maps delineate floodplain landforms, the relative age of floodplain deposits, and prior paths of the river produced by connecting oxbow lakes. Maps are saved as georeferenced shapefiles that can be imported into QGIS or ArcGIS software."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0762-4719",
+        "givenName": "Madison",
+        "familyName": "Douglas",
+        "affiliation": "California Institute of Technology",
+        "email": "madisond@mit.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0006-9538-9582",
+        "givenName": "Rain",
+        "familyName": "Blankenship",
+        "affiliation": "University of Southern California",
+        "email": "rblanken@usc.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2552-0083",
+        "givenName": "Austin",
+        "familyName": "Chadwick",
+        "affiliation": "California Institute of Technology",
+        "email": "achadwick@ldeo.columbia.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0995-7629",
+        "givenName": "Kieran",
+        "familyName": "Dunne",
+        "affiliation": "California Institute of Technology",
+        "email": "kdunne@caltech.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8836-3054",
+        "givenName": "Woodward",
+        "familyName": "Fischer",
+        "affiliation": "California Institute of Technology",
+        "email": "wfischer@caltech.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4349-9350",
+        "givenName": "Emily",
+        "familyName": "Geyman",
+        "affiliation": "California Institute of Technology",
+        "email": "egeyman@caltech.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9098-9419",
+        "givenName": "Yutian",
+        "familyName": "Ke",
+        "affiliation": "California Institute of Technology",
+        "email": "yutianke@caltech.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1693-4142",
+        "givenName": "Preston",
+        "familyName": "Kemeny",
+        "affiliation": "California Institute of Technology",
+        "email": "pkemeny@uchicago.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6300-3570",
+        "givenName": "Gen",
+        "familyName": "Li",
+        "affiliation": "California Institute of Technology",
+        "email": "ligen@ucsb.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3586-8286",
+        "givenName": "John",
+        "familyName": "Magyar",
+        "affiliation": "California Institute of Technology",
+        "email": "jmagyar@caltech.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1681-8080",
+        "givenName": "Edda",
+        "familyName": "Mutter",
+        "affiliation": "Yukon River Inter-tribal Watershed Council",
+        "email": "emutter@yritwc.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2772-9945",
+        "givenName": "Justin",
+        "familyName": "Nghiem",
+        "affiliation": "California Institute of Technology",
+        "email": "jnghiem@caltech.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6336-0762",
+        "givenName": "Anastasia",
+        "familyName": "Piliouras",
+        "affiliation": "Pennsylvania State University",
+        "email": "apiliouras@psu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5544-2138",
+        "givenName": "Jocelyn",
+        "familyName": "Reahl",
+        "affiliation": "California Institute of Technology",
+        "email": "jreahl@caltech.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6308-8976",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5803-9686",
+        "givenName": "Jon",
+        "familyName": "Schwenk",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jschwenk@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3782-9341",
+        "givenName": "Emily",
+        "familyName": "Seelen",
+        "affiliation": "University of Southern California",
+        "email": "seelen@usc.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0002-9170-7222",
+        "givenName": "M. Isabel",
+        "familyName": "Smith",
+        "affiliation": "University of Southern California",
+        "email": "smithmi@usc.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6909-1471",
+        "givenName": "A. Joshua",
+        "familyName": "West",
+        "affiliation": "University of Southern California",
+        "email": "joshwest@usc.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5701-0504",
+        "givenName": "Michael",
+        "familyName": "Lamb",
+        "affiliation": "California Institute of Technology",
+        "email": "mpl@caltech.edu"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND > PERMAFROST",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > FLOOD PLAIN",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > MEANDER"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Floodplain of the Koyukuk River near Huslia, AK",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.815,
+            "longitude": -156.694
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.558,
+            "longitude": -156.13
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000001",
+        "name": "National Science Foundation (NSF)"
+      },
+      {
+        "@type": "Organization",
+        "name": "Resnick Sustainability Institute, California Institute of Technology"
+      },
+      {
+        "@type": "Organization",
+        "name": "U.S. DOD > National Defense Science and Engineering Graduate Fellowship"
+      },
+      {
+        "@type": "Organization",
+        "name": "Fannie and John Hertz Foundation"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-06-27",
+      "endDate": "2022-10-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0762-4719",
+      "givenName": "Madison",
+      "familyName": "Douglas",
+      "affiliation": "California Institute of Technology",
+      "email": "madisond@mit.edu"
+    },
+    "citation": [
+      "Madison M. Douglas, Gen K. Li, A. Joshua West, Yutian Ke, Joel C. Rowland, Nathan Brown, Jon Schwenk, Preston C. Kemeny, Anastasia Piliouras, Woodward W. Fischer, Michael P. Lamb. Slow permafrost formation in a meandering river floodplain. In review."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "94e43119-7657-42ce-9428-6caf40c35493"
+      },
+      "name": "Incorporating the Hydrological Controls on Carbon Cycling in Floodplain Ecosystems into Earth System Models (ESMs)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Geomorphic mapping was done by hand in QGIS 3.4 on Landsat ~30-m and Worldview 2-m imagery. Mapping includes geomorphic landforms visible on the floodplain, the relative age of groups of landforms based on cross-cutting relationships, and inferred prior paths of the river based on the location of oxbow lakes. All datasets are projected in WGS84.",
+      "Permafrost occurrence was measured through probing, coring or digging sampling pits, and direct observation of ground ice in riverbanks. Permafrost probing is capable of detecting ice-cemented sediment that resists penetration, which is characteristic of most permafrost in the floodplain based on observations of cores and pits. The depth of thaw was measured in the vertical direction on the floodplain surface and in the horizontal direction on steep, exposed faces of eroding riverbanks."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.0048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0631038625c7da9-20231027T134228384",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-0631038625c7da9-20231027T134228384",
+        "name": "AnalysisMask.cpg"
+      },
+      {
+        "contentSize": 0.1396484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-17eeb8ff052a9ae-20231027T134252306",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-17eeb8ff052a9ae-20231027T134252306",
+        "name": "RelativeAge.prj"
+      },
+      {
+        "contentSize": 0.10546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3e266d0f8971473-20231027T134228398",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-3e266d0f8971473-20231027T134228398",
+        "name": "AnalysisMask.shx"
+      },
+      {
+        "contentSize": 0.2509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-401e81fa672f766-20231027T134238501",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-401e81fa672f766-20231027T134238501",
+        "name": "KoyukukRiverTrace.qpj"
+      },
+      {
+        "contentSize": 1.5771484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a77487ba54b57b-20231027T134252303",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-3a77487ba54b57b-20231027T134252303",
+        "name": "RelativeAge.dbf"
+      },
+      {
+        "contentSize": 0.0048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d43453fcc86304e-20231027T134252299",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-d43453fcc86304e-20231027T134252299",
+        "name": "RelativeAge.cpg"
+      },
+      {
+        "contentSize": 0.87109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-da78e0bcaf5f93b-20231027T134252316",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-da78e0bcaf5f93b-20231027T134252316",
+        "name": "RelativeAge.shx"
+      },
+      {
+        "contentSize": 5.3525390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d6982d106edcfbf-20231027T145407719",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-d6982d106edcfbf-20231027T145407719",
+        "name": "README.txt"
+      },
+      {
+        "contentSize": 17.2568359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e6d995578888820-20231030T214027505",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-e6d995578888820-20231030T214027505",
+        "name": "Geomorphic_mapping_and_permafrost_occurrence_on.xml"
+      },
+      {
+        "contentSize": 0.384765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ecf45d908d1cf0d-20231027T134228390",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-ecf45d908d1cf0d-20231027T134228390",
+        "name": "AnalysisMask.prj"
+      },
+      {
+        "contentSize": 0.2509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f01180e73633b4c-20231027T134252309",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-f01180e73633b4c-20231027T134252309",
+        "name": "RelativeAge.qpj"
+      },
+      {
+        "contentSize": 0.1396484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5268633f7761ff2-20231027T134306930",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-5268633f7761ff2-20231027T134306930",
+        "name": "GeomorphLandforms.prj"
+      },
+      {
+        "contentSize": 2382.36328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-52ca7505b912a46-20231027T134306936",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-52ca7505b912a46-20231027T134306936",
+        "name": "GeomorphLandforms.shp"
+      },
+      {
+        "contentSize": 0.23046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-604e19154bb69bd-20231027T134228395",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-604e19154bb69bd-20231027T134228395",
+        "name": "AnalysisMask.shp"
+      },
+      {
+        "contentSize": 0.0048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-57474ff4fc0c0ea-20231027T134306922",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-57474ff4fc0c0ea-20231027T134306922",
+        "name": "GeomorphLandforms.cpg"
+      },
+      {
+        "contentSize": 0.0048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-83a7f3d82211d68-20231027T134238492",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-83a7f3d82211d68-20231027T134238492",
+        "name": "KoyukukRiverTrace.cpg"
+      },
+      {
+        "contentSize": 91.8984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-84d4b198599a1b9-20231027T134252312",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-84d4b198599a1b9-20231027T134252312",
+        "name": "RelativeAge.shp"
+      },
+      {
+        "contentSize": 0.794921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8abb2f3af376af5-20231027T134238495",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-8abb2f3af376af5-20231027T134238495",
+        "name": "KoyukukRiverTrace.dbf"
+      },
+      {
+        "contentSize": 43.36328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-71e07371f55e5c2-20231027T134306940",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-71e07371f55e5c2-20231027T134306940",
+        "name": "GeomorphLandforms.shx"
+      },
+      {
+        "contentSize": 0.1396484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9c36c5e980b56f0-20231027T134238498",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-9c36c5e980b56f0-20231027T134238498",
+        "name": "KoyukukRiverTrace.prj"
+      },
+      {
+        "contentSize": 19.8291015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a5bed0577a6a0c6-20231027T134219469",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a5bed0577a6a0c6-20231027T134219469",
+        "name": "PermafrostMeasurements.csv"
+      },
+      {
+        "contentSize": 0.2509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a71d74e44af123f-20231027T134306933",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-a71d74e44af123f-20231027T134306933",
+        "name": "GeomorphLandforms.qpj"
+      },
+      {
+        "contentSize": 0.0751953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-90e9021a972b3b0-20231027T134228388",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-90e9021a972b3b0-20231027T134228388",
+        "name": "AnalysisMask.dbf"
+      },
+      {
+        "contentSize": 0.4189453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-98f2b5c60012e73-20231027T134228392",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-98f2b5c60012e73-20231027T134228392",
+        "name": "AnalysisMask.qpj"
+      },
+      {
+        "contentSize": 129.76171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c8d5ffde162a0b8-20231027T134238505",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-c8d5ffde162a0b8-20231027T134238505",
+        "name": "KoyukukRiverTrace.shp"
+      },
+      {
+        "contentSize": 59.5546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fdec9bcf8237bb0-20231027T134306926",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-fdec9bcf8237bb0-20231027T134306926",
+        "name": "GeomorphLandforms.dbf"
+      },
+      {
+        "contentSize": 0.62890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e4f472e14ae426c-20231027T134238508",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-e4f472e14ae426c-20231027T134238508",
+        "name": "KoyukukRiverTrace.shx"
+      }
+    ]
+  }
+}

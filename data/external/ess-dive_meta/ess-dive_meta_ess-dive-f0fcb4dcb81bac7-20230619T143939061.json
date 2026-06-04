@@ -1,0 +1,170 @@
+{
+  "id": "ess-dive-f0fcb4dcb81bac7-20230619T143939061",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.17603/DS2-0EWQ-K561",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f0fcb4dcb81bac7-20230619T143939061",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-e9143bdc86c0dcc-20230524T174714922",
+  "dateUploaded": "2023-06-19T14:39:40.679Z",
+  "dateModified": "2023-06-22T00:01:11.057Z",
+  "isPublic": true,
+  "citation": "Wang M; Liu Y; Passalacqua P (2023): Height Above Nearest Drainage (HAND) derived Flood Inundation Maps of Southeast Texas. Southeast Texas Urban Integrated Field Laboratory (SETx UIFL) \u2013 Equitable solutions for communities caught between floods and air pollution. Dataset. doi:10.17603/DS2-0EWQ-K561",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.17603/DS2-0EWQ-K561",
+    "name": "Height Above Nearest Drainage (HAND) derived Flood Inundation Maps of Southeast Texas",
+    "description": [
+      "This purpose of this project is to share high-resolution flood inundation maps of past storm events to support planners and the impacted community. These maps are generated with approximate GIS-based methods and should not be considered definitive. This project was originally shared on https://www.designsafe-ci.org/.",
+      "The contents of this data package include three (3) 3x3-meter resolution GeoTIFF rasters of flood inundation for three (3) different storm events in Southeast Texas (Ike, Harvey & Imelda). These rasters are saved in BigTIFF format and range from 3-9 GB in size. They can be accessed with any geographic information system (GIS).",
+      "Riverine flood inundation simulation:",
+      "Please see the associated GitHub repo: https://github.com/markwang0/HAND_SETX/ This project contains three (3) 3x3-meter resolution GeoTIFFs of riverine flood inundation for Hurricane Ike, Hurricane Harvey and Tropical Storm Imelda. Riverine (fluvial) flood inundation was generated with the Height Above Nearest Drainage (HAND) method and flowrates from the National Water Model (NWM). Maximum flowrates from the NWM during each storm event were converted to flood stage with synthetic rating curves, and the flood stage was converted to spatial inundation. The rasters cover the Southeast Texas Counties of Newton, Jasper, Hardin, Orange and Jefferson. The units are meters of inundation above the surface. The projected coordinate reference system EPSG:5070 is used. Please note that only riverine (fluvial) flooding is shown on each raster. Pluvial flooding and storm surge are neglected."
+    ],
+    "alternateName": [
+      "https://doi.org/10.17603/ds2-0ewq-k561"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0663-7980",
+        "givenName": "Mark",
+        "familyName": "Wang",
+        "affiliation": "University of Texas at Austin",
+        "email": "mark.wang@utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2298-4728",
+        "givenName": "Yan",
+        "familyName": "Liu",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "yanliu@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4763-7231",
+        "givenName": "Paola",
+        "familyName": "Passalacqua",
+        "affiliation": "University of Texas at Austin",
+        "email": "paola@austin.utexas.edu"
+      }
+    ],
+    "datePublished": "2023-05-02",
+    "keywords": [
+      "Hurricane Ike",
+      "Hurricane Harvey",
+      "Tropical Storm Imelda",
+      "Riverine",
+      "Fluvial",
+      "Flooding",
+      "HAND",
+      "Height Above Nearest Drainage",
+      "Southeast Texas",
+      "earth science",
+      "cyclone",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS",
+      "EARTH SCIENCE > ATMOSPHERE > WEATHER EVENTS"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > INUNDATION > INUNDATION LEVEL"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Southeast Texas",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 30.08,
+            "longitude": -94.13
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30.08,
+            "longitude": -94.13
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0023216"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2008-09-01",
+      "endDate": "2019-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4763-7231",
+      "givenName": "Paola",
+      "familyName": "Passalacqua",
+      "affiliation": "University of Texas at Austin",
+      "email": "paola@austin.utexas.edu"
+    },
+    "citation": [
+      "Zheng, X., Maidment, D. R., Tarboton, D. G., Liu, Y. Y., and Passalacqua, P. (2018). GeoFlood: Large-scale flood inundation mapping based on high-resolution terrain analysis. Water Resources Research, 54:10,013\u201310,033. https://doi.org/10.1029/2018WR023457"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "20eba4b6-ac19-4616-806a-e253ed67b1af"
+      },
+      "name": "Southeast Texas Urban Integrated Field Laboratory (SETx UIFL) \u2013 Equitable solutions for communities caught between floods and air pollution",
+      "member": {
+        "@type": "Person",
+        "givenName": "Paola",
+        "familyName": "Passalacqua",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "University of Texas at Austin",
+        "email": "paola@austin.utexas.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Please see the associated GitHub repo for a complete description of the methods.\nhttps://github.com/markwang0/HAND_SETX\nIn general:\n1. Obtain Height Above Nearest Drainage (HAND) pre-computed data products. In this application they are hosted on TACC Corral: https://web.corral.tacc.utexas.edu/nfiedata/pin2flood\n2. Run the included scripts to crop the HAND rasters to each individual catchment.\n3. Compute HAND-based flood inundation on each catchment.\n4. Mosaic catchment level rasters back together with e.g. GDAL."
+    ],
+    "distribution": [
+      {
+        "contentSize": 8774988.4609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d589c5fa1caebc2-20230524T155310736",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-d589c5fa1caebc2-20230524T155310736",
+        "name": "harvey_full_mosaic.tif"
+      },
+      {
+        "contentSize": 4334718.50390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4d2031b72b92ff0-20230515T193804116",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-4d2031b72b92ff0-20230515T193804116",
+        "name": "imelda_full_mosaic.tif"
+      },
+      {
+        "contentSize": 2790059.251953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8b184f116cc2ce9-20230515T193804117",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-8b184f116cc2ce9-20230515T193804117",
+        "name": "ike_full_mosaic.tif"
+      },
+      {
+        "contentSize": 7.9755859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f0fcb4dcb81bac7-20230619T143939061",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f0fcb4dcb81bac7-20230619T143939061",
+        "name": "Height_Above_Nearest_Drainage_HAND_derived.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "id": "ess-dive-f59fcd06b86c7c3-20230504T212328445060",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1865730",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f59fcd06b86c7c3-20230504T212328445060",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-1324c0db35a1780-20230407T151737006514",
+  "dateUploaded": "2023-05-04T21:23:29.484Z",
+  "dateModified": "2023-05-04T21:23:31.208Z",
+  "isPublic": true,
+  "citation": "Crystal-Ornelas R; O'Ryan D; Christianson D; Hendrix V C; Agarwal D; Varadharajan C (2022): ESS-DIVE Reporting Format for Location Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). Dataset. doi:10.15485/1865730",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1865730",
+    "name": "ESS-DIVE Reporting Format for Location Metadata",
+    "description": [
+      "The ESS-DIVE location metadata reporting format provides instructions and templates for reporting a minimum set of metadata for discrete point locations in geographic space represented by x, y, and z coordinates. This format was created based on a need for earth and environmental science researchers to more consistently provide metadata about locations where they conduct studies. To create the format, we incorporated elements from ESS-DIVE\u2019s community reporting formats as well as 12 additional data standards or other data resources (e.g., databases, data systems, or repositories). In the template, we ask researchers to indicate unique locations using Location IDs and indicate hierarchies of locations through parent location IDs. We also provide additional optional fields for researchers to indicate how they measured the point location and the date and time that the location was first used as a research site",
+      "This dataset contains support documentation for the reporting format (README.md and instructions.md), a terminology guide (guide.md), a crosswalk indicating how this reporting format relates to existing standards and data resources (Location_metadata_crosswalk.csv), a data dictionary (dd.csv), file-level metadata (flmd.csv), and the location metadata templates in both CSV (Location_metadata_template.csv) and Excel formats (Location_metadata_template.xlsx)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6339-1139",
+        "givenName": "Robert",
+        "familyName": "Crystal-Ornelas",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "rcrystalornelas@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1793-9781",
+        "givenName": "Dylan",
+        "familyName": "O'Ryan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "dporyan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8663-7701",
+        "givenName": "Danielle",
+        "familyName": "Christianson",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "DSChristianson@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9061-8952",
+        "givenName": "Valerie C.",
+        "familyName": "Hendrix",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "vchendrix@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5045-2396",
+        "givenName": "Deb",
+        "familyName": "Agarwal",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "daagarwal@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "Geolocation",
+      "Location",
+      "Geographic region",
+      "Site description"
+    ],
+    "variableMeasured": [
+      "Submission_Contact_Name",
+      "Submission_Contact_Email",
+      "Location_ID",
+      "Description",
+      "Latitude",
+      "Longitude",
+      "Location_Alias",
+      "Parent_Location_ID",
+      "Projection",
+      "Measurement_method",
+      "Elevation",
+      "UTC_Offset",
+      "Location_DateTime_Start",
+      "Institution",
+      "Country",
+      "Notes",
+      "Location_Date_End"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6339-1139",
+      "givenName": "Robert",
+      "familyName": "Crystal-Ornelas",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "rcrystalornelas@lbl.gov"
+    },
+    "citation": [
+      "GitHub repository with the most up-to-date reporting format documentation: https://github.com/ess-dive-community/essdive-location-metadataWebsite with up-to-date reporting format documentation: https://ess-dive.gitbook.io/location-metadata/"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "f5bb4f8b-224d-4d6a-9040-ae5a4a2959e6"
+      },
+      "name": "Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "daagarwal@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The development of the location metadata reporting format was motivated by researchers' need to describe discrete point locations used in various research projects. Because this ESS-DIVE reporting format began after development of 10 other environmental reporting formats, we were able to leverage existing ESS-DIVE metadata recommendations from all relevant reporting formats. We also reviewed and incorporated elements from existing data standards, conventions, and other types of data resources (e.g., Federal Geographic Data Committee, DarwinCore, and the Open Geospatial Consortium's Observation and Measurements standard."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1.056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-266720c0611ef0b-20220615T211307619",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-266720c0611ef0b-20220615T211307619",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 1.79296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2756dc6b85fdb20-20220615T211122280",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-2756dc6b85fdb20-20220615T211122280",
+        "name": "instructions.md"
+      },
+      {
+        "contentSize": 5.5703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3c36cde45197ce1-20220615T211122267",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-3c36cde45197ce1-20220615T211122267",
+        "name": "guide.md"
+      },
+      {
+        "contentSize": 2.001953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e74be979f52b941-20220615T211122310",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-e74be979f52b941-20220615T211122310",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 8.5595703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-750658c5be43353-20220615T211122294",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-750658c5be43353-20220615T211122294",
+        "name": "Location_metadata_crosswalk.csv"
+      },
+      {
+        "contentSize": 5.7861328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-72a756f956272d0-20220615T211122304",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-72a756f956272d0-20220615T211122304",
+        "name": "Location_metadata_template.xlsx"
+      },
+      {
+        "contentSize": 1.8212890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ce008f880f1ff7e-20220615T211307606",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ce008f880f1ff7e-20220615T211307606",
+        "name": "dd.csv"
+      },
+      {
+        "contentSize": 1.21875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c8d4930d660b431-20220615T211122299",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c8d4930d660b431-20220615T211122299",
+        "name": "Location_metadata_template.csv"
+      },
+      {
+        "contentSize": 10.3408203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f59fcd06b86c7c3-20230504T212328445060",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f59fcd06b86c7c3-20230504T212328445060",
+        "name": "ESS_DIVE_Reporting_Format_for_Location_Metadata.xml"
+      }
+    ]
+  }
+}

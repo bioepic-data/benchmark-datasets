@@ -1,0 +1,177 @@
+{
+  "id": "ess-dive-cd6e836210597b4-20230407T144906962589",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1571181",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-cd6e836210597b4-20230407T144906962589",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-72fac6ecc935455-20230406T141338260224",
+  "dateUploaded": "2023-04-07T14:49:08.890Z",
+  "dateModified": "2025-03-21T22:27:01.763Z",
+  "isPublic": true,
+  "citation": "Rowland J; Schwenk J (2019): Global meta-analysis of published river bank erosion and migration rates. Incorporating the Hydrological Controls on Carbon Cycling in Floodplain Ecosystems into Earth System Models (ESMs). Dataset. doi:10.15485/1571181",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1571181",
+    "name": "Global meta-analysis of published river bank erosion and migration rates",
+    "description": [
+      "This dataset is a compilation of 993 measurements of riverbank erosion or migration rates from 336 rivers and streams compiled from 169 published English language studies. The dataset spans rivers across latitudes ranging from 46 deg south to 71 deg north. The rivers range in drainage area from 0.6 to 3 million square kilometers. If provided in a published study, recorded channel width, river drainage area, and sediment load and/or yield were summarized. In the absence of these ancillary data from the original source, this data was compiled from other published studies, global and regional datasets, or measured from Google Earth images. The dataset also provides information on whether the rates were measured at an individual river bend or represent reach-based averages, as well as, whether the river is single or multi-threaded.",
+      "Revisions 2023 January update",
+      "Added 72 new erosion measurements. Dropped 10 records that did not have mean erosion values.",
+      "\u201cDrainageArea(km^2)_rabpro\u201d added",
+      "\u201cDrainageArea(km^2)\u201d \u2013 updated to only include published drainage area and values obtained from sources other than the rabpro analysis.",
+      "\u201cRiver_slope_pub\u201d added to provide river slope values provided in the published erosion study or other source listed in the \u201cSlope Reference\u201d field",
+      "\u201cRiverSlope_Lin\u201d added",
+      "\u201cFLO1K_MonthlyMax_LT\u201d and \u201cFLO1K_MontlyMax_PoR\u201d added",
+      "\u201cKG_Zone\u201d added from K\u00f6ppen-geiger climate classification based on Beck et al. 2018"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6308-8976",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5803-9686",
+        "givenName": "Jonathan",
+        "familyName": "Schwenk",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jschwenk@lanl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Daniel",
+        "familyName": "Ahrens",
+        "affiliation": "University of California Berkeley"
+      }
+    ],
+    "datePublished": "2019-10-15",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > EROSION/SEDIMENTATION",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES",
+      "EARTH SCIENCE > LAND SURFACE > EROSION/SEDIMENTATION",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > EROSION/SEDIMENTATION > EROSION",
+      "EARTH SCIENCE > SOLID EARTH > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > CUTBANK",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > RIVER",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > MEANDER",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL PROCESSES > SEDIMENT TRANSPORT",
+      "EARTH SCIENCE > LAND SURFACE > EROSION/SEDIMENTATION > EROSION",
+      "EARTH SCIENCE > SOLID EARTH > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > CUTBANK",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > RIVER",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > MEANDER",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL PROCESSES > SEDIMENT TRANSPORT"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The dataset covers rivers ranging in latitude from New Zealand (46 degree S) to the high Arctic (70.5) (see GlobalErosionLocations.png). The majority of studies were conducted in the mid-latitudes with a large fraction being conducted in the United States, Cananda, and the United Kingdom. There are few studies in Africa or the Asian Arctic.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 70.5,
+            "longitude": -180
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -46,
+            "longitude": 90
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1005",
+      "endDate": "2016",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6308-8976",
+      "givenName": "Joel",
+      "familyName": "Rowland",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "jrowland@lanl.gov"
+    },
+    "citation": [
+      "Schwenk, J., Zussman, T., Stachelek, J., & Rowland, J. C. (2022). Rabpro: Global Watershed Boundaries, River Elevation Profiles, and Catchment Statistics. Journal of Open Source Software, 7(73), 4237. https://doi.org/10.21105/joss.04237"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "94e43119-7657-42ce-9428-6caf40c35493"
+      },
+      "name": "Incorporating the Hydrological Controls on Carbon Cycling in Floodplain Ecosystems into Earth System Models (ESMs)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This dataset is a compilation of 993 measurements of riverbank erosion or migration rates from 336 rivers and streams compiled from 169 published English language studies. The dataset spans rivers across latitudes ranging from 46 deg south to 71 deg north. The rivers range in drainage area from 0.6 to 3 million square kilometers. If provided in a published study, recorded channel width, river drainage area, and sediment load and/or yield were summarized. In the absence of these ancillary data from the original source, this data was compiled from other published studies, global and regional datasets, or measured from Google Earth images. The dataset also provides information on whether the rates were measured at an individual river bend or represent reach-based averages, as well as, whether the river is single or multi-threaded.\nThe contributing drainage area above each segment was determined using a combination of the HydroBasins level-12 watershed polygons (Lehner & Grill, 2013) and MERIT-Hydro upstream drainage area grid (Yamazaki et al., 2019). There values are reported in the DrainageArea(km^2)_rabpro field.\nIn addition to values reported in the source publications for erosion rates, mean annual water discharge and sediment yields were computed from the global, annual WBMsed estimates of long-term sediment flux (Cohen et al., 2013). Because WBMsed accumulates sediment estimates downstream, the maximum sediment flux pixel, i.e. the most-downstream pixel, was selected within each segment\u2019s drainage basin. The time series of annual water discharge and sediment fluxes at each of these pixels were averaged over the timespan of measured erosion or migration, or between 1980-2010 if the erosion or measured migration occurred outside the 30-year window of WBMsed simulations. Monthly maximum flow values were obtained from the FLO1K dataset (Barbaross et al., 2018). These values were extracted using rabpro (Schwenk et al., 2022) and averaged for both the entire length of the FLO1K dataset (1960-2015) and for the time interval associated with the individual erosion rate measurements.\nRiverSlope_rabpro\u2013 We used rabpro (Schwenk et al., 2022) to map each bank erosion observation to its corresponding flowline in MERIT-Hydro. Slopes were computed as E_u - E_d / (s_d - s_u) for E=elevation, u = upstream, d = downstream, and s = along-channel distance. E_u and E_d are chosen to be the minimum of 10 channel widths upstream and downstream or 10 km (upstream and downstream) of the measurement location. Exceptions were made in cases of slope breaks (e.g. at confluences). This reach-averaged slope accounts for variability and noise in the MERIT-Hydro flowline elevation profile. River slopes were also extracted from the Lin et al. 2020 global data product.\nBarbarossa, V., Huijbregts, M. A. J., Beusen, A. H. W., Beck, H. E., King, H., & Schipper, A. M. (2018). Data Descriptor: FLO1K, global maps of mean, maximum and minimum annual streamflow at 1 km resolution from 1960 through 2015. Scientific Data, 5(February), 180052. https://doi.org/10.1038/sdata.2018.52\nBeck,H. E., Zimmermann, N. E., McVicar, T. R., Vergopolan, N., Berg, A., & Wood, E. F. (2018). Present and future k\u00f6ppen-geiger climate classification maps at 1-km resolution. Scientific Data, 5, 1\u201312. https://doi.org/10.1038/sdata.2018.214\nCohen, S., Kettner, A.J., and Syvitski, J.P.M., 2013, WBMsed , a distributed global-scale riverine sediment flux model\u202f: Model description and validation. Computers & Geosciences, v. 53, p. 80\u201393, doi:10.1016/j.cageo.2011.08.011.\nLehner, B., and Grill, G., 2013, Global river hydrography and network routing: baseline data and new approaches to study the world\u2019s large river systems: Hydrological Processes, v. 27, p. 2171\u20132186, doi:DOI: 10.1002/hyp.9740 Global.\nLin, P., Pan, M., Allen, G. H., de Moraes Frasson, R. P., Zeng, Z., Yamazaki, D., & Wood, E. F. (2020). Global estimates of reach\u2010level bankfull river width leveraging big data geospatial analysis. Geophysical Research Letters, 47, e2019GL086405. https://doi.org/ 10.1029/2019GL086405\nSchwenk, J., et al. \"rabpro: global watershed boundaries, river elevation profiles, and catchment statistics.\" Journal of Open Source Software 7.73 (2022): 4237.\nYamazaki, Dai, et al. \"MERIT Hydro: A high\u2010resolution global hydrography map based on latest topography dataset.\" Water Resources Research 55.6 (2019): 5053-5073.",
+      "List of Fields in data set:\nRiver Name of River\nRiver_ID Name of unique data record, for some rivers multiple erosion rates are reported for which unique locations and ancillary data, such as drainage area, width, or discharge may be available\nLocation State or country of the study site\nLatitude Latitude reported by study or best estimated location based on information supplied in publication\nLongitude Longitude reported by study or best estimated location based on information supplied in publication\nErosion Reference Citation for the published erosion rates\nErosion Rate (m/yr) Linear erosion or migration rate reported in published study\nTotal Erosion Time(yr) Time period over which the erosion rate was measured\nStartYear Beginning year for the eroison rate measurement\nEndYear End year for the eroison rate measurement\nLocalvReach L indiciates that the published erosion rate is based on a study of a small portion of the river, typically an indiidual bank or bend. R indicates the reported rate is the erosion or migration averaged along a reach of river typically including multiple bends or more\nChannel Width (m) Reported or best available estimate for the repersentative channel width in for the location of erosion measurement\nWidth Reference Unless otherwise noted the source of the width is from the primary source listed under \u201cErosion Reference\u201d, Google Earth indicates a representative width was deteremined using the measure tool in Google Earth based on available imagery of the study site\nDrainageArea(km^2)_rabpro Area of the drainage basin upstream of the location of the erosion measurement obtained using rabpro (Schwenk et al. 2022)\nDrainageArea(km^2) Drainage areas reported in the original erosion study or derived from other data sources listed in the Drainage Area Reference column\nDrainage Area Reference Source of the reported drainage area, if not listed, the drainage area was obtained from the study listed for the Erosion Rate - USGS StreamStats plaftorm (https://streamstats.usgs.gov/ss/ ), GRDC values obtained from the closest GRDC gage location (https://www.bafg.de/GRDC/EN/Home/homepage_node.html)\nPlanform(MvsS) \u201cM\u201d = multi-threaded, \u201cS\u201d = single-threaded\nSinuosity Length of the river channel divided by the valley length in the segment of river of the erosion measurements\nRiver_slope_pub River slople reported in the original erosion study or derived from other data sources listed in the Slope Reference column\nSlope Reference Source of the reported river slope, if not listed, the river slope was obtained from the study listed for the Erosion Rate - USGS StreamStats plaftorm (https://streamstats.usgs.gov/ss/ )\nRiverSlope_rabpro River slope of the location of the erosion measurement obtained using rabpro (Schwenk et al. 2022)\nRiverSlope_Lin River slope obtained from the Lin et al (2020) global data product\nPub Mean Annual Q (m3_s) Published values of river discharge from either the source reference for the eroison rate or from another source if listed\nPubQ Reference Unless otherwise noted the source of the width is from the primary source listed under \u201cErosion Reference\u201d\nFLO1K_MonthlyMax_LT FLO1K (Barbarossa et al., 2018) maximum monthly flow for each year averaged for entire time series (1960-2015), values extracted and averaged using rabpro (Schwenk et al., 2022)\nFLO!K_MontlyMax_PoR FLO1K (Barbarossa et al., 2018) maximum monthly flow for each year averaged for the period of record (PoR) for the erosion measurements, values extracted and averaged using rabpro (Schwenk et al., 2022)\nWBMsedMeanAnnualQ_m3_s Mean annual river discharge at the location of the erosion measurement based on the WBMSed model (Cohen et al, 2013) for the time period of the erosion measurement\nSedLoad_T_yr Published values of sediment load from either the source reference for the eroison rate or from another source if listed\nPublished Sed Ref Unless otherwise noted the source of the width is from the primary source listed under \u201cErosion Reference\u201d\nPubSedimentYield T km^-2 Yr-1 Either a publlshed value of sediment or the calculated sediment yield based on published sediment load and drainage area\nSedimentFlux_kg_s The maximum sediment flux pixel, i.e. the most-downstream pixel, each segment\u2019s drainage basin based modeled WBMsed values (Cohen et al., 2013)\nWBMsedSedYield T km^-2 Yr-1 The WBMsed sediment flux, on an annual basis, divided by the contributing drainage area.\nKG_Zone K\u00f6ppen-geiger climate classification based on Beck et al. 2018",
+      "Revisions 2023 update\nAdded 72 new erosion measurements. Dropped 10 records that did not have mean erosion values.\n\u201cDrainageArea(km^2)_rabpro\u201d added\n\u201cDrainageArea(km^2)\u201d \u2013 updated to only include published drainage area and values obtained from sources other than the rabpro analysis.\n\u201cRiver_slope_pub\u201d added to provide river slope values provided in the published erosion study or other source listed in the \u201cSlope Reference\u201d field\n\u201cRiverSlope_Lin\u201d added\n\u201cFLO1K_MonthlyMax_LT\u201d and \u201cFLO1K_MontlyMax_PoR\u201d added\n\u201cKG_Zone\u201d added from K\u00f6ppen-geiger climate classification based on Beck et al. 2018",
+      "Additional Notes:\nBackground image for figure showing measurement locations from Beck et al. 2018\nIn Donovan et al. 2015, locations of erosion measurements were best estimates based on name and figures in the paper to approximately locate.\nIn Langovic 2020, averaged meander rates for each section to get a reach averaged erosion rate.\nFor Bertalan et al. 2021, used only natural or minimally impacted reaches. Erosion rates for individual time periods averaged with time (duration) weighting to get a single erosion rate for the entire period of record. Sediment loads were linearly interpolated from upstream to downstream and converted the volumetric fluxes (m3/yr) to tonnes using a density of 2.2 gm/cm3 for suspended load.\nRates from Langat et al. 2020, were only migration rates from 1975-1986. Dams were constructed in early 1980s and caused a reduction in migration rates."
+    ],
+    "distribution": [
+      {
+        "contentSize": 189.2080078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-136fb7c7f89d214-20230130T234933747",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-136fb7c7f89d214-20230130T234933747",
+        "name": "GlobalErosionMetaAnalysis.csv"
+      },
+      {
+        "contentSize": 39.2646484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2907d36867d4760-20230130T234951620",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2907d36867d4760-20230130T234951620",
+        "name": "ReferencesforGlobalMetaAnalysis.csv"
+      },
+      {
+        "contentSize": 741.5859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-efe2e8e26eff4eb-20230130T235000500",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-efe2e8e26eff4eb-20230130T235000500",
+        "name": "GlobalErosionLocations.jpg"
+      },
+      {
+        "contentSize": 27.1162109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cd6e836210597b4-20230407T144906962589",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-cd6e836210597b4-20230407T144906962589",
+        "name": "Global_meta_analysis_of_published_river_bank_erosion_and_migration_rates.xml"
+      },
+      {
+        "contentSize": 4.451171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fc657ad706d0ae6-20230130T234940842",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fc657ad706d0ae6-20230130T234940842",
+        "name": "KeytoDataFields.csv"
+      }
+    ]
+  }
+}

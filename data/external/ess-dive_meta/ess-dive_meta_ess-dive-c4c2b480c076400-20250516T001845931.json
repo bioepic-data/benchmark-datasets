@@ -1,0 +1,296 @@
+{
+  "id": "ess-dive-c4c2b480c076400-20250516T001845931",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2475020",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-c4c2b480c076400-20250516T001845931",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-c4c2b480c076400-20241205T051453975",
+  "dateUploaded": "2025-05-16T00:18:47.667Z",
+  "dateModified": "2025-05-16T00:18:52.305Z",
+  "isPublic": true,
+  "citation": "Wang C; Dafflon B; Shirley I; Wielandt S; Fiolleau S; Lamb J; Uhlemann S; Ulrich C (2024): Continuous snow depth, ground interface temperature and shallow soil temperature measurements from 2021-10-1 to 2022-6-14, Seward Peninsula, Alaska. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2475020",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2475020",
+    "name": "Continuous snow depth, ground interface temperature and shallow soil temperature measurements from 2021-10-1 to 2022-6-14, Seward Peninsula, Alaska",
+    "description": [
+      "The dataset contains co-located snow depth, ground interface temperature, and shallow soil temperature measured at 98 discrete locations in a watershed located along the Nome-Teller road at mile marker 27 (referred to as T27), and at 53 discrete locations on a hillslope located along the Kougarok road at mile marker 64 (referred to as K64), in Seward Peninsula, Alaska. The dataset aims to understand the local heterogeneity of snow depth, snow temperature, and soil temperature dynamics and their interactions in a discontinuous permafrost region. The dataset is also valuable to train and evaluate machine learning and physical models to predict snow depth or the impact of snow depth on ground surface temperature. At each location, temperatures above and below the ground surface were measured by a pair of vertically deployed distributed temperature profiling probes designed based on Dafflon et al (2022). The probes have high precision temperature sensors spaced at 5 or 10 cm. The mean daily snow depth was estimated by identifying the pair of consecutive sensors with maximum drop of daily temperature high-frequency fluctuations. The ground interface temperature was measured by the sensor located 1-5 cm above the ground surface at 15-minute intervals. The shallow soil temperature was measured by the sensor located 1-5 cm below the ground surface at 15-minute intervals. The dataset includes a description of the probe locations in the \"Probe_locations_*.csv\" file and the 3 data files (Snow_depths_*.csv, Ground_interface_temperatures_*.csv, Shallow_soil_temperatures_*.csv). * is either T27 or K64, which are the two study sites. In each data file, each column corresponds to a measurement location. Metadata files include data descriptions (_dd.csv) for tabular data. All included files are listed and described in xxxx_flmd.csv. A more detailed description of data processing, along with an updated dataset incorporating multiple seasons and improved snow depth estimation is available at https://doi.org/10.15485/2480365 (Wang et al., 2025a, Wang et al., 2025b).",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "doi:10.15485/2475020",
+      "NGA554"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9508-7425",
+        "givenName": "Chen",
+        "familyName": "Wang",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cwang4@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9871-5650",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bdafflon@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2229-1414",
+        "givenName": "Ian",
+        "familyName": "Shirley",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ishirley@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2672-2998",
+        "givenName": "Stijn",
+        "familyName": "Wielandt",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "StijnWielandt@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6269-8676",
+        "givenName": "Sylvain",
+        "familyName": "Fiolleau",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "sfiolleau@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jack",
+        "familyName": "Lamb",
+        "affiliation": "Stanford University",
+        "email": "jrlamb@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7673-7346",
+        "givenName": "Sebastian",
+        "familyName": "Uhlemann",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "SUhlemann@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4114-7039",
+        "givenName": "Craig",
+        "familyName": "Ulrich",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "culrich@lbl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "temperature",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE",
+      "EARTH SCIENCE > LAND SURFACE > SOILS"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND > SOIL TEMPERATURE",
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE > SNOW DEPTH",
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND > SOIL TEMPERATURE",
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE > SNOW DEPTH"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Teller Site, Mile Marker 27, Alaska (T27)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.758839,
+            "longitude": -165.979295
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.712145,
+            "longitude": -165.921485
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Kougarok Site, Mile Marker 64, Alaska (K64)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.171006,
+            "longitude": -164.837755
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.153612,
+            "longitude": -164.801947
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0205CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-10-01",
+      "endDate": "2022-06-14",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9508-7425",
+      "givenName": "Chen",
+      "familyName": "Wang",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "cwang4@lbl.gov"
+    },
+    "citation": [
+      "Wang C ; Lamb J ; Shirley I ; Wielandt S ; Fiolleau S ; Uhlemann S ; Ulrich C ; Dafflon B. 2025a: Continuous snow depth and temperature measurements from dense network of above-ground distributed temperature profiling systems from 2021-09-23 to 2024-08-23, Seward Peninsula, Alaska. Next-Generation Ecosystem Experiments (NGEE) Arctic, ESS-DIVE repository. Dataset. doi:10.15485/2480365.",
+      "Wang, C; Shirley, I.A; Wielandt, S;, Fiolleau, S; Lamb, J; Uhlemann, S; Ulrich, C; Bennett, K.E; Dafflon, B. 2025b. Advancing the understanding of snow accumulation, melting and associated thermal insulation using spatially dense snow depth and temperature time series. Geophysical Research Letters, 52, e2024GL114189. https://doi.org/10.1029/2024GL114189",
+      "Bachand, C. L., Wang, C., Dafflon, B., Thomas, L. N., Shirley, I., Maebius, S., Iversen, C. M., and Bennett, K. E. 2025. Brief communication: Monitoring snow depth using small, cheap, and easy-to-deploy snow\u2013ground interface temperature sensors, The Cryosphere, 19, 393\u2013400, https://doi.org/10.5194/tc-19-393-2025.",
+      "Dafflon B., Wielandt S., Lamb J., McClure P., Shirley I., Uhlemann S., Wang C., Fiolleau S., Brunetti C., Akins H., Fitzpatrick J., Pullman S., Busey R., Ulrich C., Peterson J. and Hubbard S. 2022. A distributed temperature profiling system for vertically and laterally dense acquisition of soil and snow temperature. The Cryosphere. 16, 719\u201336. DOI: 10.5194/tc-16-719-2022"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Colocated snow depth, ground interface temperature, and shallow soil temperature time series over one snow season were acquired at 151 discrete locations using distributed temperature profiling (DTP) systems developed by Dafflon et al., 2022. At each location, a pair of DTP probes were deployed vertically above and below the ground to monitor snow and soil temperatures. The probe contains digital sensors acquiring temperature at 15-minute intervals. The sensor has a factory-assured sensor accuracy of 0.1 \u00b0C. The sensor spacing is 5 or 10 cm."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2736b681d6877cf-20241127T060147679",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2736b681d6877cf-20241127T060147679",
+        "name": "Probe_locations_dd.csv"
+      },
+      {
+        "contentSize": 2.7802734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-36d5ca70588cc6d-20241115T212549121",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-36d5ca70588cc6d-20241115T212549121",
+        "name": "Probe_locations_K64.csv"
+      },
+      {
+        "contentSize": 14274.0908203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6341138a3380fab-20241115T212549135",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6341138a3380fab-20241115T212549135",
+        "name": "Shallow_soil_temperatures_T27.csv"
+      },
+      {
+        "contentSize": 0.3017578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e14f0fc2db77f50-20241127T060125164",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e14f0fc2db77f50-20241127T060125164",
+        "name": "Snow_depths_dd.csv"
+      },
+      {
+        "contentSize": 67.4443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4f44d8f4771c6f4-20241115T212549143",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4f44d8f4771c6f4-20241115T212549143",
+        "name": "Snow_depths_K64.csv"
+      },
+      {
+        "contentSize": 0.4091796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8db552706e412b8-20241127T060136095",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8db552706e412b8-20241127T060136095",
+        "name": "Shallow_soil_temperatures_dd.csv"
+      },
+      {
+        "contentSize": 13179.7373046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8f7404fbd193278-20241115T212549106",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8f7404fbd193278-20241115T212549106",
+        "name": "Ground_interface_temperatures_K64.csv"
+      },
+      {
+        "contentSize": 125.9658203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a1caed81a83c088-20241115T212549146",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a1caed81a83c088-20241115T212549146",
+        "name": "Snow_depths_T27.csv"
+      },
+      {
+        "contentSize": 9333.2822265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9f0a0aa6694cfde-20241115T212549132",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9f0a0aa6694cfde-20241115T212549132",
+        "name": "Shallow_soil_temperatures_K64.csv"
+      },
+      {
+        "contentSize": 5.1142578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bf4195206803452-20241115T212549124",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bf4195206803452-20241115T212549124",
+        "name": "Probe_locations_T27.csv"
+      },
+      {
+        "contentSize": 1.7373046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-af9c323918eeb22-20241127T060213203",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-af9c323918eeb22-20241127T060213203",
+        "name": "NGA554_flmd.csv"
+      },
+      {
+        "contentSize": 15.005859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c4c2b480c076400-20250516T001845931",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-c4c2b480c076400-20250516T001845931",
+        "name": "Continuous_snow_depth_ground_interface.xml"
+      },
+      {
+        "contentSize": 0.4169921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f5ad782813030d9-20241127T060157380",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f5ad782813030d9-20241127T060157380",
+        "name": "Ground_interface_temperatures_dd.csv"
+      },
+      {
+        "contentSize": 23538.64453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fbb121c983cceb3-20241115T212549110",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fbb121c983cceb3-20241115T212549110",
+        "name": "Ground_interface_temperatures_T27.csv"
+      }
+    ]
+  }
+}

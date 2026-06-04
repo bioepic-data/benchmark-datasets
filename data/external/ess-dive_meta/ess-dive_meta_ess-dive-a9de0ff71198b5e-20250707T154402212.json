@@ -1,0 +1,608 @@
+{
+  "id": "ess-dive-a9de0ff71198b5e-20250707T154402212",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1660962",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a9de0ff71198b5e-20250707T154402212",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a9de0ff71198b5e-20250327T162215232",
+  "dateUploaded": "2025-07-07T15:44:02.848Z",
+  "dateModified": "2025-07-07T15:44:03.220Z",
+  "isPublic": true,
+  "citation": "Varadharajan C; Burrus M; O'Ryan D; Kakalia Z; Alper E; Banfield J; Berkelhammer M; Beutler C; Boye K; Brodie E; Brown W; Carbone M S; Carroll R; Christianson D; Chou C; Crystal-Ornelas R; Chadwick K D; Christensen J; Dafflon B; Boer G d; Elbashandy H; Enquist B J; Feldman D; Fox P; Gilbert B; Gochis D; Henderson M; Johnson D; Kueppers L; Li L; Carnevali P M; Newman A; Perzan Z; Pierce S; Powell T; Singha K; Sorensen P; Sprenger M; Thibaut R; Tokunaga T; Versteeg R; Wielandt S; Wilkins M; Williams K; Worsham M; Wong C; Wu Y; Zhang D; Agarwal D (2025): Location Identifiers, Metadata, and Map for Field Measurements at the East-Taylor Watershed Community Observatory, Colorado, USA (Version 3.2). Watershed Function SFA. Dataset. doi:10.15485/1660962",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1660962",
+    "name": "Location Identifiers, Metadata, and Map for Field Measurements at the East-Taylor Watershed Community Observatory, Colorado, USA (Version 3.2)",
+    "description": [
+      "This dataset contains identifiers, metadata, and a map of the locations where field measurements have been conducted at the East-Taylor Watershed Community Observatory located in the Upper Colorado River Basin, United States. This is version 3.2 of the dataset and replaces the prior version 3.1 (see below for details on changes between the versions).",
+      "Dataset description: The East River-Taylor Watershed is the primary field site of the Watershed Function Scientific Focus Area (WFSFA) and the Rocky Mountain Biological Laboratory. Researchers from several institutions generate highly diverse hydrological, biogeochemical, climate, vegetation, geological, remote sensing, and model data at the East-Taylor Watershed in collaboration with the WFSFA. Thus, the purpose of this dataset is to maintain an inventory of the field locations and instrumentation to provide information on the field activities in the East-Taylor Watershed and coordinate data collected across different locations, researchers, and institutions. The dataset contains (1) a README file with information on the various files, (2) three csv files describing the metadata collected for each surface point location, plot and region registered with the WFSFA, (3) csv files with metadata and contact information for each surface point location registered with the WFSFA, (4) a csv file with with metadata and contact information for plots, (5) a csv file with metadata for geographic regions and sub-regions within the watershed, (6) a compiled xlsx file with all the data and metadata which can be opened in Microsoft Excel, (7) a kml map of the locations plotted in the watershed which can be opened in Google Earth, (8) a jpeg image of the kml map which can be viewed in any photo viewer, and (9) a zipped file with the registration templates used by the SFA team to collect location metadata. The zipped template file contains two csv files with the blank templates (point and plot), two csv files with instructions for filling out the location templates, and one compiled xlsx file with the instructions and blank templates together. Additionally, the templates in the xlsx include drop down validation for any controlled metadata fields. Persistent location identifiers (Location_ID) are determined by the WFSFA data management team and are used to track data and samples across locations.",
+      "Dataset uses: This location metadata is used to update the Watershed SFA\u2019s publicly accessible Field Information Portal (an interactive field sampling metadata exploration tool; https://wfsfa-data.lbl.gov/watershed/), the kml map file included in this dataset, and other data management tools internal to the Watershed SFA team.",
+      "Version Information: The latest version of this dataset publication is version 3.2. This version contains 161 new point locations, 12 new plots, and 16 new geographic regions. Overall, there are a total of 1272 point locations, 74 plots, and 52 geographic regions. Additionally, the kml map of locations and image now includes all boundaries contained within the East River watershed (USGS HUC-10) and accompanying stream network. Refer to methods for further details on the version history. This dataset will be updated on a periodic basis with new measurement location information. Researchers interested in having their East-Taylor Watershed measurement locations added to this list should reach out to the WFSFA data management team at wfsfa-data@googlegroups.com.",
+      "Acknowledgments: Please cite this dataset if using any of the location metadata in other publications or derived products. If using the location metadata for the 2018 NEON hyperspectral campaign, additionally cite Chadwick et al. (2020). doi:10.15485/1618130.",
+      "This work was supported by the Watershed Function Science Focus Area at Lawrence Berkeley National Laboratory funded by the US Department of Energy, Office of Science, Biological and Environmental Research under Contract No. DE-AC02-05CH11231.",
+      "Part of this work was performed at SLAC Accelerator Laboratory funded by the US Department of Energy, Office of Science, Biological and Environmental Research under Contract No. DE-AC02-76SF00515."
+    ],
+    "alternateName": [
+      "paf_572"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2296-4698",
+        "givenName": "Madison",
+        "familyName": "Burrus",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mburrus@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1793-9781",
+        "givenName": "Dylan",
+        "familyName": "O'Ryan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "dporyan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9045-1160",
+        "givenName": "Zarine",
+        "familyName": "Kakalia",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "zarinekakalia@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Erek",
+        "familyName": "Alper",
+        "affiliation": "Subsurface Insights",
+        "email": "erek.alper@subsurfaceinsights.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8203-8771",
+        "givenName": "Jillian",
+        "familyName": "Banfield",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "JFBanfield@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8924-716X",
+        "givenName": "Max",
+        "familyName": "Berkelhammer",
+        "email": "berkelha@uic.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0740-3112",
+        "givenName": "Curtis",
+        "familyName": "Beutler",
+        "email": "curtis.beutler@colorado.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kristin",
+        "familyName": "Boye",
+        "affiliation": "SLAC National Accelerator Laboratory",
+        "email": "kboye@slac.stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Wendy",
+        "familyName": "Brown",
+        "affiliation": "Bugs Unlimited, LLC",
+        "email": "wsbrown@frontier.net"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mariah S.",
+        "familyName": "Carbone",
+        "email": "Mariah.carbone@nau.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9302-8074",
+        "givenName": "Rosemary",
+        "familyName": "Carroll",
+        "affiliation": "Desert Research Institute",
+        "email": "rosemary.carroll@dri.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Danielle",
+        "familyName": "Christianson",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "dschristianson@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Chunwei",
+        "familyName": "Chou",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ChunweiChou@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6339-1139",
+        "givenName": "Robert",
+        "familyName": "Crystal-Ornelas",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "rcrystalornelas@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5633-4865",
+        "givenName": "K. Dana",
+        "familyName": "Chadwick",
+        "affiliation": "Stanford University",
+        "email": "kdc@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9533-5801",
+        "givenName": "John",
+        "familyName": "Christensen",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jnchristensen@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9871-5650",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bdafflon@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Gijs",
+        "familyName": "de Boer",
+        "affiliation": "University of Colorado",
+        "email": "gijs.deboer@noaa.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Hesham",
+        "familyName": "Elbashandy",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "helbashandy@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Brian J.",
+        "familyName": "Enquist",
+        "email": "brianjenquist@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Daniel",
+        "familyName": "Feldman",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "drfeldman@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5264-1876",
+        "givenName": "Patricia",
+        "familyName": "Fox",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "pmfox@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0853-0826",
+        "givenName": "Benjamin",
+        "familyName": "Gilbert",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bgilbert@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Gochis",
+        "affiliation": "University Corporation For Atmospheric Research (UCAR)",
+        "email": "gochis@ucar.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Matthew",
+        "familyName": "Henderson",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mhenderson@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Douglas",
+        "familyName": "Johnson",
+        "email": "dougvj@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8134-3579",
+        "givenName": "Lara",
+        "familyName": "Kueppers",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "lmkueppers@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Langlang",
+        "familyName": "Li",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "langlang-li@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Paula",
+        "familyName": "Matheus Carnevali",
+        "affiliation": "University of California Berkeley",
+        "email": "pmatheus@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alexander",
+        "familyName": "Newman",
+        "email": "alexnewman760@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zach",
+        "familyName": "Perzan",
+        "affiliation": "Stanford University",
+        "email": "zperzan@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Samuel",
+        "familyName": "Pierce",
+        "affiliation": "Stanford University",
+        "email": "swpierce@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Thomas",
+        "familyName": "Powell",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "tlpowell@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kamini",
+        "familyName": "Singha",
+        "affiliation": "Colorado School of Mines",
+        "email": "ksingha@mines.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0558-2789",
+        "givenName": "Patrick",
+        "familyName": "Sorensen",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "posorensen@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Matthias",
+        "familyName": "Sprenger",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "msprenger@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Robin",
+        "familyName": "Thibaut",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "robin.thibaut@icloud.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0861-6128",
+        "givenName": "Tetsu",
+        "familyName": "Tokunaga",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "tktokunaga@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6767-1082",
+        "givenName": "Roelof",
+        "familyName": "Versteeg",
+        "affiliation": "Subsurface Insights",
+        "email": "roelof.versteeg@subsurfaceinsights.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stijn",
+        "familyName": "Wielandt",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "stijnwielandt@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mike",
+        "familyName": "Wilkins",
+        "affiliation": "Colorado State University",
+        "email": "mike.wilkins@colostate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Marshall",
+        "familyName": "Worsham",
+        "affiliation": "University of California Berkeley",
+        "email": "worsham@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Catherine",
+        "familyName": "Wong",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "catwong@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6953-0179",
+        "givenName": "Yuxin",
+        "familyName": "Wu",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ywu3@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Damao",
+        "familyName": "Zhang",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "damao.zhang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5045-2396",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "daagarwal@lbl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "Community Observatory Sites",
+      "Scientific Focus Area",
+      "Location Metadata",
+      "Map of Field Locations",
+      "Watershed Function SFA FAIR Data Workflow",
+      "East-Taylor Watershed Community Observatory",
+      "NEON Campaign 2018"
+    ],
+    "variableMeasured": [
+      "Location Identifiers",
+      "Metadata Provider",
+      "Latitude",
+      "Longitude",
+      "Topographical Elevation",
+      "Topographical Elevation Measurement Method",
+      "Field Location Descriptions",
+      "Instrumentation",
+      "Location ID",
+      "Location Name",
+      "Location Alias",
+      "Location Type",
+      "Location Activity",
+      "Latitude / Longitude Measurement Method",
+      "Depth Profile Elevations",
+      "Geographic Region",
+      "Parent Locations",
+      "Measurement Categories",
+      "Years Data Collected",
+      "Research Theme",
+      "Description",
+      "Infrastructure",
+      "Related Reference",
+      "Locations Metadata Version"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory and SLAC Accelerator Laboratory's Watershed Function Scientific Focus Area (WFSFA). This portion of the ER watershed contains the project-defined boundaries of East River, Washington Gulch, Slate River, and Coal Creek, as described in the location metadata. Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. This data package contains geographic metadata for specific observation points throughout the watershed.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.033,
+            "longitude": -107.12
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.82,
+            "longitude": -106.88
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The East River (ER) watershed is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory and SLAC Accelerator Laboratory's Watershed Function Scientific Focus Area (WFSFA). This portion of the ER watershed contains the USGS HUC-12 boundaries of Lower East River, Cement Creek, Lower Slate, Brush Creek, Alkali Creek, and Roaring Judy Creek. This geographic region includes the expanded extent of the East River (ER) Watershed (USGS HUC-10), which represents the Watershed Function SFA\u2019s expanding research focus to include the complete East-Taylor Watershed. This data package contains geographic metadata for specific observation points throughout the watershed.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9957,
+            "longitude": -107.031111
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.67473,
+            "longitude": -106.7261
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The Taylor River (TR) watershed is a headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States and is considered representative of many snow-dominated headwaters of the Rocky Mountains. The TR is a designated testbed of Lawrence Berkeley National Laboratory and SLAC Accelerator Laboratory's Watershed Function Scientific Focus Area (WFSFA). This data package contains geographic metadata for specific observation points throughout the watershed.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0559438,
+            "longitude": -106.8469936
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.6075485,
+            "longitude": -106.3205602
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2015-09-14",
+      "endDate": "2025-03-27",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4142-3224",
+      "givenName": "Charuleka",
+      "familyName": "Varadharajan",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "cvaradharajan@lbl.gov"
+    },
+    "citation": [
+      "Kakalia, Z., Varadharajan, C., Alper, E., Brodie, E. L., Burrus, M., Carroll, R. W. H., Christianson, D. S., Dong, W., Hendrix, V. C., Henderson, M., Hubbard, S. S., Johnson, D., Versteeg, R., Williams, K. H., & Agarwal, D. A. (2021). The Colorado East River Community Observatory Data Collection. Hydrological Processes, 35( 6), e14243. https://doi.org/10.1002/hyp.14243",
+      "Sorensen P ; Brodie E ; Beller H ; Wang S ; Bill M ; Bouskill N (2019): Sample Collection Metadata for Soil Cores from the East River Watershed, Colorado collected in 2017. Watershed Function SFA. doi:10.21952/WTR/1573029",
+      "Chadwick K D ; Grant K ; Henderson A ; Breckheimer I ; Williams C F R ; Falco N ; Chen J ; Henry H ; Khurram A ; Lamb J ; McCormick M ; McOmber H ; Pierce S ; Polussa A ; Hastings Porro M ; Scott A ; Wu Singh H ; Whitney B ; Brodie E ; Carroll R ; Dewey C ; Kueppers L ; Maavara T ; Steltzer H ; Williams K ; Maher K (2020): Locations, metadata, and species cover from field sampling survey associated with NEON AOP survey, East River, CO 2018. Watershed Function SFA. doi:10.15485/1618130"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Metadata Curation:\nResearchers establish their field sampling locations and instrumentation and collect metadata for their locations while in the field. Observation location metadata is compiled and curated by the SFA data management team. Location identifiers are assigned by the SFA data management team.",
+      "Map File Generation:\nThe kml map file was created following instructions from Google on how to map a Google spreadsheet to a KML map file (new shape file publications using the Google Spreadsheet Mapper are no longer supported).",
+      "Versioning:\nNew versions of this dataset are generated when field sampling locations and instrumentations are added and corrections to metadata organization are made.\nMarch 2025 - The publication was updated to version 3.2 and includes 161 new point locations, 12 new plot locations, and 16 new geographic regions to reflect the new and existing sampling instrumentation installed from September 2023 to October 2024. This update includes the addition of the complete East River watershed (USGS HUC-10) boundary and stream network to the Location Map (kml) and image (jpeg) to reflect the extension of the Watershed Function SFA\u2019s observatory\u2019s geographic regions.\nOctober 2023 - The publication was updated to version 3.1 and includes 101 new point locations and 1 new geographic region to reflect the new sampling instrumentation installed from April 2022 to August 2023. This update includes the addition of a Taylor River watershed boundary and steam network to the Location Map (kml) and image (jpeg) to reflect the extension of the Watershed Function SFA\u2019s observatory\u2019s geographic region.\nJune 2022 - The publication was updated to version 3.0 and 51 new point locations, 8 new plot locations, and 1 new geographic region were added to reflect the new field sampling instrumentation installed from December 2020 to March 2022. This update contained major corrections to inconsistencies in location ID and location activity assignments, revised topographical elevation fields, corrected Geographic Region references, and reorganized all locations based on their location_activity, amongst other corrections necessary for internal management. As of May 2022, a breaking change was made to the Location Map (kml) and all versions of the map file prior to version 3.0 are no longer supported.\nDecember 2020 - Location metadata was originally published for public access on ESS-DIVE under version 2.0. This contained the NEON hyperspectral data collection locations from Chadwick et al. (2020). doi:10.15485/1618130."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2c235b9a500a666-20250327T151725612",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2c235b9a500a666-20250327T151725612",
+        "name": "East_Taylor_Watershed_Community_Observatory_Sites___Metadata_Point_Locations__Surface_v3_2_20250327.csv",
+        "contentSize": 4.8984375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4ae02270121794a-20250327T151725598",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4ae02270121794a-20250327T151725598",
+        "name": "East_Taylor_Watershed_Community_Observatory_Sites___Geographic_Region_v3_2_20250327.csv",
+        "contentSize": 5.8291015625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-592aca6000f4162-20250327T151725648",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-592aca6000f4162-20250327T151725648",
+        "name": "EastTaylorWatershedCommunityObservatory__Map_Image_v3_2_20250327.jpg",
+        "contentSize": 1731.408203125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-66a0c1b57eeb416-20250327T151725618",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-66a0c1b57eeb416-20250327T151725618",
+        "name": "East_Taylor_Watershed_Community_Observatory_Sites___Metadata_Regions_v3_2_20250327.csv",
+        "contentSize": 1.3818359375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2848ba5a498d42f-20250327T151725607",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2848ba5a498d42f-20250327T151725607",
+        "name": "East_Taylor_Watershed_Community_Observatory_Sites___Metadata_Plots_v3_2_20250327.csv",
+        "contentSize": 3.9755859375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f1c0a7ca405b4d9-20250327T151725623",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f1c0a7ca405b4d9-20250327T151725623",
+        "name": "East_Taylor_Watershed_Community_Observatory_Sites___Plots_v3_2_20250327.csv",
+        "contentSize": 42.521484375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f9217c5beb0b58a-20250327T151725638",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f9217c5beb0b58a-20250327T151725638",
+        "name": "East_Taylor_Watershed_Community_Observatory_Sites_Metadata_Registration_Templates_v3_2_20250327.zip",
+        "contentSize": 33.416015625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9d685f94a42fd45-20250327T151725643",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-9d685f94a42fd45-20250327T151725643",
+        "name": "East_Taylor_Watershed_Community_Observatory_Sites_v3_2_20250327.xlsx",
+        "contentSize": 311.5791015625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-626c7a16a5a2e8a-20250327T151725653",
+        "encodingFormat": "application/vnd.google-earth.kmz",
+        "identifier": "ess-dive-626c7a16a5a2e8a-20250327T151725653",
+        "name": "EastTaylorWatershedCommunityObservatory__Map_v3_2_20250327.kmz",
+        "contentSize": 5344.2431640625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d80c4793dcb95af-20250327T151725628",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d80c4793dcb95af-20250327T151725628",
+        "name": "East_Taylor_Watershed_Community_Observatory_Sites___Point_Locations__Surface_v3_2_20250327.csv",
+        "contentSize": 684.4794921875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f06ad6b30b3dec1-20250327T151725633",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f06ad6b30b3dec1-20250327T151725633",
+        "name": "East_Taylor_Watershed_Community_Observatory_Sites___README_v3_2_20250327.csv",
+        "contentSize": 1.9931640625
+      }
+    ]
+  }
+}

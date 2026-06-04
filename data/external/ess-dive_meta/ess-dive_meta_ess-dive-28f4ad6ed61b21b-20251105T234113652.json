@@ -1,0 +1,315 @@
+{
+  "id": "ess-dive-28f4ad6ed61b21b-20251105T234113652",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2589885",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-28f4ad6ed61b21b-20251105T234113652",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ea5e91532c20c18-20251104T110618517890",
+  "dateUploaded": "2025-11-05T23:41:14.268Z",
+  "dateModified": "2025-11-07T23:13:52.708Z",
+  "isPublic": true,
+  "citation": "Bao J; Chen Y; Garayburu-Caruso V A; Fluet-Chouinard E; Laan M; Smart J E; Markham K E; Renteria L; Forbes B; Goldman A E; Stegen J C (2025): Remote sensing images, DEM, and point clouds associated with \u201cAccuracy Evaluation of Cost-Effective 3D Reconstruction Approaches for Non-Perennial Stream Riverbeds\u201d. River Corridor Hydro-biogeochemistry from Molecular to Multi-Basin Scales SFA. Dataset. doi:10.15485/2589885",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2589885",
+    "name": "Remote sensing images, DEM, and point clouds associated with \u201cAccuracy Evaluation of Cost-Effective 3D Reconstruction Approaches for Non-Perennial Stream Riverbeds\u201d",
+    "description": [
+      "This data package is associated with the publication \u201cAccuracy Evaluation of Cost-Effective 3D Reconstruction Approaches for Non-Perennial Stream Riverbeds\u201d submitted to GIScience & Remote Sensing. The data package includes the drone photos for a section of Umtanum Creek in Washington, Unted States. The photos were used to reconstruct the 3-dimensional (3D) digital elevation model (DEM) of the riverbed for the investigated stream section. The reconstruction results by four approaches are provided in this data package: (1) UAV imagery-based Structure-from-Motion (SfM), (2) a machine learning-based 3D reconstruction model, Visual Geometry Grounded Deep Structure from Motion (VGGSfM), (3) Visual Geometry Grounded Transformer for long sequence of images (VGGT-Long), and (4) handheld smartphone LiDAR scanning. The ground truth measurements by tripod-mounted optical level kit and ground control points GPS locations for evaluating the accuracy of the four reconstruction approaches are also provided in this data package.",
+      "This dataset is comprised of 8 folders, the detailed flight configuration html files, and field metadata. The folders \u201c2024_10_18_d01\u201d and \u201c2024_10_18_d02\u201d contain the original drone photos for the two drone flights (d01 and d02) on October 18, 2024. The reconstruction results from each of the approaches are in the folders called \u201cODM_SfM\u201d, \u201cVGGSfM\u201d, \u201cVGGTLong\u201d, and \u201cLiDAR\u201d. The ground truth measurements are in folder the folder called \u201coptical_level_kit\u201d. Lastly, results comparing the different approaches are in the folder called \u201ccomparisons\u201d. All files are .csv, .html, .jpg, .obj, .txt, and .npy. See the readme files for information on using the .obj and .npy files.",
+      "NOTE: The manuscript associated with this data package is currently in review. The data may be revised based on reviewer feedback. Upon manuscript acceptance, this data package will be updated with the final dataset and additional metadata."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6649-5921",
+        "givenName": "Jie",
+        "familyName": "Bao",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "jie.bao@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6065-8339",
+        "givenName": "Yunxiang",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "yunxiang.chen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4380-2153",
+        "givenName": "Etienne",
+        "familyName": "Fluet-Chouinard",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "etienne.fluet@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0256-3822",
+        "givenName": "Maggi",
+        "familyName": "Laan",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "maggi.laan@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "John E.",
+        "familyName": "Smart",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "je.smart@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kameron E.",
+        "familyName": "Markham",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "kameron.markham@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "Stream",
+      "Watershed",
+      "Catchment",
+      "Drone",
+      "Unoccupied aerial vehicle",
+      "UAV",
+      "Images",
+      "Reconstructed stream riverbed",
+      "Optical level kit",
+      "Ground control point",
+      "GCP",
+      "Intermittent",
+      "Non-perennial",
+      "Intermittent Rivers and Ephemeral Streams",
+      "IRES",
+      "Variably inundated Ecosystem",
+      "VIE",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE Unoccupied Aerial Systems (UAS) Reporting Format"
+    ],
+    "variableMeasured": [
+      "Riverbed elevation",
+      "Riverbed surface x, y, z positions",
+      "Riverbed surface color R, G, B channels",
+      "Latitude",
+      "Longitude"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Umtanum Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.91,
+            "longitude": -120.6905
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.909111,
+            "longitude": -120.688833
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2024-10-18",
+      "endDate": "2024-10-18",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9240-9687",
+      "givenName": "Brieanne",
+      "familyName": "Forbes",
+      "email": "brieanne.forbes@pnnl.gov"
+    },
+    "citation": [
+      "F. Schaffalitzky and A. Zisserman, \"Multi-view Matching for Unordered Image Sets, or \"How Do I Organize My Holiday Snaps?\",\" in ECCV '02: Proceedings of the 7th European Conference on Computer Vision-Part I, 2002, pp. 414-43, doi: 10.1007/3-540-47969-4_28.",
+      "J. Wang, N. Karaev, C. Rupprecht, and D. Novotny, \"Visual Geometry Grounded Deep Structure From Motion,\" arXiv, 2023, doi: arXiv:2312.04563v1.",
+      "J. Wang, M. Chen, N. Karaev, A. Vedaldi, C. Rupprecht, and D. Novotny, \"VGGT: Visual Geometry Grounded Transformer,\" arXiv, 2025, doi: arXiv:2503.11651v1.",
+      "K. Deng, Z. Ti, J. Xu, J. Yang, and J. Xie, \"VGGT-Long: Chunk it, Loop it, Align it \u2013 Pushing VGGT\u2019s Limits on Kilometer-scale Long RGB Sequences,\" arXiv, 2025, doi: arXiv:2507.16443v1.",
+      "J. Huai, Y. Shao, and Y. Zhang, \"A Low-Cost Portable Lidar-based Mobile Mapping System on an Android Smartphone,\" arXiv, 2025, doi: arXiv:2506.15983v1.",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Crystal-Ornelas R; O'Ryan D; Christianson D; Hendrix V C; Agarwal D; Varadharajan C (2022): ESS-DIVE Reporting Format for Location Metadata. ESS-DIVE repository. Dataset. doi: 10.15485/1865730",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734841",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734840",
+      "Ely KS; Yang D; Serbin SP (2023). ESS-DIVE Unoccupied Aerial Systems (UAS) Reporting Format v1. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/2204420"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor Hydro-biogeochemistry from Molecular to Multi-Basin Scales SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "Stegen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "james.stegen@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The accuracy of the reconstructed topography was assessed against field measurements from a tripod optical level and ground control point (GCP) GPS positions. Ground truth measurements of the stream riverbed were obtained using a tripod-mounted optical level kit (BOSCH GOL 32CK 32X). Nineteen transects were evenly distributed along a ~200-meter-long section of the stream, spaced approximately 10 meters apart. Each transect had two GCPs, one on the left bank (facing downstream) and one on the right. Along each transect, 7\u20138 points were measured at average intervals of 60 cm.",
+      "Images was collected using the UAV Skydio 2. The UAV was programed to use 2D capture mode, which the camera angle facing the ground, the flight height at 6.5 feet (~2m), and the overlap between two adjacent photos at 80%. After the 2D capture mode, the UAV flew along the boundary of the survey region in side-view mode, in which the camera tilted 60\u00b0 downward from horizontal."
+    ],
+    "distribution": [
+      {
+        "contentSize": 12988285.514648438,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-03e5dbf9f53f045-20251104T102206727596",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-03e5dbf9f53f045-20251104T102206727596",
+        "name": "2024_10_18_d02.zip"
+      },
+      {
+        "contentSize": 3540.9521484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2100b4d12c9d163-20251009T185226663",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2100b4d12c9d163-20251009T185226663",
+        "name": "ODM_SfM.zip"
+      },
+      {
+        "contentSize": 9192.3623046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-40b8765decfc0c6-20251009T185226682",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-40b8765decfc0c6-20251009T185226682",
+        "name": "S1009561.JPG"
+      },
+      {
+        "contentSize": 15.67578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-28f4ad6ed61b21b-20251105T234113652",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-28f4ad6ed61b21b-20251105T234113652",
+        "name": "Remote_sensing_images_DEM_and_point_clouds.xml"
+      },
+      {
+        "contentSize": 3.0927734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ee9d5484ab552bf-20251009T185226637",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ee9d5484ab552bf-20251009T185226637",
+        "name": "comparisons.zip"
+      },
+      {
+        "contentSize": 9483.1376953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5114e5cc415686e-20251009T185226691",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-5114e5cc415686e-20251009T185226691",
+        "name": "S1011786.JPG"
+      },
+      {
+        "contentSize": 18923993.754882812,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4adcc20e79ba3ef-20251104T104234903313",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4adcc20e79ba3ef-20251104T104234903313",
+        "name": "2024_10_18_d01.zip"
+      },
+      {
+        "contentSize": 2107.322265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4ef815e2161db92-20251009T185226704",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4ef815e2161db92-20251009T185226704",
+        "name": "VGGSfM.zip"
+      },
+      {
+        "contentSize": 4.97265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8335056dbbbe36e-20251009T185226673",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8335056dbbbe36e-20251009T185226673",
+        "name": "optical_level_kit.zip"
+      },
+      {
+        "contentSize": 2.1669921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8bf1292f6c387be-20251009T185226644",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8bf1292f6c387be-20251009T185226644",
+        "name": "Drone_Field_Metadata.csv"
+      },
+      {
+        "contentSize": 25383.0615234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-71b08cf240ed3d8-20251009T185226652",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-71b08cf240ed3d8-20251009T185226652",
+        "name": "LiDAR.zip"
+      },
+      {
+        "contentSize": 15.3125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8de8fe9a053b108-20251009T185226405",
+        "encodingFormat": "text/html",
+        "identifier": "ess-dive-8de8fe9a053b108-20251009T185226405",
+        "name": "2024_10_18_d01_Capture_Report.html"
+      },
+      {
+        "contentSize": 14.8388671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cd4939b0014d4fd-20251009T185226573",
+        "encodingFormat": "text/html",
+        "identifier": "ess-dive-cd4939b0014d4fd-20251009T185226573",
+        "name": "2024_10_18_d02_Capture_Report.html"
+      },
+      {
+        "contentSize": 788.7080078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e2fa146da0f03b1-20251009T185226713",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-e2fa146da0f03b1-20251009T185226713",
+        "name": "VGGTLong.zip"
+      }
+    ]
+  }
+}

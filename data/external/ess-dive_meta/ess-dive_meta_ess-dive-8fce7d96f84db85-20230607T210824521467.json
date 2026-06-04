@@ -1,0 +1,155 @@
+{
+  "id": "ess-dive-8fce7d96f84db85-20230607T210824521467",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1778212",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-8fce7d96f84db85-20230607T210824521467",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-841e08015f28c15-20230406T143716608201",
+  "dateUploaded": "2023-06-07T21:08:25.466Z",
+  "dateModified": "2024-07-24T18:58:18.933Z",
+  "isPublic": true,
+  "citation": "Serbin S; Yang D; McMahon A (2021): Landscape-scale Characterization of Arctic Tundra Vegetation Composition, Structure, and Function with a Multi-sensor Unoccupied Aerial System: Supporting Data.. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1778212",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1778212",
+    "archivedAt": [
+      {
+        "@type": "WebPage",
+        "name": "Original dataset landing page",
+        "url": "https://data.ngee-arctic.ornl.gov/data/pages/NGA214.html"
+      },
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (HTTP)",
+        "url": "https://tier2.ess-dive.lbl.gov/doi-10-5440-1778212/"
+      },
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (Globus)",
+        "url": "https://app.globus.org/file-manager?origin_id=e1b775d6-0125-11ed-a2da-25ff8664e4e5&origin_path=%2F~%2Ftier2%2Fdoi-10-5440-1778212%2F"
+      }
+    ],
+    "name": "Landscape-scale Characterization of Arctic Tundra Vegetation Composition, Structure, and Function with a Multi-sensor Unoccupied Aerial System: Supporting Data.",
+    "description": [
+      "Airborne remote sensing data collected using the Brookhaven National Laboratory's (BNL) heavy-lift unoccupied aerial system (UAS) octocopter platform, the Osprey, operated by the Terrestrial Ecosystem Science and Technology (TEST) group (https://www.bnl.gov/testgroup). This package includes data from three flights flown over the NGEE-Arctic Council, Kougarok and Teller sites in July, 2018. The Osprey is a multi-sensor UAS platform that simultaneously measures very high spatial resolution optical red/green/blue (RGB) and thermal infrared (TIR) surface 'skin' temperature imagery, as well as surface reflectance at 1 nm intervals in the visible to near-infrared spectral range 350 - 1000 nm measured at regular intervals along each flight path. Derived image products include ortho-mosaiced RGB and TIR images, an RGB-based digital surface model (DSM) using the structure from motion (SfM) technique, digital terrain model (DTM), and a canopy height model (CHM). In addition, a VNIR surface reflectance file is provided for the trigger locations collected during each flight campaign. Ancillary aircraft data, flight mission parameters, and general flight conditions provided by the onboard flight and data collection computers are also included. Unprocessed and processed data products are included in this package (processing levels 0-3). Data and metadata are provided as text (*.txt, *.json, *.kml, *hdr, *.enp), tabular (*.dat, *.csv, *.waypoint, ENVI format (no extension)), point cloud (*.laz) and image (*.jpg, *.tif, *png) formats. This metadata document contains flight campaign, instrument and file metadata, along with a description of data processing levels, data products and file naming scheme.The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy?s Office of Biological and Environmental Research.The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1778212",
+      "NGA214"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4136-8971",
+        "givenName": "Shawn",
+        "familyName": "Serbin",
+        "email": "sserbin@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1705-7823",
+        "givenName": "Dedi",
+        "familyName": "Yang",
+        "email": "dediyang@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8836-6645",
+        "givenName": "Andrew",
+        "familyName": "McMahon",
+        "email": "amcmahon@bnl.gov"
+      }
+    ],
+    "datePublished": "2021-05-21",
+    "keywords": [
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > SENSOR CHARACTERISTICS",
+      "Airborne remote sensing",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > VISIBLE WAVELENGTHS",
+      "Teller, Alaska",
+      "Kougarok, Alaska",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > PLATFORM CHARACTERISTICS",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > INFRARED WAVELENGTHS",
+      "Council, Alaska",
+      "unoccupied aerial system (UAS)"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CANOPY CHARACTERISTICS",
+      "EARTH SCIENCE > CLIMATE INDICATORS > BIOSPHERIC INDICATORS > CANOPY TEMPERATURE VARIABILITY",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION > DIGITAL ELEVATION/TERRAIN MODEL (DEM)",
+      "EARTH SCIENCE > LAND SURFACE > SURFACE RADIATIVE PROPERTIES > REFLECTANCE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Seward Peninsula, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.952,
+            "longitude": -168.14
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.03,
+            "longitude": -159.19
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-07-22",
+      "endDate": "2018-07-25",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4136-8971",
+      "givenName": "Shawn",
+      "familyName": "Serbin",
+      "affiliation": "Brookhaven National Laboratory",
+      "email": "sserbin@bnl.gov"
+    },
+    "citation": [
+      "Landscape-scale Characterization of Arctic Tundra Vegetation Composition, Structure, and Function with a Multi-sensor Unoccupied Aerial System. Yang et al 2021. https://doi.org/10.1088/1748-9326/ac1291"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Stan",
+        "familyName": "Wullschleger",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "wullschlegsd@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Data were collected during flights conducted over three days in July 2018 using the BNL \"Osprey\" multi-sensor UAS platform. See included metadata and Yang et al (2020) for a detailed description. Yang D.; Meng R.; Morrison M.D; McMahon A.; Hantson W.; Hayes D.J.; Breen A.L.; Salmon V.G.; Serbin S.P., 2020. A Multi-Sensor Unoccupied Aerial System Improves Characterization of Vegetation Composition and Canopy Properties in the Arctic Tundra. Remote Sensing. 12(6), 2638; doi:10.3390/rs12162638"
+    ],
+    "distribution": [
+      {
+        "contentSize": 9.3994140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8fce7d96f84db85-20230607T210824521467",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-8fce7d96f84db85-20230607T210824521467",
+        "name": "Landscape_scale_Characterization_of_Arctic_Tundra_Vegetation_Composition_Structure_and_Function_with_a_Multi_sensor_Unoccupied_Aerial_System_Supporting_Data_.xml"
+      }
+    ]
+  }
+}

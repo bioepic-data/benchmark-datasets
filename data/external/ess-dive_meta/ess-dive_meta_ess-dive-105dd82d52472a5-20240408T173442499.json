@@ -1,0 +1,1663 @@
+{
+  "id": "ess-dive-105dd82d52472a5-20240408T173442499",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2229439",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-105dd82d52472a5-20240408T173442499",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-105dd82d52472a5-20240327T190044537",
+  "dateUploaded": "2024-04-08T17:34:44.144Z",
+  "dateModified": "2024-06-20T18:59:39.937Z",
+  "isPublic": true,
+  "citation": "Gao B; Coon E; Thornton P; Lu D (2023): Improving the Estimation of the Atmospheric Water Vapor Pressure Using Interpretable Long Short-Term Memory Networks: Dataset, Python code, and trained models. Interdisciplinary Research for Arctic Coastal Environments (InteRFACE). Dataset. doi:10.15485/2229439",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2229439",
+    "name": "Improving the Estimation of the Atmospheric Water Vapor Pressure Using Interpretable Long Short-Term Memory Networks: Dataset, Python code, and trained models",
+    "description": [
+      "Atmospheric water vapor pressure is an essential meteorological control on land surface and hydrologic processes. It is not as frequently observed as other meteorologic conditions, but often inferred through the August\u2013Roche\u2013Magnus formula by simply assuming dew point and daily minimum temperatures are equivalent or by empirically correlating the two temperatures using an aridity correction. The performance of both methods varies considerably across different regions and during different time periods; obtaining consistently accurate estimates across space and time remains a great challenge. We applied an interpretable Long Short-Term Memory (iLSTM) network conditioned on static, location specific attributes to estimate daily vapor pressure for 83 FLUXNET sites in the United States and Canada. This data package includes all raw data of the 83 FLUXNET sites, input data for model training/validation/test, trained models and results, and python codes for the manuscript \"Improving the Estimation of the Atmospheric Water Vapor Pressure Using an Interpretable Long Short-term Memory Network\". Specifically, it consists of five parts.",
+      "- First, \"1_Daymet_data_83sites.zip\" includes raw data downloaded from Daymet for the 83 sites used in the paper according to their longitude and latitude, in which vapor pressure is used. It also includes a pre-processed CSV data file combining all data from the 83 sites which is specifically used for the paper.",
+      "- Second, \"2_Fluxnet2015_data_83sites.zip\" includes raw half hourly data of the 83 sites downloaded from FLUXNET2015 data portal, pre-processed daily data of the 83 sites, a CSV file including combined pre-processed daily data of the 83 sites, and a CSV file including the information (site ID, site name, latitude, longitude, data available period) of the 83 sites.",
+      "- Third, \"3_MODIS_LAI_data_83sites_raw.zip\" includes raw leaf area index (LAI) data downloaded from the AppEEARs data portal.",
+      "- Fourth, \"4_Scripts.zip\" includes all scripts related to model training and post-processing of a trained model, and a jupyter notebook showing an example for model post-processing. Two typo errors in files titled \"run2get_args.py\" and \"postprocess.py\" were corrected on March 27, 2024 to avoid confusions.",
+      "- Finally, \"Trained_models_and_results.zip\" includes three folders and three files with suffix \".npy\", and each folder corresponds to one file with suffix \".npy\" with the same title. Each of the three folders include all trained models associated with one iLSTM model configuration (35 models for each configuration, details are described in the paper). Each file with suffix \".npy\" includes the post-processed results of the corresponding 35 models under one iLSTM model configuration."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5405-423X",
+        "givenName": "Bo",
+        "familyName": "Gao",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "gaob@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8124-9622",
+        "givenName": "Ethan",
+        "familyName": "Coon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "coonet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4759-5158",
+        "givenName": "Peter",
+        "familyName": "Thornton",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "thorntonpe@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5162-9843",
+        "givenName": "Dan",
+        "familyName": "Lu",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "lud1@ornl.gov"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "Atmospheric humidity",
+      "Atmospheric water vapor pressure",
+      "Long Short-term Memory",
+      "Static attributes",
+      "Interpretable deep learning"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "CA-Gro, Ontario - Groundhog River, Boreal Mixedwood Forest, Groundhog River is situated in a typical boreal mixedwood forest in northeastern Ontario (https://doi.org/10.18140/FLX/1440034).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 48.2167,
+            "longitude": -82.1556
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 48.2167,
+            "longitude": -82.1556
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-NS1, UCI-1850 burn site, The UCI-1850 site is located in a continental boreal forest, dominated by black spruce trees, within the BOREAS northern study area in central Manitoba (https://doi.org/10.18140/FLX/1440036).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 55.8792,
+            "longitude": -98.4839
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 55.8792,
+            "longitude": -98.4839
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-NS2, UCI-1930 burn site, The UCI-1930 site is located in a continental boreal forest, dominated by black spruce trees, within the BOREAS northern study area in central Manitoba (https://doi.org/10.18140/FLX/1440037).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 55.9058,
+            "longitude": -98.5247
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 55.9058,
+            "longitude": -98.5247
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-NS3, UCI-1964 burn site, The UCI-1964 site is located in a continental boreal forest, dominated by black spruce trees, within the BOREAS northern study area in central Manitoba (https://doi.org/10.18140/FLX/1440038).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 55.9117,
+            "longitude": -98.3822
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 55.9117,
+            "longitude": -98.3822
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-NS4, UCI-1964 burn site wet, The UCI-1964 wet site is located in a continental boreal forest, dominated by black spruce trees, within the BOREAS northern study area in central Manitoba (https://doi.org/10.18140/FLX/1440039).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 55.9144,
+            "longitude": -98.3806
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 55.9144,
+            "longitude": -98.3806
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-NS5, UCI-1981 burn site, The UCI-1981 site is located in a continental boreal forest, dominated by black spruce trees, within the BOREAS northern study area in central Manitoba (https://doi.org/10.18140/FLX/1440040).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 55.8631,
+            "longitude": -98.485
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 55.8631,
+            "longitude": -98.485
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-NS6, UCI-1989 burn site, The UCI-1989 site is located in a continental boreal forest, dominated by black spruce trees, within the BOREAS northern study area in central Manitoba (https://doi.org/10.18140/FLX/1440041).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 55.9167,
+            "longitude": -98.9644
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 55.9167,
+            "longitude": -98.9644
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-NS7, UCI-1998 burn site, The UCI-1998 site is located in a continental boreal forest, dominated by black spruce trees, within the BOREAS northern study area in central Manitoba (https://doi.org/10.18140/FLX/1440042).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 56.6358,
+            "longitude": -99.9483
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 56.6358,
+            "longitude": -99.9483
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-Oas, Saskatchewan - Western Boreal, Mature Aspen, BOREAS 1994, 1996, BERMS climate and flux measurements began Dec. 1996 (https://doi.org/10.18140/FLX/1440043).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 53.6289,
+            "longitude": -106.1978
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 53.6289,
+            "longitude": -106.1978
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-Obs, Saskatchewan - Western Boreal, Mature Black Spruce, BOREAS 1994, 1996, BERMS climate measurements began Dec. 1996 and flux measurements in Apr. 1999 (https://doi.org/10.18140/FLX/1440044).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 53.9872,
+            "longitude": -105.1178
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 53.9872,
+            "longitude": -105.1178
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-Qfo, Quebec - Eastern Boreal, Mature Black Spruce, 90 - 100 yr old Black Spruce, Jack Pine, feather moss (https://doi.org/10.18140/FLX/1440045).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 49.6925,
+            "longitude": -74.3421
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 49.6925,
+            "longitude": -74.3421
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-SF1, Saskatchewan - Western Boreal, forest burned in 1977, Regenerated jack pine (Pinus banksiana) following fire in 1977 (https://doi.org/10.18140/FLX/1440046).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 54.485,
+            "longitude": -105.8176
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 54.485,
+            "longitude": -105.8176
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-SF2, Saskatchewan - Western Boreal, forest burned in 1989, The 1989 burn site (F89) was northeast of Prince Albert National Park, Saskatchewan (https://doi.org/10.18140/FLX/1440047).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 54.2539,
+            "longitude": -105.8775
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 54.2539,
+            "longitude": -105.8775
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-SF3, Saskatchewan - Western Boreal, forest burned in 1998, The 1998 burn site (F98) was in the east part of Prince Albert National Park, Saskatchewan (https://doi.org/10.18140/FLX/1440048).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 54.0916,
+            "longitude": -106.0053
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 54.0916,
+            "longitude": -106.0053
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-TP1, Ontario - Turkey Point 2002 Plantation White Pine, Plantation established in 2002 on a former sandy agricultural field, which was abandoned three years prior to planting (https://doi.org/10.18140/FLX/1440050).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.6609,
+            "longitude": -80.5595
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.6609,
+            "longitude": -80.5595
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-TP2, Ontario - Turkey Point 1989 Plantation White Pine, Plantation established in 1989 over sandy agriculture land (https://doi.org/10.18140/FLX/1440051).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.7744,
+            "longitude": -80.4588
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.7744,
+            "longitude": -80.4588
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-TP3, Ontario - Turkey Point 1974 Plantation White Pine, White pine plantation established in 1974 over sandy abandoned land (https://doi.org/10.18140/FLX/1440052).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.7068,
+            "longitude": -80.3483
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.7068,
+            "longitude": -80.3483
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-TP4, Ontario - Turkey Point 1939 Plantation White Pine, White pine plantation established in 1939 over sandy abandoned land (https://doi.org/10.18140/FLX/1440053).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.7102,
+            "longitude": -80.3574
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.7102,
+            "longitude": -80.3574
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CA-TPD, Ontario - Turkey Point Mature Deciduous, The forest is approximately 90 years old. Naturally regenerated on sandy terrain and abandoned agricultural land (https://doi.org/10.18140/FLX/1440112).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.6353,
+            "longitude": -80.5577
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.6353,
+            "longitude": -80.5577
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-AR1, ARM USDA UNL OSU Woodward Switchgrass 1, The ARM USDA UNL OSU Woodward Switchgrass 1 tower is located on public land owned by the USDA-ARS Southern Plains Range Research Station in Woodward, Oklahoma (https://doi.org/10.18140/FLX/1440103).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.4267,
+            "longitude": -99.42
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.4267,
+            "longitude": -99.42
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-AR2, ARM USDA UNL OSU Woodward Switchgrass 2, The ARM USDA UNL OSU Woodward Switchgrass 2 tower is located on public land owned by the USDA-ARS Southern Plains Range Research Station in Woodward, Oklahoma (https://doi.org/10.18140/FLX/1440104).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.6358,
+            "longitude": -99.5975
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.6358,
+            "longitude": -99.5975
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-ARM, ARM Southern Great Plains site- Lamont, The ARM SGP Burn site is located in the native tallgrass prairies of the USDA Grazinglands Research Laboratory near El Reno, OK (https://doi.org/10.18140/FLX/1440064).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.6058,
+            "longitude": -97.4888
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.6058,
+            "longitude": -97.4888
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-ARb, ARM Southern Great Plains burn site- Lamont, The ARM SGP Control site is located in the native tallgrass prairies of the USDA Grazinglands Research Laboratory near El Reno, OK (https://doi.org/10.18140/FLX/1440065).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.5497,
+            "longitude": -98.0402
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.5497,
+            "longitude": -98.0402
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-ARc, ARM Southern Great Plains control site- Lamont, Central facility tower crop field (winter wheat, corn, soy, alfalfa) (https://doi.org/10.18140/FLX/1440066).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.5465,
+            "longitude": -98.04
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.5465,
+            "longitude": -98.04
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Atq, Atqasuk, This site is 100 km south of Barrow, Alaska, Variety of moist-wet coastal sedge tundra, and moist-tussock tundra surfaces in the more well-drained upland (https://doi.org/10.18140/FLX/1440067).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 70.4696,
+            "longitude": -157.4089
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 70.4696,
+            "longitude": -157.4089
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Blo, Blodgett Forest, The flux tower site at Blodgett Forest is on a 1200 ha parcel of land owned by Sierra Pacific Industries in the Sierra Nevada range near Georgetown, California (https://doi.org/10.18140/FLX/1440068).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8953,
+            "longitude": -120.6328
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8953,
+            "longitude": -120.6328
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-CRT, Curtice Walter-Berger cropland, The conventional cropland site is rain fed and no irrigation is applied. It is located in a part of the historic Great Black Swamp (https://doi.org/10.18140/FLX/1440117).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.6285,
+            "longitude": -83.3471
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.6285,
+            "longitude": -83.3471
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Cop, Corral Pocket, The Corral Pocket site is located in a semi-arid grassland in southeastern Utah, just east of Canyonlands National park (https://doi.org/10.18140/FLX/1440100).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.09,
+            "longitude": -109.39
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.09,
+            "longitude": -109.39
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-GBT, GLEES Brooklyn Tower, US-GBT has been incorporated into the US-GLE dataset, making this site obsolete. The Glacier Lakes Ecosystem Experiments Site (GLEES) site is located on land owned by the U.S. government and managed by US Forest Service as part of the Medicine Bow National Forest (https://doi.org/10.18140/FLX/1440118).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3658,
+            "longitude": -106.2397
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3658,
+            "longitude": -106.2397
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-GLE, GLEES, The Glacier Lakes Ecosystem Experiments Site (GLEES) site is located on land owned by the U.S. government and managed by US Forest Service as part of the Medicine Bow National Forest (https://doi.org/10.18140/FLX/1440069).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3665,
+            "longitude": -106.2399
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3665,
+            "longitude": -106.2399
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Goo, Goodwin Creek, The Goodwin Creek site is located in the Bluff Hills, just east of the Mississippi River valley (https://doi.org/10.18140/FLX/1440070).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.2547,
+            "longitude": -89.8735
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.2547,
+            "longitude": -89.8735
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Ha1, Harvard Forest EMS Tower (HFR1), The Harvard Forest tower is on land owned by Harvard University. The site is designated as an LTER site (https://doi.org/10.18140/FLX/1440071).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.5378,
+            "longitude": -72.1715
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.5378,
+            "longitude": -72.1715
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-IB2, Fermi National Accelerator Laboratory- Batavia (Prairie site), Two eddy correlation systems are installed at Fermi National Accelerator Laboratory: one on a restored prairie (established October 2004) and one on a corn/soybean rotation agricultural field (established in July 2005) (https://doi.org/10.18140/FLX/1440072).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.8406,
+            "longitude": -88.241
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.8406,
+            "longitude": -88.241
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Ivo, Ivotuk, This site is 300 km south of Barrow and is located at the foothill of the Brooks Range and is classified as tussock sedge, dwarf-shrub, moss tundra (https://doi.org/10.18140/FLX/1440073).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 68.4865,
+            "longitude": -155.7503
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.4865,
+            "longitude": -155.7503
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-KS1, Kennedy Space Center (slash pine), The Kennedy Space Center Slash Pine Flatwoods site is located in the Merritt Island National Wildlife Refuge at the Kennedy Space Center (KSC) on the east coast of central Florida (https://doi.org/10.18140/FLX/1440074).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 28.4583,
+            "longitude": -80.6709
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 28.4583,
+            "longitude": -80.6709
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-KS2, Kennedy Space Center (scrub oak), The Kennedy Space Center Scrub Oak site is located within the Merritt Island National Wildlife Refuge at the Kennedy Space Center (KSC) on the east coast of central Florida (https://doi.org/10.18140/FLX/1440075).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 28.6086,
+            "longitude": -80.6715
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 28.6086,
+            "longitude": -80.6715
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-LWW, Little Washita Watershed, Grasslands, rangeland, Temperate, continental. Severe drought in 1998 (https://doi.org/10.18140/FLX/1440077).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.9604,
+            "longitude": -97.9789
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.9604,
+            "longitude": -97.9789
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Lin, Lindcove Orange Orchard, The experimental site was a citrus orchard about three km west of the UC Lindcove Research and Experiment Station (https://doi.org/10.18140/FLX/1440107).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.3566,
+            "longitude": -119.0922
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.3566,
+            "longitude": -119.0922
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Los, Lost Creek, Shrub wetland site, chosen to be representative of the wetlands within the WLEF tall tower flux footprint (https://doi.org/10.18140/FLX/1440076).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.0827,
+            "longitude": -89.9792
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.0827,
+            "longitude": -89.9792
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-MMS, Morgan Monroe State Forest, Owned by the Indiana Department of Natural Resources (IDNR), including data from 1999 to 2014 (https://doi.org/10.18140/FLX/1440083).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.3232,
+            "longitude": -86.4131
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.3232,
+            "longitude": -86.4131
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Me1, Metolius - Eyerly burn, An intermediate aged ponderosa pine forest that was severely burned in the 2002 Eyerly wildfire (https://doi.org/10.18140/FLX/1440078).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5794,
+            "longitude": -121.5
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5794,
+            "longitude": -121.5
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Me2, Metolius mature ponderosa pine (https://doi.org/10.18140/FLX/1440079).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4523,
+            "longitude": -121.5574
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4523,
+            "longitude": -121.5574
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Me3, Metolius-second young aged pine, This site is located on a Forest Service mensuration plot (various seed sources) that was planted in 1987 (https://doi.org/10.18140/FLX/1440080).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.3154,
+            "longitude": -121.6078
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.3154,
+            "longitude": -121.6078
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Me4, Metolius-old aged ponderosa pine, The site is located on land designated as a Research Natural Area (RNA) (https://doi.org/10.18140/FLX/1440081).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4992,
+            "longitude": -121.6224
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4992,
+            "longitude": -121.6224
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Me5, Metolius-first young aged pine, Previously old-growth ponderosa pine, clearcut in 1978 and allowed to regenerate naturally (https://doi.org/10.18140/FLX/1440082).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4372,
+            "longitude": -121.5668
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4372,
+            "longitude": -121.5668
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Me6, Metolius Young Pine Burn, The study site is located east of the Cascade mountains, near Sisters, Central Oregon and is part of the Metolius cluster sites (https://doi.org/10.18140/FLX/1440099).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.3233,
+            "longitude": -121.6078
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.3233,
+            "longitude": -121.6078
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Myb, Mayberry Wetland, The Mayberry Wetland site is a 300-acre restored wetland on Sherman Island, north of Mayberry Slough, that is on the property of Mayberry Farms (https://doi.org/10.18140/FLX/1440105).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.0499,
+            "longitude": -121.765
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.0499,
+            "longitude": -121.765
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-NR1, Niwot Ridge Forest (LTER NWT1), The Niwot Ridge AmeriFlux site is located in a subalpine forest ecosystem just below the Continental Divide near Nederland, CO. The site is located at 3050 m elevation, within 600m of the NOAA C1 long-term monitoring station, approximately 8 km east of the Continental Divide (https://doi.org/10.18140/FLX/1440087).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0329,
+            "longitude": -105.5464
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.0329,
+            "longitude": -105.5464
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Ne1, Mead - irrigated continuous maize site, The study site is one of three fields (all located within 1.6 km of each other) at the University of Nebraska Agricultural Research and Development Center near Mead, Nebraska (https://doi.org/10.18140/FLX/1440084).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.1651,
+            "longitude": -96.4766
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.1651,
+            "longitude": -96.4766
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Ne2, Mead - irrigated maize-soybean rotation site, The study site is one of three fields (all located within 1.6 km of each other) at the University of Nebraska Agricultural Research and Development Center near Mead, Nebraska (https://doi.org/10.18140/FLX/1440085).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.1649,
+            "longitude": -96.4701
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.1649,
+            "longitude": -96.4701
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Ne3, Mead - rainfed maize-soybean rotation site, The study site is one of three fields (all located within 1.6 km of each other) at the University of Nebraska Agricultural Research and Development Center near Mead, Nebraska (https://doi.org/10.18140/FLX/1440086).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.1797,
+            "longitude": -96.4397
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.1797,
+            "longitude": -96.4397
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-ORv, Olentangy River Wetland Research Park, The ORWRP site is a 21-ha large-scale, long-term wetland campus facility owned by Ohio State University (https://doi.org/10.18140/FLX/1440102).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0201,
+            "longitude": -83.0183
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.0201,
+            "longitude": -83.0183
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Oho, Oak Openings, The Ohio Oak Openings site is located within the Oak Openings Preserve Metropark of northwest Ohio (https://doi.org/10.18140/FLX/1440088).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.5545,
+            "longitude": -83.8438
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.5545,
+            "longitude": -83.8438
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-PFa, Park Falls/WLEF, The flux footprint encompasses a highly heterogeneous landscape of upland forests and wetlands (forested and nonforested) (https://doi.org/10.18140/FLX/1440089).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.9459,
+            "longitude": -90.2723
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.9459,
+            "longitude": -90.2723
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Prr, Poker Flat Research Range Black Spruce Forest, This site is located in a blackspruce forest within the property of the Poker Flat Research Range, University of Alaska, Fairbanks (https://doi.org/10.18140/FLX/1440113).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.1237,
+            "longitude": -147.4876
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.1237,
+            "longitude": -147.4876
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-SRC, Santa Rita Creosote, Part of the Santa Rita Experimental Range since 1901; Site vegetation has been dominated by Creosote bush since at least 1934 (https://doi.org/10.18140/FLX/1440098).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.9083,
+            "longitude": -110.8395
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.9083,
+            "longitude": -110.8395
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-SRG, Santa Rita Grassland, Semidesert C4 grassland, lies in Pasture 1 on the Santa Rita Experimental Range (https://doi.org/10.18140/FLX/1440114).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.7894,
+            "longitude": -110.8277
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.7894,
+            "longitude": -110.8277
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-SRM, Santa Rita Mesquite, Semidesert grassland encroached by mesquite (Prosopis velutina) trees (https://doi.org/10.18140/FLX/1440090).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.8214,
+            "longitude": -110.8661
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.8214,
+            "longitude": -110.8661
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Sta, Saratoga, Sagebrush steppe ecosystem (https://doi.org/10.18140/FLX/1440115).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3966,
+            "longitude": -106.8024
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3966,
+            "longitude": -106.8024
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Syv, Sylvania Wilderness Area, Old growth forest consisting primarily of sugar maple and eastern hemlock (https://doi.org/10.18140/FLX/1440091).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.242,
+            "longitude": -89.3477
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.242,
+            "longitude": -89.3477
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Ton, Tonzi Ranch, Located in the lower foothills of the Sierra Nevada Mountains (https://doi.org/10.18140/FLX/1440092).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.4309,
+            "longitude": -120.966
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.4309,
+            "longitude": -120.966
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Tw1, Twitchell Wetland West Pond, The Twitchell Wetland site is a 7.4-acre restored wetland on Twitchell Island (https://doi.org/10.18140/FLX/1440108).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.1074,
+            "longitude": -121.6469
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.1074,
+            "longitude": -121.6469
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Tw2, Twitchell Corn, The Twitchell Corn site is a corn field on peat soil (https://doi.org/10.18140/FLX/1440109).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.0969,
+            "longitude": -121.6365
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.0969,
+            "longitude": -121.6365
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Tw3, Twitchell Alfalfa, The Twitchell Alfalfa site is an alfalfa field owned by the state of California and leased to third parties for farming (https://doi.org/10.18140/FLX/1440110).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.1152,
+            "longitude": -121.6469
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.1152,
+            "longitude": -121.6469
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Tw4, Twitchell East End Wetland, The Twitchell East End Wetland is a newly constructed restored wetland on Twitchell Island, CA (https://doi.org/10.18140/FLX/1440111).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.1027,
+            "longitude": -121.6413
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.1027,
+            "longitude": -121.6413
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Twt, Twitchell Island, The Twitchell Island site is a rice paddy that is owned by the state and managed by the California Department of Water Resources (https://doi.org/10.18140/FLX/1440106).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.1087,
+            "longitude": -121.6531
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.1087,
+            "longitude": -121.6531
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-UMB, Univ. of Mich. Biological Station, The UMBS site is located within a protected forest owned by the University of Michigan (https://doi.org/10.18140/FLX/1440093).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5598,
+            "longitude": -84.7138
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5598,
+            "longitude": -84.7138
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-UMd, UMBS Disturbance, The UMBS Disturbance site is an artificial disturbance site that has recently been created as part of the Forest Accelerate Succession ExperimenT (FASET) (https://doi.org/10.18140/FLX/1440101).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5625,
+            "longitude": -84.6975
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5625,
+            "longitude": -84.6975
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Var, Vaira Ranch- Ione, Located in the lower foothills of the Sierra Nevada Mountains on privately owned land (https://doi.org/10.18140/FLX/1440094).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.4133,
+            "longitude": -120.9508
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.4133,
+            "longitude": -120.9508
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-WCr, Willow Creek, Upland decduous broadleaf forest. Mainly sugar maple, also basswood (https://doi.org/10.18140/FLX/1440095).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.8059,
+            "longitude": -90.0799
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.8059,
+            "longitude": -90.0799
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-WPT, Winous Point North Marsh, The marsh site has been owned by the Winous Point Shooting Club since 1856 and has been managed by wildlife biologists since 1946 (https://doi.org/10.18140/FLX/1440116).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.4646,
+            "longitude": -82.9962
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.4646,
+            "longitude": -82.9962
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Whs, Walnut Gulch Lucky Hills Shrub, A semiarid Chihuahuan Desert shrubland located in the USDA-ARS Walnut Gulch Experimental Watershed (WGEW) surrounding the town of Tombstone, AZ (https://doi.org/10.18140/FLX/1440097).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.7438,
+            "longitude": -110.0522
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.7438,
+            "longitude": -110.0522
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Wi0, Young red pine (YRP), The Wisconsin Young Red Pine site is located in the Washburn Ranger District of the northeastern section of Chequamegon National Forest (https://doi.org/10.18140/FLX/1440055).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6188,
+            "longitude": -91.0814
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6188,
+            "longitude": -91.0814
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Wi1, Intermediate hardwood (IHW), The Wisconsin Intermediate Hardwoods site is located in the Washburn Ranger District of the Chequamegon National Forest (https://doi.org/10.18140/FLX/1440054).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7305,
+            "longitude": -91.2329
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7305,
+            "longitude": -91.2329
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Wi2, Intermediate red pine (IRP), The Wisconsin Intermediate Red Pine site is located in the Washburn Ranger District of the northeastern section of Chequamegon National Forest (https://doi.org/10.18140/FLX/1440056).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6869,
+            "longitude": -91.1528
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6869,
+            "longitude": -91.1528
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Wi3, Mature hardwood (MHW), The Wisconsin Mature Hardwood site is located in the Washburn Ranger District of the northeastern section of Chequamegon National Forest (https://doi.org/10.18140/FLX/1440057).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6347,
+            "longitude": -91.0987
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6347,
+            "longitude": -91.0987
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Wi4, Mature red pine (MRP), The Wisconsin Mature Red Pine site is located in the Washburn Ranger District of the northeastern section of Chequamegon National Forest (https://doi.org/10.18140/FLX/1440058).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7393,
+            "longitude": -91.1663
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7393,
+            "longitude": -91.1663
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Wi5, Mixed young jack pine (MYJP), The Wisconsin Mixed Young Jack Pine site is located in the Washburn Ranger District of the northeastern section of Chequamegon National Forest (https://doi.org/10.18140/FLX/1440059).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6531,
+            "longitude": -91.0858
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6531,
+            "longitude": -91.0858
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Wi6, Pine barrens #1 (PB1), The Wisconsin Pine Barrens site is located in the Washburn Ranger District of the northeastern section of Chequamegon National Forest (https://doi.org/10.18140/FLX/1440060).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6249,
+            "longitude": -91.2982
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6249,
+            "longitude": -91.2982
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Wi7, Red pine clearcut (RPCC), The Wisconsin Clearcut Red Pine site is located in the Washburn Ranger District of the northeastern section of Chequamegon National Forest (https://doi.org/10.18140/FLX/1440061).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6491,
+            "longitude": -91.0693
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6491,
+            "longitude": -91.0693
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Wi8, Young hardwood clearcut (YHW), The Wisconsin Clearcut Young Hardwood site is located in the Washburn Ranger District of the northeastern section of Chequamegon National Forest (https://doi.org/10.18140/FLX/1440062).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7223,
+            "longitude": -91.2524
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7223,
+            "longitude": -91.2524
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Wi9, Young Jack pine (YJP), The Wisconsin Young Jack Pine site is located in the Washburn Ranger District of the northeastern section of Chequamegon National Forest (https://doi.org/10.18140/FLX/1440063).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7385,
+            "longitude": -91.0746
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7385,
+            "longitude": -91.0746
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Wkg, Walnut Gulch Kendall Grasslands, This site is located in a small, intensively-studied, experimental watershed within USDA-ARS's Walnut Gulch Experimental Watershed (https://doi.org/10.18140/FLX/1440096).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.7365,
+            "longitude": -109.9419
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.7365,
+            "longitude": -109.9419
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1991-01-01",
+      "endDate": "2014-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5405-423X",
+      "givenName": "Bo",
+      "familyName": "Gao",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "gaob@ornl.gov"
+    },
+    "citation": [
+      "Pastorello, G., Trotta, C., Canfora, E. et al. The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data. Sci Data 7, 225 (2020). https://doi.org/10.1038/s41597-020-0534-3.",
+      "Thornton, M.M., R. Shrestha, Y. Wei, P.E. Thornton, S-C. Kao, and B.E. Wilson. 2022. Daymet: Daily Surface Weather Data on a 1-km Grid for North America, Version 4 R1. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/2129",
+      "AppEEARS Team. (2023). Application for Extracting and Exploring Analysis Ready Samples (AppEEARS). Ver. 3.23. NASA EOSDIS Land Processes Distributed Active Archive Center (LP DAAC), USGS/Earth Resources Observation and Science (EROS) Center, Sioux Falls, South Dakota, USA.",
+      "Friedl, M., Sulla-Menashe, D. (2019). MCD12Q1 MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006. NASA EOSDIS Land Processes DAAC. Accessed 2023-02-03 from https://doi.org/10.5067/MODIS/MCD12Q1.006.",
+      "Myneni, R., Knyazikhin, Y., Park, T. (2015). MOD15A2H MODIS/Terra Leaf Area Index/FPAR 8-Day L4 Global 500m SIN Grid V006. NASA EOSDIS Land Processes DAAC. Accessed 2023-02-03 from https://doi.org/10.5067/MODIS/MOD15A2H.006.",
+      "Guo, T., Lin, T. & Antulov-Fantulin, N.. (2019). Exploring interpretable LSTM neural networks over multi-variable data. Proceedings of the 36th International Conference on Machine Learning, in Proceedings of Machine Learning Research, 97:2494-2504. Available from https://proceedings.mlr.press/v97/guo19b.html.",
+      "Kratzert, F., Klotz, D., Shalev, G., Klambauer, G., Hochreiter, S., & Nearing, G. (2019). Towards learning universal, regional, and local hydrological behaviors via machine learning applied to large-sample datasets. Hydrology and Earth System Sciences, 23(12), 5089-5110. https://doi.org/10.5194/hess-23-5089-2019.",
+      "(2003-2014) FLUXNET2015 CA-Gro Ontario - Groundhog River, Boreal Mixedwood Forest, Dataset. https://doi.org/10.18140/FLX/1440034 (2001-2005) FLUXNET2015 CA-NS1 UCI-1850 burn site, Dataset. https://doi.org/10.18140/FLX/1440036 (2001-2005) FLUXNET2015 CA-NS2 UCI-1930 burn site, Dataset. https://doi.org/10.18140/FLX/1440037 (2001-2005) FLUXNET2015 CA-NS3 UCI-1964 burn site, Dataset. https://doi.org/10.18140/FLX/1440038 (2002-2005) FLUXNET2015 CA-NS4 UCI-1964 burn site wet, Dataset. https://doi.org/10.18140/FLX/1440039 (2001-2005) FLUXNET2015 CA-NS5 UCI-1981 burn site, Dataset. https://doi.org/10.18140/FLX/1440040 (2001-2005) FLUXNET2015 CA-NS6 UCI-1989 burn site, Dataset. https://doi.org/10.18140/FLX/1440041 (2002-2005) FLUXNET2015 CA-NS7 UCI-1998 burn site, Dataset. https://doi.org/10.18140/FLX/1440042 (1996-2010) FLUXNET2015 CA-Oas Saskatchewan - Western Boreal, Mature Aspen, Dataset. https://doi.org/10.18140/FLX/1440043 (1997-2010) FLUXNET2015 CA-Obs Saskatchewan - Western Boreal, Mature Black Spruce, Dataset. https://doi.org/10.18140/FLX/1440044 (2003-2010) FLUXNET2015 CA-Qfo Quebec - Eastern Boreal, Mature Black Spruce, Dataset. https://doi.org/10.18140/FLX/1440045 (2003-2006) FLUXNET2015 CA-SF1 Saskatchewan - Western Boreal, forest burned in 1977, Dataset. https://doi.org/10.18140/FLX/1440046 (2001-2005) FLUXNET2015 CA-SF2 Saskatchewan - Western Boreal, forest burned in 1989, Dataset. https://doi.org/10.18140/FLX/1440047 (2001-2006) FLUXNET2015 CA-SF3 Saskatchewan - Western Boreal, forest burned in 1998, Dataset. https://doi.org/10.18140/FLX/1440048 (2002-2014) FLUXNET2015 CA-TP1 Ontario - Turkey Point 2002 Plantation White Pine, Dataset. https://doi.org/10.18140/FLX/1440050 (2002-2007) FLUXNET2015 CA-TP2 Ontario - Turkey Point 1989 Plantation White Pine, Dataset. https://doi.org/10.18140/FLX/1440051 (2002-2014) FLUXNET2015 CA-TP3 Ontario - Turkey Point 1974 Plantation White Pine, Dataset. https://doi.org/10.18140/FLX/1440052 (2002-2014) FLUXNET2015 CA-TP4 Ontario - Turkey Point 1939 Plantation White Pine, Dataset. https://doi.org/10.18140/FLX/1440053 (2012-2014) FLUXNET2015 CA-TPD Ontario - Turkey Point Mature Deciduous, Dataset. https://doi.org/10.18140/FLX/1440112 (2009-2012) FLUXNET2015 US-AR1 ARM USDA UNL OSU Woodward Switchgrass 1, Dataset. https://doi.org/10.18140/FLX/1440103 (2009-2012) FLUXNET2015 US-AR2 ARM USDA UNL OSU Woodward Switchgrass 2, Dataset. https://doi.org/10.18140/FLX/1440104 (2005-2006) FLUXNET2015 US-ARb ARM Southern Great Plains burn site- Lamont, Dataset. https://doi.org/10.18140/FLX/1440064 (2005-2006) FLUXNET2015 US-ARc ARM Southern Great Plains control site- Lamont, Dataset. https://doi.org/10.18140/FLX/1440065 (2003-2012) FLUXNET2015 US-ARM ARM Southern Great Plains site- Lamont, Dataset. https://doi.org/10.18140/FLX/1440066 (2003-2008) FLUXNET2015 US-Atq Atqasuk, Dataset. https://doi.org/10.18140/FLX/1440067 (1997-2007) FLUXNET2015 US-Blo Blodgett Forest, Dataset. https://doi.org/10.18140/FLX/1440068 (2001-2007) FLUXNET2015 US-Cop Corral Pocket, Dataset. https://doi.org/10.18140/FLX/1440100 (2011-2013) FLUXNET2015 US-CRT Curtice Walter-Berger cropland, Dataset. https://doi.org/10.18140/FLX/1440117 (1999-2006) FLUXNET2015 US-GBT GLEES Brooklyn Tower, Dataset. https://doi.org/10.18140/FLX/1440118 (2004-2014) FLUXNET2015 US-GLE GLEES, Dataset. https://doi.org/10.18140/FLX/1440069 (2002-2006) FLUXNET2015 US-Goo Goodwin Creek, Dataset. https://doi.org/10.18140/FLX/1440070 (1991-2012) FLUXNET2015 US-Ha1 Harvard Forest EMS Tower (HFR1), Dataset. https://doi.org/10.18140/FLX/1440071 (2004-2011) FLUXNET2015 US-IB2 Fermi National Accelerator Laboratory- Batavia (Prairie site), Dataset. https://doi.org/10.18140/FLX/1440072 (2004-2007) FLUXNET2015 US-Ivo Ivotuk, Dataset. https://doi.org/10.18140/FLX/1440073 (2002-2002) FLUXNET2015 US-KS1 Kennedy Space Center (slash pine), Dataset. https://doi.org/10.18140/FLX/1440074 (2003-2006) FLUXNET2015 US-KS2 Kennedy Space Center (scrub oak), Dataset. https://doi.org/10.18140/FLX/1440075 (2009-2010) FLUXNET2015 US-Lin Lindcove Orange Orchard, Dataset. https://doi.org/10.18140/FLX/1440107 (2000-2014) FLUXNET2015 US-Los Lost Creek, Dataset. https://doi.org/10.18140/FLX/1440076 (1997-1998) FLUXNET2015 US-LWW Little Washita Watershed, Dataset. https://doi.org/10.18140/FLX/1440077 (2004-2005) FLUXNET2015 US-Me1 Metolius - Eyerly burn, Dataset. https://doi.org/10.18140/FLX/1440078 (2002-2014) FLUXNET2015 US-Me2 Metolius mature ponderosa pine, Dataset. https://doi.org/10.18140/FLX/1440079 (2004-2009) FLUXNET2015 US-Me3 Metolius-second young aged pine, Dataset. https://doi.org/10.18140/FLX/1440080 (1996-2000) FLUXNET2015 US-Me4 Metolius-old aged ponderosa pine, Dataset. https://doi.org/10.18140/FLX/1440081 (2000-2002) FLUXNET2015 US-Me5 Metolius-first young aged pine, Dataset. https://doi.org/10.18140/FLX/1440082 (2010-2014) FLUXNET2015 US-Me6 Metolius Young Pine Burn, Dataset. https://doi.org/10.18140/FLX/1440099 (1999-2014) FLUXNET2015 US-MMS Morgan Monroe State Forest, Dataset. https://doi.org/10.18140/FLX/1440083 (2010-2014) FLUXNET2015 US-Myb Mayberry Wetland, Dataset. https://doi.org/10.18140/FLX/1440105 (2001-2013) FLUXNET2015 US-Ne1 Mead - irrigated continuous maize site, Dataset. https://doi.org/10.18140/FLX/1440084 (2001-2013) FLUXNET2015 US-Ne2 Mead - irrigated maize-soybean rotation site, Dataset. https://doi.org/10.18140/FLX/1440085 (2001-2013) FLUXNET2015 US-Ne3 Mead - rainfed maize-soybean rotation site, Dataset. https://doi.org/10.18140/FLX/1440086 (1998-2014) FLUXNET2015 US-NR1 Niwot Ridge Forest (LTER NWT1), Dataset. https://doi.org/10.18140/FLX/1440087 (2004-2013) FLUXNET2015 US-Oho Oak Openings, Dataset. https://doi.org/10.18140/FLX/1440088 (2011-2011) FLUXNET2015 US-ORv Olentangy River Wetland Research Park, Dataset. https://doi.org/10.18140/FLX/1440102 (1995-2014) FLUXNET2015 US-PFa Park Falls/WLEF, Dataset. https://doi.org/10.18140/FLX/1440089 (2010-2014) FLUXNET2015 US-Prr Poker Flat Research Range Black Spruce Forest, Dataset. https://doi.org/10.18140/FLX/1440113 (2008-2014) FLUXNET2015 US-SRC Santa Rita Creosote, Dataset. https://doi.org/10.18140/FLX/1440098 (2008-2014) FLUXNET2015 US-SRG Santa Rita Grassland, Dataset. https://doi.org/10.18140/FLX/1440114 (2004-2014) FLUXNET2015 US-SRM Santa Rita Mesquite, Dataset. https://doi.org/10.18140/FLX/1440090 (2005-2009) FLUXNET2015 US-Sta Saratoga, Dataset. https://doi.org/10.18140/FLX/1440115 (2001-2014) FLUXNET2015 US-Syv Sylvania Wilderness Area, Dataset. https://doi.org/10.18140/FLX/1440091 (2001-2014) FLUXNET2015 US-Ton Tonzi Ranch, Dataset. https://doi.org/10.18140/FLX/1440092 (2012-2014) FLUXNET2015 US-Tw1 Twitchell Wetland West Pond, Dataset. https://doi.org/10.18140/FLX/1440108 (2012-2013) FLUXNET2015 US-Tw2 Twitchell Corn, Dataset. https://doi.org/10.18140/FLX/1440109 (2013-2014) FLUXNET2015 US-Tw3 Twitchell Alfalfa, Dataset. https://doi.org/10.18140/FLX/1440110 (2013-2014) FLUXNET2015 US-Tw4 Twitchell East End Wetland, Dataset. https://doi.org/10.18140/FLX/1440111 (2009-2014) FLUXNET2015 US-Twt Twitchell Island, Dataset. https://doi.org/10.18140/FLX/1440106 (2000-2014) FLUXNET2015 US-UMB Univ. of Mich. Biological Station, Dataset. https://doi.org/10.18140/FLX/1440093 (2007-2014) FLUXNET2015 US-UMd UMBS Disturbance, Dataset. https://doi.org/10.18140/FLX/1440101 (2000-2014) FLUXNET2015 US-Var Vaira Ranch- Ione, Dataset. https://doi.org/10.18140/FLX/1440094 (1999-2014) FLUXNET2015 US-WCr Willow Creek, Dataset. https://doi.org/10.18140/FLX/1440095 (2007-2014) FLUXNET2015 US-Whs Walnut Gulch Lucky Hills Shrub, Dataset. https://doi.org/10.18140/FLX/1440097 (2002-2002) FLUXNET2015 US-Wi0 Young red pine (YRP), Dataset. https://doi.org/10.18140/FLX/1440055 (2003-2003) FLUXNET2015 US-Wi1 Intermediate hardwood (IHW), Dataset. https://doi.org/10.18140/FLX/1440054 (2003-2003) FLUXNET2015 US-Wi2 Intermediate red pine (IRP), Dataset. https://doi.org/10.18140/FLX/1440056 (2002-2004) FLUXNET2015 US-Wi3 Mature hardwood (MHW), Dataset. https://doi.org/10.18140/FLX/1440057 (2002-2005) FLUXNET2015 US-Wi4 Mature red pine (MRP), Dataset. https://doi.org/10.18140/FLX/1440058 (2004-2004) FLUXNET2015 US-Wi5 Mixed young jack pine (MYJP), Dataset. https://doi.org/10.18140/FLX/1440059 (2002-2003) FLUXNET2015 US-Wi6 Pine barrens #1 (PB1), Dataset. https://doi.org/10.18140/FLX/1440060 (2005-2005) FLUXNET2015 US-Wi7 Red pine clearcut (RPCC), Dataset. https://doi.org/10.18140/FLX/1440061 (2002-2002) FLUXNET2015 US-Wi8 Young hardwood clearcut (YHW), Dataset. https://doi.org/10.18140/FLX/1440062 (2004-2005) FLUXNET2015 US-Wi9 Young Jack pine (YJP), Dataset. https://doi.org/10.18140/FLX/1440063 (2004-2014) FLUXNET2015 US-Wkg Walnut Gulch Kendall Grasslands, Dataset. https://doi.org/10.18140/FLX/1440096 (2011-2013) FLUXNET2015 US-WPT Winous Point North Marsh, Dataset. https://doi.org/10.18140/FLX/1440116"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "39046a95-7219-40fa-b1f1-5c3cc6a06c24"
+      },
+      "name": "Interdisciplinary Research for Arctic Coastal Environments (InteRFACE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This data package includes all raw data of the 83 FLUXNET sites, input data for model training/validation/test, trained models and results, and python codes for the manuscript \"Improving the Estimation of the Atmospheric Water Vapor Pressure Using an Interpretable Long Short-term Memory Network\". Specifically, it consists of five parts. Details for files are found below.",
+      "Dataset \"1_Daymet_data_83sites.zip\" includes two files. First is a folder titled \"daily_data_by_site_raw\" including 83 separate raw data files with suffix \".dat\", directly downloaded from Daymet for the 83 FLUXNET sites. Each raw data file was downloaded according to the latitude and longitude of the corresponding site, and the time range of this file is consistent with the vapor pressure time range available at this site. Second is a pre-processed CSV data file titled \"daymet_allsites_combined.csv\" combining all data from the 83 raw data files inside the \"daily_data_by_site_raw\" folder. Columns are described below.\nyear: Year of data\nyday: The day in a year\ndayl (s): Duration of the daylight period (seconds/day)\nprcp (mm/day): Daily total precipitation (mm/day)\nsrad (W/m2): Incident shortwave radiation flux density (W/m2)\nswe (kg/m2): Snow water equivalent (kg/m2)\ntmax (\u00b0C): Daily maximum 2-meter air temperature (\u00b0C)\ntmin (\u00b0C): Daily minimum 2-meter air temperature (\u00b0C)\nvp (Pa): Water vapor pressure (Pa) directly downloaded from Daymet\ndaymet_vp: Water vapor pressure (kPa) directly downloaded from Daymet\ndaymet_noaridity: Water vapor pressure (kPa) calculated according to the August-Roche-Magnus formula (Westermann et al., 2016) by assuming equal dew point and daily minimum temperature.\nsite: FLUXNET site ID\nlat: Site latitude\nlon: Site longitude",
+      "Dataset \"2_Fluxnet2015_data_83sites.zip\" includes all raw and pre-processed data from the FLUXNET2015 data portal. It contains two folders, and two two CSV data files. The subfolder titled \"half_hourly_data_by_site\" includes 83 raw half hourly CSV data for the 83 sites. The subfolders titled \"daily_data_by_site\" includes 83 daily data of the 83 sites (in CSV format). Each CSV data file inside \"daily_data_by_site\" is processed by averaging the half hourly data inside \"half_hourly_data_by_site\" at the same site for daily resolution. The CSV datafile titled \"sites_info.csv\" includes basic information of the 83 sites. Columns are described below.\nsite_id: FLUXNET site ID\nsite_name: FLUXNET site name\nlocation_lat: FLUXNET site latitude\nlocation_long: FLUXNET site longitude\nstart: The first day (date) when vapor pressure data is recorded at a FLUXNET site from the FLUXNET2015 data portal\nend: The last day (date) when vapor pressure data is recorded at a FLUXNET site from the FLUXNET2015 data portal\nThe other CSV file titled \"allsites_daily_combined.csv\" combines all pre-processed data of the 83 sites inside the \"daily_data_by_site\" subfolder and Leaf Area Index (LAI) data downloaded from the AppEEARs data portal (see step4 below) into one CSV data file, and this file is used as input for model training. Columns are described below.\ndate: Date of data.\nyear: Year of the data date.\nmonth: Month of the data date.\nday: Day of the data date.\nvpd: Water vapor depression (kPa) recorded at a FLUXNET site from the FLUXNET2015 data portal.\nws: Wind speed (m/s) recorded at a FLUXNET site from the FLUXNET2015 data portal.\nrh: Relative humidity (-) recorded at a FLUXNET site from the FLUXNET2015 data portal.\nswin: Shortwave radiation (W/m2) recorded at a FLUXNET site from the FLUXNET2015 data portal.\nlwin: Longwave radiation (W/m2) recorded at a FLUXNET site from the FLUXNET2015 data portal.\npp: Precipitation (mm/day) recorded at a FLUXNET site from the FLUXNET2015 data portal.\nle: Latent heat flux (W/m2) recorded at a FLUXNET site from the FLUXNET2015 data portal.\ntair_mean: Daily mean temperature (\u00b0C) calculated by averaging the half-hourly temperature at a FLUXNET site from the FLUXNET2015 data portal.\ntair_min: Daily minimum temperature (\u00b0C) calculated by averaging the half-hourly temperature at a FLUXNET site from the FLUXNET2015 data portal.\nvp_by_tair_mean: Saturated vapor pressure (kPa) calculated according to the August-Roche-Magnus formula (Westermann et al., 2016) using daily mean temperature.\nvp_by_tair_min: Estimated vapor pressure (kPa) according to the August-Roche-Magnus formula (Westermann et al., 2016) using daily minimum temperature.\nvptmin_vptmean_ratio: The ratio between vp_by_tair_min and vp_by_tair_mean.\nvp_vpd_only: Vapor pressure (kPa) obtained from observed water vapor depression (vpd) when vpd is available at a FLUXNET site from the FLUXNET2015 data portal. If vpd is available, vp_vpd_only = vp_by_tair_mean - vpd.\nvp_rh_only: Vapor pressure (kPa) obtained from observed relative humidity (rh) when rh is available at a FLUXNET site from the FLUXNET2015 data portal. If rh is available, vp_rh_only = vp_by_tair_mean * rh.\nvp: The vapor pressure (kPa) used as observations. If vp_rh_only exits, vp = vp_rh_only, ortherwise vp = vp_vpd_only.\nlat: FLUXNET site latitude\nlon: FLUXNET site longitude\nsite: FLUXNET site ID\nLAI: Leaf Area Index originally downloaded from the AppEEARs data portal (see step4 below).\nLAI_mean: Averaged LAI for each site among all available LAI data of that site.\npp_mean: Averaged precipitation (mm/day) for each site among all available LAI data of that site.\nelevation: Elevation of a FLUXNET site.",
+      "Dataset \"3_MODIS_LAI_data_83sites_raw.zip\" contains a CVS datafile including raw leaf area index (LAI) data downloaded from the AppEEARs data portal for the 83 FLUXNET sites.",
+      "Code set \"4_Scripts.zip\" includes all python codes related to model training and post-processing of a trained model. Specifically, the subfolder titled \"data_package\" includes a python code constructing dataset for model training. The python code titled \"data_interface.py\" connects the constructed dataset with data process in terms of model training/validation/test. The subfolder titled \"model_package\" includes a python code defining iLSTM models. The python code \"model_interface.py\" connects the definded iLSTM modes with modeling process in terms of model training/validation/test. The python code titled \"run.py\" controls the execution model training/validation/test process by calling \"data_interface.py\" and \"model_interface.py\". The python code titled \"run2get_args.py\" is to get arguments from terminal to setup model run. Python codes titled \"custom.py\", \"data_utils.py\" are for other defined functions used for a iLSTM model run. The python code titled \"postprocessing.py\" includes functions used for post-processing of a trained model. The jupyter notebook file titled \"results_processing_example.ipynb\" shows an example for model post-processing.",
+      "Model set \"5_Trained_models_and_results.zip\" includes all trained models. There are three subfolders and three files with suffix \".npy\". Each subfolder corresponds to one file with suffix \".npy\" with the same title. Each subfolder includes all trained models associated with one iLSTM model configuration (35 models for each configuration, details are described in the paper titled ). Each file with suffix \".npy\" includes the post-processed results of the corresponding 35 models under one iLSTM model configuration."
+    ],
+    "distribution": [
+      {
+        "contentSize": 789.115234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-05cba1d91e9c62f-20230602T142132818",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-05cba1d91e9c62f-20230602T142132818",
+        "name": "3_MODIS_LAI_data_83sites_raw.zip"
+      },
+      {
+        "contentSize": 71.34375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-105dd82d52472a5-20240408T173442499",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-105dd82d52472a5-20240408T173442499",
+        "name": "Improving_the_Estimation_of_the_Atmospheric_Water.xml"
+      },
+      {
+        "contentSize": 4688572.1201171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-48cb18cb0868573-20230601T195232596",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-48cb18cb0868573-20230601T195232596",
+        "name": "5_Trained_models_and_results.zip"
+      },
+      {
+        "contentSize": 11727.654296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-53036c08f61e06a-20230602T142419986",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-53036c08f61e06a-20230602T142419986",
+        "name": "1_Daymet_data_83sites.zip"
+      },
+      {
+        "contentSize": 499207.744140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7c3e59b9e4decd6-20231102T202905287",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7c3e59b9e4decd6-20231102T202905287",
+        "name": "2_Fluxnet2015_data_83sites.zip"
+      },
+      {
+        "contentSize": 29.064453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a513cfc05810a18-20240327T190040983",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a513cfc05810a18-20240327T190040983",
+        "name": "4_Scripts.zip"
+      }
+    ]
+  }
+}

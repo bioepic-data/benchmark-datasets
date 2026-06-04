@@ -1,0 +1,171 @@
+{
+  "id": "ess-dive-1aebda0785a72f1-20240301T193525706",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/2294083",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1aebda0785a72f1-20240301T193525706",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-11e5e4c8322d3dd-20240301T193333828",
+  "dateUploaded": "2024-03-01T19:35:28.418Z",
+  "dateModified": "2024-07-24T19:00:51.040Z",
+  "isPublic": true,
+  "citation": "Thaler E; Crumley R; Bennett K (2024): Estimating snow cover from high-resolution satellite imagery by thresholding blue wavelengths: Supporting Data. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/2294083",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/2294083",
+    "name": "Estimating snow cover from high-resolution satellite imagery by thresholding blue wavelengths: Supporting Data",
+    "description": [
+      "The extent and duration of snow cover is predicted to be altered as the climate changes. Developing high-resolution estimates of snow cover change is crucial for estimating changes in snow cover and the effects of these changes on watershed and ecosystems processes. Remote sensing tools have been a common method for rapidly mapping snow covered area (SCA) across a landscape. The most common remote sensing method for estimating SCA uses satellite-based calculations of the normalized difference snow index (NDSI), which relies on spectral measurements in the shortwave-infrared wavelengths (SWIR). NDSI is effective at catchment- to regional-scale estimates of SCA, but due to spatial resolution limitations of SWIR measurements, NDSI cannot be used to assess fine-scale SCA. In this work, we develop a new algorithm, called the Blue Snow Threshold (BST) algorithm, that maps high-resolution SCA by calculating a threshold on the blue wavelengths from high-resolution satellite imagery. This data package includes Orthorectified IKONOS-2 imagery (IkonosTestImage.tif) from August 14, 2004 at 1.00 meters Ground Sample Distance for Cook Inlet, Alaska (59.966414 , -152.982975). The Blue Snow Threshold algorithm (BST.py) was then used to produce a snow cover estimate (IkonosTestImage_BST.tif) for this study area. Additional imagery metadata is included in the ImageInfo.txt file. See Thaler et al., 2023 (https://doi.org/10.1016/j.rse.2022.113403) for more information about the BST algorithm.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a 15-year research effort (2012-2027) to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/2294083",
+      "NGA312"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4408-9321",
+        "givenName": "Evan",
+        "familyName": "Thaler",
+        "email": "thaler@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7179-9321",
+        "givenName": "Ryan",
+        "familyName": "Crumley",
+        "email": "rcrumley@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2433-8607",
+        "givenName": "Katrina",
+        "familyName": "Bennett",
+        "email": "kbennett@lanl.gov"
+      }
+    ],
+    "datePublished": "2024-02-22",
+    "keywords": [
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE > REFLECTANCE",
+      "Cook Inlet, Alaska",
+      "Snow cover",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW COVER",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > VISIBLE WAVELENGTHS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.4,
+            "longitude": -180.0
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 50.9,
+            "longitude": -129.3
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2004-08-14",
+      "endDate": "2004-08-14",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4408-9321",
+      "givenName": "Evan",
+      "familyName": "Thaler",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "thaler@lanl.gov"
+    },
+    "citation": [
+      "Evan A. Thaler, Ryan L. Crumley, Katrina E. Bennett, Estimating snow cover from high-resolution satellite imagery by thresholding blue wavelengths, Remote Sensing of Environment, Volume 285, 2023, 113403, ISSN 0034-4257, https://doi.org/10.1016/j.rse.2022.113403"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The Blue Snow Threshold algorithm (BST) chooses a threshold for partitioning an image into snow and non-snow pixels based on the distribution of blue wavelength reflectance in a high-resolution satellite image. The BST first calculates the mean blue wavelength reflectance. If that mean value is greater than 0.70, then the algorithm assumes the image is fully snow-covered, and sets the threshold at 0.70. Otherwise, the algorithm checks the distribution of blue wavelength reflectance values for bimodality. If the distribution is not bimodal, then the threshold is set to the mean blue wavelength reflectance value; otherwise, the threshold is set as the first local minimum reflectance value greater than the mean. The full details of the algorithm are described in Thaler et al., 2023 (https://doi.org/10.1016/j.rse.2022.113403)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 8.8154296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1aebda0785a72f1-20240301T193525706",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-1aebda0785a72f1-20240301T193525706",
+        "name": "Estimating_snow_cover_from_high_resolution.xml"
+      },
+      {
+        "contentSize": 445058.2041015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-43afc86811c9f13-20240222T222239901768",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-43afc86811c9f13-20240222T222239901768",
+        "name": "IkonosTestImage.tif"
+      },
+      {
+        "contentSize": 1.2880859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2df9cd87574e867-20240301T193318053",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2df9cd87574e867-20240301T193318053",
+        "name": "nga312_flmd.csv"
+      },
+      {
+        "contentSize": 5438.44140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ba5817c7611542-20240222T222252780401",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-7ba5817c7611542-20240222T222252780401",
+        "name": "IkonosTestImage_BST.tif"
+      },
+      {
+        "contentSize": 9.33984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-89b944600b0ac6c-20240222T222018033996",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-89b944600b0ac6c-20240222T222018033996",
+        "name": "BST.py"
+      },
+      {
+        "contentSize": 0.3310546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-caa1d960d9c8b53-20240222T222253838665",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-caa1d960d9c8b53-20240222T222253838665",
+        "name": "ImageInfo.txt"
+      }
+    ]
+  }
+}

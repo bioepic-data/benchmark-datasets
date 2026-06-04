@@ -1,0 +1,188 @@
+{
+  "id": "ess-dive-b28fc77f2534a4d-20230504T211834419201",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1682304",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-b28fc77f2534a4d-20230504T211834419201",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ca2985820832b38-20230407T225821979636",
+  "dateUploaded": "2023-05-04T21:18:35.346Z",
+  "dateModified": "2023-05-04T21:18:38.332Z",
+  "isPublic": true,
+  "citation": "Piliouras A; Lauzon R; Rowland J (2020): Numerical Modeling Experiments of Combined Effects of Ice and Permafrost on Delta Morphodynamics. High-Latitude Application and Testing of Earth System Models (HiLAT-RASM). Dataset. doi:10.15485/1682304",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1682304",
+    "name": "Numerical Modeling Experiments of Combined Effects of Ice and Permafrost on Delta Morphodynamics",
+    "description": [
+      "This dataset contains output from numerical model experiments to test the combined effects of ice thickness and permafrost erodibility on delta dynamics. All experiments were conducted using DeltaRCM, a reduced complexity cellular model. Details of the model setup and experiments are described in full in Piliouras et al., (in revision). This dataset contains results from a total of 48 experiments, representing 16 different experimental conditions, each of which was run in triplicate. There is a control run (3 total experiments) with no ice and no permafrost. We used permafrost erodibilities (here described as erodibility relative to that of non-permafrost, and therefore < 1) of 0.65, 0.8, and 0.95, where 0.95 represents permafrost being only 5% less erodible than non-permafrost. We used ice thicknesses of 0.5 m, 3 m, and 4.5 m in a 5 m deep basin. We conducted experiments for each possible combination of permafrost erodibility and ice thickness (9 conditions, 27 experiments). We also provide results for experiments with only ice or permafrost (6 conditions, 18 experiments). The excel table (csv file) provides the ice and permafrost conditions for each run ID. Zip files contain model outputs and other variables generated during analysis (see ReadMe file) as numpy arrays (.npy files), which can be accessed using python."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6336-0762",
+        "givenName": "Anastasia",
+        "familyName": "Piliouras",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "apiliouras@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2230-6671",
+        "givenName": "Rebecca",
+        "familyName": "Lauzon",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "beccalauzon@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6308-8976",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    ],
+    "datePublished": "2020",
+    "keywords": [
+      "Reduced Complexity Model",
+      "river delta",
+      "channel dynamics",
+      "EARTH SCIENCE > LAND SURFACE > EROSION/SEDIMENTATION",
+      "EARTH SCIENCE > LAND SURFACE > FROZEN GROUND",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES",
+      "EARTH SCIENCE > LAND SURFACE > LANDSCAPE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > OCEANS > COASTAL PROCESSES"
+    ],
+    "variableMeasured": [
+      "water surface elevation",
+      "ice thickness",
+      "permafrost",
+      "channel map",
+      "delta area",
+      "shoreline roughness",
+      "time",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6336-0762",
+      "givenName": "Anastasia",
+      "familyName": "Piliouras",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "apiliouras@lanl.gov"
+    },
+    "citation": [
+      "Piliouras, A., R. Lauzon, & J. C. Rowland. (in revision). Unraveling the combined influence of ice and permafrost on delta morphodynamics"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "848e131d-67f1-438c-a3c1-f045dc31b68e"
+      },
+      "name": "High-Latitude Application and Testing of Earth System Models (HiLAT-RASM)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Wilbert",
+        "familyName": "Weijer",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Los Alamos National Lab",
+        "email": "wilbert@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This dataset contains output from numerical model experiments to test the combined effects of ice thickness and permafrost erodibility on delta dynamics. All experiments were conducted using DeltaRCM, a reduced complexity cellular model. Details of the model setup and experiments are described in full in Piliouras et al., (in revision), and more information can be found in Lauzon et al., (2019) and Liang et al., (2015).\nPiliouras, A., R. Lauzon, and J. C. Rowland (in revision). Unraveling the combined influence of ice and permafrost on delta morphodynamics. Journal of Geophysical Research - Earth Surface.\nLauzon, R., A. Piliouras, and J. C. Rowland (2019). Ice and permafrost effects on delta morphology and channel dynamics. Geophysical Research Letters. doi: 10.1029/2019GL082792.\nLiang, M., V. R. Voller, and C. Paola. (2015). A reduced-complexity model for river delta formation-Part 1: Modeling deltas with channel dynamics. Earth Surface Dynamics. doi: 10.5194/esurf-3-67-2015",
+      "All experiments are run on a 150 x 300 grid, where one grid cell is 50 m x 50 m. One time step in model time corresponds to approximately 7 hours of real time. The model only accounts for bankfull flow, and we assume ~10 bankfull flow days per year, corresponding to 34 model time steps per year. Every experiment was first run for 300 time steps without ice or permafrost to develop a channel network, after which ice and/or permafrost were \u201cturned on\u201d for the rest of the experiment. Each full experiment was run for 5000 timesteps. Variables were saved every 5th time step. Starting at time step 301 (i.e., the first time step with ice and/or permafrost), we also saved the first and last time step of each flood. Flood 1, for example, starts with time step 301 and ends with 334, so we save 301, 305, 310, 315, 320, 325, 330, and 334."
+    ],
+    "distribution": [
+      {
+        "contentSize": 2.587890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1063bfe94b7e062-20201021T200652333",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1063bfe94b7e062-20201021T200652333",
+        "name": "exp_conditions_run_IDs.csv"
+      },
+      {
+        "contentSize": 5742311.787109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3112a4771144408-20200715T200802584",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-3112a4771144408-20200715T200802584",
+        "name": "noIce_permaOnly.zip"
+      },
+      {
+        "contentSize": 7749763.2724609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6900a7b602b056e-20200716T142034158",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6900a7b602b056e-20200716T142034158",
+        "name": "thinIce_allPerma.zip"
+      },
+      {
+        "contentSize": 1682032.0546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-87127e67ae6b96f-20200715T200813937",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-87127e67ae6b96f-20200715T200813937",
+        "name": "noIce_noPerma.zip"
+      },
+      {
+        "contentSize": 8293733.7138671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c63662cee76e01e-20200715T200827063",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c63662cee76e01e-20200715T200827063",
+        "name": "noPerma_iceOnly.zip"
+      },
+      {
+        "contentSize": 8579147.611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c8258db48ee41ca-20200717T195930228",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c8258db48ee41ca-20200717T195930228",
+        "name": "medIce_allPerma.zip"
+      },
+      {
+        "contentSize": 17.1748046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b28fc77f2534a4d-20230504T211834419201",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-b28fc77f2534a4d-20230504T211834419201",
+        "name": "Numerical_Modeling_Experiments_of_Combined_Effects_of_Ice_and_Permafrost_on_Delta_Morphodynamics.xml"
+      },
+      {
+        "contentSize": 9204322.37109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c8e2734ca6be794-20200717T135658393",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c8e2734ca6be794-20200717T135658393",
+        "name": "thickIce_allPerma.zip"
+      },
+      {
+        "contentSize": 5.736328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f2a56d40142f59d-20201021T201307966",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-f2a56d40142f59d-20201021T201307966",
+        "name": "README_v2.txt"
+      },
+      {
+        "contentSize": 4.03125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fcde992dc682657-20200715T200723680",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-fcde992dc682657-20200715T200723680",
+        "name": "steps_noIce.npy"
+      },
+      {
+        "contentSize": 4.13671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dfa7ca07e1a54cd-20200715T200723669",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-dfa7ca07e1a54cd-20200715T200723669",
+        "name": "steps_ice.npy"
+      }
+    ]
+  }
+}

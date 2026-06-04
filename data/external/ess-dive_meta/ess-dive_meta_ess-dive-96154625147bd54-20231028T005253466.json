@@ -1,0 +1,237 @@
+{
+  "id": "ess-dive-96154625147bd54-20231028T005253466",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2204420",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-96154625147bd54-20231028T005253466",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-61459f47e7c54d1-20231026T014239925",
+  "dateUploaded": "2023-10-28T00:52:55.482Z",
+  "dateModified": "2023-11-03T00:00:56.579Z",
+  "isPublic": true,
+  "citation": "Ely K S; Yang D; Serbin S P (2023): ESS-DIVE Unoccupied Aerial Systems (UAS) Reporting Format v1. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). Dataset. doi:10.15485/2204420",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2204420",
+    "name": "ESS-DIVE Unoccupied Aerial Systems (UAS) Reporting Format v1",
+    "description": [
+      "Here we present documentation of the ESS-DIVE reporting format for Unoccupied Aerial System (UAS) data and metadata. This reporting format provides guidance to data contributors on how to store data to maximize their discoverability, facilitate their efficient reuse, and add value to individual datasets. For data users, the reporting format will better allow data repositories to optimize data search and extraction, and more readily integrate similar data into harmonized synthesis products. The reporting format provides templates and guidance for the reporting of metadata for UAS experimental campaigns, individual flights, platform and sensor description. To improve data access and discoverability, the reporting format proposes a data description scheme of Levels based on the degree of processing, where Level 0 includes raw data, through to Level 3 being derived data end products. A range of examples of data types for each Level are given, with suggested file naming schemes.",
+      "The reporting format presented here is intended to form a foundation for future development that will accommodate new UAS technologies and approaches to data access and use in the future. The reporting format documentation is maintained and updated on the ESS-DIVE Community Space GitHub at https://github.com/ess-dive-community/essdive-uas. This data package is the first published version of this reporting format, and comprises a zip file of the complete content of https://github.com/ess-dive-community/essdive-uas v1.0. The zip contains the reporting format description, instructions and variable definitions in GitHub markdown language (*.md) and metadata templates in csv format. The reporting format is designed to be compatible with other ESS-DIVE formats, and it is specifically recommended that this reporting format be used in conjunction with the File-level metadata (FLMD) and comma separated values (csv) reporting formats for submission to the ESS-DIVE repository."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3915-001X",
+        "givenName": "Kim S.",
+        "familyName": "Ely",
+        "affiliation": "Brookhaven National Laboratory",
+        "email": "kely@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1705-7823",
+        "givenName": "Dedi",
+        "familyName": "Yang",
+        "affiliation": "Brookhaven National Laboratory",
+        "email": "dediyang@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Shawn P.",
+        "familyName": "Serbin",
+        "affiliation": "Brookhaven National Laboratory",
+        "email": "sserbin@bnl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6681-1867",
+        "givenName": "Christian G.",
+        "familyName": "Andresen",
+        "affiliation": "University of Wisconsin Madison",
+        "email": "candresen@wisc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Yose",
+        "familyName": "Angel"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Adam",
+        "familyName": "Collins",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "acollins@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Joan",
+        "familyName": "Damerow",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "joandamerow@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Brett",
+        "familyName": "Feddersen",
+        "affiliation": "University of Illinois at Urbana-Champaign",
+        "email": "bfeddrsn@illinois.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sean",
+        "familyName": "Freeman",
+        "affiliation": "Colorado State University",
+        "email": "sean.freeman@colostate.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Peng",
+        "familyName": "Fu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Brian",
+        "familyName": "Greene",
+        "affiliation": "University of Oklahoma",
+        "email": "brian.greene@ou.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3011-7934",
+        "givenName": "Wouter",
+        "familyName": "Hanston",
+        "affiliation": "University of Maine",
+        "email": "wouter.hantson@maine.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mark J.",
+        "familyName": "Lara",
+        "affiliation": "University of Illinois at Urbana-Champaign",
+        "email": "mjlara@illinois.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "LeBauer",
+        "affiliation": "University of Arizona",
+        "email": "dlebauer@arizona.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0963-4216",
+        "givenName": "Trina",
+        "familyName": "Merrick",
+        "affiliation": "U.S. Naval Research Laboratory",
+        "email": "trina.merrick@nrl.navy.mil"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Emily",
+        "familyName": "Robles",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "emilyarobles@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alexey",
+        "familyName": "Shiklomanov",
+        "affiliation": "NASA Goddard Space Flight Center",
+        "email": "alexey.shiklomanov@nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Matthias",
+        "familyName": "Siewert",
+        "affiliation": "Ume\u00e5 University",
+        "email": "matthias.siewert@umu.se"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Charaluka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8991-3970",
+        "givenName": "Jin",
+        "familyName": "Wu",
+        "affiliation": "The University of Hong Kong",
+        "email": "jinwu@hku.hk"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SURFACE RADIATIVE PROPERTIES",
+      "EARTH SCIENCE > LAND SURFACE > SURFACE THERMAL PROPERTIES",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > LIDAR",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > PLATFORM CHARACTERISTICS",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > SENSOR CHARACTERISTICS",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > VISIBLE WAVELENGTHS",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > INFRARED WAVELENGTHS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES",
+      "ESS-DIVE Unoccupied Aerial Systems (UAS) Reporting Format v 1.0.0"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2023",
+      "endDate": "2023",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3915-001X",
+      "givenName": "Kim",
+      "familyName": "Ely",
+      "affiliation": "Brookhaven National Laboratory",
+      "email": "kely@bnl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "f5bb4f8b-224d-4d6a-9040-ae5a4a2959e6"
+      },
+      "name": "Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "daagarwal@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "A literature review was conducted in March 2022 to search for any applicable existing standards or reporting formats. Documentation from major agencies in the United States that use UAS technology were reviewed, including the ARM Data File Standards, EPA UAS handbook, NASA Procedural Requirements Policy and USGS UAS data delivery specification. A first draft of metadata requirements for UAS research campaigns, flights, platforms and sensors was developed based on existing practices of the BNL TEST group. The UAS user community, both with ESS organizations and externally, were invited to review, provide feedback or otherwise contribute to development of the reporting format. Subject matter experts were contacted via email (a contact list of 140 individuals from 25 institutions) and invitation to attend ESS-DIVE webinars, talks and poster presentations to a number of DOE and ESS communities and at an international meeting (IEEE GRSS second workshop on Remote Sensing Data Management Technologies). The reporting format documentation was refined through three development versions (and multiple minor versions) using Google Docs. A set of templates was developed to capture metadata from UAS experimental campaigns, individual flights, platforms and sensors. A scheme of data levels was described to allow classification of data products by the level of processing, from raw data to complex derived data products. The final documentation and instructions is published on GitHub for public access at https://github.com/ess-dive-community/essdive-uas/."
+    ],
+    "distribution": [
+      {
+        "contentSize": 13.453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-96154625147bd54-20231028T005253466",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-96154625147bd54-20231028T005253466",
+        "name": "ESS_DIVE_Unoccupied_Aerial_Systems_UAS_.xml"
+      },
+      {
+        "contentSize": 28.8203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-beedb2298a10f30-20231026T013342909",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-beedb2298a10f30-20231026T013342909",
+        "name": "essdive_uas_main_V1_0_0.zip"
+      }
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "id": "ess-dive-d6444cb1dc04ac5-20250930T205238686",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2483557",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-d6444cb1dc04ac5-20250930T205238686",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d6444cb1dc04ac5-20250514T050441881",
+  "dateUploaded": "2025-09-30T20:52:39.255Z",
+  "dateModified": "2025-09-30T20:52:39.568Z",
+  "isPublic": true,
+  "citation": "Steckler M; Kumar J; Breen A; Zhang T; Hoffman F; Hargrove W; Walker D; Wells A; Droghini A; Nawrocki T; Wullschleger S; Macander M; Frost G; Salmon V; Iversen C (2025): The Pan-Arctic Vegetation Cover (PAVC) database v1.1. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2483557",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2483557",
+    "name": "The Pan-Arctic Vegetation Cover (PAVC) database v1.1",
+    "description": [
+      "The Pan-Arctic Vegetation Cover (PAVC) database contains synthesized field-data observations of vegetation cover from 978 Arctic Alaska plots with observations from 2010 to 2021. The cover datasets contain plot data at both the plant functional type (PFT) and species-level resolution, with standardized PFT definitions and species names. We synthesized publicly available point-intercept and visual estimate plots from the Arctic Vegetation Archive of Alaska, the Alaska Vegetation Plots Database, the North Slope Science Catalog, and the National Ecological Observatory Network; as well as previously unpublished data from the Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic).",
+      "Users will find four synthesized datasets, 4 associated data descriptor (dd) files, and 1 metadata file in the PAVC database:",
+      "synthesized_species_fcover.csv contains fractional cover (fcover) for unique accepted species names, where names include vegetation identified at the family, genus, species, subspecies, and variety levels, as well as general functional types across all 5 data sources. The synthesized_species_fcover_dd.csv accompanies this dataset with header information.",
+      "synthesized_pft_fcover.csv contains fcover for the following PFTs: non-vascular plants with lichen and bryophyte subcategories, trees with deciduous and evergreen subcategories, shrubs with deciduous and evergreen subcategories, graminoids (grasses), and forbs (herbaceous flowering plants) measured as total cover. Litter and \u201cother\u201d cover are also included as total cover. Additional \u201ctypes\u201d include water and bare ground, which were measured as top cover. The synthesized_pft_fcover_dd.csv accompanies this dataset with header information.",
+      "species_pft_checklist.csv is a lookup table containing the translation from a dataset species name to an accepted species name and to a PFT. This table can be used to clarify our species to PFT adjudications, and to aid users in assigning their own PFTs. Any issues found in this checklist should be reported in the Issues tab of our github.",
+      "survey_unit_information.csv contains auxiliary information about the plots synthesized in this database. It contains useful information for filtering plots of interest based on temporal, geospatial, and contextual information about the plot surveys.",
+      "flmd.csv contains metadata information about each file in the database.",
+      "This research was performed as a part of the NGEE Arctic project. The NGEE Arctic project was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "NGA546"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5620-6716",
+        "givenName": "Morgan",
+        "familyName": "Steckler",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "stecklermr@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0159-0546",
+        "givenName": "Jitendra",
+        "familyName": "Kumar",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "kumarj@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1109-3906",
+        "givenName": "Amy",
+        "familyName": "Breen",
+        "affiliation": "University of Alaska Fairbanks",
+        "email": "albreen@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0967-0599",
+        "givenName": "Tianqi",
+        "familyName": "Zhang",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "zhangt1@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5802-4134",
+        "givenName": "Forrest",
+        "familyName": "Hoffman",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "hoffmanfm@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9830-0022",
+        "givenName": "William",
+        "familyName": "Hargrove",
+        "affiliation": "USDA Forest Service - SRS",
+        "email": "william.w.hargrove@usda.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Donald",
+        "familyName": "Walker",
+        "affiliation": "University of Alaska Fairbanks",
+        "email": "dawakjer@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1313-0376",
+        "givenName": "Aaron",
+        "familyName": "Wells",
+        "affiliation": "AECOM Technical Services",
+        "email": "aaron.wells@aecom.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6692-2348",
+        "givenName": "Amanda",
+        "familyName": "Droghini",
+        "affiliation": "University of Alaska Anchorage",
+        "email": "adroghini@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3674-3976",
+        "givenName": "Timm",
+        "familyName": "Nawrocki",
+        "affiliation": "University of Alaska Anchorage",
+        "email": "twnawrocki@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9869-0446",
+        "givenName": "Stan",
+        "familyName": "Wullschleger",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "wullschlegs1@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-00032808-208X",
+        "givenName": "Matthew",
+        "familyName": "Macander",
+        "affiliation": "Alaska Biological Research, Inc.",
+        "email": "mmacander@abrinc.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5134-0334",
+        "givenName": "Gerald",
+        "familyName": "Frost",
+        "affiliation": "Alaska Biological Research, Inc.",
+        "email": "jfrost@abrinc.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2188-551X",
+        "givenName": "Verity",
+        "familyName": "Salmon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "salmonvg@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8293-3450",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > BIOLOGICAL CLASSIFICATION > PLANTS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "PROJECTS > NGEE ARCTIC",
+      "LOCATIONS > CONTINENT > NORTH AMERICA > UNITED STATES OF AMERICA > ALASKA",
+      "LOCATIONS > GEOGRAPHIC REGIONS > ARCTIC",
+      "DATA FORMAT > CSV",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > VEGETATION COVER"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Seward Peninsula, Alaska; National Ecological Observatory Network TOOLIK field station; National Ecological Observatory Network Utqiagvik (Barrow) field station; Prudhoe Bay Airport; Prudhoe Bay roadside; Barrow Environmental Observatory (BEO) flux towers; Atqasuk; National Petroleum Reserve of Alaska; NGEE Arctic Utqiagvik (Barrow), Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.32503999999997,
+            "longitude": -165.97109
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.72789749999966,
+            "longitude": -148.422128
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0500OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2010-08-01",
+      "endDate": "2021-08-07",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5620-6716",
+      "givenName": "Morgan",
+      "familyName": "Steckler",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "stecklermr@ornl.gov"
+    },
+    "citation": [
+      "Steckler, M.R., Breen, A.L., Zhang, T., Hoffman, F.M., Hargrove, W.W., Walker, D.A., Wells, A.F., Droghini, A., Nawrocki, T.W., Wullschleger, S.D., Macander, M.J., Frost, G.V., Salmon, V.G., Barnett, D.T., Iversen, C.M., and Kumar, J. PAVC: The foundation for a Pan-Arctic Vegetation Cover database. 2025. (in prep). Zhang, T., Steckler, M.R., Breen, A.L., Hoffman, F.M., Hargrove, W.W., & Kumar, J. Estimating Fractional Cover of Arctic Tundra Plant Functional Types on the North Slope of Alaska Using Sentinel and Harmonized Plot Observations. 2025. (in prep)."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Ensure that the dataset meets the bare minimum requirements for inclusion in the database:\n- Cover is measured at the species-level\n- Cover is measured as absolute cover, the proportion of the plot's area covered by vegetation spread across all heights in the plant community (can sum to over 100 percent)\n- Non-vegetation cover is available as top cover, the proportion of the plot's area covered by vegetation in only the top layer of the plant community (it should always sum to 100 percent)\n- Water\n- Bare Ground (bare soil, bare ground, rock, etc.)\n- Information about the plot's location, survey methods, authors, etc. are accessible",
+      "Visually inspect, clean, and format cover tables before standardization:\n- Rows should be species names (without author if possible)\n- Column headers should be unique plot IDs (ensure uniqueness!!!)\n- Cell values should be the cover\n- There should be no extra blank columns or rows, nor extra column/row labels\n- Encoded as 'utf-8-sig' in Python",
+      "Create/gather auxiliary data:\nGather plot-level and survey-level auxiliary information We categorize our auxiliary information as temporal, spatial, contextual, and geo-contextual. Below are the auxiliary plot information that contributors should assemble when synthesizing a dataset according to PAVC.",
+      "Clean the cover values:\n- Correct cover values that, when converted to float, raise a data-type error\n- For example, \"Trace\" was sometimes used instead of 0.01\n- Human error\n- If applicable, convert 0.0 cover to a trace value like 0.01. Some datasets indicate trace with a small percent, with the text 'Trace', 'T', etc. Some datasets include 0 cover to mean that a species was present in the plot but at very trace amounts. In our database, we standardize trace by assigning a small value like 0.01 to the 0 cover values if applicable.\n- Ensure cover is represented as a percent\n- Older plots used Braun-Blanquet or Westoff oridnal codes that indicate a range of cover; the mid-point percentage was used as the representative percent cover value\nIf working with ordinal cover codes, ensure you know the percentage ranges that represent each code---this can vary from project to project.",
+      "Species and PFT standardization:\n- Join the species names from your cover table to the species name in the AKVEG Species Checklist to identify potential habits and accepted species names You'll be happy to know that we wrote a big 'ole function for this in our support python module. You should use that to match your table's species names to the AKVEG checklist.\n- Join the species names from your cover data to the species name in the Leaf Habit Supplementary Table from Macander et al. (2020) to assign shrubs/trees a leaf retention type (deciduous, evergreen)\n- Export the join of species names, their associated \"potential\" accepted names, and growth habits The list of potential accepted names is supposed to aid the user in assigning an accepted name. If there was no match between your species name and an AKVEG species name, you should consult with an expert to assign an accepted species name, author, and naming authority.\n- Manually ID one accepted species name for each of your dataset's species names. The manual species name adjudication process is the most time-consuming component of this project. The species names from your data table should be creafully assigned an accepted species name. You also should know the author of the species name, as well as the authority you referenced during accepted name assignment. You'll also need to assign whether the name you've chosen is at the family, genus, species, subspecies, variety, or type (functional type) level.",
+      "PFT aggregated:\n- Aggregate species-level fcover to PFT-level fcover by grouping species into their PFTs and summing We have specific PFT categories: lichen and bryophytes (sum = non-vascular), graminoid, deciduous shrub, evergreen shrub, deciduous tree, evergreen tree, and other; as well as litter, all represented as absolute foliar cover. Water and bare ground are also necessary, but they should be measured as top cover."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1194.9423828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1e1ef3c54f2f168-20250514T050322531",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1e1ef3c54f2f168-20250514T050322531",
+        "name": "survey_unit_information.csv"
+      },
+      {
+        "contentSize": 895.263671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-42fa34ad2c56203-20250514T050322528",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-42fa34ad2c56203-20250514T050322528",
+        "name": "species_pft_checklist.csv"
+      },
+      {
+        "contentSize": 3.14453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d472342d1b93ff8-20250514T050322525",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d472342d1b93ff8-20250514T050322525",
+        "name": "species_pft_checklist_dd.csv"
+      },
+      {
+        "contentSize": 18.9384765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d6444cb1dc04ac5-20250930T205238686",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-d6444cb1dc04ac5-20250930T205238686",
+        "name": "The_Pan_Arctic_Vegetation_Cover_PAVC_database.xml"
+      },
+      {
+        "contentSize": 116.2080078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5df8bb97bb6bd00-20250514T050322535",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5df8bb97bb6bd00-20250514T050322535",
+        "name": "synthesized_pft_fcover.csv"
+      },
+      {
+        "contentSize": 1.7705078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-60738864c41766d-20250514T050322521",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-60738864c41766d-20250514T050322521",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 3.4189453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a6d702ef913db63-20250514T050322529",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a6d702ef913db63-20250514T050322529",
+        "name": "survey_unit_information_dd.csv"
+      },
+      {
+        "contentSize": 1.880859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-926e52c569f9203-20250514T050322533",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-926e52c569f9203-20250514T050322533",
+        "name": "synthesized_pft_fcover_dd.csv"
+      },
+      {
+        "contentSize": 2099.6923828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-73faa443eccb2c0-20250514T050322539",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-73faa443eccb2c0-20250514T050322539",
+        "name": "synthesized_species_fcover.csv"
+      },
+      {
+        "contentSize": 0.5966796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fdebe3c22defc76-20250514T050322537",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fdebe3c22defc76-20250514T050322537",
+        "name": "synthesized_species_fcover_dd.csv"
+      }
+    ]
+  }
+}

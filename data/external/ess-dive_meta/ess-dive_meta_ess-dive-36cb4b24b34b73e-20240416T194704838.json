@@ -1,0 +1,277 @@
+{
+  "id": "ess-dive-36cb4b24b34b73e-20240416T194704838",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2336865",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-36cb4b24b34b73e-20240416T194704838",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-b4400a151bd3b3b-20240411T200027496",
+  "dateUploaded": "2024-04-16T19:47:06.432Z",
+  "dateModified": "2024-04-17T00:03:31.613Z",
+  "isPublic": true,
+  "citation": "Bao J; Song X; Chen Y; Fang Y; Perkins W; Powers-McCormack B; Duan Z; Ren H (2024): Data and scripts associated with a manuscript on residence time distribution simulation in two 10-kilometer long river sections. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2336865",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2336865",
+    "name": "Data and scripts associated with a manuscript on residence time distribution simulation in two 10-kilometer long river sections",
+    "description": [
+      "This data package is associated with the publication \u201cOn the Transferability of Residence Time Distributions in Two 10-km Long River Sections with Similar Hydromorphic Units\u201d submitted to the Journal of Hydrology (Bao et al. 2024).",
+      "Quantifying hydrologic exchange fluxes (HEFs) at the stream-groundwater interface, along with their residence time distributions (RTDs) in the subsurface, is crucial for managing water quality and ecosystem health in dynamic river corridors. However, directly simulating high-spatial resolution HEFs and RTDs can be a time-consuming process, particularly for watershed-scale modeling. Efficient surrogate models that link RTDs to hydromorphic units (HUs) may serve as alternatives for simulating RTDs in large-scale models. One common concern with these surrogate models, however, is the transferability of the relationship between the RTDs and HUs from one river corridor to another. To address this, we evaluated the HEFs and the resulting RTD-HU relationships for two 10-kilometer-long river corridors along the Columbia River, using a one-way coupled three-dimensional transient surface-subsurface water transport modeling framework that we previously developed. Applying this framework to the two river corridors with similar HUs allows for quantitative comparisons of HEFs and RTDs using both statistical tests and machine learning classification models. This data package includes the model inputs files and the simulation results data.",
+      "This data package contains 10 folders. The modeling simulation results data are in the folders 100H_pt_data and 300area_pt_data, for the study domain Hanford 100H and 300 area respectively. The remaining eight folders contain the scripts and data to generate the manuscript figures. The file-level metadata file (Bao_2024_Residence_Time_Distribution _flmd.csv) includes a list of all files contained in this data package and descriptions for each. The data dictionary file (Bao_2024_Residence_Time_Distribution _dd.csv) includes column header definitions and units of all tabular files."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6649-5921",
+        "givenName": "Jie",
+        "familyName": "Bao",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "jie.bao@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4932-595X",
+        "givenName": "Xuehang",
+        "familyName": "Song",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "xuehang.song@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6065-8339",
+        "givenName": "Yunxiang",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "yunxiang.chen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1969-9889",
+        "givenName": "Yilin",
+        "familyName": "Fang",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "yilin.fang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6530-7711",
+        "givenName": "William",
+        "familyName": "Perkins",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "william.perkins@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0910-4610",
+        "givenName": "Zhuoran",
+        "familyName": "Duan",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "zhuoran.duan@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0507-3228",
+        "givenName": "Huiying",
+        "familyName": "Ren",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "huiying.ren@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Model Data Archiving Guidelines",
+      "Computational fluid dynamics",
+      "CFD",
+      "River flow model",
+      "Subsurface-flow model",
+      "Residence time distribution",
+      "RTD",
+      "Hydromorphic unit",
+      "HU",
+      "Transferability"
+    ],
+    "variableMeasured": [
+      "Velocity",
+      "River water stage",
+      "Residence time",
+      "Temperature",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUND WATER PROCESSES/MEASUREMENTS > DISCHARGE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Columbia River, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.72894754,
+            "longitude": -119.9123148
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.26490693,
+            "longitude": -119.2484008
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2011-01-01",
+      "endDate": "2015-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6649-5921",
+      "givenName": "Jie",
+      "familyName": "Bao",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "jie.bao@pnnl.gov"
+    },
+    "citation": [
+      "Jie Bao, Xuehang Song, Yunxiang Chen, Yilin Fang, Xinming Lin, Zhangshuan Hou, Zhuoran Duan, Huiying Ren, William Perkins, Xiaoliang He, and Timothy Scheibe, On the Transferability of Residence Time Distributions in Two 10-km Long River Sections with Similar Hydromorphic Units, Journal of Hydrology, 2024, under revision.",
+      "Jie Bao, Xuehang Song, Yunxiang Chen, Yilin Fang, Xinming Lin, Zhangshuan Hou, Zhuoran Duan, Huiying Ren, William Perkins, Xiaoliang He, and Timothy Scheibe, On the Transferability of Residence Time",
+      "Distributions in Two 10-km Long River Sections with Similar Hydromorphic Units, Journal of Hydrology, 2024, under revision.",
+      "Hou, z., Ren, h., Murray, c., Song, x., Fang, y., Arntzen, E. v., Chen, x., Stegen, J. c., Huang, m., Gomez-Velez, j., Duan, z., Perkins, W. a., Richmond, M. C. & Scheibe, T. 2021. A novel construct for scaling groundwater\u2013river interactions based on machine-guided hydromorphic classification. Environmental Research Letter, 16, 104016.",
+      "Richmond, M. C. & Perkins, W. A. 2009. Effcient calculation of dewatered and entrapped areas using hydrodynamic modeling and GIS. Environmental Modelling and Software, 24, 1447-1456.",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "In this study, we applied the one-way coupled river and subsurface water transport models to simulate the surface and subsurface water transport in two river sections on the Columbia River and the nearby inland regions, Hanford 100-H and 300 Area. The particle-tracking model was used to numerically release 100 million particles from October 2013 to October 2014, tracking each particle transport in subsurface domain. The particle transport times for all the released particles are summarized into residence time distributions for quantitatively evaluation of their similarity and transferability in the same HUs in the two regions. The detailed methods are introduced and discussed in the associated manuscript (Bao et al. 2024)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1.30859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1cca7bd75cf5ff5-20240411T172519997",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-1cca7bd75cf5ff5-20240411T172519997",
+        "name": "Figure8.zip"
+      },
+      {
+        "contentSize": 12.8505859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1052b5a808684e2-20240411T172538790",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1052b5a808684e2-20240411T172538790",
+        "name": "Bao_2024_Residence_Time_Distribution_flmd.csv"
+      },
+      {
+        "contentSize": 13.4814453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-36cb4b24b34b73e-20240416T194704838",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-36cb4b24b34b73e-20240416T194704838",
+        "name": "Data_and_scripts_associated_with_a_manuscript_on.xml"
+      },
+      {
+        "contentSize": 3.0771484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e86ddaf830b409a-20240411T172538783",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e86ddaf830b409a-20240411T172538783",
+        "name": "Bao_2024_Residence_Time_Distribution_dd.csv"
+      },
+      {
+        "contentSize": 14407.53515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6033dcec0eb79c0-20240411T172519980",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6033dcec0eb79c0-20240411T172519980",
+        "name": "Figure6.zip"
+      },
+      {
+        "contentSize": 3072581.34765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5b879875ea67eb1-20240411T172511933",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-5b879875ea67eb1-20240411T172511933",
+        "name": "Figure4.zip"
+      },
+      {
+        "contentSize": 2981.5068359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-83e97ca144c6008-20240411T172538794",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-83e97ca144c6008-20240411T172538794",
+        "name": "readme_Bao_2024_Residence_Time_Distribution.pdf"
+      },
+      {
+        "contentSize": 1384286.203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8585b7743012f28-20240411T172457542",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8585b7743012f28-20240411T172457542",
+        "name": "300area_pt_data.zip"
+      },
+      {
+        "contentSize": 29969.6201171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a8780f6fda03739-20240411T172502254",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a8780f6fda03739-20240411T172502254",
+        "name": "Figure1.zip"
+      },
+      {
+        "contentSize": 5815.3720703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-953ff0f7d3dcee5-20240411T172519969",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-953ff0f7d3dcee5-20240411T172519969",
+        "name": "Figure5.zip"
+      },
+      {
+        "contentSize": 714.2802734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-af44ee7923db0b6-20240411T172507786",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-af44ee7923db0b6-20240411T172507786",
+        "name": "Figure3.zip"
+      },
+      {
+        "contentSize": 1.8193359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-df6dc201b35b0ec-20240411T172519990",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-df6dc201b35b0ec-20240411T172519990",
+        "name": "Figure7.zip"
+      },
+      {
+        "contentSize": 1698501.720703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dfb4e39def748b4-20240411T172453129",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dfb4e39def748b4-20240411T172453129",
+        "name": "100H_pt_data.zip"
+      }
+    ]
+  }
+}

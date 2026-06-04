@@ -1,0 +1,498 @@
+{
+  "id": "ess-dive-5d71e73f1ff430f-20240422T191810401",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2319037",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-5d71e73f1ff430f-20240422T191810401",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-5d71e73f1ff430f-20240307T005940407",
+  "dateUploaded": "2024-04-22T19:18:11.343Z",
+  "dateModified": "2024-04-22T19:18:13.123Z",
+  "isPublic": true,
+  "citation": "Danczak R E; Goldman A E; Borton M A; Chu R; Toyoda J G; Garayburu-Caruso V A; Graham E B; Morad J W; Renteria L; Wells J R; Arnon S; Brooks S; Bar-Zeev E; Jones M; Jones N; Lewandowski J; Meile C; Muller B M; Powers-McCormack B; Schalles J; Schulz H; Ward A; Stegen J C (2024): Data and scripts associated with a manuscript investigating dissolved organic matter and microbial community linkages across seven globally distributed rivers. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2319037",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2319037",
+    "name": "Data and scripts associated with a manuscript investigating dissolved organic matter and microbial community linkages across seven globally distributed rivers",
+    "description": [
+      "This data package is associated with the publication \u201cMeta-metabolome ecology reveals that geochemistry and microbial functional potential are linked to organic matter development across seven rivers\u201d submitted to Science of the Total Environment. This data package includes the data necessary to replicate the analyses presented within the manuscript to investigate dissolved organic matter (DOM) development across broad spatial distances and within divergent biomes. Specifically, we included the Fourier transform ion cyclotron mass spectrometry (FTICR-MS) data, geochemistry data, annotated metagenomic data, and results from ecological null modeling analyses in this data package. Additionally, we included the scripts necessary to generate the figures from the manuscript.",
+      "Complete metagenomic data associated with this data package can be found at the National Center for Biotechnology (NCBI) under Bioproject PRJNA946291.",
+      "This dataset consists of (1) four folders; (2) a file-level metadata (flmd) file; (3) a data dictionary (dd) file; (4) a factor sheet describing samples; and (5) a readme. The FTICR Data folder contains (1) the processed Fourier transform ion cyclotron mass spectrometry (FTICR-MS) data; (2) a transformation-weighted characteristics dendrogram generated from the FTICR-MS data; and (3) the script used to generate all FTICR-MS related figures. The Geochemical Data folder contains (1) the single geochemistry data file and (2) the R script responsible for generating associated figures. The Metagenomic Data folder contains (1) annotation information across different levels; (2) carbohydrate active enzyme (CAZyme) information from the dbCAN database (Yin et al., 2012); (3) phylogenetic tree data (FASTAs, alignments, and tree file); and (4) the scripts necessary to analyze all of these data and generate figures. The Null Modeling Data folder contains (1) data generated during null modeling for each river and all rivers combined and (2) the R scripts necessary to process the data. All files are .csv, .pdf, .tsv, .tre, .faa, .afa, .tree, or .R."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert E.",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8037-4253",
+        "givenName": "Mikayla A.",
+        "familyName": "Borton",
+        "affiliation": "Colorado State University",
+        "email": "Mikayla.Borton@colostate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Rosalie",
+        "familyName": "Chu",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Rosalie.Chu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6299-2146",
+        "givenName": "Jason G.",
+        "familyName": "Toyoda",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Jason.Toyoda@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4623-7076",
+        "givenName": "Emily B.",
+        "familyName": "Graham",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "emily.graham@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Joseph W.",
+        "familyName": "Morad",
+        "affiliation": "New Jersey Department of Environmental Protection",
+        "email": "Joseph.Morad@dep.nj.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7043-278X",
+        "givenName": "Jacqueline R.",
+        "familyName": "Wells",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "jacqueline.wells@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7109-8979",
+        "givenName": "Shai",
+        "familyName": "Arnon",
+        "affiliation": "Ben-Gurion University of the Negev",
+        "email": "sarnon@bgu.ac.il"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8437-9788",
+        "givenName": "Scott",
+        "familyName": "Brooks",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "brookssc@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6575-2068",
+        "givenName": "Edo",
+        "familyName": "Bar-Zeev",
+        "affiliation": "Ben-Gurion University of the Negev, Zuckerberg Institute for Water Research",
+        "email": "barzeeve@bgu.ac.il"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Michael",
+        "familyName": "Jones",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "jonesmw@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nikki",
+        "familyName": "Jones",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "jonesnj@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5278-129X",
+        "givenName": "Jorg",
+        "familyName": "Lewandowski",
+        "affiliation": "Leibniz Institute of Freshwater Ecology and Inland Fisheries",
+        "email": "lewe@igb-berlin.de"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0825-4596",
+        "givenName": "Christof",
+        "familyName": "Meile",
+        "affiliation": "The University of Georgia",
+        "email": "cmeile@uga.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Birgit M.",
+        "familyName": "Muller",
+        "affiliation": "Leibniz Institute of Freshwater Ecology and Inland Fisheries",
+        "email": "birgit-maria.mueller@igb-berlin.de"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4228-1288",
+        "givenName": "John",
+        "familyName": "Schalles",
+        "affiliation": "Creighton University",
+        "email": "JohnSchalles@creighton.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8627-2474",
+        "givenName": "Hanna",
+        "familyName": "Schulz",
+        "affiliation": "Leibniz Institute of Freshwater Ecology and Inland Fisheries",
+        "email": "h.schulz@igb-berlin.de"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6376-0061",
+        "givenName": "Adam",
+        "familyName": "Ward",
+        "affiliation": "Oregon State University",
+        "email": "Adam.ward@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024-02-20",
+    "keywords": [
+      "River corridor",
+      "Freshwater",
+      "River",
+      "Stream",
+      "Watershed",
+      "Biogeochemistry",
+      "Microbiology",
+      "Bioinformatics",
+      "Organic matter",
+      "Environmental Metabolomics",
+      "Mass spectrometry",
+      "WHONDRS",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "FTICR-MS",
+      "Fourier-transform ion cyclotron resonance",
+      "Metagenomic coverage",
+      "Specific conductivity",
+      "SpC",
+      "Phosphorus",
+      "Fluoride",
+      "Chloride",
+      "Sulfate",
+      "Nitrite",
+      "Nitrate",
+      "Total dissolved nitrogen",
+      "TN",
+      "Non-purgeable organic carbon",
+      "NPOC",
+      "Dissolved organic carbon",
+      "DOC",
+      "Sodium",
+      "Calcium",
+      "Magnesium",
+      "Potassium",
+      "Iron",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > pH",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > CONDUCTIVITY"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Watershed 1 (WS1) stream in H.J. Andrews Experimental Forest, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2065,
+            "longitude": -122.2566
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2065,
+            "longitude": -122.2566
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Along the shoreline of the Nisqually River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7386,
+            "longitude": -121.9181
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7386,
+            "longitude": -121.9181
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The shoreline of the Erpe River, Germany",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 52.4764,
+            "longitude": 13.6257
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 52.4764,
+            "longitude": 13.6257
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The shoreline of the Altamaha River, Georgia, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.3346,
+            "longitude": -81.4793
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.3346,
+            "longitude": -81.4793
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The shoreline of the Columbia River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.373,
+            "longitude": -119.272
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.373,
+            "longitude": -119.272
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The shoreline of the Jordan River, Israel",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.1805,
+            "longitude": 35.6156
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.1805,
+            "longitude": 35.6156
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The shoreline of East Fork Poplar Creek, Tennessee, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.9662,
+            "longitude": -84.3584
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.9662,
+            "longitude": -84.3584
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-07-03",
+      "endDate": "2018-10-18",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1396-192X",
+      "givenName": "Robert E.",
+      "familyName": "Danczak",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "robert.danczak@pnnl.gov"
+    },
+    "citation": [
+      "Chu, R.K., Goldman, A.E., Brooks, S.C., Danczak, R.E., Garayburu-Caruso, V.A., Graham, E.B., Jones, M., Jones, N., Lin, X., Morad, J.W., Ren, H., Renteria, L., Resch, C.T., Tfaily, M., Tolic, N., Toyoda, J.G., Wells, J.R., Stegen, J.C., 2019. WHONDRS 48 Hour Diel Cycling Study at the East Fork Poplar Creek in Tennessee, USA. https://doi.org/10.15485/1577278",
+      "Danczak, R.E., Goldman, A.E., Chu, R.K., Garayburu-Caruso, V.A., Graham, E.B., He, X., Lin, X., Meile, C., Morad, J.W., Ren, H., Renteria, L., Resch, C.T., Rooze, J., Schalles, J., Tfaily, M., Thomle, J., Tolic, N., Toyoda, J.G., Wells, J.R., Stegen, J.C., 2019. WHONDRS 48 Hour Diel Cycling Study at the Altamaha River in Georgia, USA. https://doi.org/10.15485/1577263",
+      "Garayburu-Caruso, V.A., Goldman, A.E., Chu, R.K., Danczak, R.E., Graham, E.B., Lin, X., Morad, J.W., Ren, H., Renteria, L., Resch, C.T., Tfaily, M., Tolic, N., Toyoda, J.G., Wells, J.R., Stegen, J.C., 2019. WHONDRS 48 Hour Diel Cycling Study at the Columbia River in Washington, USA. https://doi.org/10.15485/1577265",
+      "Goldman, A.E., Arnon, S., Bar-Zeev, E., Chu, R.K., Danczak, R.E., Garayburu-Caruso, V.A., Graham, E.B., Lin, X., Morad, J.W., Ren, H., Renteria, L., Resch, C.T., Tfaily, M., Tolic, N., Toyoda, J.G., Wells, J.R., Stegen, J.C., 2019. WHONDRS 48 Hour Diel Cycling Study at the Jordan River, Israel. https://doi.org/10.15485/1577266",
+      "Renteria, L., Goldman, A.E., Chu, R.K., Danczak, R.E., Garayburu-Caruso, V.A., Graham, E.B., Lin, X., Morad, J.W., Ren, H., Resch, C.T., Tfaily, M., Tolic, N., Toyoda, J.G., Wells, J.R., Znotinas, K.R., Stegen, J.C., 2019. WHONDRS 48 Hour Diel Cycling Study at the Nisqually River, WA. https://doi.org/10.15485/1576995",
+      "Shaffer, M., Borton, M.A., McGivern, B.B., Zayed, A.A., La Rosa, S.L., Solden, L.M., Liu, P., Narrowe, A.B., Rodri\u00adguez-Ramos, J., Bolduc, B., Gazit\u00c3\u00baa, M.C., Daly, R.A., Smith, G.J., Vik, D.R., Pope, P.B., Sullivan, M.B., Roux, S., Wrighton, K.C., 2020. DRAM for distilling microbial metabolism to automate the curation of microbiome function. Nucleic Acids Res. 48, 8883\u00e2\u0080\u00938900. https://doi.org/10.1093/nar/gkaa621",
+      "Stegen, J.C., Goldman, A.E., Chu, R.K., Danczak, R.E., Garayburu-Caruso, V.A., Graham, E.B., Lin, X., Morad, J.W., Ren, H., Renteria, L., Resch, C.T., Tfaily, M., Tolic, N., Toyoda, J., Wells, J., Herzog, S., Wondzell, S.M., 2019. WHONDRS 48 Hour Diel Cycling Study at HJ Andrews Experimental Forest Watershed 1 (WS1). https://doi.org/10.15485/1509695",
+      "Wells, J.R., Goldman, A.E., Chu, R.K., Danczak, R.E., Garayburu-Caruso, V.A., Graham, E.B., Lewandowski, J., Lin, X., Meinikmann, K., Morad, J.W., M\u00c3\u00bcller, B.M., Ren, H., Renteria, L., Resch, C.T., Schulz, H., Tfaily, M., Tolic, N., Toyoda, J.G., Stegen, J.C., 2019. WHONDRS 48 Hour Diel Cycling Study at the Erpe River, Germany. https://doi.org/10.15485/1577260",
+      "Yin, Y., Mao, X., Yang, J., Chen, X., Mao, F., Xu, Y., 2012. dbCAN: a web resource for automated carbohydrate-active enzyme annotation. Nucleic Acids Res. 40, W445\u2013W451. https://doi.org/10.1093/nar/gks479",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "These data are associated with the previously published WHONDRS 48-hour diel cycling data packages (Chu et al., 2019; Danczak et al., 2019; Garayburu-Caruso et al., 2019; Goldman et al., 2019; Renteria et al., 2019; Stegen et al., 2019; Wells et al., 2019); the raw data and associated metadata (including geographic locations and methods information) can be found within each associated data package. For full references of these data packages, refer to the Related References section above. Briefly, Fourier transform ion cyclotron mass spectrometry (FTICR-MS) and geochemical data from replicates contained in those data packages were merged such that a peak needed to be present in more than one replicate to be considered present in a sample. Ecological null modeling analyses were performed to assess the degree of selection impacting dissolved organic matter (DOM). Metagenomic datasets in this data package were generated by assembling the data, binning metagenome assembled genomes (MAGs), and annotating MAGs using DRAM (Shaffer et al., 2020).\nFor more detailed explanation of the methodology, please refer to the associated manuscript."
+    ],
+    "distribution": [
+      {
+        "contentSize": 4288.0166015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3750c9ce4b16017-20240305T135326793473",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-3750c9ce4b16017-20240305T135326793473",
+        "name": "FTICR_Data.zip"
+      },
+      {
+        "contentSize": 47233.142578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d9343255e2b3b93-20240305T215521111",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d9343255e2b3b93-20240305T215521111",
+        "name": "Metagenomic_Data.zip"
+      },
+      {
+        "contentSize": 12.6875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ece67cd33029e4f-20240305T135324157456",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ece67cd33029e4f-20240305T135324157456",
+        "name": "48Hour_flmd.csv"
+      },
+      {
+        "contentSize": 198.0654296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5f5c41fdf5dca6f-20240305T135329363498",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-5f5c41fdf5dca6f-20240305T135329363498",
+        "name": "Null_Modeling_Data.zip"
+      },
+      {
+        "contentSize": 25.4833984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5d71e73f1ff430f-20240422T191810401",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-5d71e73f1ff430f-20240422T191810401",
+        "name": "Data_and_scripts_associated_with_a_manuscript.xml"
+      },
+      {
+        "contentSize": 3067.3984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ad0106ca5bf23b0-20240305T135326775037",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-ad0106ca5bf23b0-20240305T135326775037",
+        "name": "48Hour_readme.pdf"
+      },
+      {
+        "contentSize": 22.0361328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-91207d275e6b382-20240305T135323968932",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-91207d275e6b382-20240305T135323968932",
+        "name": "48Hour_Factor_Sheet.csv"
+      },
+      {
+        "contentSize": 60.91015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-992cc9a223aa761-20240305T135326813147",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-992cc9a223aa761-20240305T135326813147",
+        "name": "Geochemical_Data.zip"
+      },
+      {
+        "contentSize": 26.5615234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-df920f4af7a8cc6-20240305T135324152989",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-df920f4af7a8cc6-20240305T135324152989",
+        "name": "48Hour_dd.csv"
+      }
+    ]
+  }
+}

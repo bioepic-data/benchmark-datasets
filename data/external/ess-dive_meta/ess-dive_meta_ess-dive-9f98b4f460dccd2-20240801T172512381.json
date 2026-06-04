@@ -1,0 +1,264 @@
+{
+  "id": "ess-dive-9f98b4f460dccd2-20240801T172512381",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2425965",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-9f98b4f460dccd2-20240801T172512381",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-52883afe7df9785-20240731T200436202",
+  "dateUploaded": "2024-08-01T17:25:13.118Z",
+  "dateModified": "2024-08-03T00:00:18.574Z",
+  "isPublic": true,
+  "citation": "Dillard S; Thomas L; Thaler E; Renner C; Gasarch E; Conroy N; Zhang Y; Trotter C (2024): Volumetric Soil Moisture Measurements at the Teller 27 Site, Seward Peninsula, Alaska, 2022-2023. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2425965",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2425965",
+    "name": "Volumetric Soil Moisture Measurements at the Teller 27 Site, Seward Peninsula, Alaska, 2022-2023",
+    "description": [
+      "The Teller 27 watershed on the Seward Peninsula, Alaska, has been well characterized by the NGEE Arctic project. The study site is underlain by discontinuous permafrost that is thawing as the climate warms. As a result, the site is experiencing a short-term wetting trend as a perched water table above the remaining permafrost provides plant available water during the growing season. Soil moisture patterns drive microbial activity and plant species compositions including plant density and height. This study aimed to understand how soil moisture patterns were influenced by tundra microtopography. To accomplish this, we placed a strategic network of soil moisture sensors in micro-highs, micro-lows, and control areas under different vegetation types within the Teller 27 watershed from summer of 2022 through fall of 2023. This data was used in conjunction with other soil data from the Teller 27 watershed to gain a more comprehensive understanding of soil moisture patterns in a rapidly thawing discontinuous permafrost region.",
+      "This dataset includes six *.csv files: four of time series soil moisture data, one of field soil moisture data, and one of site conditions. The dataset also includes one *.kml file of the watershed and the soil moisture sensor sites as well as this user guide to provide details on data collection and processing methods.",
+      "NGEE Arctic Project Summary",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy\u2019s Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy\u2019s Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "LA-UR-24-26202",
+      "NGEE Arctic Record_id: NGA533"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2139-2010",
+        "givenName": "Shannon",
+        "familyName": "Dillard",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "sldillard@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5002-2177",
+        "givenName": "Lauren",
+        "familyName": "Thomas",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "lnthomas@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4408-9321",
+        "givenName": "Evan",
+        "familyName": "Thaler",
+        "affiliation": "Los Alamos National Laboratory"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5266-6766",
+        "givenName": "Caleb",
+        "familyName": "Renner",
+        "affiliation": "Los Alamos National Laboratory"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9415-745X",
+        "givenName": "Eve",
+        "familyName": "Gasarch",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "egasarch@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0597-3373",
+        "givenName": "Nathan",
+        "familyName": "Conroy",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "nconroy@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9263-8428",
+        "givenName": "Yu",
+        "familyName": "Zhang",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "yuzhang@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0004-5986-3123",
+        "givenName": "Cade",
+        "familyName": "Trotter",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "ctrotter@lanl.gov"
+      }
+    ],
+    "datePublished": "2024-06-28",
+    "keywords": [
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "Soil moisture",
+      "Permafrost",
+      "Arctic"
+    ],
+    "variableMeasured": [
+      "Soil Moisture",
+      "O horizon depth",
+      "Maximum vegetation height",
+      "Thaw depth"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Teller Site, Mile Marker 27 (TL_MM27), Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.758839,
+            "longitude": -165.979295
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.712145,
+            "longitude": -165.921485
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0500OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-07-04",
+      "endDate": "2023-09-18",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2139-2010",
+      "givenName": "Shannon",
+      "familyName": "Dillard",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "sldillard@lanl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The in-situ sensor network at Teller 27 consists of spatial and temporal soil moisture data. We installed soil moisture sensors (10HS Soil Moisture Smart Sensor, Onset Computer Corporation, Bourne, MA) throughout the Teller watershed logging (H21-USB, HOBO USB Micro-Station Data Logger, Onset Computer Corporation, Bourne, MA) continuously every 30 minutes starting in July of 2022. These sensors measure volumetric water content (VWC) in cm3 water per cm3 of soil (\u00b13% accuracy) with a stated sensor volume of one liter to prevent bias from very fine-scale soil variability. The loggers were strategically placed in permafrost thaw features with high microtopographic heterogeneity which were identified by hydrology analyses from a fine resolution, lidar-derived digital elevation model. We placed four loggers with five sensors each at a depth of approximately 5-10 cm below the soil surface. At each logging station, two sensors were placed in micro-highs, two sensors in micro-lows, and one sensor in a control area of the permafrost feature. Ten of the 20 soil moisture sensors collected data between July 2022 until August 2022 before they were destroyed by wildlife. The remaining ten soil moisture sensors collected data until September 2023 for multi-year, spatially and temporally discrete soil moisture measurements. From the ten soil moisture sensors that remained in the field throughout the winter of 2022, we omitted observations when soils were frozen. We determined freeze and thaw dates by plotting the time series data in Hoboware software and assessing when the VWC rapidly dropped and rose, respectively. From the remaining data, we calculated daily averages and removed any observations with a VWC of less than 0 or greater than 1, which is due to sensor error.\nDuring the initial sensor installation, we also collected field data relevant to soil moisture. These data include O horizon depths in cm from seven cores per sensor site, vegetation type according to the Teller 27 hyperspectral vegetation map (SWDT: sedge-willow-Dryas tundra; WS: willow shrub; MSSTT: mixed shrub-sedge tussock tundra; Konduri et al., 2022), the maximum vegetation height in cm, and thaw depths in cm using a thaw probe from five locations around each site. The O horizon depths and thaw depths were averaged to reduce the risk of sampling heterogenous soils.\nAt each sensor location, we collected soil samples and brought them back to the laboratory for field soil moisture analysis. We dried each soil sample in a drying oven first at 65\u00b0C for 72 hours and then at 105\u00b0C for 22 hours. The field weight minus the dry weight gives the amount of water in the soils under ambient conditions from July 2022."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.5634765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-15408536d4fbdf7-20240722T172326042",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-15408536d4fbdf7-20240722T172326042",
+        "name": "TL27_Field_Soil_Moisture_July2022_dd.csv"
+      },
+      {
+        "contentSize": 1192.515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-13411cad3d594e8-20240730T221833038",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-13411cad3d594e8-20240730T221833038",
+        "name": "TL27_DL4.csv"
+      },
+      {
+        "contentSize": 2.96875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0ec9ad0632c7dc2-20240731T200409456",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0ec9ad0632c7dc2-20240731T200409456",
+        "name": "TL27_SiteConditions_SMSensors.csv"
+      },
+      {
+        "contentSize": 1.2626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a425687265df5b-20240801T172508163",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3a425687265df5b-20240801T172508163",
+        "name": "TL27_DL_dd.csv"
+      },
+      {
+        "contentSize": 1.251953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-33fcfdc7b2d24f6-20240628T230226746",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-33fcfdc7b2d24f6-20240628T230226746",
+        "name": "TL27_Field_Soil_Moisture_July2022.csv"
+      },
+      {
+        "contentSize": 2.708984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-34caef309c5eb56-20240731T200409462",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-34caef309c5eb56-20240731T200409462",
+        "name": "TL27_SMSensors_flmd.csv"
+      },
+      {
+        "contentSize": 94.60546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5e4bd388ef9bddb-20240730T221833021",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5e4bd388ef9bddb-20240730T221833021",
+        "name": "TL27_DL1.csv"
+      },
+      {
+        "contentSize": 93.0625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7dde0d715bbc8e9-20240730T221833028",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7dde0d715bbc8e9-20240730T221833028",
+        "name": "TL27_DL2.csv"
+      },
+      {
+        "contentSize": 0.8115234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-89b36608ffc1995-20240722T172326033",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-89b36608ffc1995-20240722T172326033",
+        "name": "TL27_SiteConditions_SMSensors_dd.csv"
+      },
+      {
+        "contentSize": 12.875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9f98b4f460dccd2-20240801T172512381",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-9f98b4f460dccd2-20240801T172512381",
+        "name": "Volumetric_Soil_Moisture_Measurements_at_the.xml"
+      },
+      {
+        "contentSize": 5586.1630859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b25c4b76f5d1ffc-20240628T230226743",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-b25c4b76f5d1ffc-20240628T230226743",
+        "name": "TL27_SM_UserGuide.pdf"
+      },
+      {
+        "contentSize": 1183.8310546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b2b94e4031bde12-20240730T221833033",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b2b94e4031bde12-20240730T221833033",
+        "name": "TL27_DL3.csv"
+      },
+      {
+        "contentSize": 22.7060546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f15fad9833295ae-20240628T230226755",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-f15fad9833295ae-20240628T230226755",
+        "name": "SM_Sensor_Locations.kml"
+      }
+    ]
+  }
+}

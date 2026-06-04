@@ -1,0 +1,310 @@
+{
+  "id": "ess-dive-38d4d3676bf4665-20251014T181232229",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2571202",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-38d4d3676bf4665-20251014T181232229",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d85e0fb5dabc3e5-20250422T044656213",
+  "dateUploaded": "2025-10-14T18:12:33.315Z",
+  "dateModified": "2025-11-15T02:35:52.982Z",
+  "isPublic": true,
+  "citation": "Muradyan P; Jackson R; O'Brien J; Grover M; Tuftedal M; Sherman Z; Wawrzyniak E; Collis S (2023): CROCUS Sodar Measurements of Lower Atmospheric Wind Profiles at Argonne Testbed for Multiscale Observational Science (ATMOS) Site. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL). Dataset. doi:10.15485/2571202",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2571202",
+    "name": "CROCUS Sodar Measurements of Lower Atmospheric Wind Profiles at Argonne Testbed for Multiscale Observational Science (ATMOS) Site",
+    "description": [
+      "The Scintec MFAS Sodar (Multiple-Frequency Acoustic Sounder) is an autonomous, ground-based acoustic remote sensing system designed to measure vertical profiles of horizontal wind speed, wind direction, and vertical velocity in the lower atmosphere. The instrument transmits sequences of acoustic pulses and detects the Doppler-shifted sound waves backscattered by small-scale temperature and velocity fluctuations caused by atmospheric turbulence. From these Doppler shifts, the system derives three-dimensional wind vectors by combining radial velocities from multiple beam orientations.",
+      "The MFAS Sodar operates with a first usable range gate beginning at approximately 30 m above ground level and a configurable vertical resolution of 10 m. Under favorable acoustic conditions, the system provides wind profiles extending up to 600 m above ground level. Measurements are processed into 15-minute averaged profiles containing wind speed, direction, vertical velocity, and diagnostic quantities such as signal-to-noise ratio and echo strength.",
+      "This dataset was collected at the Argonne Testbed for Multiscale Observational Science (ATMOS) facility in Lemont, Illinois, as part of DOE's CROCUS Urban Integrated Field Laboratory (UIFL) initiative. The purpose of these observations is to characterize the vertical wind structure and boundary-layer evolution across the urban\u2013suburban gradient of the greater Chicago region. In particular, these data are intended to improve understanding of how local meteorology, such as lake-breeze penetration, nocturnal jets, and daytime mixing, varies between the densely built urban core and the suburban periphery. The MFAS observations provide critical context for evaluating high-resolution model simulations and for integrating with complementary lidar, radar, and in-situ meteorological measurements within the broader CROCUS UIFL network.",
+      "All data are archived in NetCDF (Network Common Data Form) format and include wind and diagnostic parameters. The files can be accessed and analyzed using standard software that supports NetCDF, such as Python (e.g., xarray, netCDF4), MATLAB, R (e.g., ncdf4, raster), or Panoply (NASA\u2019s NetCDF visualization application)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6903-9435",
+        "givenName": "Paytsar",
+        "familyName": "Muradyan",
+        "affiliation": "Argonne National Laboratory",
+        "email": "pmuradyan@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2518-1234",
+        "givenName": "Robert",
+        "familyName": "Jackson",
+        "affiliation": "Argonne National Laboratory",
+        "email": "rjackson@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4655-6912",
+        "givenName": "Joseph",
+        "familyName": "O'Brien",
+        "affiliation": "Argonne National Laboratory",
+        "email": "obrienj@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0370-8974",
+        "givenName": "Maxwell",
+        "familyName": "Grover",
+        "affiliation": "Argonne National Laboratory",
+        "email": "mgrover@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1589-6474",
+        "givenName": "Matthew",
+        "familyName": "Tuftedal",
+        "affiliation": "Argonne National Laboratory",
+        "email": "mtuftedal@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6455-8324",
+        "givenName": "Zachary",
+        "familyName": "Sherman",
+        "affiliation": "Argonne National Laboratory",
+        "email": "zsherman@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0004-0778-1118",
+        "givenName": "Elizabeth",
+        "familyName": "Wawrzyniak",
+        "affiliation": "Argonne National Laboratory",
+        "email": "ewawrzyniak@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2303-687X",
+        "givenName": "Scott",
+        "familyName": "Collis",
+        "email": "scollis@anl.gov"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS",
+      "EARTH SCIENCE > ATMOSPHERE > WEATHER EVENTS"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > LOCAL WINDS",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > UPPER LEVEL WINDS > WIND SPEED",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND PROFILES > WIND DIRECTION PROFILES",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > WIND SHEAR",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > WIND DYNAMICS > VERTICAL WIND VELOCITY/SPEED"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Argonne Testbed for Multiscale Observational Science (ATMOS) is a nearly 20\u2011acre outdoor research laboratory at the U.S. Department of Energy\u2019s Argonne National Laboratory, strategically located on the southwest corner of the campus adjacent to the Advanced Photon Source and Leadership Computing Facility; it serves as a multiscale observational testbed capable of measuring everything from bedrock to upper troposphere. https://www.anl.gov/evs/atmos#:~:text=ATMOS%20is%20a%20field%20research,conditions%20and%20Earth%20system%20extremes.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.701375,
+            "longitude": -87.9949
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.701375,
+            "longitude": -87.9949
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02- 06CH11357"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2023-03-17",
+      "endDate": "2023-04-05",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6903-9435",
+      "givenName": "Paytsar",
+      "familyName": "Muradyan",
+      "email": "pmuradyan@anl.gov"
+    },
+    "citation": [
+      "Torres Junior, A.R., Saraiva, N.P., Assireu, A.T., Neto, F.L., Pimenta, F.M., de Freitas, R.M., Saavedra, O.R., Oliveira, C.B., Lopes, D.C., de Lima, S.L. and Veras, R.B., 2022. Performance evaluation of LIDAR and SODAR wind profilers on the Brazilian equatorial margin. Sustainability, 14(21), p.14654. https://doi.org/10.3390/su142114654",
+      "Coulter, R.L. and Muradyan, P., 2020. Sonic Detection and Ranging (SODAR) Wind Profiler Instrument Handbook (No. DOE/SC-ARM-TR-154). DOE Office of Science Atmospheric Radiation Measurement (ARM) Program (United States). https://doi.org/10.2172/1251389"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "e48add86-2fa5-4a04-a530-86906241ebbc"
+      },
+      "name": "Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Cristina",
+        "familyName": "Negri",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Argonne National Laboratory",
+        "email": "negri@anl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The Scintec MFAS (Multiple-Frequency Acoustic Sounder) sodar employs phased-array acoustic technology to remotely sense wind profiles in the atmospheric boundary layer. The system transmits sequences of audible sound pulses at multiple frequencies in both vertical and oblique directions. Acoustic backscatter from temperature inhomogeneities in the air is detected by an array of microphones. The Doppler frequency shift of the returned signal is analyzed to determine the radial velocity along each beam direction. By combining radial velocities from multiple beam orientations, the system computes three-dimensional wind components \u2014 zonal (u), meridional (v), and vertical (w).\nThe first step to ensure high quality data collection is proper installation and configuration of the instrument. At the deployment site, the MFAS sodar was configured with:\n- Vertical resolution: 10 m\n- Lowest usable range gate: ~30 m AGL\n- Maximum range: typically 200\u20131000 m AGL (depending on atmospheric stability and ambient noise). For CROCUS the instrument was configured to sample up to 600 m.\n- Operating mode: five-beam configuration (one vertical, four oblique at fixed azimuth and elevation angles)\nThe sodar antenna array was installed on a level, unobstructed surface, minimizing reflections from nearby structures. Regular inspections ensured the acoustic array and transducers remained free of debris and moisture accumulation.",
+      "Data Acquisition and Averaging\nData were collected continuously, with the system controlled by vendor's Scintec APRun software (version 1.52) running on the instrument\u2019s internal computer. Individual soundings were averaged into 15-minute mean profiles in real time, with obviously erroneous values/outliers rejected by the APRun software Each output record included variables such as:\n- Three-component wind vectors (u, v, w)\n- Derived wind speed and direction\n- Range-normalized backscatter\n- Vertical gradient of horizontal wind speed (shear)\nNo further post-processing is applied to the data."
+    ],
+    "distribution": [
+      {
+        "contentSize": 277.3427734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0745b5be044c51a-20250422T042015417",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-0745b5be044c51a-20250422T042015417",
+        "name": "crocus_ATMOS_sodar_a1_20230325_000000.nc"
+      },
+      {
+        "contentSize": 15.4814453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-38d4d3676bf4665-20251014T181232229",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-38d4d3676bf4665-20251014T181232229",
+        "name": "CROCUS_Sodar_Measurements_of_Lower_Atmospheric.xml"
+      },
+      {
+        "contentSize": 237.6962890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2934b255c3c88dc-20250422T042015400",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-2934b255c3c88dc-20250422T042015400",
+        "name": "crocus_ATMOS_sodar_a1_20230317_000000.nc"
+      },
+      {
+        "contentSize": 342.3466796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e29d2228483e991-20250422T042015412",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-e29d2228483e991-20250422T042015412",
+        "name": "crocus_ATMOS_sodar_a1_20230322_000000.nc"
+      },
+      {
+        "contentSize": 319.232421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-efcce28e096c4db-20250422T042015428",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-efcce28e096c4db-20250422T042015428",
+        "name": "crocus_ATMOS_sodar_a1_20230402_000000.nc"
+      },
+      {
+        "contentSize": 334.4794921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-356fcfbc0224db6-20250422T042015414",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-356fcfbc0224db6-20250422T042015414",
+        "name": "crocus_ATMOS_sodar_a1_20230323_000000.nc"
+      },
+      {
+        "contentSize": 323.0517578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4a9b35b3f533faa-20250422T042015423",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-4a9b35b3f533faa-20250422T042015423",
+        "name": "crocus_ATMOS_sodar_a1_20230330_000000.nc"
+      },
+      {
+        "contentSize": 301.509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-645d3309d1a053d-20250422T042015426",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-645d3309d1a053d-20250422T042015426",
+        "name": "crocus_ATMOS_sodar_a1_20230401_000000.nc"
+      },
+      {
+        "contentSize": 298.9892578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6524ed9f96d9db7-20250422T042015430",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-6524ed9f96d9db7-20250422T042015430",
+        "name": "crocus_ATMOS_sodar_a1_20230403_000000.nc"
+      },
+      {
+        "contentSize": 278.3828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-66763f37add27f7-20250422T042015407",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-66763f37add27f7-20250422T042015407",
+        "name": "crocus_ATMOS_sodar_a1_20230319_000000.nc"
+      },
+      {
+        "contentSize": 186.048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6707f701d4bd395-20250422T042015422",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-6707f701d4bd395-20250422T042015422",
+        "name": "crocus_ATMOS_sodar_a1_20230329_000000.nc"
+      },
+      {
+        "contentSize": 337.80078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a395a68de2f490-20250422T042015431",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-7a395a68de2f490-20250422T042015431",
+        "name": "crocus_ATMOS_sodar_a1_20230404_000000.nc"
+      },
+      {
+        "contentSize": 186.64453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-708dc7a8477c000-20250422T042015432",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-708dc7a8477c000-20250422T042015432",
+        "name": "crocus_ATMOS_sodar_a1_20230405_000000.nc"
+      },
+      {
+        "contentSize": 118.306640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ba5973684a4b4c-20250422T042015420",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-7ba5973684a4b4c-20250422T042015420",
+        "name": "crocus_ATMOS_sodar_a1_20230327_000000.nc"
+      },
+      {
+        "contentSize": 327.927734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ad601584f434368-20250422T042015419",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ad601584f434368-20250422T042015419",
+        "name": "crocus_ATMOS_sodar_a1_20230326_000000.nc"
+      },
+      {
+        "contentSize": 239.2060546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a00c9d48537ceb5-20250422T042015405",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a00c9d48537ceb5-20250422T042015405",
+        "name": "crocus_ATMOS_sodar_a1_20230318_000000.nc"
+      },
+      {
+        "contentSize": 329.927734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c00e56b16690828-20250422T042015410",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-c00e56b16690828-20250422T042015410",
+        "name": "crocus_ATMOS_sodar_a1_20230321_000000.nc"
+      },
+      {
+        "contentSize": 333.6796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cf27a5f35344364-20250422T042015415",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-cf27a5f35344364-20250422T042015415",
+        "name": "crocus_ATMOS_sodar_a1_20230324_000000.nc"
+      },
+      {
+        "contentSize": 263.494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cbc37b93288f1b3-20250422T042015409",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-cbc37b93288f1b3-20250422T042015409",
+        "name": "crocus_ATMOS_sodar_a1_20230320_000000.nc"
+      },
+      {
+        "contentSize": 308.0380859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-df978406f52c942-20250422T042015425",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-df978406f52c942-20250422T042015425",
+        "name": "crocus_ATMOS_sodar_a1_20230331_000000.nc"
+      }
+    ]
+  }
+}

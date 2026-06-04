@@ -1,0 +1,324 @@
+{
+  "id": "ess-dive-f7b4f8a695ba8e3-20250721T185348259",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2523672",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f7b4f8a695ba8e3-20250721T185348259",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-f7b4f8a695ba8e3-20250626T231817575",
+  "dateUploaded": "2025-07-21T18:53:49.763Z",
+  "dateModified": "2025-07-21T18:53:50.173Z",
+  "isPublic": true,
+  "citation": "Ward R; Zhang-Zheng H; Abernethy K; Stephen A; Arroyo L; Bailey A; Barlow J; Berenguer E; Chesini-Rossi L; Cho P; Dahlsj\u00f6 C; Neves E C d; Sales B d O; Farfan-Rios W; Freitag R; Ferreira J N; Girardin C; Huasco W H; Joly C A; Malhi Y; Marimon B; Junior B H M; Morel A C; Peixoto K; Reis S; Riutta T; Salinas N; Seixas M; Silman M (2025): Reproductive and leaf litterfall fluxes in forest ecosystem sites globally (1950-2022). Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15485/2523672",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2523672",
+    "name": "Reproductive and leaf litterfall fluxes in forest ecosystem sites globally (1950-2022)",
+    "description": [
+      "Forest allocation of net primary productivity (NPP) to reproduction is poorly quantified globally, despite its critical role in forest regeneration and a well-supported trade-off with allocation to growth. Although field measurements of total NPP are rare, our work finds that a proxy for reproductive carbon allocation constructed from leaf (L) and reproductive (R) litterfall fluxes, R/(R+L), is strongly correlated with R/NPP, facilitating analysis across a wide range of sites where biometric estimates of NPP are not available (R\u00b2 = 0.85; Hanbury-Brown et al., 2022, Ward et al., in prep). To investigate relationships between ecosystem-scale reproductive allocation (RA) and climate, soil fertility, and stand age gradients, we conducted a literature search and synthesized 824 observations of annual average leaf and reproductive litterfall fluxes across forest sites globally. The zip file includes",
+      "1) a folder Data/ containing the litterfall data (\"GlobalForestRA_data.csv\") and metadata (\"GlobalForestRA_metadata.doc\") files. The data file includes geographic coordinates, long-term mean annual temperature and precipitation (1970-2000, extracted from WorldClim2.1), leaf and reproductive litterfall fluxes, sampling interval and protocols, forest characteristics (dominant leaf morphology, information pertaining to forest age and successional stage, and disturbance history) and soil properties (% sand, %silt, %clay, total phosphorus (P), nitrogen (N), cation exchange capacity (CEC) and pH) extracted from SoilGrids250 and from on-site measurements, where available. The metadata file contains information about each variable reported in the data file, including data sources, processing methods, and all references. The Data folder contains two additional files used to create Figure 1; these are described in greater detail in the README.",
+      "2) R scripts GloalForestRA_analysis.r and GlobalForestRA_SI.r and a folder /Functions used to produce results, figures, and tables in the manuscript Ward et al. (in press)",
+      "3) a README file describing how the data and R scripts can be used to reproduce statistical results, figures, and tables found in the manuscript. Ward et al. (in press)",
+      "This repository can also be found at: https://github.com/r-ward/Global_Analysis_ForestRA.",
+      "Ward, R.E., Zhang-Zheng, H. Aernethy, K., Adu-Bredu, S., Arroyo, L., Bailey, A. et al. (in press). Forest age rivals climate to explain reproductive allocation patterns in forest ecosystems globally. Ecology Letters.",
+      "Hanbury-Brown, A.R., Ward, R.E. & Kueppers, L.M. (2022). Forest regeneration within Earth system models: current process representations and ways forward. New Phytol., 235, 20\u201340.",
+      "Ward et al. (2025), Forest age rivals climate to explain reproductive allocation patterns in forest ecosystems globally, in prep."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2343-1906",
+        "givenName": "Rachel",
+        "familyName": "Ward",
+        "affiliation": "University of California Berkeley, USA",
+        "email": "r.ward@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Huanyuan",
+        "familyName": "Zhang-Zheng",
+        "affiliation": "University of Oxford, UK",
+        "email": "huanyuan.zhang@ouce.ox.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Katharine",
+        "familyName": "Abernethy",
+        "affiliation": "University of Stirling, UK",
+        "email": "k.a.abernethy@stir.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Adu-Bredu",
+        "familyName": "Stephen",
+        "affiliation": "Forest Research Institude of Ghana, Ghana",
+        "email": "sabredu@csir-forig.org.gh"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Luzmilla",
+        "familyName": "Arroyo",
+        "affiliation": "Museo de Historia Natural Noel Kempff Mercado, Bolivia",
+        "email": "larroyo@museonoelkempff.org"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Andrew",
+        "familyName": "Bailey",
+        "affiliation": "University of Oxford, UK",
+        "email": "andrew.bailey@ouce.ox.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jos",
+        "familyName": "Barlow",
+        "affiliation": "Lancaster University, UK",
+        "email": "josbarlow@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Erika",
+        "familyName": "Berenguer",
+        "affiliation": "University of Oxford, UK",
+        "email": "erikaberenguer@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Liana",
+        "familyName": "Chesini-Rossi",
+        "affiliation": "Rio de Janeiro Botanical Garden Research Institute, Brazil",
+        "email": "lianachesinibio@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Percival",
+        "familyName": "Cho",
+        "affiliation": "Science for Sustainability Ltd, Belize",
+        "email": "cho.percival@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Cecilia",
+        "familyName": "Dahlsj\u00f6",
+        "affiliation": "University of Oxford, UK",
+        "email": "cecilia.dahlsjo@ouce.ox.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Eder Carvalho",
+        "familyName": "das Neves",
+        "affiliation": "Universidade do Estado de Mato Grosso, Brazil",
+        "email": "ecarvalho625@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bianca",
+        "familyName": "de Oliveira Sales",
+        "affiliation": "Universidade do Estado de Mato Grosso, Brazil",
+        "email": "biancadeoliveira89@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "William",
+        "familyName": "Farfan-Rios",
+        "affiliation": "Wake Forest University, USA",
+        "email": "wfarfan@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Renata",
+        "familyName": "Freitag",
+        "affiliation": "Universidade do Estado de Mato Grosso, Brazil",
+        "email": "renatafreitagrh@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Joice Nunes",
+        "familyName": "Ferreira",
+        "affiliation": "Embrapa Amaz\u00f4nia Oriental, Brazil",
+        "email": "joice.ferreira@embrapa.br"
+      },
+      {
+        "@type": "Person",
+        "givenName": "C\u00e9cile",
+        "familyName": "Girardin",
+        "affiliation": "University of Oxford, UK",
+        "email": "cecilegirardin@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Walter",
+        "familyName": "Huaraca Huasco",
+        "affiliation": "University of Oxford, UK",
+        "email": "stwamayr@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Carlos A.",
+        "familyName": "Joly",
+        "affiliation": "University of Campinas, Brazil",
+        "email": "cjoly@unicamp.br"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Yadvinder",
+        "familyName": "Malhi",
+        "affiliation": "University of Oxford, UK",
+        "email": "yadvinder.malhi@ouce.ox.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Beatriz",
+        "familyName": "Marimon",
+        "affiliation": "Universidade do Estado de Mato Grosso, Brazil",
+        "email": "biamarimon@unemat.br"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ben Hur",
+        "familyName": "Marimon Junior",
+        "affiliation": "Universidade do Estado de Mato Grosso, Brazil",
+        "email": "bhmjunior@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alexandra C.",
+        "familyName": "Morel",
+        "affiliation": "University of Dundee, UK",
+        "email": "AMorel001@dundee.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Karine",
+        "familyName": "Peixoto",
+        "affiliation": "Universidade do Estado de Mato Grosso, Brazil",
+        "email": "karinepeixotobio@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Simone",
+        "familyName": "Reis",
+        "affiliation": "Universidade do Estado de Mato Grosso, Brazil",
+        "email": "simonematiasreis@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Terhi",
+        "familyName": "Riutta",
+        "affiliation": "University of Oxford, UK",
+        "email": "terriu@ceh.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Norma",
+        "familyName": "Salinas",
+        "affiliation": "Pontifical Catholic University of Peru, Peru",
+        "email": "nsalinasr@pucp.pe"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Marina",
+        "familyName": "Seixas",
+        "affiliation": "Embrapa Amaz\u00f4nia Oriental, Brazil",
+        "email": "marina.seixas@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Miles",
+        "familyName": "Silman",
+        "affiliation": "Wake Forest University, USA",
+        "email": "silmanmr@wfu.edu"
+      }
+    ],
+    "datePublished": "2025-04-01",
+    "keywords": [
+      "Forest ecosystems, Litter Characteristics, Carbon Allocation, Reproduction",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > TERRESTRIAL ECOSYSTEMS > FORESTS",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > PRIMARY PRODUCTION\\"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > LITTER CHARACTERISTICS",
+      "Leaf litter flux",
+      "Reproductive litter flux"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Data collected from forested sites globally",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 0,
+            "longitude": 0
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 0,
+            "longitude": 0
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1950",
+      "endDate": "2022",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2343-1906",
+      "givenName": "Rachel",
+      "familyName": "Ward",
+      "affiliation": "Next Generation Ec",
+      "email": "r.ward@berkeley.edu"
+    },
+    "citation": [
+      "Ward, R.E., Zhang-Zheng, H. Aernethy, K., Adu-Bredu, S., Arroyo, L., Bailey, A. et al. (in press). Forest age rivals climate to explain reproductive allocation patterns in forest ecosystems globally. Ecology Letters."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "We conducted a comprehensive search for peer-reviewed publications, data papers, and databases reporting annual reproductive and leaf litterfall fluxes from forested ecosystems, excluding savanna. We searched Google Scholar, Web of Science, and SciELO using predefined search terms (litterfall OR litter fall OR litter-fall OR litter*) AND (fruit OR flower OR seed OR cone OR reproductive*) AND (leaf OR leaves OR foliar OR foliage OR needle) AND (tree OR forest OR ecosystem). We retained only references reporting ecosystem-level reproductive and leaf litterfall components separately from total litterfall for a minimum of one year of sampling. In addition, we obtained unpublished litterfall flux and soil characteristic data from the GEM network (Malhi et al. 2021). Duplicate sites were identified and removed. All fluxes were standardized to dry biomass units using site-specific biomass:carbon ratios when reported, or 0.49 otherwise (Ma et al. 2018).\nTo characterize sites by their long-term mean climatic conditions, we extracted estimates from WorldClim2.1. For each unique set of geographic coordinates, we extracted 30-year (1970-2000) mean annual temperature (MAT) and mean annual precipitation (MAP) at 30-arcsec (about 1km) spatial resolution (Fick & Hijmans 2017).\nIn order to test relationships between RA and soil characteristics across our full range of data, we extracted predictions of soil pH, N, CEC, and texture (sand, silt, clay, %) from SoilGrids250 (Poggio et al. 2021), and computed the depth-weighted average to 30 cm. Estimates to 30 cm depth are consistent with reported soil properties from GEM/RAINFOR sites (Quesada et al. 2010) and were also computed for NEON ecological monitoring network sites (NEON, 2023), which constituted the majority of sites reporting on-site measurements of soil characteristics in our dataset. For analysis of soil texture, we use a soil texture index defined as the additive log ratio, log (% sand / % clay) (Poggio et al. 2021).\nThese methods are also described in Ward et al., (2025), in prep. and in the zip file Data/GlobalForestRA_metadata.docx"
+    ],
+    "distribution": [
+      {
+        "contentSize": 16.5068359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f7b4f8a695ba8e3-20250721T185348259",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f7b4f8a695ba8e3-20250721T185348259",
+        "name": "Reproductive_and_leaf_litterfall_fluxes_in_forest.xml"
+      },
+      {
+        "contentSize": 1648.5546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-deb84cfd4e82127-20250721T185327642",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-deb84cfd4e82127-20250721T185327642",
+        "name": "GlobalForestRA_Repo.zip"
+      }
+    ]
+  }
+}

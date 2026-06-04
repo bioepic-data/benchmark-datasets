@@ -1,0 +1,184 @@
+{
+  "id": "ess-dive-b37ee89b955f195-20260218T023053041649",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3013287",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-b37ee89b955f195-20260218T023053041649",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-6c8b6e86a029f6e-20260211T231806717338",
+  "dateUploaded": "2026-02-18T02:30:56.768Z",
+  "dateModified": "2026-02-27T00:00:51.989Z",
+  "isPublic": true,
+  "citation": "Siirila-Woodburn E; Thiros N; Newcomer M; Rudisill W (2026): Data From: \"Warming and snow loss increase reliance on old groundwater in a Colorado River headwater\". Watershed Function SFA. Dataset. doi:10.15485/3013287",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3013287",
+    "archivedAt": [
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (HTTP)",
+        "url": "https://tier2.ess-dive.lbl.gov/doi-10-15485-3013287/"
+      },
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (Globus)",
+        "url": "https://app.globus.org/file-manager?destination_id=e1b775d6-0125-11ed-a2da-25ff8664e4e5&destination_path=%2Ftier2%2Fdoi-10-15485-3013287%2F"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Copy of the data in GitHub format",
+        "url": "https://github.com/erwoodburn/NatGeosci2026"
+      }
+    ],
+    "hasPart": [
+      {
+        "@type": "WebPage",
+        "name": "EcoSLIM particle tracking output files for this paper",
+        "url": "https://portal.nersc.gov/cfs/ecoslim/"
+      }
+    ],
+    "name": "Data From: \"Warming and snow loss increase reliance on old groundwater in a Colorado River headwater\"",
+    "description": [
+      "This repository contains the data and code associated with the paper titled \"Warming and snow loss increase reliance on old groundwater in a Colorado River headwater,\" published in Nature Geoscience, 2026. This study seeks to answer how various ages of groundwater interact with mountainous streamflow in mountainous headwaters such as the East River. It includes various model-data processing scripts, primarily for ParFlow-CLM analysis of simulated water years 2015-2021, and two numerical warming experiments (+2.5 and +4.0 degrees C), including run scripts, forcing scripts, and post-processing, as well as comparison to observation datasets, detailed below. This data requires the use of R (.r, .rmd), Python (.py), Jupyter Notebook or Jupyter Lab (.ipynb), ParFLOW-CLM, EcoSLIM. Further information on the use of all file formats mentioned below (e.g. .tff. .nc) are provided within the associated scripts and directory where the files are located.",
+      "Contents & Usage",
+      "ASO/: \u200b\u200bContains the bash and python scripts used to convert airborne snow observatory (ASO) data (ASO, 2023) in various data formats (georeferenced tiff file, NetCDF, UTM, and to latitude/longitude) then regrided to the ParFlow equivalent grid. Output data are in regrid_regll_data.zip and subsequently visualized and analyzed in plot_and_compare.py for Supplementary Figures A14 and A15. The wksht_ASO_comparison.xlsx spreadsheet is used to calculate the data for Supplementary Figure A16.",
+      "EcoSLIM/: Contains the scripts and input files to run the EcoSLIM particle tracking simulations (/run_scripts) and the post-processing python script (/plot_scripts/eco_agedist_plots.ipynb).",
+      "Jasechko et al./: Contains the jupyter notebook (Extract_Elevation.ipynb) to determine the outlet elevations of the 260 watersheds used in Jasechko et al. (2016), and the corresponding table, Table_S1_Watersheds_alt.csv. Used to create Supplementary Information Figure A2.",
+      "PLM_Wells/: Contains the QA/QC-ed groundwater level time series of the PLM-1 and PLM-6 Monitoring Wells from Faybishenko et al. (2023), reformatted to water years used for Supplementary Figures A19 and and A20.",
+      "ParFlow/: Contains the input files and run scripts to run ParFlow-CLM (/run_scripts), the python and tool command language (Tcl) scripts to create and distribute the ParFlow forcing simulation files (/forcing), and various scripts and intermediary files to analyze the model outputs (/post_process).",
+      "SQUIRE/: Contains the processing scripts and intermediary files for the Surface QUantitatIve pRecipitation Estimation (SQUIRE) data (Grover, 2023) used to generate Supplementary Figure A18.",
+      "USGS_Streamflow/: Contains the raw and gap-filled United States Geological Survey streamflow data (U.S. Geological Survey, 2026) used at the Almont station (site number 09112500). Gap-filling is performed in the R script with data from the Taylor station (site number 09110000). (/USGS_09112500_EAST_RIVER_AT_ALMONT_GAP_FILLED/code_almont_streamflow_gap_fill.Rmd).",
+      "discharge/: Contains the gap-filled discharge data at the Watershed Function SFA East River pumphouse site (Newcomer et al., 2022) used to generate Supplementary Figure A13 and to compute hourly Nash-Sutcliffe model efficiency coefficients (NSE) in Table A4.",
+      "snotel_and_flux_tower/: Contains the snow telemetry data (U.S. Department of Agriculture, 2024) from the Butte (site ID 380) and Schofield (site ID 737) stations, reformatted by water year, accessed with the snotelr R package. Used to create Supplementary Figure A17. Also contains the flux tower observational data (FluxTower_Pumphouse_ESS-DIVE.ET_only.h.txt) from Ryken et al. (2022) and sap flux transpiration data (MaxB_Transpiration_5Sites.daily_sums.h.txt) from Ryken (2021), used to create Supplementary Figures A22 and A23, respectively.",
+      "Raw EcoSLIM model outputs are in excess of 24TB, and are stored on National Energy Research Scientific Computing Center (NERSC) and publicly available via the external link provided in the paper."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9406-124X",
+        "givenName": "Erica",
+        "familyName": "Siirila-Woodburn",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "erwoodburn@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1704-1031",
+        "givenName": "Nicholas",
+        "familyName": "Thiros",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "nick.thiros@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5138-9026",
+        "givenName": "Michelle",
+        "familyName": "Newcomer",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mnewcomer@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0415-2306",
+        "givenName": "William",
+        "familyName": "Rudisill",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "WilliamRudisill@lbl.gov"
+      }
+    ],
+    "datePublished": "2026",
+    "keywords": [
+      "Groundwater",
+      "water age",
+      "streamflow",
+      "Upper Colorado River",
+      "atmospheric warming"
+    ],
+    "variableMeasured": [
+      "water table depth",
+      "streamflow",
+      "snow water equivalent",
+      "precipitation",
+      "evapotranspiration",
+      "transpiration",
+      "water age",
+      "runoff ratio"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory and SLAC Accelerator Laboratory's Watershed Function Scientific Focus Area (WFSFA). This portion of the ER watershed contains the project-defined boundaries of East River, Washington Gulch, Slate River, and Coal Creek, as described in the location metadata. Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. This data package contains geographic metadata for specific observation points throughout the watershed. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2025) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.033,
+            "longitude": -107.12
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.82,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1911-10-01",
+      "endDate": "2022-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9406-124X",
+      "givenName": "Erica",
+      "familyName": "Woodburn",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "erwoodburn@lbl.gov"
+    },
+    "citation": [
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Boye K ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Perzan Z ; Pierce S ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Thibaut R ; Tokunaga T ; Versteeg R ; Wielandt S ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2025): Location Identifiers, Metadata, and Map for Field Measurements at the East-Taylor Watershed Community Observatory, Colorado, USA (Version 3.2). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962",
+      "Siirila-Woodburn, E.R., et al., (2026) Warming and snow loss increase reliance on old groundwater in a Colorado River headwater, Nature Geoscience. (Full citation to be determined after publication).",
+      "Airborne Snow Observatory, ASO (2023): accessed 2023-11-15 at https://data.airbornesnowobservatories.com/",
+      "Faybishenko, B. Versteeg, R. Williams, K, Carroll, R., Dong, W., Tokunaga, T., O'Ryan, D. (2023): QA/QC-ed Groundwater Level Time Series in PLM-1 and PLM-6 Monitoring Wells, East River, Colorado (2016-2022). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1866836 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1866836 on 2023-04-18",
+      "Grover, Maxwell, et al. (2023): \u201cSurface QUantitatIve pRecipitation Estimation (SQUIRE) (XPRECIPRADARSQUIRE), 2021-12-01 to 2023-03-31, ARM Mobile Facility (GUC), Gunnison, CO; Supplemental Facility 2 (S2).\u201d Atmospheric Radiation Measurement (ARM) User Facility, doi:10.5439/1884979. Accessed 2024-10-04",
+      "Jasechko, S., Kirchner, J. W., Welker, J. M. & McDonnell, J. J. (2016): Substantial proportion of global streamflow less than three months old. Nat. Geosci. 9, 126\u2013129 (2016). https://doi.org/10.1038/ngeo2636",
+      "Newcomer, M., Carroll, R. Williams, K. (2022): Machine Learning Assisted Gap-Filled Discharge Data for the East River Community Watershed, Colorado, for Water Years 2014-2021. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1868939 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1868939 on 2026-01-16",
+      "Ryken, A. (2021): Constraining Evapotranspiration and Understanding ET Drivers and Limitations in a Mountain Headwaters System. Colorado School of Mines\u2009ProQuest Dissertations & Theses, \u20092021.\u200928412923.",
+      "Ryken, A. C., Gochis, D. & Maxwell, R. M. (2022): Unravelling groundwater contributions to evapotranspiration and constraining water fluxes in a high\u2010elevation catchment. Hydrol. Process. 36, e14449",
+      "U.S. Department of Agriculture, Natural Resource Conservation Service, National Water and Climate Center. Water and Climate Information System, Report Generator. Air and Water Database accessed via https://nwcc-apps.sc.egov.usda.gov/ on 2024-10-24",
+      "U.S. Geological Survey (2026): USGS Water Data for the Nation: U.S. Geological Survey National Water Information System database, accessed 2023-03-01, at https://doi.org/10.5066/F7P55KJN."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Please see the \"Online Methods\" Section of the accompanying Nature Geoscience paper, and the README of this dataset for detailed methods of how this data was generated and/or used.",
+      "Generated data from ParFlow-CLM and EcoSLIM include transient simulations for water years 2015-2021. 100 m gridded surface and subsurface data constitute the model, are well as hourly meteorological forcing from NLDAS-2. A multi-step spinup process was used to obtain an initial state for the ParFlow-CLM model (see Online Methods of the paper). A delta approach is used as a surrogate climate-change approach to perturb the baseline temperature conditions from NLDAS-2 in two numerical warming experiments. This is done by homogeneously increasing the 2 (m) air temperature by 2.5 \u2103 and 4.0 \u2103 in space and in time. No other changes to the forcing are made.",
+      "Generated data from the EcoSLIM particle tracking code quantifies flow pathways and water residence times in the subsurface. ParFlow-CLM is run first, then used as a transient, hourly input for EcoSLIM. In EcoSLIM, particles enter the subsurface at land-surface at all time steps and spatial coordinates with positive infiltration fluxes. To spin-up the age and spatial distribution of EcoSLIM particles, the final year of ParFlow-CLM spin-up state year was used as the initial condition of the EcoSLIM spin-up. The EcoSLIM spin-up was initialized with 1 particle per model grid cell, with zero ago. These particles are not given a precipitation phase (rain versus snow) unlike the transient input of particles in the simulation."
+    ]
+  }
+}

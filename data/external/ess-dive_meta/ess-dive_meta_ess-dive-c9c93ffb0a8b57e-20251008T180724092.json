@@ -1,0 +1,170 @@
+{
+  "id": "ess-dive-c9c93ffb0a8b57e-20251008T180724092",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2998004",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-c9c93ffb0a8b57e-20251008T180724092",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-247152f566f8168-20251008T180649169",
+  "dateUploaded": "2025-10-08T18:07:25.098Z",
+  "dateModified": "2025-10-11T00:02:08.271Z",
+  "isPublic": true,
+  "citation": "Shao S; Shortt Z; Sulman B; Pries C H (2025): Myco-CORPSE simulations assessing mycorrhizal carbon allocation across U.S. forests and global change scenarios. Testing mechanisms of how mycorrhizal associations affect forest soil carbon and nitrogen cycling. Dataset. doi:10.15485/2998004",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2998004",
+    "name": "Myco-CORPSE simulations assessing mycorrhizal carbon allocation across U.S. forests and global change scenarios",
+    "description": [
+      "Plants allocate a substantial portion of their fixed carbon belowground to mycorrhizal fungi in exchange for nutrients and other benefits. However, most current ecosystem models omit mycorrhizal processes, limiting our ability to predict plant\u2013soil carbon dynamics under environmental change. To address this gap, we used a mycorrhiza-explicit soil biogeochemical model, Myco-CORPSE (Mycorrhizal Carbon, Organisms, Rhizosphere, and Protection in the Soil Environment), to simulate tree carbon allocation to arbuscular mycorrhizal (AM) and ectomycorrhizal (ECM) fungi in temperate forests.",
+      "The dataset includes outputs from two sets of model simulations:",
+      "1. Perturbation experiments: Simulations across gradients of ECM dominance (0\u2013100%), nitrogen deposition, soil temperature, and net primary productivity (NPP) to test how these factors affect mycorrhizal C allocation and nutrient cycling.",
+      "2. FIA-based simulations: Model applications to over 1,800 U.S. forest sites using site-specific data from the U.S. Forest Inventory and Analysis (FIA) program, including vegetation composition, mycorrhizal type, climate, litter traits, soil properties, and N deposition.",
+      "Model outputs include simulated mycorrhizal carbon allocation and related biogeochemical variables, such as soil and microbial carbon and nitrogen stocks. Data are provided in CSV format and organized by experiment type (in separate ZIP files). Python scripts for running simulations, plotting, and spatial mapping are also included and organized similarly. No proprietary software is required. These outputs support a peer-reviewed study and were used to generate figures and tables in the associated publication."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8449-986X",
+        "givenName": "Siya",
+        "familyName": "Shao",
+        "affiliation": "Dartmouth College",
+        "email": "siya.shao@mail.mcgill.ca"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0009-1244-4016",
+        "givenName": "Zachary",
+        "familyName": "Shortt",
+        "affiliation": "Dartmouth College",
+        "email": "zachary.shortt@wsu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3265-6691",
+        "givenName": "Benjamin",
+        "familyName": "Sulman",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "sulmanbn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0813-2211",
+        "givenName": "Caitlin",
+        "familyName": "Hicks Pries",
+        "affiliation": "Dartmouth College",
+        "email": "Caitlin.Hicks.Pries@Dartmouth.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "Mycorrhizal fungi",
+      "Carbon allocation",
+      "Temperate forest",
+      "Process-based model"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "This dataset includes 1,825 sites across the eastern United States, derived from the U.S. Forest Service Forest Inventory and Analysis (FIA) database.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 48.98,
+            "longitude": -96.97
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 26.9,
+            "longitude": -67.11
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2000-01-01",
+      "endDate": "2006-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8449-986X",
+      "givenName": "Siya",
+      "familyName": "Shao",
+      "email": "siya.shao@mail.mcgill.ca"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1afc0f54-6cec-4372-8158-cb909116f99d"
+      },
+      "name": "Testing mechanisms of how mycorrhizal associations affect forest soil carbon and nitrogen cycling",
+      "member": {
+        "@type": "Person",
+        "givenName": "Caitlin",
+        "familyName": "Pries",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Trustees of Dartmouth College, Hanover, NH",
+        "email": "caitlin.hicks.pries@dartmouth.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Perturbation Experiments\nOverview:\nWe conducted a set of model simulations using Myco-CORPSE, a mycorrhiza-explicit soil biogeochemical model (Shao et al., 2023), to test how global change drivers and mycorrhizal dominance influence mycorrhizal carbon (C) costs. The model simulates plant nitrogen (N) stress, mycorrhizal nutrient acquisition, and plant C allocation to arbuscular (AM) and ectomycorrhizal (ECM) fungi based on environmental conditions.\nExperimental Design:\nSimulations covered 66 scenarios by varying the following parameters:\n\u2022 ECM dominance: 0\u2013100% in 10% increments\n\u2022 Nitrogen deposition: low (0.5 g N m\u207b\u00b2 yr\u207b\u00b9) and high (1.5 g N m\u207b\u00b2 yr\u207b\u00b9)\n\u2022 Soil temperature: 5\u00b0C and 20\u00b0C\n\u2022 Net Primary Productivity (NPP): 500 and 1000 g C m\u207b\u00b2 yr\u207b\u00b9\nModel Run Setup:\nEach simulation was run for 2500 years using an annual timestep, followed by 500 years using a monthly timestep to reach steady state. Model outputs were averaged over the final 50 years.\nInput Parameters:\nLitter stoichiometry, soil texture, and moisture were fixed to represent typical temperate forest conditions. See the \u201cPerturbation_Myco-CORPSE.zip\u201d file for complete input files, model configuration, and scripts.\nOutput Files:\nSimulated outputs include mycorrhizal C allocation (as % of NPP), soil C and N stocks, and other biogeochemical variables. Results are provided in CSV format under separate folders grouped by global change driver (Climate, Ndep, NPP), bundled within the \u201cPerturbation results.zip\u201d archive.\nReference:\nZhu, K., McCormack, M. L., Lankau, R. A., Egan, J. F., & Wurzburger, N. (2018). Association of ectomycorrhizal trees with high carbon\u2010to\u2010nitrogen ratio soils across temperate forests is driven by smaller nitrogen not larger carbon stocks. Journal of Ecology, 106(2), 524\u2013535. https://doi.org/10.1111/1365-2745.12918",
+      "FIA-Based Simulations\nOverview:\nWe applied the Myco-CORPSE model to 1,825 sites from the U.S. Forest Inventory and Analysis (FIA) database across the eastern United States to examine patterns of carbon (C) allocation to mycorrhizal fungi in real-world forests.\nInput Data Source\nAll input files described below are stored in FIA_final.csv under Myco-CORPSE_FIA.zip.\n\u2022 FIA tree species composition and mycorrhizal association:\nThe FIA program monitors forest resources across the United States using a fixed grid of permanent plots (~1 plot per 2,428 hectares), located in areas with at least 10% forest cover. Each plot includes four subplots, where trees with DBH \u226512.7 cm are recorded; smaller trees are sampled in nested microplots. We used data collected between 2000 and 2006 from fully forested, non-plantation plots. Tree species data, including basal area, were paired with literature-derived mycorrhizal associations (AM vs. EcM) to calculate the proportion of AM- or EcM-associated trees in each plot. This information was used to parameterize mycorrhizal input to Myco-CORPSE.\n\u2022 Climate data:\nMonthly soil temperature and moisture in the top 0\u201310 cm were extracted from GLDAS Noah model outputs at 0.25\u00b0 \u00d7 0.25\u00b0 resolution (Rodell et al., 2004). Thirty-year climatologies (1980\u20132009) were used.\n\u2022 Soil texture:\nExtracted from the Harmonized World Soil Database (HWSD v1.2) at 0.5\u00b0 \u00d7 0.5\u00b0 resolution (Wieder et al., 2014).\n\u2022 Nitrogen deposition:\nMean annual N deposition was derived from the National Atmospheric Deposition Program (NADP) datasets over 2000\u20132009.\n\u2022 Net Primary Production (NPP):\nWe used 2000\u20132009 data from the VPM-GPP dataset, which applies an improved light-use efficiency algorithm and is driven by MODIS and NCEP Reanalysis II data (Zhang et al., 2017). NPP was assumed to be 50% of GPP to account for autotrophic respiration.\n\u2022 Plant litter traits:\nLitter inputs were divided into four categories (one AM-associated and three ECM-associated groups), based on litter decomposition constants (k) and C:N ratios from tree species data in Hicks Pries et al. (2023).\nModel Setup\nEach site was parameterized based on species composition (mapped to AM/EcM types), climate, soil texture, litter quality, and nitrogen deposition. Simulations were run for 2,500 years of annual timesteps followed by 500 years of monthly time steps. Outputs were averaged over the final 50 years to represent steady-state conditions. See Python scripts in Myco-CORPSE_FIA.zip for full model setup.\nOutput Files\nSimulated variables include:\n\u2022 Mycorrhizal carbon allocation (% of NPP)\n\u2022 Soil and microbial C and N stocks\n\u2022 Nitrogen mineralization rates\n\u2022 Other biogeochemical fluxes\nAll output data are stored in FIA_NPP%.csv under Myco-CORPSE_FIA.zip. Plotting and mapping scripts are provided in FIA_plotting.zip and FIA_mapping.zip.\nReferences\nHicks Pries, C. E., Lankau, R., Ingham, G. A., Legge, E., Krol, O., Forrester, J., Fitch, A., & Wurzburger, N. (2023). Differences in soil organic matter between ecm\u2010 and am\u2010dominated forests depend on tree and fungal identity. Ecology, 104(3). https://doi.org/10.1002/ecy.3929\nRodell, M., Houser, P. R., Jambor, U., Gottschalck, J., Mitchell, K., Meng, C.-J., Arsenault, K., Cosgrove, B., Radakovich, J., Bosilovich, M., Entin, J. K., Walker, J. P., Lohmann, D., & Toll, D. (2004). The Global Land Data Assimilation System. Bulletin of the American Meteorological Society, 85(3), 381\u2013394. https://doi.org/10.1175/bams-85-3-381\nWieder, W. R., Boehnert, J., Bonan, G. B., & Langseth, M. (2014). Regridded harmonized world soil database v1. 2. ORNL DAAC.\nZhang, Y., Xiao, X., Wu, X., Zhou, S., Zhang, G., Qin, Y., & Dong, J. (2017). A global moderate resolution dataset of gross primary production of vegetation for 2000\u20132016. Scientific Data, 4(1). https://doi.org/10.1038/sdata.2017.165\nZhu, K., McCormack, M. L., Lankau, R. A., Egan, J. F., & Wurzburger, N. (2018). Association of ectomycorrhizal trees with high carbon\u2010to\u2010nitrogen ratio soils across temperate forests is driven by smaller nitrogen not larger carbon stocks. Journal of Ecology, 106(2), 524\u2013535. https://doi.org/10.1111/1365-2745.12918"
+    ],
+    "distribution": [
+      {
+        "contentSize": 77455.09375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-011bd712c26d469-20250926T214208541",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-011bd712c26d469-20250926T214208541",
+        "name": "Myco_CORPSE_FIA.zip"
+      },
+      {
+        "contentSize": 99286.5966796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1b75a3940870160-20250926T214208543",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-1b75a3940870160-20250926T214208543",
+        "name": "FIA_plotting.zip"
+      },
+      {
+        "contentSize": 84808.9775390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-63938a1996a2727-20250926T214208538",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-63938a1996a2727-20250926T214208538",
+        "name": "Perturbation_Myco_CORPSE.zip"
+      },
+      {
+        "contentSize": 96563.5869140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-711b6f6a86f7f98-20250926T214208530",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-711b6f6a86f7f98-20250926T214208530",
+        "name": "FIA_mapping.zip"
+      },
+      {
+        "contentSize": 13.38671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c9c93ffb0a8b57e-20251008T180724092",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-c9c93ffb0a8b57e-20251008T180724092",
+        "name": "Myco_CORPSE_simulations_assessing_mycorrhizal.xml"
+      },
+      {
+        "contentSize": 108401.65625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-18939e1041d5fd5-20250926T214208540",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-18939e1041d5fd5-20250926T214208540",
+        "name": "Perturbation_results.zip"
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "ess-dive-ea5f0ed78501121-20230504T211605100594",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1960048",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-ea5f0ed78501121-20230504T211605100594",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-6c3844727b37920-20230406T135703899261",
+  "dateUploaded": "2023-05-04T21:16:06.127Z",
+  "dateModified": "2023-05-04T21:16:07.679Z",
+  "isPublic": true,
+  "citation": "Sulman B; Cusack D (2023): Carbon Organisms Rhizosphere and Protection in Soil Environment model script and input data for soil moisture-respiration responses in tropical forests. Consequences of Plant Nutrient Uptake for Soil Carbon Stabilization. Dataset. doi:10.15485/1960048",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1960048",
+    "name": "Carbon Organisms Rhizosphere and Protection in Soil Environment model script and input data for soil moisture-respiration responses in tropical forests",
+    "description": [
+      "Objectives:",
+      "Climatic drying is predicted for many tropical forests, yet models remain poorly parameterized for tropical forests, hampering predictions of forest-climate feedbacks. We applied an integrated model\u2013experiment approach, parameterizing an ecosystem model Carbon Organisms Rhizosphere and Protection in the Soil Environment (CORPSE) with tropical forest observational data, and comparing model predictions with a field drying manipulation. We hypothesized that drying would suppress soil CO2 fluxes (i.e., respiration) in already-drier tropical forests, but increases CO2 fluxes in wetter tropical forests by alleviating anaerobiosis. We measured soil CO2 fluxes, soil moisture, soil temperature, and forest floor biomass during wet-dry cycles (2015 \u2013 2022) in four Panamanian forests that vary in rainfall and soil fertility. We used the field data to parameterize and run tests in the model.",
+      "Results:",
+      "Measured CO2 fluxes declined in the dry season and peaked in the early wet season ahead of peak soil moisture, resulting in a lower soil moisture optimum for respiration than previously modeled. We used this data to parameterize the model, which then predicted increased soil CO2 fluxes in wetter and fertile forests with drying, and decreased fluxes in drier, infertile forests. In contrast to model predictions, a chronic throughfall exclusion experiment in the forests initially suppressed soil CO2 fluxes across forests, with sustained suppression after four years in the wettest forest only (-28 \u00b1 4% during the dry season), but elevated soil CO2 fluxes in a fertile forest after four years (+75 \u00b1 28% during the late wet season), as predicted by the model. The unexpected negative drying effect in the wettest, most infertile forest could have resulted from reduced vertical flushing of nutrients into soils. Including hydro-nutrient interactions in ecosystem models could improve predictions of tropical forest-climate feedbacks (results presented in Cusack et al. 2023).",
+      "Datasets included:",
+      "Code files:",
+      "CORPSE_array.py: Defines the equations of the CORPSE model",
+      "CORPSE_solvers: Functions for running the CORPSE model using either iterative or ordinary differential equation (ODE) solvers",
+      "run_Panama_sims.py: Read in datasets and run the model simulations for this study",
+      "Input data:",
+      "PanamaGradientEcosystemChem_BT_CPools_20152016CO2_DC_20190615.xlsx: Plot characteristics used in running model simulations",
+      "LiCor compiled surface flux only to 2020_03 DC_20200825.xlsx: Surface gas exchange fluxes used in model-data comparisons",
+      "PARCHED litterfall data for Ben Sulman LD 20200902.xlsx: Litterfall data used to drive model simulations",
+      "Initialization data:",
+      "state_500y_20190823.csv: Initial state of model pools based on previous spinup runs",
+      "Output data:",
+      "Outputs/prev_moisture_response.csv: Simulations of multiple sites using original model moisture response function.",
+      "Outputs/updated_moisture_response.csv: Simulations of multiple sites using updated model moisture response function.",
+      "Outputs/dry15_prev_moisture_response.csv: Simulations with soil moisture reduced by 15%, using original moisture response function.",
+      "Outputs/dry15_updated_moisture_response.csv: Simulations with soil moisture reduced by 15%, using updated moisture response function.",
+      "Outputs/dry30_prev_moisture_response.csv: Simulations with soil moisture reduced by 30%, using original moisture response function.",
+      "Outputs/dry30_updated_moisture_response.csv: Simulations with soil moisture reduced by 30%, using updated moisture response function.",
+      "Outputs/latestart_prev_moisture_response.csv: Simulations with extended dry season, using original moisture response function.",
+      "Outputs/latestart_updated_moisture_response.csv: Simulations with extended dry season, using updated moisture response function.",
+      "Outputs/[site name]_oneyear.csv: One-year simulation for each site in expanded site list using original moisture response function.",
+      "Outputs/[site name]_oneyear_dried.csv: One-year simulation for each site in expanded site list using original moisture response function, with soil moisture reduced by 25%.",
+      "Outputs/[site name]_oneyear_updated_moisture_response.csv: One-year simulation for each site in expanded site list using updated moisture response function.",
+      "Outputs/[site name]_oneyear_updated_moisture_response_dried.csv: One-year simulation for each site in expanded site list using updated moisture response function, with soil moisture reduced by 25%.",
+      "Field plot location data:",
+      "There is also a .kml file that includes coordinates for all 32 plots included in the study of four forests (n = 4 throughfall reduction and n = 4 control plots per site)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3265-6691",
+        "givenName": "Benjamin",
+        "familyName": "Sulman",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "sulmanbn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4681-7449",
+        "givenName": "Daniela",
+        "familyName": "Cusack",
+        "affiliation": "Colorado State University",
+        "email": "daniela.cusack@colostate.edu"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "model code",
+      "soil respiration",
+      "soil moisture",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS"
+    ],
+    "variableMeasured": [
+      "ecosystem model",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL MOISTURE/WATER CONTENT",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL RESPIRATION"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2015",
+      "endDate": "2022",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3265-6691",
+      "givenName": "Benjamin",
+      "familyName": "Sulman",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "sulmanbn@ornl.gov"
+    },
+    "citation": [
+      "Cusack, D. F., Dietterich, L., & Sulman, B. N. (2023). Varying Responses of Soil Respiration to Throughfall Exclusion in Four Tropical Forests are Decoupled from Soil Moisture, Suggesting Processes for Ecosystem Models. Global Biogeochemical Cycles, in press.",
+      "Dietterich LH, Bouskill NJ, Brown M, Castro B, Chacon SS, Colburn L, Cordeiro AL, Garc\u00eda EH, Gordon AA, Gordon E, Hedgpeth A, Konwent W, Oppler G, Reu J, Tsiames C, Valdes E, Zeko A, Cusack DF (2022) Effects of experimental and seasonal drying on soil microbial biomass and nutrient cycling in four lowland tropical forests. Biogeochemistry."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "61cf30ce-54ed-4beb-97d9-210c00410c86"
+      },
+      "name": "Consequences of Plant Nutrient Uptake for Soil Carbon Stabilization",
+      "member": {
+        "@type": "Person",
+        "givenName": "Daniela",
+        "familyName": "Cusack",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "University of California, Los Angles",
+        "email": "daniela.cusack@colostate.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Field Study Sites & Design:\nThis study was conducted in four distinct lowland seasonal tropical forests located across gradients in rainfall and soil fertility on the Isthmus of Panama. The sites are a subset of a larger network of ~50 1-ha long-term plots maintained by the Smithsonian Tropical Research Institute (STRI) in the Panamanian lowlands. The four forests span an increase of 1,000 mm MAP, and include three forests on strongly weathered, low fertility soils at low (site GIG), mid (site P12), and high rainfall (site SC), and one forest on high-fertility soils paired with the infertile forest at mid-rainfall (site P13). This design was used to help disentangle effects of mean annual precipitation (MAP) and soil fertility on soil responses to seasonal and experimental drying. The four forests included here were: a forest at 2350 mm MAP on strongly weathered, infertile soil on the Gigante Peninsula (GIG), two paired forests at 2500 mm MAP on the Buena Vista Peninsula, one with strongly weathered infertile soil (Plot 12 [P12]), and one with less weathered fertile soil (Plot 13 [P13]), and a forest at 3300 mm MAP on strongly weathered infertile soil on the Caribbean coast in the San Lorenzo forest at Sherman Crane (SC).\nIn each forest, we began monitoring soils in 2015 along 4 50-m transects per site, and then established four pairs of permanent 10 x 10 m plots nearby in 2017. One plot in each pair was assigned to the partial throughfall exclusion experiment. Plots were paired based on proximity and topography. We situated plots on relatively flat ground at least 10 m apart from each other, and in locations where large trees (DBH> 30 \u2013 40 cm) were absent to avoid having a plot dominated by the root system of a single plant. The control plot in each pair was used to add to the long-term date set of soil CO2 flux and other properties initiated in 2015.\nIn the manipulation plot in each pair, we constructed partial throughfall exclusion structure that extended 12 m x 12 m over the plot, such that the structure extending 1 m beyond the plot edge in every direction to avoid edge effects. We trenched partial throughfall exclusion plots to 50 cm depth, lined the vertical sides of the trenches with heavy duty plastic, and then backfilled the trenches to inhibit plants in exclusion plots from foraging for water outside of the plots. The experiment was designed to mimic a chronic drying scenario, diverting throughfall from above each plot. We named the partial throughfall exclusion experiment PAnama Rainforest CHanges with Experimental Drying (PARCHED).\nStructure construction is summarized here, with further details in (Dietterich et al. 2022). Construction started in 2017. Aluminum tubes with nominal diameter 32 mm were hammered vertically into the ground in a grid pattern. These aluminum tubes supported horizontal PVC tubes of the same diameter at heights peaking in the center line of the plot. Transparent polycarbonate laminates were cut into strips of approximately 33 cm x 2 m and attached to the PVC tubes using nuts, bolts, and washers, such that they initially covered ~50% of the plot area and sloped from ~2.3 m height at the midline of the plot to ~1.1 m height at the outer edge of the structure, forming a ~11.3\u00ba angle. We monitored topography and surface water flow to ensure that water running off the laminates did not run back into the exclusion plots, and in the few cases where we observed evidence of this, we used additional strips of laminas and segments of PVC tubing to construct ground-level barriers to water flow. We completed plot construction in 2018 on May 16 (P13), June 12 (P12), July 26 (SC), and December 3 (GIG). In August of 2021, we added additional roofing to each structure to bring the area covered to ~70% to increase the intensity of the drying treatment.\nEvery three weeks, at the time of soil monitoring (see below), leaf litter was brushed off roofing and into the plots, using broom heads mounted on telescoping poles to sweep leaf litter back into its plot in a distributed way. Roofing laminates were also scrubbed with rough sponges periodically to keep them clear and free from excessive moss and mold. We repaired damages to plots from fallen trees, branches, and large fruits as soon as possible after detection every month.",
+      "Field Soil Data Collection for Modeling Activities:\nWe took tri-weekly measurements of soil respiration, soil moisture, soil temperature, and air temperature during seasonal wet-dry cycles from 2015 \u2013 2022, with a gap during one wet-dry cycle from 2016 \u2013 2017, and from 2020 \u2013 2021. The initial data from 2015 \u2013 2016 was previously published as a subset of a broader set of 15 forests across the Isthmus of Panama [Cusack et al., 2019]. Thus, pre-treatment data was from Aug. 2015 \u2013 June 2018, and post-treatment data from July 2018 \u2013 October 2022, including 5 dry seasons and 6 full or partial wet seasons. There were collection gaps from June 2016 \u2013 Oct. 2017, and from April 2020 \u2013 Aug. 2021.\nIn each of the eight plots in each forest, 3 PVC CO2 fluxes columns 10 cm in diameter x 5 cm tall were inserted to 2.5 cm depth spaced throughout the plots, leaving 2.5 cm rims above the soil surface for measurement. This design measured the total soil surface flux of CO2 for a given area, including microbial and root respiration. Measurements were taken during daylight hours as close to mid-day as possible. A site near our mid-rainfall sites on BCI was previously shown to have modest diurnal variation in respiration rate (daily average amplitude \u00b10.6 \u00b5mol/m2/s). Each column was measured one to three times at each time point using a portable infra-red gas analyzer (LiCOR 8100A) fitted with a 10-cm diameter soil flux survey chamber (LiCOR 8100-102), which was fitted onto the permanently installed PVC tubes in each plot. Air temperature, soil temperature (0 \u2013 10cm depth), and soil moisture (0 \u2013 10 cm depth) were measured concurrently at each column using automated probes on the portable LiCOR, using a volumetric moisture probe ML-2x ThetaProbe from Delta-T Devices (LiCOR part #8100-204), and a temperature probe (LiCOR part #6000-09TC, made by Omega). External soil probes to the same depth were also used for backup and comparative data at each time point, using an ML-3 ThetaProbe read by an HH2 Moisture Meter (both Delta-T Devices), and a digital external soil temperature 5 inch probe (Forestry Suppliers Part #89102). The automated and external probes were cross-calibrated to fill in missing data where necessary. Data were downloaded on a monthly basis and compiled. Data were cleaned, removing clear outliers (>99 percentile) but conservatively retaining data if no clear equipment malfunction. This produced paired measurements of soil CO2 flux, soil moisture, soil temperature, and air temperature for the study. These field data are available in a different ESS-DIVE archive (Cusack et al., 2023).",
+      "Modeling Activities and Integration with Field Data:\nBackground field data from control plots before and during the throughfall exclusion experiment were used in the modeling activities. Data from the partial throughfall exclusion plots were not used in model parameterizations and experiments, but rather were used for comparison with model predictions.\nWe used the CORPSE ecosystem-scale soil C cycling model [Sulman et al., 2014] to investigate the importance of site-specific optimal soil moisture constraints for predicting the effects of three different drying scenarios on soil CO2 flux rates in our four lowland tropical forest sites. We first parameterized optimal soil moisture for CO2 fluxes in CORPSE using the field soil moisture and CO2 flux data. The model parameterization also used published soil C stocks, extractable soil dissolved organic C (DOC) for 0 \u2013 10 cm depth, forest floor litter biomass, litterfall biomass, and live fine root (diameter < 2mm) biomass stocks for the four sites. Root turnover and exudation were estimated using measurements and preliminary field and greenhouse data, combined with measured standing live fine root biomass stocks for the four sites. The soil temperature and moisture measurements from hand-held probes for 0 \u2013 10 cm depth for each site described above were also used.\nThe CORPSE model uses an empirical soil moisture response function with two key parameters:\nf(\u03b8)=1/f_max \u03b8^(k_s ) (1-\u3016\u03b8)\u3017^(k_g )\nwhere f(\u03b8) is the moisture effect (varying between 0 and 1); f_max is a normalization factor ensuring that the maximum of the function is 1; \u03b8 is soil moisture expressed as a fraction of saturation; ks is an empirical parameter representing the strength of limitation by substrate diffusion (at low soil moisture); and kg is an empirical parameter representing the strength of limitation by gas diffusion (at high soil moisture). The default values of ks and kg in the model, based on previous studies primarily focused on temperate forests are 1.5 and 0.6, respectively, giving an optimal soil moisture for respiration of approximately 71% of saturation based on temperate forest data.\nFor this study, the previously established CORPSE moisture-respiration response parameterization was initially evaluated against published field data for 12 Panamanian forests (including the four presented here) over one wet-dry season cycle, with the annual soil moisture pattern prescribed as a sinusoid function based on average wet and dry season soil moisture data that were available from 2015 \u2013 2016 for the 12 sites. These initial tests demonstrated that the original moisture function did not adequately represent seasonal CO2 fluxes patterns in the field, and that modeled seasonal variation in respiration differed from observations in both magnitude and direction for many sites.\nTo address this, a new optimal soil moisture parameterization was determined using the much larger data set collected from control plots for the four forests presented here. This larger data set included a longer time span, and more frequent measurements of soil respiration, soil moisture, soil temperature, air temperature, and forest floor biomass as described above, and litterfall biomass for the four sites over the study period. For this activity, the kg parameter was optimized using measured soil moisture and CO2 fluxes for each site using the scipy curve_fit function, identifying a new moisture-respiration response function. Model simulations for these four forests were then run at a daily time step, with driver data linearly interpolated to match the model time step. The model was initialized by running with looped forcing data for 500 years at which point soil C pools reached approximate steady state.\nWe then ran three drying scenarios, comparing projections from the model using the original optimal soil moisture versus the updated optimum parameterized for each of the four forests. The three scenarios were: (1) 15% reduction in wet season soil moisture (low level chronic drying), (2) 30% reduction in wet season soil moisture (high level chronic drying), and (3) 1-month extension of the dry season (longer, stronger dry season). For the extended dry season scenario, soil moisture was constrained to stay at or below the observed mean dry season soil moisture. Based on the field data, we assumed the baseline dry season to extend from mid-December to early May. We then compared model projections to seasonal patterns in the field data, and to CO2 fluxes in the partial throughfall exclusion experiment in the four forests (further described in Cusack et al., 2023)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 55.8125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1d700ded17721ef-20230306T235036303",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1d700ded17721ef-20230306T235036303",
+        "name": "PanamaGradientEcosystemChem_BT_CPools_20152016CO2_DC_20190615.csv"
+      },
+      {
+        "contentSize": 22.990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ea5f0ed78501121-20230504T211605100594",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-ea5f0ed78501121-20230504T211605100594",
+        "name": "Carbon_Organisms_Rhizosphere_and_Protection_in_Soil_Environment_model_script_and_input_data_for_soil_moisture_respiration_responses_in_tropical_forests.xml"
+      },
+      {
+        "contentSize": 62.5712890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4d32f7fd73146d4-20230306T235036311",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4d32f7fd73146d4-20230306T235036311",
+        "name": "PARCHED_litterfall_data_for_Ben_Sulman_LD_20200902.csv"
+      },
+      {
+        "contentSize": 26101.3193359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-72d768d61c9b3a3-20230303T235718797",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-72d768d61c9b3a3-20230303T235718797",
+        "name": "CORPSE_Model_Archive.zip"
+      },
+      {
+        "contentSize": 21.599609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bb26af9270be2f8-20230304T000747270",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-bb26af9270be2f8-20230304T000747270",
+        "name": "PARCHED_field_sites_xy.kml"
+      },
+      {
+        "contentSize": 496.2763671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cea6a4af67f8043-20230306T235036291",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cea6a4af67f8043-20230306T235036291",
+        "name": "LiCor_compiled_surface_flux_only_to_2020_03_DC_20200825.csv"
+      }
+    ]
+  }
+}

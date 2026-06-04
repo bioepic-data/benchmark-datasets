@@ -1,0 +1,749 @@
+{
+  "id": "ess-dive-d2cf401cadc523c-20241025T204132343",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2447442",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-d2cf401cadc523c-20241025T204132343",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-fff79117f5a0fc9-20240923T200852991",
+  "dateUploaded": "2024-10-25T20:41:33.217Z",
+  "dateModified": "2025-11-15T05:35:24.485Z",
+  "isPublic": true,
+  "citation": "Nesbitt S; Hence D; Blind-Doskocil L; Grover M (2024): Upper-air soundings collected during the CROCUS Urban Canyons 2024 campaign in Chicago, Illinois USA. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL). Dataset. doi:10.15485/2447442",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2447442",
+    "name": "Upper-air soundings collected during the CROCUS Urban Canyons 2024 campaign in Chicago, Illinois USA",
+    "description": [
+      "Funded by the Department of Energy\u2019s Office of Science, Biological and Environmental Research program, Community Research on Climate and Urban Science (CROCUS) studies urban climate change and the impact it has on communities, with particular focus on disinvested, under-resourced communities. This information leads to new insights on urban climate challenges and informs future actions for mitigating and adapting to climate change at the street, neighborhood and regional levels.",
+      "As part of the CROCUS effort, the Urban Canyons 2024 project was undertaken to study conditions at unprecedented detail over various neighborhoods in Chicago, Illinois. This dataset consists of upper air soundings that were collected as part of this effort. Soundings were launched during two intensive observing periods, IOP1 occurred on 22-23 July 2024, while IOP2 occurred on 27-28 July 2024. For IOP1, soundings were launched at coordinated times from three sites, Shedd Aquarium in Downtown Chicago, Abizu Campus High School in Humboldt Park, and Gary Comer Youth Center in West Woodlawn. For IOP2, the Gary Comer site was replaced by a neighborhood site in West Woodlawn, Chicago. The Abizu Campos site was operated by Valparaiso University and used iMET-4 rawinsondes, the other sites were operated by the University of Illinois Urbana-Champaign and used GRAW DFM-19 sondes.",
+      "This dataset contains netCDF files containing quality-controlled temperature, dewpoint, geopotential height, pressure, and vector wind measurements at 1 second intervals following launch. These files are readable by the open-source netCDF software libraries available in many software packages (i.e., python, R, fortran, C++, etc.). The dataset also contains quicklook plots of each launch on a skew-T log-p thermodynamic diagram. These are in png format viewable by most web browsers."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0348-0452",
+        "givenName": "Stephen",
+        "familyName": "Nesbitt",
+        "affiliation": "University of Illinois at Urbana-Champaign",
+        "email": "snesbitt@illinois.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3299-5009",
+        "givenName": "Deanna",
+        "familyName": "Hence",
+        "affiliation": "University of Illinois at Urbana-Champaign",
+        "email": "dhence@illinois.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0000-3324-3330",
+        "givenName": "Leanne",
+        "familyName": "Blind-Doskocil",
+        "affiliation": "Valparaiso University",
+        "email": "leanne.blinddoskocil@valpo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0370-8974",
+        "givenName": "Maxwell",
+        "familyName": "Grover",
+        "affiliation": "Argonne National Laboratory",
+        "email": "mgrover@anl.gov"
+      }
+    ],
+    "datePublished": "2024-09-23",
+    "keywords": [
+      "rawinsondes"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE > DEW POINT TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > UPPER AIR TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > UPPER LEVEL WINDS > U/V WIND COMPONENTS",
+      "EARTH SCIENCE > ATMOSPHERE > ALTITUDE > GEOPOTENTIAL HEIGHT",
+      "pressure"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Chicago, Illinois, USA area",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.826329555472526,
+            "longitude": -89.45900302046795
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.091071708207444,
+            "longitude": -85.86770485395476
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0023226"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2024-07-22",
+      "endDate": "2024-07-29",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0348-0452",
+      "givenName": "Stephen",
+      "familyName": "Nesbitt",
+      "affiliation": "University of Illinois at Urbana-Champaign",
+      "email": "snesbitt@illinois.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "e48add86-2fa5-4a04-a530-86906241ebbc"
+      },
+      "name": "Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Cristina",
+        "familyName": "Negri",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Argonne National Laboratory",
+        "email": "negri@anl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Experimental design: Three launch sites per experiment day were deployed across three locations in Chicago. The sites were selected to contrast different urban settings: downtown Chicago (Shedd Aquarium), the West Side (Humboldt Park), and the South Side (Gary Comer Youth Center/West Woodlawn).\nField collection methods: A 39-hour period was sampled in each intensive observing period (IOP) by three independent launch teams. Soundings were coordinated across sites to begin launches nearly simultaneously in order to facilitate comparisons across sites. Kestrel meteorological instrument surface measurements were collected at the time of each launch in order to facilitate instrument calibration and detect instrument anomalies.\nData QC: Data QC used Kestrel weather sensor measurements at the ground sites to check the near-surface values of the sondes. For the DFM-19 sondes, pressure measurements from the Kestrels were used to compute the initial pressure of the sondes, since the sondes do not have a barometer. The NCAR/EOL Aspen v4.0.3 upsonde quality control procedure was applied to the sondes, which removes spurious temperature and humidity lapse rates and outlier winds. This QC procedure produces final data products in netCDF format contain 1-s values of temperature, dewpoint, pressure, geopotential height, and earth-relative u- and v-wind components. Quick look Skew-T log-p diagrams are provided from Aspen.\nKnown limitations of the data: Some sensors failed at measuring humidity after launch, and missing values are reported in the final dataset. Users are directed"
+    ],
+    "distribution": [
+      {
+        "contentSize": 428.2724609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0a5557a4f26d9d8-20240923T163039776",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-0a5557a4f26d9d8-20240923T163039776",
+        "name": "20240728_1900_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 484.6279296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0d54c5b8cd18c58-20240923T163029004",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-0d54c5b8cd18c58-20240923T163029004",
+        "name": "20240723_2239_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 641.6357421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0877550032dbdec-20240923T163028962",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-0877550032dbdec-20240923T163028962",
+        "name": "20240728_1859_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 632.1201171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-09849fd54e5af2c-20240923T162958674",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-09849fd54e5af2c-20240923T162958674",
+        "name": "20240728_1200_WoodlawnQC.nc"
+      },
+      {
+        "contentSize": 86.48828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1460e04866d1666-20240923T163028955",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-1460e04866d1666-20240923T163028955",
+        "name": "20240728_1859_SheddAQ.png"
+      },
+      {
+        "contentSize": 84.27734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-14d33ad853725fa-20240923T163039847",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-14d33ad853725fa-20240923T163039847",
+        "name": "20240722_1730_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 356.1669921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-24d7b891da673b3-20240923T163028986",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-24d7b891da673b3-20240923T163028986",
+        "name": "20240727_1730_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 240.4208984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-03d7745d24794dd-20240923T163039856",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-03d7745d24794dd-20240923T163039856",
+        "name": "20240722_1627_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 83.544921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1e387eef3eae975-20240923T163029032",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-1e387eef3eae975-20240923T163029032",
+        "name": "20240722_1603_SheddAQ.png"
+      },
+      {
+        "contentSize": 86.4296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-210966e2eb93e2f-20240923T163039826",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-210966e2eb93e2f-20240923T163039826",
+        "name": "20240723_1200_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 86.62109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2142a5c8fd20e5e-20240923T162958687",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-2142a5c8fd20e5e-20240923T162958687",
+        "name": "20240727_1559_Woodlawn.png"
+      },
+      {
+        "contentSize": 87.990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-11f7c6c15d95ffb-20240923T162958691",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-11f7c6c15d95ffb-20240923T162958691",
+        "name": "20240727_1159_Woodlawn.png"
+      },
+      {
+        "contentSize": 346.3232421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0dce7e92618f56f-20240923T162958689",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-0dce7e92618f56f-20240923T162958689",
+        "name": "20240727_1559_WoodlawnQC.nc"
+      },
+      {
+        "contentSize": 456.5732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-101b6836e0c261d-20240923T163028980",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-101b6836e0c261d-20240923T163028980",
+        "name": "20240727_1902_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 85.70703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-101e87f1ab88cbf-20240923T163011284",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-101e87f1ab88cbf-20240923T163011284",
+        "name": "20240722_1909_ComerYC.png"
+      },
+      {
+        "contentSize": 536.6357421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3f2651718fdfe66-20240923T163039790",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-3f2651718fdfe66-20240923T163039790",
+        "name": "20240727_2350_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 515.1435546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2f741402e325ddc-20240923T163039797",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-2f741402e325ddc-20240923T163039797",
+        "name": "20240727_1902_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 67.3427734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31f0483ba5b41c1-20240923T163039845",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-31f0483ba5b41c1-20240923T163039845",
+        "name": "20240722_1848_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 473.8818359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-326383cdf26c5b3-20240923T163011278",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-326383cdf26c5b3-20240923T163011278",
+        "name": "20240723_1200_ComerYCQC.nc"
+      },
+      {
+        "contentSize": 326.1435546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-37051683f603c7a-20240923T163029029",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-37051683f603c7a-20240923T163029029",
+        "name": "20240722_1730_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 613.0068359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-38cb386f6552738-20240923T162958693",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-38cb386f6552738-20240923T162958693",
+        "name": "20240727_1159_WoodlawnQC.nc"
+      },
+      {
+        "contentSize": 84.35546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2e109856a737cc8-20240923T163029027",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-2e109856a737cc8-20240923T163029027",
+        "name": "20240722_1730_SheddAQ.png"
+      },
+      {
+        "contentSize": 85.7978515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-47ded2ceb9d1517-20240923T162958671",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-47ded2ceb9d1517-20240923T162958671",
+        "name": "20240728_1200_Woodlawn.png"
+      },
+      {
+        "contentSize": 670.9208984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-eb15c1443880a0f-20240923T163029042",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-eb15c1443880a0f-20240923T163029042",
+        "name": "20240722_1320_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 83.0595703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ebf9ee48adac20c-20240923T163028972",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-ebf9ee48adac20c-20240923T163028972",
+        "name": "20240728_0013_SheddAQ.png"
+      },
+      {
+        "contentSize": 85.8955078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-61f8e510ef6e468-20240923T163029006",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-61f8e510ef6e468-20240923T163029006",
+        "name": "20240723_1600_SheddAQ.png"
+      },
+      {
+        "contentSize": 83.19921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2b0127c345d097e-20240923T163039853",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-2b0127c345d097e-20240923T163039853",
+        "name": "20240722_1627_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 305.3896484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d9e8fd425367b07-20240923T163011297",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-d9e8fd425367b07-20240923T163011297",
+        "name": "20240722_1607_ComerYCQC.nc"
+      },
+      {
+        "contentSize": 86.7021484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e6cc5eb845bd8a9-20240923T162958667",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-e6cc5eb845bd8a9-20240923T162958667",
+        "name": "20240728_1900_Woodlawn.png"
+      },
+      {
+        "contentSize": 451.1591796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e734287a16df820-20240923T162958678",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-e734287a16df820-20240923T162958678",
+        "name": "20240728_0000_WoodlawnQC.nc"
+      },
+      {
+        "contentSize": 691.6748046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e8fe171cd5a0e75-20240923T163011287",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-e8fe171cd5a0e75-20240923T163011287",
+        "name": "20240722_1909_ComerYCQC.nc"
+      },
+      {
+        "contentSize": 327.9482421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d11f5544f397c3a-20240923T163011292",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-d11f5544f397c3a-20240923T163011292",
+        "name": "20240722_1730_ComerYCQC.nc"
+      },
+      {
+        "contentSize": 474.7021484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ef2b838a0224a00-20240923T163029014",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ef2b838a0224a00-20240923T163029014",
+        "name": "20240723_1200_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 86.0703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-efe93e88ecc29db-20240923T163011275",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-efe93e88ecc29db-20240923T163011275",
+        "name": "20240723_1200_ComerYC.png"
+      },
+      {
+        "contentSize": 642.0458984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-32cce930193a62d-20240923T163029024",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-32cce930193a62d-20240923T163029024",
+        "name": "20240722_1900_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 86.58203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6983b1bab6393ae-20240923T163039818",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-6983b1bab6393ae-20240923T163039818",
+        "name": "20240723_1615_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 790.1943359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6a39a6bc146d38f-20240923T163028969",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-6a39a6bc146d38f-20240923T163028969",
+        "name": "20240728_1159_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 316.5458984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-50acc76ef8d0f91-20240923T163011282",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-50acc76ef8d0f91-20240923T163011282",
+        "name": "20240723_0023_ComerYCQC.nc"
+      },
+      {
+        "contentSize": 88.4912109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-51660e897c4d15e-20240923T163039859",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-51660e897c4d15e-20240923T163039859",
+        "name": "20240722_1206_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 544.4287109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ee3da44eb753fb-20240923T163028999",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-5ee3da44eb753fb-20240923T163028999",
+        "name": "20240727_1200_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 711.1162109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ee5cff0e589cfe-20240923T162958670",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-5ee5cff0e589cfe-20240923T162958670",
+        "name": "20240728_1900_WoodlawnQC.nc"
+      },
+      {
+        "contentSize": 86.44921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4be5f7ae402acc2-20240923T162958676",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-4be5f7ae402acc2-20240923T162958676",
+        "name": "20240728_0000_Woodlawn.png"
+      },
+      {
+        "contentSize": 85.080078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-552788ff7d938ae-20240923T163039772",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-552788ff7d938ae-20240923T163039772",
+        "name": "20240728_1900_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 551.4013671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-56262ce9fa1d0b4-20240923T163011272",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-56262ce9fa1d0b4-20240923T163011272",
+        "name": "20240723_1628_ComerYCQC.nc"
+      },
+      {
+        "contentSize": 289.8037109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5715ba89ce63b9e-20240923T163039851",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-5715ba89ce63b9e-20240923T163039851",
+        "name": "20240722_1730_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 84.6162109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-58e1c03523b8ce1-20240923T163028983",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-58e1c03523b8ce1-20240923T163028983",
+        "name": "20240727_1730_SheddAQ.png"
+      },
+      {
+        "contentSize": 390.4560546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-66c75a6709c2c1a-20240923T163039802",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-66c75a6709c2c1a-20240923T163039802",
+        "name": "20240727_1730_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 86.2998046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a1126d19ca8ea6-20240923T163029002",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-7a1126d19ca8ea6-20240923T163029002",
+        "name": "20240723_2239_SheddAQ.png"
+      },
+      {
+        "contentSize": 87.5615234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7af4831f49c60c2-20240923T163039794",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-7af4831f49c60c2-20240923T163039794",
+        "name": "20240727_1902_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 85.876953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7b06ffc97b2578b-20240923T163028966",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-7b06ffc97b2578b-20240923T163028966",
+        "name": "20240728_1159_SheddAQ.png"
+      },
+      {
+        "contentSize": 53.5361328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-704ebb03311bafa-20240923T162958660",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-704ebb03311bafa-20240923T162958660",
+        "name": "README_for_CROCUS_Urban_Canyons_2024_upper_air_sounding_dataset_v1.pdf"
+      },
+      {
+        "contentSize": 556.4873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-80424db432a8c9f-20240923T163039764",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-80424db432a8c9f-20240923T163039764",
+        "name": "20240722_1206_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 86.4677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-809a2e897a08888-20240923T163039800",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-809a2e897a08888-20240923T163039800",
+        "name": "20240727_1730_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 267.3271484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-87bf43682ad4a81-20240923T163039839",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-87bf43682ad4a81-20240923T163039839",
+        "name": "20240723_0038_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 307.4404296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-77962aaaae7a284-20240923T163029038",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-77962aaaae7a284-20240923T163029038",
+        "name": "20240722_1603_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 582.9833984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8a76f133ef7ce4a-20240923T163011301",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-8a76f133ef7ce4a-20240923T163011301",
+        "name": "20240722_1209_ComerYCQC.nc"
+      },
+      {
+        "contentSize": 86.873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8b9435f36c0d335-20240923T163028997",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-8b9435f36c0d335-20240923T163028997",
+        "name": "20240727_1200_SheddAQ.png"
+      },
+      {
+        "contentSize": 357.0693359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8eedb00efbeb5a8-20240923T163028992",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-8eedb00efbeb5a8-20240923T163028992",
+        "name": "20240727_1559_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 82.69921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ac7f11e19448b2c-20240923T163039842",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-ac7f11e19448b2c-20240923T163039842",
+        "name": "20240722_1848_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 563.5419921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a9d28199b82ae35-20240923T162958682",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a9d28199b82ae35-20240923T162958682",
+        "name": "20240727_1902_WoodlawnQC.nc"
+      },
+      {
+        "contentSize": 551.0732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a9fc15805a648b2-20240923T163039783",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a9fc15805a648b2-20240923T163039783",
+        "name": "20240728_1200_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 85.4169921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-99ef59257618889-20240923T163039806",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-99ef59257618889-20240923T163039806",
+        "name": "20240727_1556_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 412.2763671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9a90f258ebe679e-20240923T163039809",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-9a90f258ebe679e-20240923T163039809",
+        "name": "20240727_1556_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 87.05859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9b80e957cb36af7-20240923T163039787",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-9b80e957cb36af7-20240923T163039787",
+        "name": "20240727_2350_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 84.0810546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9c62641cc608687-20240923T163011280",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-9c62641cc608687-20240923T163011280",
+        "name": "20240723_0023_ComerYC.png"
+      },
+      {
+        "contentSize": 82.6533203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a7414755215a15c-20240923T163029017",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-a7414755215a15c-20240923T163029017",
+        "name": "20240723_0027_SheddAQ.png"
+      },
+      {
+        "contentSize": 83.935546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-92b3ba0569b9af5-20240923T163039833",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-92b3ba0569b9af5-20240923T163039833",
+        "name": "20240723_0038_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 84.0859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9df6ba0cee60095-20240923T163011294",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-9df6ba0cee60095-20240923T163011294",
+        "name": "20240722_1607_ComerYC.png"
+      },
+      {
+        "contentSize": 568.6279296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a02929d99995923-20240923T163039814",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a02929d99995923-20240923T163039814",
+        "name": "20240727_1200_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 86.43359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-96ac07750cdd8e4-20240923T163039780",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-96ac07750cdd8e4-20240923T163039780",
+        "name": "20240728_1200_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 88.1826171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bbb40cd1d8280d9-20240923T163039811",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-bbb40cd1d8280d9-20240923T163039811",
+        "name": "20240727_1200_AbizuCamposHS.png"
+      },
+      {
+        "contentSize": 83.6982421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ae73d30607c0883-20240923T163011289",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-ae73d30607c0883-20240923T163011289",
+        "name": "20240722_1730_ComerYC.png"
+      },
+      {
+        "contentSize": 356.4130859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c52f0748f891953-20240923T162958685",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-c52f0748f891953-20240923T162958685",
+        "name": "20240727_1729_WoodlawnQC.nc"
+      },
+      {
+        "contentSize": 651.4794921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c556a883a2eba47-20240923T163029009",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-c556a883a2eba47-20240923T163029009",
+        "name": "20240723_1600_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 85.7626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c7ea7a6953b2a6d-20240923T163011267",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-c7ea7a6953b2a6d-20240923T163011267",
+        "name": "20240723_1628_ComerYC.png"
+      },
+      {
+        "contentSize": 239.3544921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b359e43d65733a1-20240923T163028975",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-b359e43d65733a1-20240923T163028975",
+        "name": "20240728_0013_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 85.763671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c94e855ad6aa32a-20240923T163029012",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-c94e855ad6aa32a-20240923T163029012",
+        "name": "20240723_1200_SheddAQ.png"
+      },
+      {
+        "contentSize": 84.2470703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f434122c11a2798-20240923T163029040",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-f434122c11a2798-20240923T163029040",
+        "name": "20240722_1320_SheddAQ.png"
+      },
+      {
+        "contentSize": 148.8740234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f47a20927c92a39-20240923T163029019",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-f47a20927c92a39-20240923T163029019",
+        "name": "20240723_0027_SheddAQQC.nc"
+      },
+      {
+        "contentSize": 85.3408203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fccd8d39bb1c0da-20240923T162958684",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-fccd8d39bb1c0da-20240923T162958684",
+        "name": "20240727_1729_Woodlawn.png"
+      },
+      {
+        "contentSize": 564.4443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f764bfe35eda436-20240923T163039823",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-f764bfe35eda436-20240923T163039823",
+        "name": "20240723_1615_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 85.6669921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f9bc9e4b58dc162-20240923T163028988",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-f9bc9e4b58dc162-20240923T163028988",
+        "name": "20240727_1559_SheddAQ.png"
+      },
+      {
+        "contentSize": 85.6904296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e385e42d07d5698-20240923T163029022",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-e385e42d07d5698-20240923T163029022",
+        "name": "20240722_1900_SheddAQ.png"
+      },
+      {
+        "contentSize": 87.3583984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e3975dddc92419a-20240923T162958680",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-e3975dddc92419a-20240923T162958680",
+        "name": "20240727_1902_Woodlawn.png"
+      },
+      {
+        "contentSize": 85.0576171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-42e012ecfa872af-20240923T163028978",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-42e012ecfa872af-20240923T163028978",
+        "name": "20240727_1902_SheddAQ.png"
+      },
+      {
+        "contentSize": 86.0126953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e8632842eeddcd6-20240923T163011299",
+        "encodingFormat": "image/png",
+        "identifier": "ess-dive-e8632842eeddcd6-20240923T163011299",
+        "name": "20240722_1209_ComerYC.png"
+      },
+      {
+        "contentSize": 607.1005859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9ce6c7d2c1201c6-20240923T163039830",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-9ce6c7d2c1201c6-20240923T163039830",
+        "name": "20240723_1200_AbizuCamposHSQC.nc"
+      },
+      {
+        "contentSize": 23.4775390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d2cf401cadc523c-20241025T204132343",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-d2cf401cadc523c-20241025T204132343",
+        "name": "Upper_air_soundings_collected_during_the_CROCUS.xml"
+      }
+    ]
+  }
+}

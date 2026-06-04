@@ -1,0 +1,178 @@
+{
+  "id": "ess-dive-a0ee7415fe8a3b5-20231010T045502448",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2008111",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a0ee7415fe8a3b5-20231010T045502448",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-0f7a842a9038177-20230927T033838479",
+  "dateUploaded": "2023-10-10T04:55:04.261Z",
+  "dateModified": "2023-10-11T07:42:58.090Z",
+  "isPublic": true,
+  "citation": "Shuai P; Jiang P; Coon E; Chen X (2023): Data-model files associated with the manuscript titled \"The Importance of Explicitly Representing the Streambed in Watershed Models\" (Shuai et al., 2023 HP). River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2008111",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2008111",
+    "name": "Data-model files associated with the manuscript titled \"The Importance of Explicitly Representing the Streambed in Watershed Models\" (Shuai et al., 2023 HP)",
+    "description": [
+      "This data package contains the model inputs and outputs used in the manuscript titled \"The Importance of Explicitly Representing the Streambed in Watershed Models\" (Shuai et al., 2023 HP). The data.zip file contains the data used to drive the Advanced Terrestrial Simulator (ATS) model simulations. The model.zip file contains the XML input file for ATS. The notebook.zip file contains the Jupyter notebooks for pre- and post- processing model results. The figures.zip file contains the raw figures associated with the manuscript. We generated this data package in support of the manuscript and research reproducibility. The background of this study is that the streambed itself has not been explicitly represented in watershed models, although the streambed characteristics are significantly different from those of its surrounding soil. We aim to answer the following questions: 1) How do streambed properties including hydraulic conductivity, thickness and resolution impact the groundwater-surface water exchange fluxes across the streambed? 2) Is an explicit representation of streambed important in watershed modeling?; 3) Is a high-resolution streambed needed for watershed simulations?"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2511-9828",
+        "givenName": "Pin",
+        "familyName": "Shuai",
+        "affiliation": "Utah State University",
+        "email": "pin.shuai@usu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Peishi",
+        "familyName": "Jiang",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "peishi.jiang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ethan",
+        "familyName": "Coon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "coonet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "xingyuan.chen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "watershed",
+      "integrated hydrologic modeling",
+      "streambed",
+      "hydrologic exchange",
+      "Advanced Terrestrial Simulator"
+    ],
+    "variableMeasured": [
+      "Meteorological forcing",
+      "Soil/geology properties",
+      "land cover",
+      "Leaf Area Index"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "American River Watershed, WA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47,
+            "longitude": -121.53
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.8,
+            "longitude": -121.2
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-76RL01830"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1980-01-01",
+      "endDate": "2016-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2511-9828",
+      "givenName": "Pin",
+      "familyName": "Shuai",
+      "affiliation": "Utah State University",
+      "email": "pin.shuai@usu.edu"
+    },
+    "citation": [
+      "Pin Shuai, Peishi Jiang, Ethan Coon, et al. The Importance of Explicitly Representing the Streambed in Watershed Models. Authorea. April 05, 2023. DOI: 10.22541/au.168069100.00406132/v1"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Watershed-Workflow package (https://github.com/environmental-modeling-workflows/watershed-workflow) was used to generate the DEM, landcover, soil/geology, bedrock, LAI, Daymet forcing for model simulations. An ExodusII mesh was generated that represents the 3-D watershed using triangular meshes. A set of Jupyter Notebooks were used to pre-process the raw data to model inputs.",
+      "ATS models were launched in HPC clusters at National Energy Research Scientific Computing Center (NERSC).",
+      "Once simulations were completed, Python Jupyter notebooks were used to post-process the modeling results and generate the figures associated with the manuscript."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.9873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-40e4c929b550911-20230927T031526445",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-40e4c929b550911-20230927T031526445",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 25188.1357421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-319c5f39493a476-20230927T031526425",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-319c5f39493a476-20230927T031526425",
+        "name": "notebooks.zip"
+      },
+      {
+        "contentSize": 13889.3740234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4e0fcb8a855f8e1-20230927T031526435",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4e0fcb8a855f8e1-20230927T031526435",
+        "name": "model.zip"
+      },
+      {
+        "contentSize": 428909.0771484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6dfc7f1cc02a3eb-20230927T031526442",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6dfc7f1cc02a3eb-20230927T031526442",
+        "name": "data.zip"
+      },
+      {
+        "contentSize": 7.2353515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a0ee7415fe8a3b5-20231010T045502448",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-a0ee7415fe8a3b5-20231010T045502448",
+        "name": "Data_model_files_associated_with_the_manuscript.xml"
+      },
+      {
+        "contentSize": 9184.759765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b9e1fceb62a87b4-20230927T031526438",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b9e1fceb62a87b4-20230927T031526438",
+        "name": "figures.zip"
+      }
+    ]
+  }
+}

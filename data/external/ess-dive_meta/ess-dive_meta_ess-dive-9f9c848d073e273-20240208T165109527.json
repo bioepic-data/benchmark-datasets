@@ -1,0 +1,217 @@
+{
+  "id": "ess-dive-9f9c848d073e273-20240208T165109527",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2294096",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-9f9c848d073e273-20240208T165109527",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-f2acec256eb1178-20240208T153424311",
+  "dateUploaded": "2024-02-08T16:51:10.489Z",
+  "dateModified": "2024-02-10T00:00:40.950Z",
+  "isPublic": true,
+  "citation": "O'Meara T; Yuan F; Sulman B; Noyce G; Rich R; Thornton P; Megonigal J P (2024): Biogeochemistry simulations for the Salt Marsh Accretion Response to Temperature eXperiment (SMARTX). Coastal Wetland Carbon Cycling Processes in a Warmer Climate. Dataset. doi:10.15485/2294096",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2294096",
+    "name": "Biogeochemistry simulations for the Salt Marsh Accretion Response to Temperature eXperiment (SMARTX)",
+    "description": [
+      "Coastal ecosystems have been largely ignored in Earth system models but are important zones for carbon and nutrient processing. Interactions between water, microbes, soil, sediments, and vegetation are important for mechanistic representation of coastal processes and ecosystem function. To investigate the role of these feedbacks, we used a reactive transport model (PFLOTRAN) that has the capability to be connected to the Energy Exascale Earth System Model (E3SM). PFLOTRAN was used to incorporate redox reactions and track chemical species important for coastal ecosystems as well as define simple representations of vegetation dynamics. Our goal was to incorporate oxygen flux, salinity, pH, sulfur cycling, and methane production along with plant-mediated transport of gases and tidal flux. Using porewater profile and incubation data for model calibration and evaluation, we were able to create depth-resolved biogeochemical soil profiles for saltmarsh habitat and use this updated representation to simulate direct and indirect effects of elevated CO2 and temperature on subsurface biogeochemical cycling. We found that simply changing the partial pressure of CO2 or increasing temperature in the model did not fully reproduce observed changes in the porewater profile, but the inclusion of plant or microbial responses to CO2 and temperature manipulations was more accurate in representing porewater concentrations. This indicates the importance of characterizing tightly coupled vegetation-subsurface processes for developing predictive understanding and the need for measurement of plant-soil interactions on the same time scale to understand how hotspots or moments are generated.",
+      "Included in this data package are PFLOTRAN input (PFLOTRAN input files and chemical database) files for simulating single column biogeochemistry, root, and tide interactions at the Global Change Research Wetland (Kirkpatrick Marsh; Edgewater, MD). The biogeochemical network includes soil organic matter decomposition, nitrogen, iron, and sulfur cycling, and methanogenesis. Reduced species can be oxidized and plant processes include oxygen and nutrient priming, methane release, and nutrient uptake.",
+      "Inputs:",
+      "TAI_database.dat - geochemical database for reactions, more information on database structure and variables can be found here https://www.pflotran.org/documentation/user_guide/cards/pages/geochemical_database.html",
+      "swamp.in - input file for biogeochemical network in PFLOTRAN",
+      "swamp_eCO2.in - input file for biogeochemical network in PFLOTRAN with input gas partial pressures/concentrations adjusted for elevated CO2 treatments",
+      "Outputs:",
+      "swamp_obs_0.tec - hourly porewater concentrations from from multiple depths in the soil column",
+      "swamp_eCO2_obs_0.tec - hourly porewater concentrations from multiple depths in the soil column for elevated CO2 treatments",
+      "PFLOTRAN code access: https://github.com/fmyuan/pflotran-elm-interface.git"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8132-9761",
+        "givenName": "Theresa",
+        "familyName": "O'Meara",
+        "email": "omearata@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0910-5231",
+        "givenName": "Fengming",
+        "familyName": "Yuan",
+        "email": "yuanf@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3265-6691",
+        "givenName": "Benjamin",
+        "familyName": "Sulman",
+        "email": "sulmanbn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0423-6478",
+        "givenName": "Genevieve",
+        "familyName": "Noyce",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "noyceg@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0461-7388",
+        "givenName": "Roy",
+        "familyName": "Rich",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "richr@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4759-5158",
+        "givenName": "Peter",
+        "familyName": "Thornton",
+        "email": "thorntonpe@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2018-7883",
+        "givenName": "J. Patrick",
+        "familyName": "Megonigal",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "megonigalp@si.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY",
+      "EARTH SCIENCE > CLIMATE INDICATORS > CLIMATE FEEDBACKS",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS > NITROGEN",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > CARBON",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > AQUATIC ECOSYSTEMS > WETLANDS > ESTUARINE WETLANDS",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > TERRESTRIAL ECOSYSTEMS > WETLANDS > MARSHES",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > AQUATIC ECOSYSTEMS > WETLANDS > MARSHES",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > NUTRIENTS > ORGANIC MATTER",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SULFUR",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > CONTAMINANTS > IRON",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL PH"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "GCReW Global Change Research Wetland Kirkpatrick Marsh Edgewater, MD, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.875,
+            "longitude": -76.55
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.875,
+            "longitude": -76.55
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0014413",
+      "DE-SC0019110",
+      "DE-SC0021131",
+      "DE-SC0021112"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2023-12-03",
+      "endDate": "2024-02-02",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8132-9761",
+      "givenName": "Teri",
+      "familyName": "O'Meara",
+      "email": "omearata@ornl.gov"
+    },
+    "citation": [
+      "O'Meara, T, F Yuan, BN Sulman, GL Noyce, R Rich, PE Thornton, JP Megonigal (accepted) Developing a redox network for coastal saltmarsh systems in the PFLOTRAN reaction model. JGR-Biogeosciences."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "3c34c353-2626-4d56-b073-dcbdb19e01eb"
+      },
+      "name": "Coastal Wetland Carbon Cycling Processes in a Warmer Climate",
+      "member": {
+        "@type": "Person",
+        "givenName": "Patrick",
+        "familyName": "Megonigal",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Smithsonian Institution",
+        "email": "megonigalp@si.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Methods for incorporating coastal processes and functions in PFLOTRAN will be published in O'Meara, T, F Yuan, BN Sulman, GL Noyce, R Rich, PE Thornton, JP Megonigal (accepted) Developing a redox network for coastal saltmarsh systems in the PFLOTRAN reaction model. JGR-Biogeosciences.\nPFLOTRAN documentation for additional details can be found here: https://www.pflotran.org/documentation/",
+      "The domain was defined as described in Tang et al., 2016 (https://doi.org/10.5194/gmd-9-927-2016) which includes a 1m2 column with 15 layers of varying thickness. The thinnest layer is at the top (2.2 cm) and the thickest at the bottom (13.9 m) for a total column depth of 42m. Simulations were conducted for a single column and included vertical fluxes of air and water, but did not include lateral transport since horizontal subsurface flow rates are neglible at GCReW (https://doi.org/10.1016/j.ecolmodel.2021.109561). Fluxes of gas via plant-mediated transport and water via tide were simulated in two ways -- static and dynamic-- to identify the role of temporal heterogeneity in representing redox processes and determine if we were able to capture hot moments in our model configuration.These two scenarios were investigated to quantify the importance of incorporating both spatial and temporal heterogeneity in larger scale models such as ELM.",
+      "Redox network reactions, tidal flux, and plant mediate transport rates were optimized using data from published manuscripts or GCReW's public data repository (https://serc.si.edu/gcrew/data). Data sources are shown in Table 1 in O'Meara et al (accepted). Linear regressions were used to compare PFLOTRAN profile simulations to porewater profiles generated from historical GCReW data. Statistics were conducted in R (Version 3.5.0; R Core Team, 2021) and the package Metrics (Hamner & Frasco, 2018) was used to calculate root mean square errors (RMSE).\nO'Meara, T, F Yuan, BN Sulman, GL Noyce, R Rich, PE Thornton, JP Megonigal (accepted) Developing a redox network for coastal saltmarsh systems in the PFLOTRAN reaction model. JGR-Biogeosciences.",
+      "CO2 and temperature simulations were conducted in two ways to test direct chemical effects on the redox network and indirect effects via plants or microbial responses. Direct eCO2 was mimicked by increasing the atmospheric pCO2 to 750ppm. Indirectly, eCO2 was simulated by increasing root biomass by 116% for ambient temperatures and 76% for warmed plots. Temperature was increased from 27.3\u00baC for ambient conditions to 32.4\u00baC for warmed treatments, but indirect effects were incorporated by increasing belowground biomass by 20% and doubling N mineralization through increased microbial activity. Linear regressions were used to compare field and PFLOTRAN results for directly and indirectly simulated responses. Statistics were conducted in R (Version 3.5.0; R Core Team, 2021) and the package Metrics (Hamner & Frasco, 2018) was used to calculate root mean square errors (RMSE).\nField data sources:\nNoyce, G. L., & Megonigal, J. P. (2021). Biogeochemical and plant trait mechanisms drive enhanced methane emissions in response to whole-ecosystem warming, 18(8), 2449\u20132463. https://doi.org/10.5194/bg-18-2449-2021\nNoyce, G. L., Kirwan, M. L., Rich, R. L., & Megonigal, J. P. (2019). asynchronous nitrogen supply and demand produce nonlinear plant allocation responses to warming and elevated co2, 116(43), 21623. https://doi.org/10.1073/pnas.1904990116\nNoyce, G., Megonigal, P., Smith, A. J., Kirwan, M., & Rich, R. (2022). Dataset: Oxygen priming induced by elevated CO2 reduces carbon accumulation and methane emissions in coastal wetlands, 2017-2020. https://doi.org/10.25573/serc.21263328.v3\nNoyce, G. L., Smith, A. J., Kirwan, M. L., Rich, R. L., & Megonigal, J. P. (2023). Oxygen priming induced by elevated CO2 reduces carbon accumulation and methane emissions in coastal wetlands, 16(1), 63\u201368. https://doi.org/10.1038/s41561-022-01070-6"
+    ],
+    "distribution": [
+      {
+        "contentSize": 143.7763671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0af120b066a80c7-20240207T153616418",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-0af120b066a80c7-20240207T153616418",
+        "name": "swamp_obs_0.tec"
+      },
+      {
+        "contentSize": 39.7080078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0ff12a228ce7f25-20240207T153713160",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-0ff12a228ce7f25-20240207T153713160",
+        "name": "swamp.in"
+      },
+      {
+        "contentSize": 39.814453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5c89c82a5659339-20240207T153713165",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-5c89c82a5659339-20240207T153713165",
+        "name": "swamp_eCO2.in"
+      },
+      {
+        "contentSize": 143.7763671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-671f7827a9f1780-20240207T153713169",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-671f7827a9f1780-20240207T153713169",
+        "name": "swamp_eCO2_obs_0.tec"
+      },
+      {
+        "contentSize": 21.3896484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9083399da2bceae-20240207T153602703",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-9083399da2bceae-20240207T153602703",
+        "name": "TAI_database.dat"
+      },
+      {
+        "contentSize": 14.494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9f9c848d073e273-20240208T165109527",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-9f9c848d073e273-20240208T165109527",
+        "name": "Biogeochemistry_simulations_for_the_Salt_Marsh.xml"
+      }
+    ]
+  }
+}

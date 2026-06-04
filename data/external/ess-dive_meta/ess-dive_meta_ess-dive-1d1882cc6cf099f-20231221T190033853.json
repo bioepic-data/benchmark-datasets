@@ -1,0 +1,289 @@
+{
+  "id": "ess-dive-1d1882cc6cf099f-20231221T190033853",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2251665",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1d1882cc6cf099f-20231221T190033853",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a3240bd7a3bf0d5-20231221T185755004",
+  "dateUploaded": "2023-12-21T19:00:34.565Z",
+  "dateModified": "2023-12-24T00:00:17.446Z",
+  "isPublic": true,
+  "citation": "Kamath H; Singh M; Niyogi D (2023): Building heights and urban canopy parameters for urban modeling. UT-Global Building heights for Urban Studies (UT-GLOBUS). Dataset. doi:10.15485/2251665",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2251665",
+    "name": "Building heights and urban canopy parameters for urban modeling",
+    "description": [
+      "GLObal Building heights for Urban Studies (UT-GLOBUS) is a random forest model based framework that provides a level-of-detail-1 (LoD-1) building height dataset. The primary objective of UT-GLOBUS is not to precisely predict the height and footprint of individual buildings, but rather to offer a functional framework for generating building level information using open-source datasets for modeling applications. Specifically, UT-GLOBUS is tailored to meet the requirements of deriving urban canopy parameters (UCPs) for the multi-layer model within the Weather Research and Forecasting (WRF) model and building heights for the SOLWEIG and SUEWS model. Building-level data is accessible in vector file format (GeoPackage: .gpkg), which can be converted into raster file format (geoTIFF). The vector files employ the Universal Transverse Mercator (UTM) projection. The vector files are compatible with GIS platforms like QGIS and ArcGIS, and can be imported for analysis using programming languages such as Python. We are also providing UCPs required by the multi-layer urban model in the urban WRF in binary file format. Additionally, we provide the urban fractions calculated using ESA world cover dataset (https://esa-worldcover.org/en) for WRF model in binary file format. These binary files can be directly incorporated into the WRF pre-processing system (WPS)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5210-8369",
+        "givenName": "Harsh",
+        "familyName": "Kamath",
+        "affiliation": "University of Texas at Austin",
+        "email": "kamath.harsh@utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3374-7149",
+        "givenName": "Manmeet",
+        "familyName": "Singh",
+        "affiliation": "University of Texas at Austin",
+        "email": "manmeet.singh@utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1848-5080",
+        "givenName": "Dev",
+        "familyName": "Niyogi",
+        "affiliation": "University of Texas at Austin",
+        "email": "happy1@utexas.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Neetiraj",
+        "familyName": "Malviya",
+        "affiliation": "Indian Institute of Tropical Meteorology",
+        "email": "neetirajmalviya@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alberto",
+        "familyName": "Martilli",
+        "affiliation": "CIEMAT",
+        "email": "alberto.martilli@ciemat.es"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9715-2606",
+        "givenName": "Liu",
+        "familyName": "He",
+        "affiliation": "Purdue University",
+        "email": "he425@purdue.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Daniel",
+        "familyName": "Aliaga",
+        "affiliation": "Purdue University",
+        "email": "aliaga@purdue.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7367-2815",
+        "givenName": "Cenlin",
+        "familyName": "He",
+        "affiliation": "National Center for Atmospheric Research (NCAR)",
+        "email": "cenlinhe@ucar.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2573-3828",
+        "givenName": "Fei",
+        "familyName": "Chen",
+        "affiliation": "National Center for Atmospheric Research (NCAR)",
+        "email": "feichen@ucar.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7564-1193",
+        "givenName": "Lori",
+        "familyName": "Magruder",
+        "affiliation": "University of Texas at Austin",
+        "email": "lori.magruder@austin.utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3030-0330",
+        "givenName": "Zong-Liang",
+        "familyName": "Yang",
+        "affiliation": "University of Texas at Austin",
+        "email": "liang@jsg.utexas.edu"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE",
+      "Weather Research and Forecasting (WRF) model",
+      "Urban climate",
+      "Urban hazards",
+      "Urban heat island",
+      "Urban canopy models",
+      "Building effect parameterization (BEP)",
+      "Building energy model (BEM)",
+      "Urban extreme events"
+    ],
+    "variableMeasured": [
+      "Building footprints",
+      "Building heights",
+      "Urban canopy parameters",
+      "Urban fractions"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The data is available for individual cities in the USA within the bounding box provided. Please see the coverage files for detailed list of cities.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 48.97,
+            "longitude": -123.59
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 25.8,
+            "longitude": -69.93
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The data is available for individual cities in Europe within the bounding box provided. Please see the coverage files for detailed list of cities.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 60.08,
+            "longitude": -9.49
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.63,
+            "longitude": 137.23
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000104",
+        "name": "National Aeronautics and Space Administration (NASA)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000001",
+        "name": "National Science Foundation (NSF)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-08-01",
+      "endDate": "2023-08-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5210-8369",
+      "givenName": "Harsh",
+      "familyName": "Kamath",
+      "affiliation": "University of Texas at Austin",
+      "email": "kamath.harsh@utexas.edu"
+    },
+    "citation": [
+      "Kamath et al., (2023). GLObal Building heights for Urban Studies (UT-GLOBUS) for city- and street- scale urban simulations: Development and first applications. in prep",
+      "He, Liu, Jie Shan, and Daniel Aliaga. \"Generative building feature estimation from satellite images.\" IEEE Transactions on Geoscience and Remote Sensing 61 (2023): 1-13."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "5312fdc3-f550-44eb-819f-47fa314b1b56"
+      },
+      "name": "UT-Global Building heights for Urban Studies (UT-GLOBUS)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Dev",
+        "familyName": "Niyogi",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "The University of Texas at Austin",
+        "email": "dev.niyogi@jsg.utexas.edu"
+      }
+    },
+    "measurementTechnique": [
+      "The Codes used to generate UT-GLOBUS data along with detailed instructions can be found in the GitHub repository: https://github.com/texuslabut/UT-GLOBUS",
+      "Building footprints are obtained from OpenStreetMaps (OSM), Microsoft building footprints or the generative building feature estimation (GBFE).",
+      "Process spaceborne altimetry (ICESat-2 and GEDI) and Advanced land observation satellite (ALOS) elevation datasets.",
+      "Using airborne LiDAR derived building heights as target, train the random forest model to predict the building heights using spaceborne and population density data as predictors. Compile an independent testing dataset and validate the predicted building heights.",
+      "Calculate the urban canopy parameters needed by the multi-layer urban model in WRF."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3.1806640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-231df177dad4fa3-20231221T025156853",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-231df177dad4fa3-20231221T025156853",
+        "name": "How_to_use_UT_GLOBUS_in_WRF.txt"
+      },
+      {
+        "contentSize": 12.2744140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1d1882cc6cf099f-20231221T190033853",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-1d1882cc6cf099f-20231221T190033853",
+        "name": "Building_heights_and_urban_canopy_parameters_for.xml"
+      },
+      {
+        "contentSize": 238.2392578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-66b3c98441ae2ff-20231221T165805498",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-66b3c98441ae2ff-20231221T165805498",
+        "name": "Coverage_December_2023.kml"
+      },
+      {
+        "contentSize": 5448585.3203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4d6e6cd0b9773ea-20231221T025217966",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-4d6e6cd0b9773ea-20231221T025217966",
+        "name": "Europe_tar.gz"
+      },
+      {
+        "contentSize": 132.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9bc03861464327a-20231221T025217972",
+        "encodingFormat": "application/geopackage+sqlite3",
+        "identifier": "ess-dive-9bc03861464327a-20231221T025217972",
+        "name": "Europe_coverage_December_2023.gpkg"
+      },
+      {
+        "contentSize": 152.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-91819b59315dca4-20231221T025217984",
+        "encodingFormat": "application/geopackage+sqlite3",
+        "identifier": "ess-dive-91819b59315dca4-20231221T025217984",
+        "name": "USA_coverage_December_2023.gpkg"
+      },
+      {
+        "contentSize": 5457666.9072265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a03f3f9f261755f-20231221T025217977",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-a03f3f9f261755f-20231221T025217977",
+        "name": "USA_1_tar.gz"
+      },
+      {
+        "contentSize": 0.173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b8d93eb2aff365f-20231221T184358846",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-b8d93eb2aff365f-20231221T184358846",
+        "name": "How_to_unzip_data_.txt"
+      },
+      {
+        "contentSize": 6130071.23046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cd97a7d1d188358-20231221T025217980",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-cd97a7d1d188358-20231221T025217980",
+        "name": "USA_2_tar.gz"
+      }
+    ]
+  }
+}

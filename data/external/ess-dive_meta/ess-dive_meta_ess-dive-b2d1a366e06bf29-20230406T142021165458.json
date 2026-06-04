@@ -1,0 +1,243 @@
+{
+  "id": "ess-dive-b2d1a366e06bf29-20230406T142021165458",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1898052",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-b2d1a366e06bf29-20230406T142021165458",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-eed5df409276b3c-20230406T114245556286",
+  "dateUploaded": "2023-04-06T14:20:22.248Z",
+  "dateModified": "2023-04-06T14:20:25.952Z",
+  "isPublic": true,
+  "citation": "Morris K; Hornum S; Crystal-Ornelas R; Pennington S; Bond-Lamberty B (2022): Data and code for: \"Soil respiration response to simulated precipitation change depends on ecosystem type and study duration\". COMPASS-FME. Dataset. doi:10.15485/1898052",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1898052",
+    "name": "Data and code for: \"Soil respiration response to simulated precipitation change depends on ecosystem type and study duration\"",
+    "description": [
+      "Data, code, and figures from our meta-analysis of the effect of precipitation change on soil respiration, with an emphasis on ecosystem variability and the effect of study duration. We combined the results of 81 separate studies to determine the effect of altered rainfall on the amount of carbon that leaves soil in the form of carbon dioxide, a major component of global carbon cycling. In addition we looked at how long the changes lasted, and how different soil properties and the intensity of precipitation changes affected the study results. We found that more precipitation resulted in greater amounts of carbon dioxide leaving the soil, and less precipitation resulted in less. However, the changes weakened over time in ecosystems that typically receive plenty of rainfall (e.g., forests), in contrast to ecosystems that typically receive little rainfall (e.g., deserts) where changes strengthened over time. Changes in the amount of carbon dioxide that left the soil were also affected by the amount of carbon in the soil, which impacts how much water soil can hold."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0388-6965",
+        "givenName": "Kendalynn",
+        "familyName": "Morris",
+        "affiliation": "Pacific Northwest National Lab",
+        "email": "kendalynn.morris@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Shoshanah",
+        "familyName": "Hornum",
+        "email": "shoshitamarhornum@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Rob",
+        "familyName": "Crystal-Ornelas",
+        "email": "robcrystalornelas@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stephanie",
+        "familyName": "Pennington",
+        "email": "stephanie.pennington@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ben",
+        "familyName": "Bond-Lamberty",
+        "email": "bondlamberty@pnnl.gov"
+      }
+    ],
+    "datePublished": "2022-09-15",
+    "keywords": [
+      "soil respiration",
+      "meta-analysis",
+      "SRDB",
+      "acclimation"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL RESPIRATION",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > ORGANIC MATTER",
+      "volume_fraction_of_clay_in_soil"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1993-01-01",
+      "endDate": "2019-01-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0388-6965",
+      "givenName": "Kendalynn",
+      "familyName": "Morris",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "kendalynn.morris@pnnl.gov"
+    },
+    "citation": [
+      "Morris, K. A., Hornum, S., Crystal-Ornelas, R., Pennington, S. C., & Bond-Lamberty, B. (2022). Soil respiration response to simulated precipitation change depends on ecosystem type and study duration. Journal of Geophysical Research: Biogeosciences, 127, e2022JG006887",
+      "https://github.com/COMPASS-DOE/rs-synthesis/releases/tag/JGR-2022"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a688a033-da45-46ad-b72b-d6fef5139a9c"
+      },
+      "name": "COMPASS-FME",
+      "member": {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "see:\nMorris, K. A., Hornum, S., Crystal-Ornelas, R., Pennington, S. C., & Bond-Lamberty, B. (2022). Soil respiration response to simulated precipitation change depends on ecosystem type and study duration. Journal of Geophysical Research: Biogeosciences, 127, e2022JG006887",
+      "Building the dataset\nWe leveraged a pre-existing soil respiration database (SRDB version 5, Jian et al. 2021) and filtered for studies that manipulated precipitation (increase, decrease, or both) and reported at least one of the following for both treatment and control field plots: 1) annual soil respiration, 2) mean growing season soil respiration, or 3) annual soil heterotrophic flux. Although the proportion of annual respiration that growing season respiration comprises varies by ecosystem (Brooks et al., 2005; Hu et al., 2016), the mechanisms underlying responses to precipitation change are the same. Additionally, despite heterotrophic measurements lacking plant root respiration, this flux often represents more than 50% of soil respiration (Jian et al., 2022). In order to directly compare and easily interpret our calculated effect sizes, all fluxes were converted into \u03bcmol C m-2 s-1. We excluded studies that manipulated the timing of precipitation inputs if the total amount of precipitation was not also manipulated, resulting in 80 studies in all being included with 141 paired (manipulation vs control) datapoints representing increased precipitation and 128 pairs for decreased manipulation (see table 1 and 2 for more details).\nFollowing Liu et al (2016), we calculated the percentage of mean annual precipitation (MAP) that manipulated treatment plots received, using values reported either in SRDB or in the original papers. The studies in our dataset were from six distinct ecosystem types (Figure S1, map produced using the ggmap package version 3.0.0 of Kahle and Wickham (2013)) which together represent 69% of non-urban terrestrial land covers based on the Advanced Very High Resolution Radiometer land cover classification system (Hansen et al., 2000). We collapsed ecosystem types reported in SRDB as pasture or steppe to grassland and combined savannahs with savannas. We used the SoilGrids database (Hengl et al., 2017) for soil clay and organic carbon stock, and extracted values from this database based on study site coordinates. Because of varying levels of coordinate precision, we used a radius of 1000 m to calculate average values for organic carbon stocks (0 - 30 cm, hereafter OCS) and clay content (15 - 30 cm). Use of SoilGrids data allowed us to include these soil parameters for all studies in our dataset, as only 19 studies included information on soil clay content, and only 16 included sufficient information to calculate OCS. Values from SoilGrids tended to over-estimate the reported values (Figure S2), but we concluded that the benefit of including these data to capture trends in soil parameters across our dataset outweighed a minor loss in accuracy. We focused on soil clay content and OCS as two dominant variables directly influencing soil respiration rates and the response of respiration to changes in precipitation, rather than other soil variables such as pH or inorganic nutrients that would have indirect effects.",
+      "Calculating effect sizes\nBecause the physical processes underlying soil wetting and drying differ fundamentally (Patel et al., 2021), we split the dataset into these two categories for analysis. These two datasets are referred to as +P for increased precipitation effect size pairs (i.e., measurement from control plot and measurement from plot with increased precipitation), and -P for decreased precipitation effect size pairs. Regardless of the direction of precipitation change, we used the natural log of the response ratio to calculate the average effect size of treatments on soil respiration (Gurevitch et al., 2001):\nln(RR) =ln(\u00af(X_T )/\u00af(X_C ))\nand variance as:\nvar(RR) = (\u3016SD\u3017_T^2)/(N_T X_T^(-2) ) +(\u3016SD\u3017_C^2)/(N_C X_C^(-2) )\nwhere \u00af(X_T ), \u3016SD\u3017_T, and N_T are the mean, standard deviation, and sample size of the soil respiration data for the treatment group (i.e., in which precipitation inputs were manipulated), and \u00af(X_C ) , \u3016SD\u3017_C, and N_C are the mean, standard deviation, and sample size of the unmanipulated (control) soil respiration values. Using this method, a positive effect size (ln[RR]) indicates that the soil respiration flux was increased in the manipulated soil, and a negative effect size means the flux decreased relative to the control.\nAfter visual assessment and direct testing both indicated that the three different dependent variables (annual soil respiration, growing season soil respiration, and annual soil heterotrophic flux) responded similarly to precipitation changes, we combined all three into one dataset (Figure S3 & S4). While growing season and annual fluxes represent two proportions of the same whole, annual heterotrophic fluxes might be anticipated to behave differently. However, there was no evidence for this, and these data represent the minority of our data (4% for +P and 9% for -P), making them unsuitable for independent meta-analysis.",
+      "Model selection and execution\nPotential modifiers\u2014covariates affecting the magnitude and slope of the response of soil respiration to manipulation, sensu Viechtbauer 2010\u2014were limited to percent MAP, ecosystem type, soil clay and OCS, and study duration. First, the continuous modifiers (i.e. all except for ecosystem type) were evaluated for collinearity using a correlation matrix via the chart.Correlation function from the PerformanceAnalytics R package version 2.0.4 (Peterson et al., 2014). Significant autocorrelation existed (Figure S5), and therefore multi-model inference was used to determine which combination of modifiers to include (Burnham & Anderson, 2002) via the multimodel.inference function from the MuMIn package version 1.43.15 (Barton, 2009) which works in conjunction with package dmetar version 0.0.900 (Harrer et al., 2019). In multi-model inference all possible modifier combinations are modeled\u2014several different meta-regressions are created, and subsequently evaluated. This enables a full examination of all possible modifier combinations and their interactions. A common finding is that there are many different specifications which lead to a good model fit, and the estimated coefficients of modifiers can then be pooled across all fitted models to infer how important certain modifiers are overall. We chose the top four modifiers from this step to go in our final meta-analytical models (Figure 1).\nIt has been shown that measurement intervals can affect the statistical outcome of manipulative experiments at the ecosystem scale (Vicca et al., 2014). In order to determine the role of measurement in our studies we included measurement interval as an additional modifier, first as a continuous variable, and then as a three-leveled factor (frequent (daily to subdaily), intermediate (subweekly to biweekly), and infrequent (monthly plus)), after the initial top four modifiers were identified. Measurement interval was confounded with study duration and ecosystem type in +P studies (Figure S6A), but no direct effect (ie., with measurement interval as a singular modifier, Figure S6B) was found for either dataset. We thus decided to omit measurement interval from our meta-analytical model due the limitations of our dataset (for +P) and the lack of evidence of a direct effect (for -P and +P). Code for comparing different meta-regressions using our complete dataset are available in the GitHub repository listed below. For both datasets we conducted a multivariate mixed effects meta-analytical model using the rma.mv function from the Metafor package version 3.0-2 (Viechtbauer, 2010), using the restricted maximum likelihood method to reduce the risk of underestimating variance given multiple modifiers and uneven distribution of effect sizes across modifiers. For both models, study number was treated as a random effect, in order to control for pseudoreplication when we extracted multiple pairs of effect sizes from the same publication (Viechtbauer, 2010), while all others modifiers were treated as fixed effects. Cook\u2019s distance was used to check for highly influential data points (Cook, 1977). When such data were found, values were confirmed between SRDB and the original literature (all were correctly entered) and the study design confirmed as meeting our primary criteria. In one instance, this resulted in a study being removed from our dataset due to precipitation treatments being a manipulation of precipitation timing, rather than absolute magnitude. For the -P dataset, there is a long-term grassland and desert study that was highly influential (ID 13079, (Li et al., 2020)), but there was no scientific reason to remove it from the dataset.",
+      "All analyses were conducted in the R statistical computing language version 4.1.1 (R Core Team, 2021). All code and data needed to reproduce the results here are available at https://github.com/COMPASS-DOE/rs-synthesis and permanently archived at https://doi.org/10.5281/zenodo.7054524."
+    ],
+    "distribution": [
+      {
+        "contentSize": 8.8466796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-092d9fe489be9ea-20221111T194349453",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-092d9fe489be9ea-20221111T194349453",
+        "name": "alternateModels.R"
+      },
+      {
+        "contentSize": 22.970703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3f25ec09ddfac97-20221111T194320901",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3f25ec09ddfac97-20221111T194320901",
+        "name": "Rs_Studies_2018____Water_Manipulation.csv"
+      },
+      {
+        "contentSize": 667942.0859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4741bff69f49fb9-20221111T194553442",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-4741bff69f49fb9-20221111T194553442",
+        "name": "landmask_SG_052020_COG512.tif"
+      },
+      {
+        "contentSize": 87.1376953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ea8335e090fd414-20221111T194320895",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ea8335e090fd414-20221111T194320895",
+        "name": "metadat.csv"
+      },
+      {
+        "contentSize": 3168.8095703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2b1cc75a92a555d-20221111T194320906",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2b1cc75a92a555d-20221111T194320906",
+        "name": "srdb_data.csv"
+      },
+      {
+        "contentSize": 1.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d4088b8c2a250d4-20221111T194553457",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-d4088b8c2a250d4-20221111T194553457",
+        "name": "README2.txt"
+      },
+      {
+        "contentSize": 0.9599609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d52f4f79ae2f24d-20221111T194553453",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-d52f4f79ae2f24d-20221111T194553453",
+        "name": "README.txt"
+      },
+      {
+        "contentSize": 41.99609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e849288ce7d5e3f-20221111T194343519",
+        "encodingFormat": "text/x-rmarkdown",
+        "identifier": "ess-dive-e849288ce7d5e3f-20221111T194343519",
+        "name": "rs_synthesis.Rmd"
+      },
+      {
+        "contentSize": 1137587.341796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d106a406053e6bc-20221111T194553446",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-d106a406053e6bc-20221111T194553446",
+        "name": "ocs_0_30cm_mean.tif"
+      },
+      {
+        "contentSize": 0.65234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5194b55fb6a4663-20221111T194553450",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-5194b55fb6a4663-20221111T194553450",
+        "name": "ocs_data.RDS"
+      },
+      {
+        "contentSize": 0.671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a88d4f717d69cfd-20221111T194553438",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-a88d4f717d69cfd-20221111T194553438",
+        "name": "clay_data.RDS"
+      },
+      {
+        "contentSize": 3.34375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-98df1d847922c22-20221111T194320888",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-98df1d847922c22-20221111T194320888",
+        "name": "DOIcheck.csv"
+      },
+      {
+        "contentSize": 5708.748046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b6070e331b64a27-20221111T194320910",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b6070e331b64a27-20221111T194320910",
+        "name": "srdb_studies.csv"
+      },
+      {
+        "contentSize": 0.068359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b9a93d74e6efbcf-20221111T194553430",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-b9a93d74e6efbcf-20221111T194553430",
+        "name": ".gitignore"
+      },
+      {
+        "contentSize": 18.6630859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b2d1a366e06bf29-20230406T142021165458",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-b2d1a366e06bf29-20230406T142021165458",
+        "name": "Data_and_code_for_Soil_respiration_response_to_simulated_precipitation_change_depends_on_ecosystem_type_and_study_duration_.xml"
+      },
+      {
+        "contentSize": 2115427.95703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f1e7be80f5a7628-20221111T194553461",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-f1e7be80f5a7628-20221111T194553461",
+        "name": "soc_15_30cm_mean.tif"
+      },
+      {
+        "contentSize": 1929076.6455078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f337782b07e8f02-20221111T194553434",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-f337782b07e8f02-20221111T194553434",
+        "name": "clay_15_30cm_mean.tif"
+      },
+      {
+        "contentSize": 104.734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dd48b5ac751ecf2-20221111T194320915",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-dd48b5ac751ecf2-20221111T194320915",
+        "name": "Variance_and_N___Water_manipulations.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "id": "ess-dive-53475520809cf8d-20251009T120247740",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2588615",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-53475520809cf8d-20251009T120247740",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-8de3bdda15b7d1f-20250912T084709897",
+  "dateUploaded": "2025-10-09T12:02:48.457Z",
+  "dateModified": "2025-10-09T12:02:48.838Z",
+  "isPublic": true,
+  "citation": "Wilson S; Stearns A; Phillips E; Ward N D; Megonigal J P (2025): COMPASS-FME Synoptic Site Tree Greenhouse Gas Concentrations. COMPASS-FME. Dataset. doi:10.15485/2588615",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2588615",
+    "name": "COMPASS-FME Synoptic Site Tree Greenhouse Gas Concentrations",
+    "description": [
+      "These data are tree stem greenhouse gas concentrations collected from tree gas wells at some of the COMPASS-FME (Coastal Observations, Mechanisms, and Predictions Across Systems and Scales; see https://compass.pnnl.gov/) 'synoptic' sites in the Chesapeake Bay region: Moneystump (MSM), Goodwin Islands (GWI), and GCReW (GCW). The sap flow monitoring trees at these sites in the Upland (UP) and Transition (TR) zones were cored and had gas wells installed at breast height. There were also some dead standing trees cored, gas well installed, and sampled at MSM and GWI. The GCW UP samples overlap with the TEMPEST experiment control plot, so the GCW UP data was pulled from the TEMPEST page and included here. These data provide crucial information about possible pathways for the greenhouse gas (carbon dioxide and methane, CO2 and CH4 respectively) production and emission (or in the case of CH4, perhaps taken up from) the atmosphere.",
+      "All data are plain text CSV (comma separated value) files and require no special software to read.",
+      "Updated 2025-10-09 to fix two missing dates (lines 77 and 78 in the data file)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5484-0748",
+        "givenName": "Stephanie",
+        "familyName": "Wilson",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "wilsonsj@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-7628-3419",
+        "givenName": "Alice",
+        "familyName": "Stearns",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "stearnsa@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Evan",
+        "familyName": "Phillips",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "phillipse@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6174-5581",
+        "givenName": "Nicholas D.",
+        "familyName": "Ward",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "nicholas.ward@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2018-7883",
+        "givenName": "J. Patrick",
+        "familyName": "Megonigal",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "megonigalp@si.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9525-4633",
+        "givenName": "Ben",
+        "familyName": "Bond-Lamberty",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bondlamberty@pnnl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS",
+      "EARTH SCIENCE > OCEANS > COASTAL PROCESSES",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "mole_fraction_of_methane_in_air",
+      "mass_fraction_of_carbon_dioxide_in_air"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Moneystump Swamp (MSM); one of COMPASS-FME synoptic sites located in the Blackwater National Wildlife Refuge along the mesohaline Beaverdam Creek. This synoptic site consists of three plots: upland (\"UP\"; located at 38.4315N, 76.2267W), transition (\"TR\"; 38.4310N, 76.2277W), and wetland (\"W\"; 38.4308N, 76.2286W). The site was established in June 2022. The transect spans a coastal loblolly pine forest and a mesohaline marsh dominated by Spartina and Distichlis.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.431,
+            "longitude": -76.2277
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.431,
+            "longitude": -76.2277
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Sweet Hall Marsh (SWH); one of the COMPASS-FME synoptic sites located in the tidal fresh Pamunkey River, one of the two tributaries of the York River in Virginia, USA. The COMPASS-FME consists of three plots: upland (\"UP\"; located at 37.5708N, 76.8954W), swamp (\"SWAMP\"; located at 37.57069N, 76.8957W), transition (\"TR\"; 37.56883N, 76.8964W), and wetland (\"W\"; 37.56659N, 76.8970W). The synoptic site was established in June 2023. This site is also identified as a Chesapeake Bay National Research Reserve site.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.56883,
+            "longitude": -76.8964
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.56883,
+            "longitude": -76.8964
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "GCReW (GCW); one of COMPASS-FME synoptic sites, and has three plots: upland (\"UP\"; located at 38.8741N, 76.5522W), transition (\"TR\"; 38.8745, 76.5515W), and wetland (\"W\"; 38.8750N, 76.5500W). Note that this site overlaps spatially with the TEMPEST (TMP) plots, the upland portion of the transect overlaps with the TEMPEST experiment control plot. This transect spans a mid- to late-successional (~80 years old) temperate, deciduous coastal forest and a mesohaline marsh along the Rhode River in Edgewater, MD.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8745,
+            "longitude": -76.5515
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8745,
+            "longitude": -76.5515
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Goodwin Island (GWI); one of COMPASS-FME synoptic sites, and has three plots: upland (\"UP\"; located at 37.2192N, 76.4087W), transition (\"TR\"; 37.2194N, 76.4092W), and wetland (\"W\"; 37.2189N, 76.4101W). The site was established in June 2022.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.2194,
+            "longitude": -76.4092
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.2194,
+            "longitude": -76.4092
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-05-02",
+      "endDate": "2023-11-09",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5484-0748",
+      "givenName": "Stephanie",
+      "familyName": "Wilson",
+      "affiliation": "Smithsonian Environmental Research Center",
+      "email": "wilsonsj@si.edu"
+    },
+    "citation": [
+      "Hopple, A. M., Doro, K. O., Bailey, V. L., Bond-Lamberty, B., McDowell, N., Morris, K. A., Myers-Pigg, A., Pennington, S. C., Regier, P., Rich, R., Sengupta, A., Smith, R., Stegen, J., Ward, N. D., Woodard, S. C., and Megonigal, J. P.: Attaining freshwater and estuarine-water soil saturation in an ecosystem-scale coastal flooding experiment, Environ. Monit. Assess., 195, 425, 2023. https://doi.org/10.1007/s10661-022-10807-0"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a688a033-da45-46ad-b72b-d6fef5139a9c"
+      },
+      "name": "COMPASS-FME",
+      "member": {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "These data are from tree gas wells were collected from the Moneystump (MSM), Goodwin Islands (GWI), and GCW (GCReW) sites, after coring trees. The gas wells were capped with rubber stoppers and allowed to equilibrate and then sampled with a needle and syringe to collect a gas sample from the tree. The sample volume is dependent on the gas well size. The sapflow trees at these sites in the Upland (UP) and Transition (TR) zones had gas wells and there were also some dead standing trees cored and sampled as well at MSM and GWI. The GCW UP samples overlap with the TEMPEST experiment control plot, so to get the GCW UP and TR data it may also need to be pulled from the TEMPEST page.",
+      "Gas samples were collected roughly from May to November at each site during 2022 and 2023. Sampling these wells was discontinued in 2024.",
+      "The samples were stored in exetainers then analyzed for methane and carbon dioxide on a Varian 450 Gas Chromatograph. The methane is determined with a Flame Ionization Detector (FID) and carbon dioxide with a Thermal Conductivity Detector."
+    ],
+    "distribution": [
+      {
+        "contentSize": 71.1064453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-43ea2a37340c248-20251009T120147858",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-43ea2a37340c248-20251009T120147858",
+        "name": "COMPASS_SynopticCB_TGAS_AllData.csv"
+      },
+      {
+        "contentSize": 0.4638671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ef835e2e8a692a2-20250912T084701234",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ef835e2e8a692a2-20250912T084701234",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 11.4638671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-53475520809cf8d-20251009T120247740",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-53475520809cf8d-20251009T120247740",
+        "name": "COMPASS_FME_Synoptic_Site_Tree_Greenhouse_Gas.xml"
+      },
+      {
+        "contentSize": 1.919921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4b29b8fdc7ca6f5-20250912T084701226",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4b29b8fdc7ca6f5-20250912T084701226",
+        "name": "COMPASS_SynopticCB_TGAS_AllData_dd.csv"
+      }
+    ]
+  }
+}

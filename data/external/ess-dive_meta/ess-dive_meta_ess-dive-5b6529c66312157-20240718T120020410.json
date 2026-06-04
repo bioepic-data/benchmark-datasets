@@ -1,0 +1,359 @@
+{
+  "id": "ess-dive-5b6529c66312157-20240718T120020410",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2405147",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-5b6529c66312157-20240718T120020410",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-cd700a6203f8bad-20240708T143132157482",
+  "dateUploaded": "2024-07-18T12:00:21.913Z",
+  "dateModified": "2024-07-23T00:03:54.216Z",
+  "isPublic": true,
+  "citation": "Rowley M C; Falco N; Pegararo E; Dafflon B; Gerlein-Safdi C (2024): The importance of accounting for landscape position when investigating grasslands: A multidisciplinary characterisation of a Californian coastal grassland. Belowground Biogeochemistry Scientific Focus Area. Dataset. doi:10.15485/2405147",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2405147",
+    "name": "The importance of accounting for landscape position when investigating grasslands: A multidisciplinary characterisation of a Californian coastal grassland",
+    "description": [
+      "Data from the characterisation of the Point Reyes Field Site, published in AGU Earth's Future under the title: The importance of accounting for landscape position when investigating grasslands: A multidisciplinary characterisation of a Californian coastal grassland. This paper explored the effect of landscape position on the response of a Californian grassland to seasonal changes. All files are csv files. The EMI data contains 8 csv files with a metadata csv explaining the columns.",
+      "The dataset also includes soil variables including total concentrations calculated from fused samples, then dissolved and measured on ICP-AES for whole-rock elements and ICP-MS for trace elements. Mineral composition was attained using X-ray diffraction at BL 11-3 at SSRL . Data was then run through the High Score database to characterise different mineral phases. total",
+      "It also includes a table with bulk soil characteristics such as soil pH, cation exchange capacity, and soil textural data.",
+      "Data from Teros 12 Meter soil moisture, electrical conductivity and temperature sensors are presented in SMS Csv file. While the WL bottom and top files contain data from Piezometers measuring the ground water table.",
+      "We have included a csv file that contains soil CO2 efflux data from Feb 2021-Oct 2021 in the Point Reyes Grassland Experiment",
+      "We have included the spatially orientated (easting northing) remotely sensed datasets that were used in the K-means clustering analysis conducted on our site with electrical conductivity, normalised difference vegetation index, elevation, slope, solar radiation, topographic position and wetness index, and a clustering score.",
+      "Finally there is a list of all the identified grassland species at the site.",
+      "For more information on flux data, please contact the corresponding author."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2440-7855",
+        "givenName": "Mike",
+        "familyName": "C. Rowley",
+        "email": "mike.rowley@geo.uzh.ch"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nicola",
+        "familyName": "Falco",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "nfalco@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Elaine",
+        "familyName": "Pegararo",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elainepegoraro@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bdafflon@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Cynthia",
+        "familyName": "Gerlein-Safdi",
+        "affiliation": "University of California Berkeley",
+        "email": "cgerleinsafdi@lbl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Yuxin",
+        "familyName": "Wu",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ywu3@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Cristina",
+        "familyName": "Castanha",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ccastanha@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jasquelin",
+        "familyName": "Pena",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jpena@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Peter",
+        "familyName": "Nico",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "psnico@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Margaret",
+        "familyName": "Torn",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mstorn@lbl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "earth science"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > AGRICULTURE > SOILS > CATION EXCHANGE CAPACITY",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL TEXTURE",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL PH",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > TERRESTRIAL ECOSYSTEMS > GRASSLANDS",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL MOISTURE/WATER CONTENT",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL TEMPERATURE",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > VEGETATION INDEX > NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)",
+      "mineral composition",
+      "Total concentration",
+      "geophysics",
+      "Earth Science > Biosphere > Land Science > Soils> Soil efflux"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Point Reyes Experimental Field Site (37.9711\u00b0 N, -122.7301\u00b0 W)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.9711,
+            "longitude": -122.7301
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.9711,
+            "longitude": -122.7301
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-76SF00515"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "Swiss National Science Foundation"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-09-01",
+      "endDate": "2022-08-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2440-7855",
+      "givenName": "Mike",
+      "familyName": "Rowley",
+      "affiliation": "University of Zurich",
+      "email": "mike.rowley@geo.uzh.ch"
+    },
+    "citation": [
+      "Rowley, M.C., Falco, N., Pegoraro, E., Dafflon, B., Gerlein-Safdi, C., Wu, Y., Castanha, C., Pe\u00f1a, J., Nico, P.S., Torn, M.S., 2024. The Importance of Accounting for Landscape Position When Investigating Grasslands: A Multidisciplinary Characterisation of a California Coastal Grassland. Earth's Future 12(6), e2023EF004208. https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023EF004208"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "9cc37650-e339-4174-b9ba-a659d6fb244c"
+      },
+      "name": "Belowground Biogeochemistry Scientific Focus Area",
+      "member": {
+        "@type": "Person",
+        "givenName": "Margaret",
+        "familyName": "Torn",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mstorn@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Soil preparation:\nFive soil cores were sampled along the hillslope at the PRFS (Fig. 1A & B), between October and December 2020. All soils were historically grouped (Tomales series; NRCS, 2022; SoilWeb, 2021) and characterised using the World Reference Base system (IUSS Working Group WRB, 2015). Each core was sampled in 10 cm intervals to 100 cm where possible and transported to the Lawrence Berkeley National Laboratory for further analysis. Roots and large fragments (> 2 mm) were separated for bulk density. A subsample of moist soil was dried at 105\u00b0C to calculate gravimetric water content. Soil subsamples used for chemical analyses (see below) were oven dried at 40\u00b0C and measurements were corrected for hygroscopic moisture content (van Reeuwijk, 2002). A subset of dried soil samples were ground with a Retsch MM400 ball mill for 48 h at a frequency of 1800 rpm-1. Blind replicates and process blanks were measured throughout analyses to check analytical replicability and precision.",
+      "Soil properties:\nA suite of physico-chemical characterisation analyses was completed on all soil core samples. Soil pH was measured potentiometrically in 1 M KCl (1:2.5 ratio) using a glass-body combination electrode (VWR 89231-574; Pansu and Gautheyrou, 2006). Similar measurements were made in distilled water to verify our measurements and were typically 1 \u2013 1.5 pH units higher and less reproducible than the KCl measurements (data not shown), as previously reported (see Sumner, 1994 for detailed explanation). Soil CHN analysis was completed on ground samples using a Costech 4010 Elemental Analyzer at the University Hawaii Hilo Analytical Lab. Soil particle size distributions were determined for each sample with laser diffraction using a Malvern Mastersizer 3000 and a Hydro LV module. Samples were pre-treated (see Suppl. Methods; Pansu and Gautheyrou, 2006) then loaded into the Hydro LV module with a pump speed of 3000 rpm-1 and sonicated (100 %), prior to manually measuring samples in triplicate using the Fraunhofer optical model. Soil exchangeable cations were extracted using cobalt hexamine extractions (Aran et al., 2008), diluted in 2 % HNO3, combined with an internal standard, and then measured using a Perkin-Elmer Sciex Elan DRC II inductively coupled plasma mass spectrometer. The cation exchange capacity (CEC; c.molc. kg-1) represents the sum of extracted cations (Al3+, Ca2+, Mg2+, Na+, K+), not including H+. Base saturations were high and not affected by the inclusion of H+ into CEC sum calculations, using soil pH to approximate its concentration.",
+      "Total element and mineral composition data:\nTotal element composition of our soil cores was measured at three depth intervals (ca. 0 - 10, 30 - 40, and 60 - 70 cm) following lithium tetraborate fusion of ground samples and the subsequent dissolution of the fused discs at ALS Global (ME-ICP06). 0.1 g of ground soil was added to a lithium metaborate / lithium tetraborate (LiBO2/Li2B4O7) mixture and furnaced at 1000\u0970C. Discs were then dissolved in a weak acid (100 mL 4 % HNO3 and 2 % HCl) and measured with inductively coupled plasma-atomic emission spectroscopy for whole rock elements (major) and inductively coupled plasma-mass spectrometry for trace elements. Results were corrected for mass loss-on-ignition. Various weathering indices were created by calculating ratios between mobile and immobile elements (see SI for details; Schaetzl and Thompson, 2015). The mineral composition of ground soil core samples was ascertained semi-quantitatively at the same 3 depth intervals (ca. 0-10, 30-40, and 60-70 cm) using X-ray diffraction at the Stanford Synchrotron Radiation Lightsource (BL 11-3) with the methods outlined in the SI of Rowley et al. (2023). The mineral composition of soil core 3 could not be measured due to beam time limitations.",
+      "Geophysical data:\nAn ElectroMagnetic Induction (EMI) survey was completed to investigate fluctuations in soil electrical conductivity (EC) at the PRFS hillslope and assess subsurface spatial and temporal variations. The vertical and lateral distribution of soil EC across the study site (< 200 cm depth) was quantified using a ground-based frequency-domain EMI device. The EMI survey was conducted by completing multiple transects across the field site, automatically recording the geographic coordinates with a real time kinematic global positioning system (Hyper V, from Topcon Inc). The EMI data was acquired on 24 September 2020, 20 December 2020, 6 March 2021, 28 April 2021, and 28 May 2021. The acquisition on 24 September 2020, when the soil was relatively dry with little spatial variability in soil moisture, was intended to identify the impact of heterogeneity in soil texture and porosity on the measured signal. Datasets collected in 2021 were used to evaluate changes in soil moisture, and to correspond to the remotely sensed data.\nThe EMI device had six horizontally oriented coplanar coils with dipole centre distances of 20, 33, 50, 72, 103, 150 cm (CMD Mini Explorer 6L from GF Instruments Inc.). The instrument was maintained at 10 cm above the soil surface throughout measurements and set on high depth range. The files named \u201cEMclean_YYYY-MM-DD\u201d include the acquisition locations (Easting and Northing in UTM zone 10N), and the measured apparent electrical conductivity [mS/m] for the dipole center distances equal to 0.33, 0.5, 0.72, 1.03 and 1.5 m (we removed data associated with dipole distance of 0.2 m due to noisy signal. These dipole distances correspond to an effective high depth range of 0.5, 0.8, 1.1, 1.6 and 2.3 m.\nIn order to reconstruct the depth-discrete distribution of soil EC, EMagPy was used to invert the EMI\ndata (McLachlan et al., 2021). The inversion process aims to minimise the difference between\nmeasured values and the values generated from forward model calculations. A non-linear full solution\nforward 1-D model was used to invert the data, based on Maxwell\u2019s equations. The depth-discrete model was parameterised with nine layers with boundaries at 25, 50, 75, 100, 125, 150, 200, 250 cm depth. Finally, the inferred data were corrected to a temperature of 20\u00b0C by applying a fractional change in EC of 1.83 % per \u00b0C. The temperature offset from 20\u00b0C was estimated based on the depth-discrete monitoring of soil temperature at 10, 30, 60, and 90 cm depth at multiple locations (TEROS 12), which were here spatially averaged, and interpolated or extrapolated to each model layer depth. The temperature corrected electrical conductivity are provided in the files named \u201cEMinvTcorrected-YYYY-MM-DD\u201d for each acquisition date, except for 20 December 2020 for which we did not have soil temperature data. The corrected temperature data are provided for 12, 37, 62 and 87 cm depth where temperature data were available for correction.",
+      "Subsurface hydrology data:\nTo investigate fluctuations in the ground water table (GWT) two piezometer wells were installed, one at the top of the hillslope (37.9711, -122.7323) and another at the bottom (37.9710, -122.7331; Fig. 1B). Both wells were ca. 3.5 m deep and equipped with pressure transducers (Onset U20). The elevation of the GWT was inferred by correcting the measured pressure with barometric pressure and real time kinematic global positioning system measurements. Measurements were made every 30 mins for 1 yr between January 2021 and 2022. The GWT fell below measurement depth in the summer months, falling below the sensor between 27 July-24 October and 10-24 October at the top and bottom of the hillslope, respectively. The GWT readings were verified through manual measurements. Soil moisture and temperature sensors (TEROS 12, METER Inc) were also installed at four depths (10, 30, 60 and 90 cm depth) at five locations along the hillslope (Fig. 1B & S1A). Installation was completed by auguring a 10 cm diameter hole, before inserting the sensors into the wall at the 4 depths, and then refilling the hole with excavated material. Soil moisture and temperature measurements were autonomously collected at 30 min intervals. Like soil CO2 fluxes, soil moisture data for 2022 was also collected at the future whole-soil warming plots using EnviroSCAN probes (Sentek Tech., Australia) installed at 8 depths (10, 20, 30, 40, 60, 80, 100, and 120 cm) in a soil moisture probe system, logged at 30 mins intervals, and presented in the SI.",
+      "Flux data:\nThis dataset contains filtered soil CO2 efflux data measured by a forced diffusion (eosFD) sensor (Eosense, Canada). Data is recorded every 30 minutes and stored in the sensor; data was downloaded manually every few weeks to months. Soil CO2 efflux was measured during 2021 at three locations along the hillslope to characterize the effect of the varying water table and soil moisture gradient on soil CO2 efflux. The FD sensors were placed into soil collars installed 5 cm into the mineral soil (7.5 cm inner diameter; 9.0 cm outer diameter; 5 cm height). The FD chambers were deployed on November 23 rd 2020 and here we report all available data ranging from February to November 2021. The downslope sensor malfunctioned for two periods in 2021, first in early April to Late May, and again\nfrom late June to late August. Data was filtered for spikes caused by battery voltage issues, or noise in data caused by periods where condensation was high and affected the sensor. This research is part of the LBNL Belowground Biogeochemistry SFA. These data are pre-treatment data and will be used to better understand the effect of 3 and 6 degree C soil warming to 1 m in depth on carbon and nutrient cycling. The goal of this research is to understand what will be the role of soils in terrestrial feedbacks to atmospheric and climate changes over the next 100 years.",
+      "Remotely sensed data:\nWe obtained four satellite multispectral PlanetScope Analytic Ortho images with a 3 m resolution, which were acquired on 25 September 2020, and 7 March, 27 April, and 31 May 2021. These dates were chosen to ensure that the characterisation sampling efforts and seasonal changes at our site closely matched the remotely sensed data. From the remotely sensed images, we computed the normalised difference vegetation index (NDVI) as described in Supporting Information S1. The NDVI was used to characterise the temporal and spatial variability in vegetation productivity (Devadoss et al., 2020; Wainwright et al., 2020). We used a 1 m resolution digital elevation model (DEM) produced through the 3D Elevation Program (3DEP) developed by U.S. Geological Survey to\nextract several topographical metrics, including elevation (Figure S1b in Supporting Information S1), slope (Figure S1c in Supporting Information S1), aspect, solar insolation, topographic position index, topographic wetness index, and curvature. The solar insolation was calculated for a specific location in a year of clear sky (W m\udbc0\udc00 2 yr\udbc0\udc00 1) following the approach of Kumar et al. (1997).\nTo capture the aboveground and belowground spatial heterogeneity across the study area we combined several modeling techniques. We used a clustering approach to group landscape heterogeneity and to identify spatial zones with unique properties at our site. The feature set used for clustering analysis was composed of several data sets, including the time\u2010series of soil EC at the depth of 62.5 and 87.5 cm, time\u2010series of NDVI, and various topographical metrics, such as elevation, slope, aspect, potential total solar radiation, topographic position index, topographic wetness index, and curvature. To account for the different spatial resolutions of the data sets included in the clustering analysis, all data sets were transformed to the same spatial grid of the lowest resolution data set\n(3 m NDVI). The feature set was then standardised and reduced by applying principal component analysis (PCA). The final feature set was composed by the first few principal components representing 99% of the total variance. The adopted clustering algorithm uses an agglomerative hierarchical procedure, in which data points are merged within the same cluster using a similarity metric in a bottom\u2010up approach (Ward's minimum variance criterion). We calculated the optimum number of clusters using a silhouette analysis (Pedregosa et al., 2011; Rousseeuw, 1987).\nVar Meaning Unit\nX Easting [m]\nY Northing [m]\nEC_t1d3 Soil EC time 1 depth 3 [mS/m]\nEC_t1d4 Soil EC time 1 depth 4 [mS/m]\nEC_t2d3 Soil EC time 2 depth 3 [mS/m]\nEC_t2d4 Soil EC time 2 depth 4 [mS/m]\nEC_t3d3 Soil EC time 3 depth 3 [mS/m]\nEC_t3d4 Soil EC time 3 depth 4 [mS/m]\nEC_t4d3 Soil EC time 4 depth 3 [mS/m]\nEC_t4d4 Soil EC time 4 depth 4 [mS/m]\nNDVI_t1 Normalize Difference Vegetation Index time 1\nNDVI_t2 Normalize Difference Vegetation Index time 2\nNDVI_t3 Normalize Difference Vegetation Index time 3\nNDVI_t4 Normalize Difference Vegetation Index time 4\nElevation topogrpahycal elevation [m]\nSlope topogrpahycal slope [deg]\nSrad potential total solar radiation [W/m2]\nTPI topographic position index\nTWI topographic wetness index\nAspect topogrpahycal aspect [deg]\nCurvature topogrpahycal curvature [m\u22121]\nk_means_pca clustering"
+    ],
+    "distribution": [
+      {
+        "contentSize": 163.396484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0d69c0b5a6f7e45-20240613T203820055",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0d69c0b5a6f7e45-20240613T203820055",
+        "name": "EMclean_2022_09_24.csv"
+      },
+      {
+        "contentSize": 1.4677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-03a811f10de6c4a-20240613T204125926",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-03a811f10de6c4a-20240613T204125926",
+        "name": "EMI_Metadata.csv"
+      },
+      {
+        "contentSize": 7.439453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-047dc22f57f82d8-20240624T115801110",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-047dc22f57f82d8-20240624T115801110",
+        "name": "20210307_NDVI.tif"
+      },
+      {
+        "contentSize": 30.673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-323f59eaa468ca0-20240520T181650795",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-323f59eaa468ca0-20240520T181650795",
+        "name": "SoilCores.xlsx"
+      },
+      {
+        "contentSize": 176.046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-35eccae477fcaaa-20240613T203820115",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-35eccae477fcaaa-20240613T203820115",
+        "name": "EMinvTcorrected_2023_05_28.csv"
+      },
+      {
+        "contentSize": 804.8388671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3ac7448d1be1e0f-20240613T210540311",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3ac7448d1be1e0f-20240613T210540311",
+        "name": "WL_top2022jan.csv"
+      },
+      {
+        "contentSize": 7.439453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d3ccee76444e6d9-20240624T115801123",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-d3ccee76444e6d9-20240624T115801123",
+        "name": "20210531_NDVI.tif"
+      },
+      {
+        "contentSize": 7.439453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e87e6b2bb4d0b0d-20240624T115801104",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-e87e6b2bb4d0b0d-20240624T115801104",
+        "name": "20200925_NDVI.tif"
+      },
+      {
+        "contentSize": 2450.8056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cf5ba5193c8d2ef-20240621T121606390",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cf5ba5193c8d2ef-20240621T121606390",
+        "name": "20240617_essdive_FD_sensor_flux_data_compiled.csv"
+      },
+      {
+        "contentSize": 32.322265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5b6529c66312157-20240718T120020410",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-5b6529c66312157-20240718T120020410",
+        "name": "The_importance_of_accounting_for_landscape.xml"
+      },
+      {
+        "contentSize": 196.7939453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-645a4c9d54aacec-20240624T115754244",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-645a4c9d54aacec-20240624T115754244",
+        "name": "PR_grid_topo_ndvi_EMd34_kmeansPCA.csv"
+      },
+      {
+        "contentSize": 834.8525390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8641172de4e1937-20240613T210540301",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8641172de4e1937-20240613T210540301",
+        "name": "WL_bot2022jan.csv"
+      },
+      {
+        "contentSize": 94.572265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8742ead85f7c535-20240613T203820088",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8742ead85f7c535-20240613T203820088",
+        "name": "EMclean_2023_05_28.csv"
+      },
+      {
+        "contentSize": 110.4482421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8775aeed8499ba7-20240613T203820082",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8775aeed8499ba7-20240613T203820082",
+        "name": "EMclean_2023_04_28.csv"
+      },
+      {
+        "contentSize": 7.439453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6c73eb2d4ac33cb-20240624T115801116",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-6c73eb2d4ac33cb-20240624T115801116",
+        "name": "20210427_NDVI.tif"
+      },
+      {
+        "contentSize": 184.6025390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-aac74b2ca73dbee-20240613T203820102",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-aac74b2ca73dbee-20240613T203820102",
+        "name": "EMinvTcorrected_2023_03_06.csv"
+      },
+      {
+        "contentSize": 121.4853515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a947e57390f1fad-20240613T203820095",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a947e57390f1fad-20240613T203820095",
+        "name": "EMinvTcorrected_2022_09_24.csv"
+      },
+      {
+        "contentSize": 174.60546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a29fa7c825dea22-20240613T203820108",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a29fa7c825dea22-20240613T203820108",
+        "name": "EMinvTcorrected_2023_04_28.csv"
+      },
+      {
+        "contentSize": 117.7060546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a2b05a328913511-20240613T203820068",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a2b05a328913511-20240613T203820068",
+        "name": "EMclean_2022_12_20.csv"
+      },
+      {
+        "contentSize": 10.3349609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9725a595229ffc6-20240520T181650760",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-9725a595229ffc6-20240520T181650760",
+        "name": "IdentifiedGrassSpecies.xlsx"
+      },
+      {
+        "contentSize": 16213.5166015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-babae844b274bf2-20240613T212651812",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-babae844b274bf2-20240613T212651812",
+        "name": "SMS.csv"
+      },
+      {
+        "contentSize": 21.6220703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f718cd02247b6b7-20240520T181650806",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-f718cd02247b6b7-20240520T181650806",
+        "name": "XRFXRD.xlsx"
+      },
+      {
+        "contentSize": 109.0009765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f9fd47d9e4c8c34-20240613T203820077",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f9fd47d9e4c8c34-20240613T203820077",
+        "name": "EMclean_2023_03_06.csv"
+      }
+    ]
+  }
+}

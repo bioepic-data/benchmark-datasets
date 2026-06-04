@@ -1,0 +1,128 @@
+{
+  "id": "ess-dive-9806222c793e85d-20251117T210336032",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3003420",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-9806222c793e85d-20251117T210336032",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-f3f6d4eb61dbb4a-20251117T164657303",
+  "dateUploaded": "2025-11-17T21:03:36.437Z",
+  "dateModified": "2025-12-02T00:55:44.297Z",
+  "isPublic": true,
+  "citation": "Gomez-Velez J; Rathore S; Painter S; Cohen M (2025): Hyporheic-zone Processes and Stream Oxygen Dynamics: Insights from a Multiscale Reactive Transport Model: Modeling Archive. Watershed Dynamics and Evolution (WaDE) SFA. Dataset. doi:10.15485/3003420",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3003420",
+    "name": "Hyporheic-zone Processes and Stream Oxygen Dynamics: Insights from a Multiscale Reactive Transport Model: Modeling Archive",
+    "description": [
+      "This archive contains the data and Python scripts required to reproduce the analyses and figures in the study: Gomez-Velez, J. D., Rathore, S. S., Cohen, M. J., & Painter, S. L. (2025). Hyporheic-zone Processes and Stream Oxygen Dynamics: Insights from a Multiscale Reactive Transport Model. Submitted to Water Resources Research. The analysis utilizes the subgrid model Advection Dispersion Equation with Lagrangian Subgrids (ADELS) implemented in the Advanced Terrestrial Simulator (ATS; https://amanzi.github.io/ats/stable/). In this case, the ATS and Amanzi versions are (1) ATS version 1.5.1_f5ba18f8 and (2) Amanzi version 1.6-dev_53444cca4. The repository includes a Jupyter Notebook and the necessary data (Pandas DataFrames stored as pickle files) to generate the figures for the manuscript. Additionally, it contains Python scripts to create ATS input files, run the ATS simulations, and post-process the results. Finally, it provides routines for parameter estimation using the Single-Station Metabolism (SSM) model with the Differential Evolution Adaptive Metropolis (DREAM) Markov Chain Monte Carlo (MCMC) algorithm with ZS enhancements (DREAM-ZS)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8045-5926",
+        "givenName": "Jesus",
+        "familyName": "Gomez-Velez",
+        "affiliation": "University of Iowa",
+        "email": "jesus-gomezvelez@uiowa.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0469-2959",
+        "givenName": "Saubhagya",
+        "familyName": "Rathore",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "rathoress@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0901-6987",
+        "givenName": "Scott",
+        "familyName": "Painter",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "paintersl@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5674-1850",
+        "givenName": "Matthew",
+        "familyName": "Cohen",
+        "affiliation": "Water Institute, University of Florida, Gainesville, FL, USA",
+        "email": "mjc@ufl.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8045-5926",
+      "givenName": "Jesus",
+      "familyName": "Gomez-Velez",
+      "email": "jesus.d.gomezvelez@gmail.com"
+    },
+    "citation": [
+      "Gomez-Velez, J. D., Rathore, S. S., Cohen, M. J., & Painter, S. L. (2025). Hyporheic-zone Processes and Stream Oxygen Dynamics: Insights from a Multiscale Reactive Transport Model. Submitted to Water Resources Research."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "79a70ddf-4e6d-41b5-a343-a0bb6369d1f3"
+      },
+      "name": "Watershed Dynamics and Evolution (WaDE) SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eric",
+        "familyName": "Pierce",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "pierceem@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Synthetic time series of oxygen with 15-minute resolution were generated using the multiscale reactive transport model Advection Dispersion Equation with Lagrangian Subgrids (ADELS) implemented in the Advanced Terrestrial Simulator (ATS; https://amanzi.github.io/ats/stable/) model. Random noise is added to this data, representing the measurement uncertainties. The model for generating synthetic data included:\n- advection and dispersion in the main channel\n- exchange with hyporheic zone\n- aerobic respiration in the channel and sediments\nA synthetic timeseries of oxygen is generated. Forward model ATS-ADELS is run through Python wrapper."
+    ],
+    "distribution": [
+      {
+        "contentSize": 5720789.3994140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-20021e15f939737-20251107T030122665",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-20021e15f939737-20251107T030122665",
+        "name": "data.zip"
+      },
+      {
+        "contentSize": 2204.169921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ffbf12a6e01c35-20251106T153627592",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7ffbf12a6e01c35-20251106T153627592",
+        "name": "src.zip"
+      },
+      {
+        "contentSize": 6.2490234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9806222c793e85d-20251117T210336032",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-9806222c793e85d-20251117T210336032",
+        "name": "Hyporheic_zone_Processes_and_Stream_Oxygen.xml"
+      },
+      {
+        "contentSize": 2.728515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b1eede260e612ca-20251106T153612597",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-b1eede260e612ca-20251106T153612597",
+        "name": "readme.txt"
+      }
+    ]
+  }
+}

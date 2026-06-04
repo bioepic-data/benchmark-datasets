@@ -1,0 +1,877 @@
+{
+  "id": "ess-dive-a42c0954bef96e7-20240410T184703906",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2335799",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a42c0954bef96e7-20240410T184703906",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-bf5221bca77d714-20240329T190211016",
+  "dateUploaded": "2024-04-10T18:47:05.665Z",
+  "dateModified": "2025-11-15T05:55:01.745Z",
+  "isPublic": true,
+  "citation": "O'Brien J; Anderson G; Muradyan P; Tuftedal M; Collis S; Jackson R; Grover M; Dematties D; Park S; Sankaran R; Beckman P; Ferrier N; Kim Y; Shahkarami S (2024): CROCUS Air Quality Data at Northeastern Illinois University Rooftop. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL). Dataset. doi:10.15485/2335799",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2335799",
+    "name": "CROCUS Air Quality Data at Northeastern Illinois University Rooftop",
+    "description": [
+      "This dataset is from the Department of Energy Office of Science funded project, Community Research on Urban and Climate Science (CROCUS) (https://crocus-urban.org/). The AQT (Vaisala AQT530) instrument provides observations on meteorological conditions, including particulate matter (PM2.5, PM10), gas species concentrations (NO, NO2, O3, CO), and environment temperature and moisture. These measurements are critical for understanding air quality. These measurements are useful for understanding changes in aerosol properties, air quality research, and comparing to model experiments especially in urban environments.",
+      "Datasets are stored in the netCDF data format, and we we encourage users to make use the associated toolkits available from Unidata (https://www.unidata.ucar.edu/software/netcdf/), Project Pythia (https://foundations.projectpythia.org/core/data-formats/netcdf-cf.html), and our \u201cInstrument Cookbooks\u201d (https://crocus-urban.github.io/instrument-cookbooks) for more information on how to process the metadata-rich datasets."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4655-6912",
+        "givenName": "Joseph",
+        "familyName": "O'Brien",
+        "affiliation": "Argonne National Laboratory",
+        "email": "obrienj@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0346-7258",
+        "givenName": "Gregory",
+        "familyName": "Anderson",
+        "affiliation": "Northeastern Illinois University",
+        "email": "g-anderson@neiu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6903-9435",
+        "givenName": "Paytsar",
+        "familyName": "Muradyan",
+        "affiliation": "Argonne National Laboratory",
+        "email": "pmuradyan@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1589-6474",
+        "givenName": "Matthew",
+        "familyName": "Tuftedal",
+        "affiliation": "Argonne National Laboratory",
+        "email": "mtuftedal@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2303-687X",
+        "givenName": "Scott",
+        "familyName": "Collis",
+        "affiliation": "Argonne National Laboratory",
+        "email": "scollis@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2518-1234",
+        "givenName": "Robert",
+        "familyName": "Jackson",
+        "affiliation": "Argonne National Laboratory",
+        "email": "rjackson@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0370-8974",
+        "givenName": "Maxwell",
+        "familyName": "Grover",
+        "affiliation": "Argonne National L",
+        "email": "mgrover@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8726-7837",
+        "givenName": "Dario",
+        "familyName": "Dematties",
+        "affiliation": "Northwestern-Argonne Institute of Science and Engineering",
+        "email": "ddematties@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7911-1672",
+        "givenName": "Seongha",
+        "familyName": "Park",
+        "affiliation": "Northwestern-Argonne Institute of Science and Engineering",
+        "email": "seongha.park@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8911-2783",
+        "givenName": "Rajesh",
+        "familyName": "Sankaran",
+        "affiliation": "Argonne National Laboratory",
+        "email": "rajesh@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9428-7801",
+        "givenName": "Peter",
+        "familyName": "Beckman",
+        "affiliation": "Argonne National Laboratory",
+        "email": "beckman@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1444-0624",
+        "givenName": "Nicola",
+        "familyName": "Ferrier",
+        "affiliation": "Argonne National Laboratory",
+        "email": "nferrier@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1257-9921",
+        "givenName": "Yongho",
+        "familyName": "Kim",
+        "affiliation": "Argonne National Laboratory",
+        "email": "yongho.kim@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sean",
+        "familyName": "Shahkarami",
+        "affiliation": "Northwestern University",
+        "email": "sean.shahkarami@northwestern.edu"
+      }
+    ],
+    "datePublished": "2024-03-29",
+    "keywords": [
+      "EARTH SCIENCE > ATMOSPHERE > AIR QUALITY",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR"
+    ],
+    "variableMeasured": [
+      "mass_fraction_of_pm2p5_dry_aerosol_particles_in_air",
+      "mass_concentration_of_oxygenated_hydrocarbons_in_air",
+      "mass_concentration_of_nitrogen_dioxide_in_air",
+      "mass_concentration_of_nitrogen_monoxide_in_air",
+      "mass_concentration_of_ozone_in_air",
+      "mass_concentration_of_carbon_monoxide_in_air",
+      "mass_concentration_of_pm10_ambient_aerosol_particles_in_air"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Northeastern Illinois Univeristy Rooftop",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.98053299,
+            "longitude": -87.7166237461604
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.98053299,
+            "longitude": -87.7166237461604
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02- 06CH11357"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2023-05-20",
+      "endDate": "2023-09-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4655-6912",
+      "givenName": "Joseph",
+      "familyName": "O'Brien",
+      "affiliation": "Argonne National Laboratory",
+      "email": "obrienj@anl.gov"
+    },
+    "citation": [
+      "https://www.vaisala.com/en/products/weather-environmental-sensors/weather-transmitter-wxt530-series"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "e48add86-2fa5-4a04-a530-86906241ebbc"
+      },
+      "name": "Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Cristina",
+        "familyName": "Negri",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Argonne National Laboratory",
+        "email": "negri@anl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Direct measurements from the AQT sensor include particulate matter concentration, in units of \u03bcg/m3, at 2.5 microns (PM2.5) as well as 10 microns (PM10). Gas concentrations (CO, NO, NO2, O3) are measured in units of parts per billion (ppb)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-02aa3520f5779f9-20240329T184307253",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-02aa3520f5779f9-20240329T184307253",
+        "name": "crocus_neiu_aqt_a1_20230608_000000.nc"
+      },
+      {
+        "contentSize": 1298.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2638b0c3536f693-20240329T184307226",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-2638b0c3536f693-20240329T184307226",
+        "name": "crocus_neiu_aqt_a1_20230521_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0d086733b2fdebb-20240329T184307245",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-0d086733b2fdebb-20240329T184307245",
+        "name": "crocus_neiu_aqt_a1_20230603_000000.nc"
+      },
+      {
+        "contentSize": 149.3798828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-073952ac5da37c8-20240329T184307262",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-073952ac5da37c8-20240329T184307262",
+        "name": "crocus_neiu_aqt_a1_20230613_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-09e0213488c9b68-20240329T184307273",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-09e0213488c9b68-20240329T184307273",
+        "name": "crocus_neiu_aqt_a1_20230619_000000.nc"
+      },
+      {
+        "contentSize": 1298.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-15aa246d31fb01c-20240329T184307232",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-15aa246d31fb01c-20240329T184307232",
+        "name": "crocus_neiu_aqt_a1_20230525_000000.nc"
+      },
+      {
+        "contentSize": 143.0048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-226cf26257f8bdc-20240329T184307351",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-226cf26257f8bdc-20240329T184307351",
+        "name": "crocus_neiu_aqt_a1_20230725_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2419121eb96fec9-20240329T184307466",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-2419121eb96fec9-20240329T184307466",
+        "name": "crocus_neiu_aqt_a1_20230830_000000.nc"
+      },
+      {
+        "contentSize": 147.5048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1d3be7464c75fda-20240329T184307387",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-1d3be7464c75fda-20240329T184307387",
+        "name": "crocus_neiu_aqt_a1_20230809_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-186ec2e4538de8d-20240329T184307293",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-186ec2e4538de8d-20240329T184307293",
+        "name": "crocus_neiu_aqt_a1_20230627_000000.nc"
+      },
+      {
+        "contentSize": 147.7861328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1e2b6b5f9f62be1-20240329T184307384",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-1e2b6b5f9f62be1-20240329T184307384",
+        "name": "crocus_neiu_aqt_a1_20230808_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0db633904574361-20240329T184307255",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-0db633904574361-20240329T184307255",
+        "name": "crocus_neiu_aqt_a1_20230609_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0f7a98ac46d5e3a-20240329T184307301",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-0f7a98ac46d5e3a-20240329T184307301",
+        "name": "crocus_neiu_aqt_a1_20230630_000000.nc"
+      },
+      {
+        "contentSize": 150.3173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3efc74c7400ddb4-20240329T184307403",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-3efc74c7400ddb4-20240329T184307403",
+        "name": "crocus_neiu_aqt_a1_20230814_000000.nc"
+      },
+      {
+        "contentSize": 1298.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3fb26cba1394f5c-20240329T184307219",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-3fb26cba1394f5c-20240329T184307219",
+        "name": "crocus_neiu_aqt_a1_20230520_000000.nc"
+      },
+      {
+        "contentSize": 106.2548828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-45bc57f2e942a85-20240329T184307329",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-45bc57f2e942a85-20240329T184307329",
+        "name": "crocus_neiu_aqt_a1_20230712_000000.nc"
+      },
+      {
+        "contentSize": 150.3173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-462c136c5369cdd-20240329T184307415",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-462c136c5369cdd-20240329T184307415",
+        "name": "crocus_neiu_aqt_a1_20230816_000000.nc"
+      },
+      {
+        "contentSize": 149.3798828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2c0f3329b71a22c-20240329T184307425",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-2c0f3329b71a22c-20240329T184307425",
+        "name": "crocus_neiu_aqt_a1_20230819_000000.nc"
+      },
+      {
+        "contentSize": 789.3701171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2eb9e392ca61db8-20240329T184307236",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-2eb9e392ca61db8-20240329T184307236",
+        "name": "crocus_neiu_aqt_a1_20230527_000000.nc"
+      },
+      {
+        "contentSize": 122.1923828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4864b9924a1dad3-20240329T184307360",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-4864b9924a1dad3-20240329T184307360",
+        "name": "crocus_neiu_aqt_a1_20230728_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-487b47f18cb5aa7-20240329T184307448",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-487b47f18cb5aa7-20240329T184307448",
+        "name": "crocus_neiu_aqt_a1_20230825_000000.nc"
+      },
+      {
+        "contentSize": 148.9111328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-495308a1fc774d1-20240329T184307393",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-495308a1fc774d1-20240329T184307393",
+        "name": "crocus_neiu_aqt_a1_20230811_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3904bb6df8525bc-20240329T184307459",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-3904bb6df8525bc-20240329T184307459",
+        "name": "crocus_neiu_aqt_a1_20230828_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a603d75f4d192f-20240329T184307429",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-3a603d75f4d192f-20240329T184307429",
+        "name": "crocus_neiu_aqt_a1_20230820_000000.nc"
+      },
+      {
+        "contentSize": 1298.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e99788b8849707f-20240329T184307231",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-e99788b8849707f-20240329T184307231",
+        "name": "crocus_neiu_aqt_a1_20230524_000000.nc"
+      },
+      {
+        "contentSize": 148.9111328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2a34c9c480775a9-20240329T184307310",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-2a34c9c480775a9-20240329T184307310",
+        "name": "crocus_neiu_aqt_a1_20230704_000000.nc"
+      },
+      {
+        "contentSize": 151.0673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d3a661d5cb0e40b-20240329T184307271",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-d3a661d5cb0e40b-20240329T184307271",
+        "name": "crocus_neiu_aqt_a1_20230618_000000.nc"
+      },
+      {
+        "contentSize": 150.2236328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d49fda4754fbd6a-20240329T184307390",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-d49fda4754fbd6a-20240329T184307390",
+        "name": "crocus_neiu_aqt_a1_20230810_000000.nc"
+      },
+      {
+        "contentSize": 492.6669921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d8ad27aba109b7a-20240329T184307237",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-d8ad27aba109b7a-20240329T184307237",
+        "name": "crocus_neiu_aqt_a1_20230529_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d0b3374141f2d63-20240329T184307251",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-d0b3374141f2d63-20240329T184307251",
+        "name": "crocus_neiu_aqt_a1_20230607_000000.nc"
+      },
+      {
+        "contentSize": 151.0673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d0e7951ecf81ac5-20240329T184307265",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-d0e7951ecf81ac5-20240329T184307265",
+        "name": "crocus_neiu_aqt_a1_20230615_000000.nc"
+      },
+      {
+        "contentSize": 146.5673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e09590ce22e1d82-20240329T184307381",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-e09590ce22e1d82-20240329T184307381",
+        "name": "crocus_neiu_aqt_a1_20230807_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ed883436dbe5861-20240329T184307304",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ed883436dbe5861-20240329T184307304",
+        "name": "crocus_neiu_aqt_a1_20230701_000000.nc"
+      },
+      {
+        "contentSize": 63.0361328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ee68dc14c59d0f1-20240329T184307321",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ee68dc14c59d0f1-20240329T184307321",
+        "name": "crocus_neiu_aqt_a1_20230710_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-eee49c6d3d0cf8f-20240329T184307408",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-eee49c6d3d0cf8f-20240329T184307408",
+        "name": "crocus_neiu_aqt_a1_20230815_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-69cf36c0552fb51-20240329T184307258",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-69cf36c0552fb51-20240329T184307258",
+        "name": "crocus_neiu_aqt_a1_20230611_000000.nc"
+      },
+      {
+        "contentSize": 1298.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-51a048a745adacc-20240329T184307228",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-51a048a745adacc-20240329T184307228",
+        "name": "crocus_neiu_aqt_a1_20230522_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5eab2b976601103-20240329T184307285",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-5eab2b976601103-20240329T184307285",
+        "name": "crocus_neiu_aqt_a1_20230624_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5b2fb2fd525403c-20240329T184307307",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-5b2fb2fd525403c-20240329T184307307",
+        "name": "crocus_neiu_aqt_a1_20230702_000000.nc"
+      },
+      {
+        "contentSize": 1298.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4af8e1e83a300e9-20240329T184307234",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-4af8e1e83a300e9-20240329T184307234",
+        "name": "crocus_neiu_aqt_a1_20230526_000000.nc"
+      },
+      {
+        "contentSize": 143.0048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-572b6bc9a27f035-20240329T184307436",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-572b6bc9a27f035-20240329T184307436",
+        "name": "crocus_neiu_aqt_a1_20230822_000000.nc"
+      },
+      {
+        "contentSize": 146.3798828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4d2a6cd2cc69ec6-20240329T184307371",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-4d2a6cd2cc69ec6-20240329T184307371",
+        "name": "crocus_neiu_aqt_a1_20230804_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4f2bf2c7d986c69-20240329T184307291",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-4f2bf2c7d986c69-20240329T184307291",
+        "name": "crocus_neiu_aqt_a1_20230626_000000.nc"
+      },
+      {
+        "contentSize": 145.6298828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7885521a4110355-20240329T184307338",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-7885521a4110355-20240329T184307338",
+        "name": "crocus_neiu_aqt_a1_20230720_000000.nc"
+      },
+      {
+        "contentSize": 144.7861328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-79b2f68ff57e56e-20240329T184307354",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-79b2f68ff57e56e-20240329T184307354",
+        "name": "crocus_neiu_aqt_a1_20230726_000000.nc"
+      },
+      {
+        "contentSize": 140.8486328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7b68f98df68afcd-20240329T184307318",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-7b68f98df68afcd-20240329T184307318",
+        "name": "crocus_neiu_aqt_a1_20230707_000000.nc"
+      },
+      {
+        "contentSize": 144.8798828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6f947c564f0097f-20240329T184307368",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-6f947c564f0097f-20240329T184307368",
+        "name": "crocus_neiu_aqt_a1_20230803_000000.nc"
+      },
+      {
+        "contentSize": 145.8173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7125c1a6ba8e12c-20240329T184307432",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-7125c1a6ba8e12c-20240329T184307432",
+        "name": "crocus_neiu_aqt_a1_20230821_000000.nc"
+      },
+      {
+        "contentSize": 151.0673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-80d7f9cda35e6bb-20240329T184307312",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-80d7f9cda35e6bb-20240329T184307312",
+        "name": "crocus_neiu_aqt_a1_20230705_000000.nc"
+      },
+      {
+        "contentSize": 140.6611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-859763d64b76d81-20240329T184307348",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-859763d64b76d81-20240329T184307348",
+        "name": "crocus_neiu_aqt_a1_20230724_000000.nc"
+      },
+      {
+        "contentSize": 131.8486328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6cc0e8a881dfaa4-20240329T184307362",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-6cc0e8a881dfaa4-20240329T184307362",
+        "name": "crocus_neiu_aqt_a1_20230801_000000.nc"
+      },
+      {
+        "contentSize": 150.3173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6df855b61bce7de-20240329T184307399",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-6df855b61bce7de-20240329T184307399",
+        "name": "crocus_neiu_aqt_a1_20230813_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7bd341310b2fd07-20240329T184307463",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-7bd341310b2fd07-20240329T184307463",
+        "name": "crocus_neiu_aqt_a1_20230829_000000.nc"
+      },
+      {
+        "contentSize": 147.9736328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7e925e97ba00efb-20240329T184307356",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-7e925e97ba00efb-20240329T184307356",
+        "name": "crocus_neiu_aqt_a1_20230727_000000.nc"
+      },
+      {
+        "contentSize": 77.0986328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ebf0dcebd00ed9-20240329T184307326",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-7ebf0dcebd00ed9-20240329T184307326",
+        "name": "crocus_neiu_aqt_a1_20230711_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-75b3caf4ec8db78-20240329T184307275",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-75b3caf4ec8db78-20240329T184307275",
+        "name": "crocus_neiu_aqt_a1_20230620_000000.nc"
+      },
+      {
+        "contentSize": 149.9423828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-89a520205de42fb-20240329T184307315",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-89a520205de42fb-20240329T184307315",
+        "name": "crocus_neiu_aqt_a1_20230706_000000.nc"
+      },
+      {
+        "contentSize": 142.6298828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-abccb041be79c0f-20240329T184307365",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-abccb041be79c0f-20240329T184307365",
+        "name": "crocus_neiu_aqt_a1_20230802_000000.nc"
+      },
+      {
+        "contentSize": 143.7548828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a769b84bf23d2c4-20240329T184307377",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a769b84bf23d2c4-20240329T184307377",
+        "name": "crocus_neiu_aqt_a1_20230806_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-aa4613e05561e27-20240329T184307288",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-aa4613e05561e27-20240329T184307288",
+        "name": "crocus_neiu_aqt_a1_20230625_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9c707160cb29261-20240329T184307474",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-9c707160cb29261-20240329T184307474",
+        "name": "crocus_neiu_aqt_a1_20230901_000000.nc"
+      },
+      {
+        "contentSize": 26.7392578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a42c0954bef96e7-20240410T184703906",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-a42c0954bef96e7-20240410T184703906",
+        "name": "CROCUS_Air_Quality_Data_at_Northeastern_Illinois.xml"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a437c3f818790c0-20240329T184307279",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a437c3f818790c0-20240329T184307279",
+        "name": "crocus_neiu_aqt_a1_20230622_000000.nc"
+      },
+      {
+        "contentSize": 28.126953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a639ca03d5cf099-20240329T184307334",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a639ca03d5cf099-20240329T184307334",
+        "name": "crocus_neiu_aqt_a1_20230719_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a728de453138fbc-20240329T184307247",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a728de453138fbc-20240329T184307247",
+        "name": "crocus_neiu_aqt_a1_20230604_000000.nc"
+      },
+      {
+        "contentSize": 1298.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-90af891363af274-20240329T184307239",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-90af891363af274-20240329T184307239",
+        "name": "crocus_neiu_aqt_a1_20230530_000000.nc"
+      },
+      {
+        "contentSize": 141.7861328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a0d52eae6ae78e5-20240329T184307343",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a0d52eae6ae78e5-20240329T184307343",
+        "name": "crocus_neiu_aqt_a1_20230722_000000.nc"
+      },
+      {
+        "contentSize": 1298.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a3080d29688578f-20240329T184307229",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a3080d29688578f-20240329T184307229",
+        "name": "crocus_neiu_aqt_a1_20230523_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a3d7f3bc650f4e6-20240329T184307260",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a3d7f3bc650f4e6-20240329T184307260",
+        "name": "crocus_neiu_aqt_a1_20230612_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-99701deca23b971-20240329T184307282",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-99701deca23b971-20240329T184307282",
+        "name": "crocus_neiu_aqt_a1_20230623_000000.nc"
+      },
+      {
+        "contentSize": 150.9736328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b4be0f56ad3345c-20240329T184307250",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-b4be0f56ad3345c-20240329T184307250",
+        "name": "crocus_neiu_aqt_a1_20230606_000000.nc"
+      },
+      {
+        "contentSize": 149.8486328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bdb9f715475e5b9-20240329T184307422",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-bdb9f715475e5b9-20240329T184307422",
+        "name": "crocus_neiu_aqt_a1_20230818_000000.nc"
+      },
+      {
+        "contentSize": 151.0673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-be48210983cbd01-20240329T184307242",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-be48210983cbd01-20240329T184307242",
+        "name": "crocus_neiu_aqt_a1_20230601_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b87f4baf64d6d10-20240329T184307268",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-b87f4baf64d6d10-20240329T184307268",
+        "name": "crocus_neiu_aqt_a1_20230616_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b8b29ac9170722d-20240329T184307296",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-b8b29ac9170722d-20240329T184307296",
+        "name": "crocus_neiu_aqt_a1_20230628_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b9e001928617006-20240329T184307277",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-b9e001928617006-20240329T184307277",
+        "name": "crocus_neiu_aqt_a1_20230621_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ba3f5b5bd863696-20240329T184307248",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ba3f5b5bd863696-20240329T184307248",
+        "name": "crocus_neiu_aqt_a1_20230605_000000.nc"
+      },
+      {
+        "contentSize": 140.4736328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-aeb379f4d402b8b-20240329T184307340",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-aeb379f4d402b8b-20240329T184307340",
+        "name": "crocus_neiu_aqt_a1_20230721_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b0660d27a0198c7-20240329T184307264",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-b0660d27a0198c7-20240329T184307264",
+        "name": "crocus_neiu_aqt_a1_20230614_000000.nc"
+      },
+      {
+        "contentSize": 151.0673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c215cab8ad7c84d-20240329T184307444",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-c215cab8ad7c84d-20240329T184307444",
+        "name": "crocus_neiu_aqt_a1_20230824_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cc9a75219d9932c-20240329T184307257",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-cc9a75219d9932c-20240329T184307257",
+        "name": "crocus_neiu_aqt_a1_20230610_000000.nc"
+      },
+      {
+        "contentSize": 149.7548828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b35775a5b877b4c-20240329T184307396",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-b35775a5b877b4c-20240329T184307396",
+        "name": "crocus_neiu_aqt_a1_20230812_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b476aaeeb597363-20240329T184307299",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-b476aaeeb597363-20240329T184307299",
+        "name": "crocus_neiu_aqt_a1_20230629_000000.nc"
+      },
+      {
+        "contentSize": 149.5673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f0f5a55e3fb52fc-20240329T184307419",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-f0f5a55e3fb52fc-20240329T184307419",
+        "name": "crocus_neiu_aqt_a1_20230817_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f1b29408530a8d5-20240329T184307269",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-f1b29408530a8d5-20240329T184307269",
+        "name": "crocus_neiu_aqt_a1_20230617_000000.nc"
+      },
+      {
+        "contentSize": 24.1484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fc8b8bdf07225a5-20240329T184307331",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-fc8b8bdf07225a5-20240329T184307331",
+        "name": "crocus_neiu_aqt_a1_20230713_000000.nc"
+      },
+      {
+        "contentSize": 143.6611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fcb32cfd497c346-20240329T184307374",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-fcb32cfd497c346-20240329T184307374",
+        "name": "crocus_neiu_aqt_a1_20230805_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fe3f790c56efd36-20240329T184307440",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-fe3f790c56efd36-20240329T184307440",
+        "name": "crocus_neiu_aqt_a1_20230823_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f863a9168483a4d-20240329T184307452",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-f863a9168483a4d-20240329T184307452",
+        "name": "crocus_neiu_aqt_a1_20230826_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f9795df86fe6a72-20240329T184307244",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-f9795df86fe6a72-20240329T184307244",
+        "name": "crocus_neiu_aqt_a1_20230602_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e309db3734d6b50-20240329T184307470",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-e309db3734d6b50-20240329T184307470",
+        "name": "crocus_neiu_aqt_a1_20230831_000000.nc"
+      },
+      {
+        "contentSize": 151.0673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e43dd2eb94727ec-20240329T184307241",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-e43dd2eb94727ec-20240329T184307241",
+        "name": "crocus_neiu_aqt_a1_20230531_000000.nc"
+      },
+      {
+        "contentSize": 151.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ddc4843c5ba13dc-20240329T184307455",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ddc4843c5ba13dc-20240329T184307455",
+        "name": "crocus_neiu_aqt_a1_20230827_000000.nc"
+      },
+      {
+        "contentSize": 144.8798828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ded29515ab372c0-20240329T184307346",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ded29515ab372c0-20240329T184307346",
+        "name": "crocus_neiu_aqt_a1_20230723_000000.nc"
+      }
+    ]
+  }
+}

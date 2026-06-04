@@ -1,0 +1,163 @@
+{
+  "id": "ess-dive-34961d6c30c3f08-20251010T145011858",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2998327",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-34961d6c30c3f08-20251010T145011858",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-0a8283710d1b793-20251008T203650230",
+  "dateUploaded": "2025-10-10T14:50:12.345Z",
+  "dateModified": "2025-10-14T00:01:20.083Z",
+  "isPublic": true,
+  "citation": "Forbrich I; Martiros M; Orton H (2025): Specific conductivity and salinity of the Parker River, PIE LTER, Plum Island Sound MA, August-November 2022. From tides to seasons: How cyclic tidal drivers and plant physiology interact to affect carbon cycling at the terrestrial-estuarine boundary. Dataset. doi:10.15485/2998327",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2998327",
+    "name": "Specific conductivity and salinity of the Parker River, PIE LTER, Plum Island Sound MA, August-November 2022",
+    "description": [
+      "This dataset contains specific conductivity and calculated salinity data of Parker River water at a tidal brackish wetland dominated by Typha angustifolia at the upper estuary of the Plum Island Sound in Newbury, Massachusetts (MA) within the Plum Island Ecosystems Long Term Ecological Research site (PIE LTER). Measurements were taken to evaluate temporal changes in surface water salinity in high frequency to characterize boundary conditions of soil and plant responses to changes in salinity. A PVC pipe was installed in a low elevation spot in the creek bank so that the bottom of the pipe sat on the sediment surface allowing flushing with water during flooding. Raw measurements were collected using an Onset HOBO U24-002 Saltwater Conductivity/Salinity data logger. The specific conductance and salinity measurements were corrected and calculated respectively using Onset\u2019s HOBOware software and reference specific conductivity measurements taken in tandem with the first and last points recorded by the HOBO sensor. These reference measurements were taken using a HACH HQ14D Portable Conductivity Meter. Because of the installation design, only data one hour before and after high tide are used. Metadata files Typha_ctd_salinity_dd.csv and Typha_ctd_salinity_flmd.csv contain detailed information on data variables, sampling and QA/QC methods, and site location."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0632-7317",
+        "givenName": "Inke",
+        "familyName": "Forbrich",
+        "affiliation": "University of Toledo",
+        "email": "Inke.Forbrich@UToledo.Edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0009-9014-596X",
+        "givenName": "Mikaela",
+        "familyName": "Martiros",
+        "affiliation": "University of Wisconsin - Madison",
+        "email": "mmartiros@wisc.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0008-5082-2439",
+        "givenName": "Hannah",
+        "familyName": "Orton",
+        "affiliation": "Marine Biological Laboratory",
+        "email": "horton@mbl.edu"
+      }
+    ],
+    "datePublished": "2025-09-29",
+    "keywords": [
+      "tidal",
+      "brackish",
+      "salt marsh",
+      "typha angustifolia",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "Plum Island Ecosystems Long Term Ecological Research",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > SOLID EARTH > GEOCHEMISTRY",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS"
+    ],
+    "variableMeasured": [
+      "TIMESTAMP",
+      "SPC_COND_RAW",
+      "TEMP",
+      "SPC_COND_CORR",
+      "SALINITY"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Bank of the Parker River within Ameriflux site US-PLo, Newbury, MA, established May 2022. It is a brackish tidal wetland located in the upper estuary of the Parker River, dominated by Typha angustifolia.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.7496,
+            "longitude": -70.9157
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.7496,
+            "longitude": -70.9157
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0022108"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-08-11",
+      "endDate": "2022-11-09",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0632-7317",
+      "givenName": "Inke",
+      "familyName": "Forbrich",
+      "affiliation": "University of Toledo",
+      "email": "Inke.Forbrich@UToledo.Edu"
+    },
+    "citation": [
+      "Papale, D., Reichstein, M., Aubinet, M., Canfora, E., Bernhofer, C., Kutsch, W., Longdoz, B., Rambal, S., Valentini, R., Vesala, T., and Yakir, D.: Towards a standardized processing of Net Ecosystem Exchange measured with eddy covariance technique: algorithms and uncertainty estimation, Biogeosciences, 3, 571\u2013583, https://doi.org/10.5194/bg-3-571-2006, 2006."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a8baace6-a1d4-40f1-a355-c8dd8dc03ddd"
+      },
+      "name": "From tides to seasons: How cyclic tidal drivers and plant physiology interact to affect carbon cycling at the terrestrial-estuarine boundary",
+      "member": {
+        "@type": "Person",
+        "givenName": "Inke",
+        "familyName": "Forbrich",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Marine Biological Laboratory",
+        "email": "iforbrich@mbl.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Prior to the first field deployment of the conductivity data logger, a well was constructed from PVC pipe. The pipe was perforated to allow water exchange, wrapped in mesh fabric to exclude debris, and capped at one end. It was installed in a crack in the creekbank of the Parker River, which floods at high tide, but is accessible on foot at low tide. The bottom of the well touches the sediment surface, so that flood water conductivity is measured during high tide. This well is removed during winter months.\nIn August 2022, an Onset HOBO U24-002 Saltwater Conductivity/Salinity data logger was deployed to record specific conductivity and temperature measurements at 15-minute intervals. Before placing it in the sediment, the logger was placed in a bucket of Parker River water alongside a HACH HQ14D Portable Conductivity Meter for calibration. To correct for sensor drift, temperature and specific conductivity readings from both sensors were recorded every 15 minutes until values stabilized.\nThe logger was removed monthly for recalibration using the same procedure. After stabilization, the HOBO logger data were downloaded, the logger was relaunched, and paired readings from both sensors were taken at the first new HOBO timestamp to establish a calibration point for the next dataset. Following calibration, the logger was returned to the well and the well was placed back in the ground.\nIn November 2022, the data logger was removed and calibrated using the procedure stated above, however it was not redeployed. The logger was instead removed from the field for the winter and then redeployed in March 2023.\nAfter each monthly dataset was collected, raw data were uploaded to Onset\u2019s HOBOware software for sensor drift correction and salinity calculation. The non-linear temperature compensation (Practical Salinity Scale 1978) option was applied, using reference temperature and conductivity values from the HACH probe corresponding to the first and last measurements in each dataset. Corrected data was then exported.\nOnce all corrected datasets were combined into a single file, they were imported into MATLAB for further filtering. Missing timestamps were filled with NaN to create a continuous time series. A Papale spike detection filter, based on the median absolute deviation of second-order differences, was applied to identify and replace spurious spikes in conductivity and salinity with NaN. The data were then filtered for the time period around maximum high tide (one hour before and after)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1.056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0670e6d69584b57-20251008T203612535",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0670e6d69584b57-20251008T203612535",
+        "name": "Typha_PR_ctd_salinity_2022_flmd.csv"
+      },
+      {
+        "contentSize": 332.6357421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-43cb5ddc1417760-20250919T110728199",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-43cb5ddc1417760-20250919T110728199",
+        "name": "Typha_PR_ctd_salinity_2022.csv"
+      },
+      {
+        "contentSize": 1.1328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2d0c009b22f2d10-20250919T110712733",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2d0c009b22f2d10-20250919T110712733",
+        "name": "Typha_ctd_salinty_dd.csv"
+      },
+      {
+        "contentSize": 9.744140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-34961d6c30c3f08-20251010T145011858",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-34961d6c30c3f08-20251010T145011858",
+        "name": "Specific_conductivity_and_salinity_of_the_Parker.xml"
+      }
+    ]
+  }
+}

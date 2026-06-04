@@ -1,0 +1,171 @@
+{
+  "id": "ess-dive-8aec26685488a26-20230912T185518709",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1985922",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-8aec26685488a26-20230912T185518709",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-8aec26685488a26-20230622T151254695",
+  "dateUploaded": "2023-09-12T18:55:19.046Z",
+  "dateModified": "2023-09-12T18:55:21.197Z",
+  "isPublic": true,
+  "citation": "Roley S; Jr. R O H; Garayburu-Caruso V A; Perkins W A; Stegen J C (2023): Data and scripts associated with \"Coupled primary production and respiration in a large river contrasts with smaller rivers and streams.\". River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1985922",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1985922",
+    "name": "Data and scripts associated with \"Coupled primary production and respiration in a large river contrasts with smaller rivers and streams.\"",
+    "description": [
+      "This data package is associated with the publication \"Coupled primary production and respiration in a large river contrasts with smaller rivers and streams.\" in review at Limnology and Oceanography (Roley et al. 2023). This study focuses on understanding ecosystem metabolism for the Hanford Reach of the Columbia River in Washington state, a free-flowing stretch with a substantial discharge. Large rivers have been overlooked compared to small and medium rivers due to the challenges associated with measurements. Our study presents novel ways to address these challenges and highlights that metabolism patterns in large rivers differ from those observed in small-medium rivers and requires the application of knowledge and tools beyond those implemented for smaller rivers.",
+      "This data package includes the data and R scripts for the analyses described in Roley et al. 2023. It includes dissolved oxygen and temperature data from a dissolved oxygen HOBO sensor, light data collected from the National Solar Radiation Database (https://nsrdb.nrel.gov/) and hydrologic variables estimated from the MASS-1 model (Niehus et al.; 2014). It also includes metabolism estimates (gross primary production, ecosystem respiration, and net ecosystem production) estimated via streamMetabolizer (Appling et al.; 2018). All analyses in the paper can be replicated with these data and scripts.",
+      "The data package is comprised of one main data folder. The folder includes (1) file-level metadata (flmd); (2) a data dictionary (dd) for each data file; (3) data files; and (4) R scripts for metabolism estimates and data analysis. All files are .R, .csv, or .pdf."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6733-9338",
+        "givenName": "Sarah",
+        "familyName": "Roley",
+        "affiliation": "Washington State University",
+        "email": "sarah.roley@wsu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0763-5346",
+        "givenName": "Robert O.",
+        "familyName": "Hall Jr.",
+        "affiliation": "Flathead Lake Biological Station, University of Montana",
+        "email": "bob.hall@flbs.umt.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "William A",
+        "familyName": "Perkins",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "william.perkins@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2023-06-16",
+    "keywords": [
+      "Large River",
+      "Metabolism",
+      "Dam",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Light",
+      "Barometric Pressure",
+      "Gas Exchange",
+      "Gross Primary Production",
+      "Ecosystem Respiration",
+      "Net Ecosystem Production",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > GASES > DISSOLVED OXYGEN",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > WATER TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > ATMOSPHERIC PRESSURE MEASUREMENTS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUND WATER PROCESSES/MEASUREMENTS > DISCHARGE > DISCHARGE RATE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Columbia River, WA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.3729,
+            "longitude": -119.272
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.3729,
+            "longitude": -119.272
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-05-31",
+      "endDate": "2020-12-10",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6733-9338",
+      "givenName": "Sarah",
+      "familyName": "Roley",
+      "affiliation": "Washington State University",
+      "email": "sarah.roley@wsu.edu"
+    },
+    "citation": [
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Appling, Alison P., Robert O. Hall, Charles B. Yackulic, and Maite Arroita. \u201cOvercoming Equifinality: Leveraging Long Time Series for Stream Metabolism Estimation.\u201d Journal of Geophysical Research: Biogeosciences 123, no. 2 (February 2018): 624\u201345. https://doi.org/10.1002/2017JG004140, https://github.com/USGS-R/streamMetabolizer",
+      "Niehus, S., W. Perkins, and M. Richmond. \"Simulation of Columbia River hydrodynamics and water temperature from 1917 through 2011 in the Hanford Reach.\" Final Report PNWD-3278, Battelle-Pacific Northwest Division, Richland, Washington 99352 (2014).",
+      "Roley, Sarah; Hall, Robert; Perkins, William; Garayburu-Caruso, Vanessa; Stegen, James. (In Review) \"Coupled primary production and respiration in a large river contrasts with smaller rivers and streams.\"",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "For a full description of the methods, see the methods section from Roley et al., 2023.\nBriefly, in this study we estimate reach-scale metabolism for the Hanford Reach of the Columbia River in Washington state. To do this, we deployed HOBO dissolved oxygen (DO) and temperature loggers in the Columbia River and used those data to estimate whole-stream metabolism (photosynthesis and respiration). We also used data from publicly available sources (National Solar Radiation Database https://nsrdb.nrel.gov/ and Grant County Public Utilities District http://www.cbr.washington.edu/dart/). After estimating metabolism, we analyzed drivers of metabolism."
+    ],
+    "distribution": [
+      {
+        "contentSize": 10.5966796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8aec26685488a26-20230912T185518709",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-8aec26685488a26-20230912T185518709",
+        "name": "Data_and_scripts_associated_with_Coupled_primary.xml"
+      },
+      {
+        "contentSize": 9867.533203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f4b7e8558349013-20230620T195156629",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f4b7e8558349013-20230620T195156629",
+        "name": "Roley_CR_Metabolism_Data_Package.zip"
+      }
+    ]
+  }
+}

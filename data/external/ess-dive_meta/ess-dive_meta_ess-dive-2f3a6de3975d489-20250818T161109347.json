@@ -1,0 +1,546 @@
+{
+  "id": "ess-dive-2f3a6de3975d489-20250818T161109347",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2575230",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-2f3a6de3975d489-20250818T161109347",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-2f3a6de3975d489-20250813T220248248",
+  "dateUploaded": "2025-08-18T16:11:10.152Z",
+  "dateModified": "2025-08-28T00:01:46.082Z",
+  "isPublic": true,
+  "citation": "Williams K; Beutler C; Shirley A; Newman A; Sprenger M; Wang L (2025): Groundwater elevation data for monitoring wells within the East and Taylor River basins, Colorado (USA). Watershed Function SFA. Dataset. doi:10.15485/2575230",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2575230",
+    "name": "Groundwater elevation data for monitoring wells within the East and Taylor River basins, Colorado (USA)",
+    "description": [
+      "This dataset is comprised of temporal variations in groundwater elevation data for the 24 monitoring wells located throughout the East River watershed. Seasonal to annual variations in groundwater elevations are a critical property of mountainous watersheds needed to understand both hydrological and below ground biogeochemical processes. Such data serve as a critical constraint for numerical models describing coupled groundwater-surface water behavior within the watershed. Additionally, the offset between the maximum and minimum groundwater elevations defines the extent of the bedrock weathering zone, with annual excursions in the groundwater hydrographic (i.e., the rising and falling hydrographic limbs) imposing primary controls on bedrock saturation state and redox conditions that govern biogeochemical reactions impacting nitrogen, carbon, and metals cycling. Manufacturer-specific software is used to download pressure data from each transducer, with broadly available spreadsheet software (e.g. Microsoft Excel) used to convert temporal variations in water pressure to elevations in units of meters above mean sea level. As additional monitoring wells are installed within the East River watershed and new groundwater monitoring wells are installed in the Taylor River watershed, temporal groundwater elevation data will be included as a part of this master dataset. Details regarding the metadata associated with each monitoring well location, including well depths, screened intervals, well location coordinates, and bedrock type, are included, as is a standard operating procedure for generating groundwater elevation data from water pressure values recorded by the pressure transducers.",
+      "This dataset includes: (1) a zip file (East_River_Watershed_Compiled_Groundwater_Elevation_Data_Plots.zip), containing (a) PNG of groundwater hydrographs, (b) a CSV file with groundwater elevation data, and (c) CSV file containing metadata organized by location; (2) an Excel file (East_River_Watershed_Compiled_Groundwater_Elevation_Data_Plots.xlsx) with the groundwater elevation data, groundwater hydrographs, and metadata organized by location; (3) a Word file (Groundwater_elevation_data_protocols.docx) and a PDF file version (Groundwater_elevation_data_protocols.pdf) containing field protocols and methods; (4) a location metadata (locations.csv) file; (5) a file level metadata (flmd.csv); and (6) data dictionary (dd.csv) file.",
+      "This work was supported by the Watershed Function Science Focus Area at Lawrence Berkeley National Laboratory funded by the US Department of Energy, Office of Science, Biological and Environmental Research under Contract No. DE-AC02-05CH11231."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Curtis",
+        "familyName": "Beutler",
+        "email": "cbeutler@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Austin",
+        "familyName": "Shirley",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "AShirley@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alex",
+        "familyName": "Newman",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "anewman@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Matthias",
+        "familyName": "Sprenger",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "msprenger@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Lijing",
+        "familyName": "Wang",
+        "email": "lijing.wang@uconn.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1793-9781",
+        "givenName": "Dylan",
+        "familyName": "O'Ryan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "dporyan@lbl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUND WATER FEATURES > WATER TABLE > WATER TABLE DEPTH"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory and SLAC Accelerator Laboratory's Watershed Function Scientific Focus Area (WFSFA). This portion of the ER watershed contains the project-defined boundaries of East River, Washington Gulch, Slate River, and Coal Creek, as described in the location metadata. Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. This data package contains geographic metadata for specific observation points throughout the watershed. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2025) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.033,
+            "longitude": -107.12
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.82,
+            "longitude": -106.88
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ER-PLM1, Hillslope Borehole (M1)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.919771,
+            "longitude": -106.949273
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.919771,
+            "longitude": -106.949273
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ER-PLM5, Hillslope well (PLM5)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.919939,
+            "longitude": -106.949008
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.919939,
+            "longitude": -106.949008
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ER-PLM6, Hillslope well (M6)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.920798,
+            "longitude": -106.948433
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.920798,
+            "longitude": -106.948433
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ER-PLM7, Hillslope well (PLM7)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.919904,
+            "longitude": -106.94895
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.919904,
+            "longitude": -106.94895
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ER-PLM8, Hillslope well (PLM8)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.922566,
+            "longitude": -106.947108
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.922566,
+            "longitude": -106.947108
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ER-GLS1, Gothic Lower Subalpine",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.97758,
+            "longitude": -107.002117
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.97758,
+            "longitude": -107.002117
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ER-GUM1, Gothic Upper Montane-1",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.955049,
+            "longitude": -106.99239
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.955049,
+            "longitude": -106.99239
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ER-SHM1, Shumway Well",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.945406,
+            "longitude": -106.98952
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.945406,
+            "longitude": -106.98952
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SG-SNI1, Snodgrass Borehole 1",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.926194,
+            "longitude": -106.979807
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.926194,
+            "longitude": -106.979807
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SG-SNI2, Snodgrass Borehole 2",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.925777,
+            "longitude": -106.976645
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.925777,
+            "longitude": -106.976645
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SG-SNI3, Snodgrass Borehole 3",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.925528,
+            "longitude": -106.970908
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.925528,
+            "longitude": -106.970908
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SG-BHW1, Snodgrass piezometer Well 1 near SG-SNI1",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.925816,
+            "longitude": -106.979355
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.925816,
+            "longitude": -106.979355
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SG-BHW2, Snodgrass piezometer Well 2 near SG-SNI1",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.925897,
+            "longitude": -106.979754
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.925897,
+            "longitude": -106.979754
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SG-BHW3, Snodgrass piezometer Well 3 near SG-SNI1",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.92597,
+            "longitude": -106.980132
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.92597,
+            "longitude": -106.980132
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SG-BHW0, Snodgrass piezometer well near SG-SNI1",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.925962,
+            "longitude": -106.979789
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.925962,
+            "longitude": -106.979789
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SG-PZ01, Historic Snodgrass well 1",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.92725,
+            "longitude": -106.9797
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.92725,
+            "longitude": -106.9797
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SG-PZ02, Historic Snodgrass well 2",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.92366,
+            "longitude": -106.97743
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.92366,
+            "longitude": -106.97743
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SG-PZ04, Historic Snodgrass well 4",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.92255,
+            "longitude": -106.97665
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.92255,
+            "longitude": -106.97665
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SG-PZ05, Historic Snodgrass well 5",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.92063,
+            "longitude": -106.97613
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.92063,
+            "longitude": -106.97613
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0205CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-11-30",
+      "endDate": "2025-01-23",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3568-1155",
+      "givenName": "Kenneth",
+      "familyName": "Williams",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "khwilliams@lbl.gov"
+    },
+    "citation": [
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Boye K ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Perzan Z ; Pierce S ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Thibaut R ; Tokunaga T ; Versteeg R ; Wielandt S ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2025): Location Identifiers, Metadata, and Map for Field Measurements at the East-Taylor Watershed Community Observatory, Colorado, USA (Version 3.2). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Groundwater elevation data collection, processing, and corrections:\nPressure transducers are downloaded two to three times a year.\nAll unvented transducers and transducers that measure barometric pressure, known as barologgers, record measurements on an hourly basis. Vented transducers record measurements at either 15-minute or 30-minute intervals. Barologgers are installed near PLM7 and SNI1 with their barometric data used to correct pressure transducer data generated by the unvented transducers. For cases where barologger data is missing or compromised, barometric data from the Rocky Mountain Biological Lab\u2019s \u2018bill barr\u2019 meteorological station is used.\nUnvented transducers are installed at the following monitoring well locations: GLS1, GUM1, PLM5, PLM7, PLM8, Shumway, SG-PZ-01, SG-PZ-02, SG-PZ-04, SG-PZ-05, SNI1-shallow, and SNI2-shallow.\nVented transducers are installed at the following monitoring well locations: PLM1 and PLM6 (data reported as hourly), SNI1-ERT (30-minute data), SNI1-deep (15-minute data), SNI2-deep (15-minute data), and SNI3-shallow (15-minute data).\nUpon downloading the transducer, or when sampling the well to obtain samples for geochemical analysis, a manual depth to water measurement is taken to ensure the transducer is correctly capturing changes in the groundwater table. When the pressure transducer is originally installed, an elevation measurement is taken with a Trimble, or other highly accurate global positioning system (GPS) instrument. This measurement is used to convert groundwater depth measurements to groundwater elevation in feet above sea level. Upon returning from the field after downloading pressure transducers, new data is compiled into a dedicated master spreadsheet for each monitoring well, taking care to adjust for any changes in timestamps due to daylight savings.\nAs opposed to vented transducer, all unvented transducers must be corrected via barometric pressure data. The barometric pressure data used is the dataset in closest proximity to the well being worked on. Unvented pressure transducers report pressure data in pounds per square inch (PSI). PSI is converted to feet of water:\n(a) PSI * 2.31 (ft H20/PSI) = Ft H20\nBarometric pressure data is added on the same time interval in millibar which is also converted to feet of water:\n(b) Mbar * 29.89 ft (H20/mbar) = Ft H20\nThese two measurements are then used to calculate groundwater elevation in feet above sea level:\n(c) [D(ft H20) - B(ft H20)] + SE (ft) = Groundwater elevation (ft)\nwhere D is the groundwater depth reported by the pressure transducer, B is barometric pressure and SE is the surface elevation of the well\nAny changes in the position of the transducer within the well is calculated when new data is added to the master spreadsheet. This correction is then applied to the new data to ensure a continuous dataset. The manual depth to water measurements are then converted to groundwater elevation:\n(d) DTW (ft) + SE (ft) = Groundwater elevation (ft)\nwhere DTW is the manual depth to water measurement, and SE is surface elevation\nIf an offset in groundwater elevation is observed between a manual measurement and that calculated from the transducer data, the manual measurement is used to correct the offset ensuring it is accurately capturing changes in groundwater elevation (e.g. a discrepancy of 0.15 m is observed between measured and calculated elevations, with this 0.15 m then applied either positively or negatively to the transducer data to raise or lower the calculated elevation, as needed). Such offsets primarily result from transducers being removed from a well tied to sampling, installation of borehole equipment, and/or removal for data downloading, with the transducer then being re-installed at a slightly different depth.\nVented transducers data is reported in depth (ft) which is converted to groundwater elevation (ft):\n(e) D (ft) + SE (ft) = Groundwater elevation (ft)\nwhere D is depth and SE is surface elevation\nAfter groundwater elevation is calculated, the same transducer position correction and manual depth to water correction is applied.\nN.B. All elevation data are converted from feet to meters above sea level prior to data submittal using the conversion factor of 3.281 feet = 1 meter."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-327dad1ba177637-20250813T220206142",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-327dad1ba177637-20250813T220206142",
+        "name": "East_River_Watershed_Compiled_Groundwater_Elevation_Data_Plots.xlsx",
+        "contentSize": 33506.4833984375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-376b8fea7a2979d-20250813T220206130",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-376b8fea7a2979d-20250813T220206130",
+        "name": "dd.csv",
+        "contentSize": 6.1796875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ca1dca4ee26354-20250818T161104035",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5ca1dca4ee26354-20250818T161104035",
+        "name": "flmd.csv",
+        "contentSize": 1.2978515625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a4d198701669242-20250813T220206156",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-a4d198701669242-20250813T220206156",
+        "name": "Groundwater_elevation_data_protocols.pdf",
+        "contentSize": 41.021484375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6c5a672d17e9916-20250813T220206152",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "identifier": "ess-dive-6c5a672d17e9916-20250813T220206152",
+        "name": "Groundwater_elevation_data_protocols.docx",
+        "contentSize": 17.13671875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f308dcd5a1b3d64-20250813T220206160",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f308dcd5a1b3d64-20250813T220206160",
+        "name": "locations.csv",
+        "contentSize": 16.1982421875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-eaa45e78430a85b-20250813T220206146",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-eaa45e78430a85b-20250813T220206146",
+        "name": "East_River_Watershed_Compiled_Groundwater_Elevation_Data_Plots.zip",
+        "contentSize": 12092.361328125
+      }
+    ]
+  }
+}

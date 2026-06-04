@@ -1,0 +1,269 @@
+{
+  "id": "ess-dive-72202d7b374e325-20250318T162316669",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2507048",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-72202d7b374e325-20250318T162316669",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-7232cfce3939082-20250314T162543239174",
+  "dateUploaded": "2025-03-18T16:23:17.368Z",
+  "dateModified": "2025-03-18T16:23:20.460Z",
+  "isPublic": true,
+  "citation": "Shi M; Mcdowell N G; Huang H; Zahura F; Li L; Forbes B; Powers-McCormack B; Chen X (2025): Data and Scripts associated with a manuscript on ecosystem responses to wildfires in the Columbia River Basin. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2507048",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2507048",
+    "name": "Data and Scripts associated with a manuscript on ecosystem responses to wildfires in the Columbia River Basin",
+    "description": [
+      "This data package is associated with the publication \u201cEcosystem leaf area, gross primary production, and evapotranspiration responses to wildfire in the Columbia River Basin\u201d submitted to Biogeosciences (Shi et al., 2024; doi: 10.22541/au.171053013.30286044/v1).",
+      "In this research, data products, leaf area index (LAI), gross primary production (GPP), and evapotranspiration (ET), from the Moderate Resolution Imaging Spectroradiometer (MODIS) are used to quantify the resistance and resilience of different ecosystem types in the Columbia River Basin (CRB). A machine learning algorithm, random forest (RF), was used to examine the impacts of precipitation, vapor pressure deficit (VPD), and burn severity from Monitoring Trends in Burn Severity (MTBS) on ecosystem resilience. The data package includes the processed MODIS data products, precipitation, VPD, and burn severity in 138 fire regions in CRB and the input files for RF model training.",
+      "This data package includes six folders. The MODIS products are included in three MODIS_* folders with shell scripts for data clipping and *ncl files for data processing: (1) \u201c/MODIS_LAI_CRB\u201d; (2) \u201c/MODIS_GPP_CRB\u201d; and (3) \u201c/MODIS_ET_CRB\u201d. All the processed data for each fire event are NetCDF formatted. The MTBS burn severity data and the shell and *ncl scripts used for data processing are in the folder named (4) \u201cMTBS_fire\u201d. The ERA meteorological fields and the data processing scritps are in (5) \u201cERA_Var_CR\u201d. All the scripts for figure development are in the format of *ncl and in the folder (6) \u201cpaper_scripts\u201d. See the file ending in \u201cflmd.csv\u201d for a list of all files contained in this data package and descriptions for each. Tabular column headers and units are described in the data dictionary file ending in \u201cdd.csv\u201d."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2469-4831",
+        "givenName": "Mingjie",
+        "familyName": "Shi",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "mingjie.shi@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nate G.",
+        "familyName": "Mcdowell",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "nate.mcdowell@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7328-6738",
+        "givenName": "Huilin",
+        "familyName": "Huang",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "huilin.huang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9005-9951",
+        "givenName": "Faria",
+        "familyName": "Zahura",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "fariatuz.zahura@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6834-5844",
+        "givenName": "Lingcheng",
+        "familyName": "Li",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "lingcheng.li@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1928-5555",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Xingyuan.Chen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "Monitoring Trends in Burn Severity",
+      "MTBS",
+      "Burn severity",
+      "Resistance",
+      "Resilience",
+      "Columbia River Basin",
+      "CRB",
+      "MODIS",
+      "Moderate Resolution Imaging Spectroradiometer",
+      "LCT",
+      "Land Cover Type",
+      "Random Forest",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Model Data Archiving Guidelines"
+    ],
+    "variableMeasured": [
+      "Precipitation",
+      "Surface air temperature",
+      "Water vapor deficit",
+      "VPD",
+      "Burn severity",
+      "Vegetation Type",
+      "VT",
+      "Leaf area index",
+      "LAI",
+      "Gross primary production",
+      "GPP",
+      "Evapotranspiration",
+      "ET",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR PROCESSES > EVAPOTRANSPIRATION"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Columbia River Basin, WA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 53,
+            "longitude": -124
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41,
+            "longitude": -110
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2011",
+      "endDate": "2020",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2469-4831",
+      "givenName": "Mingjie",
+      "familyName": "Shi",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "mingjie.shi@pnnl.gov"
+    },
+    "citation": [
+      "Shi, M., McDowell, N. G., Huang, H., Zahura, F., Li, L., Chen, X. 2024. Ecosystem leaf area, gross primary production, and evapotranspiration responses to wildfire in the Columbia River Basin. ESS Open Archive, Preprint; doi: 10.22541/au.171053013.30286044/v1.",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840",
+      "Eidenshink, J., Schwind, B., Brewer, K., et al. (2007). A Project for Monitoring Trends in Burn Severity. Fire Ecology, 3, 3\u201321. https://doi.org/10.4996/fireecology.0301003",
+      "Friedl, M., & Sulla-Menashe, D. (2022). MODIS/Terra+ Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061. NASA EOSDIS Land Processes DAAC: Sioux Falls, SD, USA. https://doi.org/10.5067/MODIS/MCD12Q1.006",
+      "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Hor\u00e1nyi, A., Mu\u00f1oz\u2010Sabater, J., ... & Th\u00e9paut, J. N. (2020). The ERA5 global reanalysis. Quarterly Journal of the Royal Meteorological Society, 146(730), 1999-2049. https://doi.org/10.1002/qj.3803",
+      "Myneni, R. B., et al. (2002). Global products of vegetation leaf area and fraction absorbed PAR from year one of MODIS data. Remote Sensing of Environment, 83(1\u20132), 214-231. https://doi.org/10.1016/S0034-4257(02)00074-3",
+      "Running, S. W., Nemani, R. R., Heinsch, F. A., Zhao, M., Reeves, M., & Hashimoto, H. (2004). A continuous satellite-derived measure of global terrestrial primary productivity: Future science and applications. Bioscience, 56, 547\u2013560. https://doi.org/10.1641/0006-3568(2004)054[0547:ACSMOG]2.0.CO;2",
+      "Sulla-Menashe, D., & Friedl, M. A. (2018). User guide to collection 6 MODIS land cover (MCD12Q1 and MCD12C1) product. USGS: Reston, VA, USA, 1, 18. https://lpdaac.usgs.gov/documents/101/MCD12_User_Guide_V6.pdf; MCD12Q1: https://doi.org/10.5067/MODIS/MCD12Q1.006 and MCD12C1: https://doi.org/10.5067/MODIS/MCD12C1.006"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The temporal range of these data are from 2011 to 2020, which is centered around the time of maximum fire occurrence in the region (2015), and the data sets are at the spatial resolution of 500\u20131000 meters. We use the (1) Moderate Resolution Imaging Spectroradiometer (MODIS) land cover type (LCT) to identify surface vegetation types (VTs); (2) burn severity product from the Monitoring Trends in Burn Severity (MTBS) program to classify the location and severity of fires; (3) the meteorological data from European Centre for Medium-Range Weather Forecasts (ECMWF) Reanalysis Version 5 (ERA5) to quantify annual variation in climate; (4) the MODIS leaf area index (LAI), gross primary production (GPP), and evapotranspiration (ET) products to assess the ecosystem resistance and resilience due to fire disturbance. To interpret the essential factors controlling resilience of different VTs, the random forest feature importance method was used to assess the importance of precipitation, water vapor deficit, and burn severity to the resilience values in 2020 represented by LAI, GPP, and ET."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3002.4501953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2d828c079f11c21-20250313T174452986",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-2d828c079f11c21-20250313T174452986",
+        "name": "readme_Shi_Ecosystem_Responses_To_Wildfires.pdf"
+      },
+      {
+        "contentSize": 13.1298828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d5d942f01440129-20250228T212210507",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d5d942f01440129-20250228T212210507",
+        "name": "Shi_Ecosystem_Responses_To_Wildfires_flmd.csv"
+      },
+      {
+        "contentSize": 889234.287109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e19d53e3785e989-20250314T162511569740",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-e19d53e3785e989-20250314T162511569740",
+        "name": "MODIS_LAI_CRB.zip"
+      },
+      {
+        "contentSize": 27252.11328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-606ee126234414b-20250314T162513302576",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-606ee126234414b-20250314T162513302576",
+        "name": "paper_scripts.zip"
+      },
+      {
+        "contentSize": 128797.650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8977ec391fcc21b-20250314T162445990906",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8977ec391fcc21b-20250314T162445990906",
+        "name": "MODIS_GPP_CRB.zip"
+      },
+      {
+        "contentSize": 14.62890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-72202d7b374e325-20250318T162316669",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-72202d7b374e325-20250318T162316669",
+        "name": "Data_and_Scripts_associated_with_a_manuscript_on.xml"
+      },
+      {
+        "contentSize": 253094.255859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-962940af6fbe63a-20250314T162444754410",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-962940af6fbe63a-20250314T162444754410",
+        "name": "ERA_Var_CRB.zip"
+      },
+      {
+        "contentSize": 2.26953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fbc95cb682f4169-20250228T212210503",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fbc95cb682f4169-20250228T212210503",
+        "name": "Shi_Ecosystem_Responses_To_Wildfires_dd.csv"
+      },
+      {
+        "contentSize": 119884.33984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fe0aa8e108988f6-20250314T162445759324",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-fe0aa8e108988f6-20250314T162445759324",
+        "name": "MODIS_ET_CRB.zip"
+      },
+      {
+        "contentSize": 47703.755859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8aa15f749b7461f-20250314T162513210033",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8aa15f749b7461f-20250314T162513210033",
+        "name": "MTBS_fire.zip"
+      }
+    ]
+  }
+}

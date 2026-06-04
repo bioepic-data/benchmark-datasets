@@ -1,0 +1,167 @@
+{
+  "id": "ess-dive-6353509f89e29b0-20251029T160711525",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2341583",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-6353509f89e29b0-20251029T160711525",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-3215b696a547323-20240423T135542177",
+  "dateUploaded": "2025-10-29T16:07:14.747Z",
+  "dateModified": "2025-10-29T16:07:15.167Z",
+  "isPublic": true,
+  "citation": "Rathore S S; Svyatsky D; Coon E T; Son K; Painter S L (2024): Modeling the Effects of Artificial Drainage on Agriculture-dominated Watersheds using a Fully Distributed Integrated Hydrology Model: Datasets, scripts, model files. COMPASS-GLM. Dataset. doi:10.15485/2341583",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2341583",
+    "name": "Modeling the Effects of Artificial Drainage on Agriculture-dominated Watersheds using a Fully Distributed Integrated Hydrology Model: Datasets, scripts, model files",
+    "description": [
+      "This model-data archive supports the research paper that demonstrates the integration of agricultural drainage features\u2014specifically, narrow engineered ditches and tile drains\u2014into a fully distributed, basin-scale integrated surface-subsurface hydrology model (ISSHM), Amanzi-ATS. The model employs innovative computational meshes aligned with agricultural ditches and incorporates the physically based Hooghoudt's drainage equation to simulate tile drainage, offering a novel strategy that enhances the accuracy of hydrological simulations.",
+      "The archived dataset includes input parameters, model configurations, and select simulation outputs for the Amanzi-ATS model that successfully captured the streamflow patterns in the Portage River Watershed as validated by USGS gauge readings. Jupyter notebook for the preparation of model inputs and post-processing of outputs are also included. The model's predictive performance achieved a normalized Kling-Gupta Efficiency (KGE) of 0.81, surpassing SWAT without the necessity for site-specific calibration.",
+      "The Amanzi-ATS model presented in this modeL-data archive allows for numerical experiments to explore the shifts in the flow structure under different drainage scenarios. As a tool for advancing the understanding of distributed hydrological responses and nutrient cycling, this archived model provides valuable insights for researchers, modelers, and decision-makers involved in watershed management and environmental modeling.",
+      "The Watershed Workflow package is implemented in Python3. The Jupyter notebooks can be executed through multiple open-source tools, for example, Anaconda Jupyter Lab, VS Studio Code, etc. Other data files include CSV and HDF5 files, which can be read through Python scripts. The input files for the ATS model, open-source integrated hydrology, and transport model, are in XML format and can be edited in any commonly used text editors."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0469-2959",
+        "givenName": "Saubhagya S.",
+        "familyName": "Rathore",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "rathoress@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Daniil",
+        "familyName": "Svyatsky",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "dasvyat@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8124-9622",
+        "givenName": "Ethan T.",
+        "familyName": "Coon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "coonet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kyongho",
+        "familyName": "Son",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "kyongho.son@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0901-6987",
+        "givenName": "Scott L.",
+        "familyName": "Painter",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "paintersl@ornl.gov"
+      }
+    ],
+    "datePublished": "2024-04-22",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "tile drains",
+      "agricultural ditches",
+      "watershed hydrology",
+      "modeling",
+      "Advanced Terrestrial Simulator",
+      "ATS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The model-data archive pertains to a watershed in the Portage River basin of area 1024 km^2 containing 12 HUC12 units. The Portage watershed has ubiquitous artificial drainage in the form of tile drains and agricultural ditches to support agriculture in the otherwise poorly drained landscape.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.47,
+            "longitude": -83.86
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.04,
+            "longitude": -83.34
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2005-10-01",
+      "endDate": "2019-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0469-2959",
+      "givenName": "Saubhagya S.",
+      "familyName": "Rathore",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "rathoress@ornl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "3b15d8b6-b065-4d21-9312-bd5e69b0afa3"
+      },
+      "name": "COMPASS-GLM",
+      "member": {
+        "@type": "Person",
+        "givenName": "Robert",
+        "familyName": "Hetland",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "robert.hetland@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Using the Watershed Workflow package, generate model input files for integrated hydrology simulation in ATS. This includes:\n- ATS input files\n- computational meshes\n- meteorological forcings (Daymet)\n- MODIS LAI\n- Tile drain mapping file",
+      "Run ATS-integrated hydrology simulation for all drainage scenarios. This includes:\n- steady-state spinup\n- transient cyclic spinup\n- transient run (production run)",
+      "Post-process and analyze ATS outputs for each drainage scenario. This includes:\n- Model evaluation by comparing ATS-simulated streamflow with observations at USGS gage and simulated by calibrated SWAT model.\n- Analysing the impacts of artificial drainage on streamflow, soil moisture, water table, and surface inundations.\n- Sensitivity of simulated streamflow and inundation fractions to tile spacing."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3371832.8984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-139b37f021b0712-20251029T143353287",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-139b37f021b0712-20251029T143353287",
+        "name": "model_input_generation.zip"
+      },
+      {
+        "contentSize": 122.826171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-408d41377117fa6-20240423T134713706",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-408d41377117fa6-20240423T134713706",
+        "name": "ReadMe.pdf"
+      },
+      {
+        "contentSize": 8.34765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6353509f89e29b0-20251029T160711525",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-6353509f89e29b0-20251029T160711525",
+        "name": "Modeling_the_Effects_of_Artificial_Drainage_on.xml"
+      },
+      {
+        "contentSize": 6199.0400390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a90cb20e7707abc-20251029T160650655",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a90cb20e7707abc-20251029T160650655",
+        "name": "model_output_processing.zip"
+      }
+    ]
+  }
+}

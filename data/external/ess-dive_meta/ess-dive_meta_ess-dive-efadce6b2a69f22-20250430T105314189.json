@@ -1,0 +1,139 @@
+{
+  "id": "ess-dive-efadce6b2a69f22-20250430T105314189",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2539863",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-efadce6b2a69f22-20250430T105314189",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-efadce6b2a69f22-20250428T151809082",
+  "dateUploaded": "2025-04-30T10:53:15.608Z",
+  "dateModified": "2025-08-25T17:42:58.645Z",
+  "isPublic": true,
+  "citation": "Rathore S S; Painter S (2025): Model data for a watershed-scale study in the Portage River Basin (OH) examining the effects of subsurface drainage on the hydrologic response of an agricultural watershed.. COMPASS-GLM. Dataset. doi:10.15485/2539863",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2539863",
+    "name": "Model data for a watershed-scale study in the Portage River Basin (OH) examining the effects of subsurface drainage on the hydrologic response of an agricultural watershed.",
+    "description": [
+      "This study builds on Rathore et al. (2024, WRR) and investigates the role of artificial tile-drainage on various aspects of watershed hydrological response, with a particular focus on peakflow. The model-data for the original modeling-focused paper (Rathore et al., 2024, WRR) is archived at Rathore et al. (2024, ESS-DIVE). Hence, this model-data archive provides scripts that are specific to this study that includes model updates, processing and analysis scripts. For details and models files of original model, readers are referred to Rathore et al. (2024, ESS-DIVE). The key difference between the model configuration in this study and Rathore et al. (2024, WRR) is that the tile drains are applied to the entire domain, to study the impact of tile-drains on different aspects of hydrological response. Additional scenario considering intensified precipitation after a dry period was also simulated.",
+      "The Watershed Workflow package is implemented in Python3. The Jupyter notebooks can be executed through multiple open-source tools, for example, Anaconda Jupyter Lab, VS Studio Code, etc. Other data files include CSV and HDF5 files, which can be read through Python scripts."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0469-2959",
+        "givenName": "Saubhagya",
+        "familyName": "Singh Rathore",
+        "email": "saubhagya.rathore@outlook.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0901-6987",
+        "givenName": "Scott",
+        "familyName": "Painter",
+        "email": "paintersl@ornl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > AGRICULTURE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The model-data archive pertains to a watershed in the Portage River basin of area 1024 km^2 containing 12 HUC12 units. The Portage watershed has ubiquitous artificial drainage in the form of tile drains and agricultural ditches to support agriculture in the otherwise poorly drained landscape.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.47,
+            "longitude": -83.86
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.04,
+            "longitude": -83.34
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2013-10-01",
+      "endDate": "2019-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0469-2959",
+      "givenName": "Saubhagya",
+      "familyName": "Singh Rathore",
+      "email": "saubhagya.rathore@outlook.com"
+    },
+    "citation": [
+      "Rathore, S.S., Svyatsky, D., Coon, E.T., Son, K., Painter, S.L., 2024. Modeling the Effects of Artificial Drainage on Agriculture-dominated Watersheds using a Fully Distributed Integrated Hydrology Model: Datasets, scripts, model files, COMPASS-GLM, ESS-DIVE repository. DOI:10.15485/2341583",
+      "Rathore, S.S., Svyatsky, D.S., Coon, E.T., Son, K., Painter, S.L., 2024. Modeling the Effects of Artificial Drainage on Agriculture-Dominated Watersheds Using a Fully Distributed Integrated Hydrology Model. Water Resources Research, 60(6): e2023WR035993. DOI:https://doi.org/10.1029/2023WR035993"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "3b15d8b6-b065-4d21-9312-bd5e69b0afa3"
+      },
+      "name": "COMPASS-GLM",
+      "member": {
+        "@type": "Person",
+        "givenName": "Robert",
+        "familyName": "Hetland",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "robert.hetland@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Using the Watershed Workflow package, generate model input files for integrated hydrology simulation in ATS. The Watershed Workflow Jupyter notebooks, and related outputs as ATS mesh, input and forcing files are available in the model-data archive (Rathore et al. 2024, ESS-DIVE) of original paper (Rathore et al. 2024, WRR). In this archive, only files pertaining to difference in two modeling-campaigns are included, namely, tile mapping files deploying tile drains in the entire domain, and DayMet meteorological forcing files with enhanced precipitation.",
+      "Deploying ATS integrated hydrology model, simulations for all drainage and precipitation scenarios are conducted, and relevant outputs files are shared in this archive.",
+      "ATS outputs are post-processed using Jupyter and Mathematica notebooks for baseflow, flashiness and peakflow analysis."
+    ],
+    "distribution": [
+      {
+        "contentSize": 350268.744140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0da5222a2e97a98-20250428T150531879",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-0da5222a2e97a98-20250428T150531879",
+        "name": "model_inputs.zip"
+      },
+      {
+        "contentSize": 6.9375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-efadce6b2a69f22-20250430T105314189",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-efadce6b2a69f22-20250430T105314189",
+        "name": "Model_data_for_a_watershed_scale_study_in_the.xml"
+      },
+      {
+        "contentSize": 70.62109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8ff3b962d1fb891-20250428T151510126",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-8ff3b962d1fb891-20250428T151510126",
+        "name": "ReadMe.pdf"
+      },
+      {
+        "contentSize": 8678.5087890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f0ea19377eb4cb4-20250428T151510129",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f0ea19377eb4cb4-20250428T151510129",
+        "name": "model_output_processing.zip"
+      }
+    ]
+  }
+}

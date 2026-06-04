@@ -1,0 +1,215 @@
+{
+  "id": "ess-dive-0ca64974c5b9ef0-20250224T230909587",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2519690",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-0ca64974c5b9ef0-20250224T230909587",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-0ca64974c5b9ef0-20250219T200956192",
+  "dateUploaded": "2025-02-24T23:09:12.768Z",
+  "dateModified": "2025-03-01T00:01:40.976Z",
+  "isPublic": true,
+  "citation": "Dann J; Zwieback S; Bolton B; Leonard P (2025): Reference Shapefiles and Pre-trained Random Forest Classification Models for Detecting Aufeis on the North Slope of Alaska in Landsat Imagery. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2519690",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2519690",
+    "name": "Reference Shapefiles and Pre-trained Random Forest Classification Models for Detecting Aufeis on the North Slope of Alaska in Landsat Imagery",
+    "description": [
+      "This dataset provides shapefiles and trained machine learning models used for aufeis detection at four sites on the North Slope of Alaska. It includes reference data for evaluating Landsat-based detection methods, supporting research on remote sensing approaches for identifying aufeis. The ReferenceData folder contains ArcGIS shapefiles of semi-automated land cover classifications for 217 Landsat Collection 2 images, categorizing pixels into six classes: aufeis, snow, ground, none, water, and cloud. The SiteBuffers.zip file includes 10-kilometer buffer shapefiles defining regions of interest around four aufeis fields (Canning21, FH1, Firth, and Kuparuk), used to test three detection techniques. Additionally, the TrainedRFModels folder contains six pre-trained Scikit-Learn Random Forest classifiers (100 trees, max depth = 30) designed to predict aufeis presence in Landsat Collection 2 Surface Reflectance images using Red, Blue, SWIR2, NDVI, and NDWI bands. This dataset supports the development and validation of remote sensing methods for mapping aufeis in Arctic environments.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "NGA559"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7378-8845",
+        "givenName": "Julian",
+        "familyName": "Dann",
+        "affiliation": "University of Alaska Fairbanks",
+        "email": "julian.dann4@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1398-6046",
+        "givenName": "Simon",
+        "familyName": "Zwieback",
+        "affiliation": "University of Alaska Fairbanks",
+        "email": "szwieback@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4282-242X",
+        "givenName": "Bob",
+        "familyName": "Bolton",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "boltonwr@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8032-7449",
+        "givenName": "Paul",
+        "familyName": "Leonard",
+        "affiliation": "U.S. Fish and Wildlife Service",
+        "email": "paul_leonard@fws.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE",
+      "EARTH SCIENCE > CRYOSPHERE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER > LAND USE/LAND COVER CLASSIFICATION",
+      "EARTH SCIENCE > CLIMATE INDICATORS > CRYOSPHERIC INDICATORS > ICE EXTENT",
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE > ICE EXTENT"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Kougarok Aufeis Field, Large aufeis field along the Kougarok River on the North Slope of Alaska .",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 69.0452694,
+            "longitude": -149.8824
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.9322728,
+            "longitude": -149.5062727
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Firth Aufeis Field, Large Aufies Field along the Firth River in Canada.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 68.7413682,
+            "longitude": -141.0641254
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.6079403,
+            "longitude": -140.737459
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Fish Hole One (FH1), Large Aufeis Field along the Hulahula River on the North Slope of Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 69.8215702,
+            "longitude": -144.3456603
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 69.7040938,
+            "longitude": -143.9577003
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Canning21 Aufeis field along the Canning River on the North Slope of Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 69.2542255,
+            "longitude": -146.0735743
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 69.1478831,
+            "longitude": -145.6716892
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1984-09-17",
+      "endDate": "2021-09-12",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7378-8845",
+      "givenName": "Julian",
+      "familyName": "Dann",
+      "affiliation": "University of Alaska Fairbanks",
+      "email": "julian.dann4@gmail.com"
+    },
+    "citation": [
+      "Dann, J. et al. (2025 In Review): Evaluating Aufeis Detection Methods Using Landsat Imagery: Comparative Assessment and Recommendations, Science of Remote Sensing."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "To evaluate the aufeis detection methods, we created a labeled reference dataset using the Image Classification tools within ArcGIS Pro. Five hundred and fifteen (515) Landsat images were downloaded for the four aufeis fields, and more than 40% (N=217) of the images were selected at random for label creation.",
+      "To increase the speed of label creation, we clustered pixels using the Image Segmentation tool, which uses a mean shift approach where a moving window calculates the average pixel value in all bands and groups regions with similar spectral and spatial characteristics.",
+      "After segmentation, clusters were manually labeled into ground, snow, aufeis, water, cloud, and cloud shadow classes, exported as a shapefile, and used for pixel extraction.",
+      "The labeled reference dataset contained over 44 million pixels, of which 1.7% were identified as aufeis, resulting in an imbalance of the target feature for decision tree accuracy assessments. To account for this imbalance, we randomly undersampled the non-aufeis classes to generate a smaller dataset in which 25% are pixels identified as aufeis and the remaining 75% are stratified samples of the non-aufeis classes.",
+      "Three types of training and test dataset were created from the undersampled dataset (N ~ 3 million pixels), to evaluate method performance: (1) pixel-based stratification, which withholds a stratified sample of pixels from all images to test generalization across all labels), (2) image-based stratification which withholds entire images to assess robustness to variations in acquisition conditions; and (3) site-based stratification, which withholds entire aufeis fields to evaluate the method's ability to generalize to new geographic regions. An 80/20 split was used for training and testing, however this number varies slightly for image-based and site-based stratifications.",
+      "To evaluate the performance of the RF models, we used the F1 Score based on precision and recall statistics. Precision is the ratio of true positives to the total number of positive predictions. High precision indicates that most of the positive predictions made by the method are correct. Recall (or sensitivity) is calculated as the ratio of true positives (pixels where aufeis is predicted) to actual positives (pixels where aufeis is observed). High recall ensures the method identifies most of the positive cases. The F1 score is the harmonic mean of the precision and recall, ranging from 0.0 (worst) to 1.0 (perfect). A high F1 score indicates the classifier is both accurate (high precision) and effective at identifying most positive cases (high recall.",
+      "We trained and tested random forest (RF) classifiers using the SciKit-Learn package in Python on the labeled reference data (N=217).",
+      "Different combinations of predictor features were evaluated including: Red, Green, Blue, NIR, SWIR1, SWIR2, NDSI, NDVI, NDWI, and MDII. These predictor features were used in the RF model to construct complex decision trees to identify six land classes: bare ground, water, snow, ice, cloud, and cloud shadow.",
+      "To determine hyperparameters for the RF models, including the number of estimators, the depth of individual trees, the minimum number of features to split, and the minimum number of features at each leaf, we used Bayesian optimization. Our approach used stratified, 5-fold cross-validation to avoid overfitting and ensure the stability of the final estimate. The final hyperparameters were selected to optimize both the F1 Score and the speed of model fitting. The hyperparameters used in the RF method across all datasets were: n_trees = 100, max_depth = 30, min_samples_split = 5, min_samples_leaf = 2.",
+      "To evaluate the importance of individual predictor features in the RF models, we computed permutation importance, which measures the decrease in model performance when a single feature is randomly shuffled [56]. To account for correlations among predictor features, we applied recursive feature elimination (RFE), which iteratively removes the least important feature from an initial set of ten predictors. The final RF model selected through RFE includes Red, Blue, SWIR2, NDVI, and NDWI.",
+      "For more details, see Dann et al. (2025 In Review): Evaluating Aufeis Detection Methods Using Landsat Imagery: Comparative Assessment and Recommendations. Science of Remote Sensing."
+    ],
+    "distribution": [
+      {
+        "contentSize": 13.5185546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0ca64974c5b9ef0-20250224T230909587",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-0ca64974c5b9ef0-20250224T230909587",
+        "name": "Reference_Shapefiles_and_Pre_trained_Random.xml"
+      },
+      {
+        "contentSize": 234036.001953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a0cebdd92d0ee6a-20250224T225256387",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a0cebdd92d0ee6a-20250224T225256387",
+        "name": "Supplemental_Materials.zip"
+      }
+    ]
+  }
+}

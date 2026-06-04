@@ -1,0 +1,834 @@
+{
+  "id": "ess-dive-bdf71c4c30da1db-20260218T024758686959",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2530733",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-bdf71c4c30da1db-20260218T024758686959",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-4975ca31cbc4e4d-20260217T112146666627",
+  "dateUploaded": "2026-02-18T02:48:04.508Z",
+  "dateModified": "2026-02-18T02:48:04.661Z",
+  "isPublic": true,
+  "citation": "Lamour J; Serbin S; Rogers A; Ely K; Acebron K T; Ainsworth E; Albert L P; Alonzo M; Anderson J; Atkin O K; Barbier N; Barnes M L; Bernacchi C J; Besson N; Burnett A C; Caplan J S; Chave J; Cheesman A W; Clocher I; Coast O; Coste S; Croft H; Cui B; Dauvissat C; Davidson K J; Doughty C; Evans J; Feret J; Filella I; Fortunel C; Fu P; Furbank R; Garcia M; Gimenez B O; Guan K; Guo Z; Heckman D; Heuret P; Marney I; Kothari S; Kumagai E; Kyaw T Y; Liu L; Liu L; Liu S; Llusi\u00e0 J; Magney T; Mar\u00e9chaux I; Martin A R; Meacham-Hensold K; Montes C M; Ogaya R; Ojo J; Oliveira R; Paquette A; Pe\u00f1uelas J; Placido A D; Posada J M; Qian X; Renninger H J; Rodriguez-Caton M; Rojas-Gonz\u00e1lez A; Schl\u00fcter U; Sellan G; Siegert C M; P\u00e9rez V S; Song G; Southwick C D; Souza D C; Stahl C; Su Y; Sujeeun L; Ting T; Vasquez V; Vijayakumar V; Vilas-Boas M; Wang D R; Wang S; Wang H; Wang J; Wang X; Weber A P; Wong C Y; Wu J; Wu F; Wu S; Yan Z; Yang D; Zhao Y (2025): The Global Spectra-Trait Initiative: A database of paired leaf spectroscopy and functional traits associated with leaf photosynthetic capacity (v1.0.0). Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15485/2530733",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2530733",
+    "archivedAt": [
+      {
+        "@type": "WebPage",
+        "name": "Original data files, synthesized database, processing code and summary figures",
+        "url": "https://github.com/plantphys/gsti/tree/v1.0.0"
+      }
+    ],
+    "name": "The Global Spectra-Trait Initiative: A database of paired leaf spectroscopy and functional traits associated with leaf photosynthetic capacity (v1.0.0)",
+    "description": [
+      "The Global Spectra-Trait Initiative (GSTI) aims to generate generalizable spectra trait models using reflectance data to predict leaf traits associated with the photosynthesis capacity of leaves. It comprises a synthesized dataset of leaf trait data, input datasets and code. Leaf traits include the maximum carboxylation rate of rubisco (Vcmax), the maximum electron transport rate (Jmax), the dark respiration, as well as the prediction of leaf nitrogen, leaf mass per area (LMA), and leaf water content (LWC). The dataset comprises >7500 paired observations from around 400 species from a broad range of biomes. This dataset comprises a zip file of the GSTI GitHub repository (https://github.com/plantphys/gsti), the synthesized database (.csv) and database metadata files. This dataset was updated on 2025-12-12 with minor edits to mirror the accepted manuscript version and GitHub release (Version 1.0.0 (ESSD accepted version)). Edits included minor changes to the project documentation on GitHub and removal of 12 duplicate entries from the database."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4410-507X",
+        "givenName": "Julien",
+        "familyName": "Lamour",
+        "affiliation": "Centre de Recherche sur la Biodiversit\u00e9 et l'Environnement (CRBE), Universit\u00e9 de Toulouse",
+        "email": "jlamour.sci@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4136-8971",
+        "givenName": "Shawn",
+        "familyName": "Serbin",
+        "affiliation": "Biospheric Sciences Laboratory, NASA Goddard Space Flight Center",
+        "email": "shawn.p.serbin@nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9262-7430",
+        "givenName": "Alistair",
+        "familyName": "Rogers",
+        "affiliation": "Climate and Ecosystems Sciences Division, Lawrence Berkeley National Laboratory",
+        "email": "alistair@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3915-001X",
+        "givenName": "Kim",
+        "familyName": "Ely",
+        "affiliation": "Climate and Ecosystems Sciences Division, Lawrence Berkeley National Laboratory",
+        "email": "ksely@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8523-0256",
+        "givenName": "Kelvin T.",
+        "familyName": "Acebron",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "acebronk@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3199-8999",
+        "givenName": "Elizabeth",
+        "familyName": "Ainsworth",
+        "affiliation": "University of Illinois Urbana-Champaign",
+        "email": "ainswort@illinois.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9674-6071",
+        "givenName": "Loren P.",
+        "familyName": "Albert",
+        "affiliation": "Forest Ecosystems and Society, Oregon State University",
+        "email": "loren.albert@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9409-2740",
+        "givenName": "Michael",
+        "familyName": "Alonzo",
+        "affiliation": "Department of Environmental Science, American University",
+        "email": "alonzo@american.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8925-5226",
+        "givenName": "Jeremiah",
+        "familyName": "Anderson",
+        "affiliation": "Biospheric Sciences Laboratory, NASA Goddard Space Flight Center",
+        "email": "jeremiah.a.anderson@nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1041-5202",
+        "givenName": "Owen K.",
+        "familyName": "Atkin",
+        "affiliation": "Research School of Biology, The Australian National University",
+        "email": "owen.atkin@anu.edu.au"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5323-3866",
+        "givenName": "Nicolas",
+        "familyName": "Barbier",
+        "affiliation": "AMAP, Univ Montpellier",
+        "email": "nicolas.barbier@ird.fr"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8528-6981",
+        "givenName": "Mallory L.",
+        "familyName": "Barnes",
+        "affiliation": "O'Neill School of Public and Environmental Affairs, Indiana University",
+        "email": "malbarn@iu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2397-425X",
+        "givenName": "Carl J.",
+        "familyName": "Bernacchi",
+        "affiliation": "University of Illinois Urbana-Champaign",
+        "email": "bernacch@illinois.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ninon",
+        "familyName": "Besson",
+        "affiliation": "AMAP, Univ Montpellier",
+        "email": "ninon.besson44@outlook.fr"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2678-9842",
+        "givenName": "Angela C.",
+        "familyName": "Burnett",
+        "affiliation": "Advanced Research + Invention Agency",
+        "email": "angie.burnett@aria.org.uk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4624-2956",
+        "givenName": "Joshua S.",
+        "familyName": "Caplan",
+        "affiliation": "Department of Architecture & Environmental Design, Temple University",
+        "email": "jcaplan@temple.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7766-1347",
+        "givenName": "J\u00e9rome",
+        "familyName": "Chave",
+        "affiliation": "Centre de Recherche sur la Biodiversit\u00e9 et l'Environnement (CRBE), Universit\u00e9 de Toulouse",
+        "email": "jerome.chave@univ-tlse3.fr"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3931-5766",
+        "givenName": "Alexander W.",
+        "familyName": "Cheesman",
+        "affiliation": "College of Science & Engineering, James Cook University",
+        "email": "Alexander.cheesman@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ilona",
+        "familyName": "Clocher",
+        "affiliation": "AMAP, Univ Montpellier",
+        "email": "clocher.ilona@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5013-4715",
+        "givenName": "Onoriode",
+        "familyName": "Coast",
+        "affiliation": "School of Environmental and Rural Science, University of New England",
+        "email": "ocoast@une.edu.au"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3948-4375",
+        "givenName": "Sabrina",
+        "familyName": "Coste",
+        "affiliation": "Universit\u00e9 de la Guyane",
+        "email": "sabrina.coste@univ-guyane.fr"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Holly",
+        "familyName": "Croft",
+        "affiliation": "School of Biosciences, University of Sheffield",
+        "email": "h.croft@sheffield.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0004-2089-8417",
+        "givenName": "Boya",
+        "familyName": "Cui",
+        "affiliation": "Department of Physical and Environmental Sciences, University of Toronto",
+        "email": "boya.cui@alumni.utoronto.ca"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Cl\u00e9ment",
+        "familyName": "Dauvissat",
+        "affiliation": "AMAP, Universit\u00e9 de Montpellier",
+        "email": "clementdauvissat@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5745-9689",
+        "givenName": "Kenneth J.",
+        "familyName": "Davidson",
+        "affiliation": "American Forests",
+        "email": "kdavidson@americanforests.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3985-7960",
+        "givenName": "Christopher",
+        "familyName": "Doughty",
+        "affiliation": "School of Informatics, Computing, and Cyber Systems, Northern Arizona University",
+        "email": "chris.doughty@nau.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1379-3532",
+        "givenName": "John",
+        "familyName": "Evans",
+        "affiliation": "ARC Centre of Excellence for Translational Photosynthesis, Research School of Biology, Australian National University",
+        "email": "john.evans@anu.edu.au"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0151-1334",
+        "givenName": "Jean-Baptiste",
+        "familyName": "Feret",
+        "affiliation": "Universit\u00e9 Montpellier",
+        "email": "jb.feret@teledetection.fr"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6262-5733",
+        "givenName": "Iolanda",
+        "familyName": "Filella",
+        "affiliation": "Universitat Autonoma de Barcelona",
+        "email": "iola@creaf.uab.cat"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8367-1605",
+        "givenName": "Claire",
+        "familyName": "Fortunel",
+        "affiliation": "AMAP, Universit\u00e9 de Montpellier",
+        "email": "claire.fortunel@ird.fr"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1568-1518",
+        "givenName": "Peng",
+        "familyName": "Fu",
+        "affiliation": "School of Plant, Environmental and Soil Sciences, Louisiana State University",
+        "email": "pengfu.lsu@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8700-6613",
+        "givenName": "Robert",
+        "familyName": "Furbank",
+        "affiliation": "ARC Centre of Excellence for Translational Photosynthesis, Research School of Biology, Australian National University",
+        "email": "robert.furbank@anu.edu.au"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2533-398X",
+        "givenName": "Maquelle",
+        "familyName": "Garcia",
+        "affiliation": "Department of Forest Ecosystems & Society, Oregon State University",
+        "email": "maquelle.garcia@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7336-9448",
+        "givenName": "Bruno O.",
+        "familyName": "Gimenez",
+        "affiliation": "National Institute of Amazonian Research",
+        "email": "bruno.oliva.gimenez@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3499-6382",
+        "givenName": "Kaiyu",
+        "familyName": "Guan",
+        "affiliation": "Institute for Sustainability, Energy, and Environment, University of Illinois Urbana-Champaign",
+        "email": "kaiyug@illinois.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zhengfei",
+        "familyName": "Guo",
+        "affiliation": "School of Biological Sciences, University of Hong Kong",
+        "email": "u3006948@connect.hku.hk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Heckman",
+        "affiliation": "Bayer Crop Science",
+        "email": "david.heckmann@uni-duesseldorf.de"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7956-0451",
+        "givenName": "Patrick",
+        "familyName": "Heuret",
+        "affiliation": "AMAP, Universit\u00e9 de Montpellier",
+        "email": "patrick.heuret@inrae.fr"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Isaac",
+        "familyName": "Marney",
+        "affiliation": "Department of Physical and Environmental Sciences, University of Toronto",
+        "email": "marney.isaac@utoronto.ca"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9445-5548",
+        "givenName": "Shan",
+        "familyName": "Kothari",
+        "affiliation": "Department of Renewable Resources, University of Alberta",
+        "email": "shan.kothari@ualberta.ca"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4724-489X",
+        "givenName": "Etsushi",
+        "familyName": "Kumagai",
+        "affiliation": "Institute for Agro-Environmental Sciences",
+        "email": "ekumagai@affrc.go.jp"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2385-2455",
+        "givenName": "Thu Ya",
+        "familyName": "Kyaw",
+        "affiliation": "School of Informatics, Computing, and Cyber Systems, Northern Arizona University",
+        "email": "thu-ya.kyaw@nau.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Liangyun",
+        "familyName": "Liu",
+        "affiliation": "Aerospace Information Research Institute, Chinese Academy of Sciences",
+        "email": "liuly@radi.ac.cn"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Lingli",
+        "familyName": "Liu",
+        "affiliation": "Institute of Botany, Chinese Academy of Sciences",
+        "email": "lingli.liu@ibcas.ac.cn"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0004-0916-2257",
+        "givenName": "Shuwen",
+        "familyName": "Liu",
+        "affiliation": "Department of Forest and Wildlife Ecology, University of Wisconsin-Madison",
+        "email": "shuwen.liu@wisc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Joan",
+        "familyName": "Llusi\u00e0",
+        "affiliation": "Universitat Autonoma de Barcelona",
+        "email": "j.llusia@creaf.uab.cat"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9033-0024",
+        "givenName": "Troy",
+        "familyName": "Magney",
+        "affiliation": "Department of Plant Sciences, University of California Davis",
+        "email": "tmagney@ucdavis.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5401-0197",
+        "givenName": "Isabelle",
+        "familyName": "Mar\u00e9chaux",
+        "affiliation": "AMAP, Univ Montpellier",
+        "email": "isabelle.marechaux@inrae.fr"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Adam R.",
+        "familyName": "Martin",
+        "affiliation": "Department of Physical and Environmental Sciences, University of Toronto",
+        "email": "adam.martin@utoronto.ca"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Katherine",
+        "familyName": "Meacham-Hensold",
+        "affiliation": "Carl R Woese Institute for Genomic Biology, University of Illinois Urbana Champaign",
+        "email": "katmeach@illinois.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7295-3092",
+        "givenName": "Christopher M.",
+        "familyName": "Montes",
+        "affiliation": "USDA-ARS Photosynthesis Research Unit",
+        "email": "chris.montes@usda.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4927-8479",
+        "givenName": "Rom\u00e0",
+        "familyName": "Ogaya",
+        "affiliation": "Universitat Autonoma de Barcelona",
+        "email": "r.ogaya@creaf.uab.cat"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5828-6641",
+        "givenName": "Joy",
+        "familyName": "Ojo",
+        "affiliation": "School of Environmental and Rural Science, University of New England",
+        "email": "jojo2@myune.edu.au"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9277-2627",
+        "givenName": "Regison",
+        "familyName": "Oliveira",
+        "affiliation": "National Institute of Amazonian Research",
+        "email": "regison.oliveira@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1048-9674",
+        "givenName": "Alain",
+        "familyName": "Paquette",
+        "affiliation": "Centre for Forest Research, Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al",
+        "email": "alain.paquette@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7215-0150",
+        "givenName": "Josep",
+        "familyName": "Pe\u00f1uelas",
+        "affiliation": "Universitat Autonoma de Barcelona",
+        "email": "Josep.Penuelas@uab.cat"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1623-6002",
+        "givenName": "Antonia Debora",
+        "familyName": "Placido",
+        "affiliation": "National Institute of Amazonian Research",
+        "email": "deboraplacido_@hotmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7794-9300",
+        "givenName": "Juan M.",
+        "familyName": "Posada",
+        "affiliation": "Biology Department, Universidad del Rosario",
+        "email": "juan.posada@urosario.edu.co"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Xiaojin",
+        "familyName": "Qian",
+        "affiliation": "Nanjing University of Posts and Telecommunications",
+        "email": "qianxj@njupt.edu.cn"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2485-9835",
+        "givenName": "Heidi J.",
+        "familyName": "Renninger",
+        "affiliation": "Department of Forestry, Mississippi State University",
+        "email": "hr427@msstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9608-0150",
+        "givenName": "Milagros",
+        "familyName": "Rodriguez-Caton",
+        "affiliation": "Institute for Snow, Glaciers and Environmental Research, IANIGLA-CONICET,",
+        "email": "milagrosrodriguezc@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0008-0264-1529",
+        "givenName": "Andr\u00e9s",
+        "familyName": "Rojas-Gonz\u00e1lez",
+        "affiliation": "Facultad de Ciencias Exactas y Naturales, Universidad Nacional, Heredia, Costa Rica",
+        "email": "andres.rojas.gonzalez@est.una.ac.cr"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9134-6511",
+        "givenName": "Urte",
+        "familyName": "Schl\u00fcter",
+        "affiliation": "Institute for Plant Biochemistry, Heinrich Heine University D\u00fcsseldorf",
+        "email": "u.schlueter@hhu.de"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5606-3957",
+        "givenName": "Giacomo",
+        "familyName": "Sellan",
+        "affiliation": "Universit\u00e9 de la Guyane",
+        "email": "giacomo.sellan@cirad.fr"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9804-3858",
+        "givenName": "Courtney M.",
+        "familyName": "Siegert",
+        "affiliation": "Department of Forestry, Mississippi State University",
+        "email": "courtney.siegert@msstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5653-1802",
+        "givenName": "Viridiana",
+        "familyName": "Silva P\u00e9rez",
+        "affiliation": "ARC Centre of Excellence for Translational Photosynthesis, Research School of Biology, Australian National University",
+        "email": "viridianasperez@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Guangqin",
+        "familyName": "Song",
+        "affiliation": "School of Biological Sciences, University of Hong Kong",
+        "email": "songgqin@connect.hku.hk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0002-7367-1158",
+        "givenName": "Charles D.",
+        "familyName": "Southwick",
+        "affiliation": "Oregon State University Department of Forest Ecosystems & Society",
+        "email": "charles.southwick@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5522-6494",
+        "givenName": "Daisy C.",
+        "familyName": "Souza",
+        "affiliation": "National Institute of Amazonian Research",
+        "email": "daisysouza21@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5411-1169",
+        "givenName": "Cl\u00e9ment",
+        "familyName": "Stahl",
+        "affiliation": "UMR EcoFoG, AgroParisTech, Cirad, CNRS, INRAE, Universit\u00e9 des Antilles, Universit\u00e9 de la Guyane",
+        "email": "clement.stahl@inrae.fr"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Yanjun",
+        "familyName": "Su",
+        "affiliation": "Institute of Botany, Chinese Academy of Sciences",
+        "email": "ysu@ibcas.ac.cn"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9254-7614",
+        "givenName": "Leeladarshini",
+        "familyName": "Sujeeun",
+        "affiliation": "Department of Physical and Environmental Sciences, University of Toronto",
+        "email": "lutchmee.sujeeun@mail.utoronto.ca"
+      },
+      {
+        "@type": "Person",
+        "givenName": "To-Chia",
+        "familyName": "Ting",
+        "affiliation": "Agronomy Department, Purdue University",
+        "email": "ting15@purdue.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2367-1774",
+        "givenName": "Vicente",
+        "familyName": "Vasquez",
+        "affiliation": "School of Forestry, Fisheries and Geomatics, University of Florida",
+        "email": "vasquezvicente@ufl.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9192-5583",
+        "givenName": "Vasquez",
+        "familyName": "Vijayakumar",
+        "affiliation": "School of Environmental and Rural Science, University of New England",
+        "email": "avijaya2@myune.edu.au"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0000-6775-6820",
+        "givenName": "Marcelo",
+        "familyName": "Vilas-Boas",
+        "affiliation": "National Institute of Amazonian Research",
+        "email": "marcelo.boas@posgrad.inpa.gov.br"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2290-3257",
+        "givenName": "Diane R.",
+        "familyName": "Wang",
+        "affiliation": "Agronomy Department, Purdue University",
+        "email": "drwang@purdue.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3385-3109",
+        "givenName": "Sheng",
+        "familyName": "Wang",
+        "affiliation": "Department of Agroecology, Aarhus University",
+        "email": "shengwang12@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Han",
+        "familyName": "Wang",
+        "affiliation": "Department of Earth System Science, Tsinghua University",
+        "email": "wang_han@mail.tsinghua.edu.cn"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jing",
+        "familyName": "Wang",
+        "affiliation": "School of Ecology, Shenzhen Campus of Sun Yat-sen University",
+        "email": "wangj895@mail.sysu.edu.cn"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Xin",
+        "familyName": "Wang",
+        "affiliation": "Institute of Botany, Chinese Academy of Sciences",
+        "email": "wangxin1986@ibcas.ac.cn"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0970-4672",
+        "givenName": "Andreas P.M.",
+        "familyName": "Weber",
+        "affiliation": "Institute for Plant Biochemistry, Heinrich Heine University",
+        "email": "andreas.weber@uni-duesseldorf.de"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9608-9916",
+        "givenName": "Christopher Y.S.",
+        "familyName": "Wong",
+        "affiliation": "Faculty of Forestry and Environmental Management, University of New Brunswick",
+        "email": "chris.wong@unb.ca"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8991-3970",
+        "givenName": "Jin",
+        "familyName": "Wu",
+        "affiliation": "School of Biological Sciences, University of Hong Kong",
+        "email": "jinwu@hku.hk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6512-6830",
+        "givenName": "Fengqi",
+        "familyName": "Wu",
+        "affiliation": "Institute of Botany, Chinese Academy of Sciences",
+        "email": "fqwu@ibcas.ac.cn"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Shengbiao",
+        "familyName": "Wu",
+        "affiliation": "Faculty of Architecture, The University of Hong Kong",
+        "email": "shengwu@hku.hk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zhengbing",
+        "familyName": "Yan",
+        "affiliation": "Institute of Botany, Chinese Academy of Sciences",
+        "email": "zbyan@ibcas.ac.cn"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1705-7823",
+        "givenName": "Dedi",
+        "familyName": "Yang",
+        "affiliation": "Environmental Sciences Division and Climate Change Science Institute, Oak Ridge National Laboratory",
+        "email": "yangd@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Yingyi",
+        "familyName": "Zhao",
+        "affiliation": "School of Biological Sciences, University of Hong Kong",
+        "email": "yyz2019@hku.hk"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > PHOTOSYNTHESIS",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > RESPIRATION RATE",
+      "leaf spectral reflectance",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "related identifiers"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Global coverage across biomes that support plant life",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 72,
+            "longitude": -168
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -37,
+            "longitude": 156
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3915-001X",
+      "givenName": "Kim",
+      "familyName": "Ely",
+      "affiliation": "Climate and Ecosystems Sciences Division, Lawrence Berkeley National Laboratory",
+      "email": "ksely@lbl.gov"
+    },
+    "citation": [
+      "ASSOCIATED JOURNAL ARTICLE(S)",
+      "Lamour, J., Serbin, S. P., Rogers, et al: The Global Spectra-Trait Initiative: A database of paired leaf spectroscopy and functional traits associated with leaf photosynthetic capacity, Earth Syst. Sci. Data, 18, 245\u2013265, https://doi.org/10.5194/essd-18-245-2026, 2026.",
+      "SOURCE DATA",
+      "This synthesis dataset compiles data from 51 related resources, including 26 datasets and 25 journal articles. More information describing the datasets and journal articles is provided in the file gsti_database_v1.csv."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The dataset was created via a process of inviting contributed data to be submitted following defined reporting formats and provided metadata templates. Data types included in the database are leaf gas exchange measurements, paired with leaf reflectance data. Leaf traits included maximum carboxylation rate of rubisco (Vcmax), the maximum electron transport rate (Jmax), and dark respiration (Rdark). Additional trait data was also collected where available, including leaf nitrogen, leaf mass per area (LMA), and leaf water content (LWC). The data processing workflow uses R codes to import and clean data, and fit photosynthetic parameters. Following import and compilation of the data, PSLR (partial least squares regression) methods were used to fit the leaf traits and the spectral reflectances, building predictive models for each trait. See the GitHub content in this dataset, and the related reference paper for complete Methods."
+    ],
+    "distribution": [
+      {
+        "contentSize": 181143.6708984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e2b4d5512ccfb80-20251212T174836908",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e2b4d5512ccfb80-20251212T174836908",
+        "name": "gsti_database_v1.csv"
+      },
+      {
+        "contentSize": 1311342.529296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bcd27aba405f4d5-20260107T091241775",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-bcd27aba405f4d5-20260107T091241775",
+        "name": "gsti_1_0_0.zip"
+      },
+      {
+        "contentSize": 0.5126953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1b71e7e7ed09560-20251212T174836906",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1b71e7e7ed09560-20251212T174836906",
+        "name": "gsti_flmd.csv"
+      },
+      {
+        "contentSize": 3.8896484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3cbe460e20de769-20251212T174836902",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3cbe460e20de769-20251212T174836902",
+        "name": "gsti_dd.csv"
+      },
+      {
+        "contentSize": 1307706.3544921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-41aeacd5d97536f-20260107T091041759",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-41aeacd5d97536f-20260107T091041759",
+        "name": "gsti_1_0_0_tar.gz"
+      },
+      {
+        "contentSize": 40.5869140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bdf71c4c30da1db-20260218T024758686959",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-bdf71c4c30da1db-20260218T024758686959",
+        "name": "The_Global_Spectra_Trait_Initiative_A_database_of_paired_leaf_spectroscopy_and_functional_traits_associated_with_leaf_photosynthetic_capacity_v1_0_0_.xml"
+      }
+    ]
+  }
+}

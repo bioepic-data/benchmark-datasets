@@ -1,0 +1,250 @@
+{
+  "id": "ess-dive-92dbcbfd3da7ab6-20250909T095501939",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2587812",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-92dbcbfd3da7ab6-20250909T095501939",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ebb06c91211ac4e-20250906T151252679",
+  "dateUploaded": "2025-09-09T09:55:03.057Z",
+  "dateModified": "2025-09-10T00:01:44.280Z",
+  "isPublic": true,
+  "citation": "Bond-Lamberty B; Stearns A; Megonigal J P (2025): COMPASS-FME Terrestrial Ecosystem Manipulation to Probe the Effects of Storm Treatments (TEMPEST) Experiment Tree Inventory. COMPASS-FME. Dataset. doi:10.15485/2587812",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2587812",
+    "name": "COMPASS-FME Terrestrial Ecosystem Manipulation to Probe the Effects of Storm Treatments (TEMPEST) Experiment Tree Inventory",
+    "description": [
+      "This is the tree inventory (diameter, species, and live/dead status) data from the Terrestrial Ecosystem Manipulation to Probe the Effects of Storm Treatments (TEMPEST) experimental site. This manipulative, ecosystem-scale TEMPEST experiment is part of the COMPASS-FME (Coastal Observations, Mechanisms, and Predictions Across Systems and Scales: Field Measurements and Experiments; see https://compass.pnnl.gov/FME/COMPASSFME) project. It addresses the potential for freshwater and estuarine-water disturbance events to alter tree function, species composition, and ecosystem processes in a deciduous coastal forest in eastern Maryland, USA. The experiment uses a large-unit (2000 m2), un-replicated experimental design, with three 50 m\u2009\u00d7\u200940 m plots serving as control, freshwater, and estuarine-water treatments.",
+      "This dataset includes:",
+      "- An overall dataset README file.",
+      "- The tree inventory data in both \"wide\" and \"long\" forms. These contain the same information but are structured differently, with the former more useful for human viewers and the latter more amenable for programmatic analyses.",
+      "- A key to the species/genus codes used, which follow the U.S. Department of Agriculture's PLANTS schema (https://plants.usda.gov/).",
+      "- A copy of the R code used to generate the wide- and long-form data files.",
+      "All files are comma-separated value (CSV) and no special software is required to read them."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9525-4633",
+        "givenName": "Ben",
+        "familyName": "Bond-Lamberty",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bondlamberty@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-7628-3419",
+        "givenName": "Alice",
+        "familyName": "Stearns",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "stearnsa@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2018-7883",
+        "givenName": "J. Patrick",
+        "familyName": "Megonigal",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "megonigalp@si.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2685-1092",
+        "givenName": "Stephanie",
+        "familyName": "Pennington",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "stephanie.pennington@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5484-0748",
+        "givenName": "Stephanie",
+        "familyName": "Wilson",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "WilsonSJ@si.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS",
+      "EARTH SCIENCE > OCEANS > COASTAL PROCESSES",
+      "EARTH SCIENCE > BIOLOGICAL CLASSIFICATION > PLANTS",
+      "EARTH SCIENCE > AGRICULTURE > FOREST SCIENCE",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "TREE DIAMETER AT BREAST HEIGHT (DBH)"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "TEMPEST Control Plot; The TEMPEST experiment is in a mid- to late-successional (~80 years old) temperate, deciduous coastal forest.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8747,
+            "longitude": -76.5519
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8747,
+            "longitude": -76.5519
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "TEMPEST Freshwater Plot; The TEMPEST experiment is in a mid- to late-successional (~80 years old) temperate, deciduous coastal forest.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.87403,
+            "longitude": -76.5516
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.87403,
+            "longitude": -76.5516
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "TEMPEST Saltwater Plot; The TEMPEST experiment is in a mid-to late-successional (~80 years old) temperate, deciduous coastal forest.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8744,
+            "longitude": -76.5525
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8744,
+            "longitude": -76.5525
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-02-24",
+      "endDate": "2025-03-07",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9525-4633",
+      "givenName": "Ben",
+      "familyName": "Bond-Lamberty",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "bondlamberty@pnnl.gov"
+    },
+    "citation": [
+      "Hopple, A. M., Doro, K. O., Bailey, V. L., Bond-Lamberty, B., McDowell, N., Morris, K. A., Myers-Pigg, A., Pennington, S. C., Regier, P., Rich, R., Sengupta, A., Smith, R., Stegen, J., Ward, N. D., Woodard, S. C., and Megonigal, J. P.: Attaining freshwater and estuarine-water soil saturation in an ecosystem-scale coastal flooding experiment, Environ. Monit. Assess., 195, 425, 2023. https://doi.org/10.1007/s10661-022-10807-0",
+      "Bond-Lamberty, B., Haddock, L. M., Pennington, S. C., Sezen, U. U., Shue, J., and Megonigal, J. P.: Salinity exposure affects lower-canopy specific leaf area of upland trees in a coastal deciduous forest, For. Ecol. Manage., 548, 121404, 2023."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a688a033-da45-46ad-b72b-d6fef5139a9c"
+      },
+      "name": "COMPASS-FME",
+      "member": {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "We measured DBH (diameter at breast height, 1.37 m) of all live and dead trees greater than 1.37 m in height and 1 cm in diameter in each TEMPEST experimental plot. Measurements were made in the first half of March in each year, 2019-2025.",
+      "DBH was recorded by trained observers to the nearest 0.1 cm at a fixed height (~1.37 m above the ground surface) marked on the tree; this height occasionally varied to avoid instrumentation or deformities on the bole surface.",
+      "Tree status (live, dead standing, or dead and downed) was recorded each year."
+    ],
+    "distribution": [
+      {
+        "contentSize": 2.517578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-248f935d70ac464-20250906T150955689",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-248f935d70ac464-20250906T150955689",
+        "name": "create_ess_dive.R"
+      },
+      {
+        "contentSize": 179.2548828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0e97fa2e3676f6c-20250906T150955682",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0e97fa2e3676f6c-20250906T150955682",
+        "name": "inventory_long.csv"
+      },
+      {
+        "contentSize": 0.22265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-67de6309031d1cf-20250906T150955688",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-67de6309031d1cf-20250906T150955688",
+        "name": "species_genera.csv"
+      },
+      {
+        "contentSize": 0.544921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4b0fb524702bcb1-20250906T150955691",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4b0fb524702bcb1-20250906T150955691",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 0.873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-774d3d771f13839-20250906T150955693",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-774d3d771f13839-20250906T150955693",
+        "name": "inventory_long_dd.csv"
+      },
+      {
+        "contentSize": 10.5673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-92dbcbfd3da7ab6-20250909T095501939",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-92dbcbfd3da7ab6-20250909T095501939",
+        "name": "COMPASS_FME_Terrestrial_Ecosystem_Manipulation_to.xml"
+      },
+      {
+        "contentSize": 74.927734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c18ab6bc67d0f6e-20250906T150955686",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c18ab6bc67d0f6e-20250906T150955686",
+        "name": "inventory_wide.csv"
+      },
+      {
+        "contentSize": 2.59375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b16148f19fe5066-20250906T150955694",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b16148f19fe5066-20250906T150955694",
+        "name": "inventory_wide_dd.csv"
+      },
+      {
+        "contentSize": 0.384765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f9b0b0a6dadc50e-20250906T150955695",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-f9b0b0a6dadc50e-20250906T150955695",
+        "name": "README.md"
+      }
+    ]
+  }
+}

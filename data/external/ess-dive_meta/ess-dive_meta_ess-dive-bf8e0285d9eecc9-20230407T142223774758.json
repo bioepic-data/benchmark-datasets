@@ -1,0 +1,181 @@
+{
+  "id": "ess-dive-bf8e0285d9eecc9-20230407T142223774758",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1809256",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-bf8e0285d9eecc9-20230407T142223774758",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-8647400ce6edcca-20230406T235732193808",
+  "dateUploaded": "2023-04-07T14:22:24.697Z",
+  "dateModified": "2023-04-07T14:22:31.767Z",
+  "isPublic": true,
+  "citation": "Rawlins M; Connolly C; McClelland J (2021): Model estimates of dissolved organic carbon, runoff, snowmelt, and snow water equivalent from 1981-2010 across the western Arctic. Quantifying Variability and Controls of Riverine Dissolved Organic Carbon Exported to Arctic Coastal Margins of North America. Dataset. doi:10.15485/1809256",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1809256",
+    "name": "Model estimates of dissolved organic carbon, runoff, snowmelt, and snow water equivalent from 1981-2010 across the western Arctic",
+    "description": [
+      "This dataset contains estimates of dissolved organic carbon (DOC) yield (mg C m-2), runoff (mm day-1), snow water equivalent (SWE, mm day-1), and snowmelt (mm day-1) from a simulation of the Permafrost Water Balance Model (PWBM v4). The simulation effectively quantifies snowpack accumulation and melt, runoff, and DOC leaching, and broadly capture the seasonal cycle in DOC concentration and mass loadings. Daily air temperature, precipitation, and wind speed data from the Modern-Era Retrospective Analysis for Research and Applications (MERRA) were used for meteorological forcings. The model outputs are organized by grid and day of the month in gzipped ASCII text files contained within each archived ZIP file. No special software is required to work with these data. The basin and domain information files are also ASCII text. The gridded estimates are most useful for analyses of the spatial and temporal variations in terrestrial hydrology and leachate DOC concentrations and loadings across parts of the western Arctic. A manuscript describing the data and associated analysis has been accepted for publication in Journal of Geophysical Research - Biogeosciences (Rawlins et al., 2021)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3323-8256",
+        "givenName": "Michael",
+        "familyName": "Rawlins",
+        "affiliation": "University of Massachusetts - Amherst",
+        "email": "mrawlins@umass.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6090-3215",
+        "givenName": "Craig",
+        "familyName": "Connolly",
+        "affiliation": "Lamont-Doherty Earth Observatory",
+        "email": "connolly@ldeo.columbia.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "McClelland",
+        "affiliation": "University of Texas at Austin",
+        "email": "jimm@utexas.edu"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "rivers",
+      "permafrost",
+      "organic carbon",
+      "EARTH SCIENCE > LAND SURFACE > SOILS"
+    ],
+    "variableMeasured": [
+      "dissolved organic carbon",
+      "EARTH SCIENCE > CLIMATE INDICATORS > TERRESTRIAL HYDROSPHERE INDICATORS > FRESHWATER RUNOFF",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW MELT",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW WATER EQUIVALENT"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The spatial domain includes all land areas that drain river basins with outlets between (and including) the Yukon and Mackenzie Rivers (the Y2M region). The large Mackenzie (~1783972 km2) and Yukon (~833233 km2) basins dominate the region. In total it encompasses roughly 3,018,675 km2 and is resolved into 4,804 25x25 km grid cells specified by the Northern Hemisphere EASE-Grid. Each EASE-Grid cell spans approximately 628380900 m2. Continuous permafrost is present in the northern part of the region, with discontinuous and sporadic permafrost in the south. In the analysis of Rawlins et al. (2021) the North Slope of Alaska is resolved into 24 individual river drainage basins.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.2383,
+            "longitude": -167.6446
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 52.214,
+            "longitude": -103.3136
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "U.S. National Aeronautics and Space Administration"
+      },
+      {
+        "@type": "Organization",
+        "name": "U.S. National Science Foundation, Office of Polar Programs"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1981-01-01",
+      "endDate": "2010-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3323-8256",
+      "givenName": "Michael",
+      "familyName": "Rawlins",
+      "affiliation": "University of Massachusetts - Amherst",
+      "email": "mrawlins@umass.edu"
+    },
+    "citation": [
+      "Rawlins, M.A., Connolly, C.T., McClelland, J.W., 2021. Modeling Terrestrial Dissolved Organic Carbon Loading to Western Arctic Rivers, Journal of Geophysical Research - Biogeosciences, accepted."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "59d5fae2-d534-4e7b-8ec2-7bda841fb972"
+      },
+      "name": "Quantifying Variability and Controls of Riverine Dissolved Organic Carbon Exported to Arctic Coastal Margins of North America",
+      "member": {
+        "@type": "Person",
+        "givenName": "Michael",
+        "familyName": "Rawlins",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "University of Massachusetts Amherst, Amherst, MA",
+        "email": "mrawlins@umass.edu"
+      }
+    },
+    "measurementTechnique": [
+      "The individual model output files contained within each zip file are gzipped for easier download. Filenames indicate the variable, month, and year. The time series simulation spans the period 1981-2010, and followed a 50 year spinup on the year 1980. Each model output file contains 4806 records (rows), with a two-line header followed by 4804 data records. The data records have 34 fixed width and space delimited columns: grid cell ID, latitude, longitude, valueDay1, valueDay2, ... valueDay31. A missing number(s) (-9999.000) is present for days 28, 29, and/or 30 in any month that does not have 31 days. The grid cell IDs are based on a pan-Arctic drainage area mask, so the values extend beyond 4804, which is the number of grid cells covering the Y2M domain. The file basinnames_Y2M.txt contains the river basin names and associated basin IDs. The file grids_basins_Y2M.txt contains the grid cell IDs and associated latitude, longitude, and basin ID. Together these files facilitate analysis for any region or river basin in the western Arctic.\nFor any given area, for example, a square meter or grid total area, DOC concentration can be derived from the runoff and DOC yield data. This is done by converting DOC yield (mg C m-2) to a mass total in milligrams, and converting runoff in unit depth (mm day-1) to a volume in litre. Division of the former by the latter gives the DOC concentration in mg C litre-1. Each EASE-Grid cell spans approximately 628380900 m2. Total area DOC mass is derived by integrating the DOC unit area yield across the area of choice. Rawlins et al. (2021) describe an analysis of runoff, DOC loading, and DOC concentration using these data fields."
+    ],
+    "distribution": [
+      {
+        "contentSize": 25483.982421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d9676f873780da1-20210706T134003677",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d9676f873780da1-20210706T134003677",
+        "name": "snowmelt.zip"
+      },
+      {
+        "contentSize": 94259.48828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5686508e9a39f75-20210706T133448203",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-5686508e9a39f75-20210706T133448203",
+        "name": "DOC_yield.zip"
+      },
+      {
+        "contentSize": 75836.44140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-90bb918b302d0e6-20210706T133810146",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-90bb918b302d0e6-20210706T133810146",
+        "name": "SWE.zip"
+      },
+      {
+        "contentSize": 74210.7724609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9192407da799c0c-20210706T133135188",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9192407da799c0c-20210706T133135188",
+        "name": "runoff.zip"
+      },
+      {
+        "contentSize": 10.4443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bf8e0285d9eecc9-20230407T142223774758",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-bf8e0285d9eecc9-20230407T142223774758",
+        "name": "Model_estimates_of_dissolved_organic_carbon_runoff_snowmelt_and_snow_water_equivalent_from_1981_2010_across_the_western_Arctic.xml"
+      },
+      {
+        "contentSize": 5.17578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fe67b9547126c71-20210706T132512028",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-fe67b9547126c71-20210706T132512028",
+        "name": "basinnames_Y2M.txt"
+      },
+      {
+        "contentSize": 145.46875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-de5391d71e52a0e-20210706T132523918",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-de5391d71e52a0e-20210706T132523918",
+        "name": "grids_basins_Y2M.txt"
+      }
+    ]
+  }
+}

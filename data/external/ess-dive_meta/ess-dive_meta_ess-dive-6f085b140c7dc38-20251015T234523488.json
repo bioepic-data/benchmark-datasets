@@ -1,0 +1,216 @@
+{
+  "id": "ess-dive-6f085b140c7dc38-20251015T234523488",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2551894",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-6f085b140c7dc38-20251015T234523488",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-6f085b140c7dc38-20250930T040512581",
+  "dateUploaded": "2025-10-15T23:45:30.497Z",
+  "dateModified": "2025-10-15T23:45:30.923Z",
+  "isPublic": true,
+  "citation": "Nagamoto E; Ciulla F; Ombadi M; Willard J; Carroll R; Varadharajan C (2025): Dataset: \"Widespread Drought-driven Declines in Streamflows and Water quality in the Upper Colorado River Basin (1998-2022)\". iNAIADS. Dataset. doi:10.15485/2551894",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2551894",
+    "name": "Dataset: \"Widespread Drought-driven Declines in Streamflows and Water quality in the Upper Colorado River Basin (1998-2022)\"",
+    "description": [
+      "This data package contains the associated data and scripts for Nagamoto et al (2025). Widespread Drought-driven Declines in Streamflows and Water quality in the Upper Colorado River Basin (1998-2022). [Manuscript in preparation].",
+      "This purpose of this study was to investigate the impact of the 21st century drought on water quantity and quality at catchments throughout the Upper Colorado River Basin (UCRB). We used stream flow, water temperature, specific conductance, air temperature, precipitation, and catchment attribute data for over 200 sites in the UCRB, collected from the National Water Information System using Basin3D (Varadharajan, 2023), GAGESII (Falcone, 2010), and the Google Earth Engine. We identified years of severe drought between 1998 and 2022 using the Standardized Precipitation Evaporation Index (SPEI), then calculated the relative change percentage of the stream flow, water temperature, and specific conductance from drought versus non-drought years. We used the attribute information from GAGESII to investigate what physical traits of catchments are associated streamflow vulnerability (greater relative change) or resilience to drought. We used land cover data from the National Land Cover Database (USGS, 2024) to assess any changes to physical attributes that may not be represented in the static attributes information in GAGESII. To increase data availability, we modeled stream temperature using methods from Willard, 2023. While the study period is water years 1998 to 2022, the raw water quantity and quality data extends to 1950 and the meteorological data extends to 1980.",
+      "The data and code can be downloaded via the UCRB_drought.zip. Within the zip, the files are organized as follows:",
+      "- INPUTS: Contains all input data used in UCRB_Drought_Workflow.ipynb",
+      "- OUTPUTS: Contains all intermediate data created from UCRB_Drought_Workflow.ipynb as well as final products including the calculated Standardized Evapotranspiration Index (SPEI)",
+      "- climatic_variables: The code used to collect meteorologic data from Google Earth Engine",
+      "- feature_importance: The code used for the catchment attributes analysis",
+      "- preprocessing: Code used in UCRB_Drought_Workflow.ipynb",
+      "- pyeto: Code used in UCRB_Drought_Workflow.ipynb",
+      "- calculations: Code used in UCRB_Drought_Workflow.ipynb",
+      "- README.md",
+      "- UCRB_Drought_Workflow.ipynb: The main code for the analysis",
+      "- requirements_ucrb-drought.yml: The requirements file to create a virtual environment and Jupyter Lab kernel to run the code",
+      "The INPUTS folder is organized into the following major directories and sub-directories. The \"RDC_WT_SC_RAW\" folder contains raw data for streamflow, water temperature, and specific conductance in a \".h5\" file. The \"NLCD_RAW\" folder contains \".csv\" files with annual land cover percentages for counties within the UCRB. The \"MET_RAW\" folder contains a \".csv\" file with monthly meteorological data (air temperature and precipitation) for the sites in the UCRB which was obtained from code in the climatic_variables folder. The \"GAGESII\" folder contains \".csv\" files with physical catchment attribute variables for catchments across the country. The \"WT_LSTM_data\" folder contains \".csv\" files with calculated WT (Willard, 2023) and the associated RMSEs. The \"Upper_Colorado_River_Basin_Boundary\" folder contains geographic data including a shapefile for plotting in the UCRB_Drought_Workflow.ipynb.",
+      "The OUTPUTS folder is organized into the following major directories and sub-directories. The \"RDC_WT_SC_data\" folder contains a folder \"Water_year\" with the associated cleaned data, metadata, and data availability information in \".csv\" files, a folder \"Median_Relchange\" with the relative change comparing drought to non-drought years in \".csv\" files, and a folder \"RDC_PeakFlow_Relchange\" that has \".csv\" files for the relative change in peak flow. The \"NLCD_data\" folder contains the difference in land cover from the beginning to end of the study period and the percentage of the county that is within UCRB bounds can be found in Nagamoto et al (2025)). The \"MET_data\" folder contains separated monthly air temperature and precipitation data and the calculated PET in \".csv\" files. The \"SPEI_data\" folder contains \".csv\" files with calculated SPEI values (one restricted to the study period and the other with information from the entire MET data period). The \"Paper_Tables\" folder contains two \".csv\" files containing site information and data availability and information about the GAGESII trait aggregated categories.",
+      "The base directory includes the file \u201cflmd.csv\u201d for a list and description of all files and the file \u201cdd.csv\u201d for data dictionaries.",
+      "Scripts for preprocessing, analysis, and figure generation are located in the associated GitHub repository found at [https://github.com/iNAIADS/drought-impacts/tree/develop/UCRB-drought].",
+      "UPDATE: Title and code file updated to match submitted manuscript 10-15-2025.",
+      "To cite this code, please use the following BibTeX:",
+      "@misc{nagamoto2025drought,",
+      "author = {Emily Nagamoto and Fabio Ciulla and Mohammad Ombadi and Jared Willard and Rosemary Carroll and Charuleka Varadharajan},",
+      "title = {Dataset: \"Widespread Drought-driven Declines in Streamflows and Water quality in the Upper Colorado River Basin (1998-2022)\"},",
+      "year = {2025},",
+      "doi = {10.15485/2551894},",
+      "publisher = {ESS-DIVE Repository},",
+      "url = {https://data.ess-dive.lbl.gov/datasets/doi:10.15485/2551894}",
+      "}"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8322-4330",
+        "givenName": "Emily",
+        "familyName": "Nagamoto",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "emilynagamoto@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2637-1737",
+        "givenName": "Fabio",
+        "familyName": "Ciulla",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "fciulla@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7793-9137",
+        "givenName": "Mohammed",
+        "familyName": "Ombadi",
+        "affiliation": "University of Michigan",
+        "email": "ombadi@umich.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4434-051X",
+        "givenName": "Jared",
+        "familyName": "Willard",
+        "affiliation": "National Renewable Energy Laboratory",
+        "email": "jwillard@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9302-8074",
+        "givenName": "Rosemary",
+        "familyName": "Carroll",
+        "affiliation": "Desert Research Institute",
+        "email": "rosemary.carroll@dri.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "Upper Colorado River Basin",
+      "drought",
+      "meteorologic drought",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY"
+    ],
+    "variableMeasured": [
+      "specific conductance",
+      "water temperature",
+      "streamflow"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Upper Colorado River Basin (HUC14)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44,
+            "longitude": -114
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35,
+            "longitude": -105
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0205CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1998-10-01",
+      "endDate": "2022-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4142-3224",
+      "givenName": "Charuleka",
+      "familyName": "Varadharajan",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "cvaradharajan@lbl.gov"
+    },
+    "citation": [
+      "Falcone, J. A., Carlisle, D. M., Wolock, D. M., and Meador, M. R.: GAGES: A stream gage database for evaluating natural and altered flow conditions in the conterminous United States, Ecology, 91, 621, https://doi.org/10.1890/09-0889.1, 2010",
+      "Willard, Jared. (2023). Machine Learning Techniques for Time Series Regression in Unmonitored Environmental Systems. Retrieved from the University Digital Conservancy, https://hdl.handle.net/11299/258688.",
+      "Varadharajan, Charuleka, et al. \"BASIN-3D: A brokering framework to integrate diverse environmental data.\" Computers & Geosciences 159 (2022): 105024. https://doi.org/10.1016/j.cageo.2021.105024",
+      "Ciulla F ; Varadharajan C (2023): Classification of River Catchments in the Contiguous United States: Code, Dataset, Similarity Patterns, and Resulting Classes. iNAIADS, ESS-DIVE repository. Dataset. doi:10.15485/1987555 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1987555 on 2025-04-09",
+      "USGS (2024). Annual NLCD Collection 1 Science Products: U.S. Geological Survey data release. https://doi.org/10.5066/P94UXNTS"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "93af4208-5c89-4be7-955b-8315ce410713"
+      },
+      "name": "iNAIADS",
+      "member": {
+        "@type": "Person",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "For the full Methodology, please refer to: Nagamoto et al (2025). Factors influencing Regional Declines in Streamflows and Water quality in the Upper Colorado River Basin during Droughts (1998-2022) (1998-2022). [Manuscript in preparation]\nThe steps listed here will be summarized from this full methodology, following the core steps used. Some additional steps were omitted here for brevity.\nData for streamflow, water temperature, and specific conductance for water years 1998 to 2022 were compiled from the USGS National Water Information System (NWIS) database for the UCRB (HUC Code 14). Data were obtained using BASIN-3D (Broker for Assimilation, Synthesis and Integration of eNvironmental Diverse, Distributed Datasets), a brokering tool designed to integrate time series data from diverse data sources into standardized formats. Daily mean values for the variables were used when available, and averages of minimum and maximum values were used for sites that did not have a reported mean. Streamflow values of -99999, negative flows , and those associated with `ICE' were dropped, and marked as $NaN$.\nData for 250 catchment attributes were obtained from the USGS GAGES-II (Geospatial Attributes of Gages for Evaluating Streamflow). The dataset contains over 350 physical attributes for over 9300 catchments (HUC8 size) in the United States that either had more than 20 complete years of flow data since 1950 or was actively monitored as of water year 2009. We identified pristine and human-impacted sites using the reference and non-reference classification from the GAGES-II dataset.",
+      "We applied the following data availability criteria to adequately capture the temporal evolution of drought, while accounting for the importance of seasonality and snow melt: (1) A valid year of data should have at least 11 valid months of observations, and (2) each month should have at least 10 days of measurements for at least one variable. Additionally, sites with streamflow data were downselected based on the availability of corresponding catchment attributes in the GAGES-II dataset. Flows were normalized by catchment area (in square kilometers) obtained from GAGES-II. In contrast, all sites with WT and SC measurements were included regardless of whether corresponding information was available in GAGES-II, to maximize data availability. We chose to retain sites close to dams and reservoirs to capture the potential influence of these structures on drought response. Due to differences in gap lengths across sites and variables, we did not temporally gap fill records to maintain consistency and minimize uncertainties in this analysis.\nWe used a deep learning model to estimate WT for 11 additional sites, which expanded our analysis to 35 sites (see Willard, 2023). The results from this are included in the data package.",
+      "Meteorological data for water years 1998-2022 were compiled from the PRISM (Parameter-elevation Regressions on Independent Slopes Model) at 4 km resolution through the Google Earth Engine (GEE). For each catchment, precipitation and air temperature values were aggregated as monthly, catchment-wide averages with the Mean Reducer function in GEE, by using corresponding HUC-8 catchment boundary shape files from GAGES-II.",
+      "We used the Standardized Precipitation Evapotranspiration Index (SPEI) to identify meteorological droughts, which is widely used to incorporate the effects of both precipitation deficit and temperature increases. The SPEI was calculated for all sites that had meteorological data by subtracting the potential evapotranspiration (PET) from precipitation (P) as a measure of the water surplus or deficit (P-PET). We used Thornthwaite's equation to calculate monthly PET using the PyETo python package (included in the data package), using the variables present in PRISM. We calculated the average (P - PET) at each site across a window of 12 months, ranked the values, and calculated the anomalies based on the 1998-2022 average using the SPEI python package. We used the Gringorten Plotting Position, which is a non-parametric empirical plotting approach to transform the data to a standard normal distribution. We chose to classify drought periods as years with SPEI values less than -1, and \"Normal\" years as those with SPEI values between 1 and -1.",
+      "We then calculated the median value of the relative changes for each variable across all sites to investigate the basin-wide impact per drought episode, comparing against immediate and post- normal years.",
+      "We identified attributes influencing streamflow changes during drought episodes using an XGBoost machine learning regression model. The model predicts median monthly relative changes in Q, averaged across all available drought events, using the 250 GAGES-II catchment attributes as input variables. We further identified important attributes and reduced redundancy following our data-driven workflow (see Nagamoto, 2025)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 120693.3505859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a497268498726d-20251015T234254011",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7a497268498726d-20251015T234254011",
+        "name": "UCRB_drought.zip"
+      },
+      {
+        "contentSize": 17.7607421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6f085b140c7dc38-20251015T234523488",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-6f085b140c7dc38-20251015T234523488",
+        "name": "Dataset_Widespread_Drought_driven_Declines_in.xml"
+      },
+      {
+        "contentSize": 21.083984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c6ea81d1935c8de-20250929T182251903",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c6ea81d1935c8de-20250929T182251903",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 63.22265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-16106959471c9a1-20250929T182244251",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-16106959471c9a1-20250929T182244251",
+        "name": "dd.csv"
+      }
+    ]
+  }
+}

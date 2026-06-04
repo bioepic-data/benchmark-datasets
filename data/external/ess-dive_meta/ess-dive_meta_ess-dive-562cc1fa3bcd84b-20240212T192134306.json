@@ -1,0 +1,241 @@
+{
+  "id": "ess-dive-562cc1fa3bcd84b-20240212T192134306",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1970774",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-562cc1fa3bcd84b-20240212T192134306",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-4e75a8e3ef7746a-20240212T191918125",
+  "dateUploaded": "2024-02-12T19:21:34.926Z",
+  "dateModified": "2024-07-24T18:57:26.374Z",
+  "isPublic": true,
+  "citation": "Thaler E; Uhlemann S; Rowland J; Dafflon B; Schwenk J; Bennett K; Thomas L (2023): Machine learning predictions of near-surface permafrost extent at Teller 27, Teller 47, and the Kougarok 64 Hillslope sites on the Seward Peninsula, Alaska: Supporting Data. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1970774",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1970774",
+    "name": "Machine learning predictions of near-surface permafrost extent at Teller 27, Teller 47, and the Kougarok 64 Hillslope sites on the Seward Peninsula, Alaska: Supporting Data",
+    "description": [
+      "Geophysical surveys were conducted at the NGEE Arctic Teller mile marker 27 site, Teller mile marker 47 site, and Kougarok mile marker 64 site during the summers of 2018, 2019, and 2021. Additional data was collected at Teller mile marker 47 during September 2021 and August 2022. These surveys were used to identify locations of near-surface permafrost during the period of maximum seasonal thaw depth for ground truth data used in machine learning predictions of near-surface permafrost extent at each site. This dataset contains CSV files of ground truth observations of near-permafrost presence or absence for each site, where PF = 1 indicates permafrost presence and PF = 0 indicates permafrost absence. The dataset also includes 2 sets of binary rasters (WGS84 UTM zone 3) of permafrost extent for each site using 1) all of the training data and 2) the transferred model. For both sets of rasters, 0 = non-permafrost and 1 = permafrost. Included are 6 *.tif files and 5 *.csv files that include a data dictionary (dd.csv) and file-level metadata (flmd.csv). This dataset is in support of the paper \"Machine learning-derived high-resolution maps of near-surface permafrost for three watersheds on the Seward Peninsula, Alaska\" that is in review (May 2023). The Next-Generation Experiments: Arctic (NGEE Arctic), a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1970774",
+      "NGA318"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4408-9321",
+        "givenName": "Evan",
+        "familyName": "Thaler",
+        "email": "thaler@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7673-7346",
+        "givenName": "Sebastian",
+        "familyName": "Uhlemann",
+        "email": "SUhlemann@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6308-8976",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "email": "jrowland@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9871-5650",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "email": "BDafflon@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5803-9686",
+        "givenName": "Jon",
+        "familyName": "Schwenk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2433-8607",
+        "givenName": "Katrina",
+        "familyName": "Bennett",
+        "email": "kbennett@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5002-2177",
+        "givenName": "Lauren",
+        "familyName": "Thomas",
+        "email": "lnthomas@lanl.gov"
+      }
+    ],
+    "datePublished": "2023-05-08",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS > PERMAFROST",
+      "Seward Peninsula, Alaska",
+      "Kougarok mm 64",
+      "Teller mm 47",
+      "Teller mm 27",
+      "permafrost presence",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Seward Peninsula, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.952,
+            "longitude": -168.14
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.03,
+            "longitude": -159.19
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-08-01",
+      "endDate": "2022-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4408-9321",
+      "givenName": "Evan",
+      "familyName": "Thaler",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "thaler@lanl.gov"
+    },
+    "citation": [
+      "Thaler, E. A., Uhleman, S., Rowland, J. C., Schwenk, J., Wang, C., Dafflon, B., & Bennett, K. E. (2023). High-resolution maps of near-surface permafrost for three watersheds on the Seward Peninsula, Alaska derived from machine learning. Earth and Space Science, 10, e2023EA003015. https://doi.org/10.1029/2023EA003015",
+      "Abhinav Singhania, Craig Glennie, Juan Carlos Fernandez-Diaz, Darren Hauser, 2023. National Center for Airborne Laser Mapping (NCALM) LiDAR, Imagery, and DEM data from five NGEE Arctic Sites, Seward Peninsula, Alaska, August 2021. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. https://doi.org/10.5440/1832016."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Collection of ground truth data for mapping of near-surface permafrost: Geophysical surveys were conducted at Teller 27 (TL27), Teller 47 (TL47), and Kougarok 64 (KG64) during the summers of 2018, 2019, and 2021 to identify locations of near-surface permafrost during the period of maximum seasonal thaw depth. Electrical resistivity was measured at four transects at TL27, two transects at KG64, and six transects at TL47 using either 98 or 112 electrodes spaced 2 meters apart. Measurements of soil temperature to 0.8 m depth were collated with the electrical resistivity. Samples with temperatures < 1.8 C were classified as permafrost, and when resistivity values were >3,000 ohms, the temperature threshold for classification increased to 2.4 C. Additional ground truth observations of near-surface permafrost presence were collected at Teller 47 during September 2021 and August 2022. The observations were made from soil profiles exposed in soil trenches, frost probing, and measurements of temperature at 0.75 to 1.20 m depth using a SpotOn temperature probe. Model training and development: Maps of the predicted extent of near-surface permafrost were generated in two ways. First, all of the training data were used from each of the sites, and a machine learning model was trained using an extremely randomized trees (ERTr) algorithm (Geurts, P., Ernst, D. & Wehenkel, L. Extremely randomized trees. Mach Learn 63, 3?42 (2006). https://doi.org/10.1007/s10994-006-6226-1). Inputs for both machine learning approaches were derived in part from the 2021 NGEE Arctic NCALM LiDAR dataset (https://doi.org/10.5440/1832016). The balanced accuracy of the ERTr model was 0.90, 0.92, and 0.86 for Teller 27, Teller 47, and Kougarok 64, respectively. Then, the transferability of a machine learning approach to predicting near-surface permafrost was assessed by training a support vector machine (Gunn, Steve R. \"Support vector machines for classification and regression.\" ISIS technical report 14.1 (1998): 5-16) algorithm using data from two sites and transferring the model to the third site. For the transferred models, the balanced accuracies were 0.61, 0.64, and 0.75 for Teller 27, Teller 47, and Kougarok 64, respectively."
+    ],
+    "distribution": [
+      {
+        "contentSize": 64.9091796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0aa9e6a0f92a064-20230707T164828356448",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-0aa9e6a0f92a064-20230707T164828356448",
+        "name": "T47_PFprediction.tif"
+      },
+      {
+        "contentSize": 19.1083984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3ec7449cb50d05d-20230707T164831251179",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3ec7449cb50d05d-20230707T164831251179",
+        "name": "trainingVals_KG_meanwindow.csv"
+      },
+      {
+        "contentSize": 33.8837890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-46ecda452cb045e-20230707T164832327507",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-46ecda452cb045e-20230707T164832327507",
+        "name": "trainingVals_T47_meanwindow.csv"
+      },
+      {
+        "contentSize": 245.0009765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-392270437c7783e-20230707T164825011134",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-392270437c7783e-20230707T164825011134",
+        "name": "KG_PFprediction.tif"
+      },
+      {
+        "contentSize": 2.580078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-da4b3c5d448d373-20230707T164829894347",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-da4b3c5d448d373-20230707T164829894347",
+        "name": "nga318_flmd.csv"
+      },
+      {
+        "contentSize": 134.4677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6973b64f11e0f83-20230707T164827288111",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-6973b64f11e0f83-20230707T164827288111",
+        "name": "T27_PFprediction.tif"
+      },
+      {
+        "contentSize": 12.7080078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-562cc1fa3bcd84b-20240212T192134306",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-562cc1fa3bcd84b-20240212T192134306",
+        "name": "Machine_learning_predictions_of_near_surface.xml"
+      },
+      {
+        "contentSize": 66.1044921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ab111d342078cc-20230707T164828778655",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-7ab111d342078cc-20230707T164828778655",
+        "name": "T47_PFprediction_transferred.tif"
+      },
+      {
+        "contentSize": 20.4169921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-81e35714a7d3aa9-20230707T164831674342",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-81e35714a7d3aa9-20230707T164831674342",
+        "name": "trainingVals_T27_meanwindow.csv"
+      },
+      {
+        "contentSize": 0.763671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-829867ae29d455f-20240212T192126692",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-829867ae29d455f-20240212T192126692",
+        "name": "nga318_csv_dd.csv"
+      },
+      {
+        "contentSize": 137.3017578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6cbaf5ea5b97a6e-20230707T164827925670",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-6cbaf5ea5b97a6e-20230707T164827925670",
+        "name": "T27_PFprediction_transferred.tif"
+      },
+      {
+        "contentSize": 191.83203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-76325e631971ff2-20230707T164826248499",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-76325e631971ff2-20230707T164826248499",
+        "name": "KG_PFprediction_transferred.tif"
+      }
+    ]
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "id": "ess-dive-cb6004d8155e99d-20230504T212320236649",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1865731",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-cb6004d8155e99d-20230504T212320236649",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ec0c77b5ce6518f-20230407T151811321746",
+  "dateUploaded": "2023-05-04T21:23:21.531Z",
+  "dateModified": "2023-05-04T21:23:24.897Z",
+  "isPublic": true,
+  "citation": "Boye K; Crystal-Ornelas R; O'Ryan D; Goldman A E; Damerow J; Varadharajan C; Agarwal D (2022): ESS-DIVE Reporting Format for Sample-based Water and Soil Chemistry Measurements. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). Dataset. doi:10.15485/1865731",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1865731",
+    "name": "ESS-DIVE Reporting Format for Sample-based Water and Soil Chemistry Measurements",
+    "description": [
+      "The ESS-DIVE (Environmental Systems Science Data Infrastructure for a Virtual Ecosystem) reporting format for sample-based water and soil chemistry measurements are written guidelines and spreadsheet templates, that facilitate archiving water/soil/sediment chemistry data. The templates and terminology lists provided as part of the reporting format can help organize data and potentially enable data reuse.",
+      "The reporting format consists of a general instructions file (instructions.md) as well as more detailed instructions files for each template (files beginning \u201cDetailed_Instructions_*.md). The \u201cexamples\u201d folder includes an example of each data template with just the limited set of required fields filled out as well as other examples with both required and optional fields complete.",
+      "The 'templates' folder contains CSV templates for data, methods, and terminology file templates. Similar to the examples folder, the blank templates are provided with versions for required fields only as well as required and optional fields. Lastly, the term list folder provides common terminology used in each of the templates as well as a definition and any constraints for the fields."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2087-607X",
+        "givenName": "Kristin",
+        "familyName": "Boye",
+        "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+        "email": "kboye@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6339-1139",
+        "givenName": "Robert",
+        "familyName": "Crystal-Ornelas",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "rcrystalornelas@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1793-9781",
+        "givenName": "Dylan",
+        "familyName": "O'Ryan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "dporyan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Amy.Goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2601-5043",
+        "givenName": "Joan",
+        "familyName": "Damerow",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "JoanDamerow@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5045-2396",
+        "givenName": "Deb",
+        "familyName": "Agarwal",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "daagarwal@lbl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth H.",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Patricia M.",
+        "familyName": "Fox",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "pmfox@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1409-8542",
+        "givenName": "Kenneth",
+        "familyName": "Kemner",
+        "affiliation": "Argonne National Laboratory",
+        "email": "kemner@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1607-9529",
+        "givenName": "Edward",
+        "familyName": "O\u2019Loughlin",
+        "affiliation": "Argonne National Laboratory",
+        "email": "oloughlin@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Allison",
+        "familyName": "Meyers-Pigg",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "allison.myers-pigg@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2676-2452",
+        "givenName": "Zach",
+        "familyName": "Perzan",
+        "affiliation": "Stanford University",
+        "email": "zperzan@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7614-0227",
+        "givenName": "Samuel",
+        "familyName": "Pierce",
+        "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+        "email": "swpierce@slac.stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2367-5265",
+        "givenName": "Nancy",
+        "familyName": "Merino",
+        "affiliation": "Lawrence Livermore National Laboratory",
+        "email": "merino4@llnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8437-9788",
+        "givenName": "Scott",
+        "familyName": "Brooks",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "brookssc@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2778-299X",
+        "givenName": "Kathleen",
+        "familyName": "Beilsmith",
+        "affiliation": "Argonne National Laboratory",
+        "email": "kbeilsmith@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9525-4633",
+        "givenName": "Ben",
+        "familyName": "Bond-Lamberty",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "BondLamberty@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4775-8201",
+        "givenName": "Shreyas",
+        "familyName": "Cholia",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "scholia@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7260-807X",
+        "givenName": "Michael",
+        "familyName": "Crow",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "crowmc@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3915-001X",
+        "givenName": "Kim",
+        "familyName": "Ely",
+        "affiliation": "Brookhaven National Lab",
+        "email": "kely@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4150-2686",
+        "givenName": "Susan",
+        "familyName": "Heinz",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "heinzsl@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9061-8952",
+        "givenName": "Valerie C.",
+        "familyName": "Hendrix",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "vchendrix@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kayla",
+        "familyName": "Mathes",
+        "affiliation": "Virginia Commonwealth University",
+        "email": "matheskc@mymail.vcu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2685-1092",
+        "givenName": "Stephanie C.",
+        "familyName": "Pennington",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "stephanie.pennington@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9262-7430",
+        "givenName": "Alistair",
+        "familyName": "Rogers",
+        "affiliation": "Brookhaven National Lab",
+        "email": "arogers@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7796-7154",
+        "givenName": "Maegen",
+        "familyName": "Simmonds",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "maegen.simmonds@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9855-5191",
+        "givenName": "Terri",
+        "familyName": "Velliquette",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "velliquettet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1844-5502",
+        "givenName": "Pamela",
+        "familyName": "Weisenhorn",
+        "affiliation": "Argonne National Laboratory",
+        "email": "pweisenhorn@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5987-6387",
+        "givenName": "Jessica N.",
+        "familyName": "Welch",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "welchjn@ornl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "Sediments",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2087-607X",
+      "givenName": "Kristin",
+      "familyName": "Boye",
+      "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+      "email": "kboye@stanford.edu"
+    },
+    "citation": [
+      "GitHub repository with the most up-to-date reporting format documentation: https://github.com/ess-dive-community/essdive-water-soil-sed-chemWebsite with up-to-date reporting format documentation: https://ess-dive.gitbook.io/water-soil-sediment-chemistry-reporting-format/"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "f5bb4f8b-224d-4d6a-9040-ae5a4a2959e6"
+      },
+      "name": "Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "daagarwal@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This reporting format (RF) was developed as part of the DOE-BER-ESS initiative to improve the alignment of organization, terminology, and structure of data files submitted to the ESS-DIVE data archive, in order to increase findability, machine-readability, and re-useability of data produced by ESS-funded research groups. The RF for soil/sediment/water sample chemical concentration data builds on the RFs for sample metadata, file level metadata (FLMD), and csv files developed in parallel.\nIn addition, to ascertain a broad support and acceptance of the RF among the ESS research groups, we received input from members of the community that regularly collect chemical concentration data from the types of samples targeted by this RF:\nLawrence Berkeley National Laboratory Watershed Function SFA\nArgonne National Laboratory Wetland Hydrobiogeochemistry SFA\nPacific Northwest National Laboratory River Corridor Hydrobiogeochemistry SFA\nSLAC National Accelerator Laboratory Floodplain Hydrobiogeochemistry SFA\nLawrence Livermore National Laboratory Biogeochemistry at Interfaces SFA\nOak Ridge National Laboratory\nIn addition to providing general information about their current data organization and archiving approaches, several of these community members tested the templates and provided additional feedback on the suitability and ease-of-use for their particular projects and data.\nFinally, discussions with the community members developing other RFs provided guidance on how to best structure the RF, the documentation, and terminology to optimize alignment among the RFs.\nIt should be noted that although several existing vocabularies and ontologies were reviewed as part of the process, none was found to suit the needs of the ESS community and, hence, we decided to only provide guidance on HOW to use/structure terms and WHAT information to include rather than specific recommendations on terminology/vocabulary (except for terms used in upstream RFs \u2013 i.e. flmd, csv_dd, and sample_metadata RFs)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 10.9677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0e4518225904a79-20220608T192913967",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-0e4518225904a79-20220608T192913967",
+        "name": "examples.zip"
+      },
+      {
+        "contentSize": 11.5078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3c0c4f3014b99a1-20220608T192931339",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-3c0c4f3014b99a1-20220608T192931339",
+        "name": "Detailed_Instructions_Data_File.md"
+      },
+      {
+        "contentSize": 4.0078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3c270ab709db4ec-20220608T192931343",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-3c270ab709db4ec-20220608T192931343",
+        "name": "Detailed_Instructions_Data_Dictionary_File.md"
+      },
+      {
+        "contentSize": 2.376953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2b612dde2988942-20220608T192931330",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-2b612dde2988942-20220608T192931330",
+        "name": "Detailed_Instructions_Terminology_File.md"
+      },
+      {
+        "contentSize": 6.72265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-505df5f7070d98f-20220608T192911023",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-505df5f7070d98f-20220608T192911023",
+        "name": "templates.zip"
+      },
+      {
+        "contentSize": 8.4267578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-90b0f744e39a19d-20220608T192931325",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-90b0f744e39a19d-20220608T192931325",
+        "name": "instructions.md"
+      },
+      {
+        "contentSize": 6.6591796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a15c0b03b63ba0b-20220608T192905725",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a15c0b03b63ba0b-20220608T192905725",
+        "name": "term_lists.zip"
+      },
+      {
+        "contentSize": 2.7705078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9f0b390e74f3440-20220608T192931335",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-9f0b390e74f3440-20220608T192931335",
+        "name": "Detailed_Instructions_Methods_File.md"
+      },
+      {
+        "contentSize": 21.7822265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cb6004d8155e99d-20230504T212320236649",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-cb6004d8155e99d-20230504T212320236649",
+        "name": "ESS_DIVE_Reporting_Format_for_Sample_based_Water_and_Soil_Chemistry_Measurements.xml"
+      },
+      {
+        "contentSize": 3.6904296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f6eb21f6d1f7c94-20220608T192931320",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-f6eb21f6d1f7c94-20220608T192931320",
+        "name": "README.md"
+      }
+    ]
+  }
+}

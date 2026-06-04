@@ -1,0 +1,133 @@
+{
+  "id": "ess-dive-3d1ee498887408a-20230504T210314284993",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1691511",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-3d1ee498887408a-20230504T210314284993",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-306996e52655ad7-20230407T153417944720",
+  "dateUploaded": "2023-05-04T21:03:15.139Z",
+  "dateModified": "2024-02-08T19:34:05.208Z",
+  "isPublic": true,
+  "citation": "Carroll R; Williams K; Gochis D (2020): Hydrologic Model Files (PRMS) for Historical Conditions in the East River Watershed, Colorado between 1987-2019. Watershed Function SFA. Dataset. doi:10.15485/1691511",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1691511",
+    "name": "Hydrologic Model Files (PRMS) for Historical Conditions in the East River Watershed, Colorado between 1987-2019",
+    "description": [
+      "The data package contains model input and output file for the East River watershed (85 km2) located in the headwaters of the Colorado River. The model is the U.S. Geological Survey (USGS) Precipitation-Modeling Runoff System (PRMS) for the historical, or baseline, condition (1987-2019) to assess the efficiency of summer monsoon rains to generate streamflow. The finite difference grid resolution is 100 m with elevations resampled from the USGS National Elevation Dataset. LANDFIRE raster data is used to derive parameters of dominant cover type, summer and winter cover density, canopy interception characteristics for snow and rain and transmission coefficient for shortwave radiation. Climate forcing uses minimum and maximum daily temperature lapse rates defined by the two Snow Telemetry (SNOTEL) stations located in the vicinity of the East River adjusted for aspect. Schofield SNOTEL snowfall is spatially distributed using LiDAR derived snow depth observations from the Airborne Snow Observatory (ASO) flown 4 April 2016. Snow depths are converted to snow water equivalent based on ground surveys and density modeling. Rainfall is spatially distributed using the monthly Parameter-elevation Relationships on Independent Slopes Model 30-year monthly averages. Simulated solar radiation is calibrated to match weather station observations. Model verification of snow water equivalent (SWE) accumulation and ablation relies on the 2018 and 2019 ASO maps and weather station snow depth. The data package contains model input files in text format, model documentation in pfd and a readme.txt file to help users understand the file structure to run the program."
+    ],
+    "alternateName": [
+      "paf_576"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9045-1160",
+        "givenName": "Rosemary",
+        "familyName": "Carroll",
+        "affiliation": "Desert Research Institute",
+        "email": "Rosemary.Carroll@dri.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Gochis",
+        "affiliation": "University Corporation For Atmospheric Research (UCAR)",
+        "email": "gochis@ucar.edu"
+      }
+    ],
+    "datePublished": "2020",
+    "keywords": [
+      "Streamflow",
+      "Rain",
+      "Snowmelt",
+      "East River Watershed",
+      "Hydrologic model"
+    ],
+    "variableMeasured": [
+      "Stream flow",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > FRESHWATER ECOSYSTEMS > RIVERS/STREAM"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry.The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1987-01-01",
+      "endDate": "2020-06-13",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9045-1160",
+      "givenName": "Rosemary",
+      "familyName": "Carroll",
+      "affiliation": "Desert Research Institute",
+      "email": "Rosemary.Carroll@dri.edu"
+    },
+    "citation": [
+      "Carroll, R.W.H., Gochis, D., Williams, K.H. (2020). Efficiency of the Summer Monsoon in Generating Streamflow within a Seasonally Snow-Dominated Headwater Basin of the Colorado River. Geophysical Research Letters. (DOI to be provided upon publication)"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The model files are zipped for easier download and contain a 'Readme.txt' file describing file structure for executing the model. U.S. Geological Survey documentation describing the model parameters is also provided. Model simulations are run for historical conditions (1987 to 2019) and then rerun removing either spring snow (April-May) or monsoon rain (July-Sept) for each individual year independent of one another. Changes in water budget components are explored in space and time to assess first-order controls on streamflow generation from seasonal water inputs. Results from the East River are extrapolated across the Upper Colorado River Basin as a preliminary assessment of where and how much stream flow is potentially generated from monsoon rain events. A full description of model development and use is provided in Carroll et al. (2020) (DOI will be provided upon paper publication)."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b06b50c0d79c35c-20201028T223924881",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b06b50c0d79c35c-20201028T223924881",
+        "name": "PRMS_EastRiver.zip",
+        "contentSize": 73841.9560546875
+      }
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "id": "ess-dive-1d9d5f6de23bedb-20230504T210810874422",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.21952/WTR/1490867",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1d9d5f6de23bedb-20230504T210810874422",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-f9dadf1150ef59f-20230407T152636199641",
+  "dateUploaded": "2023-05-04T21:08:11.815Z",
+  "dateModified": "2023-05-04T21:08:13.875Z",
+  "isPublic": true,
+  "citation": "Falco N; Wainwright H; Dafflon B; Leger E; Peterson J; Steltzer H; Wilmer C; Rowland J; Williams K; Hubbard S (2019): Remote Sensing and Geophysical Characterization of a Floodplain-Hillslope System in the East River Watershed, Colorado. Watershed Function SFA. Dataset. doi:10.21952/WTR/1490867",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.21952/WTR/1490867",
+    "name": "Remote Sensing and Geophysical Characterization of a Floodplain-Hillslope System in the East River Watershed, Colorado",
+    "description": [
+      "This package is part of the Watershed Function SFA Data Collection and contains remote sensing data and geophysical measurements acquired at the Pumphouse hillslope-floodplain site, in the East River, Colorado.",
+      "This package was used in the study:",
+      "\u201cInvestigating Microtopographic and Soil Controls on a Mountainous Meadow Plant Community Using High-Resolution Remote Sensing and Surface Geophysical Data\u201d, published on Journal of Geophysical Research - Biogeosciences, May 2019, DOI: https://doi.org/10.1029/2018JG004394.",
+      "The remote sensing dataset includes: a) a WorldView-2 (WV-2) pan-sharpened multi-spectral remote sensing image, and b) LiDAR derived products. The WV-2 image was acquired on September 24th, 2015, and it is composed of eight spectral bands (coastal, blue, green, yellow, red, red edge, NIR1, and NIR2) with a spatial resolution of 0.5 m, covering an area of 750x750 m. The LiDAR products are a digital surface model (DSM), representing the top-of-canopy elevation, and a digital terrain model (DTM), representing the bare-ground elevation, at the spatial resolution of 0.5 m. Such data are extracted from the LiDAR point-cloud dataset acquired over the entire watershed on August 2015 (http://dx.doi.org/10.21952/WTR/1412542).",
+      "The geophysical dataset is composed of the electrical resistivity tomography (ERT) data acquired along a 158.75 m long transect, spanning the hillslope topographical gradient with 1.25 m electrode spacing. The dataset also includes soil water content measured with a TDR system.",
+      "The package provides also polygons of different vegetation communities, which were used as reference data for mapping plant community distributions. The spatial polygons are based on plant locations acquired during the field campaign of June-July 2017 using an RTK DGPS system. The reference dataset is composed by 11 vegetation classes, namely, deciduous forest, evergreen forest, riparian shrubland, sagebrush, shrubland, potentilla, frasera, lupine meadow, veratrum, bunchgrass meadow, and forb, as well as four non-vegetation classes, such as water-river, water-lake, man-made, bare area, and shadow. The vegetation classes are determined based on distinct spectral and/or structural signatures of dominant species.",
+      "The package includes products derived by these datasets, such as: a) a plant height map, computed by subtracting the DTM from the DSM, and b) a plant community distribution map, obtained by using a data-fusion machine-learning-based framework that exploit the WV-2 image and plant height information."
+    ],
+    "alternateName": [
+      "http://dx.doi.org/10.21952/WTR/1490867",
+      "paf_269"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3307-6098",
+        "givenName": "Nicola",
+        "familyName": "Falco",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "nicolafalco@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Haruko",
+        "familyName": "Wainwright",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "HMWainwright@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bdafflon@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Emmanuel",
+        "familyName": "Leger",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "eleger@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Peterson",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jepeterson@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Heidi",
+        "familyName": "Steltzer",
+        "affiliation": "Fort Lewis College",
+        "email": "steltzer_h@fortlewis.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Chelsea",
+        "familyName": "Wilmer",
+        "affiliation": "Fort Lewis College",
+        "email": "chelsea.f.wilmer@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Susan",
+        "familyName": "Hubbard",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "sshubbard@lbl.gov"
+      }
+    ],
+    "datePublished": "2019",
+    "keywords": [
+      "Remote Sensing",
+      "Geophysics",
+      "EARTH SCIENCE SERVICES > MODELS > DIGITAL ELEVATION/DIGITAL TERRAIN MODELS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION"
+    ],
+    "variableMeasured": [
+      "Electrical Resistivity Tomography",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CANOPY CHARACTERISTICS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > PLANT CHARACTERISTICS",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "East River Watershed, Colorado The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States.ER-PHF0 Pumphouse, Floodplain",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2017-06-18",
+      "endDate": "2017-07-12",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3307-6098",
+      "givenName": "Nicola",
+      "familyName": "Falco",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "nicolafalco@lbl.gov"
+    },
+    "citation": [
+      "Wainwright H ; Williams K (2017): LiDAR collection in August 2015 over the East River Watershed, Colorado, USA. Watershed Function SFA. doi:10.21952/WTR/1412542",
+      "Falco, N., H. Wainwright, B. Dafflon, E. L\u00e9ger, J. Peterson, H. Steltzer, C. Wilmer, J. C. Rowland, K. H. Williams, and S. S. Hubbard (2019), Investigating Microtopographic and Soil Controls on a Mountainous Meadow Plant Community Using High-Resolution Remote Sensing and Surface Geophysical Data, Journal of Geophysical Research: Biogeosciences, DOI: 10.1029/2018jg004394."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c15c8cec42172a6-20190530T193613069",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-c15c8cec42172a6-20190530T193613069",
+        "name": "README.txt",
+        "contentSize": 2.3095703125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f3181d0e7fe257e-20190118T072434453",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f3181d0e7fe257e-20190118T072434453",
+        "name": "Pumphouse_RS_Geophy_Dataset.zip",
+        "contentSize": 30046.6220703125
+      }
+    ]
+  }
+}

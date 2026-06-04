@@ -1,0 +1,787 @@
+{
+  "id": "ess-dive-49816505e59a096-20230410T171850389",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1484811",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-49816505e59a096-20230410T171850389",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-49816505e59a096-20230408T011940128",
+  "dateUploaded": "2023-04-10T17:18:50.691Z",
+  "dateModified": "2023-04-10T17:18:58.089Z",
+  "isPublic": true,
+  "citation": "Stegen J C; Goldman A E; Blackburn S E; Chu R K; Danczak R E; Garayburu-Caruso V A; Graham E B; Grieshauber C; Lin X; Morad J W; Ren H; Renteria L; Resch C T; Tfaily M; Tolic N; Toyoda J G; Wells J R; Znotinas K R (2018): WHONDRS Surface Water Sampling for Metabolite Biogeography (Geochemistry and Aligned FTICR-MS). River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1484811",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1484811",
+    "name": "WHONDRS Surface Water Sampling for Metabolite Biogeography (Geochemistry and Aligned FTICR-MS)",
+    "description": [
+      "This dataset is from an ongoing global survey of surface water metabolites to provide understanding of the character of organic matter that may be delivered to subsurface sediments via hydrologic exchange. Data from this survey are published in batches. This first batch contains data from 27 sites. To implement the global survey, free stream sampling kits were provided to interested researchers throughout the world. Samples were collected with minimal constraints in terms of location, but following strict protocols, and shipped to the Environmental Molecular Sciences Laboratory (EMSL) for metabolomic analysis via Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS). In addition, basic geochemistry analyses (e.g., dissolved organic carbon concentration, cations, anions) were conducted, standardized photos of each field system were taken, surface water hydrographs were collated from existing instrumentation, and extensive metadata were captured. All data types are provided in a standard format.The data package contains an R function that will launch a GUI that can be used to easily search, visualize, compile, and download data. The data are free to be used for any purpose, such as for manuscripts, presentations, and grant proposals. Please use the data package\u2019s DOI to cite the data package. Note that individual hydrographs have separate DOIs, which are provided in the associated hydrograph files. These hydrograph-specific DOIs should also be cited when using those data. We ask that you email us at WHONDRS@pnnl.gov to let us know that you're using the data and acknowledge WHONDRS and the U.S. Department of Energy's Subsurface Biogeochemical Research program\u2014which generously provides funding to WHONDRS\u2014in your documents, presentations, etc. There is no obligation to include WHONDRS members as co-authors. Please note that this data package was originally published in November 2018. It was updated in May 2020. See the readme file in the data package for details. None of the geochemistry or FTICR-MS data were altered between versions. The GUI was updated."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "james.stegen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3352-1801",
+        "givenName": "Shannon E",
+        "familyName": "Blackburn",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "shannon.blackburn@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Rosalie K",
+        "familyName": "Chu",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Rosalie.Chu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert E",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4623-7076",
+        "givenName": "Emily B",
+        "familyName": "Graham",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "emily.graham@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Casey",
+        "familyName": "Grieshauber",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "casey.grieshaber@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5157-1186",
+        "givenName": "Xinming",
+        "familyName": "Lin",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "xinming.lin@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3166-6097",
+        "givenName": "Joseph W",
+        "familyName": "Morad",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "joseph.morad@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5545-5470",
+        "givenName": "Huiying",
+        "familyName": "Ren",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Huiying.Ren@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9143-6277",
+        "givenName": "Charles T",
+        "familyName": "Resch",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "tom.resch@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3036-2833",
+        "givenName": "Malak",
+        "familyName": "Tfaily",
+        "affiliation": "University of Arizona/Pacific Northwest National Laboratory",
+        "email": "tfaily@email.arizona.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3950-9130",
+        "givenName": "Nikola",
+        "familyName": "Tolic",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Nikola.Tolic@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jason G",
+        "familyName": "Toyoda",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Jason.Toyoda@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jacqueline R",
+        "familyName": "Wells",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "jacqueline.wells@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2014-205X",
+        "givenName": "Katherine R",
+        "familyName": "Znotinas",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "katherine.znotinas@pnnl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8437-9788",
+        "givenName": "Scott C",
+        "familyName": "Brooks",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "brookssc@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6577-8724",
+        "givenName": "Nicholas J",
+        "familyName": "Bouskill",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "njbouskill@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5138-9026",
+        "givenName": "Michelle",
+        "familyName": "Newcomer",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mnewcomer@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Annette R",
+        "familyName": "Rowe",
+        "affiliation": "University of Cincinnati",
+        "email": "annette.rowe@uc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alifya",
+        "familyName": "Saify",
+        "affiliation": "Washington State University",
+        "email": "alifya.saify@wsu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1014-5102",
+        "givenName": "Garrett",
+        "familyName": "Smith",
+        "affiliation": "The Ohio State University",
+        "email": "smith.10284@osu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mohamad Reza",
+        "familyName": "Soltanian",
+        "affiliation": "University of Cincinnati",
+        "email": "soltanma@uc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Leah R",
+        "familyName": "Trustschel",
+        "affiliation": "University of Cincinnati",
+        "email": "trutsclr@mail.uc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Anna",
+        "familyName": "Ture\u021bcaia",
+        "affiliation": "University of Texas at Austin",
+        "email": "aturetcaia@utexas.edu"
+      }
+    ],
+    "datePublished": "2018-11-26",
+    "keywords": [
+      "WHONDRS",
+      "Watershed",
+      "River Corridor",
+      "Biogeochemistry",
+      "Hydrology",
+      "River",
+      "Stream",
+      "Carbon",
+      "FTICR",
+      "Cations",
+      "Anions",
+      "Dissolved organic matter",
+      "Dissolved organic carbon",
+      "Metabolite",
+      "Metabolomics",
+      "Mass spectrometry",
+      "Hydrograph",
+      "River variation",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "FTICR",
+      "pH",
+      "SpC",
+      "Phosphorus",
+      "Fluoride",
+      "Chloride",
+      "Sulfate",
+      "Nitrite",
+      "Nitrate",
+      "Total nitrogen",
+      "NPOC",
+      "Sodium",
+      "Calcium",
+      "Magnesium",
+      "Potassium",
+      "Iron",
+      "Temperature",
+      "Discharge",
+      "Gauge height"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Blue River, McKenzie Bridge, Oregon, US [S000001]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.16357,
+            "longitude": -122.332589
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.16357,
+            "longitude": -122.332589
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WS 3, H. J. Andrews Experimental Forest, Rainbow, Oregon, US [S000002]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.219477,
+            "longitude": -122.24108
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.219477,
+            "longitude": -122.24108
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WS 1, H. J. Andrews Experimental Forest, Rainbow, Oregon, US [S000003]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.207386,
+            "longitude": -122.258178
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.207386,
+            "longitude": -122.258178
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WS 10, H. J. Andrews Experimental Forest, Rainbow, Oregon, US [S000004]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.217143,
+            "longitude": -122.260991
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.217143,
+            "longitude": -122.260991
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Lookout Creek, Rainbow, Oregon, US [S000005]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.210012,
+            "longitude": -122.257614
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.210012,
+            "longitude": -122.257614
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WS 2, H. J. Andrews Experimental Forest, Rainbow, Oregon, US [S000006]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.212101,
+            "longitude": -122.244663
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.212101,
+            "longitude": -122.244663
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "McKenzie River, Nimrod, Oregon, US [S000007]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.124286,
+            "longitude": -122.468282
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.124286,
+            "longitude": -122.468282
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Rio Grande, Albuquerque, New Mexico, US [S000008]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.091,
+            "longitude": -106.683
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.091,
+            "longitude": -106.683
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Yakima River, Benton City, Washington, US [S000009]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.254,
+            "longitude": -119.473454
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.254,
+            "longitude": -119.473454
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "East Fork Poplar Creek, Oak Ridge, Tennessee, US [S000012]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.001921,
+            "longitude": -84.249506
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.001921,
+            "longitude": -84.249506
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Lower Colorado River, Austin, Texas, US [S000014]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 30.245112,
+            "longitude": -97.695781
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30.245112,
+            "longitude": -97.695781
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Russian River, Healdsburg, California, US [S000022]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.509976,
+            "longitude": -122.883578
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.509976,
+            "longitude": -122.883578
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Mark West Creek, Forestville, California, US [S000023]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.494121,
+            "longitude": -122.85312
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.494121,
+            "longitude": -122.85312
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "East River, Crested Butte, Colorado, US [S000030]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.922791,
+            "longitude": -106.949624
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.922791,
+            "longitude": -106.949624
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Olentangy River, Columbus, Ohio, US [S000035]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.99883,
+            "longitude": -83.023911
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.99883,
+            "longitude": -83.023911
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Old Woman Creek, Huron, Ohio, US [S000036]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.38247,
+            "longitude": -82.514685
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.38247,
+            "longitude": -82.514685
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Columbia River, Richland, Washington, US [S000044]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.37,
+            "longitude": -119.27
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.37,
+            "longitude": -119.27
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Columbia River, Richland, Washington, US [S000045]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.373014,
+            "longitude": -119.272266
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.373014,
+            "longitude": -119.272266
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Columbia River, Richland, Washington, US [S000054]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.373104,
+            "longitude": -119.272205
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.373104,
+            "longitude": -119.272205
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Columbia River, Richland, Washington, US [S000055]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.373073,
+            "longitude": -119.272254
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.373073,
+            "longitude": -119.272254
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Columbia River, Richland, Washington, US [S000056]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.347558,
+            "longitude": -119.280801
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.347558,
+            "longitude": -119.280801
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Great Miami River, Miamitown, Ohio, US [S000059]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.238368,
+            "longitude": -84.711626
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.238368,
+            "longitude": -84.711626
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Columbia River, Richland, Washington, US [S000060]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.372781,
+            "longitude": -119.271912
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.372781,
+            "longitude": -119.271912
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Columbia River, Richland, Washington, US [S000063]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.372979,
+            "longitude": -119.272181
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.372979,
+            "longitude": -119.272181
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Columbia River, Richland, Washington, US [S000073]",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.359512,
+            "longitude": -119.271805
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.359512,
+            "longitude": -119.271805
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER) > Subsurface Biogeochemical Research (SBR)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-04-09",
+      "endDate": "2018-07-06",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9135-7424",
+      "givenName": "James C",
+      "familyName": "Stegen",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "whondrs@pnnl.gov"
+    },
+    "citation": [
+      "Stegen JC, Goldman AE. 2018. WHONDRS: a community resource for studying dynamic river corridors. mSystems 3:e00151-18. https://doi.org/10.1128/mSystems.00151-18."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Refer to metadata contained in dataset for details about field sampling and laboratory processing. Filtered water samples were collected using a 0.22 micron filter, frozen, and analyzed for geochemistry and FTICR-MS. The FTICR-MS data in this dataset are aligned.",
+      "Please note that this data package was originally published in November 2018. It was updated in May 2020. See the readme file in the data package for details. None of the geochemistry or FTICR-MS data were altered between versions. The GUI was updated."
+    ],
+    "distribution": [
+      {
+        "contentSize": 52.5458984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-49816505e59a096-20230410T171850389",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-49816505e59a096-20230410T171850389",
+        "name": "WHONDRS_Surface_Water_Sampling_for_Metabolite.xml"
+      },
+      {
+        "contentSize": 471953.4287109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a9c85499cb201e9-20200518T153442858",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a9c85499cb201e9-20200518T153442858",
+        "name": "WHONDRS_SWMB_DataPackage_2018_11_Rev1.zip"
+      }
+    ]
+  }
+}

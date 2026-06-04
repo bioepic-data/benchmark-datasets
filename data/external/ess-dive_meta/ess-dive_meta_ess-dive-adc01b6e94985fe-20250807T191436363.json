@@ -1,0 +1,815 @@
+{
+  "id": "ess-dive-adc01b6e94985fe-20250807T191436363",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1126515",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-adc01b6e94985fe-20250807T191436363",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-adc01b6e94985fe-20250731T185740705",
+  "dateUploaded": "2025-08-07T19:14:38.860Z",
+  "dateModified": "2025-08-07T19:14:39.280Z",
+  "isPublic": true,
+  "citation": "Romanovsky V; Nicolsky D; Wright T; Cable W; Dolgikh K (2017): Subsurface Temperature, Moisture, Thermal Conductivity and Heat Flux, Area A, B, C, and D, Utqiagvik (Barrow), Alaska, 2012-2023. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1126515",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1126515",
+    "name": "Subsurface Temperature, Moisture, Thermal Conductivity and Heat Flux, Area A, B, C, and D, Utqiagvik (Barrow), Alaska, 2012-2023",
+    "description": [
+      "Subsurface soil monitoring stations are located across each of the four NGEE Arctic, Utqiagvik (Barrow), Alaska, intensive study Areas: (A) low-centered polygons with well-defined troughs, (B) high-centered polygons, (C) flat-centered or transitional polygons, and (D) inundated low-centered polygons with no troughs. Two data products are being generated - both with high temporal (hourly) and spatial resolution (within polygon and with depth): (1) soil profile temperature measurements and (2) active layer and permafrost temperature and moisture measurements from instrumented soil pits.",
+      "This Package contains 84 *. csv data files plus one file level metadata *. csv, one data dictionary *.csv, and one user guide *.pdf. Several files include information about the sites (*.xlsx with complimentary *.csv), sensor locations *.jpg, and a sensor configuration overview *.pdf. Data files have header rows, NaN fields indicate invalid or missing data, and negative vertical offsets are above ground. Data were collected from September 2012 through August 2023 and were made available after quality checks as annual files. These data are being collected to better understand the thermal dynamics of the active layer and permafrost. Together this information serves as calibration and evaluation data for fine-scale simulations of polygons.",
+      "UPDATED 2025-06: Six new data files collected in 2022-2023 were added and no previously archived data were changed. This represents the final collection of data and text in the title was changed to reflect the defined timespan. The user guide was updated. Other files that were added: file-level metadata, a data dictionary, a site location map, and a sensor configuration overview.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1126515",
+      "NGA067"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000000295152087",
+        "givenName": "Vladimir",
+        "familyName": "Romanovsky",
+        "email": "veromanovsky@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9866-1285",
+        "givenName": "Dmitry",
+        "familyName": "Nicolsky",
+        "email": "djnicolsky@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2586-6287",
+        "givenName": "Thomas",
+        "familyName": "Wright",
+        "email": "tcwright2@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000000279513946",
+        "givenName": "William",
+        "familyName": "Cable",
+        "email": "wlcable@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/000000017241135X",
+        "givenName": "Kirill",
+        "familyName": "Dolgikh",
+        "email": "kdolgikh@alaska.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Bob",
+        "familyName": "Busey",
+        "email": "rcbusey@alaska.edu"
+      }
+    ],
+    "datePublished": "2017-07-10",
+    "keywords": [
+      "ThermCond",
+      "Soil Temperature",
+      "Soil moisture",
+      "Tsoil",
+      "Shallow Borehole Temperature",
+      "Volumetric water content",
+      "Subsurface Temperature Transect",
+      "Thermal Conductivity",
+      "Permafrost Heat Flux",
+      "HeatFlux",
+      "Area A",
+      "Tdeep",
+      "Area B",
+      "VATP",
+      "Area C",
+      "Area D",
+      "Barrow, Alaska",
+      "Utqiagvik, Alaska",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "EARTH SCIENCE > LAND SURFACE > SURFACE THERMAL PROPERTIES"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND > SOIL TEMPERATURE",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL MOISTURE/WATER CONTENT",
+      "EARTH SCIENCE > LAND SURFACE > FROZEN GROUND > ACTIVE LAYER",
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND > PERMAFROST > PERMAFROST TEMPERATURE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Utqiagvik (Barrow), Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.35,
+            "longitude": -156.7
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 71.2,
+            "longitude": -156.4
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2012-09-09",
+      "endDate": "2023-08-10",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000000295152087",
+      "givenName": "Vladimir",
+      "familyName": "Romanovsky",
+      "affiliation": "University of Alaska Fairbanks, Geophysical Institute",
+      "email": "veromanovsky@alaska.edu"
+    },
+    "citation": [
+      "Larry Hinzman, Bob Busey, William Cable, Vladimir Romanovsky. 2014. Continuous Snow Depth, Intensive Site 1, Utqiagvik (Barrow), Alaska. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. https://doi.org/10.5440/1163347",
+      "Hinzman L ; Busey B ; Cable W ; Romanovsky V (2014): Surface Meteorology, Utqiagvik (Barrow), Alaska, Area A, B, C and D, Ongoing from 2012. Next-Generation Ecosystem Experiments (NGEE) Arctic, ESS-DIVE repository. Dataset. https://doi.org/10.5440/1164893",
+      "Arendt, C.A., Heikoop, J.M., Newman, B.D., Wilson, C.J., Wainwright, H., Kumar, J., Andersen, C.G., Wales, N.A., Dafflon, B., Cherry, J., et al. Increased Arctic NO3 Availability as a Hydrogeomorphic Consequence of Permafrost Degradation and Landscape Drying. Nitrogen 2022, 3, 314?332. https://doi.org/10.3390/nitrogen3020021"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Stan",
+        "familyName": "Wullschleger",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "wullschlegsd@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Instrumentation was installed in September of 2012 and consists of: 5 Vertical Array Thermistor Probes with 16 thermistors each (see http://permafrost.gi.alaska.edu/content/thermistor-probe-construction). These probes are arranged in a transect across the polygon. 1 Shallow Borehole is instrumented with a thermistor string (see http://permafrost.gi.alaska.edu/content/thermistor-string-construction). 2 Soil Pits in the active layer containing: 3 additional thermistors, 3 Hydra Probes (http://www.stevenswater.com/catalog/stevensProduct.aspx?SKU='93640'), 3 Thermal Conductivity Probes (http://www.east30sensors.com/conductivity.php). 1 Heat Flux Plate installed on the permafrost table (http://www.hukseflux.com/product/hfp01). These sensors are all connected to a CR1000 in conjunction with the meteorological measurements.",
+      "Information about the environmental sampling infrastructure and the locations in Areas A, B, C, and D are provided in several accompanying files that include information about the sites (*.xlsx with complimentary *.csv), sensor locations *.jpg, and a sensor configuration overview *.pdf.",
+      "Measurements are acquired every 10 minutes and hourly averages are computed and stored on the datalogger. The exception to this is the Thermal Conductivity probes which are measured daily, and the raw data is stored for offline processing.",
+      "The user guide contains a table with a list of all the data files. Data file names are composed of the Area (A, B, C, D), date range of data in the file, and data type(s) included. Data was not collected 2021-2023 for NGEE_BRW_C_*_Thermal_Transect and NGEE_BRW_C_*_Soil_Pits."
+    ],
+    "distribution": [
+      {
+        "contentSize": 246.875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-01d378847655c91-20221216T183629196790",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-01d378847655c91-20221216T183629196790",
+        "name": "NGEE_BRW_D_2016-10-01_2017-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 818.7138671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2573f52eaf024dd-20250620T191912970",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2573f52eaf024dd-20250620T191912970",
+        "name": "NGEE_BRW_A_2022_08_10_2023_08_10_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 1655.56640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0bc229271373a5c-20221216T183620966993",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0bc229271373a5c-20221216T183620966993",
+        "name": "NGEE_BRW_C_2018-10-01_2019-10-01_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 992.4111328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-08590bafc499b57-20221216T183554204296",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-08590bafc499b57-20221216T183554204296",
+        "name": "NGEE_BRW_A_2015-10-01_2016-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 919.4833984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-16bf004f22b6d3b-20250620T205654448",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-16bf004f22b6d3b-20250620T205654448",
+        "name": "Site_Subsurface_Instrumentation_Position_Overview.pdf"
+      },
+      {
+        "contentSize": 216.8193359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1716558677c65a2-20221216T183620102277",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1716558677c65a2-20221216T183620102277",
+        "name": "NGEE_BRW_C_2017-10-01_2018-10-01_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 4212.130859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2389ca9cdec3167-20221216T183612430656",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2389ca9cdec3167-20221216T183612430656",
+        "name": "NGEE_BRW_B_2020-10-01_2021-08-08_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 5042.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-24858052ca470a0-20221216T183550503153",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-24858052ca470a0-20221216T183550503153",
+        "name": "NGEE_BRW_A_2012-09-01_2013-09-30_Thermal_Transect.csv"
+      },
+      {
+        "contentSize": 1143.39453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1ca9ac61c6c9720-20221216T183615278290",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1ca9ac61c6c9720-20221216T183615278290",
+        "name": "NGEE_BRW_C_2013-10-01_2014-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 3967.390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-04395c8a52ac6de-20221216T183600843006",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-04395c8a52ac6de-20221216T183600843006",
+        "name": "NGEE_BRW_A_2020-10-01_2021-08-09_Thermal_Transect.csv"
+      },
+      {
+        "contentSize": 1132.5322265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-04d5fafd7acc36c-20221216T183606106125",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-04d5fafd7acc36c-20221216T183606106125",
+        "name": "NGEE_BRW_B_2015-10-01_2016-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 812.1396484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-189e1b8bec1ca9a-20221216T183559073174",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-189e1b8bec1ca9a-20221216T183559073174",
+        "name": "NGEE_BRW_A_2019-10-01_2020-10-01_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 5304.4326171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-12b213f9d6beee1-20221216T183614713213",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-12b213f9d6beee1-20221216T183614713213",
+        "name": "NGEE_BRW_C_2012-09-09_2013-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 56.046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1325510ad7fb7a0-20221216T183618905776",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1325510ad7fb7a0-20221216T183618905776",
+        "name": "NGEE_BRW_C_2016-10-01_2017-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 915.705078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3cccef9a70cafa4-20221216T183609627258",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3cccef9a70cafa4-20221216T183609627258",
+        "name": "NGEE_BRW_B_2018-10-01_2019-10-01_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 4254.9072265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3ec3f3312fdd5fa-20221216T183554718376",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3ec3f3312fdd5fa-20221216T183554718376",
+        "name": "NGEE_BRW_A_2015-10-01_2016-09-30_Thermal_Transect.csv"
+      },
+      {
+        "contentSize": 1135.9111328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3fa4e7bb1872ce2-20221216T183603697151",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3fa4e7bb1872ce2-20221216T183603697151",
+        "name": "NGEE_BRW_B_2013-10-01_2014-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 4807.9453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-40c80cc4b7b89e2-20250620T191913013",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-40c80cc4b7b89e2-20250620T191913013",
+        "name": "NGEE_BRW_D_2022_08_08_2023_08_08_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 785.033203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-42d1f7f15d74fbe-20221216T183625456013",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-42d1f7f15d74fbe-20221216T183625456013",
+        "name": "NGEE_BRW_D_2013-10-01_2014-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 583.5576171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-373478293c4fbab-20250620T205638546",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-373478293c4fbab-20250620T205638546",
+        "name": "Utqiagvik.jpg"
+      },
+      {
+        "contentSize": 5034.05859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3800e8397ee7483-20221216T183604361259",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3800e8397ee7483-20221216T183604361259",
+        "name": "NGEE_BRW_B_2013-10-01_2014-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 540.9609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3802f8fb48845e4-20221216T183633731973",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3802f8fb48845e4-20221216T183633731973",
+        "name": "NGEE_BRW_D_2021-08-08_2022-08-07_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 30.380859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-43917629adab02b-20221216T183634745581",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-43917629adab02b-20221216T183634745581",
+        "name": "NGEE-BRW-ABCD-sensor-locations_20170720.xlsx"
+      },
+      {
+        "contentSize": 5024.97265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2c58d3c10fc1315-20221216T183606682491",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2c58d3c10fc1315-20221216T183606682491",
+        "name": "NGEE_BRW_B_2015-10-01_2016-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 4949.2412109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2dfba04043cec33-20221216T183632103759",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2dfba04043cec33-20221216T183632103759",
+        "name": "NGEE_BRW_D_2019-10-01_2020-10-01_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 4236.0693359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2e5bf59334a5c86-20221216T183633154506",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2e5bf59334a5c86-20221216T183633154506",
+        "name": "NGEE_BRW_D_2020-10-01_2021-08-07_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 682.3662109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-47aaa0cfc8b0cae-20221216T183600303792",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-47aaa0cfc8b0cae-20221216T183600303792",
+        "name": "NGEE_BRW_A_2020-10-01_2021-08-09_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 918.21875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e9acb2fdded7d7a-20250620T191912989",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e9acb2fdded7d7a-20250620T191912989",
+        "name": "NGEE_BRW_B_2022_08_09_2023_08_09_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 4949.205078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ec4cc6d013aa383-20221216T183617137703",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ec4cc6d013aa383-20221216T183617137703",
+        "name": "NGEE_BRW_C_2014-10-01_2015-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 4405.169921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ec9170fef65708e-20221216T183623095805",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ec9170fef65708e-20221216T183623095805",
+        "name": "NGEE_BRW_C_2019-10-01_2020-10-01_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 55.2451171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2b86126fabfbbcf-20221216T183557221632",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2b86126fabfbbcf-20221216T183557221632",
+        "name": "NGEE_BRW_A_2017-10-01_2018-10-01_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 550.341796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d454cc19bd394f7-20221216T183630462622",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d454cc19bd394f7-20221216T183630462622",
+        "name": "NGEE_BRW_D_2018-10-01_2019-10-01_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 544.9287109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d8a60486f7e8637-20221216T183631502739",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d8a60486f7e8637-20221216T183631502739",
+        "name": "NGEE_BRW_D_2019-10-01_2020-10-01_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 1138.2744140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e8e9b9517cfb4d3-20250620T205509311",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-e8e9b9517cfb4d3-20250620T205509311",
+        "name": "nga067_Subsurface_Temperature_user_guide_20250620.pdf"
+      },
+      {
+        "contentSize": 4723.982421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ef0d2dbb71f50ae-20221216T183553626103",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ef0d2dbb71f50ae-20221216T183553626103",
+        "name": "NGEE_BRW_A_2014-10-01_2015-09-30_Thermal_Transect.csv"
+      },
+      {
+        "contentSize": 5011.4287109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3405d13dd51848d-20221216T183615880625",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3405d13dd51848d-20221216T183615880625",
+        "name": "NGEE_BRW_C_2013-10-01_2014-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 4316.5078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3566f730de973db-20221216T183613515467",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3566f730de973db-20221216T183613515467",
+        "name": "NGEE_BRW_B_2021-08-09_2022-08-08_Thermal_Transect.csv"
+      },
+      {
+        "contentSize": 4412.802734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-687390a393d3759-20221216T183618271622",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-687390a393d3759-20221216T183618271622",
+        "name": "NGEE_BRW_C_2015-10-01_2016-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 1014.857421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6a2fb929131c270-20221216T183617715596",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6a2fb929131c270-20221216T183617715596",
+        "name": "NGEE_BRW_C_2015-10-01_2016-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 1127.8623046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-521934fc1b00574-20221216T183604987118",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-521934fc1b00574-20221216T183604987118",
+        "name": "NGEE_BRW_B_2014-10-01_2015-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 51.4853515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5332ca9a03b2936-20221216T183619715927",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5332ca9a03b2936-20221216T183619715927",
+        "name": "NGEE_BRW_C_2017-10-01_2018-10-01_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 3.685546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6011010b2ddffef-20221216T183635146238",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6011010b2ddffef-20221216T183635146238",
+        "name": "NGEE-BRW-ABCD-sensor-locations_w-o_figs_20170720.csv"
+      },
+      {
+        "contentSize": 883.6630859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ae80798063449d-20221216T183627644161",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5ae80798063449d-20221216T183627644161",
+        "name": "NGEE_BRW_D_2015-10-01_2016-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 462.2958984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5bc87455f0cc368-20221216T183632662439",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5bc87455f0cc368-20221216T183632662439",
+        "name": "NGEE_BRW_D_2020-10-01_2021-08-07_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 559.615234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5c04ad167b80278-20250620T191913005",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5c04ad167b80278-20250620T191913005",
+        "name": "NGEE_BRW_D_2022_08_08_2023_08_08_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 247.0087890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4a77330c7e315ae-20221216T183619328570",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4a77330c7e315ae-20221216T183619328570",
+        "name": "NGEE_BRW_C_2016-10-01_2017-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 1194.52734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4c2bf9085d9c883-20221216T183602557486",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4c2bf9085d9c883-20221216T183602557486",
+        "name": "NGEE_BRW_B_2012-09-09_2013-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 4566.767578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-53fc5ec96539a92-20221216T183558542035",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-53fc5ec96539a92-20221216T183558542035",
+        "name": "NGEE_BRW_A_2018-10-01_2019-10-01_Thermal_Transect.csv"
+      },
+      {
+        "contentSize": 352.255859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-540652ec0a079d8-20221216T183624578522",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-540652ec0a079d8-20221216T183624578522",
+        "name": "NGEE_BRW_D_2012-09-09_2013-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 54.669921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5456ce1e605a9b5-20221216T183607174554",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5456ce1e605a9b5-20221216T183607174554",
+        "name": "NGEE_BRW_B_2016-10-01_2017-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 4026.0341796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-575da7d505dc1d2-20221216T183601927420",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-575da7d505dc1d2-20221216T183601927420",
+        "name": "NGEE_BRW_A_2021-08-10_2022-08-09_Thermal_Transect.csv"
+      },
+      {
+        "contentSize": 841.1298828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-58e7fe02374da7c-20221216T183622552547",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-58e7fe02374da7c-20221216T183622552547",
+        "name": "NGEE_BRW_C_2019-10-01_2020-10-01_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 333.205078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-67cc53c7d34c03a-20221216T183620523135",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-67cc53c7d34c03a-20221216T183620523135",
+        "name": "NGEE_BRW_C_2018-10-01_2019-10-01_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 5325.744140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4d0630fa3705255-20221216T183603151569",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4d0630fa3705255-20221216T183603151569",
+        "name": "NGEE_BRW_B_2012-09-09_2013-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 1128.09375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4f2c1d49982fa27-20221216T183551842427",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4f2c1d49982fa27-20221216T183551842427",
+        "name": "NGEE_BRW_A_2013-10-01_2014-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 767.6416015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4fe548929a35d21-20221216T183626500171",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4fe548929a35d21-20221216T183626500171",
+        "name": "NGEE_BRW_D_2014-10-01_2015-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 4995.8427734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-84634c4126884cb-20221216T183627055070",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-84634c4126884cb-20221216T183627055070",
+        "name": "NGEE_BRW_D_2014-10-01_2015-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 5014.1171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-85850848fe81d1e-20221216T183605559609",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-85850848fe81d1e-20221216T183605559609",
+        "name": "NGEE_BRW_B_2014-10-01_2015-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 4793.5478515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-85b8b730e80e2fd-20250620T191912996",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-85b8b730e80e2fd-20250620T191912996",
+        "name": "NGEE_BRW_B_2022_08_09_2023_08_09_Thermal_Transect.csv"
+      },
+      {
+        "contentSize": 247.2578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-88ec2ca45d00720-20221216T183607580619",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-88ec2ca45d00720-20221216T183607580619",
+        "name": "NGEE_BRW_B_2016-10-01_2017-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 4292.3466796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6bf698b33748a3c-20221216T183634204321",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6bf698b33748a3c-20221216T183634204321",
+        "name": "NGEE_BRW_D_2021-08-08_2022-08-07_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 778.4873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7e678a871d16e1e-20221216T183611897002",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7e678a871d16e1e-20221216T183611897002",
+        "name": "NGEE_BRW_B_2020-10-01_2021-08-08_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 232.6796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-767688eb339e41e-20221216T183556790317",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-767688eb339e41e-20221216T183556790317",
+        "name": "NGEE_BRW_A_2016-10-01_2017-09-30_Thermal_Transect.csv"
+      },
+      {
+        "contentSize": 5035.5810546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-749d4bb56b2f8db-20221216T183625999787",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-749d4bb56b2f8db-20221216T183625999787",
+        "name": "NGEE_BRW_D_2013-10-01_2014-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 55.9072265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ac37f00f230295e-20221216T183608747283",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ac37f00f230295e-20221216T183608747283",
+        "name": "NGEE_BRW_B_2017-10-01_2018-10-01_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 4919.0849609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9abda88f1ddd24c-20221216T183611331734",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9abda88f1ddd24c-20221216T183611331734",
+        "name": "NGEE_BRW_B_2019-10-01_2020-10-01_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 4616.1416015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9d2b3388a264465-20221216T183559638387",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9d2b3388a264465-20221216T183559638387",
+        "name": "NGEE_BRW_A_2019-10-01_2020-10-01_Thermal_Transect.csv"
+      },
+      {
+        "contentSize": 4988.1884765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9219654fcf9392d-20221216T183628171962",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9219654fcf9392d-20221216T183628171962",
+        "name": "NGEE_BRW_D_2015-10-01_2016-09-30_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 55.38671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a10d3c936608f91-20221216T183556355732",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a10d3c936608f91-20221216T183556355732",
+        "name": "NGEE_BRW_A_2016-10-01_2017-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 3.6416015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a2ce2cc22a7b55e-20250807T191431066",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a2ce2cc22a7b55e-20250807T191431066",
+        "name": "nga067_dd.csv"
+      },
+      {
+        "contentSize": 919.9228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a0a5ea0af2938ae-20221216T183610758249",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a0a5ea0af2938ae-20221216T183610758249",
+        "name": "NGEE_BRW_B_2019-10-01_2020-10-01_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 4885.5751953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-94c435345272111-20221216T183630974642",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-94c435345272111-20221216T183630974642",
+        "name": "NGEE_BRW_D_2018-10-01_2019-10-01_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 4469.06640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-952985ac58ffc25-20250620T191912981",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-952985ac58ffc25-20250620T191912981",
+        "name": "NGEE_BRW_A_2022_08_10_2023_08_10_Thermal_Transect.csv"
+      },
+      {
+        "contentSize": 35.19140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-967230d29b10f34-20221216T183628713378",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-967230d29b10f34-20221216T183628713378",
+        "name": "NGEE_BRW_D_2016-10-01_2017-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 243.6494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c02c28211b7f25a-20221216T183609154526",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c02c28211b7f25a-20221216T183609154526",
+        "name": "NGEE_BRW_B_2017-10-01_2018-10-01_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 781.62109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b769899ebd3ff20-20221216T183601424963",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b769899ebd3ff20-20221216T183601424963",
+        "name": "NGEE_BRW_A_2021-08-10_2022-08-09_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 4860.103515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b7c16fa5e08bce3-20221216T183610188985",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b7c16fa5e08bce3-20221216T183610188985",
+        "name": "NGEE_BRW_B_2018-10-01_2019-10-01_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 1180.9990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bda47419c05a561-20221216T183551274183",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bda47419c05a561-20221216T183551274183",
+        "name": "NGEE_BRW_A_2012-09-09_2013-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 1198.5302734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-be1f0b45717ab48-20221216T183614107296",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-be1f0b45717ab48-20221216T183614107296",
+        "name": "NGEE_BRW_C_2012-09-09_2013-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 30.03125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-adc01b6e94985fe-20250807T191436363",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-adc01b6e94985fe-20250807T191436363",
+        "name": "Subsurface_Temperature_Moisture_Thermal.xml"
+      },
+      {
+        "contentSize": 263.9189453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c490e97ba919e55-20221216T183623619378",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c490e97ba919e55-20221216T183623619378",
+        "name": "NGEE_BRW_C_2020-10-01_2021-08-08_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 2.998046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cc31427456f459d-20250731T185736110",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cc31427456f459d-20250731T185736110",
+        "name": "nga067_flmd.csv"
+      },
+      {
+        "contentSize": 54.494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ca6a2c002720100-20221216T183624994033",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ca6a2c002720100-20221216T183624994033",
+        "name": "NGEE_BRW_D_2013-08-30_2013-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 35.9765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cb99cf7b620a892-20221216T183629626874",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cb99cf7b620a892-20221216T183629626874",
+        "name": "NGEE_BRW_D_2017-10-01_2018-10-01_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 243.8896484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f230c7ab3ed1db1-20221216T183630032328",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f230c7ab3ed1db1-20221216T183630032328",
+        "name": "NGEE_BRW_D_2017-10-01_2018-10-01_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 862.44140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f388eac461e7788-20221216T183612987836",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f388eac461e7788-20221216T183612987836",
+        "name": "NGEE_BRW_B_2021-08-09_2022-08-08_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 1136.1123046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f9f2eed5a1f6e58-20221216T183616514079",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f9f2eed5a1f6e58-20221216T183616514079",
+        "name": "NGEE_BRW_C_2014-10-01_2015-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 1111.5537109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e4d8e4bd1dc27f7-20221216T183553065096",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e4d8e4bd1dc27f7-20221216T183553065096",
+        "name": "NGEE_BRW_A_2014-10-01_2015-09-30_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 229.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dd31f3e5e8b2442-20221216T183557611330",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-dd31f3e5e8b2442-20221216T183557611330",
+        "name": "NGEE_BRW_A_2017-10-01_2018-10-01_Thermal_Transect.csv"
+      },
+      {
+        "contentSize": 812.9423828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dd4a95ac1e8123a-20221216T183558045888",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-dd4a95ac1e8123a-20221216T183558045888",
+        "name": "NGEE_BRW_A_2018-10-01_2019-10-01_Soil_Pits.csv"
+      },
+      {
+        "contentSize": 1384.8212890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ddf45fd950826fb-20221216T183624061260",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ddf45fd950826fb-20221216T183624061260",
+        "name": "NGEE_BRW_C_2020-10-01_2021-08-08_Thermal_Transect_and_Borehole.csv"
+      },
+      {
+        "contentSize": 4753.3056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-de711f9f19ced31-20221216T183552434371",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-de711f9f19ced31-20221216T183552434371",
+        "name": "NGEE_BRW_A_2013-10-01_2014-09-30_Thermal_Transect.csv"
+      }
+    ]
+  }
+}

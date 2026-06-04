@@ -1,0 +1,270 @@
+{
+  "id": "ess-dive-b78a927a09f3c35-20230807T190241249",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1866836",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-b78a927a09f3c35-20230807T190241249",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-3ec9f8997a7a906-20230407T144650607786",
+  "dateUploaded": "2023-08-07T19:02:41.496Z",
+  "dateModified": "2024-02-08T19:28:47.978Z",
+  "isPublic": true,
+  "citation": "Faybishenko B; Versteeg R; Williams K; Carroll R; Dong W; Tokunaga T; O'Ryan D (2023): QA/QC-ed Groundwater Level Time Series in PLM-1 and PLM-6 Monitoring Wells, East River, Colorado (2016-2022). Watershed Function SFA. Dataset. doi:10.15485/1866836",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1866836",
+    "name": "QA/QC-ed Groundwater Level Time Series in PLM-1 and PLM-6 Monitoring Wells, East River, Colorado (2016-2022)",
+    "description": [
+      "This data set contains QA/QC-ed (Quality Assurance and Quality Control) water level data for the PLM1 and PLM6 wells. PLM1 and PLM6 are location identifiers used by the Watershed Function SFA project for two groundwater monitoring wells along an elevation gradient located along the lower montane life zone of a hillslope near the Pumphouse location at the East River Watershed, Colorado, USA. These wells are used to monitor subsurface water and carbon inventories and fluxes, and to determine the seasonally dependent flow of groundwater under the PLM hillslope. The downslope flow of groundwater in combination with data on groundwater chemistry (see related references) can be used to estimate rates of solute export from the hillslope to the floodplain and river. QA/QC analysis of measured groundwater levels in monitoring wells PLM-1 and PLM-6 included identification and flagging of duplicated values of timestamps, gap filling of missing timestamps and water levels, removal of abnormal/bad and outliers of measured water levels. The QA/QC analysis also tested the application of different QA/QC methods and the development of regular (5-minute, 1-hour, and 1-day) time series datasets, which can serve as a benchmark for testing other QA/QC techniques, and will be applicable for ecohydrological modeling. The package includes a Readme file, one R code file used to perform QA/QC, a series of 8 data csv files (six QA/QC-ed regular time series datasets of varying intervals (5-min, 1-hr, 1-day) and two files with QA/QC flagging of original data), and three files for the reporting format adoption of this dataset (InstallationMethods, file level metadata (flmd), and data dictionary (dd) files).QA/QC-ed data herein were derived from the original/raw data publication available at Williams et al., 2020 (DOI: 10.15485/1818367). For more information about running R code file (10.15485_1866836_QAQC_PLM1_PLM6.R) to reproduce QA/QC output files, see README (QAQC_PLM_readme.docx). This dataset replaces the previously published raw data time series, and is the final groundwater data product for the PLM wells in the East River. Complete metadata information on the PLM1 and PLM6 wells are available in a related dataset on ESS-DIVE: Varadharajan C, et al (2022). https://doi.org/10.15485/1660962. These data products are part of the Watershed Function Scientific Focus Area collection effort to further scientific understanding of biogeochemical dynamics from genome to watershed scales.",
+      "2022/09/09 Update: Converted data files using ESS-DIVE\u2019s Hydrological Monitoring Reporting Format. With the adoption of this reporting format, the addition of three new files (v1_20220909_flmd.csv, V1_20220909_dd.csv, and InstallationMethods.csv) were added. The file-level metadata file (v1_20220909_flmd.csv) contains information specific to the files contained within the dataset. The data dictionary file (v1_20220909_dd.csv) contains definitions of column headers and other terms across the dataset. The installation methods file (InstallationMethods.csv) contains a description of methods associated with installation and deployment at PLM1 and PLM6 wells. Additionally, eight data files were re-formatted to follow the reporting format guidance (er_plm1_waterlevel_2016-2020.csv, er_plm1_waterlevel_1-hour_2016-2020.csv, er_plm1_waterlevel_daily_2016-2020.csv, QA_PLM1_Flagging.csv, er_plm6_waterlevel_2016-2020.csv, er_plm6_waterlevel_1-hour_2016-2020.csv, er_plm6_waterlevel_daily_2016-2020.csv, QA_PLM6_Flagging.csv). The major changes to the data files include the addition of header_rows above the data containing metadata about the particular well, units, and sensor description.",
+      "2023/01/18 Update: Dataset updated to include additional QA/QC-ed water level data up until 2022-10-12 for ER-PLM1 and 2022-10-13 for ER-PLM6. Reporting format specific files (v2_20230118_flmd.csv, v2_20230118_dd.csv, v2_20230118_InstallationMethods.csv) were updated to reflect the additional data. R code file (QAQC_PLM1_PLM6.R) was added to replace the previously uploaded HTML files to enable execution of the associated code. R code file (QAQC_PLM1_PLM6.R) and ReadMe file (QAQC_PLM_readme.docx) were revised to clarify where original data was retrieved from and to remove local file paths."
+    ],
+    "alternateName": [
+      "10.15485/1866836",
+      "paf_786_934"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0085-8499",
+        "givenName": "Boris",
+        "familyName": "Faybishenko",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bafaybishenko@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Roelof",
+        "familyName": "Versteeg",
+        "affiliation": "Subsurface Insights",
+        "email": "roelof.versteeg@subsurfaceinsights.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9302-8074",
+        "givenName": "Rosemary",
+        "familyName": "Carroll",
+        "email": "rcarrollcb@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2074-8887",
+        "givenName": "Wenming",
+        "familyName": "Dong",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "wenmingdong@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0861-6128",
+        "givenName": "Tetsu",
+        "familyName": "Tokunaga",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "tktokunaga@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1793-9781",
+        "givenName": "Dylan",
+        "familyName": "O'Ryan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "dporyan@lbl.gov"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "PLM monitoring wells",
+      "Groundwater level",
+      "QA/QC flagging",
+      "Regular time series",
+      "ESS-DIVE Hydrologic Monitoring Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Groundwater Level"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2022) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-11-30",
+      "endDate": "2022-10-13",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0085-8499",
+      "givenName": "Boris",
+      "familyName": "Faybishenko",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "bafaybishenko@lbl.gov"
+    },
+    "citation": [
+      "Williams K ; Carroll R ; Dong W ; Versteeg R ; Tokunaga T (2020): Water Level Data from Wells PLM1 and PLM6 for the East River Watershed, Colorado. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1818367 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1818367 on 2022-08-30",
+      "Tokunaga T ; Tran P ; Wan J ; Dong W ; Newman A ; Beutler C ; Brown W ; Henderson A ; Williams K (2022): Data used in manuscript \"Quantifying Subsurface Flow and Solute Transport in a Snowmelt-recharged Hillslope with Multiyear Water Balance\", submitted to Water Resources Research on 5-26-2022. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1874376 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1874376 on 2022-08-30",
+      "Dong W ; Beutler C ; Brown W ; Newman A ; O'Ryan D ; Versteeg R ; Williams K (2022): Cation Data for the East River Watershed, Colorado (2014-2021). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1668055 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1668055 on 2022-08-30",
+      "Williams K ; Beutler C ; Brown W ; Newman A ; O'Ryan D ; Versteeg R (2022): Anion Data for the East River Watershed, Colorado (2014-2021). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1668054 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1668054 on 2022-08-30",
+      "Dong W ; Beutler C ; Bouskill N ; Brown W ; Newman A ; O'Ryan D ; Versteeg R ; Williams K (2022): Total Dissolved Nitrogen and Ammonia Data for the East River Watershed, Colorado (2015-2021). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660456 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1660456 on 2022-08-30",
+      "Williams K ; Beutler C ; Bill M ; Brown W ; Newman A ; O'Ryan D ; Versteeg R (2022): Stable Water Isotope Data for the East River Watershed, Colorado (2014-2021). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1668053 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1668053 on 2022-08-30",
+      "Dong W ; Beutler C ; Brown W ; Newman A ; O'Ryan D ; Versteeg R ; Williams K (2022): Dissolved Inorganic Carbon and Dissolved Organic Carbon Data for the East River Watershed, Colorado (2015-2021). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660459 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1660459 on 2022-08-30",
+      "Goldman, A.E., Ren, H., Torgeson, J., Zhou, H. (2021). ESS-DIVE Reporting Format for Hydrologic Monitoring Data and Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/1822940",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Kakalia Z ; Burrus M ; O'Ryan D ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; Elbashandy H ; Enquist B J ; Fox P ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Matheus Carnevali P ; Newman A ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Agarwal D (2022): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA (Version 3.0). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "QA/QC of time series using a numerical code written in an R language and environment for statistical computing, with the application of R libraries 'xts', 'zoo', and 'highfrequency'."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3e455d8c30aff12-20230201T224943173526",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3e455d8c30aff12-20230201T224943173526",
+        "name": "QA_PLM6_Flagging.csv",
+        "contentSize": 15770.4365234375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3fd1ab1bfed5210-20230201T224931304097",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3fd1ab1bfed5210-20230201T224931304097",
+        "name": "er_plm6_waterlevel_5-min_2016-2022.csv",
+        "contentSize": 23163.59765625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-496f4afebfbfb7d-20230201T225016949286",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-496f4afebfbfb7d-20230201T225016949286",
+        "name": "er_plm1_waterlevel_1-hour_2016-2022.csv",
+        "contentSize": 1556.6572265625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-66b2852a050d247-20230201T225017631119",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-66b2852a050d247-20230201T225017631119",
+        "name": "10.15485_1866836_QAQC_PLM1_PLM6.R",
+        "contentSize": 11.470703125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a8c647a2dec143f-20230201T225011014966",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a8c647a2dec143f-20230201T225011014966",
+        "name": "er_plm1_waterlevel_5-min_2016-2022.csv",
+        "contentSize": 23138.3662109375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c7fe49eddcf3487-20230201T225019245179",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-c7fe49eddcf3487-20230201T225019245179",
+        "name": "QAQC_PLM_readme.pdf",
+        "contentSize": 153.541015625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b28f26d68b61c31-20230202T172548890263",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b28f26d68b61c31-20230202T172548890263",
+        "name": "er_plm6_waterlevel_1-hour_2016-2022.csv",
+        "contentSize": 1948.0654296875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6d6e05735c67fb0-20230201T225018844259",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6d6e05735c67fb0-20230201T225018844259",
+        "name": "er_plm6_waterlevel_daily_2016-2022.csv",
+        "contentSize": 81.5673828125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-72673c216d7d0a9-20230201T224932414795",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-72673c216d7d0a9-20230201T224932414795",
+        "name": "v2_20230118_flmd.csv",
+        "contentSize": 3.9345703125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-73966752a217063-20230201T224953649935",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-73966752a217063-20230201T224953649935",
+        "name": "QA_PLM1_Flagging.csv",
+        "contentSize": 15695.8544921875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0d1d08267e7b42f-20230201T225018062254",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "identifier": "ess-dive-0d1d08267e7b42f-20230201T225018062254",
+        "name": "QAQC_PLM_readme.docx",
+        "contentSize": 15.3896484375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1ffb490c0eab0bd-20230201T225018451855",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1ffb490c0eab0bd-20230201T225018451855",
+        "name": "v2_20230118_InstallationMethods.csv",
+        "contentSize": 0.703125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-da5ede47f8b303a-20230201T224954309426",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-da5ede47f8b303a-20230201T224954309426",
+        "name": "v2_20230118_dd.csv",
+        "contentSize": 4.1005859375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d7307d5050a1fba-20230201T225020417051",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d7307d5050a1fba-20230201T225020417051",
+        "name": "er_plm1_waterlevel_daily_2016-2022.csv",
+        "contentSize": 81.54296875
+      }
+    ]
+  }
+}

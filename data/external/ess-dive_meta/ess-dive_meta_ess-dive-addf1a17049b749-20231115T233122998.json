@@ -1,0 +1,224 @@
+{
+  "id": "ess-dive-addf1a17049b749-20231115T233122998",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2205677",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-addf1a17049b749-20231115T233122998",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-68b2567eb8e8246-20231113T175744298",
+  "dateUploaded": "2023-11-15T23:31:25.385Z",
+  "dateModified": "2023-11-16T00:06:15.675Z",
+  "isPublic": true,
+  "citation": "Zahura F; Bisht G; Li Z; McKnight S; Chen X (2023): Data, scripts, and figures associated with a manuscript studying impact of climate and topography on post-fire vegetation recovery.. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2205677",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2205677",
+    "name": "Data, scripts, and figures associated with a manuscript studying impact of climate and topography on post-fire vegetation recovery.",
+    "description": [
+      "This data package is associated with the publication \u201cImpact of Topography and Climate on Post-fire Vegetation Recovery Across Different Burn Severity and Land Cover Types through Machine Learning\u201d submitted to Remote Sensing of Environment (Zahura et al. 2023).",
+      "In this research, a machine learning algorithm, random forest (RF), was utilized to examine the impact of climate and topography on post-fire vegetation recovery. We used enhanced vegetation index (EVI) to examine varying burn severity and land cover types. The data package includes the input files for RF model training, outputs from model predictions and analysis, and python scripts to run the model, analyze the results to understand model performance and interpretability, and plot manuscript figures.",
+      "This data package contains three folders (Data, Scripts, and Figures), a file-level metadata (FLMD) csv, and a data dictionary (dd) csv. Please see Postfire_recovery_flmd.csv for a list of all files contained in this data package and descriptions for each. The data dictionary (Postfire_recovery_dd.csv) describes the csv column headers. The \u201cData\u201d folder provides all the inputs and outputs to train the RF model, evaluate performance, and interpret predictions. The \u201cScripts\u201d folder contains python scripts and jupyter notebooks for model training and result analysis. The \u201cFigures\u201d folder includes the figures used in the manuscript in \u201c.png\u201d and \u201c.jpg\u201d format."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9005-9951",
+        "givenName": "Faria",
+        "familyName": "Zahura",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "fariatuz.zahura@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6641-7595",
+        "givenName": "Gautam",
+        "familyName": "Bisht",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "gautam.bisht@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6240-8971",
+        "givenName": "Zhi",
+        "familyName": "Li",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "zhi.li@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6013-193X",
+        "givenName": "Sarah",
+        "familyName": "McKnight",
+        "affiliation": "University of Dayton",
+        "email": "smcknight1@udayton.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1928-5555",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Xingyuan.Chen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2023-11-01",
+    "keywords": [
+      "Post-fire recovery",
+      "Machine Learning",
+      "Random forest",
+      "Fire impacts",
+      "Wildfire",
+      "Remote sensing",
+      "ESS-DIVE Model Data Archiving Guidelines",
+      "Evergreen forest",
+      "Grassland",
+      "Shrubs",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Burn severity",
+      "Precipitation",
+      "Temperature",
+      "Elevation",
+      "Slope",
+      "Aspect",
+      "Years after fire",
+      "Enhanced vegetation index",
+      "EVI",
+      "Water year",
+      "Land cover",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION > DIGITAL ELEVATION/TERRAIN MODEL (DEM)",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > WATERSHED CHARACTERISTICS > WATERSHED SLOPE",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER > LAND USE/LAND COVER CLASSIFICATION > VEGETATION INDEX",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER > LAND USE/LAND COVER CLASSIFICATION"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Pacific Northwest, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.7,
+            "longitude": -125.2
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 53.3,
+            "longitude": -109.3
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2015-10-01",
+      "endDate": "2022-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1928-5555",
+      "givenName": "Xingyuan",
+      "familyName": "Chen",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "xingyuan.chen@pnnl.gov"
+    },
+    "citation": [
+      "Didan, K., 2021. MOD13Q1 MODIS/Terra vegetation indices 16-day l3 global 250m sin grid v061. URL: https://lpdaac.usgs.gov/products/mod13q1v061/. Access date: 06/30/2023.",
+      "MTBS Project (USDA Forest Service/U.S. Geological Survey), 2023. Mtbs data access: Fire level geospatial data. URL: https://www.mtbs.gov/direct-download. Access date: 06/30/2023.",
+      "Thornton, M., Shrestha, R., Wei, Y., Thornton, P., Kao, S.C., Wilson, B., 2022. Daymet: Monthly climate summaries on a 1-km grid for North America, version 4 r1. URL: https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=2131, doi:10.3334/ORNLDAAC/2131. Access date: 06/30/2023.",
+      "U.S. Geological Survey, 2023. 3d elevation program 1-meter resolution digital elevation model v2. URL: https://apps.nationalmap.gov/downloader/. Access date: 06/30/2023.",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840",
+      "Simmonds, M.B., Riley, W.J., Agarwal, D.A., Chen, X., Cholia, S., Crystal-Ornelas, R., Coon, E.T., Dwivedi, D., Hendrix, V.C., Huang, M., Jan, A., Kakalia, Z., Kumar, J., Koven, C.D., Li, L., Melara, M., Ramakrishnan, L., Ricciuto, D.M., Walker, A.P., Zhi, W., Zhu, Q. and Varadharajan, C., 2022. Guidelines for Publicly Archiving Terrestrial Model Data to Enhance Usability, Intercomparison, and Synthesis. Data Science Journal, 21(1), p.3. DOI: http://doi.org/10.5334/dsj-2022-003",
+      "Simmonds M.B., Crystal-Ornelas, R., Riley, W.J., Agarwal, D.A., Chen, X., Cholia, S., Coon, E.T., Dwivedi, D., Hendrix, V.C., Huang, M., Jan, A., Kakalia, Z., Kumar, J., Li, L., Melara, M., Ramakrishnan, L., Ricciuto, D.M., Walker, A.P., Zhi, W., Zhu, Q., Varadharajan, C. (2021). ESS-DIVE guidelines for archiving terrestrial model data. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1813868"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "For this study, the input variables to train the RF model include topography (elevation, aspect, and slope), climate (precipitation and temperature), burn severity, and years after fire. The topographic data were collected and processed using a 30-meter digital elevation model (DEM) (U.S. Geological Survey; 2023). Climate data were collected from the Daymet dataset (Thornton et al.; 2022). Burn severity and perimeter data were obtained from the Monitoring Trends in Burn Severity (MTBS) program (MTBS Project; 2023). The target variable is enhanced vegetation index (EVI), which was obtained from Moderate Resolution Imaging Spectroradiometer (MODIS) (Didan; 2021).\nAfter training the RF model, model predictions were evaluated to estimate model performance using several metrics: R2, Nash-Sutcliffe, and Kling-Gupta efficiency scores. The impacts of the input variables were investigated using RF feature importance, drop one variable importance, and one and two variable partial dependence plots. The scripts to run these analyses and the relevant data and figures are provided in the data package Scripts, Data, and Figures folders, respectively."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1634.6689453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-162e738da74fc42-20231106T235725004747",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-162e738da74fc42-20231106T235725004747",
+        "name": "Scripts.zip"
+      },
+      {
+        "contentSize": 30126001.34375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-498d3817efc9050-20231107T002134449373",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-498d3817efc9050-20231107T002134449373",
+        "name": "Data.zip"
+      },
+      {
+        "contentSize": 3.646484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-505c18e93bcd453-20231106T234500192707",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-505c18e93bcd453-20231106T234500192707",
+        "name": "Postfire_recovery_dd.csv"
+      },
+      {
+        "contentSize": 27.2294921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7e47d5ecf93c5e8-20231106T235502801269",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7e47d5ecf93c5e8-20231106T235502801269",
+        "name": "Postfire_recovery_flmd.csv"
+      },
+      {
+        "contentSize": 14440.3974609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9dc9076abbd55c6-20231107T000108812050",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9dc9076abbd55c6-20231107T000108812050",
+        "name": "Figures.zip"
+      },
+      {
+        "contentSize": 3197.0830078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9562334c811ec2c-20231106T235904577639",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-9562334c811ec2c-20231106T235904577639",
+        "name": "readme.pdf"
+      },
+      {
+        "contentSize": 12.8828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-addf1a17049b749-20231115T233122998",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-addf1a17049b749-20231115T233122998",
+        "name": "Data_scripts_and_figures_associated_with_a.xml"
+      }
+    ]
+  }
+}

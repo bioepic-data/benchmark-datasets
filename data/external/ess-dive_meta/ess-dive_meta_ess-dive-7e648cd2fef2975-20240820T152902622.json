@@ -1,0 +1,941 @@
+{
+  "id": "ess-dive-7e648cd2fef2975-20240820T152902622",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1969118",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-7e648cd2fef2975-20240820T152902622",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-7e648cd2fef2975-20230509T162406643",
+  "dateUploaded": "2024-08-20T15:29:02.724Z",
+  "dateModified": "2024-08-20T15:29:04.305Z",
+  "isPublic": true,
+  "citation": "Leonard L T; Beutler C A; Chu R; Danczak R E; Forbes B; Garayburu-Caruso V A; Goldman A E; Lau S S; McKever S A; Mitch W A; Newman A W; Renteria L; Toyoda J G; Stegen J C; Vanzin G F; Williams K H; Sharp J O (2023): Surface Water Disinfection Byproducts and Organic Matter Characterization Data Associated with: \u201cDisinfection byproducts formed during drinking water treatment reveal an export control point for dissolved organic matter in a subalpine headwater stream\u201d. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1969118",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1969118",
+    "name": "Surface Water Disinfection Byproducts and Organic Matter Characterization Data Associated with: \u201cDisinfection byproducts formed during drinking water treatment reveal an export control point for dissolved organic matter in a subalpine headwater stream\u201d",
+    "description": [
+      "This dataset is associated with the publication \u201cDisinfection byproducts formed during drinking water treatment reveal an export control point for dissolved organic matter in a subalpine headwater stream\u201d published in Water Research X (Leonard et al. 2022; https://doi.org/10.1016/j.wroa.2022.100144). The associated study analyzed temporal trends from the Town of Crested Butte water treatment facility and synoptic sampling at Coal Creek in Crested Butte, Colorado, US. This work demonstrates how drinking water quality archives combined with synoptic sampling and targeted analyses can be used to identify and understand export control points for dissolved organic matter.",
+      "This dataset is comprised of one main data folder containing (1) file-level metadata; (2) data dictionary; (3) metadata and international geo-sample number (IGSN) mapping file; (4) dissolved organic carbon (DOC), ultraviolet absorbance at 254 nanometers (UV254), total nitrogen (TN), and specific ultraviolet absorbance (SUVA) data; (5) disinfection bioproduct formation potential (DBP-FP) data; (6) readme; (7) methods codes; (8) water collection protocol; (9) folder of high resolution characterization of organic matter via 12 Tesla Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS) through the Environmental Molecular Sciences Laboratory (EMSL; https://www.pnnl.gov/environmental-molecular-sciences-laboratory); and (10) folder of excitation emissions matrix (EEM) spectra. The FTICR folder contains a file of DOC (measured as non-purgeable organic carbon; NPOC) used for FTICR sample preparation. The FTICR folder also contains three subfolders: one subfolder containing the raw .xml data files, one containing the processed data, and the other containing instructions for using Formularity (https://omics.pnl.gov/software/formularity) and an R script to process the data based on the user's specific needs. All files are .csv, .pdf, .dat, .R, .ref, or .xml"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3309-9110",
+        "givenName": "Laura T.",
+        "familyName": "Leonard",
+        "affiliation": "Colorado School of Mines",
+        "email": "lleonard@mines.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0740-3112",
+        "givenName": "Curtis A.",
+        "familyName": "Beutler",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "Curtis.Beutler@colorado.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Rosalie",
+        "familyName": "Chu",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Rosalie.Chu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert E.",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9082-7324",
+        "givenName": "Stephanie S.",
+        "familyName": "Lau",
+        "affiliation": "Stanford University",
+        "email": "stephanielau@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophia A.",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "sophia.mckever@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4917-0938",
+        "givenName": "William A.",
+        "familyName": "Mitch",
+        "email": "wamitch@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1574-8754",
+        "givenName": "Alexander W.",
+        "familyName": "Newman",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "alexnewman760@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6299-2146",
+        "givenName": "Jason G.",
+        "familyName": "Toyoda",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Jason.Toyoda@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2433-799X",
+        "givenName": "Gary F.",
+        "familyName": "Vanzin",
+        "email": "gvanzin@mines.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth H.",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2942-1066",
+        "givenName": "Jonathon O.",
+        "familyName": "Sharp",
+        "affiliation": "Colorado School of Mines",
+        "email": "jsharp@mines.edu"
+      }
+    ],
+    "datePublished": "2023-04-05",
+    "keywords": [
+      "Freshwater",
+      "River",
+      "Stream",
+      "Watershed",
+      "Biogeochemistry",
+      "Hydrobiogeochemical function",
+      "Organic matter",
+      "Hyporheic zone",
+      "Metabolite",
+      "Metabolomics",
+      "Mass spectrometry",
+      "Disinfection byproducts",
+      "Water treatment",
+      "Water quality",
+      "WHONDRS",
+      "ESS-DIVE Location Metadata Reporting Format",
+      "ESS-DIVE Sample ID and Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY"
+    ],
+    "variableMeasured": [
+      "Dissolved organic carbon",
+      "DOC",
+      "Non-purgeable organic carbon",
+      "NPOC",
+      "Fourier-transform ion cyclotron resonance mass spectroscopy",
+      "FTICR-MS",
+      "Disinfection byproduct formation potential",
+      "DBP-FS",
+      "EEMs",
+      "Excitation-emission matrix spectroscopy",
+      "Ultraviolet absorbance at 254 nanometers",
+      "UV254",
+      "Total nitrogen",
+      "TN",
+      "Specific ultraviolet absorbance",
+      "SUVA",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > NUTRIENTS > NITROGEN COMPOUNDS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > NUTRIENTS > NITROGEN",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > NITROGEN COMPOUNDS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "BOG00, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.863,
+            "longitude": -107.0448
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.863,
+            "longitude": -107.0448
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "BOG02, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8627,
+            "longitude": -107.0436
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8627,
+            "longitude": -107.0436
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "BOG03, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8626,
+            "longitude": -107.0432
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8626,
+            "longitude": -107.0432
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "BOG04, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8627,
+            "longitude": -107.0427
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8627,
+            "longitude": -107.0427
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CC10, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8563,
+            "longitude": -107.0568
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8563,
+            "longitude": -107.0568
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CC11.5, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8623,
+            "longitude": -107.0438
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8623,
+            "longitude": -107.0438
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CC11, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8598,
+            "longitude": -107.0488
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8598,
+            "longitude": -107.0488
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CC12, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8695,
+            "longitude": -107.0079
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8695,
+            "longitude": -107.0079
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CC2, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8729,
+            "longitude": -107.0945
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8729,
+            "longitude": -107.0945
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CC3, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8719,
+            "longitude": -107.0951
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8719,
+            "longitude": -107.0951
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CC5, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8582,
+            "longitude": -107.0955
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8582,
+            "longitude": -107.0955
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CC6, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.854,
+            "longitude": -107.0857
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.854,
+            "longitude": -107.0857
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CC7, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8544,
+            "longitude": -107.0798
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8544,
+            "longitude": -107.0798
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CC8, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8557,
+            "longitude": -107.073
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8557,
+            "longitude": -107.073
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CC9, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8556,
+            "longitude": -107.0631
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8556,
+            "longitude": -107.0631
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Coal11, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8636,
+            "longitude": -107.0336
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8636,
+            "longitude": -107.0336
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Coal12, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8617,
+            "longitude": -107.0466
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8617,
+            "longitude": -107.0466
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Coal15, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8565,
+            "longitude": -107.0585
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8565,
+            "longitude": -107.0585
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Coal2, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8681,
+            "longitude": -106.9902
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8681,
+            "longitude": -106.9902
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Coal20, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8561,
+            "longitude": -107.0598
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8561,
+            "longitude": -107.0598
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Coal30, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8668,
+            "longitude": -107.0936
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8668,
+            "longitude": -107.0936
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Coal5, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8684,
+            "longitude": -107.0205
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8684,
+            "longitude": -107.0205
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Elk00, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8574,
+            "longitude": -107.0599
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8574,
+            "longitude": -107.0599
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ElkEast, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8575,
+            "longitude": -107.0587
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8575,
+            "longitude": -107.0587
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Evans, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8606,
+            "longitude": -107.0501
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8606,
+            "longitude": -107.0501
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "IR00, Coal Creek, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8752,
+            "longitude": -107.1006
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8752,
+            "longitude": -107.1006
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Keystone, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8677,
+            "longitude": -107.024
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8677,
+            "longitude": -107.024
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Ohio Creek, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8552,
+            "longitude": -107.0926
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8552,
+            "longitude": -107.0926
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Ohio Pass, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8457,
+            "longitude": -107.0987
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8457,
+            "longitude": -107.0987
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Ohio, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8552,
+            "longitude": -107.0925
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8552,
+            "longitude": -107.0925
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Ohio2, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8499,
+            "longitude": -107.0974
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8499,
+            "longitude": -107.0974
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Ohio3, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8518,
+            "longitude": -107.0965
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8518,
+            "longitude": -107.0965
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Ohio4, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8538,
+            "longitude": -107.0949
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8538,
+            "longitude": -107.0949
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Red Lady, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8684,
+            "longitude": -107.0214
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8684,
+            "longitude": -107.0214
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SPG3, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8634,
+            "longitude": -107.0839
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8634,
+            "longitude": -107.0839
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Splains, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8554,
+            "longitude": -107.0641
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8554,
+            "longitude": -107.0641
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Wild00, Coal Creek Tributary, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8695,
+            "longitude": -107.009
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8695,
+            "longitude": -107.009
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-07-30",
+      "endDate": "2021-07-28",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2942-1066",
+      "givenName": "Jonathon O.",
+      "familyName": "Sharp",
+      "affiliation": "Colorado School of Mines",
+      "email": "jsharp@mines.edu"
+    },
+    "citation": [
+      "Boye, K., Crystal-Ornelas, R., O'Ryan, D., Goldman, A. E., Damerow, J., Varadharajan, C., & Agarwal, D. (2022). ESS-DIVE Reporting Format for Sample-based Water and Soil Chemistry Measurements. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. doi:10.15485/1865731",
+      "Crystal-Ornelas R; O'Ryan D; Christianson D; Hendrix V C; Agarwal D; Varadharajan C (2022): ESS-DIVE Reporting Format for Location Metadata. ESS-DIVE repository. Dataset. doi: 10.15485/1865730",
+      "Damerow J ; Varadharajan C ; Boye K ; Brodie E ; Burrus M ; Chadwick D ; Cholia S ; Crystal-Ornelas R ; Elbashandy H ; Eloy Alves R ; Ely K ; Goldman A ; Hendrix V ; Jones C ; Jones M ; Kakalia Z ; Kemner K ; Kersting A ; Maher K ; Merino N ; O'Brien F ; Perzan Z ; Robles E ; Snavely C ; Sorensen P ; Stegen J ; Weisenhorn P ; Whitenack K ; Zavarin M ; Agarwal D (2020): Sample Identifiers and Metadata Reporting Format for Environmental Systems Science. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/1660470",
+      "Leonard, Laura T., Gary F. Vanzin, Vanessa A. Garayburu-Caruso, Stephanie S. Lau, Curtis A. Beutler, Alexander W. Newman, William A. Mitch, James C. Stegen, Kenneth H. Williams, and Jonathan O. Sharp. \u201cDisinfection Byproducts Formed during Drinking Water Treatment Reveal an Export Control Point for Dissolved Organic Matter in a Subalpine Headwater Stream.\u201d Water Research X 15 (May 2022): 100144. https://doi.org/10.1016/j.wroa.2022.100144.",
+      "Varadharajan C ; Kakalia Z ; Burrus M ; O'Ryan D ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; Elbashandy H ; Enquist B J ; Fox P ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Matheus Carnevali P ; Newman A ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Agarwal D (2022): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA (Version 3.0). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734841",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734840",
+      "https://github.com/ltleonard/Leonard-et-al.-DBP"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "In this study, we analyzed temporal trends from a water treatment facility that sources water from Coal Creek in Crested Butte, Colorado. We used historical records of drinking water disinfection byproduct (DBP) monitoring to assess drivers of a hot moment combined with synoptic stream sampling to identify the source (hot spot) and quality of organic matter (OM) release. Dissolved OM (DOM) in the waters sourced from this export control point was further characterized to better understand specific properties associated with DBP formation.",
+      "We focused on the Coal Creek subalpine watershed in Colorado to find localities within the landscape and temporal periods that contribute disproportionately toward higher aqueous OM flux and DBPs formed during drinking water treatment. Detailed methods are described in the associated manuscript."
+    ],
+    "distribution": [
+      {
+        "contentSize": 10343.333984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0865a56e49c2dc1-20230405T222221642",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-0865a56e49c2dc1-20230405T222221642",
+        "name": "WHONDRS_DBP_Data_Package.zip"
+      },
+      {
+        "contentSize": 32.8642578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7e648cd2fef2975-20240820T152902622",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-7e648cd2fef2975-20240820T152902622",
+        "name": "Surface_Water_Disinfection_Byproducts_and_Organic.xml"
+      }
+    ]
+  }
+}

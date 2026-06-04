@@ -1,0 +1,202 @@
+{
+  "id": "ess-dive-fedde255bc6978d-20230407T142415667166",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1814209",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-fedde255bc6978d-20230407T142415667166",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-fecc26ba7258250-20230407T000308674941",
+  "dateUploaded": "2023-04-07T14:24:17.595Z",
+  "dateModified": "2023-04-07T14:24:18.962Z",
+  "isPublic": true,
+  "citation": "Berkelhammer M; Drewniak B; Gonzalez-Meler M; Ahlswede B (2021): Historical global Earth System Model simulations with E3SM's dynamic root module. Water foraging with dynamic roots in E3SM; The role of roots in terrestrial ecosystem memory on intermediate timescales. Dataset. doi:10.15485/1814209",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1814209",
+    "name": "Historical global Earth System Model simulations with E3SM's dynamic root module",
+    "description": [
+      "This data package contains global-scale Earth System Model simulations run with DOE's E3SM Model. The package includes one set of simulations run in the default configuration and a second set of simulations run with the dynamic root module enabled. These two datasets can be used to assess the impact that dynamic roots have on Land Surface fluxes such as carbon and water. The outputs are provided here on a 0.5 x 0.5 global grid at monthly resolution. The simulations were run with atmospheric forcing from the Global Soil Wetness Project. We provide specifically here Gross Primary Production, Transpiration, relative root fraction per soil layer as well as Air Temperature, Precipitation and all the parameterizations used for the simulations. Our purpose for generating and analyzing these simulations was to assess the role that root dynamics and foraging for water has in the recovery timescale of ecosystems following climate perturbation. All data provided are in the \"netcdf\" format using standard CF-1 (Climate and Forecast) Convention. The data are broken up into 20 year chunks to facilitate easier read-in. The data are all machine readable using various software platforms including Matlab, NCO, Panoply and GrADS."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8924-716X",
+        "givenName": "Max",
+        "familyName": "Berkelhammer",
+        "affiliation": "University of Illinois at Chicago",
+        "email": "berkelha@uic.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Beth",
+        "familyName": "Drewniak",
+        "affiliation": "Argonne National Laboratory",
+        "email": "bbye@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Miquel",
+        "familyName": "Gonzalez-Meler",
+        "affiliation": "University of Illinois at Chicago",
+        "email": "mmeler@uic.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Benjamin",
+        "familyName": "Ahlswede",
+        "affiliation": "University of Illinois at Chicago",
+        "email": "bswede@uic.edu"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "Roots",
+      "Earth System Model",
+      "Ecosystem Legacy",
+      "Land Surface Modeling",
+      "Ecohydrology"
+    ],
+    "variableMeasured": [
+      "Gross Primary Productivity",
+      "Transpiration",
+      "Air Temperature",
+      "Precipitation"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "These data are global simulations at 0.5 degree x 0.5 degree resolution.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 90,
+            "longitude": 180
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -90,
+            "longitude": -180
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1901-01-01",
+      "endDate": "2010-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8924-716X",
+      "givenName": "Max",
+      "familyName": "Berkelhammer",
+      "affiliation": "University of Illinois at Chicago",
+      "email": "berkelha@uic.edu"
+    },
+    "citation": [
+      "Berkelhamer et al., (submitted) Root foraging alters global patterns of ecosystem recovery from climate perturbations.",
+      "Drewniak (2019) Simulating Dynamic Roots in the Energy Exascale Earth System Land Model. Journal of Advances in Modeling Earth Systems. doi: 10.1029/2018MS001334"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "72092e62-2d71-4502-a18b-26145303e36c"
+      },
+      "name": "Water foraging with dynamic roots in E3SM; The role of roots in terrestrial ecosystem memory on intermediate timescales",
+      "member": {
+        "@type": "Person",
+        "givenName": "Max",
+        "familyName": "Berkelhammer",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Board of Trustees of the University of Illinois, Chicago, IL",
+        "email": "berkelha@uic.edu"
+      }
+    },
+    "measurementTechnique": [
+      "All E3SM simulations were performed in offline mode with a post v1 version of the E3SM Land Model (ELM) using atmospheric forcing from the Global Soil Wetness Project 3 at a resolution of 0.5 by 0.5. Model spinup was performed by cycling the GSWP3 over the years 1901-1920 until reaching steady state following the accelerated decomposition and regular spinup procedures. Following spinup, both simulations used the same GSWP3 forcing over the historical period 1901-2010. We utilize outputs from 2 simulations referred to in the files as \"plantdate ... nodynroot\" and \"long S50\". The \"plantdate ... nodynroot\" simulation is the control run in the default ELM configuration without dynamic roots. All model configurations are provided in the CLM paramaters. The \"long S50\" simulation was performed with dynamic roots turned on and with an increase in the weight given to water in the root foraging scheme by setting f to 0.5 as in Drewniak (2019) JAMES. This does not affect the actual water stress in the vegetation but reduces the minimum preference for roots to seek soil layers with water to facilitate more foraging dynamics. Within the \"Long LS50\" simulation we also increased the root turnover time from 1 to 2 years to enhance root legacy but this had virtually no impact on the results compared with simulations run with turnover time kept at default. Although the model was forced by historical temperature and precipitation, we also include these data with the modeled outputs of GPP and transpiration to facilitate analysis by other users."
+    ],
+    "distribution": [
+      {
+        "contentSize": 730035.75,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1a2393ace5f6171-20210813T025232351",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-1a2393ace5f6171-20210813T025232351",
+        "name": "long_s50_monthly_gridave_et_120_130.nc"
+      },
+      {
+        "contentSize": 730035.99609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ed101ada50a90e1-20210813T025728202",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ed101ada50a90e1-20210813T025728202",
+        "name": "plantdate_gpponly_nodynroot_monthly_gridave_et_120_130.nc"
+      },
+      {
+        "contentSize": 83.91015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5883ea31b5163c2-20210813T025201819",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-5883ea31b5163c2-20210813T025201819",
+        "name": "clm_params_c190712.nc"
+      },
+      {
+        "contentSize": 1094543.484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7d99f348ce74d71-20210813T025232178",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-7d99f348ce74d71-20210813T025232178",
+        "name": "long_s50_monthly_gridave_et_90_110.nc"
+      },
+      {
+        "contentSize": 1094543.85546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b7ddcae28f024a0-20210813T025728196",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-b7ddcae28f024a0-20210813T025728196",
+        "name": "plantdate_gpponly_nodynroot_monthly_gridave_et_90_110.nc"
+      },
+      {
+        "contentSize": 4375035.9296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c85e19aa368d385-20210813T015337378",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-c85e19aa368d385-20210813T015337378",
+        "name": "long_s50_monthly_gridave_gpp_120_130.nc"
+      },
+      {
+        "contentSize": 4375036.18359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c3dfe301eef71d3-20210813T022713582",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-c3dfe301eef71d3-20210813T022713582",
+        "name": "plantdate_gpponly_nodynroot_monthly_gridave_gpp_120_130.nc"
+      },
+      {
+        "contentSize": 6562044.03515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f7060a32a2a4e03-20210813T022713593",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-f7060a32a2a4e03-20210813T022713593",
+        "name": "plantdate_gpponly_nodynroot_monthly_gridave_gpp_90_110.nc"
+      },
+      {
+        "contentSize": 6562043.6640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fcbca20c9b0c391-20210813T020543019",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-fcbca20c9b0c391-20210813T020543019",
+        "name": "long_s50_monthly_gridave_gpp_90_110.nc"
+      },
+      {
+        "contentSize": 9.9599609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fedde255bc6978d-20230407T142415667166",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-fedde255bc6978d-20230407T142415667166",
+        "name": "Historical_global_Earth_System_Model_simulations_with_E3SM_s_dynamic_root_module.xml"
+      }
+    ]
+  }
+}

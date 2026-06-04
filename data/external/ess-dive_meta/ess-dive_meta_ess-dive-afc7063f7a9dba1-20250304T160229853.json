@@ -1,0 +1,390 @@
+{
+  "id": "ess-dive-afc7063f7a9dba1-20250304T160229853",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2530253",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-afc7063f7a9dba1-20250304T160229853",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-685b9f585e07593-20250221T150929742",
+  "dateUploaded": "2025-03-04T16:02:30.404Z",
+  "dateModified": "2025-03-13T00:00:42.827Z",
+  "isPublic": true,
+  "citation": "Kirker A; Jones C N; Tatariw C; Peterson D; Rice E; Morejon J; Serpas L M; Mortizavi B; Chen X; Stegen J (2024): 15-Min Water Level Data collected at Tanglewood Biological Station, Alabama. Investigating hydrologic connectivity as a driver of biogeochemical flood response in wetland systems. Dataset. doi:10.15485/2530253",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2530253",
+    "name": "15-Min Water Level Data collected at Tanglewood Biological Station, Alabama",
+    "description": [
+      "This dataset contains water level data calculated from pressure transducers installed in piezometers and surface water monitoring locations across a gradient of wetlands at the Tanglewood Biological Station in Akron, Alabama. This research was performed as part of the 'Investigating Hydrologic Connectivity as a Driver of Wetland Biogeochemical Response to Flood Disturbances' project, and water level data will be used to support further analyses of groundwater-surface water interaction and inundation metrics at the site. For each year of data collection, Water Level Monitoring sites are grouped into 9. csv files by location and wetland type, and additional information about each site location can be found in the site_descriptions.csv file. Methodology for installing pressure transducers and converting raw pressure data to water level can be found in the TBS_Methods.csv file, with additional methodological details in the offset_calc.csv and the wl_depth.r file. Water level data is reported as water depth relative to the ground surface in centimeters."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2156-7917",
+        "givenName": "Ashleigh",
+        "familyName": "Kirker",
+        "affiliation": "Virginia Polytechnic Institute and State University",
+        "email": "akirker@vt.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5804-0510",
+        "givenName": "C. Nathan",
+        "familyName": "Jones",
+        "affiliation": "University of Alabama",
+        "email": "cnjones7@ua.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9573-7528",
+        "givenName": "Corianne",
+        "familyName": "Tatariw",
+        "affiliation": "Rowan University",
+        "email": "tatariw@rowan.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3444-4772",
+        "givenName": "Delaney",
+        "familyName": "Peterson",
+        "affiliation": "University of Alabama",
+        "email": "dmpeterson2@crimson.ua.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Elaine",
+        "familyName": "Rice",
+        "affiliation": "University of Alabama",
+        "email": "serice@crimson.ua.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jasmine",
+        "familyName": "Morejon",
+        "affiliation": "University of Alabama",
+        "email": "jmorejon@crimson.ua.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Lidia",
+        "familyName": "Molina Serpas",
+        "affiliation": "University of Alabama",
+        "email": "ldmolinaserpas@crimson.ua.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Behzad",
+        "familyName": "Mortizavi",
+        "affiliation": "Syracuse University",
+        "email": "behzadm@syr.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "xingyuan.chen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "james.stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "ESS-DIVE Hydrologic Monitoring Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > WATER DEPTH",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUND WATER FEATURES > WATER TABLE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "FP, Floodplain, This location contains wells FP1_1, FP1_2, FP1_3, FP2_1, FP2_2, FP3_1 and FP3_2. A barometric pressure transducer (FP1_Baro) is also installed at this site. FP (floodplain) is comprised of three floodplain wetlands (sloughs) adjacent to Five Mile Creek.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8569936,
+            "longitude": -87.6602626
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.85585,
+            "longitude": -87.658781
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "IT1, Intermediate 1, This location contains wells IT1_1, IT1_2, IT1_3, IT1_4, IT1_5, IT1_6, IT1_7, IT1_8, IT1_9, IT1_10, and IT1_11. A barometric pressure transducer (IT1_Baro) is installed at this site. IT1 (Intermediate 1) is a wetland-stream complex within the North watershed at Tanglewood Biological Station.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8557454,
+            "longitude": -87.6653451
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8551181,
+            "longitude": -87.6640252
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "HS1, Hillslope 1, This location contains wells HS1_1, HS1_2, HS1_3, HS1_4, and HS1_5. A barometric pressure transducer (HS1_Baro) is installed at this site. HS1 (Hillslope 1) is a hillside wetland/seep in the North watershed at Tanglewood Biological Station.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8550164,
+            "longitude": -87.6687154
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8546869,
+            "longitude": -87.6681614
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "TBS0, Transect 0, This location contains wells TBS0_1, TBS0_3, TBS0_4, TBS0_5, and TBS0_6. These wells are installed along a transect down a hill, ending at a stream (TBS0_6). The hillslope-stream transect is located within the South watershed at Tanglewood Biological Station.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8501129,
+            "longitude": -87.6685541
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8491673,
+            "longitude": -87.6681313
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "TBS1, Transect 1, This location contains wells TBS1_1, TBS1_3, TBS1_5 and TBS1_6. The wells are installed on a transect from uphill (TBS1_1) to a stream (TBS1_6). The hillslope-stream transect is located within the South watershed at the Tangelwood Biological Station.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8510651,
+            "longitude": -87.6661908
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8506339,
+            "longitude": -87.6654294
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "TBS2, Transect 2, Intermediate 2 This location contains wells TBS2_1, TBS2_3, TBS2_4, TBS2_5, and TBS2_6. These wells are installed along a transect down a hill, beginning at TBS2_1, including one well installed at a stream-side (Intermediate) wetland (TBS2_5) and ending at a stream (TBS2_6). The transect and associated wetland complex is located within the South watershed at the Tanglewood Biological Station.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8522389,
+            "longitude": -87.665423
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8513159,
+            "longitude": -87.6645473
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "IT3, Intermediate 3, This location contains wells IT3_1 and IT3_2. These wells are installed in wetland adjacent to a small stream located within the South watershed at the Tanglewood Biological Station.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8513349,
+            "longitude": -87.6653914
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8510489,
+            "longitude": -87.6649293
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "HS2, Hillslope 2, This location contains wells HS2_1 and HS2_2. These wells are installed at a hillside wetland/seep located within the South watershed at the Tanglewood Biological Station.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8510398,
+            "longitude": -87.6658823
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8509761,
+            "longitude": -87.6658023
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "HS3, Hillslope 3, This location contains wells HS3_1 and HS3_2. These wells are installed in a hillside wetland/seep within the South watershed at Tanglewood Biological Station.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8508759,
+            "longitude": -87.6737864
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8505216,
+            "longitude": -87.6731397
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-09-22",
+      "endDate": "2023-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5804-0510",
+      "givenName": "C. Nathan",
+      "familyName": "Jones",
+      "affiliation": "University of Alabama",
+      "email": "cnjones7@ua.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "4afb1791-40c4-4fa0-961f-da99b33a09a4"
+      },
+      "name": "Investigating hydrologic connectivity as a driver of biogeochemical flood response in wetland systems",
+      "member": {
+        "@type": "Person",
+        "givenName": "Behzad",
+        "familyName": "Mortazav",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of Alabama",
+        "email": "bmortazavi@ua.edu"
+      }
+    },
+    "measurementTechnique": [
+      "With a hand auger, surface water wells or piezometers were dug ~0.5 to 7 m into the subsurface. The wells were lined with 4 inch diameter PVC tubing, and were screened at the bottom.",
+      "Into each well, an Onset HOBO Water Level Data Logger (Pressure Transducer) was hung so that the logger was placed near the bottom of the PVC tubing. The loggers record pressure every 15 minutes. Nearby, an additional water level logger was hung from a tree to record atmospheric pressure.",
+      "Data was downloaded from each water level (WL) data logger with an Onset HOBO Waterproof Shuttle. Downloads occurred approximately every two months. During the download, the height of the PVC tubing above the ground surface and the depth to water in the PVC tubing were recorded. The relative water depth at the time of download is calculated by subtracting the height of the PVC tube from the depth to water in the PVC tube.",
+      "To convert from recorded pressure to gauge height, the atmospheric pressure recorded from a data logger in a nearby tree was subtracted from the recorded pressure in the well of interest at each time step, resulting in a hydrostatic pressure measurement. Then, the depth of water above the WL data logger in the well of interest was calculated by dividing hydrostatic pressure by the acceleration of gravity (981 cm/s^2) and the density of water (~1 g/cm^3). We report water level in centimeters. See the attached wl_depth.r file for an r script to perform this calculation.",
+      "The depth of water above the WL data logger is converted to depth above or below the ground's surface by adding an offset value. The offset value is calculated as the depth of water above the WL data logger (see Step 4) at the time of download minus the measured relative water depth (from Step 3). See the attached offset_calc.csv file for records of field measurements, relative water depth, and calculated offsets.",
+      "For QA/QC, we identified times when the water level data logger was out of the water (confirmed by field notes) and removed measurements that corresponded with these times. When gaps in the data represented 45 minutes or less (3 missing measurements) we filled the gap by taking averages of the water level recorded on either side of the missing measurements."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3.8681640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-22f969743169f20-20241218T213341910",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-22f969743169f20-20241218T213341910",
+        "name": "site_descriptions.csv"
+      },
+      {
+        "contentSize": 5238.60546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-17cd6eebc280d12-20250123T210151277",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-17cd6eebc280d12-20250123T210151277",
+        "name": "WaterLevel_2023.zip"
+      },
+      {
+        "contentSize": 1.939453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0fa1b7014bee03d-20250221T143027216",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0fa1b7014bee03d-20250221T143027216",
+        "name": "offset_calc.csv"
+      },
+      {
+        "contentSize": 2.734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-584a8a0bd2b1fb4-20250304T160205314",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-584a8a0bd2b1fb4-20250304T160205314",
+        "name": "TBS_flmd.csv"
+      },
+      {
+        "contentSize": 4917.1025390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9bb79c71134bfd9-20250206T222107895",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9bb79c71134bfd9-20250206T222107895",
+        "name": "WaterLevel_2021.zip"
+      },
+      {
+        "contentSize": 10.14453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b63b8c0332ae7d6-20250304T160205320",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b63b8c0332ae7d6-20250304T160205320",
+        "name": "TBS_dd.csv"
+      },
+      {
+        "contentSize": 441.6748046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b792e039256afdf-20250206T222107888",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b792e039256afdf-20250206T222107888",
+        "name": "WaterLevel_2022.zip"
+      },
+      {
+        "contentSize": 0.9541015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bb32dc05dc03990-20250304T160205318",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bb32dc05dc03990-20250304T160205318",
+        "name": "TBS_methods.csv"
+      },
+      {
+        "contentSize": 16.6162109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-afc7063f7a9dba1-20250304T160229853",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-afc7063f7a9dba1-20250304T160229853",
+        "name": "15_Min_Water_Level_Data_collected_at_Tanglewood.xml"
+      },
+      {
+        "contentSize": 3.0712890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b44aeab386530e7-20241205T225154682",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-b44aeab386530e7-20241205T225154682",
+        "name": "wl_depth.R"
+      }
+    ]
+  }
+}

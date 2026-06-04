@@ -1,0 +1,210 @@
+{
+  "id": "ess-dive-2bbfd4de053d58a-20240820T180116078",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1828377",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-2bbfd4de053d58a-20240820T180116078",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-caf086e322f2498-20230504T212056318373",
+  "dateUploaded": "2024-08-20T18:01:16.505Z",
+  "dateModified": "2024-08-20T18:01:23.948Z",
+  "isPublic": true,
+  "citation": "Garayburu-Caruso V A; Goldman A E; Graham E B; Roley S; Renteria L; Stegen J C; Torgeson J M; Kaufman M H (2021): Optode Images, and Dissolved Oxygen Data from Sand and Sediment Flow-through Column Experiments associated with: \"2-D Imaging of Dissolved Oxygen Concentration in Flow-Through Sediment Columns\". River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1828377",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1828377",
+    "name": "Optode Images, and Dissolved Oxygen Data from Sand and Sediment Flow-through Column Experiments associated with: \"2-D Imaging of Dissolved Oxygen Concentration in Flow-Through Sediment Columns\"",
+    "description": [
+      "This data package is associated with the publication \"2-D Imaging of Dissolved Oxygen Concentration in Flow-Through Sediment Columns\" submitted to Frontiers in Water (Garayburu-Caruso et al., 2022). This work presents a novel application of planar optode technology to sediment columns that allows the study of well-constrained flow fields without the need to assume completely homogeneous flow. We introduce a flow-through column with the interior coated in an oxygen sensing film and a series of sampling ports as a unique tool capable of capturing changes in dissolved oxygen (DO) at high frequency (10 s) and spatial (< 1 mm) resolution across the length of a column. In addition, we provide custom scripts that allows image processing steps to be automated and consistently reproduced over a variety of experimental conditions.",
+      "This dataset is comprised of four folders (1) 01_Riverbed_Sediment_Experiment, (2) 02_Sand_Experiment, (3) 01_Riverbed_Sediment_Raw_Images, and (4) 02_Sand_Experiment_Raw_Images. 01_Riverbed_Sediment_Experiment contains (1) a subfolder with csv files that contain statistical parameters from the linear regressions applied to each optode image, (2) a subfolder with csv files from DO data measured by in-line sensors, (3) a subfolder with csv files containing column and injection specific input parameters for the image processing script, and (4) a subfolder with scripts used to process the images and create associated figures. 02_Sand_Experiment contains (1) a subfolder with csv files containing column and injection-specific input parameters for the image processing script, and (2) a subfolder with scripts used to process the images and create associated figures. 01_Riverbed_Sediment_Raw_Images (spited in 3 parts due to size) contains a subfolder with raw red, and green images from the optode system during the MilliQ Injection, Vanillin Injection or Vanillin + Sampling Injection respectively. 02_Sand_Experiment_Raw_Images contains a subfolder with raw red, and green images from the optode system. Outside of the main folders there is a csv containing file-level metadata and a csv data dictionary defining column headers for all csv files contained in the data package."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4623-7076",
+        "givenName": "Emily B.",
+        "familyName": "Graham",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "emily.graham@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6733-9338",
+        "givenName": "Sarah",
+        "familyName": "Roley",
+        "affiliation": "Washington State University",
+        "email": "sarah.roley@wsu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2489-2248",
+        "givenName": "Joshua M.",
+        "familyName": "Torgeson",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "joshua.torgeson@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1498-8219",
+        "givenName": "Matthew H.",
+        "familyName": "Kaufman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "matthew.kaufman@pnnl.gov"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "River corridor",
+      "Sediments",
+      "Subsurface",
+      "Optode",
+      "Dissolved Oxygen"
+    ],
+    "variableMeasured": [
+      "Optode raw images",
+      "Dissolved oxygen"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Sediment collected from the shoreline of the Columbia River, Richland, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.3728,
+            "longitude": -119.272
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.3728,
+            "longitude": -119.272
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020",
+      "endDate": "2020",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3383-6237",
+      "givenName": "Vanessa A.",
+      "familyName": "Garayburu-Caruso",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "vanessa.garayburu-caruso@pnnl.gov"
+    },
+    "citation": [
+      "The reference to the published manuscript will be added when available."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "For a full description of the methods, see the methods of Garayburu-Caruso et al., 2021.\nIn this study we present a cylindrical flow-through column constructed with half of the interior coated in an oxygen sensing film, and the other half outfitted with a series of sampling ports. Dissolved oxygen concentrations in the inflow and outflow of the columns were measured with in-line optical meter (FTC-SU-PSt3-US and Fibox 3; PreSens GmbH, Germany). Dissolved oxygen concentrations along the entire sediment-wall interface of the columns were determined using optode. Non-invasive (optode) and invasive (sampling ports) techniques were paired during analysis."
+    ],
+    "distribution": [
+      {
+        "contentSize": 4170.951171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-495a383f819f1d5-20211019T200726969099",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-495a383f819f1d5-20211019T200726969099",
+        "name": "Optode_methods_Data_package_2021.zip"
+      },
+      {
+        "contentSize": 10.404296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2bbfd4de053d58a-20240820T180116078",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-2bbfd4de053d58a-20240820T180116078",
+        "name": "Optode_Images_and_Dissolved_Oxygen_Data_from.xml"
+      },
+      {
+        "contentSize": 1702754.6103515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-50dfb732688f366-20211020T143537758",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-50dfb732688f366-20211020T143537758",
+        "name": "01_Riverbed_Sediments_Raw_Images_part_3.zip"
+      },
+      {
+        "contentSize": 7038010.533203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5a1794caa11543a-20211020T143537741",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-5a1794caa11543a-20211020T143537741",
+        "name": "01_Riverbed_Sediments_Raw_Images_part_2.zip"
+      },
+      {
+        "contentSize": 4361293.85546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a605bc55f3ad13e-20211020T143544444",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a605bc55f3ad13e-20211020T143544444",
+        "name": "02_Sand_Experiment_Raw_Images.zip"
+      },
+      {
+        "contentSize": 6021145.8408203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b88899e0003be71-20211020T143537698",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b88899e0003be71-20211020T143537698",
+        "name": "01_Riverbed_Sediments_Raw_Images_part_1.zip"
+      }
+    ]
+  }
+}

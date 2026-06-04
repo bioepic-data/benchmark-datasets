@@ -1,0 +1,233 @@
+{
+  "id": "ess-dive-4a519ee40830e71-20240529T215342722",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1529604",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-4a519ee40830e71-20240529T215342722",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-99cd3394e9a4699-20240529T214609736",
+  "dateUploaded": "2024-05-29T21:53:51.895Z",
+  "dateModified": "2024-07-24T19:01:40.239Z",
+  "isPublic": true,
+  "citation": "Krassovski M; Riggs J (2019): NGEE Arctic Meteorological Data from Instrumented PCDC Stations, Council Site, Seward Peninsula, Alaska, 2018 - 2023. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1529604",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1529604",
+    "name": "NGEE Arctic Meteorological Data from Instrumented PCDC Stations, Council Site, Seward Peninsula, Alaska, 2018 - 2023",
+    "description": [
+      "This dataset provides meteorological data collected at two instrumented Power, Communication, and Data Collection (PCDC) Stations, located at Council Road Mile Marker 71 (CN_MM71) and Council Road Mile Marker 68 (Rocky Top). Measurements began in June of 2018 at CN_MM71 and in September 2018 at Rocky Top and ended in 2023. Raw data included. Meteorological data include air temperature, relative humidity, wind speed and direction, and snow depth. Measurements have been aggregated to both 10-minute and 30-minute reporting intervals provided in four comma-separated (*.csv) data files.",
+      "\u2022 The 30-minute data files include only the primary meteorological variables, leaf wetness, and snow depth.. The 30-minute reporting interval matches other coincident site data collections.",
+      "\u2022 The 10-minute files provide the primary meteorological variables and numerous system operational parameters such as battery charge and solar and wind turbine status. This 10-minute data product is valuable for analyzing solar and wind charging system performance in arctic landscapes.",
+      "Daily photographic images (09:00, 12:00, and 15:00 AKST/AKDT) of the PCDC Stations and the surrounding landscape that are captured by an adjacent web camera, are also provided.",
+      "The daily 12:00 images from CN_MM71 camera have been compiled into time-lapse movies:",
+      "\u2022 October 2018 \u2013 June 12, 2019 = Council_winter_2018_2019.mov",
+      "\u2022 January 2019 \u2013 December 2019 = Council_2019.mp4",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "NGA176",
+      "https://doi.org/10.5440/1529604"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6166-0289",
+        "givenName": "Misha",
+        "familyName": "Krassovski",
+        "email": "krassovskimb@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jeff",
+        "familyName": "Riggs",
+        "email": "riggsjs63@gmail.com"
+      }
+    ],
+    "datePublished": "2019",
+    "keywords": [
+      "EARTH SCIENCE > ATMOSPHERE > WEATHER EVENTS",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > UPPER LEVEL WINDS > WIND SPEED",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > WIND DIRECTION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > RELATIVE HUMIDITY"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Council Hwy Mile 71.5 (CN_MM71)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.8625,
+            "longitude": -163.697777
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.8625,
+            "longitude": -163.697777
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Council Hwy Mile 68 (Rocky Top)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.778865,
+            "longitude": -163.754684
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.778865,
+            "longitude": -163.754684
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0500OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-06-12",
+      "endDate": "2023-01-05",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6166-0289",
+      "givenName": "Misha",
+      "familyName": "Krassovski",
+      "email": "krassovskimb@ornl.gov"
+    },
+    "citation": [
+      "Sigrid Dengel, Margaret Torn. 2020. NGEE Arctic CO2, CH4 and Energy Eddy-Covariance (EC) Flux Tower Auxiliary Measurements, Council Road Mile Marker 71, Seward Peninsula, Alaska, 2017 - Ongoing. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. https://doi.org/10.5440/1526749."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Power, Communication, and Data Collection (PCDC) Stations (See the user guide for more details.)\nAnticipating large numbers of instruments and sensors being deployed at Council site in Phase 3, we have designed a centralized communication and data collection system. This system is connected to the internet via radio and satellite links and allows researchers remotely monitor instruments performance and receive observational data in near real-time mode.\nIn June 2018 we deployed two sets of instruments and installed a radio internet connection. One set of instruments run only through the summer and another one is for year-around observations. All communication equipment, data collection components, and instruments is powered by solar and wind energy.\nThe internet connection is provided by a satellite link at the White Mountain, AK airport and then retransmitted via radio communication to the Council field site. We set up a powerful and easily expandable energy module, satellite internet connection, and centralized data collection system.\nThis will allow a more consistent platform for communication with redundancy points and backup communication that can quickly adapt to addition of new instruments.",
+      "Meteorological Data\nThis dataset is comprised of four comma-separated (*.csv) files of meteorological data from the two PCDC Stations reported at 10- and 30-minute aggregation intervals.\nTemporal Range\nMeasurements began in June of 2018 for 10-minute data and September 2018 for 30-minute data. New data will be added periodically/annually.\nQuality Level\nThe quality level of these data is designated as Level 1 -- an internally consistent data product that has been subjected to quality checks and data management procedures including, for example: review of calibrations, diurnal analyses to look for expected patterns, or time series analyses to detect outliers, extreme values, or time periods with too little or too much variation.\nData Aggregation\nThe 30-minute data files include only the primary meteorological variables, leaf wetness, and snow depth.\nThe 10-minute files provide the primary meteorological variables and numerous system operational parameters such as battery charge and solar and wind turbine status.",
+      "Supplemental Photographs\nAt the CN_MM71 location, beginning October 3, 2018, daily photographic images (09:00, 12:00, and 15:00 AKST/AKDT) of the PCDC Station and the surrounding landscape that are captured by an adjacent web camera. Camera heading is ~45 degrees.\nNaming convention\n- \u201csite_camera\u201d_YYYY_MM_DD_HH_MM_SS.jpg\n- Council_camera_2018_10_04_12_00_19.jpg\nUser Notes\nSeasonal effects: many 09:00 photos are black, save for a blue instrument light that is evident when ambient light is low. And during this same seasonal window, at 12:00 the sun is reflected brightly off instrument boxes behind the solar panel.\nAKST/AKDT\nThe camera automatically adjusts for daylight saving time. Watch for the time change on the respective beginning and ending Sundays in March and November.",
+      "Time-Lapse Movie\nThe daily 12:00 images from CN_MM71 camera have been compiled into time-lapse movies\n- October 2018 \u2013 June 12, 2019 = Council_winter_2018_2019.mov\n- January 2019 \u2013 December 2019 = Council_2019.mp4",
+      "Hardware installed on both stations\nSunmodule SW 340 panels\nCampbell Scientific CR6 dataloggers\nSuperWind 350 24V wind turbine\nSunxtender PVX-4050HT batteries\nMorningStar TS-60 charge controllers\nAdvantech EKI-2525I network switch\nTP-SW5 network switch\nRohn 25G 7\u2019 towers\nPelican 250QT coolers (battery boxes)\nUbiquity PBE-5AC-620 radios\nLogicSupply UPC-V315-QM77 panel computer (White Mountain server)\nCyberPower CP825LCD UPS (White Mountain)\nUbiquity TOUGHSwitch TS-8-Pro (White Mountain)\nTP-Link EAP-110 Outdoor Wi-Fi access point (Council)\nCampbell Scientific CC5MPX web camera (Council)"
+    ],
+    "distribution": [
+      {
+        "contentSize": 1.27734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1c976c038a2adaa-20240529T215338969",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1c976c038a2adaa-20240529T215338969",
+        "name": "NGA176_flmd.csv"
+      },
+      {
+        "contentSize": 139285.783203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-37ee97eb1a9b5c2-20240521T182110716",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-37ee97eb1a9b5c2-20240521T182110716",
+        "name": "Council_2019.mp4"
+      },
+      {
+        "contentSize": 53407.4970703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ace33e95e92cc6-20240522T154051707",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5ace33e95e92cc6-20240522T154051707",
+        "name": "Rocky_Top_station_10min_2018_09_13_2023_01_05.csv"
+      },
+      {
+        "contentSize": 13.734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4a519ee40830e71-20240529T215342722",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-4a519ee40830e71-20240529T215342722",
+        "name": "NGEE_Arctic_Meteorological_Data_from_Instrumented.xml"
+      },
+      {
+        "contentSize": 5484.1767578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-578d67bd53fb2aa-20240522T154051702",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-578d67bd53fb2aa-20240522T154051702",
+        "name": "Rocky_Top_station_30min_2018_09_13_2023_01_05.csv"
+      },
+      {
+        "contentSize": 72562.8974609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-722879b0f1ee50f-20240522T154034576",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-722879b0f1ee50f-20240522T154034576",
+        "name": "Raw.zip"
+      },
+      {
+        "contentSize": 176028.2587890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9c4b8de421e3e90-20240521T182027789",
+        "encodingFormat": "video/quicktime",
+        "identifier": "ess-dive-9c4b8de421e3e90-20240521T182027789",
+        "name": "Council_winter_2018_2019.mov"
+      },
+      {
+        "contentSize": 6207.8486328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a5e96aa99b0ef78-20240522T154051710",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a5e96aa99b0ef78-20240522T154051710",
+        "name": "Council_station_30min_2018_09_27_2022_12_13.csv"
+      },
+      {
+        "contentSize": 49513.6240234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a70944c50e4d280-20240522T154051713",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a70944c50e4d280-20240522T154051713",
+        "name": "Council_station_10min_2018_06_12_2022_12_13.csv"
+      },
+      {
+        "contentSize": 5905688.681640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c0ff9ca77ca3dcf-20240522T154940627",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c0ff9ca77ca3dcf-20240522T154940627",
+        "name": "images.zip"
+      },
+      {
+        "contentSize": 509.80859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b9766564363ce3a-20240522T162013649",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-b9766564363ce3a-20240522T162013649",
+        "name": "NGEE_Arctic_power_and_com_unit_user_guide_20240521.pdf"
+      },
+      {
+        "contentSize": 4.201171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-aff9ea85dfbcf3b-20240529T214605591",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-aff9ea85dfbcf3b-20240529T214605591",
+        "name": "NGA176_dd.csv"
+      }
+    ]
+  }
+}

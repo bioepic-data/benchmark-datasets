@@ -1,0 +1,753 @@
+{
+  "id": "ess-dive-d65c920dea7ac21-20260213T060723648",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3018061",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-d65c920dea7ac21-20260213T060723648",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-af954eb4646652f-20260211T181518551",
+  "dateUploaded": "2026-02-13T06:07:25.288Z",
+  "dateModified": "2026-02-18T00:00:18.283Z",
+  "isPublic": true,
+  "citation": "Chen H; Good S; Zahn E; Bou-Zeid E; Caylor K; Fiorella R; Haagsma M; Wang L (2026): Daily evapotranspiration changes during heatwaves at 32 NEON sites, 2019-2021. Improving ESS Approaches to Evapotranspiration Partitioning Through Data Fusion. Dataset. doi:10.15485/3018061",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3018061",
+    "name": "Daily evapotranspiration changes during heatwaves at 32 NEON sites, 2019-2021",
+    "description": [
+      "This dataset provides partitioned evapotranspiration (ET, the combined loss of water from soil and plant surfaces) anomalies during heatwave events\u2014soil evaporation (E) and transpiration (T)\u2014for 268 heatwave events across 32 National Ecological Observatory Network (NEON) flux sites in the contiguous United States from 2019\u20132021. Using an ensemble of four high-frequency turbulence methods (Flux-variance Similarity, Conditional Eddy Covariance [CEC], CEC with Water-Use Efficiency, and Conditional Eddy Accumulation; see Zahn and Bou-Zeid 2024), half-hourly transpiration-to-evapotranspiration (T/ET) ratios were derived from 20 hertz (Hz, cycles per second) eddy covariance measurements of carbon dioxide (CO\u2082) and water vapor (H\u2082O) concentrations. The dataset spans six vegetation types including evergreen and deciduous forests, grasslands, cultivated crops, shrublands, and emergent herbaceous wetlands.",
+      "Data Package Contents: The dataset includes a single CSV (comma-separated values) file containing daily anomalies (deviations from baseline conditions) for transpiration (Delta_T), evaporation (Delta_E), total evapotranspiration (Delta_ET), and T/ET ratio (Delta_T_ET) during each day of identified heatwave events. The file also includes site codes, dates, heatwave event identifiers, and day-of-heatwave indicators. The CSV file can be opened with spreadsheet software (Microsoft Excel, Google Sheets) or programming environments (Python, R, MATLAB).",
+      "This resource enables researchers to investigate ecosystem-specific responses to thermal extremes, validate land surface model partitioning of ET fluxes, and examine feedbacks between water cycling and surface energy balance during heatwaves. The dataset is particularly valuable for studies linking vegetation hydraulic strategies to climate resilience, as it captures the divergent responses of shallow-rooted versus deep-rooted ecosystems. Potential applications include improving drought early warning systems, informing irrigation management strategies, and advancing our mechanistic understanding of land-atmosphere interactions under extreme heat conditions."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "Han",
+        "familyName": "Chen",
+        "email": "han.chen@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4363-1577",
+        "givenName": "Stephen",
+        "familyName": "Good",
+        "email": "stephen.good@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3685-592X",
+        "givenName": "Einara",
+        "familyName": "Zahn",
+        "affiliation": "Princeton University",
+        "email": "einara.zahn@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6137-8109",
+        "givenName": "Elie",
+        "familyName": "Bou-Zeid",
+        "affiliation": "Princeton University",
+        "email": "ebouzeid@princeton.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6466-6448",
+        "givenName": "Kelly",
+        "familyName": "Caylor",
+        "affiliation": "University of California Santa Barbara",
+        "email": "caylor@ucsb.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0824-4777",
+        "givenName": "Richard",
+        "familyName": "Fiorella",
+        "email": "rfiorella@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1777-7284",
+        "givenName": "Marja",
+        "familyName": "Haagsma",
+        "affiliation": "Oregon State University",
+        "email": "marja.haagsma@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0968-1247",
+        "givenName": "Lixin",
+        "familyName": "Wang",
+        "email": "wang.iupui@gmail.com"
+      }
+    ],
+    "datePublished": "2026",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "EARTH SCIENCE > LAND SURFACE",
+      "evapotranspiration",
+      "transpiration",
+      "soil evaporation",
+      "National Ecological Observatory Network",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "Delta_T (Change in transpiration relative to reference)",
+      "Delta_E (Change in evaporation relative to reference)",
+      "Delta_ET (Change in evapotranspiration relative to reference)",
+      "Delta_T_ET (Change in transpiration fraction relative to reference)",
+      "Heatwave event ID",
+      "Day of Heatwave"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "US-xDL (AmeriFlux designation), DELA (NEON designation). Dead Lake NEON, AL, US. Gradient Terrestrial site for domain D08. Tower is 42m tall with 6 levels. Dominant NLCD land classes at site are: Evergreen Forest|Woody Wetlands",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.541727,
+            "longitude": -87.803877
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.541727,
+            "longitude": -87.803877
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xJR (AmeriFlux designation), JORN (NEON designation). Jornada Experimental Range NEON, NM, US. Gradient Terrestrial site for domain D14. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Shrub/Scrub",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.590694,
+            "longitude": -106.84254
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.590694,
+            "longitude": -106.84254
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xGR (AmeriFlux designation), GRSM (NEON designation). Great Smoky Mountains National Park NEON, TN, US. Gradient Terrestrial site for domain D07. Tower is 45m tall with 6 levels. Dominant NLCD land classes at site are: Deciduous Forest|Evergreen Forest",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.68896,
+            "longitude": -83.50195
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.68896,
+            "longitude": -83.50195
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xNG (AmeriFlux designation), NOGP (NEON designation). Northern Great Plains Research Laboratory NEON, ND, US. Gradient Terrestrial site for domain D09. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Grassland/Herbaceous",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.76972,
+            "longitude": -100.91535
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.76972,
+            "longitude": -100.91535
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xKZ (AmeriFlux designation), KONZ (NEON designation). Konza Prairie Biological Station NEON, KS, US. Core Terrestrial site for domain D06. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Deciduous Forest|Grassland/Herbaceous",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.100774,
+            "longitude": -96.563075
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.100774,
+            "longitude": -96.563075
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xAB (AmeriFlux designation), ABBY (NEON designation). Abby Road NEON, WA, US. Gradient Terrestrial site for domain D16. Tower is 19m tall with 5 levels. Dominant NLCD land classes at site are: Evergreen Forest|Grassland/Herbaceous|Shrub/Scrub",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.762439,
+            "longitude": -122.330317
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.762439,
+            "longitude": -122.330317
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xDC (AmeriFlux designation), DCFS (NEON designation). Dakota Coteau Field Site NEON, ND, US. Gradient Terrestrial site for domain D09. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Grassland/Herbaceous",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.16165,
+            "longitude": -99.10656
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.16165,
+            "longitude": -99.10656
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xSL (AmeriFlux designation), STER (NEON designation). North Sterling NEON, CO, US. Gradient Terrestrial site for domain D10. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Cultivated Crops",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.461894,
+            "longitude": -103.02929
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.461894,
+            "longitude": -103.02929
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xDS (AmeriFlux designation), DSNY (NEON designation). Disney Wilderness Preserve NEON, FL, US. Gradient Terrestrial site for domain D03. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Pasture/Hay|Woody Wetlands",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 28.12505,
+            "longitude": -81.43619
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 28.12505,
+            "longitude": -81.43619
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xWD (AmeriFlux designation), WOOD (NEON designation). Chase Lake National Wildlife Refuge NEON, ND, US. Core Terrestrial site for domain D09. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Emergent Herbaceous Wetlands|Grassland/Herbaceous",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.1282,
+            "longitude": -99.241334
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.1282,
+            "longitude": -99.241334
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xHA (AmeriFlux designation), HARV (NEON designation). Harvard Forest & Quabbin Watershed NEON, MA, US. Core Terrestrial site for domain D01. Tower is 39m tall with 6 levels. Dominant NLCD land classes at site are: Deciduous Forest|Evergreen Forest|Mixed Forest|Woody Wetlands",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.53691,
+            "longitude": -72.17265
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.53691,
+            "longitude": -72.17265
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xSR (AmeriFlux designation), SRER (NEON designation). Santa Rita Experimental Range NEON, AZ, US. Core Terrestrial site for domain D14. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Shrub/Scrub",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.91068,
+            "longitude": -110.83549
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.91068,
+            "longitude": -110.83549
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xSB (AmeriFlux designation), OSBS (NEON designation). Ordway-Swisher Biological Station NEON, FL, US. Core Terrestrial site for domain D03. Tower is 35m tall with 6 levels. Dominant NLCD land classes at site are: Emergent Herbaceous Wetlands|Evergreen Forest|Woody Wetlands",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 29.689282,
+            "longitude": -81.993431
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 29.689282,
+            "longitude": -81.993431
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xYE (AmeriFlux designation), YELL (NEON designation). Yellowstone National Park NEON, WY, US. Core Terrestrial site for domain D12. Tower is 18m tall with 5 levels. Dominant NLCD land classes at site are: Evergreen Forest|Grassland/Herbaceous|Shrub/Scrub",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.95348,
+            "longitude": -110.53914
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.95348,
+            "longitude": -110.53914
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xUK (AmeriFlux designation), UKFS (NEON designation). University of Kansas Field Station NEON, KS, US. Gradient Terrestrial site for domain D06. Tower is 35m tall with 6 levels. Dominant NLCD land classes at site are: Deciduous Forest|Pasture/Hay",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.040431,
+            "longitude": -95.19215
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.040431,
+            "longitude": -95.19215
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xTE (AmeriFlux designation), TEAK (NEON designation). Lower Teakettle NEON, CA, US. Gradient Terrestrial site for domain D17. Tower is 59m tall with 7 levels. Dominant NLCD land classes at site are: Evergreen Forest|Shrub/Scrub",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.00583,
+            "longitude": -119.00602
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.00583,
+            "longitude": -119.00602
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xBR (AmeriFlux designation), BART (NEON designation). Bartlett Experimental Forest NEON, NH, US. Gradient Terrestrial site for domain D01. Tower is 35m tall with 6 levels. Dominant NLCD land classes at site are: Deciduous Forest|Evergreen Forest|Mixed Forest",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.063889,
+            "longitude": -71.287375
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.063889,
+            "longitude": -71.287375
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xNQ (AmeriFlux designation), ONAQ (NEON designation). Onaqui NEON, UT, US. Core Terrestrial site for domain D15. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Evergreen Forest|Shrub/Scrub",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.177599,
+            "longitude": -112.45245
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.177599,
+            "longitude": -112.45245
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xLE (AmeriFlux designation), LENO (NEON designation). Lenoir Landing NEON, AL, US. Gradient Terrestrial site for domain D08. Tower is 47m tall with 6 levels. Dominant NLCD land classes at site are: Deciduous Forest|Woody Wetlands",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.853861,
+            "longitude": -88.161181
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.853861,
+            "longitude": -88.161181
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xAE (AmeriFlux designation), OAES (NEON designation). Marvin Klemme Range Research Station NEON, OK, US. Gradient Terrestrial site for domain D11. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Grassland/Herbaceous|Shrub/Scrub",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.410599,
+            "longitude": -99.058779
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.410599,
+            "longitude": -99.058779
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xSC (AmeriFlux designation), SCBI (NEON designation). Smithsonian Conservation Biology Institute NEON, VA, US. Core Terrestrial site for domain D02. Tower is 52m tall with 6 levels. Dominant NLCD land classes at site are: Deciduous Forest|Evergreen Forest|Pasture/Hay",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.892925,
+            "longitude": -78.139494
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.892925,
+            "longitude": -78.139494
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xBL (AmeriFlux designation), BLAN (NEON designation). Blandy Experimental Farm NEON, VA, US. Gradient Terrestrial site for domain D02. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Deciduous Forest|Pasture/Hay",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.033698,
+            "longitude": -78.041788
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.033698,
+            "longitude": -78.041788
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xSE (AmeriFlux designation), SERC (NEON designation). Smithsonian Environmental Research Center NEON, MD, US. Gradient Terrestrial site for domain D02. Tower is 62m tall with 6 levels. Dominant NLCD land classes at site are: Cultivated Crops|Deciduous Forest",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.890131,
+            "longitude": -76.560014
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.890131,
+            "longitude": -76.560014
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xMB (AmeriFlux designation), MOAB (NEON designation). Moab NEON, UT, US. Gradient Terrestrial site for domain D13. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Evergreen Forest|Shrub/Scrub",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.248283,
+            "longitude": -109.38827
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.248283,
+            "longitude": -109.38827
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xRN (AmeriFlux designation), ORNL (NEON designation). Oak Ridge NEON, TN, US. Core Terrestrial site for domain D07. Tower is 39m tall with 6 levels. Dominant NLCD land classes at site are: Deciduous Forest|Evergreen Forest|Pasture/Hay",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.964128,
+            "longitude": -84.282588
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.964128,
+            "longitude": -84.282588
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xSJ (AmeriFlux designation), SJER (NEON designation). San Joaquin Experimental Range NEON, CA, US. Core Terrestrial site for domain D17. Tower is 39m tall with 6 levels. Dominant NLCD land classes at site are: Evergreen Forest|Grassland/Herbaceous|Shrub/Scrub",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.10878,
+            "longitude": -119.73228
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.10878,
+            "longitude": -119.73228
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xCL (AmeriFlux designation), CLBJ (NEON designation). Lyndon B. Johnson National Grassland NEON, TX, US. Core Terrestrial site for domain D11. Tower is 22m tall with 5 levels. Dominant NLCD land classes at site are: Deciduous Forest|Grassland/Herbaceous",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.40123,
+            "longitude": -97.57
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.40123,
+            "longitude": -97.57
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xKA (AmeriFlux designation), KONA (NEON designation). Konza Prairie Agroecosystem NEON, KS, US. Gradient Terrestrial site for domain D06. Tower is 8m tall with 4 levels. Dominant NLCD land classes at site are: Cultivated Crops",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.110446,
+            "longitude": -96.612935
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.110446,
+            "longitude": -96.612935
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xTA (AmeriFlux designation), TALL (NEON designation). Talladega National Forest NEON, AL, US. Core Terrestrial site for domain D08. Tower is 35m tall with 5 levels. Dominant NLCD land classes at site are: Deciduous Forest|Evergreen Forest|Mixed Forest",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.95047,
+            "longitude": -87.393259
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.95047,
+            "longitude": -87.393259
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xWR (AmeriFlux designation), WREF (NEON designation). Wind River Experimental Forest NEON, WA, US. Core Terrestrial site for domain D16. Tower is 74m tall with 8 levels. Dominant NLCD land classes at site are: Evergreen Forest",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.82049,
+            "longitude": -121.95191
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.82049,
+            "longitude": -121.95191
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-xML (AmeriFlux designation), MLBS (NEON designation). Mountain Lake Biological Station NEON, VA, US. Gradient Terrestrial site for domain D07. Tower is 29m tall with 6 levels. Dominant NLCD land classes at site are: Deciduous Forest",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.378314,
+            "longitude": -80.524847
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.378314,
+            "longitude": -80.524847
+          }
+        ]
+      }
+    ],
+    "award": [
+      "89233218CNA000001",
+      "DE-SC0024297"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000001",
+        "name": "National Science Foundation (NSF)"
+      },
+      {
+        "@type": "Organization",
+        "name": "Zegar Family Foundation"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-05-06",
+      "endDate": "2021-10-12",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0824-4777",
+      "givenName": "Richard",
+      "familyName": "Fiorella",
+      "email": "rfiorella@lanl.gov"
+    },
+    "citation": [
+      "Han Chen, Stephen P. Good, Einara Zahn, Elie Bou-Zeid, Kelly K. Caylor, Richard P. Fiorella, Marja Haagsma, Lixin Wang (2026). Shifts in evapotranspiration components during heatwaves alter surface cooling. Earth's Future, doi: 10.1029/2025EF006562."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d753ee4c-ca31-4478-8355-5fdefe33e3fa"
+      },
+      "name": "Improving ESS Approaches to Evapotranspiration Partitioning Through Data Fusion",
+      "member": {
+        "@type": "Person",
+        "givenName": "Stephen",
+        "familyName": "Good",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oregon State University",
+        "email": "stephen.good@oregonstate.edu"
+      }
+    },
+    "measurementTechnique": [
+      "A total of 32 NEON terrestrial flux sites across the contiguous United States were selected, representing six vegetation types: Evergreen Forest (8 sites), Deciduous Forest (12 sites), Cultivated Crops (4 sites), Grassland (3 sites), Emergent Herbaceous Wetlands (3 sites), and Shrubland (2 sites). All sites are equipped with CSAT-3 sonic anemometers (Campbell Scientific Inc.) measuring wind speed and direction at 20 Hz, and LI-7200/LI-7200RS infrared gas analyzers (Li-Cor Inc.) monitoring water vapor and CO\u2082 concentrations at the same frequency.",
+      "Heatwave events were defined as sequences of at least three consecutive days during which daily maximum air temperature exceeded the site-specific 90th percentile of the 2019\u20132021 daily maximum temperature distribution. This approach identified 268 heatwave events across the study period, with durations ranging from 3 to 17 days (mean: 7 days).",
+      "Four complementary methods were employed to partition observed ET into soil evaporation (E) and vegetation transpiration (T):\n4a. Flux-variance Similarity (FVS) Method: Decomposes high-frequency CO\u2082 and H\u2082O time series to distinguish stomatal processes (transpiration, photosynthesis) from non-stomatal processes (soil evaporation, soil respiration) using water use efficiency (WUE) parameterizations. Five WUE estimation approaches were applied and averaged (Scanlon et al., 2019).\n4b. Conditional Eddy Covariance (CEC) Method: Selectively samples emissions from soil (high in CO\u2082 and H\u2082O) and canopy-interacted emissions (low in CO\u2082, high in H\u2082O) using indicator functions. Sample fluxes were calculated only when respective quadrants contained at least 2% of total data points (Zahn et al., 2022, 2024).\n4c. Combined CEC and Water-Use Efficiency (CECw) Method: Integrates WUE into the CEC framework, applying the same five WUE parameterization schemes as FVS and averaging results (Zahn et al., 2024).\n4d. Conditional Eddy Accumulation (CEA) Method: Expands on CEC by considering both updrafts and downdrafts, isolating turbulent structures originating from soil or plant canopy based on fluctuations in CO\u2082, H\u2082O, and vertical wind velocity (Zahn et al., 2022, 2024).",
+      "Final T/ET ratios and E/T fluxes were obtained by averaging outputs from all four methods. This ensemble approach mitigates structural biases and random errors inherent in individual algorithms, following best practices in complex system modeling (Tebaldi & Knutti, 2007). Standard deviation among methods serves as a metric of methodological uncertainty.",
+      "Daily and half-hourly anomalies were computed relative to a non-heatwave baseline defined as the average value over the 30-day period preceding each heatwave onset. Days meeting heatwave criteria within this window were excluded from baseline calculations. Absolute anomalies (\u0394T/ET) and relative anomalies (\u03b1T/ET) were calculated for ET, E, T, and T/ET.",
+      "More detailed information on methods can be found in: Han Chen, Stephen P. Good, Einara Zahn, Elie Bou-Zeid, Kelly K. Caylor, Richard P. Fiorella, Marja Haagsma, Lixin Wang (2026). Shifts in evapotranspiration components during heatwaves alter surface cooling. Earth's Future, doi: 10.1029/2025EF006562."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d72b459c59a91df-20260210T000322501",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d72b459c59a91df-20260210T000322501",
+        "name": "Heatwave_Event_Daily_Data_dd.csv"
+      },
+      {
+        "contentSize": 0.404296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6a7c2435073c0c0-20260211T181513836",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6a7c2435073c0c0-20260211T181513836",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 117.3408203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-119d81ab490310b-20260213T060719935",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-119d81ab490310b-20260213T060719935",
+        "name": "Heatwave_Event_Daily_Data.csv"
+      },
+      {
+        "contentSize": 30.939453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d65c920dea7ac21-20260213T060723648",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-d65c920dea7ac21-20260213T060723648",
+        "name": "Daily_evapotranspiration_changes_during_heatwaves.xml"
+      }
+    ]
+  }
+}

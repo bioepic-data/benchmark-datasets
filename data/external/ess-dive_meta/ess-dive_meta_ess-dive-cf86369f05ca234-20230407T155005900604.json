@@ -1,0 +1,573 @@
+{
+  "id": "ess-dive-cf86369f05ca234-20230407T155005900604",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.3334/CDIAC/ATG.DB1001",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-cf86369f05ca234-20230407T155005900604",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-33069f218ffcd9b-20230406T162428120608",
+  "dateUploaded": "2023-04-07T15:50:07.173Z",
+  "dateModified": "2023-04-07T15:50:12.051Z",
+  "isPublic": true,
+  "citation": "Prinn R; Weiss R; Arduini J; Arnold T; DeWitt H; Fraser P; Ganesan A; Gasore J; Harth C; Hermansen O; Kim J; Krummel P; Li S; Loh Z; Lunder C; Maione M; Manning A; Miller B; Mitrevski B; Muhle J; O'Doherty S; Park S; Reimann S; Rigby M; Saito T; Salameh P; Schmidt R; Simmonds P; Steele L; Vollmer M; Wang H J (; Yao B; Yokouchi Y; Young D; Zhou L (2018): History of chemically and radiatively important atmospheric gases from the Advanced Global Atmospheric Gases Experiment (AGAGE). Carbon Dioxide Information Analysis Center (CDIAC), Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States). Dataset. doi:10.3334/CDIAC/ATG.DB1001",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.3334/CDIAC/ATG.DB1001",
+    "name": "History of chemically and radiatively important atmospheric gases from the Advanced Global Atmospheric Gases Experiment (AGAGE)",
+    "description": [
+      "In the ALE/GAGE/AGAGE global network program, continuous high frequency gas chromatographic measurements of four biogenic/anthropogenic gases (methane, CH4; nitrous oxide, N2O; hydrogen, H; and carbon monoxide, CO) and several anthropogenic gases that contribute to stratospheric ozone destruction and/or to the greenhouse effect have been carried out at five globally distributed sites for several years. The program, which began in 1978, is divided into three parts associated with three changes in instrumentation: the Atmospheric Lifetime Experiment (ALE), which used Hewlett Packard HP5840 gas chromatographs; the Global Atmospheric Gases Experiment (GAGE), which used HP5880 gas chromatographs; and the present Advanced GAGE (AGAGE). AGAGE uses two types of instruments: a gas chromatograph with multiple detectors (GC-MD), and a gas chromatograph with mass spectrometric analysis (GC-MS). Beginning in January 2004, an improved cryogenic preconcentration system (Medusa) replaced the absorption-desorption module in the GC-MS systems at Mace Head and Cape Grim; this provided improved capability to measure a broader range of volatile perfluorocarbons with high global warming potentials. More information may be found at the AGAGE home page: https://agage.mit.edu/instruments.",
+      "In the latest update (Agage_gcmd_gcms_data_2020_07_04_tar.gz), all AGAGE data up to Sep. 2019 is included. A new compound, PFC-318, is also included in this update. For all released compounds and scales used by the AGAGE network, please see the \"AGAGE_scale_2020_v2.pdf\" file (included in \"Agage_gcmd_gcms_data_2020_07_04_tar.gz\")."
+    ],
+    "alternateName": [
+      "ess-dive-aa6e33480c133b0-20200704T190720967",
+      "osti:1389372",
+      "doi:10.3334/CDIAC/ATG.DB1001",
+      "cdiac:10.3334/CDIAC/atg.db1001"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "R.",
+        "familyName": "Prinn",
+        "affiliation": "Massachusetts Institute of Technology (MIT)",
+        "email": "rprinn@mit.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "R.F.",
+        "familyName": "Weiss",
+        "affiliation": "Scripps Institution of Oceanography (SIO)",
+        "email": "rfweiss@ucsd.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5199-3853",
+        "givenName": "J.",
+        "familyName": "Arduini",
+        "affiliation": "University of Urbino",
+        "email": "jgor.arduini@uniurb.it"
+      },
+      {
+        "@type": "Person",
+        "givenName": "T.",
+        "familyName": "Arnold",
+        "affiliation": "National Physical Laboratory",
+        "email": "tim.arnold@npl.co.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "H.L.",
+        "familyName": "DeWitt"
+      },
+      {
+        "@type": "Person",
+        "givenName": "P.J.",
+        "familyName": "Fraser",
+        "affiliation": "CSIRO",
+        "email": "Paul.Fraser@csiro.au"
+      },
+      {
+        "@type": "Person",
+        "givenName": "A.L.",
+        "familyName": "Ganesan"
+      },
+      {
+        "@type": "Person",
+        "givenName": "J.",
+        "familyName": "Gasore"
+      },
+      {
+        "@type": "Person",
+        "givenName": "C.M.",
+        "familyName": "Harth",
+        "affiliation": "SIO",
+        "email": "chris@gaslab.ucsd.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ove",
+        "familyName": "Hermansen",
+        "affiliation": "NILU",
+        "email": "Ove.Hermansen@nilu.no"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2610-4882",
+        "givenName": "J.",
+        "familyName": "Kim",
+        "affiliation": "SIO",
+        "email": "kji2080@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4884-3678",
+        "givenName": "P.B.",
+        "familyName": "Krummel",
+        "affiliation": "Commonwealth Scientific and Industrial Research Organisation (CSIRO)",
+        "email": "Paul.Krummel@csiro.au"
+      },
+      {
+        "@type": "Person",
+        "givenName": "S.",
+        "familyName": "Li"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Z.M.",
+        "familyName": "Loh"
+      },
+      {
+        "@type": "Person",
+        "givenName": "C.R.",
+        "familyName": "Lunder",
+        "affiliation": "Norwegian Institute for Air Research (NILU)",
+        "email": "Chris.Lunder@nilu.no"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2622-5772",
+        "givenName": "M.",
+        "familyName": "Maione",
+        "affiliation": "University of Urbino",
+        "email": "michela.maione@uniurb.it"
+      },
+      {
+        "@type": "Person",
+        "givenName": "A.",
+        "familyName": "Manning",
+        "affiliation": "UKMO",
+        "email": "alistair.manning@metoffice.gov.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "B",
+        "familyName": "Miller",
+        "affiliation": "National Oceanic and Atmospheric Administration (NOAA),",
+        "email": "Ben.R.Miller@noaa.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "B.",
+        "familyName": "Mitrevski",
+        "affiliation": "CSIRO",
+        "email": "Blagoj.Mitrevski@csiro.au"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9776-3642",
+        "givenName": "Jens",
+        "familyName": "Muhle",
+        "affiliation": "SIO",
+        "email": "jmuhle@ucsd.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4051-6760",
+        "givenName": "S.",
+        "familyName": "O'Doherty",
+        "affiliation": "University of Bristol",
+        "email": "s.odoherty@bristol.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "S.",
+        "familyName": "Park"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stefan",
+        "familyName": "Reimann",
+        "affiliation": "Swiss Federal Laboratories for Materials Science and Research (EMPA)",
+        "email": "Stefan.Reimann@empa.ch"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2020-9253",
+        "givenName": "M.",
+        "familyName": "Rigby",
+        "affiliation": "University of Bristol",
+        "email": "Matt.Rigby@bristol.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "T.",
+        "familyName": "Saito"
+      },
+      {
+        "@type": "Person",
+        "givenName": "P.K.",
+        "familyName": "Salameh",
+        "affiliation": "SIO",
+        "email": "psalameh@ucsd.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "R.",
+        "familyName": "Schmidt"
+      },
+      {
+        "@type": "Person",
+        "givenName": "P.G.",
+        "familyName": "Simmonds",
+        "affiliation": "University of Bristol",
+        "email": "PETERGSIMMONDS@aol.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "L.P.",
+        "familyName": "Steele",
+        "affiliation": "CSIRO",
+        "email": "Paul.Steele@csiro.au"
+      },
+      {
+        "@type": "Person",
+        "givenName": "M.K.",
+        "familyName": "Vollmer",
+        "affiliation": "EMPA",
+        "email": "martin.vollmer@empa.ch"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1550-3239",
+        "givenName": "Hsiang J (Ray)",
+        "familyName": "Wang",
+        "affiliation": "Georgia Institute of Technology",
+        "email": "raywang@eas.gatech.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "B.",
+        "familyName": "Yao"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Y.",
+        "familyName": "Yokouchi"
+      },
+      {
+        "@type": "Person",
+        "givenName": "D.",
+        "familyName": "Young",
+        "affiliation": "University of Bristol",
+        "email": "dickon.young@bristol.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "L.",
+        "familyName": "Zhou"
+      }
+    ],
+    "datePublished": "2018",
+    "keywords": [
+      "high frequency gas chromatographic measurements biogenic/anthropogenic gases",
+      "methane",
+      "DB1001",
+      "CH4",
+      "nitrous oxide",
+      "N2O",
+      "anthropogenic gases",
+      "chlorofluorocarbons",
+      "CFCl3",
+      "CFC11",
+      "CFC-11",
+      "CF2Cl2",
+      "CFC-12",
+      "CFC12",
+      "CF2ClCFCl2",
+      "CFC113",
+      "CFC-113",
+      "methyl chloroform",
+      "CH3CCl3",
+      "carbon tetrachloride",
+      "CCl4",
+      "chloroform",
+      "CHCl3",
+      "CH3Cl",
+      "methyl chloride",
+      "CH3Br",
+      "methyl bromide",
+      "halons",
+      "halon 1211",
+      "halon 1301",
+      "SF6",
+      "hydrogen",
+      "H2",
+      "carbon monoxide",
+      "CO",
+      "HFC-125",
+      "CF3CH2CF2CH3",
+      "HFC-365mfc",
+      "HCFC-22",
+      "CHClF2",
+      "sulfuryl fluoride",
+      "HFC23",
+      "CHF3",
+      "PFC116",
+      "C2F6",
+      "PFC218",
+      "C3F8",
+      "methylene chloride",
+      "CH2Cl2",
+      "dichloromethane",
+      "trichloroethylene",
+      "C2HCl3",
+      "perchloroethylene",
+      "C2Cl4",
+      "sulfuryl fluoride",
+      "SO2F2",
+      "HFC125",
+      "CHF2CF3",
+      "HFC23",
+      "CHF3",
+      "PFC116",
+      "C2F6",
+      "C3F8",
+      "PFC14",
+      "CF4",
+      "HFC227ea",
+      "CF3CHFCF3",
+      "HFC245fa",
+      "CHF2CH2CF3",
+      "HFC236fa",
+      "CF3CH2CF3"
+    ],
+    "variableMeasured": [
+      "month",
+      "n",
+      "val",
+      "sd",
+      "da",
+      "time",
+      "ABSDA",
+      "F-11S",
+      "F-11P",
+      "F-12",
+      "CH3CCL3",
+      "CCL4",
+      "N2O",
+      "F-113",
+      "CH4",
+      "CH3Cl",
+      "CH3Br"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Ny Alesund,",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 79,
+            "longitude": 12
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 79,
+            "longitude": 12
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Jungfraujoch",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47,
+            "longitude": 8
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47,
+            "longitude": 8
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Mace Head",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 53,
+            "longitude": -10
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 53,
+            "longitude": -10
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Monte Cimone",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44,
+            "longitude": 10
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44,
+            "longitude": 10
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Trinidad Head",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41,
+            "longitude": -124
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41,
+            "longitude": -124
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Gosan, Jeju Island",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33,
+            "longitude": 126
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33,
+            "longitude": 126
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Ragged Point, Barbados",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 13,
+            "longitude": -59
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 13,
+            "longitude": -59
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "American Samoa",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -14,
+            "longitude": -171
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -14,
+            "longitude": -171
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Cape Grim, Tasmania",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -41,
+            "longitude": 145
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -41,
+            "longitude": 145
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "NASA"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1978-07-01",
+      "endDate": "2019-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1550-3239",
+      "givenName": "Hsiang J (Ray)",
+      "familyName": "Wang",
+      "affiliation": "Georgia Institute of Technology",
+      "email": "raywang@eas.gatech.edu"
+    },
+    "citation": [
+      "Prinn, R. G., Weiss, R. F., Arduini, J., Arnold, T., DeWitt, H. L., Fraser, P. J., Ganesan, A. L., Gasore, J., Harth, C. M., Hermansen, O., Kim, J., Krummel, P. B., Li, S., Loh, Z. M., Lunder, C. R., Maione, M., Manning, A. J., Miller, B. R., Mitrevski, B., M\u00fchle, J., O'Doherty, S., Park, S., Reimann, S., Rigby, M., Saito, T., Salameh, P. K., Schmidt, R., Simmonds, P. G., Steele, L. P., Vollmer, M. K., Wang, R. H., Yao, B., Yokouchi, Y., Young, D., and Zhou, L.: History of chemically and radiatively important atmospheric gases from the Advanced Global Atmospheric Gases Experiment (AGAGE), Earth Syst. Sci. Data, 10, 985-1018, https://doi.org/10.5194/essd-10-985-2018, 2018."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "name": "Carbon Dioxide Information Analysis Center (CDIAC), Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)",
+      "member": {
+        "@type": "Person",
+        "givenName": "R.",
+        "familyName": "Prinn",
+        "jobTitle": "principalInvestigator"
+      }
+    },
+    "distribution": [
+      {
+        "contentSize": 44.5625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cf86369f05ca234-20230407T155005900604",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-cf86369f05ca234-20230407T155005900604",
+        "name": "History_of_chemically_and_radiatively_important_atmospheric_gases_from_the_Advanced_Global_Atmospheric_Gases_Experiment_AGAGE_.xml"
+      },
+      {
+        "contentSize": 336007.0068359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e229101dfe2b53b-20200704T190146749",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-e229101dfe2b53b-20200704T190146749",
+        "name": "Agage_gcmd_gcms_data_2020_07_04_tar.gz"
+      },
+      {
+        "contentSize": 316671.962890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cd77b2713018b54-20191203T174638444",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-cd77b2713018b54-20191203T174638444",
+        "name": "Agage_gcmd_gcms_data_2019_06_13_tar.gz"
+      }
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "id": "ess-dive-25fbf5f3852d31f-20250113T233125265",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2336866",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-25fbf5f3852d31f-20250113T233125265",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-25fbf5f3852d31f-20250113T233048524",
+  "dateUploaded": "2025-01-13T23:31:26.063Z",
+  "dateModified": "2025-01-13T23:31:28.250Z",
+  "isPublic": true,
+  "citation": "Freitas N L; Anthony K M W; Lenz J; Porras R C; Torn M S (2024): Substantial and overlooked greenhouse gas emissions from deep Arctic lake sediment - supporting data and code. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2336866",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2336866",
+    "name": "Substantial and overlooked greenhouse gas emissions from deep Arctic lake sediment - supporting data and code",
+    "description": [
+      "This data package contains data, descriptions, and code-based analyses that were used to support conclusions drawn in \u201cSubstantial and overlooked greenhouse gas emissions from deep Arctic lake sediment\u201d, by Freitas et al. (2025) (https://doi.org/10.1038/s41561-024-01614-y). The study evaluated greenhouse gas production along a deep sediment core (20 m) taken in 2018 from below Goldstream Lake, a field site approximately 15 km north of Fairbanks, Alaska.",
+      "The file \u201cESSDive_NFreitas_2024_flmd.csv\u201d includes an overview of all other csv files in this data package, namely: sediment descriptions (depth and type of sediment), sediment characterizations (bulk density, gravimetric water content, total carbon, etc.), calculated respiration and temperature sensitivity values associated with year-long incubations of the sediment core, and the R code used to process the dataset. Additional details regarding the content of these files and how the calculations were performed are described in the Methods section of this archive. The \u201cdata_dictionary_ESSDive_NFreitas_2024_dd.csv\u201d is a data dictionary for all files included in the data package. Each row in the data dictionary represents a column name in a given file.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM).",
+      "Data package updates",
+      "- August 2024: Title was updated, R code now includes a process for calculating potential production across the whole sediment column, the \"sediment_column_production_potentials_ESSDive_NFreitas_2024.csv\" is the associated data output file, and the file level metadata and data dictionaries were updated to reflect the contents of the additional csv file.",
+      "- October 2024: Title was updated, and a statement was added to Step 2 of the Methods that describes that samples were collected (and exported) in a responsible manner and in accordance with relevant permits and local laws.",
+      "- January 2025: Updated the associated manuscript details in the Abstract (manuscript title, publication date, DOI link) and in the Related References section (full citation)."
+    ],
+    "alternateName": [
+      "NGA528"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5990-1303",
+        "givenName": "Nancy L",
+        "familyName": "Freitas",
+        "affiliation": "Energy and Resources Group, UC Berkeley",
+        "email": "nfreitas@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2079-2896",
+        "givenName": "Katey M",
+        "familyName": "Walter Anthony",
+        "affiliation": "Water and Environmental Research Center, University of Alaska Fairbanks",
+        "email": "kmwalteranthony@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4050-3169",
+        "givenName": "Josefine",
+        "familyName": "Lenz",
+        "affiliation": "Helmholtz Centre for Polar and Marine Research, Permafrost Research Section, Potsdam",
+        "email": "josefine.lenz@awi.de"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0251-100X",
+        "givenName": "Rachel C",
+        "familyName": "Porras",
+        "affiliation": "Climate and Ecosystem Sciences Division, Lawrence Berkeley National Lab",
+        "email": "rcporras@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8174-0099",
+        "givenName": "Margaret S",
+        "familyName": "Torn",
+        "affiliation": "Climate and Ecosystem Sciences Division, Lawrence Berkeley National Lab",
+        "email": "mstorn@lbl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > CLIMATE INDICATORS > CLIMATE FEEDBACKS",
+      "EARTH SCIENCE > BIOLOGICAL CLASSIFICATION > BACTERIA/ARCHAEA",
+      "EARTH SCIENCE > LAND SURFACE > FROZEN GROUND",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > BIOGEOCHEMICAL CYCLES",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > RESPIRATION RATE",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > FRESHWATER ECOSYSTEMS > LAKE/POND",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > TERRESTRIAL ECOSYSTEMS > ALPINE/TUNDRA",
+      "EARTH SCIENCE > LAND SURFACE > FROZEN GROUND > PERMAFROST"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Sediment coring was conducted March 16-17, 2018 in the north-central basin of Goldstream Lake (64.916\u00b0N, 147.847\u00b0W) at a water depth of 1.39 m. Goldstream Lake is located in the Goldstream Valley in interior Alaska, approximately 15 km north of Fairbanks. Surface sediments were extracted down to 4.40 m (64.91588\u00b0N, 147.84901\u00b0W \u00b1 9 ft), and deep sediments were extracted down to 20.13 m in an immediately adjacent coring site (64.91582\u00b0N, 147.84935\u00b0W \u00b1 9 ft).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.916,
+            "longitude": -147.847
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.916,
+            "longitude": -147.847
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0500OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-03-16",
+      "endDate": "2018-03-17",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5990-1303",
+      "givenName": "Nancy",
+      "familyName": "Freitas",
+      "affiliation": "Energy and Resources Group, UC Berkeley",
+      "email": "nfreitas@berkeley.edu"
+    },
+    "citation": [
+      "Freitas, N.L., Walter Anthony, K., Lenz, J. et al. Substantial and overlooked greenhouse gas emissions from deep Arctic lake sediment. Nat. Geosci. (2025). https://doi.org/10.1038/s41561-024-01614-y"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Site selection:\nGoldstream Lake (GSL, 64.916\u00b0N, 147.847\u00b0W) is a thermokarst lake formed in Yedoma permafrost and located in the Goldstream Valley in interior Alaska, ~15 km north of Fairbanks. GSL was selected because it is well studied with respect to methane emissions and talik properties, though very little work has been done on lake sediments and none on the deep talik sediments. The region is characterized by discontinuous permafrost. Annual atmospheric temperature and precipitation averages are -2.4\u00b0C and 274 mm, respectively (Fairbanks International Airport, 1981\u20132010 Annual/Seasonal Normals, U.S. National Climatic Data Center).\nGSL (.010 km2, 4.4 m maximum depth) formed from the melting of permafrost ground ice in late Pleistocene Yedoma-type deposits. Pooled water thawed previously frozen Quaternary aeolian deposits both vertically and laterally, allowing for thermokarst expansion at depth and along lake margins. A partial drainage event occurred between 1949 and 1978, but GSL is still undergoing active thermokarst expansion along its eastern and southern edges. Extensive studies have been conducted on GSL that describe ebullition (bubbling) and diffusive GHG composition, distribution, and flux. Physical and chemical analyses have also been conducted on the surface water and surface sediments of the lake.",
+      "Lake sediment coring:\nSediment coring was conducted March 16-17, 2018 in the north-central basin of GSL at a water depth of 1.39 m. All samples were collected (and exported) in a responsible manner and in accordance with relevant permits and local laws. The coring location represented the approximate center of the lake in 1949. A vibracorer was used to extract surface sediments (down to 4.40 m) in a single core tube (7.5 cm ID; 64.91588\u00b0N, 147.84901\u00b0W \u00b1 9 ft). In an immediately adjacent coring site (64.91582\u00b0N, 147.84935\u00b0W \u00b1 9 ft), a Boart Longyear diamond core drilling system was used to extract deeper sediments (down to 20.13 m) using percussion drilling. The coring setup consisted of a casing around the borehole that extended up through the lake water and ice to just below the drill rig. A core barrel with a plastic liner inside traveled up and down inside the casing. The casing was not installed at once down to 20 m; it was pushed down in 3.2 m sections incrementally as the coring progressed. Continuous core sections were extracted in clear plastic liners (8.9 cm ID) nested in a 1.8 m long core barrel from within the cased sediments.\nNo intact permafrost was encountered during coring. We cannot, however, rule out the existence of deeper permafrost since the groundwater that was encountered in the fluvial sediments at the base of the core was not artesian, and groundwater in pressurized, sub-permafrost aquifers is known to be artesian in the vicinity of Goldstream Lake. To monitor in situ sediment conditions, a pressure transducer and temperature sensor were installed within the borehole core casing in GSL and sealed with bentonite. A stable temperature of 1.45\u00b0C was recorded at the base of the borehole in the year following coring (Ronald Daanen, personal communication, October 22, 2021). Details of this coring were also previously described in brief in Walter Anthony and colleagues [Supplementary Information].",
+      "Lake sediment classification:\nCores were capped, sealed, and transported to University of Alaska, Fairbanks (UAF) where they were stored upright at 3\u00b0C. Sediment cores were split in August 2018 and described, photographed, and subsampled by a team of researchers. Half of each split core was used for sample collection and half was stored as an archive at UAF. An 18 Ga (1.2 mm) shear drill was used to open each side of the plastic core liners, and cores were divided in half vertically by drawing a piece of fishing line through the cut liner. Exposed core surfaces were gently scraped with a sterilized metal pastry plate to remove the thin layer of water and sediment that may have been pulled down the length of the core during slicing. GSL cores were described with respect to thickness of lake surface sediments and underlying silt and sand/gavel horizons.\nShallow (0-5 m), intermediate (6-15 m), and deep (16-20 m) sediment depth classifications were determined based on 14C dating and sediment descriptions, sediment characteristics, and following other studies. Shallow depths correspond to sediments that were deposited after inundation and burial of the 1 m depth basal trash layer (the former forest floor), and also include underlying layered silt and organic-rich inclusions down to 5 m depth (inclusive). Recent literature has distinguished shallow sediments as 0-3 m depth; we included GSL sediments down to 5 m in our analysis because sediment collected at 5.24-5.39 m likely represents an integrated sample of mineral and organic-rich sediments from overlying horizons. The 14C date of the macrofossil in this horizon was the same as the 1 m basal trash layer macrofossil, and in this particular coring section, we observed mixing of sediments due to sloughing of material from the inner walls of the casing. We subsequently avoided this source of potential contamination by cleaning the casing out in between deeper drives. The underlying intermediate depths consisted of silt-dominated, late-Pleistocene Yedoma sediments, and the deep depths were composed of unconsolidated fluvial sediments that are likely early-to-middle Pleistocene Fox Gravel.",
+      "Lake sediment sampling:\nCut-off syringes were used to obtain 5 mL sediment plugs at 150 depths for analysis of percent moisture, bulk density, magnetic susceptibility, macrofossils, total nitrogen (Ntot), total C (Ctot), total organic C (Corg), total inorganic C (Cinorg), 14C dating, and \u03b413C. Sediment plugs were taken at a sampling frequency of 5-10 cm from the shallow cores, and approximately every 10-20 cm from the deep cores. Bulk density subsamples were stored at 4\u00b0C and remaining subsamples were frozen immediately upon collection. Sample analysis was conducted at the University of Potsdam (UP).\nFor laboratory incubations, 150-200 g of sediment was taken from 35 selected depths. At each sampling location, sediment was collected in a sterile Whirl-Pak bag between two points that spanned 14-16 cm of vertical core depth. The unsealed Whirl-Pak bag was inserted into a larger aluminum tubular film bag (Schlauchfolie aus Alu-Verbund, Gruber-Folien GmbH & Co., https://www.schabos.de/index.php/shop/folien-hauben/aluverbund). Aluminum bags were sealed using electric, heat-sealing tongs, and flushed with N2 gas through inlet and outlet points for 2 min to maintain an anoxic sediment environment. All samples were stored and shipped at 4\u00b0C to Lawrence Berkeley National Lab (LBL).\nAfter sampling, cores were sealed in oxygen barrier film (Krehalon CB100, PVDC film, Filcon), labeled, wrapped in two layers of saran wrap, and stored at 4\u00b0C at UAF. No sediment was collected within 1 cm of the plastic core liner; it was assumed that the core\u2019s periphery could have been contaminated by the casing or coring instrument, or that material could have been pulled down along the liner from shallower sediment horizons. Areas that were visibly oxidized along the core liner and within the sediment were also avoided during sampling.",
+      "Lake sediment incubations:\nParallel aerobic and anaerobic incubations were conducted at LBL on 12 of the 35 sample depths collected from the core. The 12 depths provided as much vertical coverage of the sediment as possible (given the quantity of sediment available for processing replicates and treatment conditions), and spanned the different paleoconditions of the core (based on sediment depth classifications and 14C sampling sites, Table 1). Aerobic serum bottles were incubated under C-free air and anaerobic bottles under N2 gas. Three temperature treatments selected for incubations (4\u00b0C, 10\u00b0C, 20\u00b0C) bracketed possible future temperature changes across the sediment column and are consistent with GSL lake sediment temperatures and prior permafrost incubation studies. All 12 depths were incubated at 4\u00b0C, and five of the 12 depths were also incubated at 10\u00b0C and 20\u00b0C. Each set of headspace and temperature treatments was incubated in triplicate, totaling 132 incubation bottles across the 12 depths \u2013 66 aerobic, 66 anaerobic.\n120 mL serum bottles (borosilicate glass, Wheaton) were degassed in an N2 hood (97% N2 + 3% H2) for 24 h prior to sediment separation. Aluminum bags containing sediment from each of the 12 depths were opened in the N2 hood and subsampled for gravimetric moisture content analysis \u2013 samples were later weighed, oven-dried at 105\u00b0C for 48 h, and reweighed. 10 g sediment was inserted into each bottle from ten of the 12 depths; 5 g of sediment was inserted into incubation bottles at depths 0.31-0.47 m and 5.24-5.39 m, where less sediment was available. To disturb the sediment as little as possible and maintain intact soil aggregates, sediments were neither sieved nor homogenized as sediment slurries. Instead, sediment was subsampled randomly across the available material to capture the heterogeneity of the 14-16 cm of core depth in each sample bag, and to minimize differences in substrate characteristics across the replicates.\nAll bottles were capped with butyl rubber stoppers (20 mm, Geomicrobial Technologies, Inc.), sealed with aluminum crimp tops (20 mm, Thermo Scientific), and weighed. Serum bottles were pre-incubated at their respective temperatures for 5 days to equilibrate after the disturbance of the sampling process. Aerobic bottles were then flushed with C-free air (ProSpec Ultra Zero Air, Praxair) and anaerobic bottles were flushed with N2 gas (Praxair) for 3 min at 1 L / min prior taking the initial headspace gas sample to begin the incubations. Aerobic and anaerobic incubation experiments were run for 365 days.\nAt each sampling time point, 7 mL of gas was collected from the headspace of every bottle using a syringe, and was inserted into a pre-evacuated 5 mL headspace vial (MicroSolv). Vial evacuations were performed with a Vacuum Manifold coupled with a SH 071 Turbomolecular Pumping Station. Vials were stored until 3 mL gas could be analyzed for CO2 and CH4 concentrations via manual injection gas chromatography on a Shimadzu GC 2014 (Shimadzu Corporation, Columbia, MD). The volume of gas pulled from each incubation bottle was replaced by an equal amount of either C-free air or N2 to maintain appropriate oxic / anoxic conditions for microbial communities and to keep serum bottle pressure at equilibrium. Bottles were sampled with high frequency at the beginning of the incubations to capture the initial respiration responses (twice per week for the first month), and were gradually scaled down to a lower sampling frequency near the end of the incubations as production rates stabilized (once per month for the final five months).\nAll aerobic bottles were flushed a single time when CO2 concentrations approached 20,000 ppm, approximately halfway through the incubations. Incubation bottles were also periodically weighed throughout the experiment to provide a check for potential moisture loss from the sediment and as a comparison to pre- and post-incubation gravimetric water content. Once the 365-day incubations were completed, the sediment in each serum bottle was destructively harvested, weighed, oven-dried (55\u00baC for 48 h, then 105\u00baC for 48 h), reweighed, ground and homogenized (Roller Mill and SPEX Certiprep 8000M Mixer Mill) for solid phase analysis.",
+      "Data Analysis:\nRaw CO2 and CH4 concentrations at each sampling time point were determined by GC analysis throughout the incubations. Every gas sample taken from a bottle represented the accumulated amount of CO2 and CH4 respired up until that day, diluted by 7 mL per time point since the beginning of the incubations. To calculate a running total amount of CO2 and CH4 respired by each jar over the course of the incubations, we converted raw concentrations of gas in each bottle from ppm to \u03bcg using the Ideal Gas Law (this included raw CO2 and CH4 concentrations, headspace volumes and quantity of sediment, incubation temperatures, and a standard pressure of 101.325 kPa), and corrected for the 7 mL headspace dilution at each time point.\nWe report carbon respiration in four ways. (1) Cumulative carbon respired by type of gas. This was calculated as the average production of the analytical replicates within each temperature treatment for the final three incubation time points (n = 9), normalized by initial quantity of SOC (e.g., mg C-CO2 gC-1) and by dry weight (e.g., ug C-CO2 gdw-1). (2) Total carbon respired. C-CO2 and C-CH4 respiration were summed for each incubation jar per time point (e.g., mg C-CO2 gC-1 + mg C-CH4 gC-1). Averages were then taken for analytical replicates within each temperature treatment for the final three incubation time points (n = 18). (3) Total C-CO2e respired. C-CH4 respiration per time point was converted to carbon equivalents, C-CO2e, using a GWP100 of 28. We used this GWP100 due to uncertainties related to including climate-carbon feedbacks in estimates, and acknowledge that this may provide a low estimate of the full effects of CH4 on CO2e at each depth22. C-CO2 and C-CH4 as C-CO2e respiration was then summed for each incubation jar by time point (e.g., mg C-CO2 gC-1 + mg C-CO2e gC-1). Averages were taken for analytical replicates within each temperature treatment for the final three incubation time points (n = 18). (4) Sediment column production potentials. Using sediment bulk density, the cumulative carbon respired by type of gas and normalized per gram dry weight (1), and the vertical distance of each depth increment (shallow: 0-5.99 m; intermediate: 5.99-15.99 m; deep: 15.99-19.99 m), production potentials were calculated for all analytical replicates within each depth increment, temperature treatment, and headspace treatment on a daily and annual basis (e.g., g C-CO2 m2 d-1, g C-CO2 m2 y-1; n = variable by depth-temperature combination).\nTo determine the temperature sensitivity of C-CO2, C-CH4, and C-CO2e respiration, Q10 coefficients were calculated for the five sediment depths that were exposed to the three incubation temperatures. This was done for early, middle, and end periods of the incubations (days 30, 150, 365, respectively) using data from three time points that bracketed each period (e.g. anaerobic Q10 coefficients were calculated for day 30 using data from days 26, 28, and 33). Note that we report Q10 coefficients in terms of cumulative respiration, rather than respiration rates, to account for lag times associated with CH4 production. These values thus represent the factor by which the amount of gas produced changed, given a 10\u00b0C increase in temperature. Some early cumulative C-CH4 data points were dropped from the calculations because the log-transformed regression analyses could not account for zero values. Cumulative respiration values were not averaged across or within replicates to find Q10 values; instead, all replicate data was included for each time point.\nThe following equations were used to calculate Q10 coefficients:\nAn exponential equation describes the relationship between soil respiration and temperature, where RT is the soil respiration rate at a given temperature T (\u00b0C), R0 is a reference respiration rate where T = 0\u00b0C, and \u03b2 is the temperature coefficient of the reaction:\nRT = R0 * e^(\u03b2T)\nThe Q10 coefficient of soil respiration describes the change in respiration rate under an increase of T = 10\u00b0C, where RT and RT+10 are the rates of respiration under temperatures T and T + 10:\nQ10 = RT+10 / RT\nThe Q10 value can then be calculated as the slope of the relationship between soil respiration and temperature (3):\nslope = Q10 = [ R0 * e^(\u03b2(T+10)) ] / [ R0 * e^(\u03b2T) ] = e^(10\u03b2)\nTo account for the exponential fit of our data, we took the slope of a linear regression between the log-transformed cumulative respiration and temperature (4), and used this to calculate the Q10 coefficients (5):\nslope = lnRT+10 - lnRT\nQ10 = e^(ln(slope)*10)\nFollowing Heslop et al. (2019) we also calculated temperature sensitivity ratios for the three time periods and three time points per time period, as noted above. Ratios provide a comparison of cumulative respiration by temperature treatment and have been used in place of Q10 values for sediment incubations to better account for lag phases in CH4 production. Temperature sensitivity ratios were calculated for C-CO2, C-CH4, and C-CO2e at 20\u00b0C:10\u00b0C, 20\u00b0C:4\u00b0C, and 10\u00b0C:4\u00b0C.\nData points were dropped from aerobic and anaerobic analyses when they were deemed implausible due to large negative fluxes, likely due to dilution errors. In these cases it was assumed that zero respiration of CO2 and CH4 occurred, and concentration values were corrected to only take into account the 7 mL dilution of the headspace that occurred when each sample was pulled (the sample volume was replaced with carbon-free air or nitrogen gas to maintain the pressure in the jar at each time point).",
+      "Statistics:\nFor all average carbon respiration values, we include standard errors for analytical replicates per sample depth, headspace treatment, and temperature treatment.\nFor Q10 coefficient calculations, we used linear models to determine the slope of log-transformed cumulative respiration versus temperature for C-CO2, C-CH4, and C-CO2e, extracted summary statistics for each linear model, and used these to calculate Q10 values. The fit of the linear models was evaluated using residual vs. fitted plots, Q-Q plots, and density plots. Significant Q10 values are noted as having p < 0.05. A multivariate linear regression was also used to analyze the effects of incubation time period and sediment depth on C-CO2e, C-CO2, and C-CH4 Q10 temperature sensitivities. All data processing and statistics were done in R (version 4.1.0)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 30.0205078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-25fbf5f3852d31f-20250113T233125265",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-25fbf5f3852d31f-20250113T233125265",
+        "name": "Substantial_and_overlooked_greenhouse_gas.xml"
+      },
+      {
+        "contentSize": 1028.857421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-08389696fd5c1df-20240409T055903319",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-08389696fd5c1df-20240409T055903319",
+        "name": "summarized_respiration_avg_reps_ESSDive_NFreitas_2024.csv"
+      },
+      {
+        "contentSize": 3384.9189453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-227e72f4700ed84-20240409T055903222",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-227e72f4700ed84-20240409T055903222",
+        "name": "calculated_production_all_reps_ESSDive_NFreitas_2024.csv"
+      },
+      {
+        "contentSize": 7.0625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-368489feb0fbbd4-20240409T055903277",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-368489feb0fbbd4-20240409T055903277",
+        "name": "Q10_values_all_reps_3_time_pts_ESSDive_NFreitas_2024.csv"
+      },
+      {
+        "contentSize": 0.376953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-28ed75725bbb669-20240409T055903261",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-28ed75725bbb669-20240409T055903261",
+        "name": "core_depths_and_IDs_ESSDive_NFreitas_2024.csv"
+      },
+      {
+        "contentSize": 3.625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d6ad40c0e49cbb2-20240814T052145944",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d6ad40c0e49cbb2-20240814T052145944",
+        "name": "sediment_column_production_potentials_ESSDive_NFreitas_2024.csv"
+      },
+      {
+        "contentSize": 49.228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d6c50f180502893-20240814T052028382",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d6c50f180502893-20240814T052028382",
+        "name": "summarized_resp_avg_3_time_pts_ESSDive_NFreitas_2024.csv"
+      },
+      {
+        "contentSize": 147.75,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-56e95425ddb6abb-20240820T172512603",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-56e95425ddb6abb-20240820T172512603",
+        "name": "ESSDive_NFreitas_2024_flmd.csv"
+      },
+      {
+        "contentSize": 16832.845703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-64ffbf0a48c0281-20240814T052038299",
+        "encodingFormat": "text/html",
+        "identifier": "ess-dive-64ffbf0a48c0281-20240814T052038299",
+        "name": "r_code_ESSDive_NFreitas_2024.html"
+      },
+      {
+        "contentSize": 3.9873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-71f1b22b522e3bf-20240409T055903326",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-71f1b22b522e3bf-20240409T055903326",
+        "name": "temp_ratios_all_reps_3_time_pts_ESSDive_NFreitas_2024.csv"
+      },
+      {
+        "contentSize": 4.4267578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c1b8a1b034ed714-20240409T055903300",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c1b8a1b034ed714-20240409T055903300",
+        "name": "sediment_characteristics_ESSDive_NFreitas_2024.csv"
+      },
+      {
+        "contentSize": 1.486328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b76abe79a30a62c-20240409T055903307",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b76abe79a30a62c-20240409T055903307",
+        "name": "sediment_descriptions_ESSDive_NFreitas_2024.csv"
+      },
+      {
+        "contentSize": 191.873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f74dba2f1f9373a-20240820T172503365",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f74dba2f1f9373a-20240820T172503365",
+        "name": "data_dictionary_ESSDive_NFreitas_2024_dd.csv"
+      }
+    ]
+  }
+}

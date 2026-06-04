@@ -1,0 +1,169 @@
+{
+  "id": "ess-dive-44db23865ca5302-20230504T211948245832",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1512511",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-44db23865ca5302-20230504T211948245832",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-dfbda680974e0fe-20230407T160228241822",
+  "dateUploaded": "2023-05-04T21:19:49.093Z",
+  "dateModified": "2023-05-04T21:19:52.971Z",
+  "isPublic": true,
+  "citation": "Chambers J; Gorman C; Feng Y; Stapp J (2019): Camp Fire processed Landsat 8 images, pre-fire, during-fire, post-fire. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15485/1512511",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1512511",
+    "name": "Camp Fire processed Landsat 8 images, pre-fire, during-fire, post-fire",
+    "description": [
+      "The Camp Fire rapidly spread across a landscape in Butte County, California, toward the city of Paradise in the early morning hours of 8 November 2018. GEE acquires L8 data products from USGS that include Real-Time Tier 1 DN values, representing scaled, calibrated at-sensor radiance, and Level-1 Precision Terrain (L1TP) processing. We carried out additional processing on the pre- and post-fire images, including an illumination correction to account for effects of steep topography, and radiometric normalization to ensure homogeneity between images. We also identified and processed high-quality images for both the pre-fire condition(25 Oct 2013), and the post-fire burn scar (26 Dec 2018).",
+      "Using the tools we provided in the paper, we estimate that, over the first hour, the Camp Fire was consuming ~200 ha/minute of vegetation with a linear spread rate of 14 km over the fire\u2019s first 25 minutes, or ~33km/hr. We briefly discuss broader use of remote sensing and geospatial analysis for fire research and risk management. A visualization app (sliderApp) that includes pre-fire, active fire, and post-fire images: https://caralyngorman.users.earthengine.app/view/camp-fire-sliding-map-3-9-19"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "affiliation": "University of California Berkeley",
+        "email": "jqchambers@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Caralyn",
+        "familyName": "Gorman",
+        "affiliation": "University of California Berkeley",
+        "email": "caralyngorman@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Yanlei",
+        "familyName": "Feng",
+        "affiliation": "University of California Berkeley",
+        "email": "ylfeng@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jared",
+        "familyName": "Stapp",
+        "affiliation": "University of California Berkeley",
+        "email": "stappjared@gmail.com"
+      }
+    ],
+    "datePublished": "2019",
+    "keywords": [
+      "fire",
+      "Camp fire",
+      "fire warning",
+      "remote sensing"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Camp Fire, Paradise, Butte County, California",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.019,
+            "longitude": -121.5451
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.019,
+            "longitude": -121.5451
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "A bounding box covered the Camp Fire burned area, including the city of Paradise.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.4953,
+            "longitude": -121.6344
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.4953,
+            "longitude": -121.6344
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "This work was supported by the University of California, Berkeley, Department of Geography The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2013-10-25",
+      "endDate": "2018-12-26",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "givenName": "Caralyn",
+      "familyName": "Gorman",
+      "affiliation": "University of California Berkeley",
+      "email": "caralyngorman@berkeley.edu"
+    },
+    "citation": [
+      "Chambers J, Gorman C, Feng Y, Torn M, Stapp J. 2019. Rapid remote sensing assessment of landscape-scale impacts from the California Camp Fire. PeerJ Preprints 7:e27654v1 https://doi.org/10.7287/peerj.preprints.27654v1",
+      "Related Berkeley News: 1. https://news.berkeley.edu/2019/04/15/early-warning-for-wildland-fires-there-could-be-an-app-for-that/2. https://news.berkeley.edu/2018/11/15/new-satellite-view-of-camp-fire-as-it-burned-through-paradise/"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "GEE acquires L8 data products from USGS that include Real-Time Tier 1 DN values, representing scaled, calibrated at-sensor radiance, and Level-1 Precision Terrain (L1TP) processing. We carried out additional processing on the pre- and post-fire images, including an illumination correction to account for effects of steep topography, and radiometric normalization to ensure homogeneity between images. We also identified and processed high-quality images for both the pre-fire condition(25 Oct 2013), and the post-fire burn scar (26 Dec 2018)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 14.59375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-44db23865ca5302-20230504T211948245832",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-44db23865ca5302-20230504T211948245832",
+        "name": "Camp_Fire_processed_Landsat_8_images_pre_fire_during_fire_post_fire.xml"
+      },
+      {
+        "contentSize": 27624.9072265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5522e76ac783346-20190508T052909890",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-5522e76ac783346-20190508T052909890",
+        "name": "prefirefinal.tif"
+      },
+      {
+        "contentSize": 151113.685546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-817bf9c23d45385-20190430T220201983",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-817bf9c23d45385-20190430T220201983",
+        "name": "imageduringTIFF.tif"
+      },
+      {
+        "contentSize": 25627.3310546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-88a26a2d4df38d9-20190508T052913918",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-88a26a2d4df38d9-20190508T052913918",
+        "name": "postfirefinal.tif"
+      }
+    ]
+  }
+}

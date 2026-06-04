@@ -1,0 +1,191 @@
+{
+  "id": "ess-dive-e46db0d45bd1ab0-20250813T163051051",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2345682",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-e46db0d45bd1ab0-20250813T163051051",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-79f6a33dd405f20-20240501T112816184",
+  "dateUploaded": "2025-08-13T16:30:52.265Z",
+  "dateModified": "2025-08-13T16:30:52.667Z",
+  "isPublic": true,
+  "citation": "Lo M; McCormack M L; Stoycheva T; Tran N (2024): Weather data at The Morton Arboretum 2017-2023. ORNL Terrestrial Ecosystem Science SFA. Dataset. doi:10.15485/2345682",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2345682",
+    "name": "Weather data at The Morton Arboretum 2017-2023",
+    "description": [
+      "We have been monitoring long-term weather patterns using two weather stations at The Morton Arboretum to link environmental conditions to tree growth and other tree responses. This data package contains weather data at The Morton Arboretum from 2017-08-23 to 2023-12-31; data is located in the \"MortonWeatherData2017_2023.csv\" file. The two weather stations are located on each side of The Arboretum (e.g., the Nursery station on the East side and the Ware Field station on the West side; the two weather stations are 3.23 km apart and coordinates are included in the \"Location_metadata.csv\" file). Measured variables include rain accumulation, air temperature, relative humidity, three soil moisture/temperature measurements at various depths (10, 30, and 50 cm for the Nursery weather station, and 10, 25, and 50 cm for the Ware Field), solar radiation, saturation vapor pressure, and vapor pressure deficit."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7928-8494",
+        "givenName": "Marvin",
+        "familyName": "Lo",
+        "affiliation": "The Morton Arboretum",
+        "email": "marvinlo@mortonarb.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8300-5215",
+        "givenName": "M. Luke",
+        "familyName": "McCormack",
+        "affiliation": "The Morton Arboretum",
+        "email": "lmccormack@mortonarb.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9512-967X",
+        "givenName": "Teodora",
+        "familyName": "Stoycheva",
+        "affiliation": "The Morton Arboretum",
+        "email": "tstoycheva@mortonarb.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3856-5480",
+        "givenName": "Newton",
+        "familyName": "Tran",
+        "affiliation": "The Morton Arboretum",
+        "email": "ntran@mortonarb.org"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "weather",
+      "long-term weather",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL TEMPERATURE",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL MOISTURE/WATER CONTENT",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > LIQUID PRECIPITATION > RAIN",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > RELATIVE HUMIDITY",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SOLAR RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > SATURATION VAPOR PRESSURE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Weather data are collected from two weather stations on opposite sides of The Morton arboretum (Lisle, Illinois, USA).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.821286,
+            "longitude": -88.097085
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.81054,
+            "longitude": -88.036886
+          }
+        ]
+      }
+    ],
+    "award": [
+      "Subcontract 4000146074; years 2019-2023",
+      "Subcontract CW53635; years 2024-2028"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "The Morton Arboretum"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2017-08-23",
+      "endDate": "2023-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9512-967X",
+      "givenName": "Teodora",
+      "familyName": "Stoycheva",
+      "affiliation": "The Morton Arboretum",
+      "email": "tstoycheva@mortonarb.org"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1e6d50d3-9532-43fb-a63f-bdcb4350bf0c"
+      },
+      "name": "ORNL Terrestrial Ecosystem Science SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Hanson",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "hansonpj@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Weather variables were measured at two weather stations on opposite sides of The Morton Arboretum: the Nursery weather station on the East side and the Ware Field weather station on the West side. Variables include: rain accumulation, air temperature, relative humidity, soil moisture at four depths (10, 30, and 50 cm at the Nursery, 10, 25, and 50 cm at Ware Field), and solar radiation.",
+      "Data files obtained from the weather station were converted to .csv files using the HOBOware Software and appended in Python, where saturation vapor pressure and vapor pressure deficit were also calculated. Missing value codes and other formatting adjustments were made in R Studio."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1.248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0b0c5f45b136bfe-20240424T165511177",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0b0c5f45b136bfe-20240424T165511177",
+        "name": "Location_metadata_dd.csv"
+      },
+      {
+        "contentSize": 1.134765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0833c9536171900-20240429T115912939",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0833c9536171900-20240429T115912939",
+        "name": "Location_metadata.csv"
+      },
+      {
+        "contentSize": 1.978515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-36c70fd41a61863-20240424T165511183",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-36c70fd41a61863-20240424T165511183",
+        "name": "MortonWeatherData2017_2023_dd.csv"
+      },
+      {
+        "contentSize": 68594.7978515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-37487682c90ac44-20240424T165511180",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-37487682c90ac44-20240424T165511180",
+        "name": "MortonWeatherData2017_2023.csv"
+      },
+      {
+        "contentSize": 1.8095703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e7dbc474bf05ad0-20240501T112812821",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e7dbc474bf05ad0-20240501T112812821",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 1.2421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-742db688b0a15a5-20240429T115438928",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-742db688b0a15a5-20240429T115438928",
+        "name": "flmd_dd.csv"
+      },
+      {
+        "contentSize": 8.2255859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e46db0d45bd1ab0-20250813T163051051",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-e46db0d45bd1ab0-20250813T163051051",
+        "name": "Weather_data_at_The_Morton_Arboretum.xml"
+      }
+    ]
+  }
+}

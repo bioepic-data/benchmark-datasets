@@ -1,0 +1,390 @@
+{
+  "id": "ess-dive-187e4311fb166e3-20230504T211017267609",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1618133",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-187e4311fb166e3-20230504T211017267609",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-6636deac886bc10-20230407T154708930754",
+  "dateUploaded": "2023-05-04T21:10:18.453Z",
+  "dateModified": "2023-05-04T21:10:21.035Z",
+  "isPublic": true,
+  "citation": "Chadwick K D; Brodrick P; Grant K; Henderson A; Bill M; Breckheimer I; Williams C F R; Goulden T; Falco N; McCormick M; Musinsky J; Pierce S; Porro M H; Scott A; Brodie E; Hancher M; Steltzer H; Wainwright H; Williams K; Maher K (2020): NEON AOP foliar trait maps, maps of model uncertainty estimates, and conifer map, East River, CO 2018. A Multiscale Approach to Modeling Carbon and Nitrogen Cycling within a High Elevation Watershed. Dataset. doi:10.15485/1618133",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1618133",
+    "name": "NEON AOP foliar trait maps, maps of model uncertainty estimates, and conifer map, East River, CO 2018",
+    "description": [
+      "This data package contains mapped trait estimates and their uncertainties, and conifer map, for the National Ecological Observatory Network's Airborne Observation Platform survey data acquired over the Upper East River, Colorado in 2018. For full details, please see associated reference. in brief, trait models were developed independently for needle and non-needle leaf species using partial least squares regression (PLSR) using ground data from additional datasets: doi:10.15485/1618130, doi:10.15485/1618132, and doi:10.15485/1631278, merged with extracted spectral data from doi:10.15485/1618131. We separated vegetated pixels into needle and non-needle classes in order to generate a classification map based on the spectral differences between these leaf types (conifer.tif). We trained a deep learning model with custom architecture, detailed in Chadwick et al. In Press. The model performed with 0.998 true positive rate and 0.982 true negative rate, with \u2018positives\u2019 being non-needle identification.",
+      "We then utilized PLSR to generate models of foliar traits for each leaf type. So that we could also map uncertainty in these predictions, we generated ten different models for needle and non-needle leaf species using different testing holdout sets of discrete sites. Each of these models was developed with a 100-fold cross validation procedure that utilized a 70% training set and 30% validation set with each fold, and then assessed based on the 10% of testing sites that were not included in that model\u2019s development. The mean predicted value across the 10 models is used for the trait estimate in each pixel across the study area. The models are applied according to the leaf type designation in the conifer.tif map. The errors are the standard deviation across the 10 different models developed, with high error suggesting instability in model prediction and areas where values may not be reliable for ecological inference. These maps are only applied to areas with a NDVI > 0.5 to exclude non-vegetated areas. Shade masks could be applied to these data (doi:10.15485/1618131), but have not been for this data package.",
+      "These data are also available on Google Earth Engine: https://code.earthengine.google.com/?asset=users/kdc/ER_NEON"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5633-4865",
+        "givenName": "K. Dana",
+        "familyName": "Chadwick",
+        "affiliation": "Stanford University"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Philip",
+        "familyName": "Brodrick",
+        "affiliation": "NASA Jet Propulsion Laboratory (JPL)"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kathleen",
+        "familyName": "Grant"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Amanda",
+        "familyName": "Henderson"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Markus",
+        "familyName": "Bill"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ian",
+        "familyName": "Breckheimer"
+      },
+      {
+        "@type": "Person",
+        "givenName": "C. F. Rick",
+        "familyName": "Williams"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Tristan",
+        "familyName": "Goulden"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nicola",
+        "familyName": "Falco"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Maeve",
+        "familyName": "McCormick"
+      },
+      {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Musinsky"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Samuel",
+        "familyName": "Pierce"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Maceo",
+        "familyName": "Hastings Porro"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Andea",
+        "familyName": "Scott"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Matt",
+        "familyName": "Hancher"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Heidi",
+        "familyName": "Steltzer"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Haruko",
+        "familyName": "Wainwright"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kenneth",
+        "familyName": "Williams"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Katharine",
+        "familyName": "Maher"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Benjamin",
+        "familyName": "Blonder"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jiancong",
+        "familyName": "Chen"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Corey",
+        "familyName": "Lawrence"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Patrick",
+        "familyName": "Sorensen"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Joan",
+        "familyName": "Damerow"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jack",
+        "familyName": "Lamb"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Aizah",
+        "familyName": "Khurram"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alexander",
+        "familyName": "Polussa"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Hans",
+        "familyName": "Wu Singh"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bizuayehu",
+        "familyName": "Whitney"
+      }
+    ],
+    "datePublished": "2020-06-15",
+    "keywords": [
+      "hyperspectral",
+      "imaging spectroscopy",
+      "trait mapping",
+      "foliar traits"
+    ],
+    "variableMeasured": [
+      "carbon",
+      "Leaf mass per area",
+      "leaf water content",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > NITROGEN",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CARBON",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > EVERGREEN VEGETATION",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > LEAF CHARACTERISTICS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CANOPY CHARACTERISTICS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "East River, Washington Gulch, Slate River, Coal Creek watersheds",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.04,
+            "longitude": -107.129
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.814,
+            "longitude": -106.877
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "NSF EAR Postdoctoral Fellowship, Chadwick, ID: 1725788"
+      },
+      {
+        "@type": "Organization",
+        "name": "National Science Foundation under NSF-1841547"
+      },
+      {
+        "@type": "Organization",
+        "name": "U.S. Department of Energy BER award, PI: Maher, DE-SC0018155"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-06-12",
+      "endDate": "2018-06-26",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5633-4865",
+      "givenName": "K. Dana",
+      "familyName": "Chadwick",
+      "affiliation": "Stanford University",
+      "email": "kdc@stanford.edu"
+    },
+    "citation": [
+      "Chadwick et al., Integrating airborne remote sensing and field campaigns for ecology and Earth system science, In Press",
+      "Brodrick, P. G., Goulden, T., & Chadwick, K. D. (2020). Custom NEON AOP reflectance mosaics and maps of shade masks, canopy water content. Watershed Function SFA. doi:10.15485/1618131",
+      "Chadwick, K. D., Grant, K., Henderson, A. N., Breckheimer, I., Williams, C. F. R., Falco, N., \u2026 Maher, K. (2020). Locations, metadata, and species cover from field sampling survey associated with NEON AOP survey, East River, CO 2018. Watershed Function SFA. doi:10.15485/1618130",
+      "Chadwick, K. D., Grant, K., Henderson, A. N., Scott, A., McCormick, M., Pierce, S., \u2026 Maher, K. (2020). Leaf mass per area and leaf water content measurements from field survey in association with NEON AOP survey, East River, CO 2018. A Multiscale Approach to Modeling Carbon and Nitrogen Cycling within a High Elevation Watershed. doi:10.15485/1618132",
+      "Chadwick, K. D., Grant, K., Bill, M., Henderson, A. N., Scott, A., & Maher, K. (2020). Site-level Foliar C, N, delta13C data from samples collected during field survey associated with NEON AOP survey, East River, CO 2018. A Multiscale Approach to Modeling Carbon and Nitrogen Cycling within a High Elevation Watershed. doi:10.15485/1631278"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "15e6cd05-37d8-407b-aa44-8ad65235b33f"
+      },
+      "name": "A Multiscale Approach to Modeling Carbon and Nitrogen Cycling within a High Elevation Watershed",
+      "member": {
+        "@type": "Person",
+        "givenName": "Corey",
+        "familyName": "Lawrence",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "U.S. Geological Survey, Lakewood, Lakewood, CO",
+        "email": "clawrence@usgs.gov"
+      }
+    },
+    "distribution": [
+      {
+        "contentSize": 36.0615234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-187e4311fb166e3-20230504T211017267609",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-187e4311fb166e3-20230504T211017267609",
+        "name": "NEON_AOP_foliar_trait_maps_maps_of_model_uncertainty_estimates_and_conifer_map_East_River_CO_2018.xml"
+      },
+      {
+        "contentSize": 1096495.4609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-200a8f6780ed437-20200707T000805174",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-200a8f6780ed437-20200707T000805174",
+        "name": "LWC_unc.tif"
+      },
+      {
+        "contentSize": 1100644.224609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-119063ed5611076-20200707T000805195",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-119063ed5611076-20200707T000805195",
+        "name": "N_unc.tif"
+      },
+      {
+        "contentSize": 1300088.6953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1281d519a228e6b-20200707T015950230",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-1281d519a228e6b-20200707T015950230",
+        "name": "conifer.tif"
+      },
+      {
+        "contentSize": 0.6572265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31016920adb7902-20200514T190336629",
+        "encodingFormat": "application/vnd.google-earth.kmz",
+        "identifier": "ess-dive-31016920adb7902-20200514T190336629",
+        "name": "BoundingBox.kmz"
+      },
+      {
+        "contentSize": 1104513.9501953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-35d0def5c689b81-20200707T000805155",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-35d0def5c689b81-20200707T000805155",
+        "name": "LMA_unc.tif"
+      },
+      {
+        "contentSize": 1091528.4287109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-46b70e784679496-20200707T000805127",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-46b70e784679496-20200707T000805127",
+        "name": "d13C_unc.tif"
+      },
+      {
+        "contentSize": 988820.99609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d6f8a447c84272c-20200707T000805140",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-d6f8a447c84272c-20200707T000805140",
+        "name": "d13C.tif"
+      },
+      {
+        "contentSize": 1089928.7958984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4b34996acc79ace-20200707T000805094",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-4b34996acc79ace-20200707T000805094",
+        "name": "C_unc.tif"
+      },
+      {
+        "contentSize": 1062541.9912109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8e63be25e33b7f1-20200707T000805121",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-8e63be25e33b7f1-20200707T000805121",
+        "name": "CN.tif"
+      },
+      {
+        "contentSize": 1001536.5546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a53ce50ef25f3d7-20200707T000805109",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-a53ce50ef25f3d7-20200707T000805109",
+        "name": "C.tif"
+      },
+      {
+        "contentSize": 1068139.615234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c02be940e604965-20200707T000805165",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-c02be940e604965-20200707T000805165",
+        "name": "LMA.tif"
+      },
+      {
+        "contentSize": 1070584.076171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bb29c322472b0ef-20200707T000805204",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-bb29c322472b0ef-20200707T000805204",
+        "name": "N.tif"
+      },
+      {
+        "contentSize": 1106452.6279296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e3fd10048dde569-20200707T000805115",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-e3fd10048dde569-20200707T000805115",
+        "name": "CN_unc.tif"
+      },
+      {
+        "contentSize": 1034233.3388671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-df9f1976fa2a6dc-20200707T000805184",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-df9f1976fa2a6dc-20200707T000805184",
+        "name": "LWC.tif"
+      }
+    ]
+  }
+}

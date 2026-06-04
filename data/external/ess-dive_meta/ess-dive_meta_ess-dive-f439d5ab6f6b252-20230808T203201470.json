@@ -1,0 +1,231 @@
+{
+  "id": "ess-dive-f439d5ab6f6b252-20230808T203201470",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1854257",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f439d5ab6f6b252-20230808T203201470",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-b834bd7c419303a-20230407T143158306358",
+  "dateUploaded": "2023-08-08T20:32:06.190Z",
+  "dateModified": "2023-08-08T20:32:09.840Z",
+  "isPublic": true,
+  "citation": "Weierbach H; Lima A R; Willard J D; Hendrix V C; Christianson D S; Lubich M; Varadharajan C (2022): Dataset for 'Stream Temperature Predictions for River Basin Management in the Pacific Northwest and Mid-Atlantic Regions Using Machine Learning', Water 2022. iNAIADS. Dataset. doi:10.15485/1854257",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1854257",
+    "name": "Dataset for 'Stream Temperature Predictions for River Basin Management in the Pacific Northwest and Mid-Atlantic Regions Using Machine Learning', Water 2022",
+    "description": [
+      "This data package presents forcing data, model code, and model output for classical machine learning models that predict monthly stream water temperature as presented in the manuscript \u2018Stream Temperature Predictions for River Basin Management in the Pacific Northwest and Mid-Atlantic Regions Using Machine Learning\u2019, Water (Weierbach et al., 2022). Specifically, for input forcing datasets we include two files each generated using the BASIN-3D data integration tool (Varadharajan et al., 2022) for stations in the Pacific Northwest and Mid Atlantic Hydrologic regions. Model code (written in python with the use of jupyter notebooks) includes codes for data preprocessing, training Multiple Linear Regression, Support Vector Regression, and Extreme Gradient Boosted Tree models, and additional notebooks for analysis of model output. We include specific model output files which represent modeling configurations presented in the manuscript also presented in an hdf5 format. Together, these data make up the workflow for predictions across three scenarios (single station, regional, and predictions in unmonitored basins) presented in the manuscript and allow for reproducibility of modeling procedures."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6348-9120",
+        "givenName": "Helen",
+        "familyName": "Weierbach",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "hweierbach@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2514-891X",
+        "givenName": "Aranildo R.",
+        "familyName": "Lima",
+        "affiliation": "Aquatic Informatics",
+        "email": "proj.brain@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4434-051X",
+        "givenName": "Jared D.",
+        "familyName": "Willard",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "willa099@umn.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9061-8952",
+        "givenName": "Valerie C.",
+        "familyName": "Hendrix",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "vchendrix@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8663-7701",
+        "givenName": "Danielle S.",
+        "familyName": "Christianson",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "DSChristianson@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2329-4454",
+        "givenName": "Misha",
+        "familyName": "Lubich",
+        "affiliation": "University of California Berkeley",
+        "email": "mishalubich007@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY",
+      "Machine Learning",
+      "XGBoost",
+      "Support Vector Regression",
+      "Stream Water Temperature",
+      "Catchments",
+      "Modeling",
+      "Predictions in Unmonitored Basins",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > WATER TEMPERATURE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SOLAR RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > MAXIMUM/MINIMUM TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT",
+      "EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > WATER TEMPERATURE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SOLAR RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > MAXIMUM/MINIMUM TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "24 Station locations in the USGS Mid-Atlantic Hydrologic Region (HUC 02)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.11,
+            "longitude": -79.9
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.04,
+            "longitude": -74.27
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "54 Station locations in the USGS Pacific Northwest Hydrologic Region (HUC 17)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 49.0,
+            "longitude": -124.06
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.06,
+            "longitude": -112.79
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1980-01-01",
+      "endDate": "2021-06-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4142-3224",
+      "givenName": "Charuleka",
+      "familyName": "Varadharajan",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "cvaradharajan@lbl.gov"
+    },
+    "citation": [
+      "Weierbach, Helen, et al. 'Stream Temperature Predictions for River Basin Management in the Pacific Northwest and Mid-Atlantic Regions Using Machine Learning' Water Resources (2022, In Press)",
+      "Varadharajan, Charuleka, et al. 'BASIN-3D: A brokering framework to integrate diverse environmental data.' Computers and Geosciences (2022): 105024."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "93af4208-5c89-4be7-955b-8315ce410713"
+      },
+      "name": "iNAIADS",
+      "member": {
+        "@type": "Person",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Data curation: Model input data files (each including stream temperature, discharge, meteorological variables and metadata for stations in a given HUC) were prepared using the BASIN-3D (Broker for Assimilation, Synthesis and Integration of eNvironmental Diverse, Distributed Datasets) data integration tool (Varadharajan et al. 2022). This tool generates input datasets by querying and synthesizing available discharge and stream temperature data from the National Water Information System (NWIS), meteorological data from Daymet, and additional metadata from both systems.\nData selection: From all available stations in NWIS with data, sites were down selected based to the stations within a basin which have at least 20 years of temperature and discharge records. After down-selecting these stations, all data for stations meeting initial data requirements are compiled into hdf5 files for each basin. Here we have included two such model input files (USGS-02_RDC-WT-DAYMET_1980-01-01_2021-06-30_20y and USGS-17_RDC-WT-DAYMET_1980-01-01_2021-06-30_20y), one for the Mid Atlantic Region (HUC 02) and one for the Pacific Northwest Region (HUC 17).",
+      "Model code and scripts: Model code and scripts: Model code and scripts (water_2022_code.zip) was developed in Python using packages listed in subfile environment.yml. For each of three modeling scenarios, we include a notebook which provides the workflow for building models with varying input features, hyperparameter optimization, and training subsets. This code is used to produce model output and to analyze model output as presented in Weierbach et al. 2022.\nModel output: Model output files (model_output_water_2022.zip) were generated using the provided model code, while varying model scenarios, model input features, model training (with or without hyperparameter optimization) and model training subsets (training with both regions or single regions). Each run represents one of the 14 model configurations presented in Weierbach et al. 2022, where for each configuration we train Multiple Linear Regression, Support Vector Regression, and XGBoost Regression models, report predictions in the test period, and provide information on hyperparameter optimization, feature importance (if applicable), and model accuracy."
+    ],
+    "distribution": [
+      {
+        "contentSize": 4461.958984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-05d846fdc4a5618-20220322T201844588",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-05d846fdc4a5618-20220322T201844588",
+        "name": "water_2022_code.zip"
+      },
+      {
+        "contentSize": 62729.66015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-eb2230c6b754d3a-20220126T182558893",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-eb2230c6b754d3a-20220126T182558893",
+        "name": "USGS-17_RDC-WT-DAYMET_1980-01-01_2021-06-30_20y"
+      },
+      {
+        "contentSize": 53696.671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-683315e42bfb3db-20220322T175757670",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-683315e42bfb3db-20220322T175757670",
+        "name": "Model_Output_Water_2022_20220322T174422Z_001.zip"
+      },
+      {
+        "contentSize": 37810.23046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6b5014433d195c6-20220126T182558881",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-6b5014433d195c6-20220126T182558881",
+        "name": "USGS-02_RDC-WT-DAYMET_1980-01-01_2021-06-30_20y"
+      },
+      {
+        "contentSize": 11.8544921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c85fd77903101ea-20220322T191756964",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-c85fd77903101ea-20220322T191756964",
+        "name": "weierbach_2022_flmd.xlsx"
+      },
+      {
+        "contentSize": 13.0537109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f439d5ab6f6b252-20230808T203201470",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f439d5ab6f6b252-20230808T203201470",
+        "name": "Dataset_for_Stream_Temperature_Predictions_for.xml"
+      }
+    ]
+  }
+}

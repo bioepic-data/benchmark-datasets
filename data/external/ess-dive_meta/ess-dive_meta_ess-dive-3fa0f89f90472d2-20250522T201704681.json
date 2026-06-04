@@ -1,0 +1,208 @@
+{
+  "id": "ess-dive-3fa0f89f90472d2-20250522T201704681",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1779721",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-3fa0f89f90472d2-20250522T201704681",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-3fa0f89f90472d2-20250516T201109165",
+  "dateUploaded": "2025-05-22T20:17:05.771Z",
+  "dateModified": "2026-03-06T20:01:20.165Z",
+  "isPublic": true,
+  "citation": "Carroll R; Beutler C; Shirley A; Newman A; Williams K; O'Ryan D (2025): Stream discharge and temperature data collected within the East and Taylor Watershed, Colorado for the Lawrence Berkeley National Laboratory Watershed Function Science Focus Area (water years 2019 to 2024). Watershed Function SFA. Dataset. doi:10.15485/1779721",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1779721",
+    "name": "Stream discharge and temperature data collected within the East and Taylor Watershed, Colorado for the Lawrence Berkeley National Laboratory Watershed Function Science Focus Area (water years 2019 to 2024)",
+    "description": [
+      "This data package contains East and Taylor Watershed, Colorado stream discharge and temperature data for water years 2019 to 2024. This data was collected to understand hydrological processes occurring in the East River and Taylor River Watersheds, Colorado, which is part of the Lawrence Berkeley National Laboratory Watershed Function Scientific Focus Area. Data includes instantaneous observed discharge using salt dillution and acoustic doppler velocimeter techniques, raw pressure transducer downloaded data, sub-hourly temperature as well as corrected water level and associated stream discharge and mean daily values. Notes on water level corrections, rating curve development and metadata provided. A rating curve is the translation of depth to streamflow. The rating curve can be used as a quantitative measure of the \u201cquality of the data.\u201d",
+      "Data within this dataset is formatted using ESS-DIVE\u2019s Hydrological Monitoring Reporting Format. This data package contains (1) a zip file (Stream_Discharge_Data_WY19-WY24.zip) containing stream discharge and temperature data organized by location; (2) an InstallationMethods file (InstallationMethods.csv) describing metadata about the installation; (3) a file-level metadata (flmd.csv) file that lists each file contained in the dataset with associated metadata; (4) a data dictionary (dd.csv) file that contains terms/column_headers used throughout the files along with a definition, units, and data type; (5) a locations metadata file (locations.csv); (6) and a sensor metadata file (sensors.csv). All data files are in non-proprietary formats (csv, png, or pdf formats). Please contact Rosemary Carroll, Curtis Beutler, or Austin Shirley for any support in accessing the files.",
+      "Update on 2023-05-12: Additional data from WYs 2021 and 2022 were added. Additionally, the dataset was converted using ESS-DIVE\u2019s Hydrological Monitoring Reporting Format. Data files were reformatted to match reporting format guidance, new metadata files were added, and files were converted from excel to CSV.",
+      "Update on 2025-05-16: Additional data from WYs 2022 (for locations not previously included), 2023, and 2024 were added. An additional descriptive PDF (WFSFA_Streamflow_Hydrograph_Disclaimer.pdf) was added. Metadata files were updated to reflect the addition of new data and locations."
+    ],
+    "alternateName": [
+      "paf_290"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9302-8074",
+        "givenName": "Rosemary",
+        "familyName": "Carroll",
+        "affiliation": "Desert Research Institute",
+        "email": "Rosemary.Carroll@dri.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Curtis",
+        "familyName": "Beutler",
+        "email": "cbeutler@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Austin",
+        "familyName": "Shirley",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "AShirley@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alexander",
+        "familyName": "Newman",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "alexnewman760@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1793-9781",
+        "givenName": "Dylan",
+        "familyName": "O'Ryan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "dporyan@lbl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "streamflow",
+      "acoustic Doppler velocimeter",
+      "salt tracer",
+      "stream temperature",
+      "ESS-DIVE Hydrologic Monitoring Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > WATER TEMPERATURE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry.The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Specific locations sampled are indicated in the data file name.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006235",
+        "name": "U.S. DOE > Laboratory Directed Research and Development (LDRD) > Lawrence Berkeley National Laboratory"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-10-01",
+      "endDate": "2024-10-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9302-8074",
+      "givenName": "Rosemary",
+      "familyName": "Carroll",
+      "affiliation": "Desert Research Institute",
+      "email": "Rosemary.Carroll@dri.edu"
+    },
+    "citation": [
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Boye K ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Perzan Z ; Pierce S ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Thibaut R ; Tokunaga T ; Versteeg R ; Wielandt S ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2025): Location Identifiers, Metadata, and Map for Field Measurements at the East-Taylor Watershed Community Observatory, Colorado, USA (Version 3.2). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Stream discharge represents derived data using a barometrically corrected pressure data using observed streamflow data. Rating curve development is difficult in headwater streams where geomorphic instabilities and lost sensors often require a new rating curve each water year. All techniques and adjustments are listed in the \"notes\" tab of each data file. Stream temperature is also collected and provided."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8fdf236c6d88e35-20250522T201645292",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8fdf236c6d88e35-20250522T201645292",
+        "name": "Stream_Discharge_Data_WY19_WY24.zip",
+        "contentSize": 42368.0859375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-96b0ee9785713ff-20250516T200809429",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-96b0ee9785713ff-20250516T200809429",
+        "name": "flmd.csv",
+        "contentSize": 80.2119140625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-806eee1c2ff2e0c-20250516T200809419",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-806eee1c2ff2e0c-20250516T200809419",
+        "name": "dd.csv",
+        "contentSize": 12.6884765625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-11c111e2e7a60f1-20250516T200809440",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-11c111e2e7a60f1-20250516T200809440",
+        "name": "locations.csv",
+        "contentSize": 13.1005859375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ea6213e87a00066-20250516T200809456",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-ea6213e87a00066-20250516T200809456",
+        "name": "WFSFA_Streamflow_Hydrograph_Disclaimer.pdf",
+        "contentSize": 15.30859375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-58516a890d39678-20250516T200809445",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-58516a890d39678-20250516T200809445",
+        "name": "sensors.csv",
+        "contentSize": 4.2509765625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7c97f920be06a9a-20250522T201637569",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7c97f920be06a9a-20250522T201637569",
+        "name": "InstallationMethods.csv",
+        "contentSize": 8.3291015625
+      }
+    ]
+  }
+}

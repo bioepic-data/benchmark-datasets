@@ -1,0 +1,228 @@
+{
+  "id": "ess-dive-1b5d568de9aa857-20250206T203113515",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2448016",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1b5d568de9aa857-20250206T203113515",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-1b5d568de9aa857-20250206T202916126",
+  "dateUploaded": "2025-02-06T20:31:14.044Z",
+  "dateModified": "2025-02-09T00:00:28.128Z",
+  "isPublic": true,
+  "citation": "Willard J; Ciulla F; Weierbach H; Kumar V; Varadharajan C (2024): Dataset for \"Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models\" Willard et al. (2024). iNAIADS. Dataset. doi:10.15485/2448016",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2448016",
+    "name": "Dataset for \"Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models\" Willard et al. (2024)",
+    "description": [
+      "This data release provides all data and code used in the paper \" \"Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models\" Willard et al. (2024)\" to model stream temperature, evaluate, and assess results. The associated manuscript explores current open questions in prediction in ungauged and unmonitored basins concerning top-down versus bottom-up approaches, tradeoffs between data available and input requirements, and the appropriate representation of catchment attributes as inputs to deep learning models. Modeling was done primarily with long short-term memory (LSTM) models, and stream site coverage spans 1362 locations across the conterminous United States.",
+      "The data is organized into these items items:",
+      "Code repository and data for the paper \" \"Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models\" Willard et al. (2024)\".",
+      "Code: stream_temp_ml_regionalization.zip contains the code repository",
+      "Data to run the code:",
+      "- data_dir.zip -- contains all files that should be moved to the \"DATA_DIR\" variable defined in the \"set_env_vars.sh\" script in the code repository",
+      "- metadata_dir.zip -- contains all files that should be moved to the \"METADATA_DIR\" variable defined in the \"set_env_vars.sh\" script in the code repository",
+      "- error_analysis_attribute_and_groundwater_dir.zip - workflows for the extended error analysis by stream attribute and groundwater influence",
+      "Data produced by the code and used in the paper:",
+      "- outputs_dir.zip - contains model output and results (outputs_dir/results), model weights (outputs_dir/models), and all other outputs used for the paper including feature importances.",
+      "To cite this code, please use the following BibTeX or MLA entries:",
+      "bibtex:",
+      "@misc{willard2024streamdata,",
+      "author = {Jared Willard and Fabio Ciulla and Helen Weierbach and Vipin Kumar and Charuleka Varadharajan},",
+      "title = {Dataset for \"Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models\"},",
+      "year = {2024},",
+      "doi = {10.15485/2448016},",
+      "publisher = {ESS-DIVE Repository},",
+      "url = {https://doi.org/10.15485/2448016}",
+      "}",
+      "MLA: Willard, Jared, et al. Dataset for \"Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models\". 2024. ESS-DIVE Repository, doi:10.15485/2448016."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4434-051X",
+        "givenName": "Jared",
+        "familyName": "Willard",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jared.d.willard@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2637-1737",
+        "givenName": "Fabio",
+        "familyName": "Ciulla",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "fciulla@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6348-9120",
+        "givenName": "Helen",
+        "familyName": "Weierbach",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "helenweierbach@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9040-2665",
+        "givenName": "Vipin",
+        "familyName": "Kumar",
+        "affiliation": "University of Minnesota Department of Computer Science",
+        "email": "kumar001@umn.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "DEEP LEARNING",
+      "MACHINE LEARNING",
+      "PREDICTION IN UNGAUGED BASINS",
+      "LSTM",
+      "RNN",
+      "STREAM TEMPERATURE",
+      "META TRANSFER LEARNING",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > WATER TEMPERATURE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Conterminous United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 48.90595739,
+            "longitude": -124.3929872
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 26.72173487,
+            "longitude": -67.2475
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006192",
+        "name": "U.S. DOE > Office of Science > Advanced Scientific Computing Research (ASCR)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006210",
+        "name": "U.S. DOE > Office of Science > Workforce Development for Teachers and Scientists"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1980-01-01",
+      "endDate": "2021-06-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4434-051X",
+      "givenName": "Jared",
+      "familyName": "Willard",
+      "email": "jared.d.willard@gmail.com"
+    },
+    "citation": [
+      "Willard, J. et al., \"Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models\", submitted to Water Resources Research",
+      "Varadharajan, Charuleka, et al. \"BASIN-3D: A brokering framework to integrate diverse environmental data.\" Computers & Geosciences 159 (2022): 105024. https://doi.org/10.1016/j.cageo.2021.105024",
+      "Willard, J. D., Ciulla, F., Weierbach, H., Kumar, V., & Varadharajan, C. (2024). Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models. arXiv preprint arXiv:2410.19865.Willard, J. D., Ciulla, F., Weierbach, H., Kumar, V., & Varadharajan, C. (2024). Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models. arXiv preprint arXiv:2410.19865."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "93af4208-5c89-4be7-955b-8315ce410713"
+      },
+      "name": "iNAIADS",
+      "member": {
+        "@type": "Person",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "See paper for details, a brief summary on the repository data and how it was generated or collected is below\nBASIN-3D was used to acquire meteorological variables such as air temperature, solar radiation, vapor pressure, and precipitation from DayMet, and stream temperature data from USGS NWIS. The data were harmonized into a HDF5 format, standardizing time steps and aligning spatial coordinates for consistency across data sources. Data quality control (QA/QC) included filtering out observations with water temperatures below -1\u00b0C or above 40\u00b0C to exclude data errors and anomalies such as hot springs.",
+      "Static attributes of stream sites were sourced from the GAGES-II dataset, including 274 non-categorical attributes such as land use, topography, climate statistics, and proximity to dams. Attributes related to distances to dams with missing values were transformed by setting missing values to zero and using inverse scaling for valid values, preserving monotonic relationships relevant to hydrological modeling.",
+      "The referenced preprint study compared multiple modeling approaches: top-down models using aggregated data, bottom-up models applying meta transfer learning, and grouped models based on hydrologic similarity or regional co-location. Models were trained on stream temperature data from 782 well-monitored sites and tested on 580 pseudo-unmonitored sites, simulating the challenge of predicting temperatures in data-sparse locations.\nModels used a default set of input variables including 9 meteorological inputs, 2 streamflow inputs, latitude, longitude, elevation, and all 274 GAGES-II attributes. The experiments also examined variations in input data requirements, testing the impact of excluding certain variables like streamflow or site attributes to extend the training dataset by reducing data constraints. All input and target data were normalized using z-score normalization. The global mean and standard deviation were calculated for each input variable across the training dataset to standardize data on a common scale.\nThe primary model architecture was a Long Short-Term Memory (LSTM) neural network, which was selected due to its ability to handle time series data and retain memory over extended sequences. Models were trained using Pytorch with hyperparameter tuning conducted via Bayesian optimization on the Weights and Biases platform. All models were trained until the validation loss (mean squared error) stabilized using early stopping criteria, with an ensemble of five realizations used to quantify model uncertainty and enhance robustness.\nModel performance was assessed using the median per-site RMSE, average bias, and RMSE on the warmest 10% of observations per site. Output data from the models was converted in CSV format and matched to observations. Model performance per-site for each experiment was also saved in CSV format."
+    ],
+    "distribution": [
+      {
+        "contentSize": 43485.3603515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0785d8f07a87f1e-20241114T224422722",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-0785d8f07a87f1e-20241114T224422722",
+        "name": "error_analysis_attribute_and_groundwater_dir.zip"
+      },
+      {
+        "contentSize": 13.8369140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1b5d568de9aa857-20250206T203113515",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-1b5d568de9aa857-20250206T203113515",
+        "name": "Dataset_for_Evaluating_Deep_Learning_Approaches.xml"
+      },
+      {
+        "contentSize": 212.482421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d1a9ec9507cd10a-20241121T164639014",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d1a9ec9507cd10a-20241121T164639014",
+        "name": "stream_temp_ml_regionalization.zip"
+      },
+      {
+        "contentSize": 8585425.16796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4d7482b576cf90b-20240930T155748531070",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4d7482b576cf90b-20240930T155748531070",
+        "name": "outputs_dir.zip"
+      },
+      {
+        "contentSize": 256.162109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-81572efd254ad37-20250206T203103911",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-81572efd254ad37-20250206T203103911",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 2290.0546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8591a747201c9ca-20240930T155748492089",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8591a747201c9ca-20240930T155748492089",
+        "name": "metadata_dir.zip"
+      },
+      {
+        "contentSize": 1697131.8115234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-aaf0ce7bec5f702-20240930T155744651215",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-aaf0ce7bec5f702-20240930T155744651215",
+        "name": "data_dir.zip"
+      }
+    ]
+  }
+}

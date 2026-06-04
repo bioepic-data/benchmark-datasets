@@ -1,0 +1,248 @@
+{
+  "id": "ess-dive-a81592a3e7b6fac-20250313T200519601",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2482624",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a81592a3e7b6fac-20250313T200519601",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a81592a3e7b6fac-20250310T085336043",
+  "dateUploaded": "2025-03-13T20:05:20.451Z",
+  "dateModified": "2025-03-13T20:05:22.072Z",
+  "isPublic": true,
+  "citation": "Hantson W; Yang D; Serbin S; Hayes D J (2025): Multiscale maps of Active Layer Depth for Teller site Mile Marker 27 and Kougarok Mile Marker 80, Seward Peninsula, AK. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2482624",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2482624",
+    "name": "Multiscale maps of Active Layer Depth for Teller site Mile Marker 27 and Kougarok Mile Marker 80, Seward Peninsula, AK",
+    "description": [
+      "Remote sensing maps of active layer depth derived from Unmanned Areal System (UAS) data. The UAS datasets were stepwise scaled until matching the AVIRIS-NG (Airborne Visible / Infrared Imaging Spectrometer - Next Generation) and Sentinel-2 spatial resolutions. Using the field observed Active Layer Depth (ALD) measurement in combination with spectral and topographic predictors derivatives from DJI UAS imagery, we used a spatially explicit RF regression model to predict and map ALD across our study landscapes. This package includes maps for Next-Generation Ecosystem Experiment Arctic (NGEE Arctic)\u2019s Teller Mile Marker (MM) 27, and Kougarok MM80 (aka Mile 80) watersheds. The field, map data, and metadata are provided as geoTIF and text (*.csv) formats. These datasets are provided in support of Hantson et al., 2024 (accepted) \u201cScaling Arctic landscape and permafrost features improves active layer depth modeling\u201d"
+    ],
+    "alternateName": [
+      "NGA558"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2882-6897",
+        "givenName": "Wouter",
+        "familyName": "Hantson",
+        "email": "wouter.hantson@maine.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1705-7823",
+        "givenName": "Daryl",
+        "familyName": "Yang",
+        "email": "yangd@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4136-8971",
+        "givenName": "Shawn",
+        "familyName": "Serbin",
+        "email": "shawn.p.serbin@nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3011-7934",
+        "givenName": "Daniel J.",
+        "familyName": "Hayes",
+        "email": "daniel.j.hayes@maine.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "Seward peninsula",
+      "UAS",
+      "Active layer",
+      "Unmanned Aerial System"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND > ACTIVE LAYER"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Seward Peninsula, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.952,
+            "longitude": -168.14
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.03,
+            "longitude": -159.19
+          }
+        ]
+      }
+    ],
+    "award": [
+      "Next Generation Ecosystem Experiment"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "NASA's Arctic Boreal Vulnerability Experiment (NNX15AU53A)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-07-08",
+      "endDate": "2019-07-20",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2882-6897",
+      "givenName": "Wouter",
+      "familyName": "Hantson",
+      "email": "wouter.hantson@maine.edu"
+    },
+    "citation": [
+      "Related data package: Yang D ; Hantson W ; Hayes D ; Serbin S (2022): UAS remote sensing (DJI Phantom 4 RTK platform): RGB orthomosaic, digital surface and canopy height models, plant functional type map, Seward Peninsula, Alaska, 2019. Next-Generation Ecosystem Experiments (NGEE) Arctic, ESS-DIVE repository. Dataset. doi:10.5440/1906348",
+      "Hantson et al., 2025, \u201cScaling Arctic landscape and permafrost features improves active layer depth modeling\u201d, Environ. Res.: Ecology 4 015001 doi: 10.1088/2752-664X/ad9f6c"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "In July 2019, field-based active layer depth (ALD) measurements across the Teller and Mile 80\nsites were collected. We used a spatial sampling strategy to thoroughly capture the spatial\nvariability of tundra vegetation, permafrost features, and disturbances. At each sampling\nlocation, a thaw probe (130 cm long, 1 cm diameter, marked with 5 cm increments) was pushed into\nthe ground until resistance of the permafrost layer was encountered. To link with remote sensing\nimagery, the coordinates of each location were measured. Using the field observed ALD\nmeasurement in combination with spectral and topographic predictors derivatives from DJI UAS\nimagery (See dataset https://doi.org/10.5440/1906348), we used a spatially explicit RF\nregression model to predict and map ALD across our study landscapes. For comparison, the\nmodeling approach was also applied to AVIRIS-NG and Sentinel-2 datasets, in combination with the\nArctic-DEM. For more information about the methods, please refer to Hantson et al., 2024,\n\u201cScaling Arctic landscape and permafrost features improves active layer depth\nmodeling\u201d."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.3056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0a497a9ade05ecd-20241129T135043406",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-0a497a9ade05ecd-20241129T135043406",
+        "name": "File_Description.txt"
+      },
+      {
+        "contentSize": 2611.943359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-089ed3cf5f14ea3-20241129T083912313",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-089ed3cf5f14ea3-20241129T083912313",
+        "name": "Teller_ALD_AVIRISNG.tiff"
+      },
+      {
+        "contentSize": 5225.873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-24207c295d101c8-20241129T083815117",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-24207c295d101c8-20241129T083815117",
+        "name": "Mile80_ALD_AVIRISNG.tiff"
+      },
+      {
+        "contentSize": 48.7109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1f0986bae6d3197-20241129T083912343",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-1f0986bae6d3197-20241129T083912343",
+        "name": "Teller_ALD_UAS_520_cm.tiff"
+      },
+      {
+        "contentSize": 534.169921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-db8e03957c4fc3d-20241129T083912322",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-db8e03957c4fc3d-20241129T083912322",
+        "name": "Teller_ALD_Sentinel2.tiff"
+      },
+      {
+        "contentSize": 173.3056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d5f3e42abb156da-20241129T083912335",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-d5f3e42abb156da-20241129T083912335",
+        "name": "Teller_ALD_UAS_280_cm.tiff"
+      },
+      {
+        "contentSize": 6327.5986328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e8fae7317b5ac89-20241129T083815136",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-e8fae7317b5ac89-20241129T083815136",
+        "name": "Mile80_ALD_UAS_40_cm.tiff"
+      },
+      {
+        "contentSize": 8745.8447265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4de34c9aea77249-20241129T083912328",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-4de34c9aea77249-20241129T083912328",
+        "name": "Teller_ALD_UAS_40_cm.tiff"
+      },
+      {
+        "contentSize": 133.5771484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6e7eb43f623958d-20241129T083815144",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-6e7eb43f623958d-20241129T083815144",
+        "name": "Mile80_ALD_UAS_280_cm.tiff"
+      },
+      {
+        "contentSize": 9.74609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-72aec6a758abe89-20241129T083815159",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-72aec6a758abe89-20241129T083815159",
+        "name": "Mile80_ALD_UAS_1000_cm.tiff"
+      },
+      {
+        "contentSize": 12.6337890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-743259b2f1bb663-20241129T083912350",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-743259b2f1bb663-20241129T083912350",
+        "name": "Teller_ALD_UAS_1000_cm.tiff"
+      },
+      {
+        "contentSize": 10.880859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a81592a3e7b6fac-20250313T200519601",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-a81592a3e7b6fac-20250313T200519601",
+        "name": "Multiscale_maps_of_Active_Layer_Depth_for_Teller.xml"
+      },
+      {
+        "contentSize": 37.3779296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a6e056391ca0e98-20241129T083815153",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-a6e056391ca0e98-20241129T083815153",
+        "name": "Mile80_ALD_UAS_520_cm.tiff"
+      },
+      {
+        "contentSize": 20.4443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b97145395deddf1-20241129T134323302",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b97145395deddf1-20241129T134323302",
+        "name": "ALD_2019.csv"
+      },
+      {
+        "contentSize": 23716.4091796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c74bdadae1f60e6-20241120T144644733",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c74bdadae1f60e6-20241120T144644733",
+        "name": "ALD_model_data.zip"
+      },
+      {
+        "contentSize": 1007.65234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f4607d67945a987-20241129T083815127",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-f4607d67945a987-20241129T083815127",
+        "name": "Mile80_ALD_Sentinel2.tiff"
+      }
+    ]
+  }
+}

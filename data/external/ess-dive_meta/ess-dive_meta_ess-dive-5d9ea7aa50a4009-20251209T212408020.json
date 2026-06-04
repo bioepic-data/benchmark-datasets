@@ -1,0 +1,206 @@
+{
+  "id": "ess-dive-5d9ea7aa50a4009-20251209T212408020",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3005739",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-5d9ea7aa50a4009-20251209T212408020",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-5d9ea7aa50a4009-20251205T051815780",
+  "dateUploaded": "2025-12-09T21:24:08.799Z",
+  "dateModified": "2025-12-09T21:24:09.266Z",
+  "isPublic": true,
+  "citation": "Luo M; Yedinak K; Bourne K; Whitman T (2025): Heating effects on jack pine pyrogenic organic matter properties from a pyrocosm study in 2022. Dissection of Carbon and Nitrogen Cycling in Post-Fire Soil Environments using a Genome-Informed Experimental Community (DE-SC0020351). Dataset. doi:10.15485/3005739",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3005739",
+    "name": "Heating effects on jack pine pyrogenic organic matter properties from a pyrocosm study in 2022",
+    "description": [
+      "This dataset contains data associated with the preprint \u201cFire removes preexisting pyrogenic organic matter from the ecosystem through the mechanisms of both direct combustion and increasing mineralizability\u201d (Luo et al., 2025b), which is the complementary study to the published paper \u201cReburning pyrogenic organic matter: a laboratory method for dosing dynamic heat fluxes from above\u201d (Luo et al., 2025a). We designed a full-factorial experiment with different burial depths of jack pine (Pinus banksiana Lamb) pyrogenic organic matter (PyOM) (Surface, 1 cm, and 5 cm) and different heat-flux profiles (High, Low, and Control) to examine how subsequent fires affect the properties of preexisting PyOM. We measured total carbon (C), pH, dissolved organic carbon (DOC), dissolved inorganic carbon (DIC), and mineralized C (as CO\u2082-C, from a 12-week incubation).",
+      "We found that high heat flux and/or surface placement resulted in substantial direct C losses through combustion. Intermediate heat exposure produced both combustion losses and increases in DOC and mineralizability, which may have complex long-term implications: an increased dissolved fraction of PyOM may promote downward transport into mineral soils and potentially contribute to deeper, longer-term C storage, but it may also make PyOM more susceptible to microbial decomposition. Under the lowest heat flux and deepest burial, most PyOM was retained, and changes in DOC and C mineralization were minimal. Finally, PyOM pH, an important chemical property, decreased under low-temperature heating but increased under higher temperatures.",
+      "We uploaded pH data for all samples (\u201cpH_of_all_samples.csv\u201d); pH and temperature-related data (peak temperature and degree hours) for samples in High and Low heat-flux treatments (\u201cpH_vs_peakT_and_degree_hours_only_for_heated_samples.csv\u201d); total C data (\u201cCN_pct_C_stock_C_loss_in_samples.csv\u201d); DOC and DIC data (\u201cdoc_dic.csv\u201d); and mineralized C (CO\u2082-C) data (\u201cCO2-C_all_original.csv\u201d). Additional details can be found in the Methods & Sampling section.",
+      "All datasets uploaded to ESS-DIVE are clearly labeled, cleaned, and include both raw and derived data, ready for reuse in other analyses. All analysis code and raw datasets are also available on GitHub: https://github.com/MengmengLuo/Fire-removes-preexisting-pyrogenic-organic-matter-from-the-ecosystem."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0006-8644-9547",
+        "givenName": "Mengmeng",
+        "familyName": "Luo",
+        "affiliation": "University of Wisconsin - Madison",
+        "email": "mluo47@wisc.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2628-3112",
+        "givenName": "Kara",
+        "familyName": "Yedinak",
+        "affiliation": "Northern Research Station, USDA Forest Service",
+        "email": "kara.yedinak@usda.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Keith",
+        "familyName": "Bourne",
+        "affiliation": "Forest Products Laboratory, USDA Forest Service",
+        "email": "keith.j.bourne@usda.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2269-5598",
+        "givenName": "Thea",
+        "familyName": "Whitman",
+        "affiliation": "University of British Columbia",
+        "email": "thea.whitman@ubc.ca"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "Temperature",
+      "Fire",
+      "Fire simulation",
+      "Pyrogenic organic matter",
+      "PyOM",
+      "Carbon",
+      "Biochar",
+      "Black carbon",
+      "Charcoal",
+      "Burn",
+      "Heat flux",
+      "Jack pine",
+      "Cone calorimeter",
+      "Mass loss calorimeter",
+      "Organic matter",
+      "Combustion",
+      "Soil heating",
+      "Sand heating"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > AGRICULTURE > FOREST SCIENCE > FOREST FIRE SCIENCE",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > CARBON",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL PH",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > FIRE ECOLOGY > FIRE DYNAMICS",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > FIRE ECOLOGY",
+      "pyrogenic_organic_matter_change_after_heating_in_sand_with_depths"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Jack pine (Pinus banksiana) used for producing pyrogenic organic matter (PyOM) in this study was harvested from Wilson State Forest Nursery, also known as Boscobel DNR, located in Boscobel, Wisconsin, USA.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.1461124,
+            "longitude": -90.6950388
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.1461124,
+            "longitude": -90.6950388
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0020351"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "University of Wisconsin-Madison Hatch"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-10-30",
+      "endDate": "2023-08-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2269-5598",
+      "givenName": "Thea",
+      "familyName": "Whitman",
+      "affiliation": "University of British Columbia",
+      "email": "thea.whitman@ubc.ca"
+    },
+    "citation": [
+      "Luo, M., Yedinak, K., Bourne, K., & Whitman, T. (2025a). Reburning pyrogenic organic matter: a laboratory method for dosing dynamic heat fluxes from above. International Journal of Wildland Fire, 34(3). doi: 10.1071/wf24128",
+      "Luo, M., Yedinak, K., Bourne, K., & Whitman, T. (2025b). Fire removes preexisting pyrogenic organic matter from the ecosystem through the mechanisms of both direct combustion and increasing mineralizability\u201d. bioRxiv. doi: 10.64898/2025.12.04.691661."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "ce2a773c-2ab4-48e2-833a-da27ae99b3c9"
+      },
+      "name": "Dissection of Carbon and Nitrogen Cycling in Post-Fire Soil Environments using a Genome-Informed Experimental Community (DE-SC0020351)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Thea",
+        "familyName": "Whitman",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of Wisconsin, Madison",
+        "email": "twhitman@wisc.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Sample collection and analytical procedures are described in detail in the associated preprint (Luo et al., 2025b). Briefly, samples consisted of finely ground PyOM\u2013sand mixtures collected after pyrocosm burns (additional pyrocosm details in the published paper by Luo et al., 2025a). All samples were normalized to contain ~80 g of sand and were analyzed for pH, dissolved carbon, total carbon, and mineralized carbon. The following steps describe each uploaded dataset in detail.",
+      "For each PyOM\u2013sand sample and for the sand blank (ground quartz sand), 0.5 g of material was weighed into a 15 mL Falcon tube and saturated with 0.5 mL DI water for 48 hours. An additional 9.5 mL of DI water was then added to achieve a solid-to-liquid ratio of 1:20 (g:mL). After oscillation and centrifugation, the supernatant was measured using a pH probe.\nTwo datasets were created:\n1. \u201cpH_of_all_samples.csv\u201d \u2014 pH measurements for all samples (means of two replicates).\n2. \u201cpH_vs_peakT_and_degree_hours_only_for_heated_samples.csv\u201d \u2014 pH data for only the High- and Low\u2013heat-flux treatments (Controls excluded), with accompanying peak temperature and degree-hour data from the pyrocosm burns.\nThe latter dataset was used to analyze how pH responds to peak temperature and cumulative heat exposure (degree hours).",
+      "Samples used for total C analysis were dried at 60 \u00b0C for 48 hours, encapsulated in tin capsules, and analyzed for C and N using an Elemental Analyzer. In \u201cCN_pct_C_stock_C_loss_in_samples.csv\u201d:\n1. \u201cC_pct\u201d and \u201cN_pct\u201d represent raw analyzer outputs (nitrogen values were not further analyzed).\n2. \u201cC_in_PyOM-sand_samples_after_heatflux-depth_treatment_(mg_C_per_sample)\u201d was calculated from \u201cC_pct\u201d following the methods described in the preprint.\n3. \u201caverage_C_in_PyOM-sand_samples_in_controls_(mg_C_per_sample)_for_calculating_C_loss_fraction\u201d provides mean C stocks for each depth in the Control treatment and was used to calculate C loss fractions (detailed in the preprint\u2019s Supporting Information).",
+      "DOC samples were prepared at a 1:3 sample-to-water ratio using DI water, oscillated, and centrifuged. The supernatant was collected using a syringe and filtered through a GD/X 25 mm sterile syringe filter (glass microfiber, 0.45 \u00b5m). Filtrates were transferred into 17 mL TOC vials and analyzed using a TOC Analyzer.\nIn \u201cdoc_dic.csv\u201d:\n1. Columns labeled with \u201cppm\u201d are raw analyzer outputs (mg C per liter of solution).\n2. DOC and DIC stocks (in mg C per sample) were calculated from these concentrations.",
+      "To assess PyOM mineralization following subsequent fire, samples were incubated for 12 weeks with a microbial inoculum. Each incubation consisted of a vial containing 15 g of sample plus microbial inoculant and a second vial containing KOH solution as the CO\u2082 trap.\nBoth vials were enclosed in a sealed 8 oz (236.6 mL) glass jar. Conductivity of the KOH solution was measured periodically, and CO\u2082-C absorbed by KOH was calculated as described in the preprint.\nIn \u201cCO2-C_all_original.csv\u201d:\n1. \u201ccumulative_C_loss_as_CO2_in_the_15g_incubated_sample_g\u201d represents the cumulative CO\u2082-C absorbed by KOH.\n2. \u201cmg_of_CO2-C_in_each_sample_cumulated_by_week\u201d contains the per-sample CO\u2082-C stock, cumulative by week.\nBecause CO\u2082-C values are cumulative, the total 12-week mineralized C corresponds to week 12. One outlier (SampleID = 1 in the High-heat-flux, Surface treatment) was excluded when graphing total CO\u2082-C. All High-heat-flux Surface and High-heat-flux 1 cm samples were excluded when calculating mineralizability due to their near-zero total C content (below analyzer quantification limits).\nWe fit incubation data to a one-pool decay model to estimate the decomposable C fraction and decomposition rate; these results are presented in the preprint and its Supporting Material.",
+      "Using the datasets uploaded to ESS-DIVE, we also analyzed relationships between DOC and CO\u2082-C, between decomposable C fraction and mineralizability, and among pH, DOC, and DIC.\nThese analyses are described in the associated preprint and can be conducted using the cleaned datasets included in this data package."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1.400390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-612f56741fca7bd-20251202T000237245",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-612f56741fca7bd-20251202T000237245",
+        "name": "pH_vs_peakT_and_degree_hours_only_for_heated_samples.csv"
+      },
+      {
+        "contentSize": 3.080078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-edb3bee2dce575d-20251202T000225721",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-edb3bee2dce575d-20251202T000225721",
+        "name": "doc_dic.csv"
+      },
+      {
+        "contentSize": 14.099609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5d9ea7aa50a4009-20251209T212408020",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-5d9ea7aa50a4009-20251209T212408020",
+        "name": "Heating_effects_on_jack_pine_pyrogenic_organic.xml"
+      },
+      {
+        "contentSize": 6.3408203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7d02abc74f611c9-20251202T000212438",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7d02abc74f611c9-20251202T000212438",
+        "name": "CN_pct_C_stock_C_loss_in_samples.csv"
+      },
+      {
+        "contentSize": 24.93359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-71f4f69d4616f60-20251202T000220279",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-71f4f69d4616f60-20251202T000220279",
+        "name": "CO2_C_all_original.csv"
+      },
+      {
+        "contentSize": 0.943359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b218ab156ffdb33-20251202T000231351",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b218ab156ffdb33-20251202T000231351",
+        "name": "pH_of_all_samples.csv"
+      }
+    ]
+  }
+}

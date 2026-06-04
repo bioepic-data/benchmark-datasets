@@ -1,0 +1,164 @@
+{
+  "id": "ess-dive-a60e9db6aa54c44-20250213T012359853",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1810547",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a60e9db6aa54c44-20250213T012359853",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a60e9db6aa54c44-20230808T203452740",
+  "dateUploaded": "2025-02-13T01:24:00.715Z",
+  "dateModified": "2025-02-13T01:24:03.479Z",
+  "isPublic": true,
+  "citation": "Pierce S; Bargar J (2021): Total metals & anion concentration data; Slate River floodplain, Crested Butte, CO; May 2020-September 2020. Groundwater Quality SFA. Dataset. doi:10.15485/1810547",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1810547",
+    "name": "Total metals & anion concentration data; Slate River floodplain, Crested Butte, CO; May 2020-September 2020",
+    "description": [
+      "This data package includes processed and undiluted measurements for metal and anion concentrations from pore water (groundwater) samples from the Slate River floodplain of Crested Butte, CO, a focus field site for the SLAC Floodplain Hydro-Biogeochemistry SFA. The data was generated as part of the work targeting the overarching research question for the SLAC SFA: How do ubiquitous subsurface interfaces mediate molecular-scale biogeochemical processes and groundwater quality in floodplains and watersheds? Samples were collected between May and September of 2020. These measurements were all recorded at the Arizona Laboratory for Emerging Contaminants (ALEC) at the University of Arizona located in Tucson, AZ. Groundwater samples were extracted from a network of installed rhizon (Rhizosphere Research Products, part no. 19.60.21F, 0.6 micrometer mesh size) and piezometer wells within the river floodplain. All water samples were shaded from sun exposure during extraction from the subsurface and preserved at 4C until measured at ALEC.",
+      "Analysis by ICP-MS:",
+      "Measurements for total metals were made on the Agilent 7700x ICP-MS (for total metals) \u2013 Agilent Technologies, Santa Clara, CA.",
+      "The analytical QA/QC protocol was adapted from US EPA Method 200.8 for analysis by ICP-MS. Calibration standards were prepared from multi-element stock solution (Sigma-Aldrich Multielement standard solution for ICP, St. Louis, MO) using matrix matched to sample solutions (either 2% HCl or HNO3 from AriStar Plus,grade acids from VWR Scientific). Calibration curves include at least 7 points with correlation coefficients > 0.995. The QC protocol includes a continuing calibration blank (CCB), a continuing calibration verification (CCV) solution and at least one quality control sample (QCS) to be analyzed just after calibration and again after every 12 samples and at the completion of the run. The QCS solutions are from an independent source, such as NIST SRM 1643e - Trace Elements in Water, or QCS solutions from High Purity Standards (Charleston, SC). Acceptable QC responses must be between 90 and 110% of the certified value. An internal standard (Rh) is added via on-line addition into the sample line using a mixing tee.",
+      "Analysis by Ion Chromatography (Anions):",
+      "The protocol follows Method 4110 in Standard Methods for Examination of Water and Wastewater.",
+      "The instrument used is the Thermo Scientific Dionex ICS-6000 using AS+AG22 column set for anion analysis with isocratic method using sodium carbonate eluent. Detection is by chemical suppression of eluent conductivity. Quality control solutions and mixed analyte standards purchased from Inorganic Ventures, Christiansburg, VA.",
+      "All files are in csv format."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7614-0227",
+        "givenName": "Samuel",
+        "familyName": "Pierce",
+        "email": "swpierce@slac.stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9303-4901",
+        "givenName": "John",
+        "familyName": "Bargar",
+        "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+        "email": "bargar@slac.stanford.edu"
+      }
+    ],
+    "datePublished": "2021-05-14",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Sample ID and Metadata Reporting Format",
+      "related identifiers"
+    ],
+    "variableMeasured": [
+      "ion",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUNDWATER CHEMISTRY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > WATER TRACE ELEMENTS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > CONTAMINANTS > METALS/MINERALS",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > SULFUR COMPOUNDS > SULFATE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The Slate River (SR) a snow-dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The SR is located just north of the town of Crested Butte, CO.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.910142,
+            "longitude": -107.030593
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.896436,
+            "longitude": -107.011096
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-05-14",
+      "endDate": "2020-09-11",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7614-0227",
+      "givenName": "Samuel",
+      "familyName": "Pierce",
+      "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+      "email": "swpierce@slac.stanford.edu"
+    },
+    "citation": [
+      "ASSOCIATED JOURNAL ARTICLE(S)",
+      "Engel et al., (2023) \u201cStructure and composition of natural ferrihydrite nano-colloids in anoxic groundwater\u201d https://doi.org/10.1016/j.watres.2023.119990"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "14a7e1cf-5a60-4ac3-9527-ec20fed6815f"
+      },
+      "name": "Groundwater Quality SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Bargar",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Stanford Linear Accelerator Center",
+        "email": "bargar@slac.stanford.edu"
+      }
+    },
+    "measurementTechnique": [
+      "ANALYSIS BY ICP-MS:\nMeasurements for total metals were made on the Agilent 7700x ICP-MS (for total metals) \u2013 Agilent Technologies, Santa Clara, CA.\nThe analytical QA/QC protocol was adapted from US EPA Method 200.8 for analysis by ICP-MS. Calibration standards were prepared from multi-element stock solution (Sigma-Aldrich Multielement standard solution for ICP, St. Louis, MO) using matrix matched to sample solutions (either 2% HCl or HNO3 from AriStar Plus,grade acids from VWR Scientific). Calibration curves include at least 7 points with correlation coefficients > 0.995. The QC protocol includes a continuing calibration blank (CCB), a continuing calibration verification (CCV) solution and at least one quality control sample (QCS) to be analyzed just after calibration and again after every 12 samples and at the completion of the run. The QCS solutions are from an independent source, such as NIST SRM 1643e - Trace Elements in Water, or QCS solutions from High Purity Standards (Charleston, SC). Acceptable QC responses must be between 90 and 110% of the certified value. An internal standard (Rh) is added via on-line addition into the sample line using a mixing tee.",
+      "ANALYSIS BY ION CHROMATOGRAPHY:\nThe protocol follows Method 4110 in Standard Methods for Examination of Water and Wastewater.\nThe instrument used is the Thermo Scientific Dionex ICS-6000 using AS+AG22 column set for anion analysis with isocratic method using sodium carbonate eluent. Detection is by chemical suppression of eluent conductivity. Quality control solutions and mixed analyte standards purchased from Inorganic Ventures, Christiansburg, VA."
+    ],
+    "distribution": [
+      {
+        "contentSize": 11.8193359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-15b31d87e727e4a-20210514T195916282",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-15b31d87e727e4a-20210514T195916282",
+        "name": "SR_2020_metals_anions_methods.csv"
+      },
+      {
+        "contentSize": 5.0625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5b0862d14adc6a1-20210514T195922537",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5b0862d14adc6a1-20210514T195922537",
+        "name": "SR_2020_metals_anions_terminology.csv"
+      },
+      {
+        "contentSize": 10.607421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a60e9db6aa54c44-20250213T012359853",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-a60e9db6aa54c44-20250213T012359853",
+        "name": "Total_metals_anion_concentration_data_Slate.xml"
+      },
+      {
+        "contentSize": 1.171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-be9fcd2e5b652f2-20210514T195916277",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-be9fcd2e5b652f2-20210514T195916277",
+        "name": "SR_2020_metals_anions_flmd.csv"
+      },
+      {
+        "contentSize": 171.8759765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ded0999d91f76a5-20210514T195916264",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ded0999d91f76a5-20210514T195916264",
+        "name": "SR_2020_metals_anions_data.csv"
+      }
+    ]
+  }
+}

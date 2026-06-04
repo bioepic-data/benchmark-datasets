@@ -1,0 +1,233 @@
+{
+  "id": "ess-dive-d50547090549650-20250813T162900121",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2345681",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-d50547090549650-20250813T162900121",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d50547090549650-20250813T162628711",
+  "dateUploaded": "2025-08-13T16:29:27.097Z",
+  "dateModified": "2025-08-13T16:29:27.489Z",
+  "isPublic": true,
+  "citation": "Lo M; Stoycheva T; McCormack M L (2024): Dendrometer data at The Morton Arboretum Forestry Plots 2019-2023. ORNL Terrestrial Ecosystem Science SFA. Dataset. doi:10.15485/2345681",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2345681",
+    "name": "Dendrometer data at The Morton Arboretum Forestry Plots 2019-2023",
+    "description": [
+      "We are collecting long-term dendrometer data at The Morton Arboretum to determine seasonal growth patterns in trees. This data on stem growth patterns will eventually be integrated with other ongoing data streams to paint a broader picture of plant phenology. This data package contains the outputs from three types of dendrometer devices: ICT band dendrometer data is in the \"ICT_data2020_2023.csv\" file, TreeHugger band dendrometer data is in the \"TreeHugger_data2019_2020.csv\" file, and TOMST point dendrometer data is in the \"TOMST_data2021_2023.csv\" file. The TreeHugger and TOMST files contain corrected and raw uncorrected values, whereas the ICT data file contains only raw data. Initial tree size data at device installation is located in the \"Initial_Tree_Size.csv\" file. Additional information on units are contained within each data file's respective data dictionary, and the location metadata file contains the geographic locations of the 23 forestry plots at The Morton Arboretum as well as the measured tree species at each location."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7928-8494",
+        "givenName": "Marvin",
+        "familyName": "Lo",
+        "affiliation": "The Morton Arboretum",
+        "email": "marvinlo@mortonarb.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9512-967X",
+        "givenName": "Teodora",
+        "familyName": "Stoycheva",
+        "affiliation": "The Morton Arboretum",
+        "email": "tstoycheva@mortonarb.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8300-5215",
+        "givenName": "M. Luke",
+        "familyName": "McCormack",
+        "affiliation": "The Morton Arboretum",
+        "email": "lmccormack@mortonarb.org"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3856-5480",
+        "givenName": "Newton",
+        "familyName": "Tran",
+        "affiliation": "The Morton Arboretum",
+        "email": "ntran@mortonarb.org"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "dendrometer",
+      "tree size",
+      "tree growth",
+      "growth increment",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "circumference",
+      "radial growth"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Dendrometer data was collected on four to five trees within the Forestry Plots at The Morton Arboretum. See the Locations_metadata file for geographic coordinates of each forestry plot.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.821286,
+            "longitude": -88.097085
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.81054,
+            "longitude": -88.036886
+          }
+        ]
+      }
+    ],
+    "award": [
+      "Subcontract 4000146074; years 2019-2023",
+      "Subcontract CW53635; years 2024-2028"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "The Morton Arboretum"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-04-05",
+      "endDate": "2023-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8300-5215",
+      "givenName": "M. Luke",
+      "familyName": "McCormack",
+      "affiliation": "The Morton Arboretum",
+      "email": "lmccormack@mortonarb.org"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1e6d50d3-9532-43fb-a63f-bdcb4350bf0c"
+      },
+      "name": "ORNL Terrestrial Ecosystem Science SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Hanson",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "hansonpj@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Dendrometers were installed at DBH (1.3 m aboveground) to measure changes in circumference (ICT and TreeHugger bands) and radial growth (TOMST point dendrometers) of four to five trees in each of the established forestry plots. TreeHuggers were the first to be installed in March/April of 2019 (set to 15 minute measurement increments then adjusted to 60 minute increments in 2020 to increase battery lifespan). As additional forestry plots were added or as TreeHuggers required replacement, TOMST point dendrometers were installed in 2021 to collect measurements in 15 minute increments. The ICT dendrometers were installed in 2020 in only four of the plots and collect measurements in 30 minute increments. ICT bands measure changes in stem circumference in mm, TreeHuggers measure changes in stem circumference in mm, and TOMST measure radial growth in um.",
+      "After data for each dendrometer was downloaded, the files for TreeHugger and TOMST devices were appended, corrected, and hourly averages were calculated using Python. For each specific group (\"Series\" column and year), a standardized Z-score was calculated to identify outliers (Z-score = value - (mean(value)/stdev(value)). Values with a Z-score beyond +/- 2 standard deviations are considered outliers and were replaced or marked as NA's in the corrected value column.",
+      "Using R Studio, datetime issues (typically for TreeHuggers) were manually corrected based on the date of installation and the last download for each device. Data for TreeHuggers and TOMST were then split into individual files, and ICT data for each device was also appended into its own file. Missing value codes are added as \"-99999\"."
+    ],
+    "distribution": [
+      {
+        "contentSize": 52354.8564453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2682e98d18edad9-20240502T114743642",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2682e98d18edad9-20240502T114743642",
+        "name": "ICT_data2020_2023.csv"
+      },
+      {
+        "contentSize": 1.2421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-03783b54f20761d-20240426T141441537",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-03783b54f20761d-20240426T141441537",
+        "name": "flmd_dd.csv"
+      },
+      {
+        "contentSize": 143260.478515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-115454634eefa3b-20240426T144118969",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-115454634eefa3b-20240426T144118969",
+        "name": "TOMST_data2021_2023.csv"
+      },
+      {
+        "contentSize": 0.494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-12929f6f874abb3-20240426T141512883",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-12929f6f874abb3-20240426T141512883",
+        "name": "Initial_Tree_Size_dd.csv"
+      },
+      {
+        "contentSize": 0.4677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0f44e559348c557-20240426T141525015",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0f44e559348c557-20240426T141525015",
+        "name": "ICT_data2020_2023_dd.csv"
+      },
+      {
+        "contentSize": 91862.380859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3729aa16a350d97-20240426T143833234",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3729aa16a350d97-20240426T143833234",
+        "name": "TreeHugger_data2019_2020.csv"
+      },
+      {
+        "contentSize": 0.595703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-47130ef3841b10c-20240426T141639492",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-47130ef3841b10c-20240426T141639492",
+        "name": "TreeHugger_data2019_2020_dd.csv"
+      },
+      {
+        "contentSize": 4.34375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a52372d0ade41a-20240501T182542813",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3a52372d0ade41a-20240501T182542813",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 9.412109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d50547090549650-20250813T162900121",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-d50547090549650-20250813T162900121",
+        "name": "Dendrometer_data_at_The_Morton_Arboretum_Forestry.xml"
+      },
+      {
+        "contentSize": 0.568359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e017db27274b0e1-20240426T141639502",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e017db27274b0e1-20240426T141639502",
+        "name": "TOMST_data2021_2023_dd.csv"
+      },
+      {
+        "contentSize": 5.7724609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8bc8e9d193595b2-20240429T123554523",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8bc8e9d193595b2-20240429T123554523",
+        "name": "Location_metadata.csv"
+      },
+      {
+        "contentSize": 7.4892578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f60ff78f482b441-20240426T141512889",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f60ff78f482b441-20240426T141512889",
+        "name": "Initial_Tree_Size.csv"
+      },
+      {
+        "contentSize": 1.248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fe4c6e528a73ec0-20240426T141459017",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fe4c6e528a73ec0-20240426T141459017",
+        "name": "Location_metadata_dd.csv"
+      }
+    ]
+  }
+}

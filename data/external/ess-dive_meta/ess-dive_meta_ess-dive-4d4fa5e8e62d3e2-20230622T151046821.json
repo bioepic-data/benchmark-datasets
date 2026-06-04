@@ -1,0 +1,164 @@
+{
+  "id": "ess-dive-4d4fa5e8e62d3e2-20230622T151046821",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1985920",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-4d4fa5e8e62d3e2-20230622T151046821",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-fda9fe95a3d8929-20230616T005523585",
+  "dateUploaded": "2023-06-22T15:10:48.179Z",
+  "dateModified": "2023-06-29T15:31:42.493Z",
+  "isPublic": true,
+  "citation": "Torgeson J M; Kaufman M H; Stegen J C (2023): Optode performance data associated with: Metabolic Multireactor: practical considerations for using simple oxygen sensing optodes for high-throughput batch reactor metabolism experiments. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1985920",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1985920",
+    "name": "Optode performance data associated with: Metabolic Multireactor: practical considerations for using simple oxygen sensing optodes for high-throughput batch reactor metabolism experiments",
+    "description": [
+      "This data package is associated with the publication \u201cMetabolic Multireactor: practical considerations for using simple oxygen sensing optodes for high-throughput batch reactor metabolism experiments\u201d, submitted to PlosONE (Kaufman et al. 2023; 10.1101/2023.03.28.534656).",
+      "We carried out many testing and calibration experiments on a system of small oxygen consumption batch reactors designed for use with water and sediment samples for environmental questions. The oxygen sensing system is based very directly on the work of Larsen, et al. [2011], and similar oxygen sensing technology is widely used in the literature. Our primary focus was on practical considerations, such as temperature effects, lighting angle effects, sterilization, and other similar situations that a user may find useful. Most of the tests required comparing \u201cbase\u201d calibration curves to \u201ctreatment\u201d calibration curves to determine the extent to which the treatment impacted the reported measurements. This data package contains the performance and calibration data collected for that purpose.",
+      "This dataset is comprised of one data folder containing (1) file-level metadata; (2) data dictionary; (3) readme; (4) diffusion test result files; (5) limit of detection test result files; (6) temperature impact files; (7) a main data file that contains test results for all other tests; and (8) an R script that uses Kolmogorov-Smirnov tests to determine whether treatment calibrations are significantly different from their respective base calibrations. All files are .csv, .txt, .Rmd, or .pdf."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2489-2248",
+        "givenName": "Joshua M.",
+        "familyName": "Torgeson",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "joshua.torgeson@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1498-8219",
+        "givenName": "Matthew H.",
+        "familyName": "Kaufman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "matthew.kaufman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2023-06-07",
+    "keywords": [
+      "River corridor",
+      "Biogeochemistry",
+      "Hyporheic zone",
+      "River",
+      "Stream",
+      "Metabolism",
+      "Respiration",
+      "Dissolved oxygen",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Dissolved oxygen concentration",
+      "Dissolved oxygen percent saturation",
+      "R value",
+      "Gas flow rate",
+      "Raw light intensity",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > GASES > DISSOLVED OXYGEN",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > WATER TEMPERATURE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Pacific Northwest National Laboratory, WA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.348,
+            "longitude": -119.281
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.348,
+            "longitude": -119.281
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-10-01",
+      "endDate": "2023-05-25",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1498-8219",
+      "givenName": "Matthew H.",
+      "familyName": "Kaufman",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "James.Stegen@pnnl.gov"
+    },
+    "citation": [
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Kaufman, M. H., Torgeson, J., Stegen, J. \"Metabolic Multireactor: practical considerations for using simple oxygen sensing optodes for high-throughput batch reactor metabolism experiments.\" bioRxiv (2023): 2023-03. https://doi.org/10.1101/2023.03.28.534656",
+      "Larsen, Morten, et al. \"A simple and inexpensive high resolution color ratiometric planar optode imaging approach: application to oxygen and pH sensing.\" Limnology and Oceanography: Methods 9.9 (2011): 348-360.",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "A cocktail of optical dissolved oxygen sensing dyes was processed onto various substrates for imaging dissolved oxygen conditions in small bioreactors. These optical sensors were subjected to many different laboratory conditions, including light, imaging systems, pH, and many others, to determine how best to use them in a laboratory setting."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3.205078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d993a319ec494c5-20230607T223527120",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d993a319ec494c5-20230607T223527120",
+        "name": "Multireactor_flmd.csv"
+      },
+      {
+        "contentSize": 9.53125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4d4fa5e8e62d3e2-20230622T151046821",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-4d4fa5e8e62d3e2-20230622T151046821",
+        "name": "Optode_performance_data_associated_with_.xml"
+      },
+      {
+        "contentSize": 3067.337890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9f17137e8d4018c-20230607T223522626",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9f17137e8d4018c-20230607T223522626",
+        "name": "Kaufman_Multireactor_Data_Package.zip"
+      }
+    ]
+  }
+}

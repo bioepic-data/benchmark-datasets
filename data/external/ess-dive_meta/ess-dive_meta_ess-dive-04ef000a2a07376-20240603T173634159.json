@@ -1,0 +1,382 @@
+{
+  "id": "ess-dive-04ef000a2a07376-20240603T173634159",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1991625",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-04ef000a2a07376-20240603T173634159",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-04ef000a2a07376-20240513T145632694",
+  "dateUploaded": "2024-06-03T17:36:36.229Z",
+  "dateModified": "2024-06-06T06:21:21.948Z",
+  "isPublic": true,
+  "citation": "Sulman B; Wang J; LaFond-Hudson S; O'Meara T; Yuan F; Molins S; Forbrich I; Cardon Z; Giblin A (2023): Model simulations of Plum Island Ecosystems LTER low marsh site using ELM-PFLOTRAN. Simulating estuarine wetland function: Nitrogen removal, carbon sequestration, and greenhouse gas fluxes at the river-land-ocean interface. Dataset. doi:10.15485/1991625",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1991625",
+    "name": "Model simulations of Plum Island Ecosystems LTER low marsh site using ELM-PFLOTRAN",
+    "description": [
+      "Model simulations using the E3SM Land Model (ELM) coupled to the PFLOTRAN reactive transport model via the Alquimia interface. The simulations were conducted for a tidal salt marsh at the Plum Island Ecosystems LTER near Rowley, Massachusetts, USA. Model simulations were forced using site-specific tidal cycles and salinity, and the simulations used a biogeochemical reaction network including aerobic decomposition, sulfate reduction, iron reduction, and methanogenesis. Model outputs include simulated carbon stocks, carbon dioxide and methane fluxes, and porewater concentrations of key solutes related to sulfur, iron, and carbon cycling. The model simulations included a saline simulation (with tidal sulfate inputs), a fresh simulation (with low salinity and low sulfate inputs), and a saline simulation with lower vegetation productivity to represent the effect of salinity on vegetation. These simulations were conducted to demonstrate that a new model framework incorporating subsurface redox and biogeochemical interactions into a land surface model could reproduce measured surface greenhouse gas fluxes and biogeochemical dynamics in tidal marsh ecosystems, and to test whether including redox interactions in a land surface model would allow the model to resolve contrasts in biogeochemical cycling and greenhouse gas production between saline and freshwater wetlands.",
+      "The data package includes gzipped tar archives (which can be expanded using standard tar and gzip utilities) of model outputs from three model configurations: saline subsurface and reduced vegetation productivity related to salinity; saline subsurface with vegetation productivity not reduced; and freshwater. Also included are code for the modified E3SM model, Alquimia interface, and PFLOTRAN reactive transport simulator in gzipped tar format; plain text parameter and configuration files; python code files for visualizing model output and defining model configurations; and model output, tide and salinity forcing, and configuration files in netCDF format. See the README.md file in the data package for a detailed description of all files contained in the package. All files are in netCDF (.nc), gzipped tar archive (.tar.gz or .tgz), or text (all other files).",
+      "Updated: May 13, 2024. Model output, E3SM code, PFLOTRAN input files, and python codes for visualizing results were updated to reflect changes made for the manuscript revision. The updated archive reflects the code and model output from the final accepted manuscript. Changes included updated reaction parameters reflecting improved parameterization and additional comparisons with field measurements. E3SM code changes included better support for multiple grid cells and improved flow and transport parameterization."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3265-6691",
+        "givenName": "Benjamin",
+        "familyName": "Sulman",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "sulmanbn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jiaze",
+        "familyName": "Wang",
+        "affiliation": "University of Maine",
+        "email": "jiaze.wang@maine.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophie",
+        "familyName": "LaFond-Hudson",
+        "affiliation": "U.S. Geological Survey",
+        "email": "slafond09@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Teri",
+        "familyName": "O'Meara",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "omearata@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Fengming",
+        "familyName": "Yuan",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "yuanf@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sergi",
+        "familyName": "Molins",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "smolins@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Inke",
+        "familyName": "Forbrich",
+        "affiliation": "University of Toledo",
+        "email": "Inke.Forbrich@UToledo.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zoe",
+        "familyName": "Cardon",
+        "affiliation": "Marine Biological Laboratory",
+        "email": "zcardon@mbl.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Anne",
+        "familyName": "Giblin",
+        "affiliation": "Marine Biological Laboratory",
+        "email": "agiblin@mbl.edu"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS",
+      "EARTH SCIENCE > OCEANS > COASTAL PROCESSES",
+      "Wetlands",
+      "Modeling",
+      "Methane",
+      "Redox",
+      "Biogeochemistry",
+      "Salt marsh"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Plum Island Ecosystems LTER low marsh site. Equipped with an eddy covariance flux tower in 2015. Nearby measurements of channel water height, salinity, and solutes were also available.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.734462738,
+            "longitude": -70.83823394
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.734462738,
+            "longitude": -70.83823394
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0500OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1850-01-01",
+      "endDate": "2001-01-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3265-6691",
+      "givenName": "Benjamin",
+      "familyName": "Sulman",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "sulmanbn@ornl.gov"
+    },
+    "citation": [
+      "Giblin, A., Hopkinson, C., & PIE LTER. (2021). PIE LTER marsh sediment porewater nutrient concentrations from Spartina sp. and Typha sp. sites along the Parker River and Rowley River, MA [Data set]. Environmental Data Initiative. https://doi.org/10.6073/PASTA/1099AEFC63208D9405DF293667F6A83D",
+      "Giblin, A., & Forbrich, I. (2022). Eddy flux measurements during 2015 from low marsh site (Spartina alterniflora) within Shad Creek catchment, Rowley, Massachusetts [Data set]. Environmental Data Initiative. https://doi.org/10.6073/PASTA/A1FFF894A469042BCEEFF05561A3D9F7",
+      "Giblin, A. (2021). Marsh water table height, logging data from the Shad Creek Spartina marsh site for April-November 2019, Rowley, MA, PIE LTER [Data set]. Environmental Data Initiative. https://doi.org/10.6073/PASTA/605232AED464701C5B576C54F1CA7F62",
+      "Spivak, A. (2020). Bulk soil and elemental properties of marsh and infilled pond soils collected in 2014-2015 within Plum Island Ecosystems LTER [Data set]. Biological and Chemical Oceanography Data Management Office (BCO-DMO). https://doi.org/10.26008/1912/BCO-DMO.827298.1",
+      "Sulman, B. N., Wang, J., LaFond-Hudson, S., O\u2019Meara, T. A., Yuan, F., Molins, S., et al. (2024). Integrating tide\u2010driven wetland soil redox and biogeochemical interactions into a land surface model. Journal of Advances in Modeling Earth Systems, 16(4). https://doi.org/10.1029/2023ms004002"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "66505938-96ad-4a5d-8758-ab3d776343d5"
+      },
+      "name": "Simulating estuarine wetland function: Nitrogen removal, carbon sequestration, and greenhouse gas fluxes at the river-land-ocean interface",
+      "member": {
+        "@type": "Person",
+        "givenName": "Benjamin",
+        "familyName": "Sulman",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge Naitonal Laboratory",
+        "email": "sulmanbn@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "These simulations used the E3SM Land Model (ELM) coupled to PFLOTRAN via the Alquimia interface to simulate subsurface biogeochemistry and its responses to tidal fluctuations and salinity inputs. Simulations were forced using site-specific meteorology and patterns of tidal fluctuations for the study site, a low marsh at the Plum Island Ecosystems LTER near Rowley, MA. The biogeochemical reaction network included aerobic decomposition, fermentation, sulfate reduction, iron reduction, and methanogenesis as well as iron oxide and iron sulfide mineral precipitation and dissolution. Model simulations were evaluated using eddy covariance flux measurements, soil carbon profiles, and porewater measurements from previously collected datasets (see related references)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 57339.912109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1b9db1a514b4125-20230720T192845046",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-1b9db1a514b4125-20230720T192845046",
+        "name": "pflotran_code_tar.gz"
+      },
+      {
+        "contentSize": 15.51953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-04ef000a2a07376-20240603T173634159",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-04ef000a2a07376-20240603T173634159",
+        "name": "Model_simulations_of_Plum_Island_Ecosystems_LTER.xml"
+      },
+      {
+        "contentSize": 1105192.146484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0580aefb8a4ed78-20240513T144558923",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-0580aefb8a4ed78-20240513T144558923",
+        "name": "output_salinity_noplantsal.tgz"
+      },
+      {
+        "contentSize": 63.1455078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-13ef77705b8fa3a-20240513T144558918",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-13ef77705b8fa3a-20240513T144558918",
+        "name": "network_for_ELM.py"
+      },
+      {
+        "contentSize": 0.7119140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-10049b89846a70a-20230720T195721852",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-10049b89846a70a-20230720T195721852",
+        "name": "parms_PLM_20221114"
+      },
+      {
+        "contentSize": 24.7529296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3fa2cbd4aeb0910-20230720T180043492",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-3fa2cbd4aeb0910-20230720T180043492",
+        "name": "CTC_alquimia_forELM_O2consuming.in"
+      },
+      {
+        "contentSize": 470.875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-322a4834270417e-20230720T180043499",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-322a4834270417e-20230720T180043499",
+        "name": "hanford.dat"
+      },
+      {
+        "contentSize": 4.1328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-456fef5df3b2106-20230720T180043503",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-456fef5df3b2106-20230720T180043503",
+        "name": "marsh_sim_cmds.txt"
+      },
+      {
+        "contentSize": 1083273.525390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-469e061743d0104-20230720T180043510",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-469e061743d0104-20230720T180043510",
+        "name": "output_nosalinity.tgz"
+      },
+      {
+        "contentSize": 24.7529296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-eb8548eb1d4b7e4-20230720T180043480",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-eb8548eb1d4b7e4-20230720T180043480",
+        "name": "CTC_alquimia_forELM_O2consuming_adspinup.in"
+      },
+      {
+        "contentSize": 24.7509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d5f3d9771a2c65e-20240513T144558897",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-d5f3d9771a2c65e-20240513T144558897",
+        "name": "CTC_alquimia_forELM_O2consuming_adspinup.in"
+      },
+      {
+        "contentSize": 1144363.9609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e0e2f56857b9f74-20240513T144558926",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-e0e2f56857b9f74-20240513T144558926",
+        "name": "output_salinity.tgz"
+      },
+      {
+        "contentSize": 213.3701171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5e649069b23f009-20230720T192845035",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-5e649069b23f009-20230720T192845035",
+        "name": "alquimia_code_tar.gz"
+      },
+      {
+        "contentSize": 1076251.7314453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5b084b4871d6ccc-20230720T180043513",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-5b084b4871d6ccc-20230720T180043513",
+        "name": "output_salinity_noplantsal.tgz"
+      },
+      {
+        "contentSize": 1077631.685546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-661ae154fea5d11-20230720T180043517",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-661ae154fea5d11-20230720T180043517",
+        "name": "output_salinity.tgz"
+      },
+      {
+        "contentSize": 24.7509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a43d46ceb7e644-20240513T144558911",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-7a43d46ceb7e644-20240513T144558911",
+        "name": "CTC_alquimia_forELM_O2consuming.in"
+      },
+      {
+        "contentSize": 3.380859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8001ded2b02c1dc-20230720T180043525",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-8001ded2b02c1dc-20230720T180043525",
+        "name": "SOMdecomp_template.txt"
+      },
+      {
+        "contentSize": 1131055.40234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6b0155c51eb67e5-20240513T144558920",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-6b0155c51eb67e5-20240513T144558920",
+        "name": "output_nosalinity.tgz"
+      },
+      {
+        "contentSize": 0.7138671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7c811ae94b13137-20230720T195721857",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-7c811ae94b13137-20230720T195721857",
+        "name": "parms_PLM_nosalinityresponse"
+      },
+      {
+        "contentSize": 21369.7275390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8d61877e47f584b-20230720T192845041",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-8d61877e47f584b-20230720T192845041",
+        "name": "E3SM_code_tar.gz"
+      },
+      {
+        "contentSize": 282.00390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a76e0580f1a3891-20230720T180043528",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a76e0580f1a3891-20230720T180043528",
+        "name": "tidesPLM_2018_gapfill.nc"
+      },
+      {
+        "contentSize": 19.9013671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9a1a4e244ed43d6-20230720T180043521",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-9a1a4e244ed43d6-20230720T180043521",
+        "name": "salinity_comp.py"
+      },
+      {
+        "contentSize": 46.8046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9cc7127f0cf3d03-20230720T180043496",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-9cc7127f0cf3d03-20230720T180043496",
+        "name": "decomp_network.py"
+      },
+      {
+        "contentSize": 5.0654296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-90a934265dd15a5-20230721T134154780",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-90a934265dd15a5-20230721T134154780",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 281.7578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9250d8b71d63c8a-20230720T195721861",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-9250d8b71d63c8a-20230720T195721861",
+        "name": "tidesPLM_2018_gapfill_zerosalinity.nc"
+      },
+      {
+        "contentSize": 49.3349609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bb19c6518844f4a-20230720T180043506",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-bb19c6518844f4a-20230720T180043506",
+        "name": "network_for_ELM.py"
+      },
+      {
+        "contentSize": 15.841796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f42fdfe87d4a35e-20230720T201946641",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-f42fdfe87d4a35e-20230720T201946641",
+        "name": "plot_ELM_alquimia_result.py"
+      },
+      {
+        "contentSize": 49.7509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cff7cab4c985a59-20240513T145348767",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-cff7cab4c985a59-20240513T145348767",
+        "name": "network_for_ELM.py"
+      },
+      {
+        "contentSize": 21369.1591796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-06b67311e936fab-20240513T144558915",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-06b67311e936fab-20240513T144558915",
+        "name": "E3SM_code_tar.gz"
+      },
+      {
+        "contentSize": 41.8193359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-95163aa8a8c55d9-20240513T144558928",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-95163aa8a8c55d9-20240513T144558928",
+        "name": "salinity_comp.py"
+      }
+    ]
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "id": "ess-dive-ebff53121684912-20240819T203554789",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1577263",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-ebff53121684912-20240819T203554789",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ebff53121684912-20240422T192142074",
+  "dateUploaded": "2024-08-19T20:35:56.369Z",
+  "dateModified": "2024-08-19T20:36:00.343Z",
+  "isPublic": true,
+  "citation": "Danczak R E; Goldman A E; Chu R K; Garayburu-Caruso V A; Graham E B; He X; Lin X; Meile C; Morad J W; Ren H; Renteria L; Resch C T; Rooze J; Schalles J; Tfaily M; Thomle J; Tolic N; Toyoda J G; Wells J R; Stegen J C (2019): WHONDRS 48 Hour Diel Cycling Study at the Altamaha River in Georgia, USA. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1577263",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1577263",
+    "name": "WHONDRS 48 Hour Diel Cycling Study at the Altamaha River in Georgia, USA",
+    "description": [
+      "This dataset is from a sampling campaign completed over the course of 48 hours to investigate the effects of tidally induced water level variation on aqueous chemistry, dissolved organic matter chemistry, and metabolic potential of microbial communities at the Altamaha River, GA, USA. Filtered surface water (SW) and pore water (PP) samples were collected every three hours in October 2018. This dataset is one of seven companion datasets that were part of the WHONDRS 48 Hour Diel Cycling Study of freshwater rivers. All seven datasets are available on ESS-DIVE; they can be found by searching for WHONDRS 48 Hour.",
+      "This package contains a variety of chemical and hydrologic variables. All data types are provided in a standard format. Basic geochemistry analyses (e.g., non-purgeable organic carbon concentration, cations, anions, SpC, pH) were conducted, standardized photos were taken, surface water hydrographs were collated from existing instrumentation, and extensive metadata were captured. Aqueous chemistry variables include USGS codes in the first portion of the variable name (e.g., 00940_Cl_mg_per_L). These codes allow for interoperability with USGS water quality data. In addition, samples were delivered to the Environmental Molecular Sciences Laboratory (EMSL; https://www.pnnl.gov/environmental-molecular-sciences-laboratory) for high resolution characterization of dissolved organic matter via 12 Tesla Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS). The data package contains instructions to process the FTICR data based on the user\u2019s specific needs, and sample-level summary indices derived from the FTICR data will be added to the data package. Beyond the data in this data package, metagenomic data are being generated on associated microbial communities. When these data are available, the data package will be updated with information on accessing them. Please contact WHONDRS@pnnl.gov for more information.",
+      "Please use the data package\u2019s DOI to cite the data package. We ask that you email us at WHONDRS@pnnl.gov to let us know that you're using the data and acknowledge WHONDRS and the U.S. Department of Energy's Subsurface Biogeochemical Research program\u2014which generously provides funding to WHONDRS\u2014in your publications, proposals, presentations, etc. All data are free to be used for any purpose, such as for manuscripts, presentations, and grant proposals. Note that the included hydrograph has a separate DOI that should also be cited. There is no obligation to include WHONDRS members as co-authors.",
+      "Please note that this data package was originally published in November 2019. It was updated in July 2020. See the readme file in the data package for details. None of the data values were altered. The units were updated in one column of the main metadata file and in one of the methods codes descriptions."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert E",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Rosalie K",
+        "familyName": "Chu",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Rosalie.Chu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4623-7076",
+        "givenName": "Emily B",
+        "familyName": "Graham",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "emily.graham@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8274-5564",
+        "givenName": "Xiaojia",
+        "familyName": "He",
+        "affiliation": "University of Georgia",
+        "email": "xiaojia.he25@uga.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5157-1186",
+        "givenName": "Xinming",
+        "familyName": "Lin",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "xinming.lin@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0825-4596",
+        "givenName": "Christof",
+        "familyName": "Meile",
+        "affiliation": "University of Georgia",
+        "email": "cmeile@uga.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3166-6097",
+        "givenName": "Joseph W",
+        "familyName": "Morad",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "joseph.morad@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5545-5470",
+        "givenName": "Huiying",
+        "familyName": "Ren",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Huiying.Ren@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9143-6277",
+        "givenName": "Charles T",
+        "familyName": "Resch",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "tom.resch@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jurjen",
+        "familyName": "Rooze",
+        "affiliation": "University of Georgia",
+        "email": "jurjen@uga.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4228-1288",
+        "givenName": "John",
+        "familyName": "Schalles",
+        "affiliation": "Creighton University",
+        "email": "JohnSchalles@creighton.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3036-2833",
+        "givenName": "Malak",
+        "familyName": "Tfaily",
+        "affiliation": "University of Arizona/Pacific Northwest National Laboratory",
+        "email": "tfaily@email.arizona.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1221-2292",
+        "givenName": "Jonathan",
+        "familyName": "Thomle",
+        "email": "jonathan.thomle@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3950-9130",
+        "givenName": "Nikola",
+        "familyName": "Tolic",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Nikola.Tolic@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jason G",
+        "familyName": "Toyoda",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Jason.Toyoda@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7043-278X",
+        "givenName": "Jacqueline R",
+        "familyName": "Wells",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "jacqueline.wells@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "james.stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2019",
+    "keywords": [
+      "WHONDRS",
+      "Watershed",
+      "River corridor",
+      "Hydrology",
+      "Biogeochemistry",
+      "Surface water",
+      "Hyporheic zone",
+      "Hydrologic exchange",
+      "River",
+      "Stream",
+      "Carbon",
+      "FTICR",
+      "Cations",
+      "Anions",
+      "Dissolved organic matter",
+      "Dissolved organic carbon",
+      "Metabolite",
+      "Metabolomics",
+      "Mass spectrometry",
+      "Hydrograph",
+      "River variation",
+      "Stage fluctuations",
+      "Pore water",
+      "Time series",
+      "Subsurface",
+      "Metagenomics",
+      "Microbial community",
+      "Microbiology",
+      "DNA",
+      "Stage",
+      "Catchment",
+      "Microbiome",
+      "Microbial ecology",
+      "Geochemistry",
+      "Water quality",
+      "Tidal",
+      "Freshwater"
+    ],
+    "variableMeasured": [
+      "FTICR-MS",
+      "pH",
+      "Specific Conductivity",
+      "Phosphorus",
+      "Fluoride",
+      "Chloride",
+      "Sulfate",
+      "Nitrite",
+      "Nitrate",
+      "Total nitrogen",
+      "Non-purgeable organic carbon",
+      "Sodium",
+      "Calcium",
+      "Magnesium",
+      "Potassium",
+      "Iron",
+      "Temperature",
+      "Gauge height"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The shoreline of the Altamaha River, GA, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.334597,
+            "longitude": -81.479282
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.334597,
+            "longitude": -81.479282
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "US DOE Office of Science Biological and Environmental Research (BER) Subsurface Biogeochemical Research (SBR)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-10-16",
+      "endDate": "2018-10-18",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9135-7424",
+      "givenName": "James C",
+      "familyName": "Stegen",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "whondrs@pnnl.gov"
+    },
+    "citation": [
+      "Stegen JC, Goldman AE. 2018. WHONDRS: a community resource for studying dynamic river corridors. mSystems 3:e00151-18. https://doi.org/10.1128/mSystems.00151-18.",
+      "Stegen J C ; Goldman A E ; Chu R K ; Danczak R E ; Garayburu-Caruso V A ; Graham E B ; Lin X ; Morad J W ; Ren H ; Renteria L ; Resch C T ; Tfaily M ; Tolic N ; Toyoda J G ; Wells J R (2019): WHONDRS 48 Hour Diel Cycling Study at HJ Andrews Experimental Forest Watershed 1 (WS1). Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS). doi:10.15485/1509695",
+      "Renteria L ; Goldman A E ; Chu R K ; Danczak R E ; Garayburu-Caruso V A ; Graham E B ; Lin X ; Morad J W ; Ren H ; Resch C T ; Tfaily M ; Tolic N ; Toyoda J G ; Wells J R ; Znotinas K R ; Stegen J C (2019): WHONDRS 48 Hour Diel Cycling Study at the Nisqually River, WA. Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS). doi:10.15485/1576995",
+      "Goldman A E ; Arnon S ; Bar-Zeev E ; Chu R K ; Danczak R E ; Garayburu-Caruso V A ; Graham E B ; Lin X ; Morad J W ; Ren H ; Renteria L ; Resch C T ; Tfaily M ; Tolic N ; Toyoda J G ; Wells J R ; Stegen J C (2019): WHONDRS 48 Hour Diel Cycling Study at the Jordan River, Israel. Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS). doi:10.15485/1577266",
+      "Wells J R ; Goldman A E ; Chu R K ; Danczak R E ; Garayburu-Caruso V A ; Graham E B ; Lewandowski J ; Lin X ; Meinikmann K ; Morad J W ; M\u00fcller B M ; Ren H ; Renteria L ; Resch C T ; Schulz H ; Tfaily M ; Tolic N ; Toyoda J G ; Stegen J C (2019): WHONDRS 48 Hour Diel Cycling Study at the Erpe River, Germany. Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS). doi:10.15485/1577260",
+      "Garayburu-Caruso V A ; Goldman A E ; Chu R K ; Danczak R E ; Graham E B ; Lin X ; Morad J W ; Ren H ; Renteria L ; Resch C T ; Tfaily M ; Tolic N ; Toyoda J G ; Wells J R ; Stegen J C (2019): WHONDRS 48 Hour Diel Cycling Study at the Columbia River in Washington, USA. Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS). doi:10.15485/1577265",
+      "Chu R K ; Goldman A E ; Brooks S C ; Danczak R E ; Garayburu-Caruso V A ; Graham E B ; Jones M ; Jones N ; Lin X ; Morad J W ; Ren H ; Renteria L ; Resch C T ; Tfaily M ; Tolic N ; Toyoda J G ; Wells J R ; Stegen J C (2019): WHONDRS 48 Hour Diel Cycling Study at the East Fork Poplar Creek in Tennessee, USA. Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS). doi:10.15485/1577278"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "See the metadata folder for the sampling protocol used and analysis information. The following is a general overview of the steps that most samples went through (methods codes are used to indicate details of sample handling, including deviations from the standard protocol): Samples were collected and stored on wet/blue ice or in a 4C refrigerator until shipped to PNNL. At PNNL, they were stored at -20C until analysis. One vial was used for anions, cations, SpC, TN, and pH. Samples were diluted as needed. Three pre-acidified vials were used for NPOC and FTICR. Prior to analysis on the FTICR-MS, samples were diluted as needed and underwent solid phase extraction (SPE). See folder \u2018Sample_Tracking_and_Methods\u2019 for files containing methods codes (WHONDRS_Methods_Codes_20191126.csv) and sample handling details (see files with \u2018Tracking\u2019 in the name) . At the time of publishing, microbial data had not yet been derived from the filters, which were preserved using RNALater, shipped to PNNL, flushed with a sterile solution, and then stored at -80C until DNA extraction.",
+      "Please note that this data package was originally published in November 2019. It was updated in July 2020. See the readme file in the data package for details. None of the data values were altered. The units were updated in one column of the main metadata file and in one of the methods codes descriptions."
+    ],
+    "distribution": [
+      {
+        "contentSize": 31.0126953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ebff53121684912-20240819T203554789",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-ebff53121684912-20240819T203554789",
+        "name": "WHONDRS_48_Hour_Diel_Cycling_Study_at_the.xml"
+      },
+      {
+        "contentSize": 44819.9658203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f52b0347d469c35-20200701T160000155",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f52b0347d469c35-20200701T160000155",
+        "name": "WHONDRS_48hr_Altamaha_v2.zip"
+      }
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "id": "ess-dive-f0da94c52467d8c-20250919T221614299",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2588706",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f0da94c52467d8c-20250919T221614299",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-f0da94c52467d8c-20250917T225552655",
+  "dateUploaded": "2025-09-19T22:16:15.216Z",
+  "dateModified": "2025-09-28T00:00:23.002Z",
+  "isPublic": true,
+  "citation": "Karaoz U; Brodie E L; Torn M; Alves R J E (2025): Metagenome-assembled genomes from soil samples in control and warming plots in Blodgett Forest, CA (2014-2021). Belowground Biogeochemistry Scientific Focus Area. Dataset. doi:10.15485/2588706",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2588706",
+    "name": "Metagenome-assembled genomes from soil samples in control and warming plots in Blodgett Forest, CA (2014-2021)",
+    "description": [
+      "The pathways of carbon transport and loss through and from soils\u2014soil organic matter (SOM) depolymerization to dissolved organic carbon and mineralization to carbon dioxide (CO2)\u2014are fundamentally driven by microbial activity, which is strongly regulated by environmental conditions. As part of LBNL (Lawrence Berkeley National Laboratory) TES (Terrestrial Ecosystem Science) Belowground Biogeochemistry Science Focus Area (SFA), we have established a novel whole-soil long-term warming experiment at the University of California (UC) Blodgett Forest Research Station (Sierra Nevada) in 2014, where we study the role of biogeochemical, microbial and geochemical process interactions in SOM decomposition and stabilization.",
+      "Here, we present metagenome-assembled genomes (MAGs) for the bacterial and archaeal community from soil depth profiles collected from 2014 to 2021 from three paired control and warming plots. We collected soil samples across a range of depth profiles (spanning surface to 90 cm deep) from three paired control and warming plots from a temperate mixed forest in Northern California. Each paired plot had been subjected to experimental warming since June 2014 to simulate a predicted climate change scenario for northern California. 101 soil metagenomes were sequenced at JGI (Joint Genome Institute) and UCSF (University of California San Francisco) Center for Advanced Technology and can be found under the JGI (Joint Genome Institute) GOLD (Genomes Online Database) Sequencing project Gs0151586 and NCBI (National Center for Biotechnology Information) Projects PRJNA1225762 and PRJEB39497. Metagenomes were assembled using JGI (Joint Genome Institute) Metagenome Workflow (10.1128/mSystems.00804-20). For each metagenome, the assembled contigs were binned into genomes using 3 binning algorithms (cocacola, metabat, and maxbin) and the resulting bins were consolidated using dastool. The consolidated bins from all metagenomes were pooled, filtered by completeness (>50%) and contamination (<25%), and dereplicated at 99% ANI (average nucleotide identity) using dRep (https://github.com/MrOlm/drep).",
+      "The dataset includes a zip file of 2321 MAG (Metagenome Assembled Genome) fasta files, the accession numbers for the underlying metagenomes, and a csv file with MAG (Metagenome Assembled Genome) quality metrics and taxonomic classification (GTDB -Genome Taxonomy Database-RS220). This dataset also includes a file-level metadata (flmd.csv) file that lists each file contained in the dataset with associated metadata and a data dictionary (dd.csv) file that contains column/row headers used throughout the files along with a definition, units, and data type. A sample metadata file (samples.csv) that contains site information has also been included."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8238-6757",
+        "givenName": "Ulas",
+        "familyName": "Karaoz",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ukaraoz@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8453-8435",
+        "givenName": "Eoin",
+        "familyName": "L. Brodie",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8174-0099",
+        "givenName": "Margaret",
+        "familyName": "Torn",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mstorn@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7567-3205",
+        "givenName": "Ricardo",
+        "familyName": "J. Eloy Alves",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "RJEAlves@lbl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > OMICS > METAGENOME > METAGENOME ASSEMBLED GENOMES (MAGs):GCMD",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > MICROFAUNA:GCMD",
+      "EARTH SCIENCE > BIOSPHERE > OMICS > OMICS METHODOLOGY > BIN/BINNING:GCMD",
+      "EARTH SCIENCE > BIOSPHERE > OMICS > MICROBIOME:GCMD"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Plot 1 at University of California (UC) Blodgett Forest Research Station (Sierra Nevada).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.91207,
+            "longitude": -120.6615
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.91207,
+            "longitude": -120.6615
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Plot 2 at University of California (UC) Blodgett Forest Research Station (Sierra Nevada).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.91222,
+            "longitude": -120.66122
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.91222,
+            "longitude": -120.66122
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Plot 3 at University of California (UC) Blodgett Forest Research Station (Sierra Nevada).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.91203,
+            "longitude": -120.66121
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.91203,
+            "longitude": -120.66121
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2014-06-03",
+      "endDate": "2021-05-12",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8238-6757",
+      "givenName": "Ulas",
+      "familyName": "Karaoz",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "ukaraoz@lbl.gov"
+    },
+    "citation": [
+      "Karaoz et al. (2025) Beyond the rhizosphere: Microbial functional traits through the whole soilprofile and their response to warming. In prep."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "9cc37650-e339-4174-b9ba-a659d6fb244c"
+      },
+      "name": "Belowground Biogeochemistry Scientific Focus Area",
+      "member": {
+        "@type": "Person",
+        "givenName": "Margaret",
+        "familyName": "Torn",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mstorn@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Soil samples across a range of depth profiles (spanning surface to 90 cm deep) from three paired control and warming plots from a temperate mixed forest in Northern California. Each paired plot had been subjected to experimental warming since June 2014 to simulate a predicted climate change scenario for northern California. A total of 115 soil samples from different depths were collected within the first 7.5 years of warming at 0.5, 1.5, 2.5, 3.5, 4.5 and 7.5 years from each of the 6 plots. Single-use sterilized polycarbonate core sleeves were used to protect the soil cores. Soil samples were homogenized in sterile bags and were immediately placed on dry ice till DNA extraction. For each sample, we extracted DNA from 0.25-0.5 g of field-moist soil using DNeasy PowerSoil Kit (Qiagen, Germantown, MD, USA). For 2014, 2015, and 2021 samples, metagenomic library preparation and DNA sequencing were performed at the Joint Genome Institute. For 2016 and 2018 samples, sequencing was performed at the UCSF Center for Advanced Technology.\nMetagenomic reads from each sample were assembled following the JGI metagenome assembly pipeline. In addition to single sample assemblies, for 2016 and 2018 samples which had shallower sequencing efforts overall, we also performed co-assemblies pooling samples from the replicate plots by treatment and depth interval. Shortly, for each assembly, raw reads were subjected to quality trimming, artifact removal, linker and adapter trimming, and spike-in removal using BBTools RQCFilter (parameters: mlf=0.333 maxns=3 removemicrobes=t minLength=51 rna=f removecat=t removehuman=t clumpify=t minavgquality=3 trimq=0 removemouse=t phix=t qtrim=r trimfragadapter=t khist=t removedog=t barcodefilter=f sketch=f mapk=13). The resulting reads were corrected for sequencing errors using BFC - bloom filter correction (parameters: -1 -k 21 -t 10). Orphan single end reads were removed from the paired end library using Seqtk dropse subcommand. The final reads were assembled into contigs using metaSPAdes with parameters: --only-assembler -k 33,55,77,99,127 --meta -t 32 -m 2000.\nFor each metagenome, the assembled contigs were binned into genomes using 3 binning algorithms (COCACOLA (python version), MetaBAT2 (v2.12.1), and MaxBin 2.0 (v2.2.7)) and the resulting bins were consolidated using DASTool (v1.1.6). The consolidated bins from all metagenomes were pooled, filtered by completeness (>50%) and contamination (<25%), and dereplicated at 99% ANI using dRep (3.2.2). Each dereplicated MAG was taxonomically classified with GTDB toolkit (GTDB-tk v2.2.6) with the database release RS220."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1.0595703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-26910d69107be64-20250919T221612016",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-26910d69107be64-20250919T221612016",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 2647922.478515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5faeafc0f59d948-20250716T182808419967",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-5faeafc0f59d948-20250716T182808419967",
+        "name": "Blodgett_MAGs.tar.gz"
+      },
+      {
+        "contentSize": 16.431640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5afc3f38249ee0e-20250917T225525646",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5afc3f38249ee0e-20250917T225525646",
+        "name": "metagenomes_metadata.csv"
+      },
+      {
+        "contentSize": 10.283203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7e12e0ba5fee1a8-20250917T225525643",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7e12e0ba5fee1a8-20250917T225525643",
+        "name": "samples.csv"
+      },
+      {
+        "contentSize": 2.9814453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9d929c3cfbf391a-20250917T225344168",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9d929c3cfbf391a-20250917T225344168",
+        "name": "dd.csv"
+      },
+      {
+        "contentSize": 910.25,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b96571d1530980a-20250917T225525649",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b96571d1530980a-20250917T225525649",
+        "name": "MAGs_metadata.csv"
+      },
+      {
+        "contentSize": 12.662109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f0da94c52467d8c-20250919T221614299",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f0da94c52467d8c-20250919T221614299",
+        "name": "Metagenome_assembled_genomes_from_soil_samples_in.xml"
+      }
+    ]
+  }
+}

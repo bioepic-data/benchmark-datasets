@@ -1,0 +1,222 @@
+{
+  "id": "ess-dive-7fd5991b472e029-20241028T151332849441",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15486/NGT/1872685",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-7fd5991b472e029-20241028T151332849441",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-fdbace09dab4933-20240913T175147018281",
+  "dateUploaded": "2024-10-28T15:13:38.260Z",
+  "dateModified": "2024-10-28T22:49:22.990Z",
+  "isPublic": true,
+  "citation": "Pinag\u00e9 E R; Keller M; Longo M; Peck C; Duffy P; Csillik O (2022): Reference data, predictors, and probability grids for forest degradation classes in three sites in the Brazilian Amazon. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15486/NGT/1872685",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15486/NGT/1872685",
+    "name": "Reference data, predictors, and probability grids for forest degradation classes in three sites in the Brazilian Amazon",
+    "description": [
+      "Forest degradation by fires and selective logging is widespread in the Amazon region. We implemented a gradient boosted classification modeling framework to classify intact, logged, and burned forests at three Amazonian sites: Feliz Natal Municipality and Xingu Indigenous Territory in Mato Grosso State, and Sarac\u00e1-Taquera National Forest in Par\u00e1 State. We used forest degradation history from Landsat time-series as reference data and textural metrics derived from PlanetScope images as predictors. Textural metrics were computed using the Gray-Level Co-Occurrence Matrix (GLCM) textural technique. Included in the attached zip file are ten files: - a shapefile containing the reference data (fire and selective logging polygons and year of event) for each site; - a multiband tif file containing the 8 GLCM metrics used as predictors (Mean, Variance, Homogeneity, Contrast, Dissimilarity, Entropy, Angular Second Moment, Correlation) at the original PlanetScope resolution (3.125m) for each site; - a multiband tif file containing the 72 aggregated GLCM metrics used as predictors (Mean, Variance, Homogeneity, Contrast, Dissimilarity, Entropy, Angular Second Moment, and Correlation aggregated using the mean, first quartile, third quartile, maximum, median, minimum, root mean square, standard deviation, and skewness statistics) at 562m resolution for each site; - a multiband tif file containing the 3 probability grids for either intact, logged, or burned forests at the aggregation resolution (562m) for each site.Version 2 of this dataset contains minor changes from the review process of the associated publication.",
+      "This dataset was originally published on the NGEE Tropics Archive and is being mirrored on ESS-DIVE for long-term archival",
+      "Acknowledgement: Planet data access for the generation of the GLCM metrics was provided through the NASA Commercial SmallSat Data Acquisition (CSDA) Program. Funding for NGEE-Tropics data resources was provided by the U.S. Department of Energy Office of Science, Office of Biological and Environmental Research."
+    ],
+    "alternateName": [
+      "https://doi.org/10.15486/ngt/1872685",
+      "NGT0188"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3714-8175",
+        "givenName": "Ekena",
+        "familyName": "Rangel Pinag\u00e9",
+        "affiliation": "Oregon State University",
+        "email": "ekenapinage@hotmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-0253-3359",
+        "givenName": "Michael",
+        "familyName": "Keller",
+        "affiliation": "United States Forest Service",
+        "email": "mkeller.co2@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0001-5062-6245",
+        "givenName": "Marcos",
+        "familyName": "Longo",
+        "affiliation": "Embrapa (Brazil)",
+        "email": "mdplongo@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Christopher",
+        "familyName": "Peck",
+        "email": "cpeck@neptuneinc.org"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Duffy",
+        "email": "pduffy@neptuneinc.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4590-3807",
+        "givenName": "Ovidiu",
+        "familyName": "Csillik",
+        "email": "ovidiu.csillik@gmail.com"
+      }
+    ],
+    "datePublished": "2022-06-23",
+    "keywords": [
+      "Next-Generation Ecosystem Experiements Tropics",
+      "NGEE-T",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Model output",
+      "Remote sensing"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site Name: Feliz Natal Municipality. Site ID: BR-FNA. Feliz Natal Municipality has a diversity of land uses including pastures and mechanized agriculture that have replaced part of the original forest cover. Most of the remaining forests in this region have been logged and a substantial portion of the forests have burned at least once. Site contact(s): (Michael Keller <mkeller.co2@gmail.com>) (Ekena Rangel Pinag\u00e9 <ekenapinage@hotmail.com>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -11.907713,
+            "longitude": -54.168126
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -11.907713,
+            "longitude": -54.168126
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Site Name: Sarac\u00e1-Taquera National Forest. Site ID: BR-FST. The Sarac\u00e1-Taquera National Forest holds a federal logging concession administered by the Brazilian Forest Service, along with a long history of bauxite mining. Selective logging at this site was conducted between 2015 and 2020 using reduced-impact logging techniques. Site contact(s): (Michael Keller <mkeller.co2@gmail.com>) (Ekena Rangel Pinag\u00e9 <ekenapinage@hotmail.com>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -1.807328,
+            "longitude": -56.588654
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -1.807328,
+            "longitude": -56.588654
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Site Name: Xingu Indigenous Territory. Site ID: BR-XIN. The Xingu Indigenous Territory is an area widely preserved from deforestation and other anthropogenic pressures, however with large fires occurrences in in the recent years. Site contact(s): (Michael Keller <mkeller.co2@gmail.com>) (Ekena Rangel Pinag\u00e9 <ekenapinage@hotmail.com>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -12.693108,
+            "longitude": -53.467615
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -12.693108,
+            "longitude": -53.467615
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-05CH11231",
+      "None"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "NASA; LBNL"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2012-01-01",
+      "endDate": "2020-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3714-8175",
+      "givenName": "Ekena",
+      "familyName": "Rangel Pinag\u00e9",
+      "affiliation": "Oregon State University",
+      "email": "ekenapinage@hotmail.com"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The shapefiles with the reference data were generated from the visual interpretation of Landsat images.\nTextural metrics were computed using the Gray-Level Co-Occurrence Matrix (GLCM) textural technique on the Enhanced Vegetation Index (EVI) derived from PlanetScope images. These computations were performed in the R statistical environment using the glcm package. The GLCM metrics were later aggregated to a coarser resolution using GDAL.\nThe grid data containing the forest degradation class probability were generated using the described modeling framework."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3813d09eb2f6e2c-20230323T170034874385",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3813d09eb2f6e2c-20230323T170034874385",
+        "name": "locations.csv"
+      },
+      {
+        "contentSize": 12280637.018554688,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-600862a378a1762-20230323T170656271847",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-600862a378a1762-20230323T170656271847",
+        "name": "NGT0188_Datasets_FNA_FST_XIN_v2_20230227182014.zip"
+      },
+      {
+        "contentSize": 1.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-83d025c5635179d-20240913T175145670447",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-83d025c5635179d-20240913T175145670447",
+        "name": "NGT0188_locations.csv"
+      },
+      {
+        "contentSize": 12275642.6171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b13ccaace5788dc-20220623T174406978248",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b13ccaace5788dc-20220623T174406978248",
+        "name": "NGT0188_Datasets_FNA_FST_XIN_20220622201118.zip"
+      },
+      {
+        "contentSize": 10.91796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7fd5991b472e029-20241028T151332849441",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-7fd5991b472e029-20241028T151332849441",
+        "name": "Reference_data_predictors_and_probability_grids_for_forest_degradation_classes_in_three_sites_in_the_Brazilian_Amazon.xml"
+      }
+    ]
+  }
+}

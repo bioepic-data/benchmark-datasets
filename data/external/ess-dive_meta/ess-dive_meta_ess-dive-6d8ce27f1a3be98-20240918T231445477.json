@@ -1,0 +1,1909 @@
+{
+  "id": "ess-dive-6d8ce27f1a3be98-20240918T231445477",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2439202",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-6d8ce27f1a3be98-20240918T231445477",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-6d8ce27f1a3be98-20240909T220416743",
+  "dateUploaded": "2024-09-18T23:14:47.332Z",
+  "dateModified": "2024-09-19T00:02:57.710Z",
+  "isPublic": true,
+  "citation": "Danczak R E; Borton M A; Wrighton K C; Goldman A E; Powers-McCormack B; Stegen J C (2024): Ultrahigh-resolution mass spectrometry data associated with the manuscript \u201cA functional microbiome catalog crowdsourced from North American rivers\". River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2439202",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2439202",
+    "name": "Ultrahigh-resolution mass spectrometry data associated with the manuscript \u201cA functional microbiome catalog crowdsourced from North American rivers\"",
+    "description": [
+      "This data package is associated with the publication \u201cA functional microbiome catalog crowdsourced from North American rivers\u201d submitted to Nature (Borton et al., 2024); (https://www.biorxiv.org/content/10.1101/2023.07.22.550117v1).",
+      "Predicting elemental cycles and maintaining water quality under increasing anthropogenic influence requires understanding the spatial drivers of river microbiomes. However, the unifying microbial determinants governing river biogeochemistry are hindered by a lack of genome-resolved functional insights and sampling across multiple rivers. Here we employed a community science effort to accelerate the sampling of river microbiomes to create the Genome Resolved Open Watersheds database (GROWdb). GROWdb is a publicly available resource that paves the way for watershed predictive modeling and microbiome-based management practices. This resource profiled the identity, distribution, function, and expression of thousands of microbial genomes across rivers covering 90% of United States watersheds. We identified the most cosmopolitan microbiome members, while also revealing local drivers of strain endemism across ecological dimensions. We provide the first evidence that microbial functional trait expression followed the tenets of the River Continuum Concept, suggesting the structure and function of river microbiomes is predictable. The Fourier-transform ion cyclotron resonance mass spectrometry (FTICR-MS) data were one of many different data types used in establishing the ecological dimensions along which different microbes were detected .",
+      "This data package only contains the processed FTICR-MS data associated with this manuscript; all other data is accessible via Zenodo (https://zenodo.org/records/8173287), GitHub (https://github.com/jmikayla1991/Genome-Resolved-Open-Watersheds-database-GROWdb), KBase (https://doi.org/10.25982/109073.30/1895615), and NCBI via Bioproject PRJNA946291.",
+      "This dataset consists of (1) a file-level metadata (flmd) file; (2) a data dictionary (dd) file; (3) a readme; (4) three Fourier-transform ion cyclotron resonance mass spectrometry (FTICR-MS) processed data files (a \u2018data\u2019 file containing peak-by-sample observations, a \u2018mol\u2019 file containing peak metadata, and a transformation profile containing transformation-by-sample observations). All files are .csv or .pdf."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert E.",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8037-4253",
+        "givenName": "Mikayla A.",
+        "familyName": "Borton",
+        "affiliation": "Colorado State University",
+        "email": "Mikayla.Borton@colostate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0434-4217",
+        "givenName": "Kelly C.",
+        "familyName": "Wrighton",
+        "affiliation": "Colorado State University",
+        "email": "Kelly.Wrighton@colostate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "James.Stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "River corridor",
+      "Freshwater",
+      "River",
+      "Stream",
+      "Watershed",
+      "Biogeochemistry",
+      "Organic matter",
+      "Environmental metabolomics",
+      "Mass spectrometry",
+      "WHONDRS",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "FTICR-MS",
+      "Fourier-transform ion cyclotron resonance"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "S19S_0001, Fraser, Hope, British Columbia, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 49.3861,
+            "longitude": -121.4505
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 49.3861,
+            "longitude": -121.4505
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0003, Thompson, Kamloops, British Columbia, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 50.6888,
+            "longitude": -120.3665
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 50.6888,
+            "longitude": -120.3665
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0004, South Thompson, Chase, British Columbia, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 50.7751,
+            "longitude": -119.722
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 50.7751,
+            "longitude": -119.722
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0005, Assiniboine, Winnipeg, Manitoba, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 49.8689,
+            "longitude": -97.4078
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 49.8689,
+            "longitude": -97.4078
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0006, Dead Run, Baltimore, Maryland, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.3114,
+            "longitude": -76.7172
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.3114,
+            "longitude": -76.7172
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0007, Providence Creek / KREW's P304 creek, Shaver Lake, California, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.0525,
+            "longitude": -119.1956
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.0525,
+            "longitude": -119.1956
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0008, Teakettle T003 stream, Shaver Lake, California, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.9611,
+            "longitude": -119.0278
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.9611,
+            "longitude": -119.0278
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0009, Little Wind River, Riverton, Wyoming, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.9877,
+            "longitude": -108.3983
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.9877,
+            "longitude": -108.3983
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0010, Altamaha, Doctortown, Georgia, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.6679,
+            "longitude": -81.8401
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.6679,
+            "longitude": -81.8401
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0011, Middle Oconee, Athens, Georgia, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.9557,
+            "longitude": -83.4377
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.9557,
+            "longitude": -83.4377
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0012, Hop Brook, New Salem, Massachusetts, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.4718,
+            "longitude": -72.3303
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.4718,
+            "longitude": -72.3303
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0013, Posey Creek, Front Royal, Virginia, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8952,
+            "longitude": -78.1476
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8952,
+            "longitude": -78.1476
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0014, Lewis Run, Berryville, Virginia, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0941,
+            "longitude": -77.9808
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.0941,
+            "longitude": -77.9808
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0015, Flint River, Newton, Georgia, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.1844,
+            "longitude": -84.439
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.1844,
+            "longitude": -84.439
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0016, King's Creek, Manhattan, Kansas, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.1044,
+            "longitude": -96.6025
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.1044,
+            "longitude": -96.6025
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0017, McDiffett Creek, Manhattan, Kansas, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9467,
+            "longitude": -96.4436
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9467,
+            "longitude": -96.4436
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0018, LeConte Creek, Gatlinburg, Tennessee, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.6923,
+            "longitude": -83.5049
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.6923,
+            "longitude": -83.5049
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0019, Walker Branch, Oak Ridge, Tennessee, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.9564,
+            "longitude": -84.279
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.9564,
+            "longitude": -84.279
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0020, Tombigbee River, Toxey AL, Alabama, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.8529,
+            "longitude": -88.1576
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.8529,
+            "longitude": -88.1576
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0021, Black Warrior, Demopolis, Alabama, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.5407,
+            "longitude": -87.7983
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.5407,
+            "longitude": -87.7983
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0022, Mayfield Creek, Moundville, Alabama, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.9616,
+            "longitude": -87.4081
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.9616,
+            "longitude": -87.4081
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0023, Arikaree River, Idalia, Colorado, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.7584,
+            "longitude": -102.449
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.7584,
+            "longitude": -102.449
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0024, Blue River, Connerville, Oklahoma, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.4421,
+            "longitude": -96.6227
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.4421,
+            "longitude": -96.6227
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0025, Pringle Creek, Alvord, Texas, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.3785,
+            "longitude": -97.7827
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.3785,
+            "longitude": -97.7827
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0026, Como Creek, Nederland, Colorado, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0349,
+            "longitude": -105.5433
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.0349,
+            "longitude": -105.5433
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0027, West St. Louis Creek, Fraser, Colorado, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.8906,
+            "longitude": -105.9112
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.8906,
+            "longitude": -105.9112
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0028, Sycamore Creek, Mesa, Arizona, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.7507,
+            "longitude": -111.5079
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.7507,
+            "longitude": -111.5079
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0029, Red Butte Creek, Salt Lake City, Utah, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.7832,
+            "longitude": -111.8013
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.7832,
+            "longitude": -111.8013
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0030, Martha Creek, Stabler, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7923,
+            "longitude": -121.9291
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7923,
+            "longitude": -121.9291
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0031, McRae Creek, Blue River, Oregon, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2603,
+            "longitude": -122.1651
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2603,
+            "longitude": -122.1651
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0032, Teakettle 2 Creek, Sierra National Forest, California, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.9554,
+            "longitude": -119.0231
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.9554,
+            "longitude": -119.0231
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0033, Big Creek, Auberry, California, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.0576,
+            "longitude": -119.2554
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.0576,
+            "longitude": -119.2554
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0034, La Jara, Los Alamos, New Mexico, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.8677,
+            "longitude": -106.5233
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.8677,
+            "longitude": -106.5233
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0035, Marshall Gulch, Summerhaven, Arizona, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.4273,
+            "longitude": -110.7578
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.4273,
+            "longitude": -110.7578
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0036, Columbia, Richland, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.3725,
+            "longitude": -119.2719
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.3725,
+            "longitude": -119.2719
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0037, White Clay Creek, Avondale, Pennsylvania, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.8578,
+            "longitude": -75.783
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.8578,
+            "longitude": -75.783
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0038, White Clay Creek, Avondale, Pennsylvania, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.8594,
+            "longitude": -75.7839
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.8594,
+            "longitude": -75.7839
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0039, East Fork Poplar Creek, Oak Ridge, Tennessee, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.9662,
+            "longitude": -84.3592
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.9662,
+            "longitude": -84.3592
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0040, Kings Creek (N04D), Manhattan, Kansas, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0879,
+            "longitude": -96.5847
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.0879,
+            "longitude": -96.5847
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0041, Crooked River, Prineville, Oregon, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.3,
+            "longitude": -120.8582
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.3,
+            "longitude": -120.8582
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0042, Shark River Slough, Flamingo, Florida, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 25.4098,
+            "longitude": -80.9643
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 25.4098,
+            "longitude": -80.9643
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0043, Dorn Creek, Middleton, Wisconsin, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.145,
+            "longitude": -89.473
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.145,
+            "longitude": -89.473
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0044, Huger Creek, Cordesville, South Carolina, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.131,
+            "longitude": -79.8111
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.131,
+            "longitude": -79.8111
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0045, Erpe River sidechannel, Berlin-Heidemuhle, Brandenburg, Germany",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 52.4752,
+            "longitude": 13.6313
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 52.4752,
+            "longitude": 13.6313
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0046, Nigardsbreen River, Nigardsbreen, Norway",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 61.6756,
+            "longitude": 7.2125
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 61.6756,
+            "longitude": 7.2125
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0047, Kuparuk River, Toolik Field Station, Alaska, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 68.6428,
+            "longitude": -149.4033
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.6428,
+            "longitude": -149.4033
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0048, Rio Cupeyes, Sabana Grande, Puerto Rico, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 18.11,
+            "longitude": -66.9862
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 18.11,
+            "longitude": -66.9862
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0049, Rio Guilarte, Adjuntas, Puerto Rico, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 18.1744,
+            "longitude": -66.8004
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 18.1744,
+            "longitude": -66.8004
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0050, Oksrukuyik Creek, North Slope Borough, Alaska, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 68.6695,
+            "longitude": -149.142
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.6695,
+            "longitude": -149.142
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0051, Caribou Creek, Fairbanks, Alaska, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.1531,
+            "longitude": -147.5027
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.1531,
+            "longitude": -147.5027
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0052, Platte Kill, Dunraven, New York, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.1319,
+            "longitude": -74.6956
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.1319,
+            "longitude": -74.6956
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0053, Farmington, Simsbury, Connecticut, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.8696,
+            "longitude": -73.0022
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.8696,
+            "longitude": -73.0022
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0054, Pamunkey River, New Kent, Virginia, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.5726,
+            "longitude": -77.0237
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.5726,
+            "longitude": -77.0237
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0055, South Fork Polouse, Pullman, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7324,
+            "longitude": -117.1809
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7324,
+            "longitude": -117.1809
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0056, Nakdong, Busan, South Korea",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.1632,
+            "longitude": 128.9646
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.1632,
+            "longitude": 128.9646
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0057, Tims Branch, Aiken, South Carolina, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.3375,
+            "longitude": -81.7182
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.3375,
+            "longitude": -81.7182
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0058, Jordan River, Gesher Arik, Israel",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8992,
+            "longitude": 35.6136
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8992,
+            "longitude": 35.6136
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0059, Heel Creek tributary, Deer Valley, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 48.1687,
+            "longitude": -117.3916
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 48.1687,
+            "longitude": -117.3916
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0060, Yakima River, Benton City, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.2532,
+            "longitude": -119.4768
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.2532,
+            "longitude": -119.4768
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0061, Black Earth Creek, Cross Plains, Wisconsin, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.1095,
+            "longitude": -89.6407
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.1095,
+            "longitude": -89.6407
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0062, Gunnison River, Gunnison, Colorado, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5446,
+            "longitude": -106.9504
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5446,
+            "longitude": -106.9504
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0063, Lower Colorado, Austin, Texas, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 30.2503,
+            "longitude": -97.7094
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30.2503,
+            "longitude": -97.7094
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0064, Shavers Creek, Petersburg, Pennsylvania, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.6104,
+            "longitude": -78.008
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.6104,
+            "longitude": -78.008
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0065, Russian River, Guerneville, California, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5095,
+            "longitude": -122.8884
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5095,
+            "longitude": -122.8884
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0066, Rio Grande, Albuquerque, New Mexico, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.1985,
+            "longitude": -106.6432
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.1985,
+            "longitude": -106.6432
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0067, Augusta Creek, Hickory Corners, Michigan, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.3921,
+            "longitude": -85.3541
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.3921,
+            "longitude": -85.3541
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0068, Watershed 01 stream, Blue River, Oregon, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2073,
+            "longitude": -122.2581
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2073,
+            "longitude": -122.2581
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0069, North Fork Caspar Creek, Ft. Bragg, California, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.3622,
+            "longitude": -123.7352
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.3622,
+            "longitude": -123.7352
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0070, South Fork Caspar Creek, Ft. Bragg, California, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.3399,
+            "longitude": -123.7524
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.3399,
+            "longitude": -123.7524
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0071, Gordon Creek, Nederland, Colorado, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0129,
+            "longitude": -105.4586
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.0129,
+            "longitude": -105.4586
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0072, Sawmill Brook, Burlington, Massachusettes, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.5236,
+            "longitude": -71.1848
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.5236,
+            "longitude": -71.1848
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0073, Cart Creek, Newbury, Massachusettes, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.7688,
+            "longitude": -70.9165
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.7688,
+            "longitude": -70.9165
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0074, Columbia, Richland, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.3762,
+            "longitude": -119.273
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.3762,
+            "longitude": -119.273
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0075, Columbia, Richland, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6947,
+            "longitude": -119.4656
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6947,
+            "longitude": -119.4656
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0076, Columbia, Richland, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6792,
+            "longitude": -119.4626
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6792,
+            "longitude": -119.4626
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0077, Cache La Poudre, Fort Collins, Colorado, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.664,
+            "longitude": -105.2231
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.664,
+            "longitude": -105.2231
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0078, Little Wolf Creek, Tyee, Oregon, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.4314,
+            "longitude": -123.5856
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.4314,
+            "longitude": -123.5856
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0079, Umpqua, Elkton, Oregon, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.6369,
+            "longitude": -123.5721
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.6369,
+            "longitude": -123.5721
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0080, Rio Grande, South Valley, New Mexico, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.9508,
+            "longitude": -106.6814
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.9508,
+            "longitude": -106.6814
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0081, Northeast Branch of Anacostia, Riverdale, Maryland, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.96,
+            "longitude": -76.9261
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.96,
+            "longitude": -76.9261
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0082, Muddy Creek, Edgewater, Maryland, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8749,
+            "longitude": -76.5465
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8749,
+            "longitude": -76.5465
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0083, Sangamon, Fisher, Illinois, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.3108,
+            "longitude": -88.3227
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.3108,
+            "longitude": -88.3227
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0084, Watershed 3 stream, North Woodstock, New Hampshire, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9547,
+            "longitude": -71.7228
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9547,
+            "longitude": -71.7228
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0085, Mores Creek, Idaho City, Idaho, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.648,
+            "longitude": -115.9903
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.648,
+            "longitude": -115.9903
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0086, Red Butte Creek, Salt Lake City, Utah, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.7797,
+            "longitude": -111.8064
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.7797,
+            "longitude": -111.8064
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0087, Dobson Creek, Boise, Idaho, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.1233,
+            "longitude": -116.7743
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.1233,
+            "longitude": -116.7743
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0089, Stroubles Creek, Blacksburg, Virginia, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.2101,
+            "longitude": -80.4454
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.2101,
+            "longitude": -80.4454
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0090, Cobb Mill Creek, Oyster, Virginia, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.2914,
+            "longitude": -75.9306
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.2914,
+            "longitude": -75.9306
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0091, Copper River, Cordova, Alaska, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 60.5209,
+            "longitude": -144.8375
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 60.5209,
+            "longitude": -144.8375
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0092, Blythe, Birmingham, UK",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 52.4194,
+            "longitude": -1.704
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 52.4194,
+            "longitude": -1.704
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0093, Wood Brook, Stafford, UK",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 52.8006,
+            "longitude": -2.3048
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 52.8006,
+            "longitude": -2.3048
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0094, Icacos, Naguabo, Puerto Rico, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 18.2754,
+            "longitude": -65.7853
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 18.2754,
+            "longitude": -65.7853
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0096, Orco, San Benigno Canavese, Italy",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.2473,
+            "longitude": 7.8054
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.2473,
+            "longitude": 7.8054
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0097, Logan, Logan, Utah, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7208,
+            "longitude": -111.8865
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7208,
+            "longitude": -111.8865
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0098, Logan, Logan, Utah, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9502,
+            "longitude": -111.5805
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9502,
+            "longitude": -111.5805
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0099, Great Miami, Cincinnati, Ohio, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.2386,
+            "longitude": -84.7119
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.2386,
+            "longitude": -84.7119
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0100, East River, Crested Butte, Colorado, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9235,
+            "longitude": -106.951
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9235,
+            "longitude": -106.951
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-07-29",
+      "endDate": "2019-09-19",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1396-192X",
+      "givenName": "Robert E.",
+      "familyName": "Danczak",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "robert.danczak@pnnl.gov"
+    },
+    "citation": [
+      "Bramer LM, White AM, Stratton KG, Thompson AM, Claborne D, et al. (2020) ftmsRanalysis: An R package for exploratory data analysis and interactive visualization of FT-MS data. PLOS Computational Biology 16(3): e1007654. doi: 10.1371/journal.pcbi.1007654",
+      "Danczak RE, Chu RK, Fansler SJ et al. (2020) Using metacommunity ecology to understand environmental metabolomes. Nat. Commun. 11, 6369. doi: 10.1038/s41467-020-19989-y",
+      "Toli\u0107 N, Liu Y, Liyu A, Shen Y, Tfaily MM, Kujawinski EB, Longnecker K, Kuo L, Robinson EW, Pa\u0161a-Toli\u0107 L, and Hess. NJ. (2017) Formularity: Software for Automated Formula Assignment of Natural and Other Organic Matter from Ultrahigh-Resolution Mass Spectra. Analytical Chem. 89(23), 12659-12665. doi: 10.1021/acs.analchem.7b03318",
+      "Toyoda JG, Goldman AE, Arnon S, Bar-Zeev E, Chu RK, Danczak RE, Daly RA, Forbes B, Garayburu-Caruso VA, Graham EB, Lin X, Moran JJ, Ren H, Renteria L, Resch CT, Tfaily M, Tolic N, Torgeson JM, Wells J, Wrighton KC, Stegen JC, WHONDRS Consortium T (2020). WHONDRS Summer 2019 Sampling Campaign: Global River Corridor Surface Water FTICR-MS, NPOC, TN, Anions, Stable Isotopes, Bacterial Abundance, and Dissolved Inorganic Carbon (v6). River Corridor and Watershed Biogeochemistry SFA, ESS-DIVE repository. Dataset. doi: 10.15485/1603775",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The raw FTICR-MS data from the published data package \u201cWHONDRS Summer 2019 Sampling Campaign:\nGlobal River Corridor Surface Water FTICR-MS, NPOC, TN, Anions, Stable Isotopes, Bacterial Abundance,\nand Dissolved Inorganic Carbon\u201d (v6; https://doi.org/10.15485/1603775) were aligned using\nFormultitude (https://github.com/PNNL-Comp-Mass-Spec/Formultitude; previously called Formularity)\nand processed using ftmsRanalysis (https://doi.org/10.1371/journal.pcbi.1007654). A transformation\nanalysis was then performed following the methods outlined in Danczak et al., 2020. Please refer to the\nmanuscript for more details."
+    ],
+    "distribution": [
+      {
+        "contentSize": 5114.7412109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-89dff9bfd11f80d-20240909T220020228",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-89dff9bfd11f80d-20240909T220020228",
+        "name": "Danczak_2024_GROW_Manuscript_Data_Package.zip"
+      },
+      {
+        "contentSize": 52.634765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6d8ce27f1a3be98-20240918T231445477",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-6d8ce27f1a3be98-20240918T231445477",
+        "name": "Ultrahigh_resolution_mass_spectrometry_data.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "id": "ess-dive-83e6d1f3629f21c-20230724T232900788",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1986338",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-83e6d1f3629f21c-20230724T232900788",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-3695e9a6b106832-20230623T161411554",
+  "dateUploaded": "2023-07-24T23:29:01.009Z",
+  "dateModified": "2023-07-28T22:12:32.551Z",
+  "isPublic": true,
+  "citation": "Li B; Pennington S; Regier P; James H; Zheng J; Ward N; Myers-Pigg A; Rich R (2023): Data, figures, animations, and scripts associated with the manuscript \"Integrated Effects of Site Hydrology and Vegetation on Exchange Fluxes and Carbon Cycling at the Coastal Terrestrial Aquatic Interface\". COMPASS-FME. Dataset. doi:10.15485/1986338",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1986338",
+    "name": "Data, figures, animations, and scripts associated with the manuscript \"Integrated Effects of Site Hydrology and Vegetation on Exchange Fluxes and Carbon Cycling at the Coastal Terrestrial Aquatic Interface\"",
+    "description": [
+      "This package contains the data, figures, animations, and scripts used in \"Integrated Effects of Site Hydrology and Vegetation on Exchange Fluxes and Carbon Cycling at the Coastal Terrestrial Aquatic Interface\" (Li et al., 2023). This study examines the interactions between soil, vegetation and hydrologic conditions in coastal areas, with a focus on the Chesapeake Bay region. The researchers used a mechanistic model called ATS-PFLOTRAN to explore how these interactions affect exchange process in different regions and the carbon/nitrogen cycle across the terrestrial-aquatic interface (TAI). Simulation scenarios isolate the effects of control factors and reaction constants derived from laboratory experiments. The results show a carbon cycle \"hot zone\" in coastal wetlands and in the transition zone between wetlands and uplands. Transpiration enhances fluxes between the surface and subsurface domains and increases dissolved oxygen in TAI. The decomposition of leaf-derived organic carbon provides an additional source of carbon for aerobic respiration and denitrification in the TAI. Microbial activity plays a key role in controlling redox conditions and their variability. This modeling study improves the understanding of complex TAI interactions and facilitates the representation of coastal ecosystems in larger-scale Earth system models.",
+      "Several files can be found from this data package.",
+      "1. Readme,md: This file describe the Title, Target Journal, Target submission date, Co-author, Science Questions, Hypotheses, Key words, Key message, Model and Data, Repo Structure. The user can read this file first and then go to details.",
+      "2. mesh.zip: This file contains the mesh file for simulation cases.",
+      "3. Figure.zip: This file contains figures used in the manuscript .",
+      "4. animation.zip: This file contains animations used in the manuscript .",
+      "5. Data.zip: This file contains all required input data, such as concentration and flow boundaries. Also, it contains the DEM and processes results on area fraction.",
+      "6. Simulation_setup_and_results.zip: This file contains setup of cases used in the manuscript . The result files are too large, if you need that data, please contact to the Author.",
+      "7. notebooks.zip: This file contains the Jupyter notebooks for performing sensitivity analysis and other pre-process and post-process analyses."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1361-4293",
+        "givenName": "Bing",
+        "familyName": "Li",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "bing.li@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stephanie",
+        "familyName": "Pennington",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "stephanie.pennington@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Peter",
+        "familyName": "Regier",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "peter.regier@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Holmquist",
+        "familyName": "James",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "HolmquistJ@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jianqiu",
+        "familyName": "Zheng",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "jianqiu.zheng@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nicholas",
+        "familyName": "Ward",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "nicholas.ward@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Allison",
+        "familyName": "Myers-Pigg",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "allison.myers-pigg@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Roy",
+        "familyName": "Rich",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "richr@si.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Xingyuan.Chen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zhi",
+        "familyName": "Li",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "zhi.li@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Peishi",
+        "familyName": "Jiang",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "peishi.jiang@pnnl.gov"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "carbon cycling",
+      "Integrated model",
+      "biogeochemical",
+      "coastal terrestrial aquatic interface",
+      "exchange flux",
+      "redox condition"
+    ],
+    "variableMeasured": [
+      "concentration",
+      "water level",
+      "exchange flux"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The field team assigned several groundwater sampling points (GW1-GW8) across the TEMPEST site, and installed several groundwater wells with in-situ aquatic and soil sensors .",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.87530699907792,
+            "longitude": -76.553394
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.872740999077934,
+            "longitude": -76.551209
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-76RL01830"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-11-01",
+      "endDate": "2021-11-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1361-4293",
+      "givenName": "Bing",
+      "familyName": "Li",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "bing.li@pnnl.gov"
+    },
+    "citation": [
+      "Li, Bing (2023) Integrated Effects of Site Hydrology and Vegetation on Exchange Fluxes and Carbon Cycling at the Coastal Terrestrial Aquatic Interface, Water Resource Research, submitted"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a688a033-da45-46ad-b72b-d6fef5139a9c"
+      },
+      "name": "COMPASS-FME",
+      "member": {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This dataset includes both the flow and reactive transport simulations generated by ATS-PFLOTRAN modeling.",
+      "The sensitivity analysis result using the scripts provided in notebooks.zip."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3.818359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-103e93d3e9ee422-20230622T170525651",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-103e93d3e9ee422-20230622T170525651",
+        "name": "Readme.md"
+      },
+      {
+        "contentSize": 312629.177734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-42fa8678a767737-20230621T162454874",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-42fa8678a767737-20230621T162454874",
+        "name": "animation.zip"
+      },
+      {
+        "contentSize": 68.7548828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3796c42978fed9f-20230621T162549706",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-3796c42978fed9f-20230621T162549706",
+        "name": "mesh.zip"
+      },
+      {
+        "contentSize": 175161.1591796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6418c7e8ae54936-20230623T003006809",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6418c7e8ae54936-20230623T003006809",
+        "name": "Simulation_setup_and_results.zip"
+      },
+      {
+        "contentSize": 10.3935546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-83e6d1f3629f21c-20230724T232900788",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-83e6d1f3629f21c-20230724T232900788",
+        "name": "Data_figures_animations_and_scripts_associated.xml"
+      },
+      {
+        "contentSize": 13551.0712890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a90870c3600d2bb-20230621T162524130",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a90870c3600d2bb-20230621T162524130",
+        "name": "Figure.zip"
+      },
+      {
+        "contentSize": 172668.8603515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fa9efccb6b06d60-20230724T232727565",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-fa9efccb6b06d60-20230724T232727565",
+        "name": "Data.zip"
+      },
+      {
+        "contentSize": 16008.0673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fb9b5cfc7464b48-20230622T170402603",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-fb9b5cfc7464b48-20230622T170402603",
+        "name": "notebook.zip"
+      }
+    ]
+  }
+}

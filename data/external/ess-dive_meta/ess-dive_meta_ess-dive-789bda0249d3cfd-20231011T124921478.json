@@ -1,0 +1,176 @@
+{
+  "id": "ess-dive-789bda0249d3cfd-20231011T124921478",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1124200",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-789bda0249d3cfd-20231011T124921478",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a2738ebb13540d4-20231011T124623593",
+  "dateUploaded": "2023-10-11T12:49:23.296Z",
+  "dateModified": "2024-07-24T18:58:01.699Z",
+  "isPublic": true,
+  "citation": "Raz-Yaseef N; Billesbach D; Torn M (2013): Retracted: Eddy-Covariance and Auxiliary Measurements, NGEE-Barrow, 2012-2013. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1124200",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1124200",
+    "name": "Retracted: Eddy-Covariance and Auxiliary Measurements, NGEE-Barrow, 2012-2013",
+    "description": [
+      "Redirect - This dataset has been superseded and is no longer available to download but is available by contacting the archive. Users are now directed to \"Flux Tower Eddy Covariance and Meteorological Measurements for Barrow, Alaska: 2012-2016\" https://doi.org/10.5440/1362279.",
+      "This record does include the three original files, two .xlsx files and one .docx, as well as three versions created for interoperability in csv and pdf.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1124200",
+      "NGA019"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7405-1607",
+        "givenName": "Naama",
+        "familyName": "Raz-Yaseef",
+        "email": "nryaseef@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Dave",
+        "familyName": "Billesbach",
+        "email": "dbillesbach1@unl.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8174-0099",
+        "givenName": "Margaret",
+        "familyName": "Torn",
+        "email": "mstorn@lbl.gov"
+      }
+    ],
+    "datePublished": "2013-11-04",
+    "keywords": [
+      "EC Tower",
+      "Utqiagvik, Alaska",
+      "BEO",
+      "eddy covariance"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Utqiagvik (Barrow), Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.35,
+            "longitude": -156.7
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 71.2,
+            "longitude": -156.4
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2012-09-06",
+      "endDate": "2013-10-28",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7405-1607",
+      "givenName": "Naama",
+      "familyName": "Raz-Yaseef",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "nryaseef@lbl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "During this experiment, raw eddy covariance data are collected by a program called HuskerFlux, version 3.02 (or later). This program runs on a small, single-board computer (SBC), under the Microsoft Windows XP (SP2) operating system. The data are logged into day-long files that begin and end at midnight. The computer clocks are set to UTC. The data are uploaded to a server in Lincoln, NE every night where they are archived, processed (daily to weekly), and sent to various data archives (NGEE, AmeriFlux, etc).If no data were collected, -9999 is entered in the data spaces and the appropriate QC flag is set. Raw data are stored in binary files as 4-byte (single precision) real numbers, and represent the 10 Hz outputs of the Gill R3-50 sonic anemometer, the LiCor LI-7500A open-path IRGA (CO2 and H2O), and the LiCor LI-7700 CH4 open-pathTDLS. The high frequency data are post-processed by a system called HuskerProc which we describe here.",
+      "One of the parameters input to HuskerProc through its setup file is the averaging period length. 30 minutes will be used throughout this project. When HuskerFlux is started (and at every subsequent midnight), a full-day data file (for the next day) is generated and filled with zeros. As raw data (from the instruments) comes in, the zeros are over-written in the appropriate locations. Each location (or 'line' of data) represents a clock tick of 0.1 seconds. Because of this structure, if the program is started at a time other than midnight or is started and stopped, there may be gaps in the data. The first task that HuskerProc performs is to examine the data file and mark the individual averaging periods (as determined by the setup file) as either complete or incomplete. An incomplete period is defined as one in which 2% or more of the data are missing. HuskerProc then performs a 'circular covariance' calculation and determines an optimum delay time (between the vertical wind speed and the covariance 'partner') for each covariance (or flux) requested in the set up file and shifts the data appropriately, correcting for time lags between instruments. This can be overridden with an appropriate switch in the set up file to use a specified delay. Next, any voltages or other quantities read from the raw data file are converted to appropriate units according to one of several algorithms selected in the set up file. After this, HuskerProc does a quality check of the data. A moving window (of length specified in the set up file) is passed over the data, and spikes or out-of-range values (as determined by parameters in the set up file) are replaced with the mean value from the current window. The three orthogonal wind speeds are then rotated into a coordinate system where the vertical and cross wind mean velocities are zero.\nThe heart of HuskerProc is the statistical analysis of the time series collected by HuskerFlux. Because this usually involves the summations of large numbers of data points, several steps have been taken to assure the best precision and to minimize round-off errors. First, all statistical calculations are performed in 'double-precision arithmetic' that is, as 8-byte real numbers. Second, variances are computed using the 'corrected two-pass algorithm' as described in Numerical Recipes in Fortran (NRF). Statistical descriptors (skewness and kurtosis) are also calculated as described in NRF. Covariances are calculated in this step. To provide an estimate of the flux uncertainty, the variance of covariances are calculated (Billesbach 2011, Finkelstein and Sims 2001). Another estimate (Random Shuffle) is also calculated (Billesbach 2011).",
+      "From these covariances, fluxes are calculated using standard definitions. HuskerProc will also read an (optional) meteorology file that, if present, is used to adjust several 'constants' such as the latent heat of vaporization, specific heat of air, air density, etc. This information is also used to calculate several ancillary quantities such as saturation vapor pressure, vapor pressure deficit, etc. This information is culled from the slow response data file. If this file is not present, HuskerProc uses a set of standard default values (P=96.0 kPa, T=20.0 C, RH=40%). During this step, certain, routine corrections are applied to appropriate fluxes such as humidity corrections to sensible heat. Note that the Gill R3-50 applies the cross-wind temperature correction internally.",
+      "A set of corrections and other quantities are also calculated. These include the full set of Webb-Pearman-Leuning terms (Webb et al, 1980), frequency corrections (Moore, 1986) (which are only applied in the cumulative b1 and c1 files), spectroscopic corrections (A, B, C for the LI-7700 LiCor, 2011), friction velocity (u*), the Monin-Obuknov stability parameter (z/L), and the roughness length (zo).",
+      "In the next processing step, the eddy covariance data are combined with data from the slow response system, and a set of quality control parameters are generated. This process results in a product, which is the most highly processed product, sent to the NGEE archive. These files produced in this step contain lines for every data period in the year.\nQA/QC values (where appropriate) for means, variances, and uncertainties are determined by the maximum and minimum allowed values for that quantity. For quantities (such as fluxes or corrected sonic temperature) that depend on other variables, these dependencies are also checked for validity. Fluxes are also flagged if the variances of their components are excessive. Finally fluxes are flagged if there is insufficient turbulence or wind speed. The 'other' category is used with fluxes that are derived from the LI-7700 and LI-7500A. This flag is set when the status words from these instruments indicate a problem.",
+      "Redirect - This dataset has been superseded and is no longer available to download but is available by contacting the archive. Users are now directed to \"Flux Tower Eddy Covariance and Meteorological Measurements for Barrow, Alaska: 2012-2016\" DOI link https://doi.org/10.5440/1362279. This new product includes data for a longer time period, starting in 2012, that have been processed using consistent methods over the entire period of record. The EC tower is operated as part of the Next Generation Ecosystem Experiment-Arctic (NGEE) at Barrow, Alaska. The tower is collecting flux data from the beginning of the thaw season, early June, and until conditions are completely frozen, early November. The tower is equipped with a Gill R3-50 Sonic Anemometer, LI-7700 (CH4) sensor, a LI-7500A (CO2/H2O) sensor, and radiation sensors (Kipp & Zonen CNR-4 (four component radiometer), two LiCor LI-190 quantum sensors (PAR upwelling and downwelling), and a down-looking Apogee SI-111 infrared radiometer (surface temperature)). The sensors are remotely controlled, and communication with the tower allows us to retrieve information in real time."
+    ],
+    "distribution": [
+      {
+        "contentSize": 11715.6728515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0990ac6d295eb72-20231011T124345254",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0990ac6d295eb72-20231011T124345254",
+        "name": "EC_NGEE_2013.csv"
+      },
+      {
+        "contentSize": 10709.103515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-14d6a36c3b46ceb-20231011T124345249",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-14d6a36c3b46ceb-20231011T124345249",
+        "name": "EC_NGEE_2012.xlsx"
+      },
+      {
+        "contentSize": 158.15234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0e17f3f56713b47-20231011T124345268",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-0e17f3f56713b47-20231011T124345268",
+        "name": "List_of_Variables.pdf"
+      },
+      {
+        "contentSize": 11747.013671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3569aac5260dee1-20231011T124345258",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-3569aac5260dee1-20231011T124345258",
+        "name": "EC_NGEE_2013.xlsx"
+      },
+      {
+        "contentSize": 11637.2705078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-606adcdaf0bd322-20231011T124345239",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-606adcdaf0bd322-20231011T124345239",
+        "name": "EC_NGEE_2012.csv"
+      },
+      {
+        "contentSize": 13.6376953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-789bda0249d3cfd-20231011T124921478",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-789bda0249d3cfd-20231011T124921478",
+        "name": "Retracted_Eddy_Covariance_and_Auxiliary.xml"
+      },
+      {
+        "contentSize": 96.2216796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-983f982ba67b9ca-20231011T124345263",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "identifier": "ess-dive-983f982ba67b9ca-20231011T124345263",
+        "name": "List_of_Variables.docx"
+      }
+    ]
+  }
+}

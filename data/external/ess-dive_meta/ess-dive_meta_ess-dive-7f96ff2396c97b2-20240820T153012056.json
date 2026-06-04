@@ -1,0 +1,439 @@
+{
+  "id": "ess-dive-7f96ff2396c97b2-20240820T153012056",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1969114",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-7f96ff2396c97b2-20240820T153012056",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-7f96ff2396c97b2-20230509T162124774",
+  "dateUploaded": "2024-08-20T15:30:14.363Z",
+  "dateModified": "2024-08-20T15:30:15.360Z",
+  "isPublic": true,
+  "citation": "Renteria L; Chu R; Danczak R E; Delgado D; Forbes B; Garayburu-Caruso V A; Goldman A E; Hodson A; Kleber G; Laan M; Magerl L; McKever S A; Toyoda J G; Yde J; Stegen J C (2023): WHONDRS Surface Water Dissolved Organic Carbon and FTICR-MS across Glacial Features in Svalbard 2022. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1969114",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1969114",
+    "name": "WHONDRS Surface Water Dissolved Organic Carbon and FTICR-MS across Glacial Features in Svalbard 2022",
+    "description": [
+      "This dataset supports a broader study examining climatic forcing of terrestrial greenhouse gas emission through permafrost and glaciers in Svalbard. The dataset provides geochemistry and organic matter characterization data generated from surface water collected from 11 sites across central Svalbard. Data were also collected in 2021 and can be found at https://data.ess-dive.lbl.gov/view/doi:10.15485/1888571. Additional related data were collected and will be published separately in collaboration with Yde and Kleber.",
+      "This dataset is comprised of one main data folder containing (1) file-level metadata; (2) data dictionary; (3) field metadata; (4) dissolved organic carbon (DOC; measured as non-purgeable organic carbon; NPOC); (5) surface water sampling protocol; (6) readme; (7) methods codes; (8) international geo-sample number (IGSN) mapping file; (9) a folder of field photos; and (10) folder of high resolution characterization of organic matter via 7 Tesla Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS) generated through the Environmental Molecular Sciences Laboratory (EMSL; https://www.pnnl.gov/environmental-molecular-sciences-laboratory). The FTICR folder contains two subfolders, one containing the .xml data files and the other containing instructions for using Formularity (https://omics.pnl.gov/software/formularity) and an R script to process the data based on the user's specific needs. All files are .csv, .pdf, .R, .ref, or .xml."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Rosalie",
+        "familyName": "Chu",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Rosalie.Chu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert E.",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6652-6775",
+        "givenName": "Dillman",
+        "familyName": "Delgado",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "dillman.delgadoparedes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Andrew",
+        "familyName": "Hodson",
+        "affiliation": "University Centre in Svalbard",
+        "email": "andrewH@unis.no"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5062-970X",
+        "givenName": "Gabrielle",
+        "familyName": "Kleber",
+        "affiliation": "University of Cambridge / University Centre in Svalbard (UNIS)",
+        "email": "gek26@cam.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0256-3822",
+        "givenName": "Maggi",
+        "familyName": "Laan",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "maggi.laan@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3909-772X",
+        "givenName": "Leonard",
+        "familyName": "Magerl",
+        "affiliation": "UiT The Arctic University of Norway",
+        "email": "leonard.magerl@uit.no"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophia A.",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "sophia.mckever@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6299-2146",
+        "givenName": "Jason G.",
+        "familyName": "Toyoda",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Jason.Toyoda@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6211-2601",
+        "givenName": "Jacob",
+        "familyName": "Yde",
+        "affiliation": "Western Norway University of Applied Sciences (formerly H\u00f8gskulen P\u00e5 Vestlandet)",
+        "email": "Jacob.Yde@hvl.no"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2023-04-04",
+    "keywords": [
+      "River corridor",
+      "Freshwater",
+      "River",
+      "Stream",
+      "Watershed",
+      "Biogeochemistry",
+      "Hydrobiogeochemical function",
+      "Organic matter",
+      "Hyporheic zone",
+      "Metabolite",
+      "Metabolomics",
+      "Mass spectrometry",
+      "ESS-DIVE Location Metadata Reporting Format",
+      "ESS-DIVE Sample ID and Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > CRYOSPHERE > GLACIERS/ICE SHEETS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GLACIERS/ICE SHEETS"
+    ],
+    "variableMeasured": [
+      "DOC",
+      "Dissolved organic carbon",
+      "NPOC",
+      "Non-purgeable organic carbon",
+      "FTICR-MS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "YDE22_055, Scheelebreen West Melt River, Norway, Svalbard",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 77.7742,
+            "longitude": 17.03
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 77.7742,
+            "longitude": 17.03
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "YDE22_056, Scheelebreen East Melt River, Norway, Svalbard",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 77.7698,
+            "longitude": 17.1065
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 77.7698,
+            "longitude": 17.1065
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "YDE22_057, Peisbreen Melt River, Norway, Svalbard",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 77.7473,
+            "longitude": 17.1446
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 77.7473,
+            "longitude": 17.1446
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "YDE22_058, Lunabreen Melt River, Norway, Svalbard",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 77.7811,
+            "longitude": 16.9092
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 77.7811,
+            "longitude": 16.9092
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "YDE22_059, Lognbreen Melt River, Norway, Svalbard",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 77.831,
+            "longitude": 17.1226
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 77.831,
+            "longitude": 17.1226
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "YDE22_060, Mettebreen Melt River, Norway, Svalbard",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 77.8115,
+            "longitude": 17.2076
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 77.8115,
+            "longitude": 17.2076
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "YDE22_061, H\u00f8gbreen Melt River, Norway, Svalbard",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 77.7691,
+            "longitude": 16.8151
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 77.7691,
+            "longitude": 16.8151
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "YDE22_062, Elektrobreen Melt River, Norway, Svalbard",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 77.7874,
+            "longitude": 16.7435
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 77.7874,
+            "longitude": 16.7435
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "YDE22_063, Bessemerbreen Melt River, Norway, Svalbard",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 77.7942,
+            "longitude": 16.6751
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 77.7942,
+            "longitude": 16.6751
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "YDE22_064, Svalbreen Melt River, Norway, Svalbard",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 77.7235,
+            "longitude": 16.5111
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 77.7235,
+            "longitude": 16.5111
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "YDE22_065, Stabarpbreen Melt River, Norway, Svalbard",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 77.8603,
+            "longitude": 16.9128
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 77.8603,
+            "longitude": 16.9128
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-07-30",
+      "endDate": "2022-09-03",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9135-7424",
+      "givenName": "James C.",
+      "familyName": "Stegen",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "James.Stegen@pnnl.gov"
+    },
+    "citation": [
+      "Boye, K., Crystal-Ornelas, R., O'Ryan, D., Goldman, A. E., Damerow, J., Varadharajan, C., & Agarwal, D. (2022). ESS-DIVE Reporting Format for Sample-based Water and Soil Chemistry Measurements. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1865731",
+      "Crystal-Ornelas R; O'Ryan D; Christianson D; Hendrix V C; Agarwal D; Varadharajan C (2022): ESS-DIVE Reporting Format for Location Metadata. ESS-DIVE repository. Dataset. doi: 10.15485/1865730",
+      "Damerow J ; Varadharajan C ; Boye K ; Brodie E ; Burrus M ; Chadwick D ; Cholia S ; Crystal-Ornelas R ; Elbashandy H ; Eloy Alves R ; Ely K ; Goldman A ; Hendrix V ; Jones C ; Jones M ; Kakalia Z ; Kemner K ; Kersting A ; Maher K ; Merino N ; O'Brien F ; Perzan Z ; Robles E ; Snavely C ; Sorensen P ; Stegen J ; Weisenhorn P ; Whitenack K ; Zavarin M ; Agarwal D (2020): Sample Identifiers and Metadata Reporting Format for Environmental Systems Science. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/1660470",
+      "McKever S A ; Chu R ; Danczak R E ; Forbes B ; Garayburu-Caruso V A ; Goldman A E ; Hodson A ; Kleber G ; Magerl L ; Renteria L ; Toyoda J G ; Yde J ; Stegen J C (2022): WHONDRS Surface Water and Sediment Non-Purgeable Organic Carbon and FTICR-MS across Glacial Features in Svalbard 2021. River Corridor and Watershed Biogeochemistry SFA, ESS-DIVE repository. Dataset. doi:10.15485/1888571",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734841",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Samples were collected across central Svalbard in 2022. Site metadata, including general environmental information, were manually recorded in the field. See WHONDRS_YDE22_Sampling_Protocol.pdf for details on sample and site metadata collection. Surface water samples were syringe-filtered into pre-acidified vials in the field and refrigerated until ready for laboratory processing that included solid phase extraction (SPE) before FTICR-MS analysis. Samples were shipped internationally on blue ice, but shipping time exceeded the lifespan of the ice. Upon receipt, they were refrigerated and analyzed for NPOC and FTICR-MS. For details regarding laboratory and instrument methods, see the alphanumeric methods codes located in the header rows of the chemistry data csv file and their associated definitions in YDE22_Methods_Codes.csv. Data formats follow ESS-DIVE Reporting Formats."
+    ],
+    "distribution": [
+      {
+        "contentSize": 18.7158203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7f96ff2396c97b2-20240820T153012056",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-7f96ff2396c97b2-20240820T153012056",
+        "name": "WHONDRS_Surface_Water_Dissolved_Organic_Carbon.xml"
+      },
+      {
+        "contentSize": 99961.0283203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c8e1fdf1c945dd1-20230405T202518300",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c8e1fdf1c945dd1-20230405T202518300",
+        "name": "WHONDRS_YDE22_Data_Package.zip"
+      }
+    ]
+  }
+}

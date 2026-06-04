@@ -1,0 +1,745 @@
+{
+  "id": "ess-dive-1b0475585f9b333-20230504T212304509715",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1659484",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1b0475585f9b333-20230504T212304509715",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-c6ceb1399ed45a6-20230407T154651513326",
+  "dateUploaded": "2023-05-04T21:23:06.324Z",
+  "dateModified": "2023-05-04T21:23:09.197Z",
+  "isPublic": true,
+  "citation": "Ely K; Rogers A; Crystal-Ornelas R (2020): ESS-DIVE reporting format for leaf-level gas exchange data and metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). Dataset. doi:10.15485/1659484",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1659484",
+    "name": "ESS-DIVE reporting format for leaf-level gas exchange data and metadata",
+    "description": [
+      "Here we present documentation of the ESS-DIVE reporting format for leaf-level gas exchange data and metadata. This reporting format provides guidance to data contributors on how to store data to maximize their discoverability, facilitate their efficient reuse, and add value to individual datasets. For data users, the reporting format will better allow data repositories to optimize data search and extraction, and more readily integrate similar data into harmonized synthesis products. The reporting format specifies data table variable naming and unit conventions, as well as metadata characterizing experimental conditions and protocols. For common data types that were the focus of this initial version of the reporting format, i.e., survey measurements, dark respiration, carbon dioxide and light response curves, and parameters derived from those measurements, we took a further step of defining required additional data that would maximize the potential reuse of those data types. To aid data contributors and the development of data ingest tools by data repositories we provided a translation table comparing the outputs of common gas exchange instruments. The reporting format presented here is intended to form a foundation for future development that will incorporate additional data types and variables as gas exchange systems and measurement approaches advance in the future. The reporting format documentation is maintained and updated on the ESS-DIVE Community Space GitHub. This data package is the first published version of this reporting format, and comprises a zip file of the complete content of https://github.com/ess-dive-community/essdive-leaf-gas-exchange v1.0. The zip contains the reporting format description, guidelines, variable tables and instructions in GitHub markdown language (*.md) and 2 metadata templates as spreadsheets with drop down options (*.xlsx files, also function in GoogleSheets)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3915-001X",
+        "givenName": "Kim",
+        "familyName": "Ely",
+        "affiliation": "Brookhaven National Lab",
+        "email": "kely@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9262-7430",
+        "givenName": "Alistair",
+        "familyName": "Rogers",
+        "affiliation": "Brookhaven National Lab",
+        "email": "arogers@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6339-1139",
+        "givenName": "Robert",
+        "familyName": "Crystal-Ornelas",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "rcrystalornelas@lbl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5045-2396",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "affiliation": "Lawrence Berkeley National Laboratory,",
+        "email": "daagarwal@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3199-8999",
+        "givenName": "Ainsworth",
+        "familyName": "Elizabeth",
+        "affiliation": "USDA ARS GCPRU",
+        "email": "lisa.ainsworth@usda.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9674-6071",
+        "givenName": "Loren",
+        "familyName": "Albert",
+        "affiliation": "West Virginia University",
+        "email": "loren.albert@mail.wvu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7328-306X",
+        "givenName": "Ashehad",
+        "familyName": "Ali",
+        "affiliation": "University of Goettingen",
+        "email": "ali.ashehad@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1705-7823",
+        "givenName": "Jeremiah",
+        "familyName": "Anderson",
+        "affiliation": "Brookhaven National Laboratory",
+        "email": "jeanderson@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "aspinwall@auburn.edu",
+        "givenName": "Michael",
+        "familyName": "Aspinwall",
+        "affiliation": "Auburn University",
+        "email": "aspinwall@auburn.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3865-7521",
+        "givenName": "Chandra",
+        "familyName": "Bellasio",
+        "affiliation": "University of Balearic Islands",
+        "email": "chandra.bellasio@uib.es"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2397-425X",
+        "givenName": "Carl",
+        "familyName": "Bernacchi",
+        "affiliation": "USDA ARS GCPRU",
+        "email": "carl.bernacchi@usda.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Steve",
+        "familyName": "Bonnage",
+        "affiliation": "ADC Bioscientific Ltd",
+        "email": "sales@adc.co.uk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7610-7136",
+        "givenName": "Thomas",
+        "familyName": "Buckley",
+        "affiliation": "University of California Davis",
+        "email": "tnbuckley@ucdavis.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6825-7510",
+        "givenName": "James",
+        "familyName": "Bunce",
+        "affiliation": "USDA-ARS",
+        "email": "buncejames49@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2678-9842",
+        "givenName": "Angela",
+        "familyName": "Burnett",
+        "affiliation": "Brookhaven National Laboratory",
+        "email": "aburnett@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6912-0156",
+        "givenName": "Florian",
+        "familyName": "Busch",
+        "affiliation": "University of Birmingham",
+        "email": "f.a.busch@bham.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5918-8093",
+        "givenName": "Amanda",
+        "familyName": "Cavanagh",
+        "affiliation": "University of Essex",
+        "email": "a.cavanagh@essex.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7575-5526",
+        "givenName": "Lucas",
+        "familyName": "Cernusak",
+        "affiliation": "James Cook University",
+        "email": "lucas.cernusak@jcu.edu.au"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2601-5043",
+        "givenName": "Joan",
+        "familyName": "Damerow",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "JoanDamerow@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5745-9689",
+        "givenName": "Kenneth",
+        "familyName": "Davidson",
+        "affiliation": "Brookhaven National Laboratory",
+        "email": "kdavidson@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3399-9098",
+        "givenName": "Martin",
+        "familyName": "De Kauwe",
+        "affiliation": "ARC Centre of Excellence for Climate Extremes",
+        "email": "mdekauwe@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2324-2518",
+        "givenName": "Michael",
+        "familyName": "Dietze",
+        "affiliation": "Boston University",
+        "email": "dietze@bu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2857-9838",
+        "givenName": "Tomas",
+        "familyName": "Domingues",
+        "affiliation": "University of S\u00e3o Paulo",
+        "email": "tdomingu@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4218-0911",
+        "givenName": "Mirindi",
+        "familyName": "Dusenge",
+        "affiliation": "University of Gothenburg",
+        "email": "mirindi.eric.dusenge@bioenv.gu.se"
+      },
+      {
+        "@type": "Person",
+        "@id": "0000\u20100002\u20109699\u20102272",
+        "givenName": "David",
+        "familyName": "Ellsworth",
+        "affiliation": "Western Sydney University",
+        "email": "D.Ellsworth@westernsydney.edu.au"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1379-3532",
+        "givenName": "John",
+        "familyName": "Evans",
+        "affiliation": "The Australian National University",
+        "email": "john.evans@anu.edu.au"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2893-7861",
+        "givenName": "Paul",
+        "familyName": "Gauthier",
+        "affiliation": "NOAA/Geophysical Fluid Dynamics Laboratory",
+        "email": "paul.pg.gauthier@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7336-9448",
+        "givenName": "Bruno",
+        "familyName": "Gimenez",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "bruno.oliva.gimenez@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5182-0143",
+        "givenName": "Elizabeth",
+        "familyName": "Gordon",
+        "affiliation": "LI-COR Biosciences",
+        "email": "elizabeth.gordon@licor.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1227-7731",
+        "givenName": "Christopher",
+        "familyName": "Gough",
+        "affiliation": "Virginia Commonwealth University",
+        "email": "cmgough@vcu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2597-6328",
+        "givenName": "Aud",
+        "familyName": "Halbritter",
+        "affiliation": "University of Bergen",
+        "email": "aud.halbritter@uib.no"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0964-9335",
+        "givenName": "David",
+        "familyName": "Hanson",
+        "affiliation": "University of New Mexico",
+        "email": "dthanson@unm.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3227-2978",
+        "givenName": "Mary",
+        "familyName": "Heskel",
+        "affiliation": "Macalester College",
+        "email": "mheskel@macalester.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9806-3074",
+        "givenName": "Aaron",
+        "familyName": "Hogan",
+        "affiliation": "Florida International Univeristy",
+        "email": "Jamesaaronhogan@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jason",
+        "familyName": "Hupp",
+        "affiliation": "LI-COR Biosciences",
+        "email": "jason.hupp@licor.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8491-9310",
+        "givenName": "Kolby",
+        "familyName": "Jardine",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "kjjardine@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1022-8469",
+        "givenName": "Jens",
+        "familyName": "Kattge",
+        "affiliation": "Max Planck Institute for Biogeochemistry",
+        "email": "jkattge@bgc-jena.mpg.de"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3347-0258",
+        "givenName": "Trevor",
+        "familyName": "Keenan",
+        "affiliation": "University of California Berkeley",
+        "email": "trevorkeenan@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4423-4100",
+        "givenName": "Johannes",
+        "familyName": "Kromdijk",
+        "affiliation": "University of Cambridge",
+        "email": "jk417@cam.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1309-4731",
+        "givenName": "Dushan",
+        "familyName": "Kumarathunge",
+        "affiliation": "Coconut Research Institute of Sri Lanka",
+        "email": "dkumarathunge@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4410-507X",
+        "givenName": "Julien",
+        "familyName": "Lamour",
+        "affiliation": "Brookhaven National Laboratory",
+        "email": "jlamour@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6251-024X",
+        "givenName": "Andrew",
+        "familyName": "Leakey",
+        "affiliation": "University of Illinois at Urbana-Champaign",
+        "email": "leakey@illinois.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7228-053X",
+        "givenName": "David",
+        "familyName": "LeBauer",
+        "affiliation": "University of Arizona",
+        "email": "dlebauer@arizona.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0627-039X",
+        "givenName": "Qianyu",
+        "familyName": "Li",
+        "affiliation": "Brookhaven National Laboratory",
+        "email": "qli1@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2489-3646",
+        "givenName": "Marjorie",
+        "familyName": "Lundgren",
+        "affiliation": "Lancaster University",
+        "email": "m.lundgren@lancaster.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2178-2254",
+        "givenName": "Nate",
+        "familyName": "McDowell",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "nate.mcdowell@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1198-5389",
+        "givenName": "Katherine",
+        "familyName": "Meacham-Hensold",
+        "affiliation": "University of Illinois at Urbana-Champaign",
+        "email": "katmeach@illinois.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5728-9827",
+        "givenName": "Belinda",
+        "familyName": "Medlyn",
+        "affiliation": "Western Sydney University",
+        "email": "b.medlyn@westernsydney.edu.au"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6462-3288",
+        "givenName": "David",
+        "familyName": "Moore",
+        "affiliation": "University of Arizona",
+        "email": "davidjpmoore@email.arizona.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4691-2692",
+        "givenName": "Robinson",
+        "familyName": "Negr\u00f3n-Ju\u00e1rez",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "robinson.inj@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3078-2192",
+        "givenName": "\u00dclo",
+        "familyName": "Niinemets",
+        "affiliation": "Estonian University of Life Sciences",
+        "email": "ylo.niinemets@emu.ee"
+      },
+      {
+        "@type": "Person",
+        "@id": "0000-0002-7423-3718v",
+        "givenName": "Colin",
+        "familyName": "Osborne",
+        "affiliation": "University of Sheffield",
+        "email": "c.p.osborne@sheffield.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3104-1900",
+        "givenName": "Alexandria",
+        "familyName": "Pivovaroff",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "alexandria.pivovaroff@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9900-2433",
+        "givenName": "Hendrik",
+        "familyName": "Porter",
+        "affiliation": "Forschungszentrum Juelich GmbH",
+        "email": "h.poorter@fz-juelich.de"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8597-8619",
+        "givenName": "Sasha",
+        "familyName": "Reed",
+        "affiliation": "US Geological Survey",
+        "email": "screed@usgs.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6238-2479",
+        "givenName": "Youngryel",
+        "familyName": "Ryu",
+        "affiliation": "Seoul National University",
+        "email": "ryuyr77@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7754-4618",
+        "givenName": "Alvaro",
+        "familyName": "Sanz-Saez",
+        "affiliation": "Auburn University",
+        "email": "sanz@auburn.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9054-5538",
+        "givenName": "Stephanie",
+        "familyName": "Schmiege",
+        "affiliation": "Columbia University",
+        "email": "s.schmiege@columbia.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4136-8971",
+        "givenName": "Shawn",
+        "familyName": "Serbin",
+        "affiliation": "Brookhaven National Laboratory",
+        "email": "sserbin@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4423-3223",
+        "givenName": "Thomas",
+        "familyName": "Sharkey",
+        "affiliation": "Michigan State University",
+        "email": "tsharkey@msu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5558-1792",
+        "givenName": "Martijn",
+        "familyName": "Slot",
+        "affiliation": "Smithsonian Tropical Research Institute",
+        "email": "slotm@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7048-4387",
+        "givenName": "Nicholas",
+        "familyName": "Smith",
+        "affiliation": "Texas Tech University",
+        "email": "nick.smith@ttu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6539-5179",
+        "givenName": "Balasaheb",
+        "familyName": "Sonewane",
+        "affiliation": "Washington State University",
+        "email": "balasahebsonawane@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7885-7096",
+        "givenName": "Paul",
+        "familyName": "South",
+        "affiliation": "Louisiana State University",
+        "email": "pfsouth@lsu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5522-6494",
+        "givenName": "Daisy",
+        "familyName": "Souza",
+        "affiliation": "National Institute for Amazon Research",
+        "email": "daisysouza21@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7628-4201",
+        "givenName": "Joseph",
+        "familyName": "Stinziano",
+        "affiliation": "University of New Mexico",
+        "email": "jstinziano@unm.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9901-7643",
+        "givenName": "Ellen",
+        "familyName": "Stuart-Ha\u00ebntjens",
+        "affiliation": "US Geological Survey",
+        "email": "egoodrich-stuart@usgs.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9714-0656",
+        "givenName": "Samuel",
+        "familyName": "Taylor",
+        "affiliation": "Lancaster University",
+        "email": "s.taylor19@lancaster.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1698-0501",
+        "givenName": "Mauricio",
+        "familyName": "Tejera",
+        "affiliation": "Michigan State University",
+        "email": "mauri@msu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4893-1915",
+        "givenName": "Johan",
+        "familyName": "Uddling",
+        "affiliation": "University of Gothenburg",
+        "email": "johan.uddling@bioenv.gu.se"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4651-4798",
+        "givenName": "Vigdis",
+        "familyName": "Vandik",
+        "affiliation": "University of Bergen",
+        "email": "vigdis.vandvik@uib.no"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0557-5594",
+        "givenName": "Anthony",
+        "familyName": "Walker",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "walkerap@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5932-6468",
+        "givenName": "Berkley",
+        "familyName": "Walker",
+        "affiliation": "Michigan State University",
+        "email": "berkley@msu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0680-4697",
+        "givenName": "Jeffrey",
+        "familyName": "Warren",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "warrenjm@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4801-5319",
+        "givenName": "Danielle",
+        "familyName": "Way",
+        "affiliation": "University of Western Ontario",
+        "email": "dway4@uwo.ca"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7535-045X",
+        "givenName": "Brett",
+        "familyName": "Wolfe",
+        "affiliation": "Louisiana State University",
+        "email": "wolfe1@lsu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8991-3970",
+        "givenName": "Jin",
+        "familyName": "Wu",
+        "affiliation": "The University of Hong Kong",
+        "email": "jinwu@hku.hk"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9869-0446",
+        "givenName": "Stan",
+        "familyName": "Wullschleger",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "wullschlegsd@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0937-5744",
+        "givenName": "Chonggang",
+        "familyName": "Xu",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "cxu@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1705-7823",
+        "givenName": "Dedi",
+        "familyName": "Yang",
+        "affiliation": "Brookhaven National Laboratory",
+        "email": "dediyang@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5028-8167",
+        "givenName": "Zhengbing",
+        "familyName": "Yan",
+        "affiliation": "The Univeristy of Hong Kong",
+        "email": "zbyan@hku.hk"
+      }
+    ],
+    "datePublished": "2020-12-08",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-12-08",
+      "endDate": "2020-12-08",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3915-001X",
+      "givenName": "Kim",
+      "familyName": "Ely",
+      "affiliation": "Brookhaven National Lab",
+      "email": "kely@bnl.gov"
+    },
+    "citation": [
+      "Ely KS et al (2021). A reporting format for leaf-level gas exchange data and metadata. Ecological Informatics. doi: 10.1016/j.ecoinf.2021.101232."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "f5bb4f8b-224d-4d6a-9040-ae5a4a2959e6"
+      },
+      "name": "Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "daagarwal@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "For a full description of the process of development of this reporting format, refer to Ely KS et al (in review). A reporting format for leaf-level gas exchange data and metadata. Ecological Informatics.\nFor the latest update on the reporting format, please access the documentation on GitHub or GitBook.\nhttps://github.com/ess-dive-community/essdive-leaf-gas-exchange\nhttps://ess-dive.gitbook.io/leaf-level-gas-exchange/",
+      "To reach community consensus on the content of this reporting format, subject matter experts from many organizations were invited to participate, including from the following ESS projects:\nAmeriflux\nCarbon Dynamics within Urban-Suburban-Forested-Agricultural Landscapes\nClimate Change Feedbacks from Interactions Between New and Old Carbon;\nClimate change impacts at the temperate-boreal ecotone: interactions between warming and precipitation;\nConnecting AmeriFlux to the Globe, Extending the Partnership with Global Flux Network FLUXNET;\nConstraining the Simultaneous Effects of Elevated CO2, Temperature, and Shifts in Rainfall Patterns on Ecosystem Carbon Fluxes using Multi-Scale Resource;\nDetermining the impact of forest mortality in semi-arid woodlands on local and regional carbon dynamics;\nEffects of Hurricane Disturbance and Increased Temperature on Carbon Cycling and Storage of a Puerto Rican Forest: A Mechanistic Investigation of Above- and Belowground Processes;\nNext Generation Ecosystem Experiments - Arctic;\nNext Generation Ecosystem Experiments - Tropics;\nORNL Terrestrial Ecosystem Science Scientific Focus Area;\nPartitioning CO2 Fluxes with Isotopologue Measurements and Modeling to Understand Mechanisms of Forest Carbon Sequestration;\nQuantifying the Effect of Nighttime Interactions Between Roots and Canopy Physiology and Their Control of Water and Carbon Cycling on Feedbacks Between Soil Moisture and Terrestrial Climatology under Variable Environmental Conditions;\nSpruce and Peatland Responses Under Changing Environments;\nSubalpine and Alpine Species Range Shifts with Climate Change: Temperature and Soil Moisture Manipulations to Test Species and Population Response;\nUnderstanding the Response of Photosynthetic Metabolism in Tropical Forests to Seasonal Climate Variation"
+    ],
+    "distribution": [
+      {
+        "contentSize": 80.9453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1b0475585f9b333-20230504T212304509715",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-1b0475585f9b333-20230504T212304509715",
+        "name": "ESS_DIVE_reporting_format_for_leaf_level_gas_exchange_data_and_metadata.xml"
+      },
+      {
+        "contentSize": 47.0791015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4dbc958e7c4bef9-20201208T191613554",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4dbc958e7c4bef9-20201208T191613554",
+        "name": "essdive_leaf_gas_exchange_1_0.zip"
+      }
+    ]
+  }
+}

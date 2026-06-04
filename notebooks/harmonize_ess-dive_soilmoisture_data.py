@@ -15,8 +15,8 @@ from pyproj import Transformer
 # =============================================================
 
 HOME = Path.home()
-BASE_DIR = HOME / "Downloads" / "ess-dive_wfsfa_soil_datasets"
-OUT_DIR = HOME / "Desktop" / "soilmoisture_harmonization_py"
+BASE_DIR = Path(HOME, "ess-dive_wfsfa_soil_datasets")
+OUT_DIR = Path("data", "processed", "ess-dive_wfsfa_soil_datasets")
 MAP_JSON_PATH = OUT_DIR / "sm_data_harmonization_mapping.json"
 
 OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -832,7 +832,7 @@ df23_harmonized = ensure_harmonized_cols(x)
 harmonized_data.append(df23_harmonized)
 harmonized_ids.append(dsid(idx))
 
-loc23 = pd.DataFrame({"site_id": df23_harmonized["site_id"]dropna().unique()})
+loc23 = pd.DataFrame({"site_id": df23_harmonized["site_id"].dropna().unique()})
 loc23["latitude"] = np.nan
 loc23["longitude"] = np.nan
 loc23 = loc23[loc23["site_id"].isin(df23_harmonized["site_id"].dropna().unique())].copy()

@@ -24,13 +24,21 @@ benchmark-datasets/
 │   ├── intermediate/      # Filtered/processed intermediate outputs
 │   │   ├── er_soil_meta.json
 │   │   └── ess-dive_eastriver_*.tsv
-│   └── processed/         # Final harmonized datasets
-│       └── ess-dive_wfsfa_soil_datasets/  # See data README below
+│   └── processed/         # Tracked metadata for processed datasets
+│       └── ess-dive_wfsfa_soil_datasets/  # URLs, README, mapping JSON
+├── berdl_import/          # BERDL import workflow for WFSFA soil moisture
+│   ├── AGENT_LOG.md       # Chronological import notes and decisions
+│   ├── scripts/           # Build, schema-generation, and BERDL import scripts
+│   ├── schema/            # Generated BERDL schema documentation
+│   ├── downloaded_data/   # Ignored downloaded source CSVs and local location UUID file
+│   ├── data/              # Ignored generated BERDL import packages
+│   └── local_logs/        # Ignored local pipeline logs
 ├── notebooks/             # Data processing scripts
 │   ├── scrape_ess-dive.py
 │   └── harmonize_ess-dive_soilmoisture_data.py
 ├── skills/                # Claude Code skills for AI-assisted workflows
-│   └── wfsfa_sm_harmonization/  # Interactive harmonization skill
+│   ├── wfsfa_sm_harmonization/  # Interactive harmonization skill
+│   └── watershed-sfa-soil-moisture-berdl-query/  # BERDL query skill
 ├── src/
 │   └── benchmark_datasets/  # Python package source
 └── tests/                 # Unit and integration tests
@@ -55,6 +63,35 @@ Key features:
 - Linked site metadata with WGS-84 coordinates
 
 For complete documentation, see [`data/processed/ess-dive_wfsfa_soil_datasets/README.md`](data/processed/ess-dive_wfsfa_soil_datasets/README.md).
+
+### BERDL Watershed SFA Soil Moisture Import
+
+The BERDL import workflow converts the harmonized WFSFA soil moisture files into the `bervodata_watershed_sfa_soil_moisture` BERDL database.
+
+Tracked import files live under [`berdl_import/`](berdl_import/):
+
+- [`berdl_import/scripts/build_watershed_sfa_soil_moisture_import.py`](berdl_import/scripts/build_watershed_sfa_soil_moisture_import.py) — builds BERDL-ready CSV tables from the harmonized source files and tracked metadata
+- [`berdl_import/scripts/import_watershed_sfa_soil_moisture_to_berdl.py`](berdl_import/scripts/import_watershed_sfa_soil_moisture_to_berdl.py) — imports generated CSV tables into BERDL
+- [`berdl_import/scripts/generate_watershed_sfa_soil_moisture_schema.py`](berdl_import/scripts/generate_watershed_sfa_soil_moisture_schema.py) — generates markdown schema documentation from the import package
+- [`berdl_import/schema/`](berdl_import/schema/) — generated schema docs for query authors and skills
+- [`berdl_import/AGENT_LOG.md`](berdl_import/AGENT_LOG.md) — record of import decisions, table design, ontology sources, and actions taken
+
+Large or regenerated artifacts are intentionally ignored:
+
+- `berdl_import/downloaded_data/` stores downloaded harmonized CSVs from Google Drive and the locally generated `location_data_harmonized_with_uuid.csv`
+- `berdl_import/data/` stores generated BERDL import packages, including large table CSVs
+- `berdl_import/local_logs/` stores local import and validation logs
+
+The current BERDL table set is:
+
+- `sdt_dataset`
+- `sdt_location`
+- `sdt_harmonized_location`
+- `ddt_soil_moisture_observation`
+- `ddt_ndarray`
+- `sys_typedef`
+- `sys_ddt_typedef`
+- `sys_oterm`
 
 ## Scripts
 
@@ -94,6 +131,22 @@ Data harmonization workflow that transforms heterogeneous soil moisture datasets
 - `data/processed/ess-dive_wfsfa_soil_datasets/location_data_harmonized_with_uuid.csv` — Site metadata
 - `data/processed/ess-dive_wfsfa_soil_datasets/sm_data_harmonization_mapping.json` — Transformation provenance
 
+**BERDL import inputs:**
+- `berdl_import/downloaded_data/ess-dive_wfsfa_soil_datasets/harmonized_csv/*.csv` — Downloaded harmonized data files used by the BERDL import workflow; ignored by git
+- `berdl_import/downloaded_data/ess-dive_wfsfa_soil_datasets/location_data_harmonized_with_uuid.csv` — Local UUID-based site metadata used by the BERDL import workflow; ignored by git
+
+### `berdl_import/scripts/build_watershed_sfa_soil_moisture_import.py`
+
+Builds the BERDL-ready table package from the tracked WFSFA metadata and ignored downloaded harmonized CSVs. Outputs are written under `berdl_import/data/berdl_import/watershed_sfa_soil_moisture/` and are ignored by git because they are large and reproducible.
+
+### `berdl_import/scripts/import_watershed_sfa_soil_moisture_to_berdl.py`
+
+Uploads the generated BERDL table package into the `bervodata_watershed_sfa_soil_moisture` database. This script expects the BERDL remote ingest environment to be configured.
+
+### `berdl_import/scripts/generate_watershed_sfa_soil_moisture_schema.py`
+
+Generates markdown schema documentation from the BERDL import package. The generated docs are tracked in [`berdl_import/schema/`](berdl_import/schema/) and copied into the query skill references.
+
 ## AI-Assisted Workflows
 
 The [`skills/`](skills/) directory contains Claude Code skills for interactive, AI-assisted data harmonization:
@@ -119,6 +172,20 @@ An interactive skill that guides Claude through evaluating, harmonizing, and doc
 - QC flags for approximated depths or locations
 
 See [`skills/wfsfa_sm_harmonization/SKILL.md`](skills/wfsfa_sm_harmonization/SKILL.md) for complete documentation and [`soilmoisture_harmonization_general_insights.md`](skills/wfsfa_sm_harmonization/soilmoisture_harmonization_general_insights.md) for general insights from the harmonization process.
+
+### Watershed SFA Soil Moisture BERDL Query Skill
+
+**Location:** [`skills/watershed-sfa-soil-moisture-berdl-query/`](skills/watershed-sfa-soil-moisture-berdl-query/)
+
+A query skill for the imported `bervodata_watershed_sfa_soil_moisture` BERDL database. It follows the pattern of the ENIGMA BERDL query skill and uses generated schema references from [`berdl_import/schema/`](berdl_import/schema/).
+
+**Capabilities:**
+- Compose BERDL SQL against the current WFSFA soil moisture table and column names
+- Use generated schema references to avoid guessing table structure
+- Join observation, dataset, and location tables consistently
+- Query ontology and typedef metadata through `sys_oterm`, `sys_typedef`, and `sys_ddt_typedef`
+
+The skill is repo-tracked under `skills/` and can be installed locally under `~/.codex/skills/watershed-sfa-soil-moisture-berdl-query/`.
 
 ## Setup
 
@@ -161,6 +228,16 @@ df_all = pd.concat([pd.read_csv(f, parse_dates=["datetime_UTC"])
 # Merge with location metadata
 locations = pd.read_csv(data_dir / "location_data_harmonized_with_uuid.csv")
 df_merged = df_all.merge(locations, on="site_id", how="left")
+```
+
+For the current BERDL import workflow, the downloaded harmonized CSVs are kept outside tracked source metadata:
+
+```python
+from pathlib import Path
+
+downloaded_dir = Path("berdl_import/downloaded_data/ess-dive_wfsfa_soil_datasets")
+harmonized_dir = downloaded_dir / "harmonized_csv"
+locations = downloaded_dir / "location_data_harmonized_with_uuid.csv"
 ```
 
 ### Inspect data transformation provenance

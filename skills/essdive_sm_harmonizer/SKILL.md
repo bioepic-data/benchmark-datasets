@@ -1,11 +1,11 @@
 ---
-metadata:
-  skill_name: wfsfa_sm_harmonization
-  description: >
+name: wfsfa_sm_harmonization
+description: >
     Guides Claude through the interactive process of evaluating, harmonizing,
     and documenting a new ESS-DIVE soil moisture dataset into the WFSFA
     harmonization framework. Produces Python harmonization code and a JSON mapping
     entry conforming to established schema.
+metadata:
   version: "0.2"
   created: "2026-05-12"
   updated: "2026-06-04"

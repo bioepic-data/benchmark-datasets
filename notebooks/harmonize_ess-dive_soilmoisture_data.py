@@ -15,9 +15,9 @@ from pyproj import Transformer
 # =============================================================
 
 HOME = Path.home()
-BASE_DIR = Path(HOME, "ess-dive_wfsfa_soil_datasets")
-OUT_DIR = Path("data", "processed", "ess-dive_wfsfa_soil_datasets")
-MAP_JSON_PATH = OUT_DIR / "sm_data_harmonization_mapping.json"
+BASE_DIR = Path(HOME, "Downloads", "ess-dive_wfsfa_soil_datasets")
+OUT_DIR = Path(HOME, "Desktop", "soil_moisture_harmonization_data")
+MAP_JSON_PATH = Path(OUT_DIR, "sm_data_harmonization_mapping.json")
 
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 

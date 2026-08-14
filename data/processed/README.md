@@ -40,30 +40,30 @@ The **Watershed Function Science Focus Area (WSFSA) Harmonized Soil Moisture Dat
 
 ## Data Summary  
 
-| Asset | Description | Quantity | Format |
-|-------|-------------|----------|--------|
-| **Source sub‑directories** | Raw ESS‑DIVE packages (original files) | 25 directories; one per source package | Mixed (CSV, TXT, XLSX, JSON, etc.) |
-| **Harmonized CSVs** | One per source package, merged, transformed, and reshaped to long format | 8 files | CSV |
-| **Location metadata** | Consolidated site‑level geospatial and identifier data for all packages | 1 file | CSV |
-| **Mapping JSON** | Detailed mapping of original variable names → harmonized variables, including transformations | 1 file | JSON |
+| Asset | Description | Quantity | Format | Location |
+|-------|-------------|----------|--------|----------|
+| **Source package URLs** | Links to raw ESS‑DIVE packages (original files) on Google Drive | 1 CSV file | CSV | `ess-dive_wfsfa_soil_datasets/` |
+| **Harmonized CSV URLs** | Links to harmonized files (one per source package, merged, transformed, and reshaped to long format) | 1 CSV file | CSV | `harmonized_soil_moisture_data/` |
+| **Harmonized CSVs** | Actual harmonized data files | 19 files | CSV | Google Drive (URLs in CSV above) |
+| **Location metadata** | Consolidated site‑level geospatial and identifier data with UUID harmonization | 1 file | CSV | Google Drive |
+| **Mapping JSON** | Detailed mapping of original variable names → harmonized variables, including transformations | 1 file | JSON | `harmonized_soil_moisture_data/` |
 
-All files are stored under the data package root (see the [Directory Structure](#directory-structure) section).
+URL reference files are tracked in this repository; actual data files are hosted on Google Drive for size efficiency.
 
 ---
 
 ## Directory Structure  
 
 ```
-.
-├── ess-dive_wfsfa_soil_datasets/              --> 25 sub‑folders, each named by the source package ID
-│   ├── ess-dive-<package_id>/                 --> raw files as downloaded from ESS‑DIVE
-├── ess-dive-*_harmonized.csv                  --> 13 CSV files, one per harmonized package
-│   ├── ess-dive-<package_id>_harmonized.csv   
-│   └── …
-├── location_data_harmonized_with_uuid.csv     --> Single CSV containing site‑level metadata
-├── harmonize_ess-dive_soilmoisture_data       --> Reproducible R script documenting all data transformations
-└── sm_data_harmonization_mapping.json         --> JSON describing variable mappings & transformations
+data/processed/
+├── ess-dive_wfsfa_soil_datasets/              --> Original source package URLs
+│   └── ess-dive_wfsfa_soil_dataset_urls.csv   --> URLs to Google Drive folders with raw ESS-DIVE data
+└── harmonized_soil_moisture_data/             --> Harmonized data URLs and mappings
+    ├── ess-dive_harmonized_soil_urls.csv      --> URLs to harmonized CSV files on Google Drive
+    └── sm_data_harmonization_mapping.json     --> JSON describing variable mappings & transformations
 ```
+
+**Note:** The actual harmonized CSV files (`ess-dive-*_harmonized.csv`), location metadata (`location_data_harmonized_with_uuid.csv`), and raw source data are stored on Google Drive and accessed via the URL files above. For BERDL import workflows, downloaded copies are kept in `berdl_import/downloaded_data/` (ignored by git).
 
 *The complete directory tree can be visualized with `tree -L 2 .` on a Unix‑like system.*
 
@@ -71,13 +71,27 @@ All files are stored under the data package root (see the [Directory Structure](
 
 ## File Descriptions  
 
-### 1. `ess-dive_soil_datasets/`  
+### 1. `ess-dive_wfsfa_soil_datasets/ess-dive_wfsfa_soil_dataset_urls.csv`  
 
-Contains the original ESS‑DIVE download for each of the 25 source packages. The sub‑folders preserve the original file hierarchy (data payloads, ancillary metadata, documentation, etc.).  
+Contains URLs to Google Drive folders for each of the 25 source packages. Each folder preserves the original ESS-DIVE file hierarchy (data payloads, ancillary metadata, documentation, etc.).
 
-### 2. `ess-dive-*_harmonized.csv`  
+**Columns:**
+- `filename`: ESS-DIVE package identifier
+- `object_id`: Google Drive folder ID
+- `url`: Direct link to Google Drive folder  
 
-Each file corresponds to a single source package that has been processed and harmonized to the standard schema. Individual files can be merged with simple row concatenation; they are stored separately for memory efficiency. Rows are **observations**; columns are the **harmonized variables** listed below. The schema is shared across all files. Files are named following the pattern:  
+### 2. `harmonized_soil_moisture_data/ess-dive_harmonized_soil_urls.csv`
+
+Contains URLs to harmonized CSV files on Google Drive. Each harmonized file corresponds to a single source package that has been processed and harmonized to the standard schema.
+
+**Columns:**
+- `filename`: Harmonized CSV filename (pattern: `ess-dive-<package_id>_harmonized.csv`)
+- `object_id`: Google Drive file ID
+- `url`: Direct download link to harmonized CSV
+
+### 3. Harmonized CSV Files (on Google Drive)
+
+Individual files can be merged with simple row concatenation; they are stored separately for memory efficiency. Rows are **observations**; columns are the **harmonized variables** listed below. The schema is shared across all files. Files are named following the pattern:  
 
 ```
 ess-dive-<ESS‑DIVE‑package‑identifier>_harmonized.csv
@@ -99,9 +113,11 @@ ess-dive-<ESS‑DIVE‑package‑identifier>_harmonized.csv
 All numeric fields are stored as **floating‑point** numbers; missing values are represented with NA.
 
 
-### 3. `location_data_harmonized_with_uuid.csv`  
+### 4. `location_data_harmonized_with_uuid.csv` (on Google Drive)
 
 The harmonized data files are linked via `site_id` to a concatenated table of site‑level metadata for all packages. This file includes location deduplication using UUIDs to collapse sites from different datasets that represent the same physical location (based on identical site names or proximity <5 meters).
+
+**Access:** Download from Google Drive (URL available in harmonized soil URLs file) or from `berdl_import/downloaded_data/ess-dive_wfsfa_soil_datasets/location_data_harmonized_with_uuid.csv` if using BERDL import workflow.
 
 | Column | Description |
 |--------|-------------|
@@ -133,7 +149,7 @@ Connected components are identified using graph-based clustering (R package `igr
 
 ---
 
-### 4. `sm_data_harmonization_mapping.json`  
+### 5. `harmonized_soil_moisture_data/sm_data_harmonization_mapping.json`  
 
 A JSON document that documents how each original variable was transformed into the standardized format. The mapping JSON follows a nested object schema that can be used programmatically to trace any harmonized variable back to its source. The schema is identical for every source package. The JSON is self‑describing and can be parsed with any JSON library (e.g., Python `json`, R `jsonlite`).  
 
@@ -294,9 +310,19 @@ To harmonize similar locations to a single UUID, we built candidate pairings acr
 
 ```python
 import pandas as pd
+from pathlib import Path
 
-# Example: load the harmonized data for package ID "ess-dive-beca0be9bb38ece-20250516T122010234"
-csv_path = "ess-dive-beca0be9bb38ece-20250516T122010234_harmonized.csv"
+# First, read the URL file to get download links
+urls_file = Path("harmonized_soil_moisture_data/ess-dive_harmonized_soil_urls.csv")
+urls_df = pd.read_csv(urls_file)
+
+# Find the URL for a specific package
+target_id = "ess-dive-beca0be9bb38ece-20250516T122010234"
+file_info = urls_df[urls_df['filename'].str.contains(target_id)].iloc[0]
+
+# Download the file from Google Drive (or use a local copy)
+# For this example, assume the file has been downloaded
+csv_path = file_info['filename']
 df = pd.read_csv(csv_path, parse_dates=["datetime_UTC"])
 
 print(df.head())
@@ -305,15 +331,24 @@ print(df.head())
 ### B. Concatenate all harmonized files  
 
 ```python
-import glob
 import pandas as pd
+from pathlib import Path
 
-csv_files = sorted(glob.glob("ess-dive_*_harmonized.csv"))
+# Read URL file
+urls_file = Path("harmonized_soil_moisture_data/ess-dive_harmonized_soil_urls.csv")
+urls_df = pd.read_csv(urls_file)
+
+# Assume files have been downloaded to a local directory
+# For BERDL workflow, files are in berdl_import/downloaded_data/
+data_dir = Path("berdl_import/downloaded_data/ess-dive_wfsfa_soil_datasets/harmonized_csv")
+
+csv_files = [data_dir / fname for fname in urls_df['filename']]
 df_all = pd.concat([pd.read_csv(f, parse_dates=["datetime_UTC"]) for f in csv_files],
                   ignore_index=True)
 
 # Merge with location metadata
-loc = pd.read_csv("location_data_harmonized.csv")
+loc_file = Path("berdl_import/downloaded_data/ess-dive_wfsfa_soil_datasets/location_data_harmonized_with_uuid.csv")
+loc = pd.read_csv(loc_file)
 df_merged = df_all.merge(loc, on="site_id", how="left")
 
 print(df_merged.head())
@@ -325,7 +360,7 @@ print(df_merged.head())
 import json
 from pathlib import Path
 
-mapping_path = Path("sm_data_harmonization_mapping.json")
+mapping_path = Path("harmonized_soil_moisture_data/sm_data_harmonization_mapping.json")
 with mapping_path.open() as f:
     mappings = json.load(f)
 

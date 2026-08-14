@@ -17,7 +17,7 @@ This repository provides tools and workflows for:
 ```
 benchmark-datasets/
 ├── data/
-│   ├── external/          # Third-party source data
+│   ├── source/            # Third-party source data
 │   │   ├── ess-dive_meta/ # ESS-DIVE package metadata (JSON)
 │   │   ├── ess-dive_dois.txt
 │   │   └── ess-dive_ids.txt
@@ -25,7 +25,8 @@ benchmark-datasets/
 │   │   ├── er_soil_meta.json
 │   │   └── ess-dive_eastriver_*.tsv
 │   └── processed/         # Tracked metadata for processed datasets
-│       └── ess-dive_wfsfa_soil_datasets/  # URLs, README, mapping JSON
+│       ├── ess-dive_wfsfa_soil_datasets/  # URLs to original source packages
+│       └── harmonized_soil_moisture_data/ # URLs to harmonized CSVs, mapping JSON
 ├── berdl_import/          # BERDL import workflow for WFSFA soil moisture
 │   ├── AGENT_LOG.md       # Chronological import notes and decisions
 │   ├── scripts/           # Build, schema-generation, and BERDL import scripts
@@ -62,7 +63,7 @@ Key features:
 - ISO-8601 timestamps in UTC
 - Linked site metadata with WGS-84 coordinates
 
-For complete documentation, see [`data/processed/ess-dive_wfsfa_soil_datasets/README.md`](data/processed/ess-dive_wfsfa_soil_datasets/README.md).
+For complete documentation, see [`data/processed/README.md`](data/processed/README.md).
 
 ### BERDL Watershed SFA Soil Moisture Import
 
@@ -107,8 +108,8 @@ ESS-DIVE dataset discovery and retrieval pipeline:
 **Requirements:** ESS-DIVE API token (obtain from https://ess-dive.lbl.gov/)
 
 **Key outputs:**
-- `data/external/ess-dive_meta/` — JSON metadata for all discovered packages
-- `data/external/ess-dive_ids.txt` — Dataset identifiers
+- `data/source/ess-dive_meta/` — JSON metadata for all discovered packages
+- `data/source/ess-dive_ids.txt` — Dataset identifiers
 - `data/intermediate/er_soil_meta.json` — Filtered East River soil datasets
 - `data/intermediate/ess-dive_eastriver_soildatasets.tsv` — Candidate soil datasets
 
@@ -127,9 +128,11 @@ Data harmonization workflow that transforms heterogeneous soil moisture datasets
 8. JSON mapping documentation
 
 **Key outputs:**
-- `data/processed/ess-dive_wfsfa_soil_datasets/*.csv` — Harmonized data files
-- `data/processed/ess-dive_wfsfa_soil_datasets/location_data_harmonized_with_uuid.csv` — Site metadata
-- `data/processed/ess-dive_wfsfa_soil_datasets/sm_data_harmonization_mapping.json` — Transformation provenance
+- Harmonized data files (available via Google Drive URLs)
+- Location metadata with UUID harmonization (available via Google Drive)
+- `data/processed/harmonized_soil_moisture_data/sm_data_harmonization_mapping.json` — Transformation provenance
+- `data/processed/harmonized_soil_moisture_data/ess-dive_harmonized_soil_urls.csv` — URLs to harmonized CSV files
+- `data/processed/ess-dive_wfsfa_soil_datasets/ess-dive_wfsfa_soil_dataset_urls.csv` — URLs to original source packages
 
 **BERDL import inputs:**
 - `berdl_import/downloaded_data/ess-dive_wfsfa_soil_datasets/harmonized_csv/*.csv` — Downloaded harmonized data files used by the BERDL import workflow; ignored by git
@@ -214,23 +217,29 @@ pip install -e .
 import pandas as pd
 from pathlib import Path
 
-# Load a single harmonized dataset
-data_dir = Path("data/processed/ess-dive_wfsfa_soil_datasets")
-df = pd.read_csv(data_dir / "ess-dive-beca0be9bb38ece-20250516T122010234_harmonized.csv",
-                 parse_dates=["datetime_UTC"])
+# First, download harmonized datasets from URLs
+urls_file = Path("data/processed/harmonized_soil_moisture_data/ess-dive_harmonized_soil_urls.csv")
+urls_df = pd.read_csv(urls_file)
 
-# Load all harmonized datasets
-import glob
-csv_files = sorted(glob.glob(str(data_dir / "ess-dive_*_harmonized.csv")))
-df_all = pd.concat([pd.read_csv(f, parse_dates=["datetime_UTC"]) 
-                    for f in csv_files], ignore_index=True)
+# Download a single harmonized dataset (example using first file)
+# Note: You'll need to implement download logic or manually download from Google Drive
+file_url = urls_df.iloc[0]['url']
+filename = urls_df.iloc[0]['filename']
 
-# Merge with location metadata
-locations = pd.read_csv(data_dir / "location_data_harmonized_with_uuid.csv")
-df_merged = df_all.merge(locations, on="site_id", how="left")
+# After downloading, load the harmonized data
+df = pd.read_csv(filename, parse_dates=["datetime_UTC"])
+
+# Load all harmonized datasets (after downloading)
+# csv_files = sorted(urls_df['filename'].tolist())
+# df_all = pd.concat([pd.read_csv(f, parse_dates=["datetime_UTC"]) 
+#                     for f in csv_files], ignore_index=True)
+
+# Merge with location metadata (also needs to be downloaded from Google Drive)
+# locations = pd.read_csv("location_data_harmonized_with_uuid.csv")
+# df_merged = df_all.merge(locations, on="site_id", how="left")
 ```
 
-For the current BERDL import workflow, the downloaded harmonized CSVs are kept outside tracked source metadata:
+For the current BERDL import workflow, the downloaded harmonized CSVs are kept in:
 
 ```python
 from pathlib import Path
@@ -246,24 +255,27 @@ locations = downloaded_dir / "location_data_harmonized_with_uuid.csv"
 import json
 
 # Load mapping JSON
-with open("data/processed/ess-dive_wfsfa_soil_datasets/sm_data_harmonization_mapping.json") as f:
+with open("data/processed/harmonized_soil_moisture_data/sm_data_harmonization_mapping.json") as f:
     mappings = json.load(f)
 
 # Find transformation details for a specific package
 target_id = "ess-dive-beca0be9bb38ece-20250516T122010234"
 package_mapping = next(m for m in mappings if m["dataset_identifier"] == target_id)
 
-# View variable mappings
-for mapping in package_mapping["harmonization_mappings"]:
-    print(f"{mapping['source_pattern']} → {mapping['destination_variable']}")
-    print(f"  Transformation: {mapping['transformation']}")
-    print(f"  Unit conversion: {mapping['unit_conversion']}\n")
+# View variable mappings (note: structure may vary by dataset)
+if isinstance(package_mapping["harmonization_mappings"], dict):
+    for category, patterns in package_mapping["harmonization_mappings"].items():
+        print(f"\n{category}:")
+        for pattern_key, mapping in patterns.items():
+            print(f"  {mapping['source_pattern']} → {mapping['destination_variable']}")
+            print(f"    Transformation: {mapping['transformation']}")
+            print(f"    Unit conversion: {mapping['unit_conversion']}")
 ```
 
 ## Data Access
 
 Harmonized datasets are available via Google Drive URLs documented in:
-- `data/processed/ess-dive_wfsfa_soil_datasets/ess-dive_harmonized_soil_urls.csv` — Direct download links to harmonized CSV files
+- `data/processed/harmonized_soil_moisture_data/ess-dive_harmonized_soil_urls.csv` — Direct download links to harmonized CSV files
 - `data/processed/ess-dive_wfsfa_soil_datasets/ess-dive_wfsfa_soil_dataset_urls.csv` — Links to original source package directories
 
 ## Development
@@ -299,4 +311,4 @@ Original ESS-DIVE datasets retain their respective licenses (typically CC-BY 4.0
 
 - [ESS-DIVE Repository](https://ess-dive.lbl.gov/)
 - [WFSFA Project Information](https://watershed.lbl.gov/)
-- [Data harmonization workflow documentation](data/processed/ess-dive_wfsfa_soil_datasets/README.md)
+- [Data harmonization workflow documentation](data/processed/README.md)

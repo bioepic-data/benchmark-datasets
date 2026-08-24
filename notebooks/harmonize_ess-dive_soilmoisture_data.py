@@ -1,6 +1,7 @@
 # %%
 from __future__ import annotations
 
+import os
 import json
 import re
 from pathlib import Path
@@ -11,17 +12,50 @@ from pyproj import Transformer
 
 # %%
 # =============================================================
-# Config / Paths
+# Configuration - Cloud-Native Data Pipeline
 # =============================================================
+#
+# This pipeline treats Google Drive as cloud storage (GCS/S3 analog):
+#   - INPUT: Download source packages from Google Drive to local intermediate directory
+#   - PROCESSING: Harmonize locally
+#   - OUTPUT: Write directly to Google Drive folder (or local for debugging)
+#
+# Input data should be downloaded to DATA_INPUT_DIR from Google Drive URLs:
+#   data/processed/ess-dive_wfsfa_soil_datasets/ess-dive_wfsfa_soil_dataset_urls.csv
+#
+# The mapping JSON is tracked in the repo at MAPPING_JSON_PATH.
+#
+# Outputs are written directly to Google Drive (or locally for debugging).
+#
+# Environment variables:
+#   SOIL_MOISTURE_DATA_DIR, SOIL_MOISTURE_MAPPING_JSON
+#   GDRIVE_OUTPUT_DIR_ID, GDRIVE_OUTPUT_ENABLED, LOCAL_OUTPUT_DIR
 
-HOME = Path.home()
-BASE_DIR = Path(HOME, "Downloads", "ess-dive_wfsfa_soil_datasets")
-OUT_DIR = Path(HOME, "Desktop", "soil_moisture_harmonization_data")
-MAP_JSON_PATH = Path(OUT_DIR, "sm_data_harmonization_mapping.json")
+PROJECT_ROOT = Path().resolve()  # Auto-detect project root
 
-OUT_DIR.mkdir(parents=True, exist_ok=True)
+# Input: Downloaded ESS-DIVE source packages (intermediate data)
+DATA_INPUT_DIR = PROJECT_ROOT / "data" / "intermediate" / "ess-dive_wfsfa_soil_datasets"
 
-with MAP_JSON_PATH.open("r", encoding="utf-8") as f:
+# Mapping JSON (tracked in repo)
+MAPPING_JSON_PATH = PROJECT_ROOT / "data" / "processed" / "harmonized_soil_moisture_data" / "sm_data_harmonization_mapping.json"
+
+# Output: Google Drive target directory
+GDRIVE_OUTPUT_DIR_ID = "1fiy1_EkxEIMrR1JU_jX4uzILFUXXIk2k"
+GDRIVE_OUTPUT_ENABLED = os.getenv("GDRIVE_OUTPUT_ENABLED", "false").lower() == "true"  # Default to false for now
+
+# Local output directory (for debugging / fallback)
+LOCAL_OUTPUT_DIR = PROJECT_ROOT / "data" / "processed" / "harmonized_output_local"
+
+# Allow environment variable overrides
+DATA_INPUT_DIR = Path(os.getenv("SOIL_MOISTURE_DATA_DIR", DATA_INPUT_DIR))
+MAPPING_JSON_PATH = Path(os.getenv("SOIL_MOISTURE_MAPPING_JSON", MAPPING_JSON_PATH))
+GDRIVE_OUTPUT_DIR_ID = os.getenv("GDRIVE_OUTPUT_DIR_ID", GDRIVE_OUTPUT_DIR_ID)
+LOCAL_OUTPUT_DIR = Path(os.getenv("LOCAL_OUTPUT_DIR", LOCAL_OUTPUT_DIR))
+
+# Create local output dir for fallback
+LOCAL_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+with MAPPING_JSON_PATH.open("r", encoding="utf-8") as f:
     map_json: list[dict] = json.load(f)
 
 # map_json[0] is the reference dataset (lookup)
@@ -43,7 +77,7 @@ def dsid(idx: int) -> str:
 
 
 def ds_path(idx: int) -> Path:
-    return BASE_DIR / dsid(idx)
+    return DATA_INPUT_DIR / dsid(idx)
 
 
 def read_ds_csv(idx: int, filename: str, encoding='utf-8', errors='ignore', **kwargs) -> pd.DataFrame:
@@ -56,8 +90,8 @@ def parse_local_to_utc(series: pd.Series, fmt: str | None, tz: str) -> pd.Series
     return dt.dt.tz_convert("UTC")
 
 
-def interval_min(s: pd.Series) -> pd.Series:
-    return s.diff().dt.total_seconds() / 60.0
+# def interval_min(s: pd.Series) -> pd.Series:
+#     return s.diff().dt.total_seconds() / 60.0
 
 
 def utm32613_to_latlon(df: pd.DataFrame, e_col: str, n_col: str) -> pd.DataFrame:
@@ -78,7 +112,7 @@ def ensure_harmonized_cols(df: pd.DataFrame) -> pd.DataFrame:
         "depth_m",
         "replicate",
         "is_timeseries",
-        "interval_min",
+        # "interval_min" 
         "volumetric_water_content_m3_m3",
         "gravimetric_water_content_gH2O_gs",
         "water_potential_kPa",
@@ -112,14 +146,14 @@ mdf1 = read_ds_csv(idx, m1)
 
 ls1_h = []
 for i, d in enumerate(ls1):
+    # i=1
     cols = [c for c in d.columns if re.search(r"Water_Content|VWC|Potential", c)]
     x = d[["Time"] + cols].copy()
 
-    x["datetime_UTC"] = parse_local_to_utc(x["Time"], "%Y-%m-%d %H:%M:%S", "America/Denver")
-    x["interval_min"] = interval_min(x["datetime_UTC"])
+    x["datetime_UTC"] = parse_local_to_utc(x["Time"], "%Y-%m-%d %H:%M:%S", "Etc/GMT+7")
     x = x.drop(columns=["Time"])
 
-    long = x.melt(id_vars=["datetime_UTC", "interval_min"], var_name="name", value_name="value")
+    long = x.melt(id_vars=["datetime_UTC"], var_name="name", value_name="value")
     m = long["name"].str.extract(r"^(.*)_at_(.*)$")
     long["var_name"] = m[0]
     long["depth"] = m[1]
@@ -144,7 +178,7 @@ for i, d in enumerate(ls1):
 
     wide = (
         long.pivot_table(
-            index=["datetime_UTC", "interval_min", "depth", "replicate"],
+            index=["datetime_UTC", "depth", "replicate"],
             columns="dest_var",
             values="value",
             aggfunc="first",
@@ -154,6 +188,7 @@ for i, d in enumerate(ls1):
 
     wide["depth_m"] = pd.to_numeric(wide["depth"].str.replace("cm", "", regex=False), errors="coerce") / 100
     wide["site_id"] = re.sub(r"\.csv$", "", f1[i])
+    wide["replicate"] = wide["replicate"].astype(int)
     wide["is_timeseries"] = True
     wide["gravimetric_water_content_gH2O_gs"] = np.nan
 
@@ -190,12 +225,11 @@ ls2_h = []
 for i, d in enumerate(ls2):
     cols = [c for c in d.columns if re.search(r"Moisture", c)]
     x = d[["DateTime"] + cols].copy()
-    x["datetime_UTC"] = parse_local_to_utc(x["DateTime"], "%m/%d/%Y %I:%M:%S %p", "America/Denver")
-    x["interval_min"] = interval_min(x["datetime_UTC"])
+    x["datetime_UTC"] = parse_local_to_utc(x["DateTime"], "%m/%d/%Y %I:%M:%S %p", "Etc/GMT+7")
     x = x.drop(columns=["DateTime"])
 
     long = x.melt(
-        id_vars=["datetime_UTC", "interval_min"],
+        id_vars=["datetime_UTC"],
         var_name="name",
         value_name="volumetric_water_content_m3_m3",
     )
@@ -203,10 +237,12 @@ for i, d in enumerate(ls2):
         pd.to_numeric(long["name"].str.split("_").str[-1].str.replace("cm", "", regex=False), errors="coerce") / 100
     )
     long["site_id"] = re.sub(r"\.csv$", "", f2[i])
+    long["site_id"] = long["site_id"].str.replace("_", "-")
     long["is_timeseries"] = True
+    long.loc[long["volumetric_water_content_m3_m3"] == -9999.0, "volumetric_water_content_m3_m3"] = np.nan
     long["water_potential_kPa"] = np.nan
     long["gravimetric_water_content_gH2O_gs"] = np.nan
-    long["replicate"] = long.groupby(["datetime_UTC", "depth_m", "name"]).cumcount() + 1
+    long["replicate"] = long.groupby(["datetime_UTC", "depth_m", "name"]).cumcount().astype(int) + 1
 
     ls2_h.append(ensure_harmonized_cols(long))
 
@@ -233,24 +269,25 @@ df3 = read_ds_csv(idx, f3)
 mdf3 = read_ds_csv(idx, m3)
 
 x = df3.copy()
-x["datetime_UTC"] = parse_local_to_utc(x["TIMESTAMP"], "%Y-%m-%d %H:%M", "America/Denver")
-x["interval_min"] = interval_min(x["datetime_UTC"])
+x["datetime_UTC"] = parse_local_to_utc(x["TIMESTAMP"], "%Y-%m-%d %H:%M", "Etc/GMT+7")
 
 mp_cols = [c for c in x.columns if "_MP" in c]
 for c in mp_cols:
     x[c] = pd.to_numeric(x[c], errors="coerce")
 
-long = x.melt(id_vars=["datetime_UTC", "interval_min"], value_vars=mp_cols, var_name="name", value_name="water_potential_kPa")
+long = x.melt(id_vars=["datetime_UTC"], value_vars=mp_cols, var_name="name", value_name="water_potential_kPa")
 long["depth_m"] = pd.to_numeric(
-    long["name"].str.replace(r"[._]", " ", regex=True).str.split().str[1].str.replace("cm", "", regex=False),
+    long["name"].str.split(r"[.|_|-]").str[1].str.replace("cm", "", regex=False),
     errors="coerce",
 ) / 100
+long.drop(columns=["name"], inplace=True)
 long["site_id"] = "ER-LLN1"
 long["is_timeseries"] = True
 long["water_potential_kPa"] = long["water_potential_kPa"].where(~np.isnan(long["water_potential_kPa"]), np.nan)
 long["volumetric_water_content_m3_m3"] = np.nan
 long["gravimetric_water_content_gH2O_gs"] = np.nan
-long["replicate"] = long.groupby(["datetime_UTC", "depth_m"]).cumcount() + 1
+long["replicate"] = long.groupby(["site_id", "depth_m", "datetime_UTC"]).cumcount().astype(int) + 1
+long = long.sort_values(["datetime_UTC", "site_id", "depth_m", "replicate"])
 
 df3_harmonized = ensure_harmonized_cols(long)
 harmonized_data.append(df3_harmonized)
@@ -280,7 +317,6 @@ x["site_id"] = x["site"]
 x["depth_m"] = np.nan
 x["replicate"] = 1
 x["is_timeseries"] = True
-x["interval_min"] = 24 * 60
 x["volumetric_water_content_m3_m3"] = pd.to_numeric(x["swc"], errors="coerce")
 x["water_potential_kPa"] = pd.to_numeric(x["swp"], errors="coerce")
 x["gravimetric_water_content_gH2O_gs"] = np.nan
@@ -314,13 +350,12 @@ ddf5 = read_ds_csv(idx, f5)
 mdf5 = read_ds_csv(REF_IDX, m5)
 
 x = ddf5.copy()
-dt_local = pd.to_datetime(x["Date Time"], errors="coerce").dt.tz_localize("America/Denver", ambiguous="NaT", nonexistent="shift_forward")
+dt_local = pd.to_datetime(x["Date Time"], errors="coerce").dt.tz_localize("Etc/GMT+7", ambiguous="NaT", nonexistent="shift_forward")
 x["datetime_UTC"] = dt_local.dt.tz_convert("UTC")
 x["site_id"] = x["SFA_Location"]
 x["depth_m"] = np.nan
-x["replicate"] = 1
+x["replicate"] = int(1) 
 x["is_timeseries"] = True
-x["interval_min"] = 60
 x["volumetric_water_content_m3_m3"] = pd.to_numeric(x["Measurement"], errors="coerce")
 x["water_potential_kPa"] = np.nan
 x["gravimetric_water_content_gH2O_gs"] = np.nan
@@ -363,13 +398,13 @@ f6 = as_list(map_json[idx]["data_payload_files"])[0]
 ddf6 = read_ds_csv(idx, f6)
 
 x = ddf6.iloc[2:].copy()
-x["datetime_UTC"] = pd.to_datetime(x["TIMESTAMP"], format="%m/%d/%y %H:%M", errors="coerce", utc=True)
+x["datetime_UTC"] = pd.to_datetime(x["TIMESTAMP"], format="%m/%d/%y %H:%M", errors="coerce", utc=False)
+x["datetime_UTC"] = x["datetime_UTC"].dt.tz_localize("Etc/GMT+7", ambiguous="NaT", nonexistent="shift_forward").dt.tz_convert("UTC")
 x["site_id"] = x["site"]
-x["interval_min"] = interval_min(x["datetime_UTC"])
 
 vwc_cols = [c for c in x.columns if "VWC" in c]
 long = x.melt(
-    id_vars=["datetime_UTC", "site_id", "interval_min"],
+    id_vars=["datetime_UTC", "site_id"],
     value_vars=vwc_cols,
     var_name="name",
     value_name="volumetric_water_content_m3_m3",
@@ -408,11 +443,10 @@ ddf7 = read_ds_csv(idx, f7)
 mdf7 = read_ds_csv(idx, m7, encoding='latin-1')
 
 x = ddf7.copy()
-x["datetime_UTC"] = parse_local_to_utc(x["date.time"], "%m/%d/%y %H:%M", "America/Denver")
+x["datetime_UTC"] = parse_local_to_utc(x["date.time"], "%m/%d/%y %H:%M", "Etc/GMT+7")
 x["site_id"] = "BM"
-x["interval_min"] = interval_min(x["datetime_UTC"])
 x["depth_m"] = pd.to_numeric(x["Depth (cm)"], errors="coerce") / 100
-x["replicate"] = 1
+x["replicate"] = int(1)
 x["is_timeseries"] = True
 x["volumetric_water_content_m3_m3"] = pd.to_numeric(x["Volumetric Water Content"], errors="coerce")
 x["water_potential_kPa"] = np.nan
@@ -446,14 +480,15 @@ ls8_h = []
 for d in ls8:
     cols = [c for c in d.columns if re.search(r"SoilMoisture|SoilMatricPot", c)]
     x = d[["DateTime.MST"] + cols].copy()
-    x["datetime_UTC"] = parse_local_to_utc(x["DateTime.MST"], "%Y-%m-%d %H:%M:%S", "America/Denver")
-    x["interval_min"] = interval_min(x["datetime_UTC"])
+    x["datetime_UTC"] = parse_local_to_utc(x["DateTime.MST"], "%Y-%m-%d %H:%M:%S", "Etc/GMT+7")
     x = x.drop(columns=["DateTime.MST"])
     x.columns = [re.sub(r"\.m3\.m3|\.kPa", "", c) for c in x.columns]
+    print(x.columns)
 
     value_cols = [c for c in x.columns if re.search(r"SoilMoisture|SoilMatricPot", c)]
-    long = x.melt(id_vars=["datetime_UTC", "interval_min"], value_vars=value_cols, var_name="name", value_name="value")
+    long = x.melt(id_vars=["datetime_UTC"], value_vars=value_cols, var_name="name", value_name="value")
     m = long["name"].str.extract(r"^(SoilMoisture|SoilMatricPot)_(.*)$")
+
     long["var"] = m[0]
     long["depth_m"] = pd.to_numeric(m[1].str.replace("cm", "", regex=False), errors="coerce") / 100
     long["value"] = pd.to_numeric(long["value"], errors="coerce")
@@ -461,7 +496,7 @@ for d in ls8:
 
     wide = (
         long.pivot_table(
-            index=["datetime_UTC", "interval_min", "depth_m"],
+            index=["datetime_UTC", "depth_m"],
             columns="var",
             values="value",
             aggfunc="first",
@@ -470,7 +505,7 @@ for d in ls8:
         .rename(columns={"SoilMoisture": "volumetric_water_content_m3_m3", "SoilMatricPot": "water_potential_kPa"})
     )
 
-    wide["replicate"] = 1
+    wide["replicate"] = int(1)
     wide["site_id"] = "Slate River OBJ-2"
     wide["is_timeseries"] = True
     wide["gravimetric_water_content_gH2O_gs"] = np.nan
@@ -502,13 +537,12 @@ mdf9 = read_ds_csv(idx, m9)
 x = ddf9.copy()
 x["datetime_UTC"] = parse_local_to_utc(x["Collection Date"], "%Y-%m-%d", "America/Denver")
 x["site_id"] = x["SampleSiteCode"]
-x["interval_min"] = np.nan
 x["depth_m"] = 0.2
 x["is_timeseries"] = False
 x["water_potential_kPa"] = np.nan
 
 long = x.melt(
-    id_vars=["datetime_UTC", "site_id", "interval_min", "depth_m", "is_timeseries", "water_potential_kPa"],
+    id_vars=["datetime_UTC", "site_id", "depth_m", "is_timeseries", "water_potential_kPa"],
     value_vars=["VWC_1", "VWC_2"],
     var_name="tmp",
     value_name="VWC",
@@ -517,7 +551,8 @@ long["replicate"] = long["tmp"].str.extract(r"_(\d+)")[0]
 long["VWC"] = pd.to_numeric(long["VWC"], errors="coerce")
 long.loc[long["VWC"] == -9999.0, "VWC"] = np.nan
 long = long[long["VWC"].notna()].copy()
-long["volumetric_water_content_m3_m3"] = long["VWC"]
+long["volumetric_water_content_m3_m3"] = long["VWC"] / 100  # Divide by 100 for m3/m3
+long["volumetric_water_content_m3_m3"] = long["volumetric_water_content_m3_m3"].round(3)  # Divide by 100 for m3/m3
 long["gravimetric_water_content_gH2O_gs"] = np.nan
 
 df9_harmonized = ensure_harmonized_cols(long)
@@ -549,17 +584,19 @@ mdf10 = read_ds_csv(REF_IDX, m10)
 
 x = ddf10.iloc[1:].copy()
 x["datetime_UTC"] = parse_local_to_utc(x["Date"], "%Y-%m-%d", "America/Denver")
-x["interval_min"] = interval_min(x["datetime_UTC"])
 
 vcols = [c for c in x.columns if re.search(r"vol_water_content", c)]
-long = x.melt(id_vars=["datetime_UTC", "interval_min"], value_vars=vcols, var_name="name", value_name="volumetric_water_content_m3_m3")
-nm = long["name"].str.extract(r"(.*)\._(.*)")
+long = x.melt(id_vars=["datetime_UTC"], value_vars=vcols, var_name="name", value_name="volumetric_water_content_m3_m3")
+nm = long['name'].str.extract(r"(.*)\ _(.*)")
 long["site_id"] = nm[0]
 long["depth_m"] = np.select(
     [long["site_id"].eq("PLM1"), long["site_id"].eq("PLM2"), long["site_id"].eq("PLM3")],
     [0.3, 0.28, 0.2],
     default=np.nan,
 )
+long["volumetric_water_content_m3_m3"] = pd.to_numeric(long["volumetric_water_content_m3_m3"], errors="coerce")
+long.loc[long["volumetric_water_content_m3_m3"] == -9999.000, "volumetric_water_content_m3_m3"] = np.nan
+
 long["is_timeseries"] = True
 long["water_potential_kPa"] = np.nan
 long["replicate"] = 1
@@ -597,16 +634,15 @@ mdf15 = read_ds_csv(idx, m15)
 x = ddf15.iloc[1:].copy()
 x["datetime_UTC"] = pd.Timestamp("2019-07-02 06:00:00", tz="UTC")
 x["is_timeseries"] = False
-x["interval_min"] = np.nan
 
-vcols = [c for c in x.columns if re.search(r"SM\.VWC", c)]
+vcols = [c for c in x.columns if re.search(r"SM\(VWC", c)]
 long = x.melt(
-    id_vars=["datetime_UTC", "GPS_id", "is_timeseries", "interval_min"],
+    id_vars=["datetime_UTC", "GPS_id", "is_timeseries"],
     value_vars=vcols,
     var_name="name",
     value_name="volumetric_water_content_m3_m3",
 )
-long["replicate"] = long["name"].str.extract(r"\._(.*)$")[0]
+long["replicate"] = long["name"].str.extract(r"\)_(.*)$")[0]
 long["volumetric_water_content_m3_m3"] = pd.to_numeric(long["volumetric_water_content_m3_m3"], errors="coerce") / 100
 long["depth_m"] = 0.25
 long["water_potential_kPa"] = np.nan
@@ -647,12 +683,11 @@ for i, d in enumerate(ls16):
     siten = f16[i]
     x = d.copy()
     x["datetime_UTC"] = parse_local_to_utc(x["TIMESTAMP_END"], "%Y-%m-%d %H:%M:%S", "Etc/GMT+7")
-    x["interval_min"] = interval_min(x["datetime_UTC"])
     parts = siten.split("_")
     x["SITE_ID"] = parts[6] if len(parts) >= 7 else np.nan
 
     sw_cols = [c for c in x.columns if re.search(r"SWC|SWP", c)]
-    long = x.melt(id_vars=["datetime_UTC", "interval_min", "SITE_ID"], value_vars=sw_cols, var_name="VARIABLE", value_name="value")
+    long = x.melt(id_vars=["datetime_UTC", "SITE_ID"], value_vars=sw_cols, var_name="VARIABLE", value_name="value")
 
     meta = sdf16.loc[sdf16["VARIABLE"].astype(str).str.contains("SWC|SWP", regex=True, na=False), ["SITE_ID", "VARIABLE", "HEIGHT"]]
     long = long.merge(meta, on=["SITE_ID", "VARIABLE"], how="left")
@@ -665,7 +700,7 @@ for i, d in enumerate(ls16):
 
     wide = (
         long.pivot_table(
-            index=["datetime_UTC", "SITE_ID", "depth_m", "replicate", "is_timeseries", "interval_min", "gravimetric_water_content_gH2O_gs"],
+            index=["datetime_UTC", "SITE_ID", "depth_m", "replicate", "is_timeseries"],
             columns="VARIABLE",
             values="value",
             aggfunc="first",
@@ -675,7 +710,7 @@ for i, d in enumerate(ls16):
 
     wide["SWC"] = pd.to_numeric(wide.get("SWC"), errors="coerce")
     wide["SWP"] = pd.to_numeric(wide.get("SWP"), errors="coerce")
-    wide["volumetric_water_content_m3_m3"] = np.where(wide["SWC"].isin([9999.0, -9999.0]), np.nan, wide["SWC"])
+    wide["volumetric_water_content_m3_m3"] = np.where(wide["SWC"].isin([9999.0, -9999.0]), np.nan, wide["SWC"] / 100)  # Divide by 100 for m3/m3
     wide["water_potential_kPa"] = np.where(wide["SWP"].isin([9999.0, -9999.0]), np.nan, wide["SWP"])
     wide = wide.rename(columns={"SITE_ID": "site_id"})
 
@@ -707,14 +742,13 @@ ls17_h = []
 for i, d in enumerate(ls17):
     siten = f17[i]
     x = d.iloc[1:].copy()
-    x["datetime_UTC"] = parse_local_to_utc(x["DateTime"], "%Y-%m-%d %H:%M:%S", "America/Denver")
-    x["interval_min"] = interval_min(x["datetime_UTC"])
+    x["datetime_UTC"] = parse_local_to_utc(x["DateTime"], "%Y-%m-%d %H:%M:%S", "Etc/GMT+7")
 
     site_guess = re.split(r"/|\.", siten)
     x["site_id"] = site_guess[2] if len(site_guess) > 2 else np.nan
 
     mc_cols = [c for c in x.columns if re.search(r"MC", c)]
-    long = x.melt(id_vars=["datetime_UTC", "interval_min", "site_id"], value_vars=mc_cols, var_name="name", value_name="value")
+    long = x.melt(id_vars=["datetime_UTC", "site_id"], value_vars=mc_cols, var_name="name", value_name="value")
     m = long["name"].str.extract(r"(.*)_(.*)")
     long["depth_m"] = pd.to_numeric(m[1].str.replace("m", "", regex=False), errors="coerce")
     long["volumetric_water_content_m3_m3"] = pd.to_numeric(long["value"], errors="coerce")
@@ -754,9 +788,13 @@ ddf18 = read_ds_csv(idx, f18, encoding="latin1")
 mdf18 = read_ds_csv(idx, m18, encoding="latin1")
 
 x = ddf18.copy()
-x["datetime_UTC"] = parse_local_to_utc(x["Date_Collected"], "%m/%d/%Y", "America/Denver")
-x["interval_min"] = np.nan
-x["site_id"] = (x["Field_Site"].astype(str) + "_" + x["Plot"].astype(str) + "_" + x["Topographic_Position"].astype(str)).str.replace(r"_$", "", regex=True)
+x["datetime_UTC"] = parse_local_to_utc(x["Date_Collected"], "%m/%d/%Y", "Etc/GMT+7")
+x["site_id"] = (
+    x["Field_Site"].fillna('').astype(str) + "_" + 
+    x["Plot"].fillna('').astype(str) + "_" + 
+    x["Topographic_Position"].fillna('').astype(str)
+    ).str.replace(r"_$", "", regex=True).str.replace(r" ", "_", regex=True)
+
 x["depth_m"] = np.select(
     [
         x["Depth_Increment"].eq("0-5 cm"),
@@ -777,7 +815,10 @@ harmonized_data.append(df18_harmonized)
 harmonized_ids.append(dsid(idx))
 
 loc18 = mdf18.copy()
-loc18["site_id"] = (loc18["Field_Site"].astype(str) + "_" + loc18["Plot"].astype(str) + "_" + loc18["Topographic_Position"].astype(str)).str.replace(r"_$", "", regex=True)
+loc18["site_id"] = (loc18["Field_Site"].fillna('').astype(str) + "_" + 
+    loc18["Plot"].fillna('').astype(str) + "_" + 
+    loc18["Topographic_Position"].fillna('').astype(str)
+    ).str.replace(r"_$", "", regex=True).str.replace(r" ", "_", regex=True)
 loc18["latitude"] = pd.to_numeric(loc18["Latitude"].astype(str).str.extract(r"([-+]?\d*\.?\d+)")[0], errors="coerce")
 loc18["longitude"] = pd.to_numeric(loc18["Longitude"].astype(str).str.extract(r"([-+]?\d*\.?\d+)")[0], errors="coerce")
 loc18["source_dataset_id"] = dsid(idx)
@@ -803,7 +844,7 @@ pdf23 = read_ds_csv(idx, "plot_metadata.csv")
 mdf23 = read_ds_csv(REF_IDX, m23)
 
 x = ddf23[ddf23["Sensor.Type"] == "SWC"].copy()
-x["datetime_UTC"] = parse_local_to_utc(x["Date Time"], "%Y-%m-%d %H:%M:%S", "America/Denver")
+x["datetime_UTC"] = parse_local_to_utc(x["Date Time"], "%Y-%m-%d %H:%M:%S", "Etc/GMT+7")
 
 smeta = sdf23[sdf23["Sensor Type"] == "SWC"].copy()
 smeta["Sensor.SN"] = pd.to_numeric(smeta["Sensor.SN"], errors="coerce")
@@ -825,27 +866,19 @@ x["rep_key"] = x["site_id"].astype(str) + "|" + x["Sensor.SN"].astype(str) + "|"
 x["replicate"] = pd.factorize(x["rep_key"])[0] + 1
 
 x = x.sort_values(["site_id", "depth_m", "replicate", "datetime_UTC"])
-x["interval_min"] = x.groupby(["site_id", "depth_m", "replicate"])["datetime_UTC"].diff().dt.total_seconds() / 60.0
-x.loc[x["interval_min"] < 0, "interval_min"] = np.nan
 
 df23_harmonized = ensure_harmonized_cols(x)
 harmonized_data.append(df23_harmonized)
 harmonized_ids.append(dsid(idx))
 
-loc23 = pd.DataFrame({"site_id": df23_harmonized["site_id"].dropna().unique()})
-loc23["latitude"] = np.nan
-loc23["longitude"] = np.nan
-loc23 = loc23[loc23["site_id"].isin(df23_harmonized["site_id"].dropna().unique())].copy()
-loc23["source_dataset_id"] = dsid(idx)
-loc23 = add_loc_qc(loc23).drop_duplicates()
-loc_data.append(loc23)
-
+# Location data - removed duplicate creation, keeping only the version with actual coordinates from mdf23
 loc23 = mdf23.rename(columns={"Location_ID": "site_id", "Latitude": "latitude", "Longitude": "longitude"})[
     ["site_id", "latitude", "longitude"]
 ].copy()
 loc23 = loc23[loc23["site_id"].isin(df23_harmonized["site_id"].str.split('_').str[0].dropna().unique())].copy()
 loc23["source_dataset_id"] = dsid(idx)
-loc23 = add_loc_qc(loc23)
+# Set qc_flag to 'g1' when coordinates exist, 'g2' otherwise
+loc23["qc_flag"] = np.where(loc23["latitude"].isna() | loc23["longitude"].isna(), "g2", "g1")
 loc_data.append(loc23)
 
 
@@ -863,12 +896,12 @@ mdf24 = read_ds_csv(idx, m24, sep=";")
 x = ddf24.copy()
 keep = ["Timestamp"] + [c for c in x.columns if re.search(r"^P[12]_MP_(15|30|60)$", c)]
 x = x[keep]
-x["datetime_UTC"] = parse_local_to_utc(x["Timestamp"], "%Y-%m-%d", "America/Denver")
-x["interval_min"] = interval_min(x["datetime_UTC"])
+x["datetime_UTC"] = parse_local_to_utc(x["Timestamp"], "%Y-%m-%d", "UTC")
+
 x = x.drop(columns=["Timestamp"])
 
 mp_cols = [c for c in x.columns if re.search(r"^P[12]_MP_(15|30|60)$", c)]
-long = x.melt(id_vars=["datetime_UTC", "interval_min"], value_vars=mp_cols, var_name="name", value_name="MP")
+long = x.melt(id_vars=["datetime_UTC"], value_vars=mp_cols, var_name="name", value_name="MP")
 m = long["name"].str.extract(r"^(P[12])_(MP)_(\d+)$")
 long["site_id"] = m[0]
 long["depth_cm"] = m[2]
@@ -914,14 +947,13 @@ x = ddf25.copy()
 x["datetime_UTC"] = parse_local_to_utc(
     x["Year"].astype(str) + "-" + x["Month"].astype(str) + "-" + x["Day"].astype(str) + "-" + x["Hour"].astype(str),
     "%Y-%m-%d-%H",
-    "America/Denver",
+    "Etc/GMT+7",
 )
 x = x.sort_values(["site_id", "datetime_UTC"])
-x["interval_min"] = x.groupby("site_id")["datetime_UTC"].diff().dt.total_seconds() / 60.0
 
 vwc_cols = [c for c in x.columns if re.search(r"vwc", c, flags=re.IGNORECASE)]
 long = x.melt(
-    id_vars=["datetime_UTC", "site_id", "interval_min"],
+    id_vars=["datetime_UTC", "site_id"],
     value_vars=vwc_cols,
     var_name="name",
     value_name="volumetric_water_content_m3_m3",
@@ -961,13 +993,12 @@ ddf26 = read_ds_csv(idx, f26, index_col=0)
 mdf26 = read_ds_csv(REF_IDX, m26)
 
 x = ddf26.copy()
-x["datetime_UTC"] = parse_local_to_utc(x["Collection date"], "%m/%d/%y", "America/Denver")
+x["datetime_UTC"] = parse_local_to_utc(x["Collection date"], "%m/%d/%y", "UTC")
 x["site_id"] = x["SampleSiteCode"]
 x["depth_m"] = (pd.to_numeric(x["Top sample depth_cm"], errors="coerce") + pd.to_numeric(x["Bottom sample depth_cm"], errors="coerce")) / 2 / 100
 x["replicate"] = 1
 x["is_timeseries"] = False
-x["interval_min"] = np.nan
-x["volumetric_water_content_m3_m3"] = pd.to_numeric(x["water content %vol"], errors="coerce") / 100
+x["volumetric_water_content_m3_m3"] = (pd.to_numeric(x["water content %vol"], errors="coerce") / 100).round(4)
 x["gravimetric_water_content_gH2O_gs"] = np.nan
 x["water_potential_kPa"] = np.nan
 
@@ -1000,10 +1031,9 @@ for i, d in enumerate(ls27):
     dt = pd.to_datetime(x["Time"], format="%m/%d/%Y %H:%M", errors="coerce")
     dt = dt.dt.tz_localize("Etc/GMT+7", ambiguous="NaT", nonexistent="shift_forward")
     x["datetime_UTC"] = dt.dt.tz_convert("UTC")
-    x["interval_min"] = interval_min(x["datetime_UTC"])
 
     cols = [c for c in x.columns if re.search(r"^S[1-4]_wc_\(m3/m3\)$|^S5_wp_\(kPa\)$", c)]
-    long = x.melt(id_vars=["datetime_UTC", "interval_min"], value_vars=cols, var_name="name", value_name="value")
+    long = x.melt(id_vars=["datetime_UTC"], value_vars=cols, var_name="name", value_name="value")
 
     long["variable"] = np.select(
         [
@@ -1037,7 +1067,7 @@ for i, d in enumerate(ls27):
     long = long[long["value"].notna() & long["variable"].notna() & long["depth_m"].notna()].copy()
     wide = (
         long.pivot_table(
-            index=["datetime_UTC", "site_id", "depth_m", "replicate", "is_timeseries", "interval_min"],
+            index=["datetime_UTC", "site_id", "depth_m", "replicate", "is_timeseries"],
             columns="variable",
             values="value",
             aggfunc="first",
@@ -1047,6 +1077,7 @@ for i, d in enumerate(ls27):
 
     wide["volumetric_water_content_m3_m3"] = pd.to_numeric(wide.get("volumetric_water_content_m3_m3"), errors="coerce")
     wide["water_potential_kPa"] = pd.to_numeric(wide.get("water_potential_kPa"), errors="coerce")
+    wide["water_potential_kPa"] = wide["water_potential_kPa"].replace(-99999, np.nan)  # Replace -99999 with NA
     wide["gravimetric_water_content_gH2O_gs"] = np.nan
 
     ls27_h.append(ensure_harmonized_cols(wide))
@@ -1230,10 +1261,31 @@ print(f"UUID groups with >1 member: {qa['flag_multi'].sum()} / {len(qa)}")
 # =============================================================
 # Write
 # =============================================================
+#
+# Output to local directory (Google Drive integration to be added later)
+# Format datetime as string before writing
+#
 
+# Write harmonized data files
 for ds_identifier, df in zip(harmonized_ids, harmonized_data):
-    out_file = OUT_DIR / f"{ds_identifier}_harmonized.csv"
-    df.to_csv(out_file, index=False)
+    df_out = df.copy()
 
-loc_df = pd.concat(loc_data, ignore_index=True)
-loc_df.to_csv(OUT_DIR / "location_data_harmonized.csv", index=False)
+    # Sort for consistency across files 
+    df_out = df_out.sort_values(by=["datetime_UTC", "site_id", "depth_m", "replicate"])
+
+    # Format datetime_UTC as string
+    #df_out["datetime_UTC"] = df_out["datetime_UTC"].dt.strftime("%Y-%m-%d %H:%M:%S")
+    out_file = LOCAL_OUTPUT_DIR / f"{ds_identifier}_harmonized.csv"
+    df_out.to_csv(out_file, index=False)
+    print(f"Wrote {ds_identifier}_harmonized.csv")
+
+# Write location data WITH UUID columns
+# CRITICAL: Use the UUID-enriched loc_df from the harmonization above
+# DO NOT recreate from loc_data (that would lose all UUID information)
+loc_df.to_csv(LOCAL_OUTPUT_DIR / "location_data_harmonized_with_uuid.csv", index=False)
+print("Wrote location_data_harmonized_with_uuid.csv")
+print(f"\nAll outputs written to: {LOCAL_OUTPUT_DIR}")
+
+# Note: Google Drive upload functionality can be added here
+# when GDRIVE_OUTPUT_ENABLED is True
+# %%

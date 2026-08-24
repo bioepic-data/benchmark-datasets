@@ -739,6 +739,257 @@ class TestReplicateConsistency:
             )
 
 
+class TestPhysicalPlausibility:
+    """Test for physically implausible value combinations."""
+
+    @pytest.mark.parametrize("filepath", get_harmonized_files())
+    def test_high_water_content_not_with_low_potential(self, filepath):
+        """High water content shouldn't co-occur with very negative potential."""
+        df = read_harmonized_file(filepath)
+
+        # Get rows with both measurements
+        has_both = df[
+            df["volumetric_water_content_m3_m3"].notna() &
+            df["water_potential_kPa"].notna()
+        ].copy()
+
+        if len(has_both) == 0:
+            return
+
+        # Physics: High VWC (>0.4) shouldn't have very negative potential (<-1500 kPa)
+        # This suggests sensor error or unit mismatch
+        implausible = has_both[
+            (has_both["volumetric_water_content_m3_m3"] > 0.4) &
+            (has_both["water_potential_kPa"] < -1500)
+        ]
+
+        if len(implausible) > 0:
+            problem_rows = implausible[
+                ["volumetric_water_content_m3_m3", "water_potential_kPa", "site_id", "datetime_UTC"]
+            ].copy()
+            problem_rows["row_idx"] = implausible.index.tolist()
+            sample = problem_rows.head(10)
+
+            pct = (len(implausible) / len(has_both)) * 100
+
+            # Allow up to 2% as edge cases
+            assert pct < 2, (
+                f"{filepath.name}: {pct:.1f}% of rows have physically implausible combinations. "
+                f"High VWC (>0.4) with very negative potential (<-1500 kPa). "
+                f"Found {len(implausible)} cases. Sample:\n{sample.to_string()}"
+            )
+
+    @pytest.mark.parametrize("filepath", get_harmonized_files())
+    def test_no_constant_values(self, filepath):
+        """Timeseries shouldn't have long runs of identical values (stuck sensor)."""
+        df = read_harmonized_file(filepath)
+
+        # Only check timeseries data
+        ts_data = df[df["is_timeseries"] == True].copy()
+
+        if len(ts_data) < 20:
+            return  # Need sufficient data
+
+        # Check VWC for constant values
+        col = "volumetric_water_content_m3_m3"
+        values = pd.to_numeric(ts_data[col], errors="coerce").dropna()
+
+        if len(values) < 20:
+            return
+
+        # Check if standard deviation is suspiciously low
+        std = values.std()
+        mean = values.mean()
+
+        # Coefficient of variation < 0.01 suggests stuck sensor
+        if mean != 0:
+            cv = std / abs(mean)
+        else:
+            cv = std
+
+        assert cv > 0.01 or len(values) < 100, (
+            f"{filepath.name}: {col} has very low variance (CV={cv:.6f}). "
+            f"This may indicate a stuck sensor or constant values. "
+            f"Mean: {mean:.4f}, StdDev: {std:.6f}, N: {len(values)}"
+        )
+
+    @pytest.mark.parametrize("filepath", get_harmonized_files())
+    def test_reasonable_variance(self, filepath):
+        """Measurements should show some natural variation in timeseries."""
+        df = read_harmonized_file(filepath)
+
+        # Only check timeseries data
+        ts_data = df[df["is_timeseries"] == True].copy()
+
+        if len(ts_data) < 50:
+            return  # Need sufficient data for variance test
+
+        # Group by site and depth to check variance within sensor
+        group_cols = ["site_id", "depth_m"]
+
+        suspicious_groups = []
+        for name, group in ts_data.groupby(group_cols):
+            vwc = pd.to_numeric(group["volumetric_water_content_m3_m3"], errors="coerce").dropna()
+
+            if len(vwc) < 50:
+                continue
+
+            # Check if all values are identical (sensor malfunction)
+            if vwc.nunique() == 1:
+                suspicious_groups.append({
+                    "group": name,
+                    "constant_value": vwc.iloc[0],
+                    "n_measurements": len(vwc),
+                    "sample_rows": group.index.tolist()[:5]
+                })
+
+        assert len(suspicious_groups) == 0, (
+            f"{filepath.name}: Found {len(suspicious_groups)} sensor groups with zero variance. "
+            f"All values are identical, suggesting sensor malfunction. "
+            f"Suspicious groups: {suspicious_groups[:3]}"
+        )
+
+
+class TestUnitConversions:
+    """Verify units were converted correctly."""
+
+    @pytest.mark.parametrize("filepath", get_harmonized_files())
+    def test_vwc_not_in_percentage(self, filepath):
+        """VWC shouldn't have values suggesting it's still in percentage."""
+        df = read_harmonized_file(filepath)
+        col = "volumetric_water_content_m3_m3"
+
+        values = pd.to_numeric(df[col], errors="coerce").dropna()
+
+        if len(values) == 0:
+            return
+
+        # If many values are 10-50, they're likely still in % (not m3/m3)
+        likely_percent = values[(values >= 5) & (values <= 100)]
+
+        if len(likely_percent) > 0:
+            pct = (len(likely_percent) / len(values)) * 100
+
+            # Flag if >10% of values look like percentages
+            assert pct < 10, (
+                f"{filepath.name}: {pct:.1f}% of VWC values are between 5-100, "
+                f"suggesting they may still be in percentage format, not m3/m3. "
+                f"Sample values: {likely_percent.head(10).tolist()}. "
+                f"Expected range: 0.0-1.0 for m3/m3."
+            )
+
+
+class TestHarmonizationQuality:
+    """Test that harmonization was applied correctly."""
+
+    @pytest.mark.parametrize("filepath", get_harmonized_files())
+    def test_timezone_all_utc(self, filepath):
+        """All timestamps should be UTC (not mixed timezones)."""
+        df = read_harmonized_file(filepath)
+
+        # Check timezone info
+        if df["datetime_UTC"].dtype == "datetime64[ns]":
+            # No timezone - this is acceptable as long as it's consistently naive
+            pass
+        else:
+            # Has timezone info - should be UTC
+            dtype_str = str(df["datetime_UTC"].dtype)
+            assert "UTC" in dtype_str, (
+                f"{filepath.name}: datetime_UTC has timezone but it's not UTC: {dtype_str}"
+            )
+
+    @pytest.mark.parametrize("filepath", get_harmonized_files())
+    def test_boolean_values_standardized(self, filepath):
+        """Boolean fields should use consistent True/False format."""
+        df = read_harmonized_file(filepath)
+
+        # Check is_timeseries column
+        unique_vals = df["is_timeseries"].dropna().unique()
+
+        # Should only be True or False (or "True"/"False" strings)
+        for val in unique_vals:
+            assert val in [True, False, "True", "False", 1, 0], (
+                f"{filepath.name}: is_timeseries contains unexpected value: {val} (type: {type(val)}). "
+                f"Expected: True, False, 'True', 'False', 1, or 0"
+            )
+
+
+class TestLocationDeduplication:
+    """Test that location UUID deduplication is reasonable."""
+
+    def test_location_uuid_deduplication_reasonable(self):
+        """UUID groupings should make sense spatially."""
+        loc_file = HARMONIZED_DIR / "location_data_harmonized_with_uuid.csv"
+        loc_df = pd.read_csv(loc_file)
+
+        # For each UUID, check spatial spread of sites
+        suspicious_uuids = []
+
+        for uuid in loc_df["harmonized_location_uuid"].unique():
+            uuid_sites = loc_df[loc_df["harmonized_location_uuid"] == uuid]
+
+            # Get coordinate spread
+            lats = pd.to_numeric(uuid_sites["latitude"], errors="coerce").dropna()
+            lons = pd.to_numeric(uuid_sites["longitude"], errors="coerce").dropna()
+
+            if len(lats) < 2 or len(lons) < 2:
+                continue  # Need at least 2 points to check spread
+
+            # Calculate range in degrees
+            lat_range = lats.max() - lats.min()
+            lon_range = lons.max() - lons.min()
+
+            # Sites grouped to same UUID shouldn't be >0.01 degrees apart (~1km)
+            # This would suggest incorrect deduplication
+            if lat_range > 0.01 or lon_range > 0.01:
+                suspicious_uuids.append({
+                    "uuid": uuid,
+                    "n_sites": len(uuid_sites),
+                    "lat_range_deg": lat_range,
+                    "lon_range_deg": lon_range,
+                    "approx_km": max(lat_range, lon_range) * 111,  # rough conversion
+                    "site_ids": uuid_sites["site_id"].tolist()[:5]
+                })
+
+        # Allow a small number of edge cases
+        assert len(suspicious_uuids) < 5, (
+            f"Found {len(suspicious_uuids)} UUIDs with suspiciously large spatial spread. "
+            f"This suggests incorrect location deduplication. "
+            f"Suspicious UUIDs: {suspicious_uuids[:3]}"
+        )
+
+
+class TestFileCharacteristics:
+    """Test file-level characteristics."""
+
+    @pytest.mark.parametrize("filepath", get_harmonized_files())
+    def test_row_count_reasonable(self, filepath):
+        """Files should have reasonable number of rows."""
+        df = read_harmonized_file(filepath)
+
+        # File shouldn't be empty or suspiciously small
+        assert len(df) >= 10, (
+            f"{filepath.name} has only {len(df)} rows. "
+            "This is suspiciously small - may be header-only or incomplete."
+        )
+
+        # Check that at least some rows have actual data
+        measurement_cols = [
+            "volumetric_water_content_m3_m3",
+            "gravimetric_water_content_gH2O_gs",
+            "water_potential_kPa"
+        ]
+
+        rows_with_data = df[
+            df[measurement_cols].notna().any(axis=1)
+        ]
+
+        assert len(rows_with_data) > 0, (
+            f"{filepath.name} has {len(df)} rows but none contain measurement data. "
+            "All measurement columns are NaN."
+        )
+
+
 # Summary test
 def test_all_files_present():
     """Verify expected number of harmonized files exist."""
@@ -752,6 +1003,4 @@ def test_all_files_present():
 
 if __name__ == "__main__":
     # Run tests with pytest
-    pytest.main([__file__, "-v", "-q", "--tb=short"])
-
-
+    pytest.main([__file__, "-v", "--tb=short"])

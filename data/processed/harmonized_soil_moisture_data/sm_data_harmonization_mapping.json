@@ -717,7 +717,7 @@
       },
       "depth": {
         "pattern_1": {
-          "source_pattern": "Depth..cm.",
+          "source_pattern": "Depth (cm)",
           "source_files": [
             "BM_Merged_T_VWC_0616_1018.csv"
           ],
@@ -779,7 +779,7 @@
       },
       "volumetric_water_content": {
         "pattern_1": {
-          "source_pattern": "Volumetric.Water.Content",
+          "source_pattern": "Volumetric Water Content",
           "source_files": [
             "BM_Merged_T_VWC_0616_1018.csv"
           ],
@@ -1519,7 +1519,7 @@
             "2017_East_River_Pumphouse_Soil_Water_Content_and_pH__1_.csv"
           ],
           "destination_variable": "datetime_UTC",
-          "transformation": "Parse date from 'Date_Collected' column using format '%m/%d/%Y'. Convert from America/Denver timezone to UTC.",
+          "transformation": "Parse date from 'Date_Collected' column using format '%m/%d/%Y'. Convert from Etc/GMT+7 to UTC.",
           "unit_conversion": null
         }
       },
@@ -1680,7 +1680,7 @@
             "WM_SWC.csv"
           ],
           "destination_variable": "datetime_UTC",
-          "transformation": "Parse datetime from 'Date Time' using format '%Y-%m-%d %H:%M:%S' in America/Denver timezone; convert to UTC.",
+          "transformation": "Parse datetime from 'Date Time' using format '%Y-%m-%d %H:%M:%S' in Etc/GMT+7 timezone; convert to UTC.",
           "unit_conversion": null
         }
       },
@@ -1779,7 +1779,7 @@
             "Iso_MP_Sap_DataDaily_ESSDiveUpload_R1.csv"
           ],
           "destination_variable": "datetime_UTC",
-          "transformation": "Parse date from 'Timestamp' using format '%Y-%m-%d' in America/Denver timezone; convert to UTC.",
+          "transformation": "Parse date from 'Timestamp' using format '%Y-%m-%d'; coerce to UTC.",
           "unit_conversion": null
         }
       },
@@ -1880,7 +1880,7 @@
             "Carbone_conifer.csv"
           ],
           "destination_variable": "datetime_UTC",
-          "transformation": "Construct datetime from Year, Month, Day, Hour; parse in America/Denver timezone; convert to UTC.",
+          "transformation": "Construct datetime from Year, Month, Day, Hour; parse in Etc/GMT+7 timezone; convert to UTC.",
           "unit_conversion": null
         }
       },
@@ -1978,7 +1978,7 @@
             "ER18_soil_physical.csv"
           ],
           "destination_variable": "datetime_UTC",
-          "transformation": "Parse date from 'Collection date' using format '%m/%d/%y' in America/Denver timezone; convert to UTC.",
+          "transformation": "Parse date from 'Collection date' using format '%m/%d/%y' in Etc/GMT+7 timezone; convert to UTC.",
           "unit_conversion": null
         }
       },

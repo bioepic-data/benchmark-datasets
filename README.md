@@ -16,6 +16,13 @@ This repository provides tools and workflows for:
 
 ```
 benchmark-datasets/
+├── berdl_import/          # BERDL import workflow for WFSFA soil moisture
+│   ├── AGENT_LOG.md       # Chronological import notes and decisions
+│   ├── scripts/           # Build, schema-generation, and BERDL import scripts
+│   ├── schema/            # Generated BERDL schema documentation
+│   ├── downloaded_data/   # Ignored downloaded source CSVs and local location UUID file
+│   ├── data/              # Ignored generated BERDL import packages
+│   └── local_logs/        # Ignored local pipeline logs
 ├── data/
 │   ├── source/            # Third-party source data
 │   │   ├── ess-dive_meta/ # ESS-DIVE package metadata (JSON)
@@ -27,16 +34,16 @@ benchmark-datasets/
 │   └── processed/         # Tracked metadata for processed datasets
 │       ├── ess-dive_wfsfa_soil_datasets/  # URLs to original source packages
 │       └── harmonized_soil_moisture_data/ # URLs to harmonized CSVs, mapping JSON
-├── berdl_import/          # BERDL import workflow for WFSFA soil moisture
-│   ├── AGENT_LOG.md       # Chronological import notes and decisions
-│   ├── scripts/           # Build, schema-generation, and BERDL import scripts
-│   ├── schema/            # Generated BERDL schema documentation
-│   ├── downloaded_data/   # Ignored downloaded source CSVs and local location UUID file
-│   ├── data/              # Ignored generated BERDL import packages
-│   └── local_logs/        # Ignored local pipeline logs
+├── docs/                  # Documentation for various operations
 ├── notebooks/             # Data processing scripts
+│   ├── generate_qc_reports.py
 │   ├── scrape_ess-dive.py
-│   └── harmonize_ess-dive_soilmoisture_data.py
+│   └── harmonize_sm
+│       ├── common.py      # Shared library with context class and helper functions
+│       ├── dataset_*.py   # Processing files for individual datasets
+│       ├── inclusions*.py # Registry mapping 19 dataset indices to harmonization functions
+│       ├── README.md.     # Documentation with usage examples
+│       └── run.py         # Orchestrator with CLI interface and holdout support for cross-val
 ├── skills/                # Claude Code skills for AI-assisted workflows
 │   ├── wfsfa_sm_harmonization/  # Interactive harmonization skill
 │   └── watershed-sfa-soil-moisture-berdl-query/  # BERDL query skill
@@ -113,9 +120,9 @@ ESS-DIVE dataset discovery and retrieval pipeline:
 - `data/intermediate/er_soil_meta.json` — Filtered East River soil datasets
 - `data/intermediate/ess-dive_eastriver_soildatasets.tsv` — Candidate soil datasets
 
-### `notebooks/harmonize_ess-dive_soilmoisture_data.py`
+### `notebooks/harmonize_sm`
 
-Data harmonization workflow that transforms heterogeneous soil moisture datasets into a unified schema:
+Modular data harmonization workflow that transforms heterogeneous soil moisture datasets into a unified schema:
 
 **Harmonization steps:**
 1. Metadata extraction from ESS-DIVE package records

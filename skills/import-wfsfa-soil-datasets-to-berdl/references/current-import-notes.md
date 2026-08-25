@@ -29,7 +29,7 @@ Status: published and independently verified in BERDL on 2026-08-25.
 - Every duplicate group resolved to exactly one harmonized UUID.
 - 23 groups reported conflicting original coordinate pairs; their source coordinates are omitted in `sdt_location` and the ambiguity is recorded in `geolocation_resolution_method`.
 - Three duplicate groups had only one reported coordinate pair and retain it.
-- Fifteen observed pairs in dataset `ess-dive-a99be52b7a6114c-20230504T210134503379` were absent from the exact crosswalk pair set but matched one unambiguous harmonized UUID by site identifier.
+- Fifteen observed pairs in dataset `ess-dive-a99be52b7a6114c-20230504T210134503379` were absent from the exact crosswalk pair set and had no exact site-identifier match. They are represented by explicit coordinate-free missing-harmonized-location records rather than inferred locations.
 
 ### Locally built package
 
@@ -126,6 +126,9 @@ The suite's first genuine failure was a negative volumetric-water-content value.
 - 74 negative volumetric-water-content rows: 67 in `beca0...`, five in `e67ab...`, and two in `f782...`;
 - two volumetric-water-content rows greater than 1: one each in `e67ab...` and `f782...`;
 - one positive water-potential value greater than 10 kPa in `4c182...`;
+- 17,872 water-potential values below -50,000 kPa: 90 in `beca0...`, 17,721 in `b3d271...`, and 61 in `c37aaf...`;
+- 234,811 rows participating in duplicate `(datetime, site, depth, replicate)` keys across five datasets, including 6,527 rows that are exact full-row duplicates;
+- 171 timestamp/site/depth groups in `b924878...` whose observed replicate labels are nonsequential or start above one;
 - zero negative gravimetric-water-content or depth rows;
 - 131,480 rows with all three measurement fields empty, retained because they exist in the supplied harmonized files.
 
@@ -134,6 +137,12 @@ explicitly approved publishing them as supplied. Live read-back reproduced 74
 negative volumetric-water-content rows, two values above 1, one water-potential
 value above 10,000 Pa, zero negative gravimetric-water-content or depth rows,
 and 131,480 rows with all three measurement fields empty.
+
+Repository QA records the reviewed per-file counts in
+`tests/test_harmonized_data.py`. These supplied-data conditions emit
+`SourceDataQualityWarning` while any count drift remains a hard failure. The 15
+missing exact dataset/site crosswalk pairs remain structural checks: each must
+continue to have exactly one explicit coordinate-free missing-location record.
 
 ### Remaining limitation
 

@@ -12,11 +12,33 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REPO_ROOT = ROOT.parent
-SOURCE_METADATA_DIR = REPO_ROOT / "data/processed/ess-dive_wfsfa_soil_datasets"
+SOURCE_METADATA_DIR = REPO_ROOT / "data/processed/harmonized_soil_moisture_data"
 DOWNLOADED_SOURCE_DIR = ROOT / "downloaded_data/ess-dive_wfsfa_soil_datasets"
-HARMONIZED_DIR = DOWNLOADED_SOURCE_DIR / "harmonized_soil_moisture_data"
+HARMONIZED_DIR = DOWNLOADED_SOURCE_DIR / "harmonized_csv"
 OUT_DIR = ROOT / "data/berdl_import/watershed_sfa_soil_moisture"
 DDT_NDARRAY_ID = "watershed_sfa_soil_moisture_observation"
+EXPECTED_HARMONIZED_COLUMNS = [
+    "datetime_UTC",
+    "site_id",
+    "depth_m",
+    "replicate",
+    "is_timeseries",
+    "volumetric_water_content_m3_m3",
+    "gravimetric_water_content_gH2O_gs",
+    "water_potential_kPa",
+]
+REQUIRED_LOCATION_COLUMNS = {
+    "site_id",
+    "latitude",
+    "longitude",
+    "source_dataset_id",
+    "qc_flag",
+    "harmonized_location_uuid",
+    "latitude_harmonized",
+    "longitude_harmonized",
+    "n_records_in_uuid",
+    "n_datasets_in_uuid",
+}
 OBO_SOURCES = [
     ("BERVO", Path("/h/jmc/data/bioepic/chess/ontologies/bervo_github/bervo.obo")),
     ("UO", Path("/h/jmc/data/bioepic/chess/ontologies/uo/uo.obo")),
@@ -91,13 +113,69 @@ def read_harmonized_manifest() -> dict[str, str]:
     with manifest.open(newline="", encoding="utf-8") as fh:
         reader = csv.DictReader(fh)
         for row in reader:
-            filename = clean(row.get("filename"))
+            # The August 2026 manifest renamed filename/object_id to name/id.
+            # Accept both forms so an older checkout remains rebuildable.
+            filename = clean(row.get("name") or row.get("filename"))
             url = clean(row.get("url"))
             if filename.endswith("_harmonized.csv"):
-                out[filename.removesuffix("_harmonized.csv")] = url
+                dataset_name = filename.removesuffix("_harmonized.csv")
+                if dataset_name in out:
+                    raise ValueError(f"Duplicate harmonized manifest entry: {filename}")
+                out[dataset_name] = url
             elif filename == "location_data_harmonized_with_uuid.csv":
                 out[filename] = url
     return out
+
+
+def validate_sources(
+    mapping: list[dict],
+    manifest: dict[str, str],
+    location_rows: list[dict],
+) -> None:
+    """Fail before publication if the refreshed source contract is inconsistent."""
+    csv_paths = sorted(HARMONIZED_DIR.glob("*_harmonized.csv"))
+    local_datasets = {dataset_id_from_file(path) for path in csv_paths}
+    manifest_datasets = {name for name in manifest if name != "location_data_harmonized_with_uuid.csv"}
+    mapped_included = {
+        clean(entry.get("dataset_identifier"))
+        for entry in mapping
+        if clean(entry.get("inclusion_decision")).lower() == "include"
+    }
+
+    if not csv_paths:
+        raise ValueError(f"No harmonized CSV files found under {HARMONIZED_DIR}")
+    if local_datasets != manifest_datasets:
+        raise ValueError(
+            "Downloaded/manifest dataset mismatch: "
+            f"missing_local={sorted(manifest_datasets - local_datasets)}, "
+            f"unexpected_local={sorted(local_datasets - manifest_datasets)}"
+        )
+    if local_datasets != mapped_included:
+        raise ValueError(
+            "Downloaded/mapping inclusion mismatch: "
+            f"missing_local={sorted(mapped_included - local_datasets)}, "
+            f"unexpected_local={sorted(local_datasets - mapped_included)}"
+        )
+    if "location_data_harmonized_with_uuid.csv" not in manifest:
+        raise ValueError("Location crosswalk is missing from the harmonized manifest")
+
+    for path in csv_paths:
+        with path.open(newline="", encoding="utf-8-sig") as fh:
+            reader = csv.reader(fh)
+            header = next(reader, None)
+        if header != EXPECTED_HARMONIZED_COLUMNS:
+            raise ValueError(
+                f"Unexpected harmonized schema in {path.name}: "
+                f"expected={EXPECTED_HARMONIZED_COLUMNS}, observed={header}"
+            )
+
+    observed_location_columns = set(location_rows[0]) if location_rows else set()
+    missing_location_columns = REQUIRED_LOCATION_COLUMNS - observed_location_columns
+    if missing_location_columns:
+        raise ValueError(
+            "Location crosswalk is empty or missing required columns: "
+            f"{sorted(missing_location_columns)}"
+        )
 
 
 def row_count(path: Path) -> int:
@@ -265,6 +343,8 @@ def build_sdt_dataset(mapping: list[dict], manifest: dict[str, str]) -> list[dic
         hm = entry.get("harmonization_mappings")
         if is_imported:
             decision = "Included in BERDL import because a harmonized soil moisture CSV is available and parsed successfully."
+        elif clean(entry.get("exclusion_reason")):
+            decision = clean(entry.get("exclusion_reason"))
         elif isinstance(hm, str):
             decision = hm
         elif isinstance(hm, dict):
@@ -295,11 +375,16 @@ def build_locations(
     source_rows = []
     location_lookup: dict[tuple[str, str], str] = {}
     site_index: dict[str, list[dict]] = {}
+    pair_rows: OrderedDict[tuple[str, str], list[dict]] = OrderedDict()
     for row in location_rows:
+        dataset_name = clean(row.get("source_dataset_id"))
         site_id = clean(row.get("site_id"))
         if site_id:
             site_index.setdefault(site_id, []).append(row)
-    for i, row in enumerate(location_rows, start=1):
+        if dataset_name and site_id:
+            pair_rows.setdefault((dataset_name, site_id), []).append(row)
+
+    for row in location_rows:
         dataset_name = clean(row.get("source_dataset_id"))
         site_id = clean(row.get("site_id"))
         uuid = clean(row.get("harmonized_location_uuid"))
@@ -315,6 +400,47 @@ def build_locations(
                 "records_in_harmonized_location_count_unit": clean(row.get("n_records_in_uuid")),
                 "datasets_in_harmonized_location_count_unit": clean(row.get("n_datasets_in_uuid")),
             }
+
+    for i, ((dataset_name, site_id), grouped_rows) in enumerate(pair_rows.items(), start=1):
+        uuids = {
+            clean(row.get("harmonized_location_uuid"))
+            for row in grouped_rows
+            if clean(row.get("harmonized_location_uuid"))
+        }
+        if len(uuids) > 1:
+            raise ValueError(
+                "A source dataset/site pair resolves to multiple harmonized locations: "
+                f"dataset={dataset_name}, site={site_id}, uuids={sorted(uuids)}"
+            )
+        h_name = next(iter(uuids), safe_name("harmonized_location", dataset_name, site_id))
+        reported_coordinates = {
+            (float_string(row.get("latitude")), float_string(row.get("longitude")))
+            for row in grouped_rows
+            if clean(row.get("latitude")) and clean(row.get("longitude"))
+        }
+        qc_flags = sorted({clean(row.get("qc_flag")) for row in grouped_rows if clean(row.get("qc_flag"))})
+        if len(reported_coordinates) == 1:
+            latitude, longitude = next(iter(reported_coordinates))
+            if len(grouped_rows) > 1:
+                method = (
+                    f"Collapsed {len(grouped_rows)} location crosswalk rows for this source dataset/site; "
+                    "retained the sole reported original coordinate pair and their shared harmonized location UUID."
+                )
+            else:
+                method = location_method(qc_flags[0] if qc_flags else "")
+        elif len(reported_coordinates) > 1:
+            latitude = ""
+            longitude = ""
+            method = (
+                f"Collapsed {len(grouped_rows)} location crosswalk rows for this source dataset/site. "
+                "The rows reported conflicting original coordinates that observation rows cannot distinguish; "
+                "original coordinates are omitted and the shared harmonized location UUID is retained."
+            )
+        else:
+            latitude = ""
+            longitude = ""
+            method = location_method(qc_flags[0] if len(qc_flags) == 1 else ",".join(qc_flags))
+
         loc_name = safe_name(dataset_name, site_id)
         location_lookup[(dataset_name, site_id)] = loc_name
         source_rows.append({
@@ -323,9 +449,9 @@ def build_locations(
             "sdt_harmonized_location_name": h_name,
             "sdt_dataset_name": dataset_name,
             "site_identifier": site_id,
-            "latitude_degree": float_string(row.get("latitude")),
-            "longitude_degree": float_string(row.get("longitude")),
-            "geolocation_resolution_method": location_method(row.get("qc_flag")),
+            "latitude_degree": latitude,
+            "longitude_degree": longitude,
+            "geolocation_resolution_method": method,
         })
     next_index = len(source_rows) + 1
     for dataset_name, site_id in sorted(observed_pairs):
@@ -381,7 +507,6 @@ def write_observation(location_lookup: dict[tuple[str, str], str]) -> int:
         "depth_below_soil_surface_meter",
         "replicate_series_count_unit",
         "is_time_series",
-        "time_interval_minute",
         "volumetric_water_content_ratio_unit",
         "gravimetric_water_content_ratio_unit",
         "soil_micropore_matric_water_potential_pascal",
@@ -403,7 +528,6 @@ def write_observation(location_lookup: dict[tuple[str, str], str]) -> int:
                         "depth_below_soil_surface_meter": float_string(row.get("depth_m")),
                         "replicate_series_count_unit": clean(row.get("replicate")),
                         "is_time_series": bool_string(row.get("is_timeseries")),
-                        "time_interval_minute": float_string(row.get("interval_min")),
                         "volumetric_water_content_ratio_unit": float_string(row.get("volumetric_water_content_m3_m3")),
                         "gravimetric_water_content_ratio_unit": float_string(row.get("gravimetric_water_content_gH2O_gs")),
                         "soil_micropore_matric_water_potential_pascal": float_string(row.get("water_potential_kPa"), 1000.0),
@@ -472,7 +596,7 @@ def build_sys_typedef() -> list[dict]:
 def build_ddt_ndarray() -> list[dict]:
     metadata = {
         "source": "WFSFA harmonized soil moisture data",
-        "description": "Combined observation table for 14 harmonized ESS-DIVE soil moisture packages.",
+        "description": "Combined observation table for the manifest-declared harmonized ESS-DIVE soil moisture packages.",
     }
     return [{
         "ddt_ndarray_id": DDT_NDARRAY_ID,
@@ -487,9 +611,9 @@ def build_ddt_ndarray() -> list[dict]:
         "ddt_ndarray_dimension_variable_names": "sdt_dataset_name,sdt_location_name,datetime_utc,depth_below_soil_surface_meter,replicate_series_count_unit",
         "ddt_ndarray_dimension_variable_types_sys_oterm_id": "BERVO:8000528,BERVO:8000528,BERVO:8000240,BERVO:8000069,BERVO:8000237",
         "ddt_ndarray_dimension_variable_types_sys_oterm_name": "Identifier,Identifier,DateTime,Depth,Count",
-        "ddt_ndarray_variable_names": "is_time_series,time_interval_minute,volumetric_water_content_ratio_unit,gravimetric_water_content_ratio_unit,soil_micropore_matric_water_potential_pascal",
-        "ddt_ndarray_variable_types_sys_oterm_id": "BERVO:8000300,BERVO:8000238,BERVO:0001743,BERVO:0001810,BERVO:0001750",
-        "ddt_ndarray_variable_types_sys_oterm_name": "Time series,Time,Volumetric water content,Gravimetric water content,Soil micropore matric water potential",
+        "ddt_ndarray_variable_names": "is_time_series,volumetric_water_content_ratio_unit,gravimetric_water_content_ratio_unit,soil_micropore_matric_water_potential_pascal",
+        "ddt_ndarray_variable_types_sys_oterm_id": "BERVO:8000300,BERVO:0001743,BERVO:0001810,BERVO:0001750",
+        "ddt_ndarray_variable_types_sys_oterm_name": "Time series,Volumetric water content,Gravimetric water content,Soil micropore matric water potential",
         "ddt_ndarray_metadata": json.dumps(metadata, sort_keys=True),
         "superceded_by_ddt_ndarray_id": "",
     }]
@@ -521,12 +645,11 @@ def build_sys_ddt_typedef() -> list[dict]:
         ddt_row("sdt_location_name", "string", "object_ref", "sdt_location.sdt_location_name", "Dataset-specific source location.", "", 2, "BERVO:8000394", 2, "BERVO:8000528", "site_id plus source dataset"),
         ddt_row("datetime_utc", "string", "string", "", "Observation timestamp in UTC.", "", 3, "BERVO:8000240", 3, "BERVO:8000240", "datetime_UTC"),
         ddt_row("depth_below_soil_surface_meter", "double", "numeric", "", "Depth below soil surface.", "UO:0000008", 4, "BERVO:8000069", 4, "BERVO:8000069", "depth_m"),
-        ddt_row("replicate_series_count_unit", "integer", "numeric", "", "Replicate index or count for repeated sensors/measurements.", "UO:0000189", 5, "BERVO:8000237", 5, "BERVO:8000237", "replicate"),
+        ddt_row("replicate_series_count_unit", "integer", "numeric", "", "Positive replicate index for repeated observations sharing timestamp, site, and depth.", "UO:0000189", 5, "BERVO:8000237", 5, "BERVO:8000237", "replicate"),
         ddt_row("is_time_series", "boolean", "boolean", "", "Whether the record is part of a regular time series.", "", 0, "", 1, "BERVO:8000300", "is_timeseries"),
-        ddt_row("time_interval_minute", "double", "numeric", "", "Sampling interval for regular time series data.", "UO:0000031", 0, "", 2, "BERVO:8000238", "interval_min"),
-        ddt_row("volumetric_water_content_ratio_unit", "double", "numeric", "", "Volumetric water content.", "UO:0000190", 0, "", 3, "BERVO:0001743", "volumetric_water_content_m3_m3"),
-        ddt_row("gravimetric_water_content_ratio_unit", "double", "numeric", "", "Gravimetric water content.", "UO:0000190", 0, "", 4, "BERVO:0001810", "gravimetric_water_content_gH2O_gs"),
-        ddt_row("soil_micropore_matric_water_potential_pascal", "double", "numeric", "", "Soil water potential converted from kilopascals to pascals.", "UO:0000110", 0, "", 5, "BERVO:0001750", "water_potential_kPa; multiply by 1000 to convert kPa to Pa"),
+        ddt_row("volumetric_water_content_ratio_unit", "double", "numeric", "", "Volumetric water content.", "UO:0000190", 0, "", 2, "BERVO:0001743", "volumetric_water_content_m3_m3"),
+        ddt_row("gravimetric_water_content_ratio_unit", "double", "numeric", "", "Gravimetric water content.", "UO:0000190", 0, "", 3, "BERVO:0001810", "gravimetric_water_content_gH2O_gs"),
+        ddt_row("soil_micropore_matric_water_potential_pascal", "double", "numeric", "", "Soil water potential converted from kilopascals to pascals.", "UO:0000110", 0, "", 4, "BERVO:0001750", "water_potential_kPa; multiply by 1000 to convert kPa to Pa"),
     ]
 
 
@@ -581,7 +704,6 @@ CREATE TABLE ddt_soil_moisture_observation (
   depth_below_soil_surface_meter DOUBLE,
   replicate_series_count_unit BIGINT,
   is_time_series BOOLEAN,
-  time_interval_minute DOUBLE,
   volumetric_water_content_ratio_unit DOUBLE,
   gravimetric_water_content_ratio_unit DOUBLE,
   soil_micropore_matric_water_potential_pascal DOUBLE
@@ -661,6 +783,7 @@ def main() -> None:
     mapping = load_mapping()
     manifest = read_harmonized_manifest()
     location_rows = load_location_rows()
+    validate_sources(mapping, manifest, location_rows)
     sdt_dataset = build_sdt_dataset(mapping, manifest)
     sdt_hloc, sdt_location, location_lookup = build_locations(location_rows, observed_location_pairs())
     observation_count = write_observation(location_lookup)

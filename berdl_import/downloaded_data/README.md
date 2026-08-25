@@ -20,7 +20,7 @@ After downloading files for the BERDL import workflow:
 ```
 downloaded_data/
 └── ess-dive_wfsfa_soil_datasets/
-    ├── harmonized_soil_moisture_data/                          # Harmonized CSV files (19 files)
+    ├── harmonized_csv/                         # Harmonized CSV files (19 files)
     │   ├── ess-dive-*_harmonized.csv           # One per source package
     │   └── ...
     └── location_data_harmonized_with_uuid.csv  # Site metadata with UUID harmonization

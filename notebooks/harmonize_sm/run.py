@@ -18,7 +18,6 @@ from pathlib import Path
 
 # Add current directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
-sys.path.insert(0, str('notebooks/harmonize_sm'))
 
 from common import (
     Context,

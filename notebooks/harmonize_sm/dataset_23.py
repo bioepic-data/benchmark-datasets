@@ -47,8 +47,10 @@ def harmonize(ctx):
     x["water_potential_kPa"] = np.nan
     x["gravimetric_water_content_gH2O_gs"] = np.nan
 
-    x["rep_key"] = x["site_id"].astype(str) + "|" + x["Sensor.SN"].astype(str) + "|" + x["depth_m"].astype(str)
-    x["replicate"] = pd.factorize(x["rep_key"])[0] + 1
+    # x["rep_key"] = x["site_id"].astype(str) + "|" + x["Sensor.SN"].astype(str) + "|" + x["depth_m"].astype(str)
+    # x["rep_key"] = x["site_id"].astype(str) + "|" + x["depth_m"].astype(str)
+    # x["replicate"] = pd.factorize(x["rep_key"])[0] + 1
+    x["replicate"] = x.groupby(["datetime_UTC", "site_id", "depth_m"]).cumcount().astype(int) + 1
 
     x = x.sort_values(["site_id", "depth_m", "replicate", "datetime_UTC"])
 

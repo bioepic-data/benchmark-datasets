@@ -58,7 +58,7 @@ benchmark-datasets/
 
 The primary output is a curated, standardized set of soil moisture observations from 25 ESS-DIVE data packages covering the East River watershed. The harmonized dataset includes:
 
-- **14 harmonized data packages** with valid soil moisture measurements
+- **19 harmonized data packages** with valid soil moisture measurements
 - **Standardized schema** with common variable names, units, and temporal formats
 - **Geospatial metadata** with UUID-based location harmonization across datasets
 - **Complete provenance** via JSON mapping files linking harmonized variables to original sources

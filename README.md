@@ -33,6 +33,7 @@ benchmark-datasets/
 │   │   └── ess-dive_eastriver_*.tsv
 │   └── processed/         # Tracked metadata for processed datasets
 │       ├── ess-dive_wfsfa_soil_datasets/  # URLs to original source packages
+│       ├── ess-dive_soilpH_datasets/      # URLs to original soil pH source packages
 │       └── harmonized_soil_moisture_data/ # URLs to harmonized CSVs, mapping JSON
 ├── docs/                  # Documentation for various operations
 ├── notebooks/             # Data processing scripts
@@ -284,6 +285,7 @@ if isinstance(package_mapping["harmonization_mappings"], dict):
 Harmonized datasets are available via Google Drive URLs documented in:
 - `data/processed/harmonized_soil_moisture_data/ess-dive_harmonized_soil_urls.csv` — Direct download links to harmonized CSV files
 - `data/processed/ess-dive_wfsfa_soil_datasets/ess-dive_wfsfa_soil_dataset_urls.csv` — Links to original source package directories
+- `data/processed/ess-dive_soilpH_datasets/ess-dive_soilpH_dataset_urls.csv` — Links to original soil pH source package directories (files over 500 MB are excluded from the mirror; see `data/processed/ess-dive_soilpH_datasets/excluded_large_files.md` for their direct ESS-DIVE URLs)
 
 ## Development
 

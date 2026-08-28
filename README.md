@@ -34,6 +34,10 @@ benchmark-datasets/
 │   └── processed/         # Tracked metadata for processed datasets
 │       ├── ess-dive_wfsfa_soil_datasets/  # URLs to original source packages
 │       ├── ess-dive_soilpH_datasets/      # URLs to original soil pH source packages
+│       ├── ess-dive_soilC_datasets/       # URLs to original soil carbon source packages
+│       ├── ess-dive_soiltexture_datasets/ # URLs to original soil texture source packages
+│       ├── ess-dive_soilbulkdensity_datasets/ # URLs to original soil bulk density source packages
+│       ├── ess-dive_snowdepth_datasets/   # URLs to original snow depth source packages
 │       └── harmonized_soil_moisture_data/ # URLs to harmonized CSVs, mapping JSON
 ├── docs/                  # Documentation for various operations
 ├── notebooks/             # Data processing scripts
@@ -286,6 +290,10 @@ Harmonized datasets are available via Google Drive URLs documented in:
 - `data/processed/harmonized_soil_moisture_data/ess-dive_harmonized_soil_urls.csv` — Direct download links to harmonized CSV files
 - `data/processed/ess-dive_wfsfa_soil_datasets/ess-dive_wfsfa_soil_dataset_urls.csv` — Links to original source package directories
 - `data/processed/ess-dive_soilpH_datasets/ess-dive_soilpH_dataset_urls.csv` — Links to original soil pH source package directories (files over 500 MB are excluded from the mirror; see `data/processed/ess-dive_soilpH_datasets/excluded_large_files.md` for their direct ESS-DIVE URLs)
+- `data/processed/ess-dive_soilC_datasets/ess-dive_soilC_dataset_urls.csv` — Links to original soil carbon source package directories
+- `data/processed/ess-dive_soiltexture_datasets/ess-dive_soiltexture_dataset_urls.csv` — Links to original soil texture source package directories
+- `data/processed/ess-dive_soilbulkdensity_datasets/ess-dive_soilbulkdensity_dataset_urls.csv` — Links to original soil bulk density source package directories (same 18 packages as the soil texture set, which report both properties together)
+- `data/processed/ess-dive_snowdepth_datasets/ess-dive_snowdepth_dataset_urls.csv` — Links to original snow depth source package directories (files over 500 MB, and 3 DOIs hosted on EDI/PASTA rather than ESS-DIVE, are excluded from the mirror; see `data/processed/ess-dive_snowdepth_datasets/excluded_files.md`)
 
 ## Development
 

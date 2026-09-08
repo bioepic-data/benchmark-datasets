@@ -257,3 +257,128 @@ The BERDL import command requires BERDL network/Spark/MinIO access:
   --data-dir berdl_import/data/berdl_import/watershed_sfa_soil_moisture \
   --chunk-target-gb 0.25
 ```
+
+## 2026-08-25 Refreshed Harmonized Data Rebuild
+
+Prepared a full re-import after the tracked Google Drive manifest and harmonized
+data were refreshed. The live BERDL overwrite remains pending because the
+off-cluster SSH tunnels on ports 1337 and 1338 were not running.
+
+Source/model changes reconciled:
+
+- the harmonized manifest now uses `name` and `id` rather than `filename` and
+  `object_id`;
+- processed metadata moved under
+  `data/processed/harmonized_soil_moisture_data/`;
+- downloaded harmonized CSVs remain under `harmonized_csv/`;
+- the supported harmonized contract is eight columns and no longer contains
+  `interval_min`;
+- `time_interval_minute` was therefore removed from the observation table,
+  ndarray metadata, SQL schema, and `sys_ddt_typedef`;
+- replicate values now reflect the corrected harmonization factorization and
+  are positive integers from 1 through 3 in the refreshed source;
+- source UTC strings, including explicit offsets, are preserved;
+- the established BERVO/UO mappings and kPa-to-Pa conversion are retained.
+
+Location modeling was updated after finding 26 duplicate dataset/site groups
+in the refreshed crosswalk. All groups shared exactly one harmonized UUID, but
+23 reported conflicting original coordinates. The builder now emits one unique
+`sdt_location` per dataset/site, omits ambiguous original coordinates, retains
+the shared harmonized UUID, and records the decision in
+`geolocation_resolution_method`. Fifteen observed dataset/site pairs absent
+from the exact crosswalk also lacked an exact site-identifier match; the builder
+created explicit coordinate-free missing-harmonized-location records rather
+than inferring locations.
+
+Refreshed local package counts:
+
+| table | rows |
+|---|---:|
+| `ddt_ndarray` | 1 |
+| `ddt_soil_moisture_observation` | 6,424,075 |
+| `sdt_dataset` | 28 |
+| `sdt_harmonized_location` | 624 |
+| `sdt_location` | 1,069 |
+| `sys_ddt_typedef` | 9 |
+| `sys_oterm` | 2,918 |
+| `sys_typedef` | 25 |
+
+The deterministic validator at
+`skills/import-wfsfa-soil-datasets-to-berdl/scripts/validate_import_package.py`
+passed exact source/output transformation checks, unique-key checks, local
+relationship checks, ndarray-list checks, and ontology checks. It verified
+596,396 non-null water-potential values were converted from kPa to Pa.
+
+No-write preflight:
+
+- namespace: `bervodata_watershed_sfa_soil_moisture`;
+- mode: overwrite;
+- run ID: `20260825-refreshed-v05`;
+- upload: approximately 1.0 GB;
+- observation table: four chunks of about 1,682,209 rows;
+- other seven tables: single-ingest;
+- progress object:
+  `tenant-general-warehouse/bervodata/datasets/watershed_sfa_soil_moisture/_ingest_progress/20260825-refreshed-v05.jsonl`;
+- no BERDL state changed during preflight.
+
+A reusable skill was created at
+`skills/import-wfsfa-soil-datasets-to-berdl/` with the workflow, data model,
+BERVO/UO mappings, source-change gate, validation script, unique progress-log
+policy, and required live verification steps.
+
+The repository harmonized-data tests were pointed at the current ignored
+download cache rather than the removed `data/processed/harmonized_output_local/`
+path. The activated source QA exposed supplied-data limitations, including 74
+negative volumetric-water-content rows, two values greater than 1, one water
+potential greater than 10 kPa, and 131,480 rows with all three measurement
+fields empty. These values were preserved rather than silently filtered. An
+explicit publish-versus-upstream-correction decision is required before the
+live overwrite.
+
+A complete focused QA pass later identified additional retained source
+conditions: 17,872 water-potential values below -50,000 kPa, 234,811 rows
+participating in duplicate `(datetime, site, depth, replicate)` keys across five
+datasets, 6,527 exact full-row duplicates among them, and 171 groups in
+`b924878...` whose observed replicate labels are nonsequential or start above
+one. The tests now pin all
+reviewed anomalies by file and count. They emit `SourceDataQualityWarning` for
+the acknowledged snapshot but fail if a refreshed source changes those counts.
+The 15 missing exact dataset/site crosswalk pairs are accepted only while each
+has exactly one explicit coordinate-free missing-location record.
+
+## 2026-08-25 Refreshed BERDL Publication
+
+The user approved preserving the quantified source limitations and the full
+eight-table overwrite. Spark readiness was proven with `SELECT 1 AS ready`.
+The pre-overwrite live observation count was 5,000,226; the completed refreshed
+count is 6,424,075.
+
+Publication used run ID `20260825-refreshed-v05`. All eight live counts now
+match the package: 1 ndarray, 6,424,075 observations, 28 datasets, 624
+harmonized locations, 1,069 locations, 9 dynamic typedef rows, 2,918 ontology
+terms, and 25 static typedef rows. The observation schema has nine columns and
+no `time_interval_minute`.
+
+The live namespace is legacy Delta in `spark_catalog`, not Iceberg. The current
+generic BERDL pipeline rejected `createOrReplace` against these Delta tables,
+so the importer now detects the provider and substitutes a Delta
+`saveAsTable` writer without changing the namespace or storage format. It was
+also updated for current ingest signatures (`silver_base` removed) and the
+namespace helper's `iceberg` keyword.
+
+Structured JSON comments were applied to all live columns and table
+descriptions to all eight tables. The independent BERDL foreign-key validator
+passed 4/4 declared relationships, with no declaration errors and unique
+referenced targets. All 22 referenced BERVO/UO terms exist in `sys_oterm`.
+
+The run-specific progress log has completion entries for every table. The
+chunker estimated four observation chunks but emitted a final one-row fifth
+chunk; cumulative and live counts are exact. The importer now republishes one
+canonical eight-table config after ingest because the generic non-chunked
+config otherwise omits the chunked observation table.
+
+Eight dataset metadata YAML files were uploaded before ingest as `in_progress`
+and after verification as `completed`. Live read-back of the retained source
+limitations matched the local audit: 74 negative VWC rows, two VWC rows above
+1, one water-potential row above 10,000 Pa, zero negative GWC/depth rows, and
+131,480 rows with all three measurement values empty.

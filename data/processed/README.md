@@ -85,8 +85,8 @@ Contains URLs to Google Drive folders for each of the 25 source packages. Each f
 Contains URLs to harmonized CSV files on Google Drive. Each harmonized file corresponds to a single source package that has been processed and harmonized to the standard schema.
 
 **Columns:**
-- `filename`: Harmonized CSV filename (pattern: `ess-dive-<package_id>_harmonized.csv`)
-- `object_id`: Google Drive file ID
+- `name`: Harmonized CSV filename (pattern: `ess-dive-<package_id>_harmonized.csv`)
+- `id`: Google Drive file ID
 - `url`: Direct download link to harmonized CSV
 
 ### 3. Harmonized CSV Files (on Google Drive)
@@ -425,4 +425,3 @@ You are free to:
 | 0.3-beta | 2026‑04‑06 | Internal review release: 18 packages processed, 14 harmonized payload files, 18 complete entries in mapping JSON, location metadata, README. |
 | 0.2‑beta | 2026‑03‑10 | Prototype scripts and partial mapping (4 packages). |
 | 0.1‑alpha | 2026‑02‑23 | Source ESS‑DIVE packages identified. |
-

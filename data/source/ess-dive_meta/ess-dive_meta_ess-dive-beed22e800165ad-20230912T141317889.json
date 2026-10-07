@@ -1,0 +1,239 @@
+{
+  "id": "ess-dive-beed22e800165ad-20230912T141317889",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1970527",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-beed22e800165ad-20230912T141317889",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-beed22e800165ad-20230509T161045423",
+  "dateUploaded": "2023-09-12T14:13:18.590Z",
+  "dateModified": "2023-09-12T14:13:23.261Z",
+  "isPublic": true,
+  "citation": "Son K; Fang Y; Gomez-Velez J D; Byun K; Chen X (2023): Model Inputs, Outputs, and Scripts associated with: \u201cCombined effects of stream hydrology and land use on basin-scale hyporheic zone denitrification in the Columbia River Basin\u201d. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1970527",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1970527",
+    "hasPart": [
+      {
+        "@type": "WebPage",
+        "name": "Simplified earlier version of dataset",
+        "url": "https://doi.org/10.5281/zenodo.7152249"
+      }
+    ],
+    "name": "Model Inputs, Outputs, and Scripts associated with: \u201cCombined effects of stream hydrology and land use on basin-scale hyporheic zone denitrification in the Columbia River Basin\u201d",
+    "description": [
+      "This data package is associated with the publication \u201cCombined effects of stream hydrology and land use on basin\u2010scale hyporheic zone denitrification in the Columbia River Basin\u201d, published in Water Resource Research (Son et al.2022) available at https://doi.org/10.1029/2021WR031131.",
+      "This data package includes the key model inputs/outputs of the river corridor model for the Columbia River Basin (CRB) and the model source codes used in the manuscript. The model is a carbon-nitrogen-coupled river corridor model (RCM), and the model is used to quantify hyporheic zone (HZ) denitrification at the NHDPLUS stream reach scales. The RCM used in this study combines empirical substrate models derived from observations and three microbially driven reactions, including two-step denitrification and aerobic respiration, are considered within the HZ. The key input data of the model are exchange flux, residence time, and stream solute (dissolved organic carbon (DOC), dissolved oxygen (DO), and nitrate concentrations). These inputs are constant over time and represent long-term averaged values. This study uses the RCM to explore the spatial patterns of HZ denitrification across reaches with different sizes and land use in the CRB. Our main objective is to use the RCM as a virtual reality model, and the machine-learning models as surrogates that encapsulate the complexities of the physics-based model while identifying the importance of different variables that are not evident in the model conceptualization. We do not include a direct comparison of the modeled HZ denitrification and measurements; however, the RCM can capture the overall spatial patterns of the HZ denitrification because the model inputs and its reaction networks are based on well-established theory and a physical-based model. The combination of the model-based predictions and a machine-learning approach (e.g., random forest) is used to improve our understanding of what variables of the model are associated with spatial patterns of the modeled denitrification across reaches with different sizes and land uses, and to develop a proxy model using measurable variables to reproduce the simulated patterns.",
+      "This dataset contains five folders: (1) model_inputs, (2) model_outputs, (3) Rscripts, (4) figures, and (5) model_codes. It also contains a readme, file level metadata (FLMD), and data dictionary (dd). Please see the FLMD for a list of all the files contained in this data package and descriptions for each. The model_inputs folder contains the model inputs used to drive the model simulations. The model_outputs folder contains key model output files from the river corridor model. The Rscripts folder contains the Rscripts for pre- and post- processing model results. The figures folder contains the raw figures associated with the manuscript. The model_codes folder includes key model source codes/input files. All files are .jpg, .jpeg, .out, .e, .od, .dat, .sub, .F90, .0, .R, .sbx, .cpg, .sbn, .shx, .shp, .dbf, .prj, .tfw, .tif, .xml, .pdf, or .csv."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0288-6522",
+        "givenName": "Kyongho",
+        "familyName": "Son",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "kyongho.son@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1969-9889",
+        "givenName": "Yilin",
+        "familyName": "Fang",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "yilin.fang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8045-5926",
+        "givenName": "Jesus D.",
+        "familyName": "Gomez-Velez",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "gomezvelezjd@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7645-2917",
+        "givenName": "Kyuhyun",
+        "familyName": "Byun",
+        "affiliation": "Incheon National University",
+        "email": "khbyun@inu.ac.kr"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1928-5555",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Xingyuan.Chen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "River corridor model",
+      "Hyporheic zone",
+      "Denitrification",
+      "Columbia River Basin",
+      "Watershed",
+      "Stream",
+      "Machine learning",
+      "Random forest",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Stream dissolved organic carbon (mg/l)",
+      "Stream nitrate (mg/l)",
+      "Stream dissolved oxygen (mg/l)",
+      "Hyporheic exchange flux (log10, m/s)",
+      "Residence time (log10, second)",
+      "Vertical denitrification (log10, kgN/m2/day)",
+      "Lateral denitrification log10, kgN/m2/day)",
+      "Total denitrification (log10,kgN/m2/day)",
+      "Total denitrification with spring substrate inputs (log10,kgN/m2/day)",
+      "Total denitrification with summer substrate inputs (log10,kgN/m2/day)",
+      "Total denitrification with fall substrate inputs (log10,kgN/m2/day)",
+      "Total denitrification with winter substrate inputs (log10,kgN/m2/day)",
+      "Total denitrification with maximum DOC concentration inputs (log10,kgN/m2/day)",
+      "Total denitrification with minimum DO concentration inputs (log10,kgN/m2/day)",
+      "Total denitrification with maximum nitrate concentration inputs (log10,kgN/m2/day)",
+      "denitrification",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > GASES > DISSOLVED OXYGEN"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Columbia River Basin, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 48.99,
+            "longitude": -124.08
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.13,
+            "longitude": -109.76
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0288-6522",
+      "givenName": "Kyongho",
+      "familyName": "Son",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "kyongho.son@pnnl.gov"
+    },
+    "citation": [
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. doi: 10.15485/1866026",
+      "Son, K., Fang, Y., Gomez-Velez, J. D., Byun, K., & Chen, X. (2022). Combined effects of stream hydrology and land use on basin-scale hyporheic zone denitrification in the Columbia River Basin. Water Resources Research, 58, e2021WR031131. https://doi.org/10.1029/2021WR031131",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. doi:10.15485/1734841",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. doi:10.15485/1734840",
+      "Schwarz, G. E., Jackson, S. E., & Wieczorek, M. E. (2018). Select attributes for NHDPlus version 2.1 reach catchments and modified network routed upstream watersheds for the conterminous United States. United States Geol. Surv.",
+      "National Hydrography Dataset PLUS (NHDPLUS v2) (https://nhdplus.com/NHDPlus/)",
+      "Wise, D. R. (2019). Spatially referenced models of streamflow and nitrogen, phosphorus, and suspended-sediment loads in streams of the Pacificregion of the United States. Scientific Investigations Report \u2013 US Geological Survey (2019-5112). doi: 10.3133/sir20195112",
+      "PRISM Climate Group, Oregon State University, https://prism.oregonstate.edu",
+      "Dewitz, J., 2019, National Land Cover Database (NLCD) 2016 Products: U.S. Geological Survey data release,\u00a0doi: 10.5066/P96HHBIE.",
+      "U.S. Geological Survey, 2021, National Water Information System data available on the World Wide Web (USGS Water Data for the Nation), accessed [December 31, 2021], at https://waterdata.usgs.gov/nwis/"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The data includes the key model inputs/outputs of the river corridor model for the Columbia River Basin (CRB), and the model simulate the long-term averaged (mean annual) hyporheic zone denitrification the NHDPLUS stream reach scale. The model outputs were post-processed using the Rscript provided in the Rscripts folder. See associated manuscript for more detailed methods."
+    ],
+    "distribution": [
+      {
+        "contentSize": 6832.82421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0bb6f6805831d74-20230414T195743261",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-0bb6f6805831d74-20230414T195743261",
+        "name": "model_codes.zip"
+      },
+      {
+        "contentSize": 15.49609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2d93ab92a5a2c77-20230415T010908394",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2d93ab92a5a2c77-20230415T010908394",
+        "name": "denitrification_flmd.csv"
+      },
+      {
+        "contentSize": 3181.5029296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-46ab1eb45881f84-20230415T010908398",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-46ab1eb45881f84-20230415T010908398",
+        "name": "readme_Denitrification_Son_2023.pdf"
+      },
+      {
+        "contentSize": 2070527.0078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ac9339d71cf9a6-20230414T220151372",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7ac9339d71cf9a6-20230414T220151372",
+        "name": "model_outputs.zip"
+      },
+      {
+        "contentSize": 10.1396484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-88448e7495b5a9a-20230414T195750967",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-88448e7495b5a9a-20230414T195750967",
+        "name": "Rscripts.zip"
+      },
+      {
+        "contentSize": 16.291015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-94e610473edc311-20230415T010908384",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-94e610473edc311-20230415T010908384",
+        "name": "denitrification_dd.csv"
+      },
+      {
+        "contentSize": 13.8330078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-beed22e800165ad-20230912T141317889",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-beed22e800165ad-20230912T141317889",
+        "name": "Model_Inputs_Outputs_and_Scripts_associated.xml"
+      },
+      {
+        "contentSize": 19971.6240234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ccb9d4942d8ccd6-20230414T185945629",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ccb9d4942d8ccd6-20230414T185945629",
+        "name": "figures.zip"
+      },
+      {
+        "contentSize": 160502.0498046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f5ad62386e0ea12-20230414T214847160",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f5ad62386e0ea12-20230414T214847160",
+        "name": "model_inputs.zip"
+      }
+    ]
+  }
+}

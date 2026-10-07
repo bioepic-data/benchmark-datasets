@@ -1,0 +1,390 @@
+{
+  "id": "ess-dive-67c271102c8a8e4-20231221T232623690",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2212792",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-67c271102c8a8e4-20231221T232623690",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-67c271102c8a8e4-20231215T195602645",
+  "dateUploaded": "2023-12-21T23:26:25.514Z",
+  "dateModified": "2024-01-26T19:33:12.644Z",
+  "isPublic": true,
+  "citation": "New J; Stubbings A; Li F; Bass B; Adams M; Berres A (2023): Model America - Arizona extract from ORNL's AutoBEM v1.1. Southwest Urban Corridor Integrated Field Laboratory (SW-IFL). Dataset. doi:10.15485/2212792",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2212792",
+    "name": "Model America - Arizona extract from ORNL's AutoBEM v1.1",
+    "description": [
+      "Oak Ridge National Laboratory (ORNL) has developed the Automatic Building Energy Modeling (AutoBEM) software suite to process multiple types of data, extract building-specific descriptors, generate building energy models, and simulate them on High Performance Computing (HPC) resources. For more information, see AutoBEM-related publications (bit.ly/AutoBEM).",
+      "Two sets of sample data are provided for 2,555,152 buildings located within the boundary of Arizona in the United States:",
+      "Data (846.3MB *.csv) - minimalist list of each building (rows) for the following fields (columns)",
+      "\u2022 ID - unique building ID",
+      "\u2022 Centroid - building center location in latitude/longitude (from Footprint2D)",
+      "\u2022 Footprint2D - building polygon of 2D footprint (lat1/lon1_lat2/lon2_...)",
+      "\u2022 State_abbr - state name",
+      "\u2022 Area - estimate of total conditioned floor area (ft2)",
+      "\u2022 Area2D - footprint area (ft2)",
+      "\u2022 Height - building height (ft)",
+      "\u2022 NumFloors - number of floors (above-grade)",
+      "\u2022 WWR_surfaces - percent of each facade (pair of points from Footprint2D) covered by fenestration/windows (average 14.5% for residential, 40% for commercial buildings)",
+      "\u2022 CZ - ASHRAE Climate Zone designation",
+      "\u2022 BuildingType - DOE prototype building designation (IECC=residential) as implemented by OpenStudio-standards",
+      "\u2022 Standard - building vintage",
+      "\u2022 Sample Models (114GB*.zip by county) - OpenStudio and EnergyPlus building energy models named according to ID",
+      "This data is made free and openly available in hopes of stimulating any simulation-informed use case. Data is provided as-is with no warranties, express or implied, regarding fitness for a particular purpose. We wish to thank our sponsors which include Oak Ridge National Laboratory (ORNL), U.S. Dept. of Energy\u2019s (DOE) Building Technologies Office (BTO), Office of Electricity (OE), and Biological and Environmental Research (BER)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5281/zenodo.8360283"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8015-0583",
+        "givenName": "Joshua",
+        "familyName": "New",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "newjr@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0927-5775",
+        "givenName": "Avery",
+        "familyName": "Stubbings",
+        "affiliation": "Illinois Institute of Technology",
+        "email": "astubbings@hawk.iit.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3887-9968",
+        "givenName": "Fengqi",
+        "familyName": "Li",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "lif2@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Brett",
+        "familyName": "Bass",
+        "affiliation": "B13 Engineering",
+        "email": "b13datasolutions@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mark",
+        "familyName": "Adams",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "adamsmb@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Andy",
+        "familyName": "Berres",
+        "affiliation": "National Renewable Energy Laboratory",
+        "email": "andy.berres@nrel.gov"
+      }
+    ],
+    "datePublished": "2023-09-11",
+    "keywords": [
+      "ORNL",
+      "AutoBEM",
+      "Model America",
+      "building energy models",
+      "urban-scale energy modeling",
+      "integrated multisector multiscale modeling"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Individual building models for the entire state of Arizona",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.025994,
+            "longitude": -114.06099
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.335515,
+            "longitude": -109.070948
+          }
+        ]
+      }
+    ],
+    "award": [
+      "FWP #ERKPA61"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1980",
+      "endDate": "2015",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8015-0583",
+      "givenName": "Joshua",
+      "familyName": "New",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "newjr@ornl.gov"
+    },
+    "citation": [
+      "Joshua New, Brett Bass, Mark Adams, Andy Berres, Fengqi Li, & Avery Stubbings. (2023). Model America - Arizona extract from ORNL's AutoBEM (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.8360283"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "76c0a41d-b69a-4d99-996f-d650c21e07aa"
+      },
+      "name": "Southwest Urban Corridor Integrated Field Laboratory (SW-IFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Sailor",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Arizona State University",
+        "email": "dsailor@asu.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Building footprint and height data from Google was obtained for the state of Arizona.",
+      "The building type, building standard, and missing heights were assigned statistically resulting in an input data set containing building ID, Centroid, Footprint2D, State_abbr, Area, Area2D, Height, NumFloors, WWR_surfaces, CZ, BuildingType, and Standard.",
+      "This data was inputted into the AutoBEM workflow to generate the OSM and IDF files for every building in the state of Arizona."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1854524.5205078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-16bb21f512a7cb8-20231122T184751799265",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-16bb21f512a7cb8-20231122T184751799265",
+        "name": "Coconino_OSMs.zip"
+      },
+      {
+        "contentSize": 3506781.3525390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2384f3e1dca202f-20231122T204447868999",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2384f3e1dca202f-20231122T204447868999",
+        "name": "Mohave_OSMs.zip"
+      },
+      {
+        "contentSize": 37313088.853515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-23e6bdbb33f5158-20231122T195652897806",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-23e6bdbb33f5158-20231122T195652897806",
+        "name": "Maricopa_OSMs.zip"
+      },
+      {
+        "contentSize": 1500035.736328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0377f542ee8f31e-20231122T224330207537",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-0377f542ee8f31e-20231122T224330207537",
+        "name": "Yuma_IDFs.zip"
+      },
+      {
+        "contentSize": 717990.6376953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1ee5f54ea367c1b-20231122T185018209842",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-1ee5f54ea367c1b-20231122T185018209842",
+        "name": "Gila_IDFs.zip"
+      },
+      {
+        "contentSize": 445733.7744140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-310ebe8e62eefa8-20231122T190256001457",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-310ebe8e62eefa8-20231122T190256001457",
+        "name": "La_Paz_OSMs.zip"
+      },
+      {
+        "contentSize": 1772091.3251953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4756f877cf4e447-20231122T205024165111",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4756f877cf4e447-20231122T205024165111",
+        "name": "Navajo_OSMs.zip"
+      },
+      {
+        "contentSize": 2194399.4228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dad4ddf97f0043a-20231122T224758548349",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dad4ddf97f0043a-20231122T224758548349",
+        "name": "Yuma_OSMs.zip"
+      },
+      {
+        "contentSize": 195457.8203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ed585467e5e0488-20231122T182354190784",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ed585467e5e0488-20231122T182354190784",
+        "name": "Greenlee_OSMs.zip"
+      },
+      {
+        "contentSize": 10576417.23828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-69033b8987ef5df-20231122T210641565736",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-69033b8987ef5df-20231122T210641565736",
+        "name": "Pima_OSMs.zip"
+      },
+      {
+        "contentSize": 337392.7431640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-53a16cd55f4019e-20231122T214259098702",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-53a16cd55f4019e-20231122T214259098702",
+        "name": "Santa_Cruz_IDFs.zip"
+      },
+      {
+        "contentSize": 25496962.84765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5dd474c1f0d189b-20231122T191145118985",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-5dd474c1f0d189b-20231122T191145118985",
+        "name": "Maricopa_IDFs.zip"
+      },
+      {
+        "contentSize": 1079509.677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-49a64da88f4d736-20231122T183500078194",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-49a64da88f4d736-20231122T183500078194",
+        "name": "Apache_OSMs.zip"
+      },
+      {
+        "contentSize": 442696.1923828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-49ba9d9d205bfe4-20231122T185621242159",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-49ba9d9d205bfe4-20231122T185621242159",
+        "name": "Graham_OSMs.zip"
+      },
+      {
+        "contentSize": 1768486.0546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5702e0b08946b88-20231122T184141339612",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-5702e0b08946b88-20231122T184141339612",
+        "name": "Cochise_OSMs.zip"
+      },
+      {
+        "contentSize": 13.591796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-67c271102c8a8e4-20231221T232623690",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-67c271102c8a8e4-20231221T232623690",
+        "name": "Model_America_Arizona_extract_from_ORNL_s.xml"
+      },
+      {
+        "contentSize": 866241.2275390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4db60ee4036a707-20231122T183654998734",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4db60ee4036a707-20231122T183654998734",
+        "name": "Arizona_MAv1_Select.csv"
+      },
+      {
+        "contentSize": 7184348.447265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6de9f1d682856ef-20231122T205446567146",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6de9f1d682856ef-20231122T205446567146",
+        "name": "Pima_IDFs.zip"
+      },
+      {
+        "contentSize": 301534.2451171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-77f404de539e440-20231122T183014720221",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-77f404de539e440-20231122T183014720221",
+        "name": "Graham_IDFs.zip"
+      },
+      {
+        "contentSize": 3059557.3876953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8df56dc8748e2b0-20231122T211816203159",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8df56dc8748e2b0-20231122T211816203159",
+        "name": "Pinal_IDFs.zip"
+      },
+      {
+        "contentSize": 2365693.3818359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8ed1c93fc51dbcc-20231122T204152632781",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8ed1c93fc51dbcc-20231122T204152632781",
+        "name": "Mohave_IDFs.zip"
+      },
+      {
+        "contentSize": 1233037.6865234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8f9771b67d79e49-20231122T184520231375",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8f9771b67d79e49-20231122T184520231375",
+        "name": "Coconino_IDFs.zip"
+      },
+      {
+        "contentSize": 298828.0546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ab98c567edfc447-20231122T182914262614",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ab98c567edfc447-20231122T182914262614",
+        "name": "La_Paz_IDFs.zip"
+      },
+      {
+        "contentSize": 1198650.2626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a1a73860b85c85d-20231122T183913733229",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a1a73860b85c85d-20231122T183913733229",
+        "name": "Cochise_IDFs.zip"
+      },
+      {
+        "contentSize": 1133952.03125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c000e57a5f1c220-20231122T185138220654",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c000e57a5f1c220-20231122T185138220654",
+        "name": "Gila_OSMs.zip"
+      },
+      {
+        "contentSize": 120000.0673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ce153e5d3ab9987-20231122T182206087121",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ce153e5d3ab9987-20231122T182206087121",
+        "name": "Greenlee_IDFs.zip"
+      },
+      {
+        "contentSize": 1192419.31640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c91538b68b60f20-20231122T204811635030",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c91538b68b60f20-20231122T204811635030",
+        "name": "Navajo_IDFs.zip"
+      },
+      {
+        "contentSize": 2426595.6357421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cba203f3e847766-20231122T222822649322",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-cba203f3e847766-20231122T222822649322",
+        "name": "Yavapai_IDFs.zip"
+      },
+      {
+        "contentSize": 728235.40234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f426beeb07c2e91-20231122T183332019781",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f426beeb07c2e91-20231122T183332019781",
+        "name": "Apache_IDFs.zip"
+      },
+      {
+        "contentSize": 3673491.25390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f25313962290773-20231122T224003736580",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f25313962290773-20231122T224003736580",
+        "name": "Yavapai_OSMs.zip"
+      },
+      {
+        "contentSize": 4498161.12109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fadb0c71e519c77-20231122T213555630138",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-fadb0c71e519c77-20231122T213555630138",
+        "name": "Pinal_OSMs.zip"
+      },
+      {
+        "contentSize": 519760.2119140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fa7383e46ccef7b-20231122T214745361550",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-fa7383e46ccef7b-20231122T214745361550",
+        "name": "Santa_Cruz_OSMs.zip"
+      }
+    ]
+  }
+}

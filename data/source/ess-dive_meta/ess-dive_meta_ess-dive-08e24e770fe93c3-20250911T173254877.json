@@ -1,0 +1,422 @@
+{
+  "id": "ess-dive-08e24e770fe93c3-20250911T173254877",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2488377",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-08e24e770fe93c3-20250911T173254877",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-08e24e770fe93c3-20250829T001109780",
+  "dateUploaded": "2025-09-11T17:33:09.277Z",
+  "dateModified": "2025-09-11T17:33:09.694Z",
+  "isPublic": true,
+  "citation": "Lamb J; Shirley I; Wielandt S; Uhlemann S; Wang C; McClure P; Brunetti C; Dafflon B (2024): Estimating soil thermal inertia profiles from the passive equilibration of a temperature probe: Supporting data and code. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2488377",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2488377",
+    "name": "Estimating soil thermal inertia profiles from the passive equilibration of a temperature probe: Supporting data and code",
+    "description": [
+      "This dataset contains measurements of soil thermal properties and organic layer thickness at three field sites on the Seward Peninsula near Nome, Alaska, USA. Code is also provided for estimation of soil thermal properties from temperature data, including a forward heat transfer mode, a library of simulated temperature data, and an inversion scheme to retrieve thermal properties from temperature measurements (Lamb et al., 2025). This dataset and code is published in support of the manuscript \u201cEstimating Soil Thermal Inertia Profiles from the Passive Equilibration of a Temperature Probe\u201d by Lamb et al., 2025, in which an experimental thermal measurements technique is developed. The dataset contains measurements of soil thermal properties and organic layer thickness obtained with an industry standard thermal properties analyzer and direct observations, as well as data generated using the experimental technique to estimate thermal properties and soil structure from temperature observations. All data is reported in .csv format, and all code is written in Python 3.7 using standard packages. This research was performed as a part of the NGEE Arctic project, which aims to advance model predictions of arctic carbon cycle responses to a changing climate over the 21st Century.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "NGA555"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6584-7697",
+        "givenName": "Jack",
+        "familyName": "Lamb",
+        "affiliation": "Lawrence Berkeley National Lab - NERSC",
+        "email": "jlamb@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2229-1414",
+        "givenName": "Ian",
+        "familyName": "Shirley",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "isirley@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2672-2998",
+        "givenName": "Stijn",
+        "familyName": "Wielandt",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "swielandt@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7673-7346",
+        "givenName": "Sebastian",
+        "familyName": "Uhlemann",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "suhlemann@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9508-7425",
+        "givenName": "Chen",
+        "familyName": "Wang",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cwang4@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Patrick",
+        "familyName": "McClure",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "patrickmcclure@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4788-5419",
+        "givenName": "Carlotta",
+        "familyName": "Brunetti",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "brunetti.carlotta@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9871-5650",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bdafflon@lbl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > LAND SURFACE > SURFACE THERMAL PROPERTIES",
+      "EARTH SCIENCE > CRYOSPHERE",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS > ORGANIC MATTER",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL TEMPERATURE",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > THERMAL CONDUCTIVITY",
+      "EARTH SCIENCE > LAND SURFACE > SURFACE THERMAL PROPERTIES > LAND HEAT CAPACITY"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Seward Peninsula, Alaska. Soil thermal properties are measured in soil pits at three hillslope sites: On the Nome-Teller Highway near mile mark 27, on the Nome-Teller Highway near mile mark 47, and on the Nome-Kougarok road near mile 64. These sites feature discontinuous permafrost and include sedge, shrubs, dwarf shrubs, and bare soil. Soil pits to measure peat layer thickness were dug along a 60 meter transect at a hilly fieldsite near mile mark 27 of the Nome-Teller highway with sedge. Profiles of estimated soil properties were generated at 308 locations at a hillslope drainage field site near mile mark 47 of the Nome-Teller highway. Measurements were located along transects across three adjacent hillslopes forming a drainage (Transects shown in Fiolleau et al., 2024). Estimated organic layer thickness was also estimated at 235 locations by interpreting vertical changes in thermal conductivity estimates.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.038388,
+            "longitude": -166.643774
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.548338,
+            "longitude": -165.349127
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC02-05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-09-09",
+      "endDate": "2024-08-25",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6584-7697",
+      "givenName": "Jack",
+      "familyName": "Lamb",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "jlamb@lbl.gov"
+    },
+    "citation": [
+      "Lamb, J.R., Shirley, I., Wielandt, S., Uhlemann, S., Wang, C., McClure, P., Brunetti, C., Dafflon, B., Estimation of soil thermal inertia profiles using the passive equilibration of a temperature probe. Submitted.",
+      "Brunetti, C., Lamb, J., Wielandt, S., Uhlemann, S., Shirley, I., McClure, P., & Dafflon, B. (2022) Probabilistic estimation of depth-resolved profiles of soil thermal diffusivity from temperature time series. Earth Surface Dynamics, 10(4), 687-704.",
+      "Dafflon, B., Wielandt, S., Lamb, J., McClure, P., Shirley, I., Uhlemann, S., Wang, C., Fiolleau, S., Brunetti, C., Akins, F.H., Fitzpatrick, J., Pullman, S., Busey, R., Ulrich, C., Peterson, J. and Hubbard, S.S. (2022) A distributed temperature profiling system for vertically and laterally dense acquisition of soil and snow temperature. The Cryosphere 16(2), 719-736.",
+      "Wielandt, S., Uhlemann, S., Fiolleau, S. and Dafflon, B. (2022) Low-Power, Flexible Sensor Arrays with Solderless Board-to-Board Connectors for Monitoring Soil Deformation and Temperature. Sensors 22(7), 2814.",
+      "Dafflon B ; Brunetti C ; Lamb J ; Uhlemann S ; Shirley I ; McClure P ; Wang C (2022): Soil physical and thermal properties from soil samples at multiple locations at Teller Road Site, Seward Peninsula, Alaska, 2019. Next-Generation Ecosystem Experiments (NGEE) Arctic, ESS-DIVE repository. Dataset. doi:10.5440/1860505",
+      "Fiolleau, S., Uhlemann, S., Shirley, I., Wang, C., Wielandt, S., Rowland, J., & Dafflon, B. (2024). Insights on seasonal solifluction processes in warm permafrost Arctic landscape using a dense monitoring approach across adjacent hillslopes. Environmental Research Letters, 19(4), 044021."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Soil surface organic layer thickness:\nSoil surface organic layer thickness was characterized in the field by direct observation of soil pits. Pits were dug with a shovel to expose the interface between organic and mineral soil. The thickness was directly measured from the soil surface using a tape measure.\nDPHP Soil Thermal Properties:\nSoil thermal conductivity, soil specific heat, and soil diffusivity were measured with a Dual-Probe Heat Pulse (DPHP) thermal analyzer (TEMPOS instrument with the SH-3 dual needle; METER Group). The needles of the thermal analyzer were inserted directly into the side of freshly-dug soil pits. For characterizing the thermal properties of individual soil layers, representative locations near the middle of the layer were chosen. Measurements were rejected that had a fit residual of over 0.01, as reported by the thermal analyzer.\nSoil Temperature:\nSoil temperature was measured using Distributed Temperature Profiling probes, as described in Dafflon et al. (2022) and Wielandt et al. (2022) These are thin temperature probes with digital temperature sensors at 5 centimeter increments.\nQTP Soil Thermal Properties:\nSoil thermal diffusivity and soil specific heat were also measured using the experimental Quick Thermal Profiling method, as described in Lamb et al. (2025). A stainless steel DTP temperature is inserted in the ground, and the thermal properties of the soil are inferred from the initial thermal equilibration of the probe. The range of uncertainty is generated from the candidate model solutions that would produce temperature timeseries very close to the measurements. The absolute precision of the DTP temperature sensors is the margin of error for accepting or rejecting candidates.\nQTP Organic Layer thickness:\nOrganic-mineral interface was measured observing the depth where the thermal conductivity estimates from a QTP probe first crossed a prognostic threshold. Based on knowledge of site-specific soil properties, 0.525 Wm-1K-1 was chosen as the threshold between organic and mineral soils\nGPS location measurements:\nAn RTK GPS system was used to geolocate the positions of measurements."
+    ],
+    "distribution": [
+      {
+        "contentSize": 19.1982421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-08e24e770fe93c3-20250911T173254877",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-08e24e770fe93c3-20250911T173254877",
+        "name": "Estimating_soil_thermal_inertia_profiles_from_the.xml"
+      },
+      {
+        "contentSize": 5.455078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-19881275a23adf5-20250829T000552662",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-19881275a23adf5-20250829T000552662",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 0.9375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0f94b9356590b96-20241225T000055190",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0f94b9356590b96-20241225T000055190",
+        "name": "Pits_DPHP_thermal_conductivity_profiles_dd.csv"
+      },
+      {
+        "contentSize": 0.2421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-45f4ac0a07008c2-20250829T000552731",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-45f4ac0a07008c2-20250829T000552731",
+        "name": "Repeats_QTP_inertia_nonuniqueness_dd.csv"
+      },
+      {
+        "contentSize": 7.2978515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2e7c29b7258106d-20250829T000552734",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2e7c29b7258106d-20250829T000552734",
+        "name": "Soil_samples_thermal_properties.csv"
+      },
+      {
+        "contentSize": 1.986328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-61bfe7f74e85a4d-20250829T000552726",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-61bfe7f74e85a4d-20250829T000552726",
+        "name": "Repeats_QTP_inertia_nonuniqueness.csv"
+      },
+      {
+        "contentSize": 2.5517578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d5d32c599b5a967-20250829T000552676",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d5d32c599b5a967-20250829T000552676",
+        "name": "Pits_QTP_heat_capacity_profiles.csv"
+      },
+      {
+        "contentSize": 0.220703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d87c8539bed9a87-20250829T000552701",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d87c8539bed9a87-20250829T000552701",
+        "name": "Repeats_QTP_conductivity_dd.csv"
+      },
+      {
+        "contentSize": 0.5283203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e892924bc2875df-20250829T000552740",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e892924bc2875df-20250829T000552740",
+        "name": "Soil_samples_thermal_properties_dd.csv"
+      },
+      {
+        "contentSize": 31.2001953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cf5a7cb80a9fa54-20250829T000552664",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cf5a7cb80a9fa54-20250829T000552664",
+        "name": "Map_teller47_transects.csv"
+      },
+      {
+        "contentSize": 1.98046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ef82e2fa4cc3711-20250829T000552720",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ef82e2fa4cc3711-20250829T000552720",
+        "name": "Repeats_QTP_inertia.csv"
+      },
+      {
+        "contentSize": 0.7431640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-351b0a61a219117-20250829T000552670",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-351b0a61a219117-20250829T000552670",
+        "name": "Nonuniqueness_sensor_five_candidate_QTP_values_dd.csv"
+      },
+      {
+        "contentSize": 2.0634765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4b3dcd65fe63ab4-20250829T000552704",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4b3dcd65fe63ab4-20250829T000552704",
+        "name": "Repeats_QTP_conductivity_nonuniqueness.csv"
+      },
+      {
+        "contentSize": 339.033203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-55693fb725c618f-20250829T000552672",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-55693fb725c618f-20250829T000552672",
+        "name": "Nonuniqueness_sensor_twelve_candidate_QTP_values.csv"
+      },
+      {
+        "contentSize": 0.7431640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-584905299f10966-20250829T000552674",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-584905299f10966-20250829T000552674",
+        "name": "Nonuniqueness_sensor_twelve_candidate_QTP_values_dd.csv"
+      },
+      {
+        "contentSize": 0.123046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4d0c36e73bd8d93-20250829T000552680",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4d0c36e73bd8d93-20250829T000552680",
+        "name": "Pits_QTP_Probe_heights.csv"
+      },
+      {
+        "contentSize": 0.2861328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ab21973dce6778-20250829T000552691",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7ab21973dce6778-20250829T000552691",
+        "name": "Pits_QTP_thermal_inertia_profiles_dd.csv"
+      },
+      {
+        "contentSize": 2.6865234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-89054d9d25d34b8-20250829T000552689",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-89054d9d25d34b8-20250829T000552689",
+        "name": "Pits_QTP_thermal_inertia_profiles.csv"
+      },
+      {
+        "contentSize": 0.27734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7590c8aa5afaad5-20250829T000552696",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7590c8aa5afaad5-20250829T000552696",
+        "name": "Repeats_DPHP_soil_thermal_properties_dd.csv"
+      },
+      {
+        "contentSize": 324.388671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8eb7bd76c7c74d6-20250829T000552668",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8eb7bd76c7c74d6-20250829T000552668",
+        "name": "Nonuniqueness_sensor_five_candidate_QTP_values.csv"
+      },
+      {
+        "contentSize": 1.0849609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9aefe63584ca9a2-20250829T000552666",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9aefe63584ca9a2-20250829T000552666",
+        "name": "Map_teller47_transects_dd.csv"
+      },
+      {
+        "contentSize": 1.9609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9bf4e258d5180d5-20250829T000552709",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9bf4e258d5180d5-20250829T000552709",
+        "name": "Repeats_QTP_heat_capacity.csv"
+      },
+      {
+        "contentSize": 0.51171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-98b33b19e8203b2-20250829T000552693",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-98b33b19e8203b2-20250829T000552693",
+        "name": "Repeats_DPHP_soil_thermal_properties.csv"
+      },
+      {
+        "contentSize": 0.2138671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c16ea57e9b9d7e9-20250829T000552723",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c16ea57e9b9d7e9-20250829T000552723",
+        "name": "Repeats_QTP_inertia_dd.csv"
+      },
+      {
+        "contentSize": 2.30859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bd48cd73c6fe36c-20250829T000552684",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bd48cd73c6fe36c-20250829T000552684",
+        "name": "Pits_QTP_thermal_conductivity_profiles.csv"
+      },
+      {
+        "contentSize": 0.2529296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b942f410d81e780-20250829T000552707",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b942f410d81e780-20250829T000552707",
+        "name": "Repeats_QTP_conductivity_nonuniqueness_dd.csv"
+      },
+      {
+        "contentSize": 1.953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ba6287ca9648a29-20250829T000552714",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ba6287ca9648a29-20250829T000552714",
+        "name": "Repeats_QTP_heat_capacity_nonuniqueness.csv"
+      },
+      {
+        "contentSize": 0.3466796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cc0c4dc5a47b1ed-20250829T000552682",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cc0c4dc5a47b1ed-20250829T000552682",
+        "name": "Pits_QTP_Probe_heights_dd.csv"
+      },
+      {
+        "contentSize": 170999.0791015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b3e12db04e1a34c-20250829T000552658",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b3e12db04e1a34c-20250829T000552658",
+        "name": "code_archive.zip"
+      },
+      {
+        "contentSize": 0.251953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f5808735b05b5aa-20250829T000552717",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f5808735b05b5aa-20250829T000552717",
+        "name": "Repeats_QTP_heat_capacity_nonuniqueness_dd.csv"
+      },
+      {
+        "contentSize": 1.8837890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f5fb0939dfec1fa-20250829T000552699",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f5fb0939dfec1fa-20250829T000552699",
+        "name": "Repeats_QTP_conductivity.csv"
+      },
+      {
+        "contentSize": 0.494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f0c58539c54baf4-20241225T000055186",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f0c58539c54baf4-20241225T000055186",
+        "name": "Pits_DPHP_thermal_conductivity_profiles.csv"
+      },
+      {
+        "contentSize": 0.294921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f30f18858c501cd-20250829T000552678",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f30f18858c501cd-20250829T000552678",
+        "name": "Pits_QTP_heat_capacity_profiles_dd.csv"
+      },
+      {
+        "contentSize": 0.228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fe6bb19b9bee9a5-20250829T000552711",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fe6bb19b9bee9a5-20250829T000552711",
+        "name": "Repeats_QTP_heat_capacity_dd.csv"
+      },
+      {
+        "contentSize": 0.283203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e3df92e664182f2-20250829T000552687",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e3df92e664182f2-20250829T000552687",
+        "name": "Pits_QTP_thermal_conductivity_profiles_dd.csv"
+      }
+    ]
+  }
+}

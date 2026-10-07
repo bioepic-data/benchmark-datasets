@@ -1,0 +1,237 @@
+{
+  "id": "ess-dive-9e4e748eb5b1d08-20250211T165509458",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2513865",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-9e4e748eb5b1d08-20250211T165509458",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-438ce882194195a-20250210T173047597831",
+  "dateUploaded": "2025-02-11T16:55:11.141Z",
+  "dateModified": "2025-02-15T00:00:46.446Z",
+  "isPublic": true,
+  "citation": "Li H; Stubbings A; Chowdhury S; Li F; New J (2025): Model America - 2022 Arizona Building Energy Simulation Results from ORNL's AutoBEM. Southwest Urban Corridor Integrated Field Laboratory (SW-IFL). Dataset. doi:10.15485/2513865",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2513865",
+    "name": "Model America - 2022 Arizona Building Energy Simulation Results from ORNL's AutoBEM",
+    "description": [
+      "This dataset contains energy simulation outputs using ORNL's AutoBEM, covering the summer months (June 1st to August 31st) (named by \"county_name.csv\") and full-year periods (in output_all_year.zip) for each county in Arizona, USA. The data package includes simulation results such as basic energy metrics and anthropogenic emissions estimates. Files are provided in .csv. These data were generated to analyze the impact of weather conditions on energy use and emissions across urban and rural environments in Arizona, aiming to support research on urban heat islands, energy efficiency, and building retrofitting strategies. The source data for this work include NASA POWER weather datasets and computational models run using AutoBEM (i.e., an automated, large-scale energy simulation tool leveraging OpenStudio/EnergyPlus). This dataset can assist researchers, urban planners, and policymakers in developing climate-resilient energy systems and understanding anthropogenic contributions to local environments."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0600-1920",
+        "givenName": "Hang",
+        "familyName": "Li",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "lih5@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0927-5775",
+        "givenName": "Avery",
+        "familyName": "Stubbings",
+        "affiliation": "Illinois Institute of Technology",
+        "email": "stubbingsap@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3255-836X",
+        "givenName": "Shovan",
+        "familyName": "Chowdhury",
+        "affiliation": "University of Tennessee",
+        "email": "chowdhurys@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3887-9968",
+        "givenName": "Frank",
+        "familyName": "Li",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "lif2@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8015-0583",
+        "givenName": "Joshua",
+        "familyName": "New",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "newjr@ornl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "Anthropogenic Emissions",
+      "Building Energy Modeling",
+      "AutoBEM",
+      "NASA Power"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "This dataset contains energy simulation outputs derived from NASA POWER 2022 weather data, covering the summer months (June 1st to August 31st) and full-year periods for each county in Arizona, USA. Geographic coverage includes all counties within Arizona (latitude: 31.3322\u00b0N to 37.0043\u00b0N, longitude: 109.0452\u00b0W to 114.8183\u00b0W).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.004,
+            "longitude": -114.818
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.332,
+            "longitude": -109.045
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0600-1920",
+      "givenName": "Hang",
+      "familyName": "Li",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "lih5@ornl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "76c0a41d-b69a-4d99-996f-d650c21e07aa"
+      },
+      "name": "Southwest Urban Corridor Integrated Field Laboratory (SW-IFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Sailor",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Arizona State University",
+        "email": "dsailor@asu.edu"
+      }
+    },
+    "measurementTechnique": [
+      "The weather input data were sourced from NASA POWER (Prediction Of Worldwide Energy Resources) datasets, which provide hourly meteorological parameters tailored for energy simulations.\nBuilding Energy Models for each county in Arizona were generated using ORNL's AutoBEM\nThe energy models were simulated using AutoBEM. The simulation outputs were tailored for the summer period. Anthropogenic emissions were calculated"
+    ],
+    "distribution": [
+      {
+        "contentSize": 89786.6650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0d0b4bde7d0d911-20250128T204805041",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0d0b4bde7d0d911-20250128T204805041",
+        "name": "Pinal.csv"
+      },
+      {
+        "contentSize": 36430.1396484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2f00b72c729d867-20250128T204805018",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2f00b72c729d867-20250128T204805018",
+        "name": "Coconino.csv"
+      },
+      {
+        "contentSize": 9213.3125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3af8905aeb5afa3-20250128T204805045",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3af8905aeb5afa3-20250128T204805045",
+        "name": "Santa_Cruz.csv"
+      },
+      {
+        "contentSize": 138932.2578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e0e5b535edf84cf-20250203T015326426",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-e0e5b535edf84cf-20250203T015326426",
+        "name": "output_all_year.zip"
+      },
+      {
+        "contentSize": 8912.2548828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ed9a5f715720d42-20250128T204805023",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ed9a5f715720d42-20250128T204805023",
+        "name": "Graham.csv"
+      },
+      {
+        "contentSize": 71240.96875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-eeab2cab2c8c726-20250128T204805034",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-eeab2cab2c8c726-20250128T204805034",
+        "name": "Mohave.csv"
+      },
+      {
+        "contentSize": 35196.7509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6e113d1a2ee17e7-20250128T204805037",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6e113d1a2ee17e7-20250128T204805037",
+        "name": "Navajo.csv"
+      },
+      {
+        "contentSize": 35608.6728515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-74dbc15708a4f53-20250128T204805015",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-74dbc15708a4f53-20250128T204805015",
+        "name": "Cochise.csv"
+      },
+      {
+        "contentSize": 3043.5068359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-77fa35081a1b15b-20250128T204805026",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-77fa35081a1b15b-20250128T204805026",
+        "name": "Greenlee.csv"
+      },
+      {
+        "contentSize": 18628.90234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-73de81e2c3ce9c6-20250128T204805020",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-73de81e2c3ce9c6-20250128T204805020",
+        "name": "Gila.csv"
+      },
+      {
+        "contentSize": 44765.1904296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-aac4ea6f33a21d1-20250128T204805049",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-aac4ea6f33a21d1-20250128T204805049",
+        "name": "Yuma.csv"
+      },
+      {
+        "contentSize": 8504.7939453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a5c715d8eb97c19-20250128T204805029",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a5c715d8eb97c19-20250128T204805029",
+        "name": "La_Paz.csv"
+      },
+      {
+        "contentSize": 9.0361328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9e4e748eb5b1d08-20250211T165509458",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-9e4e748eb5b1d08-20250211T165509458",
+        "name": "Model_America_2022_Arizona_Building_Energy.xml"
+      },
+      {
+        "contentSize": 21544.73046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bc3847599d45c0b-20250128T204805011",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bc3847599d45c0b-20250128T204805011",
+        "name": "Apache.csv"
+      },
+      {
+        "contentSize": 68963.78125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-af070f37b0bcfbb-20250128T204805047",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-af070f37b0bcfbb-20250128T204805047",
+        "name": "Yavapai.csv"
+      }
+    ]
+  }
+}

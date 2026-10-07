@@ -1,0 +1,327 @@
+{
+  "id": "ess-dive-4ebf3d69d305fec-20260121T193732041",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3013901",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-4ebf3d69d305fec-20260121T193732041",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-5c5d9d20573d81c-20251201T173740957",
+  "dateUploaded": "2026-01-21T19:37:32.788Z",
+  "dateModified": "2026-01-22T22:02:57.139Z",
+  "isPublic": true,
+  "citation": "Berkelhammer M; Kaludi B; Lee J; Collis S; Muradyan P; O'Brien J; Grover M; Tuftedal M; Cho A; Vincent A; Gala T; Gonzalez-Meler M; Miller W; Anderson G; Packman A; Negri C; McNicol G (2026): A network of soil moisture, soil temperature, air temperature, net radiation, ground heat flux and ground water for Chicago, Illinois. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL). Dataset. doi:10.15485/3013901",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3013901",
+    "name": "A network of soil moisture, soil temperature, air temperature, net radiation, ground heat flux and ground water for Chicago, Illinois",
+    "description": [
+      "This dataset contains environmental monitoring data collected using solar-powered Multi-Function Research (MFR) Long Range Wide Area (LoRaWAN)-enabled nodes at 11 sites in Chicago, Illinois, as part of the DOE Urban Integrated Field Lab CROCUS project. The MFR node system consists of an Input/Output Digital Input Module (IB8) interface box (ICT International) providing wired connections for environmental sensors and an MFR-Node-L data logger that manages power, data processing, and LoRaWAN communication. The wireless data are ingested via Sage network (https://sagecontinuum.org/) nodes that contain LoRaWAN antennae. Measurements were collected from 11 MFR nodes deployed across Chicago State University (CSU), Northeastern Illinois University (NEIU), Northwestern University (NU), University of Illinois Chicago (UIC), West Woodlawn \"Blacks in Green\" (BIG), and Indian Boundary Prairies (IBP). Each MFR node supports a consistent suite of sensors measuring atmospheric, soil, and hydrological variables. Atmospheric measurements include 2m air temperature (\u00b0C), 2m vapor pressure deficit (kPa), and 2m shortwave/longwave radiation (incoming and outgoing, W/m\u00b2) measured using ATH-VPD and Apogee SN500 sensors. Soil measurements include volumetric water content (VWC, %) and temperature (\u00b0C) at four depths (15, 30, 45, and 60 cm below surface) using Meter Teros54 sensors, and heat flux (W/m\u00b2) at 10 cm depth using Huske HFP01-05 sensors. At selected locations, Meter Hydros21 sensors measure groundwater depth (mm), specific conductivity (dS/m), and temperature (\u00b0C). The dataset includes timestamps, site identifiers with location names, device IDs, Global Positioning System (GPS) coordinates, variable names with units, measurement depths, values, sensor names, and Sage node identifiers. All timestamps are in local Chicago time (CDT/CST). Quality control flags are provided using a 6-bit binary system indicating physical range violations, step spikes, 24-hour flat-line conditions, 6-hour jitter, 7-day ultra-low variance, and persistent high offset. Data is provided in CSV and CF-compliant NetCDF formats. This dataset is part of a larger collection of CROCUS environmental monitoring data, including linked datasets from Air Quality Transmitter (AQT) sensors, Weather Transmitter (WXT) sensors, and Sap Flow Meter (SFM1x) sensors."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8924-716X",
+        "givenName": "Max",
+        "familyName": "Berkelhammer",
+        "affiliation": "University of Illinois Chicago",
+        "email": "berkelha@uic.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-9509-1092",
+        "givenName": "Bilal",
+        "familyName": "Kaludi",
+        "affiliation": "University of Illinois Chicago",
+        "email": "bkalud2@uic.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8942-1092",
+        "givenName": "Jangho",
+        "familyName": "Lee",
+        "affiliation": "University of Illinois Chicago",
+        "email": "jholee@uic.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2303-687X",
+        "givenName": "Scott",
+        "familyName": "Collis",
+        "affiliation": "Argonne National Laboratory",
+        "email": "scollis@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6903-9435",
+        "givenName": "Paytsar",
+        "familyName": "Muradyan",
+        "affiliation": "Argonne National Laboratory",
+        "email": "pmuradyan@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4655-6912",
+        "givenName": "Joseph",
+        "familyName": "O'Brien",
+        "affiliation": "Argonne National Laboratory",
+        "email": "obrienj@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0370-8974",
+        "givenName": "Maxwell",
+        "familyName": "Grover",
+        "affiliation": "Argonne National Laboratory",
+        "email": "mgrover@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1589-6474",
+        "givenName": "Matthew",
+        "familyName": "Tuftedal",
+        "affiliation": "Argonne National Laboratory",
+        "email": "mtuftedal@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4434-6308",
+        "givenName": "Ahram",
+        "familyName": "Cho",
+        "affiliation": "University of Illinois Chicago",
+        "email": "ahram@uic.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4218-1749",
+        "givenName": "Anna",
+        "familyName": "Vincent",
+        "affiliation": "Northwestern University",
+        "email": "anna.vincent@northwestern.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7073-1747",
+        "givenName": "Tekleab",
+        "familyName": "Gala",
+        "affiliation": "Chicago State University",
+        "email": "tgala@csu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5388-7969",
+        "givenName": "Miquel",
+        "familyName": "Gonzalez-Meler",
+        "affiliation": "University of Illinois Chicago",
+        "email": "mmeler@uic.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0750-6314",
+        "givenName": "William",
+        "familyName": "Miller",
+        "affiliation": "Northwestern University",
+        "email": "wmmiller@northwestern.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Gregory",
+        "familyName": "Anderson",
+        "affiliation": "Northeastern Illinois University",
+        "email": "g-anderson@neiu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3172-4549",
+        "givenName": "Aaron",
+        "familyName": "Packman",
+        "affiliation": "Northwestern University",
+        "email": "a-packman@northwestern.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Cristina",
+        "familyName": "Negri",
+        "affiliation": "Argonne National Laboratory",
+        "email": "negri@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Gavin",
+        "familyName": "McNicol",
+        "affiliation": "University of Illinois Chicago",
+        "email": "gmcnicol@uic.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Whitney",
+        "familyName": "Romero",
+        "affiliation": "University of Illinois Chicago",
+        "email": "wrome2@uic.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sean",
+        "familyName": "Shahkarami",
+        "affiliation": "Northwestern University",
+        "email": "sean.shahkarami@northwestern.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5334-8313",
+        "givenName": "Fabiola Rios",
+        "familyName": "Bolivar",
+        "affiliation": "University of Illinois Chicago",
+        "email": "frios6@uic.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0002-2353-7938",
+        "givenName": "Sarah",
+        "familyName": "Dietzen",
+        "affiliation": "University of Illinois Chicago",
+        "email": "sdiet@uic.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8911-2783",
+        "givenName": "Rajesh",
+        "familyName": "Sankaran",
+        "affiliation": "Argonne National Laboratory",
+        "email": "rajesh@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0006-7562-3108",
+        "givenName": "Neal",
+        "familyName": "Conrad",
+        "affiliation": "Argonne National Laboratory",
+        "email": "nconrad@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Francisco",
+        "familyName": "Lozano",
+        "affiliation": "Northwestern University",
+        "email": "francisco.lozano@northwestern.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Yocca",
+        "affiliation": "Blacks in Green",
+        "email": "david.yocca@blacksingreen.org"
+      }
+    ],
+    "datePublished": "2026",
+    "keywords": [
+      "Ecohydrology",
+      "Urban",
+      "Heat Island",
+      "Chicago",
+      "Soil moisture",
+      "Net radiation",
+      "Groundwater"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL MOISTURE/WATER CONTENT",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > NET RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUNDWATER CHEMISTRY",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > HEAT FLUX",
+      "vapor pressure deficit"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Six urban sites across Chicago and suburban Illinois, spanning approximately 50 km north-south and 9 km east-west, including university campuses, urban community sites, and prairie preserves.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.05258,
+            "longitude": -87.7173
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.604759,
+            "longitude": -87.608217
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0023226"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2024-09-30",
+      "endDate": "2025-10-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8924-716X",
+      "givenName": "Max",
+      "familyName": "Berkelhammer",
+      "affiliation": "University of Illinois Chicago",
+      "email": "berkelha@uic.edu"
+    },
+    "citation": [
+      "Berkelhammer M ; Kaludi B ; Lee J ; Negri C ; Collis S ; Muradyan P ; O'Brien J ; Grover M ; Tuftedal M ; Gonzalez-Meler M ; Cho A ; Rios Bolivar F ; Romero W ; Dietzen S ; Vincent A ; Miller W ; Packman A ; Gala T ; McNicol G (2026): Sap Velocity Data for Urban Trees in Chicago, Illinois (2024-2025). Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL), ESS-DIVE repository. Dataset. doi:10.15485/3013822",
+      "Raut B ; Pal S ; Muradyan P ; Tuftedal M ; O'Brien J ; Sullivan R ; Grover M ; Jackson R ; Gonzalez-Meler M ; Berkelhammer M ; Cho A ; McNicol G ; Wawrzyniak E ; Sankaran R ; Kim Y ; Collis S (2024): CROCUS Urban Fluxes of CO\u2082, H\u2082O, and Turbulence at University of Illinois Chicago. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL), ESS-DIVE repository. Dataset. doi:10.15485/2473253",
+      "Pal S ; Raut B ; Muradyan P ; Tuftedal M ; O'Brien J ; Sullivan R ; Grover M ; Jackson R ; Berkelhammer M ; Wawrzyniak E ; Gonzalez-Meler M ; Cho A ; McNicol G ; Sankaran R ; Shahkarami S ; Collis S (2024): CROCUS High-Frequency Measurements of CO\u2082, H\u2082O, Wind, and Temperature at University of Illinois Chicago. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL), ESS-DIVE repository. Dataset. doi:10.15485/2473255",
+      "O'Brien J ; Tuftedal M ; Gala T ; Wawrzyniak E ; Grover M ; Collis S ; Sankaran R ; Beckman P ; Ferrier N ; Shahkarami S ; Kim Y ; Park S ; Dematties D ; Conrad N (2024): CROCUS Air Quality Data at Chicago State University Prairie Site. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL), ESS-DIVE repository. Dataset. doi:10.15485/2482512",
+      "O'Brien J ; Tuftedal M ; Gala T ; Wawrzyniak E ; Grover M ; Collis S ; Sankaran R ; Raut B ; Beckman P ; Ferrier N ; Shahkarami S ; Kim Y ; Park S ; Dematties D ; Conrad N (2024): CROCUS Weather Data at Chicago State University Prairie Site. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL), ESS-DIVE repository. Dataset. doi:10.15485/2482525",
+      "O'Brien J ; Tuftedal M ; Wawrzyniak E ; Grover M ; Berkelhammer M ; Collis S ; Sankaran R ; Beckman P ; Ferrier N ; Shahkarami S ; Yongho Y; Park S ; Dematties D ; Conrad N (2024): CROCUS Weather Data at University of Illinois - Chicago Tower. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL), ESS-DIVE repository. Dataset. doi:10.15485/2482530",
+      "O'Brien J ; Anderson G ; Tuftedal M ; Grover M ; Muradyan P ; Collis S ; Park S ; Dematties D ; Sankaran R ; Ferrier N ; Shahkarami S ; Kim Y ; Keeler E (2024): CROCUS Weather Data at Northeastern Illinois University Rooftop. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL), ESS-DIVE repository. Dataset. doi:10.15485/2338027"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "e48add86-2fa5-4a04-a530-86906241ebbc"
+      },
+      "name": "Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Cristina",
+        "familyName": "Negri",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Argonne National Laboratory",
+        "email": "negri@anl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Step 1: MFR Node Deployment and Sensor Configuration\nSolar-powered Multi-Function Research (MFR) nodes were deployed at six urban sites across Chicago, Illinois. The MFR node system consists of an IB8 interface box (ICT International, Armidale, NSW, Australia) providing wired connections for environmental sensors and an MFR-Node-L data logger (ICT International) that manages power, data processing, and LoRaWAN communication. A single cable links the IB8 to the MFR node, which contains an internal battery and charge controller connected to a solar panel.\nEach MFR node supports a consistent suite of sensors measuring atmospheric, soil, and hydrological variables. Atmospheric sensors include: ATH-VPD sensor (ICT International) measuring air temperature (\u00b0C) and vapor pressure deficit (kPa) at 2m height, and SN500 net radiometer (ICT International) measuring incoming shortwave radiation, outgoing shortwave radiation, incoming longwave radiation, outgoing longwave radiation, net shortwave radiation, net longwave radiation, and total net radiation (all in W/m\u00b2) at 2m height. Soil sensors include: Teros54 sensors (METER Group, Pullman, WA, USA) measuring volumetric water content (VWC in %) and temperature (\u00b0C) at four depths (15, 30, 45, and 60 cm below surface), and HFP01-05 heat flux plates (ICT International) measuring soil heat flux (W/m\u00b2) at 10 cm depth. At selected locations where water table is accessible, Hydros21 sensors (METER Group) measure groundwater depth (mm), specific conductivity (dS/m), and temperature (\u00b0C).\nMetadata recorded for each MFR node includes: unique device identifier (format MNLA4OXXX), GPS coordinates (latitude/longitude), site name with location descriptor, and SAGE node VSN. Hydros21 sensors were installed at varying depths depending on local water depth, ranging from 264 cm to 914 cm below surface.\nDeployment occurred in phases: CSU (September 2024, 2 nodes), NU (October 2024, 1 node), UIC (October 2024, 2 nodes), NEIU (October 2024, 2 nodes), BIG (November 2024, 3 nodes), and IBP (May 2025, 1 node). Data was transmitted via LoRaWAN to the SAGE network nodes at 30 minute intervals.",
+      "Step 2: Data Extraction and Organization\nRaw environmental data were extracted from the SAGE data repository using the sage_data_client Python library. Data were queried by filtering for the specific SAGE node VSN, measurement variable names, and device name for each MFR node. Variables queried include: air_temperature, barometric_pressure, relative_humidity, vapour_pressure_deficit, heat_flux, water_conductivity, water_depth, water_temperature, in_longwave, in_shortwave, out_longwave, out_shortwave, net_longwave, net_shortwave, total_net_radiation, temp_d1, temp_d2, temp_d3, temp_d4, vwc_d1, vwc_d2, vwc_d3, and vwc_d4.\nTimestamps were converted from UTC to local Chicago time (CDT/CST). For each measurement, the value was recorded along with metadata including GPS coordinates, variable name with units, measurement depth (where applicable), sensor name, site identifier with location name, and SAGE node ID. Site identifiers combine location code with descriptive name (e.g., \"CSU (Non-Prairie)\"). Variable names include units in parentheses following the format \"variable_name (unit)\". Depth values are recorded in centimeters, with negative values indicating below-ground measurements (e.g., -15 for 15 cm depth) and positive values for above-ground (e.g., 200 for 2 m height).",
+      "Step 3: Quality Control Flagging\nA six-category binary flagging system was implemented to identify potentially problematic data. Flags are represented as 6-bit binary strings (format: Bit 5 | Bit 4 | Bit 3 | Bit 2 | Bit 1 | Bit 0), where each bit indicates a specific quality issue. Multiple flags can apply simultaneously.\nPhysical Range Limits (Bit 5, flag value \"100000\"): Flags measurements outside plausible physical limits based on variable type. Variables are mapped by name and checked against defined ranges. Limits used: air temperature -40 to 60\u00b0C, soil temperature -20 to 60\u00b0C, relative humidity 0 to 100%, barometric pressure 795 to 1105 hPa, volumetric water content 0 to 100%, vapor pressure deficit 0 to 10 kPa.\nStep Spike (Bit 4, flag value \"010000\"): Identifies sudden large steps between consecutive measurements. For each site and variable combination, measurements are sorted chronologically and the absolute difference between consecutive values is calculated. Records are flagged if the difference exceeds variable-specific thresholds: air temperature >5\u00b0C, relative humidity >25%, barometric pressure >10 hPa, VWC >10%.\n24-hour Flat-Line (Bit 3, flag value \"001000\"): Detects periods of little or no variation. For each site and variable, 24-hour windows starting at each sample are examined (requiring at least 10 points). If the range (maximum - minimum) within the window is less than the variable-specific threshold, all points in that window are flagged. Thresholds used: air temperature <2\u00b0C range, relative humidity <0.5% range, barometric pressure <1 hPa range, VWC <0.05% range, soil temperature <0.05\u00b0C range.\nJitter (6-hour window) (Bit 2, flag value \"000100\"): Identifies excessive short-term variability. For 6-hour rolling windows ending at each point (requiring at least 6 samples), the standard deviation is computed. If standard deviation exceeds variable-specific thresholds, that sample is flagged. Thresholds used: air temperature >5\u00b0C std dev, relative humidity >15% std dev, VWC >2% std dev.\nUltra-Low Variance (7-day window) (Bit 1, flag value \"000010\"): Detects unusually low variance over longer time periods. For 7-day rolling windows ending at each point (requiring at least 50 samples), the standard deviation is computed. If standard deviation is less than variable-specific thresholds, the sample is flagged. Thresholds used: soil temperature <0.25\u00b0C std dev, VWC <0.15% std dev.\nPersistent High Offset (Bit 0, flag value \"000001\"): Identifies values persistently and substantially higher than the longer-term median. For each sample, a 3-month rolling median is calculated (requiring at least 100 values). If all values in the following 3 days (at least 20 points) exceed the median plus a variable-specific threshold, those points are flagged. Thresholds used: air temperature median +10\u00b0C, relative humidity median +15%, barometric pressure median +10 hPa, VWC median +7.5%.\nExample flag values: \"000000\" = clean data (all checks passed), \"100000\" = physical range violation only, \"010000\" = step spike only, \"111111\" = all six quality issues detected. Flagged data should be carefully considered before analysis, as it is not necessarily invalid.",
+      "Links for all the individual sensors and loggers are provided below: https://www.ictinternational.com/Production/product/mfr-node/\nhttps://metergroup.com/products/hydros-21/\nhttps://metergroup.com/products/teros-54/\nhttps://www.hukseflux.com/products/heat-flux-sensors/heat-flux-sensors/hfp01-heat-flux-sensor\nhttps://metergroup.com/products/hydros-21/\nhttps://www.apogeeinstruments.com/sn-500-ss-net-radiometer/\nhttps://ictinternational.com/product/ath-temperature-and-relative-humidity-sensors/"
+    ],
+    "distribution": [
+      {
+        "contentSize": 25.2255859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4ebf3d69d305fec-20260121T193732041",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-4ebf3d69d305fec-20260121T193732041",
+        "name": "A_network_of_soil_moisture_soil_temperature_air.xml"
+      },
+      {
+        "contentSize": 318882.8681640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-800a406672a0d80-20251201T181137792",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-800a406672a0d80-20251201T181137792",
+        "name": "mfr_nodes_data_20240930_20251031_QC.csv"
+      }
+    ]
+  }
+}

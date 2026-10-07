@@ -1,0 +1,158 @@
+{
+  "id": "ess-dive-e94e9b06ff97389-20230504T211102824057",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.25581/ORNLSFA.021/1768047",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-e94e9b06ff97389-20230504T211102824057",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-117b28ca2b6427c-20230407T142609814667",
+  "dateUploaded": "2023-05-04T21:11:03.730Z",
+  "dateModified": "2023-05-04T21:11:06.856Z",
+  "isPublic": true,
+  "citation": "Craig M; Walker A (2021): Microbial Biomass in Soils Receiving Varying Levels of Organic Inputs - A Data Compilation. ORNL Terrestrial Ecosystem Science SFA. Dataset. doi:10.25581/ORNLSFA.021/1768047",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.25581/ORNLSFA.021/1768047",
+    "name": "Microbial Biomass in Soils Receiving Varying Levels of Organic Inputs - A Data Compilation",
+    "description": [
+      "This dataset contains soil microbial biomass data compiled from published laboratory studies and field manipulations of organic inputs to soils. Each study included at least three levels of a given type of organic input applied to a given type of soil. Studies were selected from the literature that had experimentally manipulated organic input rates to soils using unburned, non-synthetic material (e.g. plant litters, manures, and composts). Fifty-five (55) studies, conducted from 1997 to October 2019, were chosen and compiled into a dataset with 358 observations from 96 combinations of a given organic material applied to a given soil in agricultural systems, laboratory incubations, forests, or grasslands.",
+      "\u2022 Studies were selected when biomass measurements used the chloroform fumigation-extraction procedure followed by carbon analysis, or, in two instances, studies estimated microbial biomass using phospholipid fatty acid analysis.",
+      "\u2022 Studies that used fewer than three input rates or characterized microbial biomass via substrate induced respiration were excluded.",
+      "\u2022 The temporal and spatial aspects of the laboratory and field studies were not essential to the analyses (Craig et al., 2021) and were not included with the measurement data. These data were used to assess the relationship between organic input amounts and microbial biomass. Complete reference citations are provided if additional information is needed.",
+      "The compiled data are provided in two .csv files: (1) soil treatments and microbial biomass data and (2) literature citations. The \u201cStudy\u201d field is the cross reference between files.",
+      "Also provided is the R code for reproducing the results in the related publication."
+    ],
+    "alternateName": [
+      "https://doi.org/10.25581/ornlsfa.021/1768047"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000000288907920",
+        "givenName": "M.E.",
+        "familyName": "Craig",
+        "email": "craigme@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000000305575594",
+        "givenName": "A.P.",
+        "familyName": "Walker",
+        "email": "walkerap@ornl.gov"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "54 ENVIRONMENTAL SCIENCES",
+      "soil microbial biomass",
+      "literature compilation",
+      "soil carbon",
+      "EARTH SCIENCE > LAND SURFACE > SOILS"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > BIOMASS DYNAMICS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Oak Ridge National Laboratory (ORNL)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.9311,
+            "longitude": -84.31
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.9311,
+            "longitude": -84.31
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "USDOE Office of Science (SC), Biological and Environmental Research (BER). Earth and Environmental Systems Science Division"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1997-07-01",
+      "endDate": "2019-10-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9855-5191",
+      "givenName": "Terri",
+      "familyName": "Velliquette",
+      "affiliation": "ORNL",
+      "email": "velliquettet@ornl.gov"
+    },
+    "citation": [
+      "Craig, M.E., Mayes, M.A., Sulman, B.N. and Walker, A.P. (2021), Biological mechanisms may contribute to soil carbon saturation patterns. Glob Change Biol, 27: 2633-2644. https://doi.org/10.1111/gcb.15584"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1e6d50d3-9532-43fb-a63f-bdcb4350bf0c"
+      },
+      "name": "ORNL Terrestrial Ecosystem Science SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Hanson",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "hansonpj@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Literature Compilation:\nOn 21 October 2019, we used Web of Science\u2122\ufe0f to locate studies using the terms soil carbon and microbial biomass in combination with input(s), application, or amendment and rate or quantity. The specific topic query was: (soil carbon microbial biomass ((input* OR application OR amendment) NEAR/3 (rate OR quantity))), refined to return only article document types (Indexes=SCI-EXPANDED, CPCI-S, ESCI.).\nWithin the compiled literature, we identified studies that experimentally manipulated organic input rates using unburned, non-synthetic material (e.g. plant litters, manures, and composts). Studies that used fewer than three input rates or characterized microbial biomass via substrate induced respiration were excluded resulting in 55 studies. One study that confounded organic inputs with nutrient inputs was retained in the dataset, but not included in analyses in Craig et al. (2021). ). Fifty-five (55) studies, conducted from 1997 to October 2019, were chosen and compiled into a dataset with 358 observations from 96 combinations of a given organic material applied to a given soil in agricultural systems, laboratory incubations, forests, or grasslands.",
+      "Data Extraction:\nCitation information, microbial biomass data, the type and amount of organic input, the treatment duration, the study system category, and additional information about the experimental treatment conditions were extracted from each reference. Non-tabular data were extracted using WebPlotDigitizer (Version 4.2; https://automeris.io/WebPlotDigitizer/).\nMany studies took multiple measurements of microbial biomass. For laboratory experiments with one-time manipulations of inputs, we averaged across measurements to obtain one value per observation. For field experiments with regular (e.g. yearly) manipulations of inputs, we took microbial biomass data from the most recent year.",
+      "Data Analysis:\nPrior to analysis, microbial biomass and input rates were mean-centered and standardized (z-transformed) to account for different methods, conversion factors, baseline input rates, and units.\nThese transformations are calculated in the \u201canalysis.R\u201d file (i.e. the dataset contains untransformed values).\nThis allowed the underlying, qualitative nature of the relationship to be evaluated regardless of experiment- or site-specific factors.",
+      "References:\nQuideau, S. A. et al. Extraction and Analysis of Microbial Phospholipid Fatty Acids in Soils. J Vis Exp (2016) doi:10.3791/54360.\nVance, E. D., Brookes, P. C. & Jenkinson, D. S. An extraction method for measuring soil microbial biomass C. Soil Biology and Biochemistry 19, 703\u2013707 (1987)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 16.953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-450c176e7294b15-20210607T204646087",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-450c176e7294b15-20210607T204646087",
+        "name": "MBC_data_compilation_citations_20210309.csv"
+      },
+      {
+        "contentSize": 15.8505859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e94e9b06ff97389-20230504T211102824057",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-e94e9b06ff97389-20230504T211102824057",
+        "name": "Microbial_Biomass_in_Soils_Receiving_Varying_Levels_of_Organic_Inputs_A_Data_Compilation.xml"
+      },
+      {
+        "contentSize": 505.251953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bc37f5cee06f22f-20210607T204741973",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-bc37f5cee06f22f-20210607T204741973",
+        "name": "Microbial_Biomass_in_Soils_20210315.pdf"
+      },
+      {
+        "contentSize": 27.9033203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c29cb16ce21715d-20210607T204646081",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c29cb16ce21715d-20210607T204646081",
+        "name": "MBC_data_compilation_20210309.csv"
+      },
+      {
+        "contentSize": 2.669921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f83ff83d4825639-20210607T204728626",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-f83ff83d4825639-20210607T204728626",
+        "name": "analysis.R"
+      }
+    ]
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "id": "ess-dive-658220b8fcfb63d-20230407T145109180788",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1571527",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-658220b8fcfb63d-20230407T145109180788",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-7b788b81611eacd-20230406T141439218389",
+  "dateUploaded": "2023-04-07T14:51:10.479Z",
+  "dateModified": "2023-04-07T14:51:14.513Z",
+  "isPublic": true,
+  "citation": "Rowland J; Stauffer S (2019): Pan-arctic river bank erosion and accretion, and planform metrics measured over intervals ranging from 1973 to 2016. Incorporating the Hydrological Controls on Carbon Cycling in Floodplain Ecosystems into Earth System Models (ESMs). Dataset. doi:10.15485/1571527",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1571527",
+    "name": "Pan-arctic river bank erosion and accretion, and planform metrics measured over intervals ranging from 1973 to 2016",
+    "description": [
+      "This dataset provides the tabular summary of analysis of 17 reaches of 15 Arctic rivers for river bank erosion and accretion rates, as well as, river channel properties such as channel width, bank curvature, and the aspect/orientation of the river banks. These rivers include the: Chandalar River, Alaska, Colville River, Alaska; Indigirka River, Russia; Kolyma River, Russia; Koyukuk River, Alaska; Lena River, Alaska; Noatak River, Alaska; Ob River, Russia; Pechora River, Russia; Tanana River, Alaska, Selawik River, Alaska; Taz River, Russia; Yana River, Russia; Yenisei River, Russia; and the Yukon River, Alaska. The dataset was generated from a total of 129 images including: Landsat, higher resolution satellite imagery, and aerial photography over time periods ranging from the 1970s and 2016. A full list of the image dates, row and path (for Landsat), and pixel resolutions is provided in the dataset. Masks for the Chandalar River, Tanana River, and Yukon at Holy Cross were obtained from Brown et al. (2020). The masks were analyzed using the Spatially Continuous Riverbank Erosion and Accretion Measurements (SCREAM) software detailed in Rowland et al. 2016. The masks used in this analysis can be found an accompanying dataset (doi:10.15485/1571527).",
+      "In files with \u201csummary\u201d in the name, the data is provided at a pixel level, where each mapped bank pixel has an associated erosion or accretion value, a channel width, a curvature value, and an aspect each river and time period will have an individual file. Files with \u201cSegments\u201d in name provide data that is averaged along segments of the rivers. These data are consolidated into a single file each for the erosion and accretion measurements. These segments are approximately 10 channel widths in length. In addition to erosion and accretion rates, the segment-based results include area measurements of erosion and accretion, islands, and channels.",
+      "Revisions 2023:",
+      "-Data added for the Koyukuk River for time periods of 1978-2012, 1978-2018, and 2012-2018. ---Data added from the Chandalar River, Tanana River, and Yukon River at Holy Cross based on masks obtained from Brown et al. (2020).",
+      "-Updated the values for Drainage area and river slope, see methods below",
+      "-Added values for meant topographic slope for upstream contributing area, long term averaged annual maximum monthly flow, average annual maximum monthly flow for the time period of erosion record, and added the river slope extracted from the Lin et al. (2020) data product.",
+      "-Add field for River Planform Multi threaded (M) or Single threaded",
+      "-Added \u2018ConsolidatedErosionSegments.csv\u2019 which provides the same data as AllRiversErosionSegments.csv rebinned with averages along river segments based on upstream drainage area instead of channel segments based on lengths set to approximately 10 channel widths."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6308-8976",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophie",
+        "familyName": "Stauffer",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "sophie.stauffer@gmail.com"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5803-9686",
+        "givenName": "Jonathan",
+        "familyName": "Schwenk",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jschwenk@lanl.gov"
+      }
+    ],
+    "datePublished": "2019-10-15",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES",
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > RIVER",
+      "EARTH SCIENCE > LAND SURFACE > EROSION/SEDIMENTATION > EROSION",
+      "EARTH SCIENCE > LAND SURFACE > EROSION/SEDIMENTATION > SEDIMENT TRANSPORT",
+      "EARTH SCIENCE > LAND SURFACE > FROZEN GROUND > PERMAFROST",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > CUTBANK",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > FLOOD PLAIN",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > MEANDER",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > POINT BAR",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL PROCESSES > SEDIMENT TRANSPORT",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL PROCESSES",
+      "EARTH SCIENCE > LAND SURFACE > LANDSCAPE > LANDSCAPE PATTERNS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER FEATURES > RIVERS/STREAMS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Colville River, downstream of Umiat, Alaska USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 70.1867844909678,
+            "longitude": -155.190902169247
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.9412173224629,
+            "longitude": -150.954466339104
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Indigirka River, upstream of Chokurdakh, Russia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 70.3372992411078,
+            "longitude": 143.369301457747
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 67.5851403296143,
+            "longitude": 147.840754124172
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Kolyma River, upstream of Srednekolymsk, Russia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.4317218124137,
+            "longitude": 150.5169514264
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.77245012816,
+            "longitude": 153.004941394252
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Lena River, downstream of Yakutsk, Russia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 69.1953239659898,
+            "longitude": 122.763364546823
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 62.9992272892693,
+            "longitude": 130.089864607572
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Lena River, downstream of Yakutsk, Russia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 69.162495923405,
+            "longitude": 122.759942031329
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 61.1724197077055,
+            "longitude": 130.029207709957
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Noatak River, near Noatak Village, Alaska USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 67.7577246743623,
+            "longitude": -163.159168003055
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 67.3260049057381,
+            "longitude": -162.774482764799
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Ob River, near Kolpashevo, Russia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 59.0783016036055,
+            "longitude": 81.2814814949551
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 56.5296176604744,
+            "longitude": 84.518632351477
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Pechora River, near Oksino, Russia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 67.7848081913838,
+            "longitude": 51.8076223397364
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 66.0497930889624,
+            "longitude": 53.0671671055737
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Pechora River, downstream of Ust-Tsilma",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.3412215287072,
+            "longitude": 53.1456750906894
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.0865835085988,
+            "longitude": 57.2877424388577
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Selawik River, northwest Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.509745080882,
+            "longitude": -158.043941948577
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 66.4582530473224,
+            "longitude": -157.435408867862
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Taz River, upstream of Sidorovsk, Russia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.1839815838276,
+            "longitude": 81.3105787238376
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 63.7207584246258,
+            "longitude": 83.237506120666
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Yana River, Russia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 67.8775415678455,
+            "longitude": 135.337176489304
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 67.3339273730554,
+            "longitude": 135.803904225367
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Lower Yenisei River, Russia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 70.1631040634888,
+            "longitude": 82.7494598688599
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.5097913970371,
+            "longitude": 88.1851029614856
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Yukon River, Yukon Flats, Alaska USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.6390243752566,
+            "longitude": -146.235826436954
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 66.5005844863357,
+            "longitude": -145.178919016205
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Yukon River, Yukon Flats, Alaska USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.5973836081625,
+            "longitude": -146.939601649126
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 66.4207905033232,
+            "longitude": -146.104763796856
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Yukon River, Yukon Flats, Alaska USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.5973836038227,
+            "longitude": -146.939590368156
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 66.4207905033232,
+            "longitude": -146.104763796856
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Yukon River, Yukon Flats, Alaska USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.6587807229483,
+            "longitude": -149.522910401744
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.7155263456685,
+            "longitude": -143.863304117799
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Koyukuk River, Alaska USA, near Huslia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.1506,
+            "longitude": -157.685
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.9581,
+            "longitude": -154.171
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Tanana River, Alaska USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.9046,
+            "longitude": -149.277
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.5609,
+            "longitude": -147.281
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Chandalar River, Alaska USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 67.1007,
+            "longitude": -147.137
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 66.8641,
+            "longitude": -146.166
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Yukon River, Alaska USA near Holy Cross",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 62.4347,
+            "longitude": -160.037
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 62.0787,
+            "longitude": -159.874
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1973-07-18",
+      "endDate": "2019-09-16",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6308-8976",
+      "givenName": "Joel",
+      "familyName": "Rowland",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "jrowland@lanl.gov"
+    },
+    "citation": [
+      "Rowland JC, et al. (2016) A morphology independent methodology for quantifying planview river change and characteristics from remotely sensed imagery. Remote Sens Environ 184. doi:10.1016/j.rse.2016.07.005.",
+      "ess-dive-cfcff853f5ad92c-20191022T180804907."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "94e43119-7657-42ce-9428-6caf40c35493"
+      },
+      "name": "Incorporating the Hydrological Controls on Carbon Cycling in Floodplain Ecosystems into Earth System Models (ESMs)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This dataset was derived from binary masks generated from 129 individual of Landsat, higher resolution satellite imagery, and aerial photography of high-latitude rivers for time periods between the 1970s and 2016. The dates, row and path (for Landsat), and images IDs are provided in the \u201cSummaryofImagery\u201d file. Masks for the Chandalar River, Tanana River, and Yukon at Holy Cross were obtained from Brown et al. (2020). The masks were analyzed using the Spatially Continuous Riverbank Erosion and Accretion Measurements (SCREAM) software. (Rowland et al. 2016) Both the SCREAM methodology for measuring erosion rates and channel widths, and our criteria for extracting consistent and comparable binary representations of river channels from remotely sensed images may be found in Rowland et al. 2016. Masks were generated using the automated feature extraction softwares GeniePro (Perkins et al. 2005) and eCognition (Flanders et al. 2003) to assist with the mapping and extraction of river channels from the imagery. In total, 5,500 km of high-latitude rivers were analyzed over 30 different time intervals for a total of 11,000 km of data, resulting in more than1.6 million bank change measurements.\nIn addition to the summary table of imagery, there are 4 types of text files in the datasets: *Segments.csv; *summaryAccrete.csv; *summaryErode.csv; and *AllbankSummary.csv.\nRevisions made in 2023:\n-Data added for the Koyukuk River for time periods of 1978-2012, 1978-2018, and 2012-2018. ---Data added from the Chandalar River, Tanana River, and Yukon River at Holy Cross based on masks obtained from Brown et al. (2020).\n-Updated the values for Drainage area and river slope, see methods below\n-Added values for meant topographic slope for upstream contributing area, long term averaged annual maximum monthly flow, average annual maximum monthly flow for the time period of erosion record, and added the river slope extracted from the Lin et al. (2020) data product.\n-Add field for River Planform Multi threaded (M) or Single threaded\n-Added \u2018ConsolidatedErosionSegments.csv\u2019 which provides the same data as AllRiversErosionSegments.csv rebinned with averages along river segments based on upstream drainage area instead of channel segments based on lengths set to approximately 10 channel widths.",
+      "*AllbankSummary.csv\nA single *AllbankSummary.csv file exists for each river at each time interval a mask was generated. The files provide a set of planform attributes of the river measured at every single pixel in the image identified as a river bank. The columns in these files include:\nColumn key:\nCol: the column location of the bank pixel in the binary mask raster referenced to the upper left hand corner starting at 0,0.\nRow: the row location of the bank pixel in the binary mask raster referenced to the upper left hand corner starting at 0,0.\nWidth(m): the channel width at that bank location measured normal to the river channel at that location. In multi-threaded rivers these widths are of the individual channel threads.\nCurvature (1/m): the curvature along the river bank measured over distances two and four channel widths centered upstream and downstream of the individual pixel and averaged.\nRadius(m): Radius of curvature. The inverse of the bank curvature.\nNormRadius: the radius of curvature divided by the local channel width.\nAspect(deg): the direction of the bank face from 0 to 359. 0 = north facing, 90 = east facing, 180 = south facing, and 270 = west facing.",
+      "*summaryErode.csv and *summaryAccrete.csv\nFor each interval over which a change in the river location was measured by differences two binary masks there exists a *summaryErode.csv and *summaryAccrete.csv. The erode file has values associated with bank pixels from the first time interval in the mask pair and the accrete file is associated with the mask generated from the second time interval. This associated of erosion with time 1 and accretion with time 2 is due to the fact in multi-threaded rivers island may completely disappear or develop over the time interval between the image acquisition. Since the SCREAM methodology uses a river bank reference frame all measurements must be associated with a bank pixel.\nColumn key:\nCol: the column location of the bank pixel in the binary mask raster referenced to the upper left hand corner starting at 0,0.\nRow: the row location of the bank pixel in the binary mask raster referenced to the upper left hand corner starting at 0,0.\nLatitude \u2013 Latitude of the midpoint of the channel segment in which the bank pixel is located.\nLongitude - Latitude of the midpoint of the channel segment in which the bank pixel is located.\nWidth(m): the channel width at that bank location measured normal to the river channel at that location. In multi-threaded rivers these widths are of the individual channel threads.\nErosion/AccretionRate (m/yr): the distance the bank location changed over the time interval divided by the duration in years of the time interval. 0 values indicate non-detectable change in the bank location.\nWidthNormErosion/Accretion(1/yr): the erosion/accretion rate divided by the local channel width. Values are in fraction of channel widths per year.\nAspect(deg): the direction of the bank face from 0 to 359. 0 = north facing, 90 = east facing, 180 = south facing, and 270 = west facing.\nCurvature (1/m): the curvature along the river bank measured over distances two and four channel widths centered upstream and downstream of the individual pixel and averaged.\nRadius(m): Radius of curvature. The inverse of the bank curvature.\nWidthNormRadius: the radius of curvature divided by the local channel width.",
+      "*Segments.csv\nFiles with \u201cSegments\u201d in name provide data that is averaged along segments of the rivers. These data are consolidated into a single file each for the erosion and accretion measurements along all rivers in the dataset. These segments are approximately 10 channel widths in length.\n\u2018ConsolidatedErosionSegments.csv\u2019 provides the same data as AllRiversErosionSegments.csv rebinned with averages along river segments based on upstream drainage area instead of channel segments based on lengths set to approximately 10 channel widths.\nColumn key:\nFile name convention: Erosion_databy_segments, and Accretion_databy_segments\nRiver \u2013 Name of the river.\nLatitude \u2013 Latitude of the midpoint of the channel segment.\nLongitude - Latitude of the midpoint of the channel segment.\nStartYear \u2013 The year of the imagery used for the first time period in the change interval.\nEndYear \u2013 The year of the imagery used for the first time period in the change interval.\nLengthofTime_yr \u2013 Duration of time over which erosion rates were measured in years.\nCenterlineDistance(m) \u2013 Distance in meter along the channel center line. Distance is from the upstream starting point of the river segment to the mid-point of the averaging segment.\nMergedDistance(m) \u2013 Due to changes in river length between time 1 and time 2 in the analysis interval distances along the channel centerlines are not always coincident. An averaged or \u201cmerged\u201d centerline was generated by combining the two channel masks and finding the centerline of this combined channel mask. The merged distances are the distance in meters along the merged mask centerline from the upstream starting point to the midpoint of the segment. The merged distances provide a common reference distance to compare the segment-based metrics between the two-time intervals.\nNormDist \u2013 The relative distance of the river segment along the measured reach computed by dividing the distance of the segment from the upstream starting point by the total length of the segment.\nSegmentLength(m) \u2013 The length of the segment in meter measured along the channel centerline for the date of the river mask. Time 1 for erosion, Time 2 for Accretion.\nMean_Erosion(m/yr)/Mean_Accretion(m/yr) \u2013 Mean of all individual bank erosion/accretion rates measured in the river segment. The mean includes pixels with detectable and non-detectable (assigned a value of 0) erosion rates. Bank pixels that experienced accretion between the two time periods were not included in the average.\nStdDev_Erosion(m/yr)/ StdDev_Accretion(m/yr) \u2013 Standard deviation of the mean of all individual bank erosion/accretion rates measured in the river segment.\nSE_Erosion(m/yr)/ SE_Accretion(m/yr) - Standard error of the mean of all individual bank erosion/accretion rates measured in the river segment.\nMedian (m/yr) - Median of all individual bank erosion/accretion rates measured in the river segment. The median includes pixels with detectable and non-detectable (assigned a value of 0) erosion rates. Bank pixels that experienced accretion between the two time periods were not included in the median.\nnEroding/nAccreting \u2013 Number of bank pixels with erosion/accretion values used to calculate the mean and median rates for the segment. Includes both detectable and non-detectable erosion rates.\n%Eroding/%Accreting \u2013 Percentage of bank pixels with erosion values used to calculate the mean and median rates for the segment relative to the total number of bank pixels in the entire segment. Includes both detectable and non-detectable erosion rates.\nnDetectable - Number of bank pixels with detectable erosion/accreting rates.\n%Detectable \u2013 Percentage of total bank pixels with detectable erosion/accreting rates.\nTotal_Erosion(m^2)/ Total_Accreting(m^2) \u2013 Total area of erosion/accretion in square meters in the segment\nNumberofIslands \u2013 Number of islands in the river segment\nIslandArea(m^2) \u2013 Total area of islands in square meters in the river segment\nTotal_Channel_Area(m^2) \u2013 Total area of river channel in square meters in the segment\nMean_width(m) \u2013 Average width, in meters, of all measured channel widths in the segment. Width is measured at each bank pixel.\nStdDev_Width(m) \u2013 Standard deviation of the mean channel widths in the segment.\nSE_Width(m) \u2013 Standard error of the mean of the channel widths in the segment.\nTotal_Effective_Width(m) \u2013 The segment averaged total width of all channels in meter. Calculated by dividing the total area of the channel by the segment length.\nWnormErode(chW/yr) \u2013 Segment averaged width-normalized erosion rate in the segment. Units of 1/yr or fraction of channel width per year. The normalized erosion rates are calculated by dividing the individual bank pixel-based erosion rates by the bank pixel-based widths then averaging for the segment.\nStdWnormE \u2013 Standard deviation of the segment averaged width-normalized erosion rate.\nSEWnormE - Standard error of the segment averaged width-normalized erosion rate.\nSinuosity \u2013 The segment averaged sinuosity. Thee averaged values are calculated along the centerline by dividing the centerline distance by the straightline distance of the segment calculated by dividing the channel centerline length by the along moving windows 100 average channel widths in length.\nIn \u201cErosion_Segments\u201d file\nDrainageArea_km^2 \u2013 The contributing drainage area above each segment was determined using a combination of the HydroBasins level-12 watershed polygons (Lehner & Grill, 2013) and MERIT-Hydro upstream drainage area grid (Yamazaki et al., 2019). There values are reported in the DrainageArea(km^2)_rabpro field.\nRiverSlope \u2013 We used rabpro (Schwenk et al., 2022) to map each bank erosion observation to its corresponding flowline in MERIT-Hydro. Slopes were computed as E_u - E_d / (s_d - s_u) for E=elevation, u = upstream, d = downstream, and s = along-channel distance. E_u and E_d are chosen to be the minimum of 10 channel widths upstream and downstream or 10 km (upstream and downstream) of the measurement location. Exceptions were made in cases of slope breaks (e.g. at confluences). This reach-averaged slope accounts for variability and noise in the MERIT-Hydro flowline elevation profile.\nMeanTopoSlope \u2013 The average topographic slope of the contributing drainage area above each segment calculated using rabpro (Schwenk et al., 2022).\nLongTermMaxQ - FLO1K (Barbarossa et al., 2018) maximum monthly flow for each year averaged for entire time series (1960-2015), values extracted and averaged using rabpro (Schwenk et al., 2022)\nTimeIntervalMaxQ - FLO1K (Barbarossa et al., 2018) maximum monthly flow for each year averaged for the period of record (PoR) for the erosion measurements, values extracted and averaged using rabpro (Schwenk et al., 2022)\nObu PF \u2013 Fraction of permafrost in contributing drainage area above each segment calculated using rabpro (Schwenk et al., 2022) based on the Obu et al (2019 version 2.0) data product.\nRiverSlope_Lin - River slope obtained from the Lin et al (2020) global data product\nPlanform(MvsS) - \u201cM\u201d = multi-threaded, \u201cS\u201d = single-threaded",
+      "References\nBarbarossa, V., Huijbregts, M. A. J., Beusen, A. H. W., Beck, H. E., King, H., & Schipper, A. M. (2018). Data Descriptor: FLO1K, global maps of mean, maximum and minimum annual streamflow at 1 km resolution from 1960 through 2015. Scientific Data, 5(February), 180052. https://doi.org/10.1038/sdata.2018.52\nBrown, D. R. N., Brinkman, T. J., Bolton, W. R., Brown, C. L., Cold, H. S., Hollingsworth, T. N., & Verbyla, D. L. (2020). Implications of climate variability and changing seasonal hydrology for subarctic riverbank erosion. Climatic Change, 162, 385\u2013404. https://doi.org/10.1007/s10584-020-02748-9\nFlanders D, Hall-Beyer M, Pereverzoff J (2003) Preliminary evaluation of eCognition object-based software for cut block delineation and feature extraction. Can J Remote Sens 29(4):441\u2013452.\nLehner B, Grill G (2013) Global river hydrography and network routing: baseline data and new approaches to study the world\u2019s large river systems. Hydrol Process.\nLin, P., Pan, M., Allen, G. H., de Moraes Frasson, R. P., Zeng, Z., Yamazaki, D., & Wood, E. F. (2020). Global estimates of reach\u2010level bankfull river width leveraging big data geospatial analysis. Geophysical Research Letters, 47, e2019GL086405. https://doi.org/ 10.1029/2019GL086405\nPerkins SJ, et al. (2005) Genie Pro: Robust image classification using shape, texture, and spectral information. Proc SPIE 5806:139\u2013148.\nRowland JC, et al. (2016) A morphology independent methodology for quantifying planview river change and characteristics from remotely sensed imagery. Remote Sens Environ 184. doi:10.1016/j.rse.2016.07.005.\nSchwenk, J., Zussman, T., Stachelek, J., & Rowland, J. C. (2022). Rabpro: Global Watershed Boundaries, River Elevation Profiles, and Catchment Statistics. Journal of Open Source Software, 7(73), 4237. https://doi.org/10.21105/joss.04237"
+    ],
+    "distribution": [
+      {
+        "contentSize": 34.6640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31c7b3caaa226c6-20230131T185744841",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-31c7b3caaa226c6-20230131T185744841",
+        "name": "ConsolidatedErosionSegments.csv"
+      },
+      {
+        "contentSize": 251.6845703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d7c30916ccd0108-20230131T185739573",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d7c30916ccd0108-20230131T185739573",
+        "name": "AllRiversErosion_Segments.csv"
+      },
+      {
+        "contentSize": 164.94140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e9441954e394d4c-20230131T185716595",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e9441954e394d4c-20230131T185716595",
+        "name": "AllRiversAccretion_Segments.csv"
+      },
+      {
+        "contentSize": 5.13671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5967b044ae3042f-20230131T185728414",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5967b044ae3042f-20230131T185728414",
+        "name": "SummaryofImagery.csv"
+      },
+      {
+        "contentSize": 49.3076171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-658220b8fcfb63d-20230407T145109180788",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-658220b8fcfb63d-20230407T145109180788",
+        "name": "Pan_arctic_river_bank_erosion_and_accretion_and_planform_metrics_measured_over_intervals_ranging_from_1973_to_2016.xml"
+      },
+      {
+        "contentSize": 219090.353515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8b8923d16f3b3c6-20230131T185602658",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8b8923d16f3b3c6-20230131T185602658",
+        "name": "DatabyRiver.zip"
+      }
+    ]
+  }
+}

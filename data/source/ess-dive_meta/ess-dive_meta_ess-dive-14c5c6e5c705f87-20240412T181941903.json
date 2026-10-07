@@ -1,0 +1,215 @@
+{
+  "id": "ess-dive-14c5c6e5c705f87-20240412T181941903",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2335801",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-14c5c6e5c705f87-20240412T181941903",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-14c5c6e5c705f87-20240410T233237529",
+  "dateUploaded": "2024-04-12T18:19:43.108Z",
+  "dateModified": "2024-04-12T18:19:44.262Z",
+  "isPublic": true,
+  "citation": "Zheng J; Scheibe T D; Boye K; Song H (2024): Model associated with: \"Thermodynamic control on the decomposition of organic matter across different electron acceptors\". River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2335801",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2335801",
+    "name": "Model associated with: \"Thermodynamic control on the decomposition of organic matter across different electron acceptors\"",
+    "description": [
+      "This model data package is associated with the publication \u201cThermodynamic control on the decomposition of organic matter across different electron acceptors\u201d submitted to Soil Biology and Biochemistry (Zheng et al., 2023; https://doi.org/10.1016/j.soilbio.2024.109364).",
+      "In this research, a thermodynamic modeling framework is built to flexibly incorporate both organic matter (OM) molecules and electron acceptors for estimating potential free energy release from various redox reactions and to further predict reaction rates based on Microbial Transition State Theory. The model package includes scripts for thermodynamic modeling and postprocessing. Input Fourier-transform ion cyclotron resonance (FTICR) data are from a previous experimental study (Boye et al., 2018), and model outputs are free energy predictions and stoichiometric coefficients associated with all possible redox reactions.",
+      "This data package is associated with the project GitHub repository found at",
+      "This data package contains four folders (Input_FTICR, Model, Output, and Output_processing), a file-level metadata (FLMD) csv, and a data dictionary (dd) csv. Please see Zheng_bioenergetic_modeling_flmd.csv for a list of all files contained in this data package and descriptions for each. The Zheng_bioenergetic_modeling_dd.csv file describes the csv column headers. The \u201cModel\u201d folder contains scripts to run energy balance calculations for each electron acceptor. The \u201cOutput\u201d folder contains csv files with stoichiometric information from model simulations. And the \"Output_processing\" folder contains scripts for reaction rate calculations and to generate plots."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1609-9004",
+        "givenName": "Jianqiu",
+        "familyName": "Zheng",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "jianqiu.zheng@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8864-5772",
+        "givenName": "Timothy D.",
+        "familyName": "Scheibe",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2087-607X",
+        "givenName": "Kristin",
+        "familyName": "Boye",
+        "affiliation": "SLAC National Accelerator Laboratory",
+        "email": "kboye@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2154-6358",
+        "givenName": "Hyun-Seob",
+        "familyName": "Song",
+        "affiliation": "University of Nebraska-Lincoln",
+        "email": "HyunSeob.Song@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024-03-11",
+    "keywords": [
+      "Biogeochemistry",
+      "Organic Matter",
+      "OM",
+      "Thermodynamic theory",
+      "Carbon Use Efficiency",
+      "CUE",
+      "Electron acceptors",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Model Data Archiving Guidelines"
+    ],
+    "variableMeasured": [
+      "Fourier-transform ion cyclotron resonance",
+      "FTICR",
+      "Carbon",
+      "C",
+      "Oxygen",
+      "O",
+      "Hydrogen",
+      "H",
+      "Nitrogen",
+      "N",
+      "Sulfur",
+      "S",
+      "Phosphorous",
+      "P",
+      "FTI",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > NUTRIENTS > NITROGEN COMPOUNDS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > NUTRIENTS > NITROGEN",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > NITROGEN COMPOUNDS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > NUTRIENTS > PHOSPHOROUS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Mekong Delta of Vietnam",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 10.18,
+            "longitude": 106.14
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 10.18,
+            "longitude": 106.14
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1609-9004",
+      "givenName": "Jianqiu",
+      "familyName": "Powers-Zheng",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "jianqiu.zheng@pnnl.gov"
+    },
+    "citation": [
+      "Zheng, Jianqiu, Scheibe, Timothy, Boye, Kristin and Song, Hyun-Seob, Thermodynamic Control on the Decomposition of Organic Matter Across Different Electron Acceptors. Available at SSRN https://doi.org/10.1016/j.soilbio.2024.109364",
+      "Boye, K., Herrmann, A.M., Schaefer, M.V., 2018. Discerning microbially mediated processes during redox transitions in flooded soils using carbon and energy balances. Frontiers in Environmental Science 6:15. DOI:10.3389/fenvs.2018.00015",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Model: Scripts for defining and running thermodynamic calculations using Fourier-transform ion cyclotron resonance mass spectrometry\u00a0(FTICR-MS) based organic matter characterization as electron donors and different electron acceptors. Briefly, from FTICR-MS identified and assigned chemical formula of OM, the free energy of OM oxidation is estimated from nominal oxidation state of carbon (NOSC). Meanwhile, both catabolic and anabolic reactions can be obtained. Energy coupling leads to the stoichiometry of metabolic reaction. Refer to the manuscript associated with this data package for more details.\nOutputs: The outputs folder contains all the stoichiometric information from model simulations. The output-processing folder contains scripts for reaction rate calculations based on Microbial Transition State Theory, which relates the growth rate to the amount of energy available to perform cellular work."
+    ],
+    "distribution": [
+      {
+        "contentSize": 11.494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-14c5c6e5c705f87-20240412T181941903",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-14c5c6e5c705f87-20240412T181941903",
+        "name": "Model_associated_with_Thermodynamic_control_on.xml"
+      },
+      {
+        "contentSize": 5017.8017578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-18a50c56c2758e1-20240312T172848425",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-18a50c56c2758e1-20240312T172848425",
+        "name": "Output.zip"
+      },
+      {
+        "contentSize": 6.90625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3fe5f167ada62a2-20240312T172902480",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3fe5f167ada62a2-20240312T172902480",
+        "name": "Zheng_bioenergetic_modeling_dd.csv"
+      },
+      {
+        "contentSize": 6.265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e94c8a91a3e0d78-20240312T172905344",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e94c8a91a3e0d78-20240312T172905344",
+        "name": "Zheng_bioenergetic_modeling_flmd.csv"
+      },
+      {
+        "contentSize": 13.322265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5705d01ab17853d-20240312T172843014",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-5705d01ab17853d-20240312T172843014",
+        "name": "Output_processing.zip"
+      },
+      {
+        "contentSize": 14.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-65b62fe051c8586-20240312T172853661",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-65b62fe051c8586-20240312T172853661",
+        "name": "Model.zip"
+      },
+      {
+        "contentSize": 64.501953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ab6c6fd4653f6f1-20240312T172857178",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ab6c6fd4653f6f1-20240312T172857178",
+        "name": "Input_FTICR.zip"
+      },
+      {
+        "contentSize": 3098.7431640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b141ae3c26232f8-20240402T211707319",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-b141ae3c26232f8-20240402T211707319",
+        "name": "readme_Zheng_bioenergetic_modeling.pdf"
+      }
+    ]
+  }
+}

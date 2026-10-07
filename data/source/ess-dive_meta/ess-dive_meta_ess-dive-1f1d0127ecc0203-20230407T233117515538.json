@@ -1,0 +1,131 @@
+{
+  "id": "ess-dive-1f1d0127ecc0203-20230407T233117515538",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1603071",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1f1d0127ecc0203-20230407T233117515538",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-31f426e2825e131-20230406T145745621189",
+  "dateUploaded": "2023-04-07T23:31:18.537Z",
+  "dateModified": "2023-04-07T23:31:23.272Z",
+  "isPublic": true,
+  "citation": "Harrell P (2010): Marine Corps Base Camp Lejeune Greenness Loss from 1984 to 2007. Defense Coastal/Estuarine Research Program (DCERP). Dataset. doi:10.15485/1603071",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1603071",
+    "name": "Marine Corps Base Camp Lejeune Greenness Loss from 1984 to 2007",
+    "description": [
+      "Critical military training and testing on lands along the nation\u2019s coastal and estuarine shorelines are increasingly placed at risk because of development pressures in surrounding areas, impairments due to other anthropogenic disturbances, and increasing requirements for compliance with environmental regulations. The U.S. Department of Defense (DoD) intends to enhance and sustain its training and testing assets and to optimize its stewardship of natural resources through the development and application of an ecosystem-based management approach on DoD installations. To accomplish this goal, particularly for installations in estuarine/coastal environments, the Strategic Environmental Research and Development Program (SERDP) launched the Defense Coastal/Estuarine Research Program (DCERP) as a minimum 10-year effort at Marine Corps Base Camp Lejeune (MCBCL) in North Carolina. The results of the first six years of the program (DCERP1) are presented here.",
+      "The overarching objectives of DCERP are to: (1) understand the effects of military training activities, infrastructure development, and other coastal military installations; (2) develop models, tools, and indicators to evaluate ecosystem health; and (3) recommend adaptive management strategies to sustain ecosystem natural resources within the context of an active military installation.",
+      "This data package contains Loss of Green Vegetation data between 1984 and 2007 from Landsat TM5 images. Results are based on the difference in the Tassle Cap greenness band recorded in 1984 and the greenness recorded in 2007. This Intensity of green loss was then developed into a five category green loss classification using the mean and standard deviation of the green loss difference data set: 0. No green loss, green gain, or background 1. No significant change; values > 0 to =< 0.0035 (mean - SD) 2. Light green loss, reduced forest, impacted veg, etc; values > 0.0035 to =< 0.04556 (mean) 3. Moderate green loss; values > 0.04556 to =< 0.0876 (mean + SD) 4. Heavy green loss; values > 0.0876 to max. Classes 2, 3, and 4 are retained as significant green loss locations. Polygon patches are labeled with the intensity value in the attribute 'GRIDCODE'. Greenness loss in this area is a good indicator of human impact and development."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "Peter",
+        "familyName": "Harrell",
+        "affiliation": "Duke University Nicholas School of the Environment",
+        "email": "pharrel@duke.edu"
+      }
+    ],
+    "datePublished": "2010-06-30",
+    "keywords": [
+      "DCERP",
+      "SERDP",
+      "RESOURCE CONSERVATION",
+      "RC-1413"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Marine Corps Base Camp Lejeune (MCBCL) encompasses 153,000 acres and occupies 80% of the shoreline of the New River Estuary (NRE), thus making the NRE a core consideration to the management of the installation. The remainder of MCBCL consists of terrestrial habitat (i.e., 90,000 acres), which is managed for training and is also a wildlife habitat.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.75311,
+            "longitude": -77.610141
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.496568,
+            "longitude": -77.17466
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DoD > Strategic Environmental Research and Development Program (SERDP) > Defense Coastal/Estuarine Research Program (DCERP)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1984-05-01",
+      "endDate": "2007-04-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3076-9086",
+      "givenName": "SERDP",
+      "familyName": "ESTCP",
+      "email": "SERDP-ESTCP@noblis.org"
+    },
+    "citation": [
+      "https://www.serdp-estcp.org/Program-Areas/Resource-Conservation-and-Resiliency/Natural-Resources/Coastal-and-Estuarine-Ecology-and-Management/RC-1413/RC-1413",
+      "Cunningham, Patricia, and SERDP Resource Conservation and Resiliency. \u201cDefense Coastal / Estuarine Research Program.\u201d RC-1413, SERDP, 2013, www.serdp-estcp.org/Program-Areas/Resource-Conservation-and-Resiliency/Natural-Resources/Coastal-and-Estuarine-Ecology-and-Management/RC-1413/RC-1413."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "86defe3b-8cbc-47ff-a4d2-e54e4ab72816"
+      },
+      "name": "Defense Coastal/Estuarine Research Program (DCERP)",
+      "member": {
+        "@type": "Person",
+        "givenName": "SERDP",
+        "familyName": "ESTCP",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Marine Corps Base Camp Lejeune in North Carolina",
+        "email": "serdp-estcp@noblis.org"
+      }
+    },
+    "measurementTechnique": [
+      "This dataset is based on the difference in the Tassle Cap greenness band recorded in 1984 and the greenness recorded in 2009 using Landsat TM5 images. Greenness loss and gain data was developed to examine the change in vegetation patterns at MCBCL starting with the first TIM image available (1984) to various dates forward in time. We established the following five categories using the mean and standard deviation of the greenness difference between the 2007 and 1984 data:\n\u2022 0 = No change\n\u2022 1 = Minimal change (> 0 to \u2264 mean \u2013 standard deviation [SD])\n\u2022 2 = Moderate change (> mean \u2212 SD to \u2264 mean)\n\u2022 3 = Major change (mean to \u2264 mean + SD)\n\u2022 4 = Extreme change (> mean + SD)\nPolygon patches are labeled with the intensity value in the attribute 'GRIDCODE'. Greenness gain in MCBCL is largely timber harvest areas that have regrown. Greenness gain in MCBCL is largely timber harvest areas that have regrown.\nDCERP1 was implemented in two phases. Phase I of the program was a planning period that was conducted between November 2006 and June 2007 and resulted in the development of the DCERP Strategic Plan, the DCERP Baseline Monitoring Plan, and the DCERP Research Plan, which collectively serve as the foundation for DCERP activities at MCBCL. Implementation of these plans (Phase II) began in July 2007 and resulted in the establishment of more than 350 monitoring and research sites, completion of 13 research projects, and development of the Data Information and Management System (DIMS). DIMS currently archives DCERP1 monitoring and research data and provides a standard data format that optimizes data storage and retrieval for integrated analysis, allowing for exchange of information among the various DCERP1 partners and other interested researchers and stakeholders.\nDuring Phase I, the DCERP1 Team developed the overall approach that was implemented during Phase II and used to meet the program\u2019s objectives. This approach started with identifying ecosystem processes and stressors and developing an overarching conceptual model for DCERP1 that included four ecological modules: the Aquatic/Estuarine Module, the Coastal Wetlands Module, the Coastal Barrier Module, and the Terrestrial Module. Because the atmosphere has an overarching influence on all four ecosystem modules, it was treated as a fifth ecosystem module (i.e., the Atmospheric Module). After developing the overall conceptual model (and conceptual models for individual modules), the DCERP1 Team identified knowledge gaps in the models, worked with the installation staff to identify the needs of MCBCL management, and then determined potential research questions to address these basic knowledge gaps and management needs.\nBecause DCERP1 was designed to be an adaptive program, the DCERP Baseline Monitoring Plan was developed to gather environmental data to address MCBCL\u2019s management concerns and support the 13 research projects. The monitoring activities established important baseline conditions in each of the modules against which changes in ecosystem processes from both military training activities, other non-military stressors, and natural phenomena (i.e., extreme events including hurricanes, droughts) could be measured. The monitoring activities also provided data at the temporal frequencies and spatial extents needed to assess variability in the environmental parameters of importance and were used to inform and validate ecosystem models. Results from the research projects fed back into the adaptive monitoring efforts so that changes in sampling frequency, spatial scale of sampling locations, or parameters to be sampled could be adapted as necessary. Results were used to identify ecosystem indicators and develop associated threshold values, tools, or design models that address MCBCL\u2019s management needs. This information was communicated to MCBCL personnel to assist them in making decisions about what type of management actions could be taken to mitigate the effects of military-related activities on the ecosystems."
+    ],
+    "distribution": [
+      {
+        "contentSize": 16.6357421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1f1d0127ecc0203-20230407T233117515538",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-1f1d0127ecc0203-20230407T233117515538",
+        "name": "Marine_Corps_Base_Camp_Lejeune_Greenness_Loss_from_1984_to_2007.xml"
+      },
+      {
+        "contentSize": 231.130859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e85c8c1e40bd82d-20200121T211015685",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-e85c8c1e40bd82d-20200121T211015685",
+        "name": "Veg_Loss_Gains__T_FactSheet.pdf"
+      },
+      {
+        "contentSize": 42.69140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6efb33393e8f389-20200121T211010547",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-6efb33393e8f389-20200121T211010547",
+        "name": "mcbcl_greenloss_by_intensity_code_1984_2007.pdf"
+      },
+      {
+        "contentSize": 1248.388671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6f2fba0a620d7f9-20200121T211012694",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6f2fba0a620d7f9-20200121T211012694",
+        "name": "mcbcl_greenloss_by_intensity_code_1984_2007.zip"
+      }
+    ]
+  }
+}

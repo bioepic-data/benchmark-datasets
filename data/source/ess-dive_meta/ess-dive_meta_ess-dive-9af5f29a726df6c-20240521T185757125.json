@@ -1,0 +1,1207 @@
+{
+  "id": "ess-dive-9af5f29a726df6c-20240521T185757125",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2367553",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-9af5f29a726df6c-20240521T185757125",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-4c65c4a3e374290-20240521T184957035",
+  "dateUploaded": "2024-05-21T18:57:59.575Z",
+  "dateModified": "2024-05-30T00:00:12.766Z",
+  "isPublic": true,
+  "citation": "Stegen J C; Garayburu-Caruso V A; Danczak R E; Chu R; Forbes B; Goldman A E; McCall M L; McKever S A; Powers-McCormack B; Renteria L; Toyoda J G (2024): Data and scripts associated with the manuscript \"Organic Molecules are Deterministically Assembled in River Sediments\". Early Career Research Program: Watershed Perturbation-Response Traits Derived Through Ecological Theory - Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS). Dataset. doi:10.15485/2367553",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2367553",
+    "name": "Data and scripts associated with the manuscript \"Organic Molecules are Deterministically Assembled in River Sediments\"",
+    "description": [
+      "This data package is associated with the publication \"Organic Molecules are Deterministically Assembled in River Sediments\" submitted to Scientific Reports (Stegen et al., 2024).",
+      "The study applies community ecology methods to dissolved organic matter (DOM) chemistry from variably inundated riverbed sediments to uncover principles governing DOM composition at a reach-scale. This data package documents the workflow used to process and generate the main findings in the manuscript. The R scripts reference the raw, unprocessed Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS) data from another data package, available on ESS-DIVE at",
+      "This data package is associated with the GitHub repository found at",
+      "This data package is comprised of 6 scripts and 7 folders. The file-level metadata file (file ending in \"flmd.csv\") lists all files contained in this data package and descriptions for each. The data dictionary (file ending in \"dd.csv) describes all tabular data columns and their respective definitions and units.",
+      "The FTICR_Processing_Scripts produce the outputs found in the \"Processed_Data\" folder. The remaining scripts (located in the parent directory) produce the outputs found in the following four folders: (1) \"MCD_Dendrograms\", \"MCD_Randomizations\", \"MCD_bNTI_Outcomes\", and \"OM_Null_Modeling\". The fifth script additionally takes the three comma-separated values (CSV) files found in the parent directory as input (\"VGC_texture.csv\", \"merged_weights.csv\", and \"ECA2_FTICR_BetaDisp.csv\"). The outputs of each of the five scripts serve as the input to the following script, with the final outputs stored in the folder \"OM_Null_Modeling\"."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert E.",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Rosalie",
+        "familyName": "Chu",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Rosalie.Chu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Marcy L.",
+        "familyName": "McCall",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Marcy.McCall@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophia A.",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "sophia.mckever@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6299-2146",
+        "givenName": "Jason G.",
+        "familyName": "Toyoda",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Jason.Toyoda@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024-05-20",
+    "keywords": [
+      "River corridor",
+      "Sediment",
+      "Stream",
+      "Metabolite",
+      "Metabolomics",
+      "Mass spectrometry",
+      "Biogeochemistry",
+      "Intermittent",
+      "Parafluvial",
+      "Non-perennial",
+      "Ephemeral",
+      "Inundation",
+      "Organic Matter",
+      "Null Modeling",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "bNTI",
+      "beta Nearest Taxon Index",
+      "DOC",
+      "Dissolved organic carbon",
+      "NPOC",
+      "Non-purgeable organic carbon",
+      "FTICR-MS",
+      "Fourier transform ion cyclotron resonance mass spectrometry",
+      "TN",
+      "Total dissolved nitrogen",
+      "Moisture",
+      "Grain size",
+      "Molecular characteristics dendrogram",
+      "MCD"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "ECA2_0027, Teakettle Creek, California",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.9613,
+            "longitude": -119.0279
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.9613,
+            "longitude": -119.0279
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0011, East Fork Poplar Creek, Oak Ridge, Tennessee",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.9663,
+            "longitude": -84.3582
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.9663,
+            "longitude": -84.3582
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0033, Sawmill Brook, Burlington, Massachusetts",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.5237,
+            "longitude": -71.1849
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.5237,
+            "longitude": -71.1849
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0044, Upper north tributary of Providence Creek, Sierra National Forest. Closest city Shaver Lake, California",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.0558,
+            "longitude": -119.1958
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.0558,
+            "longitude": -119.1958
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0034, Cart Creek, Newbury, Massachusetts",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.7698,
+            "longitude": -70.9171
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.7698,
+            "longitude": -70.9171
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0016, Rio Icacos, Puerto Rico",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 18.2772,
+            "longitude": -65.7858
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 18.2772,
+            "longitude": -65.7858
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0042, Tims Branch, Aiken, South Carolina",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.3165,
+            "longitude": -81.7139
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.3165,
+            "longitude": -81.7139
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0036, Slate River, Crested Butte, Colorado",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9102,
+            "longitude": -107.0297
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9102,
+            "longitude": -107.0297
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0028, North Fork Caspar Creek, Fort Bragg, California",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.3623,
+            "longitude": -123.7351
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.3623,
+            "longitude": -123.7351
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0026, Augusta Creek, Michigan",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.3529,
+            "longitude": -85.3532
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.3529,
+            "longitude": -85.3532
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0019, Watershed 3, New Hampshire",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9551,
+            "longitude": -71.7223
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9551,
+            "longitude": -71.7223
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0037, Kuparuk River, Toolik, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 68.644,
+            "longitude": -149.4026
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.644,
+            "longitude": -149.4026
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0001, Kings Creek, Manhattan, Kansas",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.1056,
+            "longitude": -96.6056
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.1056,
+            "longitude": -96.6056
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0048, Posey Creek, Front Royal, Virginia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8947,
+            "longitude": -78.1475
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8947,
+            "longitude": -78.1475
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0049, Lewis Run, Front Royal, Virginia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0954,
+            "longitude": -77.9829
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.0954,
+            "longitude": -77.9829
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0040, Huger Creek, Cordesville, South Carolina",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.1314,
+            "longitude": -79.8086
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.1314,
+            "longitude": -79.8086
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0045, East River, Crested Butte, Colorado",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9235,
+            "longitude": -106.9511
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9235,
+            "longitude": -106.9511
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0047, Hop Brook, New Salem, Massachusetts",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.4713,
+            "longitude": -72.3301
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.4713,
+            "longitude": -72.3301
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0052, Unnamed tributary of West Branch Mill Creek, Near Alta Vista, Kansas",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9467,
+            "longitude": -96.4433
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9467,
+            "longitude": -96.4433
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0017, Hammersmith Creek, Darien, Georgia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.3344,
+            "longitude": -81.4785
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.3344,
+            "longitude": -81.4785
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0051, King's Creek, Manhattan , Kansas",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.1044,
+            "longitude": 96.6025
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.1044,
+            "longitude": 96.6025
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0007, Shale Hills, Pennsylvania",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.6466,
+            "longitude": -77.9069
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.6466,
+            "longitude": -77.9069
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0056, Como Creek, Ward, Colorado",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0349,
+            "longitude": -105.5445
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.0349,
+            "longitude": -105.5445
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0043, Rio Grande, Bernalillo, New Mexico",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.3211,
+            "longitude": -106.559
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.3211,
+            "longitude": -106.559
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0013, Rio Guilarte, Adjuntas, Puerto Rico",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 18.1744,
+            "longitude": -66.8003
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 18.1744,
+            "longitude": -66.8003
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0050, West St. Louis Creek, Fraser, Colorado",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.8907,
+            "longitude": -105.9113
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.8907,
+            "longitude": -105.9113
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0038, Caribou Creek, Fairbanks, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.1531,
+            "longitude": -147.5022
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.1531,
+            "longitude": -147.5022
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0005, Allequash Creek, Wisconsin",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.033,
+            "longitude": -89.608
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.033,
+            "longitude": -89.608
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0041, Turkey Creek, Cordesville, South Carolina",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.1273,
+            "longitude": -79.7793
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.1273,
+            "longitude": -79.7793
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0023, History Grove, New Mexico",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.8756,
+            "longitude": -106.5122
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.8756,
+            "longitude": -106.5122
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0024, La Jara",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.8688,
+            "longitude": -106.5227
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.8688,
+            "longitude": -106.5227
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0053, LeConte Creek, Gatlinburg, Tennessee",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.6918,
+            "longitude": -83.504
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.6918,
+            "longitude": -83.504
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0054, Walker Branch, Oak Ridge, Tennessee",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.9578,
+            "longitude": -84.2792
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.9578,
+            "longitude": -84.2792
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0006, Mica Creek, Idaho",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.1749,
+            "longitude": -116.2395
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.1749,
+            "longitude": -116.2395
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0008, Columbia River, Richland, Washington",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.3763,
+            "longitude": -119.2799
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.3763,
+            "longitude": -119.2799
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0061, Columbia River, Richland, Washington",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.373,
+            "longitude": -119.2722
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.373,
+            "longitude": -119.2722
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0010, Dead Run, Woodlawn, Maryland",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.3117,
+            "longitude": -76.7174
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.3117,
+            "longitude": -76.7174
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0029, Cobb Mill Creek, Virginia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.2914,
+            "longitude": -75.9309
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.2914,
+            "longitude": -75.9309
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0035, Dobson, Reynolds, Idaho",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.1233,
+            "longitude": -116.7745
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.1233,
+            "longitude": -116.7745
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0002, Little Wind River, Riverton, Wyoming",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.9885,
+            "longitude": -108.3986
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.9885,
+            "longitude": -108.3986
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0022, Martha Creek, Vancouver, Washington",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7923,
+            "longitude": -121.9293
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7923,
+            "longitude": -121.9293
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0021, McRae Creek, Vancouver, Washington",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2604,
+            "longitude": -122.1647
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2604,
+            "longitude": -122.1647
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0009, Duplin River, Sapelo Island, Georgia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.4431,
+            "longitude": -81.2864
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.4431,
+            "longitude": -81.2864
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0058, Arikaree River, Colorado",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.7584,
+            "longitude": -102.4486
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.7584,
+            "longitude": -102.4486
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0055, Sycamore Creek, Arizona",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.7512,
+            "longitude": -111.5083
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.7512,
+            "longitude": -111.5083
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0039, Lower Colorado River, Austin, Texas",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 30.2504,
+            "longitude": -97.7084
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30.2504,
+            "longitude": -97.7084
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0003, Fenton River, Mansfield, Connecticut",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.8335,
+            "longitude": -72.2429
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.8335,
+            "longitude": -72.2429
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "ECA2_0018, Lookout Creek, Oregon",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2135,
+            "longitude": -122.2529
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2135,
+            "longitude": -122.2529
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #74193"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-08-02",
+      "endDate": "2020-11-08",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9135-7424",
+      "givenName": "James C.",
+      "familyName": "Stegen",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "James.Stegen@pnnl.gov"
+    },
+    "citation": [
+      "James C. Stegen, Vanessa A. Garayburu-Caruso, Robert E. Danczak, Rosey Chu, Amy E. Goldman, Sophia McKever, Lupita Renteria, Jason Toyoda, and WHONDRS Consortium. Organic Molecules are Deterministically Assembled in River Sediments. 2024. Scientific Reports.",
+      "Garayburu-Caruso V A ; Goldman A E ; Chu R ; Danczak R E ; McCall M L ; McKever S A ; Renteria L ; Tolic N ; Torgeson J M ; Toyoda J G ; Stegen J C ; WHONDRS Consortium T (2021): FTICR, NPOC, TN, and Moisture of Variably Inundated Sediment across 48 North American Rivers. Early Career Research Program: Watershed Perturbation-Response Traits Derived Through Ecological Theory - Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS), ESS-DIVE repository. Dataset. doi:10.15485/1834208 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1834208 in June 2021.",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1fc0556d-c136-4e76-8f1d-f97534066fd5"
+      },
+      "name": "Early Career Research Program: Watershed Perturbation-Response Traits Derived Through Ecological Theory - Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS)",
+      "member": {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "Stegen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "james.stegen@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Sediment samples were collected along variably inundated river regions in a transect of up to 10 locations spanning upstream to downstream. Some sediment was weighed and dried in a series of steps for sediment moisture measurements. The remaining sediment was freeze-dried and extracted with water prior to analysis for dissolved organic carbon (DOC; measured as non-purgeable organic carbon; NPOC), total dissolved nitrogen (TN), and Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS). The dissolved organic matter (DOM) characteristics served as inputs to the ecological null modeling, which was used to quantify the relative influences of deterministic and stochastic processes over the DOM assemblages. This data package contains the scripts, figures, and processed FTICR-MS data. See the methods section of the manuscript for more details."
+    ],
+    "distribution": [
+      {
+        "contentSize": 2.703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2586900a62827e1-20240520T235416062",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-2586900a62827e1-20240520T235416062",
+        "name": "03_FTICR_bNTI_create_nulls_github.R"
+      },
+      {
+        "contentSize": 10.3671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0b2204613f6d1b6-20240520T235512257",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0b2204613f6d1b6-20240520T235512257",
+        "name": "Stegen_2024_ECA_2020_Sed_flmd.csv"
+      },
+      {
+        "contentSize": 3130.3505859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-098212f8f741f70-20240520T235514740",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-098212f8f741f70-20240520T235514740",
+        "name": "readme_Stegen_2024_ECA_2020_Sed.pdf"
+      },
+      {
+        "contentSize": 0.2373046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-46da5dfa9bdedbe-20240520T235454022",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-46da5dfa9bdedbe-20240520T235454022",
+        "name": "MCD_Randomizations.zip"
+      },
+      {
+        "contentSize": 15.423828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d8f0728b1a31cb7-20240520T235409471",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-d8f0728b1a31cb7-20240520T235409471",
+        "name": "05_ECA_2020_ICR_Null_Figures_Stats_github.r"
+      },
+      {
+        "contentSize": 2.326171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-54c787fcbff0e93-20240520T235420968",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-54c787fcbff0e93-20240520T235420968",
+        "name": "01_fticr_blanks_github.r"
+      },
+      {
+        "contentSize": 5.677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-751257934827cb1-20240520T235413335",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-751257934827cb1-20240520T235413335",
+        "name": "04_FTICR_bNTI_merge_nulls_github.R"
+      },
+      {
+        "contentSize": 10.8505859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8d9db13f3b4aa08-20240520T235509528",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8d9db13f3b4aa08-20240520T235509528",
+        "name": "Stegen_2024_ECA_2020_Sed_dd.csv"
+      },
+      {
+        "contentSize": 17284.5048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8f2f228e1420478-20240520T235454031",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8f2f228e1420478-20240520T235454031",
+        "name": "Processed_Data.zip"
+      },
+      {
+        "contentSize": 1.517578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ad88972afc25664-20240520T235344275",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ad88972afc25664-20240520T235344275",
+        "name": "ECA2_FTICR_BetaDisp.csv"
+      },
+      {
+        "contentSize": 1844.6923828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a879e94ce3c2c6b-20240520T235454026",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a879e94ce3c2c6b-20240520T235454026",
+        "name": "OM_Null_Modeling.zip"
+      },
+      {
+        "contentSize": 38.6025390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9af5f29a726df6c-20240521T185757125",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-9af5f29a726df6c-20240521T185757125",
+        "name": "Data_and_scripts_associated_with_the_manuscript.xml"
+      },
+      {
+        "contentSize": 505.947265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-912dee444208438-20240520T235454013",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-912dee444208438-20240520T235454013",
+        "name": "MCD_bNTI_Outcomes.zip"
+      },
+      {
+        "contentSize": 0.212890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9dcd6f305a0b13e-20240520T235424078",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-9dcd6f305a0b13e-20240520T235424078",
+        "name": "ECA_2020_Sed.Rproj"
+      },
+      {
+        "contentSize": 5.8408203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9677a5e63d2fbe7-20240520T235454008",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9677a5e63d2fbe7-20240520T235454008",
+        "name": "FTICR_Processing_Scripts.zip"
+      },
+      {
+        "contentSize": 46.779296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b516d80752316f7-20240520T235339671",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b516d80752316f7-20240520T235339671",
+        "name": "merged_weights.csv"
+      },
+      {
+        "contentSize": 3462.30078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b719f28aa8e0fd8-20240520T235454019",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b719f28aa8e0fd8-20240520T235454019",
+        "name": "MCD_Dendrograms.zip"
+      },
+      {
+        "contentSize": 0.29296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bbf1df97aa10456-20240520T235454004",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-bbf1df97aa10456-20240520T235454004",
+        "name": "ECA_Sediment_Extractions_Poorly_Calibrated_Samples.zip"
+      },
+      {
+        "contentSize": 0.705078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-addacbad83f9af2-20240520T235333999",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-addacbad83f9af2-20240520T235333999",
+        "name": "VGC_texture.csv"
+      },
+      {
+        "contentSize": 4.8603515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c9e30d9d58da35c-20240520T235418410",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-c9e30d9d58da35c-20240520T235418410",
+        "name": "02_Generate_MCD_github.R"
+      }
+    ]
+  }
+}

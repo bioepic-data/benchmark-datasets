@@ -1,0 +1,299 @@
+{
+  "id": "ess-dive-c2c62c5182fcc73-20230504T211115420066",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1682250",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-c2c62c5182fcc73-20230504T211115420066",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-4c1c2f3e51a9e27-20230407T141847392864",
+  "dateUploaded": "2023-05-04T21:11:17.178Z",
+  "dateModified": "2023-05-04T21:11:19.630Z",
+  "isPublic": true,
+  "citation": "Walker A P; Lu D; Ye M (2020): Leaf-scale carbon assimilation simulated by the multi-assumption architecture & testbed for process sensitivity analysis. ORNL Terrestrial Ecosystem Science SFA. Dataset. doi:10.15485/1682250",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1682250",
+    "name": "Leaf-scale carbon assimilation simulated by the multi-assumption architecture & testbed for process sensitivity analysis",
+    "description": [
+      "Raw and processed output from the Multi-Assumption Architecture & Testbed (MAAT, https://github.com/walkeranthonyp/MAAT, tag: v1.2.1_walker2020; Walker et al., 2018). The dataset contains leaf-scale carbon assimilation data from three MAAT simulations and their post-processing and plotting scripts. Simulation 1, labelled \"FvC_4proc_proc,\" is a four-process, process sensitivity analysis (Dai et al., 2017) of carbon assimilation based on the Farquhar et al. (1980) photosynthesis model, and its variant proposed by Collatz et al. (1991). Simulation 2, labelled \"FvC_4proc_salt,\" is a 14 parameter sensitivity analysis (Saltelli et al., 2010) of carbon assimilation based on the Farquhar and Collatz photosynthesis models. Simulation 3, labelled \"FvC,\" is a factorial combination of the alternative process representations and parameter values presented in those original papers across a factorial combination of incident photosynthetically active radiation (50-2000 \u00b5mol m-2 s-1, in increments of 50) and atmospheric CO2 concentration (50-1500 \u00b5mol m-2 s-1, in increments of 50). Additional scripts/functions for post-processing and plotting are part of the MAAT repository. These data were generated to evaluate and compare the Farquhar and Collatz models of leaf-scale photosynthesis across a range of CO2 and incident light conditions. Analysis of results can be found in Walker et al. (2020). This dataset is comprised of R scripts to process data and produce figures; .RDS files, a binary format specific to R and read with the 'readRDS' function, to store raw MAAT output; R and bash scripts (.bs) that help to run a MAAT simulation, .XML files that are output from MAAT describing a run, and .csv files which contain the calculated sensitivity indexes published in Walker et al. (2020)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0557-5594",
+        "givenName": "Anthony P",
+        "familyName": "Walker",
+        "email": "walkerap@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5162-9843",
+        "givenName": "Dan",
+        "familyName": "Lu",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "lud1@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7080-0578",
+        "givenName": "Ming",
+        "familyName": "Ye",
+        "affiliation": "Florida State University",
+        "email": "mye@fsu.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5162-9843",
+        "givenName": "Dan",
+        "familyName": "Lu",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "lud1@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7080-0578",
+        "givenName": "Ming",
+        "familyName": "Ye",
+        "affiliation": "Florida State University",
+        "email": "mye@fsu.edu"
+      }
+    ],
+    "datePublished": "2020",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS"
+    ],
+    "variableMeasured": [
+      "assimilation",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CARBON",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > PHOTOSYNTHESIS"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020",
+      "endDate": "2020",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0557-5594",
+      "givenName": "Anthony P",
+      "familyName": "Walker",
+      "email": "walkerap@ornl.gov"
+    },
+    "citation": [
+      "Walker, A.P., Johnson, A.L., Rogers, A., Anderson, J., Bridges, R.A., Fisher, R.A., Lu, D., Ricciuto, D.M., Serbin, S.P., Ye, M., 2020. Multi-hypothesis comparison of Farquhar and Collatz photosynthesis models reveals the unexpected influence of empirical assumptions at leaf and global scales. Global Change Biology n/a. https://doi.org/10.1111/gcb.15366",
+      "Collatz, G.J., Ball, J.T., Grivet, C., Berry, J.A., 1991. Physiological and environmental regulation of stomatal conductance, photosynthesis and transpiration - A model that includes a laminar boundary-layer. Agricultural and Forest Meteorology 54, 107\u2013136. https://doi.org/10.1016/0168-1923(91)90002-8",
+      "Farquhar, G.D., von Caemmerer, S., Berry, J.A., 1980. A biochemical model of photosynthetic CO2 assimilation in leaves of C3 species. Planta 149, 78\u201390. https://doi.org/10.1007/BF00386231",
+      "Dai, H., Ye, M., Walker, A.P., Chen, X., 2017. A new process sensitivity index to identify important system processes under process model and parametric uncertainty. Water Resour. Res. 53, 3476\u20133490. https://doi.org/10.1002/2016WR019715",
+      "Saltelli, A., Annoni, P., Azzini, I., Campolongo, F., Ratto, M., Tarantola, S., 2010. Variance based sensitivity analysis of model output. Design and estimator for the total sensitivity index. Computer Physics Communications 181, 259\u2013270. https://doi.org/10.1016/j.cpc.2009.09.018",
+      "Walker, A.P., Ye, M., Lu, D., Kauwe, M.G.D., Gu, L., Medlyn, B.E., Rogers, A., Serbin, S.P., 2018. The multi-assumption architecture and testbed (MAAT v1.0): R code for generating ensembles with dynamic model structure and analysis of epistemic uncertainty from multiple sources. Geoscientific Model Development 11, 3159\u20133185. https://doi.org/10.5194/gmd-11-3159-2018"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1e6d50d3-9532-43fb-a63f-bdcb4350bf0c"
+      },
+      "name": "ORNL Terrestrial Ecosystem Science SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Hanson",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "hansonpj@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The Multi-Assumption Architecture & Testbed (MAAT, https://github.com/walkeranthonyp/MAAT, tag: v1.2.1_walker2020) was used to simulate leaf-scale carbon assimilation (\u00b5mol m-2 s-1) based on the Farquhar et al. (1980) photosynthesis model, and its variant proposed by Collatz et al. (1991). Exact model descriptions can be found in these papers, in Walker et al. (2018), and Walker et al (2020). Raw model output are in RDS format, an R binary to save space, prepended with \"out_\" followed by a label for the simulation (run ID) and the run type (see below), then a label for different outputs within a given run type (where there are more than one). XML files are MAAT output files that describe the run. Bash scripts (suffix .bs) were used to run MAAT. R script files prepended with \"init_MAAT_\" followed by the run ID.\nSimulation 1, run ID: \"FvC_4proc,\" and run type: process sensitivity analysis (SA) (Dai et al., 2017), complete label: \"FvC_proc_proc.\" Simulation 2, run ID: \"FvC_4proc\" and run type: parameter SA (Saltelli et al., 2010), complete label: \"FvC_4proc_salt.\" Simulation 3, run ID: \"FvC_4proc,\" and run type: factorial, complete label: \"FvC.\" Simulation 1 and 2 share the same run ID as the input data are the same, just the ensembles are configured slightly differently based on the SA algorithms (see Walker et al., 2018; 2020 and references therein).",
+      "Raw model output (.RDS files) are then post-processed using the \"analysis_MAAT_FvC_2020.R\" script, and scripts/functions in the MAAT repo, to produce the sensitivity indexes (SIs, proportion of model output variance associated with variability in process or parameter x) in the csv files. SIs are produced for absolute carbon assimilation and the response of carbon assimilation to a change ion CO2 concentration, giving a total of four csv SI files (2 SAs and on two variables, absolute and response of carbon assimilation).\nRaw model output was also processed by R script files prepended with \"plot_\" which also call on some plotting scripts/functions that reside in the MAAT repo."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.7001953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0718caed2c99e18-20201013T160317287",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-0718caed2c99e18-20201013T160317287",
+        "name": "out_FvC_4proc_setup_static.xml"
+      },
+      {
+        "contentSize": 130436.0556640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-16a6a79f6b9dbe3-20201013T160317267",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-16a6a79f6b9dbe3-20201013T160317267",
+        "name": "out_FvC_4proc_proc_3.RDS"
+      },
+      {
+        "contentSize": 0.82421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-234a812a65dc702-20201013T170731644",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-234a812a65dc702-20201013T170731644",
+        "name": "out_FvC_setup_dynamic.xml"
+      },
+      {
+        "contentSize": 1.765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1878ae57d8133e9-20201013T160317284",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-1878ae57d8133e9-20201013T160317284",
+        "name": "out_FvC_4proc_setup_dynamic.xml"
+      },
+      {
+        "contentSize": 152.630859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-39ccef781f987ff-20201013T170755133",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-39ccef781f987ff-20201013T170755133",
+        "name": "FvC_4proc_salt_response.csv"
+      },
+      {
+        "contentSize": 61132.4228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3acf6dd6266424f-20201013T160317277",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-3acf6dd6266424f-20201013T160317277",
+        "name": "out_FvC_4proc_salt_AB.RDS"
+      },
+      {
+        "contentSize": 5556.185546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d57cad2c8a3ef4b-20201013T160317274",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-d57cad2c8a3ef4b-20201013T160317274",
+        "name": "out_FvC_4proc_salt_AB_dataf.RDS"
+      },
+      {
+        "contentSize": 427959.0458984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-68d11bcf69af6d7-20201013T160317280",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-68d11bcf69af6d7-20201013T160317280",
+        "name": "out_FvC_4proc_salt_ABi.RDS"
+      },
+      {
+        "contentSize": 0.8544921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5815fdc2a8e2ae8-20201013T170731653",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-5815fdc2a8e2ae8-20201013T170731653",
+        "name": "out_FvC_setup_static.xml"
+      },
+      {
+        "contentSize": 211.7314453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-820527a309f384f-20201013T170755128",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-820527a309f384f-20201013T170755128",
+        "name": "FvC_4proc_salt_absolute.csv"
+      },
+      {
+        "contentSize": 1.7236328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-837aa9a7a3d221d-20201013T170847964",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-837aa9a7a3d221d-20201013T170847964",
+        "name": "call_slurm_MAAT_ParSA.bs"
+      },
+      {
+        "contentSize": 1.3037109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7da13ad9bcfb873-20201013T170847973",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-7da13ad9bcfb873-20201013T170847973",
+        "name": "slurm_MAAT_ORNLCADES.sbatch"
+      },
+      {
+        "contentSize": 48981.46875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8e243e8ed9c0918-20201013T170731658",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-8e243e8ed9c0918-20201013T170731658",
+        "name": "out_FvC.RDS"
+      },
+      {
+        "contentSize": 0.6923828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ad3a07a9a2e0dd9-20201013T170847978",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-ad3a07a9a2e0dd9-20201013T170847978",
+        "name": "call_run_MAAT.bs"
+      },
+      {
+        "contentSize": 2.7490234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a9ed3c74a954987-20201013T170755123",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a9ed3c74a954987-20201013T170755123",
+        "name": "FvC_4proc_proc_response.csv"
+      },
+      {
+        "contentSize": 3.81640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-910f839c4b46324-20201013T170755117",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-910f839c4b46324-20201013T170755117",
+        "name": "FvC_4proc_proc_absolute.csv"
+      },
+      {
+        "contentSize": 106216.5576171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bde249d4120ae88-20201013T160317252",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-bde249d4120ae88-20201013T160317252",
+        "name": "out_FvC_4proc_proc_1.RDS"
+      },
+      {
+        "contentSize": 7.125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ae67899dfb30fd4-20201013T212601117",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-ae67899dfb30fd4-20201013T212601117",
+        "name": "plot_figure34_R.R"
+      },
+      {
+        "contentSize": 22.4931640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c2c62c5182fcc73-20230504T211115420066",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-c2c62c5182fcc73-20230504T211115420066",
+        "name": "Leaf_scale_carbon_assimilation_simulated_by_the_multi_assumption_architecture_testbed_for_process_sensitivity_analysis.xml"
+      },
+      {
+        "contentSize": 4.044921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cca1f18d4f74b12-20201013T170847992",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-cca1f18d4f74b12-20201013T170847992",
+        "name": "init_MAAT_FvC.R"
+      },
+      {
+        "contentSize": 1.7236328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f56838f6b4efb59-20201013T170847969",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-f56838f6b4efb59-20201013T170847969",
+        "name": "call_slurm_MAAT_ProcSA.bs"
+      },
+      {
+        "contentSize": 130877.466796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f3c75b42f16a3eb-20201013T160317263",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-f3c75b42f16a3eb-20201013T160317263",
+        "name": "out_FvC_4proc_proc_2.RDS"
+      },
+      {
+        "contentSize": 6.8955078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fb82c853e8e97c0-20201013T170847997",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-fb82c853e8e97c0-20201013T170847997",
+        "name": "analysis_MAAT_FvC_2020.R"
+      },
+      {
+        "contentSize": 130413.1484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f998ea774d53a0e-20201013T160317270",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-f998ea774d53a0e-20201013T160317270",
+        "name": "out_FvC_4proc_proc_4.RDS"
+      },
+      {
+        "contentSize": 6.8349609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e53c62b6e339c3d-20201013T212601124",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-e53c62b6e339c3d-20201013T212601124",
+        "name": "plot_figure2.R"
+      }
+    ]
+  }
+}

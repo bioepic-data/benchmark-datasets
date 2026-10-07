@@ -1,0 +1,218 @@
+{
+  "id": "ess-dive-175aea44df742b2-20230407T144541607510",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1922517",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-175aea44df742b2-20230407T144541607510",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-4010d446f0ad8e9-20230406T141105998999",
+  "dateUploaded": "2023-04-07T14:45:42.551Z",
+  "dateModified": "2023-04-07T14:45:45.188Z",
+  "isPublic": true,
+  "citation": "Schwenk J; Piliouras A; Rowland J (2023): Observations and Machine-Learned Models of Near-Surface Permafrost along the Koyukuk River, Alaska, USA. Incorporating the Hydrological Controls on Carbon Cycling in Floodplain Ecosystems into Earth System Models (ESMs). Dataset. doi:10.15485/1922517",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1922517",
+    "name": "Observations and Machine-Learned Models of Near-Surface Permafrost along the Koyukuk River, Alaska, USA",
+    "description": [
+      "This dataset contains GeoTIFs (raster) and GeoPackages (vector) that map observations of near-surface permafrost and not-permafrost from a field campaign conducted near the village of Huslia, AK along the Koyukuk River and its floodplain in July 2018. These data were collected as part of a campaign to understand if and how permafrost impacts riverbank erosion. This problem cannot be assessed without knowing where permafrost exists. Permafrost was observed via frost probing (to a maximum depth of one meter), coring (to a maximum depth of two meters) and bank/bar excavations. An additional boat survey was performed wherein expert (Joel Rowland) judgment assessed the presence or absence of distinctive permafrost features (e.g., overhanging tundra mats, thermoerosional niching, ice wedges, active drainage of ice melt from soils). This dataset also contains the input features and results of two machine learning models (random forest and convolutional neural network) that extrapolate the observations to the full floodplain that may be useful for building, testing, or validating other machine-learned permafrost models. Permafrost data are provided as georasters of the same shape and geovectors (polylines/polygons) and are all projected into EPSG:32605. All data can be visualized with a GIS (QGIS, ArcGIS, etc.)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5803-9686",
+        "givenName": "Jon",
+        "familyName": "Schwenk",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jschwenk@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6336-0762",
+        "givenName": "Anastasia",
+        "familyName": "Piliouras",
+        "affiliation": "Pennsylvania State University",
+        "email": "apiliouras@psu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6308-8976",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0762-4719",
+        "givenName": "Madison",
+        "familyName": "Douglas",
+        "affiliation": "California Institute of Technology",
+        "email": "mmdougla@caltech.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5701-0504",
+        "givenName": "Michael",
+        "familyName": "Lamb",
+        "affiliation": "California Institute of Technology",
+        "email": "mpl@caltech.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "A Joshua",
+        "familyName": "West",
+        "affiliation": "University of Southern California",
+        "email": "joshwest@usc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Gen",
+        "familyName": "Li",
+        "affiliation": "University of California Santa Barbara",
+        "email": "ligen@ucsb.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1693-4142",
+        "givenName": "Preston",
+        "familyName": "Kemeny",
+        "affiliation": "University of Chicago",
+        "email": "pkemeny@uchicago.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2552-0083",
+        "givenName": "Austin",
+        "familyName": "Chadwick",
+        "affiliation": "University of California Santa Barbara",
+        "email": "achadwick@ucsb.edu"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "permafrost",
+      "floodplains",
+      "riverbank erosion",
+      "machine learning",
+      "training data"
+    ],
+    "variableMeasured": [
+      "permafrost presence",
+      "multispectral image",
+      "surface water",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER > LAND USE/LAND COVER CLASSIFICATION > VEGETATION INDEX > NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Koyukuk River in central Alaska, USA. Observations were upstream and downstream from the approximate central location of the village of Huslia, AK.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.9661,
+            "longitude": -156.9509
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.3482,
+            "longitude": -155.9315
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100008902",
+        "name": "U.S. DOE > Laboratory Directed Research and Development (LDRD) > Los Alamos National Laboratory"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-06-27",
+      "endDate": "2018-07-07",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5803-9686",
+      "givenName": "Jon",
+      "familyName": "Schwenk",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "jschwenk@lanl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "94e43119-7657-42ce-9428-6caf40c35493"
+      },
+      "name": "Incorporating the Hydrological Controls on Carbon Cycling in Floodplain Ecosystems into Earth System Models (ESMs)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "See the provided technical documentation for details of observation and preparation methods."
+    ],
+    "distribution": [
+      {
+        "contentSize": 509.359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-16bffebc15c4bb4-20230126T002341874",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-16bffebc15c4bb4-20230126T002341874",
+        "name": "permafrost_georaster.zip"
+      },
+      {
+        "contentSize": 10.0478515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-175aea44df742b2-20230407T144541607510",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-175aea44df742b2-20230407T144541607510",
+        "name": "Observations_and_Machine_Learned_Models_of_Near_Surface_Permafrost_along_the_Koyukuk_River_Alaska_USA.xml"
+      },
+      {
+        "contentSize": 134.3642578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-39ff7d33750d4d5-20230126T000530294",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-39ff7d33750d4d5-20230126T000530294",
+        "name": "Technical_documentation.pdf"
+      },
+      {
+        "contentSize": 10471412.712890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9c84fae6d0c21ce-20230131T012252340036",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9c84fae6d0c21ce-20230131T012252340036",
+        "name": "features.zip"
+      },
+      {
+        "contentSize": 64898.1611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b7c056983d927d3-20230126T002341869",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b7c056983d927d3-20230126T002341869",
+        "name": "modeled.zip"
+      },
+      {
+        "contentSize": 69.474609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c9285e2d56e5941-20230126T002341877",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c9285e2d56e5941-20230126T002341877",
+        "name": "permafrost_geovector.zip"
+      }
+    ]
+  }
+}

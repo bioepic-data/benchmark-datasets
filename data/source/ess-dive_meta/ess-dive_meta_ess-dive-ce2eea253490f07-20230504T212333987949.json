@@ -1,0 +1,440 @@
+{
+  "id": "ess-dive-ce2eea253490f07-20230504T212333987949",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1866606",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-ce2eea253490f07-20230504T212333987949",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-e1a164484a28e03-20230407T151640808222",
+  "dateUploaded": "2023-05-04T21:23:35.332Z",
+  "dateModified": "2023-05-04T21:23:41.890Z",
+  "isPublic": true,
+  "citation": "Crystal-Ornelas R; Varadharajan C; Beilsmith K; Bond-Lamberty B; Boye K; Burrus M; Cholia S; Christianson D S; Crow M; Damerow J; Ely K S; Goldman A E; Heinz S; Hendrix V C; Kakalia Z; Mathes K; O'Brien F; O'Ryan D; Pennington S C; Robles E; Rogers A; Simmonds M; Velliquette T; Weisenhorn P; Welch J N; Whitenack K; Agarwal D (2022): Data from: \u201cEnabling FAIR data in Earth and environmental science with community-centric (meta)data reporting formats\u201d. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). Dataset. doi:10.15485/1866606",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1866606",
+    "name": "Data from: \u201cEnabling FAIR data in Earth and environmental science with community-centric (meta)data reporting formats\u201d",
+    "description": [
+      "This dataset contains supplementary information for a manuscript describing the ESS-DIVE (Environmental Systems Science Data Infrastructure for a Virtual Ecosystem) data repository's community data and metadata reporting formats. The purpose of creating the ESS-DIVE reporting formats was to provide guidelines for formatting some of the diverse data types that can be found in the ESS-DIVE repository. The 6 teams of community partners who developed the reporting formats included scientists and engineers from across the Department of Energy National Lab network. Additionally, during the development process, 247 individuals representing 128 institutions provided input on the formats.",
+      "The primary files in this dataset are 10 data and metadata crosswalk for ESS-DIVE\u2019s reporting formats (all files ending in _crosswalk.csv). The crosswalks compare elements used in each of the reporting formats to other related standards and data resources (e.g., repositories, datasets, data systems).",
+      "This dataset also contains additional files recommended by ESS-DIVE\u2019s file-level metadata reporting format. Each data file has an associated dictionary (files ending in _dd.csv) which provide a brief description of each standard or data resource consulted in the data reporting format development process. The flmd.csv file describes each file contained within the dataset."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6339-1139",
+        "givenName": "Robert",
+        "familyName": "Crystal-Ornelas",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "rcrystalornelas@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2778-299X",
+        "givenName": "Kathleen",
+        "familyName": "Beilsmith",
+        "affiliation": "Argonne National Laboratory",
+        "email": "kbeilsmith@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9525-4633",
+        "givenName": "Ben",
+        "familyName": "Bond-Lamberty",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "BondLamberty@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2087-607X",
+        "givenName": "Kristin",
+        "familyName": "Boye",
+        "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+        "email": "kboye@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2296-4698",
+        "givenName": "Madison",
+        "familyName": "Burrus",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mburrus@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4775-8201",
+        "givenName": "Shreyas",
+        "familyName": "Cholia",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "scholia@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8663-7701",
+        "givenName": "Danielle S.",
+        "familyName": "Christianson",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "DSChristianson@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7260-807X",
+        "givenName": "Michael",
+        "familyName": "Crow",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "crowmc@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2601-5043",
+        "givenName": "Joan",
+        "familyName": "Damerow",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "JoanDamerow@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3915-001X",
+        "givenName": "Kim S.",
+        "familyName": "Ely",
+        "affiliation": "Brookhaven National Lab",
+        "email": "kely@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Amy.Goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4150-2686",
+        "givenName": "Susan",
+        "familyName": "Heinz",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "heinzsl@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9061-8952",
+        "givenName": "Valerie C.",
+        "familyName": "Hendrix",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "vchendrix@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9045-1160",
+        "givenName": "Zarine",
+        "familyName": "Kakalia",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "zarinekakalia@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kayla",
+        "familyName": "Mathes",
+        "affiliation": "Virginia Commonwealth University",
+        "email": "matheskc@vcu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Fianna",
+        "familyName": "O'Brien",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "flobrien@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1793-9781",
+        "givenName": "Dylan",
+        "familyName": "O'Ryan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "dporyan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2685-1092",
+        "givenName": "Stephanie C.",
+        "familyName": "Pennington",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "stephanie.pennington@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3720-6566",
+        "givenName": "Emily",
+        "familyName": "Robles",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "emilyarobles@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9262-7430",
+        "givenName": "Alistair",
+        "familyName": "Rogers",
+        "affiliation": "Brookhaven National Lab",
+        "email": "arogers@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7796-7154",
+        "givenName": "Maegen",
+        "familyName": "Simmonds",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "maegen.simmonds@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9855-5191",
+        "givenName": "Terri",
+        "familyName": "Velliquette",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "velliquettet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1844-5502",
+        "givenName": "Pamela",
+        "familyName": "Weisenhorn",
+        "affiliation": "Argonne National Laboratory",
+        "email": "pweisenhorn@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5987-6387",
+        "givenName": "Jessica Nicole",
+        "familyName": "Welch",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "welchjn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Karen",
+        "familyName": "Whitenack",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "kwhitenack@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5045-2396",
+        "givenName": "Deb",
+        "familyName": "Agarwal",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "daagarwal@lbl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "data standards",
+      "metadata",
+      "FAIR data",
+      "open science",
+      "data repository"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6339-1139",
+      "givenName": "Robert",
+      "familyName": "Crystal-Ornelas",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "rcrystalornelas@lbl.gov"
+    },
+    "citation": [
+      "The most up-to-date documentation and templates for each of ESS-DIVE\u2019s data and metadata reporting formats can be found on our community GitHub space: https://github.com/ess-dive-community. Paper related to this dataset: Crystal-Ornelas et al. (In Revision). Enabling FAIR data in Earth and environmental science with community-centric (meta)data reporting formats. Published datasets containing documentation for each of the reporting formats: Agarwal, D. et al. ESS-DIVE Reporting Format for Dataset Package Metadata. (2022)doi:10.15485/1866026. Velliquette, T. et al. ESS-DIVE Reporting Format for File-level Metadata. (2021) doi:10.15485/1734840. Velliquette, T. et al. ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. (2021) doi:10.15485/1734841. Damerow, J. et al. ESS-DIVE global sample numbers and metadata reporting format for Environmental Systems Science (IGSN-ESS). (2020) doi:10.15485/1660470. Simmonds, M. B. et al. ESS-DIVE guidelines for archiving terrestrial model data. (2021) doi:10.15485/1813868. Crystal-Ornelas, R. et al. ESS-DIVE Reporting Format for Location Metadata. (2022) doi:10.15485/1865730. Weisenhorn, P. & Beilsmith, K. ESS-DIVE Reporting Format for Amplicon Abundance Tables. (2022) doi:10.15485/1865729. Ely, K. S., Rogers, A. & Crystal-Ornelas, R. ESS-DIVE reporting format for leaf-level gas exchange data and metadata. (2020) doi:10.15485/1659484.Bond-Lamberty, B., Christianson, D. S., Crystal-Ornelas, R., Mathes, K. & Pennington, S. C. ESS-DIVE reporting format for field measurements of soil respiration. (2021) doi:10.15485/1798520. Boye, K. et al. ESS-DIVE Reporting Format for Sample-based Water and Soil Chemistry Measurements. (2022) doi:10.15485/1865731 . Goldman, A. E., Ren, H., Torgeson, J. & Zhou, H. ESS-DIVE Reporting Format for Hydrologic Monitoring Data and Metadata. (2021) doi:10.15485/1822940.Peer-reviewed papers related to the reporting formats. Simmonds, M. B., Riley, W. J., Agarwal, D. A., Chen, X., Cholia, S., Crystal-Ornelas, R., et al. (2022). Guidelines for Publicly Archiving Terrestrial Model Data to Enhance Usability, Intercomparison, and Synthesis. Data Science Journal, 21(1). https://doi.org/10.5334/dsj-2022-003. Bond-Lamberty, B., Christianson, D. S., Crystal-Ornelas, R., Mathes, K., & Pennington, S. C. (2021). A reporting format for field measurements of soil respiration. Ecological Informatics, 101280. Damerow, J., Varadharajan, C., Boye, K., Brodie, E. L., Burrus, M., Chadwick, D. K., et al. (2021). Sample identifiers and metadata to support data management and reuse in multidisciplinary ecosystem sciences. Data Science Journal, 20, 1\u201319. Ely, K. S., Rogers, A., Agarwal, D. A., Ainsworth, E. A., Albert, L., Ali, A., et al. (2021). A reporting format for leaf-level gas exchange data and metadata. Ecological Informatics, 101232."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "f5bb4f8b-224d-4d6a-9040-ae5a4a2959e6"
+      },
+      "name": "Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "daagarwal@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Please see Crystal-Ornelas et al. (In Revision) for details on how each reporting format crosswalk was constructed.\nIn general, each team developing the 11 ESS-DIVE (meta)data reporting formats followed a community centric approach to developing the data reporting formats. We note there are only 10 crosswalks because the model data archiving guidelines are such that there was no terminology to crosswalk with other existing data standards. The goal of creating a crosswalk for each reporting format was to ensure terminology used throughout the formats, as much as possible, included or built from terms used in other existing data standards and data resources. The crosswalks can be used to show how terms used in the ESS-DIVE reporting formats are related to terms used in other standards."
+    ],
+    "distribution": [
+      {
+        "contentSize": 4.48046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-00cd5c2ca1336b0-20220624T205624909",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-00cd5c2ca1336b0-20220624T205624909",
+        "name": "File_1_dataset_metadata_crosswalk.csv"
+      },
+      {
+        "contentSize": 1.2333984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2476b87195fffe3-20220624T205624915",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2476b87195fffe3-20220624T205624915",
+        "name": "File_1_dataset_metadata_crosswalk_dd.csv"
+      },
+      {
+        "contentSize": 4.9814453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-19c3965dfdd9a96-20220624T205624900",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-19c3965dfdd9a96-20220624T205624900",
+        "name": "File_2_file_level_metadata_crosswalk.csv"
+      },
+      {
+        "contentSize": 0.86328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1252b5c5e1a8894-20220624T205624862",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1252b5c5e1a8894-20220624T205624862",
+        "name": "File_7_leaf_level_gas_exchange_crosswalk_dd.csv"
+      },
+      {
+        "contentSize": 0.5966796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3de29eea51301f0-20220624T205624866",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3de29eea51301f0-20220624T205624866",
+        "name": "File_6_amplicon_abundance_tables_crosswalk.csv"
+      },
+      {
+        "contentSize": 8.556640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-41faa31600de05c-20220624T205624891",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-41faa31600de05c-20220624T205624891",
+        "name": "File_3_csv_guidelines_crosswalk.csv"
+      },
+      {
+        "contentSize": 4.158203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-46e9e13a770cdc0-20220624T205624896",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-46e9e13a770cdc0-20220624T205624896",
+        "name": "File_3_Comma_seperated_values_crosswalk_dd.csv"
+      },
+      {
+        "contentSize": 12.2568359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d7be1b55d7e1205-20220624T205624883",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d7be1b55d7e1205-20220624T205624883",
+        "name": "File_4_sampleID_crosswalk.csv"
+      },
+      {
+        "contentSize": 8.5595703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e91d5c0e538059d-20220624T205624874",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e91d5c0e538059d-20220624T205624874",
+        "name": "File_5_location_metadata_crosswalk.csv"
+      },
+      {
+        "contentSize": 1.3154296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-55a422c8da53111-20220624T205624905",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-55a422c8da53111-20220624T205624905",
+        "name": "File_2_file_level_metadata_crosswalk_dd.csv"
+      },
+      {
+        "contentSize": 1.3173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-651666e0bc02356-20220624T205624839",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-651666e0bc02356-20220624T205624839",
+        "name": "File_10_hydrologic_monitoring_crosswalk_dd.csv"
+      },
+      {
+        "contentSize": 1.99609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-65b789ee17ccbfb-20220624T205624853",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-65b789ee17ccbfb-20220624T205624853",
+        "name": "File_8_soil_respiration_crosswalk_dd.csv"
+      },
+      {
+        "contentSize": 1.1748046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4ec4298176e8c7e-20220624T205624846",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4ec4298176e8c7e-20220624T205624846",
+        "name": "File_9_water_and_soil_chemistry_crosswalk_dd.csv"
+      },
+      {
+        "contentSize": 0.4169921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7869d5d901db23b-20220624T205624870",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7869d5d901db23b-20220624T205624870",
+        "name": "File_6_amplicon_abundance_tables_crosswalk_dd.csv"
+      },
+      {
+        "contentSize": 13.44921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8021de52597c7af-20220624T205624842",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8021de52597c7af-20220624T205624842",
+        "name": "File_9_water_and_soil_chemistry_crosswalk.csv"
+      },
+      {
+        "contentSize": 1.181640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6cd2f998055dcd6-20220624T205624849",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6cd2f998055dcd6-20220624T205624849",
+        "name": "File_8_soil_respiration_crosswalk.csv"
+      },
+      {
+        "contentSize": 3.705078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a52e33d886b6006-20220624T205624887",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a52e33d886b6006-20220624T205624887",
+        "name": "File_4_sampleID_crosswalk_dd.csv"
+      },
+      {
+        "contentSize": 3.4736328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9334c0dd062fd65-20220624T205624823",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9334c0dd062fd65-20220624T205624823",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 23.11328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ce2eea253490f07-20230504T212333987949",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-ce2eea253490f07-20230504T212333987949",
+        "name": "Data_from_Enabling_FAIR_data_in_Earth_and_environmental_science_with_community_centric_meta_data_reporting_formats_.xml"
+      },
+      {
+        "contentSize": 4.8466796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c91db699ef27ab1-20220624T205624879",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c91db699ef27ab1-20220624T205624879",
+        "name": "File_5_location_metadata_crosswalk_dd.csv"
+      },
+      {
+        "contentSize": 3.9677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c9fb2dcb7ecc110-20220624T205624835",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c9fb2dcb7ecc110-20220624T205624835",
+        "name": "File_10_hydrologic_monitoring_crosswalk.csv"
+      },
+      {
+        "contentSize": 9.91015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f5a68f8937f09b2-20220624T205624857",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f5a68f8937f09b2-20220624T205624857",
+        "name": "File_7_leaf_level_gas_exchange_crosswalk.csv"
+      }
+    ]
+  }
+}

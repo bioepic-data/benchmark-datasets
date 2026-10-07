@@ -1,0 +1,446 @@
+{
+  "id": "ess-dive-ebdc2764b39e2a3-20250818T174055762",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2583945",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-ebdc2764b39e2a3-20250818T174055762",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ed03475166e622b-20250814T160829933",
+  "dateUploaded": "2025-08-18T17:40:57.744Z",
+  "dateModified": "2025-08-27T00:04:38.699Z",
+  "isPublic": true,
+  "citation": "Laan M; Delgado D; Forbes B; Garayburu-Caruso V A; Goldman A E; McKever S A; Renteria L; Rod K A; Stegen J C; Consortium T W (2025): WHONDRS laboratory time series moisture manipulative experiment from soil core layers across eastern contiguous US: time series aerobic respiration, geochemistry, and aggregates. Early Career Research Program: Watershed Perturbation-Response Traits Derived Through Ecological Theory - Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS). Dataset. doi:10.15485/2583945",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2583945",
+    "name": "WHONDRS laboratory time series moisture manipulative experiment from soil core layers across eastern contiguous US: time series aerobic respiration, geochemistry, and aggregates",
+    "description": [
+      "This dataset supports a broader study examining the effects of wetting and drying on soil layers across the eastern contiguous United States (CONUS). The dataset provides data generated from a laboratory moisture manipulation experiment. The contents include time series aerobic respiration and moisture; dissolved oxygen; sediment geochemistry data; and field metadata.",
+      "Samples were collected as part of a collaboration between WHONDRS (Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems; https://whondrs.pnnl.gov) and MONet (Molecular Observation Network; https://www.emsl.pnnl.gov/monet). The field samples (soil cores) were labeled as MEL_##_COR and subsequent subsamples begin with MEL_##. Additional subsamples were taken for the laboratory experiment and were labeled as EL_##. The labels from the MEL field samples and the EL subsamples can be mapped directly based on the digits following the prefix and underscore (i.e., EL_01 is a subsample from MEL_01). See the critical details section below for more details on sample naming and experimental design.",
+      "For details on how to navigate this data package, see this infographic from the River Corridor SFA https://data.ess-dive.lbl.gov/portals/PNNLRiverCorridorSFA/About.",
+      "In addition to this readme, this data package also includes a file-level metadata (FLMD) file that describes each file and a data dictionary (DD) that describes all column/row headers and variable definitions.",
+      "This dataset is comprised of (1) a folder containing environmental context photos; (2) file-level metadata; (3) data dictionary; (4) field metadata; (5) readme; (6) international generic sample number (IGSN) mapping file; and (7) a subfolder with soil sample data from field samples and the incubation experiment. The sample data subfolder contains (1) effect size; (2) gravimetric moisture from field samples and incubation experiment; (3) respiration rates, raw dissolved oxygen values, and plots; (4) specific conductance, pH, and temperature from the incubation; (5) soil aggregates; (6) a summary containing median values of each data type for each treatment (wet and dry) in the incubation; (7) a summary containing averages for each data type of each soil layer; and (8) methods codes. All files are .csv, .pdf, .jpeg, or .jpg."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0256-3822",
+        "givenName": "Maggi",
+        "familyName": "Laan",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "maggi.laan@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6652-6775",
+        "givenName": "Dillman",
+        "familyName": "Delgado",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "dillman.delgadoparedes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2870-7713",
+        "givenName": "Sophia A.",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "sophia.mckever@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1818-9094",
+        "givenName": "Kenton A.",
+        "familyName": "Rod",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "kenton.rod@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "The",
+        "familyName": "WHONDRS Consortium",
+        "email": "WHONDRS@pnnl.gov"
+      }
+    ],
+    "datePublished": "2025-07-25",
+    "keywords": [
+      "River corridor",
+      "Soil core",
+      "Freshwater",
+      "Hydrology",
+      "Hydraulic exchange",
+      "River",
+      "Stream",
+      "Watershed",
+      "Catchment",
+      "Biogeochemistry",
+      "Hydrobiogeochemical function",
+      "Hyporheic zone",
+      "ICON",
+      "Intermittent",
+      "Non-perennial",
+      "Wetting and drying",
+      "Manipulative laboratory experiment",
+      "Moisture",
+      "Intermittent Rivers and Ephemeral Streams",
+      "IRES",
+      "Variably Inundated Ecosystem",
+      "VIE",
+      "ESS-DIVE Sample ID and Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format",
+      "ESS-DIVE Location Metadata Reporting Format",
+      "Integrated",
+      "Coordinated",
+      "Open",
+      "Networked"
+    ],
+    "variableMeasured": [
+      "Aerobic respiration rate",
+      "Gravimetric moisture",
+      "Effect size",
+      "Specific conductance",
+      "Temperature",
+      "pH",
+      "Vegetation",
+      "Canopy cover",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > GASES > DISSOLVED OXYGEN",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > CONDUCTIVITY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > WATER TEMPERATURE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > pH"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "MEL_02, Edgar W. Schmidt, Scott County, Missouri",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.0588,
+            "longitude": -89.4955
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.0588,
+            "longitude": -89.4955
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MEL_07, Schuette, Polk County, Missouri",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.5249,
+            "longitude": -93.3406
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.5249,
+            "longitude": -93.3406
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MEL_08, La Petite Gemme, Polk County, Missouri",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.3633,
+            "longitude": -94.1496
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.3633,
+            "longitude": -94.1496
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MEL_13, 15_268_2A, Gainesville, Florida",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 29.8973,
+            "longitude": -82.3164
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 29.8973,
+            "longitude": -82.3164
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MEL_14, 15_268_1B, Gainesville, Florida",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 29.8975,
+            "longitude": -82.316
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 29.8975,
+            "longitude": -82.316
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MEL_15, Hillslope 1 upland, Akron, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8547,
+            "longitude": -87.6683
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8547,
+            "longitude": -87.6683
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MEL_16, Hillslope 1 transition, Akron, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8547,
+            "longitude": -87.6683
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8547,
+            "longitude": -87.6683
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MEL_17, Hillslope 2 Upland, Akron, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8518,
+            "longitude": -87.6657
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8518,
+            "longitude": -87.6657
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MEL_19, Smithsonian Environmental Research Center Hog Island, Mayo, Maryland",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8789,
+            "longitude": -76.5517
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8789,
+            "longitude": -76.5517
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MEL_20, Smithsonian Environmental Research Center GCreW Upland, Mayo, Maryland",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8745,
+            "longitude": -76.5517
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8745,
+            "longitude": -76.5517
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #74193"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2024-02-09",
+      "endDate": "2024-09-03",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9135-7424",
+      "givenName": "James C.",
+      "familyName": "Stegen",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "james.stegen@pnnl.gov"
+    },
+    "citation": [
+      "Dane, J.H., G.C. Topp. 2002. Aggregate stability and size determination, in Methods of Soil Analysis Part4 \u2013 Physical Methods. Soil Science Society of America, Inc. Madison, Wisconsin, USAKaufman MH, Torgeson J, Stegen JC (2023) Metabolic multireactor: Practical considerations for using simple oxygen sensing optodes for high-throughput batch reactor metabolism experiments. PLoS ONE 18(7): e0284256. https://doi.org/10.1371/journal.pone.0284256",
+      "Boye, K., Crystal-Ornelas, R., O\u2019Ryan, D., Goldman, A. E., Damerow, J., Varadharajan, C., & Agarwal, D. (2022). ESS-DIVE Reporting Format for Sample-based Water and Soil Chemistry Measurements. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1865731",
+      "Crystal-Ornelas R; O'Ryan D; Christianson D; Hendrix V C; Agarwal D; Varadharajan C (2022): ESS-DIVE Reporting Format for Location Metadata. ESS-DIVE repository. Dataset. doi: 10.15485/1865730",
+      "Damerow J ; Varadharajan C ; Boye K ; Brodie E ; Burrus M ; Chadwick D ; Cholia S ; Crystal-Ornelas R ; Elbashandy H ; Eloy Alves R ; Ely K ; Goldman A ; Hendrix V ; Jones C ; Jones M ; Kakalia Z ; Kemner K ; Kersting A ; Maher K ; Merino N ; O'Brien F ; Perzan Z ; Robles E ; Snavely C ; Sorensen P ; Stegen J ; Weisenhorn P ; Whitenack K ; Zavarin M ; Agarwal D (2020): Sample Identifiers and Metadata Reporting Format for Environmental Systems Science. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/1660470",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734841",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1fc0556d-c136-4e76-8f1d-f97534066fd5"
+      },
+      "name": "Early Career Research Program: Watershed Perturbation-Response Traits Derived Through Ecological Theory - Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS)",
+      "member": {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "Stegen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "james.stegen@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The WHONDRS consortium in the author list is comprised of Armando Bravo (Donald Danforth Plant Science Center), Alexis Jackson (University of Florida), Corianne Tatariw (Rowan University), and Patrick Megonigal (Smithsonian Environmental Research Center).",
+      "Samples were collected across the contiguous United States via MONet (https://www.emsl.pnnl.gov/monet) crowdsourced sampling. Site metadata, including general environmental information, were manually recorded in the field. See sampling protocol at https://github.com/EMSL-MONet/MONet-Protocols- for details on sample collection. Soil cores were taken and shipped to Pacific Northwest National Laboratory. Soil cores were separated into the higher layer (0-10cm) and lower layer (20-30cm) for analysis. Soil subsamples were either kept constantly inundated or allowed to air-dry over 21 days while being shaken to maintain aerobic conditions. After 21 days, a sediment aerobic respiration rate was calculated from time series dissolved oxygen data measured from laboratory sediment/water incubations using a non-invasive, multireactor method using customized oxygen optodes (Kaufman et al.; 2023). For details regarding laboratory and instrument methods, see the alphanumeric methods codes located in the header rows of the chemistry data csv file and their associated definitions in WHONDRS_MEL_Methods_Codes.csv. Data formats follow ESS-DIVE Reporting Formats.",
+      "This section provides a list of source material physical samples used in this dataset. More information describing the samples is provided in the sample landing pages (links below) and the dataset file that ends in 'IGSN-Mapping.csv'.\nSample Name IGSN PID IGSN URL\nMEL_02 IGSN:10.58052/IEWDR0242 https://doi.org/10.58052/IEWDR0242\nMEL_07 IGSN:10.58052/IEWDR0243 https://doi.org/10.58052/IEWDR0243\nMEL_08 IGSN:10.58052/IEWDR0244 https://doi.org/10.58052/IEWDR0244\nMEL_13 IGSN:10.58052/IEWDR0245 https://doi.org/10.58052/IEWDR0245\nMEL_14 IGSN:10.58052/IEWDR0246 https://doi.org/10.58052/IEWDR0246\nMEL_15 IGSN:10.58052/IEWDR0247 https://doi.org/10.58052/IEWDR0247\nMEL_16 IGSN:10.58052/IEWDR0248 https://doi.org/10.58052/IEWDR0248\nMEL_17 IGSN:10.58052/IEWDR0249 https://doi.org/10.58052/IEWDR0249\nMEL_19 IGSN:10.58052/IEWDR024A https://doi.org/10.58052/IEWDR024A\nMEL_20 IGSN:10.58052/IEWDR024B https://doi.org/10.58052/IEWDR024B"
+    ],
+    "distribution": [
+      {
+        "contentSize": 5.330078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-49609da228bf3fd-20250730T193624000",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-49609da228bf3fd-20250730T193624000",
+        "name": "WHONDRS_MEL_Metadata_IGSN_Mapping.csv"
+      },
+      {
+        "contentSize": 21.2919921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ebdc2764b39e2a3-20250818T174055762",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-ebdc2764b39e2a3-20250818T174055762",
+        "name": "WHONDRS_laboratory_time_series_moisture.xml"
+      },
+      {
+        "contentSize": 36.55859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e82963210d42f0c-20250730T193458508",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e82963210d42f0c-20250730T193458508",
+        "name": "WHONDRS_MEL_dd.csv"
+      },
+      {
+        "contentSize": 80003.220703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4af8628f21c1f7c-20250730T193650853",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4af8628f21c1f7c-20250730T193650853",
+        "name": "WHONDRS_MEL_Field_Photos.zip"
+      },
+      {
+        "contentSize": 3.6484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6b6a1003b1022f6-20250730T193618099",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6b6a1003b1022f6-20250730T193618099",
+        "name": "WHONDRS_MEL_Field_Metadata.csv"
+      },
+      {
+        "contentSize": 1227.9228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-beccdd003a067ea-20250730T193447119",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-beccdd003a067ea-20250730T193447119",
+        "name": "readme_WHONDRS_MEL.pdf"
+      },
+      {
+        "contentSize": 10.8154296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-aeb2e74d31b596b-20250730T193458512",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-aeb2e74d31b596b-20250730T193458512",
+        "name": "WHONDRS_MEL_flmd.csv"
+      },
+      {
+        "contentSize": 3273.96484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ca2092f5d5ad05b-20250730T193630347",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ca2092f5d5ad05b-20250730T193630347",
+        "name": "WHONDRS_MEL_Sample_Data.zip"
+      }
+    ]
+  }
+}

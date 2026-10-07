@@ -1,0 +1,170 @@
+{
+  "id": "ess-dive-5b15d0c64a8a65c-20260205T182743793",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2530170",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-5b15d0c64a8a65c-20260205T182743793",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-5b15d0c64a8a65c-20260205T181934920",
+  "dateUploaded": "2026-02-05T18:27:45.687Z",
+  "dateModified": "2026-02-11T00:00:49.625Z",
+  "isPublic": true,
+  "citation": "Thornton P; Huang X; Zhang Y; Fiorella R; Bennett K; Painter S (2026): NGEE Arctic Integrated Modeling (IM2): Improved subgrid hillslope hydrologic connectivity. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2530170",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2530170",
+    "name": "NGEE Arctic Integrated Modeling (IM2): Improved subgrid hillslope hydrologic connectivity",
+    "description": [
+      "This data product represents the integration of new code capability for arctic tundra hillslope hydrologic processes into the Energy Exascale Earth System Model (E3SM), through the E3SM Land Model (ELM) component. This code integration is the result of collaborative effort between the NGEE Arctic project and the E3SM project. The current ELM represents water movement primarily through vertical processes, such as precipitation, canopy interception, evaporation, infiltration, and soil water movement. Lateral water movement\u2014such as surface runoff, subsurface flow, and river transport\u2014plays a significant role in the hydrological cycle, especially in regions with varied topography. While E3SM includes a runoff routing component representing water transport in the river network, the lateral transport of water at the subgrid scale within the land model has previously not been taken into account. With the recent development of topographic units within the ELM subgrid data structure, there is an opportunity to simulate hillslope hydrologic connectivity by introducing water transport along topographic gradients. We expect that more realistic representation of hillslope hydrologic processes will lead to improved predictions of both soil water content and river network flows. Lateral transport of water at and near the surface is represented as a sub-grid process in this new code development. Water is tracked as it moves from higher to lower elevations within a gridcell. This capability uses the nested hierarchical sub-grid scheme within ELM to connect water fluxes from sub-grid elements with higher elevation to those with lower elevation.",
+      "This data record consists of a single document (pdf format) that describes the theoretical basis for the hillslope hydrology processes added to ELM, and describes the modifications made to the ELM code. The Methods section of this metadata record includes a link to the public E3SM code repository where the exact code modifications as integrated in E3SM can be accessed.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "NGA562"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4759-5158",
+        "givenName": "Peter",
+        "familyName": "Thornton",
+        "email": "thorntonpe@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9317-0567",
+        "givenName": "Xiang",
+        "familyName": "Huang",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "xhuang@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9263-8428",
+        "givenName": "Yu",
+        "familyName": "Zhang",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "yuzhang@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0824-4777",
+        "givenName": "Richard",
+        "familyName": "Fiorella",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "rfiorella@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2433-8607",
+        "givenName": "Katrina",
+        "familyName": "Bennett",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "kbennett@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0901-6987",
+        "givenName": "Scott",
+        "familyName": "Painter",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "paintersl@ornl.gov"
+      }
+    ],
+    "datePublished": "2026",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER"
+    ],
+    "variableMeasured": [
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "NGEE Arctic Integrated Modeling"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "State of Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.4,
+            "longitude": -180
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 50.9,
+            "longitude": -129.3
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0500OR22725",
+      "DEAC3243AL00036"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4759-5158",
+      "givenName": "Peter",
+      "familyName": "Thornton",
+      "email": "thorntonpe@ornl.gov"
+    },
+    "citation": [
+      "Pull request integrating this capability into the E3SM code repository (open access): \"Add subgrid hillslope hydrology (NGEE Arctic IM2)\", https://github.com/E3SM-Project/E3SM/pull/6718"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This data product represents integration of new code into the public E3SM github repository. The integration was accomplished through pull request (PR) #6718, which can be viewed at the following link:\nhttps://github.com/E3SM-Project/E3SM/pull/6718"
+    ],
+    "distribution": [
+      {
+        "contentSize": 305.130859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4c7b3f2fff48425-20250205T182147888",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-4c7b3f2fff48425-20250205T182147888",
+        "name": "IM2_hillslope_hydrology_description.pdf"
+      },
+      {
+        "contentSize": 0.3359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6b3ade911266461-20260205T182736717",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6b3ade911266461-20260205T182736717",
+        "name": "NGA562_flmd.csv"
+      },
+      {
+        "contentSize": 8.736328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5b15d0c64a8a65c-20260205T182743793",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-5b15d0c64a8a65c-20260205T182743793",
+        "name": "NGEE_Arctic_Integrated_Modeling_IM2_Improved.xml"
+      }
+    ]
+  }
+}

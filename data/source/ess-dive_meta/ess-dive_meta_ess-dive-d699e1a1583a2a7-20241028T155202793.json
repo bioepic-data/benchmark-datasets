@@ -1,0 +1,601 @@
+{
+  "id": "ess-dive-d699e1a1583a2a7-20241028T155202793",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1894135",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-d699e1a1583a2a7-20241028T155202793",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d699e1a1583a2a7-20241028T154944864",
+  "dateUploaded": "2024-10-28T15:52:03.571Z",
+  "dateModified": "2024-10-28T15:52:04.787Z",
+  "isPublic": true,
+  "citation": "Grieger S; Aronstein P; Bailey J; Barnes M; Barton R; Bladon K D; Chu R; Forbes B; Garayburu-Caruso V A; Graham E B; Goldman A E; Homolka K; Kew W; Lipton A S; McKever S A; Munson K M; Myers C R; Nieto-Pereira N; O'Day P; Otenburg O; Regier T; Renteria L; Roebuck A; Scheibe T D; Torgeson J M; Toyoda J G; Wagner S; Winston I; Young R P; Myers-Pigg A (2022): Organic matter concentration and composition of experimentally burned open air and muffle furnace vegetation chars across differing burn severity and feedstock types from Pacific Northwest, USA (v4).. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1894135",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1894135",
+    "name": "Organic matter concentration and composition of experimentally burned open air and muffle furnace vegetation chars across differing burn severity and feedstock types from Pacific Northwest, USA (v4).",
+    "description": [
+      "This dataset represents results from an experimental study designed to compare how the chemical composition of organic matter changes across different burn conditions and feedstock materials. The dataset provides both solid and dissolved phase bulk concentration and organic matter characterization data from experimentally generated chars. Chars were created in a closed muffle furnace or on an open burn table from four different feedstock species representing vegetation commonly impacted by fire regimes across the Pacific Northwest, USA. This data can be used to compare how different burn conditions may influence resultant organic matter chemistry and help further our understanding of potential biogeochemical impacts on river corridors post-fire.",
+      "This dataset is comprised of one data package readme, one data dictionary (dd), one file level metadata (flmd), fourteen burn table videos, burn table video metadata and three folders containing (A) data; (B) metadata and protocols; and (C) photos. The folder names and the file name of the data package readme include a version number which will be updated with future iterations of this data package. The data folder includes (1) solid carbon and solid nitrogen; (2) dissolved organic carbon (DOC, measured as non-purgeable organic carbon, NPOC) and total dissolved nitrogen (TN); (3) pH; (4) thermocouple time series temperature; (5) methods codes; (6) installation methods; (7) excitation emissions matrix (EEM) methods information; (8) a folder of excitation emissions matrix (EEM) fluorescence and absorbance spectra in dissolved organic matter and EEMs processing instructions; (9) solid state carbon-13 and solution state phosphorus nuclear magnetic resonance (13-C NMR and 31-P NMR) data and methods; (10) benzene polycarboxylic acid (BPCA) concentration and stable isotope data; (11) FTICR-MS methods; (12) Inductively coupled plasma (ICP) data for total calcium, magnesium, iron, aluminum, potassium, phosphorus, sodium, and sulfur along with sodium hydroxide-ethylenediaminetetraacetic acid (sodium hydroxide-EDTA) extractable calcium, magnesium, iron, aluminum, potassium, phosphorus, and sulfur; (13) a folder of phosphorus, carbon, and nitrogen X-ray absorption near edge structure (P-XANES, N-XANES, C-XANES) data for samples and standards; (14) P-XANES, N-XANES, C-XANES methods; (15) molybdate reactive phosphorus; and (16) folder of high resolution characterization of organic matter via 21 Tesla Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS) generated through the Environmental Molecular Sciences Laboratory (EMSL; https://www.pnnl.gov/environmental-molecular-sciences-laboratory). The FTICR folder contains .txt data files and a subfolder containing instruments for using Formularity (https://omics.pnl.gov/software/formularity) and an R script to process the data based on the user's specific needs. The metadata and protocols folder includes (1) international geo-sample number (IGSN) mapping file (2) burn and laboratory metadata; (3) burn protocol; (4) laboratory protocol; (5) vegetation collection metadata; and (6) vegetation collection protocol. The folder contains photos of the solid chars. All files are .csv, .txt, .pdf, .jpg, .jpeg, .R, .ref, or .mp4.",
+      "The data package was originally published October 2022 (v1). It was updated April 2023 (v2; new data files), September 2023 (v3; new and corrected data files), and September 2024 (v4; new and added/updated files). Metadata files were also updated to reflect these changes. See the change history section in the readme for more details."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "Samantha",
+        "familyName": "Grieger",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "samantha.grieger@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9393-7307",
+        "givenName": "Paul",
+        "familyName": "Aronstein",
+        "affiliation": "University of California Merced",
+        "email": "paronstein@ucmerced.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5646-5611",
+        "givenName": "John",
+        "familyName": "Bailey",
+        "affiliation": "Oregon State University",
+        "email": "John.Bailey@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8722-6552",
+        "givenName": "Morgan",
+        "familyName": "Barnes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "morgan.barnes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9448-7205",
+        "givenName": "Riley",
+        "familyName": "Barton",
+        "affiliation": "Rensselaer Polytechnic Institute",
+        "email": "bartor2@rpi.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4182-6883",
+        "givenName": "Kevin D.",
+        "familyName": "Bladon",
+        "affiliation": "Oregon State University",
+        "email": "kevin.bladon@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Rosalie",
+        "familyName": "Chu",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Rosalie.Chu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4623-7076",
+        "givenName": "Emily B.",
+        "familyName": "Graham",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "emily.graham@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5208-8740",
+        "givenName": "Khadijah",
+        "familyName": "Homolka",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "khadijah.homolka@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4281-4630",
+        "givenName": "William",
+        "familyName": "Kew",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "william.kew@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4937-4145",
+        "givenName": "Andrew S.",
+        "familyName": "Lipton",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "as.lipton@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophia A.",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "sophia.mckever@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kathleen M.",
+        "familyName": "Munson",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "kathleen.munson@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Chris R.",
+        "familyName": "Myers",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "christopher.myers@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0002-2845-3362",
+        "givenName": "Nubia",
+        "familyName": "Nieto-Pereira",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "nubia.nieto-pereira@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8698-5159",
+        "givenName": "Peggy",
+        "familyName": "O'Day",
+        "affiliation": "University of California Merced",
+        "email": "poday@ucmerced.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Opal",
+        "familyName": "Otenburg",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "opal.otenburg@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Tom",
+        "familyName": "Regier",
+        "affiliation": "Canadian Light Source",
+        "email": "tom.regier@lightsource.ca"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8575-2572",
+        "givenName": "Alan",
+        "familyName": "Roebuck",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "alan.roebuck@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8864-5772",
+        "givenName": "Timothy D.",
+        "familyName": "Scheibe",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2489-2248",
+        "givenName": "Joshua M.",
+        "familyName": "Torgeson",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "joshua.torgeson@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6299-2146",
+        "givenName": "Jason G.",
+        "familyName": "Toyoda",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Jason.Toyoda@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6184-5734",
+        "givenName": "Sasha",
+        "familyName": "Wagner",
+        "affiliation": "Rensselaer Polytechnic Institute",
+        "email": "wagnes3@rpi.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Isabella",
+        "familyName": "Winston",
+        "affiliation": "Rensselaer Polytechnic Institute",
+        "email": "winsti@rpi.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2686-9594",
+        "givenName": "Robert P.",
+        "familyName": "Young",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "robert.young@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6905-6841",
+        "givenName": "Allison",
+        "familyName": "Myers-Pigg",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "allison.myers-pigg@pnnl.gov"
+      }
+    ],
+    "datePublished": "2022-10-19",
+    "keywords": [
+      "Burn severity",
+      "Wildfire",
+      "Disturbance",
+      "Pyrogenic organic matter",
+      "Leachability",
+      "Experimental design",
+      "Biogeochemistry",
+      "Dissolved organic matter",
+      "Organic matter",
+      "Mass spectrometry",
+      "ESS-DIVE Hydrologic Monitoring Reporting Format",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format",
+      "ESS-DIVE Sample ID and Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "Total Carbon",
+      "TC",
+      "Total Nitrogen",
+      "TN",
+      "Dissolved organic carbon",
+      "DOC",
+      "Non-purgeable organic carbon",
+      "NPOC",
+      "Excitation Emission Matrix",
+      "EEMs",
+      "Color dissolved organic matter",
+      "CDOM",
+      "Fluorescence",
+      "Absorbance",
+      "Benzenepolycarboxylic acids",
+      "BCPA",
+      "Fourier-transform ion cyclotron resonance",
+      "FTICR",
+      "Nuclear magnetic resonance",
+      "Solid state 13C-NMR",
+      "Solution state P-NMR",
+      "X-ray absorption near edge structure",
+      "P-XANES",
+      "Molybdate reactive phosphorus",
+      "Inductively coupled plasma",
+      "ICP",
+      "N-XANES",
+      "C-XANES",
+      "BPCA stable isotopes",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CARBON",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > NITROGEN",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER CHEMISTRY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > NUTRIENTS > ORGANIC MATTER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > pH"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Douglas-fir dominated forest with minor oak understory. Collected living and dead douglas-fir (Pseudotsuga menziesii) material on 16 May 2021 at 09:20 PST.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6491,
+            "longitude": -123.2197
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6491,
+            "longitude": -123.2197
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Mature Douglas-fir stand with understory oak. Collected living and dead douglas-fir (Pseudotsuga menziesii) material on 2 February 2021 at 09:00 PST.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6507,
+            "longitude": -123.2199
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6507,
+            "longitude": -123.2199
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Collected living and dead big sagebrush (Artemisia tridentata) on 1 March 2021 at 15:26 PST.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.4087,
+            "longitude": -119.2775
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.4087,
+            "longitude": -119.2775
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Collected living and dead ponderosa pine (Pinus ponderosa) on 27 March 2021 at 15:00 PST and 30 May 2021 at 17:30 PST.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.678,
+            "longitude": -117.5228
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.678,
+            "longitude": -117.5228
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-02-20",
+      "endDate": "2022-07-12",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6905-6841",
+      "givenName": "Allison",
+      "familyName": "Myers-Pigg",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "allison.myers-pigg@pnnl.gov"
+    },
+    "citation": [
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/1866026",
+      "Boye, K., Crystal-Ornelas, R., O'Ryan, D., Goldman, A. E., Damerow, J., Varadharajan, C., & Agarwal, D. (2022). ESS-DIVE Reporting Format for Sample-based Water and Soil Chemistry Measurements. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/1865731",
+      "Damerow J ; Varadharajan C ; Boye K ; Brodie E ; Burrus M ; Chadwick D ; Cholia S ; Crystal-Ornelas R ; Elbashandy H ; Eloy Alves R ; Ely K ; Goldman A ; Hendrix V ; Jones C ; Jones M ; Kakalia Z ; Kemner K ; Kersting A ; Maher K ; Merino N ; O'Brien F ; Perzan Z ; Robles E ; Snavely C ; Sorensen P ; Stegen J ; Weisenhorn P ; Whitenack K ; Zavarin M ; Agarwal D (2020): Sample Identifiers and Metadata Reporting Format for Environmental Systems Science. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/1660470",
+      "Goldman A E ; Ren H ; Torgeson J ; Zhou H (2021): ESS-DIVE Reporting Format for Hydrologic Monitoring Data and Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). ESS-DIVE repository. Dataset. doi:10.15485/1822940",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734841",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734840",
+      "Stubbins A; Spencer R G M; Mann, P J; Holmes, R M; McClelland, J W; Niggemann, J; Dittmar, T (2015): Utilizing colored dissolved organic matter to derive dissolved black carbon export by arctic rivers. Frontiers in Earth Science. doi: 10.3389/feart.2015.00063",
+      "Webb SM (2005) SIXpack: a graphical user interface for XAS analysis using IFEFFIT. Physica Scripta 115:1011-1014.",
+      "Ravel B, Newville M (2005) ATHENA, ARTEMIS, HEPHAESTUS: Data analysis for X-ray absorption spectroscopy using IFEFFIT. Journal of Synchrotron Radiation 12:537-541.",
+      "Werner F (2017). _LCF: Linear Combination Fitting_. R package version 1.7.0, https://CRAN.R-project.org/package=LCF."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Vegetation material was collected across Washington and Oregon in March through May 2021. Vegetation material was then combusted in a muffle furnace or burned on an open-air burn table at Oregon State University across differing temperatures, moisture contents and durations in June 2021. For complete information regarding experimental design, burn conditions, and vegetation collection, see readme_BSLE_v*.pdf, BSLE_Burn_Protocol.pdf, and BSLE_Vegetation_Collection_Protocol.pdf. Char samples were then processed in the laboratory. Chars were either analyzed for solid phase analysis or leached in synthetic rainwater for 24 hours in the dark at 25 degrees Celsius. Leachate samples were then processed and prepared for dissolved phase bulk and characterization chemistry analyses. For full details regarding laboratory methods, see BSLE_Laboratory_Protocol.pdf.",
+      "Approach to change history and versioning:\nUpdates to data package version: When any file within a data package is updated, the data package version number is updated. The data package version number is indicated in the title of the data package, the data package folder name, and in the change history table below. You can access previous versions of the data package by sending a request to ESS-DIVE.\nUpdates to individual file versions: As files are changed, the file version number is also updated. The file version number is indicated in the file name, file level metadata (flmd) file, and the change history table below. The version number on an individual file may not match the version number of the data package. For example, v3 of a data package may include v2 of an individual file.",
+      "This section provides a list of source material physical samples used in this dataset. More information describing the samples is provided in the sample landing pages (links below) and the dataset file that ends in 'IGSN-Mapping.csv'.\nSample Name IGSN PID IGSN URL\nBSLE_0001 IGSN:IEPRS005D https://doi.org/IEPRS005D\nBSLE_0001A IGSN:IEPRS0001 https://doi.org/IEPRS0001\nBSLE_0001B IGSN:IEPRS0002 https://doi.org/IEPRS0002\nBSLE_0001C IGSN:IEPRS0003 https://doi.org/IEPRS0003\nBSLE_0002 IGSN:IEPRS005E https://doi.org/IEPRS005E\nBSLE_0002A IGSN:IEPRS0004 https://doi.org/IEPRS0004\nBSLE_0002B IGSN:IEPRS0005 https://doi.org/IEPRS0005\nBSLE_0002C IGSN:IEPRS0006 https://doi.org/IEPRS0006\nBSLE_0003 IGSN:IEPRS005F https://doi.org/IEPRS005F\nBSLE_0003A IGSN:IEPRS0007 https://doi.org/IEPRS0007\nBSLE_0003B IGSN:IEPRS0008 https://doi.org/IEPRS0008\nBSLE_0003C IGSN:IEPRS0009 https://doi.org/IEPRS0009\nBSLE_0004 IGSN:IEPRS005G https://doi.org/IEPRS005G\nBSLE_0004A IGSN:IEPRS000A https://doi.org/IEPRS000A\nBSLE_0004B IGSN:IEPRS000B https://doi.org/IEPRS000B\nBSLE_0004C IGSN:IEPRS000C https://doi.org/IEPRS000C\nBSLE_0005 IGSN:IEPRS005H https://doi.org/IEPRS005H\nBSLE_0005A IGSN:IEPRS000D https://doi.org/IEPRS000D\nBSLE_0005B IGSN:IEPRS000E https://doi.org/IEPRS000E\nBSLE_0005C IGSN:IEPRS000F https://doi.org/IEPRS000F\nBSLE_0006 IGSN:IEPRS005I https://doi.org/IEPRS005I\nBSLE_0006A IGSN:IEPRS000G https://doi.org/IEPRS000G\nBSLE_0006B IGSN:IEPRS000H https://doi.org/IEPRS000H\nBSLE_0006C IGSN:IEPRS000I https://doi.org/IEPRS000I\nBSLE_0007 IGSN:IEPRS005J https://doi.org/IEPRS005J\nBSLE_0007A IGSN:IEPRS000J https://doi.org/IEPRS000J\nBSLE_0007B IGSN:IEPRS000K https://doi.org/IEPRS000K\nBSLE_0007C IGSN:IEPRS000L https://doi.org/IEPRS000L\nBSLE_0008 IGSN:IEPRS005K https://doi.org/IEPRS005K\nBSLE_0008A IGSN:IEPRS000M https://doi.org/IEPRS000M\nBSLE_0008B IGSN:IEPRS000N https://doi.org/IEPRS000N\nBSLE_0008C IGSN:IEPRS000O https://doi.org/IEPRS000O\nBSLE_0009 IGSN:IEPRS005L https://doi.org/IEPRS005L\nBSLE_0009A IGSN:IEPRS000P https://doi.org/IEPRS000P\nBSLE_0009B IGSN:IEPRS000Q https://doi.org/IEPRS000Q\nBSLE_0009C IGSN:IEPRS000R https://doi.org/IEPRS000R\nBSLE_0010 IGSN:IEPRS005M https://doi.org/IEPRS005M\nBSLE_0010A IGSN:IEPRS000S https://doi.org/IEPRS000S\nBSLE_0010B IGSN:IEPRS000T https://doi.org/IEPRS000T\nBSLE_0010C IGSN:IEPRS000U https://doi.org/IEPRS000U\nBSLE_0011 IGSN:IEPRS005N https://doi.org/IEPRS005N\nBSLE_0011A IGSN:IEPRS000V https://doi.org/IEPRS000V\nBSLE_0011B IGSN:IEPRS000W https://doi.org/IEPRS000W\nBSLE_0011C IGSN:IEPRS000X https://doi.org/IEPRS000X\nBSLE_0012 IGSN:IEPRS005O https://doi.org/IEPRS005O\nBSLE_0012A IGSN:IEPRS000Y https://doi.org/IEPRS000Y\nBSLE_0012B IGSN:IEPRS000Z https://doi.org/IEPRS000Z\nBSLE_0012C IGSN:IEPRS0010 https://doi.org/IEPRS0010\nBSLE_0013 IGSN:IEPRS005P https://doi.org/IEPRS005P\nBSLE_0013A IGSN:IEPRS0011 https://doi.org/IEPRS0011\nBSLE_0013B IGSN:IEPRS0012 https://doi.org/IEPRS0012\nBSLE_0013C IGSN:IEPRS0013 https://doi.org/IEPRS0013\nBSLE_0014 IGSN:IEPRS005Q https://doi.org/IEPRS005Q\nBSLE_0014A IGSN:IEPRS0014 https://doi.org/IEPRS0014\nBSLE_0014B IGSN:IEPRS0015 https://doi.org/IEPRS0015\nBSLE_0014C IGSN:IEPRS0016 https://doi.org/IEPRS0016\nBSLE_0015 IGSN:IEPRS005R https://doi.org/IEPRS005R\nBSLE_0016 IGSN:IEPRS005S https://doi.org/IEPRS005S\nBSLE_0016A IGSN:IEPRS0017 https://doi.org/IEPRS0017\nBSLE_0016B IGSN:IEPRS0018 https://doi.org/IEPRS0018\nBSLE_0016C IGSN:IEPRS0019 https://doi.org/IEPRS0019\nBSLE_0017 IGSN:IEPRS005T https://doi.org/IEPRS005T\nBSLE_0017A IGSN:IEPRS001A https://doi.org/IEPRS001A\nBSLE_0017B IGSN:IEPRS001B https://doi.org/IEPRS001B\nBSLE_0017C IGSN:IEPRS001C https://doi.org/IEPRS001C\nBSLE_0018 IGSN:IEPRS005U https://doi.org/IEPRS005U\nBSLE_0018A IGSN:IEPRS00O3 https://doi.org/IEPRS00O3\nBSLE_0018B IGSN:IEPRS00O4 https://doi.org/IEPRS00O4\nBSLE_0018C IGSN:IEPRS00O5 https://doi.org/IEPRS00O5\nBSLE_0019 IGSN:IEPRS005V https://doi.org/IEPRS005V\nBSLE_0019A IGSN:IEPRS00O6 https://doi.org/IEPRS00O6\nBSLE_0019B IGSN:IEPRS00O7 https://doi.org/IEPRS00O7\nBSLE_0019C IGSN:IEPRS00O8 https://doi.org/IEPRS00O8\nBSLE_0020 IGSN:IEPRS005W https://doi.org/IEPRS005W\nBSLE_0020A IGSN:IEPRS00O9 https://doi.org/IEPRS00O9\nBSLE_0020B IGSN:IEPRS00OA https://doi.org/IEPRS00OA\nBSLE_0020C IGSN:IEPRS00OB https://doi.org/IEPRS00OB\nBSLE_0021 IGSN:IEPRS005X https://doi.org/IEPRS005X\nBSLE_0021A IGSN:IEPRS00OC https://doi.org/IEPRS00OC\nBSLE_0021B IGSN:IEPRS00OD https://doi.org/IEPRS00OD\nBSLE_0021C IGSN:IEPRS00OE https://doi.org/IEPRS00OE\nBSLE_0022 IGSN:IEPRS005Y https://doi.org/IEPRS005Y\nBSLE_0022A IGSN:IEPRS00OF https://doi.org/IEPRS00OF\nBSLE_0022B IGSN:IEPRS00OG https://doi.org/IEPRS00OG\nBSLE_0022C IGSN:IEPRS00OH https://doi.org/IEPRS00OH\nBSLE_0023 IGSN:IEPRS005Z https://doi.org/IEPRS005Z\nBSLE_0023A IGSN:IEPRS00OI https://doi.org/IEPRS00OI\nBSLE_0023B IGSN:IEPRS00OJ https://doi.org/IEPRS00OJ\nBSLE_0023C IGSN:IEPRS00OK https://doi.org/IEPRS00OK\nBSLE_0024 IGSN:IEPRS0060 https://doi.org/IEPRS0060\nBSLE_0024A IGSN:IEPRS00OL https://doi.org/IEPRS00OL\nBSLE_0024B IGSN:IEPRS00OM https://doi.org/IEPRS00OM\nBSLE_0024C IGSN:IEPRS00ON https://doi.org/IEPRS00ON\nBSLE_0025 IGSN:IEPRS0061 https://doi.org/IEPRS0061\nBSLE_0025A IGSN:IEPRS00OO https://doi.org/IEPRS00OO\nBSLE_0025B IGSN:IEPRS00OP https://doi.org/IEPRS00OP\nBSLE_0025C IGSN:IEPRS00OQ https://doi.org/IEPRS00OQ\nBSLE_0026 IGSN:IEPRS0062 https://doi.org/IEPRS0062\nBSLE_0026A IGSN:IEPRS00OR https://doi.org/IEPRS00OR\nBSLE_0026B IGSN:IEPRS00OS https://doi.org/IEPRS00OS\nBSLE_0026C IGSN:IEPRS00OT https://doi.org/IEPRS00OT\nBSLE_0027 IGSN:IEPRS0063 https://doi.org/IEPRS0063\nBSLE_0027A IGSN:IEPRS00OU https://doi.org/IEPRS00OU\nBSLE_0027B IGSN:IEPRS00OV https://doi.org/IEPRS00OV\nBSLE_0027C IGSN:IEPRS00OW https://doi.org/IEPRS00OW\nBSLE_0028 IGSN:IEPRS0064 https://doi.org/IEPRS0064\nBSLE_0028A IGSN:IEPRS00OX https://doi.org/IEPRS00OX\nBSLE_0028B IGSN:IEPRS00OY https://doi.org/IEPRS00OY\nBSLE_0028C IGSN:IEPRS00OZ https://doi.org/IEPRS00OZ\nBSLE_0029 IGSN:IEPRS0065 https://doi.org/IEPRS0065\nBSLE_0029A IGSN:IEPRS00P0 https://doi.org/IEPRS00P0\nBSLE_0029B IGSN:IEPRS00P1 https://doi.org/IEPRS00P1\nBSLE_0029C IGSN:IEPRS00P2 https://doi.org/IEPRS00P2\nBSLE_0030 IGSN:IEPRS0066 https://doi.org/IEPRS0066\nBSLE_0030A IGSN:IEPRS00P3 https://doi.org/IEPRS00P3\nBSLE_0030B IGSN:IEPRS00P4 https://doi.org/IEPRS00P4\nBSLE_0030C IGSN:IEPRS00P5 https://doi.org/IEPRS00P5\nBSLE_0031 IGSN:IEPRS0067 https://doi.org/IEPRS0067\nBSLE_0031A IGSN:IEPRS00P6 https://doi.org/IEPRS00P6\nBSLE_0031B IGSN:IEPRS00P7 https://doi.org/IEPRS00P7\nBSLE_0031C IGSN:IEPRS00P8 https://doi.org/IEPRS00P8\nBSLE_0032 IGSN:IEPRS0068 https://doi.org/IEPRS0068\nBSLE_0032A IGSN:IEPRS00P9 https://doi.org/IEPRS00P9\nBSLE_0032B IGSN:IEPRS00PA https://doi.org/IEPRS00PA\nBSLE_0032C IGSN:IEPRS00PB https://doi.org/IEPRS00PB\nBSLE_0033 IGSN:IEPRS0069 https://doi.org/IEPRS0069\nBSLE_0033A IGSN:IEPRS00PC https://doi.org/IEPRS00PC\nBSLE_0033B IGSN:IEPRS00PD https://doi.org/IEPRS00PD\nBSLE_0033C IGSN:IEPRS00PE https://doi.org/IEPRS00PE\nBSLE_0034 IGSN:IEPRS006A https://doi.org/IEPRS006A\nBSLE_0034A IGSN:IEPRS00PF https://doi.org/IEPRS00PF\nBSLE_0034B IGSN:IEPRS00PG https://doi.org/IEPRS00PG\nBSLE_0034C IGSN:IEPRS00PH https://doi.org/IEPRS00PH\nBSLE_0035 IGSN:IEPRS006B https://doi.org/IEPRS006B\nBSLE_0035A IGSN:IEPRS00PI https://doi.org/IEPRS00PI\nBSLE_0035B IGSN:IEPRS00PJ https://doi.org/IEPRS00PJ\nBSLE_0035C IGSN:IEPRS00PK https://doi.org/IEPRS00PK\nBSLE_0036 IGSN:IEPRS006C https://doi.org/IEPRS006C\nBSLE_0036A IGSN:IEPRS00PL https://doi.org/IEPRS00PL\nBSLE_0036B IGSN:IEPRS00PM https://doi.org/IEPRS00PM\nBSLE_0036C IGSN:IEPRS00PN https://doi.org/IEPRS00PN\nBSLE_0037 IGSN:IEPRS006D https://doi.org/IEPRS006D\nBSLE_0037A IGSN:IEPRS00PO https://doi.org/IEPRS00PO\nBSLE_0037B IGSN:IEPRS00PP https://doi.org/IEPRS00PP\nBSLE_0037C IGSN:IEPRS00PQ https://doi.org/IEPRS00PQ\nBSLE_0038 IGSN:IEPRS006E https://doi.org/IEPRS006E\nBSLE_0038A IGSN:IEPRS00PR https://doi.org/IEPRS00PR\nBSLE_0038B IGSN:IEPRS00PS https://doi.org/IEPRS00PS\nBSLE_0038C IGSN:IEPRS00PT https://doi.org/IEPRS00PT\nBSLE_0039 IGSN:IEPRS006F https://doi.org/IEPRS006F\nBSLE_0039A IGSN:IEPRS00PU https://doi.org/IEPRS00PU\nBSLE_0039B IGSN:IEPRS00PV https://doi.org/IEPRS00PV\nBSLE_0039C IGSN:IEPRS00PW https://doi.org/IEPRS00PW\nBSLE_0040 IGSN:IEPRS006G https://doi.org/IEPRS006G\nBSLE_0040A IGSN:IEPRS00PX https://doi.org/IEPRS00PX\nBSLE_0040B IGSN:IEPRS00PY https://doi.org/IEPRS00PY\nBSLE_0040C IGSN:IEPRS00PZ https://doi.org/IEPRS00PZ\nBSLE_0041 IGSN:IEPRS006H https://doi.org/IEPRS006H\nBSLE_0041A IGSN:IEPRS00Q0 https://doi.org/IEPRS00Q0\nBSLE_0041B IGSN:IEPRS00Q1 https://doi.org/IEPRS00Q1\nBSLE_0041C IGSN:IEPRS00Q2 https://doi.org/IEPRS00Q2\nBSLE_0042 IGSN:IEPRS006I https://doi.org/IEPRS006I\nBSLE_0042A IGSN:IEPRS00Q3 https://doi.org/IEPRS00Q3\nBSLE_0042B IGSN:IEPRS00Q4 https://doi.org/IEPRS00Q4\nBSLE_0042C IGSN:IEPRS00Q5 https://doi.org/IEPRS00Q5\nBSLE_0043 IGSN:IEPRS006J https://doi.org/IEPRS006J\nBSLE_0043A IGSN:IEPRS00Q6 https://doi.org/IEPRS00Q6\nBSLE_0043B IGSN:IEPRS00Q7 https://doi.org/IEPRS00Q7\nBSLE_0043C IGSN:IEPRS00Q8 https://doi.org/IEPRS00Q8\nBSLE_0044 IGSN:IEPRS006K https://doi.org/IEPRS006K\nBSLE_0044A IGSN:IEPRS00Q9 https://doi.org/IEPRS00Q9\nBSLE_0044B IGSN:IEPRS00QA https://doi.org/IEPRS00QA\nBSLE_0044C IGSN:IEPRS00QB https://doi.org/IEPRS00QB\nBSLE_0045 IGSN:IEPRS006L https://doi.org/IEPRS006L\nBSLE_0045A IGSN:IEPRS00QC https://doi.org/IEPRS00QC\nBSLE_0045B IGSN:IEPRS00QD https://doi.org/IEPRS00QD\nBSLE_0045C IGSN:IEPRS00QE https://doi.org/IEPRS00QE\nBSLE_0046 IGSN:IEPRS006M https://doi.org/IEPRS006M\nBSLE_0046A IGSN:IEPRS00QF https://doi.org/IEPRS00QF\nBSLE_0046B IGSN:IEPRS00QG https://doi.org/IEPRS00QG\nBSLE_0046C IGSN:IEPRS00QH https://doi.org/IEPRS00QH\nBSLE_0047 IGSN:IEPRS006N https://doi.org/IEPRS006N\nBSLE_0047A IGSN:IEPRS00QI https://doi.org/IEPRS00QI\nBSLE_0047B IGSN:IEPRS00QJ https://doi.org/IEPRS00QJ\nBSLE_0047C IGSN:IEPRS00QK https://doi.org/IEPRS00QK\nBSLE_0048 IGSN:IEPRS006O https://doi.org/IEPRS006O\nBSLE_0049 IGSN:IEPRS006P https://doi.org/IEPRS006P\nBSLE_0050 IGSN:IEPRS006Q https://doi.org/IEPRS006Q\nBSLE_0050A IGSN:IEPRS00QL https://doi.org/IEPRS00QL\nBSLE_0050B IGSN:IEPRS00QM https://doi.org/IEPRS00QM\nBSLE_0050C IGSN:IEPRS00QN https://doi.org/IEPRS00QN\nBSLE_0051 IGSN:IEPRS006R https://doi.org/IEPRS006R\nBSLE_0051A IGSN:IEPRS001D https://doi.org/IEPRS001D\nBSLE_0051B IGSN:IEPRS001E https://doi.org/IEPRS001E\nBSLE_0051C IGSN:IEPRS001F https://doi.org/IEPRS001F\nBSLE_0052 IGSN:IEPRS006S https://doi.org/IEPRS006S\nBSLE_0052A IGSN:IEPRS00QO https://doi.org/IEPRS00QO\nBSLE_0052B IGSN:IEPRS00QP https://doi.org/IEPRS00QP\nBSLE_0052C IGSN:IEPRS00QQ https://doi.org/IEPRS00QQ\nBSLE_0053 IGSN:IEPRS006T https://doi.org/IEPRS006T\nBSLE_0054 IGSN:IEPRS006U https://doi.org/IEPRS006U\nBSLE_0055 IGSN:IEPRS006V https://doi.org/IEPRS006V\nBSLE_0055A IGSN:IEPRS00QR https://doi.org/IEPRS00QR\nBSLE_0055B IGSN:IEPRS00QS https://doi.org/IEPRS00QS\nBSLE_0055C IGSN:IEPRS00QT https://doi.org/IEPRS00QT\nBSLE_0056 IGSN:IEPRS006W https://doi.org/IEPRS006W\nBSLE_0056A IGSN:IEPRS00QU https://doi.org/IEPRS00QU\nBSLE_0056B IGSN:IEPRS00QV https://doi.org/IEPRS00QV\nBSLE_0056C IGSN:IEPRS00QW https://doi.org/IEPRS00QW\nBSLE_0057 IGSN:IEPRS006X https://doi.org/IEPRS006X\nBSLE_0057A IGSN:IEPRS00QX https://doi.org/IEPRS00QX\nBSLE_0057B IGSN:IEPRS00QY https://doi.org/IEPRS00QY\nBSLE_0057C IGSN:IEPRS00QZ https://doi.org/IEPRS00QZ\nBSLE_0058 IGSN:IEPRS006Y https://doi.org/IEPRS006Y\nBSLE_0058A IGSN:IEPRS00R0 https://doi.org/IEPRS00R0\nBSLE_0058B IGSN:IEPRS00R1 https://doi.org/IEPRS00R1\nBSLE_0058C IGSN:IEPRS00R2 https://doi.org/IEPRS00R2\nBSLE_0059 IGSN:IEPRS006Z https://doi.org/IEPRS006Z\nBSLE_0060 IGSN:IEPRS0070 https://doi.org/IEPRS0070\nBSLE_0060A IGSN:IEPRS00R3 https://doi.org/IEPRS00R3\nBSLE_0060B IGSN:IEPRS00R4 https://doi.org/IEPRS00R4\nBSLE_0060C IGSN:IEPRS00R5 https://doi.org/IEPRS00R5\nBSLE_0061 IGSN:IEPRS0071 https://doi.org/IEPRS0071\nBSLE_0061A IGSN:IEPRS00R6 https://doi.org/IEPRS00R6\nBSLE_0061B IGSN:IEPRS00R7 https://doi.org/IEPRS00R7\nBSLE_0061C IGSN:IEPRS00R8 https://doi.org/IEPRS00R8\nBSLE_0062 IGSN:IEPRS0072 https://doi.org/IEPRS0072\nBSLE_0063 IGSN:IEPRS0073 https://doi.org/IEPRS0073\nBSLE_0063A IGSN:IEPRS00R9 https://doi.org/IEPRS00R9\nBSLE_0063B IGSN:IEPRS00RA https://doi.org/IEPRS00RA\nBSLE_0063C IGSN:IEPRS00RB https://doi.org/IEPRS00RB\nBSLE_0064 IGSN:IEPRS0074 https://doi.org/IEPRS0074\nBSLE_0065 IGSN:IEPRS0075 https://doi.org/IEPRS0075\nBSLE_0065A IGSN:IEPRS00RC https://doi.org/IEPRS00RC\nBSLE_0065B IGSN:IEPRS00RD https://doi.org/IEPRS00RD\nBSLE_0065C IGSN:IEPRS00RE https://doi.org/IEPRS00RE\nBSLE_0066 IGSN:IEPRS0076 https://doi.org/IEPRS0076\nBSLE_0066A IGSN:IEPRS00RF https://doi.org/IEPRS00RF\nBSLE_0066B IGSN:IEPRS00RG https://doi.org/IEPRS00RG\nBSLE_0066C IGSN:IEPRS00RH https://doi.org/IEPRS00RH\nBSLE_0067 IGSN:IEPRS0077 https://doi.org/IEPRS0077\nBSLE_0067A IGSN:IEPRS00RI https://doi.org/IEPRS00RI\nBSLE_0067B IGSN:IEPRS00RJ https://doi.org/IEPRS00RJ\nBSLE_0067C IGSN:IEPRS00RK https://doi.org/IEPRS00RK\nBSLE_0068 IGSN:IEPRS0078 https://doi.org/IEPRS0078\nBSLE_0068A IGSN:IEPRS00RL https://doi.org/IEPRS00RL\nBSLE_0068B IGSN:IEPRS00RM https://doi.org/IEPRS00RM\nBSLE_0068C IGSN:IEPRS00RN https://doi.org/IEPRS00RN\nBSLE_0069 IGSN:IEPRS0079 https://doi.org/IEPRS0079\nBSLE_0070 IGSN:IEPRS007A https://doi.org/IEPRS007A\nBSLE_0070A IGSN:IEPRS00RO https://doi.org/IEPRS00RO\nBSLE_0070B IGSN:IEPRS00RP https://doi.org/IEPRS00RP\nBSLE_0070C IGSN:IEPRS00RQ https://doi.org/IEPRS00RQ\nBSLE_0071 IGSN:IEPRS007B https://doi.org/IEPRS007B\nBSLE_0071A IGSN:IEPRS00RR https://doi.org/IEPRS00RR\nBSLE_0071B IGSN:IEPRS00RS https://doi.org/IEPRS00RS\nBSLE_0071C IGSN:IEPRS00RT https://doi.org/IEPRS00RT\nBSLE_0072 IGSN:IEPRS007C https://doi.org/IEPRS007C\nBSLE_0072A IGSN:IEPRS00RU https://doi.org/IEPRS00RU\nBSLE_0072B IGSN:IEPRS00RV https://doi.org/IEPRS00RV\nBSLE_0072C IGSN:IEPRS00RW https://doi.org/IEPRS00RW\nBSLE_0073 IGSN:IEPRS007D https://doi.org/IEPRS007D\nBSLE_0073A IGSN:IEPRS00RX https://doi.org/IEPRS00RX\nBSLE_0073B IGSN:IEPRS00RY https://doi.org/IEPRS00RY\nBSLE_0073C IGSN:IEPRS00RZ https://doi.org/IEPRS00RZ\nBSLE_0074 IGSN:IEPRS007E https://doi.org/IEPRS007E\nBSLE_0075 IGSN:IEPRS007F https://doi.org/IEPRS007F\nBSLE_0076 IGSN:IEPRS007G https://doi.org/IEPRS007G\nBSLE_0077 IGSN:IEPRS007H https://doi.org/IEPRS007H\nBSLE_0078 IGSN:IEPRS007I https://doi.org/IEPRS007I\nBSLE_0079 IGSN:IEPRS007J https://doi.org/IEPRS007J\nBSLE_0079A IGSN:IEPRS00SI https://doi.org/IEPRS00SI\nBSLE_0079B IGSN:IEPRS00SJ https://doi.org/IEPRS00SJ\nBSLE_0079C IGSN:IEPRS00SK https://doi.org/IEPRS00SK\nBSLE_0080 IGSN:IEPRS007K https://doi.org/IEPRS007K\nBSLE_0081 IGSN:IEPRS007L https://doi.org/IEPRS007L\nBSLE_0082 IGSN:IEPRS007M https://doi.org/IEPRS007M\nBSLE_0083 IGSN:IEPRS007N https://doi.org/IEPRS007N\nBSLE_0083A IGSN:IEPRS00SL https://doi.org/IEPRS00SL\nBSLE_0083B IGSN:IEPRS00SM https://doi.org/IEPRS00SM\nBSLE_0083C IGSN:IEPRS00SN https://doi.org/IEPRS00SN\nBSLE_0084 IGSN:IEPRS007O https://doi.org/IEPRS007O\nBSLE_0084A IGSN:IEPRS00SO https://doi.org/IEPRS00SO\nBSLE_0084B IGSN:IEPRS00SP https://doi.org/IEPRS00SP\nBSLE_0084C IGSN:IEPRS00SQ https://doi.org/IEPRS00SQ\nBSLE_0085 IGSN:IEPRS007P https://doi.org/IEPRS007P\nBSLE_0085A IGSN:IEPRS00SR https://doi.org/IEPRS00SR\nBSLE_0085B IGSN:IEPRS00SS https://doi.org/IEPRS00SS\nBSLE_0085C IGSN:IEPRS00ST https://doi.org/IEPRS00ST\nBSLE_0086 IGSN:IEPRS007Q https://doi.org/IEPRS007Q\nBSLE_0086A IGSN:IEPRS00SU https://doi.org/IEPRS00SU\nBSLE_0086B IGSN:IEPRS00SV https://doi.org/IEPRS00SV\nBSLE_0086C IGSN:IEPRS00SW https://doi.org/IEPRS00SW\nBSLE_0087 IGSN:IEPRS007R https://doi.org/IEPRS007R\nBSLE_Blank10 IGSN:IEPRS00S3 https://doi.org/IEPRS00S3\nBSLE_Blank11 IGSN:IEPRS00S4 https://doi.org/IEPRS00S4\nBSLE_Blank12 IGSN:IEPRS00S5 https://doi.org/IEPRS00S5\nBSLE_Blank13 IGSN:IEPRS00S6 https://doi.org/IEPRS00S6\nBSLE_Blank14 IGSN:IEPRS00S7 https://doi.org/IEPRS00S7\nBSLE_Blank15 IGSN:IEPRS00S8 https://doi.org/IEPRS00S8\nBSLE_Blank16 IGSN:IEPRS00S9 https://doi.org/IEPRS00S9\nBSLE_Blank17 IGSN:IEPRS00SA https://doi.org/IEPRS00SA\nBSLE_Blank18 IGSN:IEPRS00SB https://doi.org/IEPRS00SB\nBSLE_Blank19 IGSN:IEPRS00SC https://doi.org/IEPRS00SC\nBSLE_Blank20 IGSN:IEPRS00SD https://doi.org/IEPRS00SD\nBSLE_Blank21 IGSN:IEPRS00SE https://doi.org/IEPRS00SE\nBSLE_Blank22 IGSN:IEPRS00SF https://doi.org/IEPRS00SF\nBSLE_Blank23 IGSN:IEPRS00SG https://doi.org/IEPRS00SG\nBSLE_Blank24 IGSN:IEPRS00SH https://doi.org/IEPRS00SH\nBSLE_Blank25 IGSN:IEPRS00SX https://doi.org/IEPRS00SX\nBSLE_Blank26 IGSN:IEPRS00SY https://doi.org/IEPRS00SY\nBSLE_Blank7 IGSN:IEPRS00S0 https://doi.org/IEPRS00S0\nBSLE_Blank8 IGSN:IEPRS00S1 https://doi.org/IEPRS00S1\nBSLE_Blank9 IGSN:IEPRS00S2 https://doi.org/IEPRS00S2\nBSLE_Oct_Blank1 IGSN:IEPRS001G https://doi.org/IEPRS001G\nBSLE_Oct_Blank2 IGSN:IEPRS001H https://doi.org/IEPRS001H\nBSLE_Oct_Blank3 IGSN:IEPRS001I https://doi.org/IEPRS001I\nBSLE_Oct_Blank4 IGSN:IEPRS001J https://doi.org/IEPRS001J\nBSLE_Oct_Blank5 IGSN:IEPRS001K https://doi.org/IEPRS001K\nBSLE_Oct_Blank6 IGSN:IEPRS001L https://doi.org/IEPRS001L\nBSLE_pooled1 IGSN:IEPRS001M https://doi.org/IEPRS001M\nBSLE_pooled2 IGSN:IEPRS001N https://doi.org/IEPRS001N\nBSLE_pooled3 IGSN:IEPRS001O https://doi.org/IEPRS001O"
+    ],
+    "distribution": [
+      {
+        "contentSize": 3887907.6533203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0b8b193d27416ef-20221020T024232921",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-0b8b193d27416ef-20221020T024232921",
+        "name": "BSLE_Burn01_BurnTableVideo_Part1.mp4"
+      },
+      {
+        "contentSize": 85.3720703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-14ff291923e5a96-20221020T144534865",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-14ff291923e5a96-20221020T144534865",
+        "name": "BSLE_BurnTableVideo_Metadata.csv"
+      },
+      {
+        "contentSize": 159849.9453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2bd2be24e0a151b-20221019T234910721",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2bd2be24e0a151b-20221019T234910721",
+        "name": "BSLE_Photos.zip"
+      },
+      {
+        "contentSize": 26.7080078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4754973b4e35cf3-20241017T205023234",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4754973b4e35cf3-20241017T205023234",
+        "name": "v4_BSLE_dd.csv"
+      },
+      {
+        "contentSize": 50.1015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d699e1a1583a2a7-20241028T155202793",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-d699e1a1583a2a7-20241028T155202793",
+        "name": "Organic_matter_concentration_and_composition_of.xml"
+      },
+      {
+        "contentSize": 216779.1279296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e2b4902b36b5c32-20221020T051916939",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-e2b4902b36b5c32-20221020T051916939",
+        "name": "BSLE_Burn07_BurnTableVideo_Part2.mp4"
+      },
+      {
+        "contentSize": 3887927.1455078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ed648beeb700586-20221020T045214680",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-ed648beeb700586-20221020T045214680",
+        "name": "BSLE_Burn03_BurnTableVideo_Part1.mp4"
+      },
+      {
+        "contentSize": 23.6552734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ee94fe0cd1a9c70-20241017T205023240",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ee94fe0cd1a9c70-20241017T205023240",
+        "name": "v4_BSLE_flmd.csv"
+      },
+      {
+        "contentSize": 408.349609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-683533e9afbe727-20231107T170351971",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-683533e9afbe727-20231107T170351971",
+        "name": "v1_BSLE_Metadata_and_Protocols.zip"
+      },
+      {
+        "contentSize": 2593455.4443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ad49100cda84f8-20221020T051916950",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-5ad49100cda84f8-20221020T051916950",
+        "name": "BSLE_Burn08_BurnTableVideo_Part2.mp4"
+      },
+      {
+        "contentSize": 3887943.2275390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ce097c557fc67b-20221020T051916934",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-5ce097c557fc67b-20221020T051916934",
+        "name": "BSLE_Burn07_BurnTableVideo_Part1.mp4"
+      },
+      {
+        "contentSize": 3887710.6376953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4c2c9b168f0913a-20221020T031531817",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-4c2c9b168f0913a-20221020T031531817",
+        "name": "BSLE_Burn01_BurnTableVideo_Part2.mp4"
+      },
+      {
+        "contentSize": 2607556.2529296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a9aadafb843d3d-20221020T051916907",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-7a9aadafb843d3d-20221020T051916907",
+        "name": "BSLE_Burn03_BurnTableVideo_Part2.mp4"
+      },
+      {
+        "contentSize": 3887921.4248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7e6c5544d01448d-20221020T051916945",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-7e6c5544d01448d-20221020T051916945",
+        "name": "BSLE_Burn08_BurnTableVideo_Part1.mp4"
+      },
+      {
+        "contentSize": 2226393.7158203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ee8e7b141c094e-20221020T051916930",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-7ee8e7b141c094e-20221020T051916930",
+        "name": "BSLE_Burn06_BurnTableVideo_Part2.mp4"
+      },
+      {
+        "contentSize": 2835786.8076171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-93b76443de3df0a-20221020T051916918",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-93b76443de3df0a-20221020T051916918",
+        "name": "BSLE_Burn04_BurnTableVideo.mp4"
+      },
+      {
+        "contentSize": 3862374.990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c5f8641df32c3fb-20221020T035414974",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-c5f8641df32c3fb-20221020T035414974",
+        "name": "BSLE_Burn02_BurnTableVideo_Part2.mp4"
+      },
+      {
+        "contentSize": 1151921.892578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cd367d2591f5b76-20221020T031549297",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-cd367d2591f5b76-20221020T031549297",
+        "name": "BSLE_Burn01_BurnTableVideo_Part3.mp4"
+      },
+      {
+        "contentSize": 3887946.5517578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b3614690ab2d0cf-20221020T035406916",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-b3614690ab2d0cf-20221020T035406916",
+        "name": "BSLE_Burn02_BurnTableVideo_Part1.mp4"
+      },
+      {
+        "contentSize": 3603.041015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f1d618d6117633b-20241017T205023244",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-f1d618d6117633b-20241017T205023244",
+        "name": "v4_readme_BSLE.pdf"
+      },
+      {
+        "contentSize": 127094.44140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fdf2b68cd11ed3c-20241017T204809599",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-fdf2b68cd11ed3c-20241017T204809599",
+        "name": "v4_BSLE_Data.zip"
+      },
+      {
+        "contentSize": 3887917.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-de031bb01de4c8d-20221020T051916924",
+        "encodingFormat": "video/mp4",
+        "identifier": "ess-dive-de031bb01de4c8d-20221020T051916924",
+        "name": "BSLE_Burn06_BurnTableVideo_Part1.mp4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "ess-dive-b05b6545720e8ec-20231005T184150523",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2007951",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-b05b6545720e8ec-20231005T184150523",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-e95fc506ca5f942-20231005T175011683",
+  "dateUploaded": "2023-10-05T18:41:52.097Z",
+  "dateModified": "2023-10-10T00:01:30.202Z",
+  "isPublic": true,
+  "citation": "Rathore S; Coon E; Painter S (2023): Model Data for the Mesh Convergence Study Demonstrating Benefits of Mixed-polyhedral Mesh in Integrated Hydrology Simulations. IDEAS Applications: Reactive-Transport and Integrated Hydrology Model Development (IDEAS = Interoperable Design of Extreme Scale Application Software). Dataset. doi:10.15485/2007951",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2007951",
+    "name": "Model Data for the Mesh Convergence Study Demonstrating Benefits of Mixed-polyhedral Mesh in Integrated Hydrology Simulations",
+    "description": [
+      "This archived model data is related to a study introducing a unique method that employs a stream-aligned mixed-polyhedral mesh to effectively and accurately represent river valleys, stream corridors, and narrow engineered channels in integrated hydrology simulations. The study finds that utilizing stream-aligned mixed-polyhedral meshes in integrated hydrology simulations achieves accuracy on par with a finely refined TIN-based mesh while markedly diminishing computational costs. This archive contains scripts and data files needed to generate the ATS model input, including mesh and ATS input files, for all mesh scenarios using the Watershed Workflow package. Additionally, this archive also provides key outputs from the model simulations that are used in the analysis and post-processing scripts to reproduce figures in the manuscript.",
+      "The Watershed Workflow package is implemented in Python3. The Jupyter notebooks can be executed through multiple open-source tools, for example, Anaconda Jupyter Lab, VS Studio Code, etc. Other data files include CSV and HDF5 files, which can be read through Python scripts. The input files for the ATS model, open-source integrated hydrology, and transport model are in XML format and can be edited in any commonly used text editors."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0469-2959",
+        "givenName": "Saubhagya",
+        "familyName": "Rathore",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "rathoress@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8124-9622",
+        "givenName": "Ethan",
+        "familyName": "Coon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "coonet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0901-6987",
+        "givenName": "Scott",
+        "familyName": "Painter",
+        "email": "paintersl@ornl.gov"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "hydrology",
+      "meshing",
+      "streams",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "This study used the Coweeta Hydrologic Laboratory, a U.S. National Forest Service station in the U.S. Southeast as a test case",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.07381934,
+            "longitude": -83.47845037
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.027341,
+            "longitude": -83.42165774
+          }
+        ]
+      }
+    ],
+    "award": [
+      "COMPASS-GLM",
+      "IDEAS-Watersheds"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2010-01-01",
+      "endDate": "2020-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0469-2959",
+      "givenName": "Saubhagya",
+      "familyName": "Rathore",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "rathoress@ornl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "74bce53b-9b55-44f2-885a-d670a699b7b7"
+      },
+      "name": "IDEAS Applications: Reactive-Transport and Integrated Hydrology Model Development (IDEAS = Interoperable Design of Extreme Scale Application Software)",
+      "member": {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Moulton",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "moulton@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Using the Watershed Workflow package, generate model input files for integrated hydrology simulation in ATS. This includes:\n- ATS input files\n- mesh\n- meteorological forcings (Daymet)\n- MODIS LAI\nRepeat for each mesh scenario",
+      "Run ATS-integrated hydrology simulation for all mesh scenarios. This includes:\n- steady-state spinup\n- transient cyclic spinup\n- transient run (production run)",
+      "Post-process and analyze ATS outputs for each mesh scenario. This includes:\n- Analysing water balance, comparing streamflow, surface water content, subsurface water content, evaporation\n- Extracting and comparing inundation fractions"
+    ],
+    "distribution": [
+      {
+        "contentSize": 274418.8056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b6275fe80ee9f66-20231005T184110527",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b6275fe80ee9f66-20231005T184110527",
+        "name": "model_data_coweeta.zip"
+      },
+      {
+        "contentSize": 6.5400390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b05b6545720e8ec-20231005T184150523",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-b05b6545720e8ec-20231005T184150523",
+        "name": "Model_Data_for_the_Mesh_Convergence_Study.xml"
+      }
+    ]
+  }
+}

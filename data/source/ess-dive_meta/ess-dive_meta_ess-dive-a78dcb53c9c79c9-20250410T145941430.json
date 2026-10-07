@@ -1,0 +1,154 @@
+{
+  "id": "ess-dive-a78dcb53c9c79c9-20250410T145941430",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2527393",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a78dcb53c9c79c9-20250410T145941430",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a78dcb53c9c79c9-20250402T195535936",
+  "dateUploaded": "2025-04-10T14:59:42.835Z",
+  "dateModified": "2025-08-25T16:41:09.722Z",
+  "isPublic": true,
+  "citation": "Willard J; Varadharajan C (2025): Dataset for \"Machine Learning Ensembles Can Enhance Hydrologic Predictions and Uncertainty Quantification\" Willard et al. (2025).. iNAIADS. Dataset. doi:10.15485/2527393",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2527393",
+    "name": "Dataset for \"Machine Learning Ensembles Can Enhance Hydrologic Predictions and Uncertainty Quantification\" Willard et al. (2025).",
+    "description": [
+      "This data release provides all data and code used in the paper \" \"Machine Learning Ensembles Can Enhance Hydrologic Predictions and Uncertainty Quantifications\" Willard et al. (2025)\" to model stream temperature, evaluate, and assess results. The associated manuscript explores the effect of different ensemble construction techniques across different common machine learning (ML) architectures for predictions in unmonitored basins. Modeling was done using long short-term memory (LSTM), gated recurrent unit (GRU), temporal convolution network (TCN), and extreme gradient boosting (XGBoost) models, and stream site coverage spans 1362 locations across the conterminous United States. The ensemble construction techniques investigated include ensemble by random weight initialization, differing hyperparameters, different random subsets of training data, different subselections of input features, different architectures, and Monte Carlo Dropout.",
+      "The data is organized into these items items:",
+      "Code repository and data for the paper \" \"Machine Learning Ensembles Can Enhance Hydrologic Predictions and Uncertainty Quantifications\" Willard et al. (2025).",
+      "Code: stream_temp_ml_regionalization.zip contains the code repository",
+      "Data to run the code:",
+      "- data_dir.zip -- contains all files that should be moved to the \"DATA_DIR\" variable defined in the \"set_env_vars.sh\" script in the code repository",
+      "- metadata_dir.zip -- contains all files that should be moved to the \"METADATA_DIR\" variable defined in the \"set_env_vars.sh\" script in the code repository",
+      "Data produced by the code and used in the paper:",
+      "- outputs_dir.zip - contains model output and results (outputs_dir/results), model weights (outputs_dir/models), and all other outputs used for the paper including feature importances.",
+      "To cite this code, please use the following BibTeX or MLA entries:",
+      "bibtex:",
+      "@misc{willard2025streamensembles,",
+      "author = {Jared Willard and Charuleka Varadharajan},",
+      "title = {Dataset for \"Machine Learning Ensembles Can Enhance Hydrologic Predictions and Uncertainty Quantification\"},",
+      "year = {2024},",
+      "doi = {10.15485/2527393},",
+      "publisher = {ESS-DIVE Repository},",
+      "url = {https://data.ess-dive.lbl.gov/datasets/doi:10.15485/2527393}",
+      "}",
+      "MLA: Willard, Jared, et al. Dataset for \"Machine Learning Ensembles Can Enhance Hydrologic Predictions and Uncertainty Quantification\". 2025. ESS-DIVE Repository, doi:10.15485/2448016."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4434-051X",
+        "givenName": "Jared",
+        "familyName": "Willard",
+        "email": "jared.d.willard@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "DEEP LEARNING",
+      "MACHINE LEARNING",
+      "ENSEMBLE MODELING",
+      "UNCERTAINTY QUANTIFICATION"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > WATER TEMPERATURE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "award": [
+      "DE-AC02-05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1980-01-01",
+      "endDate": "2021-06-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4434-051X",
+      "givenName": "Jared",
+      "familyName": "Willard",
+      "email": "jared.d.willard@gmail.com"
+    },
+    "citation": [
+      "Willard, Jared D., et al. \"Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models.\" arXiv preprint arXiv:2410.19865 (2024).",
+      "Willard, Jared, et al. Dataset for \"Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models\". 2024. ESS-DIVE Repository, doi:10.15485/2448016."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "93af4208-5c89-4be7-955b-8315ce410713"
+      },
+      "name": "iNAIADS",
+      "member": {
+        "@type": "Person",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Unpack the code in stream_temp_ml_regionalization.zip and follow the directions in the README to generate data from any of the methods in this work. We summarize the steps here. First, after unpacking the code, also unpack the data to run the code:\n- data_dir.zip -- contains all files that should be moved to the \"DATA_DIR\" variable defined in the \"set_env_vars.sh\" script in the code repository\n- metadata_dir.zip -- contains all files that should be moved to the \"METADATA_DIR\" variable defined in the \"set_env_vars.sh\" script in the code repository",
+      "Then, fill out the set_env_vars.sh and specify where your data is located. This also sets the paths where you would like to store the data and outputs.\nAll scripts to build and evaluate the models used in the paper are found in workflows/modeling/ folders. In this folder, each ensemble technique is its own directory (input_selection, mc_dropout, multi_hyperparam, weight_init, and random_subsample). Within each of these directories there is code to build and test the models for each architecture. Note that the scripts to build models (workflows/modeling/[ensemble_technique]/build/) are currently written to submit batch jobs to the perlmutter HPC system. If running on another HPC system, you will have to write your own function to submit batch jobs similar to the function inaiads.hpc.submit_gpu_job_perlmutter(). If you do not have access to HPC, these scripts will still return a job script that you can manually execute locally.",
+      "To perform hyperparameter tuning, we provide example scripts in the workflows/modeling/hpo/ directory. However you will have to create your own entity and project through the Weights and Biases platflorm and supply these to the configuration files."
+    ],
+    "distribution": [
+      {
+        "contentSize": 69414.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2242bf12caba560-20250310T203657443",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2242bf12caba560-20250310T203657443",
+        "name": "stream_temperature_ensembles.zip"
+      },
+      {
+        "contentSize": 2289.388671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-12fc57329150a12-20250310T203657441",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-12fc57329150a12-20250310T203657441",
+        "name": "metadata_dir.zip"
+      },
+      {
+        "contentSize": 9.0732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a78dcb53c9c79c9-20250410T145941430",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-a78dcb53c9c79c9-20250410T145941430",
+        "name": "Dataset_for_Machine_Learning_Ensembles_Can.xml"
+      },
+      {
+        "contentSize": 1710730.7373046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9115742ee65772c-20250310T203657431",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9115742ee65772c-20250310T203657431",
+        "name": "data_dir.zip"
+      },
+      {
+        "contentSize": 2681856.14453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bdef33ea3a15cda-20250310T203859747",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-bdef33ea3a15cda-20250310T203859747",
+        "name": "outputs_dir.zip"
+      }
+    ]
+  }
+}

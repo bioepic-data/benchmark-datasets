@@ -1,0 +1,439 @@
+{
+  "id": "ess-dive-bd21abc451ce913-20240318T140737414",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2324642",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-bd21abc451ce913-20240318T140737414",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-b50d2e9bbda0d03-20240315T141525004",
+  "dateUploaded": "2024-03-18T14:07:38.383Z",
+  "dateModified": "2024-03-19T00:00:48.914Z",
+  "isPublic": true,
+  "citation": "Sulman B; Herndon E (2024): Model output from simulations of manganese-carbon interactions in temperate forest soil profiles. Simulating estuarine wetland function: Nitrogen removal, carbon sequestration, and greenhouse gas fluxes at the river-land-ocean interface. Dataset. doi:10.15485/2324642",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2324642",
+    "name": "Model output from simulations of manganese-carbon interactions in temperate forest soil profiles",
+    "description": [
+      "This archive contains model output, code, and scripts for simulations of coupled manganese-carbon cycling in temperate forest soil profiles. These model results were generated as part of a study investigating how manganese availability influences soil organic carbon stocks and demonstrating a new model framework for coupling carbon and manganese cycling. The simulations were in support of a manuscript: \"Modeling interactive effects of manganese bioavailability, nitrogen deposition, and warming on soil carbon storage.\" The study addresses the research questions:",
+      "How does Mn bioavailability, as driven by subsurface mineral properties, pH, and redox status, affect temperate forest soil organic carbon and litter carbon stocks?",
+      "How is the relationship between Mn bioavailability and carbon cycling affected by changes in temperature and nitrogen deposition?\"",
+      "Model simulations were conducted in a reactive transport modeling framework using PFLOTRAN coupled to python. Multiple model simulations testing different Mn-bearing mineral solubilities, hydrological patterns, nitrogen deposition rates, and temperatures are included. Soil properties, including total and exchangeable Mn concentrations, are based on values reported for the Susquehanna Shale Hills Critical Zone Observatory (SSHCZO), a temperate forested watershed in central Pennsylvania, U.S.A where Mn cycling through vegetation has been documented.",
+      "File formats include netCDF (.nc), python script (.py), shell script (.sh), plain text PFLOTRAN input file (.in), and plain text PFLOTRAN database file (.dat), and gzipped tar archive (tar.gz)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3265-6691",
+        "givenName": "Benjamin",
+        "familyName": "Sulman",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "sulmanbn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9194-5493",
+        "givenName": "Elizabeth",
+        "familyName": "Herndon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "herndonem@ornl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "Manganese",
+      "Carbon",
+      "Redox",
+      "Modeling"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Soil properties, including total and exchangeable Mn concentrations, are based on values reported for the Susquehanna Shale Hills Critical Zone Observatory (SSHCZO), a temperate forested watershed in central Pennsylvania, U.S.A",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.7319,
+            "longitude": -78.0857
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.5603,
+            "longitude": -77.8471
+          }
+        ]
+      }
+    ],
+    "award": [
+      "AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006228",
+        "name": "U.S. DOE > Laboratory Directed Research and Development (LDRD) > Oak Ridge National Laboratory"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2000-01-01",
+      "endDate": "2079-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3265-6691",
+      "givenName": "Benjamin",
+      "familyName": "Sulman",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "sulmanbn@ornl.gov"
+    },
+    "citation": [
+      "B. N. Sulman and E. M. Herndon, Modeling Interactive Effects of Manganese Bioavailability, Nitrogen Deposition, and Warming on Soil Carbon Storage, in review."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "66505938-96ad-4a5d-8758-ab3d776343d5"
+      },
+      "name": "Simulating estuarine wetland function: Nitrogen removal, carbon sequestration, and greenhouse gas fluxes at the river-land-ocean interface",
+      "member": {
+        "@type": "Person",
+        "givenName": "Benjamin",
+        "familyName": "Sulman",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge Naitonal Laboratory",
+        "email": "sulmanbn@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The model configuration represents a soil profile in a temperate forest consisting of a surface forest floor layer comprised of leaf litter and an organic horizon (0 \u2013 5 cm with a bulk density of 0.5 g cm-3) and four underlying mineral horizons (each 10 cm thick with a bulk density of 1.5 g cm-3), for a total profile depth of 45 cm including the forest floor layer. The model was implemented in the reactive transport model PFLOTRAN using a python driver via the Alquimia interface.\nWe conducted multiple simulations with a length of 80 years and a time step of six hours, testing different combinations of initial soil pH, birnessite precipitation/dissolution rate constants, warming levels, and N deposition rates. This set included 5 pH \u00d7 5 precipitation/dissolution rate constants \u00d7 3 N deposition rates \u00d7 3 warming levels, for a total of 225 simulations. We also conducted 4 x 3 additional simulations with four different drainage time scales to represent a gradient of poorly to well-drained hydrological settings, using pH = 4.0, 5.0, and 6.0 and the middle birnessite dissolution rate constant."
+    ],
+    "distribution": [
+      {
+        "contentSize": 47.3486328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-27e6c6b8417a7f2-20240315T142050105",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-27e6c6b8417a7f2-20240315T142050105",
+        "name": "Manganese_profile.py"
+      },
+      {
+        "contentSize": 12.0966796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0caeb76d04cb100-20240315T184811793",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-0caeb76d04cb100-20240315T184811793",
+        "name": "make_alquimia_python_interface.py"
+      },
+      {
+        "contentSize": 450882.6064453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0cc097ed8519543-20240315T142129146",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-0cc097ed8519543-20240315T142129146",
+        "name": "Mn_output_2024_03_05_30.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-089109257896067-20240315T142129098",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-089109257896067-20240315T142129098",
+        "name": "Mn_output_2024_03_05_10.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1d71a882ef41fa5-20240315T142129092",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-1d71a882ef41fa5-20240315T142129092",
+        "name": "Mn_output_2024_03_05_06.nc"
+      },
+      {
+        "contentSize": 507243.9248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1dc0afbaa48d238-20240315T142129087",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-1dc0afbaa48d238-20240315T142129087",
+        "name": "Mn_output_2024_03_05_03.nc"
+      },
+      {
+        "contentSize": 507243.9248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-196e435af5c9c9c-20240315T142129116",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-196e435af5c9c9c-20240315T142129116",
+        "name": "Mn_output_2024_03_05_18.nc"
+      },
+      {
+        "contentSize": 507243.9248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-10c55a07582d9af-20240315T142129138",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-10c55a07582d9af-20240315T142129138",
+        "name": "Mn_output_2024_03_05_28.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3ff83c9066f0be0-20240315T142129088",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-3ff83c9066f0be0-20240315T142129088",
+        "name": "Mn_output_2024_03_05_04.nc"
+      },
+      {
+        "contentSize": 62.369140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-30fde037cf48214-20240315T142050106",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-30fde037cf48214-20240315T142050106",
+        "name": "plot_Mn_sims.py"
+      },
+      {
+        "contentSize": 2.580078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-35b6257bb8ebad7-20240315T185502609",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-35b6257bb8ebad7-20240315T185502609",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 507243.9248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3804f289239a57d-20240315T142129105",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-3804f289239a57d-20240315T142129105",
+        "name": "Mn_output_2024_03_05_13.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3c2a29edebfc590-20240315T142129090",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-3c2a29edebfc590-20240315T142129090",
+        "name": "Mn_output_2024_03_05_05.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d9247537ed1a4ad-20240315T142129107",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-d9247537ed1a4ad-20240315T142129107",
+        "name": "Mn_output_2024_03_05_14.nc"
+      },
+      {
+        "contentSize": 3.380859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d80150b47d382df-20240315T183010236",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-d80150b47d382df-20240315T183010236",
+        "name": "SOMdecomp_template.txt"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d01d73682fcef7f-20240315T142129112",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-d01d73682fcef7f-20240315T142129112",
+        "name": "Mn_output_2024_03_05_16.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-51cb07776f920c5-20240315T142129103",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-51cb07776f920c5-20240315T142129103",
+        "name": "Mn_output_2024_03_05_12.nc"
+      },
+      {
+        "contentSize": 450882.6064453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-54da457d11b8568-20240315T142129140",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-54da457d11b8568-20240315T142129140",
+        "name": "Mn_output_2024_03_05_29.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-67081ff543e9689-20240315T142129125",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-67081ff543e9689-20240315T142129125",
+        "name": "Mn_output_2024_03_05_22.nc"
+      },
+      {
+        "contentSize": 507243.9248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4d15132357efa64-20240315T142129095",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-4d15132357efa64-20240315T142129095",
+        "name": "Mn_output_2024_03_05_08.nc"
+      },
+      {
+        "contentSize": 57339.912109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6f99833eb16befe-20240315T185002209",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-6f99833eb16befe-20240315T185002209",
+        "name": "pflotran_code_tar.gz"
+      },
+      {
+        "contentSize": 0.88671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8068769f5ae379e-20240315T142050109",
+        "encodingFormat": "application/x-sh",
+        "identifier": "ess-dive-8068769f5ae379e-20240315T142050109",
+        "name": "run_Mn_slurm.sh"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-817eac8e48106f4-20240315T142129131",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-817eac8e48106f4-20240315T142129131",
+        "name": "Mn_output_2024_03_05_25.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-849a33e1444175e-20240315T142129079",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-849a33e1444175e-20240315T142129079",
+        "name": "Mn_output_2024_03_05_00.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8838f858ce4073b-20240315T142129135",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-8838f858ce4073b-20240315T142129135",
+        "name": "Mn_output_2024_03_05_27.nc"
+      },
+      {
+        "contentSize": 470.875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7669b9bce54104a-20240315T142050099",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-7669b9bce54104a-20240315T142050099",
+        "name": "hanford.dat"
+      },
+      {
+        "contentSize": 30.6025390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-89440ce50c54a1d-20240315T142050103",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-89440ce50c54a1d-20240315T142050103",
+        "name": "Manganese_network.py"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-89c6097ed1f9ab5-20240315T142129097",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-89c6097ed1f9ab5-20240315T142129097",
+        "name": "Mn_output_2024_03_05_09.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8aec47ac1efac81-20240315T142129121",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-8aec47ac1efac81-20240315T142129121",
+        "name": "Mn_output_2024_03_05_20.nc"
+      },
+      {
+        "contentSize": 507243.9248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-71a3ecda62c9784-20240315T142129127",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-71a3ecda62c9784-20240315T142129127",
+        "name": "Mn_output_2024_03_05_23.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ab125b8362977ae-20240315T142129082",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ab125b8362977ae-20240315T142129082",
+        "name": "Mn_output_2024_03_05_01.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ab5a42bff8369a8-20240315T142129133",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ab5a42bff8369a8-20240315T142129133",
+        "name": "Mn_output_2024_03_05_26.nc"
+      },
+      {
+        "contentSize": 46.8046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ad52029f5adb6aa-20240315T142050090",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-ad52029f5adb6aa-20240315T142050090",
+        "name": "decomp_network.py"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9c7850991ae370b-20240315T142129123",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-9c7850991ae370b-20240315T142129123",
+        "name": "Mn_output_2024_03_05_21.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a5335e140544e0c-20240315T142129094",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a5335e140544e0c-20240315T142129094",
+        "name": "Mn_output_2024_03_05_07.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-91f21d66909e815-20240315T142129129",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-91f21d66909e815-20240315T142129129",
+        "name": "Mn_output_2024_03_05_24.nc"
+      },
+      {
+        "contentSize": 450882.6064453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-96f4de23cc4b4fe-20240315T142129148",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-96f4de23cc4b4fe-20240315T142129148",
+        "name": "Mn_output_2024_03_05_31.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-95941a064c42e4e-20240315T142129085",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-95941a064c42e4e-20240315T142129085",
+        "name": "Mn_output_2024_03_05_02.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c0c8a747dfe5831-20240315T142129119",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-c0c8a747dfe5831-20240315T142129119",
+        "name": "Mn_output_2024_03_05_19.nc"
+      },
+      {
+        "contentSize": 56.9521484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c1376f54c01e63d-20240315T142050108",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-c1376f54c01e63d-20240315T142050108",
+        "name": "run_alquimia.py"
+      },
+      {
+        "contentSize": 14.6865234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bd21abc451ce913-20240318T140737414",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-bd21abc451ce913-20240318T140737414",
+        "name": "Model_output_from_simulations_of_manganese_carbon.xml"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bd93f58c81fecdb-20240315T142129100",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-bd93f58c81fecdb-20240315T142129100",
+        "name": "Mn_output_2024_03_05_11.nc"
+      },
+      {
+        "contentSize": 11.173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b02742f34d91d5b-20240315T142050101",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-b02742f34d91d5b-20240315T142050101",
+        "name": "manganese_00.in"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fb7fbc49226f315-20240315T142129114",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-fb7fbc49226f315-20240315T142129114",
+        "name": "Mn_output_2024_03_05_17.nc"
+      },
+      {
+        "contentSize": 507243.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e61ffa19ff57926-20240315T142129110",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-e61ffa19ff57926-20240315T142129110",
+        "name": "Mn_output_2024_03_05_15.nc"
+      }
+    ]
+  }
+}

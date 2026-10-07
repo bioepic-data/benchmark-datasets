@@ -1,0 +1,238 @@
+{
+  "id": "ess-dive-5c6fb3269616635-20251021T161750864",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2283980",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-5c6fb3269616635-20251021T161750864",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-5c6fb3269616635-20250210T212749729",
+  "dateUploaded": "2025-10-21T16:17:52.504Z",
+  "dateModified": "2025-10-21T16:17:52.964Z",
+  "isPublic": true,
+  "citation": "New J; Bass B; Berres A; Clinton N; Adams M; Li F; Stubbings A; Chowdhury S; Li H (2021): Model America: Data and Models for every U.S. Building. Southwest Urban Corridor Integrated Field Laboratory (SW-IFL). Dataset. doi:10.15485/2283980",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2283980",
+    "archivedAt": [
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (Globus)",
+        "url": "https://app.globus.org/file-manager?origin_id=e1b775d6-0125-11ed-a2da-25ff8664e4e5&origin_path=%2Ftier2%2Fdoi-10-15485-2283980%2F"
+      },
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (HTTP)",
+        "url": "https://tier2.ess-dive.lbl.gov/doi-10-15485-2283980/"
+      }
+    ],
+    "name": "Model America: Data and Models for every U.S. Building",
+    "description": [
+      "The 5-year goal of the \u201cModel America\u201d concept was to generate a model of every building in the United States. This data repository delivers on that goal with \"Model America v1\".",
+      "Oak Ridge National Laboratory (ORNL) has developed the Automatic Building Energy Modeling (AutoBEM) software suite to process multiple types of data, extract building-specific descriptors, generate building energy models, and simulate them on High Performance Computing (HPC) resources. For more information, see AutoBEM-related publications (bit.ly/AutoBEM).",
+      "There were 125,715,609 buildings detected in the United States. Of this number, 122,146,671 (97.2%) buildings resulted in a successful generation and simulation of a building energy model. This dataset includes the full 125 million buildings. Future updates may include additional buildings, data improvements, or other algorithmic model enhancements in \"Model America v2\".",
+      "This dataset contains OSM and IDF zip files for every U.S. county. Each zip file contains the generated buildings from that county.",
+      "The .csv input data contains the following data fields:",
+      "1. ID - unique building ID",
+      "2. Centroid - building center location in latitude/longitude (from Footprint2D)",
+      "3. Footprint2D - building polygon of 2D footprint (lat1/lon1_lat2/lon2_...)",
+      "4. State_abbr - state name",
+      "5. Area - estimate of total conditioned floor area (ft2)",
+      "6. Area2D - footprint area (ft2)",
+      "7. Height - building height (ft)",
+      "8. NumFloors - number of floors (above-grade)",
+      "9. WWR_surfaces - percent of each facade (pair of points from Footprint2D) covered by fenestration/windows (average 14.5% for residential, 40% for commercial buildings)",
+      "10. CZ - ASHRAE Climate Zone designation",
+      "11. BuildingType - DOE prototype building designation (IECC=residential) as implemented by OpenStudio-standards",
+      "12. Standard - building vintage",
+      "This data is made free and openly available in hopes of stimulating any simulation-informed use case. Data is provided as-is with no warranties, express or implied, regarding fitness for a particular purpose. We wish to thank our sponsors which include Oak Ridge National Laboratory (ORNL) Laboratory Directed Research and Development (LDRD), U.S. Dept. of Energy\u2019s (DOE) Building Technologies Office (BTO), Office of Electricity (OE), Biological and Environmental Research (BER), and National Nuclear Security Administration (NNSA).",
+      "Update (March 2025): Corrected the ID field in all state-level .csv input files to ensure one-to-one consistency with the corresponding .osm and .idf output files. The schema and file structure are unchanged; only the values in the ID column were modified. No files were added or removed, and the .zip bundles (containing .osm/.idf) are unchanged. The corrected .csv inputs were re-extracted in March 2025 from the original data generated ~2021 (Theta supercomputer runs), and published here to align input IDs with model outputs."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8015-0583",
+        "givenName": "Joshua",
+        "familyName": "New",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "newjr@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4098-8434",
+        "givenName": "Brett",
+        "familyName": "Bass",
+        "affiliation": "B13 Engineering",
+        "email": "b13datasolutions@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6048-4313",
+        "givenName": "Andy",
+        "familyName": "Berres",
+        "affiliation": "National Renewable Energy Laboratory",
+        "email": "andy.berres@nrel.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nicholas",
+        "familyName": "Clinton",
+        "affiliation": "Google",
+        "email": "nclinton@google.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mark",
+        "familyName": "Adams",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "adamsmb@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3887-9968",
+        "givenName": "Fengqi",
+        "familyName": "Li",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "lif2@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0927-5775",
+        "givenName": "Avery",
+        "familyName": "Stubbings",
+        "affiliation": "Illinois Institute of Technology",
+        "email": "astubbings@hawk.iit.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3255-836X",
+        "givenName": "Shovan",
+        "familyName": "Chowdhury",
+        "affiliation": "The University of Tennessee",
+        "email": "schowd14@vols.utk.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0600-1920",
+        "givenName": "Hang",
+        "familyName": "Li",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "lih5@ornl.gov"
+      }
+    ],
+    "datePublished": "2021-04-14",
+    "keywords": [
+      "United States",
+      "Buildings",
+      "OpenStudio Models",
+      "EnergyPlus Models",
+      "Building Energy Modeling"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "CONUS",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 51.5643,
+            "longitude": -127.555
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 21.555,
+            "longitude": -66.3452
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.4,
+            "longitude": -180.0
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 50.9,
+            "longitude": -129.3
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Hawaii",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 22.434038,
+            "longitude": -160.652946
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 18.569811,
+            "longitude": -154.6326
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1980",
+      "endDate": "2015",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8015-0583",
+      "givenName": "Joshua",
+      "familyName": "New",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "newjr@ornl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "76c0a41d-b69a-4d99-996f-d650c21e07aa"
+      },
+      "name": "Southwest Urban Corridor Integrated Field Laboratory (SW-IFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Sailor",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Arizona State University",
+        "email": "dsailor@asu.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Building footprint and height data from Google was obtained for the entire United States.",
+      "The building type, building standard, and missing heights were assigned statistically resulting in an input data set containing building ID, Centroid, Footprint2D, State_abbr, Area, Area2D, Height, NumFloors, WWR_surfaces, CZ, BuildingType, and Standard.",
+      "This data was inputted into the AutoBEM workflow to generate the OSM and IDF files for every building in the United States."
+    ],
+    "distribution": [
+      {
+        "contentSize": 10.8876953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5c6fb3269616635-20251021T161750864",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-5c6fb3269616635-20251021T161750864",
+        "name": "Model_America_Data_and_Models_for_every_U_S_.xml"
+      }
+    ]
+  }
+}

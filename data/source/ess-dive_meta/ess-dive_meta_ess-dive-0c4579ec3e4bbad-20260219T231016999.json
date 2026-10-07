@@ -1,0 +1,1327 @@
+{
+  "id": "ess-dive-0c4579ec3e4bbad-20260219T231016999",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2428003",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-0c4579ec3e4bbad-20260219T231016999",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-0c4579ec3e4bbad-20260219T230348907",
+  "dateUploaded": "2026-02-19T23:10:18.213Z",
+  "dateModified": "2026-02-19T23:10:18.434Z",
+  "isPublic": true,
+  "citation": "Laan M; Danczak R E; Delgado D; Forbes B; Garayburu-Caruso V A; Goldman A E; Gonzalez B I; Kaufman M H; McKever S A; Norris C; Ocejo J A; Powers-McCormack B; Renteria L; Rod K A; Scheibe T D; Tfaily M M; Stegen J C; Consortium T W (2024): Laboratory time series moisture manipulative experiment from sediment across the contiguous US: time series aerobic respiration and geochemistry (v2). Early Career Research Program: Watershed Perturbation-Response Traits Derived Through Ecological Theory - Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS). Dataset. doi:10.15485/2428003",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2428003",
+    "name": "Laboratory time series moisture manipulative experiment from sediment across the contiguous US: time series aerobic respiration and geochemistry (v2)",
+    "description": [
+      "This dataset supports a broader study examining the effects of wetting and drying on hyporheic zone respiration across the contiguous United States (CONUS). The dataset provides data generated from a laboratory moisture manipulation experiment. The contents include time series aerobic respiration and moisture; dissolved oxygen; sediment geochemistry data; and field metadata (including qualitative information on instream and river corridor characteristics).",
+      "Samples were collected as part of the WHONDRS CONUS-Scale Model-Sample Study (CM). This study was designed following ICON (integrated, coordinated, open, and networked) principles to facilitate a model-experiment (ModEx) iteration approach, leveraging crowdsourced sampling across the CONUS. The data package associated with the CM study is available at https://data.ess-dive.lbl.gov/view/doi:10.15485/1923689. CM sampling began in April 2022 and ended in October 2023. This study uses subsamples from a subset of CM samples collected between June 2022 and June 2023. The original field samples were labeled as CM_###. Subsequent subsamples for this study were labeled as EC_###. The labels from the field samples and the EC subsamples can be mapped directly based on the digits following the prefix and underscore (i.e., EC_001 is a subsample from CM_001). See the critical details section below for more details on sample naming.",
+      "This data package was originally published in August 2024. It was updated in February 2026 (v2; new and modified files). See the change history section in the readme for more details.",
+      "For details on how to navigate this data package, see this infographic from the River Corridor SFA https://data.ess-dive.lbl.gov/portals/PNNLRiverCorridorSFA/About.",
+      "This dataset is comprised of one folder of raw Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS) data and one main data folder containing (1) file-level metadata; (2) data dictionary; (3) field metadata; (4) readme; (5) field protocol; and a (6) a subfolder with sediment sample data from the incubation experiment. The sample data subfolder contains (1) dissolved organic carbon (DOC, measured as non-purgeable organic carbon, NPOC); (2) total nitrogen (TN); (3) adenosine triphosphate (ATP); (4) percent carbon and nitrogen; (5) effect size; (6) iron (II); (7) gravimetric moisture; (8) respiration rates and raw dissolved oxygen values; (9) specific conductance; (10) pH; (11) temperature; (12) a summary containing median values of each data type for each treatment (wet and dry); (13) methods codes; (14) FTICR-MS methods; and (15) a subfolder of 9.4 Tesla FTICR-MS data. This folder contains three subfolders, one containing the sediment .xml data files, one containing the sediment CoreMS output files, the other containing instructions and scripts for processing the files in CoreMS (https://github.com/EMSL-Computing/CoreMS). All files are .csv, .pdf, .R, .ref, or .xml."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0256-3822",
+        "givenName": "Maggi",
+        "familyName": "Laan",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "maggi.laan@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert E.",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6652-6775",
+        "givenName": "Dillman",
+        "familyName": "Delgado",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "dillman.delgadoparedes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Brianna I.",
+        "familyName": "Gonzalez",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brianna.gonzalez@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1498-8219",
+        "givenName": "Matthew H.",
+        "familyName": "Kaufman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "matthew.kaufman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophia A.",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "sophia.mckever@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0002-7572-4655",
+        "givenName": "Cooper",
+        "familyName": "Norris",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "cooper.norris@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0007-6027-0933",
+        "givenName": "Juan Alberto",
+        "familyName": "Ocejo",
+        "affiliation": "University of Arizona",
+        "email": "albocejo@arizona.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1818-9094",
+        "givenName": "Kenton A.",
+        "familyName": "Rod",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "kenton.rod@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8864-5772",
+        "givenName": "Timothy D.",
+        "familyName": "Scheibe",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3036-2833",
+        "givenName": "Malak M.",
+        "familyName": "Tfaily",
+        "affiliation": "University of Arizona/Pacific Northwest National Laboratory",
+        "email": "tfaily@email.arizona.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "The",
+        "familyName": "WHONDRS Consortium",
+        "email": "WHONDRS@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024-08-01",
+    "keywords": [
+      "River corridor",
+      "Sediment",
+      "Freshwater",
+      "Hydrology",
+      "Hydraulic exchange",
+      "River",
+      "Stream",
+      "Watershed",
+      "Catchment",
+      "Biogeochemistry",
+      "Hydrobiogeochemical function",
+      "Hyporheic zone",
+      "ICON",
+      "Intermittent",
+      "Non-perennial",
+      "Wetting and drying",
+      "Manipulative laboratory experiment",
+      "Moisture",
+      "Intermittent Rivers and Ephemeral Streams",
+      "IRES",
+      "Variably inundated Ecosystem",
+      "VIE",
+      "ESS-DIVE Sample ID and Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE"
+    ],
+    "variableMeasured": [
+      "Aerobic respiration rate",
+      "Gravimetric moisture",
+      "Effect size",
+      "Iron (II)",
+      "Specific conductance",
+      "Temperature",
+      "Dissolved organic carbon",
+      "DOC",
+      "Non-purgeable organic carbon",
+      "NPOC",
+      "Total nitrogen",
+      "TN",
+      "Percent total carbon",
+      "Percent total nitrogen",
+      "Fourier transform ion cyclotron resonance mass spectrometry",
+      "FTICR-MS",
+      "Vegetation",
+      "Canopy cover",
+      "Macrophyte cover",
+      "DO",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > GASES > DISSOLVED OXYGEN",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > WATER TEMPERATURE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > CONDUCTIVITY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > pH",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > ORGANIC MATTER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > NUTRIENTS > NITROGEN COMPOUNDS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > NUTRIENTS > NITROGEN",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > NITROGEN COMPOUNDS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > VEGETATION COVER",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > MACROPHYTES"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "EC_005, MP-102695, Nooksack River, Washington",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 48.8186,
+            "longitude": -122.5806
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 48.8186,
+            "longitude": -122.5806
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_009, MP-102600, Stanislaus River, California",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.7323,
+            "longitude": -121.1082
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.7323,
+            "longitude": -121.1082
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_011, MP-100201, Kinderhook Creek, New York",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.5055,
+            "longitude": -73.5062
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.5055,
+            "longitude": -73.5062
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_012, MP-100167, Little Hoosic River, New York",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.7638,
+            "longitude": -73.3372
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.7638,
+            "longitude": -73.3372
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_013, SP-1, Sandusky River, Ohio",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3093,
+            "longitude": -83.1578
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3093,
+            "longitude": -83.1578
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_014, MP-100656, Contentnea Creek, North Carolina",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.3668,
+            "longitude": -77.4403
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.3668,
+            "longitude": -77.4403
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_017,, MP-101915, Yellowstone River, Montana",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5974,
+            "longitude": -110.566
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5974,
+            "longitude": -110.566
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_018, SP-2, North Platte River, Nebraska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3166,
+            "longitude": -102.126
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3166,
+            "longitude": -102.126
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_021, SP-10, Santa Cruz River, Arizona",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.3505,
+            "longitude": -111.0953
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.3505,
+            "longitude": -111.0953
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_022, SP-8, Willamette River, Oregon",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5505,
+            "longitude": -123.2497
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5505,
+            "longitude": -123.2497
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_023, SP-9, Marys River, Oregon",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.556,
+            "longitude": -123.2769
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.556,
+            "longitude": -123.2769
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_024, SP-5, South River, Georgia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.684,
+            "longitude": -84.4153
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.684,
+            "longitude": -84.4153
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_027, MP-102322, Chocolate Bayou, Texas",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 29.3338,
+            "longitude": -95.2832
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 29.3338,
+            "longitude": -95.2832
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_032, MP-101583, Red River of the North, North Dakota",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.804,
+            "longitude": -96.798
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.804,
+            "longitude": -96.798
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_033, SP-13, Santa Cruz River, Arizona",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.4713,
+            "longitude": -111.3042
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.4713,
+            "longitude": -111.3042
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_034, SP-14, St. Marys River, Michigan",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.4979,
+            "longitude": -84.3742
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.4979,
+            "longitude": -84.3742
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_035, SP-6, St. Croix, Minnesota",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.0844,
+            "longitude": -92.7856
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.0844,
+            "longitude": -92.7856
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_037, MP-103089, Mill River, Connecticut",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3825,
+            "longitude": -72.8972
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3825,
+            "longitude": -72.8972
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_038, MP-100057, Yantic River, Connecticut",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.5236,
+            "longitude": -72.2067
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.5236,
+            "longitude": -72.2067
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_039, MP-102338, Lower Colorado River, Texas",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 30.2457,
+            "longitude": -97.6915
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30.2457,
+            "longitude": -97.6915
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_040, SP-15, Mississippi RIver, Louisiana",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 30.4384,
+            "longitude": -91.1912
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30.4384,
+            "longitude": -91.1912
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_041, MP-101143, New River, Virginia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.3724,
+            "longitude": -80.8599
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.3724,
+            "longitude": -80.8599
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_042, MP-101142, Little River, Virginia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.0422,
+            "longitude": -80.5627
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.0422,
+            "longitude": -80.5627
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_044, HOPB, Hop Brook, Massachusetts",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.4716,
+            "longitude": -72.3303
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.4716,
+            "longitude": -72.3303
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_051, MART, Martha Creek, Washington",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7924,
+            "longitude": -121.9289
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7924,
+            "longitude": -121.9289
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_052, MART, Martha Creek, Washington",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7925,
+            "longitude": -121.929
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7925,
+            "longitude": -121.929
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_053, MART, Martha Creek, Washington",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7922,
+            "longitude": -121.9284
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7922,
+            "longitude": -121.9284
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_056, MAYF, Mayfield Creek, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.9633,
+            "longitude": -87.4092
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.9633,
+            "longitude": -87.4092
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_057, MAYF, Mayfield Creek, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.9618,
+            "longitude": -87.4082
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.9618,
+            "longitude": -87.4082
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_063, MP-100021, North River, New Hampshire",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.0795,
+            "longitude": -71.0359
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.0795,
+            "longitude": -71.0359
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_064, MP-101022, Five Mile Creek, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.6053,
+            "longitude": -86.7497
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.6053,
+            "longitude": -86.7497
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_065, SP-22, Fivemile Creek Tributary, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8457,
+            "longitude": -87.6614
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8457,
+            "longitude": -87.6614
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_066, SP-16, Crawford Brook, Maine",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6407,
+            "longitude": -68.4455
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6407,
+            "longitude": -68.4455
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_068, MP-102277, Bayou Plaqemarine, Louisiana",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 30.1983,
+            "longitude": -92.4631
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30.1983,
+            "longitude": -92.4631
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_069, MP-103975, Big Cottonwood Creek, Utah",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.6652,
+            "longitude": -111.846
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.6652,
+            "longitude": -111.846
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_070, MP-100068, White River, Vermont",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.7156,
+            "longitude": -72.4188
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.7156,
+            "longitude": -72.4188
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_071, SP-17, Decker Creek, Nebraska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.9899,
+            "longitude": -96.209
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.9899,
+            "longitude": -96.209
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_072, MP-102327, Brazos River, Texas",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.1356,
+            "longitude": -96.8252
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.1356,
+            "longitude": -96.8252
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_073, SP-18, Huntington River, Vermont",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.3677,
+            "longitude": -72.9689
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.3677,
+            "longitude": -72.9689
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_074, SP-19, Boise River, Idaho",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.6043,
+            "longitude": -116.1947
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.6043,
+            "longitude": -116.1947
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_075, MP-100819, Suwannee River, Florida",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 29.9531,
+            "longitude": -82.9278
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 29.9531,
+            "longitude": -82.9278
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_076, MP-102055, Missouri River, Missouri",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.7678,
+            "longitude": -94.8625
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.7678,
+            "longitude": -94.8625
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_078, MP-100379, Schuylkill River, Pennsylvania",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.9677,
+            "longitude": -75.185
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.9677,
+            "longitude": -75.185
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_080, MP-102281, Mermentau River, Louisiana",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 30.1896,
+            "longitude": -92.5902
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30.1896,
+            "longitude": -92.5902
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_081, MP-100747, Altamaha, Georgia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.6692,
+            "longitude": -81.8303
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.6692,
+            "longitude": -81.8303
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_082, MP-100749, Altamaha, Georgia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.4267,
+            "longitude": -81.6067
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.4267,
+            "longitude": -81.6067
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_084, MP-102398, Fraser River, Colorado",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.8443,
+            "longitude": -105.751
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.8443,
+            "longitude": -105.751
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_085, MP-103149, Crabtree Creek, North Carolina",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.8365,
+            "longitude": -78.7821
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.8365,
+            "longitude": -78.7821
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_088, MP-104218, Beaver Creek, Oregon",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5371,
+            "longitude": -122.3793
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5371,
+            "longitude": -122.3793
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_089, MP-103380, South Fork Santa Ana River, California",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.1687,
+            "longitude": -116.8318
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.1687,
+            "longitude": -116.8318
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_090, MP-102602, Mokelumne River, California",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.149,
+            "longitude": -121.2993
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.149,
+            "longitude": -121.2993
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_091, MP-100981, Apalachicola River, Florida",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 30.4237,
+            "longitude": -85.0324
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30.4237,
+            "longitude": -85.0324
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_092, MP-100984, Apalachicola River, Florida",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 29.9455,
+            "longitude": -85.0136
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 29.9455,
+            "longitude": -85.0136
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_093, MP-101336, Bad River, Wisconsin",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.3766,
+            "longitude": -90.6412
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.3766,
+            "longitude": -90.6412
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_094, MP-100019, Bellamy River, New Hampshire",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.1798,
+            "longitude": -70.8911
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.1798,
+            "longitude": -70.8911
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EC_095, MP-101276, Crooked Fork, Tennessee",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.0825,
+            "longitude": -84.5753
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.0825,
+            "longitude": -84.5753
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #74193"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-06-13",
+      "endDate": "2023-06-12",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9135-7424",
+      "givenName": "James C.",
+      "familyName": "Stegen",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "james.stegen@pnnl.gov"
+    },
+    "citation": [
+      "Boye, K., Crystal-Ornelas, R., O'Ryan, D., Goldman, A. E., Damerow, J., Varadharajan, C., & Agarwal, D. (2022). ESS-DIVE Reporting Format for Sample-based Water and Soil Chemistry Measurements. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1865731",
+      "Crystal-Ornelas R; O'Ryan D; Christianson D; Hendrix V C; Agarwal D; Varadharajan C (2022): ESS-DIVE Reporting Format for Location Metadata. ESS-DIVE repository. Dataset. doi: 10.15485/1865730",
+      "Damerow J ; Varadharajan C ; Boye K ; Brodie E ; Burrus M ; Chadwick D ; Cholia S ; Crystal-Ornelas R ; Elbashandy H ; Eloy Alves R ; Ely K ; Goldman A ; Hendrix V ; Jones C ; Jones M ; Kakalia Z ; Kemner K ; Kersting A ; Maher K ; Merino N ; O'Brien F ; Perzan Z ; Robles E ; Snavely C ; Sorensen P ; Stegen J ; Weisenhorn P ; Whitenack K ; Zavarin M ; Agarwal D (2020): Sample Identifiers and Metadata Reporting Format for Environmental Systems Science. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/1660470",
+      "Forbes B ; Barnes M ; Boehnke B T ; Chen X ; Cornwell K ; Delgado D ; Fulton S G ; Garayburu-Caruso V A ; Gary S ; Goldman A E ; Gonzalez B I ; Grieger S ; Hammond G E ; Jiang P ; Kaufman M H ; Laan M ; Li B ; Li Z ; McKever S A ; Mudunuru M K ; Muller K A ; Myers-Pigg A ; Otenburg O ; Pelly A ; Peta K ; Powers-McCormack B ; Regier P ; Renteria L ; Roebuck A ; Scheibe T D ; Son K ; Torgeson J M ; Stegen J C ; WHONDRS Consortium T (2023): WHONDRS River Corridor Dissolved Oxygen, Temperature, Sediment Aerobic Respiration, Grain Size, and Water Chemistry from Machine-Learning-Informed Sites across the Contiguous United States (v4). River Corridor and Watershed Biogeochemistry SFA, ESS-DIVE repository. Dataset. doi:10.15485/1923689 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1923689 on 2024-08-01",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734841",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734840",
+      "Huang, W., & Hall, S. J. (2017). Optimized high-throughput methods for quantifying iron biogeochemical dynamics in soil. Geoderma, 306, 67-72.",
+      "Kaufman MH, Torgeson J, Stegen JC (2023) Metabolic multireactor: Practical considerations for using simple oxygen sensing optodes for high-throughput batch reactor metabolism experiments. PLoS ONE 18(7): e0284256. https://doi.org/10.1371/journal.pone.0284256",
+      "Larsen M, Borisov SM, Grunwald B, Klimant I, Glud RN. A simple and inexpensive high resolution color ratiometric planar optode imaging approach: application to oxygen and pH sensing. Limnology and Oceanography-Methods. https://doi.org/10.4319/lom.2011.9.348"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1fc0556d-c136-4e76-8f1d-f97534066fd5"
+      },
+      "name": "Early Career Research Program: Watershed Perturbation-Response Traits Derived Through Ecological Theory - Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS)",
+      "member": {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "Stegen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "james.stegen@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Sampling kits were distributed to the collaborators listed below, which comprise the WHONDRS Consortium in the author list: Firnaaz Ahamed (University of Nebraska-Lincoln (UNL)); Marcelo Ardon (NC State University); Shahram Asgari (University of Georgia); Christian Ayala (University of Arizona); Abi Bartlett (University of Minnesota); Kadir Bice (University of Georgia); Nick Bither (University of Denver); Robert L Bordelon (University of Louisiana at Lafayette); Nick Bouskill (Lawrence Berkeley National Laboratory); Aidan Brezonick; J. Renee Brooks (Oregon State University); Scott Brooks (Oak Ridge National Laboratory); Joshua Buonpane (University of New Hampshire); Ann Burgess (Earth Science Information Partners); Erick Burres (SWRCB-Clean Water Team); Bayani Cardenas (University of Texas at Austin); Bayani Cardenas (Univ. of Texas at Austin); Mayumi S. Cardenas (University of Texas at Austin); Shuo Chen (Idaho State University; University of Georgia); Danielle Christlieb (Utah Valley University); Nicole Conner (National Ecological Observatory Network); Kyle Patrick Craig (University of Georgia); Kyle Craig (University of Georgia); Byron Crump (Oregon State University); Iris Diaz; Jacob Fenner (Lake Superior State University); Viviana Freire (University of Arizona); Dr. Ayush Joshi Gyawali (Texas A&M University); Douglas Hardy (UMass Geosciences); Jon Hawkings (UPenn Dept of Earth & Env Sci); Moshema Hull (Yale University); Emily Jackson (North Dakota State University); Amanda Jackson Mojica (National Ecological Observatory Network); Laura Johnson (Heidelberg University); Ken Johnston (NYenvironcom & University of Vermont); Karin Kirk (Earth Science Information Partners); Peijia Ku (Oak Ridge National Laboratory); Peter Lazaro (North Carolina State University); Peter Levi (Burke Center, Northland College); Dr. Heng-An Lin (Texas A&M University); Andreana Madera-Martorell; Wei Mao (Florida State University); Mahpara Mashiyat (University of Louisiana at Lafayette); David McCabe (University of Pennsylvania); Ben McClellan; William McDowell (University of New Hampshire); Christof Meile (University of Georgia); Ashley Moerke (Lake Superior State University); Jack Geary Murphy (University of Pennsylvania); Dylan O'Ryan (Storm Drain Detectives); Lexie Olson (Utah Valley University); Megan Palko (National Ecological Observatory Network); Brendan Petts (Lake Superior State University); Adam Price (University of Washington: Northwest Climate Adaptation Science Center); Jodie Resiner (Texas A&M University); Breanna Rivera Waterman (University of Kansas); Kevin Ryan (United States Geological Survey); Bernhardt Saini-Eidukat (North Dakota State University); Cara Santelli (University of Minnesota); Michelle D. Shattuck (University of New Hampshire); Benjamin Shetterly (National Ecological Observatory Network); Ben Shetterly (National Ecological Observatory Network); A. Peyton Smith (Texas A&M University); India Southern; Ryan Stewart (Virginia Tech); Amelia Swanson (North Dakota State University); Malak Tfaily (University of Arizona); Claudia Torres (City of Lodi); Derrick Vaughn (Yale University); Julietta Vinas Villa (Texas A&M University); Ryan Williams (National Ecological Observatory Network); Caroline Wolcott (Virginia Tech); Wilfred Wollheim (University of New Hampshire); Scott Wood (North Dakota State University); Melissa Wuellner (University of Nebraska at Kearney); Ming Ye (Florida State University); Alessandro Zanazzi (Utah Valley University); Logan Zebro (University of Nebraska at Kearney); Nikki Zhang (Yale University).",
+      "Samples were collected across the contiguous United States via WHONDRS (https://whondrs.pnnl.gov) crowdsourced sampling. Site metadata, including general environmental information, were manually recorded in the field. See CM_Sampling_Protocol.pdf for details on sample collection and site metadata collection. Unfiltered surface water and filtered surface water were collected at 50 percent water column depth. Sediment samples were collected underwater at 1 to 3 centimeters depth below the streambed and sieved to less than 2 millimeters. The samples were refrigerated after sampling and shipped or transported on blue ice to Pacific Northwest National Laboratory. Sediments are either kept constantly inundated or allowed to air-dry over 21 days while being shaken to maintain aerobic conditions. After 21 days, sediment aerobic respiration rate was calculated from time series dissolved oxygen data measured from laboratory sediment/water incubations using a non-invasive, multireactor method using customized oxygen optodes (Kaufman et al.; 2023). For details regarding laboratory and instrument methods, see the alphanumeric methods codes located in the header rows of the chemistry data csv file and their associated definitions in EC_Methods_Codes.csv. Data formats follow ESS-DIVE Reporting Formats. NOTE: The FTICR-MS data was generated using a 9.4 Tesla (9.4T) Bruker SolariX FTICR-MS, NOT a 9T as indicated within this documentation.",
+      "This section provides a list of all parent site locations, from which the physical samples were collected. More information is provided in the location landing pages (links below).\nSample Name IGSN PID IGSN URL\nHOPB IGSN:10.58052/IEWDR01U6 https://doi.org/10.58052/IEWDR01U6\nMART IGSN:10.58052/IEWDR01U7 https://doi.org/10.58052/IEWDR01U7\nMAYF IGSN:10.58052/IEWDR01U8 https://doi.org/10.58052/IEWDR01U8\nMP-100019 IGSN:10.58052/IEWDR01XN https://doi.org/10.58052/IEWDR01XN\nMP-100021 IGSN:10.58052/IEWDR01KI https://doi.org/10.58052/IEWDR01KI\nMP-100057 IGSN:10.58052/IEWDR01KJ https://doi.org/10.58052/IEWDR01KJ\nMP-100068 IGSN:10.58052/IEWDR01UD https://doi.org/10.58052/IEWDR01UD\nMP-100167 IGSN:10.58052/IEWDR01KL https://doi.org/10.58052/IEWDR01KL\nMP-100201 IGSN:10.58052/IEWDR01KM https://doi.org/10.58052/IEWDR01KM\nMP-100379 IGSN:10.58052/IEWDR01UL https://doi.org/10.58052/IEWDR01UL\nMP-100656 IGSN:10.58052/IEWDR01KO https://doi.org/10.58052/IEWDR01KO\nMP-100747 IGSN:10.58052/IEWDR01UO https://doi.org/10.58052/IEWDR01UO\nMP-100749 IGSN:10.58052/IEWDR01UP https://doi.org/10.58052/IEWDR01UP\nMP-100819 IGSN:10.58052/IEWDR01UI https://doi.org/10.58052/IEWDR01UI\nMP-100981 IGSN:10.58052/IEWDR01XK https://doi.org/10.58052/IEWDR01XK\nMP-100984 IGSN:10.58052/IEWDR01XL https://doi.org/10.58052/IEWDR01XL\nMP-101022 IGSN:10.58052/IEWDR01U9 https://doi.org/10.58052/IEWDR01U9\nMP-101142 IGSN:10.58052/IEWDR01L5 https://doi.org/10.58052/IEWDR01L5\nMP-101143 IGSN:10.58052/IEWDR01KP https://doi.org/10.58052/IEWDR01KP\nMP-101276 IGSN:10.58052/IEWDR01XO https://doi.org/10.58052/IEWDR01XO\nMP-101336 IGSN:10.58052/IEWDR01XM https://doi.org/10.58052/IEWDR01XM\nMP-101583 IGSN:10.58052/IEWDR01KS https://doi.org/10.58052/IEWDR01KS\nMP-101915 IGSN:10.58052/IEWDR01KT https://doi.org/10.58052/IEWDR01KT\nMP-102055 IGSN:10.58052/IEWDR01UJ https://doi.org/10.58052/IEWDR01UJ\nMP-102277 IGSN:10.58052/IEWDR01UB https://doi.org/10.58052/IEWDR01UB\nMP-102281 IGSN:10.58052/IEWDR01UN https://doi.org/10.58052/IEWDR01UN\nMP-102322 IGSN:10.58052/IEWDR01KU https://doi.org/10.58052/IEWDR01KU\nMP-102327 IGSN:10.58052/IEWDR01UF https://doi.org/10.58052/IEWDR01UF\nMP-102338 IGSN:10.58052/IEWDR01KV https://doi.org/10.58052/IEWDR01KV\nMP-102398 IGSN:10.58052/IEWDR01UQ https://doi.org/10.58052/IEWDR01UQ\nMP-102600 IGSN:10.58052/IEWDR01U4 https://doi.org/10.58052/IEWDR01U4\nMP-102602 IGSN:10.58052/IEWDR01XJ https://doi.org/10.58052/IEWDR01XJ\nMP-102695 IGSN:10.58052/IEWDR01KY https://doi.org/10.58052/IEWDR01KY\nMP-103089 IGSN:10.58052/IEWDR01L0 https://doi.org/10.58052/IEWDR01L0\nMP-103149 IGSN:10.58052/IEWDR01UR https://doi.org/10.58052/IEWDR01UR\nMP-103380 IGSN:10.58052/IEWDR01XI https://doi.org/10.58052/IEWDR01XI\nMP-103975 IGSN:10.58052/IEWDR01UC https://doi.org/10.58052/IEWDR01UC\nMP-104218 IGSN:10.58052/IEWDR01US https://doi.org/10.58052/IEWDR01US\nSP-1 IGSN:10.58052/IEWDR01L6 https://doi.org/10.58052/IEWDR01L6\nSP-10 IGSN:10.58052/IEWDR01L7 https://doi.org/10.58052/IEWDR01L7\nSP-13 IGSN:10.58052/IEWDR01L8 https://doi.org/10.58052/IEWDR01L8\nSP-14 IGSN:10.58052/IEWDR01L9 https://doi.org/10.58052/IEWDR01L9\nSP-15 IGSN:10.58052/IEWDR01LA https://doi.org/10.58052/IEWDR01LA\nSP-16 IGSN:10.58052/IEWDR01UA https://doi.org/10.58052/IEWDR01UA\nSP-17 IGSN:10.58052/IEWDR01UE https://doi.org/10.58052/IEWDR01UE\nSP-18 IGSN:10.58052/IEWDR01UG https://doi.org/10.58052/IEWDR01UG\nSP-19 IGSN:10.58052/IEWDR01UH https://doi.org/10.58052/IEWDR01UH\nSP-2 IGSN:10.58052/IEWDR01LB https://doi.org/10.58052/IEWDR01LB\nSP-22 IGSN:10.58052/IEWDR01XE https://doi.org/10.58052/IEWDR01XE\nSP-5 IGSN:10.58052/IEWDR01LD https://doi.org/10.58052/IEWDR01LD\nSP-6 IGSN:10.58052/IEWDR01LE https://doi.org/10.58052/IEWDR01LE\nSP-8 IGSN:10.58052/IEWDR01LF https://doi.org/10.58052/IEWDR01LF\nSP-9 IGSN:10.58052/IEWDR01LG https://doi.org/10.58052/IEWDR01LG",
+      "This section provides a list of source material physical samples used in this dataset. More information describing the samples is provided in the sample landing pages (links below).\nSample Name IGSN PID IGSN URL\nCM_005_Sediment IGSN:10.58052/IEWDR01Q9 https://doi.org/10.58052/IEWDR01Q9\nCM_009_Sediment IGSN:10.58052/IEWDR01UU https://doi.org/10.58052/IEWDR01UU\nCM_011_Sediment IGSN:10.58052/IEWDR01QE https://doi.org/10.58052/IEWDR01QE\nCM_012_Sediment IGSN:10.58052/IEWDR01QF https://doi.org/10.58052/IEWDR01QF\nCM_013_Sediment IGSN:10.58052/IEWDR01QG https://doi.org/10.58052/IEWDR01QG\nCM_014_Sediment IGSN:10.58052/IEWDR01QH https://doi.org/10.58052/IEWDR01QH\nCM_017_Sediment IGSN:10.58052/IEWDR01QK https://doi.org/10.58052/IEWDR01QK\nCM_018_Sediment IGSN:10.58052/IEWDR01QL https://doi.org/10.58052/IEWDR01QL\nCM_021_Sediment IGSN:10.58052/IEWDR01QN https://doi.org/10.58052/IEWDR01QN\nCM_022_Sediment IGSN:10.58052/IEWDR01QO https://doi.org/10.58052/IEWDR01QO\nCM_023_Sediment IGSN:10.58052/IEWDR01QP https://doi.org/10.58052/IEWDR01QP\nCM_024_Sediment IGSN:10.58052/IEWDR01QQ https://doi.org/10.58052/IEWDR01QQ\nCM_027_Sediment IGSN:10.58052/IEWDR01QR https://doi.org/10.58052/IEWDR01QR\nCM_032_Sediment IGSN:10.58052/IEWDR01QT https://doi.org/10.58052/IEWDR01QT\nCM_033_Sediment IGSN:10.58052/IEWDR01QU https://doi.org/10.58052/IEWDR01QU\nCM_034_Sediment IGSN:10.58052/IEWDR01QV https://doi.org/10.58052/IEWDR01QV\nCM_035_Sediment IGSN:10.58052/IEWDR01QW https://doi.org/10.58052/IEWDR01QW\nCM_037_Sediment IGSN:10.58052/IEWDR01QX https://doi.org/10.58052/IEWDR01QX\nCM_038_Sediment IGSN:10.58052/IEWDR01QY https://doi.org/10.58052/IEWDR01QY\nCM_039_Sediment IGSN:10.58052/IEWDR01QZ https://doi.org/10.58052/IEWDR01QZ\nCM_040_Sediment IGSN:10.58052/IEWDR01R0 https://doi.org/10.58052/IEWDR01R0\nCM_041_Sediment IGSN:10.58052/IEWDR01R1 https://doi.org/10.58052/IEWDR01R1\nCM_042_Sediment IGSN:10.58052/IEWDR01R2 https://doi.org/10.58052/IEWDR01R2\nCM_044_Sediment IGSN:10.58052/IEWDR01V0 https://doi.org/10.58052/IEWDR01V0\nCM_051_Sediment IGSN:10.58052/IEWDR01VC https://doi.org/10.58052/IEWDR01VC\nCM_052_Sediment IGSN:10.58052/IEWDR01VF https://doi.org/10.58052/IEWDR01VF\nCM_053_Sediment IGSN:10.58052/IEWDR01ZK https://doi.org/10.58052/IEWDR01ZK\nCM_056_Sediment IGSN:10.58052/IEWDR01VI https://doi.org/10.58052/IEWDR01VI\nCM_057_Sediment IGSN:10.58052/IEWDR01VL https://doi.org/10.58052/IEWDR01VL\nCM_063_Sediment IGSN:10.58052/IEWDR01R4 https://doi.org/10.58052/IEWDR01R4\nCM_064_Sediment IGSN:10.58052/IEWDR01VR https://doi.org/10.58052/IEWDR01VR\nCM_065_Sediment IGSN:10.58052/IEWDR01ZQ https://doi.org/10.58052/IEWDR01ZQ\nCM_066_Sediment IGSN:10.58052/IEWDR01VU https://doi.org/10.58052/IEWDR01VU\nCM_068_Sediment IGSN:10.58052/IEWDR01VX https://doi.org/10.58052/IEWDR01VX\nCM_069_Sediment IGSN:10.58052/IEWDR01W0 https://doi.org/10.58052/IEWDR01W0\nCM_070_Sediment IGSN:10.58052/IEWDR01W3 https://doi.org/10.58052/IEWDR01W3\nCM_071_Sediment IGSN:10.58052/IEWDR01W6 https://doi.org/10.58052/IEWDR01W6\nCM_072_Sediment IGSN:10.58052/IEWDR01W9 https://doi.org/10.58052/IEWDR01W9\nCM_073_Sediment IGSN:10.58052/IEWDR01WC https://doi.org/10.58052/IEWDR01WC\nCM_074_Sediment IGSN:10.58052/IEWDR01WF https://doi.org/10.58052/IEWDR01WF\nCM_075_Sediment IGSN:10.58052/IEWDR01WI https://doi.org/10.58052/IEWDR01WI\nCM_076_Sediment IGSN:10.58052/IEWDR01WL https://doi.org/10.58052/IEWDR01WL\nCM_078_Sediment IGSN:10.58052/IEWDR01WR https://doi.org/10.58052/IEWDR01WR\nCM_080_Sediment IGSN:10.58052/IEWDR01WX https://doi.org/10.58052/IEWDR01WX\nCM_081_Sediment IGSN:10.58052/IEWDR01X0 https://doi.org/10.58052/IEWDR01X0\nCM_082_Sediment IGSN:10.58052/IEWDR01X3 https://doi.org/10.58052/IEWDR01X3\nCM_084_Sediment IGSN:10.58052/IEWDR01X6 https://doi.org/10.58052/IEWDR01X6\nCM_085_Sediment IGSN:10.58052/IEWDR01X9 https://doi.org/10.58052/IEWDR01X9\nCM_088_Sediment IGSN:10.58052/IEWDR01XC https://doi.org/10.58052/IEWDR01XC\nCM_089_Sediment IGSN:10.58052/IEWDR01ZU https://doi.org/10.58052/IEWDR01ZU\nCM_090_Sediment IGSN:10.58052/IEWDR01ZV https://doi.org/10.58052/IEWDR01ZV\nCM_091_Sediment IGSN:10.58052/IEWDR01ZW https://doi.org/10.58052/IEWDR01ZW\nCM_092_Sediment IGSN:10.58052/IEWDR01ZX https://doi.org/10.58052/IEWDR01ZX\nCM_093_Sediment IGSN:10.58052/IEWDR01ZY https://doi.org/10.58052/IEWDR01ZY\nCM_094_Sediment IGSN:10.58052/IEWDR01ZZ https://doi.org/10.58052/IEWDR01ZZ\nCM_095_Sediment IGSN:10.58052/IEWDR0200 https://doi.org/10.58052/IEWDR0200"
+    ],
+    "distribution": [
+      {
+        "contentSize": 19214144.927734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0791044da02f31e-20260202T161806752",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-0791044da02f31e-20260202T161806752",
+        "name": "EC_FTICR_Raw_Data.zip"
+      },
+      {
+        "contentSize": 7.0068359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-65378a9482a38b8-20250224T215308126",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-65378a9482a38b8-20250224T215308126",
+        "name": "ESS_DIVE_Infrastructure_ONLY.zip"
+      },
+      {
+        "contentSize": 59.6533203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0c4579ec3e4bbad-20260219T231016999",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-0c4579ec3e4bbad-20260219T231016999",
+        "name": "Laboratory_time_series_moisture_manipulative.xml"
+      },
+      {
+        "contentSize": 282942.9365234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8ef543abeca701e-20260219T225412637",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8ef543abeca701e-20260219T225412637",
+        "name": "v2_EC_Data_Package.zip"
+      }
+    ]
+  }
+}

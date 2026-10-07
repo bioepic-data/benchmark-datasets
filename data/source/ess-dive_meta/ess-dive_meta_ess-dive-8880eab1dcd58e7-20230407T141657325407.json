@@ -1,0 +1,307 @@
+{
+  "id": "ess-dive-8880eab1dcd58e7-20230407T141657325407",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1644687",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-8880eab1dcd58e7-20230407T141657325407",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-46f2c6fc08a59b8-20230406T234455693783",
+  "dateUploaded": "2023-04-07T14:16:58.383Z",
+  "dateModified": "2024-09-14T00:26:56.673Z",
+  "isPublic": true,
+  "citation": "Walker A P; Powell A S; Taylor B N (2020): Literature synthesis and modelling data of terrestrial ecosystem responses to increasing atmospheric CO2. Free Air CO2 Enrichment Model Data Synthesis (FACE-MDS). Dataset. doi:10.15485/1644687",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1644687",
+    "name": "Literature synthesis and modelling data of terrestrial ecosystem responses to increasing atmospheric CO2",
+    "description": [
+      "These data were collected in support of the cited publication, Walker et al. (Accepted) New Phytologist. The data are based on a literature survey and modelling using the Multi-Assumption Architecture and Testbed (MAAT). The literature survey data were extracted from key publications in the area of terrestrial ecosystem CO2 responses, and changes in terrestrial carbon storage. Data were digitised from tables, figures, and in the text of published manuscripts. All of these manuscripts are cited in the main text of Walker et al. (Accepted). These data cover a range of variables, from gross primary production (GPP), net primary production (NPP) or biomass production (BP), water use efficiency (WUE) of various types, vegetation mortality, soil organic matter decomposition, and various ecosystem carbon pools. The modelling data were all generated using MAAT v1.2.1_walker2020. The model output comprises net carbon assimilation, stomatal conductance, and leaf respiration at leaf and canopy scales in response to variation in atmospheric CO2.",
+      "Digitised data can be found in \"ICOFEST_CO2_response_data.xlsx\" standardised response data (Beta) calculated from the digitised data are found in \"Table_2.xlsx\" (also provided in csv format). These data are in the published manuscript.",
+      "Model data are found in MAAT output files (either csv, or RDS files where the data are substantial). For each run, XML files describe the model setup where it deviates from the default (which can be found in leaf_default.xml and canopy_default.xml in the MAAT repository (https://github.com/walkeranthonyp/MAAT). R code for synthedis and model data analysis and plotting are included in this dataset."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0557-5594",
+        "givenName": "Anthony P",
+        "familyName": "Walker",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "walkerap@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9622-0061",
+        "givenName": "A Shafer",
+        "familyName": "Powell",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "powellas@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9834-9192",
+        "givenName": "Benton N",
+        "familyName": "Taylor",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "bentonneiltaylor@gmail.com"
+      }
+    ],
+    "datePublished": "2020",
+    "keywords": [
+      "Gross primary production (GPP)",
+      "Net primary production (NPP)",
+      "Biomass production (BP)",
+      "Water use efficiency (WUE)",
+      "Tree mortality",
+      "Soil organic matter decomposition",
+      "Vegetation carbon",
+      "Soil carbon",
+      "Ecosystem carbon",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER > LAND PRODUCTIVITY"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1750",
+      "endDate": "2018",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0557-5594",
+      "givenName": "Anthony",
+      "familyName": "Walker",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "walkerap@ornl.gov"
+    },
+    "citation": [
+      "Walker et al. (Accepted) Integrating the evidence for a terrestrial carbon sink caused by increasing atmospheric CO2. New Phytologist",
+      "https://doi.org/10.5194/gmd-11-3159-2018"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "ae9a32ee-9473-4c87-9d8b-421855b8173d"
+      },
+      "name": "Free Air CO2 Enrichment Model Data Synthesis (FACE-MDS)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Anthony",
+        "familyName": "Walker",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "walkerap@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Literature synthesis based on table, figure, and text digitization. Error propagation based on standard error propagation techniques. Photosynthesis modelling using MAAT, as described in Walker et al. (2018). Additional details in Walker et al. (Accepted)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 5.357421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-00ddcc661195775-20200725T183318244",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-00ddcc661195775-20200725T183318244",
+        "name": "analysis.R"
+      },
+      {
+        "contentSize": 0.8056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1e355b93a12cf3f-20200725T182907888",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-1e355b93a12cf3f-20200725T182907888",
+        "name": "MAAT_leaf_C3_setup_static.xml"
+      },
+      {
+        "contentSize": 16.6494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-133de36dff87950-20200804T184827300",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-133de36dff87950-20200804T184827300",
+        "name": "ICOFEST_CO2response_data_historical_eCO2.csv"
+      },
+      {
+        "contentSize": 6.1123046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-38a9ea7852f23af-20200725T183318265",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-38a9ea7852f23af-20200725T183318265",
+        "name": "analysis_beta_functions.R"
+      },
+      {
+        "contentSize": 20.59375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-38c07197f96db9c-20200725T182907935",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-38c07197f96db9c-20200725T182907935",
+        "name": "Table_2.xlsx"
+      },
+      {
+        "contentSize": 0.6494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2bd181479fb5244-20200725T182907908",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-2bd181479fb5244-20200725T182907908",
+        "name": "MAAT_leaf_C4_setup_dynamic.xml"
+      },
+      {
+        "contentSize": 216.111328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a8b4a0bb39291e-20200725T182907836",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3a8b4a0bb39291e-20200725T182907836",
+        "name": "MAAT_leaf_C3.csv"
+      },
+      {
+        "contentSize": 0.8310546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-63a777cbb600ca4-20200725T182907828",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-63a777cbb600ca4-20200725T182907828",
+        "name": "MAAT_canopy_C3_ensemble_setup_static.xml"
+      },
+      {
+        "contentSize": 20.345703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-644ea92475d40e3-20200804T184827318",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-644ea92475d40e3-20200804T184827318",
+        "name": "Table_2.csv"
+      },
+      {
+        "contentSize": 8.056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-db939092bb1d633-20200725T183318279",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-db939092bb1d633-20200725T183318279",
+        "name": "analysis_individual_studies.R"
+      },
+      {
+        "contentSize": 22.365234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dbd505d74cc900b-20200725T183318338",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-dbd505d74cc900b-20200725T183318338",
+        "name": "plot_maat.R"
+      },
+      {
+        "contentSize": 0.482421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e7ef967df43b15b-20200725T182907801",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-e7ef967df43b15b-20200725T182907801",
+        "name": "MAAT_canopy_C3_diurnal_ensemble_setup_static.xml"
+      },
+      {
+        "contentSize": 36.232421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5b6e27ae322be95-20200725T182907771",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-5b6e27ae322be95-20200725T182907771",
+        "name": "ICOFEST_CO2response_data.xlsx"
+      },
+      {
+        "contentSize": 0.7255859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5a5a98e312c73ec-20200725T182907922",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-5a5a98e312c73ec-20200725T182907922",
+        "name": "MAAT_leaf_C4_setup_static.xml"
+      },
+      {
+        "contentSize": 0.685546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6eedfcfd2a07175-20200725T183318311",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-6eedfcfd2a07175-20200725T183318311",
+        "name": "init.R"
+      },
+      {
+        "contentSize": 216.111328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7053fc09ab86973-20200725T182907898",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7053fc09ab86973-20200725T182907898",
+        "name": "MAAT_leaf_C4.csv"
+      },
+      {
+        "contentSize": 0.701171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-82d2091ad692603-20200725T182907866",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-82d2091ad692603-20200725T182907866",
+        "name": "MAAT_leaf_C3_ensemble_setup_static.xml"
+      },
+      {
+        "contentSize": 30.03125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-85e50973e1ac4fa-20200804T184827257",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-85e50973e1ac4fa-20200804T184827257",
+        "name": "ICOFEST_CO2response_data_historical.csv"
+      },
+      {
+        "contentSize": 18.2470703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8880eab1dcd58e7-20230407T141657325407",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-8880eab1dcd58e7-20230407T141657325407",
+        "name": "Literature_synthesis_and_modelling_data_of_terrestrial_ecosystem_responses_to_increasing_atmospheric_CO2.xml"
+      },
+      {
+        "contentSize": 109357.8330078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6ba83f3a8fb41d5-20200725T182907845",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6ba83f3a8fb41d5-20200725T182907845",
+        "name": "MAAT_leaf_C3_ensemble.csv"
+      },
+      {
+        "contentSize": 2.3837890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6d1728b76a105f2-20200725T182907819",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-6d1728b76a105f2-20200725T182907819",
+        "name": "MAAT_canopy_C3_ensemble_setup_dynamic.xml"
+      },
+      {
+        "contentSize": 11121.1416015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6df46c56fc4b32f-20200725T182907811",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6df46c56fc4b32f-20200725T182907811",
+        "name": "MAAT_canopy_C3_ensemble.csv"
+      },
+      {
+        "contentSize": 205.92578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-77a5ab9085dc0af-20200725T182907784",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-77a5ab9085dc0af-20200725T182907784",
+        "name": "MAAT_canopy_C3_diurnal_ensemble.RDS"
+      },
+      {
+        "contentSize": 3.390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8b5580229b18baa-20200725T183318324",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-8b5580229b18baa-20200725T183318324",
+        "name": "lattice_densitypoly.R"
+      },
+      {
+        "contentSize": 0.6494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-aaa3285da768cee-20200725T182907878",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-aaa3285da768cee-20200725T182907878",
+        "name": "MAAT_leaf_C3_setup_dynamic.xml"
+      },
+      {
+        "contentSize": 2.384765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c5185337d77841d-20200725T182907854",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-c5185337d77841d-20200725T182907854",
+        "name": "MAAT_leaf_C3_ensemble_setup_dynamic.xml"
+      },
+      {
+        "contentSize": 19.5947265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ff7f149c00cbbe0-20200725T183318297",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-ff7f149c00cbbe0-20200725T183318297",
+        "name": "functions.R"
+      },
+      {
+        "contentSize": 0.73046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e3c8cdfb8f51454-20200725T182907791",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-e3c8cdfb8f51454-20200725T182907791",
+        "name": "MAAT_canopy_C3_diurnal_ensemble_setup_dynamic.xml"
+      }
+    ]
+  }
+}

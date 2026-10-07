@@ -1,0 +1,604 @@
+{
+  "id": "ess-dive-38daebdce04a739-20241218T154247612",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2482523",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-38daebdce04a739-20241218T154247612",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-eef506e75ace62a-20241025T154207348995",
+  "dateUploaded": "2024-12-18T15:42:48.947Z",
+  "dateModified": "2025-11-15T04:48:38.060Z",
+  "isPublic": true,
+  "citation": "Tuftedal M; O'Brien J; Muradyan P; Collis S; Sankaran R; Beckman P; Ferrier N; Shahkarami S; Kim Y; Park S; Dematties D; Conrad N (2024): CROCUS Air Quality Data at Argonne National Laboratory Prairie Site. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL). Dataset. doi:10.15485/2482523",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2482523",
+    "name": "CROCUS Air Quality Data at Argonne National Laboratory Prairie Site",
+    "description": [
+      "The AQT (Vaisala AQT530) instrument provides observations on meteorological conditions, including particulate matter (PM2.5, PM10), gas species concentrations (NO, NO2, O3, CO), and environment temperature and moisture. These measurements are critical for understanding air quality. These measurements are useful for understanding changes in aerosol properties, air quality research, and comparing to model experiments especially in urban environments. These measurements are collected at the Argonne Testbed for Multiscale Observational Science (ATMOS), a prairie field site at Argonne National Laboratory in Lemont, Illinois. Data is available in the netCDF data format, we encourage data users review documentation through Project Pythia to understand how to work with netCDF data https://foundations.projectpythia.org/core/data-formats/netcdf-cf.html. Each file contains one day's worth of data (24 hours, starting at 0000 UTC). The data is aggregated into daily frequency to make it easier to process multiple days, and compress the higher-resolution fields. File naming convention includes the project (CROCUS), location (atmos), data level (raw, a1), date (year, month, day), and hour (0000)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1589-6474",
+        "givenName": "Matthew",
+        "familyName": "Tuftedal",
+        "affiliation": "Argonne National Laboratory",
+        "email": "mtuftedal@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4655-6912",
+        "givenName": "Joseph",
+        "familyName": "O'Brien",
+        "affiliation": "Argonne National Laboratory",
+        "email": "obrienj@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6903-9435",
+        "givenName": "Paytsar",
+        "familyName": "Muradyan",
+        "affiliation": "Argonne National Laboratory",
+        "email": "pmuradyan@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2303-687X",
+        "givenName": "Scott",
+        "familyName": "Collis",
+        "affiliation": "Argonne National Laboratory",
+        "email": "scollis@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8911-2783",
+        "givenName": "Rajesh",
+        "familyName": "Sankaran",
+        "affiliation": "Argonne National Laboratory",
+        "email": "rajesh@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9428-7801",
+        "givenName": "Peter",
+        "familyName": "Beckman",
+        "affiliation": "Northwestern University",
+        "email": "peter.beckman@northwestern.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1444-0624",
+        "givenName": "Nicola",
+        "familyName": "Ferrier",
+        "affiliation": "Argonne National Laboratory",
+        "email": "nferrier@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sean",
+        "familyName": "Shahkarami",
+        "affiliation": "Northwestern University",
+        "email": "sean.shahkarami@northwestern.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1257-9921",
+        "givenName": "Yongho",
+        "familyName": "Kim",
+        "affiliation": "Argonne National Laboratory",
+        "email": "yongho.kim@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Seongha",
+        "familyName": "Park",
+        "affiliation": "Argonne National Laboratory",
+        "email": "seongha.park@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Dario",
+        "familyName": "Dematties",
+        "affiliation": "Northwestern University",
+        "email": "dario.dematties@northwestern.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0006-7562-3108",
+        "givenName": "Neal",
+        "familyName": "Conrad",
+        "affiliation": "Argonne National Laboratory",
+        "email": "nconrad@anl.gov"
+      }
+    ],
+    "datePublished": "2024-10-01",
+    "keywords": [
+      "EARTH SCIENCE > ATMOSPHERE > AIR QUALITY"
+    ],
+    "variableMeasured": [
+      "NO",
+      "EARTH SCIENCE > ATMOSPHERE > AIR QUALITY > NITROGEN OXIDES",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > OXYGEN COMPOUNDS > OZONE",
+      "EARTH SCIENCE > ATMOSPHERE > AIR QUALITY > CARBON MONOXIDE",
+      "mass_concentration_of_pm2p5_ambient_aerosol_particles_in_air",
+      "mass_concentration_of_pm10_ambient_aerosol_particles_in_air"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Argonne National Laboratory ATMOS field site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.70158576,
+            "longitude": -87.99514063
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.70158576,
+            "longitude": -87.99514063
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02- 06CH11357"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2024-06-27",
+      "endDate": "2024-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1589-6474",
+      "givenName": "Matthew",
+      "familyName": "Tuftedal",
+      "affiliation": "Argonne National Laboratory",
+      "email": "mtuftedal@anl.gov"
+    },
+    "citation": [
+      "https://www.vaisala.com/en/products/weather-environmental-sensors/air-quality-transmitter-aqt560-energy-urban-industries",
+      "https://crocus.sagecontinuum.org/query-browser?type=names&nodes=W0A4&start=-1d&page=0&sensors=vaisala-aqt530"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "e48add86-2fa5-4a04-a530-86906241ebbc"
+      },
+      "name": "Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Cristina",
+        "familyName": "Negri",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Argonne National Laboratory",
+        "email": "negri@anl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Direct measurements from the AQT sensor include particulate matter concentration, in units of \u03bcg/m3, at 2.5 microns (PM2.5) as well as 10 microns (PM10). Gas concentrations (CO, NO, NO2, O3) are measured in units of parts per billion (ppb).",
+      "The raw data was reprocessed into daily frequency, converting the 1Hz native frequency to 1 minute averages with standard deviation as well."
+    ],
+    "distribution": [
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0be8993b98c7da9-20241025T154156600844",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-0be8993b98c7da9-20241025T154156600844",
+        "name": "crocus-ATMOS-aqt-a1-20240726-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-08e33d447df4a1a-20241025T154135798416",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-08e33d447df4a1a-20241025T154135798416",
+        "name": "crocus-ATMOS-aqt-a1-20240628-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2182816ae3efa3f-20241025T154154019582",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-2182816ae3efa3f-20241025T154154019582",
+        "name": "crocus-ATMOS-aqt-a1-20240721-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-24b9bf55599cd3b-20241025T154200437282",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-24b9bf55599cd3b-20241025T154200437282",
+        "name": "crocus-ATMOS-aqt-a1-20240806-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1b16c765e4674a4-20241025T154155163551",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-1b16c765e4674a4-20241025T154155163551",
+        "name": "crocus-ATMOS-aqt-a1-20240722-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-053bd42c8ecd390-20241025T154140798776",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-053bd42c8ecd390-20241025T154140798776",
+        "name": "crocus-ATMOS-aqt-a1-20240704-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-203c5fb42841a0a-20241025T154159736967",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-203c5fb42841a0a-20241025T154159736967",
+        "name": "crocus-ATMOS-aqt-a1-20240803-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-11cd9026aeada45-20241025T154139392909",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-11cd9026aeada45-20241025T154139392909",
+        "name": "crocus-ATMOS-aqt-a1-20240702-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-415db5b61107fc4-20241025T154157277398",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-415db5b61107fc4-20241025T154157277398",
+        "name": "crocus-ATMOS-aqt-a1-20240729-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-37db2a4e6a9afeb-20241025T154201298024",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-37db2a4e6a9afeb-20241025T154201298024",
+        "name": "crocus-ATMOS-aqt-a1-20240811-000000.nc"
+      },
+      {
+        "contentSize": 21.8720703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-38daebdce04a739-20241218T154247612",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-38daebdce04a739-20241218T154247612",
+        "name": "CROCUS_Air_Quality_Data_at_Argonne_National.xml"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-39cf157fe7ccdff-20241025T154159760485",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-39cf157fe7ccdff-20241025T154159760485",
+        "name": "crocus-ATMOS-aqt-a1-20240804-000000.nc"
+      },
+      {
+        "contentSize": 150.67578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ea6f9118fd94f94-20241025T154151532215",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-ea6f9118fd94f94-20241025T154151532215",
+        "name": "crocus-ATMOS-aqt-a1-20240715-000000.nc"
+      },
+      {
+        "contentSize": 150.30078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2b2e06dde6286c2-20241025T154151504344",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-2b2e06dde6286c2-20241025T154151504344",
+        "name": "crocus-ATMOS-aqt-a1-20240714-000000.nc"
+      },
+      {
+        "contentSize": 150.76953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d353ccaedcf28b2-20241025T154153178887",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-d353ccaedcf28b2-20241025T154153178887",
+        "name": "crocus-ATMOS-aqt-a1-20240717-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d8626c68d494495-20241025T154159766225",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-d8626c68d494495-20241025T154159766225",
+        "name": "crocus-ATMOS-aqt-a1-20240805-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e96b909f829d2b9-20241025T154153953296",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-e96b909f829d2b9-20241025T154153953296",
+        "name": "crocus-ATMOS-aqt-a1-20240719-000000.nc"
+      },
+      {
+        "contentSize": 37.44140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d0f98d0395bfff9-20241025T154146805394",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-d0f98d0395bfff9-20241025T154146805394",
+        "name": "crocus-ATMOS-aqt-a1-20240709-000000.nc"
+      },
+      {
+        "contentSize": 136.42578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e0a1d50c21354a2-20241025T154151475442",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-e0a1d50c21354a2-20241025T154151475442",
+        "name": "crocus-ATMOS-aqt-a1-20240713-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e18ef715729f564-20241025T154201256464",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-e18ef715729f564-20241025T154201256464",
+        "name": "crocus-ATMOS-aqt-a1-20240809-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ef01b3c08d8f23b-20241025T154156625381",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-ef01b3c08d8f23b-20241025T154156625381",
+        "name": "crocus-ATMOS-aqt-a1-20240727-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-337654330d234c7-20241025T154158182412",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-337654330d234c7-20241025T154158182412",
+        "name": "crocus-ATMOS-aqt-a1-20240802-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-536cf2b2c203363-20241025T154155181323",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-536cf2b2c203363-20241025T154155181323",
+        "name": "crocus-ATMOS-aqt-a1-20240723-000000.nc"
+      },
+      {
+        "contentSize": 134.45703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5fbd4fee7658c73-20241025T154204387369",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-5fbd4fee7658c73-20241025T154204387369",
+        "name": "crocus-ATMOS-aqt-a1-20240820-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-607b4065e22bbf5-20241025T154203646010",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-607b4065e22bbf5-20241025T154203646010",
+        "name": "crocus-ATMOS-aqt-a1-20240815-000000.nc"
+      },
+      {
+        "contentSize": 38.14453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-58764086cf28c7e-20241025T154135696515",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-58764086cf28c7e-20241025T154135696515",
+        "name": "crocus-ATMOS-aqt-a1-20240627-000000.nc"
+      },
+      {
+        "contentSize": 107.73828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4ce71b5c321a89f-20241025T154206718330",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-4ce71b5c321a89f-20241025T154206718330",
+        "name": "crocus-ATMOS-aqt-a1-20241002-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4da51473ad1796d-20241025T154157303742",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-4da51473ad1796d-20241025T154157303742",
+        "name": "crocus-ATMOS-aqt-a1-20240730-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6ee9da8bfa79b40-20241025T154139387165",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-6ee9da8bfa79b40-20241025T154139387165",
+        "name": "crocus-ATMOS-aqt-a1-20240701-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-82ddbe8b82bf980-20241025T154140819016",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-82ddbe8b82bf980-20241025T154140819016",
+        "name": "crocus-ATMOS-aqt-a1-20240705-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-76cb5955cdd409c-20241025T154204338529",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-76cb5955cdd409c-20241025T154204338529",
+        "name": "crocus-ATMOS-aqt-a1-20240818-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8a2887afa31342a-20241025T154202804520",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-8a2887afa31342a-20241025T154202804520",
+        "name": "crocus-ATMOS-aqt-a1-20240813-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8a8c9d6323cbfce-20241025T154206687532",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-8a8c9d6323cbfce-20241025T154206687532",
+        "name": "crocus-ATMOS-aqt-a1-20241001-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a7c55d8249b3166-20241025T154153994818",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-a7c55d8249b3166-20241025T154153994818",
+        "name": "crocus-ATMOS-aqt-a1-20240720-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9a2b24a01f5b3b6-20241025T154204368547",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-9a2b24a01f5b3b6-20241025T154204368547",
+        "name": "crocus-ATMOS-aqt-a1-20240819-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a52e20e87632c3e-20241025T154158162740",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-a52e20e87632c3e-20241025T154158162740",
+        "name": "crocus-ATMOS-aqt-a1-20240801-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a566711d041c906-20241025T154153202277",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-a566711d041c906-20241025T154153202277",
+        "name": "crocus-ATMOS-aqt-a1-20240718-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9009c8aa3cf9097-20241025T154155206324",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-9009c8aa3cf9097-20241025T154155206324",
+        "name": "crocus-ATMOS-aqt-a1-20240724-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-90abe4aba714a08-20241025T154157254427",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-90abe4aba714a08-20241025T154157254427",
+        "name": "crocus-ATMOS-aqt-a1-20240728-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a3826db57eccb57-20241025T154135821520",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-a3826db57eccb57-20241025T154135821520",
+        "name": "crocus-ATMOS-aqt-a1-20240629-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a38ebf0fb737f24-20241025T154158155797",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-a38ebf0fb737f24-20241025T154158155797",
+        "name": "crocus-ATMOS-aqt-a1-20240731-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9837a09c6856d51-20241025T154203688759",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-9837a09c6856d51-20241025T154203688759",
+        "name": "crocus-ATMOS-aqt-a1-20240817-000000.nc"
+      },
+      {
+        "contentSize": 146.64453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-983c94f8a87acb9-20241025T154150674014",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-983c94f8a87acb9-20241025T154150674014",
+        "name": "crocus-ATMOS-aqt-a1-20240711-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-997600c0a9e6c5d-20241025T154140778858",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-997600c0a9e6c5d-20241025T154140778858",
+        "name": "crocus-ATMOS-aqt-a1-20240703-000000.nc"
+      },
+      {
+        "contentSize": 66.76953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-95f7103b35564c9-20241025T154146783808",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-95f7103b35564c9-20241025T154146783808",
+        "name": "crocus-ATMOS-aqt-a1-20240707-000000.nc"
+      },
+      {
+        "contentSize": 146.45703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bada7bd11232e1b-20241025T154150645509",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-bada7bd11232e1b-20241025T154150645509",
+        "name": "crocus-ATMOS-aqt-a1-20240710-000000.nc"
+      },
+      {
+        "contentSize": 147.95703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ae9f40f6dc14c47-20241025T154150699147",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-ae9f40f6dc14c47-20241025T154150699147",
+        "name": "crocus-ATMOS-aqt-a1-20240712-000000.nc"
+      },
+      {
+        "contentSize": 143.73828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c2198dc6f2ecf5b-20241025T154153149496",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-c2198dc6f2ecf5b-20241025T154153149496",
+        "name": "crocus-ATMOS-aqt-a1-20240716-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c4f4b8ae4d525c2-20241025T154139365673",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-c4f4b8ae4d525c2-20241025T154139365673",
+        "name": "crocus-ATMOS-aqt-a1-20240630-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cc7c0b262ac22bd-20241025T154201280142",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-cc7c0b262ac22bd-20241025T154201280142",
+        "name": "crocus-ATMOS-aqt-a1-20240810-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b3331b07f71ad9a-20241025T154156576509",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-b3331b07f71ad9a-20241025T154156576509",
+        "name": "crocus-ATMOS-aqt-a1-20240725-000000.nc"
+      },
+      {
+        "contentSize": 107.498046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ffe5caa346c5bcb-20241025T154206655607",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-ffe5caa346c5bcb-20241025T154206655607",
+        "name": "crocus-ATMOS-aqt-a1-20240916-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f77032676da8243-20241025T154200490686",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-f77032676da8243-20241025T154200490686",
+        "name": "crocus-ATMOS-aqt-a1-20240808-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e3946386c3de859-20241025T154203670743",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-e3946386c3de859-20241025T154203670743",
+        "name": "crocus-ATMOS-aqt-a1-20240816-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e5240de071d8dcc-20241025T154200464473",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-e5240de071d8dcc-20241025T154200464473",
+        "name": "crocus-ATMOS-aqt-a1-20240807-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dd2191e8896c4ef-20241025T154146761170",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-dd2191e8896c4ef-20241025T154146761170",
+        "name": "crocus-ATMOS-aqt-a1-20240706-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dda502487b29ba4-20241025T154202778399",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-dda502487b29ba4-20241025T154202778399",
+        "name": "crocus-ATMOS-aqt-a1-20240812-000000.nc"
+      },
+      {
+        "contentSize": 151.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ddd0c4e041d3609-20241025T154202821474",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-ddd0c4e041d3609-20241025T154202821474",
+        "name": "crocus-ATMOS-aqt-a1-20240814-000000.nc"
+      }
+    ]
+  }
+}

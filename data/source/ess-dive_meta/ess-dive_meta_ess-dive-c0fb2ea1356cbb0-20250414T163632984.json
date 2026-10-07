@@ -1,0 +1,500 @@
+{
+  "id": "ess-dive-c0fb2ea1356cbb0-20250414T163632984",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/2350816",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-c0fb2ea1356cbb0-20250414T163632984",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d7513b7daea962c-20250404T160520150908",
+  "dateUploaded": "2025-04-14T16:36:35.204Z",
+  "dateModified": "2026-02-12T00:20:22.476Z",
+  "isPublic": true,
+  "citation": "Collins A; Andresen C; Lathrop E; Dann J; Swanson E (2024): L0 Data from the 2018 NGEE Arctic LiDAR Unoccupied Aerial System Campaign at the Kougarok 64 Field Site, Seward Peninsula, Alaska. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/2350816",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/2350816",
+    "name": "L0 Data from the 2018 NGEE Arctic LiDAR Unoccupied Aerial System Campaign at the Kougarok 64 Field Site, Seward Peninsula, Alaska",
+    "description": [
+      "Airborne remote sensing data collected from Los Alamos National Laboratory\u2019s (LANL) heavy-lift unoccupied aerial system (UAS) hexacopter platform operated by NGEE Arctic scientists from EES-14 (Earth System Observations group) at Los Alamos National Laboratory. These data were collected in July 2018 at a field site near mile marker 64 along the Kougarok road (Nome-Taylor Highway) between Nome, Alaska and Taylor, Alaska. A DJI Matrice 600 Pro Airframe and Routescene UAV LiDARSystem was used to collect LiDAR data at regular intervals along 15 flight paths. This data package contains unprocessed data products (processing level 0) including flight paths (*.kml) and raw lidar data files (KG_*__2018_07_*_cmbd.zip or *.lpd). Ancillary aircraft data, flight mission parameters, and general flight conditions are also included (see Supplemental Files, *.rinex, and .rtcm3 files), as well as ground control point locations used during the campaign (.shp).",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/2350816",
+      "NGA298"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9554-5190",
+        "givenName": "Adam",
+        "familyName": "Collins",
+        "email": "acollins@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6681-1867",
+        "givenName": "Christian",
+        "familyName": "Andresen"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3079-588X",
+        "givenName": "Emma",
+        "familyName": "Lathrop"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7378-8845",
+        "givenName": "Julian",
+        "familyName": "Dann"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2238-010X",
+        "givenName": "Erika",
+        "familyName": "Swanson"
+      }
+    ],
+    "datePublished": "2024-05-16",
+    "keywords": [
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > SENSOR CHARACTERISTICS",
+      "Seward Peninsula, Alaska",
+      "LiDAR",
+      "Kougarok, Alaska",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > PLATFORM CHARACTERISTICS",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > LIDAR",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Kougarok Site, Mile Marker 64, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.171801,
+            "longitude": -164.844501
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.153612,
+            "longitude": -164.801947
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-07-19",
+      "endDate": "2018-07-19",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9554-5190",
+      "givenName": "Adam",
+      "familyName": "Collins",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "acollins@lanl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "In July of 2018, a UAS platform was used to collect LiDAR data at the Kougarok mile marker 64 field site on the Seward Peninsula, Alaska. LiDAR files (*.lpd) in this data package are raw and have not been processed or corrected. Associated base station files are included in the form of *.rinex and *.rtcm3 files."
+    ],
+    "distribution": [
+      {
+        "contentSize": 964223.775390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-018222cbef80ac5-20250404T160350583098",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-018222cbef80ac5-20250404T160350583098",
+        "name": "KG_7__2018_07_20_00_42_01_cmbd.zip"
+      },
+      {
+        "contentSize": 956049.212890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-251c0ee86d2f042-20250404T160352310427",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-251c0ee86d2f042-20250404T160352310427",
+        "name": "KG_8__2018_07_20_01_10_11_cmbd.zip"
+      },
+      {
+        "contentSize": 799727.9638671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-08932aa75712cf7-20250404T160224698293",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-08932aa75712cf7-20250404T160224698293",
+        "name": "KG_4__2018_07_19_23_17_13_cmbd.zip"
+      },
+      {
+        "contentSize": 5.7548828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-09b2ee654892fd4-20250404T160309316209",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-09b2ee654892fd4-20250404T160309316209",
+        "name": "KG64_2018_ground_control_points.zip"
+      },
+      {
+        "contentSize": 5218.732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-18331ae93a9483c-20250404T160507041478",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-18331ae93a9483c-20250404T160507041478",
+        "name": "lpod2018_200_21_00_65.1662_-164.8134.rinex"
+      },
+      {
+        "contentSize": 2.4189453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-12c33757c603cce-20250404T160504518082",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-12c33757c603cce-20250404T160504518082",
+        "name": "Kougarouk_6.kml"
+      },
+      {
+        "contentSize": 1.96875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0e4f37ef8e41236-20250404T160518341317",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0e4f37ef8e41236-20250404T160518341317",
+        "name": "nga298_flmd.csv"
+      },
+      {
+        "contentSize": 995698.0927734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-102131e81ffec04-20250404T160054667417",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-102131e81ffec04-20250404T160054667417",
+        "name": "KG_10__2018_07_20_02_11_43_cmbd.zip"
+      },
+      {
+        "contentSize": 995.8359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3c7dffbb6622db3-20250404T160518280388",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-3c7dffbb6622db3-20250404T160518280388",
+        "name": "lpod2018_201_05_00_65.1662_-164.8134.rtcm3"
+      },
+      {
+        "contentSize": 913258.908203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-42639ea1ca0f87e-20250404T160059025668",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-42639ea1ca0f87e-20250404T160059025668",
+        "name": "KG_1__2018_07_19_21_41_34_cmbd.zip"
+      },
+      {
+        "contentSize": 2.33203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2fd79b515786725-20250404T160507037958",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-2fd79b515786725-20250404T160507037958",
+        "name": "Kougarouk_Transect1.kml"
+      },
+      {
+        "contentSize": 721634.6279296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-371eaa4c0992760-20250404T160432117138",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-371eaa4c0992760-20250404T160432117138",
+        "name": "KG_transect_1__2018_07_20_02_55_17_cmbd.zip"
+      },
+      {
+        "contentSize": 2.8076171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-43eb31651085d6e-20250404T160501786787",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-43eb31651085d6e-20250404T160501786787",
+        "name": "Kougarouk_12.kml"
+      },
+      {
+        "contentSize": 550888.4013671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2cd1ca245beb907-20250404T160138617572",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2cd1ca245beb907-20250404T160138617572",
+        "name": "KG_13__2018_07_20_05_00_41_cmbd.zip"
+      },
+      {
+        "contentSize": 853007.1552734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d400f4f80d8f018-20250404T160139588746",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d400f4f80d8f018-20250404T160139588746",
+        "name": "KG_14__2018_07_20_05_33_37_cmbd.zip"
+      },
+      {
+        "contentSize": 1463.521484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e6da3e664a81c6a-20250404T160518313097",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-e6da3e664a81c6a-20250404T160518313097",
+        "name": "NGA298_2018_KG64_L0_Lidar_Data_User_Guide.pdf"
+      },
+      {
+        "contentSize": 5868.859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ee6c719825aa0db-20250404T160511445192",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-ee6c719825aa0db-20250404T160511445192",
+        "name": "lpod2018_201_00_00_65.1662_-164.8134.rinex"
+      },
+      {
+        "contentSize": 984.43359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f011e574d8a727b-20250404T160511416514",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-f011e574d8a727b-20250404T160511416514",
+        "name": "lpod2018_200_23_00_65.1662_-164.8134.rtcm3"
+      },
+      {
+        "contentSize": 5242.9951171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3314c92b1202db0-20250404T160508297769",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-3314c92b1202db0-20250404T160508297769",
+        "name": "lpod2018_200_23_00_65.1662_-164.8134.rinex"
+      },
+      {
+        "contentSize": 2.80078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-60e8b276671ff93-20250404T160433404519",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-60e8b276671ff93-20250404T160433404519",
+        "name": "Kougarouk_10.kml"
+      },
+      {
+        "contentSize": 3.3447265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5b3ad329b18f56a-20250404T160433409182",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-5b3ad329b18f56a-20250404T160433409182",
+        "name": "Kougarouk_11.kml"
+      },
+      {
+        "contentSize": 955639.6435546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4b03b3881a39bc7-20250404T160221504272",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4b03b3881a39bc7-20250404T160221504272",
+        "name": "KG_2__2018_07_19_22_09_46_cmbd.zip"
+      },
+      {
+        "contentSize": 2.4189453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-588c2e761f6ce8e-20250404T160503633559",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-588c2e761f6ce8e-20250404T160503633559",
+        "name": "Kougarouk_3.kml"
+      },
+      {
+        "contentSize": 926859.8974609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-597ebe909595ae4-20250404T160307635713",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-597ebe909595ae4-20250404T160307635713",
+        "name": "KG_6__2018_07_20_00_14_34_cmbd.zip"
+      },
+      {
+        "contentSize": 5072.193359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4f0b8d4c5847d1c-20250404T160508222801",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-4f0b8d4c5847d1c-20250404T160508222801",
+        "name": "lpod2018_200_22_00_65.1662_-164.8134.rinex"
+      },
+      {
+        "contentSize": 2.4140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a01bed04dc9892-20250404T160504514893",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-7a01bed04dc9892-20250404T160504514893",
+        "name": "Kougarouk_5.kml"
+      },
+      {
+        "contentSize": 961078.6123046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7fa99df89093749-20250404T160136921075",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7fa99df89093749-20250404T160136921075",
+        "name": "KG_12__2018_07_20_04_29_45_cmbd.zip"
+      },
+      {
+        "contentSize": 962.291015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-844dd3f1bfe26db-20250404T160508261521",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-844dd3f1bfe26db-20250404T160508261521",
+        "name": "lpod2018_200_22_00_65.1662_-164.8134.rtcm3"
+      },
+      {
+        "contentSize": 6728.46484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7d3423f6ba56424-20250404T160516930695",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-7d3423f6ba56424-20250404T160516930695",
+        "name": "lpod2018_201_04_00_65.1662_-164.8134.rinex"
+      },
+      {
+        "contentSize": 6413.826171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7354ee92d61996e-20250404T160514228791",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-7354ee92d61996e-20250404T160514228791",
+        "name": "lpod2018_201_01_00_65.1662_-164.8134.rinex"
+      },
+      {
+        "contentSize": 1.8349609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-73b96d0f2bd901f-20250404T160501793330",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-73b96d0f2bd901f-20250404T160501793330",
+        "name": "Kougarouk_14.kml"
+      },
+      {
+        "contentSize": 962.751953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a9e683d16726579-20250404T160507096757",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-a9e683d16726579-20250404T160507096757",
+        "name": "lpod2018_200_21_00_65.1662_-164.8134.rtcm3"
+      },
+      {
+        "contentSize": 1154.4326171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a47e1f002783901-20250404T160515514575",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-a47e1f002783901-20250404T160515514575",
+        "name": "lpod2018_201_03_00_65.1662_-164.8134.rtcm3"
+      },
+      {
+        "contentSize": 3.1005859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a6fa8aa383cd7cc-20250404T160505368130",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-a6fa8aa383cd7cc-20250404T160505368130",
+        "name": "Kougarouk_9.kml"
+      },
+      {
+        "contentSize": 2.5810546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-91c6f294ff0e871-20250404T160505364635",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-91c6f294ff0e871-20250404T160505364635",
+        "name": "Kougarouk_8.kml"
+      },
+      {
+        "contentSize": 2.203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a31d65d0e984251-20250404T160504511778",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-a31d65d0e984251-20250404T160504511778",
+        "name": "Kougarouk_4.kml"
+      },
+      {
+        "contentSize": 1074.326171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a34a66c35d8975b-20250404T160511495771",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-a34a66c35d8975b-20250404T160511495771",
+        "name": "lpod2018_201_00_00_65.1662_-164.8134.rtcm3"
+      },
+      {
+        "contentSize": 2.419921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9da72601ad27bbf-20250404T160503623083",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-9da72601ad27bbf-20250404T160503623083",
+        "name": "Kougarouk_1.kml"
+      },
+      {
+        "contentSize": 901039.8193359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9fea2fb6b850192-20250404T160057115505",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9fea2fb6b850192-20250404T160057115505",
+        "name": "KG_11__2018_07_20_03_53_10_cmbd.zip"
+      },
+      {
+        "contentSize": 5446.232421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b10a580fb9b4c74-20250404T160517058913",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-b10a580fb9b4c74-20250404T160517058913",
+        "name": "lpod2018_201_05_00_65.1662_-164.8134.rinex"
+      },
+      {
+        "contentSize": 2.3857421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c22d14761ad002a-20250404T160501789999",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-c22d14761ad002a-20250404T160501789999",
+        "name": "Kougarouk_13.kml"
+      },
+      {
+        "contentSize": 922890.703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ce0e9a673de8ed0-20250404T160305957583",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ce0e9a673de8ed0-20250404T160305957583",
+        "name": "KG_5__2018_07_19_23_43_55_cmbd.zip"
+      },
+      {
+        "contentSize": 2.630859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c8b727bef9fd403-20250404T160503630332",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-c8b727bef9fd403-20250404T160503630332",
+        "name": "Kougarouk_2.kml"
+      },
+      {
+        "contentSize": 1211.1982421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c9414dab2fdc62c-20250404T160517006922",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-c9414dab2fdc62c-20250404T160517006922",
+        "name": "lpod2018_201_04_00_65.1662_-164.8134.rtcm3"
+      },
+      {
+        "contentSize": 6366.087890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f647b6c9817ae23-20250404T160515460097",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-f647b6c9817ae23-20250404T160515460097",
+        "name": "lpod2018_201_03_00_65.1662_-164.8134.rinex"
+      },
+      {
+        "contentSize": 891522.408203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f13aaf9caabc560-20250404T160223157371",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f13aaf9caabc560-20250404T160223157371",
+        "name": "KG_3__2018_07_19_22_44_29_cmbd.zip"
+      },
+      {
+        "contentSize": 1163.3125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fb5104ed4092dcb-20250404T160514268358",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-fb5104ed4092dcb-20250404T160514268358",
+        "name": "lpod2018_201_01_00_65.1662_-164.8134.rtcm3"
+      },
+      {
+        "contentSize": 1098.9443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fe83a4ab9ff7b17-20250404T160515426968",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-fe83a4ab9ff7b17-20250404T160515426968",
+        "name": "lpod2018_201_02_00_65.1662_-164.8134.rtcm3"
+      },
+      {
+        "contentSize": 6006.47265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f7e69fa832f5c31-20250404T160514296971",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-f7e69fa832f5c31-20250404T160514296971",
+        "name": "lpod2018_201_02_00_65.1662_-164.8134.rinex"
+      },
+      {
+        "contentSize": 897132.923828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dd93ce41156e6a7-20250404T160354034832",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dd93ce41156e6a7-20250404T160354034832",
+        "name": "KG_9__2018_07_20_01_44_10_cmbd.zip"
+      },
+      {
+        "contentSize": 2.4716796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dda752b7a4b42d0-20250404T160505361232",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-dda752b7a4b42d0-20250404T160505361232",
+        "name": "Kougarouk_7.kml"
+      },
+      {
+        "contentSize": 17.1865234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c0fb2ea1356cbb0-20250414T163632984",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-c0fb2ea1356cbb0-20250414T163632984",
+        "name": "L0_Data_from_the_2018_NGEE_Arctic_LiDAR.xml"
+      }
+    ]
+  }
+}

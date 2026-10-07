@@ -1,0 +1,174 @@
+{
+  "id": "ess-dive-76b1bd21c979b0a-20241023T010253267",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2335384",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-76b1bd21c979b0a-20241023T010253267",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-76b1bd21c979b0a-20241023T005529731",
+  "dateUploaded": "2024-10-23T01:02:55.117Z",
+  "dateModified": "2024-11-08T23:59:59.044Z",
+  "isPublic": true,
+  "citation": "Kato A; Gurney K; Dass P (2024): Hestia SW-IFL Onroad Fossil Fuel Carbon Dioxide (FFCO2) product: Road segment-level annual FFCO2 emissions across Arizona (2017-2022), version 1.1. Southwest Urban Corridor Integrated Field Laboratory (SW-IFL). Dataset. doi:10.15485/2335384",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2335384",
+    "name": "Hestia SW-IFL Onroad Fossil Fuel Carbon Dioxide (FFCO2) product: Road segment-level annual FFCO2 emissions across Arizona (2017-2022), version 1.1",
+    "description": [
+      "The SW-IFL onroad fossil fuel carbon dioxide (FFCO2) emissions data product represents CO2 emissions from the combustion of fossil fuels by motor vehicles (e.g., passenger cars, trucks, buses, motorcycles) traveling on designated roadways. The emissions are represented geographically on each road segment within the state of Arizona spanning the 2017 to 2022 time period. This data product was developed as part of the Southwest Urban Corridor Integrated Field Laboratory (SW-IFL) project, which aims to provide new knowledge and tools that address urban environmental issues by integrating high-resolution observations, modeling, and civic engagement. The emissions data are provided in CSV (input data, ONR_FFCO2_AZ_county.csv) and GeoPackage form (output polyline objects - about 786,000 road segments, XXXX_AZ_v1.1.gpkg) designated by road class (interstates, arterials, collectors, local). The metadata file (Metadata_SW-IFL_Onroad_annualFFCO2_v1.1.docx) provides details about attributes and data formats. The GeoPackage emissions data are provided separately for local roads and nonlocal roads (interstates, arterials, collectors). The method file (Methods_SW-IFL_Onroad_annualFFCO2_v1.1.docx) describes the data processing flow and data sources.",
+      "Update on 2024-04-17: Updates were made to both the input emission data file (.csv) and output segment-level emission file (.gpkg). There was an update in county-level emission input data (ONR_FFCO2_AZ_county.csv) and the entire road segments were reprocessed to reflect this update.",
+      "Update on 2024-04-29: Update was made to one output segment-level emission file (Nonlocal_AZ_v1.0.gpkg). There was an error in the AADT values and the data were reprocessed to reflect this update.",
+      "Update on 2024-10-22: Temporal coverage was extended to include 2022. VMT values were recalculated using new AADT data and the entire road segments were reprocessed to reflect these updates."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2758-6817",
+        "givenName": "Anna",
+        "familyName": "Kato",
+        "affiliation": "Northern Arizona University",
+        "email": "Anna.Kato@nau.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9218-7164",
+        "givenName": "Kevin",
+        "familyName": "Gurney",
+        "affiliation": "Northern Arizona University",
+        "email": "Kevin.Gurney@nau.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3957-4055",
+        "givenName": "Pawlok",
+        "familyName": "Dass",
+        "affiliation": "Northern Arizona University",
+        "email": "Pawlok.Dass@nau.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "FFCO2",
+      "Hestia",
+      "Onroad",
+      "Model Data",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ENVIRONMENTAL IMPACTS",
+      "EARTH SCIENCE > CLIMATE INDICATORS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SUSTAINABILITY"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ENVIRONMENTAL IMPACTS > FOSSIL FUEL BURNING",
+      "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_fossil_fuel_combustion",
+      "anthro"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Road segments running across the state of Arizona.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.00426,
+            "longitude": -114.81651
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.33218,
+            "longitude": -109.04522
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2017-01-01",
+      "endDate": "2022-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2758-6817",
+      "givenName": "Anna",
+      "familyName": "Kato",
+      "affiliation": "Northern Arizona University",
+      "email": "Anna.Kato@nau.edu"
+    },
+    "citation": [
+      "Gurney, K. R., Liang, J., Patarasuk, R., Song, Y., Huang, J., & Roest, G. (2020). The Vulcan version 3.0 high-resolution fossil fuel CO2 emissions for the United States. Journal of Geophysical Research: Atmospheres, 125(19), e2020JD032974."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "76c0a41d-b69a-4d99-996f-d650c21e07aa"
+      },
+      "name": "Southwest Urban Corridor Integrated Field Laboratory (SW-IFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Sailor",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Arizona State University",
+        "email": "dsailor@asu.edu"
+      }
+    },
+    "measurementTechnique": [
+      "The Hestia SW-IFL onroad fossil fuel carbon dioxide (FFCO2) emissions were produced using three core inputs:, annual onroad FFCO2 emissions, a road segment basemap, and onroad traffic volume. First, The annual onroad FFCO2 emissions at the county scale for the state of Arizona for the 2017-2022 time period were estimated based on Gurney et al. (2020), and extended to the period up to 2022.",
+      "The road basemap, which provides road segment geometry across the state, was developed by combining four publicly available geospatial data products:\n- The Federal Highway Administration Highway Performance Monitoring System (HPMS) for 2019 (https://datahub.transportation.gov/stories/s/Data-Access-for-Highway-Performance-Monitoring-Sys/3uu4-47sa/)\n- The Bureau of Transportation Statistics All Roads Network Of Linear Referenced Data (ARNOLD) data for 2019 (https://datahub.transportation.gov/stories/s/Data-Access-for-Highway-Performance-Monitoring-Sys/3uu4-47sa/)\n- The U.S. Forest Service Motor Vehicle Use Map (USFS MVU) for roads (https://data-usfs.hub.arcgis.com/maps/motor-vehicle-use-map-roads-feature-layer)\n- Open Street Map (OSM) data for vehicle roads (latest version, http://download.geofabrik.de/north-america/us/arizona.html)\nIn the USFS MVU data, roads were not used when labeled as \u201cNot Maintained for Passenger Car\u201d. Out of all OSM road categories, only 15 categories were considered as vehicle roads and used. Those are motorway, motorway_link, trunk, trunk_link, primary, primary_link, secondary, secondary_link, tertiary, tertiary_link, busway, service, residential, living_street, and unclassified. When combining data, since many roads geometrically overlap, prioritization is as follows: HPMS > ARNOLD > USFS MVU > OSM and the only the road segment from the highest priority dataset is kept. Based on the Highway Performance Monitoring System (HPMS)\u2019s road type, the road segments are further classified into local (HPMS type = 7) and nonlocal roads (type = 1-6).",
+      "The traffic volume (vehicle miles traveled: VMT) were calculated for 2017 through 2022 using annual traffic volume data available from FHWA HPMS and Arizona Department of Transportation (ADOT) (https://azdot.gov/planning/data-and-information/traffic-monitoring) and the road length obtained from the road basemap data (for nonlocal roads only).\nThe onroad FFCO2 emissions were spatially distributed to each road segment by fractional share of VMT (Nonlocal road) out of the total for each county or by fractional share of road length (Local roads) within each county."
+    ],
+    "distribution": [
+      {
+        "contentSize": 77056.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-04476258146ae7c-20241023T004240121",
+        "encodingFormat": "application/geopackage+sqlite3",
+        "identifier": "ess-dive-04476258146ae7c-20241023T004240121",
+        "name": "NonLocal_AZ_v1_1.gpkg"
+      },
+      {
+        "contentSize": 138.5791015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4888f652b17c36c-20241023T004813028",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-4888f652b17c36c-20241023T004813028",
+        "name": "Methods_SW_IFL_Onroad_annualFFCO2_v1_1.pdf"
+      },
+      {
+        "contentSize": 300048.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-493cf95143afcd8-20241023T004240111",
+        "encodingFormat": "application/geopackage+sqlite3",
+        "identifier": "ess-dive-493cf95143afcd8-20241023T004240111",
+        "name": "Local_AZ_v1_1.gpkg"
+      },
+      {
+        "contentSize": 13.716796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-616fa720b543ed9-20241023T004240123",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-616fa720b543ed9-20241023T004240123",
+        "name": "ONR_FFCO2_AZ_county_v1_1.csv"
+      },
+      {
+        "contentSize": 155.8955078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6903d158f786490-20241023T004813023",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-6903d158f786490-20241023T004813023",
+        "name": "Metadata_SW_IFL_Onroad_annualFFCO2_v1_1.pdf"
+      },
+      {
+        "contentSize": 10.443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-76b1bd21c979b0a-20241023T010253267",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-76b1bd21c979b0a-20241023T010253267",
+        "name": "Hestia_SW_IFL_Onroad_Fossil_Fuel_Carbon_Dioxide.xml"
+      }
+    ]
+  }
+}

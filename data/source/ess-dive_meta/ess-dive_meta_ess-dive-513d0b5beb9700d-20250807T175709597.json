@@ -1,0 +1,590 @@
+{
+  "id": "ess-dive-513d0b5beb9700d-20250807T175709597",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1581170",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-513d0b5beb9700d-20250807T175709597",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-075d6c0ad26a879-20250801T214256228",
+  "dateUploaded": "2025-08-07T17:57:10.626Z",
+  "dateModified": "2025-08-26T00:52:48.351Z",
+  "isPublic": true,
+  "citation": "Romanovsky V; Nicolsky D; Wright T; Cable W; Dolgikh K (2022): Soil Temperature and Moisture, Council Road Mile Marker 71, Seward Peninsula, Alaska, 2016-2023. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1581170",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1581170",
+    "name": "Soil Temperature and Moisture, Council Road Mile Marker 71, Seward Peninsula, Alaska, 2016-2023",
+    "description": [
+      "Daily averages of soil temperature and moisture measured once every hour at different heights, as well as daily averages of hourly measured snow depths located at Intensive Monitoring Stations at Council Road Mile Marker 71 site. Deployed at each site is an Onset HOBO U30 data logger with five smart temperature sensors and three smart soil moisture sensors (10HS). Three sites (CN_IS_4, CN_IS_6A, CN_IS_7) are equipped with a snow depth sensor. Data were retrieved annually from 2016-2023. Contains 64 *.CSV files including a file inventory list by year, data dictionary, and file-level list plus a *.jpg of the site. Data files have header rows, NaN fields indicate invalid or missing data, and negative vertical offsets are above ground.",
+      "UPDATED 2025-07: Nine new data files collected in 2022-2023 were added and no previously archived data were changed. This represents the final collection of data and text in the title was changed to reflect the defined timespan. Other files that were added: file-level metadata, a data dictionary, a site location map, and a data file inventory by year.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1581170",
+      "NGA133"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000000295152087",
+        "givenName": "Vladimir",
+        "familyName": "Romanovsky",
+        "email": "veromanovsky@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9866-1285",
+        "givenName": "Dimitry",
+        "familyName": "Nicolsky",
+        "email": "djnicolsky@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2586-6287",
+        "givenName": "Thomas",
+        "familyName": "Wright",
+        "email": "tcwright2@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000000279513946",
+        "givenName": "William",
+        "familyName": "Cable",
+        "email": "wlcable@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/000000017241135X",
+        "givenName": "Kirill",
+        "familyName": "Dolgikh",
+        "email": "kdolgikh@alaska.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Louise",
+        "familyName": "Farquharson"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Tom",
+        "familyName": "Lane"
+      }
+    ],
+    "datePublished": "2022-04-25",
+    "keywords": [
+      "FROZEN GROUND",
+      "SOILS",
+      "Seward Peninsula, Alaska",
+      "Council Road",
+      "SNOW DEPTH",
+      "SOIL TEMPERATURE",
+      "SNOW/ICE",
+      "SOIL MOISTURE/WATER CONTENT",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL MOISTURE/WATER CONTENT",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW DEPTH",
+      "EARTH SCIENCE > LAND SURFACE > FROZEN GROUND > SOIL TEMPERATURE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Council Site, Mile Marker 71, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.864161,
+            "longitude": -163.785777
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.830411,
+            "longitude": -163.654095
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-07-18",
+      "endDate": "2023-06-25",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9515-2087",
+      "givenName": "Vladimir",
+      "familyName": "Romanovsky",
+      "affiliation": "University of Alaska Fairbanks",
+      "email": "veromanovsky@alaska.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Stan",
+        "familyName": "Wullschleger",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "wullschlegsd@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Daily averages of soil temperature and moisture measured once every hour at different heights, as well as daily averages of hourly measured snow depths. Deployed at each site is an Onset HOBO U30 data logger with five smart temperature sensors and three smart soil moisture sensors (10HS). Three sites (CN_IS_4, CN_IS_6A, CN_IS_7) are equipped with a snow depth sensor. The logger is enclosed in a custom box equipped with a solar panel on the lid. The sensors were installed by excavating a soil pit approximately 50 x 50 cm, to a depth of 50 cm or until frozen ground was encountered. At the bottom of the pit a small hole (~2cm diameter) was drilled to a depth of 1.5 m or as deep as possible, to install the 2 deepest temperature sensors. The remaining three temperature and moisture sensors were installed into the soil pit face (uphill side if possible) and the pit was carefully refilled."
+    ],
+    "distribution": [
+      {
+        "contentSize": 31.9873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-014c76f1e5fa3d9-20250729T163831994",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-014c76f1e5fa3d9-20250729T163831994",
+        "name": "CN_IS_6C_2022_07_17_2023_06_25_daily.csv"
+      },
+      {
+        "contentSize": 33.6259765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-267da6f97202524-20221213T163735626037",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-267da6f97202524-20221213T163735626037",
+        "name": "CN_IS_3_2021-07-21_2022-07-20_daily.csv"
+      },
+      {
+        "contentSize": 33.626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0d83d768d0d7a12-20221213T163744093799",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0d83d768d0d7a12-20221213T163744093799",
+        "name": "CN_IS_6B_2020-07-21_2021-07-20_daily.csv"
+      },
+      {
+        "contentSize": 24.9521484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-14c8dfea460c0ca-20221213T163716844428",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-14c8dfea460c0ca-20221213T163716844428",
+        "name": "CN_IS_1_2017-07-22_2018-07-15_daily.csv"
+      },
+      {
+        "contentSize": 2.2939453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-17311ed382b3c47-20221213T163744759640",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-17311ed382b3c47-20221213T163744759640",
+        "name": "CN_IS_6B_2021-07-21_2022-07-20_daily.csv"
+      },
+      {
+        "contentSize": 12.4130859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-177659ab5d8024e-20250729T163758909",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-177659ab5d8024e-20250729T163758909",
+        "name": "CN_IS_4__2022_07_17_2022_11_09_daily.csv"
+      },
+      {
+        "contentSize": 24.6728515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1deadc6fc69c6ef-20221213T163755209169",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1deadc6fc69c6ef-20221213T163755209169",
+        "name": "CN_IS_8_2017-07-25_2018-07-15_daily.csv"
+      },
+      {
+        "contentSize": 28.189453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0412121daf62d31-20221213T163754319682",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0412121daf62d31-20221213T163754319682",
+        "name": "CN_IS_7_2017-07-23_2018-07-15_daily.csv"
+      },
+      {
+        "contentSize": 33.8994140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0466cc067ebdf9c-20221213T163804951685",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0466cc067ebdf9c-20221213T163804951685",
+        "name": "COT_2021-07-16_2022-07-15_daily.csv"
+      },
+      {
+        "contentSize": 33.8994140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-178cf2661a4bacd-20221213T163801621122",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-178cf2661a4bacd-20221213T163801621122",
+        "name": "CN_IS_8_2020-07-16_2021-07-15_daily.csv"
+      },
+      {
+        "contentSize": 33.626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-18c90d7a9529c62-20221213T163746408691",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-18c90d7a9529c62-20221213T163746408691",
+        "name": "CN_IS_6C_2020-07-21_2021-07-20_daily.csv"
+      },
+      {
+        "contentSize": 33.8994140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1a550c9d0db706b-20221213T163755635315",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1a550c9d0db706b-20221213T163755635315",
+        "name": "CN_IS_8_2018-07-16_2019-07-15_daily.csv"
+      },
+      {
+        "contentSize": 26.974609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-110acdbea711125-20221213T163802563957",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-110acdbea711125-20221213T163802563957",
+        "name": "COT_2016-07-18_2017-07-19_daily.csv"
+      },
+      {
+        "contentSize": 25.697265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0ea2217d8c125ca-20221213T163805393386",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0ea2217d8c125ca-20221213T163805393386",
+        "name": "COW_2016-07-18_2017-07-19_daily.csv"
+      },
+      {
+        "contentSize": 33.990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3f0012c5a882460-20221213T163745967602",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3f0012c5a882460-20221213T163745967602",
+        "name": "CN_IS_6C_2019-07-21_2020-07-20_daily.csv"
+      },
+      {
+        "contentSize": 20.0927734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3624bb2c07e3ad9-20221213T163738087549",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3624bb2c07e3ad9-20221213T163738087549",
+        "name": "CN_IS_5_2016-07-18_2017-06-04_daily.csv"
+      },
+      {
+        "contentSize": 58.5302734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4337a8503416e76-20221213T163742611125",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4337a8503416e76-20221213T163742611125",
+        "name": "CN_IS_6A_2020-07-19_2021-07-16_daily.csv"
+      },
+      {
+        "contentSize": 6.744140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-46b18903961fdf2-20221213T163810762568",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-46b18903961fdf2-20221213T163810762568",
+        "name": "COW_2020-07-21_2021-07-20_daily.csv"
+      },
+      {
+        "contentSize": 25.85546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-39a446dd6f6ea37-20221213T163809888479",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-39a446dd6f6ea37-20221213T163809888479",
+        "name": "COW_2018_07_16_2019_07_20_daily.csv"
+      },
+      {
+        "contentSize": 27.017578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2ac2f2d324de5c3-20221213T163803559740",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2ac2f2d324de5c3-20221213T163803559740",
+        "name": "COT_2018_07_16_2019_07_20_daily.csv"
+      },
+      {
+        "contentSize": 27.056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d016fe67f3fcb2e-20221213T163753724104",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d016fe67f3fcb2e-20221213T163753724104",
+        "name": "CN_IS_6_TUE2_2018_07_16_2019_07_20_daily.csv"
+      },
+      {
+        "contentSize": 33.9892578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e073ffc872278b4-20221213T163729680584",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e073ffc872278b4-20221213T163729680584",
+        "name": "CN_IS_3_2019-07-21_2020-07-20_daily.csv"
+      },
+      {
+        "contentSize": 31.986328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-33db8df14d741c5-20250729T163741277",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-33db8df14d741c5-20250729T163741277",
+        "name": "CN_IS_3__2022_07_17_2023_06_25_daily.csv"
+      },
+      {
+        "contentSize": 25.9541015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6aa38757afcc82d-20221213T163717519510",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6aa38757afcc82d-20221213T163717519510",
+        "name": "CN_IS_1_2018_07_16_2019_07_20_daily.csv"
+      },
+      {
+        "contentSize": 26.41015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-510096adc9b2063-20221213T163803025792",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-510096adc9b2063-20221213T163803025792",
+        "name": "COT_2017-07-20_2018-07-15_daily.csv"
+      },
+      {
+        "contentSize": 19.833984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-513d0b5beb9700d-20250807T175709597",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-513d0b5beb9700d-20250807T175709597",
+        "name": "Soil_Temperature_and_Moisture_Council_Road_Mile.xml"
+      },
+      {
+        "contentSize": 26.4814453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-53804d6a487bc79-20221213T163736260448",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-53804d6a487bc79-20221213T163736260448",
+        "name": "CN_IS_4_2017-07-23_2018-07-15_daily.csv"
+      },
+      {
+        "contentSize": 97.4365234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5e76dff7bb7eb75-20221213T163737655748",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5e76dff7bb7eb75-20221213T163737655748",
+        "name": "CN_IS_4_2020-01-17_2022-07-20_raw.csv"
+      },
+      {
+        "contentSize": 3.5390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5c6675da586cb21-20250807T175651613",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5c6675da586cb21-20250807T175651613",
+        "name": "nga133_flmd.csv"
+      },
+      {
+        "contentSize": 33.990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4aab2fa00adf20d-20221213T163803976631",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4aab2fa00adf20d-20221213T163803976631",
+        "name": "COT_2019-07-16_2020-07-15_daily.csv"
+      },
+      {
+        "contentSize": 25.4033203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4b495e344bc8d25-20221213T163728775869",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4b495e344bc8d25-20221213T163728775869",
+        "name": "CN_IS_3_2017-07-22_2018-07-15_daily.csv"
+      },
+      {
+        "contentSize": 27.0048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-53faa97901ebf87-20221213T163729270925",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-53faa97901ebf87-20221213T163729270925",
+        "name": "CN_IS_3_2018_07_16_2019_07_20_daily.csv"
+      },
+      {
+        "contentSize": 19.8671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-541c7d8ea63cc32-20250729T163840640",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-541c7d8ea63cc32-20250729T163840640",
+        "name": "CN_IS_7__2022_07_17_2023_01_22_daily.csv"
+      },
+      {
+        "contentSize": 24.880859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-543fd45ff236647-20221213T163743204604",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-543fd45ff236647-20221213T163743204604",
+        "name": "CN_IS_6B_2017-07-23_2018-07-15_daily.csv"
+      },
+      {
+        "contentSize": 33.626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-55cc9542817d1ae-20221213T163728208967",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-55cc9542817d1ae-20221213T163728208967",
+        "name": "CN_IS_2_2021-07-21_2022-07-20_daily.csv"
+      },
+      {
+        "contentSize": 33.990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-648bbe8604a7524-20221213T163719196772",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-648bbe8604a7524-20221213T163719196772",
+        "name": "CN_IS_1_2019-07-21_2020-07-20_daily.csv"
+      },
+      {
+        "contentSize": 31.9873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-79da92cae1f3ba7-20250729T163731105",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-79da92cae1f3ba7-20250729T163731105",
+        "name": "CN_IS_2__2022_07_17_2023_06_25_daily.csv"
+      },
+      {
+        "contentSize": 634.173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6e7b46db6e1b20e-20250729T175950319",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-6e7b46db6e1b20e-20250729T175950319",
+        "name": "Council.jpg"
+      },
+      {
+        "contentSize": 33.990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-802d59652ccefd3-20221213T163743670933",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-802d59652ccefd3-20221213T163743670933",
+        "name": "CN_IS_6B_2019-07-21_2020-07-20_daily.csv"
+      },
+      {
+        "contentSize": 33.626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-82b0f9c62e92149-20221213T163719945324",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-82b0f9c62e92149-20221213T163719945324",
+        "name": "CN_IS_1_2020-07-21_2021-07-20_daily.csv"
+      },
+      {
+        "contentSize": 26.0732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-848a04ee39339d4-20221213T163753151411",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-848a04ee39339d4-20221213T163753151411",
+        "name": "CN_IS_6_TLE1_2018_07_16_2019_07_20_daily.csv"
+      },
+      {
+        "contentSize": 33.8994140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-889310385edbf02-20221213T163802128148",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-889310385edbf02-20221213T163802128148",
+        "name": "CN_IS_8_2021-07-16_2022-07-15_daily.csv"
+      },
+      {
+        "contentSize": 24.314453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7e7757a83b3a508-20221213T163754747426",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7e7757a83b3a508-20221213T163754747426",
+        "name": "CN_IS_7_2018_07_16_2019_05_29_daily.csv"
+      },
+      {
+        "contentSize": 41.599609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-76000bd9f328f03-20250729T163814658",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-76000bd9f328f03-20250729T163814658",
+        "name": "CN_IS_6A_2022_07_17_2023_04_15_daily.csv"
+      },
+      {
+        "contentSize": 27.2470703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-89bddf9f7bf05e6-20221213T163736685395",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-89bddf9f7bf05e6-20221213T163736685395",
+        "name": "CN_IS_4_2018_07_16_2019_07_20_daily.csv"
+      },
+      {
+        "contentSize": 23.9951171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a9940b028cacc64-20250729T163823490",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a9940b028cacc64-20250729T163823490",
+        "name": "CN_IS_6B_2022_07_17_2023_03_28_daily.csv"
+      },
+      {
+        "contentSize": 33.8994140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a4a25915b558392-20221213T163804393829",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a4a25915b558392-20221213T163804393829",
+        "name": "COT_2020-07-16_2021-07-15_daily.csv"
+      },
+      {
+        "contentSize": 2.2529296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-92235a592980207-20221213T163811452514",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-92235a592980207-20221213T163811452514",
+        "name": "council_sensors_datafile_inventory.csv"
+      },
+      {
+        "contentSize": 25.1728515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a0acf2eb9f9e15c-20221213T163745476631",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a0acf2eb9f9e15c-20221213T163745476631",
+        "name": "CN_IS_6C_2017-07-23_2018-07-15_daily.csv"
+      },
+      {
+        "contentSize": 18.8564453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-95652ab1e52a617-20221213T163737223392",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-95652ab1e52a617-20221213T163737223392",
+        "name": "CN_IS_4_2019-07-21_2020-01-16_daily.csv"
+      },
+      {
+        "contentSize": 31.9873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b6a238ad61d9407-20250729T163720849",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b6a238ad61d9407-20250729T163720849",
+        "name": "CN_IS_1__2022_07_17_2023_06_25_daily.csv"
+      },
+      {
+        "contentSize": 0.970703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bc5d64c0fe714e8-20221213T163752621310",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bc5d64c0fe714e8-20221213T163752621310",
+        "name": "CN_IS_6_TB_2018_07_16_2018_07_18_daily.csv"
+      },
+      {
+        "contentSize": 25.1953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bd8f0207ca75657-20221213T163806849067",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bd8f0207ca75657-20221213T163806849067",
+        "name": "COW_2017-07-20_2018-07-15_daily.csv"
+      },
+      {
+        "contentSize": 25.6015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b82abd6ecdc5f29-20221213T163738640314",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b82abd6ecdc5f29-20221213T163738640314",
+        "name": "CN_IS_6A_2017-07-23_2018-07-15_daily.csv"
+      },
+      {
+        "contentSize": 1.1904296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bac6095fd442f20-20250807T175651627",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bac6095fd442f20-20250807T175651627",
+        "name": "nga133_dd.csv"
+      },
+      {
+        "contentSize": 26.3095703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b071784f54b71ed-20221213T163726631709",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b071784f54b71ed-20221213T163726631709",
+        "name": "CN_IS_2_2018_07_16_2019_07_20_daily.csv"
+      },
+      {
+        "contentSize": 33.626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c6c295620a70697-20221213T163727789049",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c6c295620a70697-20221213T163727789049",
+        "name": "CN_IS_2_2020-07-21_2021-07-20_daily.csv"
+      },
+      {
+        "contentSize": 31.9873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ccf39d6f90f6a45-20250729T163847659",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ccf39d6f90f6a45-20250729T163847659",
+        "name": "CN_IS_8__2022_07_17_2023_06_25_daily.csv"
+      },
+      {
+        "contentSize": 58.6875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cdc3b7fc674d984-20221213T163739097776",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cdc3b7fc674d984-20221213T163739097776",
+        "name": "CN_IS_6A_2019-07-19_2020-07-18_daily.csv"
+      },
+      {
+        "contentSize": 33.990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b409214845321a9-20221213T163810322016",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b409214845321a9-20221213T163810322016",
+        "name": "COW_2019-07-21_2020-07-20_daily.csv"
+      },
+      {
+        "contentSize": 33.990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cac6a2c8d357ef1-20221213T163727141066",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cac6a2c8d357ef1-20221213T163727141066",
+        "name": "CN_IS_2_2019-07-21_2020-07-20_daily.csv"
+      },
+      {
+        "contentSize": 33.626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f671bc8babfbaa9-20221213T163720353624",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f671bc8babfbaa9-20221213T163720353624",
+        "name": "CN_IS_1_2021-07-21_2022-07-20_daily.csv"
+      }
+    ]
+  }
+}

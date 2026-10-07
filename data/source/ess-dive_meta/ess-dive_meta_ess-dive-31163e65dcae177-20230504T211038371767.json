@@ -1,0 +1,170 @@
+{
+  "id": "ess-dive-31163e65dcae177-20230504T211038371767",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.25581/ORNLSFA.022/1768048",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-31163e65dcae177-20230504T211038371767",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-669249d8369aff7-20230407T142835486159",
+  "dateUploaded": "2023-05-04T21:10:39.274Z",
+  "dateModified": "2023-05-04T21:10:42.694Z",
+  "isPublic": true,
+  "citation": "Craig M; Walker A (2021): Biological Mechanisms May Contribute to Soil Carbon Saturation Patterns: Modeling Archive. ORNL Terrestrial Ecosystem Science SFA. Dataset. doi:10.25581/ORNLSFA.022/1768048",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.25581/ORNLSFA.022/1768048",
+    "name": "Biological Mechanisms May Contribute to Soil Carbon Saturation Patterns: Modeling Archive",
+    "description": [
+      "This Modeling Archive is in support of a TES-SFA publication \u201cBiological Mechanisms May Contribute to Soil Carbon Saturation Patterns\u201d (Craig et al., 2021). We ran and evaluated a multi-assumption soil organic carbon (SOC) model to investigate whether alternative assumptions regarding constraints on soil microbial biomass could lead to soil carbon saturation patterns. We developed this model in the Multi-Assumption Architecture and Testbed (MAAT, https://github.com/walkeranthonyp/MAAT, tag: v1.2.1_Craig2021; Walker et al. 2018).",
+      "Using MAAT, we embedded three alternative hypotheses in a microbially explicit three-pool SOC model: 1) the efficiency of mineral-associated SOC formation decreases as mineral-associated SOC approaches a maximum value (\u201cMineral saturation\u201d), 2) the microbial biomass turnover rate increases with increasing microbial biomass (\u201cDensity-dependent turnover\u201d), and 3) community carbon use efficiency decreases as microbial biomass increases toward an upper limit (\u201cDensity-dependent growth\u201d). We ran a factorial combination of these hypotheses resulting in eight models for three different classes of model (linear decay, Michaelis-Menten decay, or reverse Michaelis-Menten decay), resulting in 24 models, 12 of which are presented or discussed in the related publication. Models were parameterized using values from previous studies with similar models (Wang et al. 2013, Wieder et al. 2014, Li et al. 2014, Georgiou et al. 2017, Hassink and Whitmore 1997) and ran to an approximate steady state (200 years) at six (6) different C input rates corresponding to 0.5, 1, 2, 4, 7, and 10 times the default input value. Further model details are available in the related publication.",
+      "This archive contains output from three MAAT simulations, and scripts to run these simulations and process and plot the data. Simulations are labeled \u201clin\u201d, \u201cMM_highKm\u201d, and \u201cRMM_highKm\u201d reflecting factorial runs for linear, Michealis-Menten, and reverse Michaelis-Menten models, respectively.",
+      "This archive contains:",
+      "\u2022 3 R scripts prepended with \u201cinit_MAAT_\u201d to initialize runs (1 for each simulation),",
+      "\u2022 1 csv file containing years over which to run simulations (\u201cmet_year.csv\u201d),",
+      "\u2022 1 bash script (.bs) to run MAAT,",
+      "\u2022 6 XML files that are output from MAAT describing a run (2 for each simulation),",
+      "\u2022 3 model output csv files prepended by \u201cout_\u201d (1 for each simulation), and",
+      "\u2022 1 analysis R script for reproducing figures 3 and 4 in Craig et al. 2021.",
+      "See included user guide (Craig_2021_modeling_archive_20210315.pdf) for file organization details."
+    ],
+    "alternateName": [
+      "https://doi.org/10.25581/ornlsfa.022/1768048"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000000288907920",
+        "givenName": "M.E.",
+        "familyName": "Craig",
+        "email": "craigme@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000000305575594",
+        "givenName": "A.P.",
+        "familyName": "Walker",
+        "email": "walkerap@ornl.gov"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "54 ENVIRONMENTAL SCIENCES",
+      "multi-assumption soil organic carbon model",
+      "MAAT",
+      "carbon use efficiency",
+      "Multi-Assumption Architecture and Testbed",
+      "soil microbial biomass",
+      "EARTH SCIENCE > LAND SURFACE > SOILS"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > AGRICULTURE > SOILS > CARBON",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > BIOMASS DYNAMICS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Oak Ridge National Laboratory (ORNL)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.9311,
+            "longitude": -84.31
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.9311,
+            "longitude": -84.31
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "USDOE Office of Science (SC), Biological and Environmental Research (BER). Earth and Environmental Systems Science Division"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1997-07-01",
+      "endDate": "2019-10-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9855-5191",
+      "givenName": "Terri",
+      "familyName": "Velliquette",
+      "affiliation": "ORNL",
+      "email": "velliquettet@ornl.gov"
+    },
+    "citation": [
+      "Craig, M.E., Mayes, M.A., Sulman, B.N. and Walker, A.P. (2021), Biological mechanisms may contribute to soil carbon saturation patterns. Glob Change Biol, 27: 2633-2644. https://doi.org/10.1111/gcb.15584"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1e6d50d3-9532-43fb-a63f-bdcb4350bf0c"
+      },
+      "name": "ORNL Terrestrial Ecosystem Science SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Hanson",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "hansonpj@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "We ran and evaluated a multi-assumption soil organic carbon (SOC) model to investigate whether alternative assumptions regarding constraints on soil microbial biomass could lead to soil carbon saturation patterns. We developed this model in the Multi-Assumption Architecture and Testbed (MAAT, https://github.com/walkeranthonyp/MAAT, tag: v1.2.1_Craig2021; Walker et al. 2018).\nUsing MAAT, we embedded three alternative hypotheses in a microbially explicit three-pool SOC model: 1) the efficiency of mineral-associated SOC formation decreases as mineral-associated SOC approaches a maximum value (\u201cMineral saturation\u201d), 2) the microbial biomass turnover rate increases with increasing microbial biomass (\u201cDensity-dependent turnover\u201d), and 3) community carbon use efficiency decreases as microbial biomass increases toward an upper limit (\u201cDensity-dependent growth\u201d). We ran a factorial combination of these hypotheses resulting in eight models for three different classes of model (linear decay, Michaelis-Menten decay, or reverse Michaelis-Menten decay), resulting in 24 models, 12 of which are presented or discussed in the related publication. Models were parameterized using values from previous studies with similar models (Wang et al. 2013, Wieder et al. 2014, Li et al. 2014, Georgiou et al. 2017, Hassink and Whitmore 1997) and ran to an approximate steady state (200 years) at six (6) different C input rates corresponding to 0.5, 1, 2, 4, 7, and 10 times the default input value. Further model details are available in the related publication."
+    ],
+    "distribution": [
+      {
+        "contentSize": 15.6611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31163e65dcae177-20230504T211038371767",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-31163e65dcae177-20230504T211038371767",
+        "name": "Biological_Mechanisms_May_Contribute_to_Soil_Carbon_Saturation_Patterns_Modeling_Archive.xml"
+      },
+      {
+        "contentSize": 662.275390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-eb03930ecd9d32e-20210607T211759471",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-eb03930ecd9d32e-20210607T211759471",
+        "name": "Output.zip"
+      },
+      {
+        "contentSize": 0.646484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dc0e5fd4b1073ac-20210607T211759469",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dc0e5fd4b1073ac-20210607T211759469",
+        "name": "Input_Files.zip"
+      },
+      {
+        "contentSize": 437.6884765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6a9813c60810dc3-20210607T211853566",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-6a9813c60810dc3-20210607T211853566",
+        "name": "Craig_2021_modeling_archive_20210315.pdf"
+      },
+      {
+        "contentSize": 2.5322265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-56194c37507c725-20210607T211759474",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-56194c37507c725-20210607T211759474",
+        "name": "Post_processingDistillation_and_Analysis.zip"
+      },
+      {
+        "contentSize": 6.4794921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-762165ac6d4c44a-20210607T211759458",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-762165ac6d4c44a-20210607T211759458",
+        "name": "Configurations.zip"
+      }
+    ]
+  }
+}

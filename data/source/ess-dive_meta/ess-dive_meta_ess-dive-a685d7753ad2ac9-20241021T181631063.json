@@ -1,0 +1,214 @@
+{
+  "id": "ess-dive-a685d7753ad2ac9-20241021T181631063",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2429339",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a685d7753ad2ac9-20241021T181631063",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a685d7753ad2ac9-20241018T215333428",
+  "dateUploaded": "2024-10-21T18:16:31.592Z",
+  "dateModified": "2024-10-26T00:24:45.361Z",
+  "isPublic": true,
+  "citation": "Pierce S; Paulus L; Brodie E; Boye K; Stewart B (2024): Total metal, carbon, anion, iron speciation, and sulfide concentrations; Slate River, East River, and Trail Creek surface water and floodplains, Crested Butte, CO; May 2023\u2013August 2023. Watershed Function SFA. Dataset. doi:10.15485/2429339",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2429339",
+    "name": "Total metal, carbon, anion, iron speciation, and sulfide concentrations; Slate River, East River, and Trail Creek surface water and floodplains, Crested Butte, CO; May 2023\u2013August 2023",
+    "description": [
+      "This data package comprises analytical results and metadata from stream and groundwater samples collected from the Slate River, East River, Trail Creek, and their respective floodplains. This dataset contains five files: (1) a samples file (2023_SFA_Field_samples.csv) that contains site information; (2) a chemical analysis data file (2023_FieldWaterSampleData_IC__ICPOES__ICPMS__TOC__Fe__S_chem_data.csv) that contains sample analysis values; (3) a file-level metadata file (flmd.csv) that lists each file contained in the dataset with associated metadata; (4) a data dictionary file (dd.csv) that contains column/row headers used throughout the files along with definitions, units, and data types; and (5) a methods file (methods.csv) that contains ID, type, description, instrument, and lab information for each method.",
+      "The samples\u2019 anion concentrations were measured using ion chromatography (IC), total metal concentrations using inductively coupled plasma emission spectrometry (ICP-OES) and inductively coupled plasma mass spectrometry (ICP-MS), non-purgeable organic carbon using total organic carbon (TOC) analysis, dissolved sulfide concentration using methylene blue spectrophotometry, and iron speciation using the ferrozine assay. To support bulk chemical analyses and colloid characterization, samples were collected from multiple depths ranging from the surface to 3.5 meters below ground.",
+      "Update on 2024-10-18: Updates were made to the 2023_FieldWaterSampleData_IC__ICPOES__ICPMS__TOC__Fe__S_chem_data.csv and dd.csv files to correct units (ppb instead of ppm)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7614-0227",
+        "givenName": "Sam",
+        "familyName": "Pierce",
+        "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+        "email": "swpierce@slac.stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6724-5550",
+        "givenName": "Lizzy",
+        "familyName": "Paulus",
+        "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+        "email": "paulus@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8453-8435",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2087-607X",
+        "givenName": "Kristin",
+        "familyName": "Boye",
+        "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+        "email": "kboye@slac.stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5729-4172",
+        "givenName": "Brandy",
+        "familyName": "Stewart",
+        "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+        "email": "stewartb@slac.stanford.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0004-3721-1562",
+        "givenName": "Kathryn",
+        "familyName": "Farber",
+        "affiliation": "University of San Francisco",
+        "email": "kmfarber@dons.usfca.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE Sample ID and Metadata Reporting Format",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER CHEMISTRY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > CONTAMINANTS > METALS/MINERALS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > CONTAMINANTS > ORGANIC MATTER"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Trail Creek contributes to the headwaters of the Gunnison River and the Taylor River watershed; it lies west of Crested Butte.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.975696,
+            "longitude": -107.066516
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.889553,
+            "longitude": -106.613656
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2023) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2023-05-23",
+      "endDate": "2023-08-28",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2087-607X",
+      "givenName": "Kristin",
+      "familyName": "Boye",
+      "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+      "email": "kboye@slac.stanford.edu"
+    },
+    "citation": [
+      "Pierce S ; Boye K (2023): Total metals, carbon, nitrogen & anion concentration data; Slate River & East River floodplains, Crested Butte, CO; May 2022-October 2022. Groundwater Quality SFA, ESS-DIVE repository. Dataset. doi:10.15485/1969113 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1969113",
+      "Samples in this dataset PhysicalObject (References): Globally unique identifier (IGSN) for physical sample associated with dataset. There are a total of 197 individual samples associated with the dataset, which consist of 197 Liquid>aqueous samples. More details and metadata for these samples are contained within the 2023_SFA_Field_samples.csv file.",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2023): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA (Version 3.1). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Method 1: Analysis using IC\nAnion concentrations were determined in water samples using the Dionex ICS 6000 Ion Chromatograph. A calibration curve (linearity >0.99) was constructed using five standard solutions that contained each anion in concentrations ranging from 0 \u00b5mol ml-1 to 1000 \u00b5mol ml-1. Standards and quality control (QC) samples were diluted from a stock mix (Inorganic Ventures, Christiansburg, VA) using deionized water. QC samples were run before and after every 10 experimental samples; acceptable QC cut-offs were within \u00b110% error of the target concentration.",
+      "Method 2: Analysis using ICP-OES and ICP-MS\nTotal metal concentrations were determined in water samples using the Thermo Scientific ICAP 6300 Duo View Spectrometer, Thermo Scientific ICAP RQ, and X-SERIES 2 ICP-MS. A calibration curve (linearity >0.99) was constructed using five standard solutions that contained each metal in concentrations ranging from 0 \u00b5mol ml-1 to 1000 \u00b5mol ml-1. Standards and quality control (QC) samples were diluted from a stock mix (Inorganic Ventures, Christiansburg, VA) using deionized water. QC samples were run before and after every 10 experimental samples; acceptable QC cut-offs were within \u00b110% error of the target concentration.",
+      "Method 3: TOC Analysis\nNon-purgeable organic carbon concentrations were determined in water samples using the Shimadzu TOC-TN Autoanalyzer. A total organic carbon (TOC) calibration curve (linearity >0.99) was constructed using five standards, diluted (using deionized water) from stock 100 ppm TOC into concentrations ranging from 0 ppm to 100 ppm. QC samples were run before and after every 10 experimental samples; acceptable QC cut-offs were within \u00b110% error of the target concentration.",
+      "Method 4: Analysis using the Ferrozine Assay\nThis ferrozine assay was developed by Alexander Rucker and Andreas Kappler, Department of Geoscience, University of Tubingen. Dissolved ferrous iron was reacted with ferrozine to form a vibrant purple complex; the complex\u2019s concentration was quantified spectrophotometrically at 562 nm. Ferric iron was determined as the difference between total iron and ferrous iron. Total iron was reduced using hydroxylamine hydrochloride. Absorption was linear from 0\u2013100 \u00b5M ferrous iron. Two calibration curves were prepared in an anoxic glovebox: one for ferrous iron using hydrochloric acid and one for total iron using hydroxylamine hydrochloride. Each calibration curve was composed of five points, diluted from the highest concentration and including a blank.",
+      "Method 5: Analysis using Methylene Blue Spectrophotometry\nThe Methylene Blue Sulfide Protocol to determine aqueous sulfide concentration was adapted from American Public Health Association (APHA) (2005). In an anoxic glovebox, H2S(aq) and N,N-dimethyl-p-phenylene diamine (N,N-dimethylbenzene-1,4-diamine) were reacted under acidic conditions in the presence of ferric iron (oxidizing agent) to form methylene blue, a bright blue dye that was quantified spectrophotometrically at 670 nm. A calibration curve (linearity >0.99) was composed of five points, ranging from 0 to 100 \u00b5M."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-48539c1ab1e80ec-20241018T215330155",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-48539c1ab1e80ec-20241018T215330155",
+        "name": "2023_FieldWaterSampleData_IC__ICPOES__ICPMS__TOC__Fe__S_chem_data.csv",
+        "contentSize": 93.6494140625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7012540e639b929-20240726T222847654",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7012540e639b929-20240726T222847654",
+        "name": "methods.csv",
+        "contentSize": 4.0830078125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f6c5a284f070c3d-20240726T221252564",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f6c5a284f070c3d-20240726T221252564",
+        "name": "flmd.csv",
+        "contentSize": 1.0283203125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d7a6daafec30bb4-20241021T181629011",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d7a6daafec30bb4-20241021T181629011",
+        "name": "dd.csv",
+        "contentSize": 12.72265625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e64991ae65e56bc-20240801T155232937",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e64991ae65e56bc-20240801T155232937",
+        "name": "2023_SFA_Field_samples.csv",
+        "contentSize": 63.357421875
+      }
+    ]
+  }
+}

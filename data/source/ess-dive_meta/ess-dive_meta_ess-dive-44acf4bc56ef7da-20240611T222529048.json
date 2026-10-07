@@ -1,0 +1,387 @@
+{
+  "id": "ess-dive-44acf4bc56ef7da-20240611T222529048",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2371854",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-44acf4bc56ef7da-20240611T222529048",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-601f435dcf169d1-20240606T233430928",
+  "dateUploaded": "2024-06-11T22:25:31.392Z",
+  "dateModified": "2024-06-13T00:01:51.489Z",
+  "isPublic": true,
+  "citation": "Bachand C; Wang C; Dafflon B; Thomas L; Shirley I; Maebius S; Iversen C; Bennett K (2024): Machine learning snow depth predictions at sites in Alaska, Norway, Siberia, Colorado and New Mexico. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2371854",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2371854",
+    "name": "Machine learning snow depth predictions at sites in Alaska, Norway, Siberia, Colorado and New Mexico",
+    "description": [
+      "Temporally continuous snow depth estimates are vital for understanding changing snow patterns in the Arctic and impacts on permafrost. We trained random forest machine learning models to predict snow depth from temperature data recorded at or just below the ground surface. Training data was collected at the Teller 27 Watershed and Kougarok 64 Hillslope during the 2021 - 2022 water year on the Seward Peninsula, Alaska using distributed temperature profiling (DTP) systems. We then applied this model to other sites where ground surface or shallow soil temperature data was available for at least one water year (see Related Datasets). Many of these temperature measurements were collocated with snow depth observations. Ground surface temperature (i.e. snow-ground interface temperature) is easy to measure using small, cheap and easy-to-deploy temperature sensors such as iButtons and TinyTags, and such measurements have previously been used to calculate a variety of snow metrics (e.g. snow onset date). However, this is the first study to estimate snow depth directly from ground surface temperature data. The present dataset contains one *.csv file which includes machine learning snow depth predictions at sites in Alaska, Norway, Siberia, Colorado, and New Mexico and one *.kml file including the locations of sites with snow depth predictions. No training data predictions are included in the *.csv file.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy\u2019s Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy\u2019s Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "NGA530",
+      "LA-UR-24-23694"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8422-9675",
+        "givenName": "Claire",
+        "familyName": "Bachand",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "cbachand@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9508-7425",
+        "givenName": "Chen",
+        "familyName": "Wang",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cwang4@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9871-5650",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bdafflon@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5002-2177",
+        "givenName": "Lauren",
+        "familyName": "Thomas",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "lnthomas@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2229-1414",
+        "givenName": "Ian",
+        "familyName": "Shirley",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ishirley@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sarah",
+        "familyName": "Maebius",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "skmaebius@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8293-3450",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2433-8607",
+        "givenName": "Katrina",
+        "familyName": "Bennett",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "kbennett@lanl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "Machine Learning"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE > SNOW DEPTH"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Teller 27 Field Site, Seward Peninsula, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.7352,
+            "longitude": -165.9584
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.7352,
+            "longitude": -165.9584
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Kougarok 64 Field Site, Seward Peninsula, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.1614,
+            "longitude": -164.8225
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.1614,
+            "longitude": -164.8225
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Bayelva Station, Svalbard, Norway",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 78.9209,
+            "longitude": 11.8331
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 78.9209,
+            "longitude": 11.8331
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Grand Mesa, Colorado",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.05084,
+            "longitude": -108.06144
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.05084,
+            "longitude": -108.06144
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Senator Beck Basin, Colorado",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.9069,
+            "longitude": -107.7113
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.9069,
+            "longitude": -107.7113
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Imnavait Creek, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 68.617,
+            "longitude": -149.2
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.617,
+            "longitude": -149.2
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Los Alamos, New Mexico",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.8616,
+            "longitude": -106.3189
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.8616,
+            "longitude": -106.3189
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Somoylov Island, Siberia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 72.37,
+            "longitude": 126.4756
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 72.37,
+            "longitude": 126.4756
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Ivotuk, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 68.48033,
+            "longitude": -155.7452
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.48033,
+            "longitude": -155.7452
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Council Field Site, Seward Peninsula, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.84436,
+            "longitude": -163.70743
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.84436,
+            "longitude": -163.70743
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1990-10-05",
+      "endDate": "2024-03-09",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8422-9675",
+      "givenName": "Claire",
+      "familyName": "Bachand",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "cbachand@lanl.gov"
+    },
+    "citation": [
+      "Bachand, C. L., Wang, C., Dafflon, B., Thomas, L. N., Shirley, I., Maebius, S., Iversen, C., Bennett, K. E. Brief Communication: Monitoring snow depth using small, cheap, and easy-to-deploy ground surface temperature sensors. Submitted.",
+      "Katrina E. Bennett, Robert Bolton, Emma Lathrop, Lauren Thomas, Shannon Dillard, Julian Dann. 2023. iButton snow temperature measurements at Teller 27 and Kougarok 64 from 2019-2020, Seward Peninsula, Alaska. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. https://doi.org/10.5440/1996564",
+      "Katrina Bennett, Shannon Dillard, Lauren Thomas, Claire Bachand, Greta Miller, Bob Bolton, Julian Dann, Adam Collins, Rutuja Chitra-Tarak. 2022. iButton and Tinytag snow temperature measurements at Teller 27 and Kougarok 64 from 2021-2022, Seward Peninsula, Alaska. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. https://doi.org/10.5440/1996546",
+      "Katrina Bennett, Claire Bachand, Lauren Thomas, Eve Gasarch, Evan Thaler, Ryan Crumley. 2023. iButton and Tinytag snow temperature measurements at Teller 27 and Kougarok 64 from 2022-2023, Seward Peninsula, Alaska. Next Generation Ecosystem Experiments (NGEE) Arctic, ESS-DIVE repository. Dataset. https://doi.org/10.15485/2319246",
+      "Larry D Hinzman, Douglas L Kane, and Douglas J Goering. 2016. Meteorological, Radiation, Soil, and Snow Data from Alaska Sites, 1998 - 2008. Arctic Data Center. doi:10.5065/D6G44NFV.",
+      "Mathew Sturm and Jonathan Holmgren. 1994. Effects of microtopography on texture, temperature, and heat flow in Arctic and sub-Arctic snow. Annals of Glaciology, 19, 63 - 68. https://doi.org/10.3189/1994AoG19-1-63-68",
+      "Boike, J., Nitzbon, J., Anders, K., Grigoriev, M., Bolshiyanov, D., Langer, M., Lange, S., Bornemann, N., Morgenstern, A., Schreiber, P., Wille, C., Chadburn, S., Gouttevin, I., Burke, E., and Kutzbach, L.: A 16-year record (2002\u20132017) of permafrost, active-layer, and meteorological conditions at the Samoylov Island Arctic permafrost research site, Lena River delta, northern Siberia: an opportunity to validate remote-sensing data and land surface, snow, and permafrost models, Earth Syst. Sci. Data, 11, 261\u2013299, https://doi.org/10.5194/essd-11-261-2019, 2019.",
+      "Boike, Julia; Nitzbon, Jan; Anders, Katharina; Grigoriev, Mikhail N; Bolshiyanov, Dimitry Yu; Langer, Moritz; Lange, Stephan; Bornemann, Niko; Morgenstern, Anne; Schreiber, Peter; Wille, Christian; Chadburn, Sarah; Gouttevin, Isabelle; Kutzbach, Lars (2019): Measurements in soil and air at Samoylov Station (2002-2018), version 201908 [dataset publication series]. Alfred Wegener Institute - Research Unit Potsdam, PANGAEA, https://doi.org/10.1594/PANGAEA.905236",
+      "Boike, J., Juszak, I., Lange, S., Chadburn, S., Burke, E., Overduin, P. P., Roth, K., Ippisch, O., Bornemann, N., Stern, L., Gouttevin, I., Hauber, E., and Westermann, S.: A 20-year record (1998\u20132017) of permafrost, active layer and meteorological conditions at a high Arctic permafrost research site (Bayelva, Spitsbergen), Earth Syst. Sci. Data, 10, 355\u2013390, https://doi.org/10.5194/essd-10-355-2018, 2018.",
+      "Boike, Julia; Juszak, Inge; Lange, Stephan; Chadburn, Sarah; Burke, Eleanor J; Overduin, Pier Paul; Roth, Kurt; Ippisch, Olaf; Bornemann, Niko; Stern, Lielle; Gouttevin, Isabelle; Hauber, Ernst; Westermann, Sebastian (2017): Measurements in soil and air at Bayelva Station [dataset publication series]. PANGAEA, https://doi.org/10.1594/PANGAEA.880120",
+      "Center for Snow and Avalanche Studies (2012). Archival Data from Senator Beck Basin Study Area. https://snowstudies.org/archived-data/",
+      "Landry, C. C., K. A. Buck, M. S. Raleigh, and M. P. Clark (2014), Mountain system monitoring at Senator Beck Basin, San Juan Mountains, Colorado: A new integrative data source to develop and evaluate models of snow and hydrologic processes, Water Resour. Res., 50, doi:10.1002/2013WR013711.",
+      "Houser, P., W. Rudisill, J. Johnston, K. Elder, H.P. Marshall, C. Vuyovich, E. Kim, M. Mason. 2022. SnowEx Meteorological Station Measurements from Grand Mesa, CO, Version 1. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. https://doi.org/10.5067/497NQVJ0CBEX.",
+      "Lauren Thomas, Claire Bachand, Sarah Maebius. 2024. iButton snow/ground interface temperature measurements in Los Alamos, New Mexico from 2022-2023. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. https://doi.org/10.15485/2338028."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Machine Learning Models\nWe trained two random forest machine learning models to predict snow depth based off of ground surface or shallow soil temperature measurements. Due to biases in training data, the model rarely predicts snow depth over 1.4 m. The motivation behind this approach is that with increasing snow depth, ground surface temperature becomes less variable. Both models are trained using data collected at the NGEE Arctic Teller 27 and Kougarok 64 study sites on the Seward Peninsula of Alaska. The models are described below:\n1. RF-Seward. This model was trained using ground surface temperature measurements collected at the snow-ground interface and above any insulating ground cover vegetation.\n2. RF-Below. This model was trained using shallow soil temperature data located 1 - 5 cm below the soil surface and below any insulating ground cover vegetation. This model performs worse than RF-Seward, likely due to variable vegetation insulating the subsurface differently.",
+      "Model training\nThe machine learning models are trained using data collected by distributed temperature profiling systems (DTPs) which record temperature in 5 cm intervals both above and below the soil surface. Ground surface temperature, soil temperature, and snow depth can be derived from DTPs (see Figure 1). Although trained using DTP data, this model is easily applied to temperature data collected using miniature temperature sensors (e.g. iButtons).",
+      "Model Design\nThe random forest model makes predictions for each day independently given features calculated for that day from temperature data. The features included in the model are:\n-maximum ground surface temperature\n-ground surface temperature range (maximum - minimum)\n-30-day average of ground surface temperature standard deviation prior to a given day\n-30-day average of ground surface temperature standard deviation surrounding a given day\n-30-day average of ground surface temperature standard deviation following a given day",
+      "Evaluation Sites\nThe machine learning model was applied to several evaluation sites across Alaska, Colorado, New Mexico, Norway, and Siberia (see Fig 2). Details for each site are given in Table 2 of the User Guide document. Predictions made at each site are included in this dataset."
+    ],
+    "distribution": [
+      {
+        "contentSize": 12682.6279296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3e82969d235c039-20240606T230639818",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3e82969d235c039-20240606T230639818",
+        "name": "Snow_Depth_Predictions.csv"
+      },
+      {
+        "contentSize": 19.859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-44acf4bc56ef7da-20240611T222529048",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-44acf4bc56ef7da-20240611T222529048",
+        "name": "Machine_learning_snow_depth_predictions_at_sites.xml"
+      },
+      {
+        "contentSize": 0.806640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5699ba0a92c2e5e-20240606T230726331",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5699ba0a92c2e5e-20240606T230726331",
+        "name": "Snow_Depth_Predictions_dd.csv"
+      },
+      {
+        "contentSize": 3.849609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-794a0521fd8cddc-20240606T231123130",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-794a0521fd8cddc-20240606T231123130",
+        "name": "Site_Locations.kml"
+      },
+      {
+        "contentSize": 1.419921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-825ea89cb55d293-20240606T230819416",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-825ea89cb55d293-20240606T230819416",
+        "name": "NGA530_flmd.csv"
+      },
+      {
+        "contentSize": 273.0576171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c8d5ba6e3938737-20240606T230946132",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-c8d5ba6e3938737-20240606T230946132",
+        "name": "NGA530_Snow_Depth_Predictions_Userguide.pdf"
+      }
+    ]
+  }
+}

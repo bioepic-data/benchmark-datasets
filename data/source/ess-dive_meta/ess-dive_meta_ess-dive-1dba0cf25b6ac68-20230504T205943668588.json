@@ -1,0 +1,176 @@
+{
+  "id": "ess-dive-1dba0cf25b6ac68-20230504T205943668588",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1823516",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1dba0cf25b6ac68-20230504T205943668588",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-c73ee1a44e3040d-20230407T154144320859",
+  "dateUploaded": "2023-05-04T20:59:44.594Z",
+  "dateModified": "2024-02-08T19:37:13.414Z",
+  "isPublic": true,
+  "citation": "Faybishenko B; Versteeg R; Pastorello G; Dwivedi D; Varadharajan C; Agarwal D (2021): Quality Assurance and Quality Control (QA/QC) of Meteorological Time Series Data for Billy Barr, East River, Colorado USA. Watershed Function SFA. Dataset. doi:10.15485/1823516",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1823516",
+    "name": "Quality Assurance and Quality Control (QA/QC) of Meteorological Time Series Data for Billy Barr, East River, Colorado USA",
+    "description": [
+      "A comprehensive Quality Assurance (QA) and Quality Control (QC) statistical framework consists of three major phases: Phase 1\u2014Preliminary raw data sets exploration, including time formatting and combining datasets of different lengths and different time intervals; Phase 2\u2014QA of the datasets, including detecting and flagging of duplicates, outliers, and extreme values; and Phase 3\u2014the development of time series of a desired frequency, imputation of missing values, visualization and a final statistical summary. The time series data collected at the Billy Barr meteorological station (East River Watershed, Colorado) were analyzed. The developed statistical framework is suitable for both real-time and post-data-collection QA/QC analysis of meteorological datasets.The files that are in this data package include one excel file, converted to CSV format (Billy_Barr_raw_qaqc.csv) that contains the raw meteorological data, i.e., input data used for the QA/QC analysis. The second CSV file (Billy_Barr_1hr.csv) is the QA/QC and flagged meteorological data, i.e., output data from the QA/QC analysis. The last file (QAQC_Billy_Barr_2021-03-22.R) is a script written in R that implements the QA/QC and flagging process. The purpose of the CSV data files included in this package is to provide input and output files implemented in the R script."
+    ],
+    "alternateName": [
+      "paf_724_733"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0085-8499",
+        "givenName": "Boris",
+        "familyName": "Faybishenko",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bafaybishenko@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Roelof",
+        "familyName": "Versteeg",
+        "affiliation": "Subsurface Insights",
+        "email": "roelof.versteeg@subsurfaceinsights.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Gilberto",
+        "familyName": "Pastorello",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "gzpastorello@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1788-1900",
+        "givenName": "Dipankar",
+        "familyName": "Dwivedi",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ddwivedi@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5045-2396",
+        "givenName": "Deb",
+        "familyName": "Agarwal",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "daagarwal@lbl.gov"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "QA/QC",
+      "R packages",
+      "East River Watershed",
+      "meteorological data"
+    ],
+    "variableMeasured": [
+      "Air Temperature",
+      "Barometric Pressure",
+      "Meteorology \u2013 weather stations",
+      "Precipitation",
+      "Relative Humidity",
+      "Solar Radiation",
+      "Wind Direction",
+      "Wind Speed"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2020) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2015-09-30",
+      "endDate": "2017-07-17",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0085-8499",
+      "givenName": "Boris",
+      "familyName": "Faybishenko",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "bafaybishenko@lbl.gov"
+    },
+    "citation": [
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Kakalia Z ; Banfield J ; Berkelhammer M ; Brodie E ; Christianson D ; Dafflon B ; Carbone M S ; Carroll R ; Chadwick K D ; Christensen J ; Enquist B J ; Fox P ; Henderson M ; Gochis D ; Kueppers L ; Powell T ; Matheus Carnevali P ; Singha K ; Sorensen P ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wu Y ; Agarwal D (2020): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA. Watershed Function SFA. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The flowchart of the data analysis:\nStage I. Preliminary data exploration:\n#1 CLEAN/REMOVE EVERYTHING IN THE WORKING ENVIRONMENT.\n#2 SET A WORKING DIRECTORY AND CREATE A DIRECTORY TO SAVE RESULTS\n#3 LOAD LIBRARIES\n#4 LOAD INPUT DATASETS INTO A LIST\n#5 CHECK THE FORMAT OF DATES AND CONVERT THEM TO AN as.POSIXct FORMAT\n#6 CREATE ZOO AND XTS FILES USING THE SORTED DATA\n#7 PLOT ORIGINAL TIME SERIES AND TIME INTERVALS\nStage II. QA of data:\n#1. DETECT AND FLAG DUPLICATES OF DATES AND VARIABLES\n#2. SAVE ORIGINAL TIME SERIES DATA\n#3 SUMMARIZE NAs\n#4. CREATE ZOO AND XTS FILES\n#5. DETECT, PLOT, AND FLAG OUTLIERS AND BAD/EXTREME DATA. VISUALIZATION.\n#6. PLOT AND SAVE A PLOT OF TIME SERIES WITH OUTLIERS AND EXTREMES\n#7. CREATE A CSV OR EXCEL FILE OF QA\u2019s DATA\nStage III. QC of data:\n#1. DOWNLOAD THE QA-ed CSV OR EXCEL FILE\n#2. DELETE DUPLICATES ROWS AND BAD DATA\n#3. IMPUTATION OF MISSING VALUES\n#4. CREATE TIME SERIES OF A DESIRED TIME FREQUENCY, INCLUDING IMPUTATION OF ADDITIONAL MISSING DATA\n#5. VISUALIZATION AND STATISTICS\n#6. CREATE A SUMMARY OF QA/QC-ed RESULTS\n#7. CREATE A CSV OR EXCEL FILE OF QA/QC-ed DATA"
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-02fd9c98e92c9ae-20210928T004447189200",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-02fd9c98e92c9ae-20210928T004447189200",
+        "name": "Billy_Barr_1hr.csv",
+        "contentSize": 1878.984375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ecdd445d169c96a-20210928T004445396050",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ecdd445d169c96a-20210928T004445396050",
+        "name": "Billy_Barr_raw_qaqc.csv",
+        "contentSize": 21754.9609375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cf792ac48346960-20210928T004447898504",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-cf792ac48346960-20210928T004447898504",
+        "name": "QAQC_Billy_Barr_2021-03-22.R",
+        "contentSize": 32.2978515625
+      }
+    ]
+  }
+}

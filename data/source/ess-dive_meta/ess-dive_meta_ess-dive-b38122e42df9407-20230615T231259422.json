@@ -1,0 +1,197 @@
+{
+  "id": "ess-dive-b38122e42df9407-20230615T231259422",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1985918",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-b38122e42df9407-20230615T231259422",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-0f7b2e03c3c61d3-20230615T231210330",
+  "dateUploaded": "2023-06-15T23:13:02.513Z",
+  "dateModified": "2023-06-22T00:01:09.895Z",
+  "isPublic": true,
+  "citation": "Zeba N; Berry T; Fischer M; Traxler M; Whitman T (2023): Carbon dioxide (CO2) flux, amplicon sequencing and liquid chromatography\u2013mass spectrometry (LC-MS) data for pyrogenic organic matter (PYOM) amended soil incubations in lab, Madison, WI, 2021-22. The Role of Pyrophilous Microbes in the Breakdown and Sequestration of Pyrogenic Organic Matter. Dataset. doi:10.15485/1985918",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1985918",
+    "name": "Carbon dioxide (CO2) flux, amplicon sequencing and liquid chromatography\u2013mass spectrometry (LC-MS) data for pyrogenic organic matter (PYOM) amended soil incubations in lab, Madison, WI, 2021-22",
+    "description": [
+      "This dataset comprises soil-pyrogenic organic matter (PyOM) incubation experiments conducted in a laboratory setting. The focus was on measuring carbon dioxide (CO2) flux emitted in the headspace of incubation jars over a one-month period. The aim was to estimate carbon mineralization from two different carbon fractions in PyOM, as well as carbon mineralization from soil organic carbon (SOC). Bacterial and fungal community profiles were tracked at various time points during the incubation to observe changes in the overall community and specific responders to PyOM. LC-MS analysis of soil samples was also performed to monitor changes in the soil's chemical composition.",
+      "The provided dataset includes processed CO2 flux measurements obtained from the Picarro-multiplexer measurement setup for each sample incubation jar. This data is available in the \"CO2Flux.csv\" file. Additionally, the dataset includes CO2 flux data partitioned to estimate mean carbon mineralization from the two PyOM carbon fractions, bulk PyOM, and SOC. The cumulative carbon mineralization data is provided in \"cml_respired.csv,\" while the rate of carbon mineralization data is in \"rate_respired.csv.\" The file \"cml_respired_lastcyc.csv\" contains cumulative carbon mineralization data for the PyOM carbon fractions, bulk PyOM, and SOC throughout the entire incubation period.",
+      "For the LC-MS analysis, the raw data can be found in the \"20220721_NZ_PeakHeights_FinalAnalysis.csv\" file, while sample metadata is provided in \"20220721_NZpilot_Metadata.csv\". Processed LC-MS data is available in the file \"20220721_NZ_FINAL_msdat_sub3.csv\".",
+      "Lastly, the dataset includes the relative abundance data for bacterial genera that exhibited a significant positive response to the addition of PyOM produced at 350 degrees Celsius, which can be found in \"resp_genera_350.csv\"."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7368-1765",
+        "givenName": "Nayela",
+        "familyName": "Zeba",
+        "affiliation": "University of Wisconsin - Madison",
+        "email": "nayelazeba@wisc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Berry",
+        "affiliation": "University of Wisconsin - Madison",
+        "email": "tdberry@wisc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Monika",
+        "familyName": "Fischer",
+        "affiliation": "University of California Berkeley",
+        "email": "monikaf@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Matthew",
+        "familyName": "Traxler",
+        "affiliation": "University of California Berkeley",
+        "email": "mtrax@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Thea",
+        "familyName": "Whitman",
+        "affiliation": "University of Wisconsin - Madison",
+        "email": "twhitman@wisc.edu"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "PYROGENIC ORGANIC MATTER",
+      "SOIL MICROBES",
+      "SOIL ORGANIC CARBON"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Soil for the incubation was collected in the winter of 2020 from the El Dorado National Forest in California from a region that burned during the 2014 King Fire.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.86953,
+            "longitude": -120.61322
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.86953,
+            "longitude": -120.61322
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-11-03",
+      "endDate": "2022-09-22",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7368-1765",
+      "givenName": "Nayela",
+      "familyName": "Zeba",
+      "affiliation": "University of Wisconsin-Madison",
+      "email": "nayelazeba@wisc.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "0c616574-c190-42ab-a8e9-986c22fcc771"
+      },
+      "name": "The Role of Pyrophilous Microbes in the Breakdown and Sequestration of Pyrogenic Organic Matter",
+      "member": {
+        "@type": "Person",
+        "givenName": "Thea",
+        "familyName": "Whitman",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of Wisconsin, Madison",
+        "email": "twhitman@wisc.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Before the incubation, soil was thawed, sieved to < 2 mm and maintained at room temperature and open to the air for two weeks. We used a sub-sample of the soil to determine field capacity for unamended and PyOM amended soils (PyOM produced at 350 and 550 deg C) separately to ensure equivalent moisture levels with and without PyOM additions. Water holding capacity was determined as in Whitman et al. (2021). The moisture content of the thawed soils was determined one day before the start of the incubation to calculate the water required to reach target moisture levels of 65% field capacity for each treatment.\nWe ran two sets of parallel incubations \u2013 (i) a CO2 flux monitoring incubation to partition C mineralization between different PyOM fractions and (ii) a community profiling incubation to analyze the effects of PyOM on microbial community composition at critical time points during the incubation. We analyzed data from the CO2 flux monitoring incubation in real time, so we could dynamically select 4-5 timepoints that reflect initial conditions, peak PyOM-C mineralization, peak SOC mineralization and final conditions. At each of these selected timepoints, sample jars from the community profiling incubation were frozen for DNA sequencing. For the flux monitoring jars, we had five replicates for each PyOM temperature and each treatment: (i) Soil + unlabeled PyOM (ii) Soil + 13C PyOM (iii) Soil + 13C water-extractable PyOM (iv) Soil + 13C non-water-extractable PyOM (v) Unamended soil control. For the community sequencing jars, we were not performing 13C partitioning, so we only had two treatments for each PyOM temperature, with eight replicates destructively sampled at each timepoint: (i) Soil + unlabeled PyOM (the same treatment that was used for the flux monitoring incubation) (ii) Unamended soil control.\nIncubations were performed in 60 mL glass jars placed inside pint-sized Mason jars (473 mL). Each 60 mL glass jar received 3.5 g soil on a dry mass basis and the soil-PyOM amended jars received PyOM at a consistent rate of 18 mg TOC PyOM g-1 dry soil (i.e., 3.1% dry mass addition for 350 PyOM and 2.8% dry mass addition for 550 PyOM). These addition rates were designed to represent locally high inputs of PyOM after a wildfire. We added water dropwise to gradually bring up the moisture of each jar to the target moisture level of 65% field capacity.\nREF: Whitman T, DeCiucies S, Hanley K, Enders A, Woolet J, Lehmann J. Microbial community shifts reflect losses of native soil carbon with pyrogenic and fresh organic matter additions and are greatest in low-carbon soils. Appl Environ Microbiol. 2021;(January).",
+      "After moisture adjustment, we placed the 60 mL glass jars inside Mason jars containing 20 mL acidified deionized water (pH ~4) at the bottom to maintain humidity and prevent water loss. We capped and sealed the jars with sterile, gas-tight lids with fittings for CO2 gas measurements and connected them to randomly selected positions on the distribution manifolds (multiplexer) using polyurethane tubing (Berry et al., 2021). The connected jars were immediately flushed with a 400 ppm CO2-air gas mixture to reset the headspace CO2 concentration in all jars at the initial timepoint. We incubated the jars at room temperature in the dark and measured the concentration of CO2 emitted in the headspace of each jar at frequent intervals using a Picarro G2131i cavity ringdown spectrometer (Picarro Inc., Santa Clara, CA, United States) attached to the multiplexer over a period of one month. For 350 PyOM, we measured headspace CO2 concentration at intervals of 6 h during the first 2 days, and gradually increased the intervals to 12 h during the first and second weeks, 24 h during the third week and 48 h during the last week of incubation. Similarly, for 550 PyOM, we measured headspace CO2 concentration every 6-12 h during the first 3 days, 24 h during the first and second weeks and 48-72 h till the end of the incubation. After each measurement, we flushed the jars with the 400 ppm CO2-air gas mixture to prevent oxygen depletion and excessive CO2 accumulation inside the jars. The precise concentration after flushing each jar was measured and subtracted from the next timepoint reading to calculate the emitted CO2 in the jar during that interval.\nREF: Berry TD, Creelman C, Nickerson N, Enders A, Whitman T. An open-source, automated, gas sampling peripheral for laboratory incubation experiments using cavity ring-down spectroscopy. HardwareX. 2021 Oct;10:e00208.",
+      "To acquire chemical profiles, we first prepared chemical extracts by combining 0.4 g of soil with 4 mL of LC/MS-grade methanol, sonicated for five minutes, and then shaken overnight (~16 hours) at 25 deg C and 200 rpm. Blank extraction controls were prepared in parallel, in which empty tubes lacking any soil sample were subjected to the same chemical extraction protocol. Solids were allowed to settle to the bottom for 30 minutes and then 3.5 mL was carefully collected from the top and immediately dried via Savant SPD1010 SpeedVac Concentrator (Thermo Fisher Scientific). To analyze these dried extracts via LC/MS, we resuspended them in 1 mL of 100 nM nonactin LC/MS-grade methanol solution, to a final concentration of approximately 1 mg extract / 1 mL of solvent. These resuspended samples were sonicated for 5 min to ensure that the extract dissolved into the solvent, and then centrifuged at 15,000 rpm to pellet any particulate, after which, 900 uL of solution was transferred to an HPLC vial. To create a pooled quality control (QC) sample we combined 10 uL of each sample. Samples were analyzed in a randomized order with a methanol blank and pooled QC analyzed after every 12 samples. Samples were analyzed with an ultra-high-pressure liquid chromatography (UHPLC) system Dionex Ultimate 3000 (Thermo Fisher Scientific) coupled to a high-resolution mass spectrometer (HRMS) Thermo Q-Exactive Quadrupole-Orbitrap (Thermo Fisher Scientific) using a heated electrospray ionization (HESI) source and a C18 column (Thermo Scientific Acclaim rapid-separation liquid chromatography [RSLC] system, 50 mm by 2.1 mm, 2.2 um pore size). We used the following 20 min UHPLC method; 1 min 40% acetonitrile (ACN) plus 0.1% formic acid (FA), 1 min gradient from 40% to 65% ACN plus 0.1% FA, 11 min gradient from 65% to 99% ACN plus 0.1% FA, 3.5 min 99% ACN plus 0.1% FA, 0.5 min gradient from 99% to 40% ACN plus 0.1% FA, and 3 min re-equilibration in 40% ACN plus 0.1% FA; injection volume of 5 ul, flow rate of 0.4 mL/min, and column oven temperature of 35 \u00b0C. The full MS1 scan was performed in positive mode at a resolution of 35,000 FWHM (full width at half-maximum) with an automatic gain control (AGC) target of 1e6 ions and a maximum ion injection time (IT) of 100 ms with a mass range from m/z 200 to m/z 2000. Data were processed using MS-DIAL v4.9 (Tsugawa et al., 2015). We used R v4.1.3 to omit features with a peak height value greater than 100,000 in any negative control samples (i.e., methanol blanks and blank extraction controls) prior to ordination and statistical analyses as described above.\nREF: Tsugawa H, Cajka T, Kind T, Ma Y, Higgins B, Ikeda K, et al. MS-DIAL: data-independent MS/MS deconvolution for comprehensive metabolome analysis. Nat Methods. 2015 Jun;12(6):523\u20136.",
+      "A full description of the methods is provided in Zeba N, Berry TD, Fischer MS, Traxler MF, Whitman T. Carbon mineralization and microbial community dynamics in response to PyOM addition. In prep. for ISME."
+    ],
+    "distribution": [
+      {
+        "contentSize": 7277.8427734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-17d12948e390199-20230523T222051419",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-17d12948e390199-20230523T222051419",
+        "name": "20220721_NZ_FINAL_msdat_sub3.csv"
+      },
+      {
+        "contentSize": 4.228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-38518674be79a31-20230523T221947359",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-38518674be79a31-20230523T221947359",
+        "name": "cml_respired_lastcyc.csv"
+      },
+      {
+        "contentSize": 75.19921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2e43be236647991-20230523T224802447",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2e43be236647991-20230523T224802447",
+        "name": "resp_genera_350.csv"
+      },
+      {
+        "contentSize": 103.37109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-29abd65a189c0e1-20230523T221910038",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-29abd65a189c0e1-20230523T221910038",
+        "name": "CO2Flux.csv"
+      },
+      {
+        "contentSize": 125.05078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e6b103ea1ac16f9-20230523T221947365",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e6b103ea1ac16f9-20230523T221947365",
+        "name": "rate_respired.csv"
+      },
+      {
+        "contentSize": 102.322265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e8defbbcdc5bade-20230523T221947354",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e8defbbcdc5bade-20230523T221947354",
+        "name": "cml_respired.csv"
+      },
+      {
+        "contentSize": 9.0712890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-74547a81a0f0106-20230523T223400323",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-74547a81a0f0106-20230523T223400323",
+        "name": "20220721_NZpilot_Metadata.csv"
+      },
+      {
+        "contentSize": 42834.419921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cd51db97f7f755d-20230523T223400312",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cd51db97f7f755d-20230523T223400312",
+        "name": "20220721_NZ_PeakHeights_FinalAnalysis.csv"
+      },
+      {
+        "contentSize": 15.296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b38122e42df9407-20230615T231259422",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-b38122e42df9407-20230615T231259422",
+        "name": "Carbon_dioxide_CO2_flux_amplicon_sequencing.xml"
+      }
+    ]
+  }
+}

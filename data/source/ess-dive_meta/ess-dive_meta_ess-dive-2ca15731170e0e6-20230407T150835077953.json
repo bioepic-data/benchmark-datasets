@@ -1,0 +1,308 @@
+{
+  "id": "ess-dive-2ca15731170e0e6-20230407T150835077953",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1894515",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-2ca15731170e0e6-20230407T150835077953",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d23e9b5cd0e9c20-20230406T143206436832",
+  "dateUploaded": "2023-04-07T15:08:36.164Z",
+  "dateModified": "2023-04-07T15:08:40.504Z",
+  "isPublic": true,
+  "citation": "Pries C H; Wurzburger N; Lankau R; Krol O; Ingham G A; Legge E; Fitch A; Forrester J (2022): Soil organic matter, tree communities, and fungal communities across mycorrhizal gradients in the Eastern United States. Testing mechanisms of how mycorrhizal associations affect forest soil carbon and nitrogen cycling. Dataset. doi:10.15485/1894515",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1894515",
+    "name": "Soil organic matter, tree communities, and fungal communities across mycorrhizal gradients in the Eastern United States",
+    "description": [
+      "We collected these data to investigate how mycorrhizal associations are related to soil C and N across four sites in the eastern U.S. broadleaf forest biome, which capture broad variability in climate and tree species. Our sites represented each of the four ecoregions in the eastern United States temperate forest\u2014warm continental (New Hampshire), hot continental (Wisconsin), Prairie (Illinios), and subtropical (Georgia). This breadth naturally provided tree species diversity and allowed us to also investigate how soil C and N are related to canopy tree and EcM fungal community composition. Specifically, we analyzed the effects of mycorrhizal association, canopy tree family, and EcM fungal taxa on the proportion of C and N associated with soil minerals (MAOM) and bulk soil C:N.",
+      "These are plot level data from forests in New Hampshire, Georgia, Wisconsin, and Illinois. The plots are 10 m in radius and vary across gradients of ectomycorrhizal tree basal area. Within each plot, data include the basal area of all trees >2 cm in diameter identified to species, the abundance of different fungal taxa based on ITS sequences, and the %C, %N, C:N of bulk soil and of soil density fractions (free light, occluded light, and particulate) as well as the proportion of soil C and N within each fraction. The soil data (both organic matter and fungal communities) are from the top 10 cm of the mineral soil. This also includes a meta-analysis of leaf litter k and C:N values for the tree species present in the forests.",
+      "The \"Tree_BA_ALL.csv\" files include the basal area of all trees >2 cm in diameter at breast height within our 10 cm radii plots.",
+      "The \"Soil_Data_Final.csv\" file contains the soil carbon and nitrogen in bulk and density fractions (concentrations as well as proportion for free light fraction (fLF), occluded light fraction (oLF), and heavy or dense fraction (HF), oxalate extractable iron and aluminum concentrations, as well as the geographic coordinates of each plot's location.",
+      "The \"FungiNonRelative.csv\" file contains the abundances of fungal taxa identified via ITS sequencing for each plot (with the exception of 4 plots from GA where there was not enough quality DNA to extract).",
+      "The \"R_ReadyK.csv\" and \"R_Ready_CN.csv\" files contain leaf litter decomposition constant (k) and C:N values from the literature for the tree species found at our sites."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0813-2211",
+        "givenName": "Caitlin",
+        "familyName": "Hicks Pries",
+        "affiliation": "Dartmouth College",
+        "email": "caitlin.pries@dartmouth.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nina",
+        "familyName": "Wurzburger",
+        "affiliation": "University of Georgia",
+        "email": "ninawurz@uga.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Richard",
+        "familyName": "Lankau",
+        "affiliation": "University of Wisconsin - Madison",
+        "email": "lankau@wisc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Owen",
+        "familyName": "Krol",
+        "affiliation": "Dartmouth College",
+        "email": "owkrol@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Grace Ann",
+        "familyName": "Ingham",
+        "affiliation": "University of Georgia",
+        "email": "grace.ingham25@uga.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Eva",
+        "familyName": "Legge",
+        "affiliation": "Dartmouth College",
+        "email": "eva.o.legge.22@dartmouth.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Amelia",
+        "familyName": "Fitch",
+        "affiliation": "Dartmouth College",
+        "email": "amelia.a.fitch.gr@dartmouth.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jodi",
+        "familyName": "Forrester",
+        "affiliation": "North Carolina State University",
+        "email": "jodi_forrester@ncsu.edu"
+      }
+    ],
+    "datePublished": "2022-10-17",
+    "keywords": [
+      "soil carbon",
+      "soil nitrogen",
+      "density fractionation",
+      "mycorrhizae",
+      "soil fungi",
+      "forests",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > AGRICULTURE > FOREST SCIENCE"
+    ],
+    "variableMeasured": [
+      "carbon",
+      "nitrogen",
+      "heavy fraction",
+      "light fraction",
+      "occluded fraction",
+      "particulate carbon",
+      "ITS sequences",
+      "basal area",
+      "oxalate-extractable Fe and Al"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Hanover/Etna, New Hampshire (Moose Mountain)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.719219,
+            "longitude": -72.165257
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.719219,
+            "longitude": -72.165257
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Norwich, Vermont (lumped with NH in data)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.721499,
+            "longitude": -72.354825
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.721499,
+            "longitude": -72.354825
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Chattahoochee National Forest, North Carolina (lumped with GA in data)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.000005,
+            "longitude": -83.560464
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.000005,
+            "longitude": -83.560464
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Chattahoochee National Forest, Georgia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.957273,
+            "longitude": -83.481655
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.957273,
+            "longitude": -83.481655
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Allerton Park and Retreat Center, Illinois",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.987957,
+            "longitude": -88.657152
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.987957,
+            "longitude": -88.657152
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Flambeau River State Forest, Wisconsin",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.625067,
+            "longitude": -90.78828
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.625067,
+            "longitude": -90.78828
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2017-01-01",
+      "endDate": "2017-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0813-2211",
+      "givenName": "Caitlin",
+      "familyName": "Pries",
+      "affiliation": "Dartmouth College",
+      "email": "caitlin.pries@dartmouth.edu"
+    },
+    "citation": [
+      "Hicks Pries, C.E., R. Lankau, G.A. Ingham, UE. Legge, O. Krol, J. Forrester, A. Fitch, N. Wurzburger. Differences in soil organic matter between EcM- and AM-dominated forests depend on tree and fungal identity. Accepted 2022. Ecology."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1afc0f54-6cec-4372-8158-cb909116f99d"
+      },
+      "name": "Testing mechanisms of how mycorrhizal associations affect forest soil carbon and nitrogen cycling",
+      "member": {
+        "@type": "Person",
+        "givenName": "Caitlin",
+        "familyName": "Pries",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Trustees of Dartmouth College, Hanover, NH",
+        "email": "caitlin.hicks.pries@dartmouth.edu"
+      }
+    },
+    "measurementTechnique": [
+      "These methods are published here: Hicks Pries, C.E., R. Lankau, G.A. Ingham, UE. Legge, O. Krol, J. Forrester, A. Fitch, N. Wurzburger. Differences in soil organic matter between EcM- and AM-dominated forests depend on tree and fungal identity. Accepted 2022. Ecology.\nStudy Site and Tree Basal Area: We collected soils across gradients of EcM basal area in four forested sites across the eastern United States (Table 1): Flambeau River State Forest, Wisconsin (45.62\u00b0N, 90.79\u00b0W, 122,000 m2 area; WI), Allerton Park and Recreation Center in Monticello, Illinois (39.99\u00b0N, 88.66\u00b0W, 103,000 m2 area; IL), Chattahoochee National Forest (34.99\u00b0N, 83.56\u00b0W, 245,000 m2 area and 34.96\u00b0N, 83.48\u00b0W, 15,000 m2 area; hereafter referred to as GA), and Norwich, Vermont/Hanover, New Hampshire (43.72\u00b0N, 72.35\u00b0W, 20,000 m2 area and 43.72\u00b0N, 72.16\u00b0W, 60,000 m2 area; hereafter referred to as NH). These sites can all be classified as hardwood forests, except for the NH location, which is a mixed hardwood forest. Historical rates of N deposition have been similar across sites with recent decreases in NH relative to the other sites (Table 1). At each site, we collected soils from eight to twelve 10-m radius plots across a gradient of EcM basal area. Plots were spaced at least 25 m apart. Within each plot, we measured the diameter at breast height (1.3 m) of all trees greater than 2 cm in diameter and identified each tree to species where possible, and genus where not. We assigned all trees as EcM or AM based on their genus (Appendix S1: Table S1). The basal area of Populus, known to associate with both EcM and AM fungi, was assigned as 50% EcM. In GA, <6% of the total basal area was occupied by the ericaceous tree, Oxydendron arboreum. Given that ericoid mycorrhizae are more functionally similar to EcM than to AM, we assigned the basal area of this genus to EcM. The understory did not include ericaceous shrubs at any sites except GA, where thickets of evergreen ericaceous shrubs were avoided when setting up plots.",
+      "Soil Collection: At each site, we collected soil cores of the top 10 cm of mineral soil after removing the O horizon. We combined mineral soil cores collected from two spots at the center of our circular plots using a 5 cm diameter stainless steel corer in NH. At the other sites (WI, IL, and GA), the 10-m radius plots were divided into four sections using cardinal directions. Within each section, five cores were randomly taken using a 1 cm diameter soil probe. All cores from each plot were then combined and homogenized for analysis.",
+      "Soil Lab Analyses: Soil samples were sieved through a 2 mm mesh. A subsample was dried at 60\u00b0C and ground to measure %C and %N on an Elemental Analyzer (Costech ECS 4010 for NH soils and a Carlo Erba NA1500 for other soils). We took subsamples for density fractionation (dried at 60\u00b0C), and subsamples for DNA extraction (frozen at -80\u00b0C).\nThe dried soil was separated by density into fine POM, occluded POM, and MAOM pools (Sollins et al. 2006, 2009). We added 75 ml of 1.7 mg cm-3 of low C/N sodium polytungstate (SPT) solution to 20 g of dried soil. We tested the density of 1.7 mg cm-3 across all our sites to ensure it resulted in good separation of POM and MAOM and left few soil minerals in the POM fraction. The SPT/soil mixture was then shaken for five minutes on a reciprocating shaker before being centrifuged in a swinging bucket rotor for one hour (4710 g and 20\u00b0C). The duration of centrifugation was determined based on the chosen SPT density so that no dense particles with diameters >0.8 \u03bcm remained in solution. The free light fraction (fine POM) was then aspirated from the centrifuge tube, filtered through a 0.8 \u03bcm polycarbonate filter, and rinsed with deionized water until the filtrate was the density of water. The fine POM was then rinsed off the filter into a drying tin. The remaining soil and SPT solution were shaken on a reciprocating shaker for five minutes, sonicated for two minutes (while in an ice bath to prevent warming), and centrifuged again for an hour before aspirating the occluded light fraction (occluded POM), filtering, and rinsing it as above. Lastly, the dense fraction (MAOM) was rinsed and centrifuged until the supernatant was the density of water before transfer to a drying tin. All fractions were dried, weighed, ground, and analyzed by Elemental Analyzer (Costech ECS 4010) for %C and %N.",
+      "Tree Leaf Litter Meta-Analysis: We searched the literature for the leaf litter decomposition constants (k) and C:N ratios of the tree species found at our sites (Litter Data: https://figshare.com/s/a9c5f09ddd1cc1d0f974). We conducted these searches in Web of Science and Google Scholar using the keywords such as \u201clitter,\u201d \u201cdecomposition,\u201d \u201cdecay,\u201d and \u201cC:N,\u201d as well as the latin and common names for each tree species. We also extracted decomposition constants and C:N ratios from the Long-Term Inter-site Decomposition Experiment Team (LIDET; Harmon et al. 2009) and the TRY Plant Trait Database (Kattge et al. 2020). We extracted data from graphs using WebPlotDigitizer when actual numbers were not available in the text or tables. For studies that reported mass loss over time, but not the k value, we used R to estimate the decomposition constant by fitting a single exponential decay function to the data. C:N mass ratios were calculated manually if they were not directly reported. We averaged data for litter chemistry and decomposition per species per published study, except for LIDET data, which was not averaged due to the continental study area.",
+      "ITS Sequences: Soil DNA extractions were performed on 1 g of fresh soil using the Omega Bio-tek E.Z.N.A. Soil DNA kit following the manufacturer\u2019s protocol. Fungal communities were characterized by sequencing the ITS2 region of the fungal rRNA gene using forward ITS3-KYO2 (Toju et al. 2012) and reverse ITS4 (White et al. 1990) primers with added Nextera read primer sequences for the first PCR reaction (Lankau and Keymer 2016). Duplicate PCR reactions were conducted under the conditions outlined in Caporaso et al. (2011). The second round of PCR added the P5 and P7 flow cell adapters to prepare the library for sequencing on an Illumina MiSeq, along with an external set of sample barcodes located between the flow cell adaptors and read primers. Amplicons were cleaned with the Omega BioTek E-Z 96 Cycle Pure kit. Purified products were quantified using a Qubit 2.0 fluorometer with the Qubit dsDNA HS assay (Thermo Scientific, Grand Island, NY). Amplicons were pooled at equal concentration and sequenced on an Illumina MiSeq using V3 chemistry using paired-end sequencing (300 cycles).\nBarcode sequences were separated by the University of Wisconsin-Biotechnology center, filtered for quality, and assigned to amplicon sequence variants (ASV\u2019s, equivalent to 100% identity operational taxonomic units) using the DADA2 program (Callahan et al. 2016) as implemented in the QIIME2 pipeline. Three samples from NH and four from GA produced too few quality sequence reads to be included in our analyses. Non-singleton ASVs were identified to the lowest confident taxonomic level using the na\u00efve Bayesian classifier RDP and the UNITE database for ITS reads (Nilsson et al. 2019). We used the FUNGUILD database to assign ASVs to functional groups (Nguyen et al. 2016). Based on the annotations provided by FUNGUILD, we assigned all ASVs to one of five broad putative categories: AM fungi, EcM fungi, plant pathogens, saprotrophs, and other. If an ASV was assigned to multiple categories that included EcM fungi, it was assigned to EcM fungi."
+    ],
+    "distribution": [
+      {
+        "contentSize": 20.5947265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2ca15731170e0e6-20230407T150835077953",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-2ca15731170e0e6-20230407T150835077953",
+        "name": "Soil_organic_matter_tree_communities_and_fungal_communities_across_mycorrhizal_gradients_in_the_Eastern_United_States.xml"
+      },
+      {
+        "contentSize": 18.3388671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cf4c5ba5f1c1878-20221018T151737274",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cf4c5ba5f1c1878-20221018T151737274",
+        "name": "R_ReadyK.csv"
+      },
+      {
+        "contentSize": 68.1494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-75865dac7a10b49-20221016T204529293",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-75865dac7a10b49-20221016T204529293",
+        "name": "Tree_BA_ALL.csv"
+      },
+      {
+        "contentSize": 134.6826171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9c7eb325164014b-20221016T204536641",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9c7eb325164014b-20221016T204536641",
+        "name": "FungiNonrelative.csv"
+      },
+      {
+        "contentSize": 9.7490234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ca46c83f924a94d-20221016T204524227",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ca46c83f924a94d-20221016T204524227",
+        "name": "Soil_Data_Final.csv"
+      },
+      {
+        "contentSize": 14.9072265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e32fcc52e0af8be-20221018T140052613",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e32fcc52e0af8be-20221018T140052613",
+        "name": "R_Ready_CN.csv"
+      }
+    ]
+  }
+}

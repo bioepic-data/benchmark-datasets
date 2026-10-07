@@ -1,0 +1,362 @@
+{
+  "id": "ess-dive-6d3178c5222ea40-20260312T223819556",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3022242",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-6d3178c5222ea40-20260312T223819556",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-6d3178c5222ea40-20260311T003823269",
+  "dateUploaded": "2026-03-12T22:38:21.343Z",
+  "dateModified": "2026-03-13T00:02:38.129Z",
+  "isPublic": true,
+  "citation": "* S T; * H M W; Breckheimer I; Henderson A; Falco N; Guy T; Bromka C; Lovegreen P; Bill M; Villa A; Herzog A (2026): CHESS 2025: Leaf Area Index (LAI) for meadow, shrub, tree, and understory vegetation. Watershed Function SFA. Dataset. doi:10.15485/3022242",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3022242",
+    "name": "CHESS 2025: Leaf Area Index (LAI) for meadow, shrub, tree, and understory vegetation",
+    "description": [
+      "This dataset contains Leaf Area Index (LAI) measurements made as part of the Colorado Headwaters Ecological Spectroscopy Study (CHESS) during June and July of 2025. Data were collected in the Upper Gunnison Basin, Colorado, across three study domains: the Upper East River (CRBU), Almont Triangle (ALMO), and the Upper Taylor Basin (UPTA). Field observations of LAI were collected within 72 hours of airborne data collection by the National Ecological Observatory Network\u2019s Aerial Observation Platform (NEON AOP). The NEON AOP collected waveform LiDAR (Light Detection and Ranging) and imaging spectrometer data in 426 spectral bands from the visible to shortwave infrared.",
+      "LAI measurements were collected using the LICOR LAI-2200C Plant Canopy Analyzer following protocols outlined in the instrument manual (LI-COR 2019). Sampling targeted four distinct vegetation types: meadows, shrubs, trees, and aspen forest understory. We have archived data separately by site type because different field methods were used for each. At meadow sites, measurements were made at the four corners of 1m x 1m plots, with the instrument moving inward toward the center of the plot. At shrub sites, we measured the canopies of individual shrubs. At tree sites, we made measurements within a 10m x 10m subplot centered around a focal tree, with 30 observations taken on a regular grid. At aspen understory sites, we measured overstory trees following the tree protocol and understory herbaceous vegetation following the meadow protocol. All measurements included above-canopy (A) and below-canopy (B) readings, with specific protocols for scattering correction measurements in direct-sun conditions. Data were processed using the R package `rlai` (Worsham 2025). This package includes functions to calculate LAI, gap fraction, apparent clumping factor (\u03a9), scattering correction, and other canopy metrics.",
+      "Package contents: Full file descriptions appear in \u2018flmd.csv\u2019. Files named according to the convention \u2018lai_*_summary_data_cleaned.csv\u2019 contain summary values of LAI, apparent clumping factor (\u03a9app), and scattering correction factors for each site. These are the analysis-ready products that most data users will work with. Files named \u2018lai_*_metadata_cleaned.csv\u2019 contain additional site-level observations made during field collection. We have also archived intermediate and supplementary data for users who wish to check our processing approach or apply alternative methods. \u2018raw_lai_2200C.zip\u2019 contains the raw files as read from the LI-COR instrument, with no processing applied, in TXT format. The zip archive contains subdirectories by site type, which are further subdivided by sampling area. Filenames correspond to the sampling site number. \u2018intermediate_results.zip\u2019 contains detailed output from the processing routines, in JSON format. The zip archive contains subdirectories by site type; filenames correspond to the sampling site number. \u2018scattering_correction_logs.zip\u2019 contains logfiles from the implementation of Kobayashi et al.'s (2013) scattering correction algorithm. The logfiles report values of several parameters at each iteration of the algorithm, as the model converges toward a stable solution. They are intended for users who want to verify scattering correction performance. The zip archive contains subdirectories by site type; filenames correspond to the sampling site number. \u2018spot_checks.csv\u2019 reports LAI and other values for a small number of files processed with LI-COR FV2200 software (LI-COR 2013) using the same control parameters as in our R-based approach. Additional metadata are provided in a data dictionary describing column names and definitions (dd.csv), and in a file-level metadata file (flmd.csv). All zip files can be expanded with common archive utilities. TXT, CSV, and JSON files can be ingested into R or Python computing environments or read in common text editor utilities.",
+      "Geospatial information: Geospatial data for mapping measurement site locations are in the files CHESS_polygons_lai_UTM.geojson, CHESS_polygons_shrub_UTM.geojson, and CHESS_polygons_meadow_UTM.geojson in the companion geospatial package for the 2025 CHESS campaign, \u2018CHESS 2025: Location data for field observations and sampling\u2019 (doi:TBD).",
+      "CHESS Project Description: The Colorado Headwaters Ecological Spectroscopy Study (CHESS) comprised a multi-week airborne remote sensing and field observation campaign in the Upper Gunnison Basin, Colorado, conducted in June and July of 2025. Airborne remote sensing was conducted by the National Ecological Observatory Network Airborne Observation Platform (NEON AOP), concurrent with a field campaign run by the Rocky Mountain Biological Laboratory (RMBL), the Lawrence Berkeley National Laboratory (LBNL) and SLAC National Accelerator Laboratory Watershed Function Science Focus Area (SFA), and NASA-JPL (Jet Propulsion Laboratory) Earth Surface Mineral Dust Source Investigation (EMIT) program. Between June 10 and July 18, 2025, the NEON AOP flight team collected high-resolution aerial imaging spectroscopy and Light Detection and Ranging (LiDAR) data over three domains: the Upper East River (CRBU), Almont Triangle (ALMO), and the Upper Taylor Basin (UPTA). In coordination with the flights, a field campaign acquired ground-truth observations, including observations of vegetation composition, foliar traits, forest demography, and subsurface properties in 18 core sampling areas within the domains. Additional surface water observations were taken at over 380 point locations. All CHESS campaign datasets can be found within the CHESS ESS-DIVE data portal: https://data.ess-dive.lbl.gov/portals/chess.",
+      "Funding Acknowledgement: Field and remote-sensing data acquisition was performed under a grant from the National Aeronautics and Space Administration (80NSSC24K1005). This work was also supported by the Watershed Function Science Focus Area at Lawrence Berkeley National Laboratory funded by the US Department of Energy, Office of Science, Biological and Environmental Research under Contract No. DE-AC02-05CH11231.",
+      "* Todorov and Worsham are co\u2013first authors."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0001-9831-5777",
+        "givenName": "Sophia",
+        "familyName": "Todorov *",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "sophia@rmbl.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7924-040X",
+        "givenName": "H. Marshall",
+        "familyName": "Worsham *",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "hmworsham@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4698-977X",
+        "givenName": "Ian",
+        "familyName": "Breckheimer",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "ikb@rmbl.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9613-5003",
+        "givenName": "Amanda",
+        "familyName": "Henderson",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "amanda@rmbl.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3307-6098",
+        "givenName": "Nicola",
+        "familyName": "Falco",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "nicolafalco@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0008-1178-7626",
+        "givenName": "Travis",
+        "familyName": "Guy",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "travisjguy@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0009-4635-4238",
+        "givenName": "Cassidy",
+        "familyName": "Bromka",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "cassidy.bromka@du.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-1186-8635",
+        "givenName": "Piper",
+        "familyName": "Lovegreen",
+        "affiliation": "University of California Santa Barbara",
+        "email": "plovegreen@ucsb.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7002-2174",
+        "givenName": "Markus",
+        "familyName": "Bill",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mbill@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Andres",
+        "familyName": "Villa",
+        "affiliation": "Western Colorado University",
+        "email": "andres.villa@western.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0007-7846-1981",
+        "givenName": "Anna",
+        "familyName": "Herzog",
+        "affiliation": "University of Potsdam",
+        "email": "anna.herzog@uni-potsdam.de"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7237-1797",
+        "givenName": "Wendy",
+        "familyName": "Brown",
+        "affiliation": "Bugs Unlimited, LLC",
+        "email": "wshbrown@icloud.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bayden",
+        "familyName": "Menton",
+        "affiliation": "Western Colorado University",
+        "email": "bayden.menton@western.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Yahaira",
+        "familyName": "Ramirez",
+        "affiliation": "Western Colorado University",
+        "email": "yahaira.ramirez@western.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Raegan",
+        "familyName": "Struski",
+        "affiliation": "Western Colorado University",
+        "email": "raegan.struski@western.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1221-2767",
+        "givenName": "Matthias",
+        "familyName": "Sprenger",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "msprenger@lbl.gov"
+      }
+    ],
+    "datePublished": "2026-03-09",
+    "keywords": [
+      "2018 NEON and 2025 CHESS Campaigns",
+      "Colorado Headwaters Ecological Spectroscopy Study",
+      "NEON AOP",
+      "leaf area index (LAI)",
+      "apparent clumping factor",
+      "tree",
+      "shrub",
+      "meadow",
+      "understory",
+      "grass",
+      "forb",
+      "herb",
+      "vegetation",
+      "canopy structure",
+      "radiative transfer",
+      "atmospheric scattering correction",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "CHESS Campaign 2025"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > LEAF CHARACTERISTICS > LEAF AREA INDEX (LAI)",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > VEGETATION INDEX > LEAF AREA INDEX (LAI)",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CANOPY CHARACTERISTICS",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > TRANSMITTANCE",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CANOPY TRANSMITTANCE",
+      "leaf_area_index",
+      "apparent clumping factor",
+      "scattering correction factor",
+      "gap fraction"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Three study domains in the Colorado River headwaters including CRBU (the East River, Washington Gulch, Slate River, and Coal Creek watersheds), ALMO (Almont Triangle and Taylor Canyon), and UPTA (Upper Taylor River watershed).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.056755066,
+            "longitude": -107.098808289
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.62714386,
+            "longitude": -106.606796265
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2025-06-13",
+      "endDate": "2025-07-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7924-040X",
+      "givenName": "H. Marshall",
+      "familyName": "Worsham",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "hmworsham@lbl.gov"
+    },
+    "citation": [
+      "Associated journal articles: Chadwick et al. (2020). \u201cIntegrating airborne remote sensing and field campaigns for ecology and Earth system science\u201d https://doi.org/10.1111/2041-210X.13463",
+      "Associated datasets: Breckheimer, I., Falco, N., Henderson, A., O\u2019Ryan, D., Todorov, S., & Worsham, H. M. (2026). CHESS 2025: Location data for field observations and sampling Breckheimer, I., Carroll, E., Chadwick, K. D., Falco, N., Henderson, A., Lovegreen, P., O'Ryan, D., Todorov, S., Villa, A., Williams, C., Worsham, H. M., and Xu, H. (2026). CHESS 2025: Field-collected vegetation attributes and site photos. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/3014404 Carroll, E., Goulden, T., Chadwick, K. D., Ade, C., Eckert, R., Brodrick, P. & Breckheimer, I (2026): Custom surface reflectance, shade mask, and equivalent water thickness mosaics for the Colorado Headwaters Ecological Spectroscopy Study (2025). Watershed Function SFA, ESS-DIVE repository. Dataset. Doi: 10.15485/3013535",
+      "Cited references: Kobayashi, H., Ryu, Y., Baldocchi, D. D., Welles, J. M., & Norman, J. M. (2013). On the correct estimation of gap fraction: How to remove scattered radiation in gap fraction measurements. Agricultural and Forest Meteorology, 174, 170-183. doi:10.1016/j.agrformet.2013.02.013. Lang, A. R. G. (1987). Simplified estimate of leaf area index from transmittance of the sun's beam. Agricultural and Forest Meteorology, 41(3-4). doi: 10.1016/0168-1923(87)90078-5. LI-COR Environmental (2019). LAI-2200C plant canopy analyzer instruction manual. Last Updated: Nov. 2019, Publication Number: 984-14112. Accessed: Jun. 2025. LI-COR Environmental (2013). FV2200 user guide. Version 2.0, Last Updated, Dec. 2013. Accessed: Sep. 2025. Welles, J. M., & Norman, J. M. (1991). Instrument for indirect measurement of canopy architecture. Agronomy journal, 83(5), 818-825. doi: 10.2134/agronj1991.00021962008300050009x Worsham (2025). \u2018rlai: An R package for the calculation of leaf area index (LAI) and other canopy metrics\u2019. https://github.com/hmworsham/rlai"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Field Methods: Overview\nLeaf Area Index (LAI) data were collected using a LICOR LAI-2200C Plant Canopy Analyzer. Sampling was stratified by vegetation type (meadow, shrub, tree, and aspen understory) and conducted within 24-48 hours of NEON AOP overflights. All measurements included above-canopy (A) and below-canopy (B) readings. In cloudy conditions, standard A-B sequences were used. In direct sunlight, a \"K record\" (4-point scattering correction sequence) was collected to account for light scattering. Lighting conditions, annotations for computing K-records, and other qualitative observations were noted for each measurement.",
+      "Field Methods: Meadow Sampling\nWe established 15\u201320 plots within each sampling area. Sites were selected ad hoc, targeting vegetation broadly representative of the study area. Approximately 75% of plots in each sampling area were chosen to have high (50-100% vegetative cover), with 25% of plots selected with 25-50% photosynthetic cover. Locations with lower than 25% photosynthetic cover were not sampled. Each 1m x 1m square plot was placed in a north-south orientation, and located such that vegetation composition, height, and cover were consistent within the plot and extending beyond the plot by 0.5 meters in all directions i.e. not placed on the edge of a patch. We marked each plot with a metal tag with a unique number attached to a plastic tent stake hammered into the ground in the NE corner of the plot.\nIn meadow plots, LAI measurements were taken from all 4 corners using the 90\u00b0 cap. Plots were always oriented north, and LAI measurements were taken in the same sequence of orientations: first, from the southeast corner, facing 315\u00b0, second, from the northeast corner, facing 225\u00b0, third, from the northwest corner, facing 135\u00b0, and fourth, from the southwest corner, facing 45\u00b0.\nIn cloudy conditions, a standard A-BBBB sequence was used. At each corner, we took one above-canopy (A) measurement, with the sensor pointed upward toward the open sky with no obstruction in the field of view. We then took four below-canopy (B) measurements, with the sensor touching the ground, pointed upward beneath leafy vegetation canopy. We took the first B measurement with the sensor directly on the plot corner, first moving the flag so that it was not included in the measurement. For the following three B measurements, we moved 10 cm inward with each measurement, repeating the same sequence for the next three corners.\nIn sunny conditions, we took additional measurements to account for atmospheric scattering of incident light. At each corner, we took a sequence of four A measurements to create a \u201cK\u201d record. In these cases, we replaced each corner\u2019s A measurement with the four A measurements of the K record. We considered the fourth measurement in the K sequence to be the above-canopy measurement of record for that corner.\nTo collect a K record, we took four measurements with a level wand in a clear-sky position above the vegetation canopy, following the procedures in the LAI-2200C manual (LI-COR 2019): (1) diffuse filter in direct sun, (2) diffuse filter in the operator\u2019s body\u2019s shade, (3) no filter/cap in body shade, and (4) standard \u2018A\u2019 reading with 90\u00ba cap. We then continued with the four B measurements as usual, and repeated for the remaining three corners.\nIf the plot was severely sloped (>30 \u00ba), we matched the wand orientation for all A and B measurements to the slope angle, rather than keeping the sensor level.",
+      "Field Methods: Shrub Sampling\nIn each sampling area, we chose 10 shrub sampling sites that were generally representative of the species present. We defined a shrub as a plant with multiple woody stems and a maximum height between 0.75 and 3 meters. We targeted shrub individuals with a canopy diameter greater than 1.5m, selecting individuals in the interior of relatively homogeneous vegetation patches. We attached a metal tag with a unique number (range 1400 to 1600) to a yellow plastic tent stake using a zip tie. We pounded the tent stake into the ground at the base of the target shrub.\nAt shrub sites, LAI measurements were taken from the center of the shrub using the 90\u00b0 cap. The wand was always oriented north, unless it was impractical to take measurements in this orientation due to topography or other factors.\nFirst, we took one A measurement with the sensor pointed upward toward the open sky with no obstruction in the field of view, followed by four B measurements. For B records, the wand was placed below all leaves, but above any thick branches blocking the sensor\u2019s view. If the shrub was roughly symmetrical and homogenous, we took all four B measurements in the same position with the wand always oriented to 0\u00ba North. If the shrub had a variable canopy structure, we took the four B measurements in four different positions that were representative of the shrub, again with the wand oriented to 0\u00ba North.\nIn sunny conditions, we took four A measurements to create a K record for atmospheric scattering correction. In severely sloped sites (> 30 \u00ba), we match the wand orientation for all A and B measurements to the slope angle.",
+      "Field Methods: Forest Sampling\nIn each forest sampling area, we established four 10m x 10m subplots centered around a target tree. When both aspen and conifer species were present in the sampling area, we set two plots in aspen stands and two plots in conifer stands.\nWe used two wands for forest measurements. We temporarily installed an above-canopy (A) wand on a tripod in a meadow within 100 m of the forest plot. The A wand had an unobstructed view of the sky and was oriented toward an azimuth parallel to the slope contours of the target subplot and facing away from the sun. Measurements were logged automatically on a 10 second interval. A second wand was used for below-canopy (B) measurements within the subplots. For both A and B measurements, we used a 90 \u00ba view cap.\nTo make B measurements, we subdivided the subplot into 2 m grid cells and took measurements at grid cell corners. We first took a measurement at coordinate {0m,0m}, then walked to {0m,2m}, logged another measurement, and continued along the grid until the entire plot was sampled. The wand was held level at 1 m above ground and oriented toward the same cardinal azimuth as the A wand. The measurement azimuth was always parallel to the slope contours of the plot and not pointing directly toward the sun. In total, 30 points were sampled within each subplot.\nIn sunny conditions, we took four A measurements to create a K record for atmospheric scattering correction. These measurements were taken with the second wand immediately before the B records, in a clear-sky position next to the temporary A wand installation.",
+      "Field Methods: Aspen Understory Sampling\nTo quantify how much understory vegetation contributes to forest ecosystem LAI, we undertook a supplementary campaign to measure forest and understory LAI concurrently on 07/17/2025. These measurements were taken within aspen forest stands onsite at the Rocky Mountain Biological Laboratory. In total, we measured overstory and understory LAI within nine 10m x 10m forest plots, which were selected for variability in forest density.\nWithin each aspen plot, we made overstory measurements at 30 positions following the protocol for forest sites described above. We also made understory measurements in nine subplots per overstory plot, following the protocols for meadow sites above and positioning the wand on the ground.",
+      "Data processing\nField data were offloaded from the LAI-2200C console daily using FV2200 software. Files were synchronized to cloud storage and organized by sampling area and collection date. Field notes describing light conditions, sensor view angles, information required for computing scattering correction, and other local observations were transcribed in a digital metadata file.\nData were processed using the R package `rlai` (Worsham 2025). This package includes functions to calculate LAI, gap fraction, apparent clumping factor (\u03a9), and other canopy metrics. It also implements atmospheric scattering corrections. The methods are intended to reproduce many of those in LICOR\u2019s FV-220C software (LI-COR 2013), the standard software package accompanying the LAI-2200C device. Algorithms are coded up from equations in the LI-COR LAI2200C manual (LI-COR 2013; 2019), Welles and Norman (1991), Lang (1987), and Kobayashi et al. (2013).\nThe data basis for functions in the `rlai` package is a set of structured, tab-delimited .TXT files. These are the standard files exported from the LI-COR LAI-2200C console. Generally, they comprise a header with standard metadata fields and tabular records of sensor observations. We ignored the header and used the table of sensor observations for all downstream computations. We performed the following procedures over the observations taken for each site:\n1. We first matched above-canopy below-canopy (B) readings to the appropriate above-canopy (A) readings. For meadow and shrub sites, B records were matched to the nearest prior A record in time. For forest sites, B records were matched to the closest A record in time, regardless of sequencing.\n2. We computed gap fractions for each A-B pair using the ratio of time-matched below-canopy measurements to above-canopy measurements recorded for the five rings on the LAI-2200C.\n3. We computed LAI from gap fraction using three different methods: (a) the default method deployed in both the LI-COR LAI2200C and the FV2200C software (denoted '2200' in this package's data). Welles and Norman (1991) (denoted 'WN') and (c) the regression-slopes method from Lang (1987) (denoted 'LANG'). The methods return several values averaged across i sensor rings and j observations, including LAI (`L`), effective LAI (`Le`), the standard error of L (`SEL`), and apparent clumping factor (`ACF`). They also return matrices with values computed for each ring as well as raw gap fractions. Full outputs from the `rlai` routines are published by sampling area type in the zip file \u2018intermediate_results\u2019. Summary values for each site are published in the csv files \u2018lai_*_summary_data_cleaned.csv\u2019.\n4. For sensor measurements taken in direct sun or in variable cloud conditions, we applied Kobayashi et al.'s (2013) scattering correction to remove the effects of atmospheric scattering. The implementation in the `rlai` package is based on the methods in Kobayashi's 2013 paper, which is in turn based on the inversion of Welles and Norman's (1989) bidirectional transmission model. This inversion scheme takes several additional parameters, which may be taken from literature or recorded in the field. The sun angle parameters `the.s` and `phi.s` are computed using a subroutine, which identifies solar zenith and azimuth for the timestamp of a given B record based on the latitude, longitude, and time zone where the measurement was taken. Two additional parameters\u2014`f.beam` (the fraction of radiation that is direct beam) and `f.diffuse` (the fraction of radiation that is diffusely scattered)\u2014are estimated from the first two records in the K file.",
+      "Data checking and quality control\nA small number of files were also processed in LI-COR FV2200 software using the same control parameters as in `rlai` processing for spot checks of accuracy. Comparison values are published in the file \u2018spot_checks.csv\u2019.\nQuality control (QC) checks were implemented programmatically in data processing scripts. The following QC flags are included in metadata files in the column \u2018QC_Flag\u2019: g1: One or more gap fraction values exceeded 1.0 and were capped at 1.0. a0: An A record contains one or more 0.0 values; gap fraction was coerced to NA and excluded from LAI and scattering correction computations. b0: A B record contains one or more 0.0 values; gap fraction is allowed to stand at 0.0 and is included in LAI and scattering correction computations."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ed09e45229c462b-20260308T183554218",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ed09e45229c462b-20260308T183554218",
+        "name": "lai_au_metadata_cleaned.csv",
+        "contentSize": 5.8193359375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f44312416776637-20260308T183511343",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f44312416776637-20260308T183511343",
+        "name": "raw_lai_2200C.zip",
+        "contentSize": 1680.82421875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2b7bf32708740d0-20260308T183554223",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2b7bf32708740d0-20260308T183554223",
+        "name": "lai_shrub_metadata_cleaned.csv",
+        "contentSize": 18.779296875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-613e410f77c8f75-20260308T225051860",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-613e410f77c8f75-20260308T225051860",
+        "name": "spot_checks.csv",
+        "contentSize": 2.5673828125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3da834a15a300bd-20260311T003814039",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3da834a15a300bd-20260311T003814039",
+        "name": "flmd.csv",
+        "contentSize": 9.1796875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-56b2b3130b860bb-20260311T003814043",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-56b2b3130b860bb-20260311T003814043",
+        "name": "lai_meadow_metadata_cleaned.csv",
+        "contentSize": 39.8505859375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-71e833743e8914a-20260308T183554224",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-71e833743e8914a-20260308T183554224",
+        "name": "lai_tree_metadata_cleaned.csv",
+        "contentSize": 11.470703125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c60d4bb83dc3031-20260308T224609874",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c60d4bb83dc3031-20260308T224609874",
+        "name": "lai_shrub_summary_data_cleaned.csv",
+        "contentSize": 16.349609375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7469289cb15265a-20260308T224947452",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7469289cb15265a-20260308T224947452",
+        "name": "scattering_correction_logs.zip",
+        "contentSize": 1826.5205078125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bd6ef575bec05e3-20260311T003814033",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bd6ef575bec05e3-20260311T003814033",
+        "name": "dd.csv",
+        "contentSize": 15.060546875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8aaca13a93415ca-20260308T224609868",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8aaca13a93415ca-20260308T224609868",
+        "name": "lai_au_summary_data_cleaned.csv",
+        "contentSize": 22.8193359375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7be6e604bb76408-20260310T211136912",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7be6e604bb76408-20260310T211136912",
+        "name": "lai_meadow_summary_data_cleaned.csv",
+        "contentSize": 125.0078125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-86c2ca5e18ae761-20260308T224934788",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-86c2ca5e18ae761-20260308T224934788",
+        "name": "intermediate_results.zip",
+        "contentSize": 1389.00390625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5c2dbca336c17f0-20260308T224609875",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5c2dbca336c17f0-20260308T224609875",
+        "name": "lai_tree_summary_data_cleaned.csv",
+        "contentSize": 7.048828125
+      }
+    ]
+  }
+}

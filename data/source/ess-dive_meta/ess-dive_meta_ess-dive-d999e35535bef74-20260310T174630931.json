@@ -1,0 +1,190 @@
+{
+  "id": "ess-dive-d999e35535bef74-20260310T174630931",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3022760",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-d999e35535bef74-20260310T174630931",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-bcccbca047f476c-20260309T193710415",
+  "dateUploaded": "2026-03-10T17:46:32.352Z",
+  "dateModified": "2026-03-13T00:01:36.999Z",
+  "isPublic": true,
+  "citation": "Pierce S; Pall J (2026): Surface Water Quality Data from Beaver-Impacted Streams; Trail Creek and East River, Colorado 2025. Watershed Function SFA. Dataset. doi:10.15485/3022760",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3022760",
+    "name": "Surface Water Quality Data from Beaver-Impacted Streams; Trail Creek and East River, Colorado 2025",
+    "description": [
+      "This data package contains surface water chemistry measurements collected in 2025 to evaluate how beaver damming and low-tech process-based stream restoration influence water quality and metal mobility in mountainous headwater systems of the Upper Colorado River Basin. Sampling was conducted at Trail Creek (Taylor Park watershed, Colorado), a tributary undergoing restoration through installation of low-tech process-based structures (i.e., beaver dam analogs), and at off-channel beaver ponds within the East River floodplain (East River watershed, Colorado).",
+      "Samples were collected along longitudinal transects spanning upstream control reaches, beaver-influenced ponded reaches, and downstream segments. Additional samples were collected from near-surface pore waters within a beaver dam seepage face. The dataset includes concentrations of major and trace elements measured by inductively coupled plasma\u2013mass spectrometry (ICP-MS) and inductively coupled plasma\u2013optical emission spectrometry (ICP-OES), major anions measured by ion chromatography (IC), and dissolved organic carbon (DOC; reported as non-purgeable organic carbon, NPOC). Samples were size-fractionated at 0.45 micrometers (\u00b5m), 0.22 \u00b5m, and 0.02 \u00b5m to distinguish particulate (>0.45 \u00b5m), colloidal (0.22\u20130.02 \u00b5m), and dissolved (<0.02 \u00b5m) fractions.",
+      "The data package consists of comma-separated value (.csv) files containing tabulated chemical concentration data, sample metadata (site identifiers, geographic coordinates, sampling dates, fraction type), and quality control flags. All files are provided in open, non-proprietary formats that can be accessed using standard data analysis software such as Microsoft Excel, R, Python, MATLAB, or other programs capable of reading .csv files. Units, detection limits, and analytical methods are documented in accompanying metadata files.",
+      "The dataset is designed to support analyses of (1) how beaver impoundment and restoration structures alter elemental partitioning and transport, (2) the role of iron and organic carbon in mediating trace metal mobility, and (3) reach-scale changes in water quality across restoration gradients.",
+      "This work was supported by the Watershed Function Science Focus Area at Lawrence Berkeley National Laboratory funded by the US Department of Energy, Office of Science, Biological and Environmental Research under Contract No. DE-AC02-05CH11231.",
+      "Part of this work was performed at SLAC Accelerator Laboratory funded by the US Department of Energy, Office of Science, Biological and Environmental Research under Contract No. DE-AC02-76SF00515."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7614-0227",
+        "givenName": "Sam",
+        "familyName": "Pierce",
+        "affiliation": "Stanford University",
+        "email": "swpierce@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0009-3714-9267",
+        "givenName": "Jessica",
+        "familyName": "Pall",
+        "affiliation": "SLAC National Laboratory",
+        "email": "jessicapall1999@gmail.com"
+      }
+    ],
+    "datePublished": "2026",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format"
+    ],
+    "variableMeasured": [
+      "Cations",
+      "Anions",
+      "Dissolved organic carbon",
+      "Specific conductivity",
+      "pH",
+      "Dissolved oxygen",
+      "Oxidation reduction potential"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Trail Creek (TC) is a snow-dominated headwater tributary to the Taylor River located within the greater Taylor Park watershed in Gunnison County, Colorado, USA, and part of the Upper Colorado River Basin (UCRB). The watershed is situated at high elevation within the Rocky Mountains and is characterized by long-duration seasonal snowpack, spring snowmelt-driven runoff, and low winter baseflow typical of montane headwater systems. Trail Creek has undergone extensive low-tech process-based restoration through the installation of several hundred beaver dam analogs (BDAs) and associated structures designed to mimic natural beaver dams and historical wood accumulations. These structures have increased hydraulic complexity, enhanced overbank flooding, and promoted the development of ponded and multi-thread channel conditions. The system now includes free-flowing channel segments, ponded impoundments, return-flow channels, and seepage faces along dam structures, providing strong spatial gradients in hydrologic connectivity and biogeochemical conditions. The watershed is underlain primarily by Proterozoic crystalline rocks, including felsic intrusive igneous lithologies (e.g., granitic compositions), which weather to produce coarse alluvial sediments in valley bottoms. Valley fill deposits consist of heterogeneous mixtures of sand, gravel, cobble, and organic-rich floodplain sediments that support riparian vegetation and seasonal wetland development. Trail Creek provides a field setting for evaluating how beaver-mediated and restoration-driven changes in hydrology influence surface water\u2013floodplain exchange, solute transport, and elemental partitioning in mountain headwaters. Additional metadata describing specific sampling locations, instrumentation, and reach delineations are provided within this data package.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.927637,
+            "longitude": -106.958341
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.891336,
+            "longitude": -106.599458
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The Taylor River (TR) watershed is a headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States and is considered representative of many snow-dominated headwaters of the Rocky Mountains. The TR is a designated testbed of Lawrence Berkeley National Laboratory and SLAC Accelerator Laboratory's Watershed Function Scientific Focus Area (WFSFA). Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2025) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0559438,
+            "longitude": -106.8469936
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.6075485,
+            "longitude": -106.3205602
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2025-06-19",
+      "endDate": "2025-09-17",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7614-0227",
+      "givenName": "Sam",
+      "familyName": "Pierce",
+      "affiliation": "Stanford University",
+      "email": "swpierce@stanford.edu"
+    },
+    "citation": [
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Boye K ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Perzan Z ; Pierce S ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Thibaut R ; Tokunaga T ; Versteeg R ; Wielandt S ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2025): Location Identifiers, Metadata, and Map for Field Measurements at the East-Taylor Watershed Community Observatory, Colorado, USA (Version 3.2). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Sample collection at filtration:\nSamples were collected by hand using a 50 mL syringe and a length of flexible Tygon tubing fixed to a wooden rod to allow water to be pulled from the center of the river channel or pond. Samples collected from dam seepage fronts were extracted through rhizon porewater samplers (Rhizosphere Research Products, part no. 19.60.21F, 0.6 micrometer mesh size). Syringes were triple rinsed with sample water at the sampling location prior to sample collection. The first 5 mL of filtrate from each filter size was discarded before sample collection. Samples for lab-based analyses (ICP-MS/OES, NOC, IC) were filtered at the time of collection and stored on ice int eh field until stored at 4 degrees C until further analysis.",
+      "Electrochemistry measurements (specific conductivity, pH, oxidation reduction potential, dissolved oxygen):\nSpecific conductivity, pH, and oxidation reduction potential were measured in the field on unfiltered water using a Myron L Ultrameter II (Part #: 6PIIFCE). The multimeter was dipped directly into the water source and rinsed three times with sample water prior to recording a measurement. Dissolved oxygen was measured on unfiltered sample in the field using a CHEMetrics dissolved oxygen Vacu-vial kit (Cat. No. K-7513) and a portable CHEMetrics V-2000 photometer.",
+      "Method 1: Inductively coupled plasma\u2013mass spectrometry analysis\nTotal elemental concentrations were determined by analysis on ICP-MS (Thermo iCAP RQ) and ICP-OES (Thermo iCAP 6300) instruments. Calibration standards were prepared from the mulit element stock solution using matrix matched to sample solutions (2% HNO3). Calibration curves included 4 points including a blank with correlation coefficients of >0.99. The QC protocol includes a continuing calibration blank and quality control samples that are analyzed just after calibration and again every 20 samples and at the completion of the run. Acceptable QC responses must be between 90-110% of the certified value.",
+      "Method 2: Analysis by Non purgeable organic carbon\nDissolved organic carbon concentrations were quantified on a total organic carbon (TOC) analyzer (TOC-L, Shimadzu, Kyoto, Japan) running the NPOC method. Standard curves were developed using an Organic Carbon Standard from RICCA Chemical Company (Arlington,TX). A series of 4 to 6 standards were automatically diluted by the instrument in a concentration range that spans that of the samples. A blank sample was run just after the calibration curve and at the end of the run. A QC sample was run every 25 samples. Acceptable QC responses must be between 90-110% of the certified value.",
+      "Method 2: Analysis by Ion chromatography\nThe instrument used is the Thermo Scientific Dionex ICS-6000 using AS+AG22 column set for anion analysis with isocratic method using sodium carbonate eluent. Detection is by chemical suppression of eluent conductivity. Quality control solutions and mixed analyte standards purchased from Inorganic Ventures, Christiansburg, VA."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b2e23b964379e57-20260309T193653835",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b2e23b964379e57-20260309T193653835",
+        "name": "2025_SW_dd.csv",
+        "contentSize": 3.94140625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-df154a7f93ff748-20260310T174627898",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-df154a7f93ff748-20260310T174627898",
+        "name": "2025_SW_flmd.csv",
+        "contentSize": 1.75
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-db835eb7a1e5da0-20260220T012108990",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-db835eb7a1e5da0-20260220T012108990",
+        "name": "2025_TC_SW_electrochem_data.csv",
+        "contentSize": 2.47265625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e7aa373ef5f5344-20260220T012108981",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e7aa373ef5f5344-20260220T012108981",
+        "name": "2025_SW_element_anion_npoc_data.csv",
+        "contentSize": 85.865234375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c6843fab62aa039-20260218T002127738",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c6843fab62aa039-20260218T002127738",
+        "name": "2025_SW_methods.csv",
+        "contentSize": 1.232421875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-de345ef92e27d84-20260218T002127740",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-de345ef92e27d84-20260218T002127740",
+        "name": "2025_SW_terminology.csv",
+        "contentSize": 0.16015625
+      }
+    ]
+  }
+}

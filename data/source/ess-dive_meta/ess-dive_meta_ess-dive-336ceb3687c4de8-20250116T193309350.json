@@ -1,0 +1,281 @@
+{
+  "id": "ess-dive-336ceb3687c4de8-20250116T193309350",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2327028",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-336ceb3687c4de8-20250116T193309350",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-336ceb3687c4de8-20250116T193202789",
+  "dateUploaded": "2025-01-16T19:33:09.796Z",
+  "dateModified": "2025-01-16T19:33:11.774Z",
+  "isPublic": true,
+  "citation": "Myers-Pigg A; Roebuck A; Forbes B; Powers-McCormack B (2024): Manuscript Workflows from and Processed Organic Matter Composition of Experimentally Burned Open Air and Muffle Furnace Vegetation Chars across Differing Burn Severity and Feedstock Types from Pacific Northwest, USA (v3). River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2327028",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2327028",
+    "name": "Manuscript Workflows from and Processed Organic Matter Composition of Experimentally Burned Open Air and Muffle Furnace Vegetation Chars across Differing Burn Severity and Feedstock Types from Pacific Northwest, USA (v3)",
+    "description": [
+      "This dataset includes processed organic matter chemistry data from an experimental study designed to compare how the chemical composition of organic matter changes across different burn conditions and vegetation materials representative of major land cover types of the Pacific Northwest, USA. Chars were created in a closed muffle furnace or on an open burn table from four different feedstock species representing vegetation commonly impacted by fire regimes across the Pacific Northwest, USA. Source data and associated metadata (including methods and geospatial information) can be found at https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1894135 (Grieger et al. 2022). This dataset provides processing scripts and processed data for both solid and dissolved phase organic matter characterization data from experimentally generated chars. These processed data can be used to compare how different burn conditions may influence resultant organic matter chemistry and help further our understanding of potential biogeochemical impacts on river corridors post-fire. The processed data were subsequently analyzed; and the results and ecological implications of the findings were published in peer-reviewed manuscripts. The scripts and workflows used to develop the manuscripts are also included in this data package.",
+      "This data package was originally published June 2024. It was updated September 2024 (new and modified files) and in January 2025 (modified files). See the change history section in the readme for more details.",
+      "This dataset is comprised of one data package readme, one data dictionary (dd), one file level metadata (flmd), and folders containing (A) processed data; (B) general processing scripts; and (C) additional folders with specific manuscript analysis scripts and processed data. Step-by-step instructions to assist the user in recreating the workflow used to generate the results in the manuscripts is also provided. The processed data folder includes (1) a folder of processed Parallel Factor Analysis (PARAFAC) and spectra indices outputs from excitation emissions matrix (EEM) fluorescence and absorbance data; (2) a folder of processed solid state carbon-13 (13-C NMR) integrals; (3) folder of high resolution characterization of organic matter via 21 Tesla Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS) generated through the Environmental Molecular Sciences Laboratory (EMSL; https://www.pnnl.gov/environmental-molecular-sciences-laboratory) processed data outputs from Formultitude (https://github.com/PNNL-Comp-Mass-Spec/Formultitude), blank corrections and data aggregation, and calculated molecular indices. All files are .pdf, .csv, .html, .Rmd, .R, or .RData."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6905-6841",
+        "givenName": "Allison",
+        "familyName": "Myers-Pigg",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "allison.myers-pigg@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8575-2572",
+        "givenName": "Alan",
+        "familyName": "Roebuck",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "alan.roebuck@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024-03-19",
+    "keywords": [
+      "Burn severity",
+      "Wildfire",
+      "Disturbance",
+      "Biogeochemistry",
+      "Mass spectrometry",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Fourier Transform Ion Cyclotron Resonance Mass Spectrometry",
+      "FTICR-MS",
+      "Excitation-Emission Fluorescence",
+      "EEMs",
+      "Absorbance",
+      "Nuclear Magnetic Resonance",
+      "Solid state 13C-NMR",
+      "Dissolved organic matter",
+      "Pyrogenic organic matter",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > ORGANIC MATTER"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Douglas-fir dominated forest with minor oak understory. Collected living and dead douglas-fir (Pseudotsuga menziesii) material on 16 May 2021 at 09:20 PST.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6491,
+            "longitude": -123.2197
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6491,
+            "longitude": -123.2197
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Mature Douglas-fir stand with understory oak. Collected living and dead douglas-fir (Pseudotsuga menziesii) material on 2 February 2021 at 09:00 PST.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6507,
+            "longitude": -123.2199
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6507,
+            "longitude": -123.2199
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Collected living and dead big sagebrush (Artemisia tridentata) on 1 March 2021 at 15:26 PST.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.4087,
+            "longitude": -119.2775
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.4087,
+            "longitude": -119.2775
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Collected living and dead ponderosa pine (Pinus ponderosa) on 27 March 2021 at 15:00 PST and 30 May 2021 at 17:30 PST.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.678,
+            "longitude": -117.5228
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.678,
+            "longitude": -117.5228
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-02-20",
+      "endDate": "2022-07-12",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6905-6841",
+      "givenName": "Allison",
+      "familyName": "Myers-Pigg",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "allison.myers-pigg@pnnl.gov"
+    },
+    "citation": [
+      "Grieger S ; Aronstein P ; Bailey J ; Barnes M ; Barton R ; Bladon K D ; Chu R ; Forbes B ; Garayburu-Caruso V A ; Graham E B ; Goldman A E ; Homolka K ; Kew W ; Lipton A S ; McKever S A ; Munson K M ; Myers C R ; Nieto-Pereira N ; O'Day P ; Otenburg O ; Renteria L ; Roebuck A ; Scheibe T D ; Torgeson J M ; Toyoda J G ; Wagner S ; Young R P ; Myers-Pigg A (2022): Organic matter concentration and composition of experimentally burned open air and muffle furnace vegetation chars across differing burn severity and feedstock types from Pacific Northwest, USA (v3). River Corridor and Watershed Biogeochemistry SFA, ESS-DIVE repository. Dataset. doi:10.15485/1894135",
+      "Patel, K. F. kaizadp/fticrrr: FTICR-results-in-R. Zenodo https://doi.org/10.5281/zenodo.3893246 (2020).",
+      "Patel, Kaizad F., et al. \"nmrrr: A reproducible workflow for binning and visualizing NMR spectra from environmental samples.\" Journal of Geophysical Research: Biogeosciences 128.12 (2023): e2023JG007768.",
+      "Murphy, Kathleen R., et al. \"Fluorescence spectroscopy and multi-way techniques. PARAFAC.\" Analytical methods 5.23 (2013): 6557-6566.",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840",
+      "Downing, Bryan D., Brian A. Pellerin, Brian A. Bergamaschi, John Franco Saraceno, and Tamara EC Kraus. \"Seeing the light: The effects of particles, dissolved materials, and temperature on in situ measurements of DOM fluorescence in rivers and streams.\" Limnology and Oceanography: Methods 10, no. 10 (2012): 767-775. doi: 10.4319/lom.2012.10.767",
+      "Helms, John R., Aron Stubbins, Jason D. Ritchie, Elizabeth C. Minor, David J. Kieber, and Kenneth Mopper. \"Absorption spectral slopes and slope ratios as indicators of molecular weight, source, and photobleaching of chromophoric dissolved organic matter.\" Limnology and oceanography 53, no. 3 (2008): 955-969. doi: 10.4319/lo.2008.53.3.0955",
+      "Huguet, Arnaud, Lilian Vacher, St\u00e9phane Relexans, Sylvain Saubusse, Jean-Marie Froidefond, and Edith Parlanti. \"Properties of fluorescent dissolved organic matter in the Gironde Estuary.\" Organic Geochemistry 40, no. 6 (2009): 706-719. doi: 10.1016/j.orggeochem.2009.03.002",
+      "LaRowe, Douglas E., and Philippe Van Cappellen. \"Degradation of natural organic matter: a thermodynamic analysis.\" Geochimica et Cosmochimica Acta 75, no. 8 (2011): 2030-2042. doi: 10.1016/j.gca.2011.01.020",
+      "McKnight, Diane M., Elizabeth W. Boyer, Paul K. Westerhoff, Peter T. Doran, Thomas Kulbe, and Dale T. Andersen. \"Spectrofluorometric characterization of dissolved organic matter for indication of precursor organic material and aromaticity.\" Limnology and Oceanography 46, no. 1 (2001): 38-48. doi: 10.4319/lo.2001.46.1.0038",
+      "Ohno, Tsutomu. \"Fluorescence inner-filtering correction for determining the humification index of dissolved organic matter.\" Environmental science & technology 36, no. 4 (2002): 742-746. doi: 10.1021/es0155276",
+      "Parlanti, Edith, K. W\u00f6rz, Laure Geoffroy, and Michel Lamotte. \"Dissolved organic matter fluorescence spectroscopy as a tool to estimate biological activity in a coastal zone submitted to anthropogenic inputs.\" Organic geochemistry 31, no. 12 (2000): 1765-1781. doi: 10.1016/S0146-6380(00)00124-8",
+      "Seidel, Michael, Melanie Beck, Thomas Riedel, Hannelore Waska, I. GNA Suryaputra, Bernhard Schnetger, Jutta Niggemann, Meinhard Simon, and Thorsten Dittmar. \"Biogeochemistry of dissolved organic matter in an anoxic intertidal creek bank.\" Geochimica et Cosmochimica Acta 140 (2014): 418-434. doi: 10.1016/j.gca.2014.05.038",
+      "Weishaar, James L., George R. Aiken, Brian A. Bergamaschi, Miranda S. Fram, Roger Fujii, and Kenneth Mopper. \"Evaluation of specific ultraviolet absorbance as an indicator of the chemical composition and reactivity of dissolved organic carbon.\" Environmental science & technology 37, no. 20 (2003): 4702-4708. doi: 10.1021/es030360x",
+      "W\u00fcnsch, Urban J., Rasmus Bro, Colin A. Stedmon, Philip Wenig, and Kathleen R. Murphy. \"Emerging patterns in the global distribution of dissolved organic matter fluorescence.\" Analytical Methods 11, no. 7 (2019): 888-893. doi: 10.1039/C8AY02422G"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This data package provides processed data and code for various methodologies associated with the data package \u201cOrganic matter concentration and composition of experimentally burned open air and muffle furnace vegetation chars across differing burn severity and feedstock types from Pacific Northwest, USA\u201d. Detailed methodologies for the sample collection, data analysis, and quality control are provided at Grieger et al. 2022. This data package provides all additional data processing and data analysis scripts required to reproduce results for organic matter characterization processing from high resolution mass spectrometry, excitation-emission spectra, and solid state 13C-NMR spectra used in manuscripts. For more details, see the associated manuscripts.",
+      "Approach to change history and versioning:\nUpdates to data package version: When any file within a data package is updated, the data package version number is updated. The data package version number is indicated in the title of the data package, the data package folder name, and in the change history table below. You can access previous versions of the data package by sending a request to ESS-DIVE.\nUpdates to individual file versions: As files are changed, the file version number is also updated. The file version number is indicated in the file name, file level metadata (flmd) file, and the change history table below. The version number on an individual file may not match the version number of the data package. For example, v3 of a data package may include v2 of an individual file."
+    ],
+    "distribution": [
+      {
+        "contentSize": 5.2958984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-369cf02c0b36df5-20250107T001327552",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-369cf02c0b36df5-20250107T001327552",
+        "name": "v2_Roebuck_2024_BSLE_Gradient_Carbon_Chemistry_Manuscript.zip"
+      },
+      {
+        "contentSize": 4766.98828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d1a360da86e07fd-20240606T161118780",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d1a360da86e07fd-20240606T161118780",
+        "name": "Myers_Pigg_2024_BSLE_Muffle_vs_Open_Manuscript.zip"
+      },
+      {
+        "contentSize": 18.41015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-336ceb3687c4de8-20250116T193309350",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-336ceb3687c4de8-20250116T193309350",
+        "name": "Manuscript_Workflows_from_and_Processed_Organic.xml"
+      },
+      {
+        "contentSize": 14.642578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-354bf55464dab63-20240905T224226858",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-354bf55464dab63-20240905T224226858",
+        "name": "v2_Processing_Scripts.zip"
+      },
+      {
+        "contentSize": 7680.9970703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5fd06b8727f08b4-20250107T001334226",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-5fd06b8727f08b4-20250107T001334226",
+        "name": "v3_readme_2024_BSLE_Processed_OM_Manuscripts.pdf"
+      },
+      {
+        "contentSize": 35986.8349609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-89ead926432bf28-20240606T161125559",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-89ead926432bf28-20240606T161125559",
+        "name": "Processed_Data.zip"
+      },
+      {
+        "contentSize": 23.5126953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ac153aa11400b53-20240905T224226850",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ac153aa11400b53-20240905T224226850",
+        "name": "v2_2024_BSLE_Processed_OM_Manuscripts_dd.csv"
+      },
+      {
+        "contentSize": 298.7197265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b7321c32412cc02-20240905T224226843",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-b7321c32412cc02-20240905T224226843",
+        "name": "Manuscript_Workflow_Instructions.pdf"
+      },
+      {
+        "contentSize": 9.9443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c3558645cf49e7d-20250107T001334222",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c3558645cf49e7d-20250107T001334222",
+        "name": "v3_2024_BSLE_Processed_OM_Manuscripts_flmd.csv"
+      }
+    ]
+  }
+}

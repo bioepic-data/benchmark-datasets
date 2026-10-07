@@ -1,0 +1,207 @@
+{
+  "id": "ess-dive-f54300465639a3d-20250210T205228834",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2516740",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f54300465639a3d-20250210T205228834",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-7fde10849fc43d0-20250116T205440371",
+  "dateUploaded": "2025-02-10T20:52:29.519Z",
+  "dateModified": "2025-02-15T00:00:18.926Z",
+  "isPublic": true,
+  "citation": "Ulrich C; Dafflon B; Fiolleau S (2024): Characterization of Soil and Rock Magnetic Properties along Multiple Hillslope Transects at Teller Road Site, Seward Peninsula, Alaska, 2018 and 2023. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2516740",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2516740",
+    "name": "Characterization of Soil and Rock Magnetic Properties along Multiple Hillslope Transects at Teller Road Site, Seward Peninsula, Alaska, 2018 and 2023",
+    "description": [
+      "The magnetometer data was collected in multiple directions across the watershed hillslope at the NGEE Arctic Teller Road site at mile marker 27 (TL_MM27) on the Seward Peninsula, Alaska over multiple years in March 2018 and April 2023. The magnetic data were collected using a Geometrics Inc. G-858 gradiometer and G-857 base station in 2018 and the G-864 gradiometer and G857 base station in 2023. The data was collected (in all instances) by towing the gradiometer behind a snow machine around the watershed with the two sensors in a vertical profile with constant spacing during the continuous survey in that specific year. Magnetic total field measurements were collected by gradiometer and base station, and the data processing was performed in Geometrics MagMap2000 software. The processing steps were limited to removal of data spikes (despiking), reading dropouts, and correction/removal of bad GPS points. All offsets between sensors and GPS are stated within the data files and metadata, alongwith the processed and raw data.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM).",
+      "In this data submission there are two sets of raw magnetic data (.bin and .stn for 2018 and base for 2023; raw rover mag for 2023 is in .csv) inside two .zip files that identify the year the mag data was collected. The data are proprietary format to Geometrics and can be opened and processed with MagMap2000 which can be downloaded for free at Geometrics website. There are also two processed data files *.csv for each year and two metadata files *.csv."
+    ],
+    "alternateName": [
+      "NGA552"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4114-7039",
+        "givenName": "Craig",
+        "familyName": "Ulrich",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "culrich@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9871-5650",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bdafflon@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6269-8676",
+        "givenName": "Sylvain",
+        "familyName": "Fiolleau",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "sfiolleau@lbl.gov"
+      }
+    ],
+    "datePublished": "2024-09-30",
+    "keywords": [
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > SOLID EARTH > GEOMORPHIC LANDFORMS/PROCESSES",
+      "Magnetometer",
+      "Seward Peninsula, Alaska",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS > ELECTRICAL CONDUCTIVITY",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL STRUCTURE",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL BULK DENSITY",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > CARBON",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > ORGANIC MATTER",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL TEXTURE",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL SALINITY/SOIL SODICITY",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > TERRESTRIAL ECOSYSTEMS > ALPINE/TUNDRA > ARCTIC TUNDRA",
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND > CRYOSOLS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Teller Site, Mile Marker 47, Alaska.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.7409051,
+            "longitude": -165.9761242
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.7279885,
+            "longitude": -165.9421977
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0500OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018",
+      "endDate": "2023",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4114-7039",
+      "givenName": "Craig",
+      "familyName": "Ulrich",
+      "email": "culrich@lbl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Data acquisition and processing\nIn March of 2018 and April 2023 subsurface magnetic data were collected across the NGEE Teller 27 watershed site using a Geometrics Inc. G-858 gradiometer and G-856/7 base station. Data was collected during the winter months which permitted access to the watershed via snow machine in order to data quickly and densely across the 2km by 2 km watershed. The base station was set in a fixed location to collect diurnal magnetic field fluctuations for later post processing. The gradiometer was pulled behind a snow machine on a custom built plastic and fiberglass non-metallic sled. The GPS was mounted on the snow machine to avoid interference with the magnetometer. To evaluate the influence of the snow machine and gps on the magnetic response a walk-away test was performed prior to the construction of the sled. This allowed for the right number of fiberglass tubes (1.524 m lengths) to be positioned between the snow machine and the magnetometer sled to avoid interference (~2.5 - 3 m). Plastic bolts were used to assemble the sled and sled tounge.\nOnce the sled was assembled the gradiometer (2 mag sensors) were mounted vertically in the sled with sensor 1 on the bottom and 2 on the top. The spacings between these sensors during the performance of each survey is listed in the metadata file. The gps fed into the magnetometer used a real-time DGPS WAAS correction and was nominally +/- 1m.\nMagnetometer data post processing was performed in Geometrics MagMap2000 software. Data with bad GPS location points were either interpolated or removed depending if interpolation could be performed successfully. After all GPS points were corrected or removed, magnetometer data were evaluated for drop-outs and spikes, followed by a despiking routine. During collection tie-lines and loops (going back over the same location at a later time) were collected in order to assess instrument drift and corrected if needed. After this process, the data were exported for visualization."
+    ],
+    "distribution": [
+      {
+        "contentSize": 4769.291015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-16cb46c086ebfa1-20250210T204504852",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-16cb46c086ebfa1-20250210T204504852",
+        "name": "Teller_MagRaw_2023.zip"
+      },
+      {
+        "contentSize": 1.283203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-170cace2abe9283-20250210T204504823",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-170cace2abe9283-20250210T204504823",
+        "name": "NGA552_flmd.csv"
+      },
+      {
+        "contentSize": 0.41796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-229852975f83d4e-20250210T204504812",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-229852975f83d4e-20250210T204504812",
+        "name": "Mag_Apr2023_Raw_dd.csv"
+      },
+      {
+        "contentSize": 20740.6630859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-18a7debfb45d361-20250210T204504837",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-18a7debfb45d361-20250210T204504837",
+        "name": "Teller_MagData_2023.csv"
+      },
+      {
+        "contentSize": 0.515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1a7dbd61a6da4ad-20250210T204504842",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1a7dbd61a6da4ad-20250210T204504842",
+        "name": "Teller_MagData_2023_dd.csv"
+      },
+      {
+        "contentSize": 1291.626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4367ca7d73d8d93-20250210T204504848",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4367ca7d73d8d93-20250210T204504848",
+        "name": "Teller_MagRaw_2018.zip"
+      },
+      {
+        "contentSize": 431.099609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f02256488298317-20250210T205149042",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-f02256488298317-20250210T205149042",
+        "name": "MagMetadata.pdf"
+      },
+      {
+        "contentSize": 4666.5205078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-85ab27b47eb5de5-20250210T204504828",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-85ab27b47eb5de5-20250210T204504828",
+        "name": "Teller_MagData_2018.csv"
+      },
+      {
+        "contentSize": 0.515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8d88aa7986b8c7a-20250210T204504832",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8d88aa7986b8c7a-20250210T204504832",
+        "name": "Teller_MagData_2018_dd.csv"
+      },
+      {
+        "contentSize": 11.0830078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f54300465639a3d-20250210T205228834",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f54300465639a3d-20250210T205228834",
+        "name": "Characterization_of_Soil_and_Rock_Magnetic.xml"
+      }
+    ]
+  }
+}

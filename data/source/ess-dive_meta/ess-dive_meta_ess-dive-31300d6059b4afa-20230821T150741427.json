@@ -1,0 +1,1028 @@
+{
+  "id": "ess-dive-31300d6059b4afa-20230821T150741427",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1995543",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-31300d6059b4afa-20230821T150741427",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-0e91556dd6e9d3c-20230817T212940729",
+  "dateUploaded": "2023-08-21T15:07:41.897Z",
+  "dateModified": "2023-08-21T15:07:43.288Z",
+  "isPublic": true,
+  "citation": "Roebuck A; Forbes B; Garayburu-Caruso V A; Grieger S; Homolka K; Stegen J C; Myers-Pigg A (2023): Data and scripts associated with a manuscript investigating impacts of solid phase extraction on freshwater organic matter optical signatures and mass spectrometry pairing. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1995543",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1995543",
+    "name": "Data and scripts associated with a manuscript investigating impacts of solid phase extraction on freshwater organic matter optical signatures and mass spectrometry pairing",
+    "description": [
+      "This data package is associated with the publication \u201cInvestigating the impacts of solid phase extraction on dissolved organic matter optical signatures and the pairing with high-resolution mass spectrometry data in a freshwater system\u201d submitted to \u201cLimnology and Oceanography: Methods.\u201d This data is an extension of the River Corridor and Watershed Biogeochemistry SFA\u2019s Spatial Study 2021 (https://doi.org/10.15485/1898914). Other associated data and field metadata can be found at the link provided. The goal of this manuscript is to assess the impact of solid phase extraction (SPE) on the ability to pair ultra-high resolution mass spectrometry data collected from SPE extracts with optical properties collected on ambient stream samples. Forty-seven samples collected from within the Yakima River Basin, Washington were analyzed dissolved organic carbon (DOC, measured as non-purgeable organic carbon, NPOC), absorbance, and fluorescence. Samples were subsequently concentrated with SPE and reanalyzed for each measurement. The extraction efficiency for the DOC and common optical indices were calculated. In addition, SPE samples were subject to ultra-high resolution mass spectrometry and compared with the ambient and SPE generated optical data. Finally, in addition to this cross-platform inter-comparison, we further performed and intra-comparison among the high-resolution mass spectrometry data to determine the impact of sample preparation on the interpretability of results. Here, the SPE samples were prepared at 40 milligrams per liter (mg/L) based on the known DOC extraction efficiency of the samples (ranging from ~30 to ~75%) compared to the common practice of assuming the DOC extraction efficiency of freshwater samples at 60%.",
+      "This data package folder consists of one main data folder with one subfolder (Data_Input). The main data folder contains (1) readme; (2) data dictionary (dd); (3) file-level metadata (flmd); (4) final data summary output from processing script; and (5) the processing script. The R-markdown processing script (SPE_Manuscript_Rmarkdown_Data_Package.rmd) contains all code needed to reproduce manuscript statistics and figures (with the exception of that stated below). The Data_Input folder has two subfolders: (1) FTICR and (2) Optics. Additionally, the Data_Input folder contains dissolved organic carbon (DOC, measured as non-purgeable organic carbon, NPOC) data (SPS_NPOC_Summary.csv) and relevant supporting Solid Phase Extraction Volume information (SPS_SPE_Volumes.csv). Methods information for the optical and FTICR data is embedded in the header rows of SPS_EEMs_Methods.csv and SPS_FTICR_Methods.csv, respectively. In addition, the data dictionary (SPS_SPE_dd.csv), file level metadata (SPS_SPE_flmd.csv), and methods codes (SPS_SPE_Methods_codes.csv) are provided.",
+      "The FTICR subfolder contains all raw FTICR data as well as instructions for processing. In addition, post processed FTICR molecular information (Processed_FTICRMS_Mol.csv) and sample data (Processed_FTICRMS_Data.csv) is provided that can be directly read into R with the associated R-markdown file.",
+      "The Optics subfolder contains all Absorbance and Fluorescence Spectra. Fluorescence spectra have been blank corrected, inner filter corrected, and undergone scatter removal. In addition, this folder contains Matlab code used to make a portion of Figure 1 within the manuscript, derive various spectral parameters used within the manuscript, and used for parallel factor analysis (PARAFAC) modeling. Spectral indices (SPS_SpectralIndices.csv) and PARAFAC outputs (SPS_PARAFAC_Model_Loadings.csv and SPS_PARAFAC_Sample_Scores.csv) are directly read into the associated R-markdown file."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8575-2572",
+        "givenName": "Alan",
+        "familyName": "Roebuck",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "alan.roebuck@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Samantha",
+        "familyName": "Grieger",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "samantha.grieger@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5208-8740",
+        "givenName": "Khadijah",
+        "familyName": "Homolka",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "khadijah.homolka@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6905-6841",
+        "givenName": "Allison",
+        "familyName": "Myers-Pigg",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "allison.myers-pigg@pnnl.gov"
+      }
+    ],
+    "datePublished": "2023-08-17",
+    "keywords": [
+      "Solid Phase Extraction",
+      "SPE",
+      "Streams",
+      "Mass Spectrometry",
+      "Organic Matter",
+      "Optics",
+      "Freshwater",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format"
+    ],
+    "variableMeasured": [
+      "Non-purgeable organic carbon",
+      "NPOC",
+      "Dissolved organic carbon",
+      "DOC",
+      "Fourier transform ion cyclotron resonance mass spectrometry",
+      "FTICR-MS",
+      "Absorbance",
+      "Fluorescence",
+      "Excitation-Emission Matrix",
+      "EEM"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "S13R, Cle Elum River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.4206,
+            "longitude": -121.087
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.4206,
+            "longitude": -121.087
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S14, Waptus River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.4199,
+            "longitude": -121.0879
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.4199,
+            "longitude": -121.0879
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S15, Thorp Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.3635,
+            "longitude": -121.1069
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.3635,
+            "longitude": -121.1069
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S17R, Cooper River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.3944,
+            "longitude": -121.1017
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.3944,
+            "longitude": -121.1017
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S18R, Cle Elum River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.396,
+            "longitude": -121.0969
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.396,
+            "longitude": -121.0969
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19, West Fork Teanaway River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.2582,
+            "longitude": -120.9041
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.2582,
+            "longitude": -120.9041
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19E, North Fork Teanaway River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.2551,
+            "longitude": -120.8789
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.2551,
+            "longitude": -120.8789
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S20R, Cle Elum River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.1903,
+            "longitude": -121.0156
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.1903,
+            "longitude": -121.0156
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S21R, Yakima River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.1858,
+            "longitude": -121.0438
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.1858,
+            "longitude": -121.0438
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S23, Yakima River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.1859,
+            "longitude": -120.9188
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.1859,
+            "longitude": -120.9188
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S24R, Cle Elum River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.3543,
+            "longitude": -121.1084
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.3543,
+            "longitude": -121.1084
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S25, Middle Fork Teanaway River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.2625,
+            "longitude": -120.8971
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.2625,
+            "longitude": -120.8971
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S26R, Teanaway River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.1685,
+            "longitude": -120.8344
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.1685,
+            "longitude": -120.8344
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S27R, Silver Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.2602,
+            "longitude": -121.1769
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.2602,
+            "longitude": -121.1769
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S28R, Swauk Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.1242,
+            "longitude": -120.738
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.1242,
+            "longitude": -120.738
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S28RE, Yakima River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.1235,
+            "longitude": -120.7382
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.1235,
+            "longitude": -120.7382
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S29R, Taneum Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.0822,
+            "longitude": -120.7334
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.0822,
+            "longitude": -120.7334
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S30R, Satus Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.0952,
+            "longitude": -120.5482
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.0952,
+            "longitude": -120.5482
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S31, Logy Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.206,
+            "longitude": -120.481
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.206,
+            "longitude": -120.481
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S32, Satus Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.2356,
+            "longitude": -120.4192
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.2356,
+            "longitude": -120.4192
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S36, Toppenish Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.3146,
+            "longitude": -120.1992
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.3146,
+            "longitude": -120.1992
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S37, Satus Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.0282,
+            "longitude": -120.6119
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.0282,
+            "longitude": -120.6119
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S38, Unnamed Tributary, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.029,
+            "longitude": -120.6365
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.029,
+            "longitude": -120.6365
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S39, Satus Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.0167,
+            "longitude": -120.6497
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.0167,
+            "longitude": -120.6497
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S49R, Tieton River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7243,
+            "longitude": -120.8134
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7243,
+            "longitude": -120.8134
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S50, Yakima River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6314,
+            "longitude": -120.5218
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6314,
+            "longitude": -120.5218
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S51, Tieton River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7299,
+            "longitude": -120.8036
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7299,
+            "longitude": -120.8036
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S55, South Fork Cowiche Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6635,
+            "longitude": -120.805
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6635,
+            "longitude": -120.805
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S56, Cowiche Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6207,
+            "longitude": -120.627
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6207,
+            "longitude": -120.627
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S63, Satus Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.0418,
+            "longitude": -120.5732
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.0418,
+            "longitude": -120.5732
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S67, Yakima River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.8556,
+            "longitude": -120.4837
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.8556,
+            "longitude": -120.4837
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S68, Umtanum Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.8557,
+            "longitude": -120.4848
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.8557,
+            "longitude": -120.4848
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S71, Manastash Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.9682,
+            "longitude": -120.6912
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.9682,
+            "longitude": -120.6912
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S72, Manastash Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.9949,
+            "longitude": -120.5904
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.9949,
+            "longitude": -120.5904
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S73, Yakima River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.9878,
+            "longitude": -120.5711
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.9878,
+            "longitude": -120.5711
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S75, Wilson Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.0176,
+            "longitude": -120.5175
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.0176,
+            "longitude": -120.5175
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S77, Cowiche Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.6256,
+            "longitude": -120.5837
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.6256,
+            "longitude": -120.5837
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S79, Yakima River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7638,
+            "longitude": -120.4564
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7638,
+            "longitude": -120.4564
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S82, Ahtanum Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.5384,
+            "longitude": -120.4804
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.5384,
+            "longitude": -120.4804
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S83, Cabin Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.2396,
+            "longitude": -121.2274
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.2396,
+            "longitude": -121.2274
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "T02, Yakima River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.2321,
+            "longitude": -119.9999
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.2321,
+            "longitude": -119.9999
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "T03, Yakima River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.5308,
+            "longitude": -120.4703
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.5308,
+            "longitude": -120.4703
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "T05, Naches River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7288,
+            "longitude": -120.7137
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7288,
+            "longitude": -120.7137
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "T07, Yakima River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.2553,
+            "longitude": -119.4741
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.2553,
+            "longitude": -119.4741
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "U20, Umtanum Creek , Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.8986,
+            "longitude": -120.6422
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.8986,
+            "longitude": -120.6422
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "W10, Wenas Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.8675,
+            "longitude": -120.7744
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.8675,
+            "longitude": -120.7744
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "W20, Wenas Creek, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.8328,
+            "longitude": -120.7109
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.8328,
+            "longitude": -120.7109
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-08-30",
+      "endDate": "2021-09-15",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8575-2572",
+      "givenName": "Alan",
+      "familyName": "Roebuck",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "alan.roebuck@pnnl.gov"
+    },
+    "citation": [
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "drEEM toolbox v. 6.0 for Matlab (https://openfluor.org)",
+      "Grieger, S., Barnes, M., Borton M A, Chen, X., Chu, R., Farris, Y., Forbes, B., Fulton, S. G., Garayburu-Caruso, V., Goldman, A. E., Gonzalez, B. I., Kaufman, M. H., McKever S. A., Myers-Pigg, A., Otenburg O., Pelly A., Renteria L., Scheibe T. D., Son K., Torgeson J. M., Toyoda, J. G., Stegen, J. C. (2022): Spatial Study 2021: Sample-Based Surface Water Chemistry and Organic Matter Characterization across Watersheds in the Yakima River Basin, Washington, USA (v2). River Corridor and Watershed Biogeochemistry SFA, ESS-DIVE repository. Dataset. https://doi.org/10.15485/1898914",
+      "Murphy, K. R., Stedmon, C. A., Graeber, D., Bro, R. (2013) Fluorescence spectroscopy and multi-way techniques. PARAFAC. Analytical Methods, 5, 6557-6566. https://doi.org/C3AY41160E",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Samples from the Yakima River Basin were analyzed for dissolved organic carbon (DOC, measured as non-purgeable organic carbon, NPOC), absorbance, and fluorescence. Samples were concentrated with solid phase extraction (SPE) and reanalyzed for all measurements and extraction efficiencies were calculated. High resolution mass spectrometry was also performed on SPE samples. Full methodological details are provided in the SPS_EEMs_Methods.csv, SPS_FTICR_Methods.csv and SPS_Roebuck_Methods_Codes.csv in addition to being thoroughly described in the associated manuscript."
+    ],
+    "distribution": [
+      {
+        "contentSize": 57128.4892578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-23a1a2082752f7f-20230817T212557163",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-23a1a2082752f7f-20230817T212557163",
+        "name": "SPS_Roebuck_Data_Package.zip"
+      },
+      {
+        "contentSize": 34.130859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31300d6059b4afa-20230821T150741427",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-31300d6059b4afa-20230821T150741427",
+        "name": "Data_and_scripts_associated_with_a_manuscript.xml"
+      },
+      {
+        "contentSize": 9.6201171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ca0e6848063a180-20230817T212349632",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ca0e6848063a180-20230817T212349632",
+        "name": "SPS_Roebuck_flmd.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "id": "ess-dive-3a9dc53205fd902-20250227T211217130",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2524531",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-3a9dc53205fd902-20250227T211217130",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-6d51a3317d66323-20250227T171803070",
+  "dateUploaded": "2025-02-27T21:12:17.862Z",
+  "dateModified": "2025-03-13T00:02:22.340Z",
+  "isPublic": true,
+  "citation": "Craig M (2025): Data for \u201cTree root nutrient uptake kinetics vary with nutrient availability, environmental conditions, and root traits: A global analysis\u201d. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15485/2524531",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2524531",
+    "name": "Data for \u201cTree root nutrient uptake kinetics vary with nutrient availability, environmental conditions, and root traits: A global analysis\u201d",
+    "description": [
+      "This data package contains data and code used in the paper \u201cTree root nutrient uptake kinetics vary with nutrient availability, environmental conditions, and root traits: A global analysis\u201d. The central product is a global dataset of root inorganic nutrient uptake rates and kinetics parameters covering temperate, boreal, and sub/tropical tree species, representing a collection of nutrient uptake data from published studies. This dataset enables tree investigation of root nutrient uptake rates across species, space, and experimental conditions. The data can also be combined with supplementary data on root and soil traits or with external datasets (e.g. R scripts contained within use data from FRED 3.0; (Iversen et al., 2021)). Contained within is the main nutrient data \u201cuptake_data.csv\u201d as well as 4 additional .csv files that link uptake data to supplementary measurements, source references, taxonomic information, and additional nutrient uptake measurements across nutrient gradients, and 1 .csv file that records meta-analysis results for plotting with the R scripts. There are seven R scripts that support data analysis and creation of the figures in the related publication."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8890-7920",
+        "givenName": "Matthew",
+        "familyName": "Craig",
+        "email": "craigme@ornl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > BIOLOGICAL CLASSIFICATION > PLANTS",
+      "Root nutrient uptake"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > NUTRIENT CYCLING",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > NUTRIENTS",
+      "root traits",
+      "Root nutrient uptake"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Global extent, but data were only collected from forested ecosystems. Lab and greenhouse assays also focus on tree species. Literature search was performed at Oak Ridge National Lab (ORNL): 1 Bethel Valley Road, Oak Ridge, TN 37830 (35.9311 N, -84.3100 W).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 68.6,
+            "longitude": -159.6
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -43,
+            "longitude": 147
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0500OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1971",
+      "endDate": "2024",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8890-7920",
+      "givenName": "Matthew",
+      "familyName": "Craig",
+      "email": "craigme@ornl.gov"
+    },
+    "citation": [
+      "Craig ME, Walker AP, Iversen CM, Knox RG, Yaffar D, and York L. Tree root nutrient uptake kinetics vary with nutrient availability, environmental conditions, and root traits: A global analysis. In revision."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Literature search\nI searched for relevant studies in the ISI Web of Science Core Collection using the search terms \u201croot nutrient uptake kinetics\u201d in March 2022 (419 results). From this list, results were narrowed to studies that contained tree root uptake rates for mineral N and P: ammonium (NH4), nitrate (NO3), and phosphate (PO4). The analysis focused on root mass-specific nutrient uptake rates over hourly time scales, so studies which estimated plant uptake based on whole-plant or plot-level measurements over longer time scales were excluded. The dataset was further augmented in two ways. First, I searched the reference lists of each selected paper to identify additional relevant papers. Second, we repeated the web of science search in Dec 2023, subsetting with the term, \u2018tree OR forest\u2019, to identify any more recent publications.",
+      "Nutrient uptake trait extraction\nFor each study, Vmax and Km means were extracted for each recorded tree species at each unique location along with sample size and an estimate of error (standard deviation or standard error). Information on study location, treatments, and methodological details (e.g. the experimental conditions listed above) was also recorded. Where available, I extracted additional root and soil properties including SRL, root diameter, tissue density, N, Ca, and P concentration, root branching, non-structural carbohydrates, growth, turnover, respiration, and mycorrhizal colonization. Graphical data were extracted using WebPlotDigitizer (Rohatgi, 2022). Some studies did not report Michaelis-Menten parameters, but measured uptake rates at multiple nutrient concentrations. Where possible, these data were fit to the Michaelis-Menten equation using nonlinear least squares fitting with the \u2018drc\u2019 package in R (Ritz et al., 2015)\u2013to obtain estimates of Vmax and Km.",
+      "Data from manipulations\nFor expeiments, nutrient uptake data were extracted for both control and experimental groups from the subset of studies that manipulated nutrient availability, temperature, CO2 concentrations, or mycorrhizal colonization. The duration of the experimental manipulation was recorded for each treatment. For manipulations with more than one treatment level, I extracted only one datum (the highest treatment level) to avoid pseudoreplication. For nutrient availability manipulations, I only included studies that conditioned roots under differing nutrient availability, but assayed high- and low-nutrient conditioned roots under uniform conditions. Manipulations of mycorrhizal colonization (i.e. uncolonized roots versus mycorrhizal roots) often report data for multiple mycorrhizal fungal species. In these cases, mycorrhizal colonization responses were averaged across species and standard deviations (s) were aggregated assuming pooled variance and equal sample sizes.",
+      "Analyses supporting related publication\nStatistical analyses performed by the R scripts are detailed at length in the related publication.",
+      "Iversen CM, McCormack ML, Baer JK, Powell AS, Chen W, Collins C, Fan Y, Fanin N, Freschet GT, Guo D, Hogan JA, Kou L, Laughlin DC, Lavely E, Liese R, Lin D, Meier IC, Montagnoli A, Roumet C, See CR, Soper F, Terzaghi M, Valverde-Barrantes OJ, Wang C, Wright SJ, Wurzburger N, Zadworny M. 2021. Fine-Root Ecology Database (FRED): A Global Collection of Root Trait Data with Coincident Site, Vegetation, Edaphic, and Climatic Data, Version 3. Oak Ridge National Laboratory, TES SFA, U.S. Department of Energy, Oak Ridge, Tennessee, U.S.A. Access on-line at: https://doi.org/10.25581/ornlsfa.014/1459186.\nRitz C, Baty F, Streibig JC, Gerhard D. 2015. Dose-Response Analysis Using R. PLOS ONE 10: e0146021.\nRohatgi A. 2022. WebPlotDigitizer Version 4. https://automeris.io/v4/"
+    ],
+    "distribution": [
+      {
+        "contentSize": 6.7255859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1af3da51b94bcea-20250227T164909213",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-1af3da51b94bcea-20250227T164909213",
+        "name": "figures.R"
+      },
+      {
+        "contentSize": 4.1337890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1b1aa8ccbc63efc-20250227T164909209",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-1b1aa8ccbc63efc-20250227T164909209",
+        "name": "pft_analyses.R"
+      },
+      {
+        "contentSize": 23.990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1a52f35585634f9-20250227T164909222",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1a52f35585634f9-20250227T164909222",
+        "name": "supp_data.csv"
+      },
+      {
+        "contentSize": 3.833984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2c80e6d64f55051-20250227T164909229",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2c80e6d64f55051-20250227T164909229",
+        "name": "continuous_studies.csv"
+      },
+      {
+        "contentSize": 3.2392578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a5758d2327a140-20250227T164909211",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-3a5758d2327a140-20250227T164909211",
+        "name": "meta_analysis.R"
+      },
+      {
+        "contentSize": 11.5078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a9dc53205fd902-20250227T211217130",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-3a9dc53205fd902-20250227T211217130",
+        "name": "Data_for_Tree_root_nutrient_uptake_kinetics_vary.xml"
+      },
+      {
+        "contentSize": 110.66796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7b02d6bccb37398-20250227T211125729",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7b02d6bccb37398-20250227T211125729",
+        "name": "uptake_data.csv"
+      },
+      {
+        "contentSize": 16.802734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a55cd23ddfb1441-20250227T164909206",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-a55cd23ddfb1441-20250227T164909206",
+        "name": "root_trait_analyses.R"
+      },
+      {
+        "contentSize": 6.2021484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-90e926b21d5fe66-20250227T211125720",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-90e926b21d5fe66-20250227T211125720",
+        "name": "uptake_data.R"
+      },
+      {
+        "contentSize": 2.9404296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a37ea8a79293136-20250227T164909224",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a37ea8a79293136-20250227T164909224",
+        "name": "species_list.csv"
+      },
+      {
+        "contentSize": 420.208984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-addc24600b7c10c-20250227T164909219",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-addc24600b7c10c-20250227T164909219",
+        "name": "Nutrient_uptake_dataset_description.pdf"
+      },
+      {
+        "contentSize": 7.1103515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f10fb01e4281578-20250227T164909215",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-f10fb01e4281578-20250227T164909215",
+        "name": "effects.R"
+      },
+      {
+        "contentSize": 15.8134765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e32fac8aa0f5c10-20250227T164909226",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e32fac8aa0f5c10-20250227T164909226",
+        "name": "references.csv"
+      },
+      {
+        "contentSize": 1.1220703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e3bd0b79dbe67cd-20250227T164909227",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e3bd0b79dbe67cd-20250227T164909227",
+        "name": "meta_analysis_results.csv"
+      },
+      {
+        "contentSize": 2.216796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-de166421b8f97c7-20250227T164909217",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-de166421b8f97c7-20250227T164909217",
+        "name": "continuous_studies.R"
+      }
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "id": "ess-dive-5e1ae3f3392a032-20230504T212232279162",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1734840",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-5e1ae3f3392a032-20230504T212232279162",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ef1221c795b2775-20230407T154157593395",
+  "dateUploaded": "2023-05-04T21:22:33.338Z",
+  "dateModified": "2023-05-04T21:22:36.928Z",
+  "isPublic": true,
+  "citation": "Velliquette T; Welch J; Crow M; Devarakonda R; Heinz S; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). Dataset. doi:10.15485/1734840",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1734840",
+    "name": "ESS-DIVE Reporting Format for File-level Metadata",
+    "description": [
+      "The ESS-DIVE reporting format for file-level metadata (FLMD) provides granular information at the data file level to describe the contents, scope, and structure of the data file to enable comparison of data files within a data package. The FLMD are fully consistent with and augment the metadata collected at the data package level. We developed the FLMD template based on a review of a small number of existing FLMD in use at other agencies and repositories with valuable input from the Environmental Systems Science (ESS) Community. Also included is a template for a CSV Data Dictionary where users can provide file-level information about the contents of a CSV data file (e.g., define column names, provide units). Files are in .csv, .xlsx, and .md. Templates are in both .csv and .xlsx (open with e.g. Microsoft Excel, LibreOffice, or Google Sheets). Open the .md files by downloading and using a text editor (e.g. Notepad or TextEdit). Though we provide Excel templates for the file-level metadata reporting format, our instructions encourage users to 'Save the FLMD template as a CSV following the CSV Reporting Format guidance'. In addition, we developed the ESS-DIVE File Level Metadata Extractor which is a lightweight python script that can extract some FLMD fields following the recommended FLMD format and structure."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9855-5191",
+        "givenName": "Terri",
+        "familyName": "Velliquette",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "velliquettet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5987-6387",
+        "givenName": "Jessica",
+        "familyName": "Welch",
+        "email": "welchjn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7260-807X",
+        "givenName": "Michael",
+        "familyName": "Crow",
+        "email": "crowmc@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2661-1937",
+        "givenName": "Ranjeet",
+        "familyName": "Devarakonda",
+        "email": "devarakondar@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4150-2686",
+        "givenName": "Susan",
+        "familyName": "Heinz",
+        "email": "heinzsl@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6339-1139",
+        "givenName": "Robert",
+        "familyName": "Crystal-Ornelas",
+        "email": "rcrystalornelas@lbl.gov"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "Reporting Format",
+      "FAIR data",
+      "data guidelines",
+      "community data standard",
+      "metadata"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-01-01",
+      "endDate": "2021-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9855-5191",
+      "givenName": "Terri",
+      "familyName": "Velliquette",
+      "email": "velliquettet@ornl.gov"
+    },
+    "citation": [
+      "GitHub repository with the most up-to-date file-level metadata guidelines: https://github.com/ess-dive-community/essdive-file-level-metadata",
+      "Website with up-to-date file-level metadata guidelines: https://ess-dive.gitbook.io/file-level-metadata-reporting-format/",
+      "McNelis, J., Crow, M., and Devarakonda, R., ESS-DIVE File Level Metadata Extractor. Computer Software. https://code.ornl.gov/ngee-arctic/ess-dive-meta. 01 Oct. 2020. Web. doi:10.11578/dc.20201103.5."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "f5bb4f8b-224d-4d6a-9040-ae5a4a2959e6"
+      },
+      "name": "Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "daagarwal@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "To create the file-level metadata (FLMD) reporting format, we first reviewed metadata practices and guidelines including standards and schema designed for publishing metadata in other data repositories and institutions (see Bibliography below).\nThe initial research and comparisons contributed to the first draft of a FLMD reporting format. We used subsequent drafts to develop a crosswalk table (included as part of this dataset) to compare the draft FLMD reporting format information against what file-level type metadata may already be captured by other agencies and repositories within DOE and beyond (see list in References below). We gathered feedback on the various FLMD template and document drafts through email solicitations, presentations at multiple meetings, one-on-one sessions, and small group discussions. We interacted with numerous projects/people across the ESS Community and with each interaction improved the FLMD reporting format.\nThe CSV Data Dictionary [CSV_dd] supplies file-level information about the contents of a CSV data file. In addition, we developed the ESS-DIVE File Level Metadata Extractor which is a lightweight python script [https://code.ornl.gov/ngee-arctic/ess-dive-meta] that can extract some FLMD fields following the recommended format and structure.",
+      "References\nEDI (Environmental Data Initiative). 2019. Five phases of data publishing - Phase 2: Format and QC data tables. https://environmentaldatainitiative.org/five-phases-of-data-publishing/phase-2/EML (Ecological Metadata Language). 2019.\nEcological Metadata Language Version 2.2.0. https://doi.org/10.5063/F11834T2\nEvans, K., et al. 2016. ESDS-RFC-027v1.1 - ASCII File Format Guidelines for Earth Science Data. https://cdn.earthdata.nasa.gov/conduit/upload/4827/ESDS-RFC-027v1.1.pdf\nFGDC (Federal Geographic Data Committee). 2016. National Geospatial Data Assets (NGDA) Metadata Guidelines, Version 3. https://www.geoplatform.gov/wpcontent/uploads/2018/05/NGDA_Metadata_Guidelines_v3.pdf\nNational Geospatial Data Asset Portfolio (https://communities.geoplatform.gov/ngda-portfolio/ngda-portfolio/)"
+    ],
+    "distribution": [
+      {
+        "contentSize": 2.208984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-27edd9684f92d50-20210910T163630510",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-27edd9684f92d50-20210910T163630510",
+        "name": "csv_dd_quick_guide.md"
+      },
+      {
+        "contentSize": 11.94921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-38202d8440055dc-20210910T163250909",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-38202d8440055dc-20210910T163250909",
+        "name": "flmd_quick_guide.md"
+      },
+      {
+        "contentSize": 6.5302734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a6faabf62a34da-20210910T163250896",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3a6faabf62a34da-20210910T163250896",
+        "name": "flmd_crosswalk.csv"
+      },
+      {
+        "contentSize": 17.7919921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6ad3039aad8687a-20210927T225213265",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6ad3039aad8687a-20210927T225213265",
+        "name": "flmd_template.csv"
+      },
+      {
+        "contentSize": 18.0654296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5e1ae3f3392a032-20230504T212232279162",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-5e1ae3f3392a032-20230504T212232279162",
+        "name": "ESS_DIVE_Reporting_Format_for_File_level_Metadata.xml"
+      },
+      {
+        "contentSize": 0.068359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7f25f794e722804-20210927T225227641",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7f25f794e722804-20210927T225227641",
+        "name": "CSV_dd_template.csv"
+      },
+      {
+        "contentSize": 1.091796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a503faf7fc1ede8-20210910T163630500",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-a503faf7fc1ede8-20210910T163630500",
+        "name": "csv_dd_example.md"
+      },
+      {
+        "contentSize": 9.6865234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a5b9b38d71c6f01-20210910T163630519",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-a5b9b38d71c6f01-20210910T163630519",
+        "name": "CSV_dd_template.xlsx"
+      },
+      {
+        "contentSize": 4.2900390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-92ea978d97283bc-20210910T163250926",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-92ea978d97283bc-20210910T163250926",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 2.0390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-95991efe3ad3e42-20210910T165105193",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-95991efe3ad3e42-20210910T165105193",
+        "name": "CSV_dd_README.md"
+      },
+      {
+        "contentSize": 2.380859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bb67d2fa72663f3-20210910T163250917",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-bb67d2fa72663f3-20210910T163250917",
+        "name": "flmd_template_example.md"
+      },
+      {
+        "contentSize": 1.626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c45b82dd4215a5c-20210910T163250904",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-c45b82dd4215a5c-20210910T163250904",
+        "name": "flmd_instructions.md"
+      },
+      {
+        "contentSize": 11.298828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f20a3588e4de9a5-20210910T163250913",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-f20a3588e4de9a5-20210910T163250913",
+        "name": "flmd_template.xlsx"
+      },
+      {
+        "contentSize": 18.2568359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fe91727b7baccbd-20210910T163250922",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-fe91727b7baccbd-20210910T163250922",
+        "name": "LICENSE.md"
+      }
+    ]
+  }
+}

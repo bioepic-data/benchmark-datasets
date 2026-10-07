@@ -1,0 +1,3267 @@
+{
+  "id": "ess-dive-28c4750aab75568-20240819T205237706",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1895159",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-28c4750aab75568-20240819T205237706",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-28c4750aab75568-20231108T174345678",
+  "dateUploaded": "2024-08-19T20:52:38.601Z",
+  "dateModified": "2024-08-19T20:52:42.865Z",
+  "isPublic": true,
+  "citation": "Torgeson J M; Bambakidis T; Bates T L; Chu R; Crump B C; Danczak R E; Forbes B; Garayburu-Caruso V A; Goldman A E; Logozzo L; Maavara T; Martin E W; McKever S A; Powers-McCormack B; Raymond P A; Renteria L; Toyoda J G; Stegen J C (2022): WHONDRS Surface Water Dissolved Organic Carbon and FTICR-MS across Stream Orders in Four United States Watersheds in 2019 and 2020 (v3). River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1895159",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1895159",
+    "name": "WHONDRS Surface Water Dissolved Organic Carbon and FTICR-MS across Stream Orders in Four United States Watersheds in 2019 and 2020 (v3)",
+    "description": [
+      "This dataset supports the broader Watershed Rules of Life (WROL) study examining spatial and temporal biogeochemical and microbial relationships across the Connecticut River, Deschutes River, Gunnison River, and Willamette River watersheds. The dataset provides geochemistry and organic matter characterization data generated from surface water collected from August 2019 to September 2020 in Colorado, Connecticut, Oregon, and Vermont. Related data were collected and will be published separately in collaboration with P. A. Raymond and B. C. Crump as part of WROL. This dataset is comprised of one folder containing (1) file-level metadata; (2) data dictionary; (3) readme; (4) field metadata; (5) dissolved organic carbon (DOC, measured as non-purgeable organic carbon, NPOC) data and averages; (6) surface water sampling protocol; (7) methods codes; (8) international generic sample number (IGSN) mapping file; and (9) a folder of high resolution characterization of organic matter via 12 Tesla Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS) generated through the Environmental Molecular Sciences Laboratory (EMSL; https://www.pnnl.gov/environmental-molecular-sciences-laboratory). The FTICR folder contains two subfolders, one containing the .xml data files and the other containing instructions for using Formularity (https://omics.pnl.gov/software/formularity) and an R script to process the data based on the user's specific needs. All files are .csv, .pdf, .R, .ref, or .xml. This data package was originally published in October 2022. It was updated in July 2023 (v2) and again in November 2023 (v3). See the change history section in the readme for more details."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2489-2248",
+        "givenName": "Joshua M.",
+        "familyName": "Torgeson",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "joshua.torgeson@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8452-3500",
+        "givenName": "Ted",
+        "familyName": "Bambakidis",
+        "affiliation": "Oregon State University",
+        "email": "bambakit@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Tristan L.",
+        "familyName": "Bates",
+        "affiliation": "Colorado Mesa University",
+        "email": "tristan.leebates@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Rosalie",
+        "familyName": "Chu",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Rosalie.Chu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7062-1273",
+        "givenName": "Byron C.",
+        "familyName": "Crump",
+        "affiliation": "Oregon State University",
+        "email": "byron.crump@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert E.",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9363-2143",
+        "givenName": "Laura",
+        "familyName": "Logozzo",
+        "affiliation": "Yale University",
+        "email": "laura.logozzo@yale.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6677-9262",
+        "givenName": "Taylor",
+        "familyName": "Maavara",
+        "affiliation": "University of Leeds",
+        "email": "T.Maavara@leeds.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Edward W.",
+        "familyName": "Martin",
+        "affiliation": "Colorado Mesa University",
+        "email": "ewmartin@mavs.coloradomesa.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophia A.",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "sophia.mckever@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8564-7860",
+        "givenName": "Peter A.",
+        "familyName": "Raymond",
+        "affiliation": "Yale University",
+        "email": "peter.raymond@yale.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6299-2146",
+        "givenName": "Jason G.",
+        "familyName": "Toyoda",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Jason.Toyoda@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "River corridor",
+      "Freshwater",
+      "River",
+      "Stream",
+      "Stream order",
+      "Watershed",
+      "Biogeochemistry",
+      "Hydrobiogeochemical function",
+      "Organic matter",
+      "Metabolite",
+      "Metabolomics",
+      "Mass spectrometry",
+      "ESS-DIVE Sample ID and Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "NPOC",
+      "Non-purgeable organic carbon",
+      "DOC",
+      "Dissolved organic carbon",
+      "FTICR-MS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "WROL2019_001, Rock Creek tributary of East River, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9827,
+            "longitude": -107.0051
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9827,
+            "longitude": -107.0051
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_002, Rustlers Creek tributary of East River, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9905,
+            "longitude": -107.0065
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9905,
+            "longitude": -107.0065
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_003, Bradley Creek tributary of East River, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9858,
+            "longitude": -107.0028
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9858,
+            "longitude": -107.0028
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_004, Taylor River at Taylor Park, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8604,
+            "longitude": -106.567
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8604,
+            "longitude": -106.567
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_005, Taylor River below reservoir, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8183,
+            "longitude": -106.6086
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8183,
+            "longitude": -106.6086
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_006, East River pump house, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9233,
+            "longitude": -106.9424
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9233,
+            "longitude": -106.9424
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_007, East River at Almont, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.6644,
+            "longitude": -106.8475
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.6644,
+            "longitude": -106.8475
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_008, Gunnison River near Gunnison, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5292,
+            "longitude": -106.9561
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5292,
+            "longitude": -106.9561
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_009, Gunnison River at Road 32, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5172,
+            "longitude": -106.9956
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5172,
+            "longitude": -106.9956
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_010, Gunnison River below Gunnison Tunnel, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5292,
+            "longitude": -107.6483
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5292,
+            "longitude": -107.6483
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_011, Gunnison River near Grand Junction, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9833,
+            "longitude": -108.45
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9833,
+            "longitude": -108.45
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_012, HJ Andrews watershed 2, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2134,
+            "longitude": -122.244
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2134,
+            "longitude": -122.244
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_013, Lookout Creek near Blue River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2097,
+            "longitude": -122.257
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2097,
+            "longitude": -122.257
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_014, HJ Andrews watershed 1, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2085,
+            "longitude": -122.2568
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2085,
+            "longitude": -122.2568
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_015, Blue River below Tidbits Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2179,
+            "longitude": -122.265
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2179,
+            "longitude": -122.265
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_016, Blue River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.1623,
+            "longitude": -122.332
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.1623,
+            "longitude": -122.332
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_017, McKenzie River near Walterville, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.0696,
+            "longitude": -122.7723
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.0696,
+            "longitude": -122.7723
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_018, Middle Fork Willamette River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9983,
+            "longitude": -122.905
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9983,
+            "longitude": -122.905
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_019, Coast Fork Willamette River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9806,
+            "longitude": -122.9653
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9806,
+            "longitude": -122.9653
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_020, Willamette River at Harrisburg, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2701,
+            "longitude": -123.1748
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2701,
+            "longitude": -123.1748
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_021, Willamette River at Corvallis, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5664,
+            "longitude": -123.2568
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5664,
+            "longitude": -123.2568
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_022, Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_023, Willamette River at Harrisburg, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2701,
+            "longitude": -123.1748
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2701,
+            "longitude": -123.1748
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_024, Deschutes River at La Pine, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.814,
+            "longitude": -121.7772
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.814,
+            "longitude": -121.7772
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_025, Cultus River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.8228,
+            "longitude": -121.7977
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.8228,
+            "longitude": -121.7977
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_026, Brown Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.7236,
+            "longitude": -121.796
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.7236,
+            "longitude": -121.796
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_029, Deschutes River at Benham Falls, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9305,
+            "longitude": -121.412
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9305,
+            "longitude": -121.412
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_030, Deschutes River near Madras, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.7428,
+            "longitude": -121.2297
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.7428,
+            "longitude": -121.2297
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_033, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_034, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_035, Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_036, Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_037, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_042, Cultus River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.8228,
+            "longitude": -121.7977
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.8228,
+            "longitude": -121.7977
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_043, Brown Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.7236,
+            "longitude": -121.796
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.7236,
+            "longitude": -121.796
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_044, Deschutes River below Wikiup Reservoir, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.6862,
+            "longitude": -121.6873
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.6862,
+            "longitude": -121.6873
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_045, Little Deschutes River near La Pine, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.6892,
+            "longitude": -121.503
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.6892,
+            "longitude": -121.503
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_046, Deschutes River at Benham Falls, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9305,
+            "longitude": -121.412
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9305,
+            "longitude": -121.412
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_048, Deschutes River near Madras, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.7428,
+            "longitude": -121.2297
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.7428,
+            "longitude": -121.2297
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_049, Trout Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.8012,
+            "longitude": -121.066
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.8012,
+            "longitude": -121.066
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_050, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_051, HJ Andrews watershed 1, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2085,
+            "longitude": -122.2568
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2085,
+            "longitude": -122.2568
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_052, HJ Andrews watershed 2, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2134,
+            "longitude": -122.244
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2134,
+            "longitude": -122.244
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_053, Blue River below Tidbits Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2179,
+            "longitude": -122.265
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2179,
+            "longitude": -122.265
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_054, Lookout Creek near Blue River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2097,
+            "longitude": -122.257
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2097,
+            "longitude": -122.257
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_055, Blue River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.1623,
+            "longitude": -122.332
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.1623,
+            "longitude": -122.332
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_056, McKenzie River near Walterville, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.0696,
+            "longitude": -122.7723
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.0696,
+            "longitude": -122.7723
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_057, Coast Fork Willamette River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9806,
+            "longitude": -122.9653
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9806,
+            "longitude": -122.9653
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_058, Middle Fork Willamette River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9983,
+            "longitude": -122.905
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9983,
+            "longitude": -122.905
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_059, Willamette River at Harrisburg, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2701,
+            "longitude": -123.1748
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2701,
+            "longitude": -123.1748
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_060, Willamette River at Corvallis, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5664,
+            "longitude": -123.2568
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5664,
+            "longitude": -123.2568
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_061, Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_062, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_063, Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_064, Coast Fork Willamette River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9806,
+            "longitude": -122.9653
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9806,
+            "longitude": -122.9653
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_065, Middle Fork Willamette River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9983,
+            "longitude": -122.905
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9983,
+            "longitude": -122.905
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_066, HJ Andrews watershed 2, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2134,
+            "longitude": -122.244
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2134,
+            "longitude": -122.244
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_067, HJ Andrews watershed 1, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2085,
+            "longitude": -122.2568
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2085,
+            "longitude": -122.2568
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_068, Blue River below Tidbits Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2179,
+            "longitude": -122.265
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2179,
+            "longitude": -122.265
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_069, Lookout Creek near Blue River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2097,
+            "longitude": -122.257
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2097,
+            "longitude": -122.257
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_070, Blue River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.1623,
+            "longitude": -122.332
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.1623,
+            "longitude": -122.332
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_071, McKenzie River near Walterville, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.0696,
+            "longitude": -122.7723
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.0696,
+            "longitude": -122.7723
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_072, Willamette River at Corvallis, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5664,
+            "longitude": -123.2568
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5664,
+            "longitude": -123.2568
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_073, Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_074, Deschutes River at La Pine, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.814,
+            "longitude": -121.7772
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.814,
+            "longitude": -121.7772
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_075, Cultus River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.8228,
+            "longitude": -121.7977
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.8228,
+            "longitude": -121.7977
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_076, Brown Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.7236,
+            "longitude": -121.796
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.7236,
+            "longitude": -121.796
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_077, Deschutes River below Wikiup Reservoir, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.6862,
+            "longitude": -121.6873
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.6862,
+            "longitude": -121.6873
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_078, Little Deschutes River near La Pine, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.6892,
+            "longitude": -121.503
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.6892,
+            "longitude": -121.503
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_079, Deschutes River at Benham Falls, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9305,
+            "longitude": -121.412
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9305,
+            "longitude": -121.412
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_080, Whychus Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2879,
+            "longitude": -121.5441
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2879,
+            "longitude": -121.5441
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_081, Deschutes River near Madras, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.7428,
+            "longitude": -121.2297
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.7428,
+            "longitude": -121.2297
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_082, Trout Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.8012,
+            "longitude": -121.066
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.8012,
+            "longitude": -121.066
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_083, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_084, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_085, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_086, Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_097, Farmington River at Unionville, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7555,
+            "longitude": -72.887
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7555,
+            "longitude": -72.887
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_098, Phelps Brook, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7998,
+            "longitude": -72.9649
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7998,
+            "longitude": -72.9649
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_099, Bunnell Brook, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7862,
+            "longitude": -72.965
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7862,
+            "longitude": -72.965
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_100, Connecticut River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9872,
+            "longitude": -72.6058
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9872,
+            "longitude": -72.6058
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_1001, Rock Creek tributary of East River, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9827,
+            "longitude": -107.0051
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9827,
+            "longitude": -107.0051
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_1002, Rustlers Creek tributary of East River, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9905,
+            "longitude": -107.0065
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9905,
+            "longitude": -107.0065
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_1003, East River pump house, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9233,
+            "longitude": -106.9424
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9233,
+            "longitude": -106.9424
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_1004, Bradley Creek tributary of East River, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9858,
+            "longitude": -107.0028
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9858,
+            "longitude": -107.0028
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_101, Farmington River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9083,
+            "longitude": -72.7594
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9083,
+            "longitude": -72.7594
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_102, Still River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9679,
+            "longitude": -73.0334
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9679,
+            "longitude": -73.0334
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_103, Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_104, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_105, Middle Fork Willamette River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9983,
+            "longitude": -122.905
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9983,
+            "longitude": -122.905
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_106, HJ Andrews watershed 1, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2085,
+            "longitude": -122.2568
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2085,
+            "longitude": -122.2568
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_107, McKenzie River near Walterville, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.0696,
+            "longitude": -122.7723
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.0696,
+            "longitude": -122.7723
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_108, Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_109, HJ Andrews watershed 2, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2134,
+            "longitude": -122.244
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2134,
+            "longitude": -122.244
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_110, Lookout Creek near Blue River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2097,
+            "longitude": -122.257
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2097,
+            "longitude": -122.257
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_111, Willamette River at Harrisburg, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2701,
+            "longitude": -123.1748
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2701,
+            "longitude": -123.1748
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_112, Coast Fork Willamette River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9806,
+            "longitude": -122.9653
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9806,
+            "longitude": -122.9653
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_113, Blue River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.1623,
+            "longitude": -122.332
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.1623,
+            "longitude": -122.332
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_114, Willamette River at Corvallis, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5664,
+            "longitude": -123.2568
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5664,
+            "longitude": -123.2568
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_115, Blue River below Tidbits Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2179,
+            "longitude": -122.265
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2179,
+            "longitude": -122.265
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_116, Deschutes River at La Pine, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.814,
+            "longitude": -121.7772
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.814,
+            "longitude": -121.7772
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_117, Cultus River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.8228,
+            "longitude": -121.7977
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.8228,
+            "longitude": -121.7977
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_118, Brown Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.7236,
+            "longitude": -121.796
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.7236,
+            "longitude": -121.796
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_119, Deschutes River below Wikiup Reservoir, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.6862,
+            "longitude": -121.6873
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.6862,
+            "longitude": -121.6873
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_120, Little Deschutes River near La Pine, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.6892,
+            "longitude": -121.503
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.6892,
+            "longitude": -121.503
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_121, Sleepers River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4353,
+            "longitude": -72.0389
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4353,
+            "longitude": -72.0389
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_122, Pope Brook, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4761,
+            "longitude": -72.125
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4761,
+            "longitude": -72.125
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_123, W-9, Pope Brook Tributary, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4906,
+            "longitude": -72.1622
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4906,
+            "longitude": -72.1622
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_124, East Branch Passumpsic River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6339,
+            "longitude": -71.8981
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6339,
+            "longitude": -71.8981
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_125, Passumpsic River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.3656,
+            "longitude": -72.0393
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.3656,
+            "longitude": -72.0393
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_126, Moose River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5117,
+            "longitude": -71.8378
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5117,
+            "longitude": -71.8378
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_128, Connecticut River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9872,
+            "longitude": -72.6058
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9872,
+            "longitude": -72.6058
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_130, Still River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9679,
+            "longitude": -73.0334
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9679,
+            "longitude": -73.0334
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_134, Bunnell Brook, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7862,
+            "longitude": -72.965
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7862,
+            "longitude": -72.965
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_135, Passumpsic River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.3656,
+            "longitude": -72.0393
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.3656,
+            "longitude": -72.0393
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_136, Sleepers River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4353,
+            "longitude": -72.0389
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4353,
+            "longitude": -72.0389
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_137, Moose River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5117,
+            "longitude": -71.8378
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5117,
+            "longitude": -71.8378
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_138, East Branch Passumpsic River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6339,
+            "longitude": -71.8981
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6339,
+            "longitude": -71.8981
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_139, Pope Brook, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4761,
+            "longitude": -72.125
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4761,
+            "longitude": -72.125
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_140, W-9, Pope Brook Tributary, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4906,
+            "longitude": -72.1622
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4906,
+            "longitude": -72.1622
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_145, Deschutes River at Benham Falls, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9305,
+            "longitude": -121.412
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9305,
+            "longitude": -121.412
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_146, Whychus Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2879,
+            "longitude": -121.5441
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2879,
+            "longitude": -121.5441
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_147, Deschutes River near Madras, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.7428,
+            "longitude": -121.2297
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.7428,
+            "longitude": -121.2297
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_148, Trout Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.8012,
+            "longitude": -121.066
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.8012,
+            "longitude": -121.066
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_149, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_150, Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_151, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_152, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_153, Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_154, Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_155, Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_164, Pope Brook, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4761,
+            "longitude": -72.125
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4761,
+            "longitude": -72.125
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_165, W-9, Pope Brook Tributary, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4906,
+            "longitude": -72.1622
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4906,
+            "longitude": -72.1622
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_166, Passumpsic River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.3656,
+            "longitude": -72.0393
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.3656,
+            "longitude": -72.0393
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_167, Farmington River at Unionville, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7555,
+            "longitude": -72.887
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7555,
+            "longitude": -72.887
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_168, Phelps Brook, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7998,
+            "longitude": -72.9649
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7998,
+            "longitude": -72.9649
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_169, Bunnell Brook, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7862,
+            "longitude": -72.965
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7862,
+            "longitude": -72.965
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_170, Nepaug River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.8207,
+            "longitude": -72.9701
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.8207,
+            "longitude": -72.9701
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_171, Still River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9679,
+            "longitude": -73.0334
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9679,
+            "longitude": -73.0334
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_172, Connecticut River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9872,
+            "longitude": -72.6058
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9872,
+            "longitude": -72.6058
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_173, Farmington River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9083,
+            "longitude": -72.7594
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9083,
+            "longitude": -72.7594
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_174, Moose River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5117,
+            "longitude": -71.8378
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5117,
+            "longitude": -71.8378
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_175, Passumpsic River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.3656,
+            "longitude": -72.0393
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.3656,
+            "longitude": -72.0393
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_176, W-9, Pope Brook Tributary, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4906,
+            "longitude": -72.1622
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4906,
+            "longitude": -72.1622
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_177, Pope Brook, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4761,
+            "longitude": -72.125
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4761,
+            "longitude": -72.125
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_178, Connecticut River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9872,
+            "longitude": -72.6058
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9872,
+            "longitude": -72.6058
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_179, Farmington River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9083,
+            "longitude": -72.7594
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9083,
+            "longitude": -72.7594
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_180, Still River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9679,
+            "longitude": -73.0334
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9679,
+            "longitude": -73.0334
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_181, Farmington River at Unionville, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7555,
+            "longitude": -72.887
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7555,
+            "longitude": -72.887
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_182, Nepaug River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.8207,
+            "longitude": -72.9701
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.8207,
+            "longitude": -72.9701
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_183, East Branch Passumpsic River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6339,
+            "longitude": -71.8981
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6339,
+            "longitude": -71.8981
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_184, Sleepers River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4353,
+            "longitude": -72.0389
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4353,
+            "longitude": -72.0389
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_185, Phelps Brook, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7998,
+            "longitude": -72.9649
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7998,
+            "longitude": -72.9649
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_186, Bunnell Brook, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7862,
+            "longitude": -72.965
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7862,
+            "longitude": -72.965
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_188, Gunnison River at Road 32, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5172,
+            "longitude": -106.9956
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5172,
+            "longitude": -106.9956
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_189, East River at Almont, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.6644,
+            "longitude": -106.8475
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.6644,
+            "longitude": -106.8475
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_190, Rustlers Creek tributary of East River, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9905,
+            "longitude": -107.0065
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9905,
+            "longitude": -107.0065
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_192, East River pump house, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9233,
+            "longitude": -106.9424
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9233,
+            "longitude": -106.9424
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_193, Rock Creek tributary of East River, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9827,
+            "longitude": -107.0051
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9827,
+            "longitude": -107.0051
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_194, Taylor River below reservoir, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8183,
+            "longitude": -106.6086
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8183,
+            "longitude": -106.6086
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_195, Gunnison River near Gunnison, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5292,
+            "longitude": -106.9561
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5292,
+            "longitude": -106.9561
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_209, Gunnison River below Gunnison Tunnel, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5292,
+            "longitude": -107.6483
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5292,
+            "longitude": -107.6483
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_210, Gunnison River at Road 32, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5172,
+            "longitude": -106.9956
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5172,
+            "longitude": -106.9956
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_211, Taylor River at Taylor Park, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8604,
+            "longitude": -106.567
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8604,
+            "longitude": -106.567
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_212, Gunnison River near Gunnison, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5292,
+            "longitude": -106.9561
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5292,
+            "longitude": -106.9561
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_215, Taylor River below reservoir, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8183,
+            "longitude": -106.6086
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8183,
+            "longitude": -106.6086
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WROL2019_216, East River at Almont, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.6644,
+            "longitude": -106.8475
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.6644,
+            "longitude": -106.8475
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-08-16",
+      "endDate": "2020-09-03",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9135-7424",
+      "givenName": "James C.",
+      "familyName": "Stegen",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "James.Stegen@pnnl.gov"
+    },
+    "citation": [
+      "Boye, K., Crystal-Ornelas, R., O'Ryan, D., Goldman, A. E., Damerow, J., Varadharajan, C., & Agarwal, D. (2022). ESS-DIVE Reporting Format for Sample-based Water and Soil Chemistry Measurements. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi: 10.15485/1865731",
+      "Damerow J ; Varadharajan C ; Boye K ; Brodie E ; Burrus M ; Chadwick D ; Cholia S ; Crystal-Ornelas R ; Elbashandy H ; Eloy Alves R ; Ely K ; Goldman A ; Hendrix V ; Jones C ; Jones M ; Kakalia Z ; Kemner K ; Kersting A ; Maher K ; Merino N ; O'Brien F ; Perzan Z ; Robles E ; Snavely C ; Sorensen P ; Stegen J ; Weisenhorn P ; Whitenack K ; Zavarin M ; Agarwal D (2020): Sample Identifiers and Metadata Reporting Format for Environmental Systems Science. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/1660470",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734841",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Samples were collected across stream orders in the Connecticut River, Deschutes River, Gunnison River, and Willamette River watersheds. Site metadata, including general environmental information, were manually recorded in the field. See WHONDRS_WROL_Sampling_Protocol.pdf for details on sample collection. Surface water samples were syringe-filtered into pre-acidified vials in the field, shipped on blue ice to Pacific Northwest National Laboratory, and stored until ready for laboratory processing. Samples were analyzed for DOC (measured as NPOC) and underwent solid phase extraction (SPE) before FTICR-MS analysis. For details regarding laboratory and instrument methods, see the alphanumeric methods codes located in the header rows of the chemistry data csv file and their associated definitions in WHONDRS_WROL_Methods_Codes.csv. Data formats follow ESS-DIVE Reporting Formats.",
+      "Approach to change history and versioning:\nUpdates to data package version: When any file within a data package is updated, the data package version number is updated. The data package version number is indicated in the title of the data package, the data package folder name, and in the change history table below. You can access previous versions of the data package by sending a request to ESS-DIVE.\nUpdates to individual file versions: As files are changed, the file version number is also updated. The file version number is indicated in the file name, file level metadata (flmd) file, and the change history table below. The version number on an individual file may not match the version number of the data package. For example, v3 of a data package may include v2 of an individual file.",
+      "This section provides a list of all parent site locations, from which the physical samples were collected. More information is provided in the location landing pages (links below) and the the dataset file that ends in 'IGSN-Mapping.csv'.\nSample Name IGSN PID IGSN URL\nBLU-BLU IGSN:10.58052/IEWDR00WM https://doi.org/10.58052/IEWDR00WM\nBLU-TID IGSN:10.58052/IEWDR00WN https://doi.org/10.58052/IEWDR00WN\nBRO-LAP IGSN:10.58052/IEWDR00WO https://doi.org/10.58052/IEWDR00WO\nCT-BUNN IGSN:10.58052/IEWDR00WP https://doi.org/10.58052/IEWDR00WP\nCT-EBRA IGSN:10.58052/IEWDR00WQ https://doi.org/10.58052/IEWDR00WQ\nCT-FARM IGSN:10.58052/IEWDR00WR https://doi.org/10.58052/IEWDR00WR\nCT-MOOS IGSN:10.58052/IEWDR00WS https://doi.org/10.58052/IEWDR00WS\nCT-NEPA IGSN:10.58052/IEWDR00WT https://doi.org/10.58052/IEWDR00WT\nCT-PASS IGSN:10.58052/IEWDR00WU https://doi.org/10.58052/IEWDR00WU\nCT-PHEL IGSN:10.58052/IEWDR00WV https://doi.org/10.58052/IEWDR00WV\nCT-POPE IGSN:10.58052/IEWDR00WW https://doi.org/10.58052/IEWDR00WW\nCT-SLPR IGSN:10.58052/IEWDR00WX https://doi.org/10.58052/IEWDR00WX\nCT-STIL IGSN:10.58052/IEWDR00WY https://doi.org/10.58052/IEWDR00WY\nCT-THOM IGSN:10.58052/IEWDR00WZ https://doi.org/10.58052/IEWDR00WZ\nCT-UNIO IGSN:10.58052/IEWDR00X0 https://doi.org/10.58052/IEWDR00X0\nCT-W9 IGSN:10.58052/IEWDR00X1 https://doi.org/10.58052/IEWDR00X1\nCUL-LAP IGSN:10.58052/IEWDR00X2 https://doi.org/10.58052/IEWDR00X2\nDES-BFA IGSN:10.58052/IEWDR00X3 https://doi.org/10.58052/IEWDR00X3\nDES-LAP IGSN:10.58052/IEWDR00X4 https://doi.org/10.58052/IEWDR00X4\nDES-MAD IGSN:10.58052/IEWDR00X5 https://doi.org/10.58052/IEWDR00X5\nDES-MOO IGSN:10.58052/IEWDR00X6 https://doi.org/10.58052/IEWDR00X6\nDES-WIC IGSN:10.58052/IEWDR00X7 https://doi.org/10.58052/IEWDR00X7\nEAS-ALM IGSN:10.58052/IEWDR00X8 https://doi.org/10.58052/IEWDR00X8\nEAS-BRA IGSN:10.58052/IEWDR00X9 https://doi.org/10.58052/IEWDR00X9\nEAS-PUM IGSN:10.58052/IEWDR00XA https://doi.org/10.58052/IEWDR00XA\nEAS-ROC IGSN:10.58052/IEWDR00XB https://doi.org/10.58052/IEWDR00XB\nEAS-RUS IGSN:10.58052/IEWDR00XC https://doi.org/10.58052/IEWDR00XC\nGUN-GRJ IGSN:10.58052/IEWDR00XD https://doi.org/10.58052/IEWDR00XD\nGUN-GUN IGSN:10.58052/IEWDR00XE https://doi.org/10.58052/IEWDR00XE\nGUN-R32 IGSN:10.58052/IEWDR00XF https://doi.org/10.58052/IEWDR00XF\nGUN-TUN IGSN:10.58052/IEWDR00XG https://doi.org/10.58052/IEWDR00XG\nHJA-WS1 IGSN:10.58052/IEWDR00XH https://doi.org/10.58052/IEWDR00XH\nHJA-WS2 IGSN:10.58052/IEWDR00XI https://doi.org/10.58052/IEWDR00XI\nLDS-LAP IGSN:10.58052/IEWDR00XJ https://doi.org/10.58052/IEWDR00XJ\nLOO-BLU IGSN:10.58052/IEWDR00XK https://doi.org/10.58052/IEWDR00XK\nMCK-WAL IGSN:10.58052/IEWDR00XL https://doi.org/10.58052/IEWDR00XL\nTAY-RES IGSN:10.58052/IEWDR00XM https://doi.org/10.58052/IEWDR00XM\nTAY-TAY IGSN:10.58052/IEWDR00XN https://doi.org/10.58052/IEWDR00XN\nTRO-GAT IGSN:10.58052/IEWDR00XO https://doi.org/10.58052/IEWDR00XO\nWHY-SIS IGSN:10.58052/IEWDR00XP https://doi.org/10.58052/IEWDR00XP\nWIL-COR IGSN:10.58052/IEWDR00XQ https://doi.org/10.58052/IEWDR00XQ\nWIL-GOS IGSN:10.58052/IEWDR00XR https://doi.org/10.58052/IEWDR00XR\nWIL-HAR IGSN:10.58052/IEWDR00XS https://doi.org/10.58052/IEWDR00XS\nWIL-JAS IGSN:10.58052/IEWDR00XT https://doi.org/10.58052/IEWDR00XT\nWIL-POR IGSN:10.58052/IEWDR00XU https://doi.org/10.58052/IEWDR00XU",
+      "This section provides a list of source material physical samples used in this dataset. More information describing the samples is provided in the sample landing pages (links below) and the dataset file that ends in 'IGSN-Mapping.csv'.\nSample Name IGSN PID IGSN URL\nWROL2019_001 IGSN:10.58052/IEWDR00XV https://doi.org/10.58052/IEWDR00XV\nWROL2019_002 IGSN:10.58052/IEWDR00XW https://doi.org/10.58052/IEWDR00XW\nWROL2019_003 IGSN:10.58052/IEWDR00XX https://doi.org/10.58052/IEWDR00XX\nWROL2019_004 IGSN:10.58052/IEWDR00XY https://doi.org/10.58052/IEWDR00XY\nWROL2019_005 IGSN:10.58052/IEWDR00XZ https://doi.org/10.58052/IEWDR00XZ\nWROL2019_006 IGSN:10.58052/IEWDR00Y0 https://doi.org/10.58052/IEWDR00Y0\nWROL2019_007 IGSN:10.58052/IEWDR00Y1 https://doi.org/10.58052/IEWDR00Y1\nWROL2019_008 IGSN:10.58052/IEWDR00Y2 https://doi.org/10.58052/IEWDR00Y2\nWROL2019_009 IGSN:10.58052/IEWDR00Y3 https://doi.org/10.58052/IEWDR00Y3\nWROL2019_010 IGSN:10.58052/IEWDR00Y4 https://doi.org/10.58052/IEWDR00Y4\nWROL2019_011 IGSN:10.58052/IEWDR00Y5 https://doi.org/10.58052/IEWDR00Y5\nWROL2019_012 IGSN:10.58052/IEWDR00Y6 https://doi.org/10.58052/IEWDR00Y6\nWROL2019_013 IGSN:10.58052/IEWDR00Y7 https://doi.org/10.58052/IEWDR00Y7\nWROL2019_014 IGSN:10.58052/IEWDR00Y8 https://doi.org/10.58052/IEWDR00Y8\nWROL2019_015 IGSN:10.58052/IEWDR00Y9 https://doi.org/10.58052/IEWDR00Y9\nWROL2019_016 IGSN:10.58052/IEWDR00YA https://doi.org/10.58052/IEWDR00YA\nWROL2019_017 IGSN:10.58052/IEWDR00YB https://doi.org/10.58052/IEWDR00YB\nWROL2019_018 IGSN:10.58052/IEWDR00YC https://doi.org/10.58052/IEWDR00YC\nWROL2019_019 IGSN:10.58052/IEWDR00YD https://doi.org/10.58052/IEWDR00YD\nWROL2019_020 IGSN:10.58052/IEWDR00YE https://doi.org/10.58052/IEWDR00YE\nWROL2019_021 IGSN:10.58052/IEWDR00YF https://doi.org/10.58052/IEWDR00YF\nWROL2019_022 IGSN:10.58052/IEWDR00YG https://doi.org/10.58052/IEWDR00YG\nWROL2019_023 IGSN:10.58052/IEWDR00YH https://doi.org/10.58052/IEWDR00YH\nWROL2019_024 IGSN:10.58052/IEWDR00YI https://doi.org/10.58052/IEWDR00YI\nWROL2019_025 IGSN:10.58052/IEWDR00YJ https://doi.org/10.58052/IEWDR00YJ\nWROL2019_026 IGSN:10.58052/IEWDR00YK https://doi.org/10.58052/IEWDR00YK\nWROL2019_029 IGSN:10.58052/IEWDR00YL https://doi.org/10.58052/IEWDR00YL\nWROL2019_030 IGSN:10.58052/IEWDR00YM https://doi.org/10.58052/IEWDR00YM\nWROL2019_033 IGSN:10.58052/IEWDR00YN https://doi.org/10.58052/IEWDR00YN\nWROL2019_034 IGSN:10.58052/IEWDR00YO https://doi.org/10.58052/IEWDR00YO\nWROL2019_035 IGSN:10.58052/IEWDR00YP https://doi.org/10.58052/IEWDR00YP\nWROL2019_036 IGSN:10.58052/IEWDR00YQ https://doi.org/10.58052/IEWDR00YQ\nWROL2019_037 IGSN:10.58052/IEWDR00YR https://doi.org/10.58052/IEWDR00YR\nWROL2019_041 IGSN:10.58052/IEWDR01IE https://doi.org/10.58052/IEWDR01IE\nWROL2019_042 IGSN:10.58052/IEWDR00YS https://doi.org/10.58052/IEWDR00YS\nWROL2019_043 IGSN:10.58052/IEWDR00YT https://doi.org/10.58052/IEWDR00YT\nWROL2019_044 IGSN:10.58052/IEWDR00YU https://doi.org/10.58052/IEWDR00YU\nWROL2019_045 IGSN:10.58052/IEWDR00YV https://doi.org/10.58052/IEWDR00YV\nWROL2019_046 IGSN:10.58052/IEWDR00YW https://doi.org/10.58052/IEWDR00YW\nWROL2019_047 IGSN:10.58052/IEWDR01IF https://doi.org/10.58052/IEWDR01IF\nWROL2019_048 IGSN:10.58052/IEWDR00YX https://doi.org/10.58052/IEWDR00YX\nWROL2019_049 IGSN:10.58052/IEWDR00YY https://doi.org/10.58052/IEWDR00YY\nWROL2019_050 IGSN:10.58052/IEWDR00YZ https://doi.org/10.58052/IEWDR00YZ\nWROL2019_051 IGSN:10.58052/IEWDR00Z0 https://doi.org/10.58052/IEWDR00Z0\nWROL2019_052 IGSN:10.58052/IEWDR00Z1 https://doi.org/10.58052/IEWDR00Z1\nWROL2019_053 IGSN:10.58052/IEWDR00Z2 https://doi.org/10.58052/IEWDR00Z2\nWROL2019_054 IGSN:10.58052/IEWDR00Z3 https://doi.org/10.58052/IEWDR00Z3\nWROL2019_055 IGSN:10.58052/IEWDR00Z4 https://doi.org/10.58052/IEWDR00Z4\nWROL2019_056 IGSN:10.58052/IEWDR00Z5 https://doi.org/10.58052/IEWDR00Z5\nWROL2019_057 IGSN:10.58052/IEWDR00Z6 https://doi.org/10.58052/IEWDR00Z6\nWROL2019_058 IGSN:10.58052/IEWDR00Z7 https://doi.org/10.58052/IEWDR00Z7\nWROL2019_059 IGSN:10.58052/IEWDR00Z8 https://doi.org/10.58052/IEWDR00Z8\nWROL2019_060 IGSN:10.58052/IEWDR00Z9 https://doi.org/10.58052/IEWDR00Z9\nWROL2019_061 IGSN:10.58052/IEWDR00ZA https://doi.org/10.58052/IEWDR00ZA\nWROL2019_062 IGSN:10.58052/IEWDR00ZB https://doi.org/10.58052/IEWDR00ZB\nWROL2019_063 IGSN:10.58052/IEWDR00ZC https://doi.org/10.58052/IEWDR00ZC\nWROL2019_064 IGSN:10.58052/IEWDR00ZD https://doi.org/10.58052/IEWDR00ZD\nWROL2019_065 IGSN:10.58052/IEWDR00ZE https://doi.org/10.58052/IEWDR00ZE\nWROL2019_066 IGSN:10.58052/IEWDR00ZF https://doi.org/10.58052/IEWDR00ZF\nWROL2019_067 IGSN:10.58052/IEWDR00ZG https://doi.org/10.58052/IEWDR00ZG\nWROL2019_068 IGSN:10.58052/IEWDR00ZH https://doi.org/10.58052/IEWDR00ZH\nWROL2019_069 IGSN:10.58052/IEWDR00ZI https://doi.org/10.58052/IEWDR00ZI\nWROL2019_070 IGSN:10.58052/IEWDR00ZJ https://doi.org/10.58052/IEWDR00ZJ\nWROL2019_071 IGSN:10.58052/IEWDR00ZK https://doi.org/10.58052/IEWDR00ZK\nWROL2019_072 IGSN:10.58052/IEWDR00ZL https://doi.org/10.58052/IEWDR00ZL\nWROL2019_073 IGSN:10.58052/IEWDR00ZM https://doi.org/10.58052/IEWDR00ZM\nWROL2019_074 IGSN:10.58052/IEWDR00ZN https://doi.org/10.58052/IEWDR00ZN\nWROL2019_075 IGSN:10.58052/IEWDR00ZO https://doi.org/10.58052/IEWDR00ZO\nWROL2019_076 IGSN:10.58052/IEWDR00ZP https://doi.org/10.58052/IEWDR00ZP\nWROL2019_077 IGSN:10.58052/IEWDR00ZQ https://doi.org/10.58052/IEWDR00ZQ\nWROL2019_078 IGSN:10.58052/IEWDR00ZR https://doi.org/10.58052/IEWDR00ZR\nWROL2019_079 IGSN:10.58052/IEWDR00ZS https://doi.org/10.58052/IEWDR00ZS\nWROL2019_080 IGSN:10.58052/IEWDR00ZT https://doi.org/10.58052/IEWDR00ZT\nWROL2019_081 IGSN:10.58052/IEWDR00ZU https://doi.org/10.58052/IEWDR00ZU\nWROL2019_082 IGSN:10.58052/IEWDR00ZV https://doi.org/10.58052/IEWDR00ZV\nWROL2019_083 IGSN:10.58052/IEWDR00ZW https://doi.org/10.58052/IEWDR00ZW\nWROL2019_084 IGSN:10.58052/IEWDR00ZX https://doi.org/10.58052/IEWDR00ZX\nWROL2019_085 IGSN:10.58052/IEWDR00ZY https://doi.org/10.58052/IEWDR00ZY\nWROL2019_086 IGSN:10.58052/IEWDR00ZZ https://doi.org/10.58052/IEWDR00ZZ\nWROL2019_097 IGSN:10.58052/IEWDR0100 https://doi.org/10.58052/IEWDR0100\nWROL2019_098 IGSN:10.58052/IEWDR0101 https://doi.org/10.58052/IEWDR0101\nWROL2019_099 IGSN:10.58052/IEWDR0102 https://doi.org/10.58052/IEWDR0102\nWROL2019_100 IGSN:10.58052/IEWDR0103 https://doi.org/10.58052/IEWDR0103\nWROL2019_1001 IGSN:10.58052/IEWDR0104 https://doi.org/10.58052/IEWDR0104\nWROL2019_1002 IGSN:10.58052/IEWDR0105 https://doi.org/10.58052/IEWDR0105\nWROL2019_1003 IGSN:10.58052/IEWDR0106 https://doi.org/10.58052/IEWDR0106\nWROL2019_1004 IGSN:10.58052/IEWDR0107 https://doi.org/10.58052/IEWDR0107\nWROL2019_101 IGSN:10.58052/IEWDR0108 https://doi.org/10.58052/IEWDR0108\nWROL2019_102 IGSN:10.58052/IEWDR0109 https://doi.org/10.58052/IEWDR0109\nWROL2019_103 IGSN:10.58052/IEWDR010A https://doi.org/10.58052/IEWDR010A\nWROL2019_104 IGSN:10.58052/IEWDR010B https://doi.org/10.58052/IEWDR010B\nWROL2019_105 IGSN:10.58052/IEWDR010C https://doi.org/10.58052/IEWDR010C\nWROL2019_106 IGSN:10.58052/IEWDR010D https://doi.org/10.58052/IEWDR010D\nWROL2019_107 IGSN:10.58052/IEWDR010E https://doi.org/10.58052/IEWDR010E\nWROL2019_108 IGSN:10.58052/IEWDR010F https://doi.org/10.58052/IEWDR010F\nWROL2019_109 IGSN:10.58052/IEWDR010G https://doi.org/10.58052/IEWDR010G\nWROL2019_110 IGSN:10.58052/IEWDR010H https://doi.org/10.58052/IEWDR010H\nWROL2019_111 IGSN:10.58052/IEWDR010I https://doi.org/10.58052/IEWDR010I\nWROL2019_112 IGSN:10.58052/IEWDR010J https://doi.org/10.58052/IEWDR010J\nWROL2019_113 IGSN:10.58052/IEWDR010K https://doi.org/10.58052/IEWDR010K\nWROL2019_114 IGSN:10.58052/IEWDR010L https://doi.org/10.58052/IEWDR010L\nWROL2019_115 IGSN:10.58052/IEWDR010M https://doi.org/10.58052/IEWDR010M\nWROL2019_116 IGSN:10.58052/IEWDR010N https://doi.org/10.58052/IEWDR010N\nWROL2019_117 IGSN:10.58052/IEWDR010O https://doi.org/10.58052/IEWDR010O\nWROL2019_118 IGSN:10.58052/IEWDR010P https://doi.org/10.58052/IEWDR010P\nWROL2019_119 IGSN:10.58052/IEWDR010Q https://doi.org/10.58052/IEWDR010Q\nWROL2019_120 IGSN:10.58052/IEWDR010R https://doi.org/10.58052/IEWDR010R\nWROL2019_121 IGSN:10.58052/IEWDR010S https://doi.org/10.58052/IEWDR010S\nWROL2019_122 IGSN:10.58052/IEWDR010T https://doi.org/10.58052/IEWDR010T\nWROL2019_123 IGSN:10.58052/IEWDR010U https://doi.org/10.58052/IEWDR010U\nWROL2019_124 IGSN:10.58052/IEWDR010V https://doi.org/10.58052/IEWDR010V\nWROL2019_125 IGSN:10.58052/IEWDR010W https://doi.org/10.58052/IEWDR010W\nWROL2019_126 IGSN:10.58052/IEWDR010X https://doi.org/10.58052/IEWDR010X\nWROL2019_128 IGSN:10.58052/IEWDR010Y https://doi.org/10.58052/IEWDR010Y\nWROL2019_130 IGSN:10.58052/IEWDR010Z https://doi.org/10.58052/IEWDR010Z\nWROL2019_134 IGSN:10.58052/IEWDR0110 https://doi.org/10.58052/IEWDR0110\nWROL2019_135 IGSN:10.58052/IEWDR0111 https://doi.org/10.58052/IEWDR0111\nWROL2019_136 IGSN:10.58052/IEWDR0112 https://doi.org/10.58052/IEWDR0112\nWROL2019_137 IGSN:10.58052/IEWDR0113 https://doi.org/10.58052/IEWDR0113\nWROL2019_138 IGSN:10.58052/IEWDR0114 https://doi.org/10.58052/IEWDR0114\nWROL2019_139 IGSN:10.58052/IEWDR0115 https://doi.org/10.58052/IEWDR0115\nWROL2019_140 IGSN:10.58052/IEWDR0116 https://doi.org/10.58052/IEWDR0116\nWROL2019_145 IGSN:10.58052/IEWDR0117 https://doi.org/10.58052/IEWDR0117\nWROL2019_146 IGSN:10.58052/IEWDR0118 https://doi.org/10.58052/IEWDR0118\nWROL2019_147 IGSN:10.58052/IEWDR0119 https://doi.org/10.58052/IEWDR0119\nWROL2019_148 IGSN:10.58052/IEWDR011A https://doi.org/10.58052/IEWDR011A\nWROL2019_149 IGSN:10.58052/IEWDR011B https://doi.org/10.58052/IEWDR011B\nWROL2019_150 IGSN:10.58052/IEWDR011C https://doi.org/10.58052/IEWDR011C\nWROL2019_151 IGSN:10.58052/IEWDR011D https://doi.org/10.58052/IEWDR011D\nWROL2019_152 IGSN:10.58052/IEWDR011E https://doi.org/10.58052/IEWDR011E\nWROL2019_153 IGSN:10.58052/IEWDR011F https://doi.org/10.58052/IEWDR011F\nWROL2019_154 IGSN:10.58052/IEWDR011G https://doi.org/10.58052/IEWDR011G\nWROL2019_155 IGSN:10.58052/IEWDR011H https://doi.org/10.58052/IEWDR011H\nWROL2019_164 IGSN:10.58052/IEWDR011I https://doi.org/10.58052/IEWDR011I\nWROL2019_165 IGSN:10.58052/IEWDR011J https://doi.org/10.58052/IEWDR011J\nWROL2019_166 IGSN:10.58052/IEWDR011K https://doi.org/10.58052/IEWDR011K\nWROL2019_167 IGSN:10.58052/IEWDR011L https://doi.org/10.58052/IEWDR011L\nWROL2019_168 IGSN:10.58052/IEWDR011M https://doi.org/10.58052/IEWDR011M\nWROL2019_169 IGSN:10.58052/IEWDR011N https://doi.org/10.58052/IEWDR011N\nWROL2019_170 IGSN:10.58052/IEWDR011O https://doi.org/10.58052/IEWDR011O\nWROL2019_171 IGSN:10.58052/IEWDR011P https://doi.org/10.58052/IEWDR011P\nWROL2019_172 IGSN:10.58052/IEWDR011Q https://doi.org/10.58052/IEWDR011Q\nWROL2019_173 IGSN:10.58052/IEWDR011R https://doi.org/10.58052/IEWDR011R\nWROL2019_174 IGSN:10.58052/IEWDR011S https://doi.org/10.58052/IEWDR011S\nWROL2019_175 IGSN:10.58052/IEWDR011T https://doi.org/10.58052/IEWDR011T\nWROL2019_176 IGSN:10.58052/IEWDR011U https://doi.org/10.58052/IEWDR011U\nWROL2019_177 IGSN:10.58052/IEWDR011V https://doi.org/10.58052/IEWDR011V\nWROL2019_178 IGSN:10.58052/IEWDR011W https://doi.org/10.58052/IEWDR011W\nWROL2019_179 IGSN:10.58052/IEWDR011X https://doi.org/10.58052/IEWDR011X\nWROL2019_180 IGSN:10.58052/IEWDR011Y https://doi.org/10.58052/IEWDR011Y\nWROL2019_181 IGSN:10.58052/IEWDR011Z https://doi.org/10.58052/IEWDR011Z\nWROL2019_182 IGSN:10.58052/IEWDR0120 https://doi.org/10.58052/IEWDR0120\nWROL2019_183 IGSN:10.58052/IEWDR0121 https://doi.org/10.58052/IEWDR0121\nWROL2019_184 IGSN:10.58052/IEWDR0122 https://doi.org/10.58052/IEWDR0122\nWROL2019_185 IGSN:10.58052/IEWDR0123 https://doi.org/10.58052/IEWDR0123\nWROL2019_186 IGSN:10.58052/IEWDR0124 https://doi.org/10.58052/IEWDR0124\nWROL2019_188 IGSN:10.58052/IEWDR0125 https://doi.org/10.58052/IEWDR0125\nWROL2019_189 IGSN:10.58052/IEWDR0126 https://doi.org/10.58052/IEWDR0126\nWROL2019_190 IGSN:10.58052/IEWDR0127 https://doi.org/10.58052/IEWDR0127\nWROL2019_192 IGSN:10.58052/IEWDR0128 https://doi.org/10.58052/IEWDR0128\nWROL2019_193 IGSN:10.58052/IEWDR0129 https://doi.org/10.58052/IEWDR0129\nWROL2019_194 IGSN:10.58052/IEWDR012A https://doi.org/10.58052/IEWDR012A\nWROL2019_195 IGSN:10.58052/IEWDR012B https://doi.org/10.58052/IEWDR012B\nWROL2019_209 IGSN:10.58052/IEWDR012C https://doi.org/10.58052/IEWDR012C\nWROL2019_210 IGSN:10.58052/IEWDR012D https://doi.org/10.58052/IEWDR012D\nWROL2019_211 IGSN:10.58052/IEWDR012E https://doi.org/10.58052/IEWDR012E\nWROL2019_212 IGSN:10.58052/IEWDR012F https://doi.org/10.58052/IEWDR012F\nWROL2019_215 IGSN:10.58052/IEWDR012G https://doi.org/10.58052/IEWDR012G\nWROL2019_216 IGSN:10.58052/IEWDR012H https://doi.org/10.58052/IEWDR012H"
+    ],
+    "distribution": [
+      {
+        "contentSize": 106.978515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-28c4750aab75568-20240819T205237706",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-28c4750aab75568-20240819T205237706",
+        "name": "WHONDRS_Surface_Water_Dissolved_Organic_Carbon.xml"
+      },
+      {
+        "contentSize": 69377.9013671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d070f32abaced65-20231107T171208039",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d070f32abaced65-20231107T171208039",
+        "name": "v3_WHONDRS_WROL2019_Data_Package.zip"
+      }
+    ]
+  }
+}

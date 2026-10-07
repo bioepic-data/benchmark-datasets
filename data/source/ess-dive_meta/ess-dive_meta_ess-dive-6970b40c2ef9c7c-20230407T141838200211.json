@@ -1,0 +1,151 @@
+{
+  "id": "ess-dive-6970b40c2ef9c7c-20230407T141838200211",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1682253",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-6970b40c2ef9c7c-20230407T141838200211",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-acae49ce607f39b-20230406T234810717255",
+  "dateUploaded": "2023-04-07T14:18:39.103Z",
+  "dateModified": "2023-04-07T14:18:40.632Z",
+  "isPublic": true,
+  "citation": "Walker A P; Fisher R A; Ricciuto D M (2020): Global gross primary production simulated by three terrestrial biosphere models to analyse smoothing of limiting rates. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15485/1682253",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1682253",
+    "name": "Global gross primary production simulated by three terrestrial biosphere models to analyse smoothing of limiting rates",
+    "description": [
+      "Processed global terrestrial gross primary production (GPP) from three terrestrial biosphere models (TBMs). Two simulations were run with each model, one that selects the rate limiting process of photosynthesis based on the minimum of the potential rates (following Farquhar et al. 1980) and the other that uses quadratic smoothing between the potential rates (following Collatz et al. 1991). The three TBMs are: 1) the Energy Exascale Earth System Model (E3SM) land model (ELM) (release: v1.1.0) (Burrows et al., 2020), a coupled carbon, nitrogen, and phosphorus model with sun/shade big-leaf canopy photosynthesis scaling. 2) The Functionally Assembled Terrestrial Ecosystem Simulator (FATES, tag: sci.1.30.0_api.8.0.0) (Koven et al., 2019), coupled with the Community Land Model (CLM, version 5; Lawrence et al., 2019), a carbon-only vegetation demography model with multi-leaf and multi-canopy layers for scaling photosynthesis, and with a leaf area index (LAI) optimisation scheme. 3) The Sheffield Dynamic Global Vegetation Model (SDGVM, tag: Walkeretal2020_GCB), a carbon-only model with multi-leaf-layer canopy photosynthesis scaling and also with an LAI optimisation scheme (Walker et al., 2017; Woodward & Lomas, 2004). These data were generated to evaluate the effect of Collatz smoothing of limiting rates on simulated GPP across a range of terrestrial biosphere models. Analysis of results can be found in Walker et al. (2020). This dataset is comprised of R scripts to process data and produce figures and .RDS files, a binary format specific to R and read with the 'readRDS' function."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0557-5594",
+        "givenName": "Anthony P",
+        "familyName": "Walker",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "walkerap@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3260-9227",
+        "givenName": "Rosie A",
+        "familyName": "Fisher",
+        "affiliation": "National Center for Atmospheric Research (NCAR)",
+        "email": "rosieafisher@googlemail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3668-3021",
+        "givenName": "Daniel M",
+        "familyName": "Ricciuto",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "ricciutodm@ornl.gov"
+      }
+    ],
+    "datePublished": "2020",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS"
+    ],
+    "variableMeasured": [
+      "gpp",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CARBON",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > PHOTOSYNTHESIS"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1900",
+      "endDate": "2016",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0557-5594",
+      "givenName": "Anthony",
+      "familyName": "P Walker",
+      "email": "walkerap@ornl.gov"
+    },
+    "citation": [
+      "Walker, A.P., Johnson, A.L., Rogers, A., Anderson, J., Bridges, R.A., Fisher, R.A., Lu, D., Ricciuto, D.M., Serbin, S.P., Ye, M., 2020. Multi-hypothesis comparison of Farquhar and Collatz photosynthesis models reveals the unexpected influence of empirical assumptions at leaf and global scales. Global Change Biology n/a. https://doi.org/10.1111/gcb.15366",
+      "Collatz, G.J., Ball, J.T., Grivet, C., Berry, J.A., 1991. Physiological and environmental regulation of stomatal conductance, photosynthesis and transpiration - A model that includes a laminar boundary-layer. Agricultural and Forest Meteorology 54, 107\u2013136. https://doi.org/10.1016/0168-1923(91)90002-8",
+      "Farquhar, G.D., von Caemmerer, S., Berry, J.A., 1980. A biochemical model of photosynthetic CO2 assimilation in leaves of C3 species. Planta 149, 78\u201390. https://doi.org/10.1007/BF00386231",
+      "Burrows, S.M., Maltrud, M., Yang, X., Zhu, Q., Jeffery, N., Shi, X., Ricciuto, D., Wang, S., Bisht, G., Tang, J., Wolfe, J., Harrop, B.E., Singh, B., Brent, L., Baldwin, S., Zhou, T., Cameron\u2010Smith, P., Keen, N., Collier, N., Xu, M., Hunke, E.C., Elliott, S.M., Turner, A.K., Li, H., Wang, H., Golaz, J.-C., Bond\u2010Lamberty, B., Hoffman, F.M., Riley, W.J., Thornton, P.E., Calvin, K., Leung, L.R., 2020. The DOE E3SM v1.1 Biogeochemistry Configuration: Description and Simulated Ecosystem-Climate Responses to Historical Changes in Forcing. Journal of Advances in Modeling Earth Systems 12, e2019MS001766. https://doi.org/10.1029/2019MS001766",
+      "Koven, C.D., Knox, R.G., Fisher, R.A., Chambers, J., Christoffersen, B.O., Davies, S.J., Detto, M., Dietze, M.C., Faybishenko, B., Holm, J., Huang, M., Kovenock, M., Kueppers, L.M., Lemieux, G., Massoud, E., McDowell, N.G., Muller-Landau, H.C., Needham, J.F., Norby, R.J., Powell, T., Rogers, A., Serbin, S.P., Shuman, J.K., Swann, A.L.S., Varadharajan, C., Walker, A.P., Wright, S.J., Xu, C., 2019. Benchmarking and Parameter Sensitivity of Physiological and Vegetation Dynamics using the Functionally Assembled Terrestrial Ecosystem Simulator (FATES) at Barro Colorado Island, Panama. Biogeosciences Discussions 1\u201346. https://doi.org/10.5194/bg-2019-409",
+      "Lawrence, D.M., Fisher, R.A., Koven, C.D., Oleson, K.W., Swenson, S.C., Bonan, G., Collier, N., Ghimire, B., Kampenhout, L. van, Kennedy, D., Kluzek, E., Lawrence, P.J., Li, F., Li, H., Lombardozzi, D., Riley, W.J., Sacks, W.J., Shi, M., Vertenstein, M., Wieder, W.R., Xu, C., Ali, A.A., Badger, A.M., Bisht, G., Broeke, M. van den, Brunke, M.A., Burns, S.P., Buzan, J., Clark, M., Craig, A., Dahlin, K., Drewniak, B., Fisher, J.B., Flanner, M., Fox, A.M., Gentine, P., Hoffman, F., Keppel\u2010Aleks, G., Knox, R., Kumar, S., Lenaerts, J., Leung, L.R., Lipscomb, W.H., Lu, Y., Pandey, A., Pelletier, J.D., Perket, J., Randerson, J.T., Ricciuto, D.M., Sanderson, B.M., Slater, A., Subin, Z.M., Tang, J., Thomas, R.Q., Martin, M.V., Zeng, X., 2019. The Community Land Model Version 5: Description of New Features, Benchmarking, and Impact of Forcing Uncertainty. Journal of Advances in Modeling Earth Systems 11, 4245\u20134287. https://doi.org/10.1029/2018MS001583",
+      "Oleson, K.W., Lawrence, D.M., Bonan, G.B., Levis, S., Swenson, S.C., Thornton, P.E., Bozbiyik, A., Fisher, R.A., Heald, C.L., Kluzek, E., Lamarque, J.-F., Lawrence, P.J., Lipscomb, W., Muszala, S.P., Sachs, W.J., Drewniak, B., Huang, M., Koven, C.D., Li, F., Riley, W.J., Subin, Z.M., Leung, L.R., Ricciuto, D.M., Sun, Y., Tang, J., Yang, Z., 2013. Technical Description of version 4.5 of the Community Land Model (CLM) (No. TN-503+STR), NCAR Technical Note. National Centre for Atmospheric Research, Boulder, CO, USA.",
+      "Walker, A.P., Quaife, T., van Bodegom, P.M., De Kauwe, M.G., Keenan, T.F., Joiner, J., Lomas, M.R., MacBean, N., Xu, C., Yang, X., Woodward, F.I., 2017. The impact of alternative trait-scaling hypotheses for the maximum photosynthetic carboxylation rate (Vcmax) on global gross primary production. New Phytol 215, 1370\u20131386. https://doi.org/10.1111/nph.14623",
+      "Woodward, F.I., Lomas, M.R., 2004. Vegetation dynamics \u2013 simulating responses to climatic change. Biological Reviews 79, 643\u2013670. https://doi.org/10.1017/S1464793103006419"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "R binary RDS files are post-processed model output for gross primary production (GPP, gC m-2 y-1) for the three terrestrial biosphere models (TBMs). The two RDS files contain identical data but stored in different data structures, a list of either data frames (suffix: df) or matrices (suffix: matrix). Post-processing was done using \"process_TBM_output.R.\" Figures were generated from this output and output from dataset \"X\" using the R scripts prepended with \"plot_.\""
+    ],
+    "distribution": [
+      {
+        "contentSize": 10.6533203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ec31a7dd67521e5-20201013T210322358",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-ec31a7dd67521e5-20201013T210322358",
+        "name": "plot_figure5.R"
+      },
+      {
+        "contentSize": 55408.89453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-db7c33bb4e4a7e4-20201013T210322354",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-db7c33bb4e4a7e4-20201013T210322354",
+        "name": "Processed_model_halfdegree_matrix.RDS"
+      },
+      {
+        "contentSize": 18.08984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6970b40c2ef9c7c-20230407T141838200211",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-6970b40c2ef9c7c-20230407T141838200211",
+        "name": "Global_gross_primary_production_simulated_by_three_terrestrial_biosphere_models_to_analyse_smoothing_of_limiting_rates.xml"
+      },
+      {
+        "contentSize": 9.6689453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a55ba4fce67563-20201013T210322335",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-7a55ba4fce67563-20201013T210322335",
+        "name": "plot_TBM_output.R"
+      },
+      {
+        "contentSize": 55642.5126953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f144020d49bef3a-20201013T210322351",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-f144020d49bef3a-20201013T210322351",
+        "name": "Processed_model_halfdegree_df.RDS"
+      },
+      {
+        "contentSize": 12.3408203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fd69e5dfdf6acf4-20201013T210322348",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-fd69e5dfdf6acf4-20201013T210322348",
+        "name": "process_TBM_output.R"
+      }
+    ]
+  }
+}

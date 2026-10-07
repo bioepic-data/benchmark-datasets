@@ -1,0 +1,200 @@
+{
+  "id": "ess-dive-99c37f341b68c1b-20240722T234513650",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1998576",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-99c37f341b68c1b-20240722T234513650",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-99c37f341b68c1b-20240722T233855959",
+  "dateUploaded": "2024-07-22T23:45:14.347Z",
+  "dateModified": "2024-07-22T23:45:17.958Z",
+  "isPublic": true,
+  "citation": "Carroll R; Niswonger R; Ulrich C; Varadharajan C; Woodburn E; Williams K (2023): Groundwater and Surface Water Flow (GSFLOW) model files for the East River, Colorado. Watershed Function SFA. Dataset. doi:10.15485/1998576",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1998576",
+    "name": "Groundwater and Surface Water Flow (GSFLOW) model files for the East River, Colorado",
+    "description": [
+      "The data package contains model input files and executables for the East River, Colorado (750 km2) located in the headwaters of the Upper Colorado River Basin. The code applied is the U.S. Geological Survey (USGS) Groundwater and Surface Water Flow (GSFLOW) model. The model contains a 100-m grid resolution to represent topographic complexity and a daily timestep accounts for energy and water partitioning between the snowpack, vegetation, soil zone and bedrock. The land surface model is dynamically linked to a three-dimensional groundwater flow model that allows for streamflow gaining and losing conditions. The groundwater model accounts for nine stratigraphic units and extends 400 m below land surface. Using this modeling framework we explore historical water budgets (water year 1987-2022) and the influence of seasonal warming and associated mechanisms driving groundwater declines and streamflow loss. A Readme_062424.txt file provides instructions on how to download all files. Input and output files are provided for the historical simulation representative of water years 1987 to 2022 (i.e. baseline) and the all-year +4C warming scenario. Instructions are provided to run the seasonal warming scenarios with warming applied only to the autumn, winter, spring or summer months. Modeled output used in figures for Carroll et al., 2024 are also provided with metadata describing where these data were obtained. This dataset additionally includes a file-level metadata (flmd.csv) file that lists each file contained in the dataset with associated metadata; and a data dictionary (dd.csv) file that contains column/row headers used throughout the files along with a definition, units, and data type.",
+      "Updated on 06-24-2024: The dataset was updated to include model outputs (updated base.zip and 4C.zip files), figure source files (Figure_Source_Files.zip), an updated Readme file (Readme_062424.txt), climate input files (climate_input_files.zip), and the adoption of ESS-DIVE File Level Metadata and CSV reporting formats (inclusion of flmd.csv and dd.csv files)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9302-8074",
+        "givenName": "Rosemary",
+        "familyName": "Carroll",
+        "affiliation": "Desert Research Institute",
+        "email": "rosemary.carroll@dri.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6397-2403",
+        "givenName": "Richard",
+        "familyName": "Niswonger",
+        "affiliation": "U.S. Geological Survey",
+        "email": "rniswon@usgs.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4114-7039",
+        "givenName": "Craig",
+        "familyName": "Ulrich",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "CUlrich@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9406-124X",
+        "givenName": "Erica",
+        "familyName": "Woodburn",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "erwoodburn@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "East River",
+      "Groundwater and Surface Water Flow (GSFLOW)",
+      "warming",
+      "groundwater storage",
+      "streamflow",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "Groundwater Flux",
+      "Groundwater Level",
+      "Lithology",
+      "stream flow",
+      "Air Temperature"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2022) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1987-10-01",
+      "endDate": "2022-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9302-8074",
+      "givenName": "Rosemary",
+      "familyName": "Carroll",
+      "affiliation": "Desert Research Institute",
+      "email": "rosemary.carroll@dri.edu"
+    },
+    "citation": [
+      "Dataset for publication: Carroll, R.W.H., Niswonger, R.G., Ulrich, C. et al. Declining groundwater storage expected to amplify mountain streamflow reductions in a warmer world. Nat Water 2, 419\u2013433 (2024). https://doi.org/10.1038/s44221-024-00239-0",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Kakalia Z ; Burrus M ; O'Ryan D ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; Elbashandy H ; Enquist B J ; Fox P ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Matheus Carnevali P ; Newman A ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Agarwal D (2022): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA (Version 3.0). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Model files are provided with a Readme.txt file containing instructions on how to execute. The model was parameterized and validated using an extensive data network including airborne data and dense networks for snowpack, streamflow and groundwater."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9d97e8c929edc39-20240613T172537753455",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9d97e8c929edc39-20240613T172537753455",
+        "name": "base.zip",
+        "contentSize": 134689448.9638672
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b683c03ec171f19-20240624T161108837",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b683c03ec171f19-20240624T161108837",
+        "name": "climate_input_files.zip",
+        "contentSize": 994.4345703125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cc795c8abad1582-20240624T161334653",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cc795c8abad1582-20240624T161334653",
+        "name": "flmd.csv",
+        "contentSize": 12.015625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-86ee9133989728b-20240613T161232104689",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-86ee9133989728b-20240613T161232104689",
+        "name": "4C.zip",
+        "contentSize": 133002601.21191406
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-773041bd4d1b069-20240613T133642657682",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-773041bd4d1b069-20240613T133642657682",
+        "name": "dd.csv",
+        "contentSize": 14.4423828125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1bfac59252d3b70-20240613T135015843078",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-1bfac59252d3b70-20240613T135015843078",
+        "name": "Figure_Source_Files.zip",
+        "contentSize": 4690.5927734375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f7198c9e8a7e52d-20240624T161334659",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-f7198c9e8a7e52d-20240624T161334659",
+        "name": "Readme_062424.txt",
+        "contentSize": 3.94921875
+      }
+    ]
+  }
+}

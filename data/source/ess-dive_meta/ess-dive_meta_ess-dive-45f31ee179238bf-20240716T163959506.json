@@ -1,0 +1,497 @@
+{
+  "id": "ess-dive-45f31ee179238bf-20240716T163959506",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/2368782",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-45f31ee179238bf-20240716T163959506",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-2642e9ed1e1b0aa-20240716T162546464",
+  "dateUploaded": "2024-07-16T16:40:01.626Z",
+  "dateModified": "2024-08-03T00:03:23.092Z",
+  "isPublic": true,
+  "citation": "Renner C; Thomas L; Collins A; Andresen C; Dann J; Lathrop E; Swanson E (2024): LiDAR Point Cloud Data from the 2018 NGEE Arctic UAS Campaign at the Kougarok 64 Field Site, Seward Peninsula, Alaska. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/2368782",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/2368782",
+    "name": "LiDAR Point Cloud Data from the 2018 NGEE Arctic UAS Campaign at the Kougarok 64 Field Site, Seward Peninsula, Alaska",
+    "description": [
+      "Airborne remote sensing data collected from Los Alamos National Laboratory's (LANL) heavy-lift unoccupied aerial system (UAS) hexacopter platform operated by NGEE Arctic scientists from the EES-14 group at Los Alamos National Laboratory. These data were collected in July 2018 at a field site near mile marker 64 along the Kougarok road (Nome-Taylor Highway) between Nome, Alaska and Taylor, Alaska. A DJI Matrice 600 Pro Airframe and Routescene UAV LiDARSystem was used to collect LiDAR data. The LiDAR data has undergone basic post-processing using Routescene LidarViewer Pro software to create point cloud data (.laz files). This data package contains point clouds (.laz), processing metadata files (json.lvp), and post-processed kinematic files (.csv). Ancillary aircraft data, flight mission parameters, weather conditions, raw LiDAR data, and RGB imagery can be found in NGA298.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/2368782",
+      "NGA305",
+      "LA-UR-23-20458"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5266-6766",
+        "givenName": "Caleb",
+        "familyName": "Renner",
+        "email": "crenner@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5002-2177",
+        "givenName": "Lauren",
+        "familyName": "Thomas",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "lnthomas@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9554-5190",
+        "givenName": "Adam",
+        "familyName": "Collins",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "acollins@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6681-1867",
+        "givenName": "Christian",
+        "familyName": "Andresen"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7378-8845",
+        "givenName": "Julian",
+        "familyName": "Dann"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3079-588X",
+        "givenName": "Emma",
+        "familyName": "Lathrop"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2238-010X",
+        "givenName": "Erika",
+        "familyName": "Swanson",
+        "affiliation": "Los Alamos National Laboratory"
+      }
+    ],
+    "datePublished": "2024-05-31",
+    "keywords": [
+      "Seward Peninsula, Alaska",
+      "Lidar",
+      "Kougarok",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > LIDAR"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Kougarok Site, Mile Marker 64, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.171801,
+            "longitude": -164.844501
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.153612,
+            "longitude": -164.801947
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-07-19",
+      "endDate": "2018-07-19",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9554-5190",
+      "givenName": "Adam",
+      "familyName": "Collins",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "acollins@lanl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Point cloud data derived from raw .lpd files using Routescene LidarViewer Pro software. Spatial information is included in each point cloud and minor corrections have been applied using user-derived roll, pitch and yaw (RPY) offset values, filtering, and Advanced Navigation Kinematica software georeference correction files. See filtering methods and parameters sections for more information on filtering applied and flight-specific parameters used.",
+      "Basic processing of .lpd files was completed using Routescene LidarViewer Pro software. Flights were trimmed by defining start and end points within the flight to exclude flight sections with turns and portions where the flight path did not follow the same horizontal direction of the main flight sections . This was done to reduce overlap of lower-accuracy points in the generated point cloud. Roll, pitch, and yaw inertial navigation system offset corrections were determined and applied to each flight on the order of +/- one degree for each parameter. Minimal filtering was used to produce the .laz files using the following filter chain run in parallel:\n\u25cf Dual Return Reduction\n\u25cf Range Reduction (Hide outer points = True, Range (m) = see Table 1)\n\u25cf Laser ID Reduction (Laser IDs = 0,2,4)\n\u25cf Coordinate Projection (Projection File = EPSG 32603)\n\u25cf LAS Export (Compressed = True, Position = Projection, EPSG Reference = 32603, Points per file = 0)",
+      "Individual raw .lpd files from the Routescene LidarPod were imported into Routescene LidarViewer Pro software. Because the .lpd file format is only accessible through this software, minimal processing was done on the data to produce .laz point cloud files to produce L1 data.\nFirst, for each flight, the post- processed kinematic file was produced by using the Advanced Navigation Kinematica software, using inputs of the Routescene base station\u2019s .rinex file(s), and the .anpp file extracted from the .lpd file using either a custom Python script, or Advanced Navigation Spatial Dual Manager software. The .csv output of Kinematica software was then imported into LidarViewer Pro and applied as corrections to the point cloud.\nNext, roll, pitch, and yaw (RPY) values were determined for each flight manually using the Profile tool and the Offsets tab in LidarViewer Pro, and then applied as corrections to the point cloud. RPY corrections are necessary to improve vertical and horizontal alignment of adjacent flight lines (boresight alignment), as well as vertical spread of points in a single flight line. See Table 1 for the RPY values used for each flight. Start and end points were then manually determined in order to exclude UAV turns, figure-8 maneuvers, flight lines that were not parallel to the main flight lines, and takeoffs and landings. See Table 1 or startFrame and endFrame values in .json.lvp files for retained sections of each flight.\nFinally, filtering as described in L1 Filtering Methods was completed, and a corrected, filtered L1 ***_PointCloud.laz file was exported from LidarViewer Pro."
+    ],
+    "distribution": [
+      {
+        "contentSize": 29379.1376953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2814c15268b2832-20240531T183327803",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2814c15268b2832-20240531T183327803",
+        "name": "PostProcessed_Flight11.csv"
+      },
+      {
+        "contentSize": 29455.541015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0b47d2a96117d31-20240531T183327794",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0b47d2a96117d31-20240531T183327794",
+        "name": "PostProcessed_Flight9.csv"
+      },
+      {
+        "contentSize": 31869.701171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-095cedc8c371c82-20240531T183327788",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-095cedc8c371c82-20240531T183327788",
+        "name": "PostProcessed_Flight8.csv"
+      },
+      {
+        "contentSize": 541.7392578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-15fd60f426f294c-20240712T181057912",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-15fd60f426f294c-20240712T181057912",
+        "name": "NGA305_2018_KG64_Lidar_L1_User_Guide.pdf"
+      },
+      {
+        "contentSize": 461902.0546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-16a30dbd2a1c705-20240708T210738166",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-16a30dbd2a1c705-20240708T210738166",
+        "name": "KG_transect_1__2018_07_20_cmd.zip"
+      },
+      {
+        "contentSize": 30998.33984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-21bfba837801ee0-20240531T183327755",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-21bfba837801ee0-20240531T183327755",
+        "name": "PostProcessed_Flight1.csv"
+      },
+      {
+        "contentSize": 643296.3662109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-04f3f175be5d3a5-20240708T201942200",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-04f3f175be5d3a5-20240708T201942200",
+        "name": "KG_8__2018_07_20_cmbd.zip"
+      },
+      {
+        "contentSize": 6.5263671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2046dad929f0031-20240531T183230500",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-2046dad929f0031-20240531T183230500",
+        "name": "KG_3__2018_07_19_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 31444.501953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2134fb17ecb4cd5-20240531T183327760",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2134fb17ecb4cd5-20240531T183327760",
+        "name": "PostProcessed_Flight2.csv"
+      },
+      {
+        "contentSize": 6.248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3e3cc5dc7a32a52-20240531T183230504",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-3e3cc5dc7a32a52-20240531T183230504",
+        "name": "KG_4__2018_07_19_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 30752.2919921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3fa3c67feeba05f-20240531T183327778",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3fa3c67feeba05f-20240531T183327778",
+        "name": "PostProcessed_Flight6.csv"
+      },
+      {
+        "contentSize": 26423.9755859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-327a56ca80d6970-20240708T212628542",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-327a56ca80d6970-20240708T212628542",
+        "name": "PostProcessed_Flight4.csv"
+      },
+      {
+        "contentSize": 6.0693359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-38e66652148f3ed-20240531T183230542",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-38e66652148f3ed-20240531T183230542",
+        "name": "KG_14__2018_07_20_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 6.453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-44f235f7bb1c21f-20240531T183230515",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-44f235f7bb1c21f-20240531T183230515",
+        "name": "KG_7__2018_07_20_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 18.9404296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-45f31ee179238bf-20240716T163959506",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-45f31ee179238bf-20240716T163959506",
+        "name": "LiDAR_Point_Cloud_Data_from_the_2018_NGEE_Arctic.xml"
+      },
+      {
+        "contentSize": 23511.408203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-465286cc9aea516-20240531T183327820",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-465286cc9aea516-20240531T183327820",
+        "name": "PostProcessed_Transect1.csv"
+      },
+      {
+        "contentSize": 30662.921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2e5acca5a3fd7dc-20240531T183327775",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2e5acca5a3fd7dc-20240531T183327775",
+        "name": "PostProcessed_Flight5.csv"
+      },
+      {
+        "contentSize": 6.427734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-46670fffe0fbd61-20240531T183230532",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-46670fffe0fbd61-20240531T183230532",
+        "name": "KG_12__2018_07_20_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 6.703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a5f287e16af469-20240531T183230524",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-3a5f287e16af469-20240531T183230524",
+        "name": "KG_9__2018_07_20_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 32189.1318359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-612d41c4370ffa8-20240531T183327816",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-612d41c4370ffa8-20240531T183327816",
+        "name": "PostProcessed_Flight14.csv"
+      },
+      {
+        "contentSize": 886948.3037109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-61c8568506ad852-20240708T204326155",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-61c8568506ad852-20240708T204326155",
+        "name": "KG_11__2018_07_20_cmbd.zip"
+      },
+      {
+        "contentSize": 738561.32421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e637ed0fe1dac74-20240708T201808172",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-e637ed0fe1dac74-20240708T201808172",
+        "name": "KG_7__2018_07_20_cmbd.zip"
+      },
+      {
+        "contentSize": 26423.9755859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d04f90c52e20166-20240531T183327770",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d04f90c52e20166-20240531T183327770",
+        "name": "PostProcessed_Flight4.csv"
+      },
+      {
+        "contentSize": 755296.720703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d28ab8256dc551d-20240708T200800032",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d28ab8256dc551d-20240708T200800032",
+        "name": "KG_4__2018_07_19_cmbd.zip"
+      },
+      {
+        "contentSize": 6.552734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ee426cc3b27974b-20240531T183230487",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-ee426cc3b27974b-20240531T183230487",
+        "name": "KG_1__2018_07_19_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 19152.4599609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-34ef0452c2cc4d4-20240531T183327811",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-34ef0452c2cc4d4-20240531T183327811",
+        "name": "PostProcessed_Flight13.csv"
+      },
+      {
+        "contentSize": 842938.9345703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-657c3dabc0f5d84-20240708T201504285",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-657c3dabc0f5d84-20240708T201504285",
+        "name": "KG_6__2018_07_20_cmbd.zip"
+      },
+      {
+        "contentSize": 6.2822265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-824458eadeee589-20240531T183230546",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-824458eadeee589-20240531T183230546",
+        "name": "KG_transect_1__2018_07_20_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 639690.736328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8c6cf9de5a55a33-20240708T200410532",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8c6cf9de5a55a33-20240708T200410532",
+        "name": "KG_1__2018_07_19_cmbd.zip"
+      },
+      {
+        "contentSize": 303911.7109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-71d3766d021fa85-20240708T205844275",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-71d3766d021fa85-20240708T205844275",
+        "name": "KG_13__2018_07_20_cmbd.zip"
+      },
+      {
+        "contentSize": 32321.96875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-91a347a51d80b59-20240531T183327798",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-91a347a51d80b59-20240531T183327798",
+        "name": "PostProcessed_Flight10.csv"
+      },
+      {
+        "contentSize": 6.4423828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-97e99bdd319b5cc-20240531T183230511",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-97e99bdd319b5cc-20240531T183230511",
+        "name": "KG_6__2018_07_20_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 876422.5654296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-99c12d170fdcfe9-20240708T200639716",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-99c12d170fdcfe9-20240708T200639716",
+        "name": "KG_3__2018_07_19_cmbd.zip"
+      },
+      {
+        "contentSize": 13.9873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-94abba714c2cb44-20240712T180903582",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-94abba714c2cb44-20240712T180903582",
+        "name": "nga305_flmd.csv"
+      },
+      {
+        "contentSize": 990503.041015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bef3dab7a75cd82-20240708T202516432",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-bef3dab7a75cd82-20240708T202516432",
+        "name": "KG_10__2018_07_20_cmbd.zip"
+      },
+      {
+        "contentSize": 6.517578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bf1112e464c4939-20240531T183230519",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-bf1112e464c4939-20240531T183230519",
+        "name": "KG_8__2018_07_20_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 6.2470703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b5f9599808eaf5e-20240531T183230536",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-b5f9599808eaf5e-20240531T183230536",
+        "name": "KG_13__2018_07_20_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 6.3828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b674a70dfa0c905-20240531T183230495",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-b674a70dfa0c905-20240531T183230495",
+        "name": "KG_2__2018_07_19_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 6.423828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bea1f7ca5678602-20240531T183230507",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-bea1f7ca5678602-20240531T183230507",
+        "name": "KG_5__2018_07_19_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 840782.625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b80b4eaecf60319-20240708T200944998",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b80b4eaecf60319-20240708T200944998",
+        "name": "KG_5__2018_07_19_cmbd.zip"
+      },
+      {
+        "contentSize": 29414.78515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cdcc42221b428ea-20240531T183327766",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cdcc42221b428ea-20240531T183327766",
+        "name": "PostProcessed_Flight3.csv"
+      },
+      {
+        "contentSize": 210335.935546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b2d919ba666c6b7-20240708T210254075",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b2d919ba666c6b7-20240708T210254075",
+        "name": "KG_14__2018_07_20_cmbd.zip"
+      },
+      {
+        "contentSize": 6.5595703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cad7399a8cdc924-20240531T183230528",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-cad7399a8cdc924-20240531T183230528",
+        "name": "KG_10__2018_07_20_cmbd_json.lvp"
+      },
+      {
+        "contentSize": 797799.87109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cb301c750bd2aa8-20240708T200508042",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-cb301c750bd2aa8-20240708T200508042",
+        "name": "KG_2__2018_07_19_cmbd.zip"
+      },
+      {
+        "contentSize": 32077.9521484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fb0b9734c0d63c0-20240531T183327807",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fb0b9734c0d63c0-20240531T183327807",
+        "name": "PostProcessed_Flight12.csv"
+      },
+      {
+        "contentSize": 540928.28515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fb4be8e94159a5e-20240708T202313229",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-fb4be8e94159a5e-20240708T202313229",
+        "name": "KG_9__2018_07_20_cmbd.zip"
+      },
+      {
+        "contentSize": 31495.5400390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f7d17aaccbdf93a-20240531T183327783",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f7d17aaccbdf93a-20240531T183327783",
+        "name": "PostProcessed_Flight7.csv"
+      },
+      {
+        "contentSize": 4.4619140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f95a2b0744fa870-20240716T163952285",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f95a2b0744fa870-20240716T163952285",
+        "name": "NGA305_csv_files_dd.csv"
+      },
+      {
+        "contentSize": 838187.7646484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ddc60abad6af7bd-20240708T205447007",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ddc60abad6af7bd-20240708T205447007",
+        "name": "KG_12__2018_07_20_cmbd.zip"
+      }
+    ]
+  }
+}

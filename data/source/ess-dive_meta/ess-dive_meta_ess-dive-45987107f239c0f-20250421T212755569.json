@@ -1,0 +1,1923 @@
+{
+  "id": "ess-dive-45987107f239c0f-20250421T212755569",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1898913",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-45987107f239c0f-20250421T212755569",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-45987107f239c0f-20250417T210947215",
+  "dateUploaded": "2025-04-21T21:27:59.148Z",
+  "dateModified": "2025-04-21T21:28:04.234Z",
+  "isPublic": true,
+  "citation": "Gonzalez B I; Chu R; Forbes B; Garayburu-Caruso V A; Grater E; Goldman A E; Guillemette F; McGaughey L J; McKever S A; Renteria L; Rodriguez S; Ridal J J; Toyoda J G; Stegen J C (2022): WHONDRS Surface Water Chemistry and Organic Matter Characterization along the St. Lawrence River's Inland to Coastal Gradient, Eastern North America (v2). River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1898913",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1898913",
+    "name": "WHONDRS Surface Water Chemistry and Organic Matter Characterization along the St. Lawrence River's Inland to Coastal Gradient, Eastern North America (v2)",
+    "description": [
+      "This dataset supports a broader study examining the inland (Lake Ontario) to coastal (North Atlantic Ocean) geochemistry gradient along the St. Lawrence River in Canada and the United States. The St. Lawrence River is unique in that it contains the convergence of multiple water masses with distinct water signatures that mix only slightly as the river flows downstream. The dataset provides dissolved organic carbon (DOC) and organic matter characterization data generated from surface water. Samples were collected by researchers on board the Lampsilis research vessel (l\u2019Universit\u00e9 du Qu\u00e9bec \u00e0 Trois-Rivi\u00e8res) and small boats (St. Lawrence River Institute of Environmental Sciences, Cornwall) at 94 locations across and along the St. Lawrence River to capture longitudinal and transverse variation. Related data were collected and will be published separately in collaboration with the MicrEAU Laboratory (Fran\u00e7ois Guillemette; l\u2019Universit\u00e9 du Qu\u00e9bec \u00e0 Trois-Rivi\u00e8res) and the Exploration of Coastal Hydrobiogeochemistry Across a Network of Gradients and Experiments (EXCHANGE) program.",
+      "This dataset is comprised of one main data folder containing (1) file-level metadata; (2) data dictionary; (3) field metadata; (4) dissolved organic carbon (DOC, measured as non-purgeable organic carbon, NPOC) data (5) surface water sampling protocol; (6) readme; (7) methods codes; (8) international geo-sample number (IGSN) mapping file; and (9) folder of high resolution characterization of organic matter via 12 Tesla Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS) through the Environmental Molecular Sciences Laboratory (EMSL; https://www.pnnl.gov/environmental-molecular-sciences-laboratory). The FTICR folder contains two subfolders, one containing the .xml data files and the other containing instructions for using Formularity (https://omics.pnl.gov/software/formularity) and an R script to process the data based on the user's specific needs. All files are .csv, .pdf, .R, .ref, or .xml.",
+      "The data package was originally published in November 202. It was updated in April 2025 (v2; modified files). See the change history section in the readme for details."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "Brianna I.",
+        "familyName": "Gonzalez",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "brianna.gonzalez@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Rosalie",
+        "familyName": "Chu",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Rosalie.Chu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Elizabeth",
+        "familyName": "Grater",
+        "affiliation": "Universit\u00e9 du Qu\u00e9bec \u00c0 Trois-Rivi\u00e8res",
+        "email": "Elizabeth.Grater@uqtr.ca"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2333-8410",
+        "givenName": "Fran\u00e7ois",
+        "familyName": "Guillemette",
+        "affiliation": "Universit\u00e9 du Qu\u00e9bec \u00c0 Trois-Rivi\u00e8res",
+        "email": "Francois.Guillemette3@uqtr.ca"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6470-9532",
+        "givenName": "Leigh J.",
+        "familyName": "McGaughey",
+        "affiliation": "St. Lawrence River Institute of Environmental Sciences",
+        "email": "lmcgaughey@riverinstitute.ca"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophia A.",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "sophia.mckever@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Silvia",
+        "familyName": "Rodriguez",
+        "affiliation": "St. Lawrence River Institute of Environmental Sciences",
+        "email": "srodriguez@riverinstitute.ca"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5356-653X",
+        "givenName": "Jeffrey J.",
+        "familyName": "Ridal",
+        "affiliation": "St. Lawrence River Institute of Environmental Sciences",
+        "email": "jridal@riverinstitute.ca"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6299-2146",
+        "givenName": "Jason G.",
+        "familyName": "Toyoda",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Jason.Toyoda@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "James.Stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2022-11-07",
+    "keywords": [
+      "River corridor",
+      "Freshwater",
+      "River",
+      "Stream",
+      "Watershed",
+      "Biogeochemistry",
+      "Hydrobiogeochemical function",
+      "Organic matter",
+      "Hyporheic zone",
+      "Metabolite",
+      "Metabolomics",
+      "Mass spectrometry",
+      "ESS-DIVE Location Metadata Reporting Format",
+      "ESS-DIVE Sample ID and Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "DOC",
+      "Dissolved organic carbon",
+      "NPOC",
+      "Non-purgeable organic carbon",
+      "FTICR-MS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "STL_0001, samples taken in stream on main boat at Station ONT1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.1923,
+            "longitude": -76.5755
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.1923,
+            "longitude": -76.5755
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0002, samples taken in stream on main boat at Station ONT2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.1923,
+            "longitude": -76.3964
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.1923,
+            "longitude": -76.3964
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0003, samples taken in stream on small boat at Station THI06, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.3244,
+            "longitude": -76.159
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.3244,
+            "longitude": -76.159
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0004, samples taken in stream on small boat at Station BR09, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6344,
+            "longitude": -75.6122
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6344,
+            "longitude": -75.6122
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0005, samples taken in stream on small boat at Station THI05, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.3232,
+            "longitude": -76.1668
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.3232,
+            "longitude": -76.1668
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0006, samples taken in stream on small boat at Station BR08, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6006,
+            "longitude": -75.6606
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6006,
+            "longitude": -75.6606
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0007, samples taken in stream on small boat at Station THI07, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.484,
+            "longitude": -75.8268
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.484,
+            "longitude": -75.8268
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0008, samples taken in stream on small boat at Station THI01, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2132,
+            "longitude": -76.5457
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2132,
+            "longitude": -76.5457
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0009, samples taken in stream on small boat at Station THI04, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.3034,
+            "longitude": -76.1969
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.3034,
+            "longitude": -76.1969
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0010, samples taken in stream on small boat at Station THI02, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2402,
+            "longitude": -76.418
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2402,
+            "longitude": -76.418
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0011, samples taken in stream on small boat at Station THI03, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2593,
+            "longitude": -76.3784
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2593,
+            "longitude": -76.3784
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0012, samples taken in stream on main boat at Station IRQ1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5815,
+            "longitude": -75.679
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5815,
+            "longitude": -75.679
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0013, samples taken in stream on small boat at Station BR11, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.79,
+            "longitude": -75.3714
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.79,
+            "longitude": -75.3714
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0014, samples taken in stream on small boat at Station LSL13, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.8976,
+            "longitude": -75.17
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.8976,
+            "longitude": -75.17
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0015, samples taken in stream on small boat at Station BR12, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.8463,
+            "longitude": -75.2996
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.8463,
+            "longitude": -75.2996
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0016, samples taken in stream on main boat at Station IRQ1.5, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.736,
+            "longitude": -75.4524
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.736,
+            "longitude": -75.4524
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0017, samples taken in stream on main boat at Station IRQ2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.8203,
+            "longitude": -75.314
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.8203,
+            "longitude": -75.314
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0018, samples taken in stream on small boat at Station LSL17, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.0261,
+            "longitude": -74.8901
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.0261,
+            "longitude": -74.8901
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0019, samples taken in stream on main boat at Station STL1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.8972,
+            "longitude": -75.1665
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.8972,
+            "longitude": -75.1665
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0020, samples taken in stream on main boat at Station STL1.5, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.9537,
+            "longitude": -74.9918
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.9537,
+            "longitude": -74.9918
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0021, samples taken in stream on small boat at Station LSL16, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.0138,
+            "longitude": -74.89
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.0138,
+            "longitude": -74.89
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0022, samples taken in stream on small boat at Station LSL18, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.0189,
+            "longitude": -74.8569
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.0189,
+            "longitude": -74.8569
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0023, samples taken in stream on main boat at Station STL2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.0061,
+            "longitude": -74.7747
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.0061,
+            "longitude": -74.7747
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0024, samples taken in stream on small boat at Station LSL14, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.9908,
+            "longitude": -74.9473
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.9908,
+            "longitude": -74.9473
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0025, samples taken in stream on small boat at Station LSL15, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.0099,
+            "longitude": -74.9389
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.0099,
+            "longitude": -74.9389
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0026, samples taken in stream on main boat at Station LSF3.5, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.3461,
+            "longitude": -73.9723
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.3461,
+            "longitude": -73.9723
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0027, samples taken in stream on main boat at Station LSF1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.2255,
+            "longitude": -74.2521
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.2255,
+            "longitude": -74.2521
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0028, samples taken in stream on main boat at Station LSF3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.189,
+            "longitude": -74.2141
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.189,
+            "longitude": -74.2141
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0029, samples taken in stream on main boat at Station LSF2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.2083,
+            "longitude": -74.2327
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.2083,
+            "longitude": -74.2327
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0030, samples taken in stream on small boat at Station CW19, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.025,
+            "longitude": -74.6766
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.025,
+            "longitude": -74.6766
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0031, samples taken in stream on small boat at Station CW20, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.0026,
+            "longitude": -74.6884
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.0026,
+            "longitude": -74.6884
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0032, samples taken in stream on small boat at Station CW21, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.0048,
+            "longitude": -74.6593
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.0048,
+            "longitude": -74.6593
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0033, samples taken in stream on small boat at Station CW23, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.0207,
+            "longitude": -74.5697
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.0207,
+            "longitude": -74.5697
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0034, samples taken in stream on small boat at Station LSF24, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.0378,
+            "longitude": -74.5253
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.0378,
+            "longitude": -74.5253
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0035, samples taken in stream on small boat at Station CW22, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.0074,
+            "longitude": -74.6377
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.0074,
+            "longitude": -74.6377
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0036, samples taken in stream on small boat at Station LSF25, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.1262,
+            "longitude": -74.4916
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.1262,
+            "longitude": -74.4916
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0037, samples taken in stream on small boat at Station LSF26, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.181,
+            "longitude": -74.3737
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.181,
+            "longitude": -74.3737
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0038, samples taken in stream on main boat at Station LSL1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.4095,
+            "longitude": -73.8706
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.4095,
+            "longitude": -73.8706
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0039, samples taken in stream on main boat at Station LSL2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.3954,
+            "longitude": -73.843
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.3954,
+            "longitude": -73.843
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0040, samples taken in stream on main boat at Station LSL3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.3816,
+            "longitude": -73.807
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.3816,
+            "longitude": -73.807
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0041, samples taken in stream on main boat at Station BOU4, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5685,
+            "longitude": -73.5079
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5685,
+            "longitude": -73.5079
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0042, samples taken in stream on main boat at Station TCL1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6656,
+            "longitude": -73.4644
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6656,
+            "longitude": -73.4644
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0043, samples taken in stream on main boat at Station TCM1.5, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5894,
+            "longitude": -73.4973
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5894,
+            "longitude": -73.4973
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0044, samples taken in stream on main boat at Station TCM2.5, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6758,
+            "longitude": -73.458
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6758,
+            "longitude": -73.458
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0045, samples taken in stream on main boat at Station TCM2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7051,
+            "longitude": -73.4556
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7051,
+            "longitude": -73.4556
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0046, samples taken in stream on main boat at Station TCM1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7069,
+            "longitude": -73.4787
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7069,
+            "longitude": -73.4787
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0047, samples taken in stream on main boat at Station TCM3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7038,
+            "longitude": -73.4447
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7038,
+            "longitude": -73.4447
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0048, samples taken in stream on main boat at Station BOU3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.645,
+            "longitude": -73.4529
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.645,
+            "longitude": -73.4529
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0049, samples taken in stream on main boat at Station BOU2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6462,
+            "longitude": -73.4637
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6462,
+            "longitude": -73.4637
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0051, samples taken in stream on main boat at Station BOU1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6449,
+            "longitude": -73.4774
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6449,
+            "longitude": -73.4774
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0052, samples taken in stream on main boat at Station REP4, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7361,
+            "longitude": -73.4117
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7361,
+            "longitude": -73.4117
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0053, samples taken in stream on main boat at Station REP1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7427,
+            "longitude": -73.4338
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7427,
+            "longitude": -73.4338
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0054, samples taken in stream on main boat at Station REP2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7416,
+            "longitude": -73.4243
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7416,
+            "longitude": -73.4243
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0055, samples taken in stream on main boat at Station REP3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.7445,
+            "longitude": -73.4062
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.7445,
+            "longitude": -73.4062
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0056, samples taken in stream on main boat at Station CON3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.8494,
+            "longitude": -73.2715
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.8494,
+            "longitude": -73.2715
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0057, samples taken in stream on main boat at Station CON2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.8561,
+            "longitude": -73.278
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.8561,
+            "longitude": -73.278
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0058, samples taken in stream on main boat at Station CON1.5, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.8432,
+            "longitude": -73.3113
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.8432,
+            "longitude": -73.3113
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0059, samples taken in stream on main boat at Station TRA1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.9966,
+            "longitude": -73.1873
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.9966,
+            "longitude": -73.1873
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0060, samples taken in stream on main boat at Station TRA3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.9969,
+            "longitude": -73.1741
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.9969,
+            "longitude": -73.1741
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0061, samples taken in stream on main boat at Station TRA2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.004,
+            "longitude": -73.175
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.004,
+            "longitude": -73.175
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0062, samples taken in stream on main boat at Station CON1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.8594,
+            "longitude": -73.2928
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.8594,
+            "longitude": -73.2928
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0063, samples taken in stream on main boat at Station SORAM1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.0735,
+            "longitude": -73.0872
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.0735,
+            "longitude": -73.0872
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0064, samples taken in stream on main boat at Station SORAM3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.0612,
+            "longitude": -73.0749
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.0612,
+            "longitude": -73.0749
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0065, samples taken in stream on main boat at Station SORAM2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.0587,
+            "longitude": -73.0742
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.0587,
+            "longitude": -73.0742
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0066, samples taken in stream on main boat at Station SORAV1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.1729,
+            "longitude": -72.9582
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.1729,
+            "longitude": -72.9582
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0067, samples taken in stream on main boat at Station SORAV3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.1372,
+            "longitude": -72.9493
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.1372,
+            "longitude": -72.9493
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0068, samples taken in stream on main boat at Station SORAV2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.1618,
+            "longitude": -72.9424
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.1618,
+            "longitude": -72.9424
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0069, samples taken in stream on main boat at Station LSPM1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.226,
+            "longitude": -72.8541
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.226,
+            "longitude": -72.8541
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0070, samples taken in stream on main boat at Station LSPM3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.1841,
+            "longitude": -72.8066
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.1841,
+            "longitude": -72.8066
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0071, samples taken in stream on main boat at Station LSPM2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.2033,
+            "longitude": -72.8251
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.2033,
+            "longitude": -72.8251
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0072, samples taken in stream on main boat at Station LSPA1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.2663,
+            "longitude": -72.7154
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.2663,
+            "longitude": -72.7154
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0073, samples taken in stream on main boat at Station LSPA3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.2638,
+            "longitude": -72.6952
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.2638,
+            "longitude": -72.6952
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0075, samples taken in stream on main boat at Station LSPA4, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.2453,
+            "longitude": -72.6776
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.2453,
+            "longitude": -72.6776
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0076, samples taken in stream on main boat at Station STM1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.3501,
+            "longitude": -72.5302
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.3501,
+            "longitude": -72.5302
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0077, samples taken in stream on main boat at Station STM4, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.3369,
+            "longitude": -72.518
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.3369,
+            "longitude": -72.518
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0078, samples taken in stream on main boat at Station STM3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.3456,
+            "longitude": -72.5168
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.3456,
+            "longitude": -72.5168
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0079, samples taken in stream on main boat at Station STM2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.3473,
+            "longitude": -72.5271
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.3473,
+            "longitude": -72.5271
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0080, samples taken in stream on main boat at Station STA3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.5625,
+            "longitude": -72.1057
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.5625,
+            "longitude": -72.1057
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0081, samples taken in stream on main boat at Station STA2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.5685,
+            "longitude": -72.0997
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.5685,
+            "longitude": -72.0997
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0082, samples taken in stream on main boat at Station STA1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.5744,
+            "longitude": -72.1006
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.5744,
+            "longitude": -72.1006
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0083, samples taken in stream on main boat at Station SAD3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7056,
+            "longitude": -71.4608
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7056,
+            "longitude": -71.4608
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0084, samples taken in stream on main boat at Station SAD1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.721,
+            "longitude": -71.4754
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.721,
+            "longitude": -71.4754
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0085, samples taken in stream on main boat at Station SAD2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7286,
+            "longitude": -71.4706
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7286,
+            "longitude": -71.4706
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0086, samples taken in stream on main boat at Station QC3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.8349,
+            "longitude": -71.1566
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.8349,
+            "longitude": -71.1566
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0087, samples taken in stream on main boat at Station QC2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.8377,
+            "longitude": -71.1647
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.8377,
+            "longitude": -71.1647
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0088, samples taken in stream on main boat at Station QC1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.8426,
+            "longitude": -71.1815
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.8426,
+            "longitude": -71.1815
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0089, samples taken in stream on main boat at Station QC4, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.8226,
+            "longitude": -71.2081
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.8226,
+            "longitude": -71.2081
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0090, samples taken in stream on main boat at Station ORL2, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.0044,
+            "longitude": -70.7079
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.0044,
+            "longitude": -70.7079
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0091, samples taken in stream on main boat at Station ORL3, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.9782,
+            "longitude": -70.687
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.9782,
+            "longitude": -70.687
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0092, samples taken in stream on main boat at Station MASS1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.2429,
+            "longitude": -70.5521
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.2429,
+            "longitude": -70.5521
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0093, samples taken in stream on main boat at Station STJO1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.4457,
+            "longitude": -70.3002
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.4457,
+            "longitude": -70.3002
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0094, samples taken in stream on main boat at Station STIR1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.5506,
+            "longitude": -70.1852
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.5506,
+            "longitude": -70.1852
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0095, samples taken in stream on main boat at Station STAN1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.7465,
+            "longitude": -69.8901
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.7465,
+            "longitude": -69.8901
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "STL_0097, samples taken in stream on main boat at Station CAC1, St. Lawrence River, Quebec, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.99,
+            "longitude": -69.72
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47.99,
+            "longitude": -69.72
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-07-22",
+      "endDate": "2021-08-03",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9135-7424",
+      "givenName": "James C.",
+      "familyName": "Stegen",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "James.Stegen@pnnl.gov"
+    },
+    "citation": [
+      "Boye, K., Crystal-Ornelas, R., O\u2019Ryan, D., Goldman, A. E., Damerow, J., Varadharajan, C., & Agarwal, D. (2022). ESS-DIVE Reporting Format for Sample-based Water and Soil Chemistry Measurements. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. doi:10.15485/1865731",
+      "Crystal-Ornelas R; O'Ryan D; Christianson D; Hendrix V C; Agarwal D; Varadharajan C (2022): ESS-DIVE Reporting Format for Location Metadata. ESS-DIVE repository. Dataset. doi: 10.15485/1865730",
+      "Damerow J ; Varadharajan C ; Boye K ; Brodie E ; Burrus M ; Chadwick D ; Cholia S ; Crystal-Ornelas R ; Elbashandy H ; Eloy Alves R ; Ely K ; Goldman A ; Hendrix V ; Jones C ; Jones M ; Kakalia Z ; Kemner K ; Kersting A ; Maher K ; Merino N ; O'Brien F ; Perzan Z ; Robles E ; Snavely C ; Sorensen P ; Stegen J ; Weisenhorn P ; Whitenack K ; Zavarin M ; Agarwal D (2020): Sample Identifiers and Metadata Reporting Format for Environmental Systems Science. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/1660470",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734841",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Samples were collected along and across the St. Lawrence River in Canada and the United States. Site metadata, including general environmental information, were manually recorded in the field. See WHONDRS_STL_Sampling_Protocol.pdf for details on sample and site metadata collection. Surface water samples were collected using a GO-FLO water sampler (similar to a Kemmerer), and the collected water was syringe-filtered into pre-acidified vials in the field and refrigerated until they were shipped internationally on blue ice. Upon receipt, the samples were refrigerated until analysis for DOC, followed by solid phase extraction (SPE) before FTICR-MS analysis. For details regarding laboratory and instrument methods, see the alphanumeric methods codes located in the header rows of the chemistry data csv file and their associated definitions in STL_Methods_Codes.csv. Data formats follow ESS-DIVE Reporting Formats.",
+      "Approach to change history and versioning:\nUpdates to data package version: When any file within a data package is updated, the data package version number is updated. The data package version number is indicated in the title of the data package, the data package folder name, and in the change history table below. You can access previous versions of the data package by sending a request to ESS-DIVE.\nUpdates to individual file versions:\nAs files are changed, the file version number is also updated. The file version number is indicated in the file name, file level metadata (flmd) file, and the change history table below. The version number on an individual file may not match the version number of the data package. For example, v3 of a data package may include v2 of an individual file.",
+      "This section provides a list of all parent site locations, from which the physical samples were collected. More information is provided in the location landing pages (links below) and the dataset file that ends in 'IGSN-Mapping.csv'.\nSample Name IGSN PID IGSN URL\nBOU1 IGSN:IEWDR01BX https://doi.org/IEWDR01BX\nBOU2 IGSN:IEWDR01BW https://doi.org/IEWDR01BW\nBOU3 IGSN:IEWDR01BV https://doi.org/IEWDR01BV\nBOU4 IGSN:IEWDR01BO https://doi.org/IEWDR01BO\nBR08 IGSN:IEWDR01AQ https://doi.org/IEWDR01AQ\nBR09 IGSN:IEWDR01AO https://doi.org/IEWDR01AO\nBR11 IGSN:IEWDR01AX https://doi.org/IEWDR01AX\nBR12 IGSN:IEWDR01AZ https://doi.org/IEWDR01AZ\nCAC1 IGSN:IEWDR01D5 https://doi.org/IEWDR01D5\nCON1 IGSN:IEWDR01C8 https://doi.org/IEWDR01C8\nCON1.5 IGSN:IEWDR01C4 https://doi.org/IEWDR01C4\nCON2 IGSN:IEWDR01C3 https://doi.org/IEWDR01C3\nCON3 IGSN:IEWDR01C2 https://doi.org/IEWDR01C2\nCW19 IGSN:IEWDR01BD https://doi.org/IEWDR01BD\nCW20 IGSN:IEWDR01BE https://doi.org/IEWDR01BE\nCW21 IGSN:IEWDR01BF https://doi.org/IEWDR01BF\nCW22 IGSN:IEWDR01BI https://doi.org/IEWDR01BI\nCW23 IGSN:IEWDR01BG https://doi.org/IEWDR01BG\nIRQ1 IGSN:IEWDR01AW https://doi.org/IEWDR01AW\nIRQ1.5 IGSN:IEWDR01B0 https://doi.org/IEWDR01B0\nIRQ2 IGSN:IEWDR01B1 https://doi.org/IEWDR01B1\nLSF1 IGSN:IEWDR01BA https://doi.org/IEWDR01BA\nLSF2 IGSN:IEWDR01BC https://doi.org/IEWDR01BC\nLSF24 IGSN:IEWDR01BH https://doi.org/IEWDR01BH\nLSF25 IGSN:IEWDR01BJ https://doi.org/IEWDR01BJ\nLSF26 IGSN:IEWDR01BK https://doi.org/IEWDR01BK\nLSF3 IGSN:IEWDR01BB https://doi.org/IEWDR01BB\nLSF3.5 IGSN:IEWDR01AK https://doi.org/IEWDR01AK\nLSL1 IGSN:IEWDR01BL https://doi.org/IEWDR01BL\nLSL13 IGSN:IEWDR01AY https://doi.org/IEWDR01AY\nLSL14 IGSN:IEWDR01B8 https://doi.org/IEWDR01B8\nLSL15 IGSN:IEWDR01B9 https://doi.org/IEWDR01B9\nLSL16 IGSN:IEWDR01B5 https://doi.org/IEWDR01B5\nLSL17 IGSN:IEWDR01B2 https://doi.org/IEWDR01B2\nLSL18 IGSN:IEWDR01B6 https://doi.org/IEWDR01B6\nLSL2 IGSN:IEWDR01BM https://doi.org/IEWDR01BM\nLSL3 IGSN:IEWDR01BN https://doi.org/IEWDR01BN\nLSPA1 IGSN:IEWDR01CI https://doi.org/IEWDR01CI\nLSPA3 IGSN:IEWDR01CJ https://doi.org/IEWDR01CJ\nLSPA4 IGSN:IEWDR01CK https://doi.org/IEWDR01CK\nLSPM1 IGSN:IEWDR01CF https://doi.org/IEWDR01CF\nLSPM2 IGSN:IEWDR01CH https://doi.org/IEWDR01CH\nLSPM3 IGSN:IEWDR01CG https://doi.org/IEWDR01CG\nMASS1 IGSN:IEWDR01D1 https://doi.org/IEWDR01D1\nONT1 IGSN:IEWDR01AL https://doi.org/IEWDR01AL\nONT2 IGSN:IEWDR01AM https://doi.org/IEWDR01AM\nORL2 IGSN:IEWDR01CZ https://doi.org/IEWDR01CZ\nORL3 IGSN:IEWDR01D0 https://doi.org/IEWDR01D0\nQC1 IGSN:IEWDR01CX https://doi.org/IEWDR01CX\nQC2 IGSN:IEWDR01CW https://doi.org/IEWDR01CW\nQC3 IGSN:IEWDR01CV https://doi.org/IEWDR01CV\nQC4 IGSN:IEWDR01CY https://doi.org/IEWDR01CY\nREP1 IGSN:IEWDR01BZ https://doi.org/IEWDR01BZ\nREP2 IGSN:IEWDR01C0 https://doi.org/IEWDR01C0\nREP3 IGSN:IEWDR01C1 https://doi.org/IEWDR01C1\nREP4 IGSN:IEWDR01BY https://doi.org/IEWDR01BY\nSAD1 IGSN:IEWDR01CT https://doi.org/IEWDR01CT\nSAD2 IGSN:IEWDR01CU https://doi.org/IEWDR01CU\nSAD3 IGSN:IEWDR01CS https://doi.org/IEWDR01CS\nSORAM1 IGSN:IEWDR01C9 https://doi.org/IEWDR01C9\nSORAM2 IGSN:IEWDR01CB https://doi.org/IEWDR01CB\nSORAM3 IGSN:IEWDR01CA https://doi.org/IEWDR01CA\nSORAV1 IGSN:IEWDR01CC https://doi.org/IEWDR01CC\nSORAV2 IGSN:IEWDR01CE https://doi.org/IEWDR01CE\nSORAV3 IGSN:IEWDR01CD https://doi.org/IEWDR01CD\nSTA1 IGSN:IEWDR01CR https://doi.org/IEWDR01CR\nSTA2 IGSN:IEWDR01CQ https://doi.org/IEWDR01CQ\nSTA3 IGSN:IEWDR01CP https://doi.org/IEWDR01CP\nSTAN1 IGSN:IEWDR01D4 https://doi.org/IEWDR01D4\nSTIR1 IGSN:IEWDR01D3 https://doi.org/IEWDR01D3\nSTJO1 IGSN:IEWDR01D2 https://doi.org/IEWDR01D2\nSTL1 IGSN:IEWDR01B3 https://doi.org/IEWDR01B3\nSTL1.5 IGSN:IEWDR01B4 https://doi.org/IEWDR01B4\nSTL2 IGSN:IEWDR01B7 https://doi.org/IEWDR01B7\nSTM1 IGSN:IEWDR01CL https://doi.org/IEWDR01CL\nSTM2 IGSN:IEWDR01CO https://doi.org/IEWDR01CO\nSTM3 IGSN:IEWDR01CN https://doi.org/IEWDR01CN\nSTM4 IGSN:IEWDR01CM https://doi.org/IEWDR01CM\nTCL1 IGSN:IEWDR01BP https://doi.org/IEWDR01BP\nTCM1 IGSN:IEWDR01BT https://doi.org/IEWDR01BT\nTCM1.5 IGSN:IEWDR01BQ https://doi.org/IEWDR01BQ\nTCM2 IGSN:IEWDR01BS https://doi.org/IEWDR01BS\nTCM2.5 IGSN:IEWDR01BR https://doi.org/IEWDR01BR\nTCM3 IGSN:IEWDR01BU https://doi.org/IEWDR01BU\nTHI01 IGSN:IEWDR01AS https://doi.org/IEWDR01AS\nTHI02 IGSN:IEWDR01AU https://doi.org/IEWDR01AU\nTHI03 IGSN:IEWDR01AV https://doi.org/IEWDR01AV\nTHI04 IGSN:IEWDR01AT https://doi.org/IEWDR01AT\nTHI05 IGSN:IEWDR01AP https://doi.org/IEWDR01AP\nTHI06 IGSN:IEWDR01AN https://doi.org/IEWDR01AN\nTHI07 IGSN:IEWDR01AR https://doi.org/IEWDR01AR\nTRA1 IGSN:IEWDR01C5 https://doi.org/IEWDR01C5\nTRA2 IGSN:IEWDR01C7 https://doi.org/IEWDR01C7\nTRA3 IGSN:IEWDR01C6 https://doi.org/IEWDR01C6"
+    ],
+    "distribution": [
+      {
+        "contentSize": 65.1005859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-45987107f239c0f-20250421T212755569",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-45987107f239c0f-20250421T212755569",
+        "name": "WHONDRS_Surface_Water_Chemistry_and_Organic.xml"
+      },
+      {
+        "contentSize": 274667.8271484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5176786e992bdd7-20250417T210900427",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-5176786e992bdd7-20250417T210900427",
+        "name": "v2_WHONDRS_STL_Data_Package.zip"
+      }
+    ]
+  }
+}

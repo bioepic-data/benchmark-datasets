@@ -1,0 +1,252 @@
+{
+  "id": "ess-dive-64a6d4947131ab1-20230407T143135967789",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1835182",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-64a6d4947131ab1-20230407T143135967789",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-47b41bf425071fe-20230407T001352538034",
+  "dateUploaded": "2023-04-07T14:31:37.136Z",
+  "dateModified": "2023-04-07T14:31:41.204Z",
+  "isPublic": true,
+  "citation": "Craig M; Brzostek E; Geyer K; Liang C; Phillips R (2021): Data for \u201cFast-decaying plant litter enhances soil carbon in temperate forests, but not through microbial physiological traits\u201d. The Carbon-Nutrient Economy of the Rhizosphere: Improving Biogeochemical Prediction and Scaling Feedbacks From Ecosystem to Regional Scales. Dataset. doi:10.15485/1835182",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1835182",
+    "name": "Data for \u201cFast-decaying plant litter enhances soil carbon in temperate forests, but not through microbial physiological traits\u201d",
+    "description": [
+      "This data package contains data and code used in the paper \u201cFast-decaying plant litter enhances soil carbon in temperate forests, but not through microbial physiological traits\u201d.",
+      "This paper details results from two studies: 1) a laboratory leaf litter incubation experiment (lab experiment) and 2) a multi-site observational field study (field study). Both studies were designed to test the relationships among litter quality, microbial physiological traits, and mineral-associated soil carbon (C). In the lab experiment, we incubated 16 temperate tree litters of differing chemical quality with isotopically distinct soil, measuring microbial physiological traits and the flow of litter-derived C into the mineral-associated soil C pool. In the field study, we sampled soils (0-5 cm) across six eastern US temperate forests, measuring microbial physiological traits, soil abiotic properties, and leaf litter chemistry.",
+      "The analysis data are provided in two .csv files corresponding to either the lab experiment or field study. Both files contain data on litter chemistry, microbial physiological traits (growth and turnover rates, and carbon use efficiency [CUE]), and the mineral-associated soil C pool. The lab experiment dataset additionally contains litter-derived versus soil-derived soil C, respiration, and litter decomposition parameters. The field study dataset additionally contains site-level climatic information, ectomycorrhizal dominance of plots, and plot-level soil properties.",
+      "Also provided is the R code and output reproducing the results in the related publication. Analyses were originally performed using R version 3.6.1 using the package \"lavaan\" and the packages listed on lines 5-7 in the file \"data.R\"."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8890-7920",
+        "givenName": "Matthew",
+        "familyName": "Craig",
+        "affiliation": "Indiana University; Oak Ridge National Laboratory",
+        "email": "craigme@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2964-0576",
+        "givenName": "Edward",
+        "familyName": "Brzostek",
+        "affiliation": "West Virginia University",
+        "email": "erbrzostek@mail.wvu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5218-2745",
+        "givenName": "Kevin",
+        "familyName": "Geyer",
+        "affiliation": "University of New Hampshire",
+        "email": "kmgeyer@yhc.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9089-6546",
+        "givenName": "Chao",
+        "familyName": "Liang",
+        "affiliation": "Chinese Academy of Sciences",
+        "email": "cliang823@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1345-4138",
+        "givenName": "Richard",
+        "familyName": "Phillips",
+        "affiliation": "Indiana University",
+        "email": "rpp6@indiana.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Katilyn",
+        "familyName": "Beidler",
+        "affiliation": "Indiana University"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Serita",
+        "familyName": "Frey",
+        "affiliation": "University of New Hampshire"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stuart",
+        "familyName": "Grandy",
+        "affiliation": "University of New Hampshire"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "soil organic matter",
+      "decomposition",
+      "carbon",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS"
+    ],
+    "variableMeasured": [
+      "mineral-associated organic matter",
+      "microbial carbon use efficiency",
+      "carbon mass flux into soil from litter",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL RESPIRATION",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > DECOMPOSITION",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL PH",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL CHEMISTRY",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > ORGANIC MATTER",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL TEXTURE",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > NITROGEN"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Polygon contains six temperate forest sites (associated with the Smithsonian ForestGEO network). Each site (~20-50 Ha) contained nine plots and specific site coordinates are found in the data description file.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.55,
+            "longitude": -90.55
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.52,
+            "longitude": -72.18
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2017-07-01",
+      "endDate": "2018-12-12",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8890-7920",
+      "givenName": "Matthew",
+      "familyName": "Craig",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "craigme@ornl.gov"
+    },
+    "citation": [
+      "Craig ME, Geyer KM, Beidler KV, Brzostek ER, Frey SD, Grandy AS, Liang C, Phillips RP. (accepted) Fast-decaying plant litter enhances soil carbon in temperate forests, but not through microbial physiological traits. Nature Communications"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "58a352fd-d19d-449b-8ccf-b3b5675b5003"
+      },
+      "name": "The Carbon-Nutrient Economy of the Rhizosphere: Improving Biogeochemical Prediction and Scaling Feedbacks From Ecosystem to Regional Scales",
+      "member": {
+        "@type": "Person",
+        "givenName": "Joshua",
+        "familyName": "Fisher",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "University of California- Los Angeles",
+        "email": "jfisher@jifresse.ucla.edu"
+      }
+    },
+    "measurementTechnique": [
+      "For additional methods details, see related publication.",
+      "Lab experiment: Litter and soil preparation\nLeaf litters were collected from Lilly-Dickey Woods using litter baskets and surveys for freshly senesced litter as described in Craig et al. (2018; Global Change Biology). Litters were air-dried and then homogenized and fragmented such that all litter fragments passed a 4000 \u00b5m, but not a 250 \u00b5m mesh. Leaf litters had a \u03b413C signature of -30.1 \u00b1 1.5 (mean, standard deviation) and soils had a \u03b413C signature of \u03b413C -12.6 \u00b1 0.4. Soil was obtained from the A horizon of a 35-yr continuous corn field at the Purdue University Agronomy Center for Research and Education near West Lafayette, Indiana (40\u00b0 4\u2032 N, 86\u00b056\u2032 W). The soil is classified as Chalmers silty clay loam (a fine-silty, mixed, superactive, mesic Typic Endoaquoll). Prior to use in the incubation, soils were sieved (2 mm) and remaining recognizable plant residues were thoroughly picked out. Soils were mixed with acid-washed sand (30 % by mass).",
+      "Lab experiment: Incubations\nLitters were mixed with the 13C-enriched soil, replicating each litter treatment four times in four batches (i.e. 16 microcosms per species, 272 total microcosms including 16 soil-only controls). Two batches were used to monitor CO2 efflux and to track litter-derived C into SOM pools, and two batches were used to quantify microbial biomass dynamics. Incubations were carried out in 50-mL centrifuge tubes modified with an O-ring and a rubber septum. To each microcosm, we added 5 g dry soil, adjusted moisture to 65 % water holding capacity, and pre-incubated for 24 h in the dark at 24 \u00b0C. Using a dissecting needle, 300 mg of leaf litter were carefully mixed into treatment microcosms and controls were similarly agitated. During incubation, microcosms were loosely capped to retain moisture while allowing gas exchange, and were maintained at 65 % water holding capacity by adding deionized water every week.",
+      "Lab experiment: Carbon budget\nRespiration was quantified with an infrared gas analyzer (LiCOR 6262, Lincoln, NE, USA) coupled to a sample injection system. Our first measurement was taken about 12 h after litter addition (day 1) and subsequent measurements were taken on days 2, 4, 11, 19, and 30 for both batches and also on days 46, 64, 79, 92, 109, 128, 149, and 185 for the second batch. Prior to each measurement, microcosms were capped, flushed with CO2-free air, and incubated for 1 to 8 hours depending on the expected efflux rate. Headspace was sampled with a gas-tight syringe and the CO2-C concentration was converted to a respiration rate (\u00b5g CO2-C day-1). Total cumulative CO2-C loss was derived from point measurements by numerical integration (i.e. the trapezoid method). To evaluate soil-derived CO2-C efflux, we measured \u03b413C in two gas samples per litter type or control on a ThermoFinnigan DELTA Plus XP isotope ratio mass spectrometer (IRMS) with a GasBench interface (Thermo Fisher Scientific, San Jose, CA). Isotopes were measured on days 1, 4, 11, 30, 64, 109, and 185. On each of these days, a two-source mixing model was applied to determine the fraction of total CO2-C derived from soil organic matter versus litter. These data were used to calculate cumulative soil-derived C efflux via numerical integration and, for each litter type, average soil-derived C efflux was subtracted from total cumulative CO2-C loss to determine cumulative litter-derived CO2-C loss.\nWe harvested samples on days 30 and 185 to track litter-derived C into mineral-associated SOC at an early and intermediate stage of decomposition. For each sample, we first added 30 mL deionized water, gently shook by hand to suspend all particles, and then centrifuged (2500 rpm) for 10 min. Floating leaf litter was carefully removed, dried for 48 h at 60 \u00b0C, and weighed; and the clear supernatant was discarded to remove the dissolved organic matter. The remaining sample was dispersed in 5% (w/v) sodium hexametaphosphate for 20 h on a reciprocal shaker and then washed through a 53-\u00b5m sieve. The fraction retained on the sieve was added to the floating leaf litter sample and collectively referred to as particulate SOC, while the fraction that passed through the sieve was considered the mineral-associated SOC. Both fractions were dried, ground, and weighed; and analyzed for C concentrations and \u03b413C values on an elemental combustion system (Costech ECS 4010, Costech Analytical Technologies, Valencia, CA, USA) as an inlet to an IRMS. As above, litter-derived C in the particulate and mineral-associated SOC was determined using a two-pool mixing model. In a few cases, mineral-associated \u03b413C was slightly less negative in the treatment than in the control soil. In these cases, litter-derived mineral-associated SOC was considered zero. Total litter-derived SOC at each harvest date was calculated by subtracting the cumulative litter-derived CO2-C from initial added litter C. The difference between this value and the sum of litter-derived particulate and mineral-associated SOC was considered the residual pool which we assume mostly represents water-extractable dissolved organic matter.",
+      "Lab experiment: Microbial biomass dynamics\nSample batches were harvested at days 15 and 100 to capture early- and intermediate-term microbial biomass responses to litter treatments. These times were selected to correspond with the middle of early and intermediate C budget microcosm incubations. We quantified microbial biomass as well as microbial growth rate (MGR), carbon use efficiency (CUE), and microbial turnover rate (MTR) using 18O-labeled water as in Geyer et al. (2019; Soil Biology and Biochemistry).\nMicrobial biomass C (MBC) was determined on two approximately 2 g subsamples using a standard chloroform fumigation extraction (Vance et al. 1987; Soil Biology and Biochemistry). One subsample was immediately extracted in 0.5 M K2SO4 and one was fumigated for 72 h before extraction. After shaking for 1 h, extracts were gravity filtered through a Whatman No. 40 filter paper, and filtrates were analyzed for total organic C using the method of Bartlett and Ross (1988; Soil Sci Soc of Am J) as adapted by Giasson et al. (2014; Soil Biology and Biochemistry). The difference between total organic C in the fumigated and unfumigated subsamples was used to calculate MBC (extraction efficiency KEC = 0.45).\nTo determine MGR, CUE, and MTR, we first pre-incubated two 0.5-g soil subsamples (one treatment and one control) for 2 d at 24 \u00b0C. Prior to this pre-incubation, samples were allowed to evaporate down to 53 \u00b1 6 % (mean, sd) water-holding capacity. After the pre-incubation, water was injected with a 25 \u00b5L syringe to bring each sample to 65 % water-holding capacity. For one subsample, we used unlabeled deionized water. For the second subsample, enriched 18O-water (98.1 at%; ICON Isotopes) was mixed with unlabeled deionized H2O to achieve approximately 20 at% of 18O in the final soil water. Each sample was placed in a centrifuge tube (modified for gas sampling), flushed with CO2-free air, and incubated for 24 h. Headspace CO2 concentration was then measured, and samples were flash frozen in liquid N2 and stored at -80 \u00b0C until DNA extraction.\nDNA was extracted from each sample using a DNA extraction kit (Qiagen DNeasy PowerSoil Kit, Venlo, Netherlands) following the protocol described in Geyer et al. (2019) which sought to maximize the recovery of DNA. The DNA concentration was determined fluorometrically using a Quant-iT PicoGreen dsDNA Assay Kit (Invitrogen). DNA extracts (80 \u00b5L) were dried at 60 \u00b0C in silver capsules spiked with 100 \u00b5L of salmon sperm DNA (42.5 ng \u00b5L-1), to reach oxygen detection limit, and sent to the UC Davis Stable Isotope Facility for quantification of \u03b418O and total O content.MGR, CUE, and MTR were was calculated following the equations in Geyer et al. (2019).",
+      "Lab experiment: Litter decay parameters\nLitter decay constants were calculated for each species using litter-derived CO2-C values to estimate litter mass loss over time. After it was determined that a single exponential decay model provided a poor fit, we fit litter decomposition data using the double exponential decay model: y=se^(\u3016-k\u3017_1 t)+(1-s) e^(\u3016-k\u3017_2 t) where s represents the labile or early stage decomposition fraction that decomposes at rate k1, and k2 is the decay constant for the remaining late stage decomposition fraction.",
+      "Field study: Study design and soil sampling\nWe worked in the Smithsonian\u2019s Forest Global Earth Observatory (ForestGEO) network in six mature U.S. temperate forests varying in climate, soil properties, and tree community composition: Harvard forest (HF; 42\u00b0 32' N, 72\u00b0 11' W) in North-Central Massachusetts, Lilly-Dickey Woods (LDW; 39\u00b0 14' N, 86\u00b0 13' W) in South-Central Indiana, the Smithsonian Conservation Biology Institute (SCBI; 38\u00b0 54' N, 78\u00b0 9' W) in Northern Virginia, the Smithsonian Environmental Research Center (SERC; 38\u00b0 53' N, 76\u00b0 34' W) on the Chesapeake Bay in Maryland, Tyson Research Center (TRC; 38\u00b0 31' N, 90\u00b0 33' W) in Eastern Missouri, and Wabikon Lake Forest (WLF; 45\u00b0 33' N, 88\u00b0 48' W) in Northern Wisconsin, USA. Land use history across the six sites consisted mostly of timber harvesting which ceased in the early 1900s. Soils are mostly Oxyaquic Dystrudepts at HF, Typic Dystrudepts and Typic Hapludults at LDW, Typic Hapludalfs at SCBI, Typic or Aquic Hapludults at SERC, Typic Hapludalfs and Typic Paleudalfs at TRC, and Typic and Alfic Haplorthods at WLF.\nEach site contains a rich assemblage of co-occurring arbuscular mycorrhizal (AM)- and ectomycorrhizal (ECM)-associated trees, which we leveraged to generate environmental gradients in factors hypothesized to predict microbial physiological traits within each site. We established nine 20 \u00d7 20 m plots in each of our six sites (n = 54) distributed along a gradient of AM- to ECM-associated tree dominance. Plots were selected to avoid obvious confounding environmental factors. Where possible, we established our nine-plot gradient in three blocks (< 1 ha), each containing an AM, ECM, and mixed dominance plot. Plots were generally located on upland areas with the exception of TRC where all plots were located on toeslopes due to a lack of AM trees in upland areas. At HF, we established six of the nine plots outside the boundaries of the ForestGEO plot due to a lack of appropriate AM-ECM mixtures. At LDW, we used a random subset of previously established 15 \u00d7 15 m plots (Midgley et al. 2015; Journal of Ecology). Basal area of living trees was determined using the most recent ForestGEO census (within the last five years) or by conducting our own inventory. ECM-dominance was quantified as the percentage of ECM-associated basal area relative to the total plot basal area.\nFour soil cores (5 cm-diameter) were collected in July 2017 from each plot to a depth of 5 cm. A thin O horizon (Oe and Oa) was sometimes present and was collected as part of the 5-cm soil core. However, there was often a thick O horizon (> 5 cm) at HF, which was removed before coring. Samples were also collected at 5-15 cm depth for soil texture analysis. We sampled from an inner 10 \u00d7 10 m square in each plot to avoid edge effects. All samples from the same plot were composited, sieved (2 mm), picked free of roots, subsampled for gravimetric moisture (105\u00b0C), and air-dried, or refrigerated (4\u00b0C) until analysis for microbial physiological variables and N availability.",
+      "Field study: Soil properties\nWe measured soil pH (8:1 ml 0.01 M CaCl2:g soil) and soil texture using a benchtop pH meter and a standard hydrometer procedure (Gee and Bauder 1979; Soil Sci Soc Am J), respectively. Plot-level soil texture was determined from 5-15 cm depth samples. We quantified oxalate-extractable Al and Fe pools (Alox and Feox) in all soil samples. Briefly, we extracted 0.40 g dried, ground soil in 40 mL 0.2 M NH4-oxalate at pH 3.0 in the dark for 4 h before gravity filtering and refrigerating until analysis (within 2 w) on an atomic-adsorption spectrometer (Aanalyst 800, Perkin Elmer, Waltham, MA, USA), using an acetylene flame and a graphite furnace for the atomization of Fe and Al, respectively.\nWe quantified potential net N mineralization rates as an index of soil N availability. One 5-g subsample per plot was extracted immediately after processing by adding 10 mL 2 M KCl, shaking for 1 h, and filtering through a Whatman No. 1 filter paper after centrifugation at 3000 rpm. A second subsample from each plot was incubated under aerobic conditions at field moisture and 23 \u00b0C for 14 d before extraction. Extracts were frozen (-20 \u00b0C) until analysis for NH4+-N using the salicylate method and for NO3--N plus NO2--N after a cadmium column reduction on a Lachat QuikChem 8000 flow Injection Analyzer (Lachat Instruments, Loveland, CO, USA). Potential net N mineralization rates (mg N g dry soil-1 d-1) were calculated as the difference between pre- and post-incubation inorganic N concentrations.",
+      "Field study: Microbial biomass dynamics\nMicrobial biomass carbon and microbial physiological traits were quantified within 10 days of collection as described in step 5, with four minor differences. First, 30-g soil subsamples were covered with parafilm and pre-incubated for 2 d near the field soil temperature measured at the time of sampling (16.5 \u00b0C for WLF and HF, and 21.5 \u00b0C for LDW, TRC, SCBI, and SERC). Second, for CO2 analysis, samples were placed in a 61 mL serum vial crimped with a rubber septum. Third, DNA concentrations were determined using a Qubit dsDNA BR Assay Kit (Life Technologies) and a Qubit 3.0 fluorometer (Life Technologies). Fourth, 14.5-g subsamples were used for microbial biomass analysis.",
+      "Field study: Soil organic matter characterization\nMineral-associated SOC was quantified as in step 4, but without a pre-fractionation leachate removal step. We additionally measured soil amino sugar concentrations. Amino sugars were extracted, purified, converted to aldononitrile acetates, and quantified with myo-inositol as in Liang et al. (2012; J Vis Exp). We used the concentrations of Glu and MurA to estimate total, fungal, and bacterial necromass soil C using the empirical relationships reported in Liang et al. (2019; Global Change Biology).",
+      "Field study: Leaf litter and fine roots\nIn Fall 2017, we collected leaf litter on two sample dates from four baskets deployed in the inner 10 \u00d7 10 m of each plot. Litter was composited by plot, dried (60 \u00b0C), sorted by species, weighed, and ground. We performed leaf litter analyses on at least three samples of each species at each site \u2013 unless a species was only present in one or two plots \u2013 to get a site-specific mean for each species. Some non-dominant species were not included in these analyses because an insufficient amount of material was collected. Fine roots (< 2 mm) were collected at the time of soil sampling (at LDW, TRC, and WLF) or the following summer (HF, SERC, SCBI) due to issues with sample processing.\nLeaf litter and bulk root samples were analyzed for C and N content. For leaf litter, we conducted a sequential extraction as in Moorhead & Reynolds (1993; The American Midland Naturalist) to determine the soluble fraction using hot water and ethanol and the acid unhydrolyzable residue (AUR). The lignocellulose index (LCI) was estimated by dividing the AUR fraction by the total non-soluble ash-free fraction. Leaf litter trait values were calculated for each plot as the average of site-specific mean values for each species in the plot weighted by proportion of total plot basal area.",
+      "Field study: Data analysis\nA litter quality index and microbial physiological trait index was calculated via PCA. Linear mixed models were fit to the microbial physiological trait index using site as a random factor and the above indicators as fixed factors. We also used linear mixed models to evaluate whether microbial physiological variables predicted significant variation in mineral-associated or necromass-derived C in the context of other hypothesized or known controls on mineral-associated SOC."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3.6259765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-25ff85acb4608f6-20211027T210521130",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-25ff85acb4608f6-20211027T210521130",
+        "name": "figures.R"
+      },
+      {
+        "contentSize": 307.2373046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1cff75d4f636c77-20211202T212154086",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-1cff75d4f636c77-20211202T212154086",
+        "name": "Data_description.pdf"
+      },
+      {
+        "contentSize": 21.9296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-408ebda9a94859d-20211027T210530631",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-408ebda9a94859d-20211027T210530631",
+        "name": "Cbud.csv"
+      },
+      {
+        "contentSize": 4.712890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-37a858565cf51e7-20211027T210521133",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-37a858565cf51e7-20211027T210521133",
+        "name": "data.R"
+      },
+      {
+        "contentSize": 2.6357421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5d64965e9b94dde-20211027T210521127",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-5d64965e9b94dde-20211027T210521127",
+        "name": "functions.R"
+      },
+      {
+        "contentSize": 28.45703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-64a6d4947131ab1-20230407T143135967789",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-64a6d4947131ab1-20230407T143135967789",
+        "name": "Data_for_Fast_decaying_plant_litter_enhances_soil_carbon_in_temperate_forests_but_not_through_microbial_physiological_traits_.xml"
+      },
+      {
+        "contentSize": 1.6552734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-82bce4006310962-20211027T210521121",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-82bce4006310962-20211027T210521121",
+        "name": "SEM.R"
+      },
+      {
+        "contentSize": 2.197265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7c5d059e6aa6ba3-20211027T210521124",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-7c5d059e6aa6ba3-20211027T210521124",
+        "name": "models.R"
+      },
+      {
+        "contentSize": 12.83203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a41324d20bd0ecd-20211027T210530635",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a41324d20bd0ecd-20211027T210530635",
+        "name": "field_data.csv"
+      },
+      {
+        "contentSize": 6.873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-914ed0a35e74068-20211027T210521113",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-914ed0a35e74068-20211027T210521113",
+        "name": "Supp_figs.R"
+      }
+    ]
+  }
+}

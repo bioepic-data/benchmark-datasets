@@ -1,0 +1,252 @@
+{
+  "id": "ess-dive-42ca3b05fbeb7e7-20230504T211533977833",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1808368",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-42ca3b05fbeb7e7-20230504T211533977833",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-510d1b81937f77f-20220929T185032001",
+  "dateUploaded": "2023-05-04T21:15:34.963Z",
+  "dateModified": "2023-05-04T21:15:36.962Z",
+  "isPublic": true,
+  "citation": "JAFAROV E; Clark J; Piliouras A; Tape K; Jones B; Rowland J (2021): The LAKE model input dataset for three Arctic lakes. Interdisciplinary Research for Arctic Coastal Environments (InteRFACE). Dataset. doi:10.15485/1808368",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1808368",
+    "name": "The LAKE model input dataset for three Arctic lakes",
+    "description": [
+      "This dataset contains meteorological data collected for three Arctic lakes and compiled to satisfy input requirements of the LAKE 2.0 model. The dataset was generated to act as a benchmarking dataset for future model-data inter-comparisons. The LAKE 2.0 model simulates temperatures within the water later and the sedimentary layer of a lake. The LAKE2.0. is an open-source code and available to download via this weblike http://tesla.parallel.ru/Viktor/LAKE/-/wikis/LAKE-model (last visit July 14, 2021). The meteorological data are required to simulate the surface energy balance at the surface of a lake. This dataset includes a compilation of the meteorological data pulled from multiple data streams, including National Oceanic and Atmospheric Administration (NOAA) climate data, Circumarctic Lakes Observation Network (CALON) data, and the United States Geological Survey (USGS) data. The data were compiled for three Arctic lakes: FoxDen (66.55877, -164.45670), Atqasuk (70.452497, -156.951984), and Toolik (68.63150, -149.60740). Each meteorological data is in comma-delimited format (file extension \u2018.dat\u2019) and includes eight columns: Temperature [K], Pressure [Pa], longwave downward radiation [W/m2], shortwave downward radiation [W/m2], \u201cU\u201d wind speed [m/s], \u201dV\u201d wind speed [m/s], humidity [kg/kg], precipitation [m/s]. In addition to the meteorological data file, we included setup and driver files. The Toolik lake is the deepest out of three lakes and has inflowing and outflowing groundwater data. InflowOutflowREADME.txt has more information about inflow and outflow flies. The other two lakes are much shallower and modeled as a closed system (i.e. no water inflow or outflow)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8310-3261",
+        "givenName": "ELCHIN",
+        "familyName": "JAFAROV",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "elchin@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4810-5261",
+        "givenName": "Jason",
+        "familyName": "Clark",
+        "affiliation": "University of Alaska Fairbanks",
+        "email": "jaclark2@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Anastasia",
+        "familyName": "Piliouras",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "apiliouras@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ken",
+        "familyName": "Tape",
+        "affiliation": "University of Alaska Fairbanks",
+        "email": "kdtape@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Benjamin",
+        "familyName": "Jones",
+        "affiliation": "University of Alaska Fairbanks",
+        "email": "bmjones3@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Elchin",
+        "familyName": "Jafarov",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "elchin@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jason",
+        "familyName": "Clark",
+        "affiliation": "University of Alaska Fairbanks",
+        "email": "jaclark2@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Benjamen",
+        "familyName": "Jones",
+        "affiliation": "University of Alaska Fairbanks",
+        "email": "bmjones3@alaska.edu"
+      }
+    ],
+    "datePublished": "2021-01-06",
+    "keywords": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > ATMOSPHERE >",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > ATMOSPHERIC PRESSURE MEASUREMENTS",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > LOCAL WINDS",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "North Slope of Alaska, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.55877,
+            "longitude": -164.4567
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 70.452497,
+            "longitude": -156.951984
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8310-3261",
+      "givenName": "ELCHIN",
+      "familyName": "JAFAROV",
+      "email": "elchin@lanl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "39046a95-7219-40fa-b1f1-5c3cc6a06c24"
+      },
+      "name": "Interdisciplinary Research for Arctic Coastal Environments (InteRFACE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Source datasets:\nFoxDen lake: Meteorological data was not available at FoxDen pond/lake. Instead, data from the National Weather Service station at Kotzebue, AK (~90km ENE, citation) was used and solar radiation was obtained from NASA CERES.\nAtqasuk lake: The meteorological data for the Atqasuk lake comes from two sources: the South Meade site is the United States Geological Survey (USGS) meteorological station and the Atqasuk lake meteorological station from the Circumarctic Lakes Observation Network (CALON). The meteorological data includes: pressures [mb], rain [mm], air temperature [C], wind speed [m/s], gust speed [m/s], wind direction, and solar radiation [W/m].\nToolik lake: The meteorological data is collected at the nearby Toolik Field Station (~30m W, citation) and includes atmospheric air pressure [mb], all season precipitation [mm], snow depth [m], air temperature [C], wind speed [m/s], wind direction [degrees], and solar radiation [W/m].\nAll input datasets were visually inspected and do not have any missing values or outliers that can affect the LAKE2.0 model performance. More information on the data pre-/post-processing can be found in Clark et al., (in prep)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 10.462890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-08163f2840d62e4-20210518T102232599",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-08163f2840d62e4-20210518T102232599",
+        "name": "Toolik_driver.dat"
+      },
+      {
+        "contentSize": 80.19140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1f0347d14357cca-20210518T102212920",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-1f0347d14357cca-20210518T102212920",
+        "name": "FoxDen_meteo_data.dat"
+      },
+      {
+        "contentSize": 34.78515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-40b2a3ecf79112d-20210518T102232620",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-40b2a3ecf79112d-20210518T102232620",
+        "name": "Toolik_outflow.dat"
+      },
+      {
+        "contentSize": 12.1044921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-42ca3b05fbeb7e7-20230504T211533977833",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-42ca3b05fbeb7e7-20230504T211533977833",
+        "name": "The_LAKE_model_input_dataset_for_three_Arctic_lakes.xml"
+      },
+      {
+        "contentSize": 63.9072265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2c191a79c14cb91-20210518T102232625",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-2c191a79c14cb91-20210518T102232625",
+        "name": "Toolik_inflow.dat"
+      },
+      {
+        "contentSize": 1410.7490234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-61225c69664568f-20210518T102232605",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-61225c69664568f-20210518T102232605",
+        "name": "Toolik_meteo_data.dat"
+      },
+      {
+        "contentSize": 13.3828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-566accb1d3d684e-20210518T102232614",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-566accb1d3d684e-20210518T102232614",
+        "name": "Toolik_setup.dat"
+      },
+      {
+        "contentSize": 1.5166015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-568b2c4e54bf809-20210518T102232609",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-568b2c4e54bf809-20210518T102232609",
+        "name": "InflowOutflowREADME.txt"
+      },
+      {
+        "contentSize": 10.8046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a5722273e6b4b93-20210518T102212932",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-a5722273e6b4b93-20210518T102212932",
+        "name": "FoxDen_driver.dat"
+      },
+      {
+        "contentSize": 15.970703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a325136bc824a73-20210518T102212939",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-a325136bc824a73-20210518T102212939",
+        "name": "FoxDen_setup.dat"
+      },
+      {
+        "contentSize": 1380.2626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-95283556245bb75-20210518T102246575",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-95283556245bb75-20210518T102246575",
+        "name": "Atgasuk_meteo_data.dat"
+      },
+      {
+        "contentSize": 10.494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b76a63d42f6c00e-20210518T102246582",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-b76a63d42f6c00e-20210518T102246582",
+        "name": "Atgasuk_driver.dat"
+      },
+      {
+        "contentSize": 13.96484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f0ad9e5ed502adf-20210518T102246564",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-f0ad9e5ed502adf-20210518T102246564",
+        "name": "Atgasuk_setup.dat"
+      }
+    ]
+  }
+}

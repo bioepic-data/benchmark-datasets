@@ -1,0 +1,284 @@
+{
+  "id": "ess-dive-a5af2039af58f77-20250829T234104250",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2587101",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a5af2039af58f77-20250829T234104250",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-f68139b29b00088-20250814T170148800",
+  "dateUploaded": "2025-08-29T23:41:06.240Z",
+  "dateModified": "2025-09-03T00:00:31.056Z",
+  "isPublic": true,
+  "citation": "Karaoz U; Sorensen P; Chadwick D; Bill M; Bouskill N; Falco N; Polussa A; Maher K; Wang S; Wainwright H; Williams K; Brodie E (2025): Metagenome-assembled genomes from topsoils collected during NEON campaign in East River, CO (06/14/2018-06/28/2018). Watershed Function SFA. Dataset. doi:10.15485/2587101",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2587101",
+    "name": "Metagenome-assembled genomes from topsoils collected during NEON campaign in East River, CO (06/14/2018-06/28/2018)",
+    "description": [
+      "The Watershed Function Science Focus Area (WF SFA) at Lawrence Berkeley National Lab is working to build a mechanistic understanding of the distribution and dynamics of biogeochemical processes in mountainous watersheds and their response to perturbation. In June 2018, the NEON (National Ecological Observatory Network) Airborne Observatory Platform (AOP) performed a taskable airborne imaging campaign to collect visible to shortwave infrared (VSWIR) imaging spectroscopy and LiDAR data across 330 km2 in the Upper East River at Crested Butte, CO. We conducted a parallel ground sampling campaign to sample vegetation traits, as well as soil physical, chemical, and microbiological characteristics. We collected these samples from 438 sites across 12 locations spanning much of the elevation, topographic, and geologic variability across the study area. A subset of 250 samples were used for soil metagenomics which is presented here.",
+      "In addition, at each site, vegetation samples were collected to measure species-specific leaf water content and leaf mass area, foliar elemental composition and foliar CN stable isotope ratios. Soil samples were collected to measure soil physical properties which include bulk density and soil texture analysis. A suite of soil chemical properties was measured from the samples collected at each site, including pH, organic matter, concentrations exchangeable cations, total elemental composition, and the concentrations of extractable N pools (e.g. total free amino acids, ammonium, nitrate, dissolved organic N, and total dissolved N). Additionally, we have measured soil microbial biomass CN stoichiometry.",
+      "Here, we present 1982 metagenome-assembled genomes (MAGs) for the bacterial and archaeal community from topsoil collected from during NEON 2018 campaign. All metagenomes were sequenced at JGI (Joint Genome Institute) (GOLD Study ID: Gs0149986). Metagenomes were assembled using JGI Metagenome Workflow (10.1128/mSystems.00804-20). The dataset includes (1) zip files for 1982 MAG fasta files (neon_genomes1-5.tar.gz, split into 5 tarballs to keep tarballs under 0.5 GB), (2) neon_Gs0149986_samples_soilproperties_metagenomes.csv: the sample information together with the accession numbers for the underlying metagenomes and the associated soil physical and chemical measurements in NMDC (National Microbiome Data Collaborative) compliant format, (3) neon_Gs0149986.kml: location bounding box file for the sampled locations, (4) samples.csv: sample metadata file used to register Internationall Generic Sample Numbers (IGSNs), (5) flmd.csv: file level metadata file, and (6) dd.csv: data dictionary file. This work was supported by the Watershed Function Science Focus Area at Lawrence Berkeley National Laboratory funded by the US Department of Energy, Office of Science, Biological and Environmental Research under Contract No. DE-AC02-05CH11231."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8238-6757",
+        "givenName": "Ulas",
+        "familyName": "Karaoz",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ukaraoz@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0558-2789",
+        "givenName": "Patrick",
+        "familyName": "Sorensen",
+        "affiliation": "University of Rhode Island - Kingston",
+        "email": "patrick.sorensen@uri.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5633-4865",
+        "givenName": "Dana",
+        "familyName": "Chadwick",
+        "affiliation": "NASA Jet Propulsion Laboratory (JPL)",
+        "email": "dana.chadwick@jpl.nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7002-2174",
+        "givenName": "Markus",
+        "familyName": "Bill",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mbill@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6577-8724",
+        "givenName": "Nicholas",
+        "familyName": "Bouskill",
+        "affiliation": "Oregon State University",
+        "email": "nick.bouskill@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3307-6098",
+        "givenName": "Nicola",
+        "familyName": "Falco",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "nicolafalco@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5559-9984",
+        "givenName": "Alexander",
+        "familyName": "Polussa",
+        "email": "alexander.polussa@yale.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5982-6064",
+        "givenName": "Kate",
+        "familyName": "Maher",
+        "affiliation": "Stanford University",
+        "email": "kmaher@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2408-2544",
+        "givenName": "Shi",
+        "familyName": "Wang",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ShiWang@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2140-6072",
+        "givenName": "Haruko",
+        "familyName": "Wainwright",
+        "affiliation": "Massachusetts Institute of Technology",
+        "email": "hmwainw@mit.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8453-8435",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > MICROFAUNA:GCMD",
+      "EARTH SCIENCE > BIOSPHERE > OMICS > METAGENOME > METAGENOME ASSEMBLED GENOMES (MAGs):GCMD",
+      "EARTH SCIENCE > BIOSPHERE > OMICS > OMICS METHODOLOGY > BIN/BINNING:GCMD",
+      "EARTH SCIENCE > BIOSPHERE > OMICS > BUILDING BLOCKS > CONTIG:GCMD",
+      "EARTH SCIENCE > BIOSPHERE > OMICS > BUILDING BLOCKS > eDNA:GCMD",
+      "EARTH SCIENCE > BIOSPHERE > OMICS > MICROBIOME:GCMD",
+      "NEON Campaign 2018",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE Sample ID and Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > OMICS > METAGENOME > METAGENOME ASSEMBLED GENOMES (MAGs):GCMD",
+      "EARTH SCIENCE > BIOSPHERE > OMICS > OMICS METHODOLOGY > BIN/BINNING:GCMD",
+      "EARTH SCIENCE > BIOSPHERE > OMICS > MICROBIOME:GCMD"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory and SLAC Accelerator Laboratory's Watershed Function Scientific Focus Area (WFSFA). This portion of the ER watershed contains the project-defined boundaries of East River, Washington Gulch, Slate River, and Coal Creek, as described in the location metadata. Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. This data package contains geographic metadata for specific observation points throughout the watershed. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2025) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.033,
+            "longitude": -107.12
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.82,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-06-14",
+      "endDate": "2018-06-28",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8238-6757",
+      "givenName": "Ulas",
+      "familyName": "Karaoz",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "ukaraoz@lbl.gov"
+    },
+    "citation": [
+      "Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Boye K ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Perzan Z ; Pierce S ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Thibaut R ; Tokunaga T ; Versteeg R ; Wielandt S ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2025): Location Identifiers, Metadata, and Map for Field Measurements at the East-Taylor Watershed Community Observatory, Colorado, USA (Version 3.2). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962 accessed via https://data.ess-dive.lbl.gov/datasets/ess-dive-a9de0ff71198b5e-20250327T162215232",
+      "Clum A, Huntemann M, Bushnell B, Foster B, Foster B, Roux S, Hajek PP, Varghese N, Mukherjee S, Reddy TBK, Daum C, Yoshinaga Y, O\u2019Malley R, Seshadri R, Kyrpides NC, Eloe-Fadrosh EA, Chen IA, Copeland A, Ivanova NN.2021.DOE JGI Metagenome Workflow. mSystems6:10.1128/msystems.00804-20.https://doi.org/10.1128/msystems.00804-20",
+      "Chadwick K D ; Grant K ; Henderson A ; Breckheimer I ; Williams C F R ; Falco N ; Chen J ; Henry H ; Khurram A ; Lamb J ; McCormick M ; McOmber H ; Pierce S ; Polussa A ; Hastings Porro M ; Scott A ; Wu Singh H ; Whitney B ; Brodie E ; Carroll R ; Dewey C ; Kueppers L ; Maavara T ; Steltzer H ; Williams K ; Maher K (2020): Locations, metadata, and species cover from field sampling survey associated with NEON AOP survey, East River, CO 2018. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1618130 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1618130 on 2025-06-27",
+      "Chadwick KD, Brodrick PG, Grant K, et al. Integrating airborne remote sensing and field campaigns for ecology and Earth system science. Methods Ecol Evol. 2020; 11: 1492\u20131508. https://doi.org/10.1111/2041-210X.13463"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "We refer the reader to \"Integrating airborne remote sensing and field campaigns for ecology and Earth system science.\" Methods Ecol Evol. 2020; 11: 1492\u20131508. https://doi.org/10.1111/2041-210X.13463 for details of the overall campaign from which the soil samples for metagenomics were selected from.\nMetagenomic reads from each sample were assembled following the JGI metagenome assembly pipeline. In addition to single sample assemblies, for 2016 and 2018 samples which had shallower sequencing efforts overall, we also performed co-assemblies pooling samples from the replicate plots by treatment and depth interval. Shortly, for each assembly, raw reads were subjected to quality trimming, artifact removal, linker and adapter trimming, and spike-in removal using BBTools RQCFilter (parameters: mlf=0.333 maxns=3 removemicrobes=t minLength=51 rna=f removecat=t removehuman=t clumpify=t minavgquality=3 trimq=0 removemouse=t phix=t qtrim=r trimfragadapter=t khist=t removedog=t barcodefilter=f sketch=f mapk=13). The resulting reads were corrected for sequencing errors using BFC - bloom filter correction (parameters: -1 -k 21 -t 10). Orphan single end reads were removed from the paired end library using Seqtk dropse subcommand. The final reads were assembled into contigs using metaSPAdes with parameters: --only-assembler -k 33,55,77,99,127 --meta -t 32 -m 2000.\nFor each metagenome, the assembled contigs were binned into genomes using 3 binning algorithms (COCACOLA (python version), MetaBAT2 (v2.12.1), and MaxBin 2.0 (v2.2.7)) and the resulting bins were consolidated using DASTool (v1.1.6). The consolidated bins from all metagenomes were pooled, filtered by completeness (>50%) and contamination (<25%), and dereplicated at 99% ANI using dRep (3.2.2)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 179.95703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31a143f591bfa66-20250607T012148872",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-31a143f591bfa66-20250607T012148872",
+        "name": "neon_Gs0149986_samples_soilproperties_metagenomes.csv"
+      },
+      {
+        "contentSize": 459117.18359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-458d58ed2b31100-20250607T005519922",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-458d58ed2b31100-20250607T005519922",
+        "name": "neon_genomes5_tar.gz"
+      },
+      {
+        "contentSize": 477734.359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e81268fca2da615-20250606T215303730",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-e81268fca2da615-20250606T215303730",
+        "name": "neon_genomes2_tar.gz"
+      },
+      {
+        "contentSize": 1.001953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-eceea360d273c61-20250814T170109947",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-eceea360d273c61-20250814T170109947",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 463600.396484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-566d5bf07a7a5a1-20250606T233301282",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-566d5bf07a7a5a1-20250606T233301282",
+        "name": "neon_genomes1_tar.gz"
+      },
+      {
+        "contentSize": 177.796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4f3c3ab0f389e50-20250814T170109952",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4f3c3ab0f389e50-20250814T170109952",
+        "name": "samples.csv"
+      },
+      {
+        "contentSize": 479106.7607421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-843a177c348f5f4-20250606T230734212",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-843a177c348f5f4-20250606T230734212",
+        "name": "neon_genomes4_tar.gz"
+      },
+      {
+        "contentSize": 17.7578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a5af2039af58f77-20250829T234104250",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-a5af2039af58f77-20250829T234104250",
+        "name": "Metagenome_assembled_genomes_from_topsoils.xml"
+      },
+      {
+        "contentSize": 15.341796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bbe49e8deeff9fe-20250814T170109940",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bbe49e8deeff9fe-20250814T170109940",
+        "name": "dd.csv"
+      },
+      {
+        "contentSize": 464747.5234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c642aa277271094-20250606T222224446",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-c642aa277271094-20250606T222224446",
+        "name": "neon_genomes3_tar.gz"
+      },
+      {
+        "contentSize": 5.6650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cb2c6c1e3685e35-20250607T012141675",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-cb2c6c1e3685e35-20250607T012141675",
+        "name": "neon_Gs0149986.kml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "ess-dive-6b5f9d9a1f59e49-20230407T143229233774",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1861432",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-6b5f9d9a1f59e49-20230407T143229233774",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-864ee5e7231b53e-20230407T001543827488",
+  "dateUploaded": "2023-04-07T14:32:30.150Z",
+  "dateModified": "2023-04-07T14:32:35.871Z",
+  "isPublic": true,
+  "citation": "Shuai P; Chen X; Mital U; Coon E; Dwivedi D (2022): Data-model files associated with the manuscript \"The Effects of Spatial and Temporal Resolution of Gridded Meteorological Forcing on Watershed Hydrological Responses\" (Shuai et al., 2022 HESS). ExaSheds. Dataset. doi:10.15485/1861432",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1861432",
+    "name": "Data-model files associated with the manuscript \"The Effects of Spatial and Temporal Resolution of Gridded Meteorological Forcing on Watershed Hydrological Responses\" (Shuai et al., 2022 HESS)",
+    "description": [
+      "This data package contains the model inputs and outputs used in \"The Effects of Spatial and Temporal Resolution of Gridded Meteorological Forcing on Watershed Hydrological Responses\" (Shuai et al., 2022 HESS). The data.zip file contains the data used to drive the model simulations. The model.zip file contains the XML input file for ATS. The notebook.zip file contains the Jupyter notebooks for pre- and post- processing model results. The figures.zip file contains the raw figures associated with the manuscript.",
+      "Meteorological forcing plays a critical role in accurately simulating the watershed hydrological cycle. With the advancement of high-performance computing and the development of integrated watershed models, simulating the watershed hydrological cycle at high temporal (hourly to daily) and spatial resolution (10s of meters) has become efficient and computationally affordable. These hyperresolution watershed models require high resolution of meteorological forcing as model input to ensure the fidelity and accuracy of simulated responses. In this study, we utilized the Advanced Terrestrial Simulator (ATS), an integrated watershed model, to simulate surface and subsurface flow and land surface processes using unstructured meshes at the Coal Creek Watershed near Crested Butte (Colorado). We compared simulated watershed hydrologic responses including streamflow, and distributed variables such as evapotranspiration, snow water equivalent (SWE), and groundwater table driven by three publicly available, gridded meteorological forcings (GMFs) -- Daily Surface Weather and Climatological Summaries (Daymet), Parameter-elevation Regressions on Independent Slopes Model (PRISM), and North American Land Data Assimilation System (NLDAS). By comparing various spatial resolutions (ranging from 400 m to 4 km) of PRISM, the simulated streamflow only becomes marginally worse when spatial resolution of meteorological forcing is coarsened to 4 km (or 30% of the watershed area). However, the 4 km resolution has much worse performance than finer resolution in spatially distributed variables such as SWE. Using temporally disaggregated PRISM, we compared models forced by different temporal resolutions (hourly to daily), sub-daily resolution preserves the dynamic watershed responses (e.g., diurnal fluctuation of streamflow) that are absent in results forced by daily resolution. Conversely, the simulated streamflow shows better performance using daily resolution compared to that using sub-daily resolution. Our findings suggest that the choice of GMF and its spatiotemporal resolution depends on the quantity of interest and its spatial and temporal scale, which may have important implications on model calibration and watershed management decisions."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2511-9828",
+        "givenName": "Pin",
+        "familyName": "Shuai",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Pin.Shuai@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1928-5555",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "xingyuan.chen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9794-382X",
+        "givenName": "Utkarsh",
+        "familyName": "Mital",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "umital@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8124-9622",
+        "givenName": "Ethan",
+        "familyName": "Coon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "coonet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Dipankar",
+        "familyName": "Dwivedi",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ddwivedi@lbl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "Watershed",
+      "Meteorological forcing",
+      "integrated hydrologic modeling"
+    ],
+    "variableMeasured": [
+      "Meteorological forcing (precipitation, temperature, and etc.)",
+      "LAI",
+      "Soil/geology properties"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Coal Creek, CO",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.89,
+            "longitude": -107.12
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.82,
+            "longitude": -106.97
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-10-01",
+      "endDate": "2019-10-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2511-9828",
+      "givenName": "Pin",
+      "familyName": "Shuai",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "Pin.Shuai@pnnl.gov"
+    },
+    "citation": [
+      "Shuai, P., Chen, X., Mital, U., Coon, E. T., and Dwivedi, D.: The Effects of Spatial and Temporal Resolution of Gridded Meteorological Forcing on Watershed Hydrological Responses, Hydrol. Earth Syst. Sci. Discuss. https://doi.org/10.5194/hess-2021-501"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "e4429d85-2c8f-43d7-bd0b-f642a2e6fda9"
+      },
+      "name": "ExaSheds",
+      "member": {
+        "@type": "Person",
+        "givenName": "Carl",
+        "familyName": "Steefel",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "CISteefel@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The data used to drive the model simulations are downloaded from websites using Watershed Workflow (https://github.com/ecoon/watershed-workflow). Model outputs were post-processed using the notebook scripts provided in the notebooks.zip file."
+    ],
+    "distribution": [
+      {
+        "contentSize": 49713.1220703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-13e14e1ce653934-20220404T233448398",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-13e14e1ce653934-20220404T233448398",
+        "name": "figures.zip"
+      },
+      {
+        "contentSize": 3.8388671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6204eb526bdcbca-20220404T233448408",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-6204eb526bdcbca-20220404T233448408",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 9.5634765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6b5f9d9a1f59e49-20230407T143229233774",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-6b5f9d9a1f59e49-20230407T143229233774",
+        "name": "Data_model_files_associated_with_the_manuscript_The_Effects_of_Spatial_and_Temporal_Resolution_of_Gridded_Meteorological_Forcing_on_Watershed_Hydrological_Responses_Shuai_et_al_2022_HESS_.xml"
+      },
+      {
+        "contentSize": 7491.7509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7c9ecccad1cba91-20220404T233448389",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7c9ecccad1cba91-20220404T233448389",
+        "name": "data.zip"
+      },
+      {
+        "contentSize": 215731.259765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a85facbde5f59f4-20220404T233448404",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a85facbde5f59f4-20220404T233448404",
+        "name": "notebook.zip"
+      },
+      {
+        "contentSize": 201459.591796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f4aef7ee7f31400-20220404T233448401",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f4aef7ee7f31400-20220404T233448401",
+        "name": "model.zip"
+      }
+    ]
+  }
+}

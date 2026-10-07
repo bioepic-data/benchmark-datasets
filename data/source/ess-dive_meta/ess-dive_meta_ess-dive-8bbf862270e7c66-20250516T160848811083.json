@@ -1,0 +1,174 @@
+{
+  "id": "ess-dive-8bbf862270e7c66-20250516T160848811083",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15486/NGT/1993900",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-8bbf862270e7c66-20250516T160848811083",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d0ea3ca956c5f99-20241028T151449286992",
+  "dateUploaded": "2025-05-16T23:08:51.157Z",
+  "dateModified": "2025-05-16T23:08:55.510Z",
+  "isPublic": true,
+  "citation": "G\u00f3mez-Correa L F; Duque A; Casta\u00f1o N; Haarpaintner J; En\u00dfle F; Jaramillo-Hern\u00e1ndez C; Zuleta D (2023): Canopy tree mortality and crown exposure data from the Amacayacu Forest Dynamics Plot, Northwestern Amazon. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15486/NGT/1993900",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15486/NGT/1993900",
+    "name": "Canopy tree mortality and crown exposure data from the Amacayacu Forest Dynamics Plot, Northwestern Amazon",
+    "description": [
+      "Data on the mortality of 984 canopy trees, their crown exposure to light (relative to total crown area), growth deviations (relative to conspecifics), tree size, and species\u2019 wood density collected between 2013 and 2019 in 18 ha of the Amacayacu Forest Dynamics Plot, Northwestern Amazon. This dataset contains a single CSV data file.Variable definitions: 1. Species: [character] species identification2. Family: [character] family of the species3. tag: [character] unique consecutive for the tree4. status: [character] status of the tree in the third census (ALIVE or DEAD)5. wsg: [numeric]: species\u2019 wood density (g cm-3)6. growth_r1: [numeric]: annual growth rate of the tree between the first and second census (cm y-1)7. growth_r2: [numeric]: annual growth rate of the tree between the second and third census (cm y-1)8. gt1: [numeric] modulus transformed growth rate with a lambda of 0.4 for the annual growth rate of the tree between the first and second census (cm y-1)9. gt2: [numeric]: modulus transformed growth rate with a lambda of 0.4 for the annual growth rate of the tree between the second and third census (cm y-1)10. rgr1: [numeric] relative growth rate between the first and second census (cm y-1)11. rgr2: [numeric] relative growth rate between the second and third census (cm y-1)12. sa_gt: [numeric] species-adjusted modulus transformed growth rate13. sa_rgr: [numeric] species-adjusted relative growth rate14. gr_n: [numeric] number of individuals of the species used to calculate the mean and species modulus transformed growth rate15. dbh_flight: [numeric] diameter at breast height (1.3 m) estimated at the time of the drone flight (cm)16. eca: [numeric] exposed crown area calculated as the area of the crown polygon delineated in the orthomosaic (m2)17. total_ca: [numeric] total crown area estimated from a crown area model (m2)18. rcel: [numeric] relative crown exposure to light (m2)19. time_flight_census3: [numeric] time in years from the drone flight date to the third census for that tree (yr)",
+      "This dataset was originally published on the NGEE Tropics Archive and is being mirrored on ESS-DIVE for long-term archival",
+      "Acknowledgement: LFG-C and CMJ-H were supported by MinCiencias \u201cConvocatoria 891 2020\u201d. Ground-based data collection was supported by the ForestGEO of the Smithsonian Institution. The NIR images were collected during the 9th Regional SilvaCarbon/GFOI Workshop on Forest Monitoring. This dataset was possible thanks to the commitment of Dr. Dairon C\u00e1rdenas (1957\u20132022), E. Mart\u00ednez, S. Sua, A. Barona, and coworkers from the Palmeras Indigenous Community as well as the administrative crew at SINCHI and Parques Nacionales Naturales de Colombia. We thank M. Guti\u00e9rrez, S. M\u00fanera, and hundreds of technicians and students of forest engineering at Universidad Nacional de Colombia that have worked on data collection and cleaning."
+    ],
+    "alternateName": [
+      "https://doi.org/10.15486/ngt/1993900",
+      "NGT0204"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "Luisa F.",
+        "familyName": "G\u00f3mez-Correa",
+        "email": "luifgomezcor@unal.edu.co"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alvaro",
+        "familyName": "Duque",
+        "email": "ajduque09@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nicolas",
+        "familyName": "Casta\u00f1o",
+        "email": "ncastano@sinchi.org.co"
+      },
+      {
+        "@type": "Person",
+        "givenName": "J\u00f6rg",
+        "familyName": "Haarpaintner",
+        "email": "jrha@norceresearch.no"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Fabian",
+        "familyName": "En\u00dfle",
+        "email": "fabian.enssle@gaf.de"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Camila",
+        "familyName": "Jaramillo-Hern\u00e1ndez",
+        "email": "macjaramillohe@unal.edu.co"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9832-6188",
+        "givenName": "Daniel",
+        "familyName": "Zuleta",
+        "email": "dfzuleta@gmail.com"
+      }
+    ],
+    "datePublished": "2023-08-08",
+    "keywords": [
+      "Next-Generation Ecosystem Experiements Tropics",
+      "NGEE-T",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Other"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site Name: Amacayacu National Natural Park. Site ID: CO-ANP. The Amacayacu site is located at the Amacayacu National Natural Park, Colombian Amazonia. The site was established on Tertiary sedimentary plains (Pebas Formation), characterized by a hilly and moderated dissected topography. (From ForestGEO site information page) For more information on this site, visit: https://forestgeo.si.edu/sites/neotropics/amacayacu Site contact(s): (Daniel Zuleta <dfzuleta@gmail.com>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -3.8091,
+            "longitude": -70.2678
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -3.8091,
+            "longitude": -70.2678
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-05CH11231",
+      "Convocatoria 891 2020"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "MinCiencias, Forest Global Earth Observatory"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2013-10-01",
+      "endDate": "2019-07-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "http://orcid.org/0000-0001-9832-6188",
+      "givenName": "Daniel",
+      "familyName": "Zuleta",
+      "affiliation": "Smithsonian Tropical Research Institute",
+      "email": "dfzuleta@gmail.com"
+    },
+    "citation": [
+      "G\u00f3mez-Correa, L. F. et al. Canopy tree mortality depends on the proportion of crown exposed to sunlight, but this effect varies with species\u2019 wood density. Biotropica 55, 1136\u20131147 (2023). https://doi.org/10.1111/btp.13258"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "See reference for detailed methods."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.58203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f037077c9107a92-20230911T183600180722",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f037077c9107a92-20230911T183600180722",
+        "name": "NGT0204_locations.csv"
+      },
+      {
+        "contentSize": 9.267578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8bbf862270e7c66-20250516T160848811083",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-8bbf862270e7c66-20250516T160848811083",
+        "name": "Canopy_tree_mortality_and_crown_exposure_data_from_the_Amacayacu_Forest_Dynamics_Plot_Northwestern_Amazon.xml"
+      },
+      {
+        "contentSize": 197.70703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8eb5b2ea49480c2-20230911T183603813430",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8eb5b2ea49480c2-20230911T183603813430",
+        "name": "canopy_data_amacayacu_20230808011006.csv"
+      }
+    ]
+  }
+}

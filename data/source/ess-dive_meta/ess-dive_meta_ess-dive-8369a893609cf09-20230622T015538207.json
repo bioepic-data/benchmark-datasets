@@ -1,0 +1,184 @@
+{
+  "id": "ess-dive-8369a893609cf09-20230622T015538207",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1986089",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-8369a893609cf09-20230622T015538207",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-c22a473faf7278e-20230622T013721360",
+  "dateUploaded": "2023-06-22T01:55:39.588Z",
+  "dateModified": "2023-06-23T00:03:40.807Z",
+  "isPublic": true,
+  "citation": "Han S; Chang E; Zechel S; Bok F; Zavarin M (2023): Community Based Data of Potentiometric Titration of Iron Oxides: Ferrihydrite (HFO), Goethite, Hematite, Magnetite. Subsurface Biogeochemistry of Actinides SFA. Dataset. doi:10.15485/1986089",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1986089",
+    "name": "Community Based Data of Potentiometric Titration of Iron Oxides: Ferrihydrite (HFO), Goethite, Hematite, Magnetite",
+    "description": [
+      "This data release includes experimental data of potentiometric titration for iron oxides. The data in the provided .csv files is not our own experimental data but have been compiled from the multiple literature sources. The master database is L-SCIE (LLNL Surface Complexation/Ion Exchange) database, and the provided .csv files are extracted data from L-SCIE. The .csv files were obtained by using the Lawrence Livermore National Laboratory Surface Complexation Database Converter (SCDC) code written in the R programming language (free licensing available at https://ipo.llnl.gov/technologies/software/llnl-surface-complexation-database-converter-scdc).",
+      "The released data was used for developing a comprehensive community data-driven surface complexation modeling (SCM) framework for simulating potentiometric titration of mineral surfaces. Compiled community data for ferrihydrite, goethite, hematite, and magnetite are fit to produce representative protolysis constants that can reproduce potentiometric titration data collected from multiple literature sources."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9031-3657",
+        "givenName": "Sol-Chan",
+        "familyName": "Han",
+        "affiliation": "Lawrence Livermore National Laboratory",
+        "email": "han14@llnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Elliot",
+        "familyName": "Chang",
+        "affiliation": "Lawrence Livermore National Laboratory",
+        "email": "elliotc@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Susanne",
+        "familyName": "Zechel",
+        "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf",
+        "email": "s.zechel@hzdr.de"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Frank",
+        "familyName": "Bok",
+        "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf",
+        "email": "f.bok@hzdr.de"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2426-6706",
+        "givenName": "Mavrik",
+        "familyName": "Zavarin",
+        "affiliation": "Lawrence Livermore National Laboratory",
+        "email": "zavarin1@llnl.gov"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "Iron oxide",
+      "Surface complexation",
+      "Adsorption",
+      "Ferrihydrite",
+      "Goethite",
+      "Hematite",
+      "Magnetite",
+      "EARTH SCIENCE > SOLID EARTH > GEOCHEMISTRY"
+    ],
+    "variableMeasured": [
+      "Reference",
+      "Mineral",
+      "Electrolyte",
+      "pH",
+      "Surface charge",
+      "Adsorbent concentration",
+      "Mineral surface area",
+      "Surface site density",
+      "Ambient gas composition"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Data collected from multiple literature sources and compiled at Lawrence Livermore National Laboratory.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.68714,
+            "longitude": -121.70593
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.68714,
+            "longitude": -121.70593
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1971-01-01",
+      "endDate": "2014-03-14",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2426-6706",
+      "givenName": "Mavrik",
+      "familyName": "Zavarin",
+      "affiliation": "Lawrence Livermore National Laboratory",
+      "email": "zavarin1@llnl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a66d1d0f-c90b-4797-955c-4dac32140363"
+      },
+      "name": "Subsurface Biogeochemistry of Actinides SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Mavrik",
+        "familyName": "Zavarin",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Livermore National Laboratory",
+        "email": "zavarin1@llnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Data from multiple literature sources were digitized and imported into L-SCIE (LLNL Surface Complexation/Ion Exchange) database. The data includes not only raw experimental data but also metadata information (e.g. DOI and original image files). Raw data values were extracted using DataThief software.",
+      "Extract (1) raw experimental data and (2) the relevant metadata as separate CSV formatted files from L-SCIE database.",
+      "By using the LLNL Surface Complexation Database Converter (SCDC), CSV file of raw experimental data and CSV file of metadata file were unified into single CSV file.",
+      "Since the produced CSV file contains different types of potentiometric titration data/adsorption data, one can filter the data of interest by either manually or using SCDC.\nCSV files in this current data release are the example of the filtered CSV files.",
+      "A detailed description of the methodology can be found via Zavarin, Chang et al. 2022.\nCommunity Data Mining Approach for Surface Complexation Database Development\nMavrik Zavarin, Elliot Chang, Haruko Wainwright, Nicholas Parham, Rahul Kaukuntla, Jadallah Zouabe, Amanda Deinhart, Victoria Genetti, Sam Shipman, Frank Bok, and Vinzenz Brendler\nEnvironmental Science & Technology 2022 56 (4), 2827-2838\nhttps://doi.org/10.1021/acs.est.1c07109"
+    ],
+    "distribution": [
+      {
+        "contentSize": 681.44921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e08c68959f9da39-20230612T165914420",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e08c68959f9da39-20230612T165914420",
+        "name": "Goethite_Titration_Aug_31_2022_660_HZDR.csv"
+      },
+      {
+        "contentSize": 593.5478515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-82684c3cc0955e3-20230612T165914426",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-82684c3cc0955e3-20230612T165914426",
+        "name": "Hematite_Titration_Aug_31_2022_583_HZDR.csv"
+      },
+      {
+        "contentSize": 8.328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8369a893609cf09-20230622T015538207",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-8369a893609cf09-20230622T015538207",
+        "name": "Community_Based_Data_of_Potentiometric_Titration.xml"
+      },
+      {
+        "contentSize": 103.9541015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b0e611a6119f4a9-20230612T165914434",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b0e611a6119f4a9-20230612T165914434",
+        "name": "Magnetite_Titration_Aug_31_2022_456_HZDR.csv"
+      },
+      {
+        "contentSize": 391.0888671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f8f138cfb991cd5-20230612T165914407",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f8f138cfb991cd5-20230612T165914407",
+        "name": "Ferrihydrite_Titration_Aug_31_2022_653.csv"
+      }
+    ]
+  }
+}

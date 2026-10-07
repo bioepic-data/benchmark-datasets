@@ -1,0 +1,189 @@
+{
+  "id": "ess-dive-c8ebffec0c65a06-20230504T211528012801",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1915660",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-c8ebffec0c65a06-20230504T211528012801",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-87e5263aa875570-20230123T211602040",
+  "dateUploaded": "2023-05-04T21:15:29.850Z",
+  "dateModified": "2023-05-04T21:15:31.393Z",
+  "isPublic": true,
+  "citation": "Piliouras A; Jones B; Clevenger T; Rowland J (2023): Coastal typologies and surface and subsurface characteristics of the Alaskan Beaufort Sea Coast. Interdisciplinary Research for Arctic Coastal Environments (InteRFACE). Dataset. doi:10.15485/1915660",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1915660",
+    "name": "Coastal typologies and surface and subsurface characteristics of the Alaskan Beaufort Sea Coast",
+    "description": [
+      "This dataset was generated to classify the Alaskan Beaufort Sea Coast (ABSC) into a set of distinct coastal typologies, to understand the surface and subsurface characteristics and variability of the ABSC, and to quantify relationships between these characteristics and historical rates of shoreline change. This geospatial dataset contains two csv files of points along the ABSC at a 50 m spacing, one for points sheltered by a barrier island and one for points exposed to the open ocean. Each point has a lat/lon location, and we have attributed to each point average values for elevation, historical long-term shoreline change rates, shoreline orientation, landcover, mean annual ground temperature, geomorphic unit, lithology, geology, ecological landscape unit, maximum thaw settlement potential, massive ice content, and segregated ice content. Each point is also assigned to one of 16 coastal typologies, determined by a hierarchical clustering algorithm on the elevation, shoreline change, orientation, and ground temperature data. There are 9 sheltered typologies and 7 exposed typologies, identified by an integer label in the last column of each csv file. The other two csv files contain the integer IDs and classes for the landcover and geomorphology datasets."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6336-0762",
+        "givenName": "Anastasia",
+        "familyName": "Piliouras",
+        "affiliation": "Pennsylvania State University",
+        "email": "apiliouras@psu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1517-4711",
+        "givenName": "Benjamin",
+        "familyName": "Jones",
+        "affiliation": "University of Alaska Fairbanks",
+        "email": "bmjones3@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Tabatha",
+        "familyName": "Clevenger",
+        "affiliation": "Vassar College",
+        "email": "tclevenger@vassar.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6308-8976",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "Alaska",
+      "Arctic",
+      "coastal erosion",
+      "geospatial",
+      "remote sensing",
+      "EARTH SCIENCE > OCEANS > COASTAL PROCESSES",
+      "EARTH SCIENCE > LAND SURFACE > EROSION/SEDIMENTATION"
+    ],
+    "variableMeasured": [
+      "shoreline orientation",
+      "landcover",
+      "lithology",
+      "geology",
+      "ecological landscape unit",
+      "maximum thaw settlement potential",
+      "massive ice content",
+      "segregated ice content",
+      "typology",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION",
+      "EARTH SCIENCE > OCEANS > COASTAL PROCESSES > SHORELINE DISPLACEMENT",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > COASTAL LANDFORMS",
+      "EARTH SCIENCE > LAND SURFACE > FROZEN GROUND > SOIL TEMPERATURE",
+      "latitude",
+      "longitude"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Alaskan Beaufort Sea Coast",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.34156364,
+            "longitude": -156.594755
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 69.63162174,
+            "longitude": -141.1099769
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1940-01-01",
+      "endDate": "2020-01-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6336-0762",
+      "givenName": "Anastasia",
+      "familyName": "Piliouras",
+      "affiliation": "Pennsylvania State University",
+      "email": "apiliouras@psu.edu"
+    },
+    "citation": [
+      "Piliouras, A., B. Jones, T. Clevenger, A. Gibbs, and J. C. Rowland. (in revision). Landscapes and erosion rates of the Alaska Beaufort Sea coast. Geology.",
+      "Alaska Division of Geological and Geophysical Surveys, 2018, Interferometric Synthetic Aperture Radar. https://elevation.alaska.gov/",
+      "Gibbs, A.E., Ohman, K.A., Coppersmith, R., and Richmond, B.M., 2017, A GIS compilation of updated vector shorelines and associated shoreline change data for the north coast of Alaska, U.S.-Canadian border to Icy Cape: U.S. Geological Survey data release, https://doi.org/10.5066/F72Z13N1.",
+      "Gibbs, A. E., & Richmond, B. M., 2017, National assessment of shoreline change - Summary statistics for updated vector shorelines and associated shoreline change data for the north coast of Alaska, U.S.-Canadian border to Icy Cape. Geological Survey Open-File Report. 2017\u20131107, 21 p., https://doi.org/10.3133/ofr20171107.",
+      "Jorgenson, T., Shur, Y., Kanevskiy, M., & Grunblatt, J., 2014, Permafrost database development - Characterization and mapping for Northern Alaska. https://catalog.northslopescience.org/dataset/2236",
+      "Lara, M. J., Nitze, I., Grosse, G., & McGuire, A. D., 2018, Tundra landform and vegetation productivity trend maps for the Arctic Coastal Plain of northern Alaska. Scientific Data, 5(1), 180058. doi:10.1038/sdata.2018.58",
+      "Nicolsky, D., & Romanovsky, V., 2017, Simulated permafrost dynamics across the Alaskan North Slope region in the 20th and 21st centuries. https://cida.usgs.gov/thredds/catalog.html?dataset=cida.usgs.gov/northslope_rcp45_gravel0.6m_styrofoam.",
+      "North Slope Science Initiative, 2013, Landcover/Vegetation Mapping for North Slope of Alaska. https://catalog.northslopescience.org/dataset/2450"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "39046a95-7219-40fa-b1f1-5c3cc6a06c24"
+      },
+      "name": "Interdisciplinary Research for Arctic Coastal Environments (InteRFACE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "A complete description of how this dataset was created can be found in the associated publication (Piliouras et al., in revision). We compiled datasets from many publicly available sources (listed below) and attributed an average value for each of the 12 variables to shoreline points along the Alaskan Beaufort Sea coast at a 50 m spacing. Points were then categorized as exposed to the open ocean or sheltered by a barrier island, and then clustered using python's sci-kit learn agglomerative clustering scheme to assign points to one of 16 individual typologies (9 sheltered, 7 exposed).",
+      "Gibbs and Richmond (2017) digitized shorelines identified the instantaneous location of the shoreline in a single image with ~50 m spacing. We assigned values for each of the other datasets to each shoreline point by taking the average in a 30 m buffer around each point.\nElevations come from Interferometric synthetic aperture radar (IfSAR) from the Alaska Division of Geological and Geophysical Surveys. The digital surface model (DSM) has a 5 m horizontal resolution and 3 m vertical accuracy.\nMean annual ground temperatures are model output from the University of Alaska - Fairbanks, Geophysical Institute Permafrost Lab model (Nicolsky and Romanovsky, 2017). Ground temperatures are a decadal average from 2000 to 2010 at a depth of 2 m with a horizontal resolution of 750 m.\nLand cover classes from the North Slope Science Initiative (2014) describe the type of land cover (e.g., vegetation) present on the surface.\nGeomorphic units come from Lara et al., (2018), mapped at a 30 m resolution and validated using 1000 field sites. Mapping was based on Landsat 8 imagery from 2013 and 2014 to classify 15 different tundra geomorphic landforms.\nLithology, geology, ecological landscape unit, maximum thaw settlement potential, segregated ice content, and massive ice content were all obtained from the Jorgenson et al., (2014) Permafrost database development, characterization, and mapping for northern Alaska.\nWe estimated the rate of shoreline change by fitting a least-squares regression line to historical shoreline locations for each point along the coast. The rate is reported in meters per year, where positive values indicate accretion and negative values indicate erosion. This metric was based on the Gibbs and Richmond (2017) linear regression rate-of-change.\nShoreline orientations range from -180 degrees to 180 degrees, with North being 0 degrees, and are based on the shoreline position derived from the IfSAR DSM and Gibbs and Richmond (2017) shorelines."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1230.197265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7840f04ca4172b9-20230112T135713511",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7840f04ca4172b9-20230112T135713511",
+        "name": "clustering_data_ABSC_sheltered.csv"
+      },
+      {
+        "contentSize": 0.337890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a4d89cda3bf38ec-20230123T210834087",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a4d89cda3bf38ec-20230123T210834087",
+        "name": "geomorphic_landforms.csv"
+      },
+      {
+        "contentSize": 608.01953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-96caa609710f5ff-20230112T135713492",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-96caa609710f5ff-20230112T135713492",
+        "name": "clustering_data_ABSC_exposed.csv"
+      },
+      {
+        "contentSize": 12.861328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c8ebffec0c65a06-20230504T211528012801",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-c8ebffec0c65a06-20230504T211528012801",
+        "name": "Coastal_typologies_and_surface_and_subsurface_characteristics_of_the_Alaskan_Beaufort_Sea_Coast.xml"
+      },
+      {
+        "contentSize": 0.4716796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e3dee757f061979-20230123T210834107",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e3dee757f061979-20230123T210834107",
+        "name": "landcover_classes.csv"
+      }
+    ]
+  }
+}

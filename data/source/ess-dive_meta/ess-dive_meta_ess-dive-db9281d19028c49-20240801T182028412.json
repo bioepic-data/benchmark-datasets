@@ -1,0 +1,363 @@
+{
+  "id": "ess-dive-db9281d19028c49-20240801T182028412",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1783190",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-db9281d19028c49-20240801T182028412",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-5618cd6761e2893-20240715T155548973",
+  "dateUploaded": "2024-08-01T18:20:30.201Z",
+  "dateModified": "2024-08-03T00:00:57.764Z",
+  "isPublic": true,
+  "citation": "Serbin S; Meng R; McMahon A; Hanston W; Hayes D; Yang D; Ely K; Rogers A (2023): Full Spectrum, 350 - 2500 nm, Leaf and Canopy Spectral Reflectance, Seward Peninsula, Alaska, 2017. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1783190",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1783190",
+    "name": "Full Spectrum, 350 - 2500 nm, Leaf and Canopy Spectral Reflectance, Seward Peninsula, Alaska, 2017",
+    "description": [
+      "Full-range (350 - 2500 nm) leaf and canopy reflectance spectra of various Arctic tundra ecosystem endmembers, including species-level leaf reflectance, canopy-scale species endmember spectra, plot-scale spectra, and transect spectra as well as non-vegetated surface (NVS) spectra. The datasets were collected at the three core NGEE-Arctic watersheds, Kougarok, Teller, and Council within the larger Seward Peninsula, Alaska region. The data were collected in the months of July and August of 2017 using a full-range Spectra Vista Corporation (SVC) HR-1024i spectroradiometer. Leaf-level spectra were collected with the original SVC leaf clip/plant probe connected to the spectrometer through a 1.15 meter long fiber optic cable, while canopy-scale reflectance was collected with an 8-degree field-of-view (FOV) foreoptic lens. All spectral measurements were collected as calibrated surface radiance and converted to surface reflectance using a 99.99% reflective Spectralon white reference standard. For those canopy spectra collected with associated functional trait data, the FOV of the instrument was positioned to include the same leaves harvested for functional trait measurements, including leaf mass per area (LMA) and foliar carbon and nitrogen content (see associated dataset).",
+      "This data package includes 26 files in a variety of formats including processed canopy and leaf spectra (*.csv), processed dGPS locations (*.csv and *.kmz), digital photographs of spectral targets (*.jpg) and raw data from spectroradiometer and dGPS instruments (compressed as tar.gz). Metadata files include data descriptions (_dd.csv) for tabular data and a key to species symbols used in data files. All included files are listed and described in NGA110_flmd.csv.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1783190",
+      "NGA110"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4136-8971",
+        "givenName": "Shawn",
+        "familyName": "Serbin",
+        "email": "sserbin@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4756-9934",
+        "givenName": "Ran",
+        "familyName": "Meng",
+        "email": "ranmeng@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8836-6645",
+        "givenName": "Andrew",
+        "familyName": "McMahon",
+        "email": "amcmahon@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Wouter",
+        "familyName": "Hanston",
+        "email": "hantson@maine.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3011-7934",
+        "givenName": "Daniel",
+        "familyName": "Hayes",
+        "email": "hayes@maine.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1705-7823",
+        "givenName": "Dedi",
+        "familyName": "Yang",
+        "email": "dediyang@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3915-001X",
+        "givenName": "Kim",
+        "familyName": "Ely",
+        "email": "kely@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9262-7430",
+        "givenName": "Alistair",
+        "familyName": "Rogers",
+        "email": "arogers@bnl.gov"
+      }
+    ],
+    "datePublished": "2023-10-09",
+    "keywords": [
+      "Seward Peninsula, Alaska",
+      "Teller",
+      "Council",
+      "Kougarok",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Seward Peninsula, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.952,
+            "longitude": -168.14
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.03,
+            "longitude": -159.19
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2017-07-28",
+      "endDate": "2017-08-07",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4136-8971",
+      "givenName": "Shawn",
+      "familyName": "Serbin",
+      "affiliation": "Brookhaven National Laboratory",
+      "email": "sserbin@bnl.gov"
+    },
+    "citation": [
+      "Shawn Serbin, Ran Meng, Andrew McMahon, Daryl Yang, Kim Ely, Alistair Rogers. [pubdate]. Leaf Nitrogen, Leaf Mass Area, Leaf Water Content, Seward Peninsula, Alaska, 2017. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. https://doi.org/10.5440/1783188"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Canopy reflectance spectra were measured under variable sky conditions with a SVC HR-1024i Spectroradiometer with an 8-degree field-of-view (FOV) foreoptic lens. Leaf reflectance spectra were measured with a SVC HR-1024i Spectroradiometer, w/ SVC leaf clip attachment on a 1.15 m fibre optic cable. The reflectance type is indicated in the data. Relative reflectance is the reflectance is calculated as the ratio of the radiance or DN of the target (e.g. leaf, canopy, soil) divided by the radiance or DN of the Spectralon standard for each instrument channel.",
+      "Spectralon_corrected reflectance, the reflectance is calculated as the ratio of the radiance or DN of the target (e.g. leaf, canopy, soil) divided by the radiance or DN of the Spectralon standard for each instrument channel and then multiplied by the spectral response of the Spectralon standard.Data were processed using a combination of R-FieldSpectra (Serbin, 2021) and spectrolab (Meireles & Schweiger, 2020), available from https://github.com/serbinsh/R-FieldSpectra and https://github.com/meireles/spectrolab respectively.",
+      "dGPS data were collected using a Trimble Geo 7X (H-Star) handheld device and data were processed according to manufacturer's instructions (https://geospatial.trimble.com).Explanation of dGPS processing results and correction codes: Dilution of precision (Max_PDOP, Max_HDOP)A specification of error propagation on measurement precision due to satellite geometry. For further information see https://en.wikipedia.org/wiki/Dilution_of_precision_(navigation). For a description of the different correction types, please refer to the Standard Processing Types and code descriptions provided in Exercise 5.3: Create your own GIS export setup and Glossary sections of the Trimble ORIENTATION GUIDE TerraSync Software and GPS Pathfinder\u00ae Office Software ( https://www.neigps.com/wp-content/uploads/2013/03/TS_PFO_Orientation_Guide_v70a_201205092.pdf).",
+      "Methods References Jose Eduardo Meireles, & Anna Schweiger. (2020, July 7). meireles/spectrolab: CRAN-v0.0.9 (Version CRAN-v0.0.9). Zenodo. http://doi.org/10.5281/zenodo.3934575Shawn P. Serbin. (2021, February 18). serbinsh/R-FieldSpectra: Update license and docs (Version v0.9.6). Zenodo. http://doi.org/10.5281/zenodo.4548961"
+    ],
+    "distribution": [
+      {
+        "contentSize": 2.0517578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0c6463642f77600-20240702T151925704276",
+        "encodingFormat": "application/vnd.google-earth.kmz",
+        "identifier": "ess-dive-0c6463642f77600-20240702T151925704276",
+        "name": "20170803_Kougarok_Transect_Spectra_GPS_Locations.kmz"
+      },
+      {
+        "contentSize": 412199.4658203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-223e811a5e501be-20240702T152005336530",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-223e811a5e501be-20240702T152005336530",
+        "name": "NGEE_Arctic_20170730_Teller_canopy_and_transect_photos_tar.gz"
+      },
+      {
+        "contentSize": 0.40234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1e39685a44b7947-20240801T181913326",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1e39685a44b7947-20240801T181913326",
+        "name": "Seward_USDA_PlantSymbols_dd.csv"
+      },
+      {
+        "contentSize": 7195.9580078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3ea4cbf252bb69c-20240702T152130678822",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3ea4cbf252bb69c-20240702T152130678822",
+        "name": "Seward_2017_Canopy_Spectral_Reflectance.csv"
+      },
+      {
+        "contentSize": 10918.5810546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-420e0d20077a2b2-20240702T151934223095",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-420e0d20077a2b2-20240702T151934223095",
+        "name": "2017_Council_Spectra_tar.gz"
+      },
+      {
+        "contentSize": 4883.5888671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-385da689ce341ed-20240702T151936249689",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-385da689ce341ed-20240702T151936249689",
+        "name": "2017_Council_dGPS_data_tar.gz"
+      },
+      {
+        "contentSize": 5.3076171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-462c4b519439101-20240702T151921982430",
+        "encodingFormat": "application/vnd.google-earth.kmz",
+        "identifier": "ess-dive-462c4b519439101-20240702T151921982430",
+        "name": "20170730_Teller_Transect_Spectra_GPS_Locations.kmz"
+      },
+      {
+        "contentSize": 33.408203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-39c37e4d9d8f491-20240702T151942342461",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-39c37e4d9d8f491-20240702T151942342461",
+        "name": "2017_PostProcessed_dGPS_point_locations.csv"
+      },
+      {
+        "contentSize": 20113.876953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e9d7453799230c5-20240702T151937948510",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-e9d7453799230c5-20240702T151937948510",
+        "name": "2017_Kougarok_Spectra_tar.gz"
+      },
+      {
+        "contentSize": 4.421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2b69287f971eb98-20240702T152138024994",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2b69287f971eb98-20240702T152138024994",
+        "name": "Seward_USDA_PlantSymbols.csv"
+      },
+      {
+        "contentSize": 3.1318359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d2c11d185b3a2be-20240702T152040054810",
+        "encodingFormat": "application/vnd.google-earth.kmz",
+        "identifier": "ess-dive-d2c11d185b3a2be-20240702T152040054810",
+        "name": "NGEE_Arctic_Seward_Peninsula_2017_Field_Sampling_Photos.kmz"
+      },
+      {
+        "contentSize": 16.671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-db9281d19028c49-20240801T182028412",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-db9281d19028c49-20240801T182028412",
+        "name": "Full_Spectrum_350_2500_nm_Leaf_and_Canopy.xml"
+      },
+      {
+        "contentSize": 52845.650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5468d6654bd6a63-20240702T151953037056",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-5468d6654bd6a63-20240702T151953037056",
+        "name": "2017_Teller_dGPS_data_tar.gz"
+      },
+      {
+        "contentSize": 162310.0849609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-54b290c93928d84-20240702T151948754978",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-54b290c93928d84-20240702T151948754978",
+        "name": "2017_Teller_Spectra_tar.gz"
+      },
+      {
+        "contentSize": 3.208984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4ce9ed01a46f094-20240702T151932693733",
+        "encodingFormat": "application/vnd.google-earth.kmz",
+        "identifier": "ess-dive-4ce9ed01a46f094-20240702T151932693733",
+        "name": "20170807_Council_Spectra_GPS_Locations.kmz"
+      },
+      {
+        "contentSize": 1.7626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a75ba0b164180b-20240702T151923489235",
+        "encodingFormat": "application/vnd.google-earth.kmz",
+        "identifier": "ess-dive-7a75ba0b164180b-20240702T151923489235",
+        "name": "20170803_Kougarok_Canopy_Spectra_GPS_Locations.kmz"
+      },
+      {
+        "contentSize": 561018.1708984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-70698dfb8ff56ea-20240702T152124451031",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-70698dfb8ff56ea-20240702T152124451031",
+        "name": "NGEE_Arctic_leaf_sample_photos_tar.gz"
+      },
+      {
+        "contentSize": 0.8203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7f1993b7eeaf019-20240801T181954081",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7f1993b7eeaf019-20240801T181954081",
+        "name": "2017_PostProcessed_dGPS_point_locations_dd.csv"
+      },
+      {
+        "contentSize": 2.3564453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6cfb5e232aa77e4-20240702T151919257506",
+        "encodingFormat": "application/vnd.google-earth.kmz",
+        "identifier": "ess-dive-6cfb5e232aa77e4-20240702T151919257506",
+        "name": "20170730_Teller_Canopy_Spectra_GPS_Locations.kmz"
+      },
+      {
+        "contentSize": 1.3701171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ab55cbca2f77c7e-20240702T151930347341",
+        "encodingFormat": "application/vnd.google-earth.kmz",
+        "identifier": "ess-dive-ab55cbca2f77c7e-20240702T151930347341",
+        "name": "20170805_Teller_RoadSpec_Spectra_GPS_Locations.kmz"
+      },
+      {
+        "contentSize": 415525.5908203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-91dacf553be6e7b-20240702T152035763135",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-91dacf553be6e7b-20240702T152035763135",
+        "name": "NGEE_Arctic_20170803_Kougarok_tar.gz"
+      },
+      {
+        "contentSize": 2.6806640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9ea80c8ae9ae9f8-20240801T181938476",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9ea80c8ae9ae9f8-20240801T181938476",
+        "name": "Seward_2017_Canopy_Spectral_Reflectance_dd.csv"
+      },
+      {
+        "contentSize": 1.291015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9f7a0b7f161c535-20240702T151927029204",
+        "encodingFormat": "application/vnd.google-earth.kmz",
+        "identifier": "ess-dive-9f7a0b7f161c535-20240702T151927029204",
+        "name": "20170804_Teller_Canopy_Spectra_GPS_Locations.kmz"
+      },
+      {
+        "contentSize": 2.146484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bf8d8dadfd64fb2-20240801T181926694",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bf8d8dadfd64fb2-20240801T181926694",
+        "name": "Seward_2017_Leaf_Spectral_Reflectance_dd.csv"
+      },
+      {
+        "contentSize": 4.2412109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b3718a656a3c201-20240702T151928924599",
+        "encodingFormat": "application/vnd.google-earth.kmz",
+        "identifier": "ess-dive-b3718a656a3c201-20240702T151928924599",
+        "name": "20170804_Teller_Transect_Spectra_GPS_Locations.kmz"
+      },
+      {
+        "contentSize": 2302.0390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b4a2273a184dce2-20240702T152134482716",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b4a2273a184dce2-20240702T152134482716",
+        "name": "Seward_2017_Leaf_Spectral_Reflectance.csv"
+      },
+      {
+        "contentSize": 17322.2373046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fbaf0422a8edfbb-20240702T151940976662",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-fbaf0422a8edfbb-20240702T151940976662",
+        "name": "2017_Kougarok_dGPS_data_tar.gz"
+      },
+      {
+        "contentSize": 6.03125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f8bc3015f58026d-20240801T181900853",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f8bc3015f58026d-20240801T181900853",
+        "name": "NGA110_flmd.csv"
+      }
+    ]
+  }
+}

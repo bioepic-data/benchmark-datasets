@@ -1,0 +1,586 @@
+{
+  "id": "ess-dive-01e8ab563a78be1-20250304T211352752",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2439400",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-01e8ab563a78be1-20250304T211352752",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-01e8ab563a78be1-20250218T160021623",
+  "dateUploaded": "2025-03-04T21:13:55.074Z",
+  "dateModified": "2025-03-04T21:13:57.485Z",
+  "isPublic": true,
+  "citation": "Pennington S C; Bond-Lamberty B; Rich R; Cheng S; Peixoto R B; LaGorga L; Machado-Silva F; Maier K; Megonigal P; Peresta D; Phillips E; Regier P; Sandoval L; Stearns A; Ward N D; Weintraub M; Wilson S J; Bailey V (2024): COMPASS-FME Synoptic Sites Level 1 Sensor Data v1-2. COMPASS-FME. Dataset. doi:10.15485/2439400",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2439400",
+    "name": "COMPASS-FME Synoptic Sites Level 1 Sensor Data v1-2",
+    "description": [
+      "This is the version 1-2 Level 1 (L1) data release for COMPASS-FME environmental sensors located at our synoptic field sites. COMPASS-FME is studying sites in two distinct regions, the Chesapeake Bay and the Western Lake Erie Basin. We established the network at seven \"synoptic\" (observational) sites along the Chesapeake Bay and Lake Erie coastlines, collectively generating over three million observations per month, to track and comprehend environmental changes where land and water intersect. Additionally, the two regions provide an interesting contrast of saltwater and freshwater coasts that allow us to differentiate the impacts of inundation and coastal water chemistries in two nationally important coastal systems.",
+      "L1 data are close to raw, but are units-transformed and have out-of-instrument-bounds and out-of-service flags added. Duplicates and missing data are removed but otherwise these data are not filtered, and have not been subject to any additional algorithmic or human QA/QC. Any scientific analyses of L1 data should be performed with care. **This dataset will be updated quarterly with new data for the duration of the project**",
+      "This dataset includes:",
+      "- An overall dataset README file that describes the current version, gives citation and contact information, etc.",
+      "- Site- and year-specific folders, each holding up to 12 CSV (comma separated value) data files for each site and plot in that year.",
+      "- Metadata files within each site-year folder provide full information on data units, expected ranges, contact information, as well as a general description of the site.",
+      "- Environmental sensor types that appear in the data files include weather (ClimaVUE50, CS, RM Young, and LI instruments in the graphs below); soil conditions (TEROS12); soil redox state (Redox); groundwater variables (AquaTROLL200 and AquaTROLL600); open water sondes (Exo); tree sap velocity (Sapflow); and system voltage and state (Datalogger). Data are normally logged every 15 minutes.",
+      "Please see v1-2 Synoptic L1 Sensor Package Quick Start.pdf for detailed information on data package structure, temporal coverage, and versioning."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2685-1092",
+        "givenName": "Stephanie C.",
+        "familyName": "Pennington",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "stephanie.pennington@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9525-4633",
+        "givenName": "Ben",
+        "familyName": "Bond-Lamberty",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "BondLamberty@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0461-7388",
+        "givenName": "Roy",
+        "familyName": "Rich",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "richr@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9104-8541",
+        "givenName": "Selina",
+        "familyName": "Cheng",
+        "affiliation": "University of New Hampshire",
+        "email": "Selina.Cheng@unh.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8053-2730",
+        "givenName": "Roberta",
+        "familyName": "Bittencourt Peixoto",
+        "affiliation": "University of Toledo",
+        "email": "Roberta.BittencourtPeixoto@UToledo.Edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Lydia",
+        "familyName": "LaGorga",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "LaGorgaL@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2165-3284",
+        "givenName": "Fausto",
+        "familyName": "Machado-Silva",
+        "affiliation": "university of tole",
+        "email": "fausto.silva@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1933-7135",
+        "givenName": "Kurt",
+        "familyName": "Maier",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "khm@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2018-7883",
+        "givenName": "Patrick",
+        "familyName": "Megonigal",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "megonigalp@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Drew",
+        "familyName": "Peresta",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "perestaa@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Evan",
+        "familyName": "Phillips",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "phillipse@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8375-1314",
+        "givenName": "Peter",
+        "familyName": "Regier",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "peter.regier@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0008-7734-2240",
+        "givenName": "Leticia",
+        "familyName": "Sandoval",
+        "affiliation": "University of Toledo",
+        "email": "leticia.sandoval@rockets.utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-7628-3419",
+        "givenName": "Alice",
+        "familyName": "Stearns",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "stearnsa@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6174-5581",
+        "givenName": "Nicholas D.",
+        "familyName": "Ward",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "nicholas.ward@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9623-2855",
+        "givenName": "Michael",
+        "familyName": "Weintraub",
+        "affiliation": "University of Toledo",
+        "email": "michael.weintraub@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5484-0748",
+        "givenName": "Stephanie J.",
+        "familyName": "Wilson",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "wilsonsj@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2248-8890",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "vanessa.bailey@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "sensor data",
+      "weather data",
+      "soil moisture",
+      "sapflow",
+      "soil conductivity",
+      "soil temperature",
+      "related identifiers"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL MOISTURE/WATER CONTENT",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > ELECTRICAL CONDUCTIVITY",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL TEMPERATURE",
+      "sapflow",
+      "weather"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Moneystump Swamp (MSM); one of COMPASS-FME synoptic sites located in the Blackwater National Wildlife Refuge along the mesohaline Beaverdam Creek. This synoptic site consists of three plots: upland (\"UP\"; located at 38.4315N, 76.2267W), transition (\"TR\"; 38.4310N, 76.2277W), and wetland (\"W\"; 38.4308N, 76.2286W). The site was established in June 2022. The transect spans a coastal loblolly pine forest and a mesohaline marsh dominated by Spartina and Distichlis.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.431,
+            "longitude": -76.2277
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.431,
+            "longitude": -76.2277
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Old Woman Creek (OWC); one of COMPASS-FME synoptic sites located within the Old Woman Creek lacustuary, 2.8 miles (4.5km) east of Huron, Ohio. This site is owned by the Ohio Department of Natural Resources (ODNR), managed by ODNR\u2019s Division of Natural Areas & Preserves as Old Woman Creek National Estuarine Research Reserve. This site consists of four plots: upland (\"UP\"; located at 41.3763N, 82.5070W), transition (\"TR\"; 41.3758N, 82.5063W), wetland transition edge (\"WTE\"; 41.3760N, 82.5071W), and wetland (\"W\"; 41.3761N, 82.5078W). The site was established in December 2021.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3758,
+            "longitude": -82.5063
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3758,
+            "longitude": -82.5063
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Portage River (PTR); one of COMPASS-FME synoptic sites located on the shoreline of the Portage River lacustuary of southwestern Lake Erie, at the confluence of the Portage and Little Portage rivers, 5.25 miles (8.5 km) east of Oak Harbor, Ohio. This site is owned by the USFWS and managed as a part of the Ottawa National Wildlife Refuge complex. This site consists of three plots: upland (\"UP\"; located at 41.5015N, 83.0461W), transition (\"TR\"; 41.5020N, 83.0456W), and wetland (\"W\"; 41.5016N, 83.0444W). The site was established in December 2021.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.502,
+            "longitude": -83.0456
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.502,
+            "longitude": -83.0456
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Sweet Hall Marsh (SWH); one of the COMPASS-FME synoptic sites located in the tidal fresh Pamunkey River, one of the two tributaries of the York River in Virginia, USA. The COMPASS-FME consists of three plots: upland (\"UP\"; located at 37.5708N, 76.8954W), swamp (\"SWAMP\"; located at 37.57069N, 76.8957W), transition (\"TR\"; 37.56883N, 76.8964W), and wetland (\"W\"; 37.56659N, 76.8970W). The synoptic site was established in June 2023. This site is also identified as a Chesapeake Bay National Research Reserve site.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.56883,
+            "longitude": -76.8964
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.56883,
+            "longitude": -76.8964
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Crane Creek (CRC); one of COMPASS-FME synoptic sites within the Crane Creek lacustuary region of southwestern Lake Erie, 9.25 miles (14.9 km) northwest of Oak Harbor, Ohio. This site is owned by the USFWS and managed as a part of the Ottawa National WIldlife Refuge complex. This site consists of three plots: upland (\"UP\"; located at 41.6153N, 83.2297W), transition (\"TR\"; 41.6219N, 83.2381W), and wetland (\"W\"; 41.6219N, 83.2389W). This site was established in December 2021.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.6219,
+            "longitude": -83.2381
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.6219,
+            "longitude": -83.2381
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "GCReW (GCW); one of COMPASS-FME synoptic sites, and has three plots: upland (\"UP\"; located at 38.8741N, 76.5522W), transition (\"TR\"; 38.8745, 76.5515W), and wetland (\"W\"; 38.8750N, 76.5500W). Note that this site overlaps spatially with the TEMPEST (TMP) plots, the upland portion of the transect overlaps with the TEMPEST experiment control plot. This transect spans a mid- to late-successional (~80 years old) temperate, deciduous coastal forest and a mesohaline marsh along the Rhode River in Edgewater, MD.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8745,
+            "longitude": -76.5515
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8745,
+            "longitude": -76.5515
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Goodwin Island (GWI); one of COMPASS-FME synoptic sites, and has three plots: upland (\"UP\"; located at 37.2192N, 76.4087W), transition (\"TR\"; 37.2194N, 76.4092W), and wetland (\"W\"; 37.2189N, 76.4101W). The site was established in June 2022.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.2194,
+            "longitude": -76.4092
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.2194,
+            "longitude": -76.4092
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-09-01",
+      "endDate": "2025-01-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2685-1092",
+      "givenName": "Stephanie C.",
+      "familyName": "Pennington",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "stephanie.pennington@pnnl.gov"
+    },
+    "citation": [
+      "SITES IN THIS DATASET",
+      "There are a total of 7 sites associated with the dataset. More information on where to find site-specific information, including location, basic ecological context, contact information, and key publication(s) is within the v1-2 Synoptic L1 Sensor Package Quick Start.pdf dataset file.",
+      "REFERENCES - RELATED DATASET(S)",
+      "Pennington, S., et al. (2023) \u201cEXCHANGE Campaign 1: A Community-Driven Baseline Characterization of Soils, Sediments, and Water Across Coastal Gradients\u201d. ESS-DIVE. https://doi.org/10.15485/1960313",
+      "COMPASS Field, Measurements, and Experiments (COMPASS-FME) website, https://compass.pnnl.gov/FME/COMPASSFME"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a688a033-da45-46ad-b72b-d6fef5139a9c"
+      },
+      "name": "COMPASS-FME",
+      "member": {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "All code used to product this dataset is documented in: https://github.com/COMPASS-DOE/data-workflows/tree/main/synoptic",
+      "First, data are converted to their final output units, based on a central table that specifies, for each datalogger variable, its input units, output units, and conversion factor.",
+      "Second, values are flagged when they fall outside of \u2018instrumental bounds\u2019\u2014i.e., the range over which a manufacturer reports that a sensor is calibrated (if that is not available, an expert-defined range).",
+      "Third, values are flagged when they fall inside of instrument maintenance windows, as defined in a table that is maintained by field technicians and read by the L1 processor. Fourth, data are regrouped into site-year folders (e.g., \u201cMSM_2023\u201d for Moneystump Marsh 2023 data), and written to monthly files.",
+      "Finally, metadata is written into the same site-month folder."
+    ],
+    "distribution": [
+      {
+        "contentSize": 58375.6259765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-00a0b6bae7f3fb1-20250304T201456763",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-00a0b6bae7f3fb1-20250304T201456763",
+        "name": "GWI_2022.zip"
+      },
+      {
+        "contentSize": 23.5322265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-01e8ab563a78be1-20250304T211352752",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-01e8ab563a78be1-20250304T211352752",
+        "name": "COMPASS_FME_Synoptic_Sites_Level_1_Sensor_Data.xml"
+      },
+      {
+        "contentSize": 103716.98828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0218a74f2d06b57-20250304T201456771",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-0218a74f2d06b57-20250304T201456771",
+        "name": "MSM_2023.zip"
+      },
+      {
+        "contentSize": 119808.3154296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-02228173ab68d14-20250304T201456780",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-02228173ab68d14-20250304T201456780",
+        "name": "OWC_2023.zip"
+      },
+      {
+        "contentSize": 3.703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-148b7545d23d12c-20250304T201430156",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-148b7545d23d12c-20250304T201430156",
+        "name": "code_examples.zip"
+      },
+      {
+        "contentSize": 73569.1796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-24d271737c946c0-20250304T201456792",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-24d271737c946c0-20250304T201456792",
+        "name": "SWH_2023.zip"
+      },
+      {
+        "contentSize": 0.2265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1c1feccb957a4b1-20250304T201427039",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-1c1feccb957a4b1-20250304T201427039",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 104016.318359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-18ad2aaefe0de01-20250304T201456790",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-18ad2aaefe0de01-20250304T201456790",
+        "name": "PTR_2024.zip"
+      },
+      {
+        "contentSize": 0.9423828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3dfe3b9176c78b5-20250304T201419394",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3dfe3b9176c78b5-20250304T201419394",
+        "name": "dd.csv"
+      },
+      {
+        "contentSize": 110779.1728515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-42f320da3c636c0-20250304T201456746",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-42f320da3c636c0-20250304T201456746",
+        "name": "CRC_2024.zip"
+      },
+      {
+        "contentSize": 18.2578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31b0d0bad7e75fa-20250304T201456776",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-31b0d0bad7e75fa-20250304T201456776",
+        "name": "MSM_2025.zip"
+      },
+      {
+        "contentSize": 184.1162109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31fe81887262ce6-20250304T201416691",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-31fe81887262ce6-20250304T201416691",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 78538.642578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2cffcdfca54b4a0-20250304T201456739",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2cffcdfca54b4a0-20250304T201456739",
+        "name": "CRC_2022.zip"
+      },
+      {
+        "contentSize": 80479.2783203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a9037641efee12-20250304T201456767",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-3a9037641efee12-20250304T201456767",
+        "name": "GWI_2024.zip"
+      },
+      {
+        "contentSize": 115953.5078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-61c657d75c225e3-20250304T201456773",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-61c657d75c225e3-20250304T201456773",
+        "name": "MSM_2024.zip"
+      },
+      {
+        "contentSize": 1261.236328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2b0a9120e521076-20250304T201408895",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-2b0a9120e521076-20250304T201408895",
+        "name": "v1_2_Synoptic_L1_Sensor_Package_Quick_Start.pdf"
+      },
+      {
+        "contentSize": 234717.97265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d495680edbe2e72-20250304T201456755",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d495680edbe2e72-20250304T201456755",
+        "name": "GCW_2022.zip"
+      },
+      {
+        "contentSize": 63183.587890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-52e45e1597b1eef-20250304T201456769",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-52e45e1597b1eef-20250304T201456769",
+        "name": "MSM_2022.zip"
+      },
+      {
+        "contentSize": 142210.296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6f13f773fbb010b-20250304T201456753",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6f13f773fbb010b-20250304T201456753",
+        "name": "GCW_2021.zip"
+      },
+      {
+        "contentSize": 4211.7060546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8d6c29b6225f0f1-20250304T201456748",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8d6c29b6225f0f1-20250304T201456748",
+        "name": "GCW_2019.zip"
+      },
+      {
+        "contentSize": 118031.9091796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a538b641bf21220-20250304T201456795",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a538b641bf21220-20250304T201456795",
+        "name": "SWH_2024.zip"
+      },
+      {
+        "contentSize": 61838.89453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9e9236eaddccd77-20250304T201456786",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9e9236eaddccd77-20250304T201456786",
+        "name": "PTR_2022.zip"
+      },
+      {
+        "contentSize": 107608.677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-93571d5d5176ce8-20250304T201456742",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-93571d5d5176ce8-20250304T201456742",
+        "name": "CRC_2023.zip"
+      },
+      {
+        "contentSize": 3.77734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b0a774440f987d8-20250304T201424008",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-b0a774440f987d8-20250304T201424008",
+        "name": "README_v1_2.txt"
+      },
+      {
+        "contentSize": 82366.0556640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cce45f5066971e7-20250304T201456750",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-cce45f5066971e7-20250304T201456750",
+        "name": "GCW_2020.zip"
+      },
+      {
+        "contentSize": 96936.2021484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b2909334d892471-20250304T201456788",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b2909334d892471-20250304T201456788",
+        "name": "PTR_2023.zip"
+      },
+      {
+        "contentSize": 286170.7021484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c985e45044de400-20250304T201456758",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c985e45044de400-20250304T201456758",
+        "name": "GCW_2023.zip"
+      },
+      {
+        "contentSize": 335949.654296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f66c1f7ebef74ec-20250304T201456760",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f66c1f7ebef74ec-20250304T201456760",
+        "name": "GCW_2024.zip"
+      },
+      {
+        "contentSize": 87284.26953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f75509f5a4d447f-20250304T201456778",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f75509f5a4d447f-20250304T201456778",
+        "name": "OWC_2022.zip"
+      },
+      {
+        "contentSize": 76882.197265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f7936fbbbcf86b7-20250304T201456765",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f7936fbbbcf86b7-20250304T201456765",
+        "name": "GWI_2023.zip"
+      },
+      {
+        "contentSize": 121303.6025390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fa29ad867f343bd-20250304T201456783",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-fa29ad867f343bd-20250304T201456783",
+        "name": "OWC_2024.zip"
+      }
+    ]
+  }
+}

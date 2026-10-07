@@ -1,0 +1,390 @@
+{
+  "id": "ess-dive-0fe1479711dcfb2-20230504T212223196979",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1780565",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-0fe1479711dcfb2-20230504T212223196979",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-3572c0a15da0525-20230407T154301632882",
+  "dateUploaded": "2023-05-04T21:22:24.436Z",
+  "dateModified": "2023-05-04T21:22:27.687Z",
+  "isPublic": true,
+  "citation": "Crystal-Ornelas R; Varadharajan C; Bond-Lamberty B; Boye K; Cholia S; Crow M; Devarakonda R; Ely K S; Goldman A; Heinz S; Hendrix V; Damerow J; Pennington S; Burrus M; Kakalia Z; Robles E; Simmonds M; Rogers A; Velliquette T; Weierbach H; Weisenhorn P; Welch J N; Agarwal D A (2021): Data from: \"A guide to using GitHub for developing and versioning data standards and reporting formats\". Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). Dataset. doi:10.15485/1780565",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1780565",
+    "name": "Data from: \"A guide to using GitHub for developing and versioning data standards and reporting formats\"",
+    "description": [
+      "These data are the results of a systematic review that investigated how data standards and reporting formats are documented on the version control platform GitHub. Our systematic review identified 32 data standards in earth science, environmental science, and ecology that use GitHub for version control of data standard documents. In our analysis, we characterized the documents and content within each of the 32 GitHub repositories to identify common practices for groups that version control their documents on GitHub.",
+      "In this data package, there are 8 CSV files that contain data that we characterized from each repository, according to the location within the repository. For example, in 'readme_pages.csv' we characterize the content that appears across the 32 GitHub repositories included in our systematic review. Each of the 8 CSV files has an associated data dictionary file (names appended with '_dd.csv' and here we describe each content category within CSV files.",
+      "There is one file-level metadata file (flmd.csv) that provides a description of each file within the data package."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6339-1139",
+        "givenName": "Robert",
+        "familyName": "Crystal-Ornelas",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "rcrystalornelas@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9525-4633",
+        "givenName": "Ben",
+        "familyName": "Bond-Lamberty",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "BondLamberty@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2087-607X",
+        "givenName": "Kristin",
+        "familyName": "Boye",
+        "affiliation": "SLAC National Accelerator Laboratory",
+        "email": "kboye@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4775-8201",
+        "givenName": "Shreyas",
+        "familyName": "Cholia",
+        "affiliation": "Lawrence Berkeley National Lab - NERSC",
+        "email": "scholia@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7260-807X",
+        "givenName": "Michael",
+        "familyName": "Crow",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "crowmc@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2661-1937",
+        "givenName": "Ranjeet",
+        "familyName": "Devarakonda",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "devarakondar@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3915-001X",
+        "givenName": "Kim S.",
+        "familyName": "Ely",
+        "affiliation": "Brookhaven National Lab",
+        "email": "kely@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Amy.Goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4150-2686",
+        "givenName": "Susan",
+        "familyName": "Heinz",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "heinzsl@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9061-8952",
+        "givenName": "Valerie",
+        "familyName": "Hendrix",
+        "affiliation": "Lawrence Livermore National Laboratory",
+        "email": "vchendrix@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2601-5043",
+        "givenName": "Joan",
+        "familyName": "Damerow",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "JoanDamerow@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2685-1092",
+        "givenName": "Stephanie",
+        "familyName": "Pennington",
+        "affiliation": "PNNL",
+        "email": "stephanie.pennington@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2296-4698",
+        "givenName": "Madison",
+        "familyName": "Burrus",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mburrus@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9045-1160",
+        "givenName": "Zarine",
+        "familyName": "Kakalia",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "zarinekakalia@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3720-6566",
+        "givenName": "Emily",
+        "familyName": "Robles",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "emilyarobles@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7796-7154",
+        "givenName": "Maegen",
+        "familyName": "Simmonds",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mbsimmonds@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9262-7430",
+        "givenName": "Alistair",
+        "familyName": "Rogers",
+        "affiliation": "Brookhaven National Lab",
+        "email": "arogers@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9855-5191",
+        "givenName": "Terri",
+        "familyName": "Velliquette",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "velliquettet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6348-9120",
+        "givenName": "Helen",
+        "familyName": "Weierbach",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "hweierbach@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1844-5502",
+        "givenName": "Pamela",
+        "familyName": "Weisenhorn",
+        "affiliation": "Argonne National Laboratory",
+        "email": "pweisenhorn@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5987-6387",
+        "givenName": "Jessica N.",
+        "familyName": "Welch",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "welchjn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5045-2396",
+        "givenName": "Deborah A.",
+        "familyName": "Agarwal",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "daagarwal@lbl.gov"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "data standards",
+      "data reporting formats",
+      "FAIR data",
+      "TRUST principles",
+      "open science",
+      "metadata",
+      "data repositories"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-09-01",
+      "endDate": "2020-12-03",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6339-1139",
+      "givenName": "Robert",
+      "familyName": "Crystal-Ornelas",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "rcrystalornelas@lbl.gov"
+    },
+    "citation": [
+      "Crystal-Ornelas, R; Varadharajan, C.; Bond-Lamberty, B.; Boye, K.; Burrus, M; Cholia, S.; Crow, M.; Damerow, J; Devarakonda, R.; Ely, K.S.; Goldman, A.; Heinz, S.; Hendrix, V.; Kakalia, Z.; Pennington, S.; Robles, E.; Rogers, A.; Simmonds, M.; Velliquette, T.; Weierbach, H.; Weisenhorn, P.; Welch, J.N.; Agarwal, D.A. A guide to using GitHub for developing and versioning data standards and reporting formats. (In Revision)"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "f5bb4f8b-224d-4d6a-9040-ae5a4a2959e6"
+      },
+      "name": "Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "daagarwal@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "In order to create the datasets contained in this data package we conducted a systematic review to locate data standards, reporting formats, and ontologies that host their documentation on the version control platform, GitHub. We searched for data standards using the data standard search tool on https://fairsharing.org/. Then we characterized the content that appears within each repository (e.g., on a README page or within CONTRIBUTING.md files) to summarize patterns in how organizations develop their data standard content on GitHub.\nFor full methods please see: Crystal-Ornelas, R; Varadharajan, C.; Bond-Lamberty, B.; Boye, K.; Burrus, M; Cholia, S.; Crow, M.; Damerow, J; Devarakonda, R.; Ely, K.S.; Goldman, A.; Heinz, S.; Hendrix, V.; Kakalia, Z.; Pennington, S.; Robles, E.; Rogers, A.; Simmonds, M.; Velliquette, T.; Weierbach, H.; Weisenhorn, P.; Welch, J.N.; Agarwal, D.A. A guide to using GitHub for developing and versioning data standards and reporting formats. (In Revision)"
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.3251953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-08ad5fcfc8512e5-20210629T221923734",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-08ad5fcfc8512e5-20210629T221923734",
+        "name": "whole_corpus_dd.csv"
+      },
+      {
+        "contentSize": 1.41796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2383f59fabe2247-20210629T221923716",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2383f59fabe2247-20210629T221923716",
+        "name": "contribution_guidelines_dd.csv"
+      },
+      {
+        "contentSize": 2.15234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-242f21e8385bc09-20210629T221923711",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-242f21e8385bc09-20210629T221923711",
+        "name": "contribution_guidelines.csv"
+      },
+      {
+        "contentSize": 0.501953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1c4ce0c8e7e541d-20210629T221923761",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1c4ce0c8e7e541d-20210629T221923761",
+        "name": "site_directory_dd.csv"
+      },
+      {
+        "contentSize": 0.6611328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1d98d2a11779e0a-20210629T221923744",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1d98d2a11779e0a-20210629T221923744",
+        "name": "issues_vs_prs_dd.csv"
+      },
+      {
+        "contentSize": 1.2080078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1f617a09d6b2e95-20210629T221923771",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1f617a09d6b2e95-20210629T221923771",
+        "name": "search_results_dd.csv"
+      },
+      {
+        "contentSize": 18.3232421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0fe1479711dcfb2-20230504T212223196979",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-0fe1479711dcfb2-20230504T212223196979",
+        "name": "Data_from_A_guide_to_using_GitHub_for_developing_and_versioning_data_standards_and_reporting_formats_.xml"
+      },
+      {
+        "contentSize": 2.4775390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31f940c345c9720-20210629T221923738",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-31f940c345c9720-20210629T221923738",
+        "name": "readme_pages.csv"
+      },
+      {
+        "contentSize": 4.2412109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e82c07e81990dbf-20210629T221923690",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e82c07e81990dbf-20210629T221923690",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 0.8427734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dfcccda40cd6930-20210629T221923706",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-dfcccda40cd6930-20210629T221923706",
+        "name": "user_facing_site_dd.csv"
+      },
+      {
+        "contentSize": 2.0419921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ee45062ce7e085a-20210629T221923752",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ee45062ce7e085a-20210629T221923752",
+        "name": "all_pages_dd.csv"
+      },
+      {
+        "contentSize": 4.5615234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-814f72a57944495-20210629T221923757",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-814f72a57944495-20210629T221923757",
+        "name": "site_directory.csv"
+      },
+      {
+        "contentSize": 1.392578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-72155fce739d63e-20210629T221923729",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-72155fce739d63e-20210629T221923729",
+        "name": "issues_vs_prs.csv"
+      },
+      {
+        "contentSize": 13.658203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ac5d98c46373209-20210629T221923766",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ac5d98c46373209-20210629T221923766",
+        "name": "search_results.csv"
+      },
+      {
+        "contentSize": 1.7421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9bf617ae5605004-20210629T221923720",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9bf617ae5605004-20210629T221923720",
+        "name": "readme_pages_dd.csv"
+      },
+      {
+        "contentSize": 3.072265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9d2973be3330407-20210629T221923725",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9d2973be3330407-20210629T221923725",
+        "name": "whole_corpus.csv"
+      },
+      {
+        "contentSize": 1.298828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9da76e21b3a1685-20210629T221923701",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9da76e21b3a1685-20210629T221923701",
+        "name": "user_facing_site.csv"
+      },
+      {
+        "contentSize": 2.4111328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b828f99877829f3-20210629T221923748",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b828f99877829f3-20210629T221923748",
+        "name": "all_pages.csv"
+      }
+    ]
+  }
+}

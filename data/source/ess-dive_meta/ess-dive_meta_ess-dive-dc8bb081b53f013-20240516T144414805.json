@@ -1,0 +1,145 @@
+{
+  "id": "ess-dive-dc8bb081b53f013-20240516T144414805",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2350836",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-dc8bb081b53f013-20240516T144414805",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a17917bdec56953-20240516T144226538",
+  "dateUploaded": "2024-05-16T14:44:17.416Z",
+  "dateModified": "2024-05-17T00:02:12.100Z",
+  "isPublic": true,
+  "citation": "Willson A; Medvigy D (2024): Metaanalysis of liana and tree functional traits. Unraveling the Mechanisms of Below- And Aboveground Liana-Tree Competition in Tropical Forests. Dataset. doi:10.15485/2350836",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2350836",
+    "name": "Metaanalysis of liana and tree functional traits",
+    "description": [
+      "The objectives of this project were (i) to determine how tropical trees and lianas differed in terms of their functional traits, and (ii) to parameterize a computational model of tree-liana competition. We carried out a meta-analysis of tree and liana functional traits in order to achieve these goals. First, we downloaded functional trait data from the TRY database during November and December 2019. Traits of interest included leaf, wood, and root functional traits. We included only angiosperm tree and liana species that are found in tropical biomes. We then computed the species average for each trait. The results are included in \u201cTRY_traits_metaanalysis.csv\u201d. We also conducted a second meta-analysis focused on the hydraulic traits of tropical trees and lianas. We used Google Scholar and Web of Science to identify papers that contained hydraulic trait values. The papers that we found were all published between 1997-2019. As with our TRY-based meta-analysis, we included only angiosperm tree and liana species that are found in the tropics, and we computed species averages. The results are contained in the file \u201chydraulic_traits_metaanalysis.csv\u201d. Both files are in csv format, so they can be read with any plain text editor, as well as programs like R or Excel."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2808-3402",
+        "givenName": "Alyssa",
+        "familyName": "Willson",
+        "affiliation": "University of Notre Dame",
+        "email": "awillso2@nd.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3076-3071",
+        "givenName": "David",
+        "familyName": "Medvigy",
+        "affiliation": "University of Notre Dame",
+        "email": "dmedvigy@nd.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "tree functional traits",
+      "liana functional traits",
+      "sapwood hydraulic conductivity",
+      "slope of the PLC curve",
+      "P50",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > TERRESTRIAL ECOSYSTEMS > FORESTS > TROPICAL RAINFOREST",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > LEAF CHARACTERISTICS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > NITROGEN",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > PHOSPHORUS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > PLANT CHARACTERISTICS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "award": [
+      "DE-SC0020344"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3076-3071",
+      "givenName": "David",
+      "familyName": "Medvigy",
+      "affiliation": "University of Notre Dame",
+      "email": "dmedvigy@nd.edu"
+    },
+    "citation": [
+      "Willson, A., C. Smith-Martin, A. Trugman, J.S. Powers, and D. Medvigy. (2022). Climate and hydraulic traits interact to set thresholds for liana viability. Nature Communications, 13:3332, https://doi.org/10.1038/s41467-022-30993-2.",
+      "Willson, A., D. Medvigy, J. Powers, C. Smith-Martin, and A.T. Trugman. (2022). Climate and hydraulic traits interact to set threshold for liana viability. figshare. Collection. https://doi.org/10.6084/m9.figshare.c.5990986.v1."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "aae3560c-4cb9-483d-8cae-2a7aeceeb973"
+      },
+      "name": "Unraveling the Mechanisms of Below- And Aboveground Liana-Tree Competition in Tropical Forests",
+      "member": {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Medvigy",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of Notre Dame du Lac, Notre Dame, IN",
+        "email": "dmedvigy@nd.edu"
+      }
+    },
+    "measurementTechnique": [
+      "The methods employed in generating this data set can be found in the following publication:\nWillson, A., C. Smith-Martin, A. Trugman, J.S. Powers, and D. Medvigy. Climate and hydraulic traits interact to set thresholds for liana viability. Nature Communications, 13:3332, https://doi.org/10.1038/s41467-022-30993-2.\nThe following steps provide a summary of our procedure.",
+      "TRY meta-analysis:\n1) Within the TRY database, we identified traits that had observations for at least 4 tree and liana species.\n2) For each trait, we downloaded the dataset for all species available globally and averaged the observations of the trait to the species level to avoid statistical biases introduced in our growth form comparison due to a high density of observations in a few commercially valuable species.\n3) We matched the species ID number with the most frequently used growth form identifier using the TRY \u201cgrowth form\u201d trait and kept the species with the most frequent identifier of \u201ctree,\u201d \u201cliana,\u201d or \u201cwoody vine.\u201d We subsetted the data to keep only species with a majority of observations ascribed to the tree and liana growth forms (i.e., no herbaceous species, ferns, etc.), resulting in observations for 44,222 total species.\n4) We filtered the dataset of 44,222 species by hand to remove species misclassified as trees or lianas\u037e species occurring entirely in temperate to boreal biomes\u037e species from all gymnosperm lineages except the order Gnetales\u037e and entries for taxonomic classifications broader than the genus level (e.g., taxonomic families).",
+      "Hydaulic traits meta-analysis:\n1) We conducted a literature search using Web of Science and Google Scholar. We searched the following phrases in combination with \u201cliana:\u201d \u201chydraulic conductivity,\u201d \u201chydraulic trait,\u201d \u201chydraulic efficiency,\u201d and \u201chydraulic K.\u201d\n2) Of the literature we found, we kept only the studies that met the following criteria: (a) reported Ks,max measurements for lianas, (b) measured Ks,max instead of computing Ks,max from xylem conduit dimensions, (c) measured Ks,max on sunlit, terminal branches of mature individuals or saplings, and (d) measured Ks,max on a branch longer than the longest vessel. We considered the authors to have used a branch length longer than maximum vessel length if the authors measured or reported maximum vessel length for the species and a longer branch was used.\n3) Because the best methodological practice for measuring P50, especially in species with long vessels, is currently a matter of debate, we additionally removed all observations of P50 > 0.75. This filtering was performed to reduce the probability that falsely high (i.e., less negative) P50 values were retained in our analysis because of improper measurement technique."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3.1572265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-692eed2cd739f80-20240506T165913349",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-692eed2cd739f80-20240506T165913349",
+        "name": "hydraulic_traits_metaanalysis_dd.csv"
+      },
+      {
+        "contentSize": 50.7294921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-79524a633937148-20240506T165913313",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-79524a633937148-20240506T165913313",
+        "name": "hydraulic_traits_metaanalysis.csv"
+      },
+      {
+        "contentSize": 2275.48046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-812bba94ea15af0-20240506T165913336",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-812bba94ea15af0-20240506T165913336",
+        "name": "TRY_traits_metaanalysis.csv"
+      },
+      {
+        "contentSize": 1.3662109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-85de1a4255ae51e-20240506T165913344",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-85de1a4255ae51e-20240506T165913344",
+        "name": "TRY_traits_metaanalysis_dd.csv"
+      },
+      {
+        "contentSize": 1.28125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f91e0e1d4ccb9ba-20240513T143255529",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f91e0e1d4ccb9ba-20240513T143255529",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 9.490234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dc8bb081b53f013-20240516T144414805",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-dc8bb081b53f013-20240516T144414805",
+        "name": "Metaanalysis_of_liana_and_tree_functional.xml"
+      }
+    ]
+  }
+}

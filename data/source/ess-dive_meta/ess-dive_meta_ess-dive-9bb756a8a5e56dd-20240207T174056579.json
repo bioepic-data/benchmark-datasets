@@ -1,0 +1,303 @@
+{
+  "id": "ess-dive-9bb756a8a5e56dd-20240207T174056579",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2290364",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-9bb756a8a5e56dd-20240207T174056579",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ad6ffd8016bc3ec-20240206T110705568",
+  "dateUploaded": "2024-02-07T17:40:57.127Z",
+  "dateModified": "2024-02-08T00:00:25.237Z",
+  "isPublic": true,
+  "citation": "Rawlins M; Karmalkar A (2024): Modeled estimates of permafrost hydrology and related fields for pan-Arctic region over the period 1980-2100. Quantifying Variability and Controls of Riverine Dissolved Organic Carbon Exported to Arctic Coastal Margins of North America. Dataset. doi:10.15485/2290364",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2290364",
+    "name": "Modeled estimates of permafrost hydrology and related fields for pan-Arctic region over the period 1980-2100",
+    "description": [
+      "This dataset contains gridded estimates of total runoff (mm/day); subsurface runoff (mm/day); snow water equivalent (SWE, mm/day); vertical upward water flux of combined surface evaporation, evapotranspiration, and snow sublimation (mm/day); and soil temperature (C) across the pan-Arctic basin from simulations of the Permafrost Water Balance Model (PWBM v4). These data were generated to allow researchers to advance understanding of the changes unfolding in the Arctic's terrestrial water cycle under the influences of climate warming, hydrological cycle intensification, and permafrost thaw. The dataset will enable researchers to address important questions spanning multiple disciplines. For example, how will rising river flows exported to the coast impact critical zone ecosystems, near-shore ice dynamics, and ocean biogeochemical processes. Spatial resolution is 25x25 km with N=39926 grid cells spanning the domain. Three forcing datasets were used to drive simulations at an implicit daily time step over the period 1980-2100. Daily air temperature, precipitation, and wind speed data from the WATCH Forcing Data methodology applied to ERA5 reanalysis (W5E5) were used for meteorological forcings over the period 1980-2019. Simulations for the period 1980-2100 used meteorological data from two global climate models; IPSL-CM6A-LR and MPI-ESM1-2-HR. The PWBM hydrological outputs are organized by grid and month in gzipped ASCII text files within each archived tar file. Soil temperature is organized by grid cell and day of year from DOY 205 to DOY 260. No special software is required to work with these data. The package contains spatial domain and river basin information files. These data are most useful for analyses of the spatial and temporal variations in terrestrial hydrology and soil thermal dynamics. A manuscript describing the model simulations and associated analysis has been accepted for publication in The Cryosphere (Rawlins and Karmalkar, 2024)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3323-8256",
+        "givenName": "Michael",
+        "familyName": "Rawlins",
+        "affiliation": "University of Massachusetts - Amherst",
+        "email": "mrawlins@umass.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2940-0417",
+        "givenName": "Ambarish",
+        "familyName": "Karmalkar",
+        "affiliation": "University of Rhode Island - Kingston",
+        "email": "akarmalkar@uri.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE",
+      "EARTH SCIENCE > LAND SURFACE > FROZEN GROUND"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > RUNOFF > TOTAL RUNOFF",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW WATER EQUIVALENT",
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND > SOIL TEMPERATURE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW > BASE FLOW",
+      "lwe_thickness_of_water_evaporation_amount"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Domain encompasses the pan-Arctic drainage basin. This region spans all land areas that drain to the Arctic Ocean, Hudson Bay, and the Bearing Sea.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 84,
+            "longitude": -180
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45,
+            "longitude": 180
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000104",
+        "name": "National Aeronautics and Space Administration (NASA)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000001",
+        "name": "National Science Foundation (NSF)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1980-01-01",
+      "endDate": "2099-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3323-8256",
+      "givenName": "Michael",
+      "familyName": "Rawlins",
+      "affiliation": "University of Massachusetts - Amherst",
+      "email": "mrawlins@umass.edu"
+    },
+    "citation": [
+      "Rawlins, M. A. and Karmalkar, A. V.: Regime Shifts in Arctic Terrestrial Hydrology Manifested From Impacts of Climate Warming, The Cryosphere Discuss. [preprint], https://doi.org/10.5194/tc-2023-84, in review, 2023."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "59d5fae2-d534-4e7b-8ec2-7bda841fb972"
+      },
+      "name": "Quantifying Variability and Controls of Riverine Dissolved Organic Carbon Exported to Arctic Coastal Margins of North America",
+      "member": {
+        "@type": "Person",
+        "givenName": "Michael",
+        "familyName": "Rawlins",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "University of Massachusetts Amherst, Amherst, MA",
+        "email": "mrawlins@umass.edu"
+      }
+    },
+    "measurementTechnique": [
+      "This archive contains tar files of individual gzipped ASCII text files along with several metadata ascillary files. Untar tar files with linux command \u201ctar xvf"
+    ],
+    "distribution": [
+      {
+        "contentSize": 6602190.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-00910d3ed0b5980-20240124T001732405860",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-00910d3ed0b5980-20240124T001732405860",
+        "name": "files_IPSL_soiltemp.tar"
+      },
+      {
+        "contentSize": 31.0361328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0c3da916795c212-20240124T205203088",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-0c3da916795c212-20240124T205203088",
+        "name": "README.pdf"
+      },
+      {
+        "contentSize": 1115.4326171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-09ff0d69055c4e5-20240111T022019627",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-09ff0d69055c4e5-20240111T022019627",
+        "name": "newDomain.txt"
+      },
+      {
+        "contentSize": 2817790.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1c709fe0b05658c-20240206T101001325",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-1c709fe0b05658c-20240206T101001325",
+        "name": "forcings_W5E5.tar"
+      },
+      {
+        "contentSize": 136940.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-06700d1c987a5e8-20240110T224549775",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-06700d1c987a5e8-20240110T224549775",
+        "name": "files_MPI_runoff.tar"
+      },
+      {
+        "contentSize": 47000.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-133cf3210dea9cc-20240124T003826892859",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-133cf3210dea9cc-20240124T003826892859",
+        "name": "files_W5E5_evap.tar"
+      },
+      {
+        "contentSize": 39430.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0d9e61d74769ed4-20240124T004529311138",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-0d9e61d74769ed4-20240124T004529311138",
+        "name": "files_W5E5_subsurfacerunoff.tar"
+      },
+      {
+        "contentSize": 135900.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3003ae2403ff569-20240111T021427791",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-3003ae2403ff569-20240111T021427791",
+        "name": "files_IPSL_runoff.tar"
+      },
+      {
+        "contentSize": 142920.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a1294015cb9e41-20240110T224549865",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-3a1294015cb9e41-20240110T224549865",
+        "name": "files_MPI_evap.tar"
+      },
+      {
+        "contentSize": 1325.69921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d0c2556709e5580-20240111T022500953",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-d0c2556709e5580-20240111T022500953",
+        "name": "grids_IPA_Pfrost_Class_hdr.txt"
+      },
+      {
+        "contentSize": 4654860.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d0dd95492ed19bc-20240205T230604445",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-d0dd95492ed19bc-20240205T230604445",
+        "name": "forcings_MPI.tar"
+      },
+      {
+        "contentSize": 1910.578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5e108c4af69138b-20240111T022019716",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-5e108c4af69138b-20240111T022019716",
+        "name": "domain.txt"
+      },
+      {
+        "contentSize": 128840.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-64cdf8a49f3cfe3-20240110T224548796",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-64cdf8a49f3cfe3-20240110T224548796",
+        "name": "files_MPI_SWE.tar"
+      },
+      {
+        "contentSize": 122620.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a468d68f8767f0-20240110T224549528",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-7a468d68f8767f0-20240110T224549528",
+        "name": "files_MPI_subsurfacerunoff.tar"
+      },
+      {
+        "contentSize": 243640.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7bd04c91d2865dd-20240201T161243770",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-7bd04c91d2865dd-20240201T161243770",
+        "name": "PWBM_source.tar"
+      },
+      {
+        "contentSize": 44010.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7530fa9fca5ae59-20240124T004646262219",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-7530fa9fca5ae59-20240124T004646262219",
+        "name": "files_W5E5_SWE.tar"
+      },
+      {
+        "contentSize": 11.806640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9bb756a8a5e56dd-20240207T174056579",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-9bb756a8a5e56dd-20240207T174056579",
+        "name": "Modeled_estimates_of_permafrost_hydrology_and.xml"
+      },
+      {
+        "contentSize": 132030.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-916c56d10a3a6b9-20240111T021427560",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-916c56d10a3a6b9-20240111T021427560",
+        "name": "files_IPSL_SWE.tar"
+      },
+      {
+        "contentSize": 4659740.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a1b22cfd06f2242-20240206T015524930",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-a1b22cfd06f2242-20240206T015524930",
+        "name": "forcings_IPSL.tar"
+      },
+      {
+        "contentSize": 122080.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-96d7c0610361fcd-20240111T021427678",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-96d7c0610361fcd-20240111T021427678",
+        "name": "files_IPSL_subsurfacerunoff.tar"
+      },
+      {
+        "contentSize": 2224230.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-94707156e3eb9bd-20240124T004337218799",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-94707156e3eb9bd-20240124T004337218799",
+        "name": "files_W5E5_soiltemp.tar"
+      },
+      {
+        "contentSize": 107.4150390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c69c255d2564cd1-20240111T022236828",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-c69c255d2564cd1-20240111T022236828",
+        "name": "basin_names.txt"
+      },
+      {
+        "contentSize": 6511700.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c9933478cf42c3a-20240124T003015975374",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-c9933478cf42c3a-20240124T003015975374",
+        "name": "files_MPI_soiltemp.tar"
+      },
+      {
+        "contentSize": 44370.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f7074f8694c84dd-20240124T003940102428",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-f7074f8694c84dd-20240124T003940102428",
+        "name": "files_W5E5_runoff.tar"
+      },
+      {
+        "contentSize": 144180.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dcdc6abf49d67bd-20240111T021427921",
+        "encodingFormat": "application/x-tar",
+        "identifier": "ess-dive-dcdc6abf49d67bd-20240111T021427921",
+        "name": "files_IPSL_evap.tar"
+      }
+    ]
+  }
+}

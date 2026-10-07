@@ -1,0 +1,241 @@
+{
+  "id": "ess-dive-46699da2f774f20-20251218T042254981",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1602034",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-46699da2f774f20-20251218T042254981",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-46699da2f774f20-20251217T215022618",
+  "dateUploaded": "2025-12-18T04:22:56.677Z",
+  "dateModified": "2025-12-18T04:22:56.855Z",
+  "isPublic": true,
+  "citation": "Falco N; Wainwright H M; Chadwick K D; Dafflon B; Enquist B J; Unhlemann S; Breckheimer I; Lamb J; Chen J; Tuvshintugs O; Balde A; Williams K H; Brodie E (2024): Vegetation classification map and covariates associated with NEON AOP survey, East River, CO 2018. Watershed Function SFA. Dataset. doi:10.15485/1602034",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1602034",
+    "name": "Vegetation classification map and covariates associated with NEON AOP survey, East River, CO 2018",
+    "description": [
+      "The package contains the following datasets:",
+      "- Classification vegetation map: it contains the classification map (PNG, geotiff), which is derived from hyperspectral and LiDAR airborne data acquired by the NEON AOP in June 2018 using a machine learning approach, and the class code (csv) showing the corresponding vegetation class to pixel values.",
+      "- Classification_reference_data (csv): it contains reference data used in the machine learning procedure to predict vegetation and non-vegetation classes;",
+      "- LiDAR_derived_products (geotiff): elevation, slope, curvature, Topographic Wetness Index (TWI), Topographic Position Index (TPI), solar insolation, canopy height model (CMD). The topographical metrics were smoothed with a 5x5 pixel window;",
+      "- Vegetation_indices (geotiff): Normalized Difference Vegetation Index, Normalized Difference Nitrogen Index, Normalized Difference Water Index;",
+      "- Cloud_shadow_urban_masks (geotiffs): Masks of clouds and shadows that were applied to the mapping;",
+      "- Covariates_10mGrid_vegetationClasses_topographicMetrics_soilProperties (csv): 10-m gridded data that integrate all the previous datasets as well as geophysical data.",
+      "Geotiffs can be visualized with any GIF software or library able to handle geotiff images. CSV can be open with any software able to handle comma-separated values files."
+    ],
+    "alternateName": [
+      "paf_326"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3307-6098",
+        "givenName": "Nicola",
+        "familyName": "Falco",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "nicolafalco@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Haruko",
+        "familyName": "M. Wainwright",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "hmwainwright@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "K. Dana",
+        "familyName": "Chadwick",
+        "affiliation": "Stanford University",
+        "email": "kdc@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bdafflon@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Brian",
+        "familyName": "J. Enquist",
+        "affiliation": "University of Arizona",
+        "email": "brianjenquist@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sebastian",
+        "familyName": "Unhlemann",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "suhlemann@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ian",
+        "familyName": "Breckheimer",
+        "affiliation": "RMBL",
+        "email": "ikb@rmbl.org"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jack",
+        "familyName": "Lamb",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jlamb@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jiancong",
+        "familyName": "Chen",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jiancongchen@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Orgil",
+        "familyName": "Tuvshintugs",
+        "affiliation": "Arizona State University",
+        "email": "orgiltuvshintugs@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Abdoulaye",
+        "familyName": "Balde",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "lamaranabalde02@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ken",
+        "familyName": "H. Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "Hyperspectral imaging",
+      "Airborne remote sensing",
+      "watershed",
+      "Vegetation classification",
+      "NEON AOP",
+      "NEON Campaign 2018",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "EARTH SCIENCE > LAND SURFACE > SOILS"
+    ],
+    "variableMeasured": [
+      "Modelling results",
+      "Vegetation classification map",
+      "Soil electrical conductivity",
+      "Canopy height",
+      "Vegetation indices",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION > DIGITAL ELEVATION/TERRAIN MODEL (DEM)",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > VEGETATION INDEX > NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The Upper East River (UER), including East River, Washington Gulch, Coal Creek, and Slate River watersheds, is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. This domain covers about 300 squared km with an elevation gradient that ranges between 2700m to 4100m.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.131
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.812,
+            "longitude": -106.868
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2023) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0205CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-06-18",
+      "endDate": "2018-06-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3307-6098",
+      "givenName": "Nicola",
+      "familyName": "Falco",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "nicolafalco@lbl.gov"
+    },
+    "citation": [
+      "Falco, N., Wainwright, H. M., Chadwick, K. D., Dafflon, B., Enquist, B. J., Uhlemann, S., Breckheimer, I. K., Lamb, J., Chen, J., Tuvshintugs, O., & others. (2024). Ecoimaging: Advanced Sensing to Investigate Plant and Abiotic Hierarchical Spatial Patterns in Mountainous Watersheds (No. SSRN 4779350). http://dx.doi.org/10.2139/ssrn.4779350",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2023): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA (Version 3.1). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Classification map\nThe image classification task was carried out using support vector machine (SVM) algorithm with a Radial Basis Function (RBF) as the kernel, within a hierarchical scheme. SVM is a supervised learning algorithm widely employed in remote sensing applications due to its ability to handle high-dimensional data. To ensure optimal model selection and parameter optimization, a stratified nested cross-validation procedure was implemented. The nested procedure helps mitigate overfitting concerns and provides unbiased evaluations of model performance. Stratification and class weighting techniques were employed to address the issue of imbalanced class distribution. In the outer loop, a leave-one-out strategy was employed for the evaluation of shrubs and meadow species, considering the limited number of samples available. For trees, a 10-fold stratified cross-validation approach was adopted, ensuring that pixels from the same stand were not shared between folds. In the inner loop, which handled parameter optimization, a 5-fold cross-validation with 3 repetitions was utilized across all cases. A grid-search procedure was employed to optimize the SVM's hyperparameters C and gamma, considering exponentially growing sequences (C = 0.1, 0.5, 0.8, 1, 10, 100, and gamma = 0.001, 0.0001, 0.00001, 1e-6, 1e-7, 1e-8).",
+      "Co-variates files\nThe Covariates_10mGrid_vegetationClasses_topographicMetrics_soilProperties folder contains two CSV files that provide covariates. The first CSV file combines various covariates, including a classification map, topographical metrics, canopy traits, and establishes a sampling grid with a 10-meter spacing. The second file contains geophysical data and soil properties. In this instance, we utilized only the geophysical data of soil electrical conductivity that was recorded within 3 meters from a plot."
+    ],
+    "distribution": [
+      {
+        "contentSize": 22.205078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-46699da2f774f20-20251218T042254981",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-46699da2f774f20-20251218T042254981",
+        "name": "Vegetation_classification_map_and_covariates.xml"
+      }
+    ]
+  }
+}

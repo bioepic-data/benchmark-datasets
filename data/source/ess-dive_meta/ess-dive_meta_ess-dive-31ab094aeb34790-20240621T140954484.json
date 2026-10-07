@@ -1,0 +1,157 @@
+{
+  "id": "ess-dive-31ab094aeb34790-20240621T140954484",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/2340928",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-31ab094aeb34790-20240621T140954484",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-79276572e89a39d-20240426T130834047",
+  "dateUploaded": "2024-06-21T14:09:56.134Z",
+  "dateModified": "2024-07-31T00:00:36.831Z",
+  "isPublic": true,
+  "citation": "Serbin S; Rogers A (2024): Canopy spectral reflectance, Kougarok and Teller sites, Seward Peninsula, Alaska, 2016. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/2340928",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/2340928",
+    "name": "Canopy spectral reflectance, Kougarok and Teller sites, Seward Peninsula, Alaska, 2016",
+    "description": [
+      "Measurements of full-spectrum (350-2500 nm) canopy spectral reflectance of Arctic plant species at the Teller and Kougarok NGEE-Arctic sites, Seward Peninsula, Alaska. Spectra were collected in July 2016 using an SVC HR-2014i spectroradiometer together with a Spectralon white plate to calibrate each measurement under variable illumination conditions. The locations of the 43 measurement targets are provided as latitude and longitude recorded by the spectroradiometer internal GPS. This data package comprises .csv data and metadata files, and the SVC instrument output (.sig in .zip).",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/2340928",
+      "NGA041"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4136-8971",
+        "givenName": "Shawn",
+        "familyName": "Serbin",
+        "email": "sserbin@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9262-7430",
+        "givenName": "Alistair",
+        "familyName": "Rogers",
+        "email": "arogers@bnl.gov"
+      }
+    ],
+    "datePublished": "2024-04-25",
+    "keywords": [
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "Seward Peninsula",
+      "Nome, Alaska",
+      "Alaska",
+      "Kougarok Road",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "Plant Characteristics",
+      "Canopy Characteristics",
+      "Reflectance",
+      "EARTH SCIENCE > LAND SURFACE > SURFACE RADIATIVE PROPERTIES",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Seward Peninsula, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.952,
+            "longitude": -168.14
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.03,
+            "longitude": -159.19
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-07-25",
+      "endDate": "2016-07-28",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4136-8971",
+      "givenName": "Shawn",
+      "familyName": "Serbin",
+      "affiliation": "Brookhaven National Laboratory",
+      "email": "sserbin@bnl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "An SVC HR-2014i spectroradiometer (Spectra Vista Corporation, Poughkeepsie, NY, USA; spectral range: 350?2500 nm; spectral resolution: 3.5 nm at 700 nm, 9.5 nm at 1500 nm, and 6.5 nm at 2100 nm) fitted with a an SVC lens foreoptic was used to measure canopy reflectance at 43 locations at the Teller and Kougarok NGEE-Arctic sites. At each location, the spectroradiometer was positioned vertically, and 3 measurements were made following calibration using a Spectralon white plate. Data was processed in R using the R-FieldSpectra package (https://github.com/serbinsh/R-FieldSpectra), and measurements from each location were averaged."
+    ],
+    "distribution": [
+      {
+        "contentSize": 13998.9599609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1f3f17637c8d09e-20240426T124334640792",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-1f3f17637c8d09e-20240426T124334640792",
+        "name": "NGEE_Arctic_Seward_2016_HR1024i_Canopy_Spectral_Reflectance.zip"
+      },
+      {
+        "contentSize": 7.1533203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31ab094aeb34790-20240621T140954484",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-31ab094aeb34790-20240621T140954484",
+        "name": "Canopy_spectral_reflectance_Kougarok_and_Teller.xml"
+      },
+      {
+        "contentSize": 0.880859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5f643c35d36669f-20240426T124330640717",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5f643c35d36669f-20240426T124330640717",
+        "name": "NGA041_flmd.csv"
+      },
+      {
+        "contentSize": 2.1259765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4ed20639dca617d-20240426T124335913992",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4ed20639dca617d-20240426T124335913992",
+        "name": "Seward_2016_Canopy_Spectral_Reflectance_dd.csv"
+      },
+      {
+        "contentSize": 1032.8349609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8df593fe1f22d3d-20240426T124332078558",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8df593fe1f22d3d-20240426T124332078558",
+        "name": "NGEE_Arctic_Seward_2016_HR1024i_Canopy_Spectral_Reflectance.csv"
+      }
+    ]
+  }
+}

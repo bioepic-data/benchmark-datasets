@@ -1,0 +1,213 @@
+{
+  "id": "ess-dive-5e621ffe82c444e-20251206T013616240",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2588510",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-5e621ffe82c444e-20251206T013616240",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-5e621ffe82c444e-20251203T192529162",
+  "dateUploaded": "2025-12-06T01:36:16.720Z",
+  "dateModified": "2025-12-06T01:36:17.148Z",
+  "isPublic": true,
+  "citation": "Xu Y; Zhang Y; Moulton J D; Brereton A; Mekonnen Z A; Arora B; Endris C; Haskins J; Paytan A (2025): Data-model files associated with the manuscript \"Modeling the Effects of Wetland Restoration on Coastal Hydrology: A Case Study of Elkhorn Slough Watershed, California\". Coastal Wetland Restoration a Nature Based Decarbonization Multi-Benefit Climate Mitigation Solution. Dataset. doi:10.15485/2588510",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2588510",
+    "name": "Data-model files associated with the manuscript \"Modeling the Effects of Wetland Restoration on Coastal Hydrology: A Case Study of Elkhorn Slough Watershed, California\"",
+    "description": [
+      "This package contains the data, simulation setups, notebooks and figures used in \u201cModeling the Effects of Wetland Restoration on Coastal Hydrology: A Case Study of Elkhorn Slough Watershed, California\u201d (Xu et al., 2025). In this study, we selected Elkhorn Slough, a tidal estuary, in California, to investigate the impact of wetland restoration and sea level rise on coastal hydrology using the process-based coastal hydrologic model, Advanced Terrestrial Simulator (ATS), informed by site-specific data. We designed a novel modeling workflow for incorporating wetland restoration features into land cover and soil properties for the model parameterization. The validation results demonstrate a strong agreement between modeled and observed data. We studied the characteristics of coastal watershed hydrology, then focused on the surface water dynamics at two wetland sites within Elkhorn Slough, a reference site and a restored site. Our simulation results indicate that the restored site successfully maintains surface elevation, resulting in reduced surface inundation. We also examined the impact of wetland restoration under expected sea level rise over the next few decades. The low-lying Yampah Marsh, the reference site, is likely to be inundated due to future sea level rise when highest tides arrive; while a higher percentage of Hester Marsh, the restored site, would retain marsh vegetation in coming decades, regardless of tidal conditions. Our study provides important information for examining the outcome of restoration practices that include surface elevation in tidal wetlands under climate changes.",
+      "Several files can be found from this data package.",
+      "1. README.md: This file describes the title, journal, co-authors, abstract, repository structure and model version.",
+      "2. Simulation_Setups.zip: The file contains the model configuration files (XML format) for ATS.",
+      "3. Notebooks.zip: The file contains the Jupyter notebooks for generating the pre- and post-restoration meshes and the meshes of future scenarios.",
+      "4. Figures.zip: The file contains the figures used in the manuscript.",
+      "5. Data.zip: The file contains the data used to drive the model simulations, including watershed and wetlands boundaries, mesh files and references to additional datasets (e.g., meteorological forcing, tidal dataset, DEMs, land cover, soil properties). Also, it contains water level observations at the restored wetland."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3514-8182",
+        "givenName": "Yi",
+        "familyName": "Xu",
+        "affiliation": "University of California Santa Cruz",
+        "email": "yxu294@ucsc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Yu",
+        "familyName": "Zhang",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "zysight@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "J. David",
+        "familyName": "Moulton",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "moulton@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ashley",
+        "familyName": "Brereton",
+        "affiliation": "University of California Santa Cruz",
+        "email": "asbreret@ucsc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zelalem A.",
+        "familyName": "Mekonnen",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ZMekonnen@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bhavna",
+        "familyName": "Arora",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "barora@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Charlie",
+        "familyName": "Endris",
+        "affiliation": "San Jose State University",
+        "email": "Charles.Endris@sjsu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Haskins",
+        "affiliation": "Elkhorn Slough National Estuarine Research Reserve",
+        "email": "john@elkhornslough.org"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Adina",
+        "familyName": "Paytan",
+        "affiliation": "University of California Santa Cruz",
+        "email": "apaytan@ucsc.edu"
+      }
+    ],
+    "datePublished": "2025-11-14",
+    "keywords": [
+      "coastal wetland restoration",
+      "coastal hydrologic modeling",
+      "Advanced Terrestrial Simulator (ATS)",
+      "hydrological processes",
+      "sea level rise",
+      "ESS-DIVE Hydrologic Monitoring Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE Model Data Archiving Guidelines"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Elkhorn Slough, CA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.87388,
+            "longitude": -121.78272
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.79627,
+            "longitude": -121.68616
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "UC Lab Fees Research Program Award number L22CR4529"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2017-01-01",
+      "endDate": "2023-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3514-8182",
+      "givenName": "Yi",
+      "familyName": "Xu",
+      "affiliation": "University of California Santa Cruz",
+      "email": "yxu294@ucsc.edu"
+    },
+    "citation": [
+      "Xu, Y., Zhang, Y., Moulton, J. D., Brereton, A., Mekonnen, Z. A., Arora, B., Endris, C., Haskins, J. and Paytan, A.: Modeling the Effects of Wetland Restoration on Coastal Hydrology: A Case Study of Elkhorn Slough Watershed, California, Hydrological Processes. https://doi.org/10.1002/hyp.70314"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "f1815a51-f77a-43cb-83e6-6e3375aa73d9"
+      },
+      "name": "Coastal Wetland Restoration a Nature Based Decarbonization Multi-Benefit Climate Mitigation Solution",
+      "member": {
+        "@type": "Person",
+        "givenName": "Adina",
+        "familyName": "Paytan",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of California, Santa Cruz",
+        "email": "apaytan@ucsc.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Most of the model input data (such as hydrography, original land cover, soil properties, soil depth, geological data) used to drive the model simulations were downloaded from websites using Watershed Workflow (https://github.com/ecoon/watershed-workflow), while the tidal and meteorological datasets, as well as the DEMs, were obtained from publicly available websites (the data sources can be found in Readme.md files under Data/Meteorological_forcing_and_tidal_dataset and Data/Other_data).",
+      "The pre- and post-restoration meshes, as well as the future scenario meshes, were generated using the provided scripts in Notebook.zip file.",
+      "Water level observations at the restored wetland and the installation method can be found under Data/Observations_wetland."
+    ],
+    "distribution": [
+      {
+        "contentSize": 24002.328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-03d7f2386a005a9-20251024T052502918",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-03d7f2386a005a9-20251024T052502918",
+        "name": "Figures.zip"
+      },
+      {
+        "contentSize": 21704.5400390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3ea3c4b6e538f02-20251024T052542210",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-3ea3c4b6e538f02-20251024T052542210",
+        "name": "Notebooks.zip"
+      },
+      {
+        "contentSize": 46.3837890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4524a1fad2b2fe1-20251024T052610771",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4524a1fad2b2fe1-20251024T052610771",
+        "name": "Simulation_Setups.zip"
+      },
+      {
+        "contentSize": 10.0654296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5e621ffe82c444e-20251206T013616240",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-5e621ffe82c444e-20251206T013616240",
+        "name": "Data_model_files_associated_with_the_manuscript.xml"
+      },
+      {
+        "contentSize": 45878.2861328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a3cf9fdd577e74d-20251111T004409201",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a3cf9fdd577e74d-20251111T004409201",
+        "name": "Data.zip"
+      },
+      {
+        "contentSize": 4.5732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f1a4084394507a3-20251024T054532306",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-f1a4084394507a3-20251024T054532306",
+        "name": "README.md"
+      }
+    ]
+  }
+}

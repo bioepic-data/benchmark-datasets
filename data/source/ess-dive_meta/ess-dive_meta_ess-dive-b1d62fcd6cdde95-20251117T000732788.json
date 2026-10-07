@@ -1,0 +1,381 @@
+{
+  "id": "ess-dive-b1d62fcd6cdde95-20251117T000732788",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2006549",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-b1d62fcd6cdde95-20251117T000732788",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-b1d62fcd6cdde95-20240820T152746617",
+  "dateUploaded": "2025-11-17T00:07:32.386Z",
+  "dateModified": "2025-11-17T00:07:32.788Z",
+  "isPublic": true,
+  "citation": "Li Z; Li B; Jiang P; Hammond G; Shuai P; Zahura F; Coon E; Chen X (2023): Data and scripts associated with the manuscript evaluating the hydrologic responses of the Pacific Northwest watersheds to wildfires (v2). River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2006549",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2006549",
+    "name": "Data and scripts associated with the manuscript evaluating the hydrologic responses of the Pacific Northwest watersheds to wildfires (v2)",
+    "description": [
+      "This data package is associated with the publication \u201cEvaluating Post-fire Watershed Response to Varying Burn Severity and Precipitation Regimes Using Fully-distributed and Integrated Hydrologic Models\u201d submitted to Journal of Hydrology (Li et al. 2025). In this study, we employed the Advanced Terrestrial Simulator (ATS), an integrated watershed model that couples surface flow, subsurface flow, and canopy biophysical processes, to investigate post-fire hydrologic responses in a few selected watersheds with varying burn severity.",
+      "The data package contains the required input data (meteorological forcing, Leaf Area Index, wildfire burn severities, etc.) to run the model, configuration files, the Jupyter notebooks in Python to pre-process and post-process data, the figures in the manuscript, and the modeling output files. The variables include watershed-averaged evapotranspiration, watershed-averaged surface/subsurface/canopy water content, and river discharge at watershed outlet.",
+      "The data package contains a file-level metadata that lists and describes all the files contained in the data package (ATS_flmd.csv), a data dictionary file that defines columns headers across all csv files contained in the data package (ATS_dd.csv), a data package level readme file (the current file), and four zipped folders.",
+      "The \u2018data\u2019 folder provides data needed to run the model in .h5, .i2s, .xyz, .shp, and .exo formats. The sub-folders are for each data types. The \u2018model\u2019 folder provides input files (.xml format) and essential model outputs. Each sub-folder provides the files from each simulated watershed. The \u2018notebooks\u2019 folder provides the Jupyter notebooks (.ipynb format) for pre- and post- processing model files, and for producing the figures in the manuscript. The \u2018figures\u2019 folder provides the figures associated with manuscript in .pdf and .png formats.",
+      "The \u2018model\u2019 folder and the \u2018data\u2019 folder have been split into 5GB-large pieces using the Linux command \u2018split -b 5120m model.zip model.zip.\u2019 and \u2018split -b 5120m data.zip data.zip.\u2019, respectively. They can be merged back using the Linux command \u2018cat model.zip.* > model.zip\u2019 and \u2018cat data.zip.* > data.zip\u2019, respectively."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6240-8971",
+        "givenName": "Zhi",
+        "familyName": "Li",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "zhi.li@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1361-4293",
+        "givenName": "Bing",
+        "familyName": "Li",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bing.li@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4968-4258",
+        "givenName": "Peishi",
+        "familyName": "Jiang",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "peishi.jiang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6903-2807",
+        "givenName": "Glenn",
+        "familyName": "Hammond",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "glenn.hammond@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2511-9828",
+        "givenName": "Pin",
+        "familyName": "Shuai",
+        "affiliation": "Utah State University",
+        "email": "pin.shuai@usu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Faria",
+        "familyName": "Zahura",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "fariatuz.zahura@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ethan",
+        "familyName": "Coon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "coonet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1928-5555",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "xingyuan.chen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2023-09-26",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "Wildfire",
+      "Hydrology",
+      "Hydrologic model",
+      "Surface runoff",
+      "Infiltration",
+      "Peak flow discharge",
+      "Burn severity",
+      "Precipitation",
+      "Soil",
+      "Evapotranspirition",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Model Data Archiving Guidelines",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "Air temperature",
+      "Canopy evaporation",
+      "Canopy water content",
+      "Incoming shortwave radiation",
+      "Infiltration",
+      "Net groundwater flux",
+      "Net runoff",
+      "Rain precipitation",
+      "Relative humidity",
+      "River discharge",
+      "Snow evaporation",
+      "Snow precipitation",
+      "Snow water content",
+      "Snowmelt",
+      "Subsurface water content",
+      "Surface evaporation",
+      "Surface water content",
+      "Time",
+      "Transpiration",
+      "Vapor pressure air"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Upper Wenas Creek Watershed",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.00546052184537,
+            "longitude": -120.97567926226073
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.76490496628183,
+            "longitude": -120.64873481780543
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Mckenzie River Watershed",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.51841375487238,
+            "longitude": -123.11590897873035
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.84869153264962,
+            "longitude": -121.75813120095148
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Middle Naches River Watershed",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.02739072806129,
+            "longitude": -121.332854534623
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.66655739471598,
+            "longitude": -120.76091009015957
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "American River Watershed",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.00338787497355,
+            "longitude": -121.53268060202113
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.801998986077976,
+            "longitude": -121.14712504645277
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2002-10-01",
+      "endDate": "2021-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6240-8971",
+      "givenName": "Zhi",
+      "familyName": "Li",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "zhi.li@pnnl.gov"
+    },
+    "citation": [
+      "Li, Z.; Li, B.; Jiang, P.; Hammond, G. E.; Shuai, P.; Zahura, F. T.; Coon, E. T; & Chen, X. (2025). Evaluating the effects of burn severity and precipitation on post-fire watershed responses using distributed hydrologic models. Journal of Hydrology.",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840",
+      "Simmonds, M.B., Riley, W.J., Agarwal, D.A., Chen, X., Cholia, S., Crystal-Ornelas, R., Coon, E.T., Dwivedi, D., Hendrix, V.C., Huang, M., Jan, A., Kakalia, Z., Kumar, J., Koven, C.D., Li, L., Melara, M., Ramakrishnan, L., Ricciuto, D.M., Walker, A.P., Zhi, W., Zhu, Q. and Varadharajan, C., 2022. Guidelines for Publicly Archiving Terrestrial Model Data to Enhance Usability, Intercomparison, and Synthesis. Data Science Journal, 21(1), p.3. DOI: http://doi.org/10.5334/dsj-2022-003",
+      "Simmonds M.B., Crystal-Ornelas, R., Riley, W.J., Agarwal, D.A., Chen, X., Cholia, S., Coon, E.T., Dwivedi, D., Hendrix, V.C., Huang, M., Jan, A., Kakalia, Z., Kumar, J., Li, L., Melara, M., Ramakrishnan, L., Ricciuto, D.M., Walker, A.P., Zhi, W., Zhu, Q., Varadharajan, C. (2021). ESS-DIVE guidelines for archiving terrestrial model data. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1813868"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "In the \u2018data\u2019 folder (compressed), each type of data (e.g., Leaf Area Index, meteorological forcing, etc.) is stored in a subfolder named by the data type. LAI data is from the MODIS database. Met forcing is from the Daymet database. Fire perimeter and burn severity data is from the MTBS and the BAER database. Shapefiles of the watershed boundaries are from the NHDPlus database. The meshes are created using Watershed Workflow (Coon and Shuai, 2022).\nSimulations were performed on the four watersheds across the Pacific Northwest affected by large wildfires. In the \u2018model\u2019 folder (compressed), model output files for each watershed are stored in a subfolder named by the watershed name.\nThe \u2018model\u2019 folder and the \u2018data\u2019 folder have been split into 5GB-large pieces using the Linux command \u2018split -b 5120m model.zip model.zip.\u2019 and \u2018split -b 5120m data.zip data.zip.\u2019, respectively. They can be merged using the Linux command \u2018cat model.zip.* > model.zip\u2019 and \u2018cat data.zip.* > data.zip\u2019, respectively."
+    ],
+    "distribution": [
+      {
+        "contentSize": 21788.3603515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-14ed3c591b61018-20230925T011312136",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-14ed3c591b61018-20230925T011312136",
+        "name": "figures.zip"
+      },
+      {
+        "contentSize": 5242880.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1c349e4f9c3206c-20230925T233806194",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-1c349e4f9c3206c-20230925T233806194",
+        "name": "data_zip.aa"
+      },
+      {
+        "contentSize": 5242880.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0f92a82dcfb9548-20230926T152310775",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-0f92a82dcfb9548-20230926T152310775",
+        "name": "data_zip.ag"
+      },
+      {
+        "contentSize": 5242880.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3200537d7f18388-20230926T115136292",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-3200537d7f18388-20230926T115136292",
+        "name": "data_zip.ad"
+      },
+      {
+        "contentSize": 5242880.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ec0a20ff4bc0e42-20230925T113947602",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-ec0a20ff4bc0e42-20230925T113947602",
+        "name": "model_zip.aa"
+      },
+      {
+        "contentSize": 3642.9248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-613e0c22e89c31d-20251117T000659234",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-613e0c22e89c31d-20251117T000659234",
+        "name": "v2_README.pdf"
+      },
+      {
+        "contentSize": 5242880.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-32d241b7f3cf403-20230926T152310782",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-32d241b7f3cf403-20230926T152310782",
+        "name": "data_zip.af"
+      },
+      {
+        "contentSize": 5242880.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5107be1991d206b-20230926T033739837",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-5107be1991d206b-20230926T033739837",
+        "name": "data_zip.ac"
+      },
+      {
+        "contentSize": 53.7021484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4f1b002666c85de-20230925T011251705",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4f1b002666c85de-20230925T011251705",
+        "name": "ATS_flmd.csv"
+      },
+      {
+        "contentSize": 5242880.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-70b9dd3edce1a91-20230925T202540756",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-70b9dd3edce1a91-20230925T202540756",
+        "name": "model_zip.ac"
+      },
+      {
+        "contentSize": 4382.6513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7704d679c045a77-20251116T235915995",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7704d679c045a77-20251116T235915995",
+        "name": "v2_notebooks.zip"
+      },
+      {
+        "contentSize": 2220653.83203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-abd8df401204132-20230925T011312109",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-abd8df401204132-20230925T011312109",
+        "name": "data_zip.ah"
+      },
+      {
+        "contentSize": 2.8876953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-acab198fd99a4ca-20230925T011251685",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-acab198fd99a4ca-20230925T011251685",
+        "name": "ATS_dd.csv"
+      },
+      {
+        "contentSize": 5242880.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ad7246170606e42-20230926T033739865",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-ad7246170606e42-20230926T033739865",
+        "name": "data_zip.ab"
+      },
+      {
+        "contentSize": 593982.6689453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b83bba9ff8427b8-20230925T011312118",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-b83bba9ff8427b8-20230925T011312118",
+        "name": "model_zip.ad"
+      },
+      {
+        "contentSize": 5242880.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ae82224dfdea341-20230926T115136286",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-ae82224dfdea341-20230926T115136286",
+        "name": "data_zip.ae"
+      },
+      {
+        "contentSize": 16.025390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b1d62fcd6cdde95-20251117T000732788",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-b1d62fcd6cdde95-20251117T000732788",
+        "name": "Data_and_scripts_associated_with_the_manuscript.xml"
+      },
+      {
+        "contentSize": 5242880.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e486bc50173b029-20230925T175630693",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-e486bc50173b029-20230925T175630693",
+        "name": "model_zip.ab"
+      }
+    ]
+  }
+}

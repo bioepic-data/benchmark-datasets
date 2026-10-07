@@ -1,0 +1,185 @@
+{
+  "id": "ess-dive-1f510df2d2a1895-20230407T151722917382",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1873128",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1f510df2d2a1895-20230407T151722917382",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-5c0dc3cacae15ee-20230406T143810643060",
+  "dateUploaded": "2023-04-07T15:17:23.786Z",
+  "dateModified": "2023-04-07T15:17:30.620Z",
+  "isPublic": true,
+  "citation": "Jiang P; Son K; Mudunuru M K; Chen X (2022): Data and scripts associated with the manuscript \"Using Mutual Information for Global Sensitivity Analysis on Watershed Modeling\". River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1873128",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1873128",
+    "name": "Data and scripts associated with the manuscript \"Using Mutual Information for Global Sensitivity Analysis on Watershed Modeling\"",
+    "description": [
+      "This package contains the data and scripts used in \"Using Mutual Information for Global Sensitivity Analysis on Watershed Modeling\" (Jiang et al., 2022). The ARW_SWAT.zip file contains the SWAT simulation and the sensitivity analysis result in the American River Watershed. The Portage_SWAT.zip file contains the SWAT simulation and the sensitivity analysis result in the Portage River Watershed. The src folder contains the source code of sensitivity analysis and plotting functions. The notebooks folder contains the Jupyter notebooks for performing sensitivity analysis and other post analyses.",
+      "Global Sensitivity Analysis (GSA) often is applied to assess the sensitivity of model outputs to their inputs using ensemble simulations. However, increasing model complexity and the associated computational cost have limited the use of most GSA approaches for process-based watershed models. We propose to use Mutual Information (MI) as a computationally efficient GSA method for watershed modeling. Such MI computed from several hundred realizations usually can capture nonlinear relationships between inputs and outputs of interest. We perform MI-based watershed sensitivity analyses in studies of the Portage River Watershed in Ohio and the American River Watershed in Washington. In these studies, MI is used to evaluate the sensitivity of river discharges simulated by the Soil and Water Assessment Tool to no less than 20 parameters for each watershed. Our MI-based sensitivity analyses achieved convergence with about 300~500 realizations, a small fraction of the ensemble size (i.e., several thousand) required by the Sobol method. Nevertheless, MI yields similar sensitivity ranking compared to the Sobol method, especially for sensitive parameters. Our study thus sheds new light on the use of MI as an affordable GSA method for computationally intensive models such as the hyper-resolution, watershed hydrobiogeochemical models."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4968-4258",
+        "givenName": "Peishi",
+        "familyName": "Jiang",
+        "email": "peishi.jiang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kyongho",
+        "familyName": "Son",
+        "email": "kyongho.son@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2158-7723",
+        "givenName": "Maruti K.",
+        "familyName": "Mudunuru",
+        "email": "maruti@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9061-6524",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "email": "xingyuan.chen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "watershed modeling",
+      "sensitivity analysis",
+      "mutual information"
+    ],
+    "variableMeasured": [
+      "discharge",
+      "evapotranspiration"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The American River Watershed in Washington State",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47.01,
+            "longitude": -121.54
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.8,
+            "longitude": -121.13
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The Portage River Watershed in Ohio State",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.55,
+            "longitude": -83.87
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.02,
+            "longitude": -82.93
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2007-01-01",
+      "endDate": "2017-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4968-4258",
+      "givenName": "Peishi",
+      "familyName": "Jiang",
+      "email": "peishi.jiang@pnnl.gov"
+    },
+    "citation": [
+      "Jiang, P.; Kyongho, S.; Mudunuru, M.K.; Chen, X. (In Review). Using Mutual Information for Global Sensitivity Analysis on Watershed Modeling, Water Resources Research."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This dataset includes both the discharge simulation generated by SWAT modeling and the sensitivity analysis result using the scripts provided in src.zip and notebooks.zip."
+    ],
+    "distribution": [
+      {
+        "contentSize": 8.27734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1f510df2d2a1895-20230407T151722917382",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-1f510df2d2a1895-20230407T151722917382",
+        "name": "Data_and_scripts_associated_with_the_manuscript_Using_Mutual_Information_for_Global_Sensitivity_Analysis_on_Watershed_Modeling_.xml"
+      },
+      {
+        "contentSize": 51.6201171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3645f600f9fc3e2-20220615T203202963",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-3645f600f9fc3e2-20220615T203202963",
+        "name": "src.zip"
+      },
+      {
+        "contentSize": 2.0673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dba12e74d96f3a6-20220615T203202980",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-dba12e74d96f3a6-20220615T203202980",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 263555.9736328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e27e36fbb20c597-20220615T203202987",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-e27e36fbb20c597-20220615T203202987",
+        "name": "ARW_SWAT.zip"
+      },
+      {
+        "contentSize": 429088.208984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9303d97f203d1ef-20220615T203202984",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9303d97f203d1ef-20220615T203202984",
+        "name": "Portage_SWAT.zip"
+      },
+      {
+        "contentSize": 8338.560546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f9f0c7326e93221-20220615T203202975",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f9f0c7326e93221-20220615T203202975",
+        "name": "notebooks.zip"
+      }
+    ]
+  }
+}

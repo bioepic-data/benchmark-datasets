@@ -1,0 +1,733 @@
+{
+  "id": "ess-dive-1c7b82a99da3a56-20230407T141246553275",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1480328",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1c7b82a99da3a56-20230407T141246553275",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-e0f431d284c09a2-20230406T233247599747",
+  "dateUploaded": "2023-04-07T14:12:48.073Z",
+  "dateModified": "2024-09-16T13:40:41.027Z",
+  "isPublic": true,
+  "citation": "Walker A P; Yang B; Boden T; Kauwe M G D; Fenstermaker L F; Medlyn B; Megonigal J P; Oren R; Pendall E; Zak D R; Zaehle S; Burton A J; Drake B G; Evans R D; Hungate B; Johnson D P; Kim D; LeCain D; Lewin K F; Lu M; Mueller K F; Nowak R S; Riggs J S; Smith S D; Tharp L M; Zelikova T J; Norby R J (2018): FACE-MDS Phase 2: Meteorological Data and Protocols. Free Air CO2 Enrichment Model Data Synthesis (FACE-MDS). Dataset. doi:10.15485/1480328",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1480328",
+    "name": "FACE-MDS Phase 2: Meteorological Data and Protocols",
+    "description": [
+      "Meteorological data, site parameterisation data, and protocols for simulation of the five Free Air CO2 Enrichment (FACE) experiments and one Open Top Chamber (OTC) experiment that were the study sites of the FACE Model Data Synthesis (FACE-MDS) project. This dataset should contain everything necessary to simulate these six CO2 enrichment experiments -- Duke, Kennedy Space Center, NDFF, ORNL, PHACE, and Rhinelander -- following the FACE-MDS simulation protocol. File naming convention can be found in the file 'facemds-file-table-metdata.xml' and information about variable naming convention can be found in the file 'facemds-standard-name-table-metvars.xml'. Where possible we followed the ALMA v3 convention for meteorological variables. Additional info can be found in the protocol documents and readmes in this dataset. We replaced the original naming convention mentioned in the protocol with the one described in 'facemds-standard-name-table-modvars.xml' in the accompanying dataset (doi:10.15485/1480327)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0557-5594",
+        "givenName": "Anthony P",
+        "familyName": "Walker",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "walkerap@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bai",
+        "familyName": "Yang",
+        "affiliation": "NOAA Air Resources Laboratory",
+        "email": "bai.yang@noaa.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Tom",
+        "familyName": "Boden",
+        "affiliation": "Oak Ridge National Laboratory"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Martin G",
+        "familyName": "De Kauwe",
+        "affiliation": "University of New South Wales",
+        "email": "mdekauwe@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Lynn F",
+        "familyName": "Fenstermaker",
+        "affiliation": "Desert Research Institute",
+        "email": "Lynn.Fenstermaker@dri.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Belinda",
+        "familyName": "Medlyn",
+        "affiliation": "Western Sydney University",
+        "email": "B.Medlyn@westernsydney.edu.au"
+      },
+      {
+        "@type": "Person",
+        "givenName": "J Patrick",
+        "familyName": "Megonigal",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "megonigalp@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ram",
+        "familyName": "Oren",
+        "affiliation": "Duke University",
+        "email": "ramoren@duke.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Elise",
+        "familyName": "Pendall",
+        "affiliation": "Western Sydney University",
+        "email": "E.Pendall@westernsydney.edu.au"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Donald R",
+        "familyName": "Zak",
+        "affiliation": "University of Michigan",
+        "email": "drzak@umich.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "S\u00f6nke",
+        "familyName": "Zaehle",
+        "affiliation": "Max Planck Institute for Biogeochemistry",
+        "email": "soenke.zaehle@bgc-jena.mpg.de"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Andrew J",
+        "familyName": "Burton",
+        "affiliation": "Michigan Technological University",
+        "email": "ajburton@mtu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bert G",
+        "familyName": "Drake",
+        "affiliation": "Smithsonian Environmental Research Center"
+      },
+      {
+        "@type": "Person",
+        "givenName": "R Dave",
+        "familyName": "Evans",
+        "affiliation": "Washington State University"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bruce",
+        "familyName": "Hungate",
+        "affiliation": "Northern Arizona University",
+        "email": "Bruce.Hungate@nau.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "David P",
+        "familyName": "Johnson",
+        "affiliation": "LiCOR"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Dohyoung",
+        "familyName": "Kim",
+        "affiliation": "University of Notre Dame",
+        "email": "dkim27@nd.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Dan",
+        "familyName": "LeCain",
+        "affiliation": "USDA ARS",
+        "email": "Dan.Lecain@ARS.USDA.GOV"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Keith F",
+        "familyName": "Lewin",
+        "affiliation": "Brookhaven National Lab"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Meng",
+        "familyName": "Lu",
+        "affiliation": "Yunnan University",
+        "email": "lumeng@fudan.edu.cn"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kevin F",
+        "familyName": "Mueller",
+        "affiliation": "Cleveland State University"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Robert S",
+        "familyName": "Nowak",
+        "affiliation": "University of Nevada\u2013Reno"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jeff S",
+        "familyName": "Riggs",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "riggsjs@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stanley D",
+        "familyName": "Smith",
+        "affiliation": "University of Nevada\u2013Las Vegas"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Lynn M",
+        "familyName": "Tharp",
+        "affiliation": "Oak Ridge National Laboratory"
+      },
+      {
+        "@type": "Person",
+        "givenName": "T Jane",
+        "familyName": "Zelikova",
+        "affiliation": "University of Colorado at Boulder"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Richard J",
+        "familyName": "Norby",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "norbyrj@ornl.gov"
+      }
+    ],
+    "datePublished": "2018",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "ORNL FACE. Free Air CO2 Enrichment experiment at Oak Ridge National Laboratory, Oak Ridge, Tennessee, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.9,
+            "longitude": -84.33
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.9,
+            "longitude": -84.33
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Duke FACE. Free Air CO2 Enrichment experiment at Duke University, Durham, North Carolina, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.97,
+            "longitude": -79.08
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.97,
+            "longitude": -79.08
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "KSC OTC. Open Top Chamber CO2 enrichment experiment at Kennedy Space Center, Merritt Island, Florida, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 28.63,
+            "longitude": -80.7
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 28.63,
+            "longitude": -80.7
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Rhinelander FACE. Free Air CO2 Enrichment experiment at Harshaw Experimental Forest, Wisconsin, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.68,
+            "longitude": -89.63
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.68,
+            "longitude": -89.63
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "NDFF. Free Air CO2 Enrichment experiment at the Nevada Test Site, Mojave Desert, Nevada, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.77,
+            "longitude": -115.96
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.77,
+            "longitude": -115.96
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "PHACE. Prairie Heating and CO2 Erichment experiment, west of Cheyenne, Wyoming, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.18,
+            "longitude": -104.9
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.18,
+            "longitude": -104.9
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1996",
+      "endDate": "2013",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "givenName": "Anthony P",
+      "familyName": "Walker",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "walkerap@ornl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "ae9a32ee-9473-4c87-9d8b-421855b8173d"
+      },
+      "name": "Free Air CO2 Enrichment Model Data Synthesis (FACE-MDS)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Anthony",
+        "familyName": "Walker",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "walkerap@ornl.gov"
+      }
+    },
+    "distribution": [
+      {
+        "contentSize": 15826.265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-009b758e3915934-20180516T203624777",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-009b758e3915934-20180516T203624777",
+        "name": "ORNL_forcing_h.nc"
+      },
+      {
+        "contentSize": 324.705078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-00f2444e21de3cb-20180516T203733404",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-00f2444e21de3cb-20180516T203733404",
+        "name": "FACE_Model Outputs_V7.pdf"
+      },
+      {
+        "contentSize": 303.1328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0afe220cbe4a863-20180516T203624758",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-0afe220cbe4a863-20180516T203624758",
+        "name": "ORNL_forcing_d.nc"
+      },
+      {
+        "contentSize": 720.62109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0b5b36f59a33bea-20181106T203744451",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-0b5b36f59a33bea-20181106T203744451",
+        "name": "DUKE_forcing_d.txt"
+      },
+      {
+        "contentSize": 478.3857421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-06f78f79bbed261-20181115T214505169",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-06f78f79bbed261-20181115T214505169",
+        "name": "PHAC_forcing_d.txt"
+      },
+      {
+        "contentSize": 18.0693359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-07713bb1d739917-20181115T214357127",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-07713bb1d739917-20181115T214357127",
+        "name": "NDFF_forcing_y.txt"
+      },
+      {
+        "contentSize": 36.65234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-087558cef06b336-20181115T214218795",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-087558cef06b336-20181115T214218795",
+        "name": "RHIN_readme.pdf"
+      },
+      {
+        "contentSize": 108.83984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-09ce4e9da897e44-20181115T214252738",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-09ce4e9da897e44-20181115T214252738",
+        "name": "KSCO_readme.pdf"
+      },
+      {
+        "contentSize": 34947.0625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1c5a5860181365b-20181115T214505209",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-1c5a5860181365b-20181115T214505209",
+        "name": "PHAC_forcing_h.txt"
+      },
+      {
+        "contentSize": 40.1748046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1c7b82a99da3a56-20230407T141246553275",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-1c7b82a99da3a56-20230407T141246553275",
+        "name": "FACE_MDS_Phase_2_Meteorological_Data_and_Protocols.xml"
+      },
+      {
+        "contentSize": 1.03125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3d09408aa17dfee-20181115T214655635",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-3d09408aa17dfee-20181115T214655635",
+        "name": "facemds-file-table-metdata.xml"
+      },
+      {
+        "contentSize": 36.076171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3001f051db0ecfe-20181106T203744555",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-3001f051db0ecfe-20181106T203744555",
+        "name": "DUKE_readme.pdf"
+      },
+      {
+        "contentSize": 11510.78125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4342ea2082c252a-20181115T214558266",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-4342ea2082c252a-20181115T214558266",
+        "name": "PHAC_T_forcing_h.nc"
+      },
+      {
+        "contentSize": 11510.76953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-49258f51c90c05e-20181115T214505191",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-49258f51c90c05e-20181115T214505191",
+        "name": "PHAC_forcing_h.nc"
+      },
+      {
+        "contentSize": 658.056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-39f2d10d99e68c5-20180516T203624769",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-39f2d10d99e68c5-20180516T203624769",
+        "name": "ORNL_forcing_d.txt"
+      },
+      {
+        "contentSize": 10.171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-61511a5321e69da-20181115T214505227",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-61511a5321e69da-20181115T214505227",
+        "name": "PHAC_forcing_y.nc"
+      },
+      {
+        "contentSize": 18.0693359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6183a6f9d35d6f6-20181106T203744540",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-6183a6f9d35d6f6-20181106T203744540",
+        "name": "DUKE_forcing_y.txt"
+      },
+      {
+        "contentSize": 52277.5283203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d514f7267fba50f-20181115T214357099",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-d514f7267fba50f-20181115T214357099",
+        "name": "NDFF_forcing_h.txt"
+      },
+      {
+        "contentSize": 478.8515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d0e0dbcb2368902-20181115T214558244",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-d0e0dbcb2368902-20181115T214558244",
+        "name": "PHAC_T_forcing_d.txt"
+      },
+      {
+        "contentSize": 47547.3896484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e0b801c29e0f4b8-20181115T214218759",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-e0b801c29e0f4b8-20181115T214218759",
+        "name": "RHIN_forcing_h.txt"
+      },
+      {
+        "contentSize": 48300.8017578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-337da7938d460a9-20181115T214252693",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-337da7938d460a9-20181115T214252693",
+        "name": "KSCO_chamber_forcing_h.txt"
+      },
+      {
+        "contentSize": 330.203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-33ef718ab83ba4d-20181106T203744392",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-33ef718ab83ba4d-20181106T203744392",
+        "name": "DUKE_forcing_d.nc"
+      },
+      {
+        "contentSize": 18.0849609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5e560089d1703c7-20181115T214558322",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-5e560089d1703c7-20181115T214558322",
+        "name": "PHAC_T_forcing_y.txt"
+      },
+      {
+        "contentSize": 307.8662109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-601db359d5bf0e9-20180516T203733431",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-601db359d5bf0e9-20180516T203733431",
+        "name": "Phase2_Protocol_v2.pdf"
+      },
+      {
+        "contentSize": 15826.48046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5b32a5bdefba490-20181115T214252677",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-5b32a5bdefba490-20181115T214252677",
+        "name": "KSCO_chamber_forcing_h.nc"
+      },
+      {
+        "contentSize": 4.4677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5b5f680e4193945-20181115T214702182",
+        "encodingFormat": "text/xml",
+        "identifier": "ess-dive-5b5f680e4193945-20181115T214702182",
+        "name": "facemds-standard-name-table-metvars.xml"
+      },
+      {
+        "contentSize": 330.203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5dbb0bbf1799aff-20181115T214357031",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-5dbb0bbf1799aff-20181115T214357031",
+        "name": "NDFF_forcing_d.nc"
+      },
+      {
+        "contentSize": 18.0849609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-667fc262aba76aa-20181115T214505243",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-667fc262aba76aa-20181115T214505243",
+        "name": "PHAC_forcing_y.txt"
+      },
+      {
+        "contentSize": 35.783203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7f21e94d8bcc56c-20180516T203624808",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-7f21e94d8bcc56c-20180516T203624808",
+        "name": "ORNL_readme.pdf"
+      },
+      {
+        "contentSize": 32.14453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8010389caf549b8-20181115T214505259",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-8010389caf549b8-20181115T214505259",
+        "name": "PHAC_readme.pdf"
+      },
+      {
+        "contentSize": 47924.0556640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-82cd1c1e05c2bd1-20180516T203624785",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-82cd1c1e05c2bd1-20180516T203624785",
+        "name": "ORNL_forcing_h.txt"
+      },
+      {
+        "contentSize": 10.38671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-82cd21b4d6900d8-20181115T214252709",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-82cd21b4d6900d8-20181115T214252709",
+        "name": "KSCO_chamber_forcing_y.nc"
+      },
+      {
+        "contentSize": 10.15234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8785053108ef6a4-20181106T203744521",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-8785053108ef6a4-20181106T203744521",
+        "name": "DUKE_forcing_y.nc"
+      },
+      {
+        "contentSize": 15826.2578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6c6a55b0a4633fc-20181115T214218746",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-6c6a55b0a4633fc-20181115T214218746",
+        "name": "RHIN_forcing_h.nc"
+      },
+      {
+        "contentSize": 10.1875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6d50d208d16c724-20181115T214558305",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-6d50d208d16c724-20181115T214558305",
+        "name": "PHAC_T_forcing_y.nc"
+      },
+      {
+        "contentSize": 303.34765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6d9437c9257935b-20181115T214252632",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-6d9437c9257935b-20181115T214252632",
+        "name": "KSCO_chamber_forcing_d.nc"
+      },
+      {
+        "contentSize": 18.0732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-765abd7a2271ff1-20180516T203624797",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-765abd7a2271ff1-20180516T203624797",
+        "name": "ORNL_forcing_y.txt"
+      },
+      {
+        "contentSize": 37.17578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8db705c08ec8264-20181115T214558338",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-8db705c08ec8264-20181115T214558338",
+        "name": "PHAC_T_readme.pdf"
+      },
+      {
+        "contentSize": 630.56640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a9b025125caad77-20181115T214218729",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-a9b025125caad77-20181115T214218729",
+        "name": "RHIN_forcing_d.txt"
+      },
+      {
+        "contentSize": 719.904296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9dc05140cec8b57-20181115T214357068",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-9dc05140cec8b57-20181115T214357068",
+        "name": "NDFF_forcing_d.txt"
+      },
+      {
+        "contentSize": 10.15625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9f5628f019871be-20181115T214357114",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-9f5628f019871be-20181115T214357114",
+        "name": "NDFF_forcing_y.nc"
+      },
+      {
+        "contentSize": 28.48828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9816fa0e022cc15-20181115T214357142",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-9816fa0e022cc15-20181115T214357142",
+        "name": "NDFF_readme.pdf"
+      },
+      {
+        "contentSize": 52277.5908203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9331f2701cd8a2b-20181106T203744499",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-9331f2701cd8a2b-20181106T203744499",
+        "name": "DUKE_forcing_h.txt"
+      },
+      {
+        "contentSize": 692.087890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9434821b2770228-20181115T214252657",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-9434821b2770228-20181115T214252657",
+        "name": "KSCO_chamber_forcing_d.txt"
+      },
+      {
+        "contentSize": 34947.0625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b4d87271af1e38c-20181115T214558287",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-b4d87271af1e38c-20181115T214558287",
+        "name": "PHAC_T_forcing_h.txt"
+      },
+      {
+        "contentSize": 10.171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b9fef076823f4c2-20180516T203624791",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-b9fef076823f4c2-20180516T203624791",
+        "name": "ORNL_forcing_y.nc"
+      },
+      {
+        "contentSize": 10.1640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ba3a7ce289ff1c3-20181115T214218771",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ba3a7ce289ff1c3-20181115T214218771",
+        "name": "RHIN_forcing_y.nc"
+      },
+      {
+        "contentSize": 221.8046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c1fc6521db9fc7c-20181115T214558201",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-c1fc6521db9fc7c-20181115T214558201",
+        "name": "PHAC_T_forcing_d.nc"
+      },
+      {
+        "contentSize": 17263.43359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ce739a0989d1d8e-20181106T203744480",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-ce739a0989d1d8e-20181106T203744480",
+        "name": "DUKE_forcing_h.nc"
+      },
+      {
+        "contentSize": 221.7890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b3235f5f3704cc2-20181115T214505132",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-b3235f5f3704cc2-20181115T214505132",
+        "name": "PHAC_forcing_d.nc"
+      },
+      {
+        "contentSize": 17263.4375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c9cc3fbc07cca62-20181115T214357084",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-c9cc3fbc07cca62-20181115T214357084",
+        "name": "NDFF_forcing_h.nc"
+      },
+      {
+        "contentSize": 36.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f318df8bdefe1ab-20180516T203733415",
+        "encodingFormat": "application/vnd.ms-excel",
+        "identifier": "ess-dive-f318df8bdefe1ab-20180516T203733415",
+        "name": "model_initialisation_&_parameterisation_v4.xls"
+      },
+      {
+        "contentSize": 303.125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f784a4207a326e1-20181115T214218707",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-f784a4207a326e1-20181115T214218707",
+        "name": "RHIN_forcing_d.nc"
+      },
+      {
+        "contentSize": 18.0732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e32dfc6f5ce8411-20181115T214252724",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-e32dfc6f5ce8411-20181115T214252724",
+        "name": "KSCO_chamber_forcing_y.txt"
+      }
+    ]
+  }
+}

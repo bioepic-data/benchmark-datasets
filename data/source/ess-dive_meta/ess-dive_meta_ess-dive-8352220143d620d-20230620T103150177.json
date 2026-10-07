@@ -1,0 +1,112 @@
+{
+  "id": "ess-dive-8352220143d620d-20230620T103150177",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1985919",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-8352220143d620d-20230620T103150177",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a4c1835ff75ffd6-20230603T131759471",
+  "dateUploaded": "2023-06-20T10:31:54.131Z",
+  "dateModified": "2023-06-22T00:01:31.345Z",
+  "isPublic": true,
+  "citation": "Rathore S S; Painter S (2023): Model data for numerical evaluation of photosensitive tracers as a strategy for separating surface and subsurface transient storage in streams. Biogeochemical Transformations at Critical Interfaces SFA. Dataset. doi:10.15485/1985919",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1985919",
+    "name": "Model data for numerical evaluation of photosensitive tracers as a strategy for separating surface and subsurface transient storage in streams",
+    "description": [
+      "This model-data archive pertains to a study aimed at the numerical evaluation of the photosensitive tracers as a potential strategy for separating the effects of surface and hyporheic storage zones (SSZs and HSZs, respectively). Separating effects of SSZ and HSZ are important for accurately representing stream function as HSZs and SSZs expose solutes to significantly different biogeochemical conditions. We perform numerical experiments using a multiscale reactive transport model for stream corridors implemented in ATS code, which allows for representing multiple storage zones with their respective travel time distributions and biogeochemistry. For each of the numerical experiment, we provide in this model-data archive python wrapper to drive ATS (forward_model.py), synthetic observation (synthetic_btc.py, BTC_observed.csv), forward model files including ATS input (multiscale_transport.tpl), PFLOTRAN inputs (reactions_channel.tpl, reactions_hz.tpl, reactions_sz.tpl), MCMC (mcmc_run.py), predictive uncertainty (pred_uncert.py, BTCs_simulated_day.csv, BTCs_simulated_night.csv), MCMC outputs (tracer_test_GR.npy, tracer_test_logps.npy, tracer_test_parameters.npy) and Jupyter notebook for post-processing and visualization (post-processing.ipynb). For the denitrification application, ATS input file (denitrification_multisubgrid.tpl), PFLOTRAN input files (denitrification_channel.in, denitrification_hz.in), predictive uncertainty (pred_uncert_denitrification.py, BTCs_simulated_DO.csv, BTCs_simulated_DOC.csv, BTCs_simulated_Nitrate.csv)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0469-2959",
+        "givenName": "Saubhagya Singh",
+        "familyName": "Rathore",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "rathoress@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0901-6987",
+        "givenName": "Scott",
+        "familyName": "Painter",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "paintersl@ornl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6376-0061",
+        "givenName": "Adam",
+        "familyName": "Ward",
+        "affiliation": "Oregon State University",
+        "email": "adam.ward@oregonstate.edu"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "hyporheic zone",
+      "inverse modeling"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0469-2959",
+      "givenName": "Saubhagya Singh",
+      "familyName": "Rathore",
+      "email": "rathoress@ornl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "c4d30e12-c5b7-4702-b1ea-e6f9a449cd30"
+      },
+      "name": "Biogeochemical Transformations at Critical Interfaces SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eric",
+        "familyName": "Pierce",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "pierceem@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Synthetic data was generated using the multiscale reactive transport model ADELS implemented in ATS. Random noise is added to this data representing the measurement uncertainties. The model for generating synthetic data included:\n- advection and dispersion in the main channel\n- exchange with hyporheic and surface storage zones\n- photo decay of the tracer in the channel and surface storage zone\nTwo synthetic breakthrough curves (BTC) are generated: one for the daytime (with photo decay) and one for the nighttime (without photo decay). Forward model ATS-ADELS is run through Python wrapper.",
+      "The synthetic BTCs are interpreted using inverse modeling under three model-data configurations to evaluate parameter identifiability. Parameter distributions are obtained using MCMC. Three cases are:\n1) Interpreting day and night data together using a two-storage zone model\n2) Interpreting day-only data using a two-storage zone model\n3) Interpreting day and night data together using a single storage zone model\nWe also consider a sensitivity case with synthetic data of reduced photoreactivity. The MCMC is performed using pyDREAM, a Python implementation of the DREAM-ZS algorithm",
+      "Using a randomly selected parameter set from the estimated parameters, an ensemble of forward simulations is performed to obtain predictive uncertainty.",
+      "The MCMC outputs are then processed using Jupyter notebooks to check MCMC convergence, plot parameter distributions and predictive uncertainty.",
+      "The estimated parameters are also applied to denitrification example to generate predictive uncertainties"
+    ],
+    "distribution": [
+      {
+        "contentSize": 6.9716796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8352220143d620d-20230620T103150177",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-8352220143d620d-20230620T103150177",
+        "name": "Model_data_for_numerical_evaluation_of.xml"
+      },
+      {
+        "contentSize": 39851.8740234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9c58d5f6ff7b083-20230603T122938437",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9c58d5f6ff7b083-20230603T122938437",
+        "name": "model_data.zip"
+      }
+    ]
+  }
+}

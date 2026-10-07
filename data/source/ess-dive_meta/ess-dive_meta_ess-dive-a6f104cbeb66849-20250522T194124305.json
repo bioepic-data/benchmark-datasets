@@ -1,0 +1,200 @@
+{
+  "id": "ess-dive-a6f104cbeb66849-20250522T194124305",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1969563",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a6f104cbeb66849-20250522T194124305",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a6f104cbeb66849-20250520T065529764",
+  "dateUploaded": "2025-05-22T19:41:26.936Z",
+  "dateModified": "2025-08-25T16:37:27.811Z",
+  "isPublic": true,
+  "citation": "Dafflon B; Leger E; Peterson J (2025): Electrical Resistivity Tomography data from 2016 to 2018 at the Lower Montane site in the East River Watershed, Colorado. Watershed Function SFA. Dataset. doi:10.15485/1969563",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1969563",
+    "name": "Electrical Resistivity Tomography data from 2016 to 2018 at the Lower Montane site in the East River Watershed, Colorado",
+    "description": [
+      "This dataset contains time-lapse Electrical Resistivity Tomography (ERT) data along a transect located on the northeast-facing hillslope at the lower montane site (Pumphouse site) in the upper East River Watershed. The monitoring dataset covers the period from November 2, 2016, to August 6, 2018. In addition, the archive also contains a baseline dataset from October 9, 2016. The ERT transect consisted of 128 electrodes with an electrode spacing of 1.25 m. The acquisition system was located in the middle of the transect, about 50 m on one side, and included an MPT (Multi-Phase Technologies) ERT system, a mini computer, and batteries with solar panels. Acquisition occurred daily under normal circumstances. The first 16 electrodes (from the upper end of the transect) could not be used after the cable was damaged during the 2017\u20132018 winter. Also, due to multiple failures in the power system, the temporal resolution of the data is much lower in 2018 compared to 2016 and 2017. The data have been processed and used in Dafflon et al., 2023, and the baseline dataset was used in Falco et al., 2019 (see reference list). This archive contains the measurements (ER.zip containing csv files) for each of the 326 acquisition times and a filtered version where only electrodes 17 to 128 are included (ERT_sm.zip containing csv files). The archive also contains the baseline dataset and two acquisitions with full reciprocals (ERT_RB.zip containing csv files), as well as all the raw MPT files (ERT_raw_MTP.zip). The geometry (electrode position and elevation) is provided in Universal Transverse Mercator (UTM) 13N Geoid2012AB in the file named ERT_Location.csv. The archive contains 1 *.csv data files, four *.zip files, and three metadata *.csv files. This work was supported by the Watershed Function Science Focus Area at Lawrence Berkeley National Laboratory funded by the US Department of Energy, Office of Science, Biological and Environmental Research under Contract No. DE-AC02-05CH11231."
+    ],
+    "alternateName": [
+      "paf_21_21"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9871-5650",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bdafflon@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7669-3622",
+        "givenName": "Emmanuel",
+        "familyName": "Leger",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "eleger@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Peterson",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jepeterson@lbl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9045-1160",
+        "givenName": "Zarine",
+        "familyName": "Kakalia",
+        "affiliation": "Berkeley",
+        "email": "zarinekakalia@berkeley.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "ERT",
+      "Electrical Resistivity Tomography",
+      "monitoring",
+      "soil",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "resistance",
+      "resistivity"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry.The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0205CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-10-09",
+      "endDate": "2018-08-16",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9871-5650",
+      "givenName": "Baptiste",
+      "familyName": "Dafflon",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "bdafflon@lbl.gov"
+    },
+    "citation": [
+      "Dafflon, B., L\u00e9ger, E., Falco, N., Wainwright, H. M., Peterson, J., Chen, J., ... & Hubbard, S. S. (2023). Advanced monitoring of soil-vegetation co-dynamics reveals the successive controls of snowmelt on soil moisture and on plant seasonal dynamics in a mountainous watershed. Frontiers in Earth Science, 11, 976227. https://doi.org/10.3389/feart.2023.976227",
+      "Dafflon B ; Leger E (2021): Soil moisture and temperature data along the northeast facing hillslope at the Lower Montane site in the East River Watershed, Colorado. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1646477 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1646477 on 2025-05-12",
+      "Falco, N., Wainwright, H., Dafflon, B., L\u00e9ger, E., Peterson, J., Steltzer, H., ... & Hubbard, S. S. (2019). Investigating microtopographic and soil controls on a mountainous meadow plant community using high\u2010resolution remote sensing and surface geophysical data. Journal of Geophysical Research: Biogeosciences, 124(6), 1618-1636. https://doi.org/10.1029/2018JG004394",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Boye K ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Perzan Z ; Pierce S ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Thibaut R ; Tokunaga T ; Versteeg R ; Wielandt S ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2025): Location Identifiers, Metadata, and Map for Field Measurements at the East-Taylor Watershed Community Observatory, Colorado, USA (Version 3.2). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "See the abstract and Dafflon et al., 2023 for details on the data processing steps. The archive provides both raw and filtered, non-inverted data. Filtering was based on data quality observations across the entire monitoring period and can be reconsidered depending on the objectives of the data processing or the specific period of interest. Feel free to contact the author for more information or additional data."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4d78eae928843b0-20250514T095226106",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4d78eae928843b0-20250514T095226106",
+        "name": "ERT_Location.csv",
+        "contentSize": 6.3291015625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-904f9ccb5b6f4e8-20250514T094111424",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-904f9ccb5b6f4e8-20250514T094111424",
+        "name": "ERT_raw_MTP.zip",
+        "contentSize": 77904.435546875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ce621f6a6229389-20250519T065958986",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ce621f6a6229389-20250519T065958986",
+        "name": "ERT_sm.zip",
+        "contentSize": 14963.671875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7d9eb5be734be92-20250514T095226109",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7d9eb5be734be92-20250514T095226109",
+        "name": "ERT_Location_dd.csv",
+        "contentSize": 0.4365234375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1f75c64464d9def-20250519T065958981",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-1f75c64464d9def-20250519T065958981",
+        "name": "ERT_RB.zip",
+        "contentSize": 320.41796875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f1bee09d9ab9734-20250519T190034639",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f1bee09d9ab9734-20250519T190034639",
+        "name": "ERT_dd.csv",
+        "contentSize": 0.3935546875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-da0979a699ed41a-20250519T190034646",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-da0979a699ed41a-20250519T190034646",
+        "name": "flmd.csv",
+        "contentSize": 1.30078125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2b500157572711b-20250519T065958974",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2b500157572711b-20250519T065958974",
+        "name": "ERT.zip",
+        "contentSize": 20926.42578125
+      }
+    ]
+  }
+}

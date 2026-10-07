@@ -1,0 +1,185 @@
+{
+  "id": "ess-dive-45866878cdfcec9-20230407T145732096310",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1900529",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-45866878cdfcec9-20230407T145732096310",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-9a9c39188cf598f-20230406T145312417522",
+  "dateUploaded": "2023-04-07T14:57:33Z",
+  "dateModified": "2023-04-07T14:57:34.733Z",
+  "isPublic": true,
+  "citation": "Jiang P; Chen X; Missik J; Gao Z; Liu H; Verbeke B (2022): Data and scripts associated with the manuscript \"Encoding Diel Hysteresis and the Birch Effect in Dryland Soil Respiration Models through Knowledge-Guided Deep Learning\". River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1900529",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1900529",
+    "name": "Data and scripts associated with the manuscript \"Encoding Diel Hysteresis and the Birch Effect in Dryland Soil Respiration Models through Knowledge-Guided Deep Learning\"",
+    "description": [
+      "This package contains the data and scripts used in \"Encoding Diel Hysteresis and the Birch Effect in Dryland Soil Respiration Models through Knowledge-Guided Deep Learning\" (Jiang et al., 2022). The data.zip file contains the flux tower and automated chamber observations used for developing the deep learning model for modeling soil respiration. The scripts.zip file contains the Jupyter notebooks and python scripts for preprocessing the data, training the deep learning models, and postprocessing the results. The src.zip contains the source code for training the deep learning model, performing mutual information analysis, and plotting functions. The trained_models.zip contains multiple folders used for hosting the trained deep-learning models and the associated soil respiration predictions. The whole process is performed using python. We include the REAMD.md to document the python package requirements.",
+      "Soil respiration in dryland ecosystems is challenging to model due to its complex interactions with environmental drivers. Knowledge-guided deep learning provides a much more effective means of accurately representing these complex interactions than traditional Q10-based models. Mutual information analysis revealed that future soil temperature shares more information with soil respiration than past soil temperature, consistent with their clockwise diel hysteresis. We explicitly encoded diel hysteresis, soil drying, and soil rewetting effects on soil respiration dynamics in a newly designed Long Short Term Memory (LSTM) model. The model takes both past and future environmental drivers as inputs to predict soil respiration. The new LSTM model substantially outperformed three Q10-based models and the Community Land Model when reproducing the observed soil respiration dynamics in a semi-arid ecosystem. The new LSTM model clearly demonstrated its superiority for temporally extrapolating soil respiration dynamics, such that the resulting correlation with observational data is up to 0.7 while the correlations of both Q10-based models and the Community Land Model (CLM) are less than 0.4. Our results underscore the high potential for knowledge-guided deep learning to replace Q10-based soil respiration modules in Earth system models."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4968-4258",
+        "givenName": "Peishi",
+        "familyName": "Jiang",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "peishi.jiang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "xingyuan.chen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Justine",
+        "familyName": "Missik",
+        "affiliation": "The Ohio State University",
+        "email": "missik.2@osu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zhongming",
+        "familyName": "Gao",
+        "affiliation": "Washington State University",
+        "email": "zhongming.gao@wsu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Heping",
+        "familyName": "Liu",
+        "affiliation": "Washington State University",
+        "email": "heping.liu@wsu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Brittany",
+        "familyName": "Verbeke",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "brittanyverbeke5@gmail.com"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "deep learning",
+      "dryland ecosystem"
+    ],
+    "variableMeasured": [
+      "soil respiration",
+      "precipitation",
+      "soil temperature",
+      "soil water content"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "US-Hn1, WA, USA. Flux tower site located at Hanford 300 area",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.4089,
+            "longitude": -119.275
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.4089,
+            "longitude": -119.275
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-07-27",
+      "endDate": "2021-01-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4968-4258",
+      "givenName": "Peishi",
+      "familyName": "Jiang",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "peishi.jiang@pnnl.gov"
+    },
+    "citation": [
+      "Jiang, P., X. Chen, J. Missik, Z. Gao., H. Liu, B. Verbeke, (Accepted). Encoding Diel Hysteresis and the Birch Effect in Dryland Soil Respiration Models through Knowledge-Guided Deep Learning, Frontiers in Environmental Science."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This dataset includes (1) the flux tower and automated chamber observations used for developing the deep learning model for modeling soil respiration (data.zip); (2) the source codes for performing mutual information analysis and developing the deep learning models (src.zip); (3) the soil respiration predictions by the deep learning models (trained_models.zip); (4) the jupyter notebooks for preprocessing and postprocessing (scripts.zip); and (5) a readme file for detailed instruction (README.md)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 9.4384765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-45866878cdfcec9-20230407T145732096310",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-45866878cdfcec9-20230407T145732096310",
+        "name": "Data_and_scripts_associated_with_the_manuscript_Encoding_Diel_Hysteresis_and_the_Birch_Effect_in_Dryland_Soil_Respiration_Models_through_Knowledge_Guided_Deep_Learning_.xml"
+      },
+      {
+        "contentSize": 3.240234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-392908215192cfa-20221114T190008619",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-392908215192cfa-20221114T190008619",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 17480.330078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dc46cbe5ab74899-20221114T190008625",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dc46cbe5ab74899-20221114T190008625",
+        "name": "trained_models.zip"
+      },
+      {
+        "contentSize": 74.6650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e8689aadf128ee9-20221114T190008623",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-e8689aadf128ee9-20221114T190008623",
+        "name": "src.zip"
+      },
+      {
+        "contentSize": 66869.1181640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bcbfe2beee4033d-20221114T190008613",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-bcbfe2beee4033d-20221114T190008613",
+        "name": "data.zip"
+      },
+      {
+        "contentSize": 10249.447265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cacd5733a386da4-20221114T190008621",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-cacd5733a386da4-20221114T190008621",
+        "name": "scripts.zip"
+      }
+    ]
+  }
+}

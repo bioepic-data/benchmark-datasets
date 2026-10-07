@@ -1,0 +1,165 @@
+{
+  "id": "ess-dive-ae12df3d169303c-20230504T211556074394",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1843541",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-ae12df3d169303c-20230504T211556074394",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d9bb4d5fce56706-20230407T153822164373",
+  "dateUploaded": "2023-05-04T21:15:56.931Z",
+  "dateModified": "2023-05-04T21:16:00.120Z",
+  "isPublic": true,
+  "citation": "Prior E; Schwenk J; Rowland J (2022): VotE-Dams: a compilation of global dams' locations and attributes (v1). A Global, High-Resolution River Network Model for Improved Flood Risk Prediction. Dataset. doi:10.15485/1843541",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1843541",
+    "name": "VotE-Dams: a compilation of global dams' locations and attributes (v1)",
+    "description": [
+      "This dataset represents a compilation of two global and three USA-specific datasets of dam locations and their attributes. The major hurdle toward developing this compilation was the identification of duplicates within the source datasets, especially given the variable precision of dam location coordinates. The most immediately-useful product in this dataset is a spreadsheet (VotE-Dams_v1.csv) that documents the unique dams found across the datasets, their coordinates, and their ids within the respective source datasets. We do not reproduce the source datasets (GRaND, GOODD, GeoDAR, NID, and EHA) here, but their download locations are provided in the README files ('Overview' tab). Some of the source datasets are provided as shapefiles, which require geospatial data software to open (e.g. QGIS/ArcGIS for graphical display, geopandas for Python, rgdal for R, many others freely available).",
+      "The provided README documents metadata of the source datasets and provides attribute-linking information (i.e. matches attributes among various source datasets that contain the same, or similar, information but have different names). Note that the README is provided as both .xslx and a collection of .csvs (one per tab in the .xslx file). We suggest using the .xlsx version that preserves images, formatting, and sheets. .xlsx files can be viewed using (free) Google Docs or Microsoft Excel.",
+      "Finally, we provide Technical Documentation.pdf that describes the procedures used to identify unique and duplicate dams.",
+      "The title of this dataset refers to our 'Veins of the Earth' (VotE) project, which seeks to provide a flexible, scale-free representation of the Earth's river networks. Dams are a critical component of VotE as they heavily influence flows throughout river networks."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7069-160X",
+        "givenName": "Elizabeth",
+        "familyName": "Prior",
+        "affiliation": "Virginia Tech, Department of Biological Systems Engineering",
+        "email": "eprior@vt.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5803-9686",
+        "givenName": "Jon",
+        "familyName": "Schwenk",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jschwenk@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6308-8976",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    ],
+    "datePublished": "2022-01-24",
+    "keywords": [
+      "Earth Science > Human Dimensions > Infrastructure > Dams",
+      "river networks",
+      "streamflow",
+      "human impacts",
+      "reservoirs"
+    ],
+    "variableMeasured": [
+      "Earth Science > Human Dimensions > Infrastructure > Dams"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Global extent",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 90,
+            "longitude": -180
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -90,
+            "longitude": 180
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100008902",
+        "name": "U.S. DOE > Laboratory Directed Research and Development (LDRD) > Los Alamos National Laboratory"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "0284-01-01",
+      "endDate": "2021-01-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5803-9686",
+      "givenName": "Jon",
+      "familyName": "Schwenk",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "jschwenk@lanl.gov"
+    },
+    "citation": [
+      "Schwenk, J., Stachelek, J., Bennett, K., Prior, E., Zussman, T., & Rowland, J. (2021). Veins of the Earth: a Flexible Framework for Mapping, Modeling, and Monitoring the Earth\u2019s River Networks. Earth and Space Science Open Archive. https://doi.org/10.1002/essoar.10509913.1"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "610928ef-8b72-40e3-bea8-f643293366aa"
+      },
+      "name": "A Global, High-Resolution River Network Model for Improved Flood Risk Prediction",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jon",
+        "familyName": "Schwenk",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jschwenk@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "VotE-Dams represents the unique dams and shared attributes among four dam databases: GOODD and GRaND (global) and NID and EHA (USA only). We also used the American Rivers Dam Removal Database to identify dams that no longer exist. Python scripts were written to identify matching dams among the datasets in an effort to remove duplicates. Each database provided various degrees of dam attributes that were used, when possible, to aid in dam-matching. However, georeferencing errors and sparse attribute information for some of the databases make identifying unique dams challenging. The provided Technical Documentation.pdf documents the details of our mapping, describes problematic datasets, and summarizes the results."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1827.0595703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-24df9762a01a585-20220120T165330538",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-24df9762a01a585-20220120T165330538",
+        "name": "Technical_Documentation.pdf"
+      },
+      {
+        "contentSize": 4536.4345703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-093df2a169c683a-20220119T204823858",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-093df2a169c683a-20220119T204823858",
+        "name": "README.xlsx"
+      },
+      {
+        "contentSize": 8713.3056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e279a18e42e5e99-20220119T205241099",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e279a18e42e5e99-20220119T205241099",
+        "name": "VotE_Dams_v1.csv"
+      },
+      {
+        "contentSize": 8.3994140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ae12df3d169303c-20230504T211556074394",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-ae12df3d169303c-20230504T211556074394",
+        "name": "VotE_Dams_a_compilation_of_global_dams_locations_and_attributes_v1_.xml"
+      },
+      {
+        "contentSize": 23.4248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dc9c3abd045db78-20220131T222808437",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dc9c3abd045db78-20220131T222808437",
+        "name": "README_csvs.zip"
+      }
+    ]
+  }
+}

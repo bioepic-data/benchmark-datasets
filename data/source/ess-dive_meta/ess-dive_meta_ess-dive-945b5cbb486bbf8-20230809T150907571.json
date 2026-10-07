@@ -1,0 +1,196 @@
+{
+  "id": "ess-dive-945b5cbb486bbf8-20230809T150907571",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1870708",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-945b5cbb486bbf8-20230809T150907571",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ca836133b41dd77-20230407T001919855658",
+  "dateUploaded": "2023-08-09T15:09:07.892Z",
+  "dateModified": "2023-08-09T15:09:08.697Z",
+  "isPublic": true,
+  "citation": "Ombadi M; Varadharajan C (2022): Dataset for 'Ombadi, M. & Varadharajan, C. (2022). Urbanization and aridity mediate distinct salinity response to floods in rivers and streams across the Contiguous United States, Water Research'. iNAIADS. Dataset. doi:10.15485/1870708",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1870708",
+    "name": "Dataset for 'Ombadi, M. & Varadharajan, C. (2022). Urbanization and aridity mediate distinct salinity response to floods in rivers and streams across the Contiguous United States, Water Research'",
+    "description": [
+      "This package contains data sets and code used to obtain the results in Ombadi, M., & Varadharajan, C. (2022). Urbanization and aridity mediate distinct salinity response to floods in rivers and streams across the Contiguous United States. Water Research, 118664. The folder \"data\" contains 259 .csv files, each of which has daily time series of concurrent streamflow (Q) and specific conductance (SC) for each of the sites used in this study originally downloaded from the USGS National Water Information System (NWIS; USGS, 2016). The number of data points in each of the files is at least 3650 (i.e. 10 years of daily measurements). The folder \"RF_single_data\" contains 259 .csv files, each of which include data used to train and test the Random Forest models at individual sites for predicting SC during days of floods. The folder \"RF_regional_data\" contains 3 .csv files, each of which include scaled data compiled from all sites within each climate zone (arid, temperate and wet). \"metadata.csv\" contains the physical properties of the 259 catchments corresponding to the sites used in this study; this data was extracted from GAGES-II dataset (Falcone et al., 2010). \"RF_implementation.ipynb\" is a Jupyter notebook with the code needed to implement the analysis using Random Forest models either for individual sites or for the regional models (for each climate zone). The code utilizes the data in the two folders: \"RF_single_data\" and \"RF_regional_data\" and the metadata.csv file."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7793-9137",
+        "givenName": "Mohammed",
+        "familyName": "Ombadi",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ombadi@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    ],
+    "datePublished": "2022-05-30",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > CONDUCTIVITY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > WATERSHED CHARACTERISTICS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW > AVERAGE FLOW"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The Contiguous United State",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 50,
+            "longitude": -126
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 24,
+            "longitude": -65
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1940-01-01",
+      "endDate": "2021-09-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7793-9137",
+      "givenName": "Mohammed",
+      "familyName": "Ombadi",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "ombadi@lbl.gov"
+    },
+    "citation": [
+      "Ombadi, M., & Varadharajan, C. (2022). Urbanization and aridity mediate distinct salinity response to floods in rivers and streams across the Contiguous United States. Water Research, 118664. https://doi.org/10.1016/j.watres.2022.118664",
+      "U.S. Geological Survey, 2016, National Water Information System data available on the World Wide Web (USGS Water Data for the Nation), accessed [September 14, 2021]. http://waterdata.usgs.gov/nwis/",
+      "Falcone, J. A., Carlisle, D. M., Wolock, D. M., & Meador, M. R. (2010). GAGES: A stream gage database for evaluating natural and altered flow conditions in the conterminous United States: Ecological archives E091\u2010045. Ecology, 91(2), 621-621. https://doi.org/10.1890/09-0889.1"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "93af4208-5c89-4be7-955b-8315ce410713"
+      },
+      "name": "iNAIADS",
+      "member": {
+        "@type": "Person",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Site selection:\nWe selected USGS stations with readily available and sufficient information on their associated catchment properties. Therefore, we used the Geospatial Attributes of Gages for Evaluating Streamflow (GAGES-II) dataset (Falcone et al., 2010) as a reference for our site selection. GAGES-II dataset provides 355 metadata features (e.g., climatic, geologic, land use, soil, hydrologic properties) for 9,322 USGS sites. Of these 9,322 sites, we selected sites that had at least 10 years of daily measurements (n\u202f=\u202f3650) of concurrent streamflow (Q) and specific conductance (SC) in the USGS National Water Information System (NWIS). This resulted in a set of 259 sites across the contiguous United States.",
+      "Pre-processing time series of SC and Q:\nDaily SC measurements obtained from USGS NWIS were reported either as mean, median, maximum, minimum, at-noon or instantaneous values in units of . We opted to make use of all these measurements whenever needed in order to increase the sample size in our analysis. We used a hierarchical data imputation scheme to estimate daily SC measurements. More specifically, SC is estimated using the following order: mean, median, a linearly interpolated value between min and max, at-noon, and instantaneous measurement. For instance, at any given station and day, daily SC is estimated as an interpolated value between min and max only if the mean and median values were not reported. If in addition to mean and median, the values of max and min were not reported, daily SC is taken to be equal to at-noon SC measurement.",
+      "De-trending time series of SC and Q:\nWe tested for the presence of a linear trend in SC and Q time series as follows. Firstly, we used the daily observations to compute monthly average values. This was carried out only for months in which at least 15 daily observations were available. Secondly, a linear regression model was fitted to the monthly time series of SC and Q at each individual station. Lastly, a linear trend was removed from the time series if the slope coefficient of the regression model was found to be statistically significant at \u03b1 = 0.05."
+    ],
+    "distribution": [
+      {
+        "contentSize": 10326.8388671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-47616865550660c-20220531T060816129",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-47616865550660c-20220531T060816129",
+        "name": "RF_single_data.zip"
+      },
+      {
+        "contentSize": 13301.5107421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-482ce46a611aafc-20220531T060816116",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-482ce46a611aafc-20220531T060816116",
+        "name": "data.zip"
+      },
+      {
+        "contentSize": 1.9453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-eab74d57e648e1e-20220531T211007739",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-eab74d57e648e1e-20220531T211007739",
+        "name": "RF_single_data_dd.csv"
+      },
+      {
+        "contentSize": 12.947265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-db22e9f87ef5221-20220531T073208641",
+        "encodingFormat": "application/x-ipynb+json",
+        "identifier": "ess-dive-db22e9f87ef5221-20220531T073208641",
+        "name": "RF_implementation.ipynb"
+      },
+      {
+        "contentSize": 6435.583984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-32a43f5c214e198-20220531T060816126",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-32a43f5c214e198-20220531T060816126",
+        "name": "RF_regional_data.zip"
+      },
+      {
+        "contentSize": 19.5341796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-32d62a7c8351a66-20220602T000759929",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-32d62a7c8351a66-20220602T000759929",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 0.2822265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-685105f0d42f520-20220531T211007725",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-685105f0d42f520-20220531T211007725",
+        "name": "data_dd.csv"
+      },
+      {
+        "contentSize": 1.736328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a6cd0a42b4a247c-20220531T211007736",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a6cd0a42b4a247c-20220531T211007736",
+        "name": "RF_regional_data_dd.csv"
+      },
+      {
+        "contentSize": 10.810546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-945b5cbb486bbf8-20230809T150907571",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-945b5cbb486bbf8-20230809T150907571",
+        "name": "Dataset_for_Ombadi_M_Varadharajan_C_.xml"
+      },
+      {
+        "contentSize": 388.298828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bdc9e1f9c34b145-20220531T074305875",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bdc9e1f9c34b145-20220531T074305875",
+        "name": "metadata.csv"
+      },
+      {
+        "contentSize": 4.1884765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f17e0c9bd845767-20220531T193735381",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-f17e0c9bd845767-20220531T193735381",
+        "name": "Readme.txt"
+      }
+    ]
+  }
+}

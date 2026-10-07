@@ -1,0 +1,421 @@
+{
+  "id": "ess-dive-0e6cc7101b2d71d-20250313T200817459",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2480365",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-0e6cc7101b2d71d-20250313T200817459",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-0e6cc7101b2d71d-20250312T150536874",
+  "dateUploaded": "2025-03-13T20:08:18.270Z",
+  "dateModified": "2025-03-15T00:00:28.095Z",
+  "isPublic": true,
+  "citation": "Wang C; Lamb J; Shirley I; Wielandt S; Fiolleau S; Uhlemann S; Ulrich C; Dafflon B (2025): Continuous snow depth and temperature measurements from dense network of above-ground distributed temperature profiling systems from 2021-09-23 to 2024-08-23, Seward Peninsula, Alaska. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2480365",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2480365",
+    "name": "Continuous snow depth and temperature measurements from dense network of above-ground distributed temperature profiling systems from 2021-09-23 to 2024-08-23, Seward Peninsula, Alaska",
+    "description": [
+      "The dataset contains temperature measurements from distributed temperature profiling (DTP) systems (Dafflon et al., 2022; Wielandt et al., 2022; Wang et al., 2024a; Fiolleau et al., 2024) deployed vertically above the ground surface at a large number of locations from 2021 to 2024. The research is designed to improve understanding of the local heterogeneity in snow depth and snow thermal insulation dynamics, as well as their interactions in a discontinuous permafrost region (Wang et al., 2025). The DTP systems were deployed at 96 locations in a watershed along the Nome-Teller road at mile marker 27 (T27) and at 54 locations on a hillslope along the Kougarok road at mile marker 64 (K64) in the Seward Peninsula, Alaska. The probe location information is stored in Probe_locations_T27.csv and Probe_locations_K64.csv. Temperature measurements were recorded at 15-minute intervals using high-precision digital sensors (accuracy: \u00b10.1\u00b0C, resolution: 0.0078\u00b0C). The temperature probes, either 1.4 m or 1.6 m long, contain sensors spaced every 5 cm or 10 cm along their length. The temperature data are stored in compressed files following the format: DTP_snow_air_temperature_(site)_(start)_(end).zip, where site is either T27 or K64, and start and end represent the time series period. Within each ZIP file, individual CSV files are named by probe ID and contain temperature records at different heights above the ground surface.",
+      "This dataset also includes derived snow depth time series over three snow seasons, estimated from temperature measurements. Snow depth was estimated by identifying the consecutive sensor pair that exhibited the largest drop in high-frequency temperature fluctuations (detailed in the methods). These data are stored in: Snow_depths_flags_(site)_(start)_(end).csv, which includes snow depth time series and corresponding quality flags (defined in the methods) from different probes. Additionally, the dataset includes derived metrics and supporting measurements at selected locations over two snow seasons, contributing to the manuscript of Wang et al., 2025. These locations were chosen based on the availability of high-quality snow depth time series during both seasons. The additional data include: (1) Air temperature proxies measured from the top sensors on the pole when they were not buried by snow, stored in Air_temperature_proxies_(site)_(start)_(end).csv (2) Ground interface temperature, recorded at 3 cm above the ground, stored in Ground_interface_temperature_(site)_(start)_(end).csv (3) Site characteristics, including vegetation height, elevation, and the topographic position index (TPI) within a 50 m radius, stored in Selected_probe_locations_gps_vegheight_tpi_elevation_(site).csv. These metrics were derived from 1 m resolution summer LiDAR-based digital elevation models and digital surface models from Singhania et al., 2023, DOI:10.5440/1832016. Metadata files include data descriptions (_dd.csv) for tabular data. All included files are listed and described in xxxx_flmd.csv.",
+      "This dataset is an updated version of a previous archive (Wang et al., 2024b, DOI: 10.15485/2475020), incorporating multiple seasons and improved snow depth estimation. Please note that due to large amount of information present in this dataset, many specificities associated with the acquisition of snow temperature, air temperature proxy and estimation of snow depth, and the future archiving of additional datasets on the soil temperature, thaw depth and soil characteristics at these locations, the author would welcome being contacted by people planning to use this dataset.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "NGA556"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9508-7425",
+        "givenName": "Chen",
+        "familyName": "Wang",
+        "email": "cwang4@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jack",
+        "familyName": "Lamb",
+        "affiliation": "Stanford University",
+        "email": "jrlamb@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2229-1414",
+        "givenName": "Ian",
+        "familyName": "Shirley",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ishirley@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2672-2998",
+        "givenName": "Stijn",
+        "familyName": "Wielandt",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "StijnWielandt@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6269-8676",
+        "givenName": "Sylvain",
+        "familyName": "Fiolleau",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "sfiolleau@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7673-7346",
+        "givenName": "Sebastian",
+        "familyName": "Uhlemann",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "SUhlemann@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4114-7039",
+        "givenName": "Craig",
+        "familyName": "Ulrich",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "culrich@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9871-5650",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bdafflon@lbl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE",
+      "Snow temperature",
+      "Snow depth",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE > SNOW DEPTH",
+      "Snow temperature",
+      "Air temperature"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Teller Site, Mile Marker 27, Alaska (T27)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.758839,
+            "longitude": -165.979295
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.712145,
+            "longitude": -165.921485
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Kougarok Site, Mile Marker 64, Alaska (K64)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.171006,
+            "longitude": -164.837755
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.153612,
+            "longitude": -164.801947
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0205CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-09-23",
+      "endDate": "2024-08-23",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9508-7425",
+      "givenName": "Chen",
+      "familyName": "Wang",
+      "email": "cwang4@lbl.gov"
+    },
+    "citation": [
+      "Wang, C., Shirley I., Wielandt S., Fiolleau S., Lamb J., Uhlemann S., Ulrich C., Bennett K., Dafflon B., (2025). Advanced assessment of snow thermal insulation through novel high-resolution spatial and temporal monitoring of snow depth and temperature in subarctic regions. Under review.",
+      "Dafflon B., Wielandt S., Lamb J., McClure P., Shirley I., Uhlemann S., Wang C., Fiolleau S., Brunetti C., Akins H., Fitzpatrick J., Pullman S., Busey R., Ulrich C., Peterson J. and Hubbard S. (2022). A distributed temperature profiling system for vertically and laterally dense acquisition of soil and snow temperature. The Cryosphere. 16, 719\u201336. DOI: 10.5194/tc-16-719-2022.",
+      "Wielandt, S., Uhlemann, S., Fiolleau, S., & Dafflon, B. (2022). Low-power, flexible sensor arrays with solderless board-to-board connectors for monitoring soil deformation and temperature. Sensors, 22(7), 2814.",
+      "Wang, C., Shirley, I. A., Wielandt, S., Lamb, J., Uhlemann, S., Breen, A. L., Busey, R. C., Bolton, W. R., Hubbard, S., & Dafflon, B. (2024a). Local-scale heterogeneity of soil thermal dynamics and controlling factors in a discontinuous permafrost region. Environmental Research Letters, 19(3), 034030.",
+      "Fiolleau, S., Uhlemann, S., Shirley, I. A., Wang, C., Wielandt, S., Rowland, J., & Dafflon, B. (2024). Insights on seasonal solifluction processes in warm permafrost Arctic landscape using a dense monitoring approach across adjacent hillslopes. Environmental Research Letters, 19(4), 044021.",
+      "Wang C ; Dafflon B ; Shirley I ; Wielandt S ; Fiolleau S ; Lamb J ; Uhlemann S ; Ulrich C (2024b): Continuous snow depth, ground interface temperature and shallow soil temperature measurements from 2021-10-1 to 2022-6-14, Seward Peninsula, Alaska. Next-Generation Ecosystem Experiments (NGEE) Arctic, ESS-DIVE repository. Dataset. doi:10.15485/2475020",
+      "Singhania A ; Glennie C ; Fernandez-Diaz J ; Hauser D (2023): National Center for Airborne Laser Mapping (NCALM) LiDAR, Imagery, and DEM data from five NGEE Arctic Sites, Seward Peninsula, Alaska, August 2021. Next-Generation Ecosystem Experiments (NGEE) Arctic, ESS-DIVE repository. Dataset. doi:10.5440/1832016"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Distributed temperature profiling (DTP) probes were used to continuously monitor depth-resolved snow temperatures at 15-minute intervals, from which snow depths were estimated. Each probe consisted of a weatherproof data logger housed at the top of a 1.4 m or 1.6 m long, 9.5 mm diameter tube. Inside the tube, interconnected printed circuit board segments embedded with high-precision digital temperature sensors (accuracy: \u00b10.1\u00b0C, resolution: 0.0078\u00b0C) were encased in a urethane sealing mixture (Dafflon et al., 2022). The 1.6 m probes contained 24 sensors, spaced 5 cm apart at lower heights and 10 cm apart near the logger. The 1.4 m probes included 16 sensors at 5 cm spacing, followed by 6 sensors at 10 cm spacing. Additionally, both probe types had a logger-mounted sensor positioned 14 cm above the highest pole sensor.\nFor deployment, a rebar support was vertically inserted into the ground and enclosed in a 12.7 mm inner diameter white PVC pipe. Each DTP probe was secured to this support using white zip ties, with 2 cm spacers to minimize thermal interference from the PVC. The bottom sensor was positioned 3 cm above the ground surface, though in some cases, slight settling into loose ground material was detected based on dampened diurnal temperature variations during snow-free periods. Sensor heights were adjusted accordingly to ensure the lowest sensor remained 3 cm above the ground.\nWe identified the snow surface by leveraging the sensitivity of high-frequency temperature fluctuations to snow cover. At each sensor height, high-frequency components of the temperature time series (with periods \u22642 hours) were extracted using Fourier filtering. The diurnal high-frequency temperature variability was then quantified by summing the absolute differences in these signals between consecutive time steps within each day. The mean daily snow depth was determined as the average height of the adjacent sensor pair exhibiting the most significant drop in variability. The method had an uncertainty of \u00b12.5 cm or \u00b15 cm, depending on the sensor spacing.\nTo further refine the snow depth estimates, additional steps were implemented. First, temperature responses from the logger sensors at the top of the DTP probes were analyzed to detect instances when deep snow buried the entire probe. When this occurred, the snow depth above the logger sensor was estimated based on an empirical snow temperature-depth relationship derived from shallow snow sites. Second, snow-free days were identified when all sensors displayed similar temperature variability or relatively warm conditions. Third, a small number of probes experienced data gaps during the snowmelt period. In these cases, snow depth was estimated based on a linear relationship between cumulative air temperature and melting depths, established using data from probes with complete records. Lastly, the snow depth time series was filtered to remove occasional anomalies, followed by a manual review and minor adjustments to correct any remaining inconsistencies.\nThe snow_depths_flags_dd.csv files contain flag columns that indicate how snow depth values were determined. The numerical flags have the following meanings:\n0: No snow periods\u2014snow depth is zero.\n1: Estimated using the primary algorithm based on diurnal high-frequency temperature variability.\n2: Interpolated snow depth for days with incomplete temperature data.\n3: Interpolated snow depth after removing a detected spike.\n4: Manually adjusted snow depth values.\n5: Missing snowmelt periods filled based on cumulative air temperature.\n999: Deep snow extending above the logger sensor.\n1999: Deep snow between the logger sensor and the first sensor on the pole."
+    ],
+    "distribution": [
+      {
+        "contentSize": 325.5419921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0a056aa56c9cf47-20250307T234631147",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0a056aa56c9cf47-20250307T234631147",
+        "name": "Ground_interface_temperatures_T27_20221001_20230615.csv"
+      },
+      {
+        "contentSize": 0.6728515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0343e00bfb06a4f-20250311T223617891",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0343e00bfb06a4f-20250311T223617891",
+        "name": "Selected_probe_locations_gps_vegheight_tpi_elevation_dd.csv"
+      },
+      {
+        "contentSize": 22.513671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0e6cc7101b2d71d-20250313T200817459",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-0e6cc7101b2d71d-20250313T200817459",
+        "name": "Continuous_snow_depth_and_temperature.xml"
+      },
+      {
+        "contentSize": 189.7607421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-43225328c8a88e3-20250311T212906318",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-43225328c8a88e3-20250311T212906318",
+        "name": "Air_temperature_proxies_K64_20221001_20230930.csv"
+      },
+      {
+        "contentSize": 2.6279296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-43292171d942501-20250311T224258812",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-43292171d942501-20250311T224258812",
+        "name": "NGA556_flmd.csv"
+      },
+      {
+        "contentSize": 0.38671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-44b59db81e18e06-20250307T234631178",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-44b59db81e18e06-20250307T234631178",
+        "name": "Snow_depths_flags_dd.csv"
+      },
+      {
+        "contentSize": 194.2802734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2e3179296a64e68-20250307T234631137",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2e3179296a64e68-20250307T234631137",
+        "name": "Ground_interface_temperatures_K64_20211001_20220615.csv"
+      },
+      {
+        "contentSize": 0.515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a386b7a49dd4cf-20250310T212849592",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3a386b7a49dd4cf-20250310T212849592",
+        "name": "Probe_locations_dd.csv"
+      },
+      {
+        "contentSize": 79934.47265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ea2a897462c16dc-20250310T210844518",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ea2a897462c16dc-20250310T210844518",
+        "name": "DTP_snow_air_temperatures_K64_20210923_20220914.zip"
+      },
+      {
+        "contentSize": 0.3095703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ea6b8288e8b54ff-20250310T210844502",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ea6b8288e8b54ff-20250310T210844502",
+        "name": "DTP_snow_air_temperatures_dd.csv"
+      },
+      {
+        "contentSize": 3.7001953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-29abd4864da49be-20250311T223756174",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-29abd4864da49be-20250311T223756174",
+        "name": "Selected_Probe_locations_gps_vegheight_tpi_elevation_K64.csv"
+      },
+      {
+        "contentSize": 312.1474609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d27a7e1ef99e34b-20250311T212906327",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d27a7e1ef99e34b-20250311T212906327",
+        "name": "Air_temperature_proxies_T27_20221001_20230930.csv"
+      },
+      {
+        "contentSize": 140633.041015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-50e980bf92b0323-20250310T210844539",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-50e980bf92b0323-20250310T210844539",
+        "name": "DTP_snow_air_temperatures_T27_20210928_20220914.zip"
+      },
+      {
+        "contentSize": 272.919921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5f30b3f96625890-20250311T223546946",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5f30b3f96625890-20250311T223546946",
+        "name": "Air_temperature_proxies_K64_20211001_20220930.csv"
+      },
+      {
+        "contentSize": 194.7509765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6616a02b01de948-20250307T234631140",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6616a02b01de948-20250307T234631140",
+        "name": "Ground_interface_temperatures_K64_20221001_20230615.csv"
+      },
+      {
+        "contentSize": 2.87890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4e2baa3f44cb8f7-20250310T212849600",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4e2baa3f44cb8f7-20250310T212849600",
+        "name": "Probe_locations_K64.csv"
+      },
+      {
+        "contentSize": 450.6494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-867719444fa74d8-20250311T223546952",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-867719444fa74d8-20250311T223546952",
+        "name": "Air_temperature_proxies_T27_20211001_20220930.csv"
+      },
+      {
+        "contentSize": 111.69140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-88a7ca600e99a9a-20250310T210732688",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-88a7ca600e99a9a-20250310T210732688",
+        "name": "Snow_depths_flags_T27_20223001_20240615.csv"
+      },
+      {
+        "contentSize": 0.4130859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6b72af52d5462ae-20250307T234631133",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6b72af52d5462ae-20250307T234631133",
+        "name": "Ground_interface_temperatures_dd.csv"
+      },
+      {
+        "contentSize": 89.7646484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6cf69a36ff37e06-20250310T210732658",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6cf69a36ff37e06-20250310T210732658",
+        "name": "Snow_depths_flags_K64_20221001_20230615.csv"
+      },
+      {
+        "contentSize": 141.50390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7801729097da661-20250310T210732681",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7801729097da661-20250310T210732681",
+        "name": "Snow_depths_flags_T27_20221001_20230615.csv"
+      },
+      {
+        "contentSize": 75947.8447265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8a8d0c0638a95fa-20250310T210844525",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8a8d0c0638a95fa-20250310T210844525",
+        "name": "DTP_snow_air_temperatures_K64_20220914_20230917.zip"
+      },
+      {
+        "contentSize": 6.154296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8d39bd031d614c0-20250311T223617897",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8d39bd031d614c0-20250311T223617897",
+        "name": "Selected_probe_locations_gps_vegheight_tpi_elevation_T27.csv"
+      },
+      {
+        "contentSize": 323.2490234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a452d6e2b4723f3-20250307T234631143",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a452d6e2b4723f3-20250307T234631143",
+        "name": "Ground_interface_temperatures_T27_20211001_20220615.csv"
+      },
+      {
+        "contentSize": 5.0107421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9367f93d6022acf-20250310T212849606",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9367f93d6022acf-20250310T212849606",
+        "name": "Probe_locations_T27.csv"
+      },
+      {
+        "contentSize": 111012.5703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9595438efe6fe14-20250310T210844532",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9595438efe6fe14-20250310T210844532",
+        "name": "DTP_snow_air_temperatures_T27_202309_202408.zip"
+      },
+      {
+        "contentSize": 161.3212890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bc8167e223ebff2-20250310T210732673",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bc8167e223ebff2-20250310T210732673",
+        "name": "Snow_depths_flags_T27_20211001_20220615.csv"
+      },
+      {
+        "contentSize": 67128.8974609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ccbcfa50d7f5521-20250310T210844510",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ccbcfa50d7f5521-20250310T210844510",
+        "name": "DTP_snow_air_temperatures_K64_202309_202408.zip"
+      },
+      {
+        "contentSize": 0.4599609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c8c7deffc4b82fd-20250311T223546939",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c8c7deffc4b82fd-20250311T223546939",
+        "name": "Air_temperature_proxies_dd.csv"
+      },
+      {
+        "contentSize": 62.4873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f5fb6bd545985e9-20250310T210732665",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f5fb6bd545985e9-20250310T210732665",
+        "name": "Snow_depths_flags_K64_20223001_20240615.csv"
+      },
+      {
+        "contentSize": 118662.71484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f18c4549a75cf8f-20250310T210844545",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f18c4549a75cf8f-20250310T210844545",
+        "name": "DTP_snow_air_temperatures_T27_20220914_20230914.zip"
+      },
+      {
+        "contentSize": 92.732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e57b5e4a19ef850-20250310T210732649",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e57b5e4a19ef850-20250310T210732649",
+        "name": "Snow_depths_flags_K64_20211001_20220615.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "id": "ess-dive-afaab2eda791799-20230407T151520930418",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1877377",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-afaab2eda791799-20230407T151520930418",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-88da87628ae756b-20230406T132634934686",
+  "dateUploaded": "2023-04-07T15:15:22.736Z",
+  "dateModified": "2024-02-08T19:42:27.934Z",
+  "isPublic": true,
+  "citation": "Xu Z; Molins S; Dwivedi D; \u00d6zgen-Xian I; Steefel C (2022): ATS (Advanced Terrestrial Simulator) integrated hydrology and reactive transport model output in Copper Creek, Colorado. Watershed Function SFA. Dataset. doi:10.15485/1877377",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1877377",
+    "name": "ATS (Advanced Terrestrial Simulator) integrated hydrology and reactive transport model output in Copper Creek, Colorado",
+    "description": [
+      "This dataset is generated using the ATS (Advanced Terrestrial Simulator) model at Copper Creek, Colorado, the largest catchment in the East River watershed. ATS is an integrated hydrology and reactive transport model to simulate the Concentration-Discharge (C-Q) relationship, and is used to quantify the geochemical export and understand how watersheds respond to climate disturbances. Key hydrogeochemical variables, including discharge, precipitation, evapotranspiration, and geochemical concentrations, were simulated and output at a daily frequency at the Copper Creek outlet. A group of hydrology and geochemical model variables over the spatial domain are output at a bi-monthly frequency. The model used 1-km resolution daily frequency Daymet meteorological forcing, and mineral composition from previous studies. The simulations are performed on NERSC. The datasets include the input files for running the ATS (Advanced Terrestrial Simulator) simulation, including the mesh file, input script and geochemical model files. The output files from the ATS (Advanced Terrestrial Simulator) are the daily time-series discharge and geochemical concentration simulated at the outlet of Copper Creek, and the bi-monthly spatial output over the simulation domain."
+    ],
+    "alternateName": [
+      "paf_390_799"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9534-7370",
+        "givenName": "Zexuan",
+        "familyName": "Xu",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "zexuanxu@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7675-3218",
+        "givenName": "Sergi",
+        "familyName": "Molins",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "smolins@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1788-1900",
+        "givenName": "Dipankar",
+        "familyName": "Dwivedi",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ddwivedi@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ilhan",
+        "familyName": "\u00d6zgen-Xian",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "iozgen@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2802-611X",
+        "givenName": "Carl",
+        "familyName": "Steefel",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cisteefel@lbl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "geochemical",
+      "reactive transport model",
+      "Copper Creek",
+      "Advanced Terrestrial Simulator"
+    ],
+    "variableMeasured": [
+      "Anions",
+      "Cations",
+      "Groundwater Level",
+      "River stage/discharge",
+      "Soil Moisture"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2022) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-10-01",
+      "endDate": "2019-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9534-7370",
+      "givenName": "Zexuan",
+      "familyName": "Xu",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "zexuanxu@lbl.gov"
+    },
+    "citation": [
+      "Xu et al., Understanding the hydrogeochemical response of a mountainous watershed using integrated surface-subsurface flow and reactive transport modeling, Water Resource Research, under review",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Kakalia Z ; Burrus M ; O'Ryan D ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; Elbashandy H ; Enquist B J ; Fox P ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Matheus Carnevali P ; Newman A ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Agarwal D (2022): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA (Version 3.0). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The data is generated using the ATS (Advanced Terrestrial Simulator) model on NERSC supercomputer system."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ff268f5527a4716-20220628T232943169",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ff268f5527a4716-20220628T232943169",
+        "name": "input_20220619T030648Z_001.zip",
+        "contentSize": 4422.5126953125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dfb6d701c92502d-20220628T233001755",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dfb6d701c92502d-20220628T233001755",
+        "name": "output_20220619T030706Z_002.zip",
+        "contentSize": 282003.9853515625
+      }
+    ]
+  }
+}

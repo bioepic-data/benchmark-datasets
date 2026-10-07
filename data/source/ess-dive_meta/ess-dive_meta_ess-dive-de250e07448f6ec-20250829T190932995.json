@@ -1,0 +1,187 @@
+{
+  "id": "ess-dive-de250e07448f6ec-20250829T190932995",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2478860",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-de250e07448f6ec-20250829T190932995",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-45fab609bdf4eae-20241126T005134235",
+  "dateUploaded": "2025-08-29T19:09:34.849Z",
+  "dateModified": "2025-09-11T19:15:03.003Z",
+  "isPublic": true,
+  "citation": "Lundquist J; Carroll R; Gutmann E (2024): Temperature, Humidity, and Time-Lapse Video Data from Yosemite National Park, Water Year 2024. Seasonal Cycles Unravel Mysteries of Missing Mountain Water. Dataset. doi:10.15485/2478860",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2478860",
+    "name": "Temperature, Humidity, and Time-Lapse Video Data from Yosemite National Park, Water Year 2024",
+    "description": [
+      "This dataset contains time-lapse imagery and distributed measurements of air temperature, relative humidity, dew point, and soil temperature across Yosemite National Park from October 2023 to September 2024. Instruments were deployed at 10 sites in two cross-valley transects as part of the DOE Grant: Seasonal Cycles Unravel Mysteries of Missing Mountain Water organized by Jessica Lundquist (University of Washington), Rosemary Carroll (Desert Research Institute), and Ethan Gutmann (National Center for Atmospheric Research). The data are intended to support hydrologic modeling efforts to better resolve the fate of mountain water, and are published to support studies of surface climate or hydrologic processes in complex terrain.",
+      "Measurements were collected with low-cost data loggers installed 2 m high on evergreen trees or buried just below the soil surface. A time-lapse camera at one site captures valley-scale seasonal snow cover variability.",
+      "Dataset files are organized by site and variable (air measurements, ground measurements, or time-lapse video). Air and ground measurements are packaged in LoggerData.zip, and time-lapse imagery is compiled into a short video stored in TimelapseVideos.zip. File-level metadata contains details for each file included in the dataset. A data dictionary provides units and descriptions for column or row names in all files. The locations metadata file describes site characteristics, locations, and associated GPS methods."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2193-5633",
+        "givenName": "Jessica",
+        "familyName": "Lundquist",
+        "affiliation": "Univeristy of Washington",
+        "email": "jdlund@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9302-8074",
+        "givenName": "Rosemary",
+        "familyName": "Carroll",
+        "affiliation": "Desert Research Institute",
+        "email": "rosemary.carroll@dri.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4077-3430",
+        "givenName": "Ethan",
+        "familyName": "Gutmann",
+        "affiliation": "National Center for Atmospheric Research (NCAR)",
+        "email": "gutmann@ucar.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0003-7982-7392",
+        "givenName": "John",
+        "familyName": "Cramblitt",
+        "affiliation": "University of Washington",
+        "email": "jcramb@uw.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > RELATIVE HUMIDITY",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > DEW POINT TEMPERATURE",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > VISIBLE WAVELENGTHS > VISIBLE IMAGERY",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL TEMPERATURE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Region of study. Bounding box for the mountain region near Tuolumne Meadows in Yosemite National Park containing field sites.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.9210389,
+            "longitude": -119.358325
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.808256,
+            "longitude": -119.322975
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0024075"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2023-10-10",
+      "endDate": "2024-09-12",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2193-5633",
+      "givenName": "Jessica",
+      "familyName": "Lundquist",
+      "affiliation": "University of Washington",
+      "email": "jdlund@uw.edu"
+    },
+    "citation": [
+      "Carroll R ; Newman A ; Beutler C ; Williams K ; O'Ryan D (2023): Stream discharge and temperature data collected within the East River, Colorado for the Lawrence Berkeley National Laboratory Watershed Function Science Focus Area (water years 2019 to 2022). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1779721",
+      "Lundquist J ; Carroll R ; Gutmann E ; Cramblitt J (2024): Temperature, Humidity, and Time-Lapse Video Data from the East River Watershed, Water Year 2024. Seasonal Cycles Unravel Mysteries of Missing Mountain Water, ESS-DIVE repository. Dataset. doi:10.15485/2472942",
+      "Lundquist J ; Hallnan R ; Roche J ; Forester H ; Ammatelli J ; Cramblitt J ; Moore C ; Fong C ; Besso H ; Templeton J ; Perry G ; Henn B ; Cayan D ; Dettinger M (2024): Streamflow measurements from four sites on the Tuolumne River in Yosemite National Park from Water Years 2002 to 2021. Seasonal Cycles Unravel Mysteries of Missing Mountain Water, ESS-DIVE repository. Dataset. doi:10.15485/2324637"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "3b6bbbb3-f6b3-4b25-9681-890c534deae8"
+      },
+      "name": "Seasonal Cycles Unravel Mysteries of Missing Mountain Water",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jessica",
+        "familyName": "Lundquist",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of Washington",
+        "email": "jdlund@uw.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Onset HOBO temperature/RH data loggers (Model MX2301A) were installed on low tree branches at 10 sites in two cross-valley transects and took half-hourly air temperature, relative humidity, and dewpoint measurements. Onset pendant water temperature loggers (Model MX2201) were buried nearby just below the soil surface and took half-hourly measurements of surface soil temperatures. At one site, a timelapse camera was strapped to a tree to take images across the transect, providing visual imagery of valley-scale snow cover variation through time.",
+      "Logger data pre-processing involved converting all timestamps to UTC and trimming the temperature series to match the installation period. Timelapse images were stitched into a video for easy storage and visualization."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3.8837890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2fd5f411a00d71e-20241126T003214163",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2fd5f411a00d71e-20241126T003214163",
+        "name": "FLMD.csv"
+      },
+      {
+        "contentSize": 2.7890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-392d001779a29b6-20241108T223537317",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-392d001779a29b6-20241108T223537317",
+        "name": "Location_Metadata.csv"
+      },
+      {
+        "contentSize": 4704.861328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d79e186dd6f567f-20241108T223405892",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d79e186dd6f567f-20241108T223405892",
+        "name": "LoggerData.zip"
+      },
+      {
+        "contentSize": 2.966796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-568753e44bb7c7c-20241108T223537312",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-568753e44bb7c7c-20241108T223537312",
+        "name": "dd.csv"
+      },
+      {
+        "contentSize": 125744.3564453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dc573906cbf8f16-20241108T223405900",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dc573906cbf8f16-20241108T223405900",
+        "name": "TimelapseVideos.zip"
+      },
+      {
+        "contentSize": 9.4443359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-de250e07448f6ec-20250829T190932995",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-de250e07448f6ec-20250829T190932995",
+        "name": "Temperature_Humidity_and_Time_Lapse_Video_Data.xml"
+      }
+    ]
+  }
+}

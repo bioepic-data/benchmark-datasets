@@ -1,0 +1,232 @@
+{
+  "id": "ess-dive-ed1840c6c2f6989-20250902T182452025",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2572883",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-ed1840c6c2f6989-20250902T182452025",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ed1840c6c2f6989-20250831T162338254",
+  "dateUploaded": "2025-09-02T18:24:54.340Z",
+  "dateModified": "2025-09-03T00:00:40.594Z",
+  "isPublic": true,
+  "citation": "Tasoff P; Karaoz U; Wainwright H; Williams K; Brodie E; Banfield J (2025): Montane Conifer, Aspen, Meadow, and Sagebrush Metagenome Resolved Genomes and Traits in East River Watershed, Colorado, USA. Watershed Function SFA. Dataset. doi:10.15485/2572883",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2572883",
+    "name": "Montane Conifer, Aspen, Meadow, and Sagebrush Metagenome Resolved Genomes and Traits in East River Watershed, Colorado, USA",
+    "description": [
+      "Climate change is driving vegetation shifts in mountain watersheds, with unknown impacts on biogeochemical cycles. We hypothesize that these shifts will reshape soil microbiomes and associated biogeochemical processes. As a part of Lawrence Berkeley National Laboratory (LBNL) Watershed Science Focus Area (SFA), we assessed microbiome and microbial functional trait differences between soils under conifer, aspen, forby meadows, and sagebrush across the East River Watershed, CO, controlling for elevation and aspect.",
+      "Here we present metagenome assembled genomes (MAGs) for the bacterial and archaeal communities from soils 0-20cm in depth across three locations in the watershed\u2014Headwaters, Upper Reaches, and Lower Reaches from August 3-11th 2016. Each location was further subdivided into two blocks, with one block on a west facing aspect, and two on the east aspect of the valley. Within blocks, two samples per vegetation type were taken (one at each depth). This resulted in 66 samples, which were sequenced at JGI and can be found under the Joint Genome Institute (JGI) Genomes Online Database (GOLD) sequencing project Gs0118068. Metagenomes were assembled through an inhouse pipeline (see methods), binned using four autobinners (concoct, maxbin2, metabat2, and vamb) and consolidated using dastool. The consolidated bins from all metagenomes were pooled, filtered by completeness (>75%) and contamination (<25%), and dereplicated at 95% ANI using drep. The dataset includes a zip file of 687 genomes (Vegtype_MAGS.zip), the accession numbers for the underlying metagenomes, a csv file with MAG quality metrics and taxonomy from Genome Taxonomy Database (GTDB) and National Center for Biotechnology Information (NCBI) taxonomic representative genome proteins (EastRiver_Vegtype_drep_genome_info.csv), and a file containing MAG quality metrics and taxonomy (gtdb_drep_bin_taxonomy.csv). The dataset additionally includes a sample metadata file (EastRiver_Vegtype_sample_metadata.csv), a metadata file used to register associated samples with IGSNs (International Generic Sample Numbers) (samples.csv), a Google KML file for the sampled locations (sample_collection_sites.kml), a location metadata file (locations.csv), a file-level metadata file (flmd.csv), and a data dictionary (dd.csv) file.",
+      "This work was supported by the Watershed Function Science Focus Area at Lawrence Berkeley National Laboratory funded by the US Department of Energy, Office of Science, Biological and Environmental Research under Contract No. DE-AC02-05CH11231."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6290-0045",
+        "givenName": "Preston",
+        "familyName": "Tasoff",
+        "affiliation": "University of California Berkeley",
+        "email": "ptasoff@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ulas",
+        "familyName": "Karaoz",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ukaraoz@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Haruko",
+        "familyName": "Wainwright",
+        "affiliation": "Massachusetts Institute of Technology",
+        "email": "HMWainwright@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jillian",
+        "familyName": "Banfield",
+        "affiliation": "University of California Berkeley",
+        "email": "jbanfield@berkeley.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "vegetation",
+      "microbiome",
+      "microbial traits",
+      "biogeochemistry",
+      "conifer",
+      "aspen",
+      "meadows",
+      "sagebrush",
+      "forbes",
+      "soil",
+      "trait",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE Location Metadata Reporting Format",
+      "ESS-DIVE Sample ID and Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "vegetation",
+      "metagenomics",
+      "microbial ecology",
+      "DNA",
+      "pH",
+      "biogeochemistry"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory and SLAC Accelerator Laboratory's Watershed Function Scientific Focus Area (WFSFA). This portion of the ER watershed contains the project-defined boundaries of East River, Washington Gulch, Slate River, and Coal Creek, as described in the location metadata. Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. This data package contains geographic metadata for specific observation points throughout the watershed. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2025) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.033,
+            "longitude": -107.12
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.82,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "Watershed Function Scientific Focus Area [DE-AC02-05CH11231]"
+      },
+      {
+        "@type": "Organization",
+        "name": "Joint Genome Institute"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-08-03",
+      "endDate": "2016-08-11",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6290-0045",
+      "givenName": "Preston",
+      "familyName": "Tasoff",
+      "affiliation": "University of California Berkeley",
+      "email": "ptasoff@berkeley.edu"
+    },
+    "citation": [
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Boye K ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Perzan Z ; Pierce S ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Thibaut R ; Tokunaga T ; Versteeg R ; Wielandt S ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2025): Location Identifiers, Metadata, and Map for Field Measurements at the East-Taylor Watershed Community Observatory, Colorado, USA (Version 3.2). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Soil cores (0-20cm) were collected at each block for each vegetation type, and partitioned into a deeper (2) and shallower (1) for downstream analysis. The samples were then transported in coolers with ice packs, homogenized, and subsampled for DNA extraction and soil physical/chemical analysis. DNA extraction was performed on ~10 g soil samples using the MoBio Laboratories PowerMax Soil DNA Isolation kit with the following modifications as described in (Matheus Carnevali et al., 2021). Sequencing was conducted at the Joint Genome Institute on an Illumina HiSeq-2500 platform, generating 150 bp reads with a 500 bp target insert size, resulting in ~15-20 Gbp for most samples. Raw reads were processed and assembled as described in (Diamond et al., 2019). Assembly was performed using idba_ud with the following parameters (-l 150 -m 1000 -p 48 -k 40 -x 140 -q) with only scaffolds > 1kb considered for further analysis. We assigned ORF predictions using Prodigal (Hyatt et al., 2010) in the -m -p meta configuration. The assemblies were then annotated using USEARCH48 (Edgar, 2010) to search all predicted ORFs against Uniprot49, Uniref90 and KEGGAlongside.",
+      "Assemblies were binned using four autobinners (concoct, maxbin2, metabat2, and vamb) and consolidated using dastool. The consolidated bins from both individual and co-assemblies were pooled, filtered by completeness (>75%) and contamination (<25%), and dereplicated at 95% ANI using drep. Using our in house ggKbase web server genome browser, we manually inspected all bins to remove contigs that had significantly different taxonomic annotations than that assigned for the rest of the bin. We assigned a taxonomic name for the bin based on NCBI taxonomic representative genome proteins (ggkbase) and GTDBTK."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-37fe6b01f6ccfb0-20250819T185350669",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-37fe6b01f6ccfb0-20250819T185350669",
+        "name": "dd.csv",
+        "contentSize": 9.8193359375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-be48e153d7ac059-20250818T165230608",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-be48e153d7ac059-20250818T165230608",
+        "name": "samples.csv",
+        "contentSize": 16.63671875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-815332119cf2ee5-20250819T165640537",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-815332119cf2ee5-20250819T165640537",
+        "name": "EastRiver_Vegtype_sample_metadata.csv",
+        "contentSize": 12.35546875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-83d486950079521-20250813T213821052",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-83d486950079521-20250813T213821052",
+        "name": "locations.csv",
+        "contentSize": 14.53125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-768d6e7fc108513-20250813T213821057",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-768d6e7fc108513-20250813T213821057",
+        "name": "sample_collection_sites.kml",
+        "contentSize": 24.4365234375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0180dfbf88b0fbd-20250813T213821044",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0180dfbf88b0fbd-20250813T213821044",
+        "name": "flmd.csv",
+        "contentSize": 1.0634765625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ff5be1792f0fc57-20250813T213821049",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ff5be1792f0fc57-20250813T213821049",
+        "name": "gtdb_drep_bin_taxonomy.csv",
+        "contentSize": 84.4345703125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-63c73f6c06e56bc-20250813T213821036",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-63c73f6c06e56bc-20250813T213821036",
+        "name": "EastRiver_Vegtype_drep_genome_info.csv",
+        "contentSize": 179.9892578125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e25954ce6d03ebe-20250805T161839617",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-e25954ce6d03ebe-20250805T161839617",
+        "name": "Vegtype_MAGS.zip",
+        "contentSize": 882938.341796875
+      }
+    ]
+  }
+}

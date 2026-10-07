@@ -1,0 +1,239 @@
+{
+  "id": "ess-dive-304e105a97978d2-20240318T165441789",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2318723",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-304e105a97978d2-20240318T165441789",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-304e105a97978d2-20240318T165410819",
+  "dateUploaded": "2024-03-18T16:54:42.961Z",
+  "dateModified": "2024-03-23T00:28:39.547Z",
+  "isPublic": true,
+  "citation": "Gary S; Scheibe T D; Rexer E; Wilde M; Torreira A V; Garayburu-Caruso V A; Goldman A E; Stegen J C (2024): Models, data, and scripts associated with \u201cPrediction of Distributed River Sediment Respiration Rates using Community-Generated Data and Machine Learning\u201d. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2318723",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2318723",
+    "archivedAt": [
+      {
+        "@type": "WebPage",
+        "name": "GitHub repository with full manuscript workflow",
+        "url": "https://github.com/parallelworks/sl-archive-whondrs/tree/v4.0"
+      }
+    ],
+    "name": "Models, data, and scripts associated with \u201cPrediction of Distributed River Sediment Respiration Rates using Community-Generated Data and Machine Learning\u201d",
+    "description": [
+      "This data package is associated with the publication \u201cPrediction of Distributed River Sediment Respiration Rates using Community-Generated Data and Machine Learning\u2019\u2019 submitted to the Journal of Geophysical Research: Machine Learning and Computation (Scheibe et al. 2024). River sediment respiration observations are expensive and labor intensive to obtain and there is no physical model for predicting this quantity. The Worldwide Hydrobiogeochemisty Observation Network for Dynamic River Systems (WHONDRS) observational data set (Goldman et al.; 2020) is used to train machine learning (ML) models to predict respiration rates at unsampled sites. This repository archives training data, ML models, predictions, and model evaluation results for the purposes of reproducibility of the results in the associated manuscript and community reuse of the ML models trained in this project. One of the key challenges in this work was to find an optimum configuration for machine learning models to work with this feature-rich (i.e. 100+ possible input variables) data set. Here, we used a two-tiered approach to managing the analysis of this complex data set: 1) a stacked ensemble of ML models that can automatically optimize hyperparameters to accelerate the process of model selection and tuning and 2) feature permutation importance to iteratively select the most important features (i.e. inputs) to the ML models. The major elements of this ML workflow are modular, portable, open, and cloud-based, thus making this implementation a potential template for other applications. This data package is associated with the GitHub repository found at",
+      "Please see the file level metadata (flmd; \u201csl-archive-whondrs_flmd.csv\u201d) for a list of all files contained in this data package and descriptions for each. Please see the data dictionary (dd; \u201csl-archive-whondrs_dd.csv\u201d) for a list of all column headers contained within comma separated value (csv) files in this data package and descriptions for each. The GitHub repository is organized into five top-level directories: (1) \u201cinput_data\u201d holds the training data for the ML models; (2) \u201cml_models\u201d holds machine learning models trained on the data in \u201cinput_data\u201d; (3) \u201cscripts\u201d contains data preprocessing and postprocessing scripts and intermediate results specific to this data set that bookend the ML workflow; (4) \u201cexamples\u201d contains the visualization of the results in this repository including plotting scripts for the manuscript (e.g., model evaluation, FPI results) and scripts for running predictions with the ML models (i.e., reusing the trained ML models); (5) \u201coutput_data\u201d holds the overall results of the ML model on that branch. Each trained ML model resides on its own branch in the repository; this means that inputs and outputs can be different branch-to-branch. Furthermore, depending on the number of features used to train the ML models, the preprocessing and postprocessing scripts, and their intermediate results, can also be different branch-to-branch. The \u201cmain-*\u201d branches are meant to be starting points (i.e. trunks) for each model branch (i.e. sprouts). Please see the Branch Navigation section in the top-level README.md in the GitHub repository for more details. There is also one hidden directory \u201c.github/workflows\u201d. This hidden directory contains information for how to run the ML workflow as an end-to-end automated GitHub Action but it is not needed for reusing the ML models archived here. Please the top-level README.md in the GitHub repository for more details on the automation."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3525-5786",
+        "givenName": "Stefan",
+        "familyName": "Gary",
+        "affiliation": "Parallel Works Inc.",
+        "email": "sfgary@parallelworks.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8864-5772",
+        "givenName": "Timothy D.",
+        "familyName": "Scheibe",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0327-183X",
+        "givenName": "Em",
+        "familyName": "Rexer",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "emily.rexer@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6660-6206",
+        "givenName": "Michael",
+        "familyName": "Wilde",
+        "affiliation": "Parallel Works Inc.",
+        "email": "wilde@parallelworks.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0699-7879",
+        "givenName": "Alvaro",
+        "familyName": "Vidal Torreira",
+        "affiliation": "Parallel Works Inc.",
+        "email": "alvaro@parallelworks.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024-02-23",
+    "keywords": [
+      "WHONDRS",
+      "Hyporheic zone",
+      "Respiration",
+      "Machine learning",
+      "ML",
+      "River corridor",
+      "River",
+      "Stream",
+      "Watershed",
+      "Catchment",
+      "CONUS",
+      "Contiguous Unites States",
+      "Flow cytometry",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Model Data Archiving Guidelines"
+    ],
+    "variableMeasured": [
+      "Sediment respiration rate",
+      "15N",
+      "Bacterial abundance",
+      "FTICR-MS",
+      "Non-purgeable organic carbon",
+      "NPOC",
+      "Dissolved organic carbon",
+      "DOC",
+      "Grain size",
+      "Land use",
+      "Climate",
+      "13C",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > ISOTOPES > STABLE ISOTOPES",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER > LAND USE CLASSES"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Contiguous United States (CONUS)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 50,
+            "longitude": -125
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 22,
+            "longitude": -65
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-07-01",
+      "endDate": "2022-08-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3525-5786",
+      "givenName": "Stefan",
+      "familyName": "Gary",
+      "affiliation": "Parallel Works Inc.",
+      "email": "sfgary@parallelworks.com"
+    },
+    "citation": [
+      "Garayburu-Caruso V A ; Goldman A E ; Toyoda J G ; Chu R ; Renteria L ; Stegen J C ; Sengupta A ; Torgeson J M ; Willi K ; Ross M (2022): FTICR-MS Data from Multi-continent River Water and Sediment and from Coastal River Fresh and Saline Sediment Associated with: Dissolved Organic Matter Functional Trait Relationships are Conserved Across Rivers. Early Career Research Program: Watershed Perturbation-Response Traits Derived Through Ecological Theory - Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS), ESS-DIVE repository. Dataset. doi:10.15485/1824222 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1824222 on 2024-01-16.",
+      "Goldman A E ; Arnon S ; Bar-Zeev E ; Chu R K ; Danczak R E ; Daly R A ; Delgado D ; Fansler S ; Forbes B ; Garayburu-Caruso V A ; Graham E B ; Laan M ; McCall M L ; McKever S ; Patel K F ; Ren H ; Renteria L ; Resch C T ; Rod K A ; Tfaily M ; Tolic N ; Torgeson J M ; Toyoda J G ; Wells J ; Wrighton K C ; Stegen J C ; WHONDRS Consortium T (2020): WHONDRS Summer 2019 Sampling Campaign: Global River Corridor Sediment FTICR-MS, Dissolved Organic Carbon, Aerobic Respiration, Elemental Composition, Grain Size, Total Nitrogen and Organic Carbon Content, Bacterial Abundance, and Stable Isotopes (v8). River Corridor and Watershed Biogeochemistry SFA, ESS-DIVE repository. Dataset. doi:10.15485/1729719 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1729719 on 2024-01-16.",
+      "Hartmann et al. (2014) A Brief Overview of the GLObal RIver Chemistry Database, GLORICH. Procedia Earth and Planetary Science, 10, 23-27: https://doi.org/10.1016/j.proeps.2014.08.005.",
+      "Linke, S., Lehner, B., Ouellet Dallaire, C., Ariwi, J., Grill, G., Anand, M., Beames, P., Burchard-Levine, V., Maxwell, S., Moidu, H., Tan, F., Thieme, M. (2019). Global hydro-environmental sub-basin and river reach characteristics at high spatial resolution. Scientific Data 6: 283. doi: https://doi.org/10.1038/s41597-019-0300-6.",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Machine learning models were trained on the WHONDRS observations of river sediment respiration rates corresponding site metadata (Goldman et al., 2020), and Fourier-transform ion cyclotron resonance mass spectrometry (FTICR-MS) analysis (Garayburu-Caruso, 2022). Additional data from large-scale, global databases RiverAtlas (Linke et al., 2019) and GLORICH (Hartmann et al., 2014) were used to supplement the local, site-based metadata of the WHONDRS data. The most important input data to the ML models were quantified with a feature permutation importance analysis (FPI). All ML models were trained and assessed via a workflow that was automatically launched through a GitHub Action triggered by each new release published in the GitHub repository. Each ML model/release is tagged and on a unique git branch. ML models, the training data, and all training and model assessment results were pushed back to the GitHub repository to their respective unique branches. Extensive documentation on the methods is available in the manuscript associated with this data package."
+    ],
+    "distribution": [
+      {
+        "contentSize": 16.1767578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-304e105a97978d2-20240318T165441789",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-304e105a97978d2-20240318T165441789",
+        "name": "Models_data_and_scripts_associated_with.xml"
+      },
+      {
+        "contentSize": 2023339.2978515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-478d6a2da686467-20240304T173916775",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-478d6a2da686467-20240304T173916775",
+        "name": "sl_archive_whondrs.zip"
+      },
+      {
+        "contentSize": 38.0927734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-69ef8d469769136-20240306T164640823",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-69ef8d469769136-20240306T164640823",
+        "name": "sl_archive_whondrs_dd.csv"
+      },
+      {
+        "contentSize": 3236.646484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ffabc8fad53043-20240306T164647220",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-5ffabc8fad53043-20240306T164647220",
+        "name": "readme_sl_archive_whondrs.pdf"
+      },
+      {
+        "contentSize": 93.1259765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-df98ab04b5cae45-20240306T164644296",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-df98ab04b5cae45-20240306T164644296",
+        "name": "sl_archive_whondrs_flmd.csv"
+      }
+    ]
+  }
+}

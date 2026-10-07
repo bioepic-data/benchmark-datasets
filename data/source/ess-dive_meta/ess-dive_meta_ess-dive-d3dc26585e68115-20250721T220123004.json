@@ -1,0 +1,2092 @@
+{
+  "id": "ess-dive-d3dc26585e68115-20250721T220123004",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1603775",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-d3dc26585e68115-20250721T220123004",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d3dc26585e68115-20250721T215625010",
+  "dateUploaded": "2025-07-21T22:01:25.211Z",
+  "dateModified": "2025-07-21T22:01:25.705Z",
+  "isPublic": true,
+  "citation": "Toyoda J G; Goldman A E; Arnon S; Bar-Zeev E; Chu R K; Danczak R E; Daly R A; Forbes B; Garayburu-Caruso V A; Graham E B; Lin X; Moran J J; Ren H; Renteria L; Resch C T; Tfaily M; Tolic N; Torgeson J M; Wells J; Wrighton K C; Stegen J C; Consortium T W (2020): WHONDRS Summer 2019 Sampling Campaign: Global River Corridor Surface Water FTICR-MS, NPOC, TN, Anions, Stable Isotopes, Bacterial Abundance, and Dissolved Inorganic Carbon (v7). River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1603775",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1603775",
+    "name": "WHONDRS Summer 2019 Sampling Campaign: Global River Corridor Surface Water FTICR-MS, NPOC, TN, Anions, Stable Isotopes, Bacterial Abundance, and Dissolved Inorganic Carbon (v7)",
+    "description": [
+      "The WHONDRS Summer 2019 Sampling (S19S) Campaign collected samples in 97 globally distributed river corridor systems between July and September 2019. Surficial streambed sediments were collected at three locations within each site (upstream, midstream, and downstream). Surface water was collected at the downstream site. This dataset includes a portion of the data types produced from the surface water samples and does not include any results from the sediment. Sediment data can be found at https://data.ess-dive.lbl.gov/view/doi:10.15485/1729719. The S19S campaign was designed with the science community to ask questions associated with links among core/transient metabolomes, microbial metabolism, biogeochemical function, and physical properties of watershed and river corridor systems.",
+      "This data package was originally published in March 2020. It was updated in October 2020 (v2; new and modified files); July 2021 (v3; new and modified files); January 2023 (v4; new and modified files); February 2023 (v5; new and modified files); August 2023 (v6; new and modified files); and July 2025 (v7; new and modified files). See the change history in the readme for more details.",
+      "This dataset contains (1) high resolution characterization of dissolved organic matter from surface water via 12 Tesla Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS) through the Environmental Molecular Sciences Laboratory (EMSL; https://www.pnnl.gov/environmental-molecular-sciences-laboratory); (2) non-purgeable organic carbon (NPOC); (3) stable water isotopes (O and H); (4) specific conductivity (SpC), total nitrogen (TN), and anions; (5) flow cytometry bacterial abundance data; (6) dissolved inorganic carbon (DIC) data; (7) metadata, including international generic-sample number (IGSN) mapping file and Joint Genome Institute (JGI) mapping file; (8) file-level metadata (flmd); and (9) data dictionary (dd). The FTICR-MS files are .xml, and the data package includes instructions for using Formularity (https://omics.pnl.gov/software/formularity) and an R script to process the data based on the user\u2019s specific needs. All other files are .csv, .pdf, or .txt. This data package was updated in July 2021 to add SpC, TN, and anion data and accompanying documentation. This data package was updated in January 2023 to add flow cytometry bacterial data, accompanying documentation, flmd, and dd. The data package was updated in February 2023 to add DIC data and accompanying documentation. The data package was updated in August 2023 to add IGSN mapping file, correct field metadata, and update accompanying documentation. See change history in readme for details.",
+      "Please use the data package\u2019s DOI to cite the data package. We ask that you email us at WHONDRS@pnnl.gov to let us know that you are using the data and acknowledge WHONDRS and the U.S. Department of Energy's Environmental System Science program\u2014which generously provides funding to WHONDRS\u2014in your publications, proposals, presentations, etc. All data are free to be used for any purpose, such as for manuscripts, presentations, and grant proposals. There is no obligation to include WHONDRS members as co-authors."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6299-2146",
+        "givenName": "Jason G",
+        "familyName": "Toyoda",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Jason.Toyoda@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7109-8979",
+        "givenName": "Shai",
+        "familyName": "Arnon",
+        "affiliation": "Ben Gurion University of the Negev",
+        "email": "sarnon@bgu.ac.il"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6575-2068",
+        "givenName": "Edo",
+        "familyName": "Bar-Zeev",
+        "affiliation": "Ben Gurion University of the Negev",
+        "email": "edobarzeev@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Rosalie K",
+        "familyName": "Chu",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Rosalie.Chu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert E",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2223-7458",
+        "givenName": "Rebecca A",
+        "familyName": "Daly",
+        "affiliation": "Colorado State University",
+        "email": "Reb.Daly@colostate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl,gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4623-7076",
+        "givenName": "Emily B",
+        "familyName": "Graham",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "emily.graham@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5157-1186",
+        "givenName": "Xinming",
+        "familyName": "Lin",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "xinming.lin@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9081-9017",
+        "givenName": "James J",
+        "familyName": "Moran",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "james.moran@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5545-5470",
+        "givenName": "Huiying",
+        "familyName": "Ren",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Huiying.Ren@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9143-6277",
+        "givenName": "Charles T",
+        "familyName": "Resch",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tom.resch@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3036-2833",
+        "givenName": "Malak",
+        "familyName": "Tfaily",
+        "affiliation": "University of Arizona/Pacific Northwest National Laboratory",
+        "email": "tfaily@email.arizona.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3950-9130",
+        "givenName": "Nikola",
+        "familyName": "Tolic",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "nikola.tolic@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2489-2248",
+        "givenName": "Joshua M",
+        "familyName": "Torgeson",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "joshua.torgeson@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7043-278X",
+        "givenName": "Jacqueline",
+        "familyName": "Wells",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "jacqueline.wells@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0434-4217",
+        "givenName": "Kelly C",
+        "familyName": "Wrighton",
+        "affiliation": "Colorado State University",
+        "email": "Kelly.Wrighton@colostate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "james.stegen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "The",
+        "familyName": "WHONDRS Consortium"
+      }
+    ],
+    "datePublished": "2020",
+    "keywords": [
+      "WHONDRS",
+      "Watershed",
+      "River corridor",
+      "Hydrology",
+      "Biogeochemistry",
+      "Hyporheic zone",
+      "Hydrologic exchange",
+      "River",
+      "Stream",
+      "Carbon",
+      "FTICR",
+      "Metabolite",
+      "Metabolomics",
+      "Mass spectrometry",
+      "Catchment",
+      "Microbiome",
+      "Isotope geochemistry",
+      "Freshwater",
+      "Organic matter",
+      "Flow cytometry",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Sample ID and Metadata Reporting Format",
+      "related identifiers",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "FTICR-MS",
+      "Deuterium",
+      "18-O",
+      "NPOC",
+      "Total nitrogen",
+      "Specific conductance",
+      "Chloride",
+      "Sulfate",
+      "Nitrate",
+      "Nitrite",
+      "Fluoride",
+      "Anions",
+      "Bacterial abundance",
+      "Dissolved inorganic carbon",
+      "DIC",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > ISOTOPES > STABLE ISOTOPES"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "S19S_0001, Fraser River, Hope, British Columbia, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 49.38609,
+            "longitude": -121.45047
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 49.38609,
+            "longitude": -121.45047
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0003, Thompson River, Kamloops, British Columbia, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 50.6888,
+            "longitude": -120.36647
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 50.6888,
+            "longitude": -120.36647
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0004, South Thompson River, Chase, British Columbia, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 50.7751,
+            "longitude": -119.72196
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 50.7751,
+            "longitude": -119.72196
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0005, Assiniboine River, Winnipeg, Manitoba, Canada",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 49.86887,
+            "longitude": -97.40781
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 49.86887,
+            "longitude": -97.40781
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0006, Dead Run, Baltimore, Maryland, USA, NSF Long Term Ecological Research (LTER) site: Baltimore Ecosystem Study",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.311369,
+            "longitude": -76.717163
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.311369,
+            "longitude": -76.717163
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0007, Providence Creek , Shaver Lake, California, USA, USDA Forest Service Experimental Watershed site: King's River",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.05255,
+            "longitude": -119.195598
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.05255,
+            "longitude": -119.195598
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0008, Teakettle T003 Stream, Shaver Lake, California, USA, USDA Forest Service Experimental Watershed site: King's River",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.961112,
+            "longitude": -119.027785
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 36.961112,
+            "longitude": -119.027785
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0009, Little Wind River, Riverton, Wyoming, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.9877,
+            "longitude": -108.3983
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.9877,
+            "longitude": -108.3983
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0010, Altamaha River, Doctortown, Georgia, USA, NSF Long Term Ecological Research (LTER) site: Georgia Coastal Ecosystems",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.667875,
+            "longitude": -81.840062
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.667875,
+            "longitude": -81.840062
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0011, Middle Oconee River, Athens, Georgia, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.955686,
+            "longitude": -83.437674
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.955686,
+            "longitude": -83.437674
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0012, Hop Brook, New Salem, Massachusetts, USA, National Ecological Observatory (NEON) site: HOPB",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.47179,
+            "longitude": -72.33027
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.47179,
+            "longitude": -72.33027
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0013, Posey Creek, Front Royal, Virginia, USA, National Ecological Observatory (NEON) site: POSE",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8952,
+            "longitude": -78.1476
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8952,
+            "longitude": -78.1476
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0014, Lewis Run, Berryville, Virginia, USA, National Ecological Observatory (NEON) site: LEWI",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0941,
+            "longitude": -77.9808
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.0941,
+            "longitude": -77.9808
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0015, Flint River, Newton, Georgia, USA, National Ecological Observatory (NEON) site: FLNT",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.184396,
+            "longitude": -84.439009
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.184396,
+            "longitude": -84.439009
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0016, King's Creek River, Manhattan, Kansas, USA, National Ecological Observatory (NEON) site: KING",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.10445,
+            "longitude": -96.6025
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.10445,
+            "longitude": -96.6025
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0017, McDiffett Creek River, Manhattan, Kansas, USA, National Ecological Observatory (NEON) site: MCDI",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.94668,
+            "longitude": -96.44355
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.94668,
+            "longitude": -96.44355
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0018, LeConte Creek, Gatlinburg, Tennessee, USA, National Ecological Observatory (NEON) site: LECO",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.6922935,
+            "longitude": -83.504941
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.6922935,
+            "longitude": -83.504941
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0019, Walker Branch River, Oak Ridge, Tennessee, USA, National Ecological Observatory (NEON) site: WALK",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.9563807,
+            "longitude": -84.278999
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.9563807,
+            "longitude": -84.278999
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0020, Tombigbee River, Toxey, AL, Alabama, USA, National Ecological Observatory (NEON) site: TOMB",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.85294,
+            "longitude": -88.15755
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 31.85294,
+            "longitude": -88.15755
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0021, Black Warrior River, Demopolis, Alabama, USA, National Ecological Observatory (NEON) site: BLWA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.54069,
+            "longitude": -87.79835
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.54069,
+            "longitude": -87.79835
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0022, Mayfield Creek, Moundville, Alabama, USA, National Ecological Observatory (NEON) site: MAYF",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.96161,
+            "longitude": -87.40811
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.96161,
+            "longitude": -87.40811
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0023, Arikaree River, Idalia, Colorado, USA, National Ecological Observatory (NEON) site: ARIK",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.75841,
+            "longitude": -102.44896
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.75841,
+            "longitude": -102.44896
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0024, Blue River, Connerville, Oklahoma, USA, National Ecological Observatory (NEON) site: BLUE",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.44205,
+            "longitude": -96.6227
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.44205,
+            "longitude": -96.6227
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0025, Pringle Creek, Alvord, Texas, USA, National Ecological Observatory (NEON) site: PRIN",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.37853,
+            "longitude": -97.78275
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.37853,
+            "longitude": -97.78275
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0026, Como Creek, Nederland, Colorado, USA, National Ecological Observatory (NEON) site: COMO",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.03489,
+            "longitude": -105.54327
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.03489,
+            "longitude": -105.54327
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0027, West St. Louis Creek, Fraser, Colorado, USA, National Ecological Observatory (NEON) site: WLOU",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.89064,
+            "longitude": -105.91125
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.89064,
+            "longitude": -105.91125
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0028, Sycamore Creek, Mesa, Arizona, USA, National Ecological Observatory (NEON) site: SYCA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.750675,
+            "longitude": -111.507871
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.750675,
+            "longitude": -111.507871
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0029, Red Butte Creek, Salt Lake City, Utah, USA, National Ecological Observatory (NEON) site: REDB",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.78319,
+            "longitude": -111.80126
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.78319,
+            "longitude": -111.80126
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0030, Martha Creek, Stabler, Washington, USA, National Ecological Observatory (NEON) site: MART",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.792348,
+            "longitude": -121.929131
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.792348,
+            "longitude": -121.929131
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0031, McRae Creek, Blue River, Oregon, USA, National Ecological Observatory (NEON) site: MCRA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2602628,
+            "longitude": -122.1650676
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2602628,
+            "longitude": -122.1650676
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0032, Teakettle 2 Creek River, Sierra National Forest, California, USA, National Ecological Observatory (NEON) site: RECR",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.95545,
+            "longitude": -119.02313
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.95545,
+            "longitude": -119.02313
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0033, Big Creek River, Auberry, California, USA, National Ecological Observatory (NEON) site: BIGC",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.0576,
+            "longitude": -119.2554
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.0576,
+            "longitude": -119.2554
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0034, La Jara River, Los Alamos, New Mexico, USA, NSF Critical Zone Observatory (CZO) site: Jemez/Valle Caldera",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.8677,
+            "longitude": -106.5233
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.8677,
+            "longitude": -106.5233
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0035, Marshall Gulch River, Summerhaven, Arizona, USA, NSF Critical Zone Observatory (CZO) site: Santa Catalina",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.42735,
+            "longitude": -110.757838
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.42735,
+            "longitude": -110.757838
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0036, Columbia River, Richland, Washington, USA, US DOE Biological and Environmental Research (BER) Scientific Focus Area (SFA) watershed testbed site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.372515,
+            "longitude": -119.271902
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.372515,
+            "longitude": -119.271902
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0037, White Clay Creek, Avondale, Pennsylvania, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.8577967,
+            "longitude": -75.7830393
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.8577967,
+            "longitude": -75.7830393
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0038, White Clay Creek, Avondale, Pennsylvania, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.8594333,
+            "longitude": -75.7839486
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.8594333,
+            "longitude": -75.7839486
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0039, East Fork Poplar Creek, Oak Ridge, Tennessee, USA, US DOE Biological and Environmental Research (BER) Scientific Focus Area (SFA) watershed testbed site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.966194,
+            "longitude": -84.359197
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.966194,
+            "longitude": -84.359197
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0040, Kings Creek (N04D), Manhattan, Kansas, USA, NSF Long Term Ecological Research (LTER) site: Konza Prairie",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.087889,
+            "longitude": -96.584725
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.087889,
+            "longitude": -96.584725
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0041, Crooked River, Prineville, Oregon, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.299994,
+            "longitude": -120.858196
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.299994,
+            "longitude": -120.858196
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0042, Shark River Slough, Flamingo, Florida, USA, NSF Long Term Ecological Research (LTER) site: Florida Coastal Everglades",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 25.40976,
+            "longitude": -80.96434
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 25.40976,
+            "longitude": -80.96434
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0043, Dorn Creek, Middleton, Wisconsin, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.14501,
+            "longitude": -89.472992
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.14501,
+            "longitude": -89.472992
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0044, Huger Creek, Cordesville, South Carolina, USA, USDA Forest Service Experimental Forest: Santee",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.131027,
+            "longitude": -79.811134
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.131027,
+            "longitude": -79.811134
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0045, Erpe River Sidechannel, Berlin-Heidem\u00fchle, Brandenburg, Germany",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 52.475193,
+            "longitude": 13.631299
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 52.475193,
+            "longitude": 13.631299
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0046, Nigardsbreen River, Nigardsbreen, Not_Provided, Norway",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 61.67559,
+            "longitude": 7.21246
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 61.67559,
+            "longitude": 7.21246
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0047, Kuparuk River, Toolik Field Station, Alaska, USA, NSF Long Term Ecological Research (LTER) site: Arctic",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 68.64278,
+            "longitude": -149.40333
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.64278,
+            "longitude": -149.40333
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0048, Rio Cupeyes, Sabana Grande, Puerto Rico, USA, National Ecological Observatory (NEON) site: CUPE",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 18.10996,
+            "longitude": -66.98618
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 18.10996,
+            "longitude": -66.98618
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0049, Rio Guilarte, Adjuntas, Puerto Rico, USA, National Ecological Observatory (NEON) site: GUIL",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 18.17443,
+            "longitude": -66.80038
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 18.17443,
+            "longitude": -66.80038
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0050, Oksrukuyik Creek, North Slope Borough, Alaska, USA, National Ecological Observatory (NEON) site: OKSR",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 68.66953,
+            "longitude": -149.14198
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.66953,
+            "longitude": -149.14198
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0051, Caribou Creek, Fairbanks, Alaska, USA, National Ecological Observatory (NEON) site: CARI",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.1531,
+            "longitude": -147.50267
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.1531,
+            "longitude": -147.50267
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0052, Platte Kill River, Dunraven, New York, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.13187,
+            "longitude": -74.69563
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.13187,
+            "longitude": -74.69563
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0053, Farmington River, Simsbury, Connecticut, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.869567,
+            "longitude": -73.00222222
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.869567,
+            "longitude": -73.00222222
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0054, Pamunkey River, New Kent, Virginia, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.57261,
+            "longitude": -77.0237
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.57261,
+            "longitude": -77.0237
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0055, South Fork Polouse River, Pullman, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.732428,
+            "longitude": -117.180863
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.732428,
+            "longitude": -117.180863
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0056, Nakdong River, Busan, Not_Provided, South Korea",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.1632,
+            "longitude": 128.9646
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.1632,
+            "longitude": 128.9646
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0057, Tims Branch River, Aiken, South Carolina, USA, US DOE Biological and Environmental Research (BER) Scientific Focus Area (SFA) watershed testbed site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33.337475,
+            "longitude": -81.718207
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33.337475,
+            "longitude": -81.718207
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0058, Jordan River, Gesher Arik, Not_Provided, Israel",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.89919667,
+            "longitude": 35.6136003
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.89919667,
+            "longitude": 35.6136003
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0059, Heel Creek tributary, Deer Valley, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 48.16874998,
+            "longitude": -117.3915976
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 48.16874998,
+            "longitude": -117.3915976
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0060, Yakima River, Benton City, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.2531882,
+            "longitude": -119.4768203
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.2531882,
+            "longitude": -119.4768203
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0061, Black Earth Creek, Cross Plains, Wisconsin, USA, NSF Long Term Ecological Research (LTER) site: North Temperate Lakes",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.1095,
+            "longitude": -89.6407
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.1095,
+            "longitude": -89.6407
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0062, Gunnison River, Gunnison, Colorado, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.544583,
+            "longitude": -106.950417
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.544583,
+            "longitude": -106.950417
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0063, Lower Colorado River, Austin, Texas, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 30.250335,
+            "longitude": -97.709399
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30.250335,
+            "longitude": -97.709399
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0064, Shavers Creek, Petersburg, Pennsylvania, USA, NSF Critical Zone Observatory (CZO) site: Shale Hills",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.61043,
+            "longitude": -78.00803
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.61043,
+            "longitude": -78.00803
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0065, Russian River, Guerneville, California, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.509458,
+            "longitude": -122.888357
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.509458,
+            "longitude": -122.888357
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0066, Rio Grande, Albuquerque, New Mexico, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.19845,
+            "longitude": -106.643178
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.19845,
+            "longitude": -106.643178
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0067, Augusta Creek, Hickory Corners, Michigan, USA, NSF Long Term Ecological Research (LTER) site: Kellogg Biological Station",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.3921,
+            "longitude": -85.35412
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.3921,
+            "longitude": -85.35412
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0068, Watershed 1 (WS1) stream, Blue River, Oregon, USA, USDA Forest Service Experimental Forest site: HJ Andrews",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.207316,
+            "longitude": -122.258091
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.207316,
+            "longitude": -122.258091
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0069, North Fork. Caspar Creek, Ft. Bragg, California, USA, USDA Forest Service Experimental Watershed site: Caspar Creek",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.362202,
+            "longitude": -123.735151
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.362202,
+            "longitude": -123.735151
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0070, South Fork Caspar Creek, Ft. Bragg, California, USA, USDA Forest Service Experimental Watershed site: Caspar Creek",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.339914,
+            "longitude": -123.752414
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.339914,
+            "longitude": -123.752414
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0071, Gordon Creek, Nederland, Colorado, USA, NSF Critical Zone Observatory (CZO) site: Boulder Creek",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.012917,
+            "longitude": -105.458575
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.012917,
+            "longitude": -105.458575
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0072, Sawmill Brook, Burlington, Massachusettes, USA, NSF Long Term Ecological Research (LTER) site: Plum Island Ecosystems",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.5235645,
+            "longitude": -71.1848201
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.5235645,
+            "longitude": -71.1848201
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0073, Cart Creek, Newbury, Massachusettes, USA, NSF Long Term Ecological Research (LTER) site: Plum Island Ecosystems",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.7688065,
+            "longitude": -70.9164986
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.7688065,
+            "longitude": -70.9164986
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0074, Columbia River, Richland, Washington, USA, US DOE Biological and Environmental Research (BER) Scientific Focus Area (SFA) watershed testbed site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.376172,
+            "longitude": -119.272998
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.376172,
+            "longitude": -119.272998
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0075, Columbia River, Richland, Washington, USA, US DOE Biological and Environmental Research (BER) Scientific Focus Area (SFA) watershed testbed site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.694742,
+            "longitude": -119.465555
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.694742,
+            "longitude": -119.465555
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0076, Columbia River, Richland, Washington, USA, US DOE Biological and Environmental Research (BER) Scientific Focus Area (SFA) watershed testbed site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.679191,
+            "longitude": -119.462605
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.679191,
+            "longitude": -119.462605
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0077, Cache La Poudre River, Fort Collins, Colorado, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.66403,
+            "longitude": -105.223141
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.66403,
+            "longitude": -105.223141
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0078, Little Wolf Creek, Tyee, Oregon, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.43138889,
+            "longitude": -123.5855556
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.43138889,
+            "longitude": -123.5855556
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0079, Umpqua River, Elkton, Oregon, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.6369,
+            "longitude": -123.5721
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.6369,
+            "longitude": -123.5721
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0080, Rio Grande, South Valley, New Mexico, USA, NSF Long Term Ecological Research (LTER) site: Sevilleta",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.950811,
+            "longitude": -106.681374
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.950811,
+            "longitude": -106.681374
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0081, Northeast Branch of Anacostia River, Riverdale, Maryland, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.960004,
+            "longitude": -76.9261495
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.960004,
+            "longitude": -76.9261495
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0082, Muddy Creek, Edgewater, Maryland, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8748619,
+            "longitude": -76.5465418
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8748619,
+            "longitude": -76.5465418
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0083, Sangamon River, Fisher, Illinois, USA, NSF Critical Zone Observatory (CZO) site: Intensively Managed Landscapes",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.31083,
+            "longitude": -88.3227
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.31083,
+            "longitude": -88.3227
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0084, Watershed 3 (WS3) River, North Woodstock, New Hampshire, USA, USDA Forest Service Experimental Forest site: HJ Andrews",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.954722,
+            "longitude": -71.722778
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.954722,
+            "longitude": -71.722778
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0085, Mores Creek, Idaho City, Idaho, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.6479639,
+            "longitude": -115.9902503
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.6479639,
+            "longitude": -115.9902503
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0086, Red Butte Creek, Salt Lake City, Utah, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.7797,
+            "longitude": -111.8064
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.7797,
+            "longitude": -111.8064
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0087, Dobson Creek, Boise, ID, Idaho, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.1233451,
+            "longitude": -116.7743431
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.1233451,
+            "longitude": -116.7743431
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0089, Stroubles Creek, Blacksburg, Virginia USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.21008,
+            "longitude": -80.44539
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.21008,
+            "longitude": -80.44539
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0090, Cobb Mill Creek, Oyster, Virginia, USA, NSF Long Term Ecological Research (LTER) site: Virginia Coast Reserve",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.291383,
+            "longitude": -75.930606
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.291383,
+            "longitude": -75.930606
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0091, Copper River, Cordova, Alaska, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 60.520868,
+            "longitude": -144.837472
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 60.520868,
+            "longitude": -144.837472
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0092, Blythe River, Birmingham, UK",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 52.419447,
+            "longitude": -1.704013
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 52.419447,
+            "longitude": -1.704013
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0093, Wood Brook, Stafford, UK",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 52.800556,
+            "longitude": -2.304833
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 52.800556,
+            "longitude": -2.304833
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0094, Icacos River, Naguabo, Puerto Rico, USA, NSF Critical Zone Observatory (CZO) site: Luquillo",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 18.2754452,
+            "longitude": -65.7852826
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 18.2754452,
+            "longitude": -65.7852826
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0096, Orco River, San Benigno Canavese, Italy",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.2473368,
+            "longitude": 7.805425
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.2473368,
+            "longitude": 7.805425
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0097, Logan River, Logan, Utah, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.720847,
+            "longitude": -111.8865
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.720847,
+            "longitude": -111.8865
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0098, Logan River, Logan, Utah, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.950204,
+            "longitude": -111.580533
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.950204,
+            "longitude": -111.580533
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0099, Great Miami River, Cincinnati, Ohio, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.2385932,
+            "longitude": -84.7119066
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.2385932,
+            "longitude": -84.7119066
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "S19S_0100, East River, Crested Butte, Colorado, USA, US DOE Biological and Environmental Research (BER) Scientific Focus Area (SFA) watershed testbed site",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.92352,
+            "longitude": -106.950961
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.92352,
+            "longitude": -106.950961
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-07-29",
+      "endDate": "2019-09-19",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9135-7424",
+      "givenName": "James C",
+      "familyName": "Stegen",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "whondrs@pnnl.gov"
+    },
+    "citation": [
+      "SAMPLES WITHIN THIS DATASET",
+      "Globally unique identifier (IGSN) for physical sample associated with dataset. There are a total of 194 individual samples associated with the dataset, which consist of 97 Liquid>aqueous samples and 97 other (filter) samples. More information describing the samples is provided in the WHONDRS_S19S_SW_Metadata_IGSN-Mapping.csv dataset file (within v6_WHONDRS_S19S_SW.zip)",
+      "ASSOCIATED JOURNAL ARTICLE(S)",
+      "Garayburu-Caruso et al., (2020) \"Using Community Science to Reveal the Global Chemogeography of River Metabolomes\" https://doi.org/10.3390/metabo10120518",
+      "Borton et al., (2022) \"It Takes a Village: Using a Crowdsourced Approach to Investigate Organic Matter Composition in Global Rivers Through the Lens of Ecological Theory\" https://doi.org/10.3389/frwa.2022.870453",
+      "Stegen et al., (2022) \"Organic matter transformations are disconnected between surface water and the hyporheic zone\" https://doi.org/10.5194/bg-19-3099-2022",
+      "Buser-Young et al., (2023) \"Determining the biogeochemical transformations of organic matter composition in rivers using molecular signatures\" https://doi.org/10.3389/frwa.2023.1005792",
+      "Stadler et al., (2023) \"Applying the core-satellite species concept: Characteristics of rare and common riverine dissolved organic matter\" https://doi.org/10.3389/frwa.2023.1156042",
+      "Ahamed et al., (2023) \"Exploring the determinants of organic matter bioavailability through substrate-explicit thermodynamic modeling\" https://doi.org/10.3389/frwa.2023.1169701",
+      "Stegen et al., (2023) \"Macroscale Patterns of Dissolved Organic Matter Thermodynamic Properties Across Diverse River Systems\" https://doi.org/10.21203/rs.3.rs-3453829/v1",
+      "Gary et al., (2024) \u201cPrediction of Distributed River Sediment Respiration Rates Using Community-Generated Data and Machine Learning\u201d https://doi.org/10.1029/2024JH000199",
+      "REFERENCES - RELATED DATASET(S)",
+      "Goldman et al., (2020) \u201cWHONDRS Summer 2019 Sampling Campaign: Global River Corridor Sediment FTICR-MS, Dissolved Organic Carbon, Aerobic Respiration, Elemental Composition, Grain Size, Total Nitrogen and Organic Carbon Content, Bacterial Abundance, and Stable Isotopes (v8)\u201d. ESS-DIVE. https://doi.org/10.15485/1729719",
+      "Damerow et al., (2020) \"Sample Identifiers and Metadata Reporting Format for Environmental Systems Science\". ESS-DIVE. https://doi.org/10.15485/1660470",
+      "Velliquette et al., (2021) \"ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure\". ESS-DIVE. https://doi.org/10.15485/1734841",
+      "Velliquette et al., (2021) \"ESS-DIVE Reporting Format for File-level Metadata\". ESS-DIVE. https://doi.org/10.15485/1734840",
+      "JGI metagenomes and metatranscriptomes data associated with \"Creating the GROW (Genome Resolved Open Watershed) Database: Leveraging Distributed Research Networks to Understand Watershed Systems\" https://genome.jgi.doe.gov/portal/CretheWatSystems/CretheWatSystems.info.html",
+      "REFERENCES - STUDY REGISTRATION(S)",
+      "Joint Genome Institute (JGI) Award \"Creating the GROW (Genome Resolved Open Watershed) Database: Leveraging Distributed Research Networks to Understand Watershed Systems\" https://doi.org/10.46936/10.25585/60001289",
+      "NMDC study page \"Creating the GROW (Genome Resolved Open Watershed) Database: Leveraging Distributed Research Networks to Understand Watershed Systems\" https://data.microbiomedata.org/details/study/nmdc:sty-11-5tgfr349",
+      "NCBI Bioproject associated with \"Genome Resolved Open Watersheds database (GROWdb)\" https://www.ncbi.nlm.nih.gov/bioproject/946291",
+      "REFERENCES - WORKFLOW(S)",
+      "Borton et al., (2022) \"GROWdb US River Systems - Samples\". KBase. https://doi.org/10.25982/109073.30/1895615",
+      "REFERENCES - JOURNAL ARTICLE(S)",
+      "Stegen & Goldman, (2018) \"WHONDRS: a community resource for studying dynamic river corridors\" https://doi.org/10.1128/mSystems.00151-18",
+      "Borton et al., (2023) \"A functional microbiome catalog crowdsourced from North American rivers\" https://doi.org/10.1101/2023.07.22.550117",
+      "DATA DERIVED FROM THIS DATASET",
+      "Gary et al., (2024) \"Models, data, and scripts associated with 'Prediction of Distributed River Sediment Respiration Rates using Community-Generated Data and Machine Learning'\". ESS-DIVE. https://doi.org/10.15485/2318723",
+      "Stegen et al., (2021) \"FTICR-MS and Biochemical Transformation Data from Global Inland River Water and Sediment Associated with: 'Organic Matter Transformations are Disconnected Between Surface Water and the Hyporheic Zone'\". ESS-DIVE. https://doi.org/10.15485/1839188",
+      "Garayburu-Caruso et al., (2022) \"FTICR-MS Data from Multi-continent River Water and Sediment and from Coastal River Fresh and Saline Sediment Associated with: 'Dissolved Organic Matter Functional Trait Relationships are Conserved Across Rivers'\". ESS-DIVE. https://doi.org/10.15485/1824222",
+      "Roebuck et al., (2023) \"Scripts and data associated with a manuscript linking soil and sediment elemental composition with dissolved organic matter chemistry across CONUS\". ESS-DIVE. https://doi.org/10.15485/2246724",
+      "Muller et al., (2024) \"Data and Scripts associated with 'Lambda-PFLOTRAN: Workflow for Incorporating Organic Matter Chemistry Informed by Ultra High Resolution Mass Spectrometry into Biogeochemical Modeling.'\". ESS-DIVE. https://doi.org/10.15485/2281403",
+      "SOURCE DATA",
+      "Environmental Molecular Sciences Laboratory (EMSL) Award \"Influences of Hydrologic Exchange Flows on River Corridor and Watershed Biogeochemical Function\" https://doi.org/10.46936/cpcy.proj.2019.51180/60006718"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Sampling kits were distributed to the collaborators listed below, which comprise the WHONDRS Consortium in the author list: Soonmo An, Ted Bambakidis, Edo Barzeev, Raven L. Bier, Fulvio Boano, Jan Boll, Ben Bond-Lamberty, Eric M Bottos, Nicolai Brekenfeld, Martin A. Briggs, Jon Chorover, Darla R. Clowser, Jennifer Drummond, Tiana Fabiana, Stephen B Ferencz, Alejandro N. Flores, Jennifer J. Follstad Shah, Brandon Forsythe, Ricardo Gonz\u00e1lez-Pinz\u00f3n, Peter Groffman, D. Christian Guzman, Stephen K. Hamilton, Adam B. Haynes, Skuyler P. Herzog, Erin R. Hotchkiss, Nina Jung, Tyler Kappen, Elizabeth Keppeler, Adam Killebrew, John S. Kominoski, Stefan Krause, Anna Lena Kronsbein, Joerg Lewandowski, Kathleen Ann Lohse , Eileen Lukens, Katherine McCredie, William H. McDowell, Jeffery T. McGarr, Alexander Medvedeff, , Aaron Mills, Phillip Moffatt, Bryan Moravec, Birgit Maria Mueller, Erin Murray, Caroline S. Nash, Bethany T. Neilson, Amelia R. Nelson, Stephanie C. Pennington, Ann Petersen, Julie C. Pett-Ridge, Andrew L. Robison, Morgan Schultz, Hanna Schulz, Mohamad Reza Soltanian, Bongkeun Song, Emily Stanley, Carl Trettin, Allison N. Vincent, Joseph W. Wagenbrenner, Corey D. Wallace, Adam S. Ward, Wilfred M. Wollheim, Michael J. Wilkins, Jacob Clement Yde, and Jay P. Zarnetske.",
+      "See the metadata folder for the sampling protocol and analysis information. The following is a general overview of the steps that most samples went through after collection: Samples were stored on wet/blue ice or at 4C until shipped to PNNL. At PNNL, one vial that had been filled to avoid any headspace was stored at 4C until analysis for stable water isotopes (2H, 18O). Three pre-acidified vials were stored at -20C until used for NPOC and FTICR-MS. Prior to analysis on the FTICR-MS, samples were diluted as needed to achieve a consistent NPOC concentration and underwent solid phase extraction (SPE). See metadata folder for files containing methods codes and sample handling details (see files with \u2018Tracking\u2019 in the name). Methods codes are used to indicate details of sample handling, including deviations from the standard protocol.",
+      "Approach to change history and versioning:\nUpdates to data package version: When any file within a data package is updated, the data package version number is updated. The data package version number is indicated in the title of the data package, the data package folder name, and in the change history table below. You can access previous versions of the data package by sending a request to ESS-DIVE.\nUpdates to individual file versions: As files are changed, the file version number is also updated. The file version number is indicated in the file name, file level metadata (flmd) file, and the change history table below. The version number on an individual file may not match the version number of the data package. For example, v3 of a data package may include v2 of an individual file.",
+      "This section provides a list of all parent site locations, from which the physical samples were collected. More information describing the samples is provided in the location landing pages (links below).\nSample Name IGSN PID IGSN URL\nS19S_0001 IGSN:10.58052/IEWDR00OJ https://doi.org/10.58052/IEWDR00OJ\nS19S_0003 IGSN:10.58052/IEWDR00OK https://doi.org/10.58052/IEWDR00OK\nS19S_0004 IGSN:10.58052/IEWDR00OL https://doi.org/10.58052/IEWDR00OL\nS19S_0005 IGSN:10.58052/IEWDR00OM https://doi.org/10.58052/IEWDR00OM\nS19S_0006 IGSN:10.58052/IEWDR00ON https://doi.org/10.58052/IEWDR00ON\nS19S_0007 IGSN:10.58052/IEWDR00OO https://doi.org/10.58052/IEWDR00OO\nS19S_0008 IGSN:10.58052/IEWDR00OP https://doi.org/10.58052/IEWDR00OP\nS19S_0009 IGSN:10.58052/IEWDR00OQ https://doi.org/10.58052/IEWDR00OQ\nS19S_0010 IGSN:10.58052/IEWDR00OR https://doi.org/10.58052/IEWDR00OR\nS19S_0011 IGSN:10.58052/IEWDR00OS https://doi.org/10.58052/IEWDR00OS\nS19S_0012 IGSN:10.58052/IEWDR00OT https://doi.org/10.58052/IEWDR00OT\nS19S_0013 IGSN:10.58052/IEWDR00OU https://doi.org/10.58052/IEWDR00OU\nS19S_0014 IGSN:10.58052/IEWDR00OV https://doi.org/10.58052/IEWDR00OV\nS19S_0015 IGSN:10.58052/IEWDR00OW https://doi.org/10.58052/IEWDR00OW\nS19S_0016 IGSN:10.58052/IEWDR00OX https://doi.org/10.58052/IEWDR00OX\nS19S_0017 IGSN:10.58052/IEWDR00OY https://doi.org/10.58052/IEWDR00OY\nS19S_0018 IGSN:10.58052/IEWDR00OZ https://doi.org/10.58052/IEWDR00OZ\nS19S_0019 IGSN:10.58052/IEWDR00P0 https://doi.org/10.58052/IEWDR00P0\nS19S_0020 IGSN:10.58052/IEWDR00P1 https://doi.org/10.58052/IEWDR00P1\nS19S_0021 IGSN:10.58052/IEWDR00P2 https://doi.org/10.58052/IEWDR00P2\nS19S_0022 IGSN:10.58052/IEWDR00P3 https://doi.org/10.58052/IEWDR00P3\nS19S_0023 IGSN:10.58052/IEWDR00P4 https://doi.org/10.58052/IEWDR00P4\nS19S_0024 IGSN:10.58052/IEWDR00P5 https://doi.org/10.58052/IEWDR00P5\nS19S_0025 IGSN:10.58052/IEWDR00P6 https://doi.org/10.58052/IEWDR00P6\nS19S_0026 IGSN:10.58052/IEWDR00P7 https://doi.org/10.58052/IEWDR00P7\nS19S_0027 IGSN:10.58052/IEWDR00P8 https://doi.org/10.58052/IEWDR00P8\nS19S_0028 IGSN:10.58052/IEWDR00P9 https://doi.org/10.58052/IEWDR00P9\nS19S_0029 IGSN:10.58052/IEWDR00PA https://doi.org/10.58052/IEWDR00PA\nS19S_0030 IGSN:10.58052/IEWDR00PB https://doi.org/10.58052/IEWDR00PB\nS19S_0031 IGSN:10.58052/IEWDR00PC https://doi.org/10.58052/IEWDR00PC\nS19S_0032 IGSN:10.58052/IEWDR00PD https://doi.org/10.58052/IEWDR00PD\nS19S_0033 IGSN:10.58052/IEWDR00PE https://doi.org/10.58052/IEWDR00PE\nS19S_0034 IGSN:10.58052/IEWDR00PF https://doi.org/10.58052/IEWDR00PF\nS19S_0035 IGSN:10.58052/IEWDR00PG https://doi.org/10.58052/IEWDR00PG\nS19S_0036 IGSN:10.58052/IEWDR00PH https://doi.org/10.58052/IEWDR00PH\nS19S_0037 IGSN:10.58052/IEWDR00PI https://doi.org/10.58052/IEWDR00PI\nS19S_0038 IGSN:10.58052/IEWDR00PJ https://doi.org/10.58052/IEWDR00PJ\nS19S_0039 IGSN:10.58052/IEWDR00PK https://doi.org/10.58052/IEWDR00PK\nS19S_0040 IGSN:10.58052/IEWDR00PL https://doi.org/10.58052/IEWDR00PL\nS19S_0041 IGSN:10.58052/IEWDR00PM https://doi.org/10.58052/IEWDR00PM\nS19S_0042 IGSN:10.58052/IEWDR00PN https://doi.org/10.58052/IEWDR00PN\nS19S_0043 IGSN:10.58052/IEWDR00PO https://doi.org/10.58052/IEWDR00PO\nS19S_0044 IGSN:10.58052/IEWDR00PP https://doi.org/10.58052/IEWDR00PP\nS19S_0045 IGSN:10.58052/IEWDR00PQ https://doi.org/10.58052/IEWDR00PQ\nS19S_0046 IGSN:10.58052/IEWDR00PR https://doi.org/10.58052/IEWDR00PR\nS19S_0047 IGSN:10.58052/IEWDR00PS https://doi.org/10.58052/IEWDR00PS\nS19S_0048 IGSN:10.58052/IEWDR00PT https://doi.org/10.58052/IEWDR00PT\nS19S_0049 IGSN:10.58052/IEWDR00PU https://doi.org/10.58052/IEWDR00PU\nS19S_0050 IGSN:10.58052/IEWDR00PV https://doi.org/10.58052/IEWDR00PV\nS19S_0051 IGSN:10.58052/IEWDR00PW https://doi.org/10.58052/IEWDR00PW\nS19S_0052 IGSN:10.58052/IEWDR00PX https://doi.org/10.58052/IEWDR00PX\nS19S_0053 IGSN:10.58052/IEWDR00PY https://doi.org/10.58052/IEWDR00PY\nS19S_0054 IGSN:10.58052/IEWDR00PZ https://doi.org/10.58052/IEWDR00PZ\nS19S_0055 IGSN:10.58052/IEWDR00Q0 https://doi.org/10.58052/IEWDR00Q0\nS19S_0056 IGSN:10.58052/IEWDR00Q1 https://doi.org/10.58052/IEWDR00Q1\nS19S_0057 IGSN:10.58052/IEWDR00Q2 https://doi.org/10.58052/IEWDR00Q2\nS19S_0058 IGSN:10.58052/IEWDR00Q3 https://doi.org/10.58052/IEWDR00Q3\nS19S_0059 IGSN:10.58052/IEWDR00Q4 https://doi.org/10.58052/IEWDR00Q4\nS19S_0060 IGSN:10.58052/IEWDR00Q5 https://doi.org/10.58052/IEWDR00Q5\nS19S_0061 IGSN:10.58052/IEWDR00Q6 https://doi.org/10.58052/IEWDR00Q6\nS19S_0062 IGSN:10.58052/IEWDR00Q7 https://doi.org/10.58052/IEWDR00Q7\nS19S_0063 IGSN:10.58052/IEWDR00Q8 https://doi.org/10.58052/IEWDR00Q8\nS19S_0064 IGSN:10.58052/IEWDR00Q9 https://doi.org/10.58052/IEWDR00Q9\nS19S_0065 IGSN:10.58052/IEWDR00QA https://doi.org/10.58052/IEWDR00QA\nS19S_0066 IGSN:10.58052/IEWDR00QB https://doi.org/10.58052/IEWDR00QB\nS19S_0067 IGSN:10.58052/IEWDR00QC https://doi.org/10.58052/IEWDR00QC\nS19S_0068 IGSN:10.58052/IEWDR00QD https://doi.org/10.58052/IEWDR00QD\nS19S_0069 IGSN:10.58052/IEWDR00QE https://doi.org/10.58052/IEWDR00QE\nS19S_0070 IGSN:10.58052/IEWDR00QF https://doi.org/10.58052/IEWDR00QF\nS19S_0071 IGSN:10.58052/IEWDR00QG https://doi.org/10.58052/IEWDR00QG\nS19S_0072 IGSN:10.58052/IEWDR00QH https://doi.org/10.58052/IEWDR00QH\nS19S_0073 IGSN:10.58052/IEWDR00QI https://doi.org/10.58052/IEWDR00QI\nS19S_0074 IGSN:10.58052/IEWDR00QJ https://doi.org/10.58052/IEWDR00QJ\nS19S_0075 IGSN:10.58052/IEWDR00QK https://doi.org/10.58052/IEWDR00QK\nS19S_0076 IGSN:10.58052/IEWDR00QL https://doi.org/10.58052/IEWDR00QL\nS19S_0077 IGSN:10.58052/IEWDR00QM https://doi.org/10.58052/IEWDR00QM\nS19S_0078 IGSN:10.58052/IEWDR00QN https://doi.org/10.58052/IEWDR00QN\nS19S_0079 IGSN:10.58052/IEWDR00QO https://doi.org/10.58052/IEWDR00QO\nS19S_0080 IGSN:10.58052/IEWDR00QP https://doi.org/10.58052/IEWDR00QP\nS19S_0081 IGSN:10.58052/IEWDR00QQ https://doi.org/10.58052/IEWDR00QQ\nS19S_0082 IGSN:10.58052/IEWDR00QR https://doi.org/10.58052/IEWDR00QR\nS19S_0083 IGSN:10.58052/IEWDR00QS https://doi.org/10.58052/IEWDR00QS\nS19S_0084 IGSN:10.58052/IEWDR00QT https://doi.org/10.58052/IEWDR00QT\nS19S_0085 IGSN:10.58052/IEWDR00QU https://doi.org/10.58052/IEWDR00QU\nS19S_0086 IGSN:10.58052/IEWDR00QV https://doi.org/10.58052/IEWDR00QV\nS19S_0087 IGSN:10.58052/IEWDR00QW https://doi.org/10.58052/IEWDR00QW\nS19S_0089 IGSN:10.58052/IEWDR00QX https://doi.org/10.58052/IEWDR00QX\nS19S_0090 IGSN:10.58052/IEWDR00QY https://doi.org/10.58052/IEWDR00QY\nS19S_0091 IGSN:10.58052/IEWDR00QZ https://doi.org/10.58052/IEWDR00QZ\nS19S_0092 IGSN:10.58052/IEWDR00R0 https://doi.org/10.58052/IEWDR00R0\nS19S_0093 IGSN:10.58052/IEWDR00R1 https://doi.org/10.58052/IEWDR00R1\nS19S_0094 IGSN:10.58052/IEWDR00R2 https://doi.org/10.58052/IEWDR00R2\nS19S_0096 IGSN:10.58052/IEWDR00R3 https://doi.org/10.58052/IEWDR00R3\nS19S_0097 IGSN:10.58052/IEWDR00R4 https://doi.org/10.58052/IEWDR00R4\nS19S_0098 IGSN:10.58052/IEWDR00R5 https://doi.org/10.58052/IEWDR00R5\nS19S_0099 IGSN:10.58052/IEWDR00R6 https://doi.org/10.58052/IEWDR00R6\nS19S_0100 IGSN:10.58052/IEWDR00R7 https://doi.org/10.58052/IEWDR00R7",
+      "This section provides a list of source material physical samples used in this dataset, specifically surface water samples. More information describing the samples is provided in the associated sample landing pages (links below).\nSample Name IGSN PID IGSN URL\nS19S_0001_Water IGSN:10.58052/IEWDR00R8 https://doi.org/10.58052/IEWDR00R8\nS19S_0003_Water IGSN:10.58052/IEWDR00R9 https://doi.org/10.58052/IEWDR00R9\nS19S_0004_Water IGSN:10.58052/IEWDR00RA https://doi.org/10.58052/IEWDR00RA\nS19S_0005_Water IGSN:10.58052/IEWDR00RB https://doi.org/10.58052/IEWDR00RB\nS19S_0006_Water IGSN:10.58052/IEWDR00RC https://doi.org/10.58052/IEWDR00RC\nS19S_0007_Water IGSN:10.58052/IEWDR00RD https://doi.org/10.58052/IEWDR00RD\nS19S_0008_Water IGSN:10.58052/IEWDR00RE https://doi.org/10.58052/IEWDR00RE\nS19S_0009_Water IGSN:10.58052/IEWDR00RF https://doi.org/10.58052/IEWDR00RF\nS19S_0010_Water IGSN:10.58052/IEWDR00RG https://doi.org/10.58052/IEWDR00RG\nS19S_0011_Water IGSN:10.58052/IEWDR00RH https://doi.org/10.58052/IEWDR00RH\nS19S_0012_Water IGSN:10.58052/IEWDR00RI https://doi.org/10.58052/IEWDR00RI\nS19S_0013_Water IGSN:10.58052/IEWDR00RJ https://doi.org/10.58052/IEWDR00RJ\nS19S_0014_Water IGSN:10.58052/IEWDR00RK https://doi.org/10.58052/IEWDR00RK\nS19S_0015_Water IGSN:10.58052/IEWDR00RL https://doi.org/10.58052/IEWDR00RL\nS19S_0016_Water IGSN:10.58052/IEWDR00RM https://doi.org/10.58052/IEWDR00RM\nS19S_0017_Water IGSN:10.58052/IEWDR00RN https://doi.org/10.58052/IEWDR00RN\nS19S_0018_Water IGSN:10.58052/IEWDR00RO https://doi.org/10.58052/IEWDR00RO\nS19S_0019_Water IGSN:10.58052/IEWDR00RP https://doi.org/10.58052/IEWDR00RP\nS19S_0020_Water IGSN:10.58052/IEWDR00RQ https://doi.org/10.58052/IEWDR00RQ\nS19S_0021_Water IGSN:10.58052/IEWDR00RR https://doi.org/10.58052/IEWDR00RR\nS19S_0022_Water IGSN:10.58052/IEWDR00RS https://doi.org/10.58052/IEWDR00RS\nS19S_0023_Water IGSN:10.58052/IEWDR00RT https://doi.org/10.58052/IEWDR00RT\nS19S_0024_Water IGSN:10.58052/IEWDR00RU https://doi.org/10.58052/IEWDR00RU\nS19S_0025_Water IGSN:10.58052/IEWDR00RV https://doi.org/10.58052/IEWDR00RV\nS19S_0026_Water IGSN:10.58052/IEWDR00RW https://doi.org/10.58052/IEWDR00RW\nS19S_0027_Water IGSN:10.58052/IEWDR00RX https://doi.org/10.58052/IEWDR00RX\nS19S_0028_Water IGSN:10.58052/IEWDR00RY https://doi.org/10.58052/IEWDR00RY\nS19S_0029_Water IGSN:10.58052/IEWDR00RZ https://doi.org/10.58052/IEWDR00RZ\nS19S_0030_Water IGSN:10.58052/IEWDR00S0 https://doi.org/10.58052/IEWDR00S0\nS19S_0031_Water IGSN:10.58052/IEWDR00S1 https://doi.org/10.58052/IEWDR00S1\nS19S_0032_Water IGSN:10.58052/IEWDR00S2 https://doi.org/10.58052/IEWDR00S2\nS19S_0033_Water IGSN:10.58052/IEWDR00S3 https://doi.org/10.58052/IEWDR00S3\nS19S_0034_Water IGSN:10.58052/IEWDR00S4 https://doi.org/10.58052/IEWDR00S4\nS19S_0035_Water IGSN:10.58052/IEWDR00S5 https://doi.org/10.58052/IEWDR00S5\nS19S_0036_Water IGSN:10.58052/IEWDR00S6 https://doi.org/10.58052/IEWDR00S6\nS19S_0037_Water IGSN:10.58052/IEWDR00S7 https://doi.org/10.58052/IEWDR00S7\nS19S_0038_Water IGSN:10.58052/IEWDR00S8 https://doi.org/10.58052/IEWDR00S8\nS19S_0039_Water IGSN:10.58052/IEWDR00S9 https://doi.org/10.58052/IEWDR00S9\nS19S_0040_Water IGSN:10.58052/IEWDR00SA https://doi.org/10.58052/IEWDR00SA\nS19S_0041_Water IGSN:10.58052/IEWDR00SB https://doi.org/10.58052/IEWDR00SB\nS19S_0042_Water IGSN:10.58052/IEWDR00SC https://doi.org/10.58052/IEWDR00SC\nS19S_0043_Water IGSN:10.58052/IEWDR00SD https://doi.org/10.58052/IEWDR00SD\nS19S_0044_Water IGSN:10.58052/IEWDR00SE https://doi.org/10.58052/IEWDR00SE\nS19S_0045_Water IGSN:10.58052/IEWDR00SF https://doi.org/10.58052/IEWDR00SF\nS19S_0046_Water IGSN:10.58052/IEWDR00SG https://doi.org/10.58052/IEWDR00SG\nS19S_0047_Water IGSN:10.58052/IEWDR00SH https://doi.org/10.58052/IEWDR00SH\nS19S_0048_Water IGSN:10.58052/IEWDR00SI https://doi.org/10.58052/IEWDR00SI\nS19S_0049_Water IGSN:10.58052/IEWDR00SJ https://doi.org/10.58052/IEWDR00SJ\nS19S_0050_Water IGSN:10.58052/IEWDR00SK https://doi.org/10.58052/IEWDR00SK\nS19S_0051_Water IGSN:10.58052/IEWDR00SL https://doi.org/10.58052/IEWDR00SL\nS19S_0052_Water IGSN:10.58052/IEWDR00SM https://doi.org/10.58052/IEWDR00SM\nS19S_0053_Water IGSN:10.58052/IEWDR00SN https://doi.org/10.58052/IEWDR00SN\nS19S_0054_Water IGSN:10.58052/IEWDR00SO https://doi.org/10.58052/IEWDR00SO\nS19S_0055_Water IGSN:10.58052/IEWDR00SP https://doi.org/10.58052/IEWDR00SP\nS19S_0056_Water IGSN:10.58052/IEWDR00SQ https://doi.org/10.58052/IEWDR00SQ\nS19S_0057_Water IGSN:10.58052/IEWDR00SR https://doi.org/10.58052/IEWDR00SR\nS19S_0058_Water IGSN:10.58052/IEWDR00SS https://doi.org/10.58052/IEWDR00SS\nS19S_0059_Water IGSN:10.58052/IEWDR00ST https://doi.org/10.58052/IEWDR00ST\nS19S_0060_Water IGSN:10.58052/IEWDR00SU https://doi.org/10.58052/IEWDR00SU\nS19S_0061_Water IGSN:10.58052/IEWDR00SV https://doi.org/10.58052/IEWDR00SV\nS19S_0062_Water IGSN:10.58052/IEWDR00SW https://doi.org/10.58052/IEWDR00SW\nS19S_0063_Water IGSN:10.58052/IEWDR00SX https://doi.org/10.58052/IEWDR00SX\nS19S_0064_Water IGSN:10.58052/IEWDR00SY https://doi.org/10.58052/IEWDR00SY\nS19S_0065_Water IGSN:10.58052/IEWDR00SZ https://doi.org/10.58052/IEWDR00SZ\nS19S_0066_Water IGSN:10.58052/IEWDR00T0 https://doi.org/10.58052/IEWDR00T0\nS19S_0067_Water IGSN:10.58052/IEWDR00T1 https://doi.org/10.58052/IEWDR00T1\nS19S_0068_Water IGSN:10.58052/IEWDR00T2 https://doi.org/10.58052/IEWDR00T2\nS19S_0069_Water IGSN:10.58052/IEWDR00T3 https://doi.org/10.58052/IEWDR00T3\nS19S_0070_Water IGSN:10.58052/IEWDR00T4 https://doi.org/10.58052/IEWDR00T4\nS19S_0071_Water IGSN:10.58052/IEWDR00T5 https://doi.org/10.58052/IEWDR00T5\nS19S_0072_Water IGSN:10.58052/IEWDR00T6 https://doi.org/10.58052/IEWDR00T6\nS19S_0073_Water IGSN:10.58052/IEWDR00T7 https://doi.org/10.58052/IEWDR00T7\nS19S_0074_Water IGSN:10.58052/IEWDR00T8 https://doi.org/10.58052/IEWDR00T8\nS19S_0075_Water IGSN:10.58052/IEWDR00T9 https://doi.org/10.58052/IEWDR00T9\nS19S_0076_Water IGSN:10.58052/IEWDR00TA https://doi.org/10.58052/IEWDR00TA\nS19S_0077_Water IGSN:10.58052/IEWDR00TB https://doi.org/10.58052/IEWDR00TB\nS19S_0078_Water IGSN:10.58052/IEWDR00TC https://doi.org/10.58052/IEWDR00TC\nS19S_0079_Water IGSN:10.58052/IEWDR00TD https://doi.org/10.58052/IEWDR00TD\nS19S_0080_Water IGSN:10.58052/IEWDR00TE https://doi.org/10.58052/IEWDR00TE\nS19S_0081_Water IGSN:10.58052/IEWDR00TF https://doi.org/10.58052/IEWDR00TF\nS19S_0082_Water IGSN:10.58052/IEWDR00TG https://doi.org/10.58052/IEWDR00TG\nS19S_0083_Water IGSN:10.58052/IEWDR00TH https://doi.org/10.58052/IEWDR00TH\nS19S_0084_Water IGSN:10.58052/IEWDR00TI https://doi.org/10.58052/IEWDR00TI\nS19S_0085_Water IGSN:10.58052/IEWDR00TJ https://doi.org/10.58052/IEWDR00TJ\nS19S_0086_Water IGSN:10.58052/IEWDR00TK https://doi.org/10.58052/IEWDR00TK\nS19S_0087_Water IGSN:10.58052/IEWDR00TL https://doi.org/10.58052/IEWDR00TL\nS19S_0089_Water IGSN:10.58052/IEWDR00TM https://doi.org/10.58052/IEWDR00TM\nS19S_0090_Water IGSN:10.58052/IEWDR00TN https://doi.org/10.58052/IEWDR00TN\nS19S_0091_Water IGSN:10.58052/IEWDR00TO https://doi.org/10.58052/IEWDR00TO\nS19S_0092_Water IGSN:10.58052/IEWDR00TP https://doi.org/10.58052/IEWDR00TP\nS19S_0093_Water IGSN:10.58052/IEWDR00TQ https://doi.org/10.58052/IEWDR00TQ\nS19S_0094_Water IGSN:10.58052/IEWDR00TR https://doi.org/10.58052/IEWDR00TR\nS19S_0096_Water IGSN:10.58052/IEWDR00TS https://doi.org/10.58052/IEWDR00TS\nS19S_0097_Water IGSN:10.58052/IEWDR00TT https://doi.org/10.58052/IEWDR00TT\nS19S_0098_Water IGSN:10.58052/IEWDR00TU https://doi.org/10.58052/IEWDR00TU\nS19S_0099_Water IGSN:10.58052/IEWDR00TV https://doi.org/10.58052/IEWDR00TV\nS19S_0100_Water IGSN:10.58052/IEWDR00TW https://doi.org/10.58052/IEWDR00TW"
+    ],
+    "distribution": [
+      {
+        "contentSize": 133.107421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d3dc26585e68115-20250721T220123004",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-d3dc26585e68115-20250721T220123004",
+        "name": "WHONDRS_Summer_2019_Sampling_Campaign_Global.xml"
+      },
+      {
+        "contentSize": 55452.734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-601f98dc4e44ee8-20250718T221918369",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-601f98dc4e44ee8-20250718T221918369",
+        "name": "v7_WHONDRS_S19S_SW.zip"
+      }
+    ]
+  }
+}

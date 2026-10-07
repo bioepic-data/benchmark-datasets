@@ -1,0 +1,193 @@
+{
+  "id": "ess-dive-411367f686d267d-20230808T203550215",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1813302",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-411367f686d267d-20230808T203550215",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-3eccb711d0a002d-20230407T142248307843",
+  "dateUploaded": "2023-08-08T20:35:55.418Z",
+  "dateModified": "2023-08-08T20:36:01.790Z",
+  "isPublic": true,
+  "citation": "Pierce S; Bargar J (2021): Specific conductivity, pH, dissolved oxygen, water temperature, alkalinity and sulfide in-situ data; Slate River floodplain, Crested Butte, CO; May 2020-October 2020. Groundwater Quality SFA. Dataset. doi:10.15485/1813302",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1813302",
+    "name": "Specific conductivity, pH, dissolved oxygen, water temperature, alkalinity and sulfide in-situ data; Slate River floodplain, Crested Butte, CO; May 2020-October 2020",
+    "description": [
+      "This data package includes a time-series of field measurements from May to October 2020 in groundwater and surface water from the Slate River floodplain in Crested Butte, CO, a focus field site for the SLAC Floodplain Hydro-Biogeochemistry SFA. The data was generated as part of the work targeting the overarching research question for the SLAC SFA: How do ubiquitous subsurface interfaces mediate molecular-scale biogeochemical processes and groundwater quality in floodplains and watersheds? The data packade includes 6 data files, one for each measured variable: specific conductivity, pH, dissolved oxygen, water temperature, alkalinity and sulfide. All measurements were recorded in the field immediately after water sampling. Groundwater samples were extracted from a network of installed rhizons (Rhizosphere Research Products, part no. 19.60.21F, 0.6 micrometer mesh size) and piezometer wells within the floodplain. In addition to the data files, there is a terminology file explaining the terms used, a file level metadata file, and a sensor file with metadata about the sensors used.",
+      "All files are in csv format."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7614-0227",
+        "givenName": "Samuel",
+        "familyName": "Pierce",
+        "email": "swpierce@slac.stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9303-4901",
+        "givenName": "John",
+        "familyName": "Bargar",
+        "email": "bargar@slac.stanford.edu"
+      }
+    ],
+    "datePublished": "2021-05-04",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUNDWATER CHEMISTRY",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > GASES > DISSOLVED OXYGEN",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > ALKALINITY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > CONDUCTIVITY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > WATER TEMPERATURE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > pH",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUNDWATER CHEMISTRY"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The Slate River (SR) a snow-dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The SR is located just north of the town of Crested Butte, CO.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.910142,
+            "longitude": -107.030593
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.896436,
+            "longitude": -107.011096
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2020-05-12",
+      "endDate": "2020-10-09",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7614-0227",
+      "givenName": "Samuel",
+      "familyName": "Pierce",
+      "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+      "email": "swpierce@slac.stanford.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "14a7e1cf-5a60-4ac3-9527-ec20fed6815f"
+      },
+      "name": "Groundwater Quality SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Bargar",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Stanford Linear Accelerator Center",
+        "email": "bargar@slac.stanford.edu"
+      }
+    },
+    "measurementTechnique": [
+      "1. Specific conductivity\nWater samples were filtered in-situ through installed 0.6 micrometer rhizon membranes and measured with a Thermo Sci Orion DuraProbe 4-Electrode conductivity cell. Analysis occurred immediately after extraction",
+      "2. pH\nWater samples were filtered in-situ through installed 0.6 micrometer rhizon membranes and measured with a Thermo Sci Orion Triode 3-in-1 probe. Analysis occurred immediately after extraction",
+      "3. Temperature\nThe probe ending for a Digi-Sense Thermistor was routed to the bottom of the well and measurements were allowed to stabilize for 1 minute until taking a final measurement.",
+      "4. Dissolved Oxygen\nWater samples were filtered in-situ through installed 0.6 micrometer rhizon membranes and analyzed using CHEMetrics K-7553 and K7513 test kits (see CHEMetrics website for test kit sampling procedure). Test kits were measured using a CHEMetrics V-2000 photometer.",
+      "5. Sulfide\nWater samples were filtered in-situ through installed 0.6 micrometer rhizon membranes and analyzed using CHEMetrics K-9503 test kits (see CHEMetrics website for test kit sampling procedure). Test kits were measured using a CHEMetrics V-2000 photometer.",
+      "6. Alkalinity\nWater samples were filtered in-situ through installed 0.6 micrometer rhizon membranes and analyzed using CHEMetrics K-9810 and K-9815 test kits (see CHEMetrics website for test kit sampling procedure). Test kits were measured based on solute level reading on ampoule graduation upon reactant equilibrium."
+    ],
+    "distribution": [
+      {
+        "contentSize": 9.9306640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-411367f686d267d-20230808T203550215",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-411367f686d267d-20230808T203550215",
+        "name": "Specific_conductivity_pH_dissolved_oxygen_.xml"
+      },
+      {
+        "contentSize": 54.61328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3440f257ec9960d-20210504T173552176",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3440f257ec9960d-20210504T173552176",
+        "name": "SR_2020_DO_data.csv"
+      },
+      {
+        "contentSize": 44.4169921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5fd4397e210cf23-20210504T173557755",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5fd4397e210cf23-20210504T173557755",
+        "name": "SR_2020_WaterTemp_data.csv"
+      },
+      {
+        "contentSize": 5.05078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-66b761cadc55029-20210504T173557750",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-66b761cadc55029-20210504T173557750",
+        "name": "SR_2020_terminology.csv"
+      },
+      {
+        "contentSize": 20.9150390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4dbef4d18cdde10-20210504T173552180",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4dbef4d18cdde10-20210504T173552180",
+        "name": "SR_2020_insitu_solutes_flmd.csv"
+      },
+      {
+        "contentSize": 102.6484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4f318fcdbdcd14a-20210504T173557741",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4f318fcdbdcd14a-20210504T173557741",
+        "name": "SR_2020_SpCond_data.csv"
+      },
+      {
+        "contentSize": 10.3828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-862b83c069612a4-20210504T173557733",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-862b83c069612a4-20210504T173557733",
+        "name": "SR_2020_pH_data.csv"
+      },
+      {
+        "contentSize": 1.013671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8c883e819a64ee8-20210504T173557745",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8c883e819a64ee8-20210504T173557745",
+        "name": "SR_2020_Sulfide_data.csv"
+      },
+      {
+        "contentSize": 12.353515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bd0482a6b8d8626-20210504T173552166",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bd0482a6b8d8626-20210504T173552166",
+        "name": "SR_2020_Alkalinity_data.csv"
+      },
+      {
+        "contentSize": 9.51171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cc665e8a3d6763d-20210504T173557737",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cc665e8a3d6763d-20210504T173557737",
+        "name": "SR_2020_sensor.csv"
+      }
+    ]
+  }
+}

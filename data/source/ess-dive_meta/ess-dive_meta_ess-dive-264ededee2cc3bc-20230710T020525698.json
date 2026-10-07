@@ -1,0 +1,203 @@
+{
+  "id": "ess-dive-264ededee2cc3bc-20230710T020525698",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1987525",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-264ededee2cc3bc-20230710T020525698",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-264ededee2cc3bc-20230710T015215146",
+  "dateUploaded": "2023-07-10T02:05:26.380Z",
+  "dateModified": "2023-07-11T00:00:27.893Z",
+  "isPublic": true,
+  "citation": "Ombadi M; Risser M; Rhoades A; Varadharajan C (2023): Dataset for 'Ombadi et al. (2023). A warming-induced reduction in snow fraction amplifies rainfall extremes, Nature'. iNAIADS. Dataset. doi:10.15485/1987525",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1987525",
+    "archivedAt": [
+      {
+        "@type": "WebPage",
+        "name": "Intermediary and final results data + codes",
+        "url": "https://doi.org/10.5281/zenodo.7740037"
+      }
+    ],
+    "hasPart": [
+      {
+        "@type": "WebPage",
+        "name": "Python codes and Jupyter notebooks with GitHub access",
+        "url": "https://doi.org/10.5281/zenodo.7796633"
+      }
+    ],
+    "name": "Dataset for 'Ombadi et al. (2023). A warming-induced reduction in snow fraction amplifies rainfall extremes, Nature'",
+    "description": [
+      "This package contains the main codes, sample input data and main result files to reproduce the analysis and results presented in the article: \u201cOmbadi et al. (2023), A warming-induced reduction in snow fraction amplifies rainfall extremes, Nature\u201d. The folder consists of the following: (1) \u201cRaw data\u201d: a folder that contains sample input data which is used in some of the codes for demonstration purposes. It also contains data that was not pre-processed such as Elevation data; (2) \u201cResults\u201d: this folder contains files of the main results presented in the paper including: \u201cAnnual-Max-Series\u201d, \u201cChange-rainfall-extremes\u201d, \u201cChange-snow-fraction\u201d, \u201cWarming levels_By scenario_model_year\u201d and \u201cMasks\u201d. Description of these folders is detailed in the \"Readme.rtf\" file; (3) Python jupyter notebooks (Extract_Annual Max Series (AMS).ipynb, Elevation-dependent amplification of rainfall extremes.ipynb, Sensitivity_to_global_warming.ipynb) demonstrate the main steps of analysis. Further description of those notebooks is provided in the \"Readme.rtf\" file; (4) R code for extreme value analysis (Extreme_Value_Analysis.R). The sample and pre-processed dataset in \"Raw data\" is obtained from publicly available repositories of CMIP6 and ERA5 datasets; see Methods for more detail. This research was supported by Office of Science, Office of Biological and Environmental Research of the US Department of Energy under contract no. DE-AC02-05CH11231 for the CASCADE Scientific Focus (funded by the Regional and Global Model Analysis Program area within the Earth and Environmental Systems Modeling Program) and the iNAIADS Early Career Research Project (funded by the Environmental Systems Science program)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7793-9137",
+        "givenName": "Mohammed",
+        "familyName": "Ombadi",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ombadi@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1956-1783",
+        "givenName": "Mark",
+        "familyName": "Risser",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mdrisser@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3723-2422",
+        "givenName": "Alan",
+        "familyName": "Rhoades",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "arhoades@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    ],
+    "datePublished": "2023-06-28",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > LIQUID PRECIPITATION > RAIN",
+      "snowfall_flux"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Northern Hemisphere (20N - 90N)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 90,
+            "longitude": -180
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 20,
+            "longitude": 180
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0205CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1950-01-01",
+      "endDate": "2100-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7793-9137",
+      "givenName": "Mohammed",
+      "familyName": "Ombadi",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "ombadi@lbl.gov"
+    },
+    "citation": [
+      "Ombadi, M., Risser, M., Rhoades, A., & Varadharajan, C. (2023). A warming-induced reduction in snow fraction amplifies rainfall extremes, Nature. https://doi.org/10.1038/s41586-023-06092-7",
+      "Ombadi, M., (2023). Global warming intensifies rainfall in mountainous regions, Nature. https://doi.org/10.1038/d41586-023-02001-0"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "93af4208-5c89-4be7-955b-8315ce410713"
+      },
+      "name": "iNAIADS",
+      "member": {
+        "@type": "Person",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The methods are excerpts from from Ombadi et al. (2023).\nGeneral selection of datasets\nThe selection of datasets for the analysis in the present study was carried out to satisfy five criteria: (1) the availability of estimates for both total and solid precipitation (precipitation and snowfall), from which rainfall estimates can be calculated; (2) a spatial resolution of at least 100 km to reasonably simulate orographic effects on precipitation, although a much higher resolution would ideally be needed to fully resolve orographic effects; (3) a fine temporal resolution to examine subdaily changes in rainfall extremes; (4) complete spatial coverage over the spatial domain of analysis (20\u00b0 N\u201390\u00b0 N); and (5) data covering the period 1950\u20132019. To our knowledge, ERA5, the fifth-generation atmospheric reanalysis of the global climate produced by the European Center for Medium-Range Weather Forecasts, is the only dataset that satisfied all of these criteria. It was, therefore, selected to analyse historical changes in rainfall extremes for the period 1990\u20132019 relative to the reference period 1950\u20131979. The ERA5 version used here, namely ERA5 hourly land data, combines model data with observations at a spatial resolution of 1\u00b0 \u00d7 1\u00b0 and hourly temporal resolution for the period 1950\u20132019. ERA5 has been shown to perform reasonably well for estimation of extreme precipitation48 and snow\u2013rain partitioning. In this study, we provide an additional evaluation of ERA5 estimates of daily rainfall extremes against ground observations obtained from the GHCN dataset.\nSimilarly, the selection of CMIP6 model simulations was carried out to satisfy the aforementioned criteria. The main analysis presented in this study is carried out using future projections that assume the highest Shared Socioeconomic Pathways scenario associated with an increase of 8.5 W m\u22122 by the end of the year 2100, known as the SSP585 scenario. The selection of this high-emissions scenario is made because it is the worst-case scenario (known previously as the business-as-usual scenario); hence, it presents the most sharp and abrupt warming-induced perturbation in the climate system. We selected only Earth-system models with a nominal spatial resolution of 100 km or finer in our analysis (Extended Data Table 1). For each model, one ensemble member (r1i1p1f1) is selected. The eight selected models represent different institutions and reflect distinct modelling development backgrounds.\nAll models apart from GFDL-ESM4 provide estimates of total precipitation and snow at a temporal resolution of 3 h, whereas only daily estimates are available for GFDL-ESM4. It is noteworthy that MRI-AGCM-3-2-H (nominal resolution of 60 km) is the model with the finest spatial resolution in the present study, and it belongs to the High-Resolution Model Intercomparison Project (HighResMIP). Unlike the fully coupled models (ocean + atmosphere) used in this study, MRI-AGCM-3-2-H is an Atmospheric Model Intercomparison Project (AMIP)-style experiment with prescribed sea surface temperature and ice conditions. Other HighResMIP models were not considered here owing to unavailability of snowfall estimates at subdaily to daily timescales. For each of the eight models, data were downloaded for precipitation (pr), snowfall (prsn), surface temperature (ts) and elevation (orog).",
+      "Computation of percentage change in rainfall extremes\nWe first used total precipitation (p) and snowfall (s) estimates to generate rainfall (r) time series for each grid cell within each dataset as follows:\nr(i,j,t) = p(i,j,t) \u2212 s(i,j,t) ........................................ (1)\nwhere the subscripts i, j and t correspond to the latitude, longitude and time step, respectively, for each variable. The output temporal frequency for the reanalysis dataset and CMIP6 model variables are 1 h and 3 h, respectively. Following this step, rainfall (r) is accumulated to duration (d) of 3 h, 12 h and 24 h. Next, the AMS were constructed by extracting the highest value of r in each year for all durations d as follows:\nAMS(i,j,y) = max { r(i,j,t) \u2208 (year= y) } ................... (2)\nwhere AMS(i,j,y) is the AMS value for grid cell (i, j) and year y. The percentage change in rainfall extremes at each grid cell is then computed as the difference between the mean value of AMS for the future (or recent past) period minus that of the reference period (1950\u20131979) normalized by the mean AMS value of the reference period. For an arbitrary grid cell (i, j), let AMS(ref) denote the mean AMS for the reference period and AMS(t) denote the mean AMS for future (or recent past) period. Then, the percentage change at each grid cell is calculated as follows:\n%change = [(AMS(t) \u2212 AMS(ref) )/AMS(ref) ] \u00d7 100% ..................................................(3)\nFor the analysis of ERA5 historical changes, AMS(t) is computed from the period of 1990\u20132019, whereas the period 2071\u20132100 is used for CMIP6 models. The percentage changes are then divided by warming levels in global surface air temperature (Extended Data Table 2) to produce the results shown in Figs. 1\u20133. It is noted that the results for ERA5 in Fig. 1 show the mean percentage change at different elevation categories; however, similar results are obtained using the median instead of the mean. Extended Data Fig. 9 compares the use of mean and median to assess elevation-dependent amplification of rainfall extremes. Furthermore, to ensure that the results are not biased by issues related to the selection of reference period50,51, we carried out a statistical simulation study similar to that of previous studies50. For each of 10,000 Monte Carlo replicates, we first generated 30 values from a \u2018baseline\u2019 period and 30 values from a \u2018future\u2019 period. Each set of values came from a known generalized extreme value (GEV) distribution (to mimic the appropriate distributions for AMS data). The specific scenarios considered for the distribution parameters are outlined in Extended Data Fig. 10b with one scenario where the distributions used to generate baseline and future data are identical such that the true percent change is zero. We then calculate the percent change from simulated data according to equation (3). For all simulations, the values of the GEV shape parameter were taken to be representative of those estimated from ERA5 data (for example, first quartile, median and so on). Extended Data Fig. 10a clearly shows that using 30 years as a reference period does not bias the results for values of shape parameter typical to ERA5 data and across change of 0% to 100%."
+    ],
+    "distribution": [
+      {
+        "contentSize": 15.4384765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-264ededee2cc3bc-20230710T020525698",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-264ededee2cc3bc-20230710T020525698",
+        "name": "Dataset_for_Ombadi_et_al_2023_A.xml"
+      },
+      {
+        "contentSize": 242.46875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-096bd83f00406dc-20230602T051240961",
+        "encodingFormat": "application/x-ipynb+json",
+        "identifier": "ess-dive-096bd83f00406dc-20230602T051240961",
+        "name": "Elevation_dependent_amplification_of_rainfall_extremes.ipynb"
+      },
+      {
+        "contentSize": 4.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2caf979eab6595a-20230602T051240970",
+        "encodingFormat": "application/rtf",
+        "identifier": "ess-dive-2caf979eab6595a-20230602T051240970",
+        "name": "Readme.rtf"
+      },
+      {
+        "contentSize": 40.34765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2e36567158e8c47-20230602T051240966",
+        "encodingFormat": "application/x-ipynb+json",
+        "identifier": "ess-dive-2e36567158e8c47-20230602T051240966",
+        "name": "Extract_Annual_Max_Series__AMS_.ipynb"
+      },
+      {
+        "contentSize": 525699.7548828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-390b5669a1fa54f-20230602T031038743",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-390b5669a1fa54f-20230602T031038743",
+        "name": "Raw_data.zip"
+      },
+      {
+        "contentSize": 7.8974609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5296e8a7b12993a-20230602T051240973",
+        "encodingFormat": "application/R",
+        "identifier": "ess-dive-5296e8a7b12993a-20230602T051240973",
+        "name": "Extreme_Value_Analysis.R"
+      },
+      {
+        "contentSize": 158731.818359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4bb89ef4568d4b2-20230602T031038754",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4bb89ef4568d4b2-20230602T031038754",
+        "name": "Results.zip"
+      },
+      {
+        "contentSize": 15.787109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8be404b4d5f9b36-20230602T051208092",
+        "encodingFormat": "application/x-ipynb+json",
+        "identifier": "ess-dive-8be404b4d5f9b36-20230602T051208092",
+        "name": "Sensitivity_to_global_warming.ipynb"
+      }
+    ]
+  }
+}

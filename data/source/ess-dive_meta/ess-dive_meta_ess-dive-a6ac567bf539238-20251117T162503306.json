@@ -1,0 +1,464 @@
+{
+  "id": "ess-dive-a6ac567bf539238-20251117T162503306",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3001967",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a6ac567bf539238-20251117T162503306",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ec01b25a88f200e-20251110T164518954",
+  "dateUploaded": "2025-11-17T16:25:04.680Z",
+  "dateModified": "2025-11-17T16:25:05.057Z",
+  "isPublic": true,
+  "citation": "Forbes B; Danczak R E; Delgado D; Garayburu-Caruso V A; Goldman A E; Jones C N; Kirker A; Laan M; McKever S A; Serpas L M; Morejon J; Mortazavi B; Renteria L; Rice E; Tatariw C; Stegen J C (2025): Surface water and groundwater FTICR-MS, NPOC, and TN from nine wetlands and three upland wells at the Tanglewood Biological Station, Alabama. Investigating hydrologic connectivity as a driver of biogeochemical flood response in wetland systems. Dataset. doi:10.15485/3001967",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3001967",
+    "name": "Surface water and groundwater FTICR-MS, NPOC, and TN from nine wetlands and three upland wells at the Tanglewood Biological Station, Alabama",
+    "description": [
+      "This dataset supports a broader study examining wetland hydrobiogeochemical responses to flood disturbance and the subsequent impacts on watershed nutrient export. The study was designed following ICON (integrated, coordinated, open, and networked) principles. Samples were collected from nine wetlands and three upland wells at the Tanglewood Biological Station, Alabama in August 2024 and February 2025, during the dry and wet season, respectively. The contents include geochemistry (dissolved organic carbon measured as non-purgeable organic carbon; total dissolved nitrogen) and organic matter characterization (FTICR-MS). Related water level data from the same locations can be found at https://data.ess-dive.lbl.gov/view/doi:10.15485/2530253. Additional geochemistry will be published in a separate data package.",
+      "For details on how to navigate this data package, see this infographic from the River Corridor SFA https://data.ess-dive.lbl.gov/portals/PNNLRiverCorridorSFA/About.",
+      "In addition to a readme, this data package also includes a file-level metadata (FLMD) file that describes each file and a data dictionary (DD) that describes all column/row headers and variable definitions.",
+      "This dataset is comprised of (1) a folder containing environmental context photos; (2) file-level metadata; (3) data dictionary; (4) field metadata; (5) readme; (6) international generic sample number (IGSN) mapping file; (7) the field protocol; and (8) a subfolder with sample data. The sample data subfolder contains (1) dissolved organic carbon (DOC, measured as non-purgeable organic carbon, NPOC) data and averages; (2) total nitrogen data and averages; (3) methods codes; and (4) a subfolder of 12 Tesla (12T) Fourier-transform ion cyclotron resonance mass spectrometry (FTICR-MS) data. All files are .csv, .pdf, .jpeg, or .jpg."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1396-192X",
+        "givenName": "Robert E.",
+        "familyName": "Danczak",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "robert.danczak@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6652-6775",
+        "givenName": "Dillman",
+        "familyName": "Delgado",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "dillman.delgadoparedes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0490-6451",
+        "givenName": "Amy E.",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5804-0510",
+        "givenName": "C. Nathan",
+        "familyName": "Jones",
+        "affiliation": "University of Alabama",
+        "email": "cnjones7@ua.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2156-7917",
+        "givenName": "Ashleigh",
+        "familyName": "Kirker",
+        "affiliation": "Virginia Tech",
+        "email": "akirker@vt.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0256-3822",
+        "givenName": "Maggi",
+        "familyName": "Laan",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "maggi.laan@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2870-7713",
+        "givenName": "Sophia A.",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "sophia.mckever@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Lidia",
+        "familyName": "Molina Serpas",
+        "affiliation": "University of Alabama",
+        "email": "ldmolinaserpas@crimson.ua.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jasmine",
+        "familyName": "Morejon",
+        "affiliation": "Boise State University",
+        "email": "jasminemorejon@u.boisestate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1912-1940",
+        "givenName": "Behzad",
+        "familyName": "Mortazavi",
+        "affiliation": "Syracuse University",
+        "email": "behzadm@syr.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Elaine",
+        "familyName": "Rice",
+        "affiliation": "University of Alabama",
+        "email": "serice@crimson.ua.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9573-7528",
+        "givenName": "Corianne",
+        "familyName": "Tatariw",
+        "affiliation": "Rowan University",
+        "email": "tatariw@rowan.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James C.",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "James.Stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "Wetland",
+      "Well",
+      "Flood",
+      "Disturbance",
+      "Hydrology",
+      "Hydraulic exchange",
+      "Biogeochemistry",
+      "Hydrobiogeochemical function",
+      "Hyporheic zone",
+      "ICON",
+      "Integrated",
+      "Coordinated",
+      "Open",
+      "Networked",
+      "Variably Inundated Ecosystem",
+      "VIE",
+      "ESS-DIVE Sample ID and Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE Water-Soil-Sediment Chemistry Reporting Format",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Dissolved organic carbon",
+      "DOC",
+      "Non-purgeable organic carbon",
+      "NPOC",
+      "Total dissolved nitrogen",
+      "TDN",
+      "FTICR-MS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "HS1, Hillslope Wetland and Upland Well, Tanglewood Biological Station, Akron, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8547,
+            "longitude": -87.6685
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8547,
+            "longitude": -87.6685
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "FP1, Floodplain Wetland and Upland Well, Tanglewood Biological Station, Akron, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.856,
+            "longitude": -87.6593
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.856,
+            "longitude": -87.6593
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "SCAN, Outlet Creek, Tanglewood Biological Station, Akron, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8582,
+            "longitude": -87.6625
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8582,
+            "longitude": -87.6625
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "HS2, Hillslope Wetland, Tanglewood Biological Station, Akron, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8519,
+            "longitude": -87.6654
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8519,
+            "longitude": -87.6654
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "IT2, Intermediate Wetland, Tanglewood Biological Station, Akron, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8515,
+            "longitude": -87.6649
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8515,
+            "longitude": -87.6649
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "IT3, Intermediate Wetland, Tanglewood Biological Station, Akron, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8514,
+            "longitude": -87.6646
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8514,
+            "longitude": -87.6646
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "HS3, Hillslope Wetland, Tanglewood Biological Station, Akron, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8504,
+            "longitude": -87.6733
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8504,
+            "longitude": -87.6733
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "IT1, Intermediate Wetland and Upland Well, Tanglewood Biological Station, Akron, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.8554,
+            "longitude": -87.6648
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.8554,
+            "longitude": -87.6648
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "FP2, Floodplain Wetland, Tanglewood Biological Station, Akron, Alabama",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 32.856,
+            "longitude": -87.659
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.856,
+            "longitude": -87.659
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #79759"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2024-08-12",
+      "endDate": "2025-02-24",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3383-6237",
+      "givenName": "Vanessa A.",
+      "familyName": "Garayburu-Caruso",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "vanessa.garayburu-caruso@pnnl.gov"
+    },
+    "citation": [
+      "Kirker A ; Jones C N ; Tatariw C ; Peterson D ; Rice E ; Morejon J ; Molina Serpas L ; Mortizavi B ; Chen X ; Stegen J (2024): 15-Min Water Level Data collected at Tanglewood Biological Station, Alabama. Investigating hydrologic connectivity as a driver of biogeochemical flood response in wetland systems, ESS-DIVE repository. Dataset. doi:10.15485/2530253",
+      "Boye, K., Crystal-Ornelas, R., O\u2019Ryan, D., Goldman, A. E., Damerow, J., Varadharajan, C., & Agarwal, D. (2022). ESS-DIVE Reporting Format for Sample-based Water and Soil Chemistry Measurements. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1865731",
+      "Crystal-Ornelas R; O'Ryan D; Christianson D; Hendrix V C; Agarwal D; Varadharajan C (2022): ESS-DIVE Reporting Format for Location Metadata. ESS-DIVE repository. Dataset. doi: 10.15485/1865730",
+      "Damerow J ; Varadharajan C ; Boye K ; Brodie E ; Burrus M ; Chadwick D ; Cholia S ; Crystal-Ornelas R ; Elbashandy H ; Eloy Alves R ; Ely K ; Goldman A ; Hendrix V ; Jones C ; Jones M ; Kakalia Z ; Kemner K ; Kersting A ; Maher K ; Merino N ; O'Brien F ; Perzan Z ; Robles E ; Snavely C ; Sorensen P ; Stegen J ; Weisenhorn P ; Whitenack K ; Zavarin M ; Agarwal D (2020): Sample Identifiers and Metadata Reporting Format for Environmental Systems Science. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. Dataset. doi:10.15485/1660470",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734841",
+      "Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2021): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem, ESS-DIVE repository. Dataset. doi:10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "4afb1791-40c4-4fa0-961f-da99b33a09a4"
+      },
+      "name": "Investigating hydrologic connectivity as a driver of biogeochemical flood response in wetland systems",
+      "member": {
+        "@type": "Person",
+        "givenName": "Behzad",
+        "familyName": "Mortazav",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of Alabama",
+        "email": "bmortazavi@ua.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Samples were collected across a gradient of wetlands at Tanglewood Biological Station, Alabama in August 2024 (dry season) and February 2025 (wet season). The investigated wetland sites are classified along three separate gradients of hydrologic connectivity: (i) hillslope-connected wetlands, (ii) intermediate-connected wetlands, and (iii) floodplain-connected wetlands. Hillslope-connected wetlands receive water inputs from adjacent hillslope intermediate wetlands, and often remain saturated during the wet season and dry during dry season for the duration of this study. The intermediate-connected wetlands are replenished with water from upslope wetlands and adjacent stream networks. The floodplain-connected wetlands are refilled with water deriving primarily from neighboring streams. In addition to surface water sampling from the wetlands, ground water samples were collected across three upland wells. Site metadata, including general environmental information, were manually recorded in the field. See sampling protocol (TGW_Field_Protocol.pdf) for details on sample collection. Samples were taken and shipped to Pacific Northwest National Laboratory. Upon receiving, the samples were refrigerated until analysis. For details regarding laboratory and instrument methods, see the alphanumeric methods codes located in the header rows of the sample data csv files and their associated definitions in TGW_Methods_Codes.csv. Data formats follow ESS-DIVE Reporting Formats."
+    ],
+    "distribution": [
+      {
+        "contentSize": 542737.978515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2809f6f7f7c314f-20251103T210300563",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-2809f6f7f7c314f-20251103T210300563",
+        "name": "TGW_Field_Photos.zip"
+      },
+      {
+        "contentSize": 11.0625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-35ad29ea25c5dd6-20251103T210102301",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-35ad29ea25c5dd6-20251103T210102301",
+        "name": "TGW_Metadata_IGSN_Mapping.csv"
+      },
+      {
+        "contentSize": 825.6962890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3856af3ea4af0de-20251103T205916351",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-3856af3ea4af0de-20251103T205916351",
+        "name": "readme_TGW.pdf"
+      },
+      {
+        "contentSize": 16.037109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4de88d3f1536fcd-20251103T210040697",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4de88d3f1536fcd-20251103T210040697",
+        "name": "TGW_flmd.csv"
+      },
+      {
+        "contentSize": 23.7314453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-84eeab33409df27-20251110T164516592",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-84eeab33409df27-20251110T164516592",
+        "name": "TGW_dd.csv"
+      },
+      {
+        "contentSize": 15.30078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a7eb99538cff88f-20251103T210047082",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a7eb99538cff88f-20251103T210047082",
+        "name": "TGW_Field_Metadata.csv"
+      },
+      {
+        "contentSize": 20.3466796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a6ac567bf539238-20251117T162503306",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-a6ac567bf539238-20251117T162503306",
+        "name": "Surface_water_and_groundwater_FTICR_MS_NPOC_and.xml"
+      },
+      {
+        "contentSize": 199.2421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bd7986120a884e8-20251103T210107896",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-bd7986120a884e8-20251103T210107896",
+        "name": "TGW_Field_Protocol.pdf"
+      },
+      {
+        "contentSize": 86652.9306640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dd88eeac220faa3-20251103T210157690",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dd88eeac220faa3-20251103T210157690",
+        "name": "TGW_Sample_Data.zip"
+      }
+    ]
+  }
+}

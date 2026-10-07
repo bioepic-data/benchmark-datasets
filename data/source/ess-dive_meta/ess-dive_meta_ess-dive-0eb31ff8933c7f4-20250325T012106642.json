@@ -1,0 +1,231 @@
+{
+  "id": "ess-dive-0eb31ff8933c7f4-20250325T012106642",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2547039",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-0eb31ff8933c7f4-20250325T012106642",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-27c6b39c4485d6d-20250324T161112118",
+  "dateUploaded": "2025-03-25T01:21:10.522Z",
+  "dateModified": "2025-11-15T04:41:54.834Z",
+  "isPublic": true,
+  "citation": "Chen X; Puttu U; Xu L; Wang J (2025): CROCUS Air Quality Dataset from the University of Illinois Chicago (UIC), July 2024. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL). Dataset. doi:10.15485/2547039",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2547039",
+    "name": "CROCUS Air Quality Dataset from the University of Illinois Chicago (UIC), July 2024",
+    "description": [
+      "This dataset was collected by the measurement system in the Atmosphere, Climate, and Ecosystems (ACE) Lab at the University of Illinois Chicago (UIC) from July 12 to July 31, 2024, as part of the Community Research on Climate and Urban Science (CROCUS) Urban Integrated Field Laboratory (UIFL) project, led by Argonne National Laboratory.",
+      "To enhance understanding of urban air quality dynamics in Chicago, and as part of the CROCUS 2024 Urban Canyon Intensive Observation Period (IOP), several instruments were set up to provide continuous measurements of air quality parameters in Chicago during July 2024. These measurements cover both aerosols and gas-phase species. It focuses on particle size distribution (2.5\u2013478 nm) measured by two Scanning Mobility Particle Sizers (SMPS) at a 4-min resolution, total particle number concentrations at a 1-s resolution, and chemical composition from a High-Resolution Time-of-Flight Aerosol Mass Spectrometer (AMS) at a 1-min resolution. Key gas-phase species, including NO, NO\u2082, SO\u2082, and O\u2083, are measured at a 1-min resolution, along with high-resolution NO and dimethyl sulfide (DMS) data from a Chemical Ionization Mass Spectrometer (CIMS). Volatile organic compound (VOC) data for toluene, isoprene, and benzene are provided by a GC-PID with a time resolution of 25 minutes.",
+      "The data are formatted as NetCDF (.nc) files, making them easily accessible using common software such as MATLAB, R, and Python. Each parameter is stored in an individual dataset, which includes detailed instrument information in the header, as well as the corresponding sample start time and concentration/distribution data for each sample."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8378-6587",
+        "givenName": "Xiaoyu",
+        "familyName": "Chen",
+        "affiliation": "Washington University in St. Louis",
+        "email": "chen.xiaoyu@wustl.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0003-4956-8852",
+        "givenName": "Uma",
+        "familyName": "Puttu",
+        "affiliation": "Washington University in St. Louis",
+        "email": "uma.p@wustl.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0021-9876",
+        "givenName": "Lu",
+        "familyName": "Xu",
+        "affiliation": "Washington University in St. Louis",
+        "email": "xu1@wustl.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2815-4170",
+        "givenName": "Jian",
+        "familyName": "Wang",
+        "affiliation": "Washington University in St. Louis",
+        "email": "jian@wustl.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Jing",
+        "familyName": "Li",
+        "affiliation": "Washington University in St. Louis",
+        "email": "jing.l1@wustl.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8428-3527",
+        "givenName": "Jiaoshi",
+        "familyName": "Zhang",
+        "affiliation": "Washington University in St. Louis",
+        "email": "jiaoshi@wustl.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0001-3481-7444",
+        "givenName": "Jhao-Hong",
+        "familyName": "Chen",
+        "affiliation": "Wa",
+        "email": "c.jhao-hong@wustl.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8924-716X",
+        "givenName": "Max",
+        "familyName": "Berkelhammer",
+        "affiliation": "University of Illinois at Chicago",
+        "email": "berkelha@uic.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > ATMOSPHERE > AIR QUALITY"
+    ],
+    "variableMeasured": [
+      "NOx",
+      "SO\u2082",
+      "O\u2083",
+      "Particle size distribution",
+      "Particle number concentration",
+      "Toluene",
+      "Isoprene",
+      "Benzene",
+      "DMS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "UIC Atmosphere, Climate and Ecosystems (ACE) lab",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.8692034785821,
+            "longitude": -87.6489275482711
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.8692034785821,
+            "longitude": -87.6489275482711
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2024-07-12",
+      "endDate": "2024-07-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2815-4170",
+      "givenName": "Jian",
+      "familyName": "Wang",
+      "affiliation": "Washington University in St. Louis",
+      "email": "jian@wustl.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "e48add86-2fa5-4a04-a530-86906241ebbc"
+      },
+      "name": "Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Cristina",
+        "familyName": "Negri",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Argonne National Laboratory",
+        "email": "negri@anl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This measurement was conducted in an environment-controlled laboratory at UIC, with several measures taken to ensure optimal sampling conditions. These included the use of a heat pump at the inlet and aluminum tape wrapped around the sampling line to control the humidity of the airflow and prevent condensation. A mast over 7 meters tall was set up as the inlet system above the building roof to minimize contamination from building exhaust. The robust instrument setup and secure connections ensured high-quality measurements.",
+      "Each instrument underwent detailed calibration before and after the IOP, with corresponding corrections applied to each dataset. For particle size distribution measured by the SMPS, additional particle loss efficiency corrections were applied based on the whole system setup."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3873.7822265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-03c63938967210e-20250321T151124533",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-03c63938967210e-20250321T151124533",
+        "name": "crocus_UIC_PSD_SMPS_nanoDMA.nc"
+      },
+      {
+        "contentSize": 10.1083984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0eb31ff8933c7f4-20250325T012106642",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-0eb31ff8933c7f4-20250325T012106642",
+        "name": "CROCUS_Air_Quality_Dataset_from_the_University_of.xml"
+      },
+      {
+        "contentSize": 428.9912109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-42c7dfc5f5dd34c-20250321T151124536",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-42c7dfc5f5dd34c-20250321T151124536",
+        "name": "crocus_UIC_so2_GasAnalyzer.nc"
+      },
+      {
+        "contentSize": 646.0244140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-313e0b00f19d1b6-20250321T151124524",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-313e0b00f19d1b6-20250321T151124524",
+        "name": "crocus_UIC_NOx_GasAnalyzer.nc"
+      },
+      {
+        "contentSize": 25122.3076171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5a0097090178ec2-20250321T151124539",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-5a0097090178ec2-20250321T151124539",
+        "name": "crocus_UIC_total_number_concentration_CPC.nc"
+      },
+      {
+        "contentSize": 52.068359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-78336642c7e2649-20250321T151124520",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-78336642c7e2649-20250321T151124520",
+        "name": "crocus_UIC_GC.nc"
+      },
+      {
+        "contentSize": 428.962890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a855a7899b66e9c-20250321T151124527",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a855a7899b66e9c-20250321T151124527",
+        "name": "crocus_UIC_o3_GasAnalyzer.nc"
+      },
+      {
+        "contentSize": 9523.9228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-95fb295e71608c6-20250321T151124511",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-95fb295e71608c6-20250321T151124511",
+        "name": "crocus_UIC_CIMS.nc"
+      },
+      {
+        "contentSize": 5578.4541015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b399198e44bf445-20250321T151124530",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-b399198e44bf445-20250321T151124530",
+        "name": "crocus_UIC_PSD_SMPS_longDMA.nc"
+      }
+    ]
+  }
+}

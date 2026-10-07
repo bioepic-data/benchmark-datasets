@@ -1,0 +1,424 @@
+{
+  "id": "ess-dive-c938a042bca2b42-20260309T155648105",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2997555",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-c938a042bca2b42-20260309T155648105",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-c938a042bca2b42-20251015T134002080",
+  "dateUploaded": "2026-03-09T15:56:50.175Z",
+  "dateModified": "2026-03-09T15:56:50.302Z",
+  "isPublic": true,
+  "citation": "Kanaley K; Carroll E; Chadwick K D; Eckert R; Breckheimer I (2025): Site and endmember spectra of terrestrial vegetation and soils for the Colorado Headwaters Ecological Spectroscopy Study, June-July 2025. Watershed Function SFA. Dataset. doi:10.15485/2997555",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2997555",
+    "name": "Site and endmember spectra of terrestrial vegetation and soils for the Colorado Headwaters Ecological Spectroscopy Study, June-July 2025",
+    "description": [
+      "This dataset provides site and endmember spectra collected during the 2025 Colorado Headwaters Ecological Spectroscopy Study (CHESS) campaign. The site spectra were collected to help validate airborne hyperspectral data acquired by the National Ecological Observatory Network's aerial observation platform (NEON AOP). Endmember spectra were collected to augment existing spectral libraries with additional samples of bare surfaces and non-photosynthetic vegetation.",
+      "All measurements were acquired with an Analytical Spectral Devices (ASD) FieldSpec4 Hi-Res NG (Next Generation) spectroradiometer, which records radiance at 1nm (nanometer) intervals from the ultraviolet to the short-wave infrared (350-2500 nm). The dataset includes spectra measured at meadow sites where the CHESS team also collected vegetation samples for trait analyses. The site spectra were collected with the ASD FieldSpec4 palm grip attachment using an 8\u00b0 field-of-view foreoptic. Site spectra are integrated measurements of the entire surface within the foreoptic\u2019s field of view. For site-level spectra, the sun is the illumination source. A Spectralon panel mounted on a tripod was used for instrument optimization and white reference measurements for all site spectra. Site spectra were acquired within two hours of solar noon and within 48 hours of a NEON AOP overflight. Site spectra are labeled by date, sampling area, and site number according to the naming conventions of the CHESS campaign\u2019s data management plan.",
+      "The dataset also contains endmember spectra in the following categories: photosynthetic vegetation (PV), non-photosynthetic vegetation (NPV), bare (soil/rock), and flowers. Endmember measurements were acquired using either the contact probe or the leaf clip attachments of the ASD FieldSpec4. In these configurations, the bulb inside the spectrometer provides the light source for the measurements. The spectrometer was optimized and white reference measurements were recorded using the circular white pucks attached to the contact probe and leaf clip. Because they do not rely on solar illumination, contact probe and leaf clip measurements were collected during a broader time frame than the palm grip site spectra. Some endmembers were measured at CHESS meadow sites, while others were collected within the larger sampling area or in nearby locations (e.g. Gothic Townsite) with similar characteristics.",
+      "Radiance, reflectance, and metadata files are split into three subfolders according to measurement type: proximal/palm grip (prx), contact probe (cp), and leaf clip (lc). Radiance spectra are provided in ASD file format (.asd file extension). All ASD files can be opened using the provided scripts. Metadata is provided in two formats: CSV file format (no geolocation) and GEOJSON file format (includes geolocation for each spectra). The dataset includes a set of pre-processed reflectance spectra as CSV files (yyyymmdd_rfl.csv). The python scripts and jupyter notebook used to calculate reflectance spectra from the ASD radiance data is included here and was previously published at: https://doi.org/10.3334/ORNLDAAC/2446. There is also a folder of JPEG photographs corresponding to selected spectra. We include a protocol document with detailed steps for ASD FieldSpec4 assembly and operations. This data additionally contains a file level metadata (flmd.csv) and data dictionary (dd.csv) file.",
+      "CHESS Project Description: The Colorado Headwaters Ecological Spectroscopy Study (CHESS) comprised a multi-week airborne remote sensing and field observation campaign in the Upper Gunnison Basin, Colorado, conducted in June and July of 2025. Airborne remote sensing was conducted by the National Ecological Observatory Network Airborne Observation Platform (NEON AOP), concurrent with a field campaign run by the Rocky Mountain Biological Laboratory (RMBL), the Lawrence Berkeley National Laboratory (LBNL) and SLAC National Accelerator Laboratory Watershed Function Science Focus Area (SFA), and NASA-JPL (Jet Propulsion Laboratory) Earth Surface Mineral Dust Source Investigation (EMIT) program. Between June 10 and July 18, 2025, the NEON AOP flight team collected high-resolution aerial imaging spectroscopy and Light Detection and Ranging (LiDAR) data over three domains: the Upper East River (CRBU), Almont Triangle (ALMO), and the Upper Taylor Basin (UPTA). In coordination with the flights, a field campaign acquired ground-truth observations, including observations of vegetation composition, foliar traits, forest demography, and subsurface properties in 18 core sampling areas within the domains. Additional surface water observations were taken at over 380 point locations. All CHESS campaign datasets can be found within the CHESS ESS-DIVE data portal: https://data.ess-dive.lbl.gov/portals/chess.",
+      "Funding Acknowledgment: This research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration (80NM0018D0004) and was funded by EMIT Extended Mission Phase E Science."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8625-253X",
+        "givenName": "Kathleen",
+        "familyName": "Kanaley",
+        "affiliation": "Cornell University",
+        "email": "kk697@cornell.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9044-3101",
+        "givenName": "Erin",
+        "familyName": "Carroll",
+        "affiliation": "University of California Berkeley",
+        "email": "erin_carroll@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5633-4865",
+        "givenName": "K. Dana",
+        "familyName": "Chadwick",
+        "affiliation": "NASA Jet Propulsion Laboratory (JPL)",
+        "email": "katherine.d.chadwick@jpl.nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4571-7040",
+        "givenName": "Regina",
+        "familyName": "Eckert",
+        "affiliation": "NASA Jet Propulsion Laboratory (JPL)",
+        "email": "regina.f.eckert@jpl.nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4698-977X",
+        "givenName": "Ian",
+        "familyName": "Breckheimer",
+        "affiliation": "Rocky Mountain Biological Lab",
+        "email": "ikb@rmbl.org"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0008-1178-7626",
+        "givenName": "Travis",
+        "familyName": "Guy",
+        "affiliation": "Rocky Mountain Biological Lab",
+        "email": "travisjguy@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0001-9831-5777",
+        "givenName": "Sophia",
+        "familyName": "Todorov",
+        "affiliation": "Rocky Mountain Biological Lab",
+        "email": "sophia@rmbl.org"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bayden",
+        "familyName": "Menton",
+        "affiliation": "Western Colorado University",
+        "email": "bayden.menton@western.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Hillary",
+        "familyName": "Xu",
+        "affiliation": "University of Texas at Austin",
+        "email": "hillary-xu-29@utexas.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bradley",
+        "familyName": "Sowder",
+        "affiliation": "Western Colorado University",
+        "email": "bradley.sowder@western.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Cassidy",
+        "familyName": "Bromka",
+        "affiliation": "Rocky Mountain Biological Lab",
+        "email": "cassidy.bromka@du.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-1186-8635",
+        "givenName": "Piper",
+        "familyName": "Lovegreen",
+        "affiliation": "University of California Santa Barbara",
+        "email": "plovegreen@ucsb.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Amanda",
+        "familyName": "Henderson",
+        "affiliation": "Rocky Mountain Biological Lab",
+        "email": "amanda@rmbl.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9497-7661",
+        "givenName": "Philip",
+        "familyName": "Brodrick",
+        "affiliation": "NASA Jet Propulsion Laboratory (JPL)",
+        "email": "philip.brodrick@jpl.nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7924-040X",
+        "givenName": "Marshall",
+        "familyName": "Worsham",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "hmworsham@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jack",
+        "familyName": "Fanselow",
+        "affiliation": "Western Colorado University",
+        "email": "jack.fanselow@western.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Raegan",
+        "familyName": "Struski",
+        "affiliation": "Western Colorado University",
+        "email": "raegan.struski@western.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Yahaira",
+        "familyName": "Ramirez",
+        "affiliation": "Western Colorado University",
+        "email": "yahaira.ramirez@western.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Andres",
+        "familyName": "Villa",
+        "affiliation": "Western Colorado University",
+        "email": "andres.villa@western.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Benjamin",
+        "familyName": "Schmatz",
+        "affiliation": "Rocky Mountain Biological Lab",
+        "email": "benn@rmbl.org"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "CHESS Campaign 2025",
+      "Colorado Headwaters Ecological Spectroscopy Study",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "2018 NEON and 2025 CHESS Campaigns",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > VISIBLE WAVELENGTHS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > INFRARED WAVELENGTHS",
+      "EARTH SCIENCE > LAND SURFACE > SOILS"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > VISIBLE WAVELENGTHS > VISIBLE RADIANCE",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > INFRARED WAVELENGTHS > INFRARED RADIANCE",
+      "EARTH SCIENCE > LAND SURFACE > SURFACE RADIATIVE PROPERTIES > REFLECTANCE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Colorado River headwaters including East River, Washington Gulch, Coal Creek, Slate River, and Taylor River.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.04178979332606,
+            "longitude": -107.0776001916481
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.81965848660393,
+            "longitude": -106.64882506377188
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory and SLAC Accelerator Laboratory's Watershed Function Scientific Focus Area (WFSFA). This portion of the ER watershed contains the project-defined boundaries of East River, Washington Gulch, Slate River, and Coal Creek, as described in the location metadata. Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. This data package contains geographic metadata for specific observation points throughout the watershed. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2025) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.033,
+            "longitude": -107.12
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.82,
+            "longitude": -106.88
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Almont Triangle (ALMO) (i.e., Lower Taylor) domain part of the CHESS 2025 campaign.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8067,
+            "longitude": -106.8616
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.6055,
+            "longitude": -106.6671
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "East River (CRBU) domain part of the CHESS 2025 campaign.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0631,
+            "longitude": -107.1208
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8106,
+            "longitude": -106.8838
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Upper Taylor (UPTA) domain part of the CHESS 2025 campaign.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0584,
+            "longitude": -106.8013
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8624,
+            "longitude": -106.5941
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The Taylor River (TR) watershed is a headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States and is considered representative of many snow-dominated headwaters of the Rocky Mountains. The TR is a designated testbed of Lawrence Berkeley National Laboratory and SLAC Accelerator Laboratory's Watershed Function Scientific Focus Area (WFSFA). This data package contains geographic metadata for specific observation points throughout the watershed.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.0559,
+            "longitude": -106.847
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.6075,
+            "longitude": -106.3206
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000104",
+        "name": "National Aeronautics and Space Administration (NASA)"
+      },
+      {
+        "@type": "Organization",
+        "name": "EMIT Extended Mission Phase E Science"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2025-06-26",
+      "endDate": "2025-07-12",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8625-253X",
+      "givenName": "Kathleen",
+      "familyName": "Kanaley",
+      "affiliation": "Cornell University",
+      "email": "kk697@cornell.edu"
+    },
+    "citation": [
+      "Eckert, R., D.R. Thompson, D.J. Jensen, F.D. Schneider, P.G. Brodrick, K. Grant, K.D. Chadwick, and R.O. Green. 2025. SHIFT: Pseudo-invariant Targets, ASD Field Spectrometer Measurements, 2022. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/2446",
+      "Kathleen Kanaley Erin Carroll K. Dana Chadwick Regina Eckert Ian Breckheimer Amanda Henderson Phil Brodrick Marshall Worsham Travis Guy Sophia Todorov Jack Fanselow Bayden Menton Raegan Struski Andres Villa Yahaira Ramirez Piper Lovegreen Cassidy Bromka Bradley Sowder Hilary Xu Benn Schmatz. 2025. Contact probe spectra for the 2025 Colorado Headwaters Ecological Spectroscopy Study (CHESS). Data set. Available on-line [http://ecosis.org] from the Ecological Spectral Information System (EcoSIS)",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Boye K ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Perzan Z ; Pierce S ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Thibaut R ; Tokunaga T ; Versteeg R ; Wielandt S ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2025): Location Identifiers, Metadata, and Map for Field Measurements at the East-Taylor Watershed Community Observatory, Colorado, USA (Version 3.2). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962",
+      "Kathleen Kanaley Erin Carroll K. Dana Chadwick Regina Eckert Ian Breckheimer Amanda Henderson Phil Brodrick Marshall Worsham Travis Guy Sophia Todorov Jack Fanselow Bayden Menton Raegan Struski Andres Villa Yahaira Ramirez Piper Lovegreen Cassidy Bromka Bradley Sowder Hilary Xu Benn Schmatz . 2025. Proximal spectra for the 2025 Colorado Headwaters Ecological Spectroscopy Study (CHESS). Data set. Available on-line [http://ecosis.org] from the Ecological Spectral Information System (EcoSIS)"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Detailed descriptions of all spectrometer protocols are included in the ASDfieldspec_protocol.pdf file.\nWe turned on the spectrometer at least 30 minutes before taking measurements to allow the instrument to warm-up to a stable internal temperature, preventing temperature-induced variability in spectral measurements. For proximal / palm grip measurements (denoted by \u201cprx\u201d) at sample sites, we first set up the Spectralon panel on the tripod just outside of the sample site. We used a bubble level taped to the panel cover to ensure that the panel remained level. We set up the spectrometer in the backpack configuration, with the palm grip attachment and 8\u00b0 FOV (field-of-view) foreoptic. The spectrometer operator used an extendable stick attached to the bottom of the palm grip to enable extending the foreoptic away from their body while taking measurements. This minimized shadow on the sample site.\nWe updated the settings in the RS3 software to set the number of white reference (WR) measurements integrated per .asd file to 50 and the number of target (non-WR) measurements to 25. At each site, we (1) Optimized the instrument, (2) took a white reference measurement by pressing the \u2018WR\u2019 button, and (3) took five additional measurements of the Spectralon panel to ensure that illumination conditions remained stable. Next we collected site spectra. The operator used the extendable stick to hold the foreoptic away from their body at hip-height, pointed perpendicular to the site surface. We took 9-20 measurements of each site, attempting to completely capture the extent of the 1x1-meter area. After one set of site measurements, or if illumination conditions changed, we took five more measurements of the Spectralon panel before proceeding to the next site. We recorded the .asd file number for each measurement on a datasheet.\nNote: We observed substantial noise at wavelengths >2300 nm for all prx-type measurements. We advise users to exclude this region of the spectra before conducting further analyses with this data. The reflectance spectra for all prx-type measurements provided in this dataset are truncated at 2300 nm.",
+      "For contact probe measurements (denoted by \u201ccp\u201d), we used the backpack to carry the spectrometer for in-field measurements or laid the instrument on a benchtop for indoor measurements of samples collected in the field. After the 30 minute spectrometer warm-up period, we turned on the bulb in the probe and let it warm up for at least 5 minutes before starting measurements. We began by optimizing the instrument and taking a white reference (WR) measurement. For the contact probe, WR measurements were taken using the circular white puck inside the probe cap. After the WR, we took 5 additional measurements of the white puck. For endmember measurements, the operator held the probe so that the glass lens was in direct contact with the surface. We attempted to maintain a tight seal between the surface and the probe to prevent light leakage. We recorded 2-5 measurements per individual endmember. We cleaned the glass lens with a Kim wipe after each set of endmember measurements and took an additional set of white reference puck measurements before proceeding to the next surface. We took a new white reference (WR) when the puck measurements started to drift above or below 1.00 at any wavelength.",
+      "Leaf clip (denoted by \u201clc\u201d) measurements were recorded in the lab with the spectrometer laid flat on a benchtop. In this configuration, the operator placed the target endmember material on the leaf clip platform and pressed the platform against the lens to take measurements. Following the same protocol as the contact probe, we let the bulb warm up for at least 5 minutes. We optimized the instrument at the start of the session. For each endmember sample, we took a WR measurement followed by measurements of the white reference puck located on one side of the leaf clip platform. We then took a measurement of the black side of the platform (denoted \u2018BR\u2019 for \u2018black reference\u2019) before arranging our sample. All samples were placed on the black side of the platform. To prepare flower samples for leaf clip measurements, we detached petals and arranged them to cover as much of the platform as possible. For NPV samples including needles, bark, senesced vegetation, and cones, we arranged small pieces of sample material to cover the platform surface. We cleaned the lens and the platform with a Kim wipe between samples. We took a new WR, a set of white puck measurements, and a BR measurement before measuring each sample.",
+      "Folder structure and file descriptions:\nphotos.zip\nThe photos.zip folder contains subfolders labeled by date (yyyymmdd). Each folder contains JPEG photos. Photo names match the basenames of the ASD files of the associated spectra. The numeric suffixes of JPEG files do not match specific ASD filenumbers.\nprx.zip\nThe prx.zip folder contains the raw ASD files, selected reflectance spectra, and metadata for all measurements acquired with the palm grip configuration. The asd_prx subfolder contains subfolders labeled by measurement date. Each dated subfolder contains ASD files, one per measurement. The rfl_prx subfolder contains one CSV file per measurement date with pre-processed reflectance spectra. The CSV files contain reflectance spectra for sample sites only, not for the Spectralon panels. Columns for \u201cdate\u201d, \u201casd_basename\u201d, and \u201casd_file\u201d in the reflectance datasheets enable linking each spectra to the corresponding ASD file and associated metadata. The reflectance data is truncated at 2300 nm because of high noise in the SWIR for this measurement type. Code used to calculate the spectra is included in the asd_processing_code.zip folder. The metadata_prx.csv file contains all metadata associated with all ASD files. The metadata_prx.geojson file contains identical information to metadata.csv, with an additional geometry column to enable mapping the location of each measurement.\nNote: Due to an error during data collection, the ASD files for all measurements acquired on 2025-06-30 are mis-labeled with the prefix: \u201c20250628\u201d. The parent folder for the raw ASD files and the folders and files for all associated data are correctly labeled as \u201c20250630\u201d.\ncp.zip\nThe cp.zip folder contains the raw ASD files, selected reflectance spectra, and metadata for all measurements acquired with the contact probe configuration. The asd_cp subfolder contains subfolders labeled by measurement date. Each dated subfolder contains ASD files, one per measurement. The rfl_cp subfolder contains one CSV file per measurement date with pre-processed endmember reflectance spectra. The CSV files do not contain any reference puck spectra. Columns for \u201cdate\u201d, \u201casd_basename\u201d, and \u201casd_file\u201d in the reflectance datasheets enable linking each spectra to the corresponding ASD file and associated metadata. Code used to calculate the spectra is included in the asd_processing_code.zip folder. The metadata_cp.csv file contains all metadata associated with all ASD files. The metadata_cp.geojson file contains identical information to metadata.csv, with an additional geometry column to enable mapping the location of each measurement.\nlc.zip\nThe lc.zip folder contains the raw ASD files, selected reflectance spectra, and metadata for all measurements acquired with the leaf clip configuration. The asd_lc subfolder contains subfolders labeled by measurement date. Each dated subfolder contains ASD files, one per measurement. The rfl_lc subfolder contains one CSV file per measurement date with pre-processed endmember reflectance spectra. The CSV files include reflectance spectra for the black side of the leaf clip platform (\u2018BR\u2019 measurements). Columns for \u201cdate\u201d, \u201casd_basename\u201d, and \u201casd_file\u201d in the reflectance datasheets enable linking each spectra to the corresponding ASD file and associated metadata. Code used to calculate the spectra is included in the asd_processing_code.zip folder.The metadata_lc.csv file contains all metadata associated with all ASD files. The metadata_lc.geojson file contains identical information to metadata.csv, with an additional geometry column to enable mapping the location of each measurement.\nmetadata_key.csv\nThe metadata_key.csv has two columns: (1) the \u201ckey\u201d column lists the column headers in the metadata files; (2) the \u201cdescription\u201d column explains the meaning of each entry in the \u201ckey\u201d column.\nasd_processing_code.zip\nThe asd_processing_code.zip folder contains all code used to process the ASD files to calculate the reflectance spectra included in the _rfl.csv files. This code was written by Eckert et al. {cite Regina ORNL DAAC}. The jupyter notebook CHESS_processing.ipynb demonstrates how to calculate, plot and save the reflectance spectra for a set of ASD files.\nASDfieldspec_protocol.pdf\nThe ASDfieldspec_protocol.pdf document contains detailed protocols for the three types of spectrometer measurements: proximal/palm grip, contact probe, and leaf clip."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3ef169be66d5264-20250807T184514742",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-3ef169be66d5264-20250807T184514742",
+        "name": "ASDfieldspec_protocol.pdf",
+        "contentSize": 25480.73046875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-76027040b64a71f-20250807T184514756",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-76027040b64a71f-20250807T184514756",
+        "name": "cp.zip",
+        "contentSize": 18331.83984375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-42f61811b8d5db6-20250807T184514759",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-42f61811b8d5db6-20250807T184514759",
+        "name": "lc.zip",
+        "contentSize": 11717.56640625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-517ee695b6073c9-20250807T184514766",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-517ee695b6073c9-20250807T184514766",
+        "name": "prx.zip",
+        "contentSize": 33546.0927734375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c8dbf2fe079cf73-20250807T184514763",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c8dbf2fe079cf73-20250807T184514763",
+        "name": "photos.zip",
+        "contentSize": 43828.4853515625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-20dccf9d214e1c0-20250922T183403000",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-20dccf9d214e1c0-20250922T183403000",
+        "name": "dd.csv",
+        "contentSize": 8.5068359375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c48cda8ff246d58-20250819T171442644",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c48cda8ff246d58-20250819T171442644",
+        "name": "asd_processing_code.zip",
+        "contentSize": 432.470703125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ea286d412b75a56-20250819T171442657",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ea286d412b75a56-20250819T171442657",
+        "name": "flmd.csv",
+        "contentSize": 2.4296875
+      }
+    ]
+  }
+}

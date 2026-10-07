@@ -1,0 +1,362 @@
+{
+  "id": "ess-dive-e5afedc2e4b8aba-20250206T175107068",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2511314",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-e5afedc2e4b8aba-20250206T175107068",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-6cca299f548e3e7-20250204T222043002",
+  "dateUploaded": "2025-02-06T17:51:08.078Z",
+  "dateModified": "2025-02-09T00:01:30.787Z",
+  "isPublic": true,
+  "citation": "Ogle K; Reich E; Samuels-Crow K; Litvak M; Bradford J; Schlaepfer D; DeVan M (2025): Observed and Imputed Volumetric Soil Water Content Timeseries for the New Mexico Elevation Gradient. AmeriFlux Management Project. Dataset. doi:10.15485/2511314",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2511314",
+    "name": "Observed and Imputed Volumetric Soil Water Content Timeseries for the New Mexico Elevation Gradient",
+    "description": [
+      "Reliable soil water content (SWC) data are essential for understanding dryland ecosystem dynamics, but high-frequency SWC sensors often fail, creating gaps in critical datasets. To address this, we developed a Bayesian mixture model that imputes missing SWC using both linear interpolation and an ecosystem water balance model (SOILWAT2), tested across six AmeriFlux eddy covariance tower sites in the New Mexico Elevation Gradient, demonstrating its effectiveness in reconstructing SWC patterns while providing insights into the factors driving SWC variability. Daily volumetric soil water content (SWC) data are provided as csv-formatted spreadsheets for the six AmeriFlux sites (US-Seg, US-Ses, US-Wjs, US-Mpi, US-Vcp, and US-Vcs). For each site there is an observed SWC file (site_SWC_gapfill.csv) and a file that contains imputed SWC (imputed_SWC_site.csv). The observed SWC files contain temperature corrected sensor values, tower precipitation data, as well as outputs from SOILWAT2 simulations that were used to impute SWC. The imputed files contain the original observed SWC values and the imputed missing SWC values. When SWC was missing from the original data, the missing value was imputed based on the Bayesian imputation mixture model. The posterior mean of all imputed values is reported as \"mean_X\". When the observed SWC was NOT missing, mean_X = observed SWC value (original data). The standard deviation, 2.5th percentile and the 97.5th percentile for the imputed values are also reported in the imputed files. There are readme text files for each file type explaining the contents of each column."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0652-8397",
+        "givenName": "Kiona",
+        "familyName": "Ogle",
+        "affiliation": "Northern Arizona University",
+        "email": "kiona.ogle@nau.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3857-4195",
+        "givenName": "Emma",
+        "familyName": "Reich",
+        "affiliation": "Northern Arizona University",
+        "email": "egr65@nau.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3168-9608",
+        "givenName": "Kimberly",
+        "familyName": "Samuels-Crow",
+        "affiliation": "Northern Arizona University",
+        "email": "kimberly.samuels@nau.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4255-2263",
+        "givenName": "Marcy",
+        "familyName": "Litvak",
+        "affiliation": "University of New Mexico",
+        "email": "mlitvak@unm.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9257-6303",
+        "givenName": "John",
+        "familyName": "Bradford",
+        "affiliation": "U.S. Geological Survey",
+        "email": "jbradford@usgs.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9973-2065",
+        "givenName": "Daniel",
+        "familyName": "Schlaepfer",
+        "affiliation": "U.S. Geological Survey",
+        "email": "dschlaepfer@usgs.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4955-4181",
+        "givenName": "Megan",
+        "familyName": "DeVan",
+        "affiliation": "University of New Mexico",
+        "email": "raedevan@unm.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "gap-filling",
+      "hierarchal Bayesian",
+      "imputation",
+      "mixture model",
+      "New Mexico elevation gradient",
+      "semi-arid ecoystems",
+      "soil moisture",
+      "SOILWAT2"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL MOISTURE/WATER CONTENT"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "US-Seg, Chihuahuan desert grassland",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.3462,
+            "longitude": -106.64
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.3462,
+            "longitude": -106.64
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Ses, desert creosote shrubland",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.3349,
+            "longitude": -106.744
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.3349,
+            "longitude": -106.744
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Wjs, juniper savannah",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.4255,
+            "longitude": -105.861
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.4255,
+            "longitude": -105.861
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Mpj, pinyon-juniper forest",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.4385,
+            "longitude": -106.237
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 34.4385,
+            "longitude": -106.237
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Vcp, ponderosa pine forest",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.8642,
+            "longitude": -106.596
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.8642,
+            "longitude": -106.596
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-Vcs, mixed conifer forest",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35.9192,
+            "longitude": -106.614
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.9192,
+            "longitude": -106.614
+          }
+        ]
+      }
+    ],
+    "award": [
+      "7074628"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000001",
+        "name": "National Science Foundation (NSF)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2007-01-01",
+      "endDate": "2020-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4255-2263",
+      "givenName": "Marcy",
+      "familyName": "Litvak",
+      "affiliation": "University of New Mexico",
+      "email": "mlitvak@unm.edu"
+    },
+    "citation": [
+      "Ogle, K., Reich, E., Samuels-Crow, K., Litvak, M., Bradford, J.B., Schlaepfer, D.R., DeVan, M.R. 2025. Filling the Gaps: A Bayesian mixture model for imputing missing soil water content data. Ecohydrology. https://doi.org/10.1002/eco.70004"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "620c30f3-61c8-42aa-9020-a0fa58cbb6d0"
+      },
+      "name": "AmeriFlux Management Project",
+      "member": {
+        "@type": "Person",
+        "givenName": "Margaret",
+        "familyName": "Torn",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mstorn@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "We used SWC collected at the New Mexico elevation gradient network of sites where tower-based eddy covariance has been used to measure continuous carbon, water, and energy exchange in six common dryland biomes in the southwestern United States since 2007. These sites are part of the broader AmeriFlux network and are distributed along a 1500 m elevation gradient in New Mexico. The sites include a creosote shrubland (US-Ses), Chihuahuan Desert grassland (US-Seg), juniper savanna (US-Wjs), pi\u00f1on-juniper woodland (US-Mpj), ponderosa pine forest (US-Vcp), and mixed conifer forest (US-Vcs). At each site, except US-Mpj, soil water was measured using CS616 Campbell Scientific probes in four soil pits (two in open space and two under dominant vegetation), at 3 to 6 depths per pit. US-Seg and US-Ses have 5 pit depths (2.5 cm, 12.5 cm, 22.5cm, 37.5cm, and 52.5cm). US-Mpj and US-Wjs have 3 pit depths (5cm, 10cm, and 30cm). US-Vcp and US-Vcs have 6 pit depths (5cm, 10cm, 20cm, 30cm, 50cm, and 60cm). The period value for each CS616 probe was logged at 1 Hz and reported as 30-minute averages using CR3000 or CR5000 dataloggers (Campbell Scientific). We temperature-corrected the 30-minute period averages using soil temperature (T107 sensors, Campbell Scientific) following Rudiger et al. (2010), assuming sandy loam soil properties, and converted them to volumetric water content (SWC, v/v) using parameters for coarse soils. For this study, we used daily SWC averages computed from the 30-minute timeseries for each probe, then averaged across all probes at each depth within a day. At MPJ, SWC was measured using TDR (CS610 probes, Campbell Scientific) at three depths in six pits (two under pi\u00f1on, two under juniper, and two in open space). We imputed missing SWC data using a Bayesian mixture model that combined linear interpolation and simulations from the SOILWAT2 ecosystem water balance model, with mixture weights varying by depth, site, and gap characteristics. We compared fixed versus dynamic mixture weights, where the latter adjusted based on cumulative precipitation, average temperature, and gap duration. Both models performed well (R\u00b2 = 0.66\u20130.87 for fixed vs. 0.75\u20130.91 for dynamic weights), with SOILWAT2 contributing more at arid sites, shallower depths, and longer or wetter gaps. This approach provides reliable SWC estimates while offering insights into SWC dynamics and can be adapted for other environmental timeseries.\nMethods explained in detail in Ogle, K., Reich, E., Samuels-Crow, K., Litvak, M., Bradford, J.B., Schlaepfer, D.R., DeVan, M.R. 2025. Filling the Gaps: A Bayesian mixture model for imputing missing soil water content data. Ecohydrology. https://doi.org/10.1002/eco.70004"
+    ],
+    "distribution": [
+      {
+        "contentSize": 1431.5029296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1c6dfceabcef2a9-20250204T222241867",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1c6dfceabcef2a9-20250204T222241867",
+        "name": "imputed_SWC_seg.csv"
+      },
+      {
+        "contentSize": 4949.1953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-181f74663275f02-20250204T222143858",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-181f74663275f02-20250204T222143858",
+        "name": "07_US_Vcs_SWC_gapfill.csv"
+      },
+      {
+        "contentSize": 2.3701171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31cdaf76807ae7c-20250204T222312967",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-31cdaf76807ae7c-20250204T222312967",
+        "name": "README_original_SWC_data.txt"
+      },
+      {
+        "contentSize": 720.71484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-62ae107681df19c-20250204T222250265",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-62ae107681df19c-20250204T222250265",
+        "name": "imputed_SWC_vcs.csv"
+      },
+      {
+        "contentSize": 815.3447265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4fae89b917b1037-20250204T222228525",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4fae89b917b1037-20250204T222228525",
+        "name": "imputed_SWC_mpj.csv"
+      },
+      {
+        "contentSize": 5232.365234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-79d30ad99cd6d24-20250204T222116663",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-79d30ad99cd6d24-20250204T222116663",
+        "name": "01_US_Ses_SWC_gapfill.csv"
+      },
+      {
+        "contentSize": 1423.4072265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-80e6cb5b19bb124-20250204T222235029",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-80e6cb5b19bb124-20250204T222235029",
+        "name": "imputed_SWC_ses.csv"
+      },
+      {
+        "contentSize": 1204.4267578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6bc114fd390ea33-20250204T222259757",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6bc114fd390ea33-20250204T222259757",
+        "name": "imputed_SWC_vcp.csv"
+      },
+      {
+        "contentSize": 5047.3642578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-910d77d3bde0a1c-20250204T222103932",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-910d77d3bde0a1c-20250204T222103932",
+        "name": "05_US_Vcp_SWC_gapfill.csv"
+      },
+      {
+        "contentSize": 2.724609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9208b579f40c5f8-20250204T222306945",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-9208b579f40c5f8-20250204T222306945",
+        "name": "Readme_imputed_SWC_Nov2023.txt"
+      },
+      {
+        "contentSize": 4980.1162109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-98eb704f00b88f8-20250204T222155859",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-98eb704f00b88f8-20250204T222155859",
+        "name": "04_US_Mpj_SWC_gapfill.csv"
+      },
+      {
+        "contentSize": 4950.3291015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c09046f114219f3-20250204T222207096",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c09046f114219f3-20250204T222207096",
+        "name": "03_US_Wjs_SWC_gapfill.csv"
+      },
+      {
+        "contentSize": 5218.5224609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c849de4c3eb13df-20250204T222130729",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c849de4c3eb13df-20250204T222130729",
+        "name": "02_US_Seg_SWC_gapfill.csv"
+      },
+      {
+        "contentSize": 14.4462890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e5afedc2e4b8aba-20250206T175107068",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-e5afedc2e4b8aba-20250206T175107068",
+        "name": "Observed_and_Imputed_Volumetric_Soil_Water.xml"
+      },
+      {
+        "contentSize": 814.1162109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-de0032c18604b55-20250204T222221211",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-de0032c18604b55-20250204T222221211",
+        "name": "imputed_SWC_wjs.csv"
+      }
+    ]
+  }
+}

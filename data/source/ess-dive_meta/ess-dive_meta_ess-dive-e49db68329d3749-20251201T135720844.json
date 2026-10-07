@@ -1,0 +1,220 @@
+{
+  "id": "ess-dive-e49db68329d3749-20251201T135720844",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3006141",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-e49db68329d3749-20251201T135720844",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-e14126976744108-20251119T203427459",
+  "dateUploaded": "2025-12-01T13:57:22.519Z",
+  "dateModified": "2025-12-05T00:28:24.561Z",
+  "isPublic": true,
+  "citation": "Orton H; Forbrich I (2025): Hourly gap-filled meteorological data from PIE LTER measurements (2004-2023) used as drivers to run ELM PFLOTRAN simulations. From tides to seasons: How cyclic tidal drivers and plant physiology interact to affect carbon cycling at the terrestrial-estuarine boundary. Dataset. doi:10.15485/3006141",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3006141",
+    "name": "Hourly gap-filled meteorological data from PIE LTER measurements (2004-2023) used as drivers to run ELM PFLOTRAN simulations",
+    "description": [
+      "This dataset contains continuous gap-filled precipitation, solar radiation, photosynthetically active radiation (PAR), air temperature, relative humidity, wind speed, and barometric pressure data recorded primarily at the Marshview Farm weather station within the Plum Island Long Term Ecosystems Research (PIE LTER) in Newbury Massachusetts (MA) from 2004 to 2023. We compiled the data set from published annual data packages in 15min resolution available on DataOne. Gaps were filled using different statistical techniques or available observations from the vicinity, e.g. the US-PLo and the US-PHM Ameriflux sites, also located within the PIE LTER. Flags are included in this dataset to indicate the origin of each data point. Metadata files ELMPFLOTRAN_met_dd.csv and ELMPFLOTRAN_met_flmd.csv contain more information on site locations, gap filling protocols, data variables, flags, and QA/QC methods. The data set was used in the spin up and simulations of a land surface model coupled to a biogeochemical reaction network (ELM PFLOTRAN) assessing impacts of hydrology and salinity input on methane fluxes in 2022 and 2023 (Sulman et al., 2024)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0008-5082-2439",
+        "givenName": "Hannah",
+        "familyName": "Orton",
+        "affiliation": "Marine Biological Laboratory",
+        "email": "horton@mbl.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0632-7317",
+        "givenName": "Inke",
+        "familyName": "Forbrich",
+        "affiliation": "University of Toledo",
+        "email": "inke.forbrich@utoledo.edu"
+      }
+    ],
+    "datePublished": "2025-11-19",
+    "keywords": [
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "salt marsh",
+      "brackish",
+      "tidal",
+      "EARTH SCIENCE > SOLID EARTH > GEOCHEMISTRY",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS"
+    ],
+    "variableMeasured": [
+      "Timestamp",
+      "Precip",
+      "Precip_Flag",
+      "Solar_Rad",
+      "SR_Flag",
+      "PAR",
+      "PAR_Flag",
+      "Temp",
+      "Temp_Flag",
+      "RH",
+      "RH_Flag",
+      "Wind",
+      "Wind_Flag",
+      "Atm_Press",
+      "Atm_Press_Flag"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Marshview Farm meteorological station, Newbury, MA, established July 2007. Station was previously located at the Governor\u2019s Academy in Byfield, MA from 2000 to 2007.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.756971,
+            "longitude": -70.891366
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.756971,
+            "longitude": -70.891366
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-PHM Ameriflux site, Rowley, MA, established 2013. Located in a salt marsh within the Plum Island Sound estuary characterized by a tidal range of 2.5-3m and a vegetation cover of Spartina patens, Spartina alterniflora, and Distichils spicata.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.7423,
+            "longitude": -70.8301
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.7423,
+            "longitude": -70.8301
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "US-PLo Ameriflux site, Newbury, MA, established May 2022. Located in an upland brackish tidal salt marsh dominated by Typha angustifolia on the bank of the Parker River.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.7496,
+            "longitude": -70.9157
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.7496,
+            "longitude": -70.9157
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0022108"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2004-01-01",
+      "endDate": "2023-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0632-7317",
+      "givenName": "Inke",
+      "familyName": "Forbrich",
+      "affiliation": "University of Toledo",
+      "email": "inke.forbrich@utoledo.edu"
+    },
+    "citation": [
+      "Giblin, A. 2013. Year 2009, meteorological data, 15 minute intervals, from the MBL Marshview Farm weather station located in Newbury, MA ver 3. Environmental Data Initiative. https://doi.org/10.6073/pasta/44664fd981d9d82e48b8cd525cdfe853 (Accessed 2025-11-17).",
+      "Giblin, A. 2013. Year 2010, meteorological data, 15 minute intervals, from the Marshview Farm weather station located in Newbury, MA ver 3. Environmental Data Initiative. https://doi.org/10.6073/pasta/6d6ed0cc371de666ee1dde9a303294e0 (Accessed 2025-11-17).",
+      "Giblin, A. 2013. Year 2011, meteorological data, 15 minute intervals, from the Marshview Farm weather station located in Newbury, MA ver 3. Environmental Data Initiative. https://doi.org/10.6073/pasta/a3ae7e5184e66b20407129dba8131408 (Accessed 2025-11-17).",
+      "Giblin, A. 2013. Year 2012, meteorological data, 15 minute intervals, from the Marshview Farm weather station located in Newbury, MA ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/37dac9c05b3adc731c59fe8ab5e1c9b0 (Accessed 2025-11-17).",
+      "Giblin, A. 2015. Year 2013, meteorological data, 15 minute intervals, from the Marshview Farm weather station located in Newbury, MA ver 2. Environmental Data Initiative. https://doi.org/10.6073/pasta/85877cc965eeeb6b8e6e523fed1f4576 (Accessed 2025-11-17).",
+      "Giblin, A. 2015. Year 2014, meteorological data, 15 minute intervals, from the Marshview Farm weather station located in Newbury, MA ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/195c17c969fda3fb3fa80d42bfa38a45 (Accessed 2025-11-17).",
+      "Giblin, A. 2016. Year 2015, meteorological data, 15 minute intervals, from the Marshview Farm weather station located in Newbury, MA ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/db7bc8129b9500f799e571bbc3fa1bb9 (Accessed 2025-11-17).",
+      "Giblin, A. 2017. Year 2016, meteorological data, 15 minute intervals, from the Marshview Farm weather station located in Newbury, MA ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/d5bfbfc6de185cff9b7302884c78e0fe (Accessed 2025-11-17).",
+      "Giblin, A. and Plum Island Ecosystems LTER. 2018. Year 2017, meteorological data, 15 minute intervals, from the PIE LTER Marshview Farm weather station located in Newbury, MA ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/80e0962b53d2549002fcc53eaf7394c6 (Accessed 2025-11-17).",
+      "Giblin, A. 2019. PIE LTER year 2018, meteorological data, 15 minute intervals, from the PIE LTER Marshview Farm weather station located in Newbury, MA ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/8bd014f569ac47efe4f8fcac49cf14f7 (Accessed 2025-11-17).",
+      "Giblin, A. 2020. PIE LTER year 2019, meteorological data, 15 minute intervals, from the PIE LTER Marshview Farm weather station located in Newbury, MA. ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/76db41052c9f8afce961fb105cc95693 (Accessed 2025-11-17).",
+      "Giblin, A. 2021. PIE LTER year 2020, meteorological data, 15 minute intervals, from the PIE LTER Marshview Farm weather station located in Newbury, MA ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/f6985f2a9d4e9e381a08d2202caafa21 (Accessed 2025-11-17).",
+      "Giblin, A. 2024. PIE LTER, meteorological data, 15 minute intervals, from the Marshview Farm weather station located in Newbury, MA, year 2021 ver 2. Environmental Data Initiative. https://doi.org/10.6073/pasta/f3aef2158c915f13f27b960bde378349 (Accessed 2025-11-17).",
+      "Giblin, A. 2024. PIE LTER 15-minute meteorological data from the Marshview Farm weather station located in Newbury, MA, year 2022 ver 2. Environmental Data Initiative. https://doi.org/10.6073/pasta/30767edd65642cc0c144a348a0182dc2 (Accessed 2025-11-17).",
+      "Giblin, A. and R. McNellis. 2024. PIE LTER 15-minute meteorological data from the Marshview Farm weather station located in Newbury, MA, year 2023 ver 3. Environmental Data Initiative. https://doi.org/10.6073/pasta/c2212fa2da101de159937560efae33d0 (Accessed 2025-11-17).",
+      "Hopkinson, C. 2013. Year 2004, meteorological data, 15 minute intervals, from weather station located at the Governor's Academy located in Byfield, MA. ver 5. Environmental Data Initiative. https://doi.org/10.6073/pasta/11618becd0ca066d2cb0aedf24fa91b6 (Accessed 2025-11-17).",
+      "Hopkinson, C. 2013. Year 2005, meteorological data, 15 minute intervals, from weather station located at the Governor's Academy located in Byfield, MA. ver 5. Environmental Data Initiative. https://doi.org/10.6073/pasta/77a805536619c0bab5d431db72f357f1 (Accessed 2025-11-17).",
+      "Hopkinson, C. 2013. Year 2006, meteorological data, 15 minute intervals, from weather station located at the Governor's Academy located in Byfield, MA. ver 5. Environmental Data Initiative. https://doi.org/10.6073/pasta/55b96197512f2df77562d85f4055670b (Accessed 2025-11-17).",
+      "Hopkinson, C. 2013. Year 2007, meteorological data, 15 minute intervals, from weather station located at the Governor's Academy, Byfield, MA then moved to MBL Marshview Farm, Newbury, MA. ver 6. Environmental Data Initiative. https://doi.org/10.6073/pasta/24d2037db24581b2d6186c894d17df72 (Accessed 2025-11-17).",
+      "Hopkinson, C. 2013. Year 2008, meteorological data, 15 minute intervals, from the MBL Marshview Farm weather station located in Newbury, MA ver 4. Environmental Data Initiative. https://doi.org/10.6073/pasta/a5224b92730c99c149d34d22ffdf92e1 (Accessed 2025-11-17).",
+      "Forbrich I ; Martiros M ; Orton H (2025): Specific conductivity and salinity of the Parker River, PIE LTER, Plum Island Sound MA, August-November 2022. From tides to seasons: How cyclic tidal drivers and plant physiology interact to affect carbon cycling at the terrestrial-estuarine boundary, ESS-DIVE repository. Dataset. doi:10.15485/2998327 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/2998327 on 2025-11-19",
+      "Forbrich I ; Martiros M ; Orton H (2025): Specific conductivity and salinity of the Parker River, PIE LTER, Plum Island Sound MA, March-November 2023. From tides to seasons: How cyclic tidal drivers and plant physiology interact to affect carbon cycling at the terrestrial-estuarine boundary, ESS-DIVE repository. Dataset. doi:10.15485/2998388 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/2998388 on 2025-11-19",
+      "Sulman, B. N., J. Wang, S. LaFond-Hudson, T. A. O\u2019Meara, F. Yuan, S. Molins, G. Hammond, I. Forbrich, Z. G. Cardon, and A. Giblin. 2024. Integrating Tide-Driven Wetland Soil Redox and Biogeochemical Interactions Into a Land Surface Model. ver 1. Journal of Advances in Modeling Earth Systems 16(4), e2023MS004002. https://doi.org/10.1029/2023MS004002 (Accessed 2025-12-01)."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a8baace6-a1d4-40f1-a355-c8dd8dc03ddd"
+      },
+      "name": "From tides to seasons: How cyclic tidal drivers and plant physiology interact to affect carbon cycling at the terrestrial-estuarine boundary",
+      "member": {
+        "@type": "Person",
+        "givenName": "Inke",
+        "familyName": "Forbrich",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Marine Biological Laboratory",
+        "email": "iforbrich@mbl.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Yearly datasets containing precipitation, solar radiation, photosynthetically active radiation (PAR), air temperature, relative humidity (RH), wind speed, and atmospheric pressure data collected at the Marshview Farm meteorological station were downloaded from DataOne for years 2004-2023. These data were collected at the site every 15 minutes and are continuous but not gap filled. All yearly files were merged into a single dataset, and the data for each variable were averaged to produce a continuous hourly time series. Each data point was assigned the flag number 0 to indicate that it is an hourly mean derived from the original DataOne files. Other flags were applied for gap-filled data.\nFor any gaps shorter than 24 hours, it was decided that linearly interpolating values using MATLAB to fill those gaps was best. Values linearly interpolated from the original DataOne files were assigned the flag of 1 and values linearly interpolated from the US-PHM data were assigned the flag of 7. For the time period 2004-2012 there is no supplemental data available, so linear interpolation was used to fill in gaps shorter than 24 hours and multi-year means were used to fill in gaps longer than 24 hours. From 2013 to 2021, data from the US-PHM Ameriflux site were used to fill in gaps longer than 24 hours. In 2022 and 2023, data from the US-PLo site were used to fill in gaps longer than 24 hours.\nFor two multi-day gaps affecting all variables in January 2005, multi-year means were used because no supplemental data were available for that period. For each missing timestamp, all values from the same variable, day, and time from every year except 2005 were averaged. These multi-year mean values were then inserted into the dataset at the corresponding timestamps. Each of these values were assigned a flag of 2 to indicate that it is a multi-year mean.\nTo fill in a gap in the precipitation data from September to October 2017, 15-minute precipitation data collected at the US-PHM Ameriflux site was used. The supplemental data were averaged to create an hourly time series and then were inserted into the dataset. Each of these values were given a flag of 6 to indicate that they originated from US-PHM.\nTo fill in the gaps in atmospheric pressure data from January to March and July to August 2018, atmospheric pressure data in 30-minute temporal resolution recorded from the US-PHM Ameriflux site were used. Values within the gap period were converted from Pascals to millibars, averaged to create an hourly resolution, and inserted into the dataset. Each of these values were assigned a flag of 6 to indicate that they originated from US-PHM.\nTo fill in longer gaps in solar radiation, PAR, air temperature, RH, wind speed, and atmospheric pressure data in June of 2022 and January-February 2023, values derived from raw data collected every 5 minutes at the US-PLo Ameriflux site were used. These values were then inserted into the dataset and were assigned a flag of 4 to indicate that they had originated from US-PLo.\nFor gaps in precipitation in June and November 2022, values were estimated to be 0 based on the analysis of values before and after the gaps as well as the analysis of daily precipitation values from the NOAA weather station in Newburyport, MA on the days where gaps were present and water level data collected at US-PLo during the same time periods. These values were assigned a flag of 5 to indicate this."
+    ],
+    "distribution": [
+      {
+        "contentSize": 5.568359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e0db7384a98ebf5-20251119T203425453",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e0db7384a98ebf5-20251119T203425453",
+        "name": "ELMPFLOTRAN_met_dd.csv"
+      },
+      {
+        "contentSize": 11687.1767578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ee865ef4da363f0-20251119T192812608",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ee865ef4da363f0-20251119T192812608",
+        "name": "ELMPFLOTRAN_Met_Data.csv"
+      },
+      {
+        "contentSize": 1.10546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-90147fd722d9c20-20251119T195952804",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-90147fd722d9c20-20251119T195952804",
+        "name": "ELMPFLOTRAN_met_flmd.csv"
+      },
+      {
+        "contentSize": 17.6005859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e49db68329d3749-20251201T135720844",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-e49db68329d3749-20251201T135720844",
+        "name": "Hourly_gap_filled_meteorological_data_from_PIE.xml"
+      }
+    ]
+  }
+}

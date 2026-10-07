@@ -1,0 +1,557 @@
+{
+  "id": "ess-dive-67982cdf5762407-20230504T211449725219",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1841748",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-67982cdf5762407-20230504T211449725219",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-e96e3768de88df3-20230407T225614686544",
+  "dateUploaded": "2023-05-04T21:14:51.019Z",
+  "dateModified": "2023-05-04T21:14:54.723Z",
+  "isPublic": true,
+  "citation": "Prinn R; Weiss R; Arduini J; Arnold T; DeWitt H L; Fraser P; Ganesan A; Gasore J; Harth C; Hermansen O; Kim J; Krummel P; Loh Z; Lunder C; Maione M; Manning A; Miller B; Mitrevski B; M\u00fchle J; O'Doherty S; Park S; Reimann S; Rigby M; Saito T; Salameh P; Schmidt R; Simmonds P; Steele P; Vollmer M; Wang H R; Yao B; Young D; Zhou L (2022): The Advanced Global Atmospheric Gases Experiment (AGAGE) Data. Advanced Global Atmospheric Gases Experiment (AGAGE). Dataset. doi:10.15485/1841748",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1841748",
+    "name": "The Advanced Global Atmospheric Gases Experiment (AGAGE) Data",
+    "description": [
+      "In the ALE/GAGE/AGAGE global network program, continuous high frequency gas chromatographic measurements of four biogenic/anthropogenic gases (methane, CH4; nitrous oxide, N2O; hydrogen, H2; and carbon monoxide, CO) and several anthropogenic gases that contribute to stratospheric ozone destruction and/or to the greenhouse effect have been carried out at five globally distributed sites for several years. The program, which began in 1978, is divided into three parts associated with three changes in instrumentation: the Atmospheric Lifetime Experiment (ALE), which used Hewlett Packard HP5840 gas chromatographs; the Global Atmospheric Gases Experiment (GAGE), which used HP5880 gas chromatographs; and the present Advanced GAGE (AGAGE). AGAGE uses two types of instruments: a gas chromatograph with multiple detectors (GC-MD), and a gas chromatograph with mass spectrometric analysis (GC-MS). Beginning in January 2004, an improved cryogenic preconcentration system (Medusa) replaced the absorption-desorption module in the GC-MS systems at Mace Head and Cape Grim; this provided improved capability to measure a broader range of volatile perfluorocarbons with high global warming potentials. The Medusa GC-MS systems were subsequently used at other AGAGE stations (Trinidad Head, Barbados, American Samoa, Zeppelin, Jungfraujoch, and Goan) after the initial setup at Mace Head and Cape Grim. More information may be found at the AGAGE home page: https://agage.mit.edu/instruments.",
+      "Compared to the previous version (https://data.ess-dive.lbl.gov/datasets/doi: doi:10.15485/1781803), the latest update (Agage_gcmd_gcms.data.2022_01_03.tar.gz) includes 6 months of new data through the end of September 2020. For a complete list of released compounds and used standard scales, please see \u201cAGAGE_scale_2021_v1.pdf\u201d file. Additional information can also be found on the AGAGE website (https://agage.mit.edu)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "Ronald",
+        "familyName": "Prinn",
+        "affiliation": "Massachusetts Institute of Technology",
+        "email": "rprinn@mit.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ray",
+        "familyName": "Weiss",
+        "affiliation": "Scripps Institution of Oceanography",
+        "email": "rfweiss@ucsd.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jgor",
+        "familyName": "Arduini",
+        "affiliation": "University of Urbino",
+        "email": "jgor.arduini@uniurb.it"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Tim",
+        "familyName": "Arnold",
+        "affiliation": "National Physical Laboratory",
+        "email": "tim.arnold@npl.co.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "H. Langley",
+        "familyName": "DeWitt",
+        "affiliation": "Massachusetts Institute of Technology"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Fraser",
+        "affiliation": "Commonwealth Scientific and Industrial Research Organization (CSIRO)",
+        "email": "Paul.Fraser@csiro.au"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Anita",
+        "familyName": "Ganesan",
+        "affiliation": "University of Bristol",
+        "email": "anita.ganesan@bristol.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jimmy",
+        "familyName": "Gasore",
+        "affiliation": "Rwanda Climate Observatory Secretaria"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Christina",
+        "familyName": "Harth",
+        "affiliation": "Scripps Institution of Oceanography",
+        "email": "charth@ucsd.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ove",
+        "familyName": "Hermansen",
+        "affiliation": "Norwegian Institute for Air Research (NILU)",
+        "email": "ove.hermansen@nilu.no"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jooil",
+        "familyName": "Kim",
+        "affiliation": "Scripps Institution of Oceanography",
+        "email": "jjkim@ucsd.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Krummel",
+        "affiliation": "Commonwealth Scientific and Industrial Research Organization (CSIRO)",
+        "email": "Paul.Krummel@csiro.au"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zo\u00eb",
+        "familyName": "Loh",
+        "affiliation": "Commonwealth Scientific and Industrial Research Organization (CSIRO)"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Chris",
+        "familyName": "Lunder",
+        "affiliation": "Norwegian Institute for Air Research (NILU)",
+        "email": "crl@nilu.no"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Michela",
+        "familyName": "Maione",
+        "affiliation": "University of Urbino",
+        "email": "michela.maione@uniurb.it"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alistair",
+        "familyName": "Manning",
+        "affiliation": "Hadley Centre, The Met Office, Exeter, UK",
+        "email": "alistair.manning@metoffice.gov.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ben",
+        "familyName": "Miller",
+        "affiliation": "National Oceanic & Atmospheric Administration (NOAA)"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Blagoj",
+        "familyName": "Mitrevski",
+        "affiliation": "Commonwealth Scientific and Industrial Research Organization (CSIRO)",
+        "email": "blagoj.mitrevski@csiro.au"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9776-3642",
+        "givenName": "Jens",
+        "familyName": "M\u00fchle",
+        "affiliation": "Scripps Institution of Oceanography",
+        "email": "jmuhle@ucsd.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4051-6760",
+        "givenName": "Simon",
+        "familyName": "O'Doherty",
+        "affiliation": "University of Bristol",
+        "email": "S.ODoherty@bris.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sunyoung",
+        "familyName": "Park",
+        "affiliation": "Kyungpook National University",
+        "email": "sunyoung0529@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stefan",
+        "familyName": "Reimann",
+        "affiliation": "Laboratory for Air Pollution and Environmental Technology (Empa)",
+        "email": "Stefan.Reimann@empa.ch"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2020-9253",
+        "givenName": "Matt",
+        "familyName": "Rigby",
+        "affiliation": "University of Bristol",
+        "email": "Matt.Rigby@bristol.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Takuya",
+        "familyName": "Saito",
+        "affiliation": "National Institute for Environmental Studies (NIES)",
+        "email": "saito.takuya@nies.go.jp"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Peter",
+        "familyName": "Salameh",
+        "affiliation": "Scripps Institution of Oceanography",
+        "email": "psalameh@ucsd.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Roland",
+        "familyName": "Schmidt",
+        "affiliation": "Scripps Institution of Oceanography",
+        "email": "roschmidt@ucsd.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Peter",
+        "familyName": "Simmonds",
+        "affiliation": "University of Bristol",
+        "email": "petergsimmonds@aol.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Steele",
+        "affiliation": "Commonwealth Scientific and Industrial Research Organization (CSIRO)",
+        "email": "Paul.Steele@csiro.au"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Martin",
+        "familyName": "Vollmer",
+        "affiliation": "Laboratory for Air Pollution and Environmental Technology (Empa)",
+        "email": "Martin.Vollmer@empa.ch"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1550-3239",
+        "givenName": "H.J. Ray",
+        "familyName": "Wang",
+        "affiliation": "Georgia Institute of Technology",
+        "email": "raywang@eas.gatech.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bo",
+        "familyName": "Yao",
+        "affiliation": "China Meteorological Administration (CMA)",
+        "email": "yaob@cma.gov.cn"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Dickon",
+        "familyName": "Young",
+        "affiliation": "University of Bristol",
+        "email": "Dickon.Young@bristol.ac.uk"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Lingxi",
+        "familyName": "Zhou",
+        "affiliation": "China Meteorological Administration (CMA)"
+      }
+    ],
+    "datePublished": "2022-01-03",
+    "keywords": [
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > CARBON AND HYDROCARBON COMPOUNDS > ATMOSPHERIC CARBON MONOXIDE > CARBON MONOXIDE SURFACE",
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > CARBON AND HYDROCARBON COMPOUNDS > CHLORINATED HYDROCARBONS",
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > CARBON AND HYDROCARBON COMPOUNDS > METHANE",
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > HALOCARBONS AND HALOGENS",
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > HALOCARBONS AND HALOGENS > CARBON TETRACHLORIDE",
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > HALOCARBONS AND HALOGENS > CHLOROFLUOROCARBONS",
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > HALOCARBONS AND HALOGENS > FLUOROCARBONS",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > HALOCARBONS AND HALOGENS > HALONS",
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > HALOCARBONS AND HALOGENS > HYDROCHLOROFLUOROCARBONS",
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > HALOCARBONS AND HALOGENS > HYDROFLUOROCARBONS",
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > HALOCARBONS AND HALOGENS > METHYL BROMIDE",
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > HYDROGEN COMPOUNDS > MOLECULAR HYDROGEN",
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > NITROGEN COMPOUNDS > NITROUS OXIDE",
+      "\u2022 EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > SULFUR COMPOUNDS > SULFUR HEXAFLUORIDE"
+    ],
+    "variableMeasured": [
+      "CH4",
+      "N2O",
+      "CO",
+      "H2",
+      "CFC-11",
+      "CFC-12",
+      "CFC-13",
+      "CFC-113",
+      "CFC-114",
+      "CFC-115",
+      "HFC-23",
+      "HFC-32",
+      "HFC-125",
+      "HFC-134a",
+      "HFC-143a",
+      "HFC-152a",
+      "HFC-227ea",
+      "HFC-236fa",
+      "HFC-245fa",
+      "HFC-365mfc",
+      "HFC-43-10mee",
+      "HCFC-22",
+      "HCFC-124",
+      "HCFC-132b",
+      "HCFC-133a",
+      "HCFC-141b",
+      "HCFC-142b",
+      "H-1211",
+      "H-1301",
+      "H-2402",
+      "CH3Cl",
+      "CH2Cl2",
+      "CHCl3",
+      "CH3CCl3",
+      "CHClCCl2 (TCE)",
+      "CCl2CCl2 (PCE)",
+      "CCl4",
+      "SF6",
+      "SO2F2",
+      "NF3",
+      "CH3Br",
+      "PFC-14",
+      "PFC-116",
+      "PFC-218",
+      "PFC-318",
+      "high frequency data",
+      "time",
+      "DD (day)",
+      "MM (month)",
+      "YYYY (year)",
+      "hh (hour)",
+      "min (minute)",
+      "monthly mean of baseline data",
+      "scale",
+      "unit"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Zeppelin, Ny-\u00c5lesund",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 79,
+            "longitude": 12
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 79,
+            "longitude": 12
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Mace Head, Ireland",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 53,
+            "longitude": -10
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 53,
+            "longitude": -10
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Jungfraujoch, Switzerland",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 47,
+            "longitude": 8
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 47,
+            "longitude": 8
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Monte Cimone, Italy",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44,
+            "longitude": 10
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44,
+            "longitude": 10
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Trinidad Head, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.05,
+            "longitude": -124.15
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.05,
+            "longitude": -124.15
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Gosan, Jeju Island, South Korea",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 33,
+            "longitude": 126
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 33,
+            "longitude": 126
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Ragged Point, Barbados",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 13,
+            "longitude": -59
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 13,
+            "longitude": -59
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Cape Matatula, American Samoa",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -14.25,
+            "longitude": -170.56
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -14.25,
+            "longitude": -170.56
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Cape Grim, Tasmania, Australia",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -41,
+            "longitude": 145
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -41,
+            "longitude": 145
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. NASA"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1993-08-10",
+      "endDate": "2020-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1550-3239",
+      "givenName": "Hsiang-Jui (Ray)",
+      "familyName": "Wang",
+      "affiliation": "Georgia Institute of Technology",
+      "email": "raywang@eas.gatech.edu"
+    },
+    "citation": [
+      "Prinn, R.G., R.F. Weiss, J. Arduini, T. Arnold, H.L. DeWitt, P.J. Fraser, A.L. Ganesan, J. Gasore, C.M. Harth, O. Hermansen, J. Kim, P.B. Krummel, S. Li, Z. M. Loh, C.R. Lunder, M. Maione, A.J. Manning, B.R. Miller, B. Mitrevski, J. M\u00fchle, S. O\u2019Doherty, S. Park, S. Reimann, M. Rigby, T. Saito, P.K. Salameh, R. Schmidt, P.G. Simmonds, L.P. Steele, M.K. Vollmer, R.H. Wang, B. Yao, Y. Yokouchi, D. Young, and L. Zhou: History of chemically and radiatively important atmospheric gases from the Advanced Global Atmospheric Gases Experiment (AGAGE), Earth Syst. Sci. Data, 10, 985-1018, 2018, https://doi.org/10.5194/essd-10-985-2018"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "38273a60-e4d3-45e9-80d0-4c8e1e6d5706"
+      },
+      "name": "Advanced Global Atmospheric Gases Experiment (AGAGE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Ronald G.",
+        "familyName": "Prinn",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Massachusetts Institute of Technology",
+        "email": "rprinn@mit.edu"
+      }
+    },
+    "measurementTechnique": [
+      "For more detailed descriptions of the Gas Chromatography Multi-Detectors (GC-MD) and Gas Chromatography with Mass Spectrometry (GC-MS) instruments, please see the AGAGE website (https://agage.mit.edu/), or Prinn et al., 2018 (https://doi.org/10.5194/essd-10-985-2018)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 358348.29296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-21ad19b0f220218-20220112T231820596",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-21ad19b0f220218-20220112T231820596",
+        "name": "Agage_gcmd_gcms_data_2022_01_03_tar.gz"
+      },
+      {
+        "contentSize": 187.09375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dc21930cf6a7a37-20220113T163330247",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-dc21930cf6a7a37-20220113T163330247",
+        "name": "AGAGE_scale_2021_v1.pdf"
+      },
+      {
+        "contentSize": 24.11328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-67982cdf5762407-20230504T211449725219",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-67982cdf5762407-20230504T211449725219",
+        "name": "The_Advanced_Global_Atmospheric_Gases_Experiment_AGAGE_Data.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "id": "ess-dive-a33de922b1f4f15-20240723T183834412",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2324641",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a33de922b1f4f15-20240723T183834412",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a33de922b1f4f15-20240722T183238416",
+  "dateUploaded": "2024-07-23T18:38:35.981Z",
+  "dateModified": "2024-07-23T18:38:42.455Z",
+  "isPublic": true,
+  "citation": "Perez G; Coon E; Rathore S; Le P V V (2024): Model data for Flood Frequency Analysis using Stochastic Storm Transposition and an Integrated Surface-Subsurface Hydrological Model. Southeast Texas Urban Integrated Field Laboratory (SETx UIFL) \u2013 Equitable solutions for communities caught between floods and air pollution. Dataset. doi:10.15485/2324641",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2324641",
+    "name": "Model data for Flood Frequency Analysis using Stochastic Storm Transposition and an Integrated Surface-Subsurface Hydrological Model",
+    "description": [
+      "This archived provides scripts and input files used for the implementation of a novel approach to conduct process-based Flood Frequency Analysis using a Stochastic Storm Transposition (SST) and an Integrated Surface-Subsurface Hydrological Model (ISSHM). As a proof-of-concept, this study uses the ISSHM, Advanced Terrestrial Simulator (Amanzi-ATS) model, and the SST model, RainyDay, to conduct flood frequency analysis by simulating the flood response to 5,000 annual synthetic storm events in a ~2000 km2 Southeast Texas watershed.",
+      "The Watershed Workflow package is implemented in Python3. The Jupyter notebooks can be executed through multiple open-source tools, for example, Anaconda Jupyter Lab, VS Studio Code, etc. Other data files include TXT, CSV, DAT, SBATCH, SHP, TIF, NetCDF, and HDF5 files, which can be read through Python scripts. The input files for the ATS model and RainyDay model have .XML and .SST extensions, respectively, and can be edited in any commonly used text editors.",
+      "This archive contains:",
+      "* Scripts and data files essential for generating the ATS model input. It uses the Watershed Workflow package to produce both mesh and ATS input files.",
+      "* Jupyter notebooks designated for the ATS model evaluation, covering both long-term simulations and 40 rainfall-runoff events.",
+      "* Input files required to simulate SST storm events using RainyDay."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3880-0874",
+        "givenName": "Gabriel",
+        "familyName": "Perez",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "perezmesagj@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8124-9622",
+        "givenName": "Ethan",
+        "familyName": "Coon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "coonet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0469-2959",
+        "givenName": "Saubhagya",
+        "familyName": "Rathore",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "rathoress@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5558-1023",
+        "givenName": "Phong V. V.",
+        "familyName": "Le",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "lepv@ornl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "Flood Frequency Analysis",
+      "Process-based Hydrological Simulations",
+      "Stochastic Storm Transposition",
+      "Integrated Surface-Subsurface Hydrological Model",
+      "Peak Flows",
+      "Basin Inundation Fraction",
+      "Flood Hazard",
+      "Population Flood Exposure"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Basin: Village Creek basin in Southeast Texas, US, with the USGS streamflow gauge 08041500 at the basin outlet.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 30.88,
+            "longitude": -94.82
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 30.37,
+            "longitude": -94.15
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Transposition domain: Polygon bounded by longitudes 85.15\u00b0W to 96.34\u00b0W and latitude 31.55\u00b0N, extending to the Gulf of Mexico's coastline",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 31.55,
+            "longitude": -96.34
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 29.64,
+            "longitude": -85.15
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1980",
+      "endDate": "2022",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3880-0874",
+      "givenName": "Gabriel",
+      "familyName": "Perez",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "perezmesagj@ornl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "20eba4b6-ac19-4616-806a-e253ed67b1af"
+      },
+      "name": "Southeast Texas Urban Integrated Field Laboratory (SETx UIFL) \u2013 Equitable solutions for communities caught between floods and air pollution",
+      "member": {
+        "@type": "Person",
+        "givenName": "Paola",
+        "familyName": "Passalacqua",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of Texas at Austin",
+        "email": "paola@austin.utexas.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Using the provided Jupyter Notebooks, generate model input files for integrated hydrology simulation in ATS. This includes:\n- ATS input files\n- mesh\n- meteorological forcings for long-term simulations (Daymet)\n- rainfall data for 5,000 storm events (Stage-IV)\n- MODIS LAI",
+      "Run ATS-integrated hydrology simulation for long-term simulations and 5,000 storm events. This includes:\n- steady-state spinup\n- transient cyclic spinup\n- transient runs (long-term simulations)\n- transient runs (5,000 storm events)",
+      "Post-process and analyze ATS outputs for evaluation purposes. This includes:\n- Analyzing water balance, comparing streamflow, evapotranspiration, soil moisture content, water storage change\n- Analyzing the model performance for the 40 largest peak flow hydrographs from 2002 to 2021"
+    ],
+    "distribution": [
+      {
+        "contentSize": 406146.650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-61b47c84ee0d9f4-20240314T181535001",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-61b47c84ee0d9f4-20240314T181535001",
+        "name": "model_data_village.zip"
+      },
+      {
+        "contentSize": 7.875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a33de922b1f4f15-20240723T183834412",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-a33de922b1f4f15-20240723T183834412",
+        "name": "Model_data_for_Flood_Frequency_Analysis_using.xml"
+      }
+    ]
+  }
+}

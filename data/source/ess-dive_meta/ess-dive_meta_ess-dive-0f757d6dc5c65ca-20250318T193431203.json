@@ -1,0 +1,170 @@
+{
+  "id": "ess-dive-0f757d6dc5c65ca-20250318T193431203",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2530791",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-0f757d6dc5c65ca-20250318T193431203",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-0f757d6dc5c65ca-20250317T184143118",
+  "dateUploaded": "2025-03-18T19:34:31.914Z",
+  "dateModified": "2025-08-25T17:10:19.663Z",
+  "isPublic": true,
+  "citation": "Robertson W; Kluver D; Lammers R (2025): Water quality data collected from the Muskegon River (MI, USA) using AquaBOT June-July 2024.. Expanding Collaborative Capacity to Address Climate Resiliency in the Great Lakes Region (DE-SC0023215). Dataset. doi:10.15485/2530791",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2530791",
+    "name": "Water quality data collected from the Muskegon River (MI, USA) using AquaBOT June-July 2024.",
+    "description": [
+      "This dataset contains processed output from AquaBOT, which combines 30-second interval measurements of GPS location and YSI water quality parameters (temperature (degrees Celsius), dissolved oxygen (mg/l), specific conductance(microSiemens/cm at 25 degrees Celsius), and turbidity (NTU)), for 3 sections of the Muskegon River in Michigan, USA. The file aquabot2024_MuskegonRiver.csv has information on locations, dates and times, and observations. The data were processed by removing observations recorded before and after AquaBOT was in the water and observations where no data values were recorded. No other QA/QC was done. This research was performed as part of the DOE Research Development and Partnership Pilot award \u201cExpanding Collaborative Capacity to Address Climate Resiliency in the Great Lakes Region\u201d, which aims to expand collaborations between researchers at Central Michigan University and U.S. Department of Energy labs and projects focused on enhancing climate resilience in Great Lakes communities and ecosystems."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8798-6188",
+        "givenName": "Wendy",
+        "familyName": "Robertson",
+        "affiliation": "Central Michigan University",
+        "email": "rober2w@cmich.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5568-6642",
+        "givenName": "Daria",
+        "familyName": "Kluver",
+        "affiliation": "Central Michigan University",
+        "email": "kluve1db@cmich.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1507-8631",
+        "givenName": "Roderick",
+        "familyName": "Lammers",
+        "affiliation": "Central Michigan University",
+        "email": "lamme1r@cmich.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0068-7714",
+        "givenName": "Natalie",
+        "familyName": "Griffiths",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "griffithsna@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7409-1652",
+        "givenName": "Amanda",
+        "familyName": "Suchy",
+        "affiliation": "Central Michigan University",
+        "email": "suchy1a@cmich.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Chloe",
+        "familyName": "Majeske Neal",
+        "affiliation": "Central Michigan University"
+      }
+    ],
+    "datePublished": "2025-03-14",
+    "keywords": [
+      "Data Format > CSV > Comma-separated Values File:Categorical:GCMD",
+      "Temporal resolution > 1 second -< 1 minute:Categorical:GCMD",
+      "In-Situ/Laboratory Instruments > Multi-parameter > YSI >EXO1:Categorical:GCMD",
+      "North America > United States of America > Michigan:Categorical:GCMD",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > GASES > DISSOLVED OXYGEN",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > CONDUCTIVITY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > TURBIDITY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > WATER TEMPERATURE",
+      "latitude",
+      "longitude",
+      "time"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Muskegon River watershed, Michigan, United States of America. Three river sections are included in this data: upper reach (Big Rapids, MI), middle reach (Newaygo, MI), and lower reach (Bridgeton, MI).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.77325,
+            "longitude": -86.10779
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.27938,
+            "longitude": -85.37994
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2024-06-06",
+      "endDate": "2024-07-25",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8798-6188",
+      "givenName": "Wendy",
+      "familyName": "Robertson",
+      "affiliation": "Central Michigan University",
+      "email": "rober2w@cmich.edu"
+    },
+    "citation": [
+      "Robertson, W.M., Kluver, D.B., Lammers, R., Griffiths, N., Majeske-Neal, C., and Suchy, A. Home chill home: leveraging aquatic drone technology to understand spatial variation in water quality parameters of cold water streams (Michigan, USA). American Geophysical Union Fall Meeting 2024. PDF available at the ESS Open Archive. Uploaded February 04, 2025. https://doi.org/10.22541/essoar.173867564.49642022/v1"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "b15eb93e-53d0-41ba-af86-2a7d496d1e50"
+      },
+      "name": "Expanding Collaborative Capacity to Address Climate Resiliency in the Great Lakes Region (DE-SC0023215)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Wendy",
+        "familyName": "Robertson",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Central Michigan University",
+        "email": "rober2w@cmich.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Data were collected using AquaBOT (Griffiths et al. 2022) for 3 sections of the Muskegon River. The Campbell CR-6 logger was programmed to record observations (GPS location, timestamp, YSI measurements of water temperature, specific conductance, turbidity, and dissolved oxygen) at 30-second intervals. Timestamps of AquaBOT launch and retrieval were recorded manually.\nReference: Griffiths, N. A., Levi, P. S., Riggs, J. S., DeRolph, C. R., Fortner, A. M., & Richards, J. K. (2022). Sensor-equipped unmanned surface vehicle for high-resolution mapping of water quality in low-to mid-order streams. ACS ES&T Water, 2(3), 425-435.",
+      "Data were converted from Campbell-software format to .csv file. Observations recorded prior to the launch timestamp and after the retrieval timestamp were removed from the record.",
+      "Observations where the Campbell recorded a timestamp and a GPS location but no observations from the YSI were removed from the record.",
+      "No other data processing or QA/QC were performed on the dataset."
+    ],
+    "distribution": [
+      {
+        "contentSize": 9.1474609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0f757d6dc5c65ca-20250318T193431203",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-0f757d6dc5c65ca-20250318T193431203",
+        "name": "Water_quality_data_collected_from_the_Muskegon.xml"
+      },
+      {
+        "contentSize": 54.6357421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-75e4c07dc368733-20250315T005713710",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-75e4c07dc368733-20250315T005713710",
+        "name": "aquaBOT2024_MuskegonRiver.csv"
+      }
+    ]
+  }
+}

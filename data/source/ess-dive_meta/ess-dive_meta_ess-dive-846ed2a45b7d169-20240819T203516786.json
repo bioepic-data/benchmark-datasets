@@ -1,0 +1,295 @@
+{
+  "id": "ess-dive-846ed2a45b7d169-20240819T203516786",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2281403",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-846ed2a45b7d169-20240819T203516786",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-846ed2a45b7d169-20240423T195919280",
+  "dateUploaded": "2024-08-19T20:35:17.500Z",
+  "dateModified": "2024-08-19T20:35:18.229Z",
+  "isPublic": true,
+  "citation": "Muller K A; Jiang P; Hammond G; Ahmadullah T; Song H; Kukkadapu R; Ward N; Bowe M; Chu R K; Zhao Q; Garayburu-Caruso V A; Roebuck A; Chen X (2024): Data and Scripts associated with \u201cLambda-PFLOTRAN: Workflow for Incorporating Organic Matter Chemistry Informed by Ultra High Resolution Mass Spectrometry into Biogeochemical Modeling.\u201d. River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2281403",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2281403",
+    "name": "Data and Scripts associated with \u201cLambda-PFLOTRAN: Workflow for Incorporating Organic Matter Chemistry Informed by Ultra High Resolution Mass Spectrometry into Biogeochemical Modeling.\u201d",
+    "description": [
+      "This data package is associated with the publication \u201cLambda-PFLOTRAN: Workflow for Incorporating Organic Matter Chemistry Informed by Ultra High Resolution Mass Spectrometry into Biogeochemical Modeling\u201d submitted to Geoscientific Model Development (Muller et al., 2024).",
+      "In this manuscript, organic matter chemistry and thermodynamics are directly connected to reactive transport simulators through the newly developed Lambda-PFLOTRAN (Parallel Reactive Flow and Transport model) workflow tool that succinctly incorporates organic matter chemistry data generated from Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS) into reaction networks to simulate aerobic respiration of the organic matter and the resulting biogeochemistry. Lambda-PFLOTRAN is a python-based workflow, executed through a Jupyter Notebook interface, that digests raw FTICR-MS data, develops a representative reaction network based on substrate-explicit thermodynamic modeling (also termed lambda modeling due to its key thermodynamic parameter \u03bb used therein), and completes a biogeochemical simulation with the open source, reactive flow, and transport code PFLOTRAN.",
+      "This data package contains Jupyter Notebook based workflows for two test cases for running biogeochemical simulations of organic matter oxidation identified by FTICR-MS. It contains four primary folders (workflow, data, src, and analysis), a file-level metadata file (Muller_2024_Lambda_PFLOTRAN_Manuscript_Data_Package_flmd.csv) that lists all the files contained in this data package with a short description of each, and a data dictionary (Muller_2024_Lambda_PFLOTRAN_Manuscript_Data_Package_dd.csv) file that describes the tabular column headers. The \u2018workflow\u2019 folder contains the Jupyter Notebook based workflows for running the lambda analysis, PFLOTRAN simulation, sensitivity analysis and parameter estimation. The \u2018data\u2019 folder contains the FTICR-MS data, initial conditions, and incubation data for test cases 1 and 2 in folders titled \u2018WHONDRS\u2019 and \u2018Colloids\u2019, respectively. The data folder also has a \u2018Database\u2019 folder containing a reaction network for bulk organic matter (assumed to be CH2O) and a general database for PFLOTRAN (hanford_rxn_network). The CH2O reaction network defines bulk organic matter oxidation. Biogeochemical simulations are completed for both the lambda binned organic matter and bulk organic matter reaction networks. The \u2018hanford_rxn_network\u2019 database includes information required for PFLTORAN simulations including ion size, molar mass, and charge of the aqueous species, gases, and minerals phases. The \u2018src\u2019 folder contains python source codes for performing lambda analysis, PFLOTRAN simulation, sensitivity analysis and parameter estimation. The \u2018analysis\u2019 folder contains outputs from the test cases 1 and 2 including lambda analysis, PFLOTRAN runs and the calibration results."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3984-5708",
+        "givenName": "Katherine A",
+        "familyName": "Muller",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "katherine.muller@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4968-4258",
+        "givenName": "Peishi",
+        "familyName": "Jiang",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "peishi.jiang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6903-2807",
+        "givenName": "Glenn",
+        "familyName": "Hammond",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "glenn.hammond@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1848-3069",
+        "givenName": "Tasneem",
+        "familyName": "Ahmadullah",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tasneem.ahmadullah@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2154-6358",
+        "givenName": "Hyun-Seob",
+        "familyName": "Song",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "HyunSeob.Song@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9763-156X",
+        "givenName": "Ravi",
+        "familyName": "Kukkadapu",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Ravi.Kukkadapu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6174-5581",
+        "givenName": "Nicholas",
+        "familyName": "Ward",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "nicholas.ward@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6087-5042",
+        "givenName": "Madison",
+        "familyName": "Bowe",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "madison.k.bowe@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Rosalie K",
+        "familyName": "Chu",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Rosalie.Chu@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4489-3691",
+        "givenName": "Qian",
+        "familyName": "Zhao",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "qian.zhao@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7428-7647",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8575-2572",
+        "givenName": "Alan",
+        "familyName": "Roebuck",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "alan.roebuck@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1928-5555",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "email": "Xingyuan.Chen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "Biogeochemical modeling",
+      "Organic carbon chemistry",
+      "Thermodynamics",
+      "Jupyter notebook",
+      "PFLOTRAN",
+      "Microbial respiration",
+      "Sensitivity analysis",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "Modeling",
+      "Python",
+      "Parallel Reactive Flow and Transport"
+    ],
+    "variableMeasured": [
+      "FTICR-MS",
+      "Dissolved organic carbon",
+      "Microbial growth rate",
+      "Aerobic respiration rate",
+      "Biomass",
+      "Fourier-transform ion cyclotron resonance mass spectrometry",
+      "Dissolved oxygen",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > GASES > DISSOLVED OXYGEN"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Yakima River, Benton City, Washington, USA",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.253,
+            "longitude": -119.4722
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.253,
+            "longitude": -119.4722
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-07-29",
+      "endDate": "2019-09-19",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3984-5708",
+      "givenName": "Katherine A",
+      "familyName": "Muller",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "katherine.muller@pnnl.gov"
+    },
+    "citation": [
+      "Goldman A E ; Arnon S ; Bar-Zeev E ; Chu R K ; Danczak R E ; Daly R A ; Delgado D ; Fansler S ; Forbes B ; Garayburu-Caruso V A ; Graham E B ; Laan M ; McCall M L ; McKever S ; Patel K F ; Ren H ; Renteria L ; Resch C T ; Rod K A ; Tfaily M ; Tolic N ; Torgeson J M ; Toyoda J G ; Wells J ; Wrighton K C ; Stegen J C ; WHONDRS Consortium T (2020): WHONDRS Summer 2019 Sampling Campaign: Global River Corridor Sediment FTICR-MS, Dissolved Organic Carbon, Aerobic Respiration, Elemental Composition, Grain Size, Total Nitrogen and Organic Carbon Content, Bacterial Abundance, and Stable Isotopes (v8). River Corridor and Watershed Biogeochemistry SFA, ESS-DIVE repository. Dataset. doi:10.15485/1729719 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1729719 on 2023-12-28",
+      "Song, H.S., Stegen, J.C., Graham, E.B., Lee, J.Y., Garayburu-Caruso, V.A., Nelson, W.C., Chen, X., Moulton, J.D. and Scheibe, T.D. (2020). Representing organic matter thermodynamics in biogeochemical reactions via substrate-explicit modeling.\u202fFrontiers in microbiology,\u202f11, p.531756. https://doi.org/10.3389/fmicb.2020.531756",
+      "Ward, N.D, Muller, K.A., Chen, X., Zhao, Q., Chu, R., Cheng, Z., Wietsma, T.W., Kukkadapu, R.K. (2023). Interactive Effects of Salinity, Redox State, Soil type, and Colloidal Size Fractionation on Greenhouse Gas Production in Coastal Wetland Soils. ESS Open Archive. https://doi.org/10.31223/X5FM0N Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This data package includes biogeochemical simulations using a Jupyter Notebook based workflow utilizing python scripts provided in the \u2018src\u2019 folder and FTICR-MS data provided in the data folder. The data folder also contains incubation data, either in the form of oxygen consumption or carbon dioxide generation, and initial aqueous chemistry conditions for two test cases. The experimental data were collected from Goldman et al. (2020) and Ward et al. (2023) for test cases 1 and 2, respectively. The notebook digests the FTICR-MS data, develops a representative reaction network for aerobic respiration, and completes a biogeochemical simulation using a PFLOTRAN reaction sandbox specifically developed for incorporating organic matter chemistry informed by FTICR-MS (i.e., \u201creaction_sandbox_pnnl_lambda\u201d). The lambda analysis, the best fit parameters (determined by ESMDA (Ensemble Smoother for Multiple Data Assimilation)) and the PFLOTRAN simulation results are provided in the analysis folder. The workflow also plots the results through post processing."
+    ],
+    "distribution": [
+      {
+        "contentSize": 76.208984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-15be6fe43fe81d6-20240214T190158655",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-15be6fe43fe81d6-20240214T190158655",
+        "name": "Muller_2024_Lambda_PFLOTRAN_Manuscript_Data_Package_flmd.csv"
+      },
+      {
+        "contentSize": 27.087890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1cc5d758f5e7391-20240214T190138770",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-1cc5d758f5e7391-20240214T190138770",
+        "name": "reaction_sandbox_pnnl_lambda.F90"
+      },
+      {
+        "contentSize": 2665.1533203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-396eeb819b442db-20240214T190110151",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-396eeb819b442db-20240214T190110151",
+        "name": "data.zip"
+      },
+      {
+        "contentSize": 4692.1982421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d617fc8b8aad1e7-20240214T190123929",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d617fc8b8aad1e7-20240214T190123929",
+        "name": "workflow.zip"
+      },
+      {
+        "contentSize": 125.0439453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-68874a35b676ac5-20240214T190118807",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-68874a35b676ac5-20240214T190118807",
+        "name": "src.zip"
+      },
+      {
+        "contentSize": 3089.265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6708227329cd184-20240216T185546272",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-6708227329cd184-20240216T185546272",
+        "name": "readme_Muller_2024_Lambda_PFLOTRAN_Manuscript_Data_Package.pdf"
+      },
+      {
+        "contentSize": 16.2734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-846ed2a45b7d169-20240819T203516786",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-846ed2a45b7d169-20240819T203516786",
+        "name": "Data_and_Scripts_associated_with.xml"
+      },
+      {
+        "contentSize": 8.2265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9a3d99e9ea942f2-20240216T185533619",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9a3d99e9ea942f2-20240216T185533619",
+        "name": "Muller_2024_Lambda_PFLOTRAN_Manuscript_Data_Package_dd.csv"
+      },
+      {
+        "contentSize": 0.228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9fc3193e276d94f-20240214T190138766",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-9fc3193e276d94f-20240214T190138766",
+        "name": "environment.yml"
+      },
+      {
+        "contentSize": 18461.9052734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b89f41968398039-20240214T185609713",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b89f41968398039-20240214T185609713",
+        "name": "analysis.zip"
+      }
+    ]
+  }
+}

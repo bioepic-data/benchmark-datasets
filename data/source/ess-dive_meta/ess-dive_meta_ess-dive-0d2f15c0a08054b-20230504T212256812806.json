@@ -1,0 +1,412 @@
+{
+  "id": "ess-dive-0d2f15c0a08054b-20230504T212256812806",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1660470",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-0d2f15c0a08054b-20230504T212256812806",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-e8c22ca39420529-20230407T225452722018",
+  "dateUploaded": "2023-05-04T21:22:58.143Z",
+  "dateModified": "2023-05-04T21:23:01.663Z",
+  "isPublic": true,
+  "citation": "Damerow J; Varadharajan C; Boye K; Brodie E; Burrus M; Chadwick D; Cholia S; Crystal-Ornelas R; Elbashandy H; Alves R E; Ely K; Goldman A; Hendrix V; Jones C; Jones M; Kakalia Z; Kemner K; Kersting A; Maher K; Merino N; O'Brien F; Perzan Z; Robles E; Snavely C; Sorensen P; Stegen J; Weisenhorn P; Whitenack K; Zavarin M; Agarwal D (2020): Sample Identifiers and Metadata Reporting Format for Environmental Systems Science. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). Dataset. doi:10.15485/1660470",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1660470",
+    "name": "Sample Identifiers and Metadata Reporting Format for Environmental Systems Science",
+    "description": [
+      "The ESS-DIVE sample identifiers and metadata reporting format primarily follows the System for Earth Sample Registration (SESAR) Global Sample Number (IGSN) guide and template, with modifications to address Environmental Systems Science (ESS) sample needs and practicalities (IGSN-ESS). IGSNs are associated with standardized metadata to characterize a variety of different sample types (e.g. object type, material) and describe sample collection details (e.g. latitude, longitude, environmental context, date, collection method). Globally unique sample identifiers, particularly IGSNs, facilitate sample discovery, tracking, and reuse; they are especially useful when sample data is shared with collaborators, sent to different laboratories or user facilities for analyses, or distributed in different data files, datasets, and/or publications. To develop recommendations for multidisciplinary ecosystem and environmental sciences, we first conducted research on related sample standards and templates. We provide a comparison of existing sample reporting conventions, which includes mapping metadata elements across existing standards and Environment Ontology (ENVO) terms for sample object types and environmental materials.",
+      "We worked with eight U.S. Department of Energy (DOE) funded projects, including those from Terrestrial Ecosystem Science and Subsurface Biogeochemical Research Scientific Focus Areas. Project scientists tested the process of registering samples for IGSNs and associated metadata in workflows for multidisciplinary ecosystem sciences. We provide modified IGSN metadata guidelines to account for needs of a variety of related biological and environmental samples. While generally following the IGSN core descriptive metadata schema, we provide recommendations for extending sample type terms, and connecting to related templates geared towards biodiversity (Darwin Core) and genomic (Minimum Information about any Sequence, MIxS) samples and specimens. ESS-DIVE recommends registering samples for IGSNs through SESAR, and we include instructions for registration using the IGSN-ESS guidelines. Our resulting sample reporting guidelines, template (IGSN-ESS), and identifier approach can be used by any researcher with sample data for ecosystem sciences."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2601-5043",
+        "givenName": "Joan",
+        "familyName": "Damerow",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "JoanDamerow@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Charu",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kristin",
+        "familyName": "Boye",
+        "affiliation": "SLAC National Accelerator Laboratory",
+        "email": "kboye@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Madison",
+        "familyName": "Burrus",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "mburrus@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Dana",
+        "familyName": "Chadwick",
+        "affiliation": "Department of Earth Systems Science, Stanford University",
+        "email": "kdc@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Shreyas",
+        "familyName": "Cholia",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "scholia@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Robert",
+        "familyName": "Crystal-Ornelas",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "rcrystalornelas@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Hesham",
+        "familyName": "Elbashandy",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "HElbashandy@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ricardo",
+        "familyName": "Eloy Alves",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "RJEAlves@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kim",
+        "familyName": "Ely",
+        "affiliation": "Brookhaven National Lab",
+        "email": "kely@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Amy",
+        "familyName": "Goldman",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "amy.goldman@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Valerie",
+        "familyName": "Hendrix",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "vchendrix@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Christopher",
+        "familyName": "Jones",
+        "affiliation": "National Center for Ecological Analysis and Synthesis (NCEAS)",
+        "email": "cjones@nceas.ucsb.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Matt",
+        "familyName": "Jones",
+        "affiliation": "National Center for Ecological Analysis and Synthesis (NCEAS)",
+        "email": "jones@nceas.ucsb.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zarine",
+        "familyName": "Kakalia",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "zarinekakalia@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kenneth",
+        "familyName": "Kemner",
+        "affiliation": "Argonne National Laboratory",
+        "email": "kemner@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Annie",
+        "familyName": "Kersting",
+        "affiliation": "Lawrence Livermore National Laboratory",
+        "email": "kersting1@llnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kate",
+        "familyName": "Maher",
+        "affiliation": "Department of Earth Systems Science, Stanford University",
+        "email": "kmaher@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nancy",
+        "familyName": "Merino",
+        "affiliation": "Lawrence Livermore National Laboratory",
+        "email": "merino4@llnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Fianna",
+        "familyName": "O'Brien",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "flobrien@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zach",
+        "familyName": "Perzan",
+        "affiliation": "Department of Earth Systems Science, Stanford University",
+        "email": "zperzan@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Emily",
+        "familyName": "Robles",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "emilyarobles@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Cory",
+        "familyName": "Snavely",
+        "affiliation": "Lawrence Berkeley National Lab - NERSC",
+        "email": "csnavely@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Patrick",
+        "familyName": "Sorensen",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "posorensen@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "James.Stegen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Pamela",
+        "familyName": "Weisenhorn",
+        "affiliation": "Argonne National Laboratory",
+        "email": "pweisenhorn@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Karen",
+        "familyName": "Whitenack",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "kwhitenack@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Mavrik",
+        "familyName": "Zavarin",
+        "affiliation": "Lawrence Livermore National Laboratory",
+        "email": "zavarin1@llnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Deb",
+        "familyName": "Agarwal",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "daagarwal@lbl.gov"
+      }
+    ],
+    "datePublished": "2020",
+    "keywords": [
+      "sample identifier",
+      "Global Sample Number (IGSN)",
+      "ESS-DIVE reporting format",
+      "multidisciplinary",
+      "data linking",
+      "FAIR data",
+      "persistent identifier",
+      "Environment Ontology (ENVO)",
+      "environmental context",
+      "organic material",
+      "particulate matter",
+      "environmental material",
+      "sediment",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS",
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > SOLID EARTH > EARTH GASES/LIQUIDS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2601-5043",
+      "givenName": "Joan",
+      "familyName": "Damerow",
+      "affiliation": "Lawrence Berkeley National Lab",
+      "email": "JoanDamerow@lbl.gov"
+    },
+    "citation": [
+      "System for Earth Sample Registration (SESAR). 2020. SESAR Batch Registration Quick Guide (Version 7.0). Zenodo. http://doi.org/10.5281/zenodo.3874923",
+      "System for Earth Sample Registration (SESAR). 2020. SESAR XML Schema for samples (Version 4.0). Zenodo. http://doi.org/10.5281/zenodo.3875531",
+      "Damerow, J.E., Varadharajan, C., Boye, K., Brodie, E.L., Burrus, M., Chadwick, K.D., Crystal-Ornelas, R., Elbashandy, H., Alves, R.J.E., Ely, K.S., Goldman, A.E., Haberman, T., Hendrix, V., Kakalia, Z., Kemner, K.M., Kersting, A.B., Merino, N., O'Brien, F., Perzan, Z., Robles, E., Sorensen, P., Stegen, J.C., Walls, R.L., Weisenhorn, P., Zavarin, M. and Agarwal, D., 2021. Sample Identifiers and Metadata to Support Data Management and Reuse in Multidisciplinary Ecosystem Sciences. Data Science Journal, 20(1), p.11. DOI: http://doi.org/10.5334/dsj-2021-011"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "f5bb4f8b-224d-4d6a-9040-ae5a4a2959e6"
+      },
+      "name": "Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "daagarwal@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The core IGSN Descriptive Metadata Schema (https://github.com/IGSN/metadata) includes basic metadata associated with sample events, which is generally relevant across sample types. This schema links metadata profiles that differ across six currently-functioning IGSN allocating agents. SESAR (the first allocating agent) has no access restrictions for obtaining IGSNs and provides user-friendly services for sample management (https://www.geosamples.org/). The SESAR metadata profile and controlled terms are currently focused on geoscience samples, but the IGSN organization seeks to accommodate multiple disciplines and has already expanded into plant and soil samples for some identifier allocating agents. Our translation table for sample metadata allowed us to identify metadata elements and terms that could be revised or extended within the SESAR profile for improved representation of other sample types.\nWe also researched ontologies that could be used to describe a broad set of environmental sample types, including the Biological Collections Ontology (BCO) 77, Environment Ontology (ENVO) 46, Population and Community Ontology (PCO; http://purl.obolibrary.org/obo/pco.owl), and Plant Ontology (PO) 78 to identify additional or alternate terms to generally describe other types of soil, sediment, water, gas, and biology-related samples.",
+      "In order to develop a sample metadata reporting format that was informed by our domain science community, we worked with scientists from eight different Environmental Systems Science projects to conduct a pilot test for using sample PIDs and metadata. In particular, we tested the practicality of the IGSN, which appeared to be the best choice amongst relevant PIDs for our purposes. These projects had varying scopes and sample types, and were all funded by DOE\u2019s Office of Science Environmental Systems Science (ESS) program.\nPrior to sample registration, we discussed the following with representatives from each project: 1) expected sample types involved, 2) how to assign IGSNs and link related samples, 3) essential metadata needed to understand specific sample types, and 4) past sample tracking workflows. Some projects had already collected samples and preferred to register for IGSNs after collection to be associated with digital files, while other projects pre-registered their samples before collection, or registered directly after collection. We used initial feedback and background research to identify several core descriptive sample metadata fields likely to be necessary for searches on ESS-DIVE to be most effective, including standardized information on the following (see full translation table comparing metadata elements from existing standards and templates):\nIGSN and Parent IGSN (where relevant)\nSample Name (project-specific sample name, must be unique)\nChief Scientist/Collector\nSample Type fields:\nObject Type (e.g. Individual sample, core, site),\nMaterial (e.g. Liquid-aqueous, Rock, Soil, Biology),\nSampled Feature (primary physiographic feature sample collected from)\nLocation Information (Latitude, Longitude in WGS84; Location description),\nDate (ISO 8601; e.g. 1954-04-07),\nCollection Method Description\nProject\nNote that this list represents the initial IGSN metadata fields that should be required, and was subsequently revised after our pilot test work. Many additional fields are available and are recommended or optional depending on the sample type 12.\nThe researchers involved in our testing used SESAR\u2019s sample management portal (MySESAR, http://www.geosamples.org/mysesar) to register samples and update metadata. We recommended a specific workflow for participants to register their samples and update sample collection metadata, provided in the instructions file.\nAfter sample collection and registration, we discussed the following: 1) What sample collection metadata is needed to understand resulting sample data?; 2) How much effort did it take to register samples and standardize metadata?; 3) What is needed to make sample PID registration and standardization easier.",
+      "We used a combination of research on existing standards, and pilot test feedback to develop final recommendations for allocating identifiers and assigning standard metadata, summarized in Figure 5.44 We took extensive notes during meetings with pilot test participants, and compiled specific feedback on improving guidance on allocating identifiers and relationships, metadata needed to understand relevant sample types, and improve efficiency of sample registration and standardization. Pilot test participants identified metadata elements that needed to be added, modified, or removed to improve relevance for multidisciplinary ecosystem science samples. We then used our translation table (Online-Only Table 2) comparing other existing standards to guide specific recommendations. For example, to address feedback regarding inefficiencies in providing all metadata at individual sample levels, we added the Darwin Core elements: Location ID, Collection ID, and Event ID. We then reviewed existing, commonly-used ontologies (ENVO, BCO, PO) to select important vocabulary terms to characterize sample type, material type, and environmental context. We developed a list of relevant terms based on pilot test studies, and all participants helped decide on our final term lists for object type and material, specifically.\nAll feedback was addressed in our final recommendations, which we compiled into github, and a more user-friendly gitbook. This documentation includes: instructions on registering samples for IGSNs using our revised template, specific definitions/instructions/examples for each metadata element, lists of terms for elements where controlled vocabulary is needed, and instructions for how to contribute feedback using github, and cite the final format. To develop documentation, we used the ESS-DIVE community github for samples, modeled after user-friendly documentation from Darwin Core, which facilitates additional community feedback (through public github issues) and versioning. We presented our final recommendations and documentation in two additional community webinars, which are advertised to ESS-DIVE users and ESS scientists, and published on the ESS-DIVE website (https://ess-dive.lbl.gov/webinars/). The purpose of community webinars was to present our conclusions and collect any additional feedback.\nAs a community-oriented data repository, we will continue to gather feedback and develop additional tools to support users in submitting, searching for, integrating, and reusing high-quality sample data."
+    ],
+    "distribution": [
+      {
+        "contentSize": 40.966796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0d2f15c0a08054b-20230504T212256812806",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-0d2f15c0a08054b-20230504T212256812806",
+        "name": "Sample_Identifiers_and_Metadata_Reporting_Format_for_Environmental_Systems_Science.xml"
+      },
+      {
+        "contentSize": 5.5947265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4267d1839f22f97-20201117T172046138",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-4267d1839f22f97-20201117T172046138",
+        "name": "material.md"
+      },
+      {
+        "contentSize": 22.5,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2cc473b149b0532-20201117T172022327",
+        "encodingFormat": "application/vnd.ms-excel",
+        "identifier": "ess-dive-2cc473b149b0532-20201117T172022327",
+        "name": "sampleTemplate.xls"
+      },
+      {
+        "contentSize": 192.291015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-48fee479cc7f62f-20201117T211130025",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-48fee479cc7f62f-20201117T211130025",
+        "name": "sampleMetadataTranslationTable.xlsx"
+      },
+      {
+        "contentSize": 13.453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-52cb4f876683fbd-20201117T211130019",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-52cb4f876683fbd-20201117T211130019",
+        "name": "sampleMetadataTranslationTable.csv"
+      },
+      {
+        "contentSize": 4.9990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5f919869c485085-20201117T172022317",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-5f919869c485085-20201117T172022317",
+        "name": "instructions.md"
+      },
+      {
+        "contentSize": 1.8427734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5b2ba418d1ff60e-20201117T172046160",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-5b2ba418d1ff60e-20201117T172046160",
+        "name": "units.md"
+      },
+      {
+        "contentSize": 4.9091796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-575888f39f4863c-20201117T172022324",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-575888f39f4863c-20201117T172022324",
+        "name": "sampleTemplate.csv"
+      },
+      {
+        "contentSize": 35.3837890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-89229939cfa0504-20201117T172022312",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-89229939cfa0504-20201117T172022312",
+        "name": "guide.md"
+      },
+      {
+        "contentSize": 8.75390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a7a1b762d13174f-20201117T172046141",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a7a1b762d13174f-20201117T172046141",
+        "name": "objectType_translation_table.csv"
+      },
+      {
+        "contentSize": 1.26953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bf8ae7af8e677e7-20201117T172046155",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bf8ae7af8e677e7-20201117T172046155",
+        "name": "units.csv"
+      },
+      {
+        "contentSize": 4.7490234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c09d1449b12c3d0-20201117T172046148",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-c09d1449b12c3d0-20201117T172046148",
+        "name": "sampleMetadata_sources.md"
+      },
+      {
+        "contentSize": 6.220703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b95a48a43c134e6-20201117T172046128",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b95a48a43c134e6-20201117T172046128",
+        "name": "material_translation_table.csv"
+      },
+      {
+        "contentSize": 2.30078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-af6d44d96064308-20201117T172022308",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-af6d44d96064308-20201117T172022308",
+        "name": "contribute.md"
+      },
+      {
+        "contentSize": 8.150390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c685d4aeb295cb5-20201117T172022320",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-c685d4aeb295cb5-20201117T172022320",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 2.66796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f7ede5e17e8288a-20201117T172046145",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-f7ede5e17e8288a-20201117T172046145",
+        "name": "objectType.md"
+      }
+    ]
+  }
+}

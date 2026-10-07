@@ -1,0 +1,312 @@
+{
+  "id": "ess-dive-f78cb03d11550da-20250707T154141254",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1618131",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f78cb03d11550da-20250707T154141254",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-f78cb03d11550da-20250214T163646993",
+  "dateUploaded": "2025-07-07T15:41:42.320Z",
+  "dateModified": "2025-07-07T15:41:42.674Z",
+  "isPublic": true,
+  "citation": "Brodrick P; Goulden T; Chadwick K D (2020): Custom NEON AOP reflectance mosaics and maps of shade masks, canopy water content. Watershed Function SFA. Dataset. doi:10.15485/1618131",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1618131",
+    "hasPart": [
+      {
+        "@type": "WebPage",
+        "name": "All data visualization",
+        "url": "https://code.earthengine.google.com/5c96bbc96ffd50e3c8b1433b34a0bb86"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Canopy water content",
+        "url": "https://code.earthengine.google.com/?asset=users/pgbrodrick/SFA/collections/wtrl_priority"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Water vapor estimates",
+        "url": "https://code.earthengine.google.com/?asset=users/pgbrodrick/SFA/collections/wtrv_priority"
+      },
+      {
+        "@type": "WebPage",
+        "name": "OBS data",
+        "url": "https://code.earthengine.google.com/?asset=users/pgbrodrick/SFA/collections/obs_priority"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Custom Reflectance",
+        "url": "https://code.earthengine.google.com/?asset=users/pgbrodrick/SFA/collections/ciacorn_priority"
+      },
+      {
+        "@type": "WebPage",
+        "name": "DTM + CHM Shade",
+        "url": "https://code.earthengine.google.com/?asset=users/pgbrodrick/SFA/collections/shade_tch_priority"
+      },
+      {
+        "@type": "WebPage",
+        "name": "DSM Shade",
+        "url": "https://code.earthengine.google.com/?asset=users/pgbrodrick/SFA/collections/shade_priority"
+      }
+    ],
+    "name": "Custom NEON AOP reflectance mosaics and maps of shade masks, canopy water content",
+    "description": [
+      "This mosaic of visible to shortwave infrared (VSWIR) data was derived from the assignable asset NEON AOP radiance data that was collected by LBNL\u2019s Watershed Function SFA during the summer of 2018 (DOI: 10.15485/1617204). This atmospheric correction was completed to take into account site-specific terrain variability in the 334 km2 survey area centered around Crested Butte, CO. The atmospheric correction was completed using ACORN atmospheric correction software executed on 200 x 200 pixel kernels rather than line by line in order to capture local flight altitude conditions. Manual cloud delineation removed any small shaded areas that occurred within the data collection areas. Mosaics were developed based on preference for days that were in close timing proximity to the coincident ground campaign and with mosaicing criteria that minimized the angle between the sun and the sensor to retrieve the most consistent reflectance (min_phase_refl_tiled). Finally, we generated shade masks based on the geometry between the sun angle at time of flight, the ground surface, and the sensor. Here we provide the orthomosaiced estimated reflectance data (min_phase_refl_tiled.tif), canopy water content (wtrl), estimated atmospheric water vapor (wtrv), the observational data (obs) for this particular mosaic, the estimated visibility (vis), shade masks derived from the digital surface elevation model (shade) and the digital terrain model (shade_tch) added to the canopy height model (DOI: 10.15485/1617203), and a wavelength metadata file. Each image file is provided as a GeoTiff with internal tiling and LZW compression.",
+      "These data can also be found on Google Earth Engine for extraction, download, and analysis of smaller extents (Google Earth Engine data is linked in external link table)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9497-7661",
+        "givenName": "Philip",
+        "familyName": "Brodrick",
+        "affiliation": "NASA Jet Propulsion Laboratory (JPL)",
+        "email": "philip.brodrick@jpl.nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9973-4079",
+        "givenName": "Tristan",
+        "familyName": "Goulden",
+        "affiliation": "National Ecological Observation Network",
+        "email": "tgoulden@battelleecology.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5633-4865",
+        "givenName": "K. Dana",
+        "familyName": "Chadwick",
+        "affiliation": "Stanford University",
+        "email": "kdc@stanford.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Benjamin",
+        "familyName": "Blonder",
+        "affiliation": "University of California Berkeley",
+        "email": "benjamin.blonder@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nicola",
+        "familyName": "Falco",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "nicolafalco@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Katharine",
+        "familyName": "Maher",
+        "affiliation": "Stanford University",
+        "email": "kmaher@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Haruko",
+        "familyName": "Wainwright",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "hmwainwright@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      }
+    ],
+    "datePublished": "2020",
+    "keywords": [
+      "imaging spectroscopy",
+      "hyperspectral reflectance",
+      "shade masks",
+      "canopy water content",
+      "NEON AOP",
+      "related identifiers",
+      "NEON Campaign 2018"
+    ],
+    "variableMeasured": [
+      "hyperspectral reflectance",
+      "shade mask",
+      "canopy water content (mm)",
+      "atmospheric water vapor (mm)"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "East River, Washington Gulch, Slate River, and Coal Creek watersheds",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.04,
+            "longitude": -107.129
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.814,
+            "longitude": -106.877
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "Arizona State University's School of Life Sciences - Blonder"
+      },
+      {
+        "@type": "Organization",
+        "name": "NSF EAR Postdoctoral Fellowship, Chadwick, ID: 1725788"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2018-06-12",
+      "endDate": "2018-06-26",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5633-4865",
+      "givenName": "K. Dana",
+      "familyName": "Chadwick",
+      "affiliation": "Stanford University",
+      "email": "kdc@stanford.edu"
+    },
+    "citation": [
+      "ASSOCIATED JOURNAL ARTICLE(S)",
+      "Chadwick et al., (2020) \u201cIntegrating airborne remote sensing and field campaigns for ecology and Earth system science\u201d. https://doi.org/10.1111/2041-210X.13463",
+      "REFERENCES - RELATED DATASET(S)",
+      "Google Earth Engine containing tiff files, mosaic of visible to shortwave infrared (VSWIR) data https://code.earthengine.google.com/5c96bbc96ffd50e3c8b1433b34a0bb86",
+      "Goulden et al., (2020) \u201cNEON AOP Imaging Spectroscopy Survey of Upper East River Colorado Watersheds: Raw-Space Radiance and Observational Variable Dataset\u201d. ESS-DIVE. https://doi.org/10.15485/1617204",
+      "Goulden & Musinsky (2020) \u201cPost survey report for AOP Assignable Asset collection of Crested Butte, CO\u201d. ESS-DIVE. https://doi.org/10.15485/1617202",
+      "Goulden et al., (2020) \u201cNEON AOP Survey of Upper East River CO Watersheds: LAZ Files, LiDAR Surface Elevation, Terrain Elevation, and Canopy Height Rasters\u201d. ESS-DIVE. https://doi.org/10.15485/1617203"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "From Chadwick et. al:\nAtmospheric correction and orthorectification of VSWIR data: https://github.com/pgbrodrick/acorn_atmospheric_correction\nWe used a raw-space version of the AOP radiance data provided from NEON, as binary data cubes each, Each flightline was 528 pixels wide and varied in length, with 426 spectral bands that are collected at ~ 5 nm intervals from 384 nm to 2512 nm. These data indicate the light that is observed by the sensor and have been calibrated from the original digital numbers registered within the spectrometer by NEON scientists (NEON documentation). We performed atmospheric correction on these data in prior to orthorectification, useful for the kernel-based atmospheric estimation and facilitating the testing of multiple mosaicing strategies.\nIn addition to the raw-space radiance data, the NEON AOP team provides a file of observational characteristics (OBS) for each pixel at the time of flight. These data provide information for each pixel that specifies the following information: path length (sensor to ground in m), to-sensor azimuth angle, to-sensor zenith angle, to-sun azimuth angle, to-sun zenith angle, phase, surface slope, surface aspect, cosine i, and gps time. These data are utilized in a variety of subsequent processing steps. Pixel-specific geospatial and elevation information are also available.\nCritical to the estimation of surface reflectance is an accurate characterization of the amount of aerosol and water vapor in the atmosphere, both of which induce nonlinear scattering effects. The Atmospheric CORrection Now (ACORN) software we utilized here attempts to estimate water vapor and surface liquid water simultaneously using spectral bands in the 950 and 1150 nm regions, but does not estimate visibility. Furthermore, ACORN only ingests flight-line averaged characteristics like altitude, pathlength, and view angle, all of which may vary considerably as discussed in the main text. To account for this, we executed multiple rounds of ACORN in 200 pixel kernel regions. First, we estimated visibility (a proxy for aerosol optical depth) in patches (2 kernels in the x-dimension every 400 pixels down the flight line), where in each patch ACORN was run with input visibilities ranging from 20-100 km (values ultimately entered into the MODTRAN lookup tables), until the vegetated pixels (NDVI > 0.8) within the kernel had a 420 nm reflectance value of 0.01. We then interpolated out the visibility estimate using a nearest neighbor method with a gaussian kernel smoother over all flight lines to account for areas without vegetation. Relatively high aerosol levels (low visibility) were obtained in the eastern portion of the study site, which is consistent with smoky conditions from wildfires during acquisition on the first day. This visibility estimate was then used to re-run ACORN in 200 m kernel grids with all local topography and view-angle geometry information, effectively accounting for the variable flight conditions within each line that would highly influence the estimates of surface reflectance. Reflectance data were then orthorectified into map space for mosaicing.",
+      "From Chadwick et. al:\nShade mask generation: https://github.com/pgbrodrick/shade-ray-trace\nFor each flight line we calculated a shade mask based on a ray tracing algorithm utilizing the geometry information obtained from the OBS data along with geospatial and topography information. We generated versions of the shade mask using estimates from both the digital surface elevation model directly, as well as from the digital terrain elevation model added to the total canopy height model (to investigate if canopy \u2018gap-filling\u2019 would be helpful). We utilized the digital surface elevation model shade mask for our model development because in the generation of the TCH model the canopy is smoothed, such that some shaded areas are missed, all estimates of TCH < 2 m are set to zero which prevents estimates of shading on short stature vegetation, and errors can occur in TCH estimation algorithms on ridge tops. These are issues that were considered for the generation of the shade mask, but that should also be generally considered as part of any analyses using these data. We consider the shade masks provided to be rather conservative (in that they overestimate shade), possibly due to the relatively wide focal width of the NEON AOP lidar, implemented for safety measures.",
+      "From Chadwick et. al:\nMosaic Development: https://code.earthengine.google.com/5c96bbc96ffd50e3c8b1433b34a0bb86\nTo facilitate mosaicing decisions and to include the most uniform spectral data in the final dataset, we prioritized flightlines for inclusion based on a combination of weather and timing considerations. The flight conditions for lines were assessed using reports provided by the flight team and visual assessment of cloud cover. The flight team reports the presence or absence of clouds or other conditions that could affect the quality of the spectral collections, and gives each line a qualitative quality assignment of green (< 10% cloud cover), yellow (10% - 50%) , or red (> 50%). We obtained at least one green flightline for the entire study area, minimizing the need for cloud masking. We identified four flightlines that had cloud shade in them and hand-delineated these areas to be masked out of the final mosaic. In addition, when there were multiple days of collected data for a given flightline we prioritized the lines that were most closely temporally aligned with the ground sampling for that area or that took place closer to solar noon to minimize shadows throughout the image. This prioritization scheme resulted in the inclusion of the highest quality and most temporally appropriate dataset possible.\nAfter selecting the lines to be used and developing masks as appropriate, a mosaicing criteria for overlapping flightlines was required. We utilized a criteria that minimizes the three-dimensional angle between the sun and the sensor to retrieve the most consistent reflectance. We then merged all of the flightlines together, selecting pixels with this prioritization criteria in the case of overlap. Functionally, mosaicing was performed on Google Earth Engine, where all flight lines described above were ingested as image collections. This facilitated rapid testing and visualization of different mosaicing strategies."
+    ],
+    "distribution": [
+      {
+        "contentSize": 4.455078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3df9760d7adba28-20200513T015546985",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-3df9760d7adba28-20200513T015546985",
+        "name": "neon_wavelengths.txt"
+      },
+      {
+        "contentSize": 1028140.8935546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2fb11629789daef-20200508T211459059",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-2fb11629789daef-20200508T211459059",
+        "name": "min_phase_wtrl_tiled.tif"
+      },
+      {
+        "contentSize": 28421185.0859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3b0c5d48eac3a2e-20200528T081958219567",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-3b0c5d48eac3a2e-20200528T081958219567",
+        "name": "min_phase_obs_tiled.tif"
+      },
+      {
+        "contentSize": 775200.859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-da2cb271dc0de0e-20200528T080310018906",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-da2cb271dc0de0e-20200528T080310018906",
+        "name": "dtm_mosaic_min_phase_me.tif"
+      },
+      {
+        "contentSize": 807302.29296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d9111d40684db0c-20200528T080308014040",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-d9111d40684db0c-20200528T080308014040",
+        "name": "dsm_mosaic_min_phase_me.tif"
+      },
+      {
+        "contentSize": 256824.5166015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-55fc6f40ee2279b-20200528T075911307128",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-55fc6f40ee2279b-20200528T075911307128",
+        "name": "tch_mosaic_min_phase_me.tif"
+      },
+      {
+        "contentSize": 25009.66796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7a3c73d02236b6b-20200508T211459044",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-7a3c73d02236b6b-20200508T211459044",
+        "name": "min_phase_shade_tiled.tif"
+      },
+      {
+        "contentSize": 266803416.18359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-76b1dd0543ee8eb-20211001T221231969705",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-76b1dd0543ee8eb-20211001T221231969705",
+        "name": "min_phase_refl_tiled.tif"
+      },
+      {
+        "contentSize": 5121527.328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c14ef4520666cd4-20200528T080311671893",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-c14ef4520666cd4-20200528T080311671893",
+        "name": "min_phase_nrgb_tiled.tif"
+      },
+      {
+        "contentSize": 878146.1484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c1909f281536dac-20200508T211459054",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-c1909f281536dac-20200508T211459054",
+        "name": "min_phase_wtrv_tiled.tif"
+      },
+      {
+        "contentSize": 622042.8271484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c3100741d66269a-20200508T211459050",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-c3100741d66269a-20200508T211459050",
+        "name": "min_phase_vis_tiled.tif"
+      },
+      {
+        "contentSize": 22718.3173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fe6c25ba519748f-20200508T211459029",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-fe6c25ba519748f-20200508T211459029",
+        "name": "min_phase_shade_tch_tiled.tif"
+      },
+      {
+        "contentSize": 28.138671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f78cb03d11550da-20250707T154141254",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f78cb03d11550da-20250707T154141254",
+        "name": "Custom_NEON_AOP_reflectance_mosaics_and_maps_of.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "id": "ess-dive-90dd110e4c7fb2b-20230407T142459403162",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1819956",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-90dd110e4c7fb2b-20230407T142459403162",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-ff3a3403f96c3f9-20230407T000425609749",
+  "dateUploaded": "2023-04-07T14:25:00.514Z",
+  "dateModified": "2023-04-07T14:25:06.644Z",
+  "isPublic": true,
+  "citation": "Chen Y; Bao J; Fang Y; Perkings W A; Ren H; Song X; Duan Z; Hou Z; He X; Scheibe T D (2021): Model, data, and code for paper \"Modeling of streamflow in a 30-kilometer-long reach spanning 5 years using OpenFOAM 5.x\". River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/1819956",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1819956",
+    "name": "Model, data, and code for paper \"Modeling of streamflow in a 30-kilometer-long reach spanning 5 years using OpenFOAM 5.x\"",
+    "description": [
+      "The data package includes data, model, and code that support the analyses and conclusions in the paper titled \u201cmodeling of streamflow in a 30-kilometer-long reach spanning 5 years using OpenFOAM 5.x\u201d. The primary goal of this paper is to demonstrate that key streamflow properties such as water depth, flow velocity, and dynamic pressure in a natural river at 30-kilometer scale over 5 years can be reliably and efficiently modeled using the computational framework presented in this paper. To support the paper, various data types from remote sensing, field observations, and computational models are used.",
+      "Specific details are described as follows. Firstly, the river bathymetry data was obtained from a Light Detection and Ranging (LiDAR) survey. This data is then converted to a triangulated surface format, STL, for mesh generation in OpenFOAM. The STL data can be found in Model_Setups/BaseCase_2013To2015/constant/triSurface. The OpenFOAM mesh generated using this STL file can be found in constant/polyMesh. Other model setups, boundary and initial conditions can be found in /system and /0.org under folder BaseCase_2013To2015. A similar data structure can also be found in BaseCase_2018To2019 for the simulations during 2018 and 2019. Secondly, the OpenFOAM simulations need the upstream discharge and water depth information at the upstream boundary to drive the model. These data are generated from a one-dimensional hydraulic model and the data can be found under the folder Model_Setups /1D model Mass1 data. The mass1_65.csv and mass1_191.csv files include the results of the 1D model at the model inlet and outlet, respectively. The Matlab source code Mass1ToOFBC20182019.m is used to convert these data into OpenFOAM boundary condition setups.",
+      "With the above OpenFOAM model, it can generate data for water surface elevation, flow velocity, and dynamic pressure. In this paper, the water surface elevation was measured at 7 locations during different periods between 2011 and 2019. The exact survey locations (see Fig1_SurveyLocations.txt) can be found in folder Fig_1. The variation of water stage over time at the 7 locations can be found in folder /Observation_WSE. The data type include .txt, .csv, .xlsx, and .mat. The .mat data can be loaded by Matlab.",
+      "We also measured the flow velocities at 12 cross-sections along the river. At each cross-section, we recorded the x, y locations, depth, three velocity components u,v,w. These data are saved to a Matlab format which can be found under folder /Observation_Velocity and /Fig_1. The relative locations of velocity survey locations to the river bathymetry can be found in Figure 1c.",
+      "The water stage data at the 7 locations from OpenFOAM, 1D, and 2D hydraulic models are also provided to evaluate the long-term performance of 3D models vs 1D/2D models. The water stage data for the 7 locations from OpenFOAM have been saved to .mat format and can be found in /OpenFOAM_WSE. The water stage data from the 1D model are saved in .csv format and can be found in /Mass1_WSE. The water stage from the 2D model is saved as .mat format and can be found in / Mass2_WSE",
+      "In addition, the OpenFOAM model outputs the information of hydrostatic and hydrodynamic pressure. They are saved as .mat format under folder /Fig_11/2013_1. As the files are too large, we only uploaded the data for January 2013. The area of different ratio of dynamic pressure to static pressure for all simulation range, i.e., 2013-2015, are saved to .mat format. They can be found in /Fig_11/PA.",
+      "Further, the data of wall clock time versus the solution time of the OpenFOAM modeling are also saved to .mat format under folder /Fig_13/LogsMat.",
+      "In summary, the data package contains seven data types, including .txt, .csv, .xlsx, .dat, .stl, .m, and .mat. The former 4 types can be directly open using a text editor or Microsoft Office. The .mat format needs to be read by Matlab. The Matlab source code .m files need to be run with Matlab. The OpenFOAM setups can be visualized in ParaView. The .stl file can be opened in ParaView or Blender.",
+      "The data in subfolders Fig_1 to Fig_10 and Fig_12 are copied from the aforementioned data folders to generate specific figures for the paper. A readME.txt file is included in each subfolder to further describe how the data in each folder are generated and used to support the paper.",
+      "Please use the data package's DOI to cite the data package. Please contact yunxiang.chen@pnnl.gov if you need more data related to the paper."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6065-8339",
+        "givenName": "Yunxiang",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "yunxiang.chen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6521-3099",
+        "givenName": "Jie",
+        "familyName": "Bao",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "jie.bao@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Yilin",
+        "familyName": "Fang",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "yilin.fang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "William A.",
+        "familyName": "Perkings",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "William.perkins@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Huiying",
+        "familyName": "Ren",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Huiying.ren@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Xuehang",
+        "familyName": "Song",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Xuehang.song@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zhuoran",
+        "familyName": "Duan",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Zhuoran.duan@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zhangshuan",
+        "familyName": "Hou",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Zhangshuan.hou@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Xiaoliang",
+        "familyName": "He",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Xiaoliang.he@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Timothy D.",
+        "familyName": "Scheibe",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "Tim.scheibe@pnnl.gov"
+      }
+    ],
+    "datePublished": "2021-09-13",
+    "keywords": [
+      "Streamflow",
+      "Hydrodynamics",
+      "Three dimensional computational fluid dynamics model",
+      "Hourly data",
+      "Computational framework",
+      "Data model integration",
+      "Computational efficiency",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "Water surface elevation",
+      "Dynamic pressure",
+      "Hydrostatic pressure",
+      "Hydraulic roughness",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW > FLOW VELOCITY"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "All observations and 3D modeling domain are located in the 100H area of the Hanford Site in Richland, WA, USA. The river section considered in this model is around 30 km long.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.726744,
+            "longitude": -119.656849
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.640387,
+            "longitude": -119.404601
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2011-01-01",
+      "endDate": "2019-10-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6065-8339",
+      "givenName": "Yunxiang",
+      "familyName": "Chen",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "yunxiang.chen@pnnl.gov"
+    },
+    "citation": [
+      "Chen, Y., et al., 2021, Modeling of streamflow in a 30-kilometer-long reach spanning 5 years using OpenFOAM 5.x. Under Review."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The water surface elevation and velocity data are generated by 3D CFD modeling. The simulation time step is 3 s but the data is output every 1 hour. The spatial resolution is 20 m, 20 m, and 1 m in x, y, and z direction.\nField survey of water stages are measured using loggers. The data is recorded every 10 minutes.\nField survey of velocity are measured by boat towed ADCP on two dates. Mach 4 around 4 pm and April 1 around 4 pm in 2011. The survey locations are distributed at 12 cross-sections along the river."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-220ff0416dd3b46-20210913T210747702",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-220ff0416dd3b46-20210913T210747702",
+        "name": "readME.txt"
+      },
+      {
+        "contentSize": 4345.5556640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-191d7bbd7f43851-20210913T210810627",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-191d7bbd7f43851-20210913T210810627",
+        "name": "Fig_8.zip"
+      },
+      {
+        "contentSize": 3395.927734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1ef195e5f71e5a7-20210913T210810720",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-1ef195e5f71e5a7-20210913T210810720",
+        "name": "Observation_WSE.zip"
+      },
+      {
+        "contentSize": 3576.142578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-36b47a1ac37b2cb-20210913T210810574",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-36b47a1ac37b2cb-20210913T210810574",
+        "name": "Fig_1.zip"
+      },
+      {
+        "contentSize": 106.9990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2bcb45e9df6fb37-20210913T210758867",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-2bcb45e9df6fb37-20210913T210758867",
+        "name": "OFOBSCompareAllF.m"
+      },
+      {
+        "contentSize": 465633.302734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ebc96944ea49098-20210913T210810703",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-ebc96944ea49098-20210913T210810703",
+        "name": "Model_Setups.zip"
+      },
+      {
+        "contentSize": 191.6201171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dc2bd465db0c940-20210913T210810583",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dc2bd465db0c940-20210913T210810583",
+        "name": "Fig_2.zip"
+      },
+      {
+        "contentSize": 1504.0166015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d80ab65491e6817-20210913T210810592",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d80ab65491e6817-20210913T210810592",
+        "name": "Fig_4.zip"
+      },
+      {
+        "contentSize": 7936.494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3480d670947350a-20210913T210810617",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-3480d670947350a-20210913T210810617",
+        "name": "Fig_7.zip"
+      },
+      {
+        "contentSize": 1358.986328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-51f566c384d4da9-20210913T210810666",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-51f566c384d4da9-20210913T210810666",
+        "name": "Fig_12.zip"
+      },
+      {
+        "contentSize": 997143.423828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4a914738e138824-20210913T210810675",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4a914738e138824-20210913T210810675",
+        "name": "Fig_13.zip"
+      },
+      {
+        "contentSize": 2171505.2041015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-677ab779fbac2ea-20210913T210810657",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-677ab779fbac2ea-20210913T210810657",
+        "name": "Fig_11.zip"
+      },
+      {
+        "contentSize": 1717.7939453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-84e37cfa6335396-20210913T210810599",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-84e37cfa6335396-20210913T210810599",
+        "name": "Fig_5.zip"
+      },
+      {
+        "contentSize": 46642.666015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7c29adaafeb2538-20210913T210810683",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-7c29adaafeb2538-20210913T210810683",
+        "name": "Mass1_WSE.zip"
+      },
+      {
+        "contentSize": 5044.1650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9c7848caa0414f3-20210913T210810692",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9c7848caa0414f3-20210913T210810692",
+        "name": "Mass2_WSE.zip"
+      },
+      {
+        "contentSize": 16.6328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-90dd110e4c7fb2b-20230407T142459403162",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-90dd110e4c7fb2b-20230407T142459403162",
+        "name": "Model_data_and_code_for_paper_Modeling_of_streamflow_in_a_30_kilometer_long_reach_spanning_5_years_using_OpenFOAM_5_x_.xml"
+      },
+      {
+        "contentSize": 4927.3603515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bd23c3547db4d4d-20210913T210810609",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-bd23c3547db4d4d-20210913T210810609",
+        "name": "Fig_6.zip"
+      },
+      {
+        "contentSize": 3062.0986328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c2fdc68c8b96337-20210913T210810638",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c2fdc68c8b96337-20210913T210810638",
+        "name": "Fig_9.zip"
+      },
+      {
+        "contentSize": 2422.4130859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c3b6781dd8234dd-20210913T210810711",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c3b6781dd8234dd-20210913T210810711",
+        "name": "Observation_Velocity.zip"
+      },
+      {
+        "contentSize": 9997.560546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f429f00b1e66982-20210913T210810731",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f429f00b1e66982-20210913T210810731",
+        "name": "OpenFOAM_WSE.zip"
+      },
+      {
+        "contentSize": 880.76171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f5a303c11d6c429-20210913T210810588",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f5a303c11d6c429-20210913T210810588",
+        "name": "Fig_3.zip"
+      },
+      {
+        "contentSize": 1347.7431640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f7cae9642c880e9-20210913T210810647",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f7cae9642c880e9-20210913T210810647",
+        "name": "Fig_10.zip"
+      }
+    ]
+  }
+}

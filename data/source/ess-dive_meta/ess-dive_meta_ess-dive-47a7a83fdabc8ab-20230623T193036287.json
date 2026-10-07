@@ -1,0 +1,192 @@
+{
+  "id": "ess-dive-47a7a83fdabc8ab-20230623T193036287",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1989228",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-47a7a83fdabc8ab-20230623T193036287",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d30c5d53a44fa0f-20230623T180238528",
+  "dateUploaded": "2023-06-23T19:30:36.604Z",
+  "dateModified": "2024-02-08T19:29:28.714Z",
+  "isPublic": true,
+  "citation": "Faybishenko B; Arora B; Dwivedi D; Brodie E (2023): Meteorological and hydrological parameters for 17 locations of meteorological stations of the East River Watershed. Watershed Function SFA. Dataset. doi:10.15485/1989228",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1989228",
+    "name": "Meteorological and hydrological parameters for 17 locations of meteorological stations of the East River Watershed",
+    "description": [
+      "The Data Package includes a set of csv files of input meteorological parameters for locations of 17 meteorological stations within the East River watershed. These meteorological datasets were downloaded from the (1) PRISM database--monthly precipitation, air temperature (minimum, mean, and maximum), vapor pressure deficit (minimum and maximum), and dewpoint temperature, and (2) NCEP/NCAR Reanalysis database \u2013 wind database. The datasets were used for calculations of the Potential Evapotranspiration (ETo), Actual Evapotranspiration (ET), Standard Precipitation Index (SPI) , Standard Evapotranspiration-Precipitation Index (SPEI) for the period from 1966 to 2021. The main research questions addressed are: the evaluation of the long-term temporal trends of climatic parameters, hierarchical clustering, and areal mapping/zonation of the East River watershed. Calculations were conducted in the Rstudio environment. The dataset additionally includes a file-level metadata (flmd.csv) file that lists each file contained in the dataset with associated metadata; and a data dictionary (dd.csv) file that contains column/row headers used throughout the files along with a definition, units, and data type.",
+      "The input datasets were downloaded from (a) PRISM database (the Northwest Alliance for Computational Science and Engineering at the Oregon State University), and (b) NCEP/NCAR Reanalysis database."
+    ],
+    "alternateName": [
+      "paf_958"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0085-8499",
+        "givenName": "Boris",
+        "familyName": "Faybishenko",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bafaybishenko@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7841-886X",
+        "givenName": "Bhavna",
+        "familyName": "Arora",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "barora@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1788-1900",
+        "givenName": "Dipankar",
+        "familyName": "Dwivedi",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ddwivedi@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8453-8435",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "Potential Evapotranspiration (ETo)",
+      "Evapotranspiration (ET)",
+      "Standard precipitation index (SPI)",
+      "Standard precipitation-evapotranspiration index (SPEI)",
+      "Aridity Index (AI)",
+      "Statistical analysis"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2022) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1966-01-01",
+      "endDate": "2021-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0085-8499",
+      "givenName": "Boris",
+      "familyName": "Faybishenko",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "bafaybishenko@lbl.gov"
+    },
+    "citation": [
+      "B. Faybishenko, B. Arora, D.Dwivedi, E. Brodie, \u201cStatistical framework to assess long-term spatio-temporal climate changes: East River mountainous watershed case study.\u201d Stochastic Environmental Research and Risk Assessment (2023) 37:1303\u20131319 https://doi.org/10.1007/s00477-022-02327-7",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Kakalia Z ; Burrus M ; O'Ryan D ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; Elbashandy H ; Enquist B J ; Fox P ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Matheus Carnevali P ; Newman A ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Agarwal D (2022): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA (Version 3.0). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Calculations were conducted in three phases: (1) Exploratory data analysis (data preparation), (2) Calculations and time series statistical analysis of Potential Evapotranspiration (ETo), Evapotranspiration (ET), Standard precipitation index (SPI), Standard precipitation-evapotranspiration index (SPEI), Aridity Index (AI), and (3) Mapping/zonation based on the Principal Component Analysis (PCA) and hierarchical clustering of site locations."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3e9dbdb93457f8b-20230623T192806365",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3e9dbdb93457f8b-20230623T192806365",
+        "name": "All_sites_SPEI.csv",
+        "contentSize": 141.458984375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3fd3e488415efe0-20230623T192806362",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3fd3e488415efe0-20230623T192806362",
+        "name": "All_sites_PET_PM.csv",
+        "contentSize": 138.1005859375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-460fe3a0dfefede-20230623T192806328",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-460fe3a0dfefede-20230623T192806328",
+        "name": "All_sites_AI.csv",
+        "contentSize": 138.001953125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-53bc5c6baf2a5fe-20230623T192806357",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-53bc5c6baf2a5fe-20230623T192806357",
+        "name": "All_sites_ET.csv",
+        "contentSize": 138.275390625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b9704ecba2377dd-20230623T192806372",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b9704ecba2377dd-20230623T192806372",
+        "name": "flmd.csv",
+        "contentSize": 1.68359375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-14f43106e314f92-20230623T192806360",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-14f43106e314f92-20230623T192806360",
+        "name": "All_sites_input_data.csv",
+        "contentSize": 906.7587890625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2a0c93e3b454d26-20230623T192806367",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2a0c93e3b454d26-20230623T192806367",
+        "name": "All_sites_spi.csv",
+        "contentSize": 141.296875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e0451727f80ad41-20230623T192806370",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e0451727f80ad41-20230623T192806370",
+        "name": "dd.csv",
+        "contentSize": 6.5380859375
+      }
+    ]
+  }
+}

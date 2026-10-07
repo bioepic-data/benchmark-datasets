@@ -1,0 +1,401 @@
+{
+  "id": "ess-dive-b47b9215490a5df-20240315T214229745",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2324637",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-b47b9215490a5df-20240315T214229745",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-4c3b74fb66625ab-20240228T183451318",
+  "dateUploaded": "2024-03-15T21:42:31.644Z",
+  "dateModified": "2025-09-11T19:15:17.360Z",
+  "isPublic": true,
+  "citation": "Lundquist J; Hallnan R; Roche J; Forester H; Ammatelli J; Cramblitt J; Moore C; Fong C; Besso H; Templeton J; Perry G; Henn B; Cayan D; Dettinger M (2024): Streamflow measurements from four sites on the Tuolumne River in Yosemite National Park from Water Years 2002 to 2021. Seasonal Cycles Unravel Mysteries of Missing Mountain Water. Dataset. doi:10.15485/2324637",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2324637",
+    "name": "Streamflow measurements from four sites on the Tuolumne River in Yosemite National Park from Water Years 2002 to 2021",
+    "description": [
+      "Regions with remote and complex terrain experience spatially varying streamflow patterns, but are often poorly sampled due to difficult access. This data package includes streamflow measurements collected using low-visibility and low-impact installations at four sites on the Tuolumne River in Yosemite National Park, for water years 2002 to 2021. The resulting data set offers a unique opportunity to explore hydrologic processes in complex terrain.",
+      "This data package contains half-hourly recordings of unvented pressure, vented pressure, and water temperature are measured and used to estimate discharge and stage height. Discharge flags provide insight into data anomalies. This dataset is formatted in accordance with ESS-Dive's Hydrologic Monitoring and File Level Metadata Formats. It contains the following files:",
+      "1) Folder containing four csv files of time series streamflow measurements (unvented pressure, vented pressure, estimated discharge, water temperature, stage height, and discharge flag) from four locations on the Tuolumne River",
+      "2) Data dictionary (dd.csv) containing units, definitions, human readable column names, and data type for all column headers throughout the dataset",
+      "3) File-level metadata (FLMD.csv) containing metadata for files contained in the dataset",
+      "4) Installation methods (InstallationMethods.csv) containing metadata on sensor installation"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2193-5633",
+        "givenName": "Jessica",
+        "familyName": "Lundquist",
+        "affiliation": "University of Washington",
+        "email": "jdlund@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Rachel",
+        "familyName": "Hallnan",
+        "email": "Rachel_Hallnan@nps.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4193-9693",
+        "givenName": "James",
+        "familyName": "Roche",
+        "email": "Jim_Roche@nps.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Harrison",
+        "familyName": "Forester",
+        "email": "HForrester@sfwater.org"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Joe",
+        "familyName": "Ammatelli",
+        "email": "jamma@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0003-7982-7392",
+        "givenName": "John",
+        "familyName": "Cramblitt",
+        "affiliation": "University of Washington",
+        "email": "jcramb@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Courtney",
+        "familyName": "Moore",
+        "email": "Courtney.E.Moore@usace.army.mil"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9310-7891",
+        "givenName": "Catherine",
+        "familyName": "Fong",
+        "affiliation": "National Park Service",
+        "email": "Catherine_Fong@nps.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0265-457X",
+        "givenName": "Hannah",
+        "familyName": "Besso",
+        "affiliation": "University of Washington",
+        "email": "bessoh2@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "Templeton",
+        "email": "templj@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Gwyneth",
+        "familyName": "Perry",
+        "email": "gwynp@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6384-2051",
+        "givenName": "Brian",
+        "familyName": "Henn",
+        "email": "bhenn@ucsd.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2719-6811",
+        "givenName": "Daniel",
+        "familyName": "Cayan",
+        "email": "dcayan@ucsd.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7509-7332",
+        "givenName": "Michael",
+        "familyName": "Dettinger",
+        "email": "mddettinger@ucsd.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Deane",
+        "email": "john_deane@nps.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1511-9093",
+        "givenName": "Eric",
+        "familyName": "Keenan",
+        "email": "ekeenan@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5677-6092",
+        "givenName": "Dylan",
+        "familyName": "Reynolds",
+        "email": "reyno18@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Brian",
+        "familyName": "Huggett"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Heide",
+        "familyName": "Roop",
+        "email": "hroop@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Josh",
+        "familyName": "Baccei",
+        "email": "josh_baccei@hotmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Julia",
+        "familyName": "Dettinger",
+        "email": "jcdettin@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Fred",
+        "familyName": "Lott",
+        "email": "lottfc@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1897-0163",
+        "givenName": "Steve",
+        "familyName": "Loheide",
+        "email": "loheide@wisc.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Chris",
+        "familyName": "Lowrey",
+        "email": "cslowry@buffalo.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Douglas",
+        "familyName": "Alden",
+        "email": "dalden@ucsd.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "ESS-DIVE Hydrologic Monitoring Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > WATER PRESSURE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > WATER CHARACTERISTICS > WATER TEMPERATURE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > STAGE HEIGHT"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Tuolumne@120, Tuolumne 120, Tuolumne River where it passes under Highway 120",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.8762952,
+            "longitude": -119.3547627
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.8762952,
+            "longitude": -119.35475
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "LyellAbvTB, Lyell Fork at Twin Bridges, Upstream, On the Lyell Fork of the Tuolumne River upstream of the twin bridges on the Pacific Crest Trail near Tuolumne Meadows, Yosemite National Park.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.8694852,
+            "longitude": -119.3311127
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.8694852,
+            "longitude": -119.3311127
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "LyellBlwMaclure, Lyell Below Maclure, Downstream of the footbridge crossing the Lyell Fork of the Tuolumne River, downstream of the confluence with Maclure Creek, in Yosemite National Park.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.77821,
+            "longitude": -119.2618
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.77821,
+            "longitude": -119.2618
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "DanaFK@BugCamp, Dana Fork, Bug Camp, Dana Fork of the Tuolumne River near the Pacific Crest Trail near Tuolumne Meadows, Yosemite National Park.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.87672701,
+            "longitude": -119.338341001421
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.87672701,
+            "longitude": -119.338341001421
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0024075"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000104",
+        "name": "National Aeronautics and Space Administration (NASA)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000001",
+        "name": "National Science Foundation (NSF)"
+      },
+      {
+        "@type": "Organization",
+        "name": "U.S. Department of Interior > U.S. Geological Survey > Yosemite National Park"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2001-10-30",
+      "endDate": "2021-08-12",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2193-5633",
+      "givenName": "Jessica",
+      "familyName": "Lundquist",
+      "affiliation": "University of Washington",
+      "email": "jdlund@uw.edu"
+    },
+    "citation": [
+      "Lundquist, J. D., et al. (2016), Yosemite Hydroclimate Network: Distributed stream and atmospheric data for the Tuolumne River watershed and surroundings, Water Resour. Res., 52, 7478\u20137489, doi:10.1002/2016WR019261."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "3b6bbbb3-f6b3-4b25-9681-890c534deae8"
+      },
+      "name": "Seasonal Cycles Unravel Mysteries of Missing Mountain Water",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jessica",
+        "familyName": "Lundquist",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of Washington",
+        "email": "jdlund@uw.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Rating Curves:\nThe rating curve equation used to determine discharge is:\nfor H < 0.8011m, Q = 34.3522*(H-0.7639)^1.465\nfor H > 0.8011m, Q = 17.0873(H-0.7076)^1.7401\nNote: The greatest uncertainties occur at very high flows (due to the small number of manual measurements in that range) and at very low flows (due to uncertainty in the gauge datum and the exact water depth above the sensor when discharge stops).",
+      "Data Postprocessing and Quality Control Summary:\nThis file includes raw, corrected, and estimated data. The 'sensor_pressure_unvented(cm)' data is a temporally-continuous record made up of a number of different loggers deployed through time (generally changed once per summer). The corrected data includes both the 'sensor_pressure_vented(cm)' and 'adjusted_stage(cm)' time series, which apply an atmospheric pressure correction and datum correction, respectively. The 'estimated_discharge(cms)' time series is an estimate of discharge computed using the 'adjusted_stage(cm)' time series and site rating curve (which is built using manual measurements collected over several summers). The postprocessing includes all the of steps needed to translate the 'sensor_pressure_unvented(cm)' time series into the 'estimated_discharge(cms)' time series. There is a summary of the steps below. For a comprehensive, thorough view of the post processing, visit the following url, where all steps are documented in Jupyter notebooks: https://github.com/Mountain-Hydrology-Research-Group/tum_hydro_postprocessing_2022\nFor each site, the following operations were completed:\n1. Both vented and unvented Levelogger time series were inspected, trimmed (to the segment when the sensor was actively deployed), converted to appropriate units, and examined for sensor malfunctions, ice jams, and sensor shifts.\n2. A barometric pressure correction was applied to the unvented Levelogger time series using colocated Barologger time series when available and NCAR Reanalysis surface pressure data otherwise. When NCAR Reanalysis data was used, a hypsometric elevation correction was applied before performing the barometric correction.\n3. An offset was applied to both vented and barometrically corrected unvented Levelogger time series to convert to the stage reference datum. Offsets are typically estimated by comparing the 'sensor_pressure_vented(cm)' to previous corrected time series and/or available manual stage measurements.\n4. For each water year, either the vented or corrected unvented Levelogger time series was selected (based on data availability and quality) as the stage measurement ('adjusted_stage(cm)')\n5. Stage time series from consecutive years were concatenated\n6. Discharge was estimated using the stage time series and documented rating curve.",
+      "See Lundquist, J.D., et al. (2016) in related references for detailed methods."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3.06640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-03a6ae5d56bb81b-20240228T183448638",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-03a6ae5d56bb81b-20240228T183448638",
+        "name": "FLMD.csv"
+      },
+      {
+        "contentSize": 14854.1875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e999dabbacd042c-20240315T214210227",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e999dabbacd042c-20240315T214210227",
+        "name": "LyellAbvTB_streamflow.csv"
+      },
+      {
+        "contentSize": 4.31640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5d85cbd8ac25f6f-20240226T184802366",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5d85cbd8ac25f6f-20240226T184802366",
+        "name": "dd.csv"
+      },
+      {
+        "contentSize": 19846.1474609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-49db012ec500adf-20240315T214210248",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-49db012ec500adf-20240315T214210248",
+        "name": "Tuolumne120_streamflow.csv"
+      },
+      {
+        "contentSize": 19490.90625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8ea2ad02c2504b8-20240315T214210240",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8ea2ad02c2504b8-20240315T214210240",
+        "name": "LyellBlwMaclure_streamflow.csv"
+      },
+      {
+        "contentSize": 19042.3623046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a7d0c6aa350a07c-20240315T214214349",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a7d0c6aa350a07c-20240315T214214349",
+        "name": "DanaFkBugCamp_streamflow.csv"
+      },
+      {
+        "contentSize": 9.078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c6064ddaa86f408-20240225T211158694",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c6064ddaa86f408-20240225T211158694",
+        "name": "InstallationMethods.csv"
+      },
+      {
+        "contentSize": 18.1396484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b47b9215490a5df-20240315T214229745",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-b47b9215490a5df-20240315T214229745",
+        "name": "Streamflow_measurements_from_four_sites_on_the.xml"
+      }
+    ]
+  }
+}

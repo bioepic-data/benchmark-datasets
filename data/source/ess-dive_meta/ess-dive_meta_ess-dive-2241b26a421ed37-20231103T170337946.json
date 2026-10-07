@@ -1,0 +1,368 @@
+{
+  "id": "ess-dive-2241b26a421ed37-20231103T170337946",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2204548",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-2241b26a421ed37-20231103T170337946",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-348054de70d1db3-20231103T170243242",
+  "dateUploaded": "2023-11-03T17:03:38.554Z",
+  "dateModified": "2023-11-05T00:03:01.326Z",
+  "isPublic": true,
+  "citation": "Eklof J; Jones B; Dafflon B; Ring K; English M; Neumann R (2023): Soil temperature and soil moisture raw data, permafrost table depths, and accompanying environmental variable data, Kenai Wildlife Refuge, 2019-2022. Effects of Rapid Permafrost Thaw on CO2 and CH4 Fluxes in a Warmer and Wetter Future. Dataset. doi:10.15485/2204548",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2204548",
+    "name": "Soil temperature and soil moisture raw data, permafrost table depths, and accompanying environmental variable data, Kenai Wildlife Refuge, 2019-2022",
+    "description": [
+      "Data package purpose: This data package was created to contain all data used in an upcoming article, \"Canopy Cover and Microtopography Control Precipitation-Enhanced Thaw of Ecosystem-Protected Permafrost.\" In review.",
+      "This data package includes: Raw output from 19 distributed temperature profilers with a thermistor every 10 cm along a 160 cm length at a measurement interval of 15 minutes (.CSV). Raw output from two soil moisture and temperature profilers (90 cm length and 120 cm length) that took composite soil moisture readings every 15 cm along the sensor length at a measurement interval of 30 minutes (.CSV). Permafrost depths were measured annually in mid-September at DTP sensor locations (.CSV) and along an across-site transect (.CSV). Environmental variables (snow depth, canopy closure, moss depth, and elevation) for all sensor locations. Real-time kinetic (RTK) GPS points showing site microtopography (.CSV).",
+      "Analysis software: Our analysis was done in Matlab. File types can be used with any software."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4840-834X",
+        "givenName": "Joel",
+        "familyName": "Eklof",
+        "affiliation": "University of Washington",
+        "email": "jeklof@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1517-4711",
+        "givenName": "Benjamin",
+        "familyName": "Jones",
+        "affiliation": "University of Alaska Fairbanks",
+        "email": "bmjones3@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9871-5650",
+        "givenName": "Baptiste",
+        "familyName": "Dafflon",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "BDafflon@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4645-621X",
+        "givenName": "Katie",
+        "familyName": "Ring",
+        "affiliation": "University of Washington",
+        "email": "kmring@uw.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7769-8724",
+        "givenName": "Marie",
+        "familyName": "English",
+        "affiliation": "University of Washington",
+        "email": "marie.english@uvm.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3464-9046",
+        "givenName": "Rebecca",
+        "familyName": "Neumann",
+        "affiliation": "University of Washington",
+        "email": "rbneum@uw.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Gregory",
+        "familyName": "Vandas",
+        "affiliation": "University of Washington",
+        "email": "grvan0889@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1829-7140",
+        "givenName": "Mark",
+        "familyName": "Waldrop",
+        "affiliation": "U.S. Geological Survey"
+      },
+      {
+        "@type": "Person",
+        "givenName": "William",
+        "familyName": "Eklof",
+        "affiliation": "University of Washington",
+        "email": "billeklof@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bruce",
+        "familyName": "Chambers",
+        "affiliation": "Riot Technologies",
+        "email": "bruce@riotw.com"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND",
+      "Permafrost",
+      "Soil moisture",
+      "Soil temperature",
+      "Canopy cover",
+      "Snow depth"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL MOISTURE/WATER CONTENT",
+      "EARTH SCIENCE > LAND SURFACE > FROZEN GROUND > SOIL TEMPERATURE",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW DEPTH",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION",
+      "Canopy closure",
+      "Permafrost depth"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Browns Lake Bog Permafrost Plateau site located 19 km east of Soldotna, AK.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 60.471803,
+            "longitude": -150.7275
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 60.471007,
+            "longitude": -150.725557
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0019063"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000001",
+        "name": "National Science Foundation (NSF)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-09-09",
+      "endDate": "2022-09-09",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4840-834X",
+      "givenName": "Joel",
+      "familyName": "Eklof",
+      "affiliation": "University of Washington",
+      "email": "jeklof@uw.edu"
+    },
+    "citation": [
+      "Eklof J, Jones B, Dafflon B, Devoie E, Ring K, English M, Waldrop M, and Neumann R 2023 Canopy Cover and Microtopography Control Precipitation-Enhanced Thaw of Ecosystem-Protected Permafrost Environ. Res. Lett. [submitted]"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "c3f5f6dc-6ed1-441b-9153-722818a8e02d"
+      },
+      "name": "Effects of Rapid Permafrost Thaw on CO2 and CH4 Fluxes in a Warmer and Wetter Future",
+      "member": {
+        "@type": "Person",
+        "givenName": "Rebecca",
+        "familyName": "Neumann",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of Washington",
+        "email": "rbneum@uw.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Site Description: The site is located in the western Kenai Peninsula lowlands (60.47\u00b0N, -150.73\u00b0W) (Fig. 1A,B) within Kenai National Wildlife Refuge (permit: 2018-Res-RBNeumann-6276). Fieldwork took place May 2019 to September 2022. The plateau is surrounded by and contains wetland features (Figure 1C). Plateau and wetland soil is peat-dominated to 3-meters depth (Jones et al 2016). In 2015, the average seasonally frozen ground thickness was 45 cm, which overlayed taliks above permafrost (Jones et al 2016). Black spruce trees (Picea mariana) grow on the most elevated sections (hummocks) of the permafrost plateau (Figure 1D). Plateau lowland areas (hollows) contain no live trees.\nSite location names: Site location data in this data set range from KN1 through KN15. In a publication utilizing this data, location identifiers were simplified based on relative-elevation, defined as sensor elevation compared to the surrounding 5-meter land area, into hollow (>0.1 m below surroundings), transition (between 0.2 m above and 0.1 m below surroundings), and hummock (>0.2 m above surroundings) locations. New and old identifiers are given below:\nKN1=KN1 (not used in manuscript), KN2=KN2 (not used in manuscript), KN3 = KN3 (not used in manuscript), KN4 = Hollow #1, KN5 = Hummock #2, KN5.1 = Transition #3, KN6 = Hollow #2, KN6.1 = Transition #1, KN7 = Hummock #1, KN8 = Hollow #3, KN9 = Hummock #3, KN10 = KN10 (not used in manuscript), KN11 = Hummock #4, KN12 = Transition #2, KN13 = Hummock #5, KN13.1 = Transition #4, KN13.2 = Transition #5, KN14 = Hummock #6, KN15 = Hollow #4.\nSoil Temperature Measurements: Soil temperatures were measured using 160 cm long Distributed Temperature Profilers (DTPs) with sensors every 10 cm (Dafflon et al 2022) installed in August 2020. DTPs have an accuracy of \u00b10.05\u00b0C and a 15-minute measurement interval.\nGeospatial Measurements: 1620 real-time kinematic points recorded using Emlid Reach RS2 units in November 2020\nHydrologic Measurements: PVC wells were installed in April 2019. In-Situ pressure transducers and barometer were deployed in wells annually from May to September. Soil moisture was measured at one hummock (90 cm sensor) and one transition (120 cm sensor) location using GroPoint Multi-Depth Soil Moisture Sensors attached to GroPoint Data Loggers. Profilers measured percent water every 15 cm at a 30-minute interval.\nCanopy Measurements: Canopy cover percentage was determined through image analysis of upward-facing smartphone photos taken with a Moment 14 mm fisheye lens one meter above the soil surface in July 2022. Photos were analyzed in ImageJ by cropping the photo into a circle, splitting the photo into color panes, thresholding the blue pane into vegetation and sky pixels, and calculating percent cover from the relative proportion of pixels (Becksch\u00e4fer 2015).\nFrost Table Depth Measurements: Permafrost table depth was determined annually through manual probing. Probe length was 2.2 m from 2019-2021 and extended to 3.1 m in 2022. Measurements took place annually in mid-September. DTP location probing included four replicates within a 30 cm radius. Across-site transect (Fig. 1C) probing included three replicates, mimicking the methods and locations of Jones et al. (2016)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 12531.9140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-01989bf4e94ce4f-20231031T185420217",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-01989bf4e94ce4f-20231031T185420217",
+        "name": "KN14_Temp_EA25F58BCCBF_20220911_001334.csv"
+      },
+      {
+        "contentSize": 10256.2158203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-24f11c7cbbe320f-20231031T185420146",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-24f11c7cbbe320f-20231031T185420146",
+        "name": "KN2_Temp_FB8B913B7282_20220910_211200.csv"
+      },
+      {
+        "contentSize": 14000.2060546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-250f6786239d5f0-20231031T185420165",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-250f6786239d5f0-20231031T185420165",
+        "name": "KN6_1_Temp_F6425E34C1C5_20220910_002948.csv"
+      },
+      {
+        "contentSize": 13273.3095703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-27301b07e1acb0a-20231031T185420149",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-27301b07e1acb0a-20231031T185420149",
+        "name": "KN3_Temp_C4929DD58602_20220910_181253.csv"
+      },
+      {
+        "contentSize": 15.8505859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2241b26a421ed37-20231103T170337946",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-2241b26a421ed37-20231103T170337946",
+        "name": "Soil_temperature_and_soil_moisture_raw_data_.xml"
+      },
+      {
+        "contentSize": 13516.984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1cfc30e7810f408-20231031T185420222",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1cfc30e7810f408-20231031T185420222",
+        "name": "KN15_Temp_E6F4158F73F8_20220910_011326.csv"
+      },
+      {
+        "contentSize": 1.6943359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1133f388d8ffacd-20231031T192553854",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1133f388d8ffacd-20231031T192553854",
+        "name": "Sensor_Location_Environmental_Variables.csv"
+      },
+      {
+        "contentSize": 2616.2099609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d3383f632b3b038-20231031T192747004",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d3383f632b3b038-20231031T192747004",
+        "name": "KN6_1_Soil_Moisture_Temp.csv"
+      },
+      {
+        "contentSize": 14321.830078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d040a4d47f953e0-20231031T185420182",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d040a4d47f953e0-20231031T185420182",
+        "name": "KN9_Temp_E0D513143C54_20220910_004302.csv"
+      },
+      {
+        "contentSize": 12527.8349609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e25654b3c777c61-20231031T185420169",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e25654b3c777c61-20231031T185420169",
+        "name": "KN6_Temp_E691ED1D6ED1_20220910_002547.csv"
+      },
+      {
+        "contentSize": 14226.638671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-33409b9560d708f-20231031T185420174",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-33409b9560d708f-20231031T185420174",
+        "name": "KN7_Temp_E8859901E131_20220910_003335.csv"
+      },
+      {
+        "contentSize": 13902.158203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-348adea85cb0b91-20231031T185420200",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-348adea85cb0b91-20231031T185420200",
+        "name": "KN13_1_Temp_D4A23FBD9AF8_20220910_010049.csv"
+      },
+      {
+        "contentSize": 7.3076171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-506ef244f32888b-20231103T165457453",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-506ef244f32888b-20231103T165457453",
+        "name": "Across_Site_Transect_Permafrost_Table_Depths.csv"
+      },
+      {
+        "contentSize": 13683.923828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-513ed2b3bbedab8-20231031T185420161",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-513ed2b3bbedab8-20231031T185420161",
+        "name": "KN5_Temp_D40C0831F856_20220910_165255.csv"
+      },
+      {
+        "contentSize": 12553.576171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ab910819ef921b-20231031T185420178",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5ab910819ef921b-20231031T185420178",
+        "name": "KN8_Temp_EE47DFCF6281_20211117_211645.csv"
+      },
+      {
+        "contentSize": 13440.0537109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-54c01ef8335bdcd-20231031T185420153",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-54c01ef8335bdcd-20231031T185420153",
+        "name": "KN4_Temp_FDAB3E41E296_20220910_000938.csv"
+      },
+      {
+        "contentSize": 2107.8076171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-56c096c0047a99f-20231031T192747011",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-56c096c0047a99f-20231031T192747011",
+        "name": "KN7_Soil_Moisture_Temp.csv"
+      },
+      {
+        "contentSize": 13808.021484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-65f2cfbca707304-20231031T185420157",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-65f2cfbca707304-20231031T185420157",
+        "name": "KN5_1_Temp_C0DECD1A4F61_20220910_002141.csv"
+      },
+      {
+        "contentSize": 14058.63671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-70b47223e1de40f-20231031T185420206",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-70b47223e1de40f-20231031T185420206",
+        "name": "KN13_2_Temp_DD6E690A84C7_20220910_010815.csv"
+      },
+      {
+        "contentSize": 14218.2275390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8d809afb077aa5d-20231031T185420195",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8d809afb077aa5d-20231031T185420195",
+        "name": "KN12_Temp_D8F6AB86C526_20220910_005531.csv"
+      },
+      {
+        "contentSize": 14369.6572265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a3c8370d9723c04-20231031T185420190",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a3c8370d9723c04-20231031T185420190",
+        "name": "KN11_Temp_D747F9DD2E02_20220910_005044.csv"
+      },
+      {
+        "contentSize": 12275.546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bff0d4d3e6143c6-20231031T185420142",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-bff0d4d3e6143c6-20231031T185420142",
+        "name": "KN1_Temp_C6BCC4D48E55_20220910_214014.csv"
+      },
+      {
+        "contentSize": 14353.20703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c1a685c0660fe2a-20231031T185420211",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c1a685c0660fe2a-20231031T185420211",
+        "name": "KN13_Temp_DC7F6EB6B3E3_20220910_010413.csv"
+      },
+      {
+        "contentSize": 10760.326171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-affd7641b1023e7-20231031T185420186",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-affd7641b1023e7-20231031T185420186",
+        "name": "KN10_Temp_E197D805C150_20220910_234814.csv"
+      },
+      {
+        "contentSize": 0.66015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-de1b9b5a0f12911-20231103T165457461",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-de1b9b5a0f12911-20231103T165457461",
+        "name": "DTP_Location_Permafrost_Table_Depths.csv"
+      }
+    ]
+  }
+}

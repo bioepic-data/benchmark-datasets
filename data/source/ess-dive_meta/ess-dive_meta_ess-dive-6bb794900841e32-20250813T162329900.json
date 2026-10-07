@@ -1,0 +1,229 @@
+{
+  "id": "ess-dive-6bb794900841e32-20250813T162329900",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2428005",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-6bb794900841e32-20250813T162329900",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-6bb794900841e32-20250813T162015864",
+  "dateUploaded": "2025-08-13T16:24:18.255Z",
+  "dateModified": "2025-08-13T16:24:18.651Z",
+  "isPublic": true,
+  "citation": "Nikitin T; Lo M; McCormack M L (2024): Leaf phenology data at The Morton Arboretum Forestry Plots 2019-2023. ORNL Terrestrial Ecosystem Science SFA. Dataset. doi:10.15485/2428005",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2428005",
+    "name": "Leaf phenology data at The Morton Arboretum Forestry Plots 2019-2023",
+    "description": [
+      "We are collecting long-term leaf phenology data at The Morton Arboretum to determine seasonal patterns of leaf production in trees. This data on leaf phenology will be integrated with other ongoing data streams to create a connection between above- and below-ground tree processes. This data package contains raw and smooth outputs from phenology data, as well as extracted phenophase dates (i.e., start, peak, and end of season): the raw and smooth outputs from the PhenoCam GUI can be found in the \"leafRaw.csv\" and \"leafSmooth.csv\" files, respectively, and the extracted phenophase dates can be found in the \"leafPhenophaseDates2019-2023.csv\" file. Extracted phenophase dates for evergreen species in 2023 are currently unavailable, and the files will be updated once they are extracted. Additional information on units and other file-level metadata can be found within each data file's respective data dictionary, and metadata for each of the 23 surveyed plots can be found within the \"Location_metadata.csv\" file. While the \"leafRaw.csv\" and the \"leafSmooth.csv\" files contain all data for all species, the \"leafPhenophaseDates2019-2023.csv\" file currently excludes the dates for evergreen species in 2023. Another version of the file will be added as those dates are extracted."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9512-967X",
+        "givenName": "Teodora",
+        "familyName": "Nikitin",
+        "affiliation": "The Morton Arboretum",
+        "email": "tnikitin@mortonarb.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7928-8494",
+        "givenName": "Marvin",
+        "familyName": "Lo",
+        "affiliation": "The Morton Arboretum",
+        "email": "marvinlo@mortonarb.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8300-5215",
+        "givenName": "M. Luke",
+        "familyName": "McCormack",
+        "affiliation": "The Morton Arboretum",
+        "email": "lmccormack@mortonarb.org"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3856-5480",
+        "givenName": "Newton",
+        "familyName": "Tran",
+        "affiliation": "The Morton Arboretum",
+        "email": "ntran@mortonarb.org"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "leaf",
+      "phenology",
+      "phenophases",
+      "green chromatic coordinate",
+      "gcc",
+      "plant phenology",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > PLANT PHENOLOGY",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > DECIDUOUS VEGETATION",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > EVERGREEN VEGETATION",
+      "vegetation",
+      "green chromatic coordinate",
+      "date of leaf out",
+      "date of peak leaf production",
+      "date of leaf senescence"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Leaf phenology data was collected within the Forestry Plots at The Morton Arboretum. See the Locations_metadata file for geographic coordinates of each forestry plot.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.821286,
+            "longitude": -88.097085
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.81054,
+            "longitude": -88.036886
+          }
+        ]
+      }
+    ],
+    "award": [
+      "Subcontract 4000146074; years 2019-2023",
+      "Subcontract CW53635; years 2024-2028"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "name": "The Morton Arboretum"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-03-25",
+      "endDate": "2023-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8300-5215",
+      "givenName": "M. Luke",
+      "familyName": "McCormack",
+      "affiliation": "The Morton Arboretum",
+      "email": "lmccormack@mortonarb.org"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1e6d50d3-9532-43fb-a63f-bdcb4350bf0c"
+      },
+      "name": "ORNL Terrestrial Ecosystem Science SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Paul",
+        "familyName": "Hanson",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "hansonpj@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Battery-powered trail cameras were installed in 2019 just before the beginning of the growing season and new cameras were added as we established more plots. Cameras were positioned to capture the canopy and species of interest and set to capture six hourly images each day. Cameras were replaced or added as needed, and images were downloaded twice a year when replacing batteries.",
+      "After naming and organizing images, image analysis was performed on each plot and year using the PhenoCam GUI W64 v1.1 from the PhenoCam Network. Three regions of interest (ROIs) were selected for each batch of images to assess red, green, and blue digital numbers, and to calculate a time-series of the green chromatic coordinate (gcc). The raw and smooth outputs of the PhenoCam GUI can be found within the leafRaw.csv and leafSmooth.csv data files, respectively.",
+      "For phenophase extraction, data for each plot was normalized within ROIs and averaged across ROIs for each year. Phenophase date extraction for the start, peak, and end of the growing season was performed using the phenofit R package and four combinations of curve-fitting and date extraction. Extracted dates were averaged for each plot and year across the four methods and the results were visually inspected for accuracy. Manual extraction was performed where possible if dates could not be extracted using the package, or if the resulting dates were deemed inaccurate due to noisy data. Plots and/or years with missing data due to camera/battery failure were recorded as \"-9999\". Extracted dates for replicate species plots or replicate cameras for a single plot (e.g., ASTR-E and ASTR-W, or AEGL-E and AEGL-E-FAR, respectively), were averaged into a new row named \"[PLOTNAME]-AVG\".",
+      "For some plots with missing data, we were able to extract SOS (start of season)/POS (peak of season)/EOS (end of season) manually through the sapflow data (not available here but will be added as a data package in the future). This was not the case for all plots with missing data, as we only measure sapflow in a subset of our plots, and this was only done for deciduous species where patterns of sapflow and gcc are well-correlated In addition, 2023 phenophase data for evergreen species has not yet been extracted, and these species are currently marked as \"-9999\" in the data file. The raw data, however, is available in the raw and smooth data files. Once we are able to extract phenophase dates for these evergreen species, we will create an updated version of this data package."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4947910cf22e419-20240808T174718100",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4947910cf22e419-20240808T174718100",
+        "name": "leafPhenophaseDates2019_2023_dd.csv"
+      },
+      {
+        "contentSize": 1.240234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d4a3563207f9cfe-20240806T164713127",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d4a3563207f9cfe-20240806T164713127",
+        "name": "flmd_dd.csv"
+      },
+      {
+        "contentSize": 5.7724609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-34d763533a83fbe-20240806T164713157",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-34d763533a83fbe-20240806T164713157",
+        "name": "Location_metadata.csv"
+      },
+      {
+        "contentSize": 1.2265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4bc3b4979a32e37-20240808T174718114",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4bc3b4979a32e37-20240808T174718114",
+        "name": "Location_metadata_dd.csv"
+      },
+      {
+        "contentSize": 10.861328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6bb794900841e32-20250813T162329900",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-6bb794900841e32-20250813T162329900",
+        "name": "Leaf_phenology_data_at_The_Morton_Arboretum.xml"
+      },
+      {
+        "contentSize": 1567.0166015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-764c9dcf54891d7-20240806T164713148",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-764c9dcf54891d7-20240806T164713148",
+        "name": "leafSmooth.csv"
+      },
+      {
+        "contentSize": 2.380859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9f0dd7cd804c23b-20240808T174718094",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9f0dd7cd804c23b-20240808T174718094",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 40265.169921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b566149902aecc5-20240806T164713140",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b566149902aecc5-20240806T164713140",
+        "name": "leafRaw.csv"
+      },
+      {
+        "contentSize": 0.9873046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b6d4cb8b65f0fc4-20240808T174718105",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b6d4cb8b65f0fc4-20240808T174718105",
+        "name": "leafRaw_dd.csv"
+      },
+      {
+        "contentSize": 14.3369140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cd397fe55615fc5-20240806T164713131",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cd397fe55615fc5-20240806T164713131",
+        "name": "leafPhenophaseDates2019_2023.csv"
+      },
+      {
+        "contentSize": 0.525390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f5e91fde0238ca5-20240808T174718109",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f5e91fde0238ca5-20240808T174718109",
+        "name": "leafSmooth_dd.csv"
+      }
+    ]
+  }
+}

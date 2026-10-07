@@ -1,0 +1,153 @@
+{
+  "id": "ess-dive-c5c8ad4a5991fa9-20250513T002344039",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2561510",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-c5c8ad4a5991fa9-20250513T002344039",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-c5c8ad4a5991fa9-20250512T231621030",
+  "dateUploaded": "2025-05-13T00:23:45.900Z",
+  "dateModified": "2025-08-27T00:03:48.294Z",
+  "isPublic": true,
+  "citation": "Dyer L; Chambers J; Pastorello G; Weber A (2025): Hot Droughts and Forest Tree Dynamics in the Amazon - Statistical Models, Scripts, Data, and Outputs. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15485/2561510",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2561510",
+    "name": "Hot Droughts and Forest Tree Dynamics in the Amazon - Statistical Models, Scripts, Data, and Outputs",
+    "description": [
+      "This package contains data, outputs, equations, and R scripts for analyses for manuscript entitled \"Hot droughts in the Amazon: A window to a future hypertropical climate\" by J. Chambers et al., in particular it contains statistical models and analyses for the INPA BIONTE tree mortality study. The Models folder contains details for all statistical models in PDF files. The Scripts folder contains the R scripts for Bayesian Hierarchical Models (two text files) and SEMs (one text file) are separate and reasonably annotated. All data associated with these scripts are in the data folder. The Data folder contains two of the three CSV files used for the analyses and are called by the R scripts. Two of them are part of published datasets (`BIONTE_mortality-rates.csv` from Lima et al. 2024, DOI:10.15486/ngt/1898910 and `SPEI.csv` from Pastorello et al. 2023 DOI:10.15486/ngt/1958257) and also provided in this package for convenience (please see the corresponding datasets for usage and citation terms). The third dataset (`BIONTE_gapfilled_wd.csv`) contains sensitive information and can be obtained by contacting the manuscript lead author. The Outputs folder contains the two output files that provide extra information about the analyses. The file `figuresFeb2025d.pdf` contains all the figures from the manuscript - captions are in the manuscript. The file `ChambersMS.pdf` contains primary results from Bayesian statistical models, regression analyses, and validation steps applied to the tree mortality data from the INPA experiments. The document includes visual summaries, model diagnostics, and leave-one-out (LOO) validation results. A breakdown of file contents can be found in the README file that is part of this package."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0867-8874",
+        "givenName": "Lee",
+        "familyName": "Dyer",
+        "affiliation": "University of Nevada, Reno",
+        "email": "nolaclimber@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3983-7847",
+        "givenName": "Jeff",
+        "familyName": "Chambers",
+        "affiliation": "University of California Berkeley",
+        "email": "jqchambers@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9387-3702",
+        "givenName": "Gilberto",
+        "familyName": "Pastorello",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "gzpastorello@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Anna",
+        "familyName": "Weber",
+        "affiliation": "University of California Berkeley",
+        "email": "anna_rene@berkeley.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > BIOLOGICAL CLASSIFICATION > PLANTS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > ATMOSPHERE > WEATHER EVENTS > DROUGHTS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site Name: Manaus - ZF2 BIONTE. Site ID: BR-BIO. The BIONTE (BIOmass and NuTrient Experiment) is a large-scale selective logging experiment that was established in the central Amazon at Brazil\u2019s National Institute for Amazon Research (Instituto Nacional de Pesquisas da Amaz\u00f4nia \u2013 INPA) Esta\u00e7\u00e3o Experimental de Silvicultura Tropical (EEST, aka \u201cZF2\u201d) field research station in the mid 1980s. The project was designed to quantify the effects of logging disturbance intensity on forest dynamics and investigate sustainable timber harvest pathways for Amazon forests. Site contact(s): (Jeff Chambers <jchambers@lbl.gov>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": -2.638,
+            "longitude": -60.154725
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -2.638,
+            "longitude": -60.154725
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0205CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1990-01-01",
+      "endDate": "2016-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9387-3702",
+      "givenName": "Gilberto",
+      "familyName": "Pastorello",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "gzpastorello@lbl.gov"
+    },
+    "citation": [
+      "Chambers et al. (in review), Hot droughts in the Amazon: A window to a future hypertropical climate."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The methods for this package are described in detail in the PDF and markdown (.md) files within the package. Note that details about specific outputs are in the output PDF files within each relevant subfolder."
+    ],
+    "distribution": [
+      {
+        "contentSize": 7.587890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c5c8ad4a5991fa9-20250513T002344039",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-c5c8ad4a5991fa9-20250513T002344039",
+        "name": "Hot_Droughts_and_Forest_Tree_Dynamics_in_the.xml"
+      },
+      {
+        "contentSize": 0.7900390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c2dd5a4f4920dad-20250512T231437478",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c2dd5a4f4920dad-20250512T231437478",
+        "name": "BR_BIO_locations.csv"
+      },
+      {
+        "contentSize": 7125.7109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dd900cf5793ff1c-20250508T144525582",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-dd900cf5793ff1c-20250508T144525582",
+        "name": "Hot_Droughts_in_Amazon_Statistical_Models_package.zip"
+      }
+    ]
+  }
+}

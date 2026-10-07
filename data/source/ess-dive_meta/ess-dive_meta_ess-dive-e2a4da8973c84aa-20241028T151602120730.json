@@ -1,0 +1,165 @@
+{
+  "id": "ess-dive-e2a4da8973c84aa-20241028T151602120730",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15486/NGT/1414275",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-e2a4da8973c84aa-20241028T151602120730",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-6f4ead44962baf2-20240913T175412285796",
+  "dateUploaded": "2024-10-28T15:16:04.912Z",
+  "dateModified": "2024-10-28T22:51:53.286Z",
+  "isPublic": true,
+  "citation": "Powell T; Faybishenko B; Kueppers L; Paton S (2019): Seven years (2008-2014) of meteorological observations plus a synthetic El Nino drought for BCI Panama.. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15486/NGT/1414275",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15486/NGT/1414275",
+    "name": "Seven years (2008-2014) of meteorological observations plus a synthetic El Nino drought for BCI Panama.",
+    "description": [
+      "This dataset is a derivative product of raw meteorological data collected at Barro Colorado Island, Panama (see acknowledgements below). This dataset contains the following: 1) a seven-year record (2008-2014) of meteorological observations from BCI that is in a comma delimited text format, 2) an R-script that converts the observed meteorology into an hdf5 format that can be read by the ED2 model, 3) two decades of meteorological drivers in hdf5 format that are based on the 7-year record of observations and include a synthetic 2-yr El Nino drought, 4) a ReadMe.txt file that explains how the data in the hdf5 meteorological drivers correspond to the observations. The raw meteorological data were further QC'd as part of the NGEE-Tropics project to derive item 1 above. The R-script makes the appropriate unit conversions for all observed meteorological variables to be compatible with the ED2 model. The R-script also converts RH into specific humidity, splits total shortwave radiation into its 4-stream parts, and calculates longwave radiation from air temperature and RH. The synthetic El Nino drought is based on selected months from the observed meteorology where in each, precipitation (only) of the selected months was modified to reflect the precipitation patterns of the 1982/83 El Nino observed at BCI.",
+      "This dataset was originally published on the NGEE Tropics Archive and is being mirrored on ESS-DIVE for long-term archival",
+      "Acknowledgement: The original raw meteorological data were obtained from the publicly accessible data archive of the Smithsonian Institution and were collected at Barro Colorado Island, Panama, under the Physical Monitoring Program of the Smithsonian Tropical Research Institute. We are also grateful to the NGEE-Tropics data team for assistance in obtaining, processing and gaining permission to use the data."
+    ],
+    "alternateName": [
+      "http://dx.doi.org/10.15486/ngt/1414275",
+      "NGT0050"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-3516-7164",
+        "givenName": "Thomas",
+        "familyName": "Powell",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "tlpowell@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-0085-8499",
+        "givenName": "Boris",
+        "familyName": "Faybishenko",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bafaybishenko@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-8134-3579",
+        "givenName": "Lara",
+        "familyName": "Kueppers",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "lmkueppers@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Steve",
+        "familyName": "Paton",
+        "affiliation": "Smithsonian Tropical Research Institution",
+        "email": "patons@si.edu"
+      }
+    ],
+    "datePublished": "2019-10-07",
+    "keywords": [
+      "Next-Generation Ecosystem Experiements Tropics",
+      "NGEE-T",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Air Temperature",
+      "Barometric pressure",
+      "Longwave radiation",
+      "Precipitation (rainfall)",
+      "Relative humidity",
+      "Shortwave radiation",
+      "Wind speed/direction"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site Name: Barro Colorado Island (BCI). Site ID: PA-BCI. Located in Panama. Barro Colorado Island (BCI) is a humid tropical forest with high biodiversity, around 300 species in 50 ha. The climate has a sever dty season from and of December to end of April. Several decidous species drop their leaves during this period. Lianas are very abundant in this forest accounting up to 30% of leaf area. (AMERIFLUX)Barro Colorado Island (BCI), a 1,560-hectare island, is STRI's primary site for the study of lowland moist tropical forests. Together with five adjacent peninsulas, BCI forms the 5,600-hectare Barro Colorado Nature Monument (BCNM), which is located in the middle of the Panama Canal. Established in April 17, 1923, BCNM and has been administered by the Smithsonian since 1946 (STRI CTFS). For more information on this site, visit: http://fluxnet.ornl.gov/site/4247, http://ameriflux-data.lbl.gov:8080/SitePages/siteInfo.aspx?PA-Bar,http://biogeodb.stri.si.edu/physical_monitoring/research/barrocolorado Site contact(s): (Joseph Wright <wrightj@si.edu>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 9.177125,
+            "longitude": -79.87
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 9.130659,
+            "longitude": -79.82
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2008-01-01",
+      "endDate": "2014-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "http://orcid.org/0000-0002-3516-7164",
+      "givenName": "Thomas",
+      "familyName": "Powell",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "tlpowell@lbl.gov"
+    },
+    "citation": [
+      "Powell T.L., Koven C.D., Johnson D.J., Faybishenko B., Fisher R.A., Knox R.G., McDowell N.G.,Condit R., Hubbell S.P., Wright S.J., Chambers J.Q., Kueppers L.M. (2018) Variation in hydroclimate sustains tropical forest biomass and promotes functional diversity. New Phytologist. DOI: 10.1111/nph.15271",
+      "Additional information about citations:",
+      "The cited publication uses data provided by this data package."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Steven Paton QA'd the data.\nBoris Faybishenko QC'd the data for spurious spikes, linear trends, and gap-filling."
+    ],
+    "distribution": [
+      {
+        "contentSize": 8752.375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-14ca53f93d6716d-20220803T181317473686",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-14ca53f93d6716d-20220803T181317473686",
+        "name": "BCI_meteorology_20171212222248-_3__20190329200721.zip"
+      },
+      {
+        "contentSize": 1.5869140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1858b951f90ebd3-20240913T175410189077",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1858b951f90ebd3-20240913T175410189077",
+        "name": "NGT0050_locations.csv"
+      },
+      {
+        "contentSize": 9.0166015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e2a4da8973c84aa-20241028T151602120730",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-e2a4da8973c84aa-20241028T151602120730",
+        "name": "Seven_years_2008_2014_of_meteorological_observations_plus_a_synthetic_El_Nino_drought_for_BCI_Panama_.xml"
+      }
+    ]
+  }
+}

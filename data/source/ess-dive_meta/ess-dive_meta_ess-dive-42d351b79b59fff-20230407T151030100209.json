@@ -1,0 +1,164 @@
+{
+  "id": "ess-dive-42d351b79b59fff-20230407T151030100209",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1889750",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-42d351b79b59fff-20230407T151030100209",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a3db78dba722983-20230406T143335314867",
+  "dateUploaded": "2023-04-07T15:10:31.077Z",
+  "dateModified": "2023-04-07T15:10:34.425Z",
+  "isPublic": true,
+  "citation": "Patel K; Bond-Lamberty B; Jian J; Morris K; McKever S; Norris C; Zheng J; Bailey V (2022): Data for: Patel et al. Carbon flux estimates are sensitive to data source: A comparison of field and lab temperature sensitivity data. Soil Carbon Biogeochemistry. Dataset. doi:10.15485/1889750",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1889750",
+    "name": "Data for: Patel et al. Carbon flux estimates are sensitive to data source: A comparison of field and lab temperature sensitivity data",
+    "description": [
+      "This dataset contains data and code used for the paper \"Carbon flux estimates are sensitive to data source: A comparison of field and lab temperature sensitivity data\" [DOI COMING SOON]",
+      "A large literature exists on mechanisms driving soil production of the greenhouse gases CO2 and CH4. Measurements of these gases\u2019 fluxes are often performed using closed-chamber incubations in the laboratory or in situ, i.e., in the field. Although it is common knowledge that measurements obtained through field studies vs. laboratory incubations can diverge because of the vastly different conditions of these environments, few studies have systematically examined these patterns. It is crucial to understand the magnitude and reasons for any differences, as these data are used to parametrize and benchmark ecosystem- to global-scale models, which are then susceptible to the biases of the source data. Here, we specifically examine how greenhouse gas measurements may be influenced by whether the measurement/incubation was conducted in the field vs. laboratory, focusing on CO2 and CH4 measurements. We use Q10 of greenhouse gas flux (temperature sensitivity) for our analyses, because of the ubiquity of this metric in biological and Earth system sciences and its importance to many modeling frameworks.",
+      "We predicted that laboratory measurements would be less variable, but also less representative of true field conditions. However, there was greater variability in the Q10 values calculated from lab-based measurements of CO2 fluxes, because lab experiments explore extremes rarely seen in situ, and reflect the physical and chemical disturbances occurring during sampling, transport, and incubation. Overall, respiration Q10 values were significantly greater in laboratory incubations (mean = 4.19) than field measurements (mean = 3.05), with strong influences of incubation temperature and climate region/biome. However, this was in part because field measurements typically represent total respiration (Rs), whereas lab incubations typically represent heterotrophic respiration (Rh), making direct comparisons difficult to interpret. Focusing only on Rh-derived Q10, these values showed almost identical distributions across laboratory (n = 1110) and field (n = 581) experiments, providing strong support for using the former as an experimental proxy for the latter, although we caution that geographic biases in the extant data make this conclusion tentative. Due to a smaller sample size of CH4 Q10 data, we were unable to perform a comparable robust analysis, but we expect similar interactions with soil temperature, moisture, and environmental/climatic variables. Our results here suggest the need for more concerted efforts to document and standardize these data, including sample and site metadata.",
+      "This dataset contains a compressed (.zip) archive of the data and R scripts used for this manuscript. The dataset includes files in .csv format, which can be accessed and processed using MS Excel or R. This archive can also be accessed on GitHub at https://github.com/kaizadp/field_lab_q10 (DOI: 10.5281/zenodo.7106554)."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6437-7809",
+        "givenName": "Kaizad",
+        "familyName": "Patel",
+        "email": "kaizad.patel@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ben",
+        "familyName": "Bond-Lamberty",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bondlamberty@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jinshi",
+        "familyName": "Jian",
+        "email": "jinshi@vt.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kendalynn",
+        "familyName": "Morris",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "kendalynn.morris@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophia",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "sophia.mckever@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Cooper",
+        "familyName": "Norris",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "cooper.norris@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jianqiu",
+        "familyName": "Zheng",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "jianqiu.zheng@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "vanessa.bailey@pnnl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "respiration",
+      "methane",
+      "Q10",
+      "temperature sensitivity",
+      "EARTH SCIENCE > LAND SURFACE > SOILS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6437-7809",
+      "givenName": "Kaizad",
+      "familyName": "Patel",
+      "email": "kaizad.patel@pnnl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "5b5528e9-2f92-4728-91c0-255a9c4beded"
+      },
+      "name": "Soil Carbon Biogeochemistry",
+      "member": {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Detailed methods are provided in the linked paper.",
+      "Review criteria/search/screening\nData in published papers. The studies included in this analysis were identified by searching the Web of Science and Google Scholar databases until December 2021. The search terms used were (\u201cCO2\u201d OR \u201ccarbon dioxide\u201d OR \u201crespiration\u201d OR \u201cCH4\u201d OR \u201cmethane\u201d) AND \u201csoil\u201d AND \u201cQ10\u201d. We only included studies that reported Q10 values. Some studies were syntheses/meta-analyses, e.g. (Hamdi et al 2013, Kirschbaum 1995, Wang et al 2019, Chen et al 2020), and we also used these syntheses to identify additional sources of Q10 data.\nWe recorded the Q10 values, incubation temperatures/temperature ranges, site locations (latitude, longitude), and any experimental manipulations/treatments. We included only unmanipulated samples/controls in our analysis to avoid confounding effects of nutrient or substrate amendments, warming, burning, etc.\nPublished respiration databases. In addition, we also used data from publicly available (open access) soil respiration databases. The Soil Respiration Database (SRDB-V5) is a near-universal database of globally published field respiration measurements, particularly seasonal-to-annual respiration fluxes (Jian et al 2020, Bond-Lamberty and Thomson 2010a). This database includes 572 studies that reported Q10 values, which were screened for studies that were in unmanipulated, natural (non-managed, including agricultural) ecosystems; these were then used directly in our current analysis without any further data manipulation, across all soil depths. The Soil Incubation Database (SIDb) is an open database containing time-series respiration measurements from 16 laboratory experiments (Sch\u00e4del et al 2020, Sierra et al 2020). We extracted respiration flux data from this database and calculated Q10 using the exponential equation (Cui et al 2020):\nR_T=a \u00d7e^bT\nQ_10=R_(T+10)/R_T\nwhere a and b are the fitted parameters for the model, RT is the soil respiration rate at temperature T (Celsius), and RT+10 is the soil respiration rate at temperature T+10. A number of functions have conventionally been used to calculate Q10 of soil respiration, with different parameters (Cui et al 2020) -- we chose the exponential model because that was the most widely used function in the SRDB.",
+      "Screening.\n(1) Experimental manipulations \u2013 we included only unmanipulated samples/controls in our analysis. A list of manipulations reported in the SRDB is included in Appendix A3. Where manipulations were part of the experimental design, we include only samples listed as \u201ccontrol\u201d. (2) Study durations \u2013 we included all studies, irrespective of study duration or time/season of data collection, as Q10 has been previously been found to be independent of incubation duration (Reichstein et al 2005). (3) Measurement method \u2013 we did not filter data by measurement method, and we included all data and studies. However, we provide a comparison of the three common measurement types in Appendix A6. Of the nearly 6000 data points for CO2 Q10 in this analysis, 4494 were measured using infra-red gas analyzers/ IRGA (primarily LI-COR instruments, but also including other makes and models); 582 were measured by alkali absorption method; and 593 were by gas chromatography. Other measurement types included isotope ratio mass spectrometry (IRMS), tunable diode laser absorption spectroscopy (TDLAS), or \u201cunknown\u201d (not listed), but these measurements made up a very small portion (3 %) of the data analyzed in this paper.\nBased on these criteria, we identified a total of 744 studies for CO2 Q10 data and 47 studies for CH4 Q10 data (Figures 1-2, Table 1). Following the criteria outlined above, we extracted a total of 1230 datapoints (181 studies) from published papers, 4818 datapoints (1764 studies) from SRDB-V5, and 44 datapoints (16 studies) from SIDb.",
+      "Data processing\nIncubation temperatures. Our compiled dataset contained flux data at various incubation temperatures, spanning a wide range of -15 to + 60 \u00b0C (Supplemental Figure S1). Initial analysis was performed on the entire dataset, and these data were subsequently categorized into discrete classes to investigate the effect of incubation temperature on Q10: < 5, 5-15, 15-25, > 25 \u00b0C.\nSite climate and biome classification. Mean annual air temperature and precipitation for the study sites were obtained from the Center for Climate Research at the University of Delaware (Willmott and Matsuura 2001), and the sites were classified into one of five biome types (equatorial, arid, temperate, snow, and polar) based on the K\u00f6ppen-Geiger climate classification (Kottek et al 2006).\nPartitioning of soil respiration. We used the \u201cRC\u201d (root contribution) index provided within SRDB-V5 to identify data that were dominated by autotrophic vs. heterotrophic respiration. The RC index is defined as the ratio of annual Rroot to Rs, and is a unitless value ranging from 0 (no root contribution, or 100 % heterotrophic/microbial) to 1 (no microbial contribution, 100 % autotrophic/roots) (Jian et al 2022, Bond-Lamberty et al 2004). We used a cutoff of 0.5 to group our data into broad root/autotrophic dominated (RC > 0.5) vs. microbial/heterotrophic dominated (RC < 0.5) categories.",
+      "Statistical and data analysis\nWe used analysis of variance (ANOVA) to detect statistically significant differences between field and lab measurements. To account for unequal sample sizes between field and laboratory measurements, we employed a bootstrapping approach (10,000 iterations * sample size 10).\nAll data processing and analysis was performed using R version 4.1.1 (R Core Team 2021), primarily with packages dplyr v1.0.7 (Wickham et al 2021) and tidyr v1.1.4 (Wickham et al 2021) for data cleaning/processing; and ggplot2 v3.3.5 (Wickham 2016), PNWColors v0.1.0 (Patel 2020), and soilpalettes v0.1.0 (Patel 2020) for data visualization."
+    ],
+    "distribution": [
+      {
+        "contentSize": 624.673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0e47e46ba73e383-20220923T043226829",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0e47e46ba73e383-20220923T043226829",
+        "name": "Q10_sample_metadata.csv"
+      },
+      {
+        "contentSize": 15.3681640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-42d351b79b59fff-20230407T151030100209",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-42d351b79b59fff-20230407T151030100209",
+        "name": "Data_for_Patel_et_al_Carbon_flux_estimates_are_sensitive_to_data_source_A_comparison_of_field_and_lab_temperature_sensitivity_data.xml"
+      },
+      {
+        "contentSize": 67.076171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d2998091c49be00-20220923T043226831",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d2998091c49be00-20220923T043226831",
+        "name": "Q10_study_metadata.csv"
+      },
+      {
+        "contentSize": 348.79296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5353bf1fc1667e6-20220923T043226827",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5353bf1fc1667e6-20220923T043226827",
+        "name": "Q10_data.csv"
+      },
+      {
+        "contentSize": 10062.201171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-acf45db0c176dfc-20220923T043226818",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-acf45db0c176dfc-20220923T043226818",
+        "name": "Patel_et_al_Q10_R_REPO.zip"
+      }
+    ]
+  }
+}

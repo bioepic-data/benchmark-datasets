@@ -1,0 +1,1135 @@
+{
+  "id": "ess-dive-604526ffed25afc-20250128T182907765",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2406989",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-604526ffed25afc-20250128T182907765",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-604526ffed25afc-20250128T182551845",
+  "dateUploaded": "2025-01-28T18:29:08.403Z",
+  "dateModified": "2025-01-28T18:29:09.617Z",
+  "isPublic": true,
+  "citation": "Ryan K; Garayburu-Caruso V A; Crump B; Bambakidis T; Raymond P; Liu S; Powers-McCormack B; Forbes B; Stegen J (2024): Data and scripts associated with \u201cRiverine dissolved organic matter transformations increase with watershed area, water residence time, and Damk\u00f6hler numbers in nested watersheds\u201d (v2). River Corridor and Watershed Biogeochemistry SFA. Dataset. doi:10.15485/2406989",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2406989",
+    "name": "Data and scripts associated with \u201cRiverine dissolved organic matter transformations increase with watershed area, water residence time, and Damk\u00f6hler numbers in nested watersheds\u201d (v2)",
+    "description": [
+      "This data package is associated with the publication \u201cRiverine dissolved organic matter transformations increase with watershed area, water residence time, and Damk\u00f6hler numbers in nested watersheds\u201d submitted to Biogeochemistry by Ryan et al., 2024 (DOI: https://doi.org/10.1007/s10533-024-01169-5).",
+      "This study aims to investigate fundamental and transferable drivers of dissolved organic matter (DOM) diversity across five nested watersheds within the contiguous United States. DOM diversity was explored using ultrahigh-resolution Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS). The samples and the unprocessed FTICR-MS data used in this study are publicly available on the Environmental System Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE) data repository (see DOIs below). The data for the Willamette, Gunnison, Connecticut, and Deschutes basins were collected as part of a collaboration between the Watershed Rules of Life (WROL) project and Worldwide Hydrobiogeochemistry Observation Network for Dynamic River Systems (WHONDRS). The data for the Yakima River basin (YRB) was collected by the PNNL River Corridor SFA. The raw, unprocessed FTICR-MS data with additional (meta)data can be found at doi:10.15485/1895159 for WROL samples and doi:10.15485/1898912 for YRB samples. This data package contains the processed data used in the associated manuscript. This package also contains ancillary geospatial, hydrological, and geochemical information that supports the interpretation of the FTICR-MS data within Ryan et al., 2024.",
+      "This data package is associated with the GitHub repository found at https://github.com/WHONDRS-Hub/rcsfa-RC4-WROL-YRB_DOM_Diversity.",
+      "This data package was originally published August 2024. It was updated January 2025 (modified files). See the change history in the readme more details.",
+      "At the directory level, the data package is comprised of three folders: (1) data, (2) output, and (3) src; and five additional files including the data dictionary (file ending in \"_dd.csv\u201d) and file-level metadata (file ending in \u201c_flmd.csv\u201d). The \u201csrc\u201d folder contains the scripts used to process the FTICR data, conduct the analyses, and produce the manuscript figures. The inputs for these scripts are in the \u201cdata\u201d folder and the returned outputs in the \u201coutput\u201d folder. Inputs include temporal and spatial metadata associated with the sampling efforts, processed FTICR data, and total and normalized putative biochemical transformations per sample. Outputs include cleaned and combined data presented as tables, descriptive statistics, and plots. The file-level metadata file lists all files contained in this data package and descriptions for each. The data dictionary describes the units and definitions for each tabular data column or row header."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1202-3616",
+        "givenName": "Kevin",
+        "familyName": "Ryan",
+        "affiliation": "US Geological Survey",
+        "email": "karyan@usgs.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7062-1273",
+        "givenName": "Byron",
+        "familyName": "Crump",
+        "affiliation": "Oregon State University",
+        "email": "byron.crump@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8452-3500",
+        "givenName": "Ted",
+        "familyName": "Bambakidis",
+        "affiliation": "Oregon State University",
+        "email": "bambakit@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8564-7860",
+        "givenName": "Peter",
+        "familyName": "Raymond",
+        "affiliation": "Yale University",
+        "email": "peter.raymond@yale.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0836-5085",
+        "givenName": "Shaoda",
+        "familyName": "Liu",
+        "affiliation": "Beijing Normal University",
+        "email": "liushaoda@bnu.edu.cn"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9135-7424",
+        "givenName": "James",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "James.Stegen@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "River corridor",
+      "Watersheds",
+      "Stream",
+      "Organic matter",
+      "OM",
+      "Dissolved organic matter",
+      "DOM",
+      "Mass spectrometry",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "FTICR-MS",
+      "Fourier transform ion cyclotron resonance mass spectrometry",
+      "Putative biochemical transformations",
+      "Watershed areas",
+      "Water residence time",
+      "Damk\u00f6hler numbers",
+      "Land use",
+      "Land cover",
+      "Dissolved organic carbon",
+      "DOC",
+      "C",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER > LAND USE/LAND COVER CLASSIFICATION",
+      "EARTH SCIENCE > AGRICULTURE > SOILS > CARBON"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "BLU-BLU: Blue River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.1623,
+            "longitude": -122.332
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.1623,
+            "longitude": -122.332
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "BLU-TID: Blue River below Tidbits Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2179,
+            "longitude": -122.265
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2179,
+            "longitude": -122.265
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "BRO-LAP: Brown Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.7236,
+            "longitude": -121.796
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.7236,
+            "longitude": -121.796
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-BUNN: Bunnell Brook, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7862,
+            "longitude": -72.965
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7862,
+            "longitude": -72.965
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-EBRA: East Branch Passumpsic River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6339,
+            "longitude": -71.8981
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6339,
+            "longitude": -71.8981
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-FARM: Farmington River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9083,
+            "longitude": -72.7594
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9083,
+            "longitude": -72.7594
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-MOOS: Moose River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5117,
+            "longitude": -71.8378
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5117,
+            "longitude": -71.8378
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-NEPA: Nepaug River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.8207,
+            "longitude": -72.9701
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.8207,
+            "longitude": -72.9701
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-PASS: Passumpsic River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.3656,
+            "longitude": -72.0393
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.3656,
+            "longitude": -72.0393
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-PHEL: Phelps Brook, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7998,
+            "longitude": -72.9649
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7998,
+            "longitude": -72.9649
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-POPE: Pope Brook, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4761,
+            "longitude": -72.125
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4761,
+            "longitude": -72.125
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-SLPR: Sleepers River, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4353,
+            "longitude": -72.0389
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4353,
+            "longitude": -72.0389
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-STIL: Still River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9679,
+            "longitude": -73.0334
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9679,
+            "longitude": -73.0334
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-THOM: Connecticut River, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.9872,
+            "longitude": -72.6058
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.9872,
+            "longitude": -72.6058
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-UNIO: Farmington River at Unionville, Connecticut, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7555,
+            "longitude": -72.887
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7555,
+            "longitude": -72.887
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CT-W9: W-9, Pope Brook Tributary, Vermont, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.4906,
+            "longitude": -72.1622
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.4906,
+            "longitude": -72.1622
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "CUL-LAP: Cultus River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.8228,
+            "longitude": -121.7977
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.8228,
+            "longitude": -121.7977
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "DES-BFA: Deschutes River at Benham Falls, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9305,
+            "longitude": -121.412
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9305,
+            "longitude": -121.412
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "DES-LAP: Deschutes River at La Pine, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.814,
+            "longitude": -121.7772
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.814,
+            "longitude": -121.7772
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "DES-MAD: Deschutes River near Madras, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.7428,
+            "longitude": -121.2297
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.7428,
+            "longitude": -121.2297
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "DES-MOO: Deschutes River near Biggs, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.6222,
+            "longitude": -120.9044
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "DES-WIC: Deschutes River below Wikiup Reservoir, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.6862,
+            "longitude": -121.6873
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.6862,
+            "longitude": -121.6873
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EAS-ALM: East River at Almont, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.6644,
+            "longitude": -106.8475
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.6644,
+            "longitude": -106.8475
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EAS-BRA: Bradley Creek tributary of East River, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9858,
+            "longitude": -107.0028
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9858,
+            "longitude": -107.0028
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EAS-PUM: East River pump house, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9226,
+            "longitude": -106.9509
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9226,
+            "longitude": -106.9509
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EAS-ROC: Rock Creek tributary of East River, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9827,
+            "longitude": -107.0051
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9827,
+            "longitude": -107.0051
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "EAS-RUS: Rustlers Creek tributary of East River, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9905,
+            "longitude": -107.0065
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9905,
+            "longitude": -107.0065
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "GUN-GRJ: Gunnison River near Grand Junction, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.9833,
+            "longitude": -108.45
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.9833,
+            "longitude": -108.45
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "GUN-GUN: Gunnison River near Gunnison, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5292,
+            "longitude": -106.9561
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5292,
+            "longitude": -106.9561
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "GUN-R32: Gunnison River at Road 32, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5172,
+            "longitude": -106.9956
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5172,
+            "longitude": -106.9956
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "GUN-TUN: Gunnison River below Gunnison Tunnel, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.5292,
+            "longitude": -107.6483
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.5292,
+            "longitude": -107.6483
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "HJA-WS1: HJ Andrews watershed 1, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2085,
+            "longitude": -122.2568
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2085,
+            "longitude": -122.2568
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "HJA-WS2: HJ Andrews watershed 2, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2134,
+            "longitude": -122.244
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2134,
+            "longitude": -122.244
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "LDS-LAP: Little Deschutes River near La Pine, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.6892,
+            "longitude": -121.503
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.6892,
+            "longitude": -121.503
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "LOO-BLU: Lookout Creek near Blue River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2097,
+            "longitude": -122.257
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2097,
+            "longitude": -122.257
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MCK-WAL: McKenzie River near Walterville, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.0696,
+            "longitude": -122.7723
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.0696,
+            "longitude": -122.7723
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "T02: Yakima at Mabton, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.2321,
+            "longitude": -119.9999
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.2321,
+            "longitude": -119.9999
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "T03: Yakima at Union Gap, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.5308,
+            "longitude": -120.4703
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.5308,
+            "longitude": -120.4703
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "T05P: Little Naches at Nile, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.989,
+            "longitude": -121.0992
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.989,
+            "longitude": -121.0992
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "T06: American River, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.9778,
+            "longitude": -121.1695
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.9778,
+            "longitude": -121.1695
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "T07: Yakima at Kiona, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.2553,
+            "longitude": -119.4741
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.2553,
+            "longitude": -119.4741
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "T41: Naches River Craig Road 1, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7241,
+            "longitude": -120.7004
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7241,
+            "longitude": -120.7004
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "T42: Naches River Craig Road 2, Washington, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.7289,
+            "longitude": -120.7143
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.7289,
+            "longitude": -120.7143
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "TAY-RES: Taylor River below reservoir, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8183,
+            "longitude": -106.6086
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8183,
+            "longitude": -106.6086
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "TAY-TAY: Taylor River at Taylor Park, Colorado, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8604,
+            "longitude": -106.567
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8604,
+            "longitude": -106.567
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "TRO-GAT: Trout Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.8012,
+            "longitude": -121.066
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.8012,
+            "longitude": -121.066
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WHY-SIS: Whychus Creek, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2879,
+            "longitude": -121.5441
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2879,
+            "longitude": -121.5441
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WIL-COR: Willamette River at Corvallis, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.5664,
+            "longitude": -123.2568
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.5664,
+            "longitude": -123.2568
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WIL-GOS: Coast Fork Willamette River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9806,
+            "longitude": -122.9653
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9806,
+            "longitude": -122.9653
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WIL-HAR: Willamette River at Harrisburg, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.2701,
+            "longitude": -123.1748
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.2701,
+            "longitude": -123.1748
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WIL-JAS: Middle Fork Willamette River, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.9983,
+            "longitude": -122.905
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.9983,
+            "longitude": -122.905
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "WIL-POR: Willamette River at Portland, Oregon, United States",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 45.5175,
+            "longitude": -122.6692
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019",
+      "endDate": "2022",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3383-6237",
+      "givenName": "Vanessa A.",
+      "familyName": "Garayburu-Caruso",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "vanessa.garayburu-caruso@pnnl.gov"
+    },
+    "citation": [
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Garayburu-Caruso, V. A., Danczak, R. E., Stegen, J. C., Renteria, L., Mccall, M., Goldman, A. E., ... & Graham, E. B. (2020). Using community science to reveal the global chemogeography of river metabolomes. Metabolites, 10(12), 518.",
+      "Otenburg O ; Barnes M ; Borton M A ; Chen X ; Chu R ; Farris Y ; Forbes B ; Fulton S G ; Garayburu-Caruso V A ; Goldman A E ; Gonzalez B I ; Grieger S ; Kaufman M H ; McKever S A ; Myers-Pigg A ; Pelly A ; Renteria L ; Scheibe T D ; Son K ; Torgeson J M ; Toyoda J G ; Stegen J C (2022): Temporal Study 2021-2022: Sample-Based Surface Water Chemistry and Organic Matter Characterization across Watersheds in the Yakima River Basin, Washington, USA (v2). River Corridor and Watershed Biogeochemistry SFA, ESS-DIVE repository. Dataset. doi:10.15485/1898912 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1898912 on 2024-02-23",
+      "Ryan, K.A., Garayburu-Caruso, V.A., Crump, B.C. et al. Riverine dissolved organic matter transformations increase with watershed area, water residence time, and Damk\u00f6hler numbers in nested watersheds. Biogeochemistry (2024). https://doi.org/10.1007/s10533-024-01169-5",
+      "Torgeson J M ; Bambakidis T ; Bates T L ; Chu R ; Crump B C ; Danczak R E ; Forbes B ; Garayburu-Caruso V A ; Goldman A E ; Logozzo L ; Maavara T ; Martin E W ; McKever S A ; Powers-McCormack B ; Raymond P A ; Renteria L ; Toyoda J G ; Stegen J C (2022): WHONDRS Surface Water Dissolved Organic Carbon and FTICR-MS across Stream Orders in Four United States Watersheds in 2019 and 2020 (v3). River Corridor and Watershed Biogeochemistry SFA, ESS-DIVE repository. Dataset. doi:10.15485/1895159 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1895159 on 2024-02-23",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor and Watershed Biogeochemistry SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Timothy",
+        "familyName": "Scheibe",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "For a full description of the methods, see the methods section in Ryan et al., 2024. Briefly, water samples were collected at 52 sites within five nested watersheds located in the contiguous United States. Samples were analyzed for dissolved organic carbon (DOC) and dissolved organic matter (DOM) chemistry via ultrahigh-resolution Fourier transform ion cyclotron resonance mass spectrometry (FTICR-MS). DOM data were used to infer putative biochemical transformations following methods previously published in Garayburu-Caruso et al., 2020. Patterns in DOM molecular diversity and putative biochemical transformations were assessed across gradients of explanatory variables associated with watershed characteristics (e.g., watershed area, water residence time, land cover) to investigate fundamental and transferable drivers of DOM diversity across watersheds.",
+      "Approach to change history and versioning:\nUpdates to data package version: When any file within a data package is updated, the data package version number is updated. The data package version number is indicated in the title of the data package, the data package folder name, and in the change history table below. You can access previous versions of the data package by sending a request to ESS-DIVE."
+    ],
+    "distribution": [
+      {
+        "contentSize": 37.13671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-604526ffed25afc-20250128T182907765",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-604526ffed25afc-20250128T182907765",
+        "name": "Data_and_scripts_associated_with_Riverine.xml"
+      },
+      {
+        "contentSize": 21007.0302734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a2444240c50b126-20250120T181715260",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a2444240c50b126-20250120T181715260",
+        "name": "v2_Ryan_2024_WROL_YRB_DOM_Diversity_Manuscript_Data_Package.zip"
+      }
+    ]
+  }
+}

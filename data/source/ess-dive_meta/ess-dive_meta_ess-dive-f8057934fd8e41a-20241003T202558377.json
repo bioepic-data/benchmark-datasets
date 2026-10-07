@@ -1,0 +1,161 @@
+{
+  "id": "ess-dive-f8057934fd8e41a-20241003T202558377",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2455025",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f8057934fd8e41a-20241003T202558377",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-09ffa200ed2c79e-20240924T203730414",
+  "dateUploaded": "2024-10-03T20:26:00.347Z",
+  "dateModified": "2024-10-06T00:02:03.467Z",
+  "isPublic": true,
+  "citation": "Stoker P; Santiago X; Kear M (2024): Parcel scale land cover and land use for Arizona\u2019s urbanized areas, Flagstaff, Phoenix-Mesa, Tucson, Dec 2023. Southwest Urban Corridor Integrated Field Laboratory (SW-IFL). Dataset. doi:10.15485/2455025",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2455025",
+    "name": "Parcel scale land cover and land use for Arizona\u2019s urbanized areas, Flagstaff, Phoenix-Mesa, Tucson, Dec 2023",
+    "description": [
+      "The health impacts of heat exposure are unequally experienced, with certain subpopulations particularly vulnerable to the effects of rising global temperatures. Manufactured Housing (MH) \u2013 transportable residential units constructed off-site before being moved to a parcel, organized either in Parks or Non-Parks tenure types \u2013 presents a diverse housing type that is hypothesized to be more vulnerable to extreme heat. This dataset contains land cover and housing type for 1.7 million parcels in three of Arizona\u2019s urbanized areas. The data supports research confirming the hypothesis that residents of MH are more likely to experience heat vulnerability than those in single-family housing, multifamily housing, and condos/townhouses due to an average lack of proximate vegetation."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1960-3015",
+        "givenName": "Philip",
+        "familyName": "Stoker",
+        "affiliation": "University of Arizona",
+        "email": "philipstoker@arizona.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Xahria",
+        "familyName": "Santiago",
+        "affiliation": "University of Arizona",
+        "email": "xsantiago@arizona.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3998-3481",
+        "givenName": "Mark",
+        "familyName": "Kear",
+        "affiliation": "University of Arizona",
+        "email": "mkear@arizona.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0006-0759-4827",
+        "givenName": "Michael",
+        "familyName": "Garcia",
+        "affiliation": "University of Arizona",
+        "email": "garciam3@arizona.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "MANUFACTURED HOUSING"
+    ],
+    "variableMeasured": [
+      "ASSESSOR PARCEL NUMBER",
+      "COUNTY AND ASSESSOR PARCEL NUMBER",
+      "PARCEL USE CODE",
+      "BUILDINGS PER PARCEL",
+      "ACRES PER PARCEL",
+      "COUNTY",
+      "CITY NAME",
+      "PERCENTAGE OF DIRT LAND COVER",
+      "PERCENTAGE OF IMPERVIOUS LAND COVER",
+      "PERCENTAGE OF VEGETATION LAND COVER",
+      "RESIDENTIAL TYPE",
+      "PERCENTAGE OF VEGETATED ACREAGE IN A PARCEL",
+      "PERCENTAGE OF VEGETATED ACREAGE PER BUILDING IN A PARCEL",
+      "MANUFACTURED HOUSING TYPES",
+      "COUNTY CODE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Arizona urbanized areas, Flagstaff, Phoenix-Mesa, Tucson.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 35,
+            "longitude": -112
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32,
+            "longitude": -110
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0023520"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2023-09-01",
+      "endDate": "2023-12-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1960-3015",
+      "givenName": "Philip",
+      "familyName": "Stoker",
+      "affiliation": "University of Arizona",
+      "email": "philipstoker@arizona.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "76c0a41d-b69a-4d99-996f-d650c21e07aa"
+      },
+      "name": "Southwest Urban Corridor Integrated Field Laboratory (SW-IFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Sailor",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Arizona State University",
+        "email": "dsailor@asu.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Combine NAIP imagery tiles into a single raster image for each of the three urbanized areas.",
+      "Adjusted the color channels (RGB-N) of each image to better visualize the near infrared band.",
+      "Performed a supervised image classification of each RGB-N image in ArcGIS. Training samples (polygons) for this tool were manually drawn for each land cover. As a result, the pixels in each RGB-N image are categorized into the four land cover classes, using the support vector machine (SVM) algorithm. The resulting products are three LCCs, one for each urbanized area.",
+      "Compare the LCCs with the original NAIP image using a random sampling of 50 points using a stratified sampling strategy. Each LCC was assessed to be at least 90% accurate.",
+      "Use zonal statistics to determine the percentage of vegetation for each parcel."
+    ],
+    "distribution": [
+      {
+        "contentSize": 229853.271484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-236f8811acd4126-20240920T003454937",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-236f8811acd4126-20240920T003454937",
+        "name": "AZurbanizedparcelswithlandcoverandlanduse.csv"
+      },
+      {
+        "contentSize": 7.2158203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f8057934fd8e41a-20241003T202558377",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f8057934fd8e41a-20241003T202558377",
+        "name": "Parcel_scale_land_cover_and_land_use_for.xml"
+      }
+    ]
+  }
+}

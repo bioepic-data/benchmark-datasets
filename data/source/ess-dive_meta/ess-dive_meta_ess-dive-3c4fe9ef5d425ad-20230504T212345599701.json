@@ -1,0 +1,177 @@
+{
+  "id": "ess-dive-3c4fe9ef5d425ad-20230504T212345599701",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1865729",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-3c4fe9ef5d425ad-20230504T212345599701",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-adadc76d98d9712-20230407T151550209965",
+  "dateUploaded": "2023-05-04T21:23:46.560Z",
+  "dateModified": "2023-05-04T21:23:50.430Z",
+  "isPublic": true,
+  "citation": "Weisenhorn P; Beilsmith K (2022): ESS-DIVE Reporting Format for Amplicon Abundance Table. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). Dataset. doi:10.15485/1865729",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1865729",
+    "name": "ESS-DIVE Reporting Format for Amplicon Abundance Table",
+    "description": [
+      "While standardized sequencing data is available in public repositories and efforts such as MIxS for common sample collection and processing metadata are well established, the lack of common bioinformatic processing metadata has hindered the ability to do large-scale metaanalyses and the potential for data re-use by non-experts such as ecosystem, watershed, or earth system modelers. To address this need for Department of Energy researchers, we have developed an amplicon reporting format which captures both sample preparation and bioinformatic processing metadata and stores processed amplicon data as a paired abundance table and sequencing file to maximize the potential for re-use of these data. To aid in the adoption of accessible and reproducible analysis workflows, this reporting format was developed in concert with amplicon functionality within the Department of Energy\u2019s Systems Biology Knowledgebase (KBase) to ensure common data and metadata requirements and facilitate seamless transfer between these platforms.",
+      "This dataset contains support documentation for the amplicon reporting format (README.md and instructions.md), templates for both bioinformatic and sequencing metadata (amplicon_bioinformatic_metadata_template_2021_10_03.csv and amplicon_sequencing_metadata_template_2021_10_03.csv), a crosswalk indicating how this reporting format relates to the current MIxS format (ESSDIVE-MIxS_crosswalk.csv), a list of available instrument terms (amplicon_seq_instrument_terms_2021_10_03.csv), a map between QIIME2 parameter settings and metadata fields (amplicon_qiime2_plugin_metadata_map.csv), a data dictionary (amplicon_CSV_dd.csv), and file-level metadata (amplicon_FLMD.csv)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.15485/1865729"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1844-5502",
+        "givenName": "Pamela",
+        "familyName": "Weisenhorn",
+        "affiliation": "Argonne National Laboratory",
+        "email": "pweisenhorn@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2778-299X",
+        "givenName": "Kathleen",
+        "familyName": "Beilsmith",
+        "affiliation": "Argonne National Laboratory",
+        "email": "kbeilsmith@anl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3053-1967",
+        "givenName": "Tianhao",
+        "familyName": "Gu",
+        "affiliation": "Argonne National Laboratory",
+        "email": "tgu@anl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "Earth Science > Biosphere > Ecological Dynamics",
+      "Earth Science > Biosphere > Ecological Dynamics > Community Dynamics > Community Structure",
+      "Earth Science > Biosphere > Ecological Dynamics > Community Dynamics > Indicator Species",
+      "Earth Science > Biosphere > Ecological Dynamics > Species/Population Interactions > Microbial Changes"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1844-5502",
+      "givenName": "Pamela",
+      "familyName": "Weisenhorn",
+      "affiliation": "Argonne National Laboratory",
+      "email": "pweisenhorn@anl.gov"
+    },
+    "citation": [
+      "GitHub repository with the most up-to-date amplicon abundance table reporting format documentation: https://github.com/ess-dive-community/essdive-ampliconWebsite with up-to-date amplicon abundance table reporting format documentation: https://ess-dive.gitbook.io/amplicon-sequencing-reporting-format/",
+      "Damerow, J. et al. ESS-DIVE global sample numbers and metadata reporting format for Environmental Systems Science (IGSN-ESS). (2020) doi:10.15485/1660470.",
+      "Velliquette, T. et al. ESS-DIVE Reporting Format for File-level Metadata. (2021) doi:10.15485/1734840.",
+      "Velliquette, T. et al. ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. (2021) doi:10.15485/1734841."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "f5bb4f8b-224d-4d6a-9040-ae5a4a2959e6"
+      },
+      "name": "Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Deborah",
+        "familyName": "Agarwal",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "daagarwal@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The ESS-DIVE amplicon reporting format was developed to more consistently format processed amplicon data, including amplicon abundance tables, representative sequences, and metadata on both the sequencing preparation and bioinformatic processing in order to enable comparisons of amplicon data across studies and re-use of data by researchers lacking bioinformatic expertise or computational power to re-process data from raw sequence files. We created an initial draft of metadata fields with a focus on providing a reporting format that balances ease of use with the capture of required information for a broad range of reuse applications.",
+      "We then sought feedback from within the DOE community. Specifically, we reached out to researchers with a clear microbiome component in their recently funded project descriptions for DOE funded work to request their feedback on the suitability and ease of providing the data specified in the initial draft, as well as for their thoughts on any additional metadata fields that would be required to support data reuse. In sum, we reached out to 61 researchers and received 16 replies, including 4 requests for more in-depth follow-up conversations. This body of users included researchers who focus on both operational taxonomic unit (OTU) and amplicon sequence variant (ASV) bioinformatic processing approaches. The majority of respondents make their amplicon data available publicly at least once a year, with several releasing data multiple times per year.",
+      "We captured and incorporated their feedback into an updated reporting format which was then presented to the broader microbiology community at the American Society of Microbiology. This led to an additional 6 conversations and additional feedback on the reporting format.",
+      "This reporting format has been extensively cross-walked with the Genomic Standards Consortium\u2019s MIxS standard, as this was identified as the most commonly adopted by the community. When possible, this reporting format and metadata field names have been aligned with the MIxS specification for sequencing data. However, current versions of MIxS do not capture bioinformatic processing data.",
+      "For this reason, the reporting format has two metadata files, stored as csv: one capturing sequencing metadata and another for bioinformatic processing metadata.The reporting format uses a common, but not universal, csv format for storing the amplicon abundance tables and a standard fasta format for the representative sequence files. To enable merging of datasets, a representative sequence file stored in fasta format is required.\nThere is no requirement for adopting a specific convention for sample names; however, sample names do need to be consistent across files and we strongly encourage the use of IGSNs and the ESS-DIVE sample ID metadata reporting format. All csv files conform to the ESS-DIVE\u2019s CSV and file-level metadata reporting formats."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3.685546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-07e039a80bf23cd-20220712T190723930",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-07e039a80bf23cd-20220712T190723930",
+        "name": "ess_dive_amplicon_seq_instrument_terms_2021_10_03.csv"
+      },
+      {
+        "contentSize": 3.5029296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-098e823db3467c6-20220625T202606270",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-098e823db3467c6-20220625T202606270",
+        "name": "amplicon_CSV_dd.csv"
+      },
+      {
+        "contentSize": 12.521484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3c4fe9ef5d425ad-20230504T212345599701",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-3c4fe9ef5d425ad-20230504T212345599701",
+        "name": "ESS_DIVE_Reporting_Format_for_Amplicon_Abundance_Table.xml"
+      },
+      {
+        "contentSize": 5.0888671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4301d8eef7980a8-20220712T190637751",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-4301d8eef7980a8-20220712T190637751",
+        "name": "README.md"
+      },
+      {
+        "contentSize": 12.1767578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5e9fa517b16ed51-20220712T190637741",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-5e9fa517b16ed51-20220712T190637741",
+        "name": "instructions.md"
+      },
+      {
+        "contentSize": 2.140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4caf83d4aef6448-20220712T190723926",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4caf83d4aef6448-20220712T190723926",
+        "name": "ess_dive_amplicon_qiime2_plugin_metadata_map.csv"
+      },
+      {
+        "contentSize": 0.5966796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ff120f8aa9621b-20220712T190723937",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7ff120f8aa9621b-20220712T190723937",
+        "name": "ESS_DIVE_MIxS_crosswalk.csv"
+      },
+      {
+        "contentSize": 1.0625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a366ead41d01c11-20220625T202612664",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a366ead41d01c11-20220625T202612664",
+        "name": "ESS_DIVE_amplicon_FLMD.csv"
+      },
+      {
+        "contentSize": 2.7255859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f867d14f443394d-20220712T190723933",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f867d14f443394d-20220712T190723933",
+        "name": "ess_dive_amplicon_sequencing_metadata_template_2021_10_03.csv"
+      },
+      {
+        "contentSize": 2.5908203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-df8a609e80b4f0e-20220712T190723922",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-df8a609e80b4f0e-20220712T190723922",
+        "name": "ess_dive_amplicon_bioinformatic_metadata_template_2021_10_03.csv"
+      }
+    ]
+  }
+}

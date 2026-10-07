@@ -1,0 +1,200 @@
+{
+  "id": "ess-dive-3b343d5f66758aa-20230809T150653268",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1482338",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-3b343d5f66758aa-20230809T150653268",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-3b343d5f66758aa-20230809T150513302",
+  "dateUploaded": "2023-08-09T15:06:53.965Z",
+  "dateModified": "2024-07-24T18:58:42.869Z",
+  "isPublic": true,
+  "citation": "Rogers A; Ely K; Serbin S (2019): Leaf Photosynthetic Parameters: Quantum Yield, Convexity, Respiration, Gross CO2 Assimilation Rate and Raw Gas Exchange Data, Utqiagvik (Barrow), Alaska, 2016. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1482338",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1482338",
+    "name": "Leaf Photosynthetic Parameters: Quantum Yield, Convexity, Respiration, Gross CO2 Assimilation Rate and Raw Gas Exchange Data, Utqiagvik (Barrow), Alaska, 2016",
+    "description": [
+      "Leaf photosynthetic parameters including quantum yield, convexity, respiration and gross CO2 assimilation rate determined from the response of photosynthesis to irradiance and supporting raw gas exchange data. Measured in Barrow, Alaska in 2016 on six plant species: Arctophila fulva, Arctagrostis latifolia, Carex aquatilis, Eriophorum angustifolium, Petasites frigidus, and Salix pulchra.",
+      "Version 2 (V2) note (01 Feb 2021): An earlier version of this data contained an incorrectly labeled data column in NGA175_AQfittedParams_Barrow_2016.csv. Mean_Ci was incorrectly labeled as Mean_Ci_LowLight. \"_v2\" contains the correct data for both of these variables.",
+      "In December 2020, these data were updated to comply with the leaf-level gas exchange data and metadata reporting format (Ely et al 2020, doi:10.15485/1659484). These updates involved editing of some variable names, change of file formats to csv, addition of AQ curves data (subset of complete instrument output included in the original data package) and inclusion of additional methods and instrument details metadata files. No changes were made to the data. The package includes six *.csv files and one *.pdf.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a 10-year research effort (2012-2022) to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1482338",
+      "NGA175"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9262-7430",
+        "givenName": "Alistair",
+        "familyName": "Rogers",
+        "email": "arogers@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3915-001X",
+        "givenName": "Kim",
+        "familyName": "Ely",
+        "email": "kely@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4136-8971",
+        "givenName": "Shawn",
+        "familyName": "Serbin",
+        "email": "sserbin@bnl.gov"
+      }
+    ],
+    "datePublished": "2019-02-23",
+    "keywords": [
+      "North Slope, Alaska",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "leaf photosynthetic parameters",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS",
+      "Utqiagvik, Alaska",
+      "Barrow Environmental Observatory",
+      "BEO",
+      "ESS-DIVE Leaf-Level Gas Exchange Reporting Format"
+    ],
+    "variableMeasured": [
+      "Rd",
+      "Convex",
+      "Asat.g",
+      "PhiCO2.i",
+      "Mean_Ci_LowLight",
+      "Mean_CO2S",
+      "Mean_VpdL",
+      "Mean_VpdA",
+      "Mean_RHS",
+      "Mean_Tleaf",
+      "Mean_Tair"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Utqiagvik (Barrow), Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.35,
+            "longitude": -156.7
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 71.2,
+            "longitude": -156.4
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-07-09",
+      "endDate": "2016-07-20",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9262-7430",
+      "givenName": "Alistair",
+      "familyName": "Rogers",
+      "affiliation": "Brookhaven National Laboratory",
+      "email": "arogers@bnl.gov"
+    },
+    "citation": [
+      "Alistair Rogers, Shawn P. Serbin, Kim S. Ely, Stan D. Wullschleger. 2019. Terrestrial biosphere models may overestimate Arctic CO2 assimilation if they do not account for decreased quantum yield and convexity at low temperature. New Phytologist. https://doi.org/10.1111/nph.15750",
+      "http://plants.usda.gov",
+      "Ely K.S., Rogers A, Crystal-Ornelas R (2020): ESS-DIVE reporting format for leaf-level gas exchange data and metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem. doi:10.15485/1659484"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Stan",
+        "familyName": "Wullschleger",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "wullschlegsd@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Gas exchange measurements were made in situ on attached leaves using 5 LI-COR 6400XT gas exchange systems. Measurements were made on the most recent fully expanded mature leaves of six species covering four Arctic PFTs: grasses, Arctagrostis latifolia (R.Br.) Griseb, Arctophila fulva (Trin.) Andersson; sedges, Carex aquatilis Wahlenb., Eriophorum angustifolium Hon- ck.; forbs, Petasites frigidus (L.) Fr.; and deciduous shrubs, Salix pulchra Cham.",
+      "Prior to light response curve measurements, sample leaves were allowed to achieve steady state CO2 and water vapor exchange under conditions of constant temperature at 5\u00b0C or 15\u00b0C (and some at 25\u00b0C) and CO2 concentration of 390 ppm. Each light response curve consisted of 14 levels of irradiance (2000, 1500, 1250, 1000, 750, 500, 375, 200, 150, 100, 75, 50, 20 and 0 micromol m-2 s-1). Following an adjustment to each new irradiance, data were logged as soon as irradiance, leaf temperature and photosynthetic rate were stable. Following completion of the curve, the leaf sample was removed from the chamber and the leaf area was measured, and results recalculated to adjust for leaf area in cases where the 2 x 3 cm2 sample chamber was not filled.",
+      "Refer to Rogers et al (2019) for a complete description of methods and parameter fitting procedures."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.8642578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-47ce9130c7b7bbd-20210923T191126588533",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-47ce9130c7b7bbd-20210923T191126588533",
+        "name": "NGA175_methods_AQparams.csv"
+      },
+      {
+        "contentSize": 0.529296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-393b4e6f2a3ff83-20210923T191124850837",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-393b4e6f2a3ff83-20210923T191124850837",
+        "name": "NGA175_instrumentDetails.csv"
+      },
+      {
+        "contentSize": 10.2763671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3b343d5f66758aa-20230809T150653268",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-3b343d5f66758aa-20230809T150653268",
+        "name": "Leaf_Photosynthetic_Parameters_Quantum_Yield_.xml"
+      },
+      {
+        "contentSize": 331.640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3b54519ed0231ca-20210923T191128145443",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-3b54519ed0231ca-20210923T191128145443",
+        "name": "Leaf_Photosynthetic_Param_2016_User_Guidance_Document_20210201.pdf"
+      },
+      {
+        "contentSize": 279.6337890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3bdc6d568867798-20210923T191117576181",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3bdc6d568867798-20210923T191117576181",
+        "name": "NGA175_AQcurves_Barrow_2016.csv"
+      },
+      {
+        "contentSize": 1442.306640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d26fa2b027d8115-20210923T191120345126",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d26fa2b027d8115-20210923T191120345126",
+        "name": "NGA175_AQcurves_Barrow_2016_InstrumentOutput.csv"
+      },
+      {
+        "contentSize": 17.5927734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4cb9092d432386f-20210923T191123473478",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4cb9092d432386f-20210923T191123473478",
+        "name": "NGA175_AQfittedParams_Barrow_2016_v2.csv"
+      },
+      {
+        "contentSize": 0.71875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c43bebff999c8a4-20210923T191125671417",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c43bebff999c8a4-20210923T191125671417",
+        "name": "NGA175_methods_AQcurves.csv"
+      }
+    ]
+  }
+}

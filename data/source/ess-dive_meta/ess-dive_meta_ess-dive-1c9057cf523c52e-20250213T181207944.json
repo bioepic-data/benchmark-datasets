@@ -1,0 +1,136 @@
+{
+  "id": "ess-dive-1c9057cf523c52e-20250213T181207944",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15486/NGT/2425967",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-1c9057cf523c52e-20250213T181207944",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-5b33a5eb6adfcaf-20250210T212912408693",
+  "dateUploaded": "2025-02-13T18:12:10.006Z",
+  "dateModified": "2025-02-27T00:00:17.985Z",
+  "isPublic": true,
+  "citation": "Needham J (2025): Files and scripts to support manuscript Needham et al. Canopy Gradients of Respiration. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15486/NGT/2425967",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15486/NGT/2425967",
+    "name": "Files and scripts to support manuscript Needham et al. Canopy Gradients of Respiration",
+    "description": [
+      "This dataset includes the parameter files, relevant output files, and scripts to perform analysis with Jupyter notebooks that support the manuscript Needham et al 2025 \u201cCanopy Gradients of Respiration Drive Plant Carbon Budgets and Leaf Area Index.\u201d We add functionality to the Functionally Assembled Terrestrial Ecosystem Simulator (FATES) to allow flexible vertical gradients of leaf maintenance respiration (Rdark) and maximum carboxylation rate (Vcmax) through the canopy. We test the sensitivity of FATES to canopy gradients in Rdark, both in global simulations to assess broad scale impacts on leaf area index (LAI) and vegetation carbon, and in single site simulations where we assess impacts on plant functional type (PFT) competitive dynamics. Parameter files are netcdf files that can be converted to human readable .cdl files using NCO tools. Analysis scripts are Jupyter notebook files. These can be opened and run using the open source Jupyter notebook software. Model outputs are netcdf files. (The data files for this version 2.0 were updated with new runs)",
+      "This dataset was originally published on the NGEE Tropics Archive and is being mirrored on ESS-DIVE for long-term archival",
+      "Acknowledgement: This research was supported as part of the Next Generation Ecosystem Experiments-Tropics, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research and as part of the Energy Exascale Earth System Model (E3SM) project, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research Earth Systems Model Development Program area of Earth and Environmental System Modeling. LBNL is managed and operated by the Regents of the University of California under prime contract number DEAC02-05CH11231."
+    ],
+    "alternateName": [
+      "https://doi.org/10.15486/ngt/2425967",
+      "NGT0215"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3653-3848",
+        "givenName": "Jessica",
+        "familyName": "Needham",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jfneedham@lbl.gov"
+      }
+    ],
+    "datePublished": "2025-01-09",
+    "keywords": [
+      "Next-Generation Ecosystem Experiements Tropics",
+      "NGEE-T",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Model output"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site Name: Global. Site ID: XX-Glo. This dataset contains data at a global scale. Site contact(s): (Val Hendrix <vchendrix@lbl.gov>) (Gilberto Pastorello <gzpastorello@lbl.gov>) (Emily Robles <emilyarobles@lbl.gov>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 89.999,
+            "longitude": -179.999
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": -89.999,
+            "longitude": 179.999
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC02-05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2024-08-01",
+      "endDate": "2024-08-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3653-3848",
+      "givenName": "Jessica",
+      "familyName": "Needham",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "jfneedham@lbl.gov"
+    },
+    "citation": [
+      "Needham, J. F., Dey, S., Koven, C., Fisher, R., Knox, R., Lamour, J., Lemieux, G., Longo, M., Rogers, A., & Holm, J. Canopy Gradients of Respiration Drive Plant Carbon Budgets and Leaf Area Index",
+      "Additional information about citations:",
+      "N/A"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "A total of eight global simulations were run at 4x5 degree resolution using GSWP3 climate forcing data. We used a 12 PFT parameter file and ran simulations in 'fixed-biogeography' and 'no-competition' mode meaning PFT distributions are prescribed and PFTs do not compete with one another on a patch. In each global run we changed the canopy gradient of Rdark. We also ran 12 single site simulations to explore how different canopy gradients of Rdark impact competitive dynamics. In these simulations we used a two PFT parameter file with a shade-tolerant and a light-demanding PFT. There are three parameterizations of the two PFTs, and for each parameterization we ran a simulation with four different canopy gradients of Rdark, giving 12 simulations in total. For global and single site simulations we analyzed outputs using Jupyter notebooks."
+    ],
+    "distribution": [
+      {
+        "contentSize": 7.140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1c9057cf523c52e-20250213T181207944",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-1c9057cf523c52e-20250213T181207944",
+        "name": "Files_and_scripts_to_support_manuscript_Needham.xml"
+      },
+      {
+        "contentSize": 0.3369140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ee2a2bf1a21bc0f-20250109T162015388932",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ee2a2bf1a21bc0f-20250109T162015388932",
+        "name": "NGT0215_locations.csv"
+      },
+      {
+        "contentSize": 5857629.6376953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c1d349ab23aad65-20250210T212756197357",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c1d349ab23aad65-20250210T212756197357",
+        "name": "NGT0215_v2.0_20250110_20250110202606.zip"
+      }
+    ]
+  }
+}

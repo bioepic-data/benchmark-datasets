@@ -1,0 +1,300 @@
+{
+  "id": "ess-dive-5a52652660bde0f-20230407T141725239745",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1659374",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-5a52652660bde0f-20230407T141725239745",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-4b3ce8a19d3ad1c-20230406T234531059191",
+  "dateUploaded": "2023-04-07T14:17:26.431Z",
+  "dateModified": "2023-04-07T14:17:31.738Z",
+  "isPublic": true,
+  "citation": "Fitch A; Lang A; Whalen E; Geyer K; Pries C (2020): Soil microbial function and fungal community data along an ectomycorrhizal basal area gradient, Vermont, May 2019. Testing mechanisms of how mycorrhizal associations affect forest soil carbon and nitrogen cycling. Dataset. doi:10.15485/1659374",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1659374",
+    "name": "Soil microbial function and fungal community data along an ectomycorrhizal basal area gradient, Vermont, May 2019",
+    "description": [
+      "Mycorrhizal fungi can affect soil organic matter cycling through several mechanisms including priming, nutrient competition, and direct enzyme production. Differences in nutrient foraging strategies between ectomycorrhizal (EcM) and arbuscular mycorrhizal (AM) fungi produce divergent belowground dynamics: where EcM can take up organic nitrogen and directly break down SOM by producing enzymes, AM fungi are limited to scavenging mineral N. EcM-associated tree species also have leaf litter with relatively higher ratios of carbon to nitrogen (C:N), and belowground saprotrophic communities more dominated by fungi. Consequently, free-living microbes in EcM-dominated soils should experience nitrogen limitation, with subsequent increases in enzyme production and decreased carbon use efficiency (CUE). However, the relative importance of the effects of substrate quality and fungal community composition on enzyme production and CUE are unclear. To assess this distinction, we sampled the organic horizon and 10 cm of the mineral horizon in northern temperate forest soils along a gradient of EcM dominance (see SCxTS_DBH.csv for full tree species information).",
+      "We characterized fungal community composition by measuring EcM relative abundances from extracted fungal DNA (To run raw ASV data through R code, use SCxTS_ASV_taxonomy.csv, and R code ITS_processing.Rmd; to see processed data with EcM relative abundance, use file SCxTS_sum_afitch_Feb18.20.csv) and the fungal to bacterial ratios (see data file SCxTS_plfa.csv) from phospholipid fatty acid analysis. Soil microbial functions were measured as potential activities of five hydrolytic and two oxidative enzymes ( To run raw data through R code us SCxTS_metadata.csv, hydrolytic_oxidative_raw.csv, MUBraw.csv, Enzyme_soilweight.csv, and incubationtime.csv, and R code SCxTS_enzymes.Rmd; to use Enzyme data ready to run through statistics code, use file Enzyme.data.csv) and microbial carbon use efficiency (see file SCxTS_CUE.csv and for full calculations file 18O_CUEcalcs_SCxTS_2019.xlsx). We assessed soil substrate quality as the soil carbon:nitrogen ratio (See file Organic_CN.csv). Statistical analysis can be run using R code from file SCxTS_analysis.Rmd."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1757-2219",
+        "givenName": "Amelia",
+        "familyName": "Fitch",
+        "affiliation": "Dartmouth College",
+        "email": "amelia.a.fitch.gr@dartmouth.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6080-1681",
+        "givenName": "Ashley",
+        "familyName": "Lang",
+        "affiliation": "Dartmouth College",
+        "email": "ashley.k.lang.gr@dartmouth.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9269-289X",
+        "givenName": "Emily",
+        "familyName": "Whalen",
+        "affiliation": "University of New Hampshire",
+        "email": "edw1002@wildcats.unh.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5218-2745",
+        "givenName": "Kevin",
+        "familyName": "Geyer",
+        "affiliation": "University of New Hampshire"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0813-2211",
+        "givenName": "Caitlin",
+        "familyName": "Pries",
+        "affiliation": "Dartmouth College",
+        "email": "caitlin.hicks.pries@dartmouth.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Owen",
+        "familyName": "Krol",
+        "email": "owen.w.krol@dartmouth.edu"
+      }
+    ],
+    "datePublished": "2020",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "Carbon use efficiency",
+      "Mycorrhiza",
+      "Enzyme activity",
+      "Extracellular enzymes",
+      "fungi"
+    ],
+    "variableMeasured": [
+      "microbial carbon use efficiency",
+      "extracellular enzyme activity",
+      "fungal community composition",
+      "Ectomycorrhizal relative abundance",
+      "soil carbon:nitrogen"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Norwich, Vermont, USA: Mixed hardwood forest stand, between 50 -100 years old.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.72,
+            "longitude": -72.35
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.72,
+            "longitude": -72.35
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Hanover, NH, USA: Mixed hardwood forest stand, between 50 -100 years old.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 43.72,
+            "longitude": -72.16
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 43.72,
+            "longitude": -72.16
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-05-22",
+      "endDate": "2019-11-10",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1757-2219",
+      "givenName": "Amelia",
+      "familyName": "Fitch",
+      "email": "amelia.a.fitch.gr@dartmouth.edu"
+    },
+    "citation": [
+      "Amelia A Fitch , Ashley Lang, Emily Whalen, Kevin Michael Geyer and Caitlin Hicks Pries. (In review). Fungal community, not substrate quality, drives soil microbial function in Northeast temperate forests. Frontiers in Forests and Global Change."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1afc0f54-6cec-4372-8158-cb909116f99d"
+      },
+      "name": "Testing mechanisms of how mycorrhizal associations affect forest soil carbon and nitrogen cycling",
+      "member": {
+        "@type": "Person",
+        "givenName": "Caitlin",
+        "familyName": "Pries",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Trustees of Dartmouth College, Hanover, NH",
+        "email": "caitlin.hicks.pries@dartmouth.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Study Sites\nWe collected soils across gradients of EcM basal area at two sites in Norwich, Vermont (43.72\u00b0N, 72.35\u00b0W) and Hanover, New Hampshire (43.72\u00b0N, 72.16\u00b0W) on May 22, 2019, during the early growing season. These sites are classified as mixed hardwood forest on inceptisol soils. We collected soils from ten, 10 m radius plots across a gradient of EcM basal area (Table S1). Within each plot, we measured the diameter at breast height (1.4 m) of all trees greater than 10 cm in diameter and identified each tree to species. We assigned all trees as EcM or AM based on their family (Table S1). The basal area of Salicaceae was assumed to be 50% EcM, and only one species from our plots, Populus tremuloides, was in this family. EcM species in the lowest EcM basal area plot were represented mostly by Betula paperifera, while mid-range EcM basal area plots included an increasing presence of Fagus grandifolia, Populus tremuloides, and Quercus Rubra. The highest EcM basal area plots were dominated by Tsuga canadensis.\nSoil Collection and Processing\nAt each site, we collected soil cores of the organic horizon, which ranged in thickness from four to 12 cm, and the corresponding top 10 cm of mineral soil. We collected soils cores from two spots at the center of our circular plots and combined those cores for analysis. To collect the cores, we first cut out and set aside the O horizon within the footprint of a 5cm diameter stainless steel corer, which we then used to collect the mineral soil. Samples were transported back to the lab on ice and stored at 4 \uf0b0C before further processing. Organic horizon samples were root picked and thoroughly mixed while mineral samples were sieved through a 2 mm mesh. Subsamples were dried overnight at 100 \uf0b0C, ground, and later analyzed for percent soil C and N using an ECS 4010 CHNSO analyzer (Costech Analytical Technologies, Inc. Valencia, CA). Soil pH was measured with a 1:1 ratio of soil and deionized water from both the frozen organic horizon and mineral soils using a benchtop pH meter (Mettler Toledo, Columbus, OH).",
+      "Extracellular Enzyme Assays\nWe performed fluorometric and colorimetric assays of extracellular enzyme activity (EEA) using methods modified from German et al., 2011 and Allison, 2012a. We measured EEA for hydrolases: \u03b2-glucosidase (BG; glucose from cellulose), cellobiohydrolase (CB; disaccahrides from cellulose), N-acetyl-glucosaminidase (NAG; chitin), Leucine-aminopeptidase (LAP; amino acids from proteins), and acid phosphatase (AP; phosphate ions from organic compounds); and two oxidases: phenol oxidase (PO) and peroxidase (PER). In brief, soil subsamples (1 g) from frozen soils were homogenized using an immersion blender with 125 ml of deionized water, to ensure capturing in situ soil pH. 200 ul of sample homogenate was pipetted into 96-well plates with 50 \u03bcl of each 4-Methylumbelliferone labeled-fluorogenic substrate in replicates of four and incubated in the dark at 12 \uf0b0C for the respective incubation temperature (Koch et al., 2007). Fluorescence was measured on a microplate spectrophotometer (365 nm excitation, 450 nm emission) for hydrolases after addition of 15 \u03bcl of 1M NaOH. For phenol oxidase and peroxidase, the samples were mixed with 50 \u03bcl L-3,4-dihydroxyphenylalanine (L-DOPA) or 50 ul L-DOPA and 20 \u03bcl hydrogen peroxide, respectively, incubated in the dark at 12 \uf0b0C for 18 hours, and then their absorbance (460 nm) was measured on the microplate reader. We used a principle component analysis (PCA) to group enzymes for subsequent statistical analyses based on relatedness across samples (Figure S1). BG and CB were summed to create a hydrolytic activity metric as these enzymes target plant derived, carbon-based molecules (Emilson et al., 2016), and LAP and AP were grouped as nutrient-targeting enzymes given their similar PCA loadings (Figure S1, Table S2).",
+      "Microbial Carbon Use Efficiency\nWe measured carbon use efficiency (CUE) of the organic and mineral soil microbial communities following an 18O tracing method, where CUE is estimated based on 18O-water incorporation into microbial DNA (Spohn et al., 2016; Geyer et al., 2019). Microbial communities were first acclimated by pre-incubating samples for five days at 12 \uf0b0C. We added a dilution of labeled 18O-water and 16O-water to 0.3 g of soil from the same sample in 2 ml microcentrifuge tubes. Dilutions of 18O-water were determined by optimizing for a 20 atom% label in each sample without exceeding the average water holding capacity of the mineral and organic soils (see supplementary spreadsheet, tab name \u201cprep calcs,\u201d for full dilution calculations). In short, we aimed for soils to be moist, but not saturated to avoid anaerobic conditions. We then inserted the microcentrifuge tubes into 50 ml glass incubation bottles, which were sealed and flushed with CO2-free air prior to a 48 hr incubation at 12 \uf0b0C. Following incubation, we measured 10 mL of headspace CO2 using an EGM-5 CO2 gas analyzer (PP-Systems, Amesbury, MA). We removed microcentrifuge tubes from bottles and extracted microbial DNA following modified methods, where the entire supernatant was transferred in order to extract total DNA as opposed to a subsample, and using materials from the Qiagen DNeasy Powersoil extraction protocol and kit. An important modification step is to use all the supernatant in every step (instead of a subset), as the final calculations are based on the amount of 18O incorporated in the DNA. We added 70 ul of the final extractions to silver capsules (5 x 3.5 mm) along with 100 ul of 10 ng ml-1 salmon sperm to raise the oxygen to detection level. We then dried samples at 60 \uf0b0C overnight and sent the capsules in a 96-well plate to the UC Davis Stable Isotope facility for 18O analysis on an elementar PyroCube (Elementar Analysensysteme GmbH, Hanau, Germany) and interfaced to an Isoprime VisION (Isoprime Ltd, Stockport, UK, a unit of Elementar Analysensysteme GmbH, Hanau, Germany).\nIn parallel, we analyzed total organic carbon (TOC) in microbial cells by performing a chloroform fumigation and subsequent TOC extraction on duplicate 15 mg previously frozen soil samples (Vance et al., 1987). One set of samples was fumigated with chloroform overnight to lyse microbial cells. TOC was subsequently extracted from both fumigated and duplicate non-fumigated soil using 0.5M KCL. The extracts were diluted to 1:4 for TOC analysis on a Sievers M5310 C Laboratory TOC analyzer (SUEZ, Paramous, NJ).",
+      "DNA Extraction and Bioinformatics\nFungal DNA was extracted from organic horizon and mineral soils using the Quiagen PowerSoil Kit (Qiagen Science Inc., Germantown, MD). DNA extracts were sent to the University of Wisconsin-Madison Biotechnology Center where they were prepared similarly to the process detailed in Illumina\u2019s 16s Metagenomic Sequencing Library Preparation Protocol, Part # 15044223 Rev. B (Illumina Inc., San Diego, CA). The ITS region was amplified using the forward primers ITS (CTTGGTCATTTAGAGGAAGTAA) and reverse primer ITS (TCCTCCGCTTATTGATATGC) (Gardes and Bruns, 1993). Duplicate PCR reactions were conducted under the conditions outlined in (Caporaso et al., 2011). PCR products were cleaned using an AxyPrep Mag PCR clean-up kit (Axygen Biosciences, Union City, CA). Quality and quantity of the cleaned products were assessed using an Agilent DNA 1000 kit (Agilent Technologies, Santa Cara, CA) and Qubit dsDNA HS Assay Kit (Thermofisher Scientific), respectively. Libraries were pooled in an equimolar fashion prior to sequencing, and paired-end, 300 bp sequencing was performed using Illumina MiSeq (v3). Sequences were processed using R software (R Core Team 2019, version 3.6.1), with the Dada2 package and following the Dada2 ITS-specific pipeline (Callahan et al., 2016). The ITS1 region was extracted using itsxpress for downstream community analysis (Rivers et al., 2018). Unique amplicon sequence variants (ASVs) were identified to the lowest confident taxonomic level using a Na\u00efve Bayesian Classifer from the UNITE ITS database (Wang et al., 2007). Singletons and non-fungal sequences were removed and samples were rarefied to a sequencing depth of 16,803 using the \u2018rrarefy\u2019 function in R (\u2018vegan\u2019 package; Oksanen et al., 2017). Thereafter, amplicon sequence variant (ASV) relative abundance was calculated for each sample. EcM ASVs were identified using the fungal functional group assignment software, FUNGuild (Nguyen et al., 2016). EcM relative abundance was calculated as the sum of the relative abundance of EcM ASVs divided by the sum of all relative abundance ASVs. EcM richness was calculated as the number of EcM ASVs per sample. The corresponding ASV dataset (filename \u201cSCxTS_ASV_taxonomy.csv\u201d) prior to rarefication can be accessed at the location specified in \u201cData Access.\u201d",
+      "Phospholipid fatty acid analysis\nWe estimated the biomass of AM fungi and the ratio of bacterial relative abundance to fungal relative abundance (F:B) from soil samples using phospholipid fatty acid (PLFA) analysis by gas chromatography mass spectroscopy (Microbial ID, Inc. Newark, DE, USA). Previously frozen subsamples were processed using standard methods (Buyer and Sasser, 2012). Peaks for AM fungi (16:1\u03c95) and saprophytic fungi (18:2\u03c96) were identified using the Sherlock System (MIDI, Inc., Newark, DE, USA). Though no method of analyzing fungal biomass and dominance in soil is without limitations (Strickland and Rousk, 2010), we used these metrics to reflect the relative composition of the microbial community along our mycorrhizal gradient.",
+      "Statistical Analysis\nAll statistical analyses were performed using R software (R Core Team 2019, version 3.6.1). We used linear mixed modeling in lme4 (Bates et al., 2015) to predict C:N and fungal community metric responses to EcM basal area, as well as microbial functional responses (potential enzyme activities and CUE) to C:N and fungal community metrics . We used a PCA to calculate and visualize the importance of community metrics: EcM relative abundance explained the most variation along axis 1, while the F:B ratio, explained the most variation along axis 2 (Figure S1, Table S4); Thus, we included EcM relative abundance and F:B as predictors in the linear mixed models for microbial functions. Specifically, linear mixed model predictors included the main effects of C:N ratio, EcM relative abundance, and the F:B ratio, and their interactions with soil horizon. We checked predictors for autocorrelation, and all were less than 0.54. Predictor variables were scaled in order to compare effect sizes among estimates. Given that pH was highly correlated with several of our focal predictors in the EcM basal area models, pH was omitted from microbial function models (Table S3). While we recognize that pH is an important control on microbial community composition, it was not part of the hypotheses; Our intention was to investigate how community composition affects microbial function, which is downstream of the pH effects. We included sample core (i.e. at each plot, the mineral and organic horizon samples come from the same core) as the random effect in each model. We performed model selection by sequentially removing interactions and then predictors with the least significant p value and verifying that the AIC value for the newest model did not increase relative to the previous model (Bolker et al., 2009). We verified model variance homogeneity by plotting model residuals by each of the model predictors at each step of the model selection process, and model normality by plotting model residuals in a histogram. We also analyzed model fit by calculating the marginal and conditional coefficient of variation using the function R.squarredGLMM (Table S4; Barton, 2009). We visualized significant responses by plotting model partial residuals for the response variable by the raw predictor values."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.607421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-09ef733a83cba4b-20200904T145811915",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-09ef733a83cba4b-20200904T145811915",
+        "name": "DNA_SCxTS_meta.csv"
+      },
+      {
+        "contentSize": 1.666015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1770b82e4531695-20200904T133527538",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1770b82e4531695-20200904T133527538",
+        "name": "SCxTS_plfa.csv"
+      },
+      {
+        "contentSize": 43.04296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-066d22ff0e3cf7e-20200904T132034487",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-066d22ff0e3cf7e-20200904T132034487",
+        "name": "SCxTS_DBH.csv"
+      },
+      {
+        "contentSize": 2.5703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-116bfd3b64fe2d1-20200904T180033640",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-116bfd3b64fe2d1-20200904T180033640",
+        "name": "SCxTS_sum_afitch_Feb18_20.csv"
+      },
+      {
+        "contentSize": 1.12890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-11d860df4c8310c-20200904T133254277",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-11d860df4c8310c-20200904T133254277",
+        "name": "Enzyme_soilweight.csv"
+      },
+      {
+        "contentSize": 4.5693359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-41035dbcf13c644-20200904T133429230",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-41035dbcf13c644-20200904T133429230",
+        "name": "hydrolytic_oxidative_raw.csv"
+      },
+      {
+        "contentSize": 15.4990234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e8a8fa22e31a84c-20200904T151717655",
+        "encodingFormat": "text/x-rmarkdown",
+        "identifier": "ess-dive-e8a8fa22e31a84c-20200904T151717655",
+        "name": "ITS_processing.Rmd"
+      },
+      {
+        "contentSize": 46.900390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-690b902f91818fe-20200904T160725856",
+        "encodingFormat": "text/x-rmarkdown",
+        "identifier": "ess-dive-690b902f91818fe-20200904T160725856",
+        "name": "SCxTS_analysis.Rmd"
+      },
+      {
+        "contentSize": 32.3173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5a52652660bde0f-20230407T141725239745",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-5a52652660bde0f-20230407T141725239745",
+        "name": "Soil_microbial_function_and_fungal_community_data_along_an_ectomycorrhizal_basal_area_gradient_Vermont_May_2019.xml"
+      },
+      {
+        "contentSize": 0.2890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4d2e087a0f7945c-20200904T133213659",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4d2e087a0f7945c-20200904T133213659",
+        "name": "incubationtime.csv"
+      },
+      {
+        "contentSize": 1.3212890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4ebd335640712fe-20200904T160944794",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4ebd335640712fe-20200904T160944794",
+        "name": "SCxTS_CUE.csv"
+      },
+      {
+        "contentSize": 6.025390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4f8f0bed619a7d1-20200904T155914177",
+        "encodingFormat": "text/x-rmarkdown",
+        "identifier": "ess-dive-4f8f0bed619a7d1-20200904T155914177",
+        "name": "SCxTS_enzymes.Rmd"
+      },
+      {
+        "contentSize": 0.8955078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-86d11b7c74bcffe-20200904T133328106",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-86d11b7c74bcffe-20200904T133328106",
+        "name": "MUBraw.csv"
+      },
+      {
+        "contentSize": 8.6591796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6cac2599c8a00c1-20200904T180102744",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6cac2599c8a00c1-20200904T180102744",
+        "name": "Enzyme_data.csv"
+      },
+      {
+        "contentSize": 90.7216796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9342f08cc40e3ae-20200910T165901379",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-9342f08cc40e3ae-20200910T165901379",
+        "name": "18O_CUEcalcs_SCxTS_2019.xlsx"
+      },
+      {
+        "contentSize": 0.955078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ba73547d3528edd-20200827T133004858",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-ba73547d3528edd-20200827T133004858",
+        "name": "Organic_CN.csv"
+      },
+      {
+        "contentSize": 0.53125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c4357137356e789-20200904T134220450",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c4357137356e789-20200904T134220450",
+        "name": "SCxTS_metadata.csv"
+      },
+      {
+        "contentSize": 2711.8447265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f2ea0ddf9d32b7e-20200904T145715237",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f2ea0ddf9d32b7e-20200904T145715237",
+        "name": "SCxTS_ASV_taxonomy.csv"
+      }
+    ]
+  }
+}

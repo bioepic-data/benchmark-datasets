@@ -1,0 +1,133 @@
+{
+  "id": "ess-dive-f571b63ae204174-20230424T184336444",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.25573/SERC.21947627",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f571b63ae204174-20230424T184336444",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-b6adbb648953255-20230418T193127514775",
+  "dateUploaded": "2023-04-24T18:43:38.044Z",
+  "dateModified": "2023-04-26T07:00:18.909Z",
+  "isPublic": true,
+  "citation": "Noyce G; Rich R (2023): Methane fluxes from automated chambers, Global Change Research Wetland, Maryland.. Understanding and Modelling Current and Future Coastal Wetland Methane. Dataset. doi:10.25573/SERC.21947627",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.25573/SERC.21947627",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.25573/serc.21947627"
+      }
+    ],
+    "sameAs": [
+      "https://doi.org/10.25573/serc.21947627"
+    ],
+    "name": "Methane fluxes from automated chambers, Global Change Research Wetland, Maryland.",
+    "description": [
+      "This dataset consists CH4 and CO2 fluxes and related environmental data measured from an automated chamber system in the Smithsonian's Global Change Research Wetland (GCReW), a brackish, microtidal wetland side on a subestuary of the Chesapeake Bay. Fluxes were measured in 12 chambers, from May 2021 through December 2022 to determine the real-time responses of CH4 and CO2 fluxes to environmental fluctuations at temporal scales ranging from hourly to seasonally. The chambers are also distributed across a soil warming gradient, ranging from ambient to 6\u00b0C above ambient, that was started in February 2022. The chambers are 1.5 m tall and contain the dominant vegetation species of the site (Schoenoplectus americanus, Spartina patens, and Distichlis spicata). The dataset contains the following files: (1) CH4 and CO2 fluxes from each chamber throughout the measurement period, statistics for each flux, and environmental data (temperature, pressure, humidity) at the time of the flux measurement; (2) 15-minute environmental data for each chamber (e.g. not just during flux measurements); (3) Readme files to explain variable names and sample processing."
+    ],
+    "alternateName": [
+      "https://doi.org/10.25573/serc.21947627"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0423-6478",
+        "givenName": "Genevieve",
+        "familyName": "Noyce",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "noyceg@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0461-7388",
+        "givenName": "Roy",
+        "familyName": "Rich",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "rrich@si.edu"
+      }
+    ],
+    "datePublished": "2023",
+    "keywords": [
+      "Greenhouse gas emissions",
+      "Coastal wetland"
+    ],
+    "variableMeasured": [
+      "Methane flux",
+      "Carbon dioxide flux",
+      "Water level",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL TEMPERATURE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Smithsonian Global Change Research Wetland, Smithsonian Environmental Research Center, Edgewater, MD 21037.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.874586,
+            "longitude": -76.548722
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.874586,
+            "longitude": -76.548722
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-05-05",
+      "endDate": "2022-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0423-6478",
+      "givenName": "Genevieve",
+      "familyName": "Noyce",
+      "affiliation": "Smithsonian Environmental Research Center",
+      "email": "noyceg@si.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "bcc03eb5-77de-4ef6-b5fd-cbf638203bf8"
+      },
+      "name": "Understanding and Modelling Current and Future Coastal Wetland Methane",
+      "member": {
+        "@type": "Person",
+        "givenName": "Genevieve",
+        "familyName": "Noyce",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Smithsonian Institution",
+        "email": "noyceg@si.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Methods used to generate GENX data files (GENX_SD_Export_Waterlevel):\nThese data describe environmental conditions at GENX, located at the Smithsonian Environmental Research Center Global Change Research Wetlands (GCREW).\nInstrumentation and sensors:\nCO2 was measured using K30 sensors.\nAir temperature, air pressure, relative humidity, and volatile organic compounds were measured using Adafruit BME680s.\nSoil temperature was measured using thermistors at 10 cm depth near heating cable pins, 10 cm depth within experimental chambers, 25 cm depth within experimental chambers, and 90 cm depth outside of experimental chambers.\nWater level and associated variables (e.g., conductivity, resistivity, salinity) were collected using In-Situ AquaTROLL 200.\nDay/night variables were calculated using the suncalc package in R.\nData is collected on SD cards using Arduino Mega 2560.\nData is also automatically logged on a CR1000 and sent to LoggerNet.\nBrief description of dataset creation and code:\nThe dataset was assembled using R v4.2.1.\nThe dataset consists of 4 parts:\n1) CO2, BME, and thermistor data from SD cards, collected every ~10s (aggregated to 15 min data)\n2) CO2 data, BME data, thermistor data, and heating treatment checks from LoggerNet, which collects data automatically every minute (aggregated to 15 min data)\n3) Water level data from LoggerNet, collected every 15 min\n4) Derived variables describing temperature across treatments, difference from ambient, etc.\nRange limitations were applied to CO2, BME, and soil temperature data to eliminate erroneous observations.\nWe also cleaned soil temperature data using rolling standard deviations. These variables were also manually cleaned and visualized in JMP 16 afterwards.\nWe joined all datasets and created derived variables. Joins between SD data and LoggerNet data were full joins, so there may be NAs in one dataset for some timestamps.\nSome water level data was missing from GENX, so we took water level data from other sites at GCREW.\nThe code can be found at the \"GENX_share\" GitHub repository: https://github.com/Smithsonian/GENX_share.git",
+      "CH4 and CO2 fluxes were measured using automated chambers connected to an Los Gatos Research Ultraportable Greenhouse Gas Analyzer. Each of the 12 chambers was sampled every 6-12 minutes throughout the length of the dataset. Fluxes were calculated as the linear rate of change of CH4 or CO2 concentration in the chamber headspace over 5-10 minutes."
+    ],
+    "distribution": [
+      {
+        "contentSize": 8.376953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f571b63ae204174-20230424T184336444",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f571b63ae204174-20230424T184336444",
+        "name": "Methane_fluxes_from_automated_chambers_Global.xml"
+      }
+    ]
+  }
+}

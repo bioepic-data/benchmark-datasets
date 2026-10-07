@@ -1,0 +1,200 @@
+{
+  "id": "ess-dive-4cf8ef7d69424a7-20260211T231552467914",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3016908",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-4cf8ef7d69424a7-20260211T231552467914",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-58e632b14cbfb28-20260211T123900477678",
+  "dateUploaded": "2026-02-11T23:15:53.904Z",
+  "dateModified": "2026-02-18T00:00:20.495Z",
+  "isPublic": true,
+  "citation": "Tuftedal M; Grover M; Isenberger C; Couch D; O'Brien J; Zoerner M; Rinke T; Collis S (2025): CROCUS Low Cost All-in-One Weather Station AMB-004 Data Argonne National Laboratory Prairie Site. Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL). Dataset. doi:10.15485/3016908",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3016908",
+    "archivedAt": [
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (HTTP)",
+        "url": "https://tier2.ess-dive.lbl.gov/doi-10-15485-3016908/"
+      },
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (Globus)",
+        "url": "https://app.globus.org/file-manager?destination_id=e1b775d6-0125-11ed-a2da-25ff8664e4e5&destination_path=%2Ftier2%2Fdoi-10-15485-3016908%2F"
+      }
+    ],
+    "name": "CROCUS Low Cost All-in-One Weather Station AMB-004 Data Argonne National Laboratory Prairie Site",
+    "description": [
+      "The Ambient Weather WS-2902D (AMB) is a low cost weather station that has become very useful for filling data gaps in harder to deploy locations. These low cost weather stations collect 13 second data, which is averaged to a five minute data output available to users through an Application Programming Interface (API) key. The data files contain measurements for precipitation, temperature, wind chill/heat index, relative humidity, dew point, UV index, solar radiation, wind speed, wind direction, wind gust, and with an external particulate matter 2.5 (PM 2.5) sensor. Having all of these measurements in one condense system allows for fast deploying and dense network capabilities. Three of the AMB weather stations were deployed at the Argonne Testbed for Multiscale Observational Science (ATMOS), a 20-acre prairie site at Argonne National Laboratory in Lemont, Illinois. The instruments are denoted by their three digit identifier (CMS-AMB-xxx) format. The data is presented as daily NetCDF (.nc) files, each containing approximately 24 hours of observations. Files follow the naming convention of: the project (CROCUS), location (atmos), instrument name (CMS-AMB-004), data level (raw, a1), and date (year, month, day). The NetCDF format can be accessed using common scientific software such as Python using xarray, netCDF4 or ACT-DOE."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1589-6474",
+        "givenName": "Matthew",
+        "familyName": "Tuftedal",
+        "affiliation": "Argonne National Laboratory",
+        "email": "mtuftedal@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0370-8974",
+        "givenName": "Maxwell",
+        "familyName": "Grover",
+        "affiliation": "Argonne National Laboratory",
+        "email": "mgrover@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2006-3514",
+        "givenName": "Cassandra",
+        "familyName": "Isenberger",
+        "affiliation": "Texas Tech University",
+        "email": "cassie.isenberger@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0004-3837-3061",
+        "givenName": "David",
+        "familyName": "Couch",
+        "affiliation": "Central Michigan University",
+        "email": "davidcouch121505@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4655-6912",
+        "givenName": "Joseph",
+        "familyName": "O'Brien",
+        "affiliation": "Argonne National Laboratory",
+        "email": "obrienj@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5913-2006",
+        "givenName": "Magdelyn",
+        "familyName": "Zoerner",
+        "affiliation": "Florida State University",
+        "email": "maggiezoerner@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-4697-0824",
+        "givenName": "Taylor",
+        "familyName": "Rinke",
+        "affiliation": "Central Michigan University",
+        "email": "rinke.taylor@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2303-687X",
+        "givenName": "Scott",
+        "familyName": "Collis",
+        "affiliation": "Argonne National Laboratory",
+        "email": "scollis@anl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION",
+      "Low Cost Weather Station"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > DEW POINT TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > RELATIVE HUMIDITY",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SOLAR RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > ATMOSPHERIC TEMPERATURE INDICES > HEAT INDEX",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > ATMOSPHERIC TEMPERATURE INDICES > WIND CHILL INDEX",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT > 24 HOUR PRECIPITATION AMOUNT",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT > HOURLY PRECIPITATION AMOUNT",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > WIND SPEED",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > WIND DIRECTION",
+      "EARTH SCIENCE > ATMOSPHERE > AEROSOLS > PARTICULATE MATTER",
+      "UV Index"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The Ambient Weather Station (CMS-AMB-004) is located in the \"rain gauge field\" area of the Argonne Testbed for Multiscale Observational Science (ATMOS) in Lemont, IL. The instrument is located on a 2 meter tripod with other low cost instrumentation. The tripod is in an unobstructed location, with the tallest obstruction being a sea shipping container of 3 meters tall approximately 20 meters to the east/southeast.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.7014,
+            "longitude": -87.9955
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.7014,
+            "longitude": -87.9955
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-12-19",
+      "endDate": "2025-10-02",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1589-6474",
+      "givenName": "Matthew",
+      "familyName": "Tuftedal",
+      "affiliation": "Argonne National Laboratory",
+      "email": "mtuftedal@anl.gov"
+    },
+    "citation": [
+      "Ambient Weather, 2022: Ambient Weather WS 2902C User Manual, Version 1.25. Ambient Weather LLC, Chandler AZ. [Available online at https://ambientweather.com/mwdownloads/download/link/id/1174]",
+      "Adam Theisen, Ken Kehoe, Zach Sherman, Bobby Jackson, Max Grover, Alyssa J. Sockol, Corey Godine, Jason Hemedinger, Joe O'Brien, jkyrouac, Israel Silber, Maxwell Levin, Chirag H Shah, Leah D Gibson, & dennyh-ssec. (2025). ARM-DOE/ACT: ACT Release Version 2.2.3 (v2.2.3). Zenodo. https://doi.org/10.5281/zenodo.17194580 https://arm-doe.github.io/ACT/",
+      "Hoyer, S., & Hamman, J. J. (2017). xarray: N-D labeled arrays and datasets in Python. Journal of Open Research Software, 5(1), 10. https://doi.org/10.5334/jors.148"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "e48add86-2fa5-4a04-a530-86906241ebbc"
+      },
+      "name": "Community Research on Climate and Urban Science Urban Integrated Field Laboratory (CROCUS UIFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Cristina",
+        "familyName": "Negri",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Argonne National Laboratory",
+        "email": "negri@anl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The Ambient Weather station is a wifi enabled all-in-one weather station that transmits data every 13 seconds via 915 MHZ radio from the in-situ unit to an indoor interface. The indoor interface collects and transmits data to the larger Ambient Weather Network. Argonne National Lab scraps the data from the Ambient Weather API for the instruments deployed within the CROCUS project using python, github and the API key.",
+      "The Ambient Weather Station is located out in the Argonne Testbed for Multiscale Observational Science (ATMOS) instrument field, on a 2 meter tripod. Each instrument is sited north, following a north arrow and using a compass with a true north inclination. Each instrument is mounted with all measurement components are obstruction free. The Ambient Weather station is powered through AA batteries at night and a solar panel during the day, allowing for continuous observations.",
+      "The data scrapped from the API interface comes in 5 minute data format and is collected by an automated script. The data is then processed to add meta data and convert units to metric standards. Any additional data quality control is not done on this raw dataset.",
+      "The Ambient Weather Stations are paired with an external Ambient Weather PM2.5 sensor, which is located approximately 30 meters away from the individual units, for more appropriate siting. The units are powered by rechargeable batteries that can recharge from the small solar panel mounted on top, but these do contain frequent data drop outs due to this design. Additionally, these sensors are also more sensitive in times of high humidity.",
+      "Due to the API design, any data not scrapped at the time of collection, can not be retroactively obtained. Therefore, there are periods of missing data due to lapses in ingest script operations."
+    ],
+    "distribution": [
+      {
+        "contentSize": 13.4140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4cf8ef7d69424a7-20260211T231552467914",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-4cf8ef7d69424a7-20260211T231552467914",
+        "name": "CROCUS_Low_Cost_All_in_One_Weather_Station_AMB_004_Data_Argonne_National_Laboratory_Prairie_Site.xml"
+      }
+    ]
+  }
+}

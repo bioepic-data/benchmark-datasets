@@ -1,0 +1,373 @@
+{
+  "id": "ess-dive-450be111080f9de-20230626T221519781",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1804896",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-450be111080f9de-20230626T221519781",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-67c73e858364047-20210707T183609160",
+  "dateUploaded": "2023-06-26T22:15:20.042Z",
+  "dateModified": "2023-06-26T22:15:21.964Z",
+  "isPublic": true,
+  "citation": "Zuest F; Castanha C; Lau N; Kueppers L M (2021): Geospatial Data from the Alpine Treeline Warming Experiment (ATWE) on Niwot Ridge, Colorado, USA. Subalpine and Alpine Species Range Shifts with Climate Change: Temperature and Soil Moisture Manipulations to Test Species and Population Responses (Alpine Treeline Warming Experiment). Dataset. doi:10.15485/1804896",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1804896",
+    "name": "Geospatial Data from the Alpine Treeline Warming Experiment (ATWE) on Niwot Ridge, Colorado, USA",
+    "description": [
+      "This is a collection of all GPS- and computer-generated geospatial data specific to the Alpine Treeline Warming Experiment (ATWE), located on Niwot Ridge, Colorado, USA. The experiment ran between 2008 and 2016, and consisted of three sites spread across an elevation gradient. Geospatial data for all three experimental sites and cone/seed collection locations are included in this package.",
+      "\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013",
+      "Geospatial files include cone collection, experimental site, seed trap, and other GPS location/terrain data. File types include ESRI shapefiles, ESRI grid files or Arc/Info binary grids, TIFFs (.tif), and keyhole markup language (.kml) files. Trimble-imported data include plain text files (.txt), Trimble COR (CorelDRAW) files, and Trimble SSF (Standard Storage Format) files. Microsoft Excel (.xlsx) and comma-separated values (.csv) files corresponding to the attribute tables of many files within this package are also included. A complete list of files can be found in this document in the \u201cData File Organization\u201d section in the included Data User's Guide.",
+      "Maps are also included in this data package for reference and use. These maps are separated into two categories, 2021 maps and legacy maps, which were made in 2010. Each 2021 map has one copy in portable network graphics (.png) format, and the other in .pdf format. All legacy maps are in .pdf format. .png image files can be opened with any compatible programs, such as Preview (Mac OS) and Photos (Windows).",
+      "All GIS files were imported into geopackages (.gpkg) using QGIS, and double-checked for compatibility and data/attribute integrity using ESRI ArcGIS Pro. Note that files packaged within geopackages will open in ArcGIS Pro with \u201cmain.\u201d preceding each file name, and an extra column named \u201cgeom\u201d defining geometry type in the attribute table. The contents of each geospatial file remain intact, unless otherwise stated in \u201cniwot_geospatial_data_list_07012021.pdf/.xlsx\u201d. This list of files can be found as an .xlsx and a .pdf in this archive.",
+      "As an open-source file format, files within gpkgs (TIFF, shapefiles, ESRI grid or \u201cArc/Info Binary\u201d) can be read using both QGIS and ArcGIS Pro, and any other geospatial softwares. Text and .csv files can be read using TextEdit/Notepad/any simple text-editing software; .csv\u2019s can also be opened using Microsoft Excel and R. .kml files can be opened using Google Maps or Google Earth, and Trimble files are most compatible with Trimble\u2019s GPS Pathfinder Office software. .xlsx files can be opened using Microsoft Excel. PDFs can be opened using Adobe Acrobat Reader, and any other compatible programs.",
+      "A selection of original shapefiles within this archive were generated using ArcMap with associated FGDC-standardized metadata (xml file format). We are including these original files because they contain metadata only accessible using ESRI programs at this time, and so that the relationship between shapefiles and xml files is maintained. Individual xml files can be opened (without a GIS-specific program) using TextEdit or Notepad. Since ESRI\u2019s compatibility with FGDC metadata has changed since the generation of these files, many shapefiles will require upgrading to be compatible with ESRI\u2019s latest versions of geospatial software. These details are also noted in the \u201cniwot_geospatial_data_list_07012021\u201d file."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "Fabian",
+        "familyName": "Zuest",
+        "affiliation": "University of Zurich",
+        "email": "faebi_@hotmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7327-5169",
+        "givenName": "Cristina",
+        "familyName": "Castanha",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "ccastanha@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3832-6060",
+        "givenName": "Nicole",
+        "familyName": "Lau",
+        "affiliation": "University of California Berkeley",
+        "email": "nicole.hylau@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8134-3579",
+        "givenName": "Lara M.",
+        "familyName": "Kueppers",
+        "affiliation": "University of California Berkeley",
+        "email": "lmkueppers@berkeley.edu"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "EARTH SCIENCE > LAND SURFACE > LANDSCAPE",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY",
+      "ATWE",
+      "Geospatial",
+      "GIS",
+      "cone collection",
+      "experimental site",
+      "shapefile",
+      "raster",
+      "vector",
+      "DEM",
+      "trimble",
+      "GPS",
+      "terrain",
+      "surface",
+      "geopackage",
+      "QGIS",
+      "ArcGIS",
+      "ESRI",
+      "range shift",
+      "climate change",
+      "alpine treeline",
+      "FGDC metadata"
+    ],
+    "variableMeasured": [
+      "Elevation",
+      "Latitude",
+      "Longitude",
+      "Cone count",
+      "Decimal degrees",
+      "DMS",
+      "Snowmelt timing",
+      "GPS precision",
+      "Canopy cover fraction",
+      "Slope",
+      "Aspect"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The ATWE experiment was located in the Front Range of the Colorado Rocky Mountains, at Niwot Ridge. The experiment was conducted at three sites, along a ~480 m elevation gradient. Environments include subalpine forest, treeline ecotone, and alpine tundra.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.05454514,
+            "longitude": -105.594068
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.03654018,
+            "longitude": -105.547757
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Research was conducted within the Alpine Treeline Warming Experiment (ATWE), on Niwot Ridge in the Front Range of the Colorado Rocky Mountains, USA. The lower subalpine site (LSA; 3060 m) is a previously logged forest that has since naturally-regenerated. The site is composed mostly of mature Engelmann spruce (Picea engelmannii) and lodgepole pine (Pinus contorta), with subalpine fir (Abies lasiocarpa) and limber pine (Pinus flexilis) also present. The site has a southeastern aspect, and is located on the lower-elevation edge of the subalpine forest.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0372327984,
+            "longitude": -105.5485367804
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.036677137,
+            "longitude": -105.5474293342
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The upper subalpine site (USA; 3430 m) is located on the upper-elevation edge of the subalpine forest, and is an open meadow surrounded by krummholz mats and flag trees. The site has a south-southwestern aspect, and has the highest snowpack due to snow being blown in and trapped from upwind.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0515289883,
+            "longitude": -105.5810412026
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.051155963,
+            "longitude": -105.5804451819
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The alpine site (ALP; 3540 m) is on Niwot Ridge and is located on a shallow southeastern slope approximately 400 m above timberline. The site is dominated by sedges, forbs, and grasses, and is characterized as an alpine meadow.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.0545378322,
+            "longitude": -105.59426183
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 40.0536736148,
+            "longitude": -105.593352459
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Limber pine (Pinus flexilis), Engelmann spruce (Picea engelmannii), and lodgepole pine (Pinus contorta) cones were collected locally over the years of the experiment. Collection sites were spread across Niwot Ridge, with some cones collected north around the Duck Lake area (near Brainard Lake Rd). Cones were also collected further south: near Rollins Pass, and south of Tolland, CO. Depending on the tree species, cones were collected between approx. 2700 m (~9000 ft) and 3450 m (~11300 ft) elevation.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 40.08694874,
+            "longitude": -105.665421
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 39.87313814,
+            "longitude": -105.51159
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-FG02-07ER64457"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2008",
+      "endDate": "2012",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8134-3579",
+      "givenName": "Lara M.",
+      "familyName": "Kueppers",
+      "affiliation": "University of California Berkeley",
+      "email": "lmkueppers@berkeley.edu"
+    },
+    "citation": [
+      "C. Castanha, M.S. Torn, M. J. Germino, B. Weibel & L. M. Kueppers (2013) Conifer seedling recruitment across a gradient from forest to alpine tundra: effects of species, provenance, and site, Plant Ecology & Diversity, 6:3-4, 307-318, DOI: 10.1080/17550874.2012.716087"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "6b570210-4fc0-4737-a52a-73f3e2875ce1"
+      },
+      "name": "Subalpine and Alpine Species Range Shifts with Climate Change: Temperature and Soil Moisture Manipulations to Test Species and Population Responses (Alpine Treeline Warming Experiment)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Lara",
+        "familyName": "Kueppers",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "University of California-Merced",
+        "email": "lkueppers@ucmerced.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Methods below are reproduced from the data user's guide, which can be found in this archive.\nGPS locations of the three main experimental sites and plots within the Alpine Treeline Warming Experiment (ATWE) were collected using Trimble GPS devices over the summer of 2010, while cone collection locations were collected using a handheld GPS device over multiple years. Points collected using the Trimble were corrected that same autumn (October 2010), and all available geospatial data were translated and imported into vector files via ArcMap in December 2010.\nBounding box shapefiles and additional site-bounding .kml coordinates were created using QGIS between 2020-2021 to complement ATWE-project related data package publication. Alpine site-extent rasters were clipped from Niwot Ridge LTER files, and contours packaged within the ATWE_terrain geopackage were also generated using LTER DEMs (Digital Elevation Models). The DEM and LiDAR files can be found in the Niwot Ridge LTER data catalog, at https://nwt.lternet.edu/data-catalog.\n\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\nData for this research were provided by the Niwot Ridge LTER program (NSF DEB \u2013 1637686).\nThis research benefited from the support and services of UC Berkeley\u2019s Geospatial Innovation Facility (GIF), gif.berkeley.edu."
+    ],
+    "distribution": [
+      {
+        "contentSize": 29444.3115234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0a96e696fe78849-20210701T014525578",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-0a96e696fe78849-20210701T014525578",
+        "name": "ATWE_terrain_xml.zip"
+      },
+      {
+        "contentSize": 298.166015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-09d6af7c50da4b8-20210701T014525568",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-09d6af7c50da4b8-20210701T014525568",
+        "name": "ATWE_experimental_sites_xml.zip"
+      },
+      {
+        "contentSize": 30.6474609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-14c0e5ee3b5620a-20210701T193432736",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-14c0e5ee3b5620a-20210701T193432736",
+        "name": "ATWE_experimental_sites_xlsx.zip"
+      },
+      {
+        "contentSize": 67376.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0607f1bb0cfda80-20210701T013954099",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-0607f1bb0cfda80-20210701T013954099",
+        "name": "ATWE_terrain.gpkg"
+      },
+      {
+        "contentSize": 53.181640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1ea472ffa1c9237-20210701T014525554",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-1ea472ffa1c9237-20210701T014525554",
+        "name": "ATWE_cone_collection_xml.zip"
+      },
+      {
+        "contentSize": 21.052734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-20bbc5c5f41d4ca-20210701T014219017",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-20bbc5c5f41d4ca-20210701T014219017",
+        "name": "ATWE_cone_collection_csv.zip"
+      },
+      {
+        "contentSize": 744.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0e176e9415121f3-20210701T013954093",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-0e176e9415121f3-20210701T013954093",
+        "name": "ATWE_experimental_sites.gpkg"
+      },
+      {
+        "contentSize": 24.833984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3f78b18e5ae3838-20210702T001054291",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "identifier": "ess-dive-3f78b18e5ae3838-20210702T001054291",
+        "name": "niwot_geospatial_data_list_07012021.xlsx"
+      },
+      {
+        "contentSize": 6903.4228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-429606d0d9981f6-20210701T014219009",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-429606d0d9981f6-20210701T014219009",
+        "name": "ATWE_ALP_terrain_GEOTIFF.zip"
+      },
+      {
+        "contentSize": 314.9248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2f98f60a29c1583-20210702T002523276",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-2f98f60a29c1583-20210702T002523276",
+        "name": "niwot_geospatial_data_list_07012021.pdf"
+      },
+      {
+        "contentSize": 17.9755859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-450be111080f9de-20230626T221519781",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-450be111080f9de-20230626T221519781",
+        "name": "Geospatial_Data_from_the_Alpine_Treeline_Warming.xml"
+      },
+      {
+        "contentSize": 4.2314453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-47442bb873931c5-20210701T014219037",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-47442bb873931c5-20210701T014219037",
+        "name": "ATWE_experimental_sites_csv.zip"
+      },
+      {
+        "contentSize": 70.6376953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d51506e895b5940-20210701T014219027",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d51506e895b5940-20210701T014219027",
+        "name": "ATWE_cone_collection_xlsx.zip"
+      },
+      {
+        "contentSize": 492.0,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8fde9c9e81796e9-20210701T013954075",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-8fde9c9e81796e9-20210701T013954075",
+        "name": "ATWE_cone_collection.gpkg"
+      },
+      {
+        "contentSize": 7.5712890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9729c5ba4c999c6-20210701T014218988",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9729c5ba4c999c6-20210701T014218988",
+        "name": "All_ATWE_KMLs.zip"
+      },
+      {
+        "contentSize": 4086.34375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-974ae8ba2be9a04-20210702T205211618",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-974ae8ba2be9a04-20210702T205211618",
+        "name": "ATWE_Geospatial_Data_Users_Guide.pdf"
+      },
+      {
+        "contentSize": 2948.0439453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b7c75e439d886a6-20210701T014219045",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b7c75e439d886a6-20210701T014219045",
+        "name": "ATWE_GPS_TRIMBLE.zip"
+      },
+      {
+        "contentSize": 7743.5048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c2492488487247a-20210701T014218998",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-c2492488487247a-20210701T014218998",
+        "name": "ATWE_ALP_terrain_ESRIgrid.zip"
+      },
+      {
+        "contentSize": 81629.119140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e478a5ad1e7ae12-20210701T014252670",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-e478a5ad1e7ae12-20210701T014252670",
+        "name": "Data_Users_Guide_Maps.zip"
+      }
+    ]
+  }
+}

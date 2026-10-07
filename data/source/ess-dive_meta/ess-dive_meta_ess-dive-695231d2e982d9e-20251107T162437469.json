@@ -1,0 +1,258 @@
+{
+  "id": "ess-dive-695231d2e982d9e-20251107T162437469",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2589266",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-695231d2e982d9e-20251107T162437469",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-695231d2e982d9e-20251107T152824695",
+  "dateUploaded": "2025-11-07T16:24:39.067Z",
+  "dateModified": "2025-11-11T00:01:41.529Z",
+  "isPublic": true,
+  "citation": "Murphy B; Yuan F; Sulman B (2025): Integrating Characteristic Arctic Vegetation in a Land Surface Model Improves Representation of Carbon Dynamics Across a Tundra Landscape: Modeling Archive. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2589266",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2589266",
+    "name": "Integrating Characteristic Arctic Vegetation in a Land Surface Model Improves Representation of Carbon Dynamics Across a Tundra Landscape: Modeling Archive",
+    "description": [
+      "This modeling archive is in support of the Next-Generation Ecosystem Experiments in the Arctic (NGEE Arctic) publication \"Integrating Characteristic Arctic Vegetation in a Land Surface Model Improves Representation of Carbon Dynamics Across a Tundra Landscape\", by Murphy et al. (2025). This archive contains model input files and outputs from landscape-scale simulations conducted using ELM, the land model component of the Department of Energy\u2019s Energy Exascale Earth System Model (E3SM), at the Council NGEE Arctic field site (Council Road mile marker 71) on Alaska\u2019s Seward Peninsula. Input data and model output from two sets of ELM simulations are provided. The first set of simulations were conducted with the two default ELM Arctic plant functional types (PFTs; broadleaf deciduous boreal shrub and a C3 grass) and the second set of simulations were conducted with a set of nine Arctic-specific PFTs including nonvascular mosses and lichens, graminoids, forbs, evergreen dwarf shrubs, three height classes of deciduous shrubs (dwarf, low, and low to tall), and deciduous alder shrubs (Sulman et al., 2021). Parameter names and major parameter changes in the Arctic-specific PFT configuration are described in Sulman et al. (2021) and archived in the Sulman et al. (2021) dataset (see below). Simulations were spatially explicit, covering an approximately 6.4X3.3 km domain at the Council site with a spatial resolution of 100 m for a total of 2,112 simulated grid cells under each ELM PFT configuration.",
+      "The modeling archive contains meteorological forcing (seven *.nc files and one *.txt file), a domain definition file (one *.nc files), land surface configuration files (two *.nc files), parameter files (two *.nc files), annual ELM output files spanning 1980-2014 (68 *.nc files), and a User\u2019s Guide (*pdf file). Additional information on the provided files is in the \u201cModeling Archive Contents\u201d section of the User\u2019s Guide. Model outputs are aggregated to the column scale (i.e. PFT-specific outputs are not provided here).",
+      "The Next-Generation Ecosystem Experiments in the Arctic (NGEE Arctic) project is a research effort to reduce uncertainty in the Department of Energy\u2019s Energy Exascale Earth System Model (E3SM) by developing a predictive understanding of Arctic tundra ecosystems underlain by permafrost and to quantify feedbacks from the Arctic tundra to the Earth system. NGEE Arctic is supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "Over Phases 1\u20133, observations made by the NGEE Arctic team across a gradient of permafrost landscapes in Arctic Alaska improved the representation of tundra processes in the land surface component of E3SM (the E3SM Land Model, ELM). Model improvements emphasized unique aspects of permafrost environments and explored reductions in model complexity while retaining predictive power. The Arctic-informed ELM developed by NGEE Arctic has been used to make novel predictions on processes ranging from permafrost thaw to soil biogeochemical cycling to Earth system feedbacks associated with the unique characteristics of tundra plants.",
+      "In Phase 4, the NGEE Arctic team is evaluating our new predictive understanding under novel conditions across the Arctic domain. In collaboration with partners at long-term pan-Arctic research sites we are examining whether an Arctic-informed ELM can faithfully simulate interactions among surface and subsurface processes at site, regional, and pan-Arctic scales. In turn, we are using variety of tools to dynamically extend and evaluate ELM inference, with an emphasis on data synthesis and pan-Arctic model evaluation, reintegration of code with an evolving E3SM, scaling across heterogeneous Arctic landscapes, and the appropriate representation of the impacts of increasingly frequent Arctic disturbances."
+    ],
+    "alternateName": [
+      "NGEE record_id - NGA702"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0399-5221",
+        "givenName": "Bailey",
+        "familyName": "Murphy",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "murphyba@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0910-5231",
+        "givenName": "Fengming",
+        "familyName": "Yuan",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "yuanf@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3265-6691",
+        "givenName": "Benjamin",
+        "familyName": "Sulman",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "sulmanbn@ornl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE SERVICES> MODELS > DYNAMIC VEGETATION/ECOSYSTEM MODELS",
+      "EARTH SCIENCE SERVICES > MODELS > LAND SURFACE MODELS",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > TERRESTRIAL ECOSYSTEMS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > BIOMASS",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > PRIMARY PRODUCTION",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CARBON"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "This study focused on a 6.4 km \u00d7 3.3 km landscape at the NGEE Arctic Council intensive field site, a large watershed situated at the tundra-forest ecotone underlain with discontinuous permafrost. The Council site is located on the Seward Peninsula of Alaska, USA near mile marker 71 on the Council Road ~120 km northeast of Nome, Alaska. Vegetation is primarily alder-willow shrub and tussock-lichen tundra.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.871434,
+            "longitude": -163.79068
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.834808,
+            "longitude": -163.64941
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1980-01-01",
+      "endDate": "2014-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0399-5221",
+      "givenName": "Bailey",
+      "familyName": "Murphy",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "murphyba@ornl.gov"
+    },
+    "citation": [
+      "Benjamin Sulman, Verity Salmon, Colleen Iversen, Amy Breen, Fengming Yuan, Peter Thornton. 2021. Integrating New Arctic Plant Functional Types in a Land Surface Model Using Above- and Belowground Field Observations: Modeling Archive. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. Dataset. https://doi.org/10.5440/1696794.",
+      "Kao, S.C., Thornton, M., Thornton, P. E., & Shrestha, R. (2024). Gridded Sub-daily Climate Forcings for North America Based on Daymet and GSWP3 (Daymet-GSWP3) [Dataset]. Constellation. https://doi.org/10.13139/OLCF/2373121",
+      "Konduri, S., Breen, A., Hargrove, W., Hoffman, F. M., Iversen, C. M., Salmon, V. G., Ganguly, A. R., & Kumar, J. (2022). Hyperspectral remote sensing-based plant community map for region around NGEE-Arctic intensive research watersheds at Seward Peninsula, Alaska, 2017-2019 [Dataset]. Next-Generation Ecosystem Experiments (NGEE) Arctic, ESS-DIVE repository. https://doi.org/10.5440/1828604",
+      "Murphy, B.A., Sulman, B.N., Yuan, F., Salmon, V.G., Yang, D., Kumar, J., Dengel, S., Herndon, E., Fettrow, S., Brown, C., Torn, M.S., Chafe, O.E., Pegoraro, E.F., Iversen, C.M. Incorporation of Characteristic Arctic Vegetation Types in a Land Surface Model Improves Representation of Spatial Variability in Tundra Carbon Dynamics. Journal of Geophysical Research: Biogeosciences. 2025JG009039 (submitted)",
+      "Sulman, B. N., Salmon, V. G., Iversen, C. M., Breen, A. L., Yuan, F., & Thornton, P. E. (2021). Integrating arctic plant functional types in a land surface model using above- and belowground field observations. Journal of Advances in Modeling Earth Systems, 13, e2020MS002396. https://doi.org/10.1029/2020MS002396"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Simulations were spun up with 200 years of accelerated decomposition (Thornton & Rosenbloom, 2005), followed by 600 years of regular spinup (Koven et al., 2013), repeatedly cycling a fixed climatology to remove the influence of long-term climate trends. Transient simulations were performed from 1850 until 2014, using 1 km \u00d7 1 km gridded sub-daily meteorological data from Daymet-adjusted Global Soil Wetness Project Phase 3 (Daymet-GSWP3; Kao et al., 2024) forcing and rising atmospheric CO2. The 1 km forcing was applied uniformly to all nested 100 m \u00d7 100 m grid cells within each 1 km cell, ensuring consistency between scales while maintaining the intended resolution of vegetation and soil heterogeneity. Land surface data used to initialize ELM includes land cover characterization (vegetated fraction, slope, elevation, maximum fractional saturated area) and soil and vegetation properties (Oleson et al., 2013). Soil properties including vertically resolved soil texture and organic matter content at 250 m \u00d7 250 m were obtained from SoilGrids (https://files.isric.org/soilgrids/latest/data/) and interpolated to 100 m 100 m resolution to match the resolution of the vegetation maps. The fractional coverage of ELM PFTs within vegetation communities, classified as shown in Sulman et al. (2021), were derived from the Konduri et al. (2022) vegetation maps. Additional details about model processes, simulations, and analyses are provided in Murphy et al., (2025). E3SM with modifications for Arctic-specific plant functional types is archived in Sulman et al. (2021)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 7992.3056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-17e8578d77141c7-20251104T160119706922",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-17e8578d77141c7-20251104T160119706922",
+        "name": "GSWP3_daymet4_QBOT_1980-2014_z01.nc"
+      },
+      {
+        "contentSize": 81468117.3359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1fc130f01a3093c-20251104T142132411167",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-1fc130f01a3093c-20251104T142132411167",
+        "name": "ELM_outputs_ArcticPFT.zip"
+      },
+      {
+        "contentSize": 222.240234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-10f2c49d60551d4-20251104T142132325493",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-10f2c49d60551d4-20251104T142132325493",
+        "name": "domain_100mx100m.nc"
+      },
+      {
+        "contentSize": 7992.3056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-35c8ce6c928b687-20251104T160119786891",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-35c8ce6c928b687-20251104T160119786891",
+        "name": "GSWP3_daymet4_TBOT_1980-2014_z01.nc"
+      },
+      {
+        "contentSize": 17909.814453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-44eb4ec58fefc21-20251104T160121263341",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-44eb4ec58fefc21-20251104T160121263341",
+        "name": "surfdata_newpft_100mx100m.nc"
+      },
+      {
+        "contentSize": 83.91015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6417cdad92189f5-20251104T142128946704",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-6417cdad92189f5-20251104T142128946704",
+        "name": "clm_params_c180524.nc"
+      },
+      {
+        "contentSize": 41853638.572265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d9a65097792577c-20251104T142813695178",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-d9a65097792577c-20251104T142813695178",
+        "name": "ELM_outputs_defaultPFT.zip"
+      },
+      {
+        "contentSize": 15.75,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-695231d2e982d9e-20251107T162437469",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-695231d2e982d9e-20251107T162437469",
+        "name": "Integrating_Characteristic_Arctic_Vegetation_in_a.xml"
+      },
+      {
+        "contentSize": 196.5068359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-85dc3c2025ffce8-20251104T142129089150",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-85dc3c2025ffce8-20251104T142129089150",
+        "name": "Data_Users_Guide_Council_ELM_output.pdf"
+      },
+      {
+        "contentSize": 7992.3056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6be34ec84645f85-20251104T160117356310",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-6be34ec84645f85-20251104T160117356310",
+        "name": "GSWP3_daymet4_FLDS_1980-2014_z01.nc"
+      },
+      {
+        "contentSize": 7992.3056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-73df58f19117d5c-20251104T160119628972",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-73df58f19117d5c-20251104T160119628972",
+        "name": "GSWP3_daymet4_PSRF_1980-2014_z01.nc"
+      },
+      {
+        "contentSize": 7992.3056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a879c105b9bc9c8-20251104T160121073315",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-a879c105b9bc9c8-20251104T160121073315",
+        "name": "GSWP3_daymet4_WIND_1980-2014_z01.nc"
+      },
+      {
+        "contentSize": 7992.3095703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-914aad9e881164c-20251104T160117529313",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-914aad9e881164c-20251104T160117529313",
+        "name": "GSWP3_daymet4_PRECTmms_1980-2014_z01.nc"
+      },
+      {
+        "contentSize": 79.46484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-92414df8bc66107-20251104T142129052778",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-92414df8bc66107-20251104T142129052778",
+        "name": "clm_params_c180524-sub12_updated2020b.nc"
+      },
+      {
+        "contentSize": 15484.314453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-958cf52c8f9381a-20251104T160121159107",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-958cf52c8f9381a-20251104T160121159107",
+        "name": "surfdata_arcticpft_100mx100m.nc"
+      },
+      {
+        "contentSize": 1.37109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bbc2a1d1a4e6041-20251104T160123630878",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-bbc2a1d1a4e6041-20251104T160123630878",
+        "name": "zone_mappings.txt"
+      },
+      {
+        "contentSize": 7992.3056640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-afe068e0e6f4d21-20251104T160117445141",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-afe068e0e6f4d21-20251104T160117445141",
+        "name": "GSWP3_daymet4_FSDS_1980-2014_z01.nc"
+      }
+    ]
+  }
+}

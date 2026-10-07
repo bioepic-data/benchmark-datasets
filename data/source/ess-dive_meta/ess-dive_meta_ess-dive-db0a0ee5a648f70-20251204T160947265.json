@@ -1,0 +1,188 @@
+{
+  "id": "ess-dive-db0a0ee5a648f70-20251204T160947265",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2569197",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-db0a0ee5a648f70-20251204T160947265",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-db0a0ee5a648f70-20251202T180436539",
+  "dateUploaded": "2025-12-04T16:09:48.040Z",
+  "dateModified": "2025-12-05T00:31:04.212Z",
+  "isPublic": true,
+  "citation": "Rathore S; Herndon E; Gomez-Velez J; Painter S (2025): Hydrologic Model Data for the East Fork Poplar Creek Watershed Simulated with the Advanced Terrestrial Simulator (ATS): Streamflow and Network Expansion\u2013Contraction Dynamics. Watershed Dynamics and Evolution (WaDE) SFA. Dataset. doi:10.15485/2569197",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2569197",
+    "name": "Hydrologic Model Data for the East Fork Poplar Creek Watershed Simulated with the Advanced Terrestrial Simulator (ATS): Streamflow and Network Expansion\u2013Contraction Dynamics",
+    "description": [
+      "This dataset supports hydrologic modeling and stream network expansion\u2013contraction analysis for the East Fork Poplar Creek (EFPC) Watershed in Tennessee. It includes a Jupyter notebook for model setup, model configuration files, simulation outputs, and derived products used to evaluate model performance and investigate stream dynamics under varying hydrologic conditions. The dataset was generated using the Watershed Workflow Python package and the Advanced Terrestrial Simulator (ATS), enabling integrated surface\u2013subsurface hydrologic simulations using a stream-aligned mesh. Outputs include high-resolution time series of streamflow, active network length, water table depth, and related hydrologic variables. Also included are spatially explicit stream persistency indices and classifications of reaches as perennial or non-perennial. These data facilitate reproducibility and support further research on stream intermittency and variability in network extent.",
+      "The model data archive is organized in following directories:",
+      "1) model_setup_inputs",
+      "Contains the Watershed Workflow Jupyter notebooks (accessed through any open source code editor), selected input datasets, and resulting ATS input files, including XML files (access through any open source code editor), computational mesh (.exo files can be viewed using Paraview), and meteorological forcing files (.h5 files can be accessed through h5py python package and HDFView open source software).",
+      "2) model_outputs",
+      "Includes ATS simulation outputs relevant to this study. Time series of spatially integrated or averaged variables (e.g., streamflow, water table depth) are provided as CSV files. Select spatial fields (e.g., ponded depth and water table depth) are saved as pickled Python objects to reduce file size, and can be accessed through pickle package in Python. Key geometry objects from Watershed Workflow\u2014such as the surface mesh and river tree\u2014are also included to support analysis of streamflow persistency and expansion\u2013contraction dynamics. These files can also be accessed through Watershed Workflow Python package.",
+      "3) model_evaluation",
+      "Provides observed streamflow time series and field survey-based flow regime classifications used to evaluate model performance. Jupyter notebooks for processing ATS outputs and comparing model predictions with observations to build confidence in the model prior to scientific analysis are also included.",
+      "4) Q_L_relationships",
+      "Contains workflows for generating time series of discharge, active network length, and related hydrologic variables used in the stream network expansion\u2013contraction analysis. Includes routines for delineating baseflow-dominated periods. For each catchment, notebooks and processed data (as pickled DataFrames accessed through Pandas Python package) are provided.",
+      "5) figure_scripts",
+      "Provides the Jupyter notebooks used to generate the figures presented in the paper."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0469-2959",
+        "givenName": "Saubhagya",
+        "familyName": "Rathore",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "rathoress@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9194-5493",
+        "givenName": "Elizabeth",
+        "familyName": "Herndon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "herndonem@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8045-5926",
+        "givenName": "Jesus",
+        "familyName": "Gomez-Velez",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "gomezvelezjd@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0901-6987",
+        "givenName": "Scott",
+        "familyName": "Painter",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "paintersl@ornl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "ESS-DIVE Model Data Archiving Guidelines"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW > PEAK FLOW",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW > BASE FLOW",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUND WATER FEATURES > WATER TABLE > WATER TABLE DEPTH",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > FRESHWATER ECOSYSTEMS > RIVERS/STREAM > PERENNIAL STREAM/RIVER",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > FRESHWATER ECOSYSTEMS > RIVERS/STREAM > EPHEMERAL STREAM",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > FRESHWATER ECOSYSTEMS > RIVERS/STREAM > HEADWATER STREAM",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > FRESHWATER ECOSYSTEMS > RIVERS/STREAM > INTERMITTENT STREAM"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "East Fork Poplar Creek watershed in Tennessee River Basin.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 36.03109596605301,
+            "longitude": -84.38759818505369
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 35.925567049273454,
+            "longitude": -84.22812845842427
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2013-10-01",
+      "endDate": "2020-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0469-2959",
+      "givenName": "Saubhagya",
+      "familyName": "Rathore",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "rathoress@ornl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "79a70ddf-4e6d-41b5-a343-a0bb6369d1f3"
+      },
+      "name": "Watershed Dynamics and Evolution (WaDE) SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eric",
+        "familyName": "Pierce",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "pierceem@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Using the Watershed Workflow package, generate model input files for integrated hydrology simulation in ATS. This includes:\n- ATS input files\n- mesh\n- meteorological forcings (Daymet)\n- MODIS LAI",
+      "Run ATS-integrated hydrology simulations at daily and hourly resolution.\n- steady-state spinup\n- transient cyclic spinup\n- transient run (production run)",
+      "Post-process ATS outputs using Python:\n- generate Stream Persistency Index (SPI)\n- estimate active network length time series",
+      "- delineate events\n- separate baseflow\n- develop and analyze relationships between active network length and discharge for baseflow period and events."
+    ],
+    "distribution": [
+      {
+        "contentSize": 14609065.357421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3f74e55e6b3961c-20251111T164858303992",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-3f74e55e6b3961c-20251111T164858303992",
+        "name": "model_setup_inputs.zip"
+      },
+      {
+        "contentSize": 10.8251953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-db0a0ee5a648f70-20251204T160947265",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-db0a0ee5a648f70-20251204T160947265",
+        "name": "Hydrologic_Model_Data_for_the_East_Fork_Poplar.xml"
+      },
+      {
+        "contentSize": 57.6845703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-660a1c597c72446-20251122T100756102",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-660a1c597c72446-20251122T100756102",
+        "name": "model_data_overview.pdf"
+      },
+      {
+        "contentSize": 5521.6904296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-73141e26c3d586f-20251023T121317645",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-73141e26c3d586f-20251023T121317645",
+        "name": "Q_L_relationships.zip"
+      },
+      {
+        "contentSize": 18454987.341796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8cc5be94930584d-20251111T164809848571",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8cc5be94930584d-20251111T164809848571",
+        "name": "model_outputs.zip"
+      },
+      {
+        "contentSize": 19830.59375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8cf8322e4c27091-20251023T121237893",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-8cf8322e4c27091-20251023T121237893",
+        "name": "figure_scripts.zip"
+      }
+    ]
+  }
+}

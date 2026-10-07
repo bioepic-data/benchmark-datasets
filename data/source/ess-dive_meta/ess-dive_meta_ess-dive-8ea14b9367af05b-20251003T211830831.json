@@ -1,0 +1,582 @@
+{
+  "id": "ess-dive-8ea14b9367af05b-20251003T211830831",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2583150",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-8ea14b9367af05b-20251003T211830831",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-8ea14b9367af05b-20251002T180912895",
+  "dateUploaded": "2025-10-03T21:18:33.399Z",
+  "dateModified": "2025-10-11T00:02:02.747Z",
+  "isPublic": true,
+  "citation": "Patel K; Malhotra A; Norris C; McKever S; Fields D; Musci J; Bandopadhyay S; Bond-Lamberty B; Chen X; Day D; Doro K; Fluet-Chouinard E; Garcia M; Kemner K; Machado-Silva F; McDowell N; Morris K; Myers-Pigg A; O'Loughlin E; O'Meara T; Peixoto R; Pennington S; Regier P; Rich R; Rod K; Sulman B; Thornton P; Ward N; Wilson S; Weintraub M; Megonigal J P; Bailey V (2025): COMPASS-FME Synoptic Site Characterization. COMPASS-FME. Dataset. doi:10.15485/2583150",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2583150",
+    "name": "COMPASS-FME Synoptic Site Characterization",
+    "description": [
+      "This dataset contains soil biogeochemical and physicochemical characterization data for the COMPASS-FME synoptic sites.",
+      "This dataset also contains data for the paper Patel et al. 2025 \"Transition zones at the changing coastal terrestrial-aquatic interface\", https://doi.org/10.1029/2025JG008978.",
+      "Coastal soils are a significant but highly uncertain component of global biogeochemical cycles. These systems experience unique spatial and temporal variability in biogeochemical processes, driven by wetland-to-upland gradients and hydrological fluctuations. We studied drivers of coastal soil variability (a) at regional scales and (b) across transects from upland forest to wetland, in two contrasting regions \u2014 Lake Erie, a freshwater lacustrine system, and Chesapeake Bay, a saltwater estuarine system. Salinity-related analytes were a key driver of soil variability, not just in the saltwater system, but surprisingly, also in the freshwater system. We had hypothesized linear trends in biogeochemical parameters along the TAI \u2013 however, contrary to expectations, transition soils were not consistently intermediate between upland and wetland endmembers; the non-monotonic trends of carbon, phosphorus, iron along our transects suggest that these are key analytes to study in our regions. Rapidly changing soil factors across coastal gradients provide insights into which soil processes may act as precursors to ecosystem shifts. Our comprehensive soil characterization across the coastal transects provides essential data for mechanistic modeling of ecosystem dynamics.",
+      "The data are provided as processed, csv files. Raw data and processing scripts can be accessed on GitHub (https://github.com/COMPASS-DOE/cmps-soil_characterization).",
+      "A note on the nomenclature: the experimental design represents three points along the coastal gradient -- upland, transition, and wetland. \"wetland\" is referred to as \"marsh\" in the corresponding paper. The two terms can be used interchangeably for the sites in this study."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6437-7809",
+        "givenName": "Kaizad",
+        "familyName": "Patel",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "kaizad.patel@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Avni",
+        "familyName": "Malhotra",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "avni.malhotra@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Cooper",
+        "familyName": "Norris",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "coopernorris@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophia",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "sophia.mckever@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Devon",
+        "familyName": "Fields",
+        "affiliation": "California State Polytechnic University, Humboldt, Arcata, California",
+        "email": "devonmfields@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jared",
+        "familyName": "Musci",
+        "affiliation": "Ohio State University, Columbus, Ohio",
+        "email": "musci.10@outlook.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sreejata",
+        "familyName": "Bandopadhyay",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "sreejata.bandopadhyay@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ben",
+        "familyName": "Bond-Lamberty",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "BondLamberty@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "Xingyuan.Chen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Donnie",
+        "familyName": "Day",
+        "affiliation": "University of Toledo, Toledo, Ohio",
+        "email": "Donnie.Day@rockets.utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kennedy",
+        "familyName": "Doro",
+        "affiliation": "University of Toledo, Toledo, Ohio",
+        "email": "kennedy.doro@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Etienne",
+        "familyName": "Fluet-Chouinard",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "etienne.fluet@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Marci",
+        "familyName": "Garcia",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "marci.garcia@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kenneth",
+        "familyName": "Kemner",
+        "affiliation": "Argonne National Laboratory, Lemont, Illinois",
+        "email": "kemner@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Fausto",
+        "familyName": "Machado-Silva",
+        "affiliation": "University of Toledo, Toledo, Ohio",
+        "email": "fausto.silva@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nate",
+        "familyName": "McDowell",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "nate.mcdowell@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kendalynn",
+        "familyName": "Morris",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "kendalynn.morris@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Allison",
+        "familyName": "Myers-Pigg",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "allison.myers-pigg@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Edward",
+        "familyName": "O'Loughlin",
+        "affiliation": "Argonne National Laboratory, Lemont, Illinois",
+        "email": "oloughlin@anl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Teri",
+        "familyName": "O'Meara",
+        "affiliation": "Oak Ridge National Laboratory, Oak Ridge, Tennessee",
+        "email": "omearata@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Roberta",
+        "familyName": "Peixoto",
+        "affiliation": "University of Toledo, Toledo, Ohio",
+        "email": "roberta.bittencourtpeixoto@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stephanie",
+        "familyName": "Pennington",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "stephanie.pennington@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Peter",
+        "familyName": "Regier",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "peter.regier@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Roy",
+        "familyName": "Rich",
+        "affiliation": "Smithsonian Environmental Research Institute, Edgewater, Maryland",
+        "email": "richr@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kenton",
+        "familyName": "Rod",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "kenton.rod@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Benjamin",
+        "familyName": "Sulman",
+        "affiliation": "Oak Ridge National Laboratory, Oak Ridge, Tennessee",
+        "email": "sulmanbn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Peter",
+        "familyName": "Thornton",
+        "affiliation": "Oak Ridge National Laboratory, Oak Ridge, Tennessee",
+        "email": "thorntonpe@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Nicholas",
+        "familyName": "Ward",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "nicholas.ward@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stephanie",
+        "familyName": "Wilson",
+        "affiliation": "Smithsonian Environmental Research Institute, Edgewater, Maryland",
+        "email": "WilsonSJ@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Michael",
+        "familyName": "Weintraub",
+        "affiliation": "University of Toledo, Toledo, Ohio",
+        "email": "Michael.Weintraub@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "J. Patrick",
+        "familyName": "Megonigal",
+        "affiliation": "Smithsonian Environmental Research Institute, Edgewater, Maryland",
+        "email": "megonigalp@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > OCEANS > COASTAL PROCESSES",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Crane Creek (CRC). one of COMPASS-FME synoptic sites within the Crane Creek lacustuary region of southwestern Lake Erie, 9.25 miles (14.9 km) northwest of Oak Harbor, Ohio. This site is owned by the USFWS and managed as a part of the Ottawa National WIldlife Refuge complex. This site consists of three plots: upland (\"UP\"; located at 41.6153N, 83.2297W), transition (\"TR\"; 41.6219N, 83.2381W), and wetland (\"W\"; 41.6219N, 83.2389W). This site was established in December 2021.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.6152,
+            "longitude": -83.2289
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.6152,
+            "longitude": -83.2289
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Portage River (PTR). one of COMPASS-FME synoptic sites located on the shoreline of the Portage River lacustuary of southwestern Lake Erie, at the confluence of the Portage and Little Portage rivers, 5.25 miles (8.5 km) east of Oak Harbor, Ohio. This site is owned by the USFWS and managed as a part of the Ottawa National Wildlife Refuge complex. This site consists of three plots: upland (\"UP\"; located at 41.5015N, 83.0461W), transition (\"TR\"; 41.5020N, 83.0456W), and wetland (\"W\"; 41.5016N, 83.0444W). The site was established in December 2021.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.5015,
+            "longitude": -83.0461
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.5015,
+            "longitude": -83.0461
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Old Woman Creek (OWC). one of COMPASS-FME synoptic sites located within the Old Woman Creek lacustuary, 2.8 miles (4.5km) east of Huron, Ohio. This site is owned by the Ohio Department of Natural Resources (ODNR), managed by ODNR\u2019s Division of Natural Areas & Preserves as Old Woman Creek National Estuarine Research Reserve. This site consists of four plots: upland (\"UP\"; located at 41.3763N, 82.5070W), transition (\"TR\"; 41.3758N, 82.5063W), wetland transition edge (\"WTE\"; 41.3760N, 82.5071W), and wetland (\"W\"; 41.3761N, 82.5078W). The site was established in December 2021.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 41.3762,
+            "longitude": -82.5068
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 41.3762,
+            "longitude": -82.5068
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Global Change Research Wetland (GCW). one of COMPASS-FME synoptic sites, and has three plots: upland (\"UP\"; located at 38.8741N, 76.5522W), transition (\"TR\"; 38.8745, 76.5515W), and wetland (\"W\"; 38.8750N, 76.5500W). Note that this site overlaps spatially with the TEMPEST (TMP) plots, the upland portion of the transect overlaps with the TEMPEST experiment control plot. This transect spans a mid- to late-successional (~80 years old) temperate, deciduous coastal forest and a mesohaline marsh along the Rhode River in Edgewater, MD.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.8744,
+            "longitude": -76.5517
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.8744,
+            "longitude": -76.5517
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Moneystump Marsh (MSM). one of COMPASS-FME synoptic sites located in the Blackwater National Wildlife Refuge along the mesohaline Beaverdam Creek. This synoptic site consists of three plots: upland (\"UP\"; located at 38.4315N, 76.2267W), transition (\"TR\"; 38.4310N, 76.2277W), and wetland (\"W\"; 38.4308N, 76.2286W). The site was established in June 2022. The transect spans a coastal loblolly pine forest and a mesohaline marsh dominated by Spartina and Distichlis.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.4308,
+            "longitude": -76.2262
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.4308,
+            "longitude": -76.2262
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Goodwin Islands (GWI). one of COMPASS-FME synoptic sites, and has three plots: upland (\"UP\"; located at 37.2192N, 76.4087W), transition (\"TR\"; 37.2194N, 76.4092W), and wetland (\"W\"; 37.2189N, 76.4101W). The site was established in June 2022.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 37.2193,
+            "longitude": -76.4085
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 37.2193,
+            "longitude": -76.4085
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-12-06",
+      "endDate": "2022-08-23",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6437-7809",
+      "givenName": "Kaizad",
+      "familyName": "Patel",
+      "affiliation": "Pacific Northwest National Laboratory, Richland, Washington",
+      "email": "kaizad.patel@pnl.gov"
+    },
+    "citation": [
+      "Patel et al. 2025. \"Transition zones at the changing coastal terrestrial-aquatic interface\". https://doi.org/10.1029/2025JG008978."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a688a033-da45-46ad-b72b-d6fef5139a9c"
+      },
+      "name": "COMPASS-FME",
+      "member": {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "2.1 Site description\nThis research was conducted at six sites in the Chesapeake Bay and the Western Lake Erie Basin (Figure 1A). These two regions were selected because of their extensive coastlines and contrasting TAI systems \u2014 Lake Erie represents a freshwater, lacustrine coastal system, whereas Chesapeake Bay represents an estuarine coastal system. As such, these regions help us understand biogeochemical processes occurring in contrasting environments, including different salinities, hydroperiods, land use histories, and nutrient loads. All of our sites are characterized by shallow elevation gradients from healthy upland forest, through a transitional zone with a mix of live and dying and dead trees (ghost forests), to a coastal marsh, with coastal surface waters connected to the lake or estuary. These gradients, including the presence of ghost forests, are ubiquitous in low-lying TAIs in both the Great Lakes and the Mid-Atlantic. Specific sites, transects, and zones were chosen based on criteria that included hypothesis testing and logistical considerations. In Chesapeake Bay the primary criterion for sites was the salinity of the adjacent estuary, while in Lake Erie it was soil mineralogy (see below). Chief among secondary criteria was site access and security to support extensive monitoring equipment for related aspects of the present study. All sites were deemed sufficiently representative of their respective regions based on local expert knowledge.\n2.1.1 Lake Erie:\nWestern Lake Erie is the most dynamic part of the lake because it is the shallowest region and receives the largest inflows of water, sediments, and nutrients from the Detroit, Maumee, Sandusky, and other rivers (Moorhead et al., 2008). The TAI across this region has coastal marshes surrounded by tile-drained agricultural lands. Coastal marshes are located within conservation areas dominated by native and invasive herbaceous species (Herdendorf et al., 2006), shrubs and broadleaf trees.\nIn the Western Lake Erie region, we selected three sites that span an east-west gradient in soil mineralogy, allowing us to examine how soil water retention affects biogeochemical and ecological processes. Old Woman Creek (OWC), the furthest-east site, is in the western edge of Lake Erie\u2019s Central Basin and has better drained soils containing more sand than the more clayey soils of Portage River (PTR) and Crane Creek (CRC) in the Western Basin. The Erie soils were all Entisols, Inceptisols or Alfisols with surface A horizons and no O horizons. The soil order and horizon type efficiently capture and summarize features such as texture, organic matter content, chemical characteristics, and site history that strongly influence the ecology and biogeochemical properties of our systems. This information is also the basic contextual data necessary to build a transferable understanding of coastal soils. All three sites are considered to be within the Huron-Erie Lake Plains Ecoregion and consist of poorly drained, glacial and lacustrine deposits overlying Silurian and Devonian carbonate bedrock (Ehosioke et al., 2024; Ohio, 2012). Glacial advance and retreat during the late Wisconsinan glacial period have caused this region to be primarily flat and uniform. Elevation gradients are relatively shallow (Table 1), potentially inhibiting groundwater discharge into adjacent coastal marshes, although this may vary between sites in fine-textured soils that retain water (PTR and CRC) and better-drained sandy soils (OWC). Terrestrial habitats in the OWC Reserve are former agricultural fields in various stages of succession and hardwood forests (Herdendorf et al., 2006).\n2.1.2 Chesapeake Bay:\nThe Chesapeake Bay is one of the largest estuaries in the world, with 18,804 km of convoluted, fractal shoreline arising from its origin as a drowned river valley. The western shore of the Chesapeake Bay has relatively steep topographic gradients, fine-textured soils, and broad-leaf forests in contrast to the eastern shore which is relatively flat with sandy soils and evergreen forests (Lowrance et al., 1997; Maryland-DNR, 2015). Similar contrasts in topography, soils, and dominant tree species exist on the western shore with subestuaries near the head of the Bay or headwaters of major tributaries having relatively steeper topography, finer soils, and broadleaved vegetation. The Chesapeake Bay has over 100 subestuaries, which have relatively shallow bathymetry and have high ratios of TAI shoreline to estuarine water volume, resulting in strong TAI coupling. These systems are hotspots of biological and biogeochemical activity; are sensitive to extreme rainfall events that transport nearly the entire annual load of nutrient-laden sediments from land into the Chesapeake Bay (Jordan et al., 1997; Palinkas et al., 2014); and are also where the impacts of storm surges and sea level rise are most severe (Noe et al., 2020).\nIn the Chesapeake Bay, we selected three sites along the Bay\u2019s surface water salinity gradient that range from oligo- to meso-haline (Global Change Research Wetland, GCW and Moneystump Marsh, MSM), and polyhaline (Goodwin Islands, GWI). The two mesohaline sites differ in their geomorphic setting with GCW located on the western shore and MSM on the eastern shore. The two western shore sites also differ with GCW toward the head of the Bay and GWI toward the mouth of the Bay. The GCW soils were Inceptisols and Ultisols under deciduous vegetation with surface A horizons and relatively poorly developed O horizons. By contrast, the other two Chesapeake sites were Ultisols under pine vegetation, with well-developed surface O horizons. The Chesapeake marshes in this study are tidal marshes dominated by C3 sedges and C4 grasses, with root-dominated Oe horizons for the top 20 inches.",
+      "2.2 Transect design and soil sampling\nEach site was characterized by a distinct elevation gradient (Figure 1B) across which we established a transect for soil and vegetation sampling. The transect consisted of three distinct zones: upland forest with relatively deep water tables, dry soils, healthy trees, and oxic soils; transitional forest with occasional inundation due to storm surges and extreme high tides, and characterized by higher water tables, periods of hypoxic or anoxic soils, and stressed or dead trees (ghost forests); and marsh, which is characterized by long periods of soil saturation or flooding, dominantly anoxic soils, and herbaceous plant species adapted to such conditions. The upland-to-marsh transects spanned 100-200 m in length across the six sites, except for CRC, at 1000 m (Tables 1, 2, Appendix A1).\nSoils were sampled from all Erie sites in December 2021 and from Chesapeake sites MSM-GWI in May 2022 and from Chesapeake site GCW in September 2022. Samples were collected across the three transect locations for each site. At each transect location, soil samples were collected from 8-9 spatially distributed, discrete locations over an area of 200-1000 m2, to account for spatial variability. Samples were collected from the surface (O or A horizon, top 5-10 cm). The samples were shipped to the laboratory on blue ice and kept refrigerated at 4 \u00b0C until ready for processing and analysis.",
+      "2.3 Laboratory processing, extractions, and analyses\nIn the laboratory, the soil samples were sieved and homogenized (4 mm mesh for A and B horizons, 6 mm mesh for O horizons). The marsh samples from CB had extremely high root content and were therefore not sieved. All samples were then processed and extracted for the various analyses described below. These analyses are also summarized in Appendix A2.\nGravimetric water content was determined by drying field-moist samples for 24 hours (105 \u00b0C for A and B horizons and 60 \u00b0C for O horizons). Gravimetric water content was calculated as the percentage weight loss following drying, normalized to oven-dry weight.",
+      "Exchangeable base cations (Ca, Mg, Na, K) and acid cations (Al) were extracted using 1 M NH4Cl (1:5 w:v ratio). Samples were shaken with the extracting solution at 200 rpm for 1 hour, followed by centrifuging at 7000 rcf and 20 \u00b0C for 15 minutes, and then vacuum-filtering using B\u00fcchner funnels with Whatman 42 filter paper. The elemental concentrations were measured using ICP-OES (PerkinElmer Optima 8300) and normalized to the dry weight of soil used. Effective cation exchange capacity (meq/100g soil) was calculated as the sum of charges for Ca, Mg, Na, K, and Al.",
+      "Organic matter (OM) content was determined using the loss on ignition method. Oven-dry samples were combusted in a muffle furnace at 450 \u00b0C for 12 hours. Organic matter content was calculated as the percentage weight loss following combustion, normalized to oven-dry weight.",
+      "Total C, N, S were determined on freeze-dried samples by catalytic combustion using elemental analyzers VarioMax Cube (total C, N) and Rapid CS Cube (total S) (Elementar Analysensysteme GmbH).",
+      "pH and specific conductance were determined by shaking freeze-dried soil with deionized MilliQ water (1:10 w:v) for 30 minutes and then measuring with a Milwaukee MW802 PRO probe.",
+      "Extractable inorganic N (NH4-N and NO3-N) was obtained by shaking soil samples with 2 M KCl (1:5 w:v ratio) at 200 rpm for 1 hour, followed by centrifuging at 7000 rcf and 20 \u00b0C for 15 minutes, and then vacuum-filtering using B\u00fcchner funnels with Whatman 42 filter paper. NH4-N was measured using a Lachat FIA QuikChem and NO3-N was measured colorimetrically using Griess reagent at the Oregon State University Soil Analytical Laboratory. Water extractable organic C (WEOC) was obtained by shaking soil with deionized MilliQ water (1:5 w:v ratio) at 200 rpm for 1 hour, followed by centrifuging at 7000 rcf and 20 \u00b0C for 15 minutes, and then filtering using 0.45 \u03bcm PES syringe filters. WEOC was measured as non-purgeable organic carbon (NPOC) using a Shimadzu TOC-L analyzer. These water extracts were also used for WEIC (water extractable inorganic carbon) measurements (Shimadzu TOC-L) and water-extractable anion measurements for chloride and sulfate (Dionex ICS-3000 chromatograph).",
+      "Extractable phosphorus was obtained by shaking soil samples with Mehlich-III reagent (1:5 w/v ratio) at 200 rpm for 1 hour, followed by centrifugation at 7000 rcf and 20 \u00b0C for 15 minutes. The supernatant was pipetted out and analyzed for ortho-phosphate colorimetrically using the Murphy-Riley ascorbic acid method (ammonium molybdate + antimony potassium tartrate + ascorbic acid), with absorbance measured at 880 nm on a plate reader (Mehlich, 1984).",
+      "Extractable iron was obtained by shaking soil samples with 0.5 M HCl (1:10 w/v ratio) at 200 rpm for 1 hour, followed by centrifuging at 7000 rcf and 20 \u00b0C for 15 minutes. The supernatant was pipetted out and analyzed for iron colorimetrically using the ferrozine method (ferrozine reagent + 10 % ascorbic acid), with absorbance measured at 562 nm on a plate reader (Huang and Hall, 2017; Viollier et al., 2000).",
+      "Mineralogy was determined using x-ray diffraction (XRD) analysis at the Environmental Molecular Sciences Laboratory (EMSL). Samples were freeze-dried and then ground in a ball mill. The quantitative X-ray diffraction patterns (QXRD) of bulk samples were collected from powders packed into zero-background well holders using a Rigaku SmartLab SE diffractometer, employing a Bragg-Brentano geometry with a Cu X-ray source (\u03bb = 1.5418 \u00c5), a variable divergence slit, and a high-speed D/teX Ultra 250 1D detector. The samples were scanned between 2 and 100 \u00b02\u03b8 at intervals of 0.01 \u00b02\u03b8, scanning at 2 \u00b02\u03b8/min. The proportion of minerals was quantified by the Rietveld method using TOPAS (v6, Bruker AXS). This method combines calculated XRD patterns from the substituent minerals to provide the best fit with the observed pattern. For each mineral the scale factor, cell parameters (constrained within ca. 0.5% of the expected values), and crystallite size (constrained between 50 and 500 nm) were refined. For platy minerals (e.g., mica minerals), a preferred orientation correction was also refined. The scale factors from the Rietveld refinement were used to determine the relative quantities of the minerals, which are presented scaled to a total of 100%. Unidentified or amorphous compounds were ignored.",
+      "Bulk density was calculated using intact soil rings (5 cm height x 5 cm diameter), as the ratio of oven-dry mass of soil to its volume in the ring.",
+      "Particle size analysis was performed using the hydrometer method. 40 g of soil was subjected to chemical (50 mg/L sodium hexametaphosphate, HMP) and physical dispersion, after which the volume was made up to 1000 mL. Hydrometer measurements were taken at 90 minutes and 24 hours to calculate the clay fraction. The sample was then sieved through a 53 \u03bcm sieve to determine the sand fraction. The soil texture was determined based on the percentage of sand-silt-clay. Prior to the particle size analysis, organic matter was removed using 30% hydrogen peroxide. Because of the high organic content in O horizon soils (from Chesapeake Bay), we did not perform particle size analysis on these. This analysis was performed only on the mineral soils (A horizon).",
+      "Water retention curves were generated using the HYPROP device (METER Group). Intact soil cores (HYPROP rings, 5 cm height x 5 cm diameter) were saturated with water and placed on HYPROP devices fitted with tensiometers. The tension and soil weight were continuously recorded as the samples were air-dried at room temperature. Water retention curves were fitted using the Van Genuchten equation (van Genuchten, 1980), and additional readings for the dry end of the curve were determined using the WP4C Soil Water Potential Sensor.",
+      "2.4 Data and statistical analysis\nExploratory analysis. We used multivariate Principal Components Analysis (PCA), PERMANOVA, and hierarchical clustering analysis to determine overall groupings in the chemistry data across the regions, sites, and transects (Figures 2, 3). We used the PC1 loadings data to determine significant factors that explained variability for each region (Figure 4). We performed correlation analysis as part of the data exploration and excluded highly correlated variables from the PCA, PERMANOVA, and cluster analysis (Appendix A3). The variables we excluded were SO4, NO3-N, CEC, K, total N, Mg, and OM, leaving us with thirteen variables in our analysis.\nAnalyzing individual analytes. To determine general trends in analyte concentrations along the transect, we scaled each analyte for each site to a 0\u20131 range (Figure 5). We did this to easily detect and compare various analytes across a range of units and magnitudes. Where analytes followed a trend of upland < transition < marsh (e.g., total S at all sites), the upland received a value of 0 and marsh 1, with transition intermediate. For the reverse trend (upland > transition > marsh), the upland received a value of 1 and marsh 0, with transition intermediate. In some cases, however, the analytes did not follow a monotonic trend, and the transition values were in fact greater than upland and marsh; in those instances, the transition received a value of 1, identifying it as a hotspot (e.g., Fe, WEOC, P, Figure 5).\nWe used linear mixed-effects models (LME) and ANOVA to determine trends in each analyte across the transect and sites (Appendix A7). For LMEs, we used site as the random variable. Statistical significance was determined at \u03b1 = 0.05.\nSoftware and packages used. All data analysis was performed using R v4.21, with packages dplyr v1.1.4 for data cleaning and processing, ggplot2 v3.5.1, PNWColors v0.1.0, and soilpalettes v0.1.0 for data visualization. We used the package ggcorrplot v0.1.4 for correlation analysis; factoextra v1.0.7, stats, vegan v2.6-4, and ggbiplot v0.55 for multivariate analyses; and agricolae v1.3-5 for univariate analyses."
+    ],
+    "distribution": [
+      {
+        "contentSize": 0.564453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-276a16e4fb85016-20250930T223414581",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-276a16e4fb85016-20250930T223414581",
+        "name": "physics_water_retention_curve_data_dd.csv"
+      },
+      {
+        "contentSize": 2.2578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0bdf7b0d68b02cc-20250930T223414567",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0bdf7b0d68b02cc-20250930T223414567",
+        "name": "chemistry_combined_wide_dd.csv"
+      },
+      {
+        "contentSize": 0.4345703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-12b8e70b0e70225-20250930T223414574",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-12b8e70b0e70225-20250930T223414574",
+        "name": "physics_bulk_density.csv"
+      },
+      {
+        "contentSize": 0.4228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d39e3146db6b422-20250930T223414586",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d39e3146db6b422-20250930T223414586",
+        "name": "sample_key_dd.csv"
+      },
+      {
+        "contentSize": 0.998046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5182b01d134210b-20250930T223414570",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5182b01d134210b-20250930T223414570",
+        "name": "mineralogy_xrd_dd.csv"
+      },
+      {
+        "contentSize": 390.732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-49de6eb27fa0027-20250930T223414562",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-49de6eb27fa0027-20250930T223414562",
+        "name": "chemistry_combined_all_horizons.csv"
+      },
+      {
+        "contentSize": 0.5830078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6653ea2020acebe-20250930T223414563",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6653ea2020acebe-20250930T223414563",
+        "name": "chemistry_combined_surface_horizon_dd.csv"
+      },
+      {
+        "contentSize": 0.5830078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-809b3326c5826ff-20250930T223414560",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-809b3326c5826ff-20250930T223414560",
+        "name": "chemistry_combined_all_horizons_dd.csv"
+      },
+      {
+        "contentSize": 28.34375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-862f00c9ac2c1fc-20250930T223414569",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-862f00c9ac2c1fc-20250930T223414569",
+        "name": "chemistry_combined_wide.csv"
+      },
+      {
+        "contentSize": 1.9912109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-75893bcbbf4c63e-20251003T211235787",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-75893bcbbf4c63e-20251003T211235787",
+        "name": "00_flmd.csv"
+      },
+      {
+        "contentSize": 0.5634765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8bc245f3f7752d9-20250930T223414583",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8bc245f3f7752d9-20250930T223414583",
+        "name": "physics_water_retention_curve_parameters_dd.csv"
+      },
+      {
+        "contentSize": 0.337890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-73dd471e228e83c-20250930T223414575",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-73dd471e228e83c-20250930T223414575",
+        "name": "physics_particle_density_dd.csv"
+      },
+      {
+        "contentSize": 40.3447265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8ea14b9367af05b-20251003T211830831",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-8ea14b9367af05b-20251003T211830831",
+        "name": "COMPASS_FME_Synoptic_Site.xml"
+      },
+      {
+        "contentSize": 1.3037109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-abadbd55592da91-20250930T223414577",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-abadbd55592da91-20250930T223414577",
+        "name": "physics_particle_density.csv"
+      },
+      {
+        "contentSize": 13.794921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a31eafeb1f69d94-20250930T223414588",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a31eafeb1f69d94-20250930T223414588",
+        "name": "sample_key.csv"
+      },
+      {
+        "contentSize": 5.015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9f1dafb139dae01-20250930T223414580",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9f1dafb139dae01-20250930T223414580",
+        "name": "physics_texture.csv"
+      },
+      {
+        "contentSize": 1.2080078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-975e06c7b86f8dc-20250930T223414585",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-975e06c7b86f8dc-20250930T223414585",
+        "name": "physics_water_retention_curve_parameters.csv"
+      },
+      {
+        "contentSize": 274.798828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-99ea1f99e687b1c-20250930T223414566",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-99ea1f99e687b1c-20250930T223414566",
+        "name": "chemistry_combined_surface_horizon.csv"
+      },
+      {
+        "contentSize": 0.572265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c6a00c43d2df3f5-20250930T223414578",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c6a00c43d2df3f5-20250930T223414578",
+        "name": "physics_texture_dd.csv"
+      },
+      {
+        "contentSize": 467.271484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fe2e1b8c8bdf16d-20250930T223414582",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fe2e1b8c8bdf16d-20250930T223414582",
+        "name": "physics_water_retention_curve_data.csv"
+      },
+      {
+        "contentSize": 0.330078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-87d63c9d93b8214-20250930T223414573",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-87d63c9d93b8214-20250930T223414573",
+        "name": "physics_bulk_density_dd.csv"
+      },
+      {
+        "contentSize": 8.34765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7b5d2af7a661317-20250930T223414571",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7b5d2af7a661317-20250930T223414571",
+        "name": "mineralogy_xrd.csv"
+      }
+    ]
+  }
+}

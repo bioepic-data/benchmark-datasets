@@ -1,0 +1,134 @@
+{
+  "id": "ess-dive-4067a22252a59e9-20230407T225642518063",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1861836",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-4067a22252a59e9-20230407T225642518063",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-00e2aff01cd1fd3-20230406T132910243124",
+  "dateUploaded": "2023-04-07T22:56:44.426Z",
+  "dateModified": "2024-02-08T19:41:13.355Z",
+  "isPublic": true,
+  "citation": "Faybishenko B; Fox P (2022): QA/QC of the East River, Colorado, discharge and geochemical time series datasets (Almont, BCC, and Pump House) to be used for modeling of hydrogeochemical balance. Watershed Function SFA. Dataset. doi:10.15485/1861836",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1861836",
+    "name": "QA/QC of the East River, Colorado, discharge and geochemical time series datasets (Almont, BCC, and Pump House) to be used for modeling of hydrogeochemical balance",
+    "description": [
+      "The following datasets were QA/QC-ed (Quality Assurance/Quality Control): 1. Brush Creek Confluence (BCC) discharge data (from Helen Malenda, USGS, Colorado School of Mines), which were calculated using the pressure transducer data and rating curves. The original 15 min time series data were presented as mean daily discharge. 2. Almont discharge data from United States Geological Survey (USGS). The original data were in 15 min time intervals, and were averaged to mean daily discharge time series. 3. Pump House discharge data as mean daily discharge (downloaded from the SFA portal). 4. BCC and Pump House chemistry data from SFA data portal and/or original spreadsheets provided by Roelof Versteeg. The following challenging QA/QC problems of the datasets were resolved: Missing data with the duration of gaps up to >1 month; Duplicated dates; Anomalies and outliers of discharge and concentrations; Time stamps of measurements of the discharge and concentrations are not aligned (hydrogeochemical balance calculations require the timestamps to be aligned). All QA/QC-ed datasets are given as csv files. The csv files were prepared using the xts files with multiple worksheets, which are also included in the data packages. Figures of the QA/QC-ed datasets are given in the jpeg and pdf formats. The QA/QC-ed datasets have been used to quantify discharge and chemical concentrations in river water in order to understand riverine exports of water and dissolved constituents in the East River watershed. These datasets served as a basis in the presentation given by P. Fox et al. at the 2021 Goldschmidt Conference."
+    ],
+    "alternateName": [
+      "paf_774_780"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0085-8499",
+        "givenName": "Boris",
+        "familyName": "Faybishenko",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bafaybishenko@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5264-1876",
+        "givenName": "Patricia",
+        "familyName": "Fox",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "pmfox@lbl.gov"
+      }
+    ],
+    "datePublished": "2022",
+    "keywords": [
+      "River discharge",
+      "geochemical data",
+      "Quality Assurance/Quality Control",
+      "QA/QC"
+    ],
+    "variableMeasured": [
+      "Anions",
+      "Cations",
+      "River stage/discharge"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2020) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2015-01-01",
+      "endDate": "2020-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0085-8499",
+      "givenName": "Boris",
+      "familyName": "Faybishenko",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "bafaybishenko@lbl.gov"
+    },
+    "citation": [
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Kakalia Z ; Banfield J ; Berkelhammer M ; Brodie E ; Christianson D ; Dafflon B ; Carbone M S ; Carroll R ; Chadwick K D ; Christensen J ; Enquist B J ; Fox P ; Henderson M ; Gochis D ; Kueppers L ; Powell T ; Matheus Carnevali P ; Singha K ; Sorensen P ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wu Y ; Agarwal D (2020): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA. Watershed Function SFA. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "QA/QC codes developed using the R libraries lubridate, zoo, plyr, vctrs, rstatix, DescTools, xts, highfrequency, imputeTS, tsoutliers, openxlsx, data.table, anytime, dplyr, insol, dynlm.\nThe QA/QC procedure included:\nSET A WORKING DIRECTORY and DOWNLOAD A FILE\nDEVELOP A VECTOR OF DATES/TIMES IN THE as.POSIXct format\nCHECK THE SUMMARY OF DATES\nCHECK THE NUMBER OF NAs of DATES\nStop if class of Date is not \"POSIXct\"\nCREATE A VECTOR OF FLAGGING DATES WITH NAs\nDETECT AND FLAG DUPLICATED DATES ----\nSummary of duplicated dates ----\nLength of the duplicated dates\nCREATE A VECTOR OF FLAGS FOR DUPLICATED TIME STAMPS (FLAG ALL DUPLICATES) ----\nFlagging of variables:\nCreate a vector of the variables and name them\nSuppress warnings\nSummary of the variables\nPlot Discharge vs temperature ----\nLength of each variable ----\nCreate zoo files\nSummary of the variables ----\nPrint summary of the variables \u2013\nCreate a list of data frames\nTotal number of rows with Nas\nDrop rows with Nas\nPrint summary of data frames with no NAs.\nThe following R packages are used:\nlubridate, zoo, plyr, vctrs, rstatix, DescTools, xts, highfrequency, imputeTS, tsoutliers, openxlsx, data.table, anytime, dplyr, insol, dynlm"
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bcb7dbb8c107be2-20220331T150117436851",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-bcb7dbb8c107be2-20220331T150117436851",
+        "name": "Brush_Figures.zip",
+        "contentSize": 3494.818359375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bd3673535d0ac85-20220331T150114710741",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-bd3673535d0ac85-20220331T150114710741",
+        "name": "Brush_csv.zip",
+        "contentSize": 1068.8623046875
+      }
+    ]
+  }
+}

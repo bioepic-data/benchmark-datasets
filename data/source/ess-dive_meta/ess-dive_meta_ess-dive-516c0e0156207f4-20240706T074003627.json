@@ -1,0 +1,291 @@
+{
+  "id": "ess-dive-516c0e0156207f4-20240706T074003627",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2403122",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-516c0e0156207f4-20240706T074003627",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-0fb75d32cff73e3-20240703T153935283",
+  "dateUploaded": "2024-07-06T07:40:02.990Z",
+  "dateModified": "2024-07-17T00:00:45.718Z",
+  "isPublic": true,
+  "citation": "Yazbeck T; Bohrer G; Zhu Q; Riley W J (2024): ELM-Wet: Inclusion of a wetland landunit with sub-grid representation of eco-hydrological patches and hydrological forcing in E3SM Land Model (ELM). Functional-type modeling approach and data-driven parameterization of methane emissions in wetlands. Dataset. doi:10.15485/2403122",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2403122",
+    "name": "ELM-Wet: Inclusion of a wetland landunit with sub-grid representation of eco-hydrological patches and hydrological forcing in E3SM Land Model (ELM)",
+    "description": [
+      "Wetlands emit the most biogenic methane (CH4) and present the greatest uncertainty in the global CH4 budget. Modeling these emissions is challenging due to the temporal and spatial variability in wetland structure and CH4 flux rates, along with complex interactions among hydrological, ecological, meteorological, and microbial processes that govern CH4 dynamics. To address these issues, we aim to enhance the accuracy of wetland representation in the U.S. Department of Energy\u2019s Exascale Earth System Model (E3SM) Land Model, ELM. This effort led to the development of ELM-Wet, which incorporates a dedicated wetland landunit with subgrid representation of eco-hydrological patch types. We implement wetland-specific hydrology by imposing site-specific constraints on surface water levels, thereby allowing different patches to sustain varying depths of inundation. Additionally, we refined the calculation of aerenchyma transport diffusivity based on observed conductance across different vegetation types. We validated these enhancements through site-specific simulations of a coastal freshwater wetland, the Salvador WMA Freshwater Marsh (Ameriflux, site ID US-LA2), located in the coast of Louisiana (29.85N,90.29W) at an elevation of 0 m. The site was simulated with ELM-Wet and the default version ELMv1. We use Bayesian Optimization to parameterize CO2 and CH4 fluxes. Eddy covariance observations of CO2 and CH4 fluxes from 2012-2013 were used to train the model and data from 2021 were used for validation. In this repository, we include all the output of all the simulations performed using different versions of ELMv1 and ELM-Wet, all input required to the model, and the Matlab scripts we used to processed the output data. ELM-Wet_flmd.csv includes a detailed description of the datasets files."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6073-0617",
+        "givenName": "Theresia",
+        "familyName": "Yazbeck",
+        "affiliation": "Ohio State University",
+        "email": "yazbeck.3@buckeyemail.osu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9209-9540",
+        "givenName": "Gil",
+        "familyName": "Bohrer",
+        "affiliation": "Ohio State University",
+        "email": "bohrer.17@osu.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Qing",
+        "familyName": "Zhu",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "qzhu@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "William J.",
+        "familyName": "Riley",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "wjriley@lbl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "ELM-Wet",
+      "Land Surface Models",
+      "Wetlands",
+      "Methane Flux",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "Energy\u2019s Exascale Earth System Model (E3SM)",
+      "E3SM Land Model (ELM)"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Salvador WMA Freshwater Marsh (Ameriflux, site ID US-LA2), located in the coast of Louisiana (29.85N,90.29W) at an elevation of 0 m.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 29.85,
+            "longitude": -90.29
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 29.85,
+            "longitude": -90.29
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0022191",
+      "DE-SC0021067",
+      "DE-SC0022972",
+      "DE-SC0023084",
+      "89243020SSC000054"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000104",
+        "name": "National Aeronautics and Space Administration (NASA)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2012-01-01",
+      "endDate": "2021-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6073-0617",
+      "givenName": "Theresia",
+      "familyName": "Yazbeck",
+      "affiliation": "Ohio State University",
+      "email": "yazbeck.3@buckeyemail.osu.edu"
+    },
+    "citation": [
+      "Yazbeck, T. (2024). ELMv1 and ELM-Wet Output Datasets [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10956894",
+      "https://github.com/bohrer-lab/ELM_WetlandLandunit_Perlmutter"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "1b5d5bbf-c94e-4cc9-bb32-61598938a936"
+      },
+      "name": "Functional-type modeling approach and data-driven parameterization of methane emissions in wetlands",
+      "member": {
+        "@type": "Person",
+        "givenName": "Kelly",
+        "familyName": "Wrighton",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Colorado State University",
+        "email": "kelly.wrighton@colostate.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Simulations were run following the procedures outlined in Oleson et al. (2013). Initially, there was a 400-year accelerated spin-up phase aimed at reaching carbon equilibrium through enhanced accumulation processes. This was followed by a subsequent 400-year regular spin-up phase, during which standard decomposition parameters were applied (Yuan et al. 2021). Transient simulations were conducted from 1850 to 2022 using the Global Soil Wetness Project forcing and varying CO2 concentrations over time (Dirmeyer et al. 2006) and (Zhu et al. 2019). Default forcings for GSWP were used where the forcing dataset included humidity, temperature, short wave radiation, precipitation, and atmospheric pressure.",
+      "Four simulations setups were considered:\n(1) ELMv1-Dflt \u2013 is default \u201cout of the box\u201d ELMv1 without any site-specific parameterization (Zhu et al. 2019).\n(2) ELMv1: ELMv1 but with parameter optimization (see section 2.4.4) using site-level observations from the site. This simulation set and the following ones (simulation sets 3-4) all optimized the same set of parameters.\n(3) ELM-Wet: The newly developed version of ELM (ELM-Wet) with its separate wetland landunit. In this simulation we prescribed a maximum inundation depth for each wetland patch type and had the model resolve water depth. All patch-level parameters optimized from observations.\n(4) ELM-Wet-SiteWTD: Used ELM-Wet forced with observed timeseries of water surface elevation, and parameters optimized from observations.",
+      "We employed the Bayesian Optimization for Anything (BOA) workflow to parameterize model parameters. BOA, a newly developed software tool, offers a versatile range of Bayesian optimization functions designed to optimize parameters in models written in various programming languages. More about BOA could be found here: doi.org:10.5281/zenodo.8266383."
+    ],
+    "distribution": [
+      {
+        "contentSize": 11.544921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1712ecd7bfae219-20240425T181458896",
+        "encodingFormat": "application/MATLAB",
+        "identifier": "ess-dive-1712ecd7bfae219-20240425T181458896",
+        "name": "ReadOutput_PFT.m"
+      },
+      {
+        "contentSize": 12.58984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-62116222d9e0e3a-20240425T181458908",
+        "encodingFormat": "application/MATLAB",
+        "identifier": "ess-dive-62116222d9e0e3a-20240425T181458908",
+        "name": "StandardizeObsSoilConc.m"
+      },
+      {
+        "contentSize": 2135.59375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e63c7fc78da5284-20240425T181441259",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e63c7fc78da5284-20240425T181441259",
+        "name": "ELM_Wet_SiteWTD_Val.csv"
+      },
+      {
+        "contentSize": 4261.16015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e02b99d187a999a-20240425T181441231",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e02b99d187a999a-20240425T181441231",
+        "name": "ELM_Wet_SiteWTD_Sag_Val_PFT.csv"
+      },
+      {
+        "contentSize": 13.2578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-516c0e0156207f4-20240706T074003627",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-516c0e0156207f4-20240706T074003627",
+        "name": "ELM_Wet_Inclusion_of_a_wetland_landunit_with.xml"
+      },
+      {
+        "contentSize": 4293.7060546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4981fb64db7a573-20240425T181431623",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4981fb64db7a573-20240425T181431623",
+        "name": "ELM_Wet_SiteWTD_Eval.csv"
+      },
+      {
+        "contentSize": 3501.359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-65d85244c96dbca-20240425T181431630",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-65d85244c96dbca-20240425T181431630",
+        "name": "ELMv1_Dflt_Eval.csv"
+      },
+      {
+        "contentSize": 4254.5947265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-84f653e9ba11984-20240425T181441249",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-84f653e9ba11984-20240425T181441249",
+        "name": "ELM_Wet_SiteWTD_TyphaSag_Val_PFT.csv"
+      },
+      {
+        "contentSize": 3472.9609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7504cde0eb4db67-20240425T181431640",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7504cde0eb4db67-20240425T181431640",
+        "name": "ELMv1_Eval.csv"
+      },
+      {
+        "contentSize": 2105.755859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-75beaa4b1b62d18-20240425T181441240",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-75beaa4b1b62d18-20240425T181441240",
+        "name": "ELM_Wet_SiteWTD_SglVeg_Val.csv"
+      },
+      {
+        "contentSize": 3.26171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-76d41088a2cb97f-20240706T072650984",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-76d41088a2cb97f-20240706T072650984",
+        "name": "ELM_Wet_flmd.csv"
+      },
+      {
+        "contentSize": 2.7314453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-722e46cf2f7146d-20240425T181518555",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-722e46cf2f7146d-20240425T181518555",
+        "name": "Val_dd.csv"
+      },
+      {
+        "contentSize": 2.7314453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8edfd3864f9a274-20240425T181518527",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8edfd3864f9a274-20240425T181518527",
+        "name": "Eval_dd.csv"
+      },
+      {
+        "contentSize": 4.0654296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a4f24d377a66b85-20240425T181458885",
+        "encodingFormat": "application/MATLAB",
+        "identifier": "ess-dive-a4f24d377a66b85-20240425T181458885",
+        "name": "ReadOutput_Grid.m"
+      },
+      {
+        "contentSize": 2.6650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-adfd31a5afe97cb-20240425T181518569",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-adfd31a5afe97cb-20240425T181518569",
+        "name": "Val_PFT_dd.csv"
+      },
+      {
+        "contentSize": 2136.1962890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c3a4ec5a494df0f-20240425T181441269",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c3a4ec5a494df0f-20240425T181441269",
+        "name": "ELM_Wet_Val.csv"
+      },
+      {
+        "contentSize": 3489.8310546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c4758e6d8d8c6e7-20240425T181441278",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c4758e6d8d8c6e7-20240425T181441278",
+        "name": "ELMv1_Val.csv"
+      },
+      {
+        "contentSize": 4281.291015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f7912245ee21660-20240425T181431614",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f7912245ee21660-20240425T181431614",
+        "name": "ELM_Wet_Eval.csv"
+      },
+      {
+        "contentSize": 600.90625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0ab80107e82546a-20240425T181421440",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-0ab80107e82546a-20240425T181421440",
+        "name": "surfdata_sparse_grids_US_LA2_Wetl_C3Gra_c220929_2012_2022_SurfWat.nc"
+      },
+      {
+        "contentSize": 1.5,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-85bb487a6709de2-20240425T181421432",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-85bb487a6709de2-20240425T181421432",
+        "name": "domain_sparse_grids_US_LA2_Wetl_C3Gra_c220929.nc"
+      },
+      {
+        "contentSize": 90.46875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ba5b09a60a9cbf0-20240425T181421423",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-ba5b09a60a9cbf0-20240425T181421423",
+        "name": "clm_params_cbgc_c07292018_Add_h2osfc_max_Forc.nc"
+      }
+    ]
+  }
+}

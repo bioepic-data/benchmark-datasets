@@ -1,0 +1,222 @@
+{
+  "id": "ess-dive-dc33b3ac49d2c05-20240814T194216508",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2432469",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-dc33b3ac49d2c05-20240814T194216508",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-da00151ec2384a3-20240814T185738568",
+  "dateUploaded": "2024-08-14T19:42:17.973Z",
+  "dateModified": "2024-08-20T00:00:27.080Z",
+  "isPublic": true,
+  "citation": "Zhou T; Solander K; Schwenk J (2024): Pan-Arctic daily streamflow at 0.5-degree resolution. Interdisciplinary Research for Arctic Coastal Environments (InteRFACE). Dataset. doi:10.15485/2432469",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2432469",
+    "name": "Pan-Arctic daily streamflow at 0.5-degree resolution",
+    "description": [
+      "Data was derived using daily runoff from models participating in the Coupled Model Intercomparison Project, version 6 (CMIP6) that have been routed through the Model for Scale Adaptive River Transport (MOSART) routing model to represent streamflow at individual streamflow gage locations. Data from 750 streamflow gage locations are represented, which are indexed by gage id according to the metadata.csv file. Streamflow gage location sites were based on gage records downloaded from the United States Geological Survey (USGS), National Water Data (HYDAT) Archive from Canada, and the State Hydrological Institute of Russia. Data are available from 11 Earth System Models (ESMs) in total at a daily timestep with a duration of 1920-2099 (1850-2014 for E3SM only). The spatial domain of the modeled data is 0.5 degree resolution. Earth System Models and Units of mean daily streamflow are presented in cubic meters per second (cms). Data files consist of 11 Earth System Model mean daily streamflow output per gage location in .csv format, 1 metadata file in .csv format and 1 Readme file in .docx format (13 files in total). These data were used to benchmark CMIP6 modeled representations of streamflow against gage records."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1582-4005",
+        "givenName": "Tian",
+        "familyName": "Zhou",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "tian.zhou@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8825-3907",
+        "givenName": "Kurt",
+        "familyName": "Solander",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "ksolander@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5803-9686",
+        "givenName": "Jon",
+        "familyName": "Schwenk",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jschwenk@lanl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE",
+      "EARTH SCIENCE > CRYOSPHERE"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER PROCESSES/MEASUREMENTS > DISCHARGE/FLOW > AVERAGE FLOW",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER FEATURES > RIVERS/STREAMS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER FEATURES > WATER CHANNELS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER FEATURES > DRAINAGE BASINS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Data represents pan-Arctic individual streamflow gage locations based on streamflow gage records from the United States Geological Survey (USGS), National Water Data (HYDAT) Archive of Canada, and State Hydrological Institute of Russia.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 80.62,
+            "longitude": -179.2458
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.04583,
+            "longitude": 178.67
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1850-01-01",
+      "endDate": "2099-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8825-3907",
+      "givenName": "Kurt",
+      "familyName": "Solander",
+      "email": "ksolander@lanl.gov"
+    },
+    "citation": [
+      "Solander et al., (2024), Evaluation of CMIP6 streamflow in the Arctic, Journal of Advances in Modeling Earth Systems (JAMES) (in review)."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "39046a95-7219-40fa-b1f1-5c3cc6a06c24"
+      },
+      "name": "Interdisciplinary Research for Arctic Coastal Environments (InteRFACE)",
+      "member": {
+        "@type": "Person",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Coupled Model Intercomparison Project, version 6 (CMIP6) model mean daily runoff was downloaded from 11 Earth System Models.",
+      "Daily runoff from each model was routed through the Model for Scale Adaptive River Transport (MOSART) routing model to represent mean daily streamflow at individual streamflow gage location."
+    ],
+    "distribution": [
+      {
+        "contentSize": 786039.6171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-17ab0c8bbd78697-20240814T185849707",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-17ab0c8bbd78697-20240814T185849707",
+        "name": "MPI.csv"
+      },
+      {
+        "contentSize": 737964.978515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3d76b754fa760b5-20240814T185827580",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3d76b754fa760b5-20240814T185827580",
+        "name": "E3SM.csv"
+      },
+      {
+        "contentSize": 807782.4716796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3651c7728471977-20240814T185839054",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3651c7728471977-20240814T185839054",
+        "name": "GFDL.csv"
+      },
+      {
+        "contentSize": 802802.7783203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2e363a40ec3ae46-20240814T185814592",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2e363a40ec3ae46-20240814T185814592",
+        "name": "CanESM5.csv"
+      },
+      {
+        "contentSize": 800389.09765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-63ce906a3d099f9-20240814T185854088",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-63ce906a3d099f9-20240814T185854088",
+        "name": "MRI.csv"
+      },
+      {
+        "contentSize": 8.3369140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dc33b3ac49d2c05-20240814T194216508",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-dc33b3ac49d2c05-20240814T194216508",
+        "name": "Pan_Arctic_daily_streamflow_at_0_5_degree.xml"
+      },
+      {
+        "contentSize": 12.3359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-682be5ed570f816-20240814T185908322",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "identifier": "ess-dive-682be5ed570f816-20240814T185908322",
+        "name": "Readme.docx"
+      },
+      {
+        "contentSize": 799749.1318359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5bb6a131169d99b-20240814T185859051",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-5bb6a131169d99b-20240814T185859051",
+        "name": "NorESM2.csv"
+      },
+      {
+        "contentSize": 798742.001953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-582c734054480ad-20240814T185821645",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-582c734054480ad-20240814T185821645",
+        "name": "CESM2.csv"
+      },
+      {
+        "contentSize": 802296.3740234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7efdb76a138a3b1-20240814T185832485",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7efdb76a138a3b1-20240814T185832485",
+        "name": "Earth3.csv"
+      },
+      {
+        "contentSize": 803451.2841796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8c32752cf593652-20240814T185808008",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8c32752cf593652-20240814T185808008",
+        "name": "BCC.csv"
+      },
+      {
+        "contentSize": 127.8037109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9ec6092d63c09c8-20240814T185902986",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9ec6092d63c09c8-20240814T185902986",
+        "name": "metadata.csv"
+      },
+      {
+        "contentSize": 795516.1708984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-942f70656936417-20240814T185841976",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-942f70656936417-20240814T185841976",
+        "name": "IPSL.csv"
+      },
+      {
+        "contentSize": 800423.9677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c242d3b92006a0b-20240814T185846541",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-c242d3b92006a0b-20240814T185846541",
+        "name": "MIROC6.csv"
+      }
+    ]
+  }
+}

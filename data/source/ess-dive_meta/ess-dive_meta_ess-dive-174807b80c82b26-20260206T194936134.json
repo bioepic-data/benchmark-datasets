@@ -1,0 +1,173 @@
+{
+  "id": "ess-dive-174807b80c82b26-20260206T194936134",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3017420",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-174807b80c82b26-20260206T194936134",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d2584e73521dd80-20260123T170100914",
+  "dateUploaded": "2026-02-06T19:49:36.923Z",
+  "dateModified": "2026-02-11T00:00:47.185Z",
+  "isPublic": true,
+  "citation": "Forbrich I; Martiros M; Orton H (2026): Predicted aboveground biomass of Typha angustifolia in an upland brackish tidal marsh, PIE LTER, Byfield, MA (2022-2024). From tides to seasons: How cyclic tidal drivers and plant physiology interact to affect carbon cycling at the terrestrial-estuarine boundary. Dataset. doi:10.15485/3017420",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3017420",
+    "name": "Predicted aboveground biomass of Typha angustifolia in an upland brackish tidal marsh, PIE LTER, Byfield, MA (2022-2024)",
+    "description": [
+      "This dataset contains predicted monthly aboveground Typha angustifolia biomass per sample and per square meter in a brackish tidal marsh site dominated by Typha angustifolia near the Parker River in the upper estuary of the Plum Island Sound, Massachusetts (MA) during the growing seasons (May-September) of 2022, 2023, and 2024. This site is also located within the Plum Island Ecosystems Long Term Ecological Research Station (PIE LTER). Allometric equations were developed from dry weight data and associated maximum heights collected in 2022 and 2023. The goal of this study was to investigate the difference in aboveground biomass between the site\u2019s marsh interior (MI) and the creek bank (CB). Metadata files (Typha_biomass_predictions_dd.csv and Typha_biomass_predictions_flmd.csv) contain detailed information on variable definitions, calculations, sampling methods, and the location of the site."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0632-7317",
+        "givenName": "Inke",
+        "familyName": "Forbrich",
+        "affiliation": "University of Toledo",
+        "email": "iforbrich@mbl.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0009-9014-596X",
+        "givenName": "Mikaela",
+        "familyName": "Martiros",
+        "affiliation": "University of Wisconsin - Madison",
+        "email": "mmartiros@wisc.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0008-5082-2439",
+        "givenName": "Hannah",
+        "familyName": "Orton",
+        "affiliation": "Marine Biological Laboratory",
+        "email": "horton@mbl.edu"
+      }
+    ],
+    "datePublished": "2026-01-23",
+    "keywords": [
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "Plum Island Ecosystems Long Term Ecological Research",
+      "phenology",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION"
+    ],
+    "variableMeasured": [
+      "DATE",
+      "SITE",
+      "PLOT",
+      "PLANT_TAG",
+      "MAX_HEIGHT",
+      "STEM_DENSITY",
+      "MASS_P_STEM",
+      "MASS_P_PLOT"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Ameriflux site US-PLo, Newbury, MA, established May 2022. It is a brackish tidal wetland located in the upper estuary of the Parker River, dominated by Typha angustifolia. The site includes two subsites: Marsh Interior (MI) and Creek Bank (CB). These differ in proximity to the river, with Creek Bank located closer to the river and therefore experiencing higher salinity.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 42.7496,
+            "longitude": -70.9157
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 42.7496,
+            "longitude": -70.9157
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE- SC0022108"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2022-06-14",
+      "endDate": "2024-09-18",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0632-7317",
+      "givenName": "Inke",
+      "familyName": "Forbrich",
+      "affiliation": "University of Toledo",
+      "email": "iforbrich@mbl.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a8baace6-a1d4-40f1-a355-c8dd8dc03ddd"
+      },
+      "name": "From tides to seasons: How cyclic tidal drivers and plant physiology interact to affect carbon cycling at the terrestrial-estuarine boundary",
+      "member": {
+        "@type": "Person",
+        "givenName": "Inke",
+        "familyName": "Forbrich",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Marine Biological Laboratory",
+        "email": "iforbrich@mbl.edu"
+      }
+    },
+    "measurementTechnique": [
+      "To develop the allometric equation, dry weight and maximum height data from each destructive sample were plotted in Excel, and a linear trendline was fit to the combined dataset. The resulting equation, y = 0.1682x \u2013 12.257, was selected as the predictive model. Both linear and exponential regressions were tested using sample data from the Marsh Interior (MI) and Creek Bank (CB) separately, however the linear regression derived from the combined data provided the best overall fit based on R2 values. Maximum height values from observational samples were substituted for x in the equation to estimate dry weight for each plant. Predicted dry weights were then multiplied by the stem density of each plot to calculate biomass per square meter."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3.62890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e3a5bb470370d05-20260123T170150864",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e3a5bb470370d05-20260123T170150864",
+        "name": "Typha_biomass_predictions_2024.csv"
+      },
+      {
+        "contentSize": 5.0498046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-726bef6f241a244-20260123T170150857",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-726bef6f241a244-20260123T170150857",
+        "name": "Typha_biomass_predictions_2022.csv"
+      },
+      {
+        "contentSize": 1.30859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e9b4694f5dc204b-20260123T170150866",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e9b4694f5dc204b-20260123T170150866",
+        "name": "Typha_biomass_predictions_dd.csv"
+      },
+      {
+        "contentSize": 4.01953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-367008fb6cfd3d3-20260123T170150860",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-367008fb6cfd3d3-20260123T170150860",
+        "name": "Typha_biomass_predictions_2023.csv"
+      },
+      {
+        "contentSize": 1.7255859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-caa2861d9b652af-20260206T194931963",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-caa2861d9b652af-20260206T194931963",
+        "name": "Typha_biomass_predictions_flmd.csv"
+      },
+      {
+        "contentSize": 7.447265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-174807b80c82b26-20260206T194936134",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-174807b80c82b26-20260206T194936134",
+        "name": "Predicted_aboveground_biomass_of_Typha.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "ess-dive-591a09015db2b61-20251021T141944278",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2588597",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-591a09015db2b61-20251021T141944278",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-591a09015db2b61-20251017T204505118",
+  "dateUploaded": "2025-10-21T14:19:44.994Z",
+  "dateModified": "2025-10-21T14:19:45.365Z",
+  "isPublic": true,
+  "citation": "Hanzl J M; Farley M; Serbin S; Yang D (2025): High-resolution leaf area index maps generated from unoccupied aerial system, Teller Mile 27, Seward Peninsula, Alaska. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2588597",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2588597",
+    "name": "High-resolution leaf area index maps generated from unoccupied aerial system, Teller Mile 27, Seward Peninsula, Alaska",
+    "description": [
+      "Leaf area index (LAI), a measure of the amount of one-side leaf area per ground unit, is an important indicator of plant carbon, energy, and water cycle. In the heterogeneous Arctic landscapes, it has been challenging to accurately measure LAI across species and space needed for Earth system model validation. Here, we use multispectral unoccupied aerial systems (UASs) to scale up and map leaf area index (LAI) , in a low-Arctic tundra landscape on the Seward Peninsula, Alaska. We linked previous published LAI measurements with high-resolution, UAS-collected multispectral data collected over the region of Next Generation Ecosystem Experiments in the Arctic (NGEE Arctic)\u2019s Teller Mile Maker 27 site in 2022 to develop random forest (RF) machine learning models to predict and map LAI. 100 RF models were developed to account for uncertainties in ground LAI plot measurements and process scaling. This dataset includes a raster (*.tif) map of the mean LAI value of the 100 RF models, a raster (*.tif) map of the standard deviation of the RF-modeled LAI data, and a user guide (*.pdf)."
+    ],
+    "alternateName": [
+      "NGA576",
+      "LA-UR-25-30098"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4944-7957",
+        "givenName": "Julia Mei",
+        "familyName": "Hanzl",
+        "affiliation": "State University of New York at New Paltz",
+        "email": "julia.mei250@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0009-2595-9158",
+        "givenName": "Margaret",
+        "familyName": "Farley",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "mafarley@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4136-8971",
+        "givenName": "Shawn",
+        "familyName": "Serbin",
+        "affiliation": "NASA Goddard Space Flight Center",
+        "email": "shawn.p.serbin@nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1705-7823",
+        "givenName": "Daryl",
+        "familyName": "Yang",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "yangd@ornl.gov"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "Alaska",
+      "Seward Peninsula"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > LEAF CHARACTERISTICS > LEAF AREA INDEX (LAI)"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "TL_MM27; TL27; Teller Mile Marker 27; Seward Peninsula, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.758839,
+            "longitude": -165.979295
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.712145,
+            "longitude": -165.921485
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-08-18",
+      "endDate": "2022-07-11",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1705-7823",
+      "givenName": "Daryl",
+      "familyName": "Yang",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "yangd@ornl.gov"
+    },
+    "citation": [
+      "Yang D ; Davidson K ; Liu Y ; Hanston W ; Serbin S (2024): Leaf area index (LAI), Teller site, Seward Peninsula, Alaska, 2022. Next-Generation Ecosystem Experiments (NGEE) Arctic, ESS-DIVE repository. Dataset. doi:10.5440/1975124 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.5440/1975124 on 2025-09-10",
+      "Yang D ; Serbin S (2023): UAS remote sensing (3DR SOLO platform): multispectral reflectance, canopy height model, normalized difference vegetation index, Seward Peninsula, Alaska, 2021. Next-Generation Ecosystem Experiments (NGEE) Arctic, ESS-DIVE repository. Dataset. doi:10.5440/2205338 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.5440/2205338 on 2025-09-10",
+      "LA-UR-25-30098"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "We used previous published LAI field data (doi:10.5440/1975124) and UAS-collected canopy height model (CHM) and vegetation indices (doi:10.5440/2205338): normalized difference vegetation index (NDVI), differential vegetation index (DVI), green chlorophyll vegetation index (GCI), generalized difference vegetation (GDVI), near infrared reflectance of vegetation (NIRv), soil adjusted vegetation index (SAVI) and simple ratio (SR). These vegetation index maps were combined with the multispectral reflectance and CHM to create a 12 band layer-stack as predictors.",
+      "After that, we extracted the region of each ground LAI measurements, ROIs previously published (doi:10.5440/1975124), from the UAS imagery and calculated the mean and standard deviation of the spectral reflectance, CHM, and vegetation indices, which were later used to link with ground LAI measurements.",
+      "The random forest (RF) regression approach was used to model the association between LAI and the UAS-derived predictors. We randomly split the 100 measurements into two datasets with 70% for model training and 30% for model validation. To account for model uncertainty, we used a permutation procedure to construct 100 RF models. In each permutation, 90% of the training dataset was randomly selected to build the RF model. The mean predictions of the 100 RF models were used for model validation. Linear regression was used to assess the agreement between the predicted and validation LAI values. From there, we calculated regression slope, coefficient of determination (R2), and residual mean squares error (RMSE).",
+      "Finally, we applied the 100 RF models to all UAS flights to generate a map of LAI across the study region."
+    ],
+    "distribution": [
+      {
+        "contentSize": 817.1845703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-155cc7e8a478e37-20251013T150701536",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-155cc7e8a478e37-20251013T150701536",
+        "name": "TellerLAI_UserGuide.pdf"
+      },
+      {
+        "contentSize": 0.626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2daf2e22ff624d3-20251002T205326355",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2daf2e22ff624d3-20251002T205326355",
+        "name": "TellerLAI_flmd.csv"
+      },
+      {
+        "contentSize": 3405.1220703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d465caec34a687d-20250916T195323393",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-d465caec34a687d-20250916T195323393",
+        "name": "Teller_LAI_UNC.tif"
+      },
+      {
+        "contentSize": 8.83984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-591a09015db2b61-20251021T141944278",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-591a09015db2b61-20251021T141944278",
+        "name": "High_resolution_leaf_area_index_maps_generated.xml"
+      },
+      {
+        "contentSize": 3405.1220703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5a987fb7ee45bb6-20250916T195323387",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-5a987fb7ee45bb6-20250916T195323387",
+        "name": "Teller_LAI.tif"
+      }
+    ]
+  }
+}

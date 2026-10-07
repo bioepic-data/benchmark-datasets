@@ -1,0 +1,130 @@
+{
+  "id": "ess-dive-547e6fe1a5a7d52-20260121T195731534",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2589828",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-547e6fe1a5a7d52-20260121T195731534",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-547e6fe1a5a7d52-20250929T165757798",
+  "dateUploaded": "2026-01-21T19:57:32.484Z",
+  "dateModified": "2026-01-22T22:02:46.242Z",
+  "isPublic": true,
+  "citation": "Bruns N; Kirwan M (2025): Manuscript model outputs, model source code, and figure scripts: The role of geomorphology in mediating biomass allocation impacts on salt-marsh resilience and carbon accumulation. Coastal Wetland Carbon Cycling Processes in a Warmer Climate. Dataset. doi:10.15485/2589828",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2589828",
+    "name": "Manuscript model outputs, model source code, and figure scripts: The role of geomorphology in mediating biomass allocation impacts on salt-marsh resilience and carbon accumulation",
+    "description": [
+      "This data package provides model source code (C++), model outputs, and figure generation scripts (R) needed to reproduce the following manuscript:",
+      "Bruns, Nicholas E., Genevieve L. Noyce, and Matthew L. Kirwan. \"The Role of Geomorphology in Mediating Biomass Allocation Impacts on Salt-Marsh Resilience and Carbon Accumulation.\" Estuarine, Coastal and Shelf Science 327 (December 2025): 109549. https://doi.org/10.1016/j.ecss.2025.109549.",
+      "This manuscript investigates how geomorphology mediates the impact of biomass allocation shifts on salt marsh persistence and carbon (C) sequestration under sea level rise. We use a 1-D soil-column model (Kirwan and Mudd 2012) to perform experiments across a range of static root:shoot ratios (RSR = 1-4) spanning observed values. The model explicitly simulates interactions between tidal inundation, productivity, inorganic sediment deposition, and organic matter accumulation. Experiments determine whether geomorphic feedbacks amplify, dampen, or leave unchanged the ecosystem response to biomass allocation shifts.",
+      "A first experiment uses constant sea level rise (2.5 mm/yr) to examine equilibrium dynamics and their influence on carbon accumulation rates across different suspended sediment concentrations (SSC). A second set of experiments calculates threshold sea level rise rates for marsh drowning across RSR and SSC combinations. Final experiments apply accelerating sea level rise scenarios (2000-2200) derived from NOAA projections (Sweet et al. 2022) to generate an envelope of expected responses, quantifying the importance of biomass allocation shifts on marsh carbon accumulation and persistence. All experiments are repeated across SSC ranging from 5-50 mg/L to investigate how these interactions vary in micro-tidal marshes with different sediment supplies.",
+      "Package contents:",
+      "* README.txt with detailed description of package contents and instructions for reproducing manuscript figures and model outputs",
+      "* R scripts for generating all manuscript figures",
+      "* C++ baseline model code from Kirwan and Mudd (2012)",
+      "* C++ source code for 4 experimental model variants used in the manuscript, extending above baseline code",
+      "* Model input files (.csv, .txt) including sea level rise scenarios",
+      "* Model output files (.txt) used in manuscript analyses",
+      "Temporal coverage: Model simulations span years 1900-2200, with accelerating sea level rise scenarios for 2000-2200.",
+      "Key variables: Root:shoot ratio, suspended sediment concentration, carbon accumulation rate, vertical accretion rate, marsh elevation, inundation depth, threshold sea level rise rate."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9518-2243",
+        "givenName": "Nicholas",
+        "familyName": "Bruns",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "nicholas.e.bruns@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0658-3038",
+        "givenName": "Matthew",
+        "familyName": "Kirwan",
+        "affiliation": "Virginia Institute of Marine Science at William & Mary",
+        "email": "kirwan@vims.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS",
+      "EARTH SCIENCE > OCEANS > COASTAL PROCESSES",
+      "EARTH SCIENCE > BIOLOGICAL CLASSIFICATION > PLANTS",
+      "earth science"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "award": [
+      "DE-SC0019110"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2000",
+      "endDate": "2200",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9518-2243",
+      "givenName": "Nicholas",
+      "familyName": "Bruns",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "nicholas.e.bruns@gmail.com"
+    },
+    "citation": [
+      "Bruns, Nicholas E., Genevieve L. Noyce, and Matthew L. Kirwan. \"The Role of Geomorphology in Mediating Biomass Allocation Impacts on Salt-Marsh Resilience and Carbon Accumulation.\" Estuarine, Coastal and Shelf Science 327 (December 2025): 109549. https://doi.org/10.1016/j.ecss.2025.109549",
+      "Response of salt-marsh carbon accumulation to climate change. Kirwan, Mathew L., Mudd, Simon M. Nature. 2012. https://doi.org/10.1038/nature11440",
+      "Sweet, W.V., B.D. Hamlington, R.E. Kopp, C.P. Weaver, P.L. Barnard, D. Bekaert, W. Brooks, M. Craghan, G. Dusek, T. Frederikse, G. Garner, A.S. Genz, J.P. Krasting, E. Larour, D. Marcy, J.J. Marra, J. Obeysekera, M. Osler, M. Pendleton, D. Roman, L. Schmied, W. Veatch, K.D. White, and C. Zuzak, 2022: Global and Regional Sea Level Rise Scenarios for the United States: Updated Mean Projections and Extreme Water Level Probabilities Along U.S. Coastlines. NOAA Technical Report NOS 01. National Oceanic and Atmospheric Administration, National Ocean Service, Silver Spring, MD, 111 pp. https://oceanservice.noaa.gov/hazards/sealevelrise/noaa-nostechrpt01-global-regional-SLR-scenarios-US.pdf"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "3c34c353-2626-4d56-b073-dcbdb19e01eb"
+      },
+      "name": "Coastal Wetland Carbon Cycling Processes in a Warmer Climate",
+      "member": {
+        "@type": "Person",
+        "givenName": "Patrick",
+        "familyName": "Megonigal",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Smithsonian Institution",
+        "email": "megonigalp@si.edu"
+      }
+    },
+    "measurementTechnique": [
+      "This container holds model source code and model outputs used for in manuscript published in the journal Estuarine, Coastal, and Shelf Science:\nThe role of geomorphology in mediating biomass allocation impacts on salt-marsh resilience and carbon accumulation. NE Bruns, GL Noyce, ML Kirwan. Estuarine, Coastal and Shelf Science. 2025. https://doi.org/10.1016/j.ecss.2025.109549\nAll model code is derived from model used in Kirwan and Mudd 2012, publicly available here:\nhttps://github.com/simon-m-mudd/marsh_column_model\nNote-- the exact file in that public repot is not exactly what was used in their manuscript, but the exact file that was used is included below, and the make_ms_figure.Rmd shows how to reproduce figure 3 in Kirwan and Mudd 2012 to verify that code behaves as intended.\nGenerally, all contents needed for the C++ model are contained in source_cpp_model, which includes outputs from the model. source_all_else contains all other scripts, which in this case is a single R script.\nThis zip file contains all files:\nall_contents_zip_file.zip\ncontents:\nA. R script for making manuscript figures:\nsource_all_else/make_ms_figure.Rmd\nB. C++ source files for 4 model experiments used in paper:\nsource_cpp_model/\nmudd_model_adjust_RSR_experiment.cpp mudd_model_constant_SLR_single_runs.cpp\nmudd_model_constant_SLR_find_drowning_SLR.cpp\nmudd_model_scenario_runs.cpp\nC. Baseline C++ model, used to produce figures in Kirwan and Mudd 2012, and used as starting point for above 3 files:\nseriesSLRtke_muddedit_BASELINE.cpp\nand its model outputs:\nseries.11.txt\nseries.10.txt\nseries.01.txt\nseries.00.txt\nD. Additional files in source_cpp_model are needed for running models, including:\n- NOAA projection of relative sea level for the contiguous US:\nSL_sweet_interm_high_300_years\nfrom Sweet et al. 2022 (see MS for full citation)\n- A2 projections of temperature and sea level, used in Kirwan and mudd:\nA2smoothsl.txt\nA2temp.txt\nE. Model outputs used in manuscript are saved in\nsource_cpp_model/model_ouputs\nFigure 2 and 3 left:\nRSR_adjust_C_diff_plot_single_SLR_low_svel_no_litter\nFigure 3 right:\nconstant_SLR_single_runs_FIXED_PRODUCTIVITY_NO_LITTER_low_svel\nFigure 4:\nscenario_runs_fig_4_FIXED_PRODUCTIVITY_NO_LITTER_low_svel_SWEET_INTERM_HIGH\nFigure S1:\nequilibrium_get_drowning_high_res_FIXED_PRODUCTIVITY_NO_LITTER_low_svel"
+    ],
+    "distribution": [
+      {
+        "contentSize": 10.4833984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-547e6fe1a5a7d52-20260121T195731534",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-547e6fe1a5a7d52-20260121T195731534",
+        "name": "Manuscript_model_outputs_model_source_code_and.xml"
+      },
+      {
+        "contentSize": 1081.265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-13e6ed674e936dd-20250929T160403130",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-13e6ed674e936dd-20250929T160403130",
+        "name": "Full_model_code_and_outputs_zipfile.zip"
+      },
+      {
+        "contentSize": 2.4228515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-390f5452d57b906-20250929T160125793",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-390f5452d57b906-20250929T160125793",
+        "name": "README.txt"
+      }
+    ]
+  }
+}

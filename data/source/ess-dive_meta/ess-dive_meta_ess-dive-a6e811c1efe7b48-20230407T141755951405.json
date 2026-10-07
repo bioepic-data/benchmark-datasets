@@ -1,0 +1,192 @@
+{
+  "id": "ess-dive-a6e811c1efe7b48-20230407T141755951405",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1670465",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-a6e811c1efe7b48-20230407T141755951405",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-2b35f92c5d42d02-20230406T234610615255",
+  "dateUploaded": "2023-04-07T14:17:56.839Z",
+  "dateModified": "2023-04-07T14:18:02.785Z",
+  "isPublic": true,
+  "citation": "Bouskill N; Riley W; Mekonnen Z (2020): Alaskan carbon-climate feedbacks will be weaker than inferred from short-term manipulations: Alaskan Benchmark Data and Model runs. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/1670465",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1670465",
+    "name": "Alaskan carbon-climate feedbacks will be weaker than inferred from short-term manipulations: Alaskan Benchmark Data and Model runs",
+    "description": [
+      "This submission aimed to assess differences in short-term step warming manipulations and long-term chronic response to climate change in Alaskan ecosystems.",
+      "Briefly, climate warming is occurring fastest at high latitudes. Based on short-term field experiments, this warming is projected to stimulate soil organic matter decomposition, and promote a positive feedback to climate change. We show here that the tightly coupled, nonlinear nature of high-latitude ecosystems implies that short-term (< 10 year) warming experiments produce emergent ecosystem carbon stock temperature sensitivities inconsistent with emergent multi-decadal responses. We first demonstrate that a well-tested mechanistic ecosystem model accurately represents observed carbon cycle and active layer depth responses to short-term summer warming in four diverse Alaskan sites. We then show that short-term warming manipulations do not capture the non-linear, long-term dynamics of vegetation, and thereby soil organic matter, that occur in response to thermal, hydrological, and nutrient transformations belowground. Our results demonstrate significant spatial heterogeneity in multi-decadal Arctic carbon cycle trajectories and argue for more mechanistic models to improve predictive capabilities.",
+      "The model used in the current study is available publicly (https://github.com/jinyun1tang/ECOSYS), and the current submission contains the python/ matlab codes for analyzing output from the model (includng a readme file to explain the codes).",
+      "The benchmark data, also enclosed, was collected from a range of published and publicly available sources (extracted using GRABIT: https://www.mathworks.com/matlabcentral/fileexchange/7173-grabit). These sources describe warming induced changes in tundra/ boreal ecosystems."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6577-8724",
+        "givenName": "Nick",
+        "familyName": "Bouskill",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "njbouskill@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "William",
+        "familyName": "Riley",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "wjriley@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zelalem",
+        "familyName": "Mekonnen",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "zmekonnen@lbl.gov"
+      }
+    ],
+    "datePublished": "2020-12-01",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > AGRICULTURE > SOILS > CARBON",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > ECOSYSTEM FUNCTIONS > BIOGEOCHEMICAL CYCLES",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > NUTRIENTS > NITROGEN",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > NUTRIENTS > PHOSPHOROUS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site 1: Utqia\u0121vik - Manipulation experiment - Tundra CO2 fluxes in response to experimental warming across latitudinal and moisture gradientsOpen top chamber warming experiment carried out at Utqia\u0121vik (71\u00b018\u2019N, 156\u00b040\u2019W. 3 m above sea level) by Oberbauer et al., (2007) and described in doi: 10.1890/06-0649.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71,
+            "longitude": 156
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 71,
+            "longitude": 156
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Site 2: Toolik: - Manipulation experiment - Tundra CO2 fluxes in response to experimental warming across latitudinal and moisture gradients. Open top chamber warming experiment carried out at Toolik Field Station (68\u00b038\u2019N, 149\u00b034\u2019W. 740 m above sea level) by Oberbauer et al., (2007) and described in doi: 10.1890/06-0649.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 68,
+            "longitude": 149
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68,
+            "longitude": 149
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Site 3: Eight Mile Lake: Nonlinear CO2 flux response to 7 years of experimentally induced permafrost thaw. Data procured for the benchmarking exercise came from the summer warming experiment carried out using open top chambers at the Eight Mile Lake field site (63\u00b052\u2019N, 149\u00b013\u2019W. 670 m a.s.l), and published by Mauritz et al., (doi: 10.1111/gcb.13661).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 63,
+            "longitude": 149
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 63,
+            "longitude": 149
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Site 4: Delta Junction: Warming and drying suppress microbial activity and carbon cycling in boreal forest soils.Data taken from Allison & Treseder (doi: 10.1111/j.1365-2486.2008.01716.x), using a greenhouse warming experiment at the Delta Junction experimental field site (63\u00b055\u2019N, 145\u00b044\u2019W. ~1100 a.s.l).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 63,
+            "longitude": 145
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 63,
+            "longitude": 145
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1998-05-01",
+      "endDate": "2020-08-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6577-8724",
+      "givenName": "Nick",
+      "familyName": "Bouskill",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "njbouskill@lbl.gov"
+    },
+    "citation": [
+      "Bouskill NJ, Riley WJ, Zhu Q, Mekonnen ZA, Grant RF (in press) Alaskan carbon-climate feedbacks will be weaker than suggested from short-term manipulations."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Stan",
+        "familyName": "Wullschleger",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "wullschlegsd@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This data package is associated with a manuscript that was recently accepted (Alaskan carbon-climate feedbacks will be weaker than inferred from short-term manipulations\nNicholas J Bouskill, William J Riley, Qing Zhu, Zelalem A Mekonnen, Robert F Grant) the DOI will be added when generated."
+    ],
+    "distribution": [
+      {
+        "contentSize": 17.5185546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a6e811c1efe7b48-20230407T141755951405",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-a6e811c1efe7b48-20230407T141755951405",
+        "name": "Alaskan_carbon_climate_feedbacks_will_be_weaker_than_inferred_from_short_term_manipulations_Alaskan_Benchmark_Data_and_Model_runs.xml"
+      },
+      {
+        "contentSize": 15326.8369140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-98da6a96da9d1f4-20201005T181237083",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-98da6a96da9d1f4-20201005T181237083",
+        "name": "Bouskill_ESS_DIVE_submission.zip"
+      }
+    ]
+  }
+}

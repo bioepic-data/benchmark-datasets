@@ -1,0 +1,142 @@
+{
+  "id": "ess-dive-3a0693def650a7b-20240723T140907678",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1416559",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-3a0693def650a7b-20240723T140907678",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-80c74f7999d2720-20240723T140853632",
+  "dateUploaded": "2024-07-23T14:09:08.351Z",
+  "dateModified": "2024-07-31T00:01:17.791Z",
+  "isPublic": true,
+  "citation": "Jan A; Coon E; Painter S (2018): A Subgrid Approach for Modeling Microtopography Effects on Overland Flow: Modeling Archive. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1416559",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1416559",
+    "name": "A Subgrid Approach for Modeling Microtopography Effects on Overland Flow: Modeling Archive",
+    "description": [
+      "This Modeling Archive is in support of an NGEE Arctic publication. A new subgrid model was implemented in the Advanced Terrestrial simulator (ATS) to capture micro-topography effects on surface flow. Model evaluation was performed on disparate landscapes including: 1) seven individual ice-wedge polygons and a cluster of ice-wedge polygons from Barrow Alaska, 2) hummocky microtopography from Spruce field site in Minnesota, 3) synthetic rills, and 4) synthetic multGaussian realizations. Results of the subgrid model are compared to benchmark (fine-scale) and null hypothesis (model ignoring microtopography). Our finding confirms that the effects of small-scale spatial heterogeneities can be captured in the coarsened models.",
+      "The dataset contains variety of files including meshes, input files, and subgrid parameters required to run the simulations. Python scripts (jupyter notebooks) for post-processing and files for geometric analyses are also included. More details are provided in file \"simulations_info\", which has been provided in both .docx and .pdf formats. This dataset is a zip file.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1416559",
+      "NGA144"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2781-7857",
+        "givenName": "Ahmad",
+        "familyName": "Jan",
+        "email": "jana@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8124-9622",
+        "givenName": "Ethan",
+        "familyName": "Coon",
+        "email": "coonet@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0901-6987",
+        "givenName": "Scott",
+        "familyName": "Painter",
+        "email": "paintersl@ornl.gov"
+      }
+    ],
+    "datePublished": "2018-08-01",
+    "keywords": [
+      "surface flow",
+      "Barrow, Alaska",
+      "Utqiagvik, Alaska",
+      "surface water"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Utqiagvik (Barrow), Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.35,
+            "longitude": -156.7
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 71.2,
+            "longitude": -156.4
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2781-7857",
+      "givenName": "Ahmad",
+      "familyName": "Jan",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "jana@ornl.gov"
+    },
+    "citation": [
+      "Jan, A., Coon, E. T., Graham, J. D., & Painter, S. L. (2018). A subgrid approach for modeling microtopography effects on overland flow. Water Resources Research, 54, 6153-6167. https://doi.org/10.1029/2017WR021898"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Input files: All input files are in simulations_inputfiles directory\nMeshes: All meshes (fine and coarse) are in meshes directory\nSubgrid parameters: Subgrid parameters used in the simulations on 21 polygons cluster are provided in subgrid_parameters directory.\nPython Scripts: Python scripts for all the plots reported in the main text and supplementary document are in PythonScripts directory\nMore information can be found in the simulations_info.docx within the zip file or in the publication associated with this dataset: Jan, A., Coon, E. T., Graham, J. D., & Painter, S. L. (2018). A subgrid approach for modeling microtopography effects on overland flow. Water Resources Research, 54, 6153-6167. https://doi.org/10.1029/2017WR021898"
+    ],
+    "distribution": [
+      {
+        "contentSize": 178.23828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-26fa4fe1cf5893e-20240723T140743262",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-26fa4fe1cf5893e-20240723T140743262",
+        "name": "simulations_info.pdf"
+      },
+      {
+        "contentSize": 293205.8232421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-135e813905f7b18-20240515T144824512",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-135e813905f7b18-20240515T144824512",
+        "name": "data.zip"
+      },
+      {
+        "contentSize": 7.7998046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a0693def650a7b-20240723T140907678",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-3a0693def650a7b-20240723T140907678",
+        "name": "A_Subgrid_Approach_for_Modeling_Microtopography.xml"
+      }
+    ]
+  }
+}

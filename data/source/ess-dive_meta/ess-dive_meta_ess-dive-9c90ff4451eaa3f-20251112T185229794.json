@@ -1,0 +1,285 @@
+{
+  "id": "ess-dive-9c90ff4451eaa3f-20251112T185229794",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3001968",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-9c90ff4451eaa3f-20251112T185229794",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-542083eb8b735b5-20251110T182441282",
+  "dateUploaded": "2025-11-12T18:52:30.394Z",
+  "dateModified": "2025-11-16T00:07:31.283Z",
+  "isPublic": true,
+  "citation": "Aryal A; Mascaro G (2025): Quality-Controlled Meteorological Data from the Flood Control District of Maricopa County (FCDMC) Network, Phoenix, Arizona (1987-2024). Southwest Urban Corridor Integrated Field Laboratory (SW-IFL). Dataset. doi:10.15485/3001968",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3001968",
+    "name": "Quality-Controlled Meteorological Data from the Flood Control District of Maricopa County (FCDMC) Network, Phoenix, Arizona (1987-2024)",
+    "description": [
+      "This dataset contains 15- or 30-minute interval meteorological data from the Flood Control District of Maricopa County (FCDMC), Arizona, USA, covering eight key variables across multiple sensor stations between 1987 and 2024. Each variable is stored as a separate CSV file, containing time-series data that have undergone rigorous quality control (QC) procedures and, where appropriate, short-gap interpolation for consistency. The quality control (QC) pipeline consisted of four sequential tests: (1) a range test to ensure all values fall within physically realistic limits, (2) a step test to identify abrupt and implausible changes between consecutive records, (3) a proximity test that validates flagged values from step test using data from nearby stations and exceedance probability thresholds, and (4) a persistence test to detect and remove periods of unrealistically constant readings. These thresholds were calibrated to Arizona\u2019s environmental conditions and sensor specifications. After QC, short gaps (\u22642 hours) were linearly interpolated to ensure consistent temporal resolution, except for wind variables. Due to a major upgrade in FCDMC\u2019s data transmission system, only ALERT-2 protocol data (2016\u20132024) for wind variables are included; earlier ALERT-1 data were excluded because of irregular sampling and high missing rates. This dataset supports regional climate and infrastructure resilience studies by providing standardized, high-resolution meteorological data for the greater Phoenix metropolitan area."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0009-1028-6990",
+        "givenName": "Aashish",
+        "familyName": "Aryal",
+        "affiliation": "Arizona State University",
+        "email": "aaryal6@asu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4516-1206",
+        "givenName": "Giuseppe",
+        "familyName": "Mascaro",
+        "affiliation": "Arizona State University",
+        "email": "gmascaro@asu.edu"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > ATMOSPHERIC PRESSURE MEASUREMENTS",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SOLAR RADIATION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > DEW POINT TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > WIND SPEED",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > WIND DIRECTION",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > RELATIVE HUMIDITY"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Flood Control District of Maricopa County (FCDMC) network, Phoenix Metropolitan Area, Arizona, USA. The dataset comprises ground-observed meteorological data (1987\u20132024) from 40 automated weather stations, distributed across the county, which cover a mix of built and natural environments. Stations span latitudes from 32.98\u00b0N to 34.42\u00b0N and longitudes from 113.31\u00b0W to 111.40\u00b0W, with elevations ranging from 225 to 2430 m above sea level.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.42,
+            "longitude": -113.31
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.98,
+            "longitude": -111.4
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-SC0023520"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "1987-11-02",
+      "endDate": "2024-09-01",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4516-1206",
+      "givenName": "Giuseppe",
+      "familyName": "Mascaro",
+      "affiliation": "Arizona State University",
+      "email": "gmascaro@asu.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "76c0a41d-b69a-4d99-996f-d650c21e07aa"
+      },
+      "name": "Southwest Urban Corridor Integrated Field Laboratory (SW-IFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Sailor",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Arizona State University",
+        "email": "dsailor@asu.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Data collection:\nMeteorological data were obtained from the Flood Control District of Maricopa County (FCDMC), Phoenix, Arizona. The dataset includes 15- or 30-minute observations of eight variables: air temperature, relative humidity, dew point, barometric pressure, solar radiation, wind speed, peak wind speed, and wind direction, recorded between 1987 and 2024.",
+      "Quality control:\nThe data underwent a four-stage quality control process, including a range test that removed values outside realistic physical limits; a step test that flagged abrupt, unrealistic changes between consecutive records; a proximity test that validated flagged values from the step test using nearby stations and exceedance probabilities; and a persistence test that removed flatlined periods with constant values. Zero wind speed (WS) values were corrected using station-specific regression with peak wind speed (WP) before persistence testing to ensure consistent WS\u2013WP relationships. A final gust factor (GF = WP/WS) check removed physically inconsistent records (GF < 1).",
+      "Interpolation and formatting:\nShort gaps (\u2264 2 hours) in non-wind variables were filled using linear interpolation to improve continuity, while longer gaps were left missing and marked as -9999. Each variable was saved in a separate CSV file containing both local and Coordinated Universal Time (UTC) timestamps in the first two columns, followed by columns representing individual sensor IDs corresponding to monitoring stations. All files use standardized units and a consistent column structure across variables. Please refer to \"Readme.txt\" for full details of the file organization and metadata."
+    ],
+    "distribution": [
+      {
+        "contentSize": 5.8779296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-01fd4dc1b7f72a9-20251104T205958051",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-01fd4dc1b7f72a9-20251104T205958051",
+        "name": "FCDMC_Sensor_Installation_Dates.csv"
+      },
+      {
+        "contentSize": 544961.2451171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0ba8f28bc253bc8-20251023T162557173",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0ba8f28bc253bc8-20251023T162557173",
+        "name": "RH_FCDMC.csv"
+      },
+      {
+        "contentSize": 2.263671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0c732fd0c704bf6-20251104T212535499",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-0c732fd0c704bf6-20251104T212535499",
+        "name": "FCDMC_Sensor_List_dd.csv"
+      },
+      {
+        "contentSize": 1.771484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-08b142ed2dde814-20251104T212535493",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-08b142ed2dde814-20251104T212535493",
+        "name": "FCDMC_Sensor_Installation_Dates_dd.csv"
+      },
+      {
+        "contentSize": 755399.68359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-21d3efc7706e662-20251023T162557168",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-21d3efc7706e662-20251023T162557168",
+        "name": "DEWPT_FCDMC.csv"
+      },
+      {
+        "contentSize": 77313.5341796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1db400d9904fd56-20251023T162557152",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1db400d9904fd56-20251023T162557152",
+        "name": "WINDDIR_FCDMC.csv"
+      },
+      {
+        "contentSize": 771300.9404296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-12076ee1d98559d-20251023T162557174",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-12076ee1d98559d-20251023T162557174",
+        "name": "TEMP_FCDMC.csv"
+      },
+      {
+        "contentSize": 0.5048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3e58781e6992bf4-20251104T212636822",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3e58781e6992bf4-20251104T212636822",
+        "name": "WINDSPD_FCDMC_dd.csv"
+      },
+      {
+        "contentSize": 0.521484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dbe43f810e69c4c-20251104T212715360",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-dbe43f810e69c4c-20251104T212715360",
+        "name": "SOL_FCDMC_dd.csv"
+      },
+      {
+        "contentSize": 165358.9677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-68459e7a9473a94-20251023T162557170",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-68459e7a9473a94-20251023T162557170",
+        "name": "BP_FCDMC.csv"
+      },
+      {
+        "contentSize": 129853.7001953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6a7d506e3a3d6b5-20251023T162557171",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-6a7d506e3a3d6b5-20251023T162557171",
+        "name": "SOL_FCDMC.csv"
+      },
+      {
+        "contentSize": 0.521484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4aea5e206497077-20251104T212625880",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4aea5e206497077-20251104T212625880",
+        "name": "TEMP_FCDMC_dd.csv"
+      },
+      {
+        "contentSize": 16.615234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-653262eaf7816ca-20251104T211200688",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-653262eaf7816ca-20251104T211200688",
+        "name": "README.txt"
+      },
+      {
+        "contentSize": 0.51953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4f75d1052c08b1d-20251104T212700769",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4f75d1052c08b1d-20251104T212700769",
+        "name": "DEWPT_FCDMC_dd.csv"
+      },
+      {
+        "contentSize": 0.51953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-83bbfbd4e6300b5-20251104T212653270",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-83bbfbd4e6300b5-20251104T212653270",
+        "name": "WINDPK_FCDMC_dd.csv"
+      },
+      {
+        "contentSize": 0.5205078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7534cf1e8642c5a-20251104T212647756",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7534cf1e8642c5a-20251104T212647756",
+        "name": "WINDDIR_FCDMC_dd.csv"
+      },
+      {
+        "contentSize": 0.5302734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-75b26c1256dd4a8-20251104T212708830",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-75b26c1256dd4a8-20251104T212708830",
+        "name": "BP_FCDMC_dd.csv"
+      },
+      {
+        "contentSize": 106541.1220703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8ed7fdc54cb4fe9-20251023T162557163",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8ed7fdc54cb4fe9-20251023T162557163",
+        "name": "WINDPK_FCDMC.csv"
+      },
+      {
+        "contentSize": 7.2578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9a544e668055f59-20251104T210004986",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9a544e668055f59-20251104T210004986",
+        "name": "FCDMC_Sensor_List.csv"
+      },
+      {
+        "contentSize": 12.115234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9c90ff4451eaa3f-20251112T185229794",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-9c90ff4451eaa3f-20251112T185229794",
+        "name": "Quality_Controlled_Meteorological_Data_from_the.xml"
+      },
+      {
+        "contentSize": 0.529296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9e5f70bbfe917a5-20251104T212957136",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9e5f70bbfe917a5-20251104T212957136",
+        "name": "RH_FCDMC_dd.csv"
+      },
+      {
+        "contentSize": 3.4375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-977139566b72554-20251112T185152851",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-977139566b72554-20251112T185152851",
+        "name": "FCDMC_flmd.csv"
+      },
+      {
+        "contentSize": 120579.50390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cdd68aa24d648a6-20251023T162557166",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cdd68aa24d648a6-20251023T162557166",
+        "name": "WINDSPD_FCDMC.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "ess-dive-cd511c1a536aa97-20250331T213446908316",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/2205338",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-cd511c1a536aa97-20250331T213446908316",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-1d59f5111e94982-20250130T222107155",
+  "dateUploaded": "2025-03-31T21:34:51.051Z",
+  "dateModified": "2026-02-12T00:19:52.603Z",
+  "isPublic": true,
+  "citation": "Yang D; Serbin S (2023): UAS remote sensing (3DR SOLO platform): multispectral reflectance, canopy height model, normalized difference vegetation index, Seward Peninsula, Alaska, 2021. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/2205338",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/2205338",
+    "archivedAt": [
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (HTTP)",
+        "url": "https://tier2.ess-dive.lbl.gov/doi-10-5440-2205338/"
+      },
+      {
+        "@type": "WebPage",
+        "name": "ESS-DIVE Tier 2 (Globus)",
+        "url": "https://app.globus.org/file-manager?origin_id=e1b775d6-0125-11ed-a2da-25ff8664e4e5&origin_path=%2Ftier2%2Fdoi-10-5440-2205338%2F"
+      }
+    ],
+    "name": "UAS remote sensing (3DR SOLO platform): multispectral reflectance, canopy height model, normalized difference vegetation index, Seward Peninsula, Alaska, 2021",
+    "description": [
+      "Airborne remote sensing data collected using a Parrot Sequoia+ multispectral sensor installed on a 3DR SOLO unoccupied aerial system (UAS) - operated by the Terrestrial Ecosystem Science Technology group at Brookhaven National Laboratory. This package includes data from 10 flights flown over the NGEE-Arctic Council Mile Marker (MM) 71, Kougarok MM64, and Teller MM27 sites on the Seward Peninsula, Alaska, in August 2021. Derived image products include point cloud, ortho-mosaiced multispectral image, ortho-mosaiced RGB image, a digital surface model (DSM) using the structure from motion (SfM) technique, a canopy height model (CHM), and a normalized difference vegetation index (NDVI) map. Unprocessed and processed data products are included in this package (processing levels 0-2). Data and metadata are provided as text (*.txt, *.json, *hdr,), tabular (*.dat, *.csv), point cloud (*.laz), Cloud Optimized GeoTIFF (COG, *.tif), and image (*.jpg, *.tif, *png) formats. The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/2205338",
+      "NGA320"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-1705-7823",
+        "givenName": "Dedi",
+        "familyName": "Yang",
+        "email": "dediyang@bnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4136-8971",
+        "givenName": "Shawn",
+        "familyName": "Serbin",
+        "email": "sserbin@bnl.gov"
+      }
+    ],
+    "datePublished": "2023-11-10",
+    "keywords": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CANOPY CHARACTERISTICS",
+      "Teller",
+      "EARTH SCIENCE > SPECTRAL/ENGINEERING > PLATFORM CHARACTERISTICS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > VEGETATION INDEX",
+      "EARTH SCIENCE > LAND SURFACE > SURFACE RADIATIVE PROPERTIES > REFLECTANCE",
+      "Council",
+      "Kougarok"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Seward Peninsula, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 66.952,
+            "longitude": -168.14
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.03,
+            "longitude": -159.19
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-08-18",
+      "endDate": "2021-08-22",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4136-8971",
+      "givenName": "Shawn",
+      "familyName": "Serbin",
+      "affiliation": "Brookhaven National Laboratory",
+      "email": "sserbin@bnl.gov"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "The UAS flights were conducted under sunny, clear-sky conditions. Calibration panel measurements were collected before and after each flight to help convert Parrot radiance measurements to surface reflectance. Optical RGB and multispectral orthomosaics were processed following the data processing protocol from Metashape Software (Agisoft Inc.). The canopy height model (CHM) was generated by calculating the difference in height between the digital surface model (DSM) and a digital elevation model (DEM) that are interpolated using ground-return DSM pixels (e.g., bare soil, water, exposed rock, moss, and lichen). The normalized difference vegetation index (NDVI) was calculated as (NIR-R)/(NIR+R), where NIR and R are the near infrared and red band reflectance from the multispectral orthomosaic imagery. Data is formatted following the guidelines of a preliminary version of the ESS-DIVE Reporting Format for Unoccupied Aerial System (UAS) data and metadata (v0.3.0)."
+    ],
+    "distribution": [
+      {
+        "contentSize": 7.798828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cd511c1a536aa97-20250331T213446908316",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-cd511c1a536aa97-20250331T213446908316",
+        "name": "UAS_remote_sensing_3DR_SOLO_platform_multispectral_reflectance_canopy_height_model_normalized_difference_vegetation_index_Seward_Peninsula_Alaska_2021.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,637 @@
+{
+  "id": "ess-dive-f3450d628300e92-20240716T133544683",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1124253",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-f3450d628300e92-20240716T133544683",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-f3450d628300e92-20240716T132853208",
+  "dateUploaded": "2024-07-16T13:35:43.548Z",
+  "dateModified": "2024-07-24T19:02:22.928Z",
+  "isPublic": true,
+  "citation": "Liljedahl A (2024): Frost Tables, NGEE Areas B, C and D, Utqiagvik (Barrow), Alaska, 2012-2014. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1124253",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1124253",
+    "name": "Frost Tables, NGEE Areas B, C and D, Utqiagvik (Barrow), Alaska, 2012-2014",
+    "description": [
+      "This dataset represents spatially intensive thaw depth surveys with individual point measurements spaced ~0.5 m apart. The three ~10x10m grids cover an ice wedge and a portion of its two neighboring polygons. The data contain thaw depth, frost table elevation, ground surface elevation, active layer depth and surface water inundation across three seasons (2012, 2013 and 2014) at Utqiagvik (Barrow) NGEE Areas B, C and D. There are a total of 69 extracted files separated by month, year, and area. The data were originally provided in excel workbooks, these files have been preserved within the zip \"Original_Files.\" The files were transformed for archiving with images pulled out into JPEGs, data preserved as CSV files and some methodological information preserved as TXT files. Some functions, features, and formatting were lost during the transformation. Missing data were defined with blank cells. Additional documentation can be found in files labelled with \"information.txt\" file endings.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research.",
+      "The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska.",
+      "Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM).",
+      "[2024-07-15] Renamed BEO_Thaw_Depth_Frost_Table_Area_*_*_*.csv, BEO_Thaw_Depth_Frost_Table_Area_*_*_*_Plot_1.JPEG, and BEO_Thaw_Depth_Frost_Table_Area_*_*_*_Plot_2.JPEG names that had E or L to be Early or Late. Renamed BEO_Thaw_Depth_Frost_Table_Area_*_*_*_Plot_1.JPEG, BEO_Thaw_Depth_Frost_Table_Area_*_*_*_Plot_2.JPEG, and BEO_Thaw_Depth_Frost_Table_Area_*_information_Plot_1.JPEG to BEO_Thaw_Depth_Frost_Table_Area_*_*_*_Gridpoints.JPEG, BEO_Thaw_Depth_Frost_Table_Area_*_*_*_3Dgraphic.JPEG, and BEO_Thaw_Depth_Frost_Table_Area_*_information_LiDAR_DEM.JPEG, respectively. Updated BEO_Thaw_Depth_Frost_Table_flmd.csv file to reflect above updates."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1124253",
+      "NGA020"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7114-6443",
+        "givenName": "Anna",
+        "familyName": "Liljedahl",
+        "affiliation": "University of Alaska, Fairbanks",
+        "email": "akliljedahl@alaska.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > FROZEN GROUND",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "thaw depth",
+      "water level",
+      "active layer",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Easting",
+      "Northing",
+      "ground surface",
+      "water surface",
+      "frost table surface"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Barrow Study Site areas B, C, and D.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.35,
+            "longitude": -156.7
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 71.2,
+            "longitude": -156.4
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0500OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2012-09-01",
+      "endDate": "2015-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7114-6443",
+      "givenName": "Anna",
+      "familyName": "Liljedahl",
+      "affiliation": "University of Alaska, Fairbanks",
+      "email": "akliljedahl@alaska.edu"
+    },
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "HEADER: Below methods text was primarily retrieved from the BEO_Thaw_Depth_Frost_Table_Area_*_information.txt file with minor modifications.",
+      "FIELD MEASUREMENTS: Elevations are given as absolute elevation (meters above sea level) via a detailed level surveying of each grid point to a known benchmark. A permanent wooden stake marked each grid corner, which was surveyed with a Differential GPS system by Craig Ulrich in Sep. 2012. The start of each transect, which was located 0.5 m apart, was also marked with a wooden stake. During each survey, a meter tape was secured to each transect's end-point and an elevation/thaw depth was measured every 0.5 m along the meter tape. The elevation survey was made using the digital level TopCon DL-502. The known benchmark/reference elevation was surveyed at the beginning and at the end of each survey. Note that the ground elevation, especially moss-covered, is difficult to determine within ~5 cm. A pointed 1.25m long and 1 cm diameter metal probe was used to determine thaw depth. The ground surface elevation was surveyed with the digital level and rod, while the thaw depth and water level was measured locally with the rod (water) and probe (thaw). The grid survey at Area B took ~1.5h. The grid survey at Area C took ~4h. The grid survey at Area D took ~5h.",
+      "DATA PROCESSING: All values were processed to represent absolute elevation (meter above sea level). Water surface elevation measurements were averaged within respective polygon feature. The value is only reported at locations where surface inundation was observed. The location coordinates (x and y) were presented as relative values in the field, but translated into UTM coordinates using linear interpolation from the DGPS grid corner coordinates.",
+      "COMMENTS (Area B): The extent of the surveyed area was increased in 2013. In September 2012 the area was 1 meter wide by 7.5 meters long. In 2013, we added 4 meters of length and 2 meters of width. Thus, the size of the survey area in all surveys except for the September 2012 survey is 3 meters wide by 11.5 meters long.",
+      "COMMENTS (Area C): The extent of the surveyed area was increased in 2013. In September 2012 the area was 11 meters wide by 9.5 meters long. In 2013, we added 4 meters of length. Thus, the size of the survey area in all surveys except the September 2012 survey is 11 meters wide by 13.5 meters long.\nSurvey in September 2013 was conducted with a large amount of standing frozen water present. Thus, while the frost table could be readily derived from the thaw depth with respect to surveyed surface of ground, the surveyed surface of the ground in most cases was not the actual ground surface. Therefore, in the data for the September 2013 survey, the ground surface elevations given in this sheet are those determined during the July 2013 survey, and the thaw depths reflect that adjustment. In addition, for that survey, no water surface measurements are given due to the impossibility of distinguishing ice and ground.\nThree independent water tables exist in Area C; one in each polygon, and one in trough. Water measurements were only taken where standing water was observed. These measurements were then averaged across the individual water table (e.g. all water surface measurements taken in the trough were averaged across each other, but not with those taken in either polygon). The average measurements are then reported at each location where a measurement was recorded.",
+      "COMMENTS (Area D): The extent of the surveyed area in all seasons was 9 meters wide by 12.5 meters long.\nTwo independent water tables exist in Area D (one in each polygon). Water measurements were only taken where standing water was observed. These measurements were then averaged across the individual water table (e.g. all water surface measurements taken in one polygon were averaged across each other, but not with those taken in the other polygon). The average measurements are then reported at each location where a measurement was recorded.",
+      "The \u201cBEO_Thaw_Depth_Frost_Table_Area_*_information_Plot_1\u201d JPEGs show a section of the LiDAR DEM (grayscale) for Area B, C, and D, along with the surveyed ground surface elevation (color) from 2013 and 2014, respectively. Red/black and blue/white indicate low and high areas, respectively. Note that elevations obtained by the ground survey are more accurate than those shown by the LiDAR DEM."
+    ],
+    "distribution": [
+      {
+        "contentSize": 50.0341796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-0a7c97e676192f4-20240715T191714131",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-0a7c97e676192f4-20240715T191714131",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201406_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 14.36328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-16bd994e00c0c17-20240606T205615550",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-16bd994e00c0c17-20240606T205615550",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201309.csv"
+      },
+      {
+        "contentSize": 225.6142578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-21d88f560499218-20240715T192054560",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-21d88f560499218-20240715T192054560",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201409_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 225.6142578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2335b82b7799792-20240715T192054533",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-2335b82b7799792-20240715T192054533",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201407_Late_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 68.4814453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1d1d7c9dd3e4613-20240715T191714236",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-1d1d7c9dd3e4613-20240715T191714236",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_infomation_LiDAR_DEM.jpg"
+      },
+      {
+        "contentSize": 20.9677734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-05afd34f61d29e4-20240606T205632381",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-05afd34f61d29e4-20240606T205632381",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201306.csv"
+      },
+      {
+        "contentSize": 54.71484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-061a089150ce883-20240715T192054386",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-061a089150ce883-20240715T192054386",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201306_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 74.3388671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-18b3c8e874011ca-20240715T191936401",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-18b3c8e874011ca-20240715T191936401",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201309_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 78.1572265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1e94056e91e0e55-20240715T191936368",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-1e94056e91e0e55-20240715T191936368",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201307_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 59.9892578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1f4be689186b375-20240715T191714018",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-1f4be689186b375-20240715T191714018",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201209_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 51.8310546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2053b81d3c06efb-20240715T192054414",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-2053b81d3c06efb-20240715T192054414",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201307_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 7.248046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-137227632f9b3a5-20240606T205558119",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-137227632f9b3a5-20240606T205558119",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201409.csv"
+      },
+      {
+        "contentSize": 20.875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-10afd86191d24b3-20240715T191714199",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-10afd86191d24b3-20240715T191714199",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201407_Late.csv"
+      },
+      {
+        "contentSize": 14.4375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-10b37c92d95af4b-20240715T191936444",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-10b37c92d95af4b-20240715T191936444",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201407_Early.csv"
+      },
+      {
+        "contentSize": 176.6884765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3e05d73cdb29f9b-20240715T191714145",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-3e05d73cdb29f9b-20240715T191714145",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201406_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 176.6884765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3e434851e7f66a1-20240715T191714186",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-3e434851e7f66a1-20240715T191714186",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201407_Early_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 363.0458984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2f2906948ab4849-20240715T191936412",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-2f2906948ab4849-20240715T191936412",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201309_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 7.2587890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2ca748fd22c3d23-20240715T192054504",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2ca748fd22c3d23-20240715T192054504",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201407_Late.csv"
+      },
+      {
+        "contentSize": 85.9716796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-49479f39bcaa2e6-20240715T191936510",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-49479f39bcaa2e6-20240715T191936510",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201409_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 14.2802734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3a75cd05d608ecf-20240606T205615641",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3a75cd05d608ecf-20240606T205615641",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201409.csv"
+      },
+      {
+        "contentSize": 363.0458984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-290476b2b17c9f9-20240715T191936519",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-290476b2b17c9f9-20240715T191936519",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201409_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 54.2724609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d2c68f8ab91622e-20240715T192054478",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-d2c68f8ab91622e-20240715T192054478",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201407_Early_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 85.8125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d3020ac3603890b-20240715T191936495",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-d3020ac3603890b-20240715T191936495",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201407_Late_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 7.2177734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d53d2798f1bf53a-20240606T205558064",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d53d2798f1bf53a-20240606T205558064",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201307.csv"
+      },
+      {
+        "contentSize": 14.3525390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d9e75d2d8f955f1-20240606T205615529",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-d9e75d2d8f955f1-20240606T205615529",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201307.csv"
+      },
+      {
+        "contentSize": 363.0458984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-da8109e413ddc17-20240715T191936433",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-da8109e413ddc17-20240715T191936433",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201406_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 3.7734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e728b79e10d7b6f-20240715T191450758",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e728b79e10d7b6f-20240715T191450758",
+        "name": "BEO_Thaw_Depth_Frost_Table_flmd.csv"
+      },
+      {
+        "contentSize": 51.7841796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e065f0fb05f541a-20240715T191936526",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-e065f0fb05f541a-20240715T191936526",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_infomation_LiDAR_DEM.jpg"
+      },
+      {
+        "contentSize": 54.427734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e18539ae63735e2-20240715T191714101",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-e18539ae63735e2-20240715T191714101",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201307_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 153.41796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-343d8b41a8c7301-20240715T192054372",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-343d8b41a8c7301-20240715T192054372",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201209_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 2.1279296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-69cfd38b0394021-20240606T205558028",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-69cfd38b0394021-20240606T205558028",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201209.csv"
+      },
+      {
+        "contentSize": 54.6650390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ee0aad20683155-20240715T192054546",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-5ee0aad20683155-20240715T192054546",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201409_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 61.6953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5c4d8ef53ee963b-20240715T191936284",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-5c4d8ef53ee963b-20240715T191936284",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201209_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 3801.978515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4a243c267d76df3-20240606T205713883",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-4a243c267d76df3-20240606T205713883",
+        "name": "BEO_Thaw_Depth_Frost_Table_Original_Files.zip"
+      },
+      {
+        "contentSize": 363.0458984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-57f61f1713b3b88-20240715T191936386",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-57f61f1713b3b88-20240715T191936386",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201307_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 176.6884765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5a6ff55e06baa70-20240715T191714116",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-5a6ff55e06baa70-20240715T191714116",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201307_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 363.0458984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-64c84a779a374e6-20240715T191936347",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-64c84a779a374e6-20240715T191936347",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201306_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 225.6142578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-64eaa1a093ec7b4-20240715T192054490",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-64eaa1a093ec7b4-20240715T192054490",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201407_Early_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 74.1083984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4de62d9b07eea2e-20240715T191936422",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-4de62d9b07eea2e-20240715T191936422",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201406_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 363.0458984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4f8b0c87707b100-20240715T191936473",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-4f8b0c87707b100-20240715T191936473",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201407_Early_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 225.6142578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6eec79809c3c871-20240715T192054428",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-6eec79809c3c871-20240715T192054428",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201307_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 225.6142578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-70edcd817a87446-20240715T192054401",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-70edcd817a87446-20240715T192054401",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201306_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 225.6142578125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-814f0f8a215faa6-20240715T192054455",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-814f0f8a215faa6-20240715T192054455",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201406_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 89.7841796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-81e1a12acad7e19-20240715T191936332",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-81e1a12acad7e19-20240715T191936332",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201306_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 176.6884765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-85570633fd4cb0b-20240715T191714225",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-85570633fd4cb0b-20240715T191714225",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201407_Late_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 53.4501953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6dec7a3024471ef-20240715T191714173",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-6dec7a3024471ef-20240715T191714173",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201407_Early_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 6.494140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7c1bee578a044b4-20240607T003741179",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-7c1bee578a044b4-20240607T003741179",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_infomation.txt"
+      },
+      {
+        "contentSize": 53.9755859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7cff7a39c50d29a-20240715T191714212",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-7cff7a39c50d29a-20240715T191714212",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201407_Late_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 7.2021484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8949e4c3e16c53a-20240606T205558079",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8949e4c3e16c53a-20240606T205558079",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201406.csv"
+      },
+      {
+        "contentSize": 10.224609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8d1328b8ea43c2d-20240606T205615479",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8d1328b8ea43c2d-20240606T205615479",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201209.csv"
+      },
+      {
+        "contentSize": 14.25,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8d8ab77292befe1-20240606T205615573",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8d8ab77292befe1-20240606T205615573",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201406.csv"
+      },
+      {
+        "contentSize": 6.046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ab27331c61886b4-20240607T003718003",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-ab27331c61886b4-20240607T003718003",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_infomation.txt"
+      },
+      {
+        "contentSize": 305.978515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ac3df7bef7c196e-20240715T191936318",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-ac3df7bef7c196e-20240715T191936318",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201209_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 55.0673828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-acf8cd4209657ef-20240715T191714066",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-acf8cd4209657ef-20240715T191714066",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201306_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 7.2607421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9b97ffd407d7243-20240715T192054465",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9b97ffd407d7243-20240715T192054465",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201407_Early.csv"
+      },
+      {
+        "contentSize": 20.63671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9c9808cf507491f-20240606T205632443",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9c9808cf507491f-20240606T205632443",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201406.csv"
+      },
+      {
+        "contentSize": 7.2060546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a5b84d7cc1313c8-20240606T205558050",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-a5b84d7cc1313c8-20240606T205558050",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201306.csv"
+      },
+      {
+        "contentSize": 51.232421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8ff8eb6349d95b4-20240715T192054518",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-8ff8eb6349d95b4-20240715T192054518",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201407_Late_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 176.6884765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bf44a554125f4db-20240715T191714085",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-bf44a554125f4db-20240715T191714085",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201306_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 169.078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b4d0be89e962cc9-20240715T191714046",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-b4d0be89e962cc9-20240715T191714046",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201209_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 0.57421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b9befa4ecb2c21d-20240606T205703744",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-b9befa4ecb2c21d-20240606T205703744",
+        "name": "BEO_Thaw_Depth_Frost_Table_dd.csv"
+      },
+      {
+        "contentSize": 14.3359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cc9f2ba9efd8ced-20240606T205615505",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cc9f2ba9efd8ced-20240606T205615505",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201306.csv"
+      },
+      {
+        "contentSize": 53.2060546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cd05c44c2299ecc-20240715T192054574",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-cd05c44c2299ecc-20240715T192054574",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_infomation_LiDAR_DEM.jpg"
+      },
+      {
+        "contentSize": 20.8779296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cdfc964f24bddbb-20240715T191714158",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-cdfc964f24bddbb-20240715T191714158",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201407_Early.csv"
+      },
+      {
+        "contentSize": 363.0458984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b35b51d4ed2e17f-20240715T191936503",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-b35b51d4ed2e17f-20240715T191936503",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201407_Late_Gridpoints.jpg"
+      },
+      {
+        "contentSize": 8.134765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b4472d20bd6703a-20240607T003727564",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-b4472d20bd6703a-20240607T003727564",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_infomation.txt"
+      },
+      {
+        "contentSize": 76.828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ca1997a924a6580-20240715T191936460",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-ca1997a924a6580-20240715T191936460",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201407_Early_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 14.4384765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f6442d44bdcf559-20240715T191936485",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-f6442d44bdcf559-20240715T191936485",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_C_201407_Late.csv"
+      },
+      {
+        "contentSize": 24.751953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f3450d628300e92-20240716T133544683",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-f3450d628300e92-20240716T133544683",
+        "name": "Frost_Tables_NGEE_Areas_B_C_and_D_Utqiagvik.xml"
+      },
+      {
+        "contentSize": 21.0556640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fcfd2da3bc7783c-20240606T205632412",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fcfd2da3bc7783c-20240606T205632412",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201307.csv"
+      },
+      {
+        "contentSize": 20.9345703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fdef259723be288-20240606T205632344",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-fdef259723be288-20240606T205632344",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_D_201209.csv"
+      },
+      {
+        "contentSize": 50.8466796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f7f0db590e2cc03-20240715T192054441",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-f7f0db590e2cc03-20240715T192054441",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201406_3Dgraphic.jpg"
+      },
+      {
+        "contentSize": 42.6337890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f8e6af4ee2a24a8-20240715T192054337",
+        "encodingFormat": "image/jpeg",
+        "identifier": "ess-dive-f8e6af4ee2a24a8-20240715T192054337",
+        "name": "BEO_Thaw_Depth_Frost_Table_Area_B_201209_3Dgraphic.jpg"
+      }
+    ]
+  }
+}

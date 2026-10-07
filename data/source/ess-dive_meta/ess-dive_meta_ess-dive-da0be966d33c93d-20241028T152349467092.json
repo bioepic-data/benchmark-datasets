@@ -1,0 +1,195 @@
+{
+  "id": "ess-dive-da0be966d33c93d-20241028T152349467092",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15486/NGT/1423307",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-da0be966d33c93d-20241028T152349467092",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-341e30b6040c823-20240913T180541329299",
+  "dateUploaded": "2024-10-28T15:23:53.736Z",
+  "dateModified": "2024-10-28T22:22:45.446Z",
+  "isPublic": true,
+  "citation": "Faybishenko B; Paton S; Powell T; Knox R; Pastorello G; Varadharajan C; Christianson D; Agarwal D (2018): QA/QC-ed BCI meteorological drivers. Next-Generation Ecosystem Experiments (NGEE) Tropics. Dataset. doi:10.15486/NGT/1423307",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15486/NGT/1423307",
+    "name": "QA/QC-ed BCI meteorological drivers",
+    "description": [
+      "Time series raw datasets of Temperature, Solar Radiation, Relative Humidity, Rainfall, Barometric Pressure, Wind Speed, and Wind Direction for the Barro Colorado (PA-BCI) site for the period from 2003-01-01 to 2016-12-31 were downloaded from the STRI website. The QA/QC protocol of raw datasets included the detection and removal of NAs, outliers and bad data points, imputation of missing data, and creation of the time series with equidistant time stamps. The time series for different meteorological parameters were aligned into a single database to be used for modeling. Statistical QA/QC analysis was performed using a series of R libraries in Rstudio. The changes in the dataset were flagged. The file BCI_met_drivers_2003-2016_QAQC_summary_report.docx provides the details of the QA/QC data analysis.",
+      "This dataset was originally published on the NGEE Tropics Archive and is being mirrored on ESS-DIVE for long-term archival",
+      "Acknowledgement: Steve Paton of STRI provided an initial QA/QC of all met drivers"
+    ],
+    "alternateName": [
+      "http://dx.doi.org/10.15486/ngt/1423307",
+      "NGT0062"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-0085-8499",
+        "givenName": "Boris",
+        "familyName": "Faybishenko",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "bafaybishenko@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Steve",
+        "familyName": "Paton",
+        "affiliation": "Smithsonian Tropical Research Institution",
+        "email": "patons@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-3516-7164",
+        "givenName": "Thomas",
+        "familyName": "Powell",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "tlpowell@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0003-1140-3350",
+        "givenName": "Ryan",
+        "familyName": "Knox",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "rgknox@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-9387-3702",
+        "givenName": "Gilberto",
+        "familyName": "Pastorello",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "gzpastorello@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8663-7701",
+        "givenName": "Danielle",
+        "familyName": "Christianson",
+        "affiliation": "Berkeley Lab",
+        "email": "DSChristianson@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0001-5045-2396",
+        "givenName": "Deb",
+        "familyName": "Agarwal",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "daagarwal@lbl.gov"
+      }
+    ],
+    "datePublished": "2018-03-02",
+    "keywords": [
+      "Next-Generation Ecosystem Experiements Tropics",
+      "NGEE-T",
+      "ESS-DIVE Location Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Air Temperature",
+      "Barometric pressure",
+      "Precipitation (rainfall)",
+      "Relative humidity",
+      "Shortwave radiation",
+      "Wind speed/direction"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Site Name: Barro Colorado Island (BCI). Site ID: PA-BCI. Located in Panama. Barro Colorado Island (BCI) is a humid tropical forest with high biodiversity, around 300 species in 50 ha. The climate has a sever dty season from and of December to end of April. Several decidous species drop their leaves during this period. Lianas are very abundant in this forest accounting up to 30% of leaf area. (AMERIFLUX)Barro Colorado Island (BCI), a 1,560-hectare island, is STRI's primary site for the study of lowland moist tropical forests. Together with five adjacent peninsulas, BCI forms the 5,600-hectare Barro Colorado Nature Monument (BCNM), which is located in the middle of the Panama Canal. Established in April 17, 1923, BCNM and has been administered by the Smithsonian since 1946 (STRI CTFS). For more information on this site, visit: http://fluxnet.ornl.gov/site/4247, http://ameriflux-data.lbl.gov:8080/SitePages/siteInfo.aspx?PA-Bar,http://biogeodb.stri.si.edu/physical_monitoring/research/barrocolorado Site contact(s): (Joseph Wright <wrightj@si.edu>)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 9.177125,
+            "longitude": -79.87
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 9.130659,
+            "longitude": -79.82
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2003-01-01",
+      "endDate": "2016-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "http://orcid.org/0000-0003-0085-8499",
+      "givenName": "Boris",
+      "familyName": "Faybishenko",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "bafaybishenko@lbl.gov"
+    },
+    "citation": [
+      "Additional information about citations:",
+      "Temperature, SR, RH, Barometric pressure, and rainfall datasets were uploaded on 1/26/2017, and wind speed/direction were uploaded on 4/3/2017 from the STRI website."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a441fe85-5ac3-41b1-bbe5-46df92682609"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Tropics",
+      "member": {
+        "@type": "Person",
+        "givenName": "Jeffrey",
+        "familyName": "Chambers",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "jchambers@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "1-hour time interval. Time stamps are in both the local time and UTC. QA/QC methods and flagging are described in the Word file."
+    ],
+    "distribution": [
+      {
+        "contentSize": 1.5869140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-236873c09beffa0-20231002T163257627833",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-236873c09beffa0-20231002T163257627833",
+        "name": "NGT0062_locations.csv"
+      },
+      {
+        "contentSize": 9.353515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-da0be966d33c93d-20241028T152349467092",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-da0be966d33c93d-20241028T152349467092",
+        "name": "QA_QC_ed_BCI_meteorological_drivers.xml"
+      },
+      {
+        "contentSize": 3334.5302734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-834eaa1a123543e-20220803T195550564380",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-834eaa1a123543e-20220803T195550564380",
+        "name": "BCI_met_drivers_2003-2016_20180302003528.zip"
+      }
+    ]
+  }
+}

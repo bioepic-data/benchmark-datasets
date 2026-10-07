@@ -1,0 +1,174 @@
+{
+  "id": "ess-dive-e8f9a7541f1216d-20241213T155855870",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1433255",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-e8f9a7541f1216d-20241213T155855870",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-a99889cc187d760-20241213T155712042",
+  "dateUploaded": "2024-12-13T15:58:57.651Z",
+  "dateModified": "2024-12-20T00:18:00.640Z",
+  "isPublic": true,
+  "citation": "Brunetti C; Lamb J (2022): Probabilistic estimation of depth-resolved profiles of soil thermal diffusivity from temperature time series: Supporting Data. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1433255",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1433255",
+    "name": "Probabilistic estimation of depth-resolved profiles of soil thermal diffusivity from temperature time series: Supporting Data",
+    "description": [
+      "This dataset consists of soil temperature time series that were used to estimate soil thermal diffusivity and its uncertainty trough the probabilistic modelling approach developed and presented in the article named \"Probabilistic estimation of depth-resolved profiles of soil thermal diffusivity from temperature time series\" and published in Earth Surface Dynamics. There are two compressed (.zip) files that contains synthetic (Synthetic_soiltemp_Teller.zip) and field (Field_soiltemp_Teller.zip) data. There is one MATLAB file that requires MATLAB to execute but any text editor can open it. The Synthetic_soiltemp_Teller.zip file includes 5 comma-delimited data files (.csv) each of which contains soil temperature time series generated through forward modeling (i.e., heat-conduction process in a heterogeneous medium using an explicit finite difference method) to mimic various types of temperature gradients, trend and fluctuations. These synthetic soil temperatures were used to investigate the impact of different environmental conditions on the uncertainty of thermal diffusivity estimates. The Field_soiltemp_Teller.zip file contains 28 comma-delimited data files (.csv) out of which (a) 27 files includes soil temperature time series recorded from 27 temperature probes located in a site along Teller Road about 40 km northwest of Nome, Alaska (64.72\u00b0N, 165.94\u00b0W), (b) one includes the name and coordinates of the 27 probes. These field soil temperatures were used to infer soil thermal diffusivity at numerous locations and depths in a discontinuous permafrost environment, and to evaluate the links between the estimated soil thermal diffusivity values and soil physical properties. The comma-delimited data files (.csv) of the synthetic and field soil temperature time series includes date and time (UTC) in the first column and soil temperature from 5 cm below the ground surface to 1.05 m depth (with 5 or 10 cm spacing between sensors) in the other columns. The measurements were acquired every 15 minutes. The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1433255",
+      "NGA282"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4788-5419",
+        "givenName": "Carlotta",
+        "familyName": "Brunetti",
+        "email": "carlotta@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Lamb",
+        "email": "jlamb@lbl.gov"
+      }
+    ],
+    "datePublished": "2022-06-23",
+    "keywords": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS",
+      "Seward Peninsula, Alaska",
+      "Teller Road, Alaska",
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SOIL BULK DENSITY",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > CARBON > SOIL ORGANIC CARBON (SOC)",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > THERMAL CONDUCTIVITY",
+      "EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND > SEASONALLY FROZEN GROUND"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Teller Site, Mile Marker 27, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.758839,
+            "longitude": -165.979295
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.712145,
+            "longitude": -165.921485
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2017-06-17",
+      "endDate": "2019-11-08",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4788-5419",
+      "givenName": "Carlotta",
+      "familyName": "Brunetti",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "brunetti.carlotta@gmail.com"
+    },
+    "citation": [
+      "Brunetti, C., Lamb, J., Wielandt, S., Uhlemann, S., Shirley, I., McClure, P., and Dafflon, B.: Probabilistic estimation of depth-resolved profiles of soil thermal diffusivity from temperature time series, Earth Surf. Dynam. Discuss. [preprint], https://doi.org/10.5194/esurf-2021-68, in review, 2022.",
+      "Baptiste Dafflon, Carlotta Brunetti, John Lamb, Sebastian Uhlemann, Ian Shirley, Patrick McClure, and Chen Wang. 2022. Soil physical and thermal properties from soil samples at multiple locations at Teller Road Site, Seward Peninsula, Alaska, 2019. 2022. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. https://doi.org/10.5440/1860505",
+      "Romanovsky, V., Cable, W., and Dolgikh, K. 2022. Soil Temperature and Moisture, Teller Road Mile Marker 27, Seward Peninsula, Alaska, beginning 2016, Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. https://doi.org/10.5440/1581437, 2020."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Synthetic soil temperature\nThe synthetic soil temperature fields are generated through forward modeling (i.e., heat-conduction process in a heterogeneous medium using an explicit finite difference method) with initial, top, and bottom boundary conditions set equal to the temperature time series observed at a monitoring site in Alaska during summer (Romanovsky et al. 2020) and autumn (this dataset), and by assuming a soil column composed of three layers (i.e., top layer at 0.05-0.1 m, middle layer at 0.1-0.42 m, and bottom layer at 0.42-1.05 m). The thermal diffusivity in the three layers is assumed to be constant over time and equal to 0.16, 0.27 and 0.43 mm2s-1 for the case of summer temperatures and 0.25, 0.75 and 0.6 mm2s-1 for autumn. The forward modeling function heatEq1D_heter.m was used to generate the synthetic datasets. The function computes the 1D diffusion equation in a heterogeneous medium according to Equation on page 246 of the book \"Finite difference computing with PDEs\" by Hans Petter Langtangen and Svein Linge. The above-mentioned Equation is used with theta=0 that corresponds to a discretization based on a Forward Euler scheme in time and a centered difference in space.",
+      "Field soil temperature\nThe field soil temperatures were recorded using the Distributed Temperature Profiling (DTP) system described in Dafflon et al., 2022."
+    ],
+    "distribution": [
+      {
+        "contentSize": 5.8173828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-090b0d76c8f655b-20241213T155432609",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-090b0d76c8f655b-20241213T155432609",
+        "name": "nga282_flmd.csv"
+      },
+      {
+        "contentSize": 371.8046875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d2c537740b72f58-20241213T155457755",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-d2c537740b72f58-20241213T155457755",
+        "name": "Brunetti_etal_NGEE_DataArchive_BD2_20220621.pdf"
+      },
+      {
+        "contentSize": 11.2080078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e8f9a7541f1216d-20241213T155855870",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-e8f9a7541f1216d-20241213T155855870",
+        "name": "Probabilistic_estimation_of_depth_resolved.xml"
+      },
+      {
+        "contentSize": 1.80078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4aa78d4f7ced418-20241213T155443166",
+        "encodingFormat": "application/MATLAB",
+        "identifier": "ess-dive-4aa78d4f7ced418-20241213T155443166",
+        "name": "heatEq1D_heter.m"
+      },
+      {
+        "contentSize": 1509.1484375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-85a4ca36b55468e-20241213T155319872",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-85a4ca36b55468e-20241213T155319872",
+        "name": "Synthetic_soiltemp_Teller.zip"
+      },
+      {
+        "contentSize": 0.421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-97472d3f847c316-20241213T155432605",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-97472d3f847c316-20241213T155432605",
+        "name": "nga282_dd.csv"
+      },
+      {
+        "contentSize": 1418.4931640625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b269d71359c78e7-20241213T155332089",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-b269d71359c78e7-20241213T155332089",
+        "name": "Field_soiltemp_Teller.zip"
+      }
+    ]
+  }
+}

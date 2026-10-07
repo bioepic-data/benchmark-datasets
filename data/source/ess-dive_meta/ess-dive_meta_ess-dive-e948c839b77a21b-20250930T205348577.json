@@ -1,0 +1,252 @@
+{
+  "id": "ess-dive-e948c839b77a21b-20250930T205348577",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2513385",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-e948c839b77a21b-20250930T205348577",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-97fafe9aeacf917-20250313T125116553742",
+  "dateUploaded": "2025-09-30T20:53:49.149Z",
+  "dateModified": "2025-10-15T00:03:23.702Z",
+  "isPublic": true,
+  "citation": "Zhang T; Steckler M; Breen A; Hoffman F; Hargrove W; Salmon V; Iversen C; Wullschleger S; Kumar J (2025): Pan-Arctic Vegetation Cover (PAVC) Gridded v1.0 --- High resolution fractional coverage maps of plant functional types at 20-meter spatial resolution. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.15485/2513385",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2513385",
+    "name": "Pan-Arctic Vegetation Cover (PAVC) Gridded v1.0 --- High resolution fractional coverage maps of plant functional types at 20-meter spatial resolution",
+    "description": [
+      "The PAVC-Gridded datasets were created to provide detailed fractional cover information for typical tundra plant functional types (PFTs) across Arctic Alaska, which will be embedded in terrestrial ecosystem models for improving carbon flux estimates. The PFT-level fractional cover also helps characterize the vegetation composition at sub-pixel level for understanding the tundra response to warming climate. This dataset includes 8 Tiff files containing fractional cover for 7 PFTs in the Arctic region of Alaska, USA. There are Tiffs for (1) bryophytes; (2) lichens; (3) non-vascular plants, i.e., the sum of lichens and bryophytes; (4) deciduous shrubs, (5) evergreen shrubs, (6) forbs, (7) graminoids, and a non-PFT class (8) litter. Each pixel in the Tiff file contains the cover (expressed as a fraction of total ground cover) that was predicted by a random-forest regression model. The random-forest models were trained on cover data collected at 978 plots from 2010 to 2021, of which are archived in the Pan-Arctic Vegetation Cover (PAVC) database (https://data.ess-dive.lbl.gov/datasets/doi:10.15485/2483557). The plot cover was linked to 20-meter spatial resolution, satellite-derived predictor variables: Sentinel-2 spectra and Sentinel-1 polarizations averaged over the 2019 growing season, as well as topographical features derived from ArcticDEM. Then, spatio-temporally anomalous plot data that introduced large variability to the regression outcomes were dropped using the Cook\u2019s distance outlier detection method, and the models were re-created using high-quality plots and their associated satellite derived explanatory variables per each PFT. The correlations between plot-observed and satellite-derived fractional cover for all PFTs were well correlated (R2 = 0.69\u20130.95 and 0.5 for litter) and had low RMSE bias (0.02\u20130.11). This research was performed as a part of the NGEE Arctic project. The NGEE Arctic project was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research."
+    ],
+    "alternateName": [
+      "NGA560"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0967-0599",
+        "givenName": "Tianqi",
+        "familyName": "Zhang",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "zhangt1@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5620-6716",
+        "givenName": "Morgan",
+        "familyName": "Steckler",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "stecklermr@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1109-3906",
+        "givenName": "Amy",
+        "familyName": "Breen",
+        "affiliation": "University of Alaska Fairbanks",
+        "email": "albreen@alaska.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5802-4134",
+        "givenName": "Forrest",
+        "familyName": "Hoffman",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "hoffmanfm@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9830-0022",
+        "givenName": "William",
+        "familyName": "Hargrove",
+        "affiliation": "USDA Forest Service - SRS",
+        "email": "william.w.hargrove@usda.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2188-551X",
+        "givenName": "Vertiy",
+        "familyName": "Salmon",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "salmonvg@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8293-3450",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9869-0446",
+        "givenName": "Stan",
+        "familyName": "Wullschleger",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "wullschlegs1@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-0159-0546",
+        "givenName": "Jitendra",
+        "familyName": "Kumar",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "kumarj@ornl.gov"
+      }
+    ],
+    "datePublished": "2025-03-01",
+    "keywords": [
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > VEGETATION COVER"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Arctic Alaska, delineated per the Circumpolar Arctic Vegetation Map but excluding the Aleutian Islands",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.370261278,
+            "longitude": -173.05147812
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 58.550083399,
+            "longitude": -141.000737825
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DEAC0500OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2019-06-01",
+      "endDate": "2019-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0967-0599",
+      "givenName": "Tianqi",
+      "familyName": "Zhang",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "zhangt1@ornl.gov"
+    },
+    "citation": [
+      "Morgan R. Steckler, Jitendra Kumar, Amy L. Breen, Tianqi Zhang, Forrest M. Hoffman, William W. Hargrove, Donald A. Walker, Aaron F. Wells, Amanda Droghini, Timm W. Nawrocki, Stan D. Wullschleger, Matthew J. Macander, Gerald V. Frost, Verity G. Salmon, David T. Barnett, & Colleen M. Iversen. PAVC: The foundation for a Pan-Arctic Vegetation Cover database. Sci. Data. Under Review. 2025.",
+      "Tianqi Zhang et al. Estimating Fractional Cover of Arctic Tundra Plant Functional Types in Alaska Using Sentinel and Harmonized Plot Observations. Rem. Sens. Env. In-preparation. 2025.",
+      "Morgan R. Steckler, Jitendra Kumar, Amy L. Breen, Tianqi Zhang, Forrest M. Hoffman, William W. Hargrove, Donald A. Walker, Aaron F. Wells, Amanda Droghini, Timm W. Nawrocki, Stan D. Wullschleger, Matthew J. Macander, Gerald V. Frost, Verity G. Salmon, David T. Barnett, & Colleen M. Iversen. Initialization of Pan-Arctic Vegetation Cover (PAVC) database containing synthesized Alaska plot data collected after 2010. Next-Generation Ecosystem Experiments (NGEE) Arctic, ESS-DIVE repository, https://data.ess-dive.lbl.gov/datasets/doi:10.15485/2483557. 2024."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Collect and synthesize vegetation cover plot data into the Pan-Arctic Vegetation Cover database (PAVC: https://data.ess-dive.lbl.gov/datasets/doi:10.15485/2483557). Ensure species are assigned a PFT according to our naming schema: deciduous/evergreen shrubs, forbs, gramminoids, lichen, bryophtes, non-vascular (bryophyte and lichen sum), and litter.",
+      "Collect 20-meter resolution satellite images for the growing season (June to September) of 2019. Pre-processes for atmospheric corrections and cloud/snow/shadow handling. Calculate pixel-wise median composite of all images collected during that time period. Sources include Sentinel-1 polarizations, Sentinel-2 spectra, and ArcticDEM topographical features (elevation, slope, hillshade, aspect). Using Sentinel-2 spectra, calculate 18 vegetation indices. Collect VH and VV polarizations from Sentinel-1.",
+      "Create a random-forest model for each PFT (& litter) using the plots to train and the satellite imagery as predictors.",
+      "Quality control (Cook's distance) the plot PAVC data to handle natural vegetation growth over years, geolocation errors and uncertainty, inconsistent sampling approaches, or a plot\u2019s lack of vegetation representativeness. Plots introducing a large amount of variation to the model because of the aforementioned reasons were dropped.",
+      "Create a random-forest model for each PFT (& litter) using the *Cook's distance quality-controlled* plots for trainign and the satellite imagery for prediction. Apply water mask: ndwi >0 and ndvi <0.3. Select the best performing model configurations based on a grid search of the number of trees and maximum features used for tree-splitting.",
+      "Apply each tuned model to their respective PFTs to create one Tiff per PFT."
+    ],
+    "distribution": [
+      {
+        "contentSize": 7822073.6943359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-00b7cf384302e30-20250313T124523938495",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-00b7cf384302e30-20250313T124523938495",
+        "name": "litter_pavc-raster_arctic-alaska_summer-2019_v1_compressed.nc"
+      },
+      {
+        "contentSize": 8033047.9052734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1c5d18fdc0abb18-20250313T123926422063",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-1c5d18fdc0abb18-20250313T123926422063",
+        "name": "graminoid_pavc-raster_arctic-alaska_summer-2019_v1_compressed.nc"
+      },
+      {
+        "contentSize": 14.4921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e948c839b77a21b-20250930T205348577",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-e948c839b77a21b-20250930T205348577",
+        "name": "Pan_Arctic_Vegetation_Cover_PAVC_Gridded_v1_0.xml"
+      },
+      {
+        "contentSize": 1.5712890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-e298bf4c8a12f4d-20250311T002908566",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-e298bf4c8a12f4d-20250311T002908566",
+        "name": "flmd.csv"
+      },
+      {
+        "contentSize": 7709042.7880859375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-60662f2426d5a77-20250313T123909394545",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-60662f2426d5a77-20250313T123909394545",
+        "name": "forb_pavc-raster_arctic-alaska_summer-2019_v1_compressed.nc"
+      },
+      {
+        "contentSize": 7755074.8701171875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6fcfbe0d21c7a35-20250313T123309601993",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-6fcfbe0d21c7a35-20250313T123309601993",
+        "name": "bryophyte_pavc-raster_arctic-alaska_summer-2019_v1_compressed.nc"
+      },
+      {
+        "contentSize": 7862487.5703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7f57df11270756d-20250313T123329399847",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-7f57df11270756d-20250313T123329399847",
+        "name": "deciduous_shrub_pavc-raster_arctic-alaska_summer-2019_v1_compressed.nc"
+      },
+      {
+        "contentSize": 7628488.158203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a74cb84d9e1a616-20250313T123344089485",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-a74cb84d9e1a616-20250313T123344089485",
+        "name": "evergreen_shrub_pavc-raster_arctic-alaska_summer-2019_v1_compressed.nc"
+      },
+      {
+        "contentSize": 8068909.765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c347639056c2c18-20250313T123940550462",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-c347639056c2c18-20250313T123940550462",
+        "name": "lichen_pavc-raster_arctic-alaska_summer-2019_v1_compressed.nc"
+      },
+      {
+        "contentSize": 7884254.626953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cb379739874e396-20250313T124539135275",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-cb379739874e396-20250313T124539135275",
+        "name": "non-vascular_pavc-raster_arctic-alaska_summer-2019_v1_compressed.nc"
+      }
+    ]
+  }
+}

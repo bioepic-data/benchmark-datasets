@@ -1,0 +1,334 @@
+{
+  "id": "ess-dive-dcb64792456cae9-20250911T173536505",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2547035",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-dcb64792456cae9-20250911T173536505",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-dcb64792456cae9-20250520T185024599",
+  "dateUploaded": "2025-09-11T17:35:37.758Z",
+  "dateModified": "2025-09-11T17:35:38.118Z",
+  "isPublic": true,
+  "citation": "Barnes M E; Aronstein P J; Bailey J D; Bladon K D; Forbes B; Garayburu-Caruso V A; Grieger S; Graham E B; McKever S A; Myers C R; Munson K M; O'Day P A; Powers-McCormack B; Renteria L; Roebuck A; Scheibe T D; Young R P; Myers-Pigg A N (2024): Data and scripts associated with: \u201cBurn severity and vegetation type control phosphorus concentration, molecular composition, and mobilization\u201d. River Corridor Hydro-biogeochemistry from Molecular to Multi-Basin Scales SFA. Dataset. doi:10.15485/2547035",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2547035",
+    "name": "Data and scripts associated with: \u201cBurn severity and vegetation type control phosphorus concentration, molecular composition, and mobilization\u201d",
+    "description": [
+      "This data package is associated with the publication \u201cBurn severity and vegetation type control phosphorus concentration, molecular composition, and mobilization\u201d published in European Geophysical Union - Biogeosciences (Barnes et al. 2025).",
+      "This study investigates how phosphorus (P) biogeochemistry is altered by burn severity in contrasting types of vegetation chars. This data package documents the workflow used to process and generate the main figures and statistics in the manuscript. The R scripts reference minimally processed P nuclear magnetic resonance (P-NMR) and X-ray absorption near edge structure (P-XANES) data, as well as fully processed data including total elemental composition of the solid chars, total elemental composition of the char leachates (particulate and aqueous phases), and leachate aqueous phase molybdate reactive P concentration. These source data and associated metadata can be found on ESS-DIVE at https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1894135 (Grieger et al. 2022; v3). Files and scripts included in this data package finish the processing workflow for P-NMR and P-XANES data. These data can be used to gain a better understanding of bulk chemical changes in chars and their leachates, as well as detailed molecular changes to P.",
+      "This data package is associated with the GitHub repository found at https://github.com/river-corridors-sfa/rcsfa-RC3-BSLE_P.",
+      "This data package is comprised of a \u201cdata\u201d folder and a series of data processing and analysis scripts. Details on how to recreate the workflow can be found in the Critical Details section of the readme and the \u201cworkflow_readme.md\u201d file. The file-level metadata file (file ending in \u201cflmd.csv\u201d) lists all files contained in this data package and descriptions for each. The data dictionary (file ending in \u201cdd.csv\u201d) describes all tabular data columns and their respective definitions and units."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8722-6552",
+        "givenName": "Morgan E.",
+        "familyName": "Barnes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "morgan.barnes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9393-7307",
+        "givenName": "Paul J.",
+        "familyName": "Aronstein",
+        "affiliation": "University of California Merced",
+        "email": "paronstein@ucmerced.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5646-5611",
+        "givenName": "John D.",
+        "familyName": "Bailey",
+        "affiliation": "Oregon State University",
+        "email": "John.Bailey@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4182-6883",
+        "givenName": "Kevin D.",
+        "familyName": "Bladon",
+        "affiliation": "Oregon State University",
+        "email": "kevin.bladon@oregonstate.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9240-9687",
+        "givenName": "Brieanne",
+        "familyName": "Forbes",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "brieanne.forbes@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3383-6237",
+        "givenName": "Vanessa A.",
+        "familyName": "Garayburu-Caruso",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "vanessa.garayburu-caruso@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6000-1951",
+        "givenName": "Samantha",
+        "familyName": "Grieger",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "samantha.grieger@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4623-7076",
+        "givenName": "Emily B.",
+        "familyName": "Graham",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "emily.graham@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2870-7713",
+        "givenName": "Sophia A.",
+        "familyName": "McKever",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "sophia.mckever@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Chris R.",
+        "familyName": "Myers",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "christopher.myers@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kathleen M.",
+        "familyName": "Munson",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "kathleen.munson@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8698-5159",
+        "givenName": "Peggy A.",
+        "familyName": "O'Day",
+        "affiliation": "University of California Merced",
+        "email": "poday@ucmerced.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-2125-1268",
+        "givenName": "Beck",
+        "familyName": "Powers-McCormack",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "bibi.powers-mccormack@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-5035-5924",
+        "givenName": "Lupita",
+        "familyName": "Renteria",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "lupita.renteria@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8575-2572",
+        "givenName": "Alan",
+        "familyName": "Roebuck",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "alan.roebuck@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8864-5772",
+        "givenName": "Timothy D.",
+        "familyName": "Scheibe",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "tim.scheibe@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2686-9594",
+        "givenName": "Robert P.",
+        "familyName": "Young",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "robert.young@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6905-6841",
+        "givenName": "Allison N.",
+        "familyName": "Myers-Pigg",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "allison.myers-pigg@pnnl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "Burn severity",
+      "Wildfire",
+      "Disturbance",
+      "Biogeochemistry",
+      "Simulated Fire",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "Organic phosphorus",
+      "Inorganic phosphorus",
+      "Phosphorus",
+      "Sulfur",
+      "Aluminum",
+      "Iron",
+      "Magnesium",
+      "Calcium",
+      "Sodium",
+      "Potassium",
+      "ICP-OES",
+      "Inductively coupled plasma optical emission spectrometer",
+      "X-ray absorption near edge structure",
+      "P-XANES",
+      "Nuclear Magnetic Resonance",
+      "Solution state 31P-NMR",
+      "Spectroscopy",
+      "Molybdate reactive P",
+      "Particulate P",
+      "Aqueous P",
+      "Elemental Analysis",
+      "Dissolved organic matter",
+      "Pyrogenic organic matter",
+      "Pyrogenic phosphorus",
+      "Leachable organic matter",
+      "EARTH SCIENCE > LAND SURFACE > SOILS > SULFUR",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > PHOSPHORUS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Douglas-fir dominated forest with minor oak understory. Collected living and dead douglas-fir (Pseudotsuga menziesii) material on 16 May 2021 at 09:20 PST.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6491,
+            "longitude": -123.2197
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6491,
+            "longitude": -123.2197
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Mature Douglas-fir stand with understory oak. Collected living and dead douglas-fir (Pseudotsuga menziesii) material on 2 February 2021 at 09:00 PST.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 44.6507,
+            "longitude": -123.2199
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 44.6507,
+            "longitude": -123.2199
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "Collected living and dead big sagebrush (Artemisia tridentata) on 1 March 2021 at 15:26 PST.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 46.4087,
+            "longitude": -119.2775
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 46.4087,
+            "longitude": -119.2775
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DOE Award #54737"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-02-20",
+      "endDate": "2024-07-24",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8722-6552",
+      "givenName": "Morgan E.",
+      "familyName": "Barnes",
+      "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+      "email": "morgan.barnes@pnnl.gov"
+    },
+    "citation": [
+      "Barnes M., Roebuck J., Jesse, Grieger S., Aronstein P., Garayburu-Caruso V., Munson K., Young R., Bladon K., Bailey J., Graham E., Renteria L., O'Day P., Scheibe T. and Myers-Pigg A. 2025. Burn severity and vegetation type control phosphorus concentration, molecular composition, and mobilization. EGU Biogeosciences 22,(17), 4491\u20134505; https://doi.org/10.5194/bg-22-4491-2025",
+      "Grieger S ; Aronstein P ; Bailey J ; Barnes M ; Barton R ; Bladon K D ; Chu R ; Forbes B ; GarayburuCaruso V A ; Graham E B ; Goldman A E ; Homolka K ; Kew W ; Lipton A S ; McKever S A ; Munson K M ; Myers C R ; Nieto-Pereira N ; O'Day P ; Otenburg O ; Renteria L ; Roebuck A ; Scheibe T D ; Torgeson J M ; Toyoda J G ; Wagner S ; Young R P ; Myers-Pigg A (2022) Organic matter concentration and composition of experimentally burned open air and muffle furnace vegetation chars across differing burn severity and feedstock types from Pacific Northwest, USA (v3). River Corridor and Watershed Biogeochemistry SFA, ESS-DIVE repository. Dataset. doi:10.15485/1894135",
+      "Myers-Pigg, A; Grieger S; Roebuck AR; Barnes ME; Bladon KD; Bailey JD; Barton R; Chu RK; Graham EB; Homolka KK; Kew W; Lipton AS; Scheibe T; Toyoda JG; Wagner S (2024a) Experimental Open Air Burning of Vegetation Enhances Organic Matter Chemical Heterogeneity Compared to Laboratory Burns. Environmental Science & Technology. doi: https://doi.org/10.1021/acs.est.3c10826",
+      "Myers-Pigg A ; Roebuck A ; Forbes B ; Powers-McCormack B (2024b): Manuscript Workflows from and Processed Organic Matter Composition of Experimentally Burned Open Air and Muffle Furnace Vegetation Chars across Differing Burn Severity and Feedstock Types from Pacific Northwest, USA (v3). River Corridor and Watershed Biogeochemistry SFA, ESS-DIVE repository. Dataset. doi:10.15485/2327028 accessed via https://data.ess-dive.lbl.gov/datasets/doi:10.15485/2327028.",
+      "Ravel B; Newville M. ATHENA, ARTEMIS, HEPHAESTUS: Data Analysis for X-Ray Absorption Spectroscopy Using IFEFFIT. J. Synchrotron Radiat. 2005, 12 (Pt 4), 537\u2013541.",
+      "Roebuck, J A, Grieger, S; Barnes, M E; Gillespie, X; Bladon, K D; Bailey, J D; Graham, E B; Chu, R; Kew, W; Scheibe, T D; Myers-Pigg, A. N. (2025) Molecular shifts in dissolved organic matter along a burn severity continuum for common land cover types in the Pacific Northwest, USA. Science of the Total Environment, 958, 178040. https://doi.org/10.1016/j.scitotenv.2024.178040",
+      "Werner F, F. LCF: Linear Combination Fitting. R Package Version 1.7.0. 2017.",
+      "Agarwal, D., Cholia, S., Hendrix, V. C., Crystal-Ornelas, R., Snavely, C., Damerow, J., & Varadharajan. (2022). ESS-DIVE Reporting Format for Dataset Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE repository. https://doi.org/10.15485/1866026",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "d12f558e-bcc7-44ca-8f16-6a37b0dae7f4"
+      },
+      "name": "River Corridor Hydro-biogeochemistry from Molecular to Multi-Basin Scales SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "Stegen",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "james.stegen@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This study uses a subset of samples from Grieger et al. (2022); refer to Grieger et al. (2022) for details on the experimental design and the meaning behind the sample names Douglas-fir (Pseudotsuga menziesii) and sagebrush (Artemisia tridentata) vegetation was collected from the field and burned on open air tables under varying burning conditions to generate chars. Char burn severity was classified according to US Forest Service field metrics. Total elemental analysis (P, sulfur, aluminum, iron, magnesium, calcium, sodium, and potassium) of the solid chars was measured using an inductively coupled plasma optical emission spectrometer (ICP-OES). Solution-state 31P NMR experiments were conducted on char extracts and P-XANES was collected on intact solid samples. Unburned vegetation and chars were leached with synthetic rainwater to simulate what might be mobilized from the solid material during rain events. Leachates were filtered through a coarse mesh followed by a nominal 0.7 micrometers (\u00b5m) pore size. Coarse filtered and < 0.7 \u00b5m filtered leachates were ran for total elemental analyses using ICP-OES. Total elemental concentration of the leachate particulate phase (2 mm to 0.7 \u03bcm) was calculated as the difference between the coarse filtered and aqueous phase. Molybdate reactive P in the leachate aqueous phase was also measured. See the methods section of the manuscript for more details."
+    ],
+    "distribution": [
+      {
+        "contentSize": 3746.2412109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-07751219de397f2-20250514T185257957",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-07751219de397f2-20250514T185257957",
+        "name": "Barnes_2024_BSLE_P_Gradient.zip"
+      },
+      {
+        "contentSize": 19.35546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dcb64792456cae9-20250911T173536505",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-dcb64792456cae9-20250911T173536505",
+        "name": "Data_and_scripts_associated_with_Burn_severity.xml"
+      }
+    ]
+  }
+}

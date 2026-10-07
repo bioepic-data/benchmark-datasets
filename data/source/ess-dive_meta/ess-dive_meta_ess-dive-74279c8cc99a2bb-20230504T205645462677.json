@@ -1,0 +1,224 @@
+{
+  "id": "ess-dive-74279c8cc99a2bb-20230504T205645462677",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1505624",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-74279c8cc99a2bb-20230504T205645462677",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-31faba0f0a7827f-20230408T025721943",
+  "dateUploaded": "2023-05-04T20:56:46.512Z",
+  "dateModified": "2024-02-08T19:40:37.402Z",
+  "isPublic": true,
+  "citation": "Piliouras A; Rowland J (2019): Arctic delta Landsat image classifications. Watershed Function SFA. Dataset. doi:10.15485/1505624",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1505624",
+    "name": "Arctic delta Landsat image classifications",
+    "description": [
+      "This dataset contains binary geotiff masks/classifications of six Arctic deltas for channels, lakes, land, and other small water bodies (see methods). Tiff files can be opened with any image viewer, but use of georeferencing data attached to the imagery will require a GIS platform (e.g., QGIS). Dataset includes individually classified scene masks for Colville (2014), Kolyma (2014), Lena (2016), Mackenzie (2014), Yenisei (2013), and Yukon (2014). We also provide .mat files for each delta that include a 2D array of the mosaicked images that is cropped to include only the area used in our analyses (see Piliouras and Rowland, 2020, Journal of Geophysical Research - Earth Surface), as well as the X (easting) and Y (northing) arrays for georeferencing, with coordinates in UTMs."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6336-0762",
+        "givenName": "Anastasia",
+        "familyName": "Piliouras",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "anastasia.piliouras@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6308-8976",
+        "givenName": "Joel",
+        "familyName": "Rowland",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "jrowland@lanl.gov"
+      }
+    ],
+    "datePublished": "2019",
+    "keywords": [
+      "EARTH SCIENCE > OCEANS > COASTAL PROCESSES",
+      "EARTH SCIENCE SERVICES > DATA ANALYSIS AND VISUALIZATION > VISUALIZATION/IMAGE PROCESSING",
+      "EARTH SCIENCE > SOLID EARTH > GEOMORPHIC LANDFORMS/PROCESSES",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER FEATURES > WATER CHANNELS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER FEATURES > LAKES/RESERVOIRS",
+      "EARTH SCIENCE > SOLID EARTH > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > ISLAND",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER FEATURES",
+      "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > FLUVIAL LANDFORMS > DELTAS",
+      "EARTH SCIENCE > SOLID EARTH > GEOMORPHIC LANDFORMS/PROCESSES > COASTAL LANDFORMS > DELTAS",
+      "land_binary_mask"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "ColvilleClassification.mat, Colville delta, north slope of Alaska, cropped from Landsat 8 scene. Year: 2014.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 70.480662,
+            "longitude": -151.239977
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 70.17986,
+            "longitude": -150.19904
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "KolymaClassification.mat, Kolyma delta, eastern Siberia, cropped from Landsat 8 scene. Year: 2014.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 69.793832,
+            "longitude": 160.08726
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 68.902885,
+            "longitude": 162.529219
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "LenaClassification.mat, Lena delta, Siberia, Russia, mosaicked and cropped from Landsat 8 scenes. Year: 2016.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 73.865446,
+            "longitude": 121.408655
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 71.664052,
+            "longitude": 129.762439
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "MackenzieClassification.mat, Mackenzie delta, Northwest Territories, Canada, mosaicked and cropped from Landsat 8 scenes. Year: 2014.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 69.783571,
+            "longitude": -137.224098
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 67.5124,
+            "longitude": -133.127121
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "YeniseiClassification.mat, Yenisei delta, Siberia, Russia, mosaicked and cropped from Landsat 8 scenes. Year: 2013.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 71.021832,
+            "longitude": 81.771447
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 69.473197,
+            "longitude": 83.997214
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "YukonClassification.mat, Yukon delta, west coast of Alaska, cropped from Landsat 8 scene. Year: 2014.",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 63.308697,
+            "longitude": -165.201529
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 62.377869,
+            "longitude": -163.258025
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2013-04-22",
+      "endDate": "2016-09-13",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6336-0762",
+      "givenName": "Anastasia",
+      "familyName": "Piliouras",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "anastasia.piliouras@gmail.com"
+    },
+    "citation": [
+      "Piliouras, A., and J. C. Rowland. (2020). Arctic River Delta Morphologic Variability and Implications for Riverine Fluxes to the Coast. Journal of Geophysical Research - Earth Surface, 125, e2019JF005250. https://doi.org/10.1029/2019JF005250."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "This dataset contains image classification masks (geotiffs) of Landsat 8 scenes, covering six high-latitude deltas: Colville (2014), Kolyma (2014), Lena (2016), Mackenzie (2014), Yenisei (2013), and Yukon (2014). Years were selected to obtain a modern day image with as little cloud-cover as possible, and all classifications were made on late summer imagery. Scenes were classified using eCognition. Here we provide the individually classified scene masks, as opposed to the mosaicked scenes. Each scene was classified into land, channels, lakes, and other \u201csmall water\u201d (objects <= 4 pixels in width). Some scenes were cropped to remove cloud-covered areas, minimize overlap between scenes to be mosaicked, and/or exclude non-delta regions. For each classified Landsat scene, we provide 4 binary masks: channels, lakes, land, and small water. Files are named with the following convention, using the Yukon as an example, \u201cYukon2014_156010_210_lakes.tif,\u201d where Yukon is the delta name, 2014 is the year of the image, 156 is the Landsat scene path, 010 is the Landsat scene row, 210 is the Julian date, and \u201clakes\u201d indicates it is the lakes mask. Matlab files for each delta include a 2D array of the mosaicked images (0 = not in analysis, 1 = channels, 2 = lakes, 3 = small water, 4 = land) that is cropped to include only the area used in our analyses, as well as the X (easting) and Y (northing) arrays for georeferencing, with coordinates in UTMs. A more thorough description of classification methods can be found in: Piliouras A., & J. C. Rowland, (2019), Morphologic variability of Arctic deltas and the potential implications for fluxes to the coast, Marine Geology."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a233597661db2e4-20190408T153145705",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-a233597661db2e4-20190408T153145705",
+        "name": "LandsatSceneList.pdf",
+        "contentSize": 46.7587890625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-6d7865c616d962d-20190321T164512033",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-6d7865c616d962d-20190321T164512033",
+        "name": "ArcticDeltas.zip",
+        "contentSize": 28179.4150390625
+      }
+    ]
+  }
+}

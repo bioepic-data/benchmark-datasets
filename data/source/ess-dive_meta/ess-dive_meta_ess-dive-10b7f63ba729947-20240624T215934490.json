@@ -1,0 +1,202 @@
+{
+  "id": "ess-dive-10b7f63ba729947-20240624T215934490",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/2349011",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-10b7f63ba729947-20240624T215934490",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-5a497a1db3687e9-20240624T215217304",
+  "dateUploaded": "2024-06-24T21:59:36.503Z",
+  "dateModified": "2024-07-24T19:02:19.332Z",
+  "isPublic": true,
+  "citation": "Crumley R; Bachand C; Bennett K (2024): Snow distribution patterns revisited: A physics-based and machine learning hybrid approach to snow distribution mapping in the sub-Arctic Supporting Data. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/2349011",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/2349011",
+    "name": "Snow distribution patterns revisited: A physics-based and machine learning hybrid approach to snow distribution mapping in the sub-Arctic Supporting Data",
+    "description": [
+      "Snow in the Arctic and sub-Arctic is highly variable at fine scales, with deep drifts and shallow scoured areas creating a complex pattern of snow on the landscape. This fine-scale variation in snow is driven primarily by landscape and vegetation properties. Some landscape features, such as river beds, will rapidly fill in with snow during the wintertime due to high winds, while shrubs will trap blowing snow, resulting in drifts. Meanwhile, snow will blow off of exposed areas, resulting in abnormally shallow snow. These complex interactions between wind, vegetation, and terrain are difficult to represent well with physically-based models, but machine learning techniques have shown promise in the past. Here, we propose a hybrid modeling approach, where we use machine learning derived snow pattern maps to inform SnowModel, a physically-based snow process model. We develop and test this technique at the Teller 27 Seward Peninsula NGEE-Arctic study site. This dataset includes 5 *.nc files of model inputs and outputs plus one user guide (*.pdf). We present the data we use to drive SnowModel (vegetation type, digital elevation model), the snow pattern maps used to inform SnowModel (Standardized Depth Values maps, Machine Learning Snow Distribution Pattern), and our machine learning, SnowModel, and Hybrid snow depth and snow water equivalent results.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "NGA322",
+      "https://doi.org/10.5440/2349011",
+      "LA-UR-24-25640",
+      "LA-UR-23-30221"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7179-9321",
+        "givenName": "Ryan",
+        "familyName": "Crumley",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "rcrumley@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8422-9675",
+        "givenName": "Claire",
+        "familyName": "Bachand",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "cbachand@lanl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2433-8607",
+        "givenName": "Katrina",
+        "familyName": "Bennett",
+        "affiliation": "Los Alamos National Laboratory",
+        "email": "kbennett@lanl.gov"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "Seward Peninsula, Alaska",
+      "Teller Road, Alaska",
+      "ESS-DIVE File Level Metadata Reporting Format"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE",
+      "EARTH SCIENCE SERVICES > MODELS > HYDROLOGIC AND TERRESTRIAL WATER CYCLE MODELS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > SNOW DEPTH"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Teller Site, Mile Marker 27, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 64.758839,
+            "longitude": -165.979295
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 64.712145,
+            "longitude": -165.921485
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2016-10-01",
+      "endDate": "2022-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7179-9321",
+      "givenName": "Ryan",
+      "familyName": "Crumley",
+      "affiliation": "Los Alamos National Laboratory",
+      "email": "rcrumley@lanl.gov"
+    },
+    "citation": [
+      "Crumley, R. L., Bachand, C. L., and Bennett, K. E., 2024. Snow distribution patterns revisited: A physics-based and machine learning hybrid approach to snow distribution mapping in the sub-Arctic. Water Resources Research (in review).",
+      "Abhinav Singhania. 2021. National Center for Airborne Laser Mapping (NCALM) Lidar DEM data from five NGEE Arctic Sites, Seward Peninsula, Alaska, August 2021. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. Dataset accessed on [INSERT_DATE] at https://doi.org/10.5440/1832016.",
+      "Abhinav Singhania, Craig Glennie, Juan Carlos Fernandez-Diaz, Darren Hauser. 2023. National Center for Airborne Laser Mapping (NCALM) LiDAR Point Clouds and DEM data from two NGEE Arctic Sites, Seward Peninsula, Alaska, Winter 2022. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. Dataset accessed on [INSERT_DATE] at https://doi.org/10.5440/1832016.",
+      "Cathy Wilson, Robert Bolton, Robert Busey, Emma Lathrop, Julian Dann, Lauren Charsley-Groffman, Katrina Bennett. 2021. End-of-Winter Snow Depth, Temperature, Density and SWE Measurements at Teller Road Site, Seward Peninsula, Alaska, 2016-2018. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. Dataset accessed on [INSERT_DATE] at https://doi.org/10.5440/1592103.",
+      "Katrina Bennett, Robert Bolton, Bob Busey, Emma Lathrop, Julian Dann, Greta Miller, Mara Nutt, Cathy Wilson. 2021. End-of-Winter Snow Depth, Temperature, Density, and SWE Measurements at Teller Road Site, Seward Peninsula, Alaska, 2019. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. Dataset accessed on [INSERT_DATE] at https://doi.org/10.5440/1798170.",
+      "Katrina Bennett, Robert Bolton, Bob Busey, Ryan Crumley, Eve Gasarch, Lauren Thomas, Stan Wullschleger. 2022. End-of-Winter Snow Depth, Temperature, Density, and SWE Measurements at Teller Road Site, Seward Peninsula, Alaska, 2022. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. Dataset accessed on [INSERT_DATE] at https://doi.org/10.5440/1887250.",
+      "Konduri, S., Breen, A., Hargrove, W., Hoffman, F., Iversen, C., Salmon, V. and Kumar, J., (2021). Hyperspectral remote sensing-based plant community map for region around NGEE-Arctic intensive research watersheds at Seward Peninsula, Alaska, 2017-2019 (No. NGA266). Next Generation Ecosystems Experiment-Arctic, Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (US); NGEE Arctic, Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).",
+      "U.S. Geological Survey, EROS Data Center, 2013, Digital elevation - Interferometric Synthetic Aperture Radar (IFSAR) - Alaska: U.S. Geological Survey, https://doi.org/10.5066/P9C064CO."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "A full description of the methods used to generate this data can be found in the associated publication (Crumley et al. 2023). Our analysis is comprised of the following major tasks: 1. Develop inputs for SnowModel. Specifically, we trim and resample an IfSAR digital elevation model to match our modeling domain. Further, we create a vegetation type map comprised of SnowModel vegetation classes using expert knowledge of plant heights at the Teller 27 domain and a site-specific vegetation type product (Konduri et al. 2022, https://doi.org/10.5440/1887250). 2. Generate an ensemble of SnowModel runs by varying wind-related parameters. We vary wind lapse rate (1, 1.5, or 2), curvature length scales (25, 50, 200, or 300) and curvature weight (0, 0.25, 0.5, 0.75, 1) to produce a 60-member ensemble of snow depth and SWE estimates. This ensemble is used to generate the Hybrid results and the SnowModel mean estimates.3. Train a random forest machine learning model to predict snow depth and SWE, following the methods in Bennett et al. 2022 (https://doi.org/10.5194/tc-16-3269-2022) with minor modifications. The random forest model is trained on in-situ snow depth data collected at the Teller 27 study site in March of WY2017, WY2018, and WY2019, and is used to generate snow depth predictions for WY2017, WY2018, WY2019, and WY2022.4. Use the machine learning results to produce yearly snow pattern maps (standardized depth values map), and average the standardized depth values (SDV) maps to produce a Machine Learning Distribution Pattern (MLSDP). SDV maps are produced for WY2017, WY2018, WY2019, and WY2022, but only WY2017 - WY2019 are used to produce the MLSDP. 5. Use the MLSDP to inform SnowModel and to create hybrid results. We use a technique inspired by Sturm and Wagner (2010, https://doi.org/10.1029/2010WR009434). Throughout our analysis, we use data from WY2017, WY2018, and WY2019 for model training and calibration, and we hold out WY2022 for testing only. Because of this, no in-situ data from WY2022 was used to train the machine learning model or to calibrate SnowModel, and WY2022 machine learning results were not used to generate the MLSDP."
+    ],
+    "distribution": [
+      {
+        "contentSize": 2079503.8251953125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-274febb66c566f3-20240620T151111984",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-274febb66c566f3-20240620T151111984",
+        "name": "hybrid.nc"
+      },
+      {
+        "contentSize": 8562.9169921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-07e71bcae801d5d-20240620T151146652",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-07e71bcae801d5d-20240620T151146652",
+        "name": "rfml.nc"
+      },
+      {
+        "contentSize": 14.04296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-10b7f63ba729947-20240624T215934490",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-10b7f63ba729947-20240624T215934490",
+        "name": "Snow_distribution_patterns_revisited_A.xml"
+      },
+      {
+        "contentSize": 2079504.1455078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-319c7e4a283f44b-20240620T151146656",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-319c7e4a283f44b-20240620T151146656",
+        "name": "sm_mean.nc"
+      },
+      {
+        "contentSize": 2.216796875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4764e252e49eb91-20240620T151445709",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4764e252e49eb91-20240620T151445709",
+        "name": "NGA322_flmd.csv"
+      },
+      {
+        "contentSize": 2863.6259765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d470ab36e162b0f-20240620T151111999",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-d470ab36e162b0f-20240620T151111999",
+        "name": "input_data.nc"
+      },
+      {
+        "contentSize": 315.240234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-84db38b2d1b8fba-20240620T151146648",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-84db38b2d1b8fba-20240620T151146648",
+        "name": "NGA322_Snow_Patterns_User_Guide.pdf"
+      },
+      {
+        "contentSize": 1.4658203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ab8bd9ca4a6cc5a-20240620T151146638",
+        "encodingFormat": "application/vnd.google-earth.kml+xml",
+        "identifier": "ess-dive-ab8bd9ca4a6cc5a-20240620T151146638",
+        "name": "model_domain.kml"
+      },
+      {
+        "contentSize": 728.478515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a9e7e3d6a17e718-20240620T151112002",
+        "encodingFormat": "netCDF-3",
+        "identifier": "ess-dive-a9e7e3d6a17e718-20240620T151112002",
+        "name": "mlsdp.nc"
+      }
+    ]
+  }
+}

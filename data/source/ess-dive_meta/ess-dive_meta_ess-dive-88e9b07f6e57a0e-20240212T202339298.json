@@ -1,0 +1,259 @@
+{
+  "id": "ess-dive-88e9b07f6e57a0e-20240212T202339298",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2298998",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-88e9b07f6e57a0e-20240212T202339298",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-114563e44b39b77-20240212T043002364",
+  "dateUploaded": "2024-02-12T20:23:40.279Z",
+  "dateModified": "2024-02-15T00:00:15.813Z",
+  "isPublic": true,
+  "citation": "Adebayo M; Bailey V; Chen X; Hopple A; Jiang P; Li B; Li Z; Martin-Hayden J; Megonigal J; Regier P; Rich R; Stegen J; Smith R; Ward N; Woodard S; Doro K (2024): Data and scripts associated with the manuscript \"A Hydrogeophysical Framework to Assess Infiltration During a Simulated Ecosystem-Scale Flooding Experiment\u201d. COMPASS-FME. Dataset. doi:10.15485/2298998",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2298998",
+    "name": "Data and scripts associated with the manuscript \"A Hydrogeophysical Framework to Assess Infiltration During a Simulated Ecosystem-Scale Flooding Experiment\u201d",
+    "description": [
+      "This package contains the data and scripts used in \"A hydrogeophysical framework to assess infiltration during a simulated ecosystem-scale flooding experiment\" (Adebayo et al., 2023). The Geophysics folder contains two subfolders containing Ground Penetrating Radar (GPR) and Electrical Resistivity Imaging (ERI) datasets acquired between August 23 and August 26, 2021. The GPR subfolder contains raw data (Tempest_Project.GPZ) and processed results using the Sensors and Software EKKO Project software. The ERI subfolder contains two additional subfolders named Static and Timelapse. The Static subfolder contains background resistivity datasets acquired before infiltration, both raw and inverted results using the ResIpy code. The Timelapse subfolder contains repeated resistivity datasets acquired during infiltration on two profiles, along with raw and inverted results using the ResIpy code. The Flow model folder contains ATS model simulation files. The Geophysics-informed subfolder contains simulation datasets for two profiles generated using information from the geophysics data. The National_database-informed subfolder contains simulation datasets for two profiles generated using information from a national soil database. Each subfolder contains initial simulation results, multiple ensembles, and final simulation files. The Sensitivity_analysis folder contains the observation files exported from the flow model, notebooks used in running the code, and sensitivity analysis results showing the sensitivity of different parameters over a 48-hour period. We used mutual information-based global sensitivity analysis for the sensitivity analysis, following Jiang et al., 2022. This study shows a novel approach that integrates geophysical data with hydrological modeling to understand subsurface flow during coastal flooding."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0007-6308-0641",
+        "givenName": "Moses",
+        "familyName": "Adebayo",
+        "affiliation": "University of Toledo",
+        "email": "madebay@rockets.utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2248-8890",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "vanessa.bailey@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-9061-6524",
+        "givenName": "Xingyuan",
+        "familyName": "Chen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "xingyuan.chen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5957-8603",
+        "givenName": "Anya",
+        "familyName": "Hopple",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "anyahopple@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-4968-4258",
+        "givenName": "Peishi",
+        "familyName": "Jiang",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "peishi.jiang@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1361-4293",
+        "givenName": "Bing",
+        "familyName": "Li",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "bing.li@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6240-8971",
+        "givenName": "Zhi",
+        "familyName": "Li",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "zhi.li@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "Martin-Hayden",
+        "affiliation": "University of Toledo",
+        "email": "james.martin-hayden@utoledo.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2018-7883",
+        "givenName": "J.",
+        "familyName": "Megonigal",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "megonigalp@si.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8375-1314",
+        "givenName": "Peter",
+        "familyName": "Regier",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "peter.regier@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Roy",
+        "familyName": "Rich",
+        "affiliation": "Smithsonian Environmental Research Center",
+        "email": "richr@si.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "James",
+        "familyName": "Stegen",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "james.stegen@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Richard",
+        "familyName": "Smith",
+        "affiliation": "Global Aquatic Research LLC",
+        "email": "globalaquaticresearch@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6174-5581",
+        "givenName": "Nicholas",
+        "familyName": "Ward",
+        "affiliation": "Pacific Northwest National Laboratory (PNNL)",
+        "email": "nicholas.ward@pnnl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Stella",
+        "familyName": "Woodard",
+        "affiliation": "Global Aquatic Research LLC",
+        "email": "stella@globalaquaticresearch.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7498-7053",
+        "givenName": "Kennedy",
+        "familyName": "Doro",
+        "affiliation": "University of Toledo",
+        "email": "kennedy.doro@utoledo.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "Simulated flooding",
+      "Soil saturation",
+      "Time-lapse resistivity",
+      "ATS-based flow model",
+      "Advanced Terrestrial Simulator (ATS)"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > AGRICULTURE > SOILS > SOIL MOISTURE/WATER CONTENT",
+      "Resistivity"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Smithsonian Environmental Research Center Global Change Research Wetlands (GCREW)",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.87440459741003,
+            "longitude": -76.552856
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.873536,
+            "longitude": -76.552856
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2021-08-24",
+      "endDate": "2023-08-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7498-7053",
+      "givenName": "Kennedy",
+      "familyName": "Doro",
+      "affiliation": "University of Toledo",
+      "email": "kennedy.doro@utoledo.edu"
+    },
+    "citation": [
+      "Related references: Adebayo, M.B., Bailey, V.L., Chen, X., Hopple, A.M., Jiang, P., Li, B., Li, Z., Martin-Hayden, J.M., Megonigal, J.P., Regier, P.J., Rich, R., Stegen, J.C., Smith, R.W., Ward, N.D., Woodard, S.C. and Doro, K.O. 2023. A hydrogeophysical framework to assess infiltration during a simulated ecosystem-scale flooding experiment. Journal of Hydrology 626, 130243. DOI: 10.1016/j.jhydrol.2023.130243",
+      "Jiang, P., Son, K., Mudunuru, M.K., Chen, X. 2022. Data and scripts associated with the manuscript \"Using Mutual Information for Global Sensitivity Analysis on Watershed Modeling\". United States. https://doi.org/10.15485/1873128"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "a688a033-da45-46ad-b72b-d6fef5139a9c"
+      },
+      "name": "COMPASS-FME",
+      "member": {
+        "@type": "Person",
+        "givenName": "Vanessa",
+        "familyName": "Bailey",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Pacific Northwest National Laboratory",
+        "email": "Vanessa.Bailey@pnnl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "These datasets consist of both field observation and numerical modelling on the TEMPEST experimental site. The ERI datasets were collected using an eight-channel (R8) Supersting resistivity meter and a multi-electrode switch box before, during and after the experiment. GPR datasets were acquired using a 250 MHz Pulse-Ekko GPR system before the experiment. A 2D numerical flow model of the experimental site was developed using the ATS code. Detailed methodology can be found in Adebayo et al. 2023."
+    ],
+    "distribution": [
+      {
+        "contentSize": 78206.068359375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-47d044466a59257-20240121T005844310",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-47d044466a59257-20240121T005844310",
+        "name": "Geophysics.zip"
+      },
+      {
+        "contentSize": 12.2333984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-88e9b07f6e57a0e-20240212T202339298",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-88e9b07f6e57a0e-20240212T202339298",
+        "name": "Data_and_scripts_associated_with_the_manuscript.xml"
+      },
+      {
+        "contentSize": 4459376.3935546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a1e61578bb48e20-20240121T010407386",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-a1e61578bb48e20-20240121T010407386",
+        "name": "Flow_model.zip"
+      },
+      {
+        "contentSize": 242162.2587890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9e2211621502ec8-20240121T005828194",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9e2211621502ec8-20240121T005828194",
+        "name": "Litho_log.zip"
+      },
+      {
+        "contentSize": 2.0048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fe0405438ec8a0a-20240212T202336555",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-fe0405438ec8a0a-20240212T202336555",
+        "name": "Lab_Analysis.zip"
+      }
+    ]
+  }
+}

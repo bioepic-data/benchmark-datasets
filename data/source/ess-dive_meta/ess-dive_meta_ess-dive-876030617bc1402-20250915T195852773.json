@@ -1,0 +1,320 @@
+{
+  "id": "ess-dive-876030617bc1402-20250915T195852773",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.5440/1696794",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-876030617bc1402-20250915T195852773",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-097aaf4d055da4c-20250404T141447928",
+  "dateUploaded": "2025-09-15T19:58:53.871Z",
+  "dateModified": "2026-02-12T00:20:45.806Z",
+  "isPublic": true,
+  "citation": "Sulman B; Salmon V; Iversen C; Breen A; Yuan F; Thornton P (2021): Integrating New Arctic Plant Functional Types in a Land Surface Model Using Above- and Belowground Field Observations: Modeling Archive. Next-Generation Ecosystem Experiments (NGEE) Arctic. Dataset. doi:10.5440/1696794",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.5440/1696794",
+    "name": "Integrating New Arctic Plant Functional Types in a Land Surface Model Using Above- and Belowground Field Observations: Modeling Archive",
+    "description": [
+      "This Modeling Archive is in support of an NGEE Arctic publication \"Integrating New Arctic Plant Functional Types in a Land Surface Model Using Above- and Belowground Field Observations\". We used field observations of biomass and leaf traits (Salmon et al., 2019b) across a gradient of plant communities on the Seward Peninsula in northwest Alaska (Breen et al., 2020; Iversen et al., 2017) to replace the original ELM configuration with nine, arctic-specific PFTs. Original arctic PFTs in the model were (1) broadleaf deciduous boreal shrub and (2) C3 arctic grass. New PFTs were (1) lichen, (2) bryophyte, (3) evergreen dwarf shrub, (4) deciduous dwarf shrub, (5) deciduous low shrub, (6) deciduous low to tall shrub, (7) alder shrub, (8) forb, and (9) graminoid. New PFTs were parameterized and evaluated using site-level trait and biomass measurements (Salmon et al., 2019b), root C:N ratios and rooting depth patterns (Salmon et al., 2019c), and root biomass (Salmon et al., 2020).",
+      "This archive contains forcing data and model output from ELM simulations conducted at the Kougarok Hillslope site (Kougarok Road Mile Marker 64). Simulations were conducted for the Kougarok Hillslope site using meteorological driving data from the Scenarios Network for Alaska and Arctic Planning (SNAP) downscaled climate projection dataset using NCAR-CCSM forcing (Bieniek et al., 2020 dataset; Walsh et al., 2018). The archive includes three versions of model simulations representing a progression from the original model configuration to an Arctic-specific configuration (see Output section below). Simulation 1 used grid cell data from a global E3SM configuration, including the fractional area of E3SM PFTs assigned to the grid cell containing the Kougarok Hillslope site in global simulations. This simulation did not distinguish between different plant communities on the Kougarok Hillslope, but instead used a single point simulation to represent the entire area. Simulation 2 used default E3SM PFT definitions combined with adjusted depth to bedrock for plant communities with shallow rocky layers to represent the role of abiotic soil factors in driving site differences (based on depth measurements of Iversen et al., 2019a), and adjusted the relative areas of the broadleaf deciduous boreal shrub and C3 arctic grass PFTs to reflect the observed spatial coverage of shrub and non-shrub PFTs across Kougarok Hillslope plant communities. Simulation 3 used the new arctic PFT definitions and parameterizations based on the vegetation types present at the site, along with the adjusted soil depths used in Simulation 2. Included are *.pdf, *.nc (NetCDF), *tar.gz, *.py, and *.bash files.",
+      "We would like to thank Mary's Igloo Native Corporation for allowing us to perform this research on their land and giving us the opportunity to share this research with their community. Thanks to Shawn Serbin and Alistair Rogers for helpful discussions. Holly Vander Stel, Joanne Childs, and Stan Wullschleger helped with collection of field data.",
+      "The Next-Generation Ecosystem Experiments: Arctic (NGEE Arctic), was a research effort to reduce uncertainty in Earth System Models by developing a predictive understanding of carbon-rich Arctic ecosystems and feedbacks to climate. NGEE Arctic was supported by the Department of Energy's Office of Biological and Environmental Research. The NGEE Arctic project had two field research sites: 1) located within the Arctic polygonal tundra coastal region on the Barrow Environmental Observatory (BEO) and the North Slope near Utqiagvik (Barrow), Alaska and 2) multiple areas on the discontinuous permafrost region of the Seward Peninsula north of Nome, Alaska. Through observations, experiments, and synthesis with existing datasets, NGEE Arctic provided an enhanced knowledge base for multi-scale modeling and contributed to improved process representation at global pan-Arctic scales within the Department of Energy's Earth system Model (the Energy Exascale Earth System Model, or E3SM), and specifically within the E3SM Land Model component (ELM)."
+    ],
+    "alternateName": [
+      "https://doi.org/10.5440/1696794",
+      "NGA234"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3265-6691",
+        "givenName": "Benjamin",
+        "familyName": "Sulman",
+        "email": "sulmanbn@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-2188-551X",
+        "givenName": "Verity",
+        "familyName": "Salmon",
+        "email": "salmonvg@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-8293-3450",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "email": "iversencm@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1109-3906",
+        "givenName": "Amy",
+        "familyName": "Breen",
+        "email": "akillik@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0910-5231",
+        "givenName": "Fengming",
+        "familyName": "Yuan",
+        "email": "yuanf@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4759-5158",
+        "givenName": "Peter",
+        "familyName": "Thornton",
+        "email": "thorntonpe@ornl.gov"
+      }
+    ],
+    "datePublished": "2021-02-08",
+    "keywords": [
+      "EARTH SCIENCE SERVICES > MODELS > LAND SURFACE MODELS",
+      "EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS > COMMUNITY DYNAMICS > COMMUNITY STRUCTURE"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "NGEE Arctic Kougarok Site, Mile Marker 64, Alaska",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 65.171006,
+            "longitude": -164.837755
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 65.153612,
+            "longitude": -164.801947
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC05-00OR22725"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2024-09-23",
+      "endDate": "2024-09-23",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3265-6691",
+      "givenName": "Benjamin",
+      "familyName": "Sulman",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "sulmanbn@ornl.gov"
+    },
+    "citation": [
+      "Sulman, B. N., Salmon, V. G., Iversen, C. M., Breen, A. L., Yuan, F., & Thornton, P. E. (2021). Integrating arctic plant functional types in a land surface model using above- and belowground field observations. Journal of Advances in Modeling Earth Systems, 13, e2020MS002396. https://doi.org/10.1029/2020MS002396",
+      "Breen, A., Iversen, C. M., Salmon, V. G., Vander Stel, H., Busey, B., & Wullschleger, S. (2020) NGEE Arctic Plant Traits: Plant Community Composition, Kougarok Road Mile Marker 64, Seward Peninsula, 2016. Oak Ridge, TN: Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory. https://doi.org/10.5440/1465967",
+      "Iversen, C. M., Breen, A., Salmon, V. G., Vander Stel, H., & Wullschleger, S. D. (2017). NGEE Arctic Plant Traits: Vegetation Plot Locations, Ecotypes, and Photos, Kougarok Road Mile Marker 64, Seward Peninsula, Alaska, 2016. Oak Ridge, TN: Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory. https://doi.org/10.5440/1346196",
+      "Iversen, C. M., Breen, A., Salmon, V. G., Vander Stel, H., & Wullschleger, S. (2019a). NGEE Arctic Plant Traits: Soil Depth, Kougarok Road Mile Marker 64, Seward Peninsula, Alaska, beginning 2016. Oak Ridge, TN: Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory. https://doi.org/10.5440/1346198",
+      "Iversen, C. M., Salmon, V. G., Breen, A., Vander Stel, H., & Wullschleger, S. (2019b). NGEE Arctic Plant Traits: Soil Temperature and Moisture, Kougarok Road Mile Marker 64, Seward Peninsula, Alaska, beginning 2016. Oak Ridge, TN: Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory. https://doi.org/10.5440/1346195",
+      "Salmon, V. G., Iversen, C. M., Breen, A., Vander Stel, H., & Childs, J. (2019b). NGEE Arctic Plant Traits: Plant Biomass and Traits, Kougarok Road Mile Marker 64, Seward Peninsula, Alaska, beginning 2016. Oak Ridge, TN: Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory. https://doi.org/10.5440/1346199",
+      "Salmon, V. G., Iversen, C. M., Childs, J., & Vander Stel, H. (2019c). NGEE Arctic Plant Traits: Soil Cores, Kougarok Road Mile Marker 64, Seward Peninsula, Alaska, 2016. Oak Ridge, TN: Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory. https://doi.org/10.5440/1346200",
+      "Salmon, V. G., Iversen, C. M., Breen, A., Childs, J., Vander Stel, H., & Wullschleger, S. (2019d). NGEE Arctic Plant Traits: Soil Nutrient Availability, Seward Peninsula, Alaska, beginning 2016. Oak Ridge, TN: Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory. https://doi.org/10.5440/1346201",
+      "Salmon, V. G., Iversen, C. M., & Childs, J. (2020). NGEE Arctic Plant Traits: Fine roots, Kougarok Road Mile Marker 63, Seward Peninsula, Alaska, 2016. Next Generation Ecosystem Experiments Arctic Data Collection, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tennessee, USA. https://doi.org/10.5440/1735941",
+      "Bieniek, P., Alaska Climate Adaptation and Science Center, & Lindgren, M. (2020). Historical and Projected Dynamically Downscaled Climate Data for the State of Alaska and surrounding regions at 20km spatial resolution and hourly temporal resolution. Fairbanks, AK: Scenarios Network for Alaska and Arctic Planning, International Arctic Research Center, University of Alaska, Fairbanks. Retrieved from http://ckan.snap.uaf.edu/dataset/historical-and-projected-dynamically-downscaled-climate-data-for-the-state-of-alaska-and-surrou",
+      "E3SM Project, DOE. Energy Exascale Earth System Model v1.1.1. Computer Software. https://github.com/E3SM-Project/E3SM/releases/tag/v1.1.1. 08 Mar. 2019. Web. doi:10.11578/E3SM/dc.20200825.12",
+      "Walsh, J. E., Bhatt, U. S., Littell, J. S., Leonawicz, M., Lindgren, M., Kurkowski, T. A., et al. (2018). Downscaling of climate model output for Alaskan stakeholders. Environmental Modelling and Software, 110, 38?51. https://doi.org/10.1016/j.envsoft.2018.03.021"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "43eb47ef-9201-468d-ae7a-a7ec6dff6bb7"
+      },
+      "name": "Next-Generation Ecosystem Experiments (NGEE) Arctic",
+      "member": {
+        "@type": "Person",
+        "givenName": "Colleen",
+        "familyName": "Iversen",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "iversencm@ornl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "See associated Related Reference - Sulman, 2021."
+    ],
+    "distribution": [
+      {
+        "contentSize": 15.390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-259fb92d362c813-20250403T183007035137",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-259fb92d362c813-20250403T183007035137",
+        "name": "fco2_datm_rcp8.5_1765-2500_c110919.nc"
+      },
+      {
+        "contentSize": 136.365234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-148b687243b5f97-20250403T183230805003",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-148b687243b5f97-20250403T183230805003",
+        "name": "surfdata_51x63pt_kougarok-NGEE_TransA_simyr1850_c190604-sub12_updated_2020-10-08.nc"
+      },
+      {
+        "contentSize": 225.08203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-06a398dae313b5c-20250403T183004941256",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-06a398dae313b5c-20250403T183004941256",
+        "name": "clm_params_updated.nc"
+      },
+      {
+        "contentSize": 43.75390625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-eae8ac799166f51-20250403T183224295804",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-eae8ac799166f51-20250403T183224295804",
+        "name": "PFTmanuscript_plots.py"
+      },
+      {
+        "contentSize": 19523.8603515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2ac6d2ea17db7d8-20250403T183227450790",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-2ac6d2ea17db7d8-20250403T183227450790",
+        "name": "SNAP_met_hourly_RCP85.nc"
+      },
+      {
+        "contentSize": 2.61328125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d0a28fb22d8f448-20250403T183004971823",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-d0a28fb22d8f448-20250403T183004971823",
+        "name": "domain.lnd.51x63pt_kougarok-NGEE_TransA_navy.nc"
+      },
+      {
+        "contentSize": 1135751.154296875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-52b06f3c9dc7810-20250403T183035051590",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-52b06f3c9dc7810-20250403T183035051590",
+        "name": "Kougarok_SNAP_updatedPFTareas_Arcticpfts_20201009_h2_processed.nc"
+      },
+      {
+        "contentSize": 203.765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-602621c9731a0d8-20250403T183230783316",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-602621c9731a0d8-20250403T183230783316",
+        "name": "sulman_2021_modeling_archive_nga234.pdf"
+      },
+      {
+        "contentSize": 5.20703125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4c0645c953437cb-20250403T183224270416",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-4c0645c953437cb-20250403T183224270416",
+        "name": "OLMT_cmds.bash"
+      },
+      {
+        "contentSize": 1600156.287109375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4c1e4fc3182d07a-20250403T183024487413",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-4c1e4fc3182d07a-20250403T183024487413",
+        "name": "Kougarok_SNAP_rhizomefixed_E3SMpfts_communities_20200515_h2_processed.nc"
+      },
+      {
+        "contentSize": 52.2158203125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-64df15f68846dad-20250403T183227376099",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-64df15f68846dad-20250403T183227376099",
+        "name": "plot_kougarok.py"
+      },
+      {
+        "contentSize": 3225331.77734375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7addcc22f8e2eb7-20250403T183028162814",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-7addcc22f8e2eb7-20250403T183028162814",
+        "name": "Kougarok_SNAP_updatedPFTareas_Arcticpfts_20201009_h0.nc"
+      },
+      {
+        "contentSize": 448832.03515625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-75a1cc0f8e28228-20250403T183007081903",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-75a1cc0f8e28228-20250403T183007081903",
+        "name": "Kougarok_SNAP_rhizomefixed_E3SMpfts_20200518_h2_processed.nc"
+      },
+      {
+        "contentSize": 0.9365234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8da8c8f05f739be-20250403T183001584879",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-8da8c8f05f739be-20250403T183001584879",
+        "name": "archive_sim.bash"
+      },
+      {
+        "contentSize": 28.0830078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-90fcb4929ff515b-20250403T183007056610",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-90fcb4929ff515b-20250403T183007056610",
+        "name": "kougarok_plotting.py"
+      },
+      {
+        "contentSize": 144.3544921875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9e255b1261f1315-20250403T183230829309",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-9e255b1261f1315-20250403T183230829309",
+        "name": "surfdata_Kougarok_defaultPFTs_all-shrubs-decid-boreal.nc"
+      },
+      {
+        "contentSize": 492.671875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c118c408698a719-20250403T183224248031",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-c118c408698a719-20250403T183224248031",
+        "name": "OLMT_arcticPFTs.tar.gz"
+      },
+      {
+        "contentSize": 0.5185546875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-bbcb44c65f07d86-20250403T183001231889",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-bbcb44c65f07d86-20250403T183001231889",
+        "name": "archive_OLMT_sims.bash"
+      },
+      {
+        "contentSize": 23.6708984375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b8ab89c9d2eedc8-20250403T183233640605",
+        "encodingFormat": "application/x-python",
+        "identifier": "ess-dive-b8ab89c9d2eedc8-20250403T183233640605",
+        "name": "update_kougarok_params.py"
+      },
+      {
+        "contentSize": 7410.47265625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-cad2b20af7041b3-20250403T183227391808",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-cad2b20af7041b3-20250403T183227391808",
+        "name": "SNAP_met_hourly_historical.nc"
+      },
+      {
+        "contentSize": 20929.115234375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-fca43b8122aa529-20250403T183004975817",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-fca43b8122aa529-20250403T183004975817",
+        "name": "E3SM_arcticPFTs.tar.gz"
+      },
+      {
+        "contentSize": 83.91015625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-de58a513b5558db-20250403T183001588425",
+        "encodingFormat": "application/x-netcdf",
+        "identifier": "ess-dive-de58a513b5558db-20250403T183001588425",
+        "name": "clm_params_defaultpfts_c180524_orig.nc"
+      },
+      {
+        "contentSize": 17.8837890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-876030617bc1402-20250915T195852773",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-876030617bc1402-20250915T195852773",
+        "name": "Integrating_New_Arctic_Plant_Functional_Types_in.xml"
+      }
+    ]
+  }
+}

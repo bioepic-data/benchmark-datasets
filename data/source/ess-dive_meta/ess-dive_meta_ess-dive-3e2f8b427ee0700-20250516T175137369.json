@@ -1,0 +1,237 @@
+{
+  "id": "ess-dive-3e2f8b427ee0700-20250516T175137369",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1660459",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-3e2f8b427ee0700-20250516T175137369",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-3e2f8b427ee0700-20250515T172620514",
+  "dateUploaded": "2025-05-16T17:51:38.663Z",
+  "dateModified": "2025-05-16T17:51:43.750Z",
+  "isPublic": true,
+  "citation": "Dong W; Beutler C; Brown W; Newman A; O'Ryan D; Shirley A; Versteeg R; Williams K (2025): Dissolved Inorganic Carbon and Dissolved Organic Carbon Data for the East River Watershed, Colorado (2015-2024). Watershed Function SFA. Dataset. doi:10.15485/1660459",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1660459",
+    "name": "Dissolved Inorganic Carbon and Dissolved Organic Carbon Data for the East River Watershed, Colorado (2015-2024)",
+    "description": [
+      "This data package contains mean values for dissolved organic carbon (DOC) and dissolved inorganic carbon (DIC) for water samples taken from the East River Watershed in Colorado. The East River is part of the Watershed Function Scientific Focus Area (WFSFA) located in the Upper Colorado River Basin, United States. DOC and DIC concentrations in water samples were determined using a TOC-VCPH analyzer (Shimadzu Corporation, Japan). DOC was analyzed as non-purgeable organic carbon (NPOC) by purging HCl acidified samples with carbon-free air to remove DIC prior to measurement. After the acidified sample has been sparged, it is injected into a combustion tube filled with oxidation catalyst heated to 680 degrees C. The DOC in samples is combusted to CO2 and measured by a non-dispersive infrared (NDIR) detector. The peak area of the analog signal produced by the NDIR detector is proportional to the DOC concentration of the sample. DIC was determined by acidifying the samples with HCl first, and then purge with carbon-free air to release CO2 for analysis by NDIR detector. All files are labeled by location and variable, and data reported are the mean values upon minimum three replicate measurements with a relative standard deviation < 3%. All samples were analyzed under a rigorous quality assurance and quality control (QA/QC) process as detailed in the methods. This data package contains (1) a zip file (dic_npoc_data_2014-2024.zip) containing a total of 333 files: 332 data files of DIC and NPOC data from across the Lawrence Berkeley National Laboratory (LBNL) Watershed Function Scientific Focus Area (SFA) which is reported in .csv files per location and a locations.csv (1 file) with latitude and longitude for each location; (2) a file-level metadata (v5_20250515_flmd.csv) file that lists each file contained in the dataset with associated metadata; (3) a data dictionary (v5_20250515_dd.csv) file that contains terms/column_headers used throughout the files along with a definition, units, and data type; and (4) PDF and docx files for the determiniation of Method Detection Limits (MDLs) for DIC and NPOC data, which has been updated in 2024-03. Missing values within the anion data files are noted as either \"-9999\" or \"0.0\" for not detectable (N.D.) data. There are a total of 112 locations containing DIC/NPOC data.",
+      "Update on 2020-10-07: Updated the data files to remove times from the timestamps, so that only dates remain. The data values have not changed.",
+      "Update on 2021-04-11: Added Determination of Method Detection Limits (MDLs) for DIC, NPOC and TDN Analyses document, which can be accessed as a PDF or with Microsoft Word.Update on 6/10/2022: versioned updates to this dataset was made along with these changes: (1) updated dissolved inorganic carbon and dissolved organic carbon data for all locations up to 2021-12-31, (2) removal of units from column headers in datafiles, (3) added row underneath headers to contain units of variables, (4) restructure of units to comply with CSV reporting format requirements, (5) added -9999 for empty numerical cells, and (6) the addition of the file-level metadata (flmd.csv) and data dictionary (dd.csv) were added to comply with the File-Level Metadata Reporting Format.",
+      "Update on 2022-09-09: Updates were made to reporting format specific files (file-level metadata and data dictionary) to correct swapped file names, add additional details on metadata descriptions on both files, add a header_row column to enable parsing, and add version number and date to file names (v2_20220909_flmd.csv and v2_20220909_dd.csv).",
+      "Update on 2023-08-08: Updates were made to both the data files and reporting format specific files. New available anion data was added, up until 2023-01-05. The file level metadata and data dictionary files were updated to reflect the additional data added.",
+      "Update on 2024-03-11: Updates were made to both the data files and reporting format specific files. New available anion data was added, up until 2023-11-21. Further, revisions to the data files were made to remove incorrect data points (from 1970 and 2001). The reporting format specific files were updated to reflect the additional data added. Revised versions of the PDF and docx files for determination of MDLs for DIC and NPOC were added to replace previous versions.",
+      "Update on 2025-05-15: Updates were made to both the data files and reporting format specific files. New available DIC and NPOC data was added, up until the end of WY2024 (September 30, 2024). International Generic Sample Numbers (IGSNs), when registered, were added to the data files. The reporting format specific files were updated to reflect the additional data added."
+    ],
+    "alternateName": [
+      "10.15485/1660459",
+      "paf_451_866"
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2074-8887",
+        "givenName": "Wenming",
+        "familyName": "Dong",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "wenmingdong@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Curtis",
+        "familyName": "Beutler",
+        "email": "curtis.beutler@colorado.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-7237-1797",
+        "givenName": "Wendy",
+        "familyName": "Brown",
+        "affiliation": "Bugs Unlimited, LLC",
+        "email": "wsbrown@frontier.net"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Alexander",
+        "familyName": "Newman",
+        "email": "alexnewman760@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1793-9781",
+        "givenName": "Dylan",
+        "familyName": "O'Ryan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "dporyan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Austin",
+        "familyName": "Shirley",
+        "email": "AShirley@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Roelof",
+        "familyName": "Versteeg",
+        "affiliation": "Subsurface Insights",
+        "email": "roelof.versteeg@subsurfaceinsights.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3568-1155",
+        "givenName": "Kenneth",
+        "familyName": "Williams",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "khwilliams@lbl.gov"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4142-3224",
+        "givenName": "Charuleka",
+        "familyName": "Varadharajan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "cvaradharajan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6339-1139",
+        "givenName": "Robert",
+        "familyName": "Crystal-Ornelas",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "rcrystalornelas@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Erek",
+        "familyName": "Alper",
+        "affiliation": "Subsurface Insights",
+        "email": "erek.alper@subsurfaceinsights.com"
+      }
+    ],
+    "datePublished": "2025",
+    "keywords": [
+      "geochemical",
+      "dic",
+      "npoc",
+      "surface water",
+      "ground water",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "Long Term Data",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER"
+    ],
+    "variableMeasured": [
+      "Patriculate/Dissolved Inorganic Carbon",
+      "Patriculate/Dissolved Organic Carbon",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER CHEMISTRY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER > GROUNDWATER CHEMISTRY"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2022) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2015-09-01",
+      "endDate": "2024-09-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3568-1155",
+      "givenName": "Kenneth",
+      "familyName": "Williams",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "khwilliams@lbl.gov"
+    },
+    "citation": [
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for Comma-separated Values (CSV) File Structure. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734841",
+      "Velliquette, T., Welch, J., Crow, M., Devarakonda, R., Heinz, S., Crystal-Ornelas, R. (2021). ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE), ESS-DIVE Repository. https://doi.org/10.15485/1734840",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Kakalia Z ; Burrus M ; O'Ryan D ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; Elbashandy H ; Enquist B J ; Fox P ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Matheus Carnevali P ; Newman A ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Agarwal D (2022): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA (Version 3.0). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Lawrence Berkeley National Lab",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "1. QA\nSamples Preparation and Storage:\n- Water samples for DOC, DIC, and TDN analysis were filtered in the field using 0.45 micrometer Millipore filters, and collected in no-headspace 40 mL glass vials with polypropylene open-top caps and butyl rubber septa (VWR TraceClean).\n- The samples were transported to the laboratory on ice and stored in 4 degree C refrigerator until analysis.\nShimadzu TOC Analyzer Instrument maintenance and optimization:\n- Routine clean and replace instrument consumable parts, depending on sample conditions and usage (e.g., combustion tube, catalyst, pump syringe, cooling tube, IC and TC reagent vessels and sliders, CO2 absorber, halogen scrubber, humidifier, and ASI-V auto-sampler needle and tubing etc.).\n- Regularly conduct the maintenance and adjustment (mechanical check, zero-point detection, regeneration of the TC catalyst, regeneration of the IC solution, residue removal etc.).\n- Regularly replace the acid reagents of 2M HCl and 30% H3PO4.\n- Prior to each analysis, warm up the instrument until the furnace temperature is stabilized at 680 degrees C and the signals of dehumidifier, baseline position, baseline fluctuation and baseline noise are in ready conditions. Wash and replace all the flow lines with fresh Milli-Q water. Always use the fresh Milli-Q water as rinse water.\n- Make calibration curves with 5 - 6 points of standard calibration concentrations (mg/L or ug/L) and ensure a good linear co-relationship with r^2 (r squared) greater than or equal to 0.995.\n2. QC\n- First, perform blank solution checks with Milli-Q water. which used for preparation of calibrations and QC check standards.\n- Then, analyze against the QC check standards to validate the calibration curves obtained. The QC check standards are repeated every 10 to 20 samples to monitor the instrument performance and potential drift. The QC check standard solutions are prepared with vender certified or NIST SRM solutions.\n3. Data Processing and Report:\n- If find a problem with the calibrations (i.e., non-linear calibration) and the results from blank and QC check standards, then need to do troubleshooting and conduct the QA/QC processes again until the QA/QC results are satisfied.\n- Review sample data results: if find unusual or odd data points and potential contaminations, re-run or report the problems and make notes in data reports.\n- Carefully convert the text data files originally generated from instrument software to a more useable format (i.e. Excel files).\n- Send the reports to SFA Watershed Function Data Management for further review and input to database."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-591e7e5e6b32e64-20240312T193149059",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "identifier": "ess-dive-591e7e5e6b32e64-20240312T193149059",
+        "name": "Determination_of_Method_Detection_Limits_MDLs_for_DIC_NPOC_and_TDN_Analyses_Shimadzu_Updated_2024_March_05.docx",
+        "contentSize": 22.9521484375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4f9f596634eaf6d-20240312T193149065",
+        "encodingFormat": "application/pdf",
+        "identifier": "ess-dive-4f9f596634eaf6d-20240312T193149065",
+        "name": "Determination_of_Method_Detection_Limits_MDLs_for_DIC_NPOC_and_TDN_Analyses_Shimadzu_Updated_2024_March_05.pdf",
+        "contentSize": 152.876953125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9fed22ebfc0ddab-20250515T172508999",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-9fed22ebfc0ddab-20250515T172508999",
+        "name": "v5_20250515_dd.csv",
+        "contentSize": 1.4462890625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-817d40e9fa9d38f-20250515T172508988",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-817d40e9fa9d38f-20250515T172508988",
+        "name": "dic_npoc_data_2014_2024.zip",
+        "contentSize": 153.4921875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7e63c91e2e4a9d8-20250515T172509006",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7e63c91e2e4a9d8-20250515T172509006",
+        "name": "v5_20250515_flmd.csv",
+        "contentSize": 1.849609375
+      }
+    ]
+  }
+}

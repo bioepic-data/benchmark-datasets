@@ -1,0 +1,143 @@
+{
+  "id": "ess-dive-b6200929fa5b268-20240604T184443135",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2370459",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-b6200929fa5b268-20240604T184443135",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-d7fb937a316bdb2-20240604T170917651",
+  "dateUploaded": "2024-06-04T18:44:45.110Z",
+  "dateModified": "2025-03-07T16:43:12.199Z",
+  "isPublic": true,
+  "citation": "Allen-Dumas M; Sweet-Breu L (2024): Urban Parameters Maricopa County 100m Grid Spacing. Southwest Urban Corridor Integrated Field Laboratory (SW-IFL). Dataset. doi:10.15485/2370459",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2370459",
+    "name": "Urban Parameters Maricopa County 100m Grid Spacing",
+    "description": [
+      "132 urban parameters for Maricopa County are provided in WRF-readable binary form at 100m grid spacing with index. These parameters allow regional weather modelers to account for the contribution of built structures in modeling the urban heat island. This data is also provided in CSV format. Data are generated using 2023 Model America Version 1 data (https://www.osti.gov/biblio/1774134) and will be used to represent the urban morphology in Maricopa County to the WRF model for experiments conducted for the Southwest Urban Corridor Integrated Field Laboratory (SW-IFL). Three files associated with these parameters are included in this repository: index, binary file 00001-01549.00001-01796, Maricopa_Parameters_03072024.csv . To use the binary file with the Weather Research and Forecasting (WRF) model, the binary file and the index file must be placed in their own directory in WRF_GEOG and accessed in the same way the National Urban Database and Access Portal Tool data (NUDAPT44) would be accessed. The name of the binary file must be in the format: 00001-02715.00001-01803. If, upon download, the binary filename has additional or different characters, please change them to match this format."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3319-0846",
+        "givenName": "Melissa",
+        "familyName": "Allen-Dumas",
+        "affiliation": "Oak Ridge National Laboratory",
+        "email": "allenmr@ornl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3325-8086",
+        "givenName": "Levi",
+        "familyName": "Sweet-Breu",
+        "affiliation": "Baylor University",
+        "email": "Levi_Sweetbreu1@baylor.edu"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "numerical weather modeling",
+      "urban parameters",
+      "Weather Research and Forecasting (WRF) model",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > HUMAN SETTLEMENTS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > INFRASTRUCTURE"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > HUMAN DIMENSIONS > INFRASTRUCTURE > BUILDINGS"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Maricopa County, AZ",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 34.048,
+            "longitude": -113.335
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 32.461,
+            "longitude": -111.014
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3319-0846",
+      "givenName": "Melissa",
+      "familyName": "Allen-Dumas",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "allenmr@ornl.gov"
+    },
+    "citation": [
+      "Urban Parameters Maricopa County 100m Software that generated the parameters is located here: https://immm-sfa.github.io/naturf/"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "76c0a41d-b69a-4d99-996f-d650c21e07aa"
+      },
+      "name": "Southwest Urban Corridor Integrated Field Laboratory (SW-IFL)",
+      "member": {
+        "@type": "Person",
+        "givenName": "David",
+        "familyName": "Sailor",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Arizona State University",
+        "email": "dsailor@asu.edu"
+      }
+    },
+    "measurementTechnique": [
+      "Python code description and user guide for generating this data are found at this github site: https://immm-sfa.github.io/naturf/"
+    ],
+    "distribution": [
+      {
+        "contentSize": 2524059.140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-461485bfff4e02f-20240522T123934995",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-461485bfff4e02f-20240522T123934995",
+        "name": "00001_02715.00001-01803"
+      },
+      {
+        "contentSize": 1740790.837890625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-880e1b98311638b-20240522T122628325",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-880e1b98311638b-20240522T122628325",
+        "name": "Maricopa_Parameters_03072024.csv"
+      },
+      {
+        "contentSize": 6.5048828125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b6200929fa5b268-20240604T184443135",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-b6200929fa5b268-20240604T184443135",
+        "name": "Urban_Parameters_Maricopa_County_100m_Grid.xml"
+      },
+      {
+        "contentSize": 0.3974609375,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b6860e8c3ddff9d-20240502T165650873",
+        "encodingFormat": "application/octet-stream",
+        "identifier": "ess-dive-b6860e8c3ddff9d-20240502T165650873",
+        "name": "index"
+      }
+    ]
+  }
+}

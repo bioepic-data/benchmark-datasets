@@ -1,0 +1,167 @@
+{
+  "id": "ess-dive-170cc3e70a23a5c-20250213T012813393",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/1804744",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-170cc3e70a23a5c-20250213T012813393",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-631486a3bbc9377-20230407T142156025005",
+  "dateUploaded": "2025-02-13T01:28:14.021Z",
+  "dateModified": "2025-02-13T01:28:15.978Z",
+  "isPublic": true,
+  "citation": "Perzan Z; Babey T; Caers J; Bargar J; Maher K (2021): Stochastic simulations of temporally and spatially variable Fe cycling within a floodplain aquifer. Groundwater Quality SFA. Dataset. doi:10.15485/1804744",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/1804744",
+    "name": "Stochastic simulations of temporally and spatially variable Fe cycling within a floodplain aquifer",
+    "description": [
+      "This data package contains model input and output files for local and global sensitivity analysis (SA) of a reactive transport model simulating redox cycling within a floodplain aquifer. The reaction network is implemented in CrunchFlow and focuses on spatially and temporally heterogeneous Fe cycling, though it contains several other species and redox pathways (37 aqueous species and 7 minerals in total). The package contains data from 600 Monte Carlo simulations (for global SA) and 104 one-at-a-time simulations (for local SA). It includes all input files required to run the CrunchFlow model, as well as limited model output \u2013 .csv files containing time series of primary species concentrations at 21 grid cells within the domain. These time series files contain the following species: H+, CO32-, SO42-, Cl-, Ca2+, Mg2+, Na+, K+, Fe(II), Fe(III), HS-, CH3COO-, O2(aq), S(aq), and Br-.",
+      "These data were used to demonstrate the application of a novel form of global SA, distance-based generalized sensitivity analysis (DGSA) to a reactive transport model. The 2D model simulates the export of reduced species from pockets of fine-grained, organic-rich sediments embedded in a coarse sand aquifer. Stochastic simulations jointly varied 17 key model input parameters across several orders of magnitude, including the spatial variability of each parameter. DGSA on the model results reveal that the amplitude and variability of exported Fe(II) are most sensitive to the interaction between sand permeability and individual reaction rates. By contrast, the propagation of reducing conditions downgradient from the fine-grained lenses depends most heavily on the rate of dissolved organic carbon and sulfate release from the fines."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2676-2452",
+        "givenName": "Zach",
+        "familyName": "Perzan",
+        "affiliation": "Stanford University",
+        "email": "zperzan@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Tristan",
+        "familyName": "Babey",
+        "affiliation": "Stanford University",
+        "email": "babey.tristan@gmail.com"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-0262-9905",
+        "givenName": "Jef",
+        "familyName": "Caers",
+        "affiliation": "Stanford University",
+        "email": "jcaers@stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9303-4901",
+        "givenName": "John",
+        "familyName": "Bargar",
+        "affiliation": "Stanford Linear Accelerator Center - National Accelerator Laboratory",
+        "email": "bargar@slac.stanford.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5982-6064",
+        "givenName": "Kate",
+        "familyName": "Maher",
+        "affiliation": "Stanford University",
+        "email": "kmaher@stanford.edu"
+      }
+    ],
+    "datePublished": "2021",
+    "keywords": [
+      "REACTIVE TRANSPORT MODEL",
+      "CRUNCHFLOW",
+      "REDOX CYCLING",
+      "SENSITIVITY ANALYSIS",
+      "GROUNDWATER",
+      "related identifiers",
+      "EARTH SCIENCE > SOLID EARTH > GEOCHEMISTRY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY"
+    ],
+    "variableMeasured": [
+      "WATER QUALITY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > CONTAMINANTS > IRON",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > NUTRIENTS > ORGANIC MATTER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > CONTAMINANTS > CALCIUM",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > CONTAMINANTS > METALS/MINERALS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > CONTAMINANTS > TRACE METALS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > CONTAMINANTS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > WATER QUALITY/WATER CHEMISTRY > GASES > DISSOLVED OXYGEN"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2676-2452",
+      "givenName": "Zach",
+      "familyName": "Perzan",
+      "email": "zperzan@stanford.edu"
+    },
+    "citation": [
+      "ASSOCIATED JOURNAL ARTICLE(S)",
+      "Perzan et al., (2021) \u201cLocal and Global Sensitivity Analysis of a Reactive Transport Model Simulating Floodplain Redox Cycling\u201d https://doi.org/10.1029/2021WR029723",
+      "Engel et al., (2023) \u201cStructure and composition of natural ferrihydrite nano-colloids in anoxic groundwater\u201d https://doi.org/10.1016/j.watres.2023.119990"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "14a7e1cf-5a60-4ac3-9527-ec20fed6815f"
+      },
+      "name": "Groundwater Quality SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Bargar",
+        "jobTitle": "Principal Investigator",
+        "affiliation": "Stanford Linear Accelerator Center",
+        "email": "bargar@slac.stanford.edu"
+      }
+    },
+    "measurementTechnique": [
+      "These 600+ stochastic simulations were generated by jointly varying 17 key CrunchFlow input parameters, including physical parameters (hydraulic conductivity and porosity, e.g.), geochemical reaction rates (iron and sulfate reduction rates, ferrihydrite sulfidation rates, etc.), and the spatial distribution of sediment facies within the domain. The full list of parameters is included in the \"parameter_sets\" subfolders. For each individual Monte Carlo simulation, the model was spun up to steady state using constant recharge forcing, followed by a period of variable forcing with fluctuating concentrations of dissolved oxygen and dissolved organic carbon (DOC) at the inlet (as well as increases in hydraulic gradient) designed to mimic seasonal flooding.\nFull details of the methodology and all files contained within the dataset can be found in the User Guide."
+    ],
+    "distribution": [
+      {
+        "contentSize": 9.4189453125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-170cc3e70a23a5c-20250213T012813393",
+        "encodingFormat": "https://eml.ecoinformatics.org/eml-2.2.0",
+        "identifier": "ess-dive-170cc3e70a23a5c-20250213T012813393",
+        "name": "Stochastic_simulations_of_temporally_and.xml"
+      },
+      {
+        "contentSize": 7.5009765625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1088c2439e7449b-20210621T193610088",
+        "encodingFormat": "text/markdown",
+        "identifier": "ess-dive-1088c2439e7449b-20210621T193610088",
+        "name": "UserGuide.md"
+      },
+      {
+        "contentSize": 178826.869140625,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-380e11c2575061f-20210621T211208533",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-380e11c2575061f-20210621T211208533",
+        "name": "localsa_tar.gz"
+      },
+      {
+        "contentSize": 1507148.732421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-973e23b75ad034e-20210621T212604608",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-973e23b75ad034e-20210621T212604608",
+        "name": "dgsa_tar.gz"
+      },
+      {
+        "contentSize": 1.580078125,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-99269ab0ca81880-20210626T050827271",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-99269ab0ca81880-20210626T050827271",
+        "name": "file_metadata_tar.gz"
+      },
+      {
+        "contentSize": 1408.3857421875,
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-b1fe515d0cc2bb0-20210621T211202532",
+        "encodingFormat": "application/x-gzip",
+        "identifier": "ess-dive-b1fe515d0cc2bb0-20210621T211202532",
+        "name": "CrunchFlow_tar.gz"
+      }
+    ]
+  }
+}

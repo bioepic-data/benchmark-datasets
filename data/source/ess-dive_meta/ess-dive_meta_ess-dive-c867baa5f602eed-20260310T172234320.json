@@ -1,0 +1,381 @@
+{
+  "id": "ess-dive-c867baa5f602eed-20260310T172234320",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/3014404",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-c867baa5f602eed-20260310T172234320",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-c867baa5f602eed-20260310T165344200",
+  "dateUploaded": "2026-03-10T17:22:35.923Z",
+  "dateModified": "2026-03-13T00:01:35.167Z",
+  "isPublic": true,
+  "citation": "Breckheimer I; Carroll E; Chadwick K D; Falco N; Henderson A; Lovegreen P; O'Ryan D; Todorov S; Villa A; Williams C; Worsham H M; Xu H (2026): CHESS 2025: Field-collected vegetation attributes and site photos. Watershed Function SFA. Dataset. doi:10.15485/3014404",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/3014404",
+    "name": "CHESS 2025: Field-collected vegetation attributes and site photos",
+    "description": [
+      "This dataset represents field observations of vegetation samples collected as part of the Colorado Headwaters Ecological Spectroscopy Study (CHESS) during June and July of 2025. Samples were collected in the field using tablet computers and digital forms, with target data differing by sample type (individual trees, individual shrubs, or 1-meter square plots of meadow and subshrub vegetation). Field samples were collected within 72 hours of airborne data collection using the National Ecological Observatory Network\u2019s Aerial Observation Platform (NEON AOP). The NEON AOP collected waveform LiDAR (Light Detection and Ranging) and imaging spectrometer data in 426 spectral bands from the visible to shortwave infrared. Remote sensing data for the project is available on ESS-DIVE (DOI and citation to be added upon publication).",
+      "Field data collected included canopy height and per-species horizontal proportional cover for meadow plots, species identity and height information for shrubs, as well as species identity, height, diameter at breast height, and health assessment information for trees. Photos of the focal site and surrounding landscape were taken for all sampling sites and are included in this archive. Green leaves or needles were collected for plant trait and foliar chemistry analysis. This data is archived separately (DOI and citation to be added upon publication). High-precision geospatial data for each sample (crown perimeter polygons for trees and shrubs, plot boundaries for meadow plots) is available here (DOI and citation to be added upon publication). Field and remote sensing protocols largely followed those of a previous field and airborne imaging campaign performed in 2018 (described in Chadwick et al. 2020). Field data from the 2018 campaign can be found here (Chadwick et al., 2020 doi:10.15485/1618130).",
+      "Because different field measurements were taken for meadow, shrub, and tree sites, data from these three sample types are archived as separate tables (chess_meadow_site_cleaned.csv, chess_shrub_site_cleaned.csv, chess_tree_site_cleaned.csv). Meadow proportional cover data is stored in a separate table (chess_meadow_cover_cleaned.csv). Taxonomy was treated identically between sample types, and the dataset shares a common set of voucher specimens (chess_voucher_IDs_cleaned.csv), as well as a single species list (chess_species_list_cleaned.csv). All taxonomic determinations were performed to the species level, and adhere to the Global Biodiversity Information Facility (GBIF) backbone taxonomy as of January 10th, 2026 (GBIF Secretariat 2023).",
+      "CHESS Project Description: The Colorado Headwaters Ecological Spectroscopy Study (CHESS) comprised a multi-week airborne remote sensing and field observation campaign in the Upper Gunnison Basin, Colorado, conducted in June and July of 2025. Airborne remote sensing was conducted by the National Ecological Observatory Network Airborne Observation Platform (NEON AOP), concurrent with a field campaign run by the Rocky Mountain Biological Laboratory (RMBL), the Lawrence Berkeley National Laboratory (LBNL) and SLAC National Accelerator Laboratory Watershed Function Science Focus Area (SFA), and NASA-JPL (Jet Propulsion Laboratory) Earth Surface Mineral Dust Source Investigation (EMIT) program. Between June 10 and July 18, 2025, the NEON AOP flight team collected high-resolution aerial imaging spectroscopy and Light Detection and Ranging (LiDAR) data over three domains: the Upper East River (CRBU), Almont Triangle (ALMO), and the Upper Taylor Basin (UPTA). In coordination with the flights, a field campaign acquired ground-truth observations, including observations of vegetation composition, foliar traits, forest demography, and subsurface properties in 18 core sampling areas within the domains. Additional surface water observations were taken at over 380 point locations. All CHESS campaign datasets can be found within the CHESS ESS-DIVE data portal: https://data.ess-dive.lbl.gov/portals/chess.",
+      "Funding Acknowledgment: Field and remote-sensing data acquisition was performed under a grant from the National Aeronautics and Space Administration (80NSSC24K1005). This work was also supported by the Watershed Function Science Focus Area at Lawrence Berkeley National Laboratory funded by the US Department of Energy, Office of Science, Biological and Environmental Research under Contract No. DE-AC02-05CH11231."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-4698-977X",
+        "givenName": "Ian",
+        "familyName": "Breckheimer",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "ikb@rmbl.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9044-3101",
+        "givenName": "Erin",
+        "familyName": "Carroll",
+        "affiliation": "University of California Berkeley",
+        "email": "erin_carroll@berkeley.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5633-4865",
+        "givenName": "K. Dana",
+        "familyName": "Chadwick",
+        "affiliation": "NASA Jet Propulsion Laboratory (JPL)",
+        "email": "katherine.d.chadwick@jpl.nasa.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3307-6098",
+        "givenName": "Nicola",
+        "familyName": "Falco",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "nicolafalco@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-9613-5003",
+        "givenName": "Amanda",
+        "familyName": "Henderson",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "amanda@rmbl.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0005-1186-8635",
+        "givenName": "Piper",
+        "familyName": "Lovegreen",
+        "affiliation": "University of California Santa Barbara",
+        "email": "plovegreen@ucsb.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1793-9781",
+        "givenName": "Dylan",
+        "familyName": "O'Ryan",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "dporyan@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Sophia",
+        "familyName": "Todorov",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "sophia@rmbl.org"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0001-9831-5777",
+        "givenName": "Andres",
+        "familyName": "Villa",
+        "affiliation": "Western Colorado University",
+        "email": "andres.villa@western.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Charles",
+        "familyName": "Williams",
+        "affiliation": "Idaho State University",
+        "email": "charleswilliams@isu.edu"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-7924-040X",
+        "givenName": "H. Marshall",
+        "familyName": "Worsham",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "hmworsham@lbl.gov"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Hillary",
+        "familyName": "Xu",
+        "affiliation": "University of Texas at Austin",
+        "email": "hillary-xu-29@utexas.edu"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "givenName": "Markus",
+        "familyName": "Bill"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Archer",
+        "familyName": "Bernholtz"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Zeb",
+        "familyName": "Bernoltz"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Taylor",
+        "familyName": "Bottoms"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Cassidy",
+        "familyName": "Bromka"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Wendy",
+        "familyName": "Brown"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Jack",
+        "familyName": "Fanselow"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Travis",
+        "familyName": "Guy"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Anna",
+        "familyName": "Herzog"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Kathleen",
+        "familyName": "Kanaley"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Gwen",
+        "familyName": "Kirschke"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Beyden",
+        "familyName": "Menton"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Yahaira",
+        "familyName": "Ramirez"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Bradley",
+        "familyName": "Sowder"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Matthias",
+        "familyName": "Sprenger"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Raegan",
+        "familyName": "Struski"
+      }
+    ],
+    "datePublished": "2026-03-10",
+    "keywords": [
+      "field data",
+      "field metadata",
+      "iForm",
+      "CHESS",
+      "vegetation",
+      "forest",
+      "meadow",
+      "shrub",
+      "Colorado River Ecological Spectroscopy Study",
+      "CHESS Campaign 2025",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format",
+      "2018 NEON and 2025 CHESS Campaigns"
+    ],
+    "variableMeasured": [
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > VEGETATION COVER",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > DOMINANT SPECIES",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > CANOPY CHARACTERISTICS",
+      "EARTH SCIENCE > BIOSPHERE > VEGETATION > FOREST COMPOSITION/VEGETATION STRUCTURE"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Three study domains in the Colorado River headwaters including CRBU (the East River, Washington Gulch, Slate River, and Coal Creek watersheds), ALMO (Almont Triangle and Taylor Canyon), and UPTA (Upper Taylor River watershed).",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.056755066,
+            "longitude": -107.098808289
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.62714386,
+            "longitude": -106.606796265
+          }
+        ]
+      }
+    ],
+    "award": [
+      "DE-AC02-05CH11231"
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      },
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100000104",
+        "name": "National Aeronautics and Space Administration (NASA)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2025-06-14",
+      "endDate": "2025-07-30",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4698-977X",
+      "givenName": "Ian",
+      "familyName": "Breckheimer",
+      "affiliation": "Rocky Mountain Biological Laboratory",
+      "email": "ikb@rmbl.org"
+    },
+    "citation": [
+      "Chadwick et al., (2020) \u201cIntegrating airborne remote sensing and field campaigns for ecology and Earth system science\u201d. https://doi.org/10.1111/2041-210X.13463",
+      "Related datasets:",
+      "Carroll E ; Goulden T ; Chadwick K D ; Ade C ; Eckert R ; Brodrick P ; Breckheimer I (2026): Custom surface reflectance, shade mask, and equivalent water thickness mosaics for the Colorado Headwaters Ecological Spectroscopy Study (2025). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/3013535",
+      "Chadwick K D ; Grant K ; Henderson A ; Breckheimer I ; Williams C F R ; Falco N ; Chen J ; Henry H ; Khurram A ; Lamb J ; McCormick M ; McOmber H ; Pierce S ; Polussa A ; Hastings Porro M ; Scott A ; Wu Singh H ; Whitney B ; Brodie E ; Carroll R ; Dewey C ; Kueppers L ; Maavara T ; Steltzer H ; Williams K ; Maher K (2020): Locations, metadata, and species cover from field sampling survey associated with NEON AOP survey, East River, CO 2018. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1618130",
+      "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-01-26."
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Field methods - tree samples\nSite Selection\nWe made observations on 15\u201320 trees in each sampling area. Target individuals were chosen to be visible and unshaded in the preliminary NEON VSWIR (Visible to Shortwave Infrared) imagery sent to the field teams at the end of each flight day, were at least 3 m in height, and were members of a designated species list encompassing all common tree species in the study area: Abies lasiocarpa, Picea engelmannii, Pinus contorta, Pinus ponderosa, Populus tremuloides, Pseudotsuga menziessii, Pinus flexilis, and Populus angustifolia. Other tall woody plants were sampled using the shrub protocol described below. We attempted to sample at least five individuals of the major tree species present in a sampling area. After tree selection, the field team used a hammer and nail to affix an aluminum tag to the stem of the tree at 1.3 m above ground (i.e., at the SI standard breast height). Tree tags for the 2025 CHESS campaign were in the range 1600 \u2013 2000. These tags were left installed so sites can be revisited. We recorded a preliminary geolocation using the Trimble Catalyst DA2 Global Navigation Satellite System / Real-Time Kinematic (GNSS/RTK) unit with Esri FieldMaps software, recording the tree tag number on the GPS unit. We also used the field tablet to take a photograph of each sampling subject, either with the sample ID (identifier) or tag in the frame or taken in a separate photo immediately prior.\nField Observations\nFor stems > 5 m tall, we measured their height with the laser hypsometer. Measurements were taken in a position where both the crown top and base of the stem were visible, at least 8m from the stem and, whenever possible, at a distance approximately equal to the stem height. We performed a three-point measurement, measuring the horizontal distance to tree as well as the angle and distance to crown top and base of the stem. These measurements were repeated until consecutive height measurements within 0.5m of each other were obtained. Heights were recorded to the nearest 0.1 meter. For stems < 5m tall we estimated heights using a rigid measuring tape held along the stem and extending to crown top. Readings were taken where tape crosses the tree tag, and 1.3m was added to the reading. Stem diameter at breast height (DBH) was recorded using a 5 m forestry diameter tape at a point on the stem directly above the tree tag. We collected tree crown perimeter polygons using the Catalyst DA2 GNSS/RTK unit with ESRI Field Maps by walking around the perimeter of the crown while recording locations continuously (streaming).\nFor each tree, we recorded the relative vertical crown position based on visual observation. In addition to the crown class, we also recorded the status of the crown (standing, leaning, broken, or uprooted), as well as any damage or pathology observed.\nWe recorded categorical ratings for any wounds on the trunk that expose wood. We scored wounds from 0 to 3, with 0 indicating no visible trunk wound, 1 indicating a small wound less than the tree DBH^2 in area, 2 indicating a wound greater than DBH^2 but less than 50% of the trunk perimeter or penetrating less than 50% of the basal area. A wound severity of 3 indicated wounds greater than 50% of the trunk cross-sectional area or penetrating greater than 50% of the basal area.\nFinally, we recorded % of original crown remaining with leaves or needles, focusing on dead or missing branches, as well as the percentage of leaves or needles remaining on the branches, estimated as a percentage of needles or leaves left on the tree. We also recorded visual estimates of the percentage of reddish-brown needles or brown leaves in the remaining canopy.",
+      "Field methods - shrub samples\nSite Selection\nWe chose 10 shrub sampling sites per sampling area that were generally representative of the species present. We defined a shrub as a plant with multiple woody stems and a maximum height between 0.75 and 3 meters. We targeted shrub individuals with a canopy diameter greater than 1.5m, selecting individuals in the interior of relatively homogeneous vegetation patches. We attached a metal tag with a unique number (range 1400 to 1600) to a yellow plastic tent stake using a zip tie. We pounded the tent stake into the ground at the base of the target shrub.\nField Observations\nFor each sampled individual, we identified it to species in the field if possible. If a definitive ID in the field was not possible, we took a voucher sample and diagnostic photos. We measured the maximum height above ground for photosynthetic vegetation to the nearest cm using a meter stick or 2-meter aluminum avalanche probe. We took a photo of the shrub from a top-down angle with the plot name written clearly on a whiteboard visible in the photo, as well as photos showing the landscape context in North, East, South, and West directions from the focal shrub.\nTrait and Sample Collection\nWe collected representative samples of sunlit leaves by clipping off multiple branches and placing them in a 2-gallon Ziploc bag (labeled with the site name) with damp paper towels and stored in a cooler. This bulk sample was split into trait and chemical analysis samples during lab processing.",
+      "Field methods - meadow samples\nPlot selection\nWe established 15-20 plots within each sampling area. Sites were selected ad-hoc, targeting vegetation broadly representative of the study area. Approximately 75% of plots in each sampling area were chosen to have high (50-100% vegetative cover), with 25% of plots selected with 25-50% photosynthetic cover. Locations with lower than 25% photosynthetic cover were not sampled. Each 1m x 1m square plot was placed in a north-south orientation, and located such that vegetation composition, height, and cover were consistent within the plot and extending beyond the plot by 0.5 meters in all directions i.e. not placed on the edge of a patch. We marked each plot with a metal tag with a unique number attached to a plastic tent stake hammered into the ground in the NE corner of the plot.\nField observations\nWe measured the maximum height of photosynthetic vegetation in the four corners of the quadrat to the nearest cm.\nWe estimated cover for all species present in a quadrat with greater than 10% photosynthetic cover to the nearest 5%. Remaining photosynthetic cover not captured by the species observations was estimated by plant functional type (PFT) to the nearest 5%. We estimated the percent cover of non-photosynthetic materials for any of the following categories present in the plot: bare ground (i.e. dirt), rock, and non-photosynthetic vegetation (brown stem, litter, flowers, galls) to the nearest 5%. Each meadow plot was further documented with photographs taken with an ipad including a top-down photo and photos taken from each side of the quadrat.",
+      "Data entry and processing\nDigital Form Implementation\nDigital data for field sampling protocols were encoded in digital forms using Zerion iForm software on Apple iPad tablet computers. Data was synchronized between field tablets and Zerion\u2019s cloud storage when the team returned from the field each day. Each sample had data recorded in two digital forms, one for general site information, and the other for data specific to each site type (meadow, tree, or shrub). Voucher specimens collected for samples with unknown or ambiguous taxonomy were also recorded in iForm, with associated site identifier and voucher identifier. Approximately weekly, as well as at the end of the campaign, digital forms were downloaded from Zerion\u2019s website in Microsoft Excel format. We used the unique site number to associate site-specific and sample-type-specific forms, verifying that forms were correctly joined by comparing collection time fields as well as photographs of site tags associated with each form.\nData Checking and Quality-control\nAfter raw data download and backup, meadow, shrub, and tree samples were subject to a series of common semi-automated quality-control measures:\n1. Entered site identifier numbers were verified to be unique and associated with a single crown polygon in our geospatial data.\n2. Data from each site was verified to match appropriate laboratory measurements (e.g. reasonable ranges of LMA and leaf water content given field-recorded taxonomy).\n3. Digital photographs of site identifiers (tree tags or site numbers written on whiteboard) were matched against site numbers recorded in digital data.\nIn addition to quality-control steps applied to tree, shrub, and meadow samples, meadow samples were verified to sum to 100%, and vegetation cover categories were verified to sum to the total percentage for photosynthetic cover. Errors were corrected and noted in a data processing notes field."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f36df4630bd6883-20260310T163615888",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-f36df4630bd6883-20260310T163615888",
+        "name": "Meadow_FieldPhotographs.zip",
+        "contentSize": 626459.8291015625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-7ba773e71c94f4e-20260305T133926923",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-7ba773e71c94f4e-20260305T133926923",
+        "name": "chess_species_list_cleaned.csv",
+        "contentSize": 16.525390625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-1e9a00705171898-20260305T133926920",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-1e9a00705171898-20260305T133926920",
+        "name": "chess_meadow_site_cleaned.csv",
+        "contentSize": 168.783203125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-9f08f8c5cc38f4b-20260310T162233584",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-9f08f8c5cc38f4b-20260310T162233584",
+        "name": "Shrub_FieldPhotographs.zip",
+        "contentSize": 338219.955078125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-31b602723fc99da-20260306T224033889",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-31b602723fc99da-20260306T224033889",
+        "name": "chess_voucher_IDs_cleaned.csv",
+        "contentSize": 18.5869140625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-63c3ddf785f4c0b-20260306T230306513",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-63c3ddf785f4c0b-20260306T230306513",
+        "name": "chess_tree_site_cleaned.csv",
+        "contentSize": 103.767578125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-db2b0dab59615ed-20260305T133926922",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-db2b0dab59615ed-20260305T133926922",
+        "name": "chess_shrub_site_cleaned.csv",
+        "contentSize": 75.1474609375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2a2436450e9012e-20260305T133926912",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-2a2436450e9012e-20260305T133926912",
+        "name": "chess_meadow_cover_cleaned.csv",
+        "contentSize": 184.2197265625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-17abe127f810c8c-20260305T133926927",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-17abe127f810c8c-20260305T133926927",
+        "name": "flmd.csv",
+        "contentSize": 5.8720703125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4739ac67f0b82df-20260307T002747895",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-4739ac67f0b82df-20260307T002747895",
+        "name": "dd.csv",
+        "contentSize": 7.4384765625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-281f9ba312604dd-20260310T165037973",
+        "encodingFormat": "application/zip",
+        "identifier": "ess-dive-281f9ba312604dd-20260310T165037973",
+        "name": "Tree_FieldPhotographs.zip",
+        "contentSize": 199554.08203125
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "id": "ess-dive-be87cb0634c1344-20241107T185228964",
+  "viewUrl": "https://data.ess-dive.lbl.gov/view/doi:10.15485/2476543",
+  "url": "https://api.ess-dive.lbl.gov/packages/ess-dive-be87cb0634c1344-20241107T185228964",
+  "next": null,
+  "previous": "https://api.ess-dive.lbl.gov/packages/ess-dive-079b70258acdf6d-20241103T152353123",
+  "dateUploaded": "2024-11-07T18:52:30.847Z",
+  "dateModified": "2024-11-10T00:00:20.528Z",
+  "isPublic": true,
+  "citation": "Drew L; Kaplan A; Breckheimer I (2024): Data from \"A Bayesian Record Linkage Approach to Applications in Tree Demography Using Overlapping LiDAR Scans\". Watershed Function SFA. Dataset. doi:10.15485/2476543",
+  "dataset": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "doi:10.15485/2476543",
+    "name": "Data from \"A Bayesian Record Linkage Approach to Applications in Tree Demography Using Overlapping LiDAR Scans\"",
+    "description": [
+      "Processed LiDAR data and environmental covariates from 2015 and 2019 LiDAR scans in the Vicinity of Snodgrass Mountain (Western Colorado, USA), in a geographic subset used in primary analysis for the research paper.",
+      "This package contains LiDAR-derived canopy height maps for 2015 and 2019, crown polygons derived from the height maps using a segmentation algorithm, and environmental covariates supporting the model of forest growth. Source datasets include August 2015 and August 2019 discrete-return LiDAR point clouds collected by Quantum Geospatial for terrain mapping purposes on behalf of the Colorado Hazard Mapping Program and the Colorado Water Conservation Board. Both datasets adhere to the USGS QL2 quality standard. The point cloud data were processed using the R package lidR to generate a canopy height model representing maximum vegetation height above the ground surface, using a pit-free algorithm.",
+      "This dataset was compiled to assess how spatial patterns of tree growth in montane and subalpine forests are influenced by water and energy availability. Understanding these growth patterns can provide insight into forest dynamics in the Southern Rocky Mountains under changing climatic conditions.",
+      "This dataset contains .tif, .csv, and .txt files. This dataset additionally includes a file-level metadata (flmd.csv) file that lists each file contained in the dataset with associated metadata; and a data dictionary (dd.csv) file that contains column/row headers used throughout the files along with a definition, units, and data type."
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "givenName": "Lane",
+        "familyName": "Drew",
+        "affiliation": "Colorado State University",
+        "email": "lane.drew@colostate.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Andee",
+        "familyName": "Kaplan",
+        "affiliation": "Colorado State University",
+        "email": "andee.kaplan@colostate.edu"
+      },
+      {
+        "@type": "Person",
+        "givenName": "Ian",
+        "familyName": "Breckheimer",
+        "affiliation": "Rocky Mountain Biological Laboratory",
+        "email": "ikb@rmbl.org"
+      }
+    ],
+    "datePublished": "2024",
+    "keywords": [
+      "EARTH SCIENCE > AGRICULTURE > FOREST SCIENCE",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE",
+      "EARTH SCIENCE > ATMOSPHERE > PRECIPITATION",
+      "EARTH SCIENCE > BIOLOGICAL CLASSIFICATION > PLANTS",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY",
+      "ESS-DIVE File Level Metadata Reporting Format",
+      "ESS-DIVE CSV File Formatting Guidelines Reporting Format"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "description": "Snodgrass Mountain",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 38.93915652,
+            "longitude": -107.00651577
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.92153876,
+            "longitude": -106.98295085
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "description": "The East River (ER) is a snow\u2010dominated, headwater basin of the Upper Colorado River Basin (UCRB) located in the western United States. The ER is the designated testbed of Lawrence Berkeley National Laboratory's Watershed Function Scientific Focus Area (WFSFA). Through WFSFA, observational networks have been established to measure stream discharge and precipitation chemistry. The ER is considered representative of many snow\u2010dominated headwaters of the Rocky Mountains. The study domain encompasses nearly 85 square km, a 1.4\u2010km vertical drop in elevation (4,120 to 2,760 m) and pristine alpine, subalpine, montane, and riparian ecosystems. The ER contains high\u2010energy mountain streams to low\u2010energy meandering floodplains and is eroding primarily into the Cretaceous, carbon\u2010rich, marine shale of the Mancos Formation. Additional metadata on specific locations within the watershed are provided in the following related data package: Varadharajan C. et al. (2023) doi:10.15485/1660962",
+        "geo": [
+          {
+            "@type": "GeoCoordinates",
+            "name": "Northwest",
+            "latitude": 39.034,
+            "longitude": -107.05
+          },
+          {
+            "@type": "GeoCoordinates",
+            "name": "Southeast",
+            "latitude": 38.88,
+            "longitude": -106.88
+          }
+        ]
+      }
+    ],
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "http://dx.doi.org/10.13039/100006206",
+        "name": "U.S. DOE > Office of Science > Biological and Environmental Research (BER)"
+      }
+    ],
+    "temporalCoverage": {
+      "startDate": "2015-08-07",
+      "endDate": "2019-09-24",
+      "@type": "DateTime"
+    },
+    "editor": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4698-977X",
+      "givenName": "Ian",
+      "familyName": "Breckheimer",
+      "affiliation": "Rocky Mountain Biological Laboratory",
+      "email": "ikb@rmbl.org"
+    },
+    "citation": [
+      "Drew, L; Kaplan, A; Breckheimer, I. 2024. \"A Bayesian Linkage Approach to Applications in Tree Demography Using Overlapping LiDAR Scans\" Submitted to Annals of Applied Statistics",
+      "Additional metadata on specific locations within the watershed are provided in the following related data package:",
+      "Varadharajan C ; Burrus M ; O'Ryan D ; Kakalia Z ; Alper E ; Banfield J ; Berkelhammer M ; Beutler C ; Brodie E ; Brown W ; Carbone M S ; Carroll R ; Christianson D ; Chou C ; Crystal-Ornelas R ; Chadwick K D ; Christensen J ; Dafflon B ; de Boer G ; Elbashandy H ; Enquist B J ; Feldman D ; Fox P ; Gilbert B ; Gochis D ; Henderson M ; Johnson D ; Kueppers L ; Li L ; Matheus Carnevali P ; Newman A ; Powell T ; Singha K ; Sorensen P ; Sprenger M ; Tokunaga T ; Versteeg R ; Wilkins M ; Williams K ; Worsham M ; Wong C ; Wu Y ; Zhang D ; Agarwal D (2023): Location Identifiers, Metadata, and Map for Field Measurements at the East River Watershed, Colorado, USA (Version 3.1). Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1660962"
+    ],
+    "provider": {
+      "@type": "Organization",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ess-dive",
+        "value": "024b867d-25e3-4025-b68c-6598aded7aa2"
+      },
+      "name": "Watershed Function SFA",
+      "member": {
+        "@type": "Person",
+        "givenName": "Eoin",
+        "familyName": "Brodie",
+        "jobTitle": "principalInvestigator",
+        "affiliation": "Lawrence Berkeley National Laboratory",
+        "email": "elbrodie@lbl.gov"
+      }
+    },
+    "measurementTechnique": [
+      "Point Cloud Subsetting and Reprojection. Point clouds from the original source datasets (.laz format tiles) were reprojected to the study coordinate system (EPSG:32613, WGS84 / UTM Zone 13N) and subset to the region of interest. Projection used the spTransform() function in the package \"sp\", which in-tern used the PROJ library (version 5.2) for reprojection. We used the R package \"lidR\" (version 3.0.4) for subsequent point cloud processing.",
+      "Bare-earth Surface Generation and Point Cloud Normalization. Raw point clouds included a bare-earth classification provided by the vendor. We used the lidR function tin() to produce a bare-earth surface by triangulating between ground points using the default settings. The resulting surface elevations were subtracted from the point cloud (without rasterizing) to produce a \"normalized\" point cloud with the Z values representing height above the surface.",
+      "Pit-free Canopy Model Generation. We used a pit-free algorithm to generate a canopy surface (Khosravipour, A., Skidmore, A. K., Isenburg, M., Wang, T., & Hussin, Y. A. 2014. Generating pit-free canopy height models from airborne lidar. Photogrammetric Engineering & Remote Sensing, 80(9), 863-872.). This was implemented in the lidR function pitfree(), using height thresholds of 0, 0.5,1, 2, 5, 10, 15, 20, 25, 30, and 40 m. The model was gridded at at spatial resolution of 1/3 (0.3333333) m / pixel. Adjacent tiles were buffered by 30m to avoid edge artifacts.",
+      "Removal of Structures and Artifacts. The raw canopy height model was post-processed to remove artifacts around human-built structures. We clipped the Bing Building Footprints dataset (version 2.0) to our study area and buffered the footprints by 1m before rasterizing the footprint polygons. Pixels within 1m of building footprints were set to a height of zero. Pixels with heights less than zero or greater than the maximum reported heights of trees in CO (54 m) were also set to zero.",
+      "Rescaling and TIF Generation: We used the GDAL tools gdal_calc, gdal_merge, and gdal_translate to rescaled the height values from meters to millimeters, and convert the floating-point values to unsigned 16-bit integers to reduce the size of the dataset. The resulting dataset was stored as a compressed, cloud-optimized Geotiff.",
+      "Canopy segmentation. We used a variable-distance local maximum filter to identify putative tree tops independently in both 2015 and 2019 datasets. Local maxima were at least 2 m tall to be considered for segmentation. We then used the ITCSegment algorithm (Dalponte, M. and Coomes, D. A. (2016), Tree-centric mapping of forest carbon density from airborne laser scanning and hyperspectral data. Methods Ecol Evol, 7: 1236\u20131245. doi:10.1111/2041-210X.12575) to delineate tree crown polygons.",
+      "Canopy segment statistics. For each crown segment, we calculated the volume under the crown by summing the heights of cells in the canopy height model multiplied by the pixel area. We also filtered the crowns to only those classified as majority conifer in an existing high-resolution vegetation classification based on hyperspectral imagery (Falco N ; M. Wainwright H M W; Chadwick K D ; Dafflon B ; J. Enquist B J E; Unhlemann S ; Breckheimer I ; Lamb J ; Chen J ; Tuvshintugs O ; Balde A ; H. Williams K H W; Brodie E (2024): Vegetation classification map and covariates associated with NEON AOP survey, East River, CO 2018. Watershed Function SFA, ESS-DIVE repository. Dataset. doi:10.15485/1602034)."
+    ],
+    "distribution": [
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3120c69b6a46352-20240513T174234713",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3120c69b6a46352-20240513T174234713",
+        "name": "crown_attributes_2015.csv",
+        "contentSize": 121294.8935546875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-2c66dd3ddeb45c8-20240513T174234715",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-2c66dd3ddeb45c8-20240513T174234715",
+        "name": "crown_attributes_2019_metadata.txt",
+        "contentSize": 2.75
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-3c1b47b75bcca6c-20240513T174234704",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-3c1b47b75bcca6c-20240513T174234704",
+        "name": "crown_attributes_2019.csv",
+        "contentSize": 116533.7470703125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-5ab8efb26d328b5-20240513T173925408",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-5ab8efb26d328b5-20240513T173925408",
+        "name": "chm_03m_2019.tif",
+        "contentSize": 127209.7548828125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-4a83e4816a922ae-20240513T173925420",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-4a83e4816a922ae-20240513T173925420",
+        "name": "Snodgrass_Snowpack_Persistence_DOY_2013_2019.tif",
+        "contentSize": 66584.005859375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-a7881baa303cdfb-20240513T174234718",
+        "encodingFormat": "text/plain",
+        "identifier": "ess-dive-a7881baa303cdfb-20240513T174234718",
+        "name": "crown_attributes_2015_metadata.txt",
+        "contentSize": 2.75
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-c3c46ff25d50885-20240513T173925432",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-c3c46ff25d50885-20240513T173925432",
+        "name": "Snodgrass_aspect_southness_1m.tif",
+        "contentSize": 13424.166015625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8a59960f4ffd550-20240513T173925429",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-8a59960f4ffd550-20240513T173925429",
+        "name": "Snodgrass_slope_1m.tif",
+        "contentSize": 13230.859375
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-8ad62a812d94547-20241103T152124789",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-8ad62a812d94547-20241103T152124789",
+        "name": "flmd.csv",
+        "contentSize": 1.779296875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-21c44a0b7cef19c-20241103T152124774",
+        "encodingFormat": "text/csv",
+        "identifier": "ess-dive-21c44a0b7cef19c-20241103T152124774",
+        "name": "dd.csv",
+        "contentSize": 2.4326171875
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-f6d46b0898ecb21-20240513T173925433",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-f6d46b0898ecb21-20240513T173925433",
+        "name": "Snodgrass_DEM_1m.tif",
+        "contentSize": 6941.8017578125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-d3659e9f76f0d70-20240513T173925425",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-d3659e9f76f0d70-20240513T173925425",
+        "name": "chm_03m_2015.tif",
+        "contentSize": 217183.2666015625
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-dffdeec81023d23-20240513T173925427",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-dffdeec81023d23-20240513T173925427",
+        "name": "Snodgrass_wetness_index_1m.tif",
+        "contentSize": 16668.548828125
+      },
+      {
+        "contentUrl": "https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-ee2a80da8b68b87-20240513T173925423",
+        "encodingFormat": "image/tiff",
+        "identifier": "ess-dive-ee2a80da8b68b87-20240513T173925423",
+        "name": "Snodgrass_Degree_Days_2013_2019.tif",
+        "contentSize": 65027.54296875
+      }
+    ]
+  }
+}

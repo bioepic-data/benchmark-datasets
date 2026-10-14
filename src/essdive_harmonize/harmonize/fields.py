@@ -297,23 +297,39 @@ def dates(df: pd.DataFrame, f: Fields) -> list:
 # site-like columns (location, station, pit, tree, block, replicate, treatment ...); IGSN last, it has its own column
 KEY_ORDER = [_rx(r"sample|specimen|^lab ?id|^field ?id|^unique ?id|^id$"), _rx(r"^core|core ?(id|name|code)"),
              _rx(r"^site|site ?(id|name|code)"), _rx(r"^plot|plot ?(id|name|code)|^subplot")]
-KEY_EXTRA = _rx(r"sample ?(site )?code|sample ?label")
+# site-like columns for the id only (not join keys for locations): 'Field_Site', 'Topographic_Position' (1577267);
+# replicates anywhere in the name and sites after a word: 'Field_replicate', 'Lab_replicate', 'Soil Site' (1618870)
+KEY_EXTRA = _rx(r"sample ?(site )?code|sample ?label|field ?site|topograph|(landscape|slope|hillslope|catena) ?position|"
+                r"micro ?topo|replicate|\brep\b|\bsite\b")
 KEY_NOT = _rx(r"date|time|year|depth|horizon|layer|\bunits?\b|method|notes?\b|comments?|description|type|"
               r"elevation|area|size|weight|mass|volume|diameter|dbh")
 SIMPLE_ID = re.compile(r"\s*\d+(\.0)?\s*")
 
 
-def _key_columns(df: pd.DataFrame, f: Fields) -> list:
+def _measurement(s: pd.Series) -> bool:
+    """Whether a column holds measurements: at least half of its filled values are decimal numbers (140.91, 4.26).
+
+    Examples:
+        >>> _measurement(pd.Series(["140.91", "0.6", "4.26"])), _measurement(pd.Series(["1", "2", "A1"]))
+        (True, False)
+    """
+    v = s.astype(str).str.strip()
+    v = v[~is_missing(v) & (v != "")]
+    return bool(len(v)) and float(v.str.fullmatch(r"[-+]?\d*\.\d*[1-9]\d*").mean()) >= 0.5
+
+
+def _key_columns(df: pd.DataFrame, f: Fields, skip: AbstractSet[str] = frozenset()) -> list:
     """The columns that can identify a sample, in the order they are tried; IGSN last.
 
     Sample / core / site / plot columns first (KEY_ORDER), then the other site-like columns (Fields.sites: location,
     station, treatment, replicate ...). Coordinate, depth, date and empty columns are left out: they are written in
-    their own columns (2566016 had id Site_Name:Site_Lat:Site_Long).
+    their own columns (2566016 had id Site_Name:Site_Lat:Site_Long). So are the value columns (skip) and other
+    measurement columns ('Site_soil_pH', 'Site_soil_total_P' match '^site', 2523672).
     """
     cols = [c for c in df.columns if (ID.search(_n(c)) or SITE.search(_n(c)) or KEY_EXTRA.search(_n(c)))
-            and not KEY_NOT.search(_n(c)) and c not in (f.lat, f.lon, f.east, f.north, f.igsn)
+            and not KEY_NOT.search(_n(c)) and c not in (f.lat, f.lon, f.east, f.north, f.igsn) and c not in skip
             and not any(p.search(_n(c)) for p in (LAT, LON, EAST, NORTH, DEPTH, TOP, BOTTOM))
-            and (~is_missing(df[c].astype(str).str.strip())).any()]
+            and (~is_missing(df[c].astype(str).str.strip())).any() and not _measurement(df[c])]
     rank = {c: next((i for i, p in enumerate(KEY_ORDER) if p.search(_n(c))), len(KEY_ORDER)) for c in cols}
     cols = sorted(cols, key=lambda c: rank[c])
     return cols + ([f.igsn] if f.igsn and f.igsn in df.columns else [])
@@ -342,15 +358,21 @@ def _key(df: pd.DataFrame, cols: list, extra: list) -> pd.Series:
 
 
 def ids(df: pd.DataFrame, f: Fields, depth: list | None = None, date: list | None = None,
-        rows: pd.Series | None = None) -> tuple[list, str, str]:
-    """Build the id and id_type of the rows: unique and informative (user decision 2026-10-13).
+        rows: pd.Series | None = None, skip: AbstractSet[str] = frozenset()) -> tuple[list, str, str]:
+    """Build the id and id_type of the rows: unique and informative (user decisions 2026-10-13 and 2026-10-14).
 
     1. A sample / core / site / plot column whose values are unique and informative (not only 1, 2, 3 ...) is the id.
-    2. Otherwise the id columns are joined, in the order of _key_columns, each one only when it tells more rows apart,
-       until the ids are unique; a column that only adds a suffix to another is left out (_drop_suffix_ids), and a
-       column the others make redundant is dropped again.
+    2. Otherwise the descriptive columns are joined, informative ones first, each in the order of _key_columns
+       (sample ids, core, site, plot, then location, field site, block, topographic position, replicate ... in table
+       order), each one only when it tells more rows apart, until the ids are unique.
     3. Still repeated: the depth, then the date, as written in the depth / date columns, when they tell rows apart.
-    4. Still repeated: the ids are kept, with a note. No id column at all: the row number ('source_row').
+    4. Still repeated, as a last resort: the id columns that are only numbers (a lab number 'Lab_ID_LBNL' 1, 2, 3 ...),
+       then IGSN (it has its own column), each when it tells rows apart. doi:10.15485/1577267 gets
+       Location:Field_Site:Block:Plot:Topographic_Position:Replicate:depth:date:Lab_ID_LBNL: the descriptive columns
+       leave 27 snow-pit cores (three per pit, depth and date) that only the lab number tells apart.
+    A column that only adds a suffix to another is left out (_drop_suffix_ids). Ids still repeated are kept, with a
+    note (one sample on several rows, 1185213 incubation time points). No id column at all: the row number
+    ('source_row').
 
     Args:
         df: The table.
@@ -358,6 +380,7 @@ def ids(df: pd.DataFrame, f: Fields, depth: list | None = None, date: list | Non
         depth: The harmonized depth of the rows.
         date: The harmonized date of the rows.
         rows: The rows that are written (with a value); the ids must be unique over these. All rows when None.
+        skip: The value columns (never id parts).
 
     Returns:
         The ids, the names of their parts joined with ':' ('depth', 'date' for those) and a note ('' when unique).
@@ -372,8 +395,11 @@ def ids(df: pd.DataFrame, f: Fields, depth: list | None = None, date: list | Non
         (['Outer:30', 'Outer:60'], 'Site_Name:depth', '')
         >>> ids(pd.DataFrame({"Plot": ["A", "A", "B"], "Core": ["1", "2", "1"]}), Fields())
         (['A:1', 'A:2', 'B:1'], 'Plot:Core', '')
+        >>> d = pd.DataFrame({"Lab_ID": ["1", "2", "3", "4"], "Plot": ["A1", "A1", "A1", "B1"]})
+        >>> ids(d, Fields(), depth=["0-5", "0-5", "5-15", "0-5"])   # the lab number last, only where needed
+        (['A1:0-5:1', 'A1:0-5:2', 'A1:5-15:3', 'B1:0-5:4'], 'Plot:depth:Lab_ID', '')
         >>> ids(pd.DataFrame({"transect": ["W", "W"], "igsn": ["I1", "I2"]}), Fields(igsn="igsn"))
-        (['I1', 'I2'], 'igsn', '')
+        (['W:I1', 'W:I2'], 'transect:igsn', '')
         >>> ids(pd.DataFrame({"Plot": ["A", "A"]}), Fields())
         (['A', 'A'], 'Plot', 'id not unique: 2 rows share an id')
     """
@@ -381,7 +407,7 @@ def ids(df: pd.DataFrame, f: Fields, depth: list | None = None, date: list | Non
     depth = depth if depth is not None else [""] * n
     date = date if date is not None else [""] * n
     sel = rows.to_numpy() if rows is not None and bool(rows.any()) else pd.Series(True, index=df.index).to_numpy()
-    cand = _key_columns(df, f)
+    cand = _key_columns(df, f, skip)
     if not cand:
         return [str(i + 1) for i in range(n)], "source_row", ""
 
@@ -395,30 +421,36 @@ def ids(df: pd.DataFrame, f: Fields, depth: list | None = None, date: list | Non
     for c in cand:
         if c != f.igsn and _informative(df[c]) and unique([c], []):
             return list(_key(df, [c], [])), c, ""
-    # 2. join the columns that tell more rows apart, informative ones first
-    # IGSN last: it identifies the rows when nothing else does (1960313 'igsn' unique, 'transect_location' 3 values)
-    order = [c for c in cand if c != f.igsn and _informative(df[c])] + \
-            [c for c in cand if c != f.igsn and not _informative(df[c])] + [c for c in cand if c == f.igsn]
+    # 2. the descriptive columns; an id column of numbers only and IGSN are kept for the last resort (step 4)
+    last = [c for c in cand if c != f.igsn and ID.search(_n(c)) and not _informative(df[c])] + \
+           [c for c in cand if c == f.igsn]
+    descriptive = [c for c in cand if c not in last and _informative(df[c])] + \
+                  [c for c in cand if c not in last and not _informative(df[c])]   # Plot before a Replicate 1, 2, 3
     cols: list = []
-    for c in order:
+    for c in descriptive:
         if not cols or distinct(cols + [c], []) > distinct(cols, []):
             cols.append(c)
         if unique(cols, []):
             break
-    if len(cols) > 1 and unique(cols, []):
-        for c in list(cols):    # drop a column the others make redundant, keeping an informative one
-            rest = [x for x in cols if x != c]
-            if rest and unique(rest, []) and any(_informative(df[x]) for x in rest):
-                cols = rest
-    cols = _drop_suffix_ids(df, cols)
+    # 3. the depth, then the date; 4. the last-resort id columns
     extra: list = []
     names = list(cols)
-    # 3. the depth, then the date
     for name, vals in (("depth", depth), ("date", date)):
         if not unique(cols, extra) and distinct(cols, extra + [vals]) > distinct(cols, extra):
             extra.append(vals)
             names.append(name)
+    tail: list = []
+    for c in last:
+        if unique(cols + tail, extra):
+            break
+        if not (cols or extra or tail) or distinct(cols + tail + [c], extra) > distinct(cols + tail, extra):
+            tail.append(c)
+    keep = _drop_suffix_ids(df, cols + tail)
+    cols, tail = [c for c in cols if c in keep], [c for c in tail if c in keep]
+    names = [x for x in names if x in cols or x in ("depth", "date")] + tail
     out = _key(df, cols, extra)
+    if tail:
+        out = out.where(out == "", out + ":") + _key(df, tail, []) if (cols or extra) else _key(df, tail, [])
     dup = int(out[sel].duplicated(keep=False).sum())
     return list(out), ":".join(names), (f"id not unique: {dup} rows share an id" if dup else "")
 

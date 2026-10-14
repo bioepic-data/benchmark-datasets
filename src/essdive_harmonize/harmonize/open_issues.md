@@ -462,6 +462,18 @@ Check / decide:
   Total carbon pattern 'C', so its six values (TC 20.8, TIC 0.82, TOC 20, N 1.59, S 2.82, P 0.15) are written as Total
   carbon, with the row labels as ids and the bbox centre (+-714 km) though the table gives DMS coordinates. Open:
   send transposed tables to review (first column = property names with units, value column = a sample label).
+- Id order with last-resort ids (fields.py `ids`, `_key_columns`, `_measurement`; user decision 2026-10-14): the
+  descriptive columns first (informative ones, then number-only ones such as Replicate), each only when it tells
+  more rows apart; then the depth, then the date; as a last resort the id columns of numbers only (a lab number)
+  and IGSN. The pruning step that dropped 'redundant' columns is gone (it removed Plot from 1577267).
+  doi:10.15485/1577267 Location:Lab_ID_LBNL -> Plot:Location:Field_Site:Topographic_Position:Replicate:depth:date:
+  Lab_ID_LBNL (27 snow-pit cores, three per pit, depth and date, differ only by the lab number). Id-only site columns:
+  field site, topographic / landscape / slope position, replicate anywhere in the name ('Field_replicate',
+  'Lab_replicate', 1618870), 'Soil Site'. The value columns and columns of mostly decimal numbers are never id parts
+  ('Site_soil_pH', 'Site_soil_total_P' matched '^site', 2523672). The repeated-row check stays within files too
+  (1185213 repeats each sample's pH on every incubation time point); limiting it to other files added ~700 rows, and
+  adding the row number to group-like ids broke the same case. Soil pH: 8,142 -> 8,164 rows (1837084 lab replicates
+  +8, SPRUCE.005 +14), unique-id tables 64 -> 65 of 86, none lost; hand-written 18/37.
 - Ids unique and informative (fields.py `ids`, `_key_columns`, `_informative`; user decision 2026-10-13): a sample /
   core / site / plot column that is unique and not only 1, 2, 3 ... is the id; else the id columns are joined (each
   only when it tells more rows apart, informative ones first, IGSN last since it has its own column); then the

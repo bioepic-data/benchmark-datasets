@@ -753,7 +753,7 @@ def harmonize(key: str, doi: str) -> Result:
             dt, date_note = [coverage_date(doi)] * len(df), f"date {coverage_date(doi)} from package temporal coverage"
         # ids unique over the rows with a value: id columns, then depth, then date (fields.ids)
         has_value = pd.concat([~is_missing(df[c].astype(str).str.strip()) for c in value_cols], axis=1).any(axis=1)
-        idv, id_type, id_note = ids(df, f, dep, dt, has_value)
+        idv, id_type, id_note = ids(df, f, dep, dt, has_value, skip=set(value_cols))
         src = source_name(file) + (f" [{sheet}]" if sheet else "")
         kept: list[str] = []
         kept_vals: list[pd.Series] = []
@@ -869,7 +869,8 @@ def harmonize(key: str, doi: str) -> Result:
         res.reasons = res.reasons or ["no usable rows"]
         return res
     raw = pd.concat(frames, ignore_index=True)
-    # the same samples in several files (subsets, copies for 16S / ITS ...): keep the first occurrence
+    # the same samples in several files (subsets, copies for 16S / ITS ...): keep the first occurrence. Within one file
+    # too: a sample's value repeated on every row of a time series (1185213 incubations: pH on each time point)
     dup = raw.duplicated(["id", "depth", "date", "value", "method"]) & (raw["value"] != "")
     if dup.any():
         res.reasons.append(f"{int(dup.sum())} rows repeated in another file dropped")

@@ -1,0 +1,32 @@
+# Tool settings for the code under src/ (no build or packaging metadata yet).
+#
+#   ruff check                                docstrings: PEP 257 with the Google convention
+#   pytest                                    doctest examples of every module in src/essdive_harmonize
+#   mypy                                      type annotations (every function fully annotated)
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+src = ["src"]
+include = ["src/**/*.py"]
+
+[tool.ruff.lint]
+select = ["D"]  # pydocstyle
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["src/essdive_harmonize"]
+addopts = "--doctest-modules"
+doctest_optionflags = ["NORMALIZE_WHITESPACE", "ELLIPSIS"]
+
+[tool.mypy]
+python_version = "3.13"
+mypy_path = "src"
+packages = ["essdive_harmonize"]
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+ignore_missing_imports = true
+follow_imports = "silent"

@@ -1,11 +1,17 @@
 # Data directories
-# Ignore everything in data/ EXCEPT data/processed/harmonized_soil_moisture_data
+# Ignore everything in data/ EXCEPT data/processed/harmonized_soil_moisture_data and data/processed/harmonization
 data/*
 
-# But don't ignore data/processed and its harmonized_soil_moisture_data subdirectory
+# But don't ignore data/processed (its contents are ignored below, except the folders listed): a file can only be
+# re-included when its parent directory is not ignored
+!data/processed/
+data/processed/*
 !data/processed/harmonized_soil_moisture_data/
 !data/processed/harmonized_soil_moisture_data/**
 !data/processed/README.md
+# generic harmonization outputs (python -m essdive_harmonize.harmonize.run --write)
+!data/processed/harmonization/
+!data/processed/harmonization/**
 
 # Python
 __pycache__/

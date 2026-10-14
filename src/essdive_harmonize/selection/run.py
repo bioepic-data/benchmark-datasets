@@ -9,7 +9,7 @@ Usage (from the repo root, PYTHONPATH=src):
     python -m essdive_harmonize.selection.run --rescan     # re-reads every downloaded file first
 
 Outputs (data/intermediate/package_selection/):
-    column_headers.csv      cache: one row per column (doi, file, sheet, column, is_dictionary, n_rows, n_numeric)
+    column_headers.csv.gz   cache: one row per column (doi, file, sheet, column, is_dictionary, n_rows, n_numeric)
     packages.csv            one row per package: soil_related (+ where "soil" was found), files scanned, variables found
     evidence.csv            one row per package x variable x source, with strength and matched columns / terms;
                             text matches also give context (the sentences) and exclusion_terms (plant, litter,

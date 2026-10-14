@@ -12,6 +12,13 @@ data/processed/*
 # generic harmonization outputs (python -m essdive_harmonize.harmonize.run --write)
 !data/processed/harmonization/
 !data/processed/harmonization/**
+# package selection outputs (python -m essdive_harmonize.selection.run); the header cache is tracked gzipped
+# (column_headers.csv.gz), the plain CSV copy (118 MB, over the GitHub file limit) is not
+!data/intermediate/
+data/intermediate/*
+!data/intermediate/package_selection/
+!data/intermediate/package_selection/**
+data/intermediate/package_selection/column_headers.csv
 
 # Python
 __pycache__/

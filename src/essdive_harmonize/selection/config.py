@@ -4,7 +4,8 @@ Attributes:
     PROJECT_ROOT: The repository root.
     VARIABLE_LIST: data/soil_variable_list_input.csv, the variables to search for.
     OUT_DIR: data/intermediate/package_selection, the outputs.
-    HEADERS_CACHE: File name of the column-header cache in OUT_DIR.
+    HEADERS_CACHE: File name of the column-header cache in OUT_DIR (gzip: 118 MB as plain CSV, over the GitHub
+        file limit; pandas reads and writes it by the extension).
     TABLE_EXTENSIONS: Extensions of the files whose headers are read.
     HEADER_SCAN_ROWS: Rows inspected to locate the header line.
     MAX_ROWS: Rows read per file or sheet to count numeric values.
@@ -24,7 +25,7 @@ from ..download_files import DOWNLOADED, META_DIR, OUT_DIR as PACKAGE_DATA
 PROJECT_ROOT: Final[Path] = Path(__file__).resolve().parents[3]
 VARIABLE_LIST: Final[Path] = PROJECT_ROOT / "data" / "soil_variable_list_input.csv"
 OUT_DIR: Final[Path] = PROJECT_ROOT / "data" / "intermediate" / "package_selection"
-HEADERS_CACHE: Final = "column_headers.csv"
+HEADERS_CACHE: Final = "column_headers.csv.gz"
 
 TABLE_EXTENSIONS: Final[tuple[str, ...]] = (".csv", ".txt", ".tsv", ".tab", ".xlsx", ".xls", ".xlsm")
 HEADER_SCAN_ROWS: Final = 40        # rows inspected to locate the header line

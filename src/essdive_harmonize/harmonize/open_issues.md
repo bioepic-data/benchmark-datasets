@@ -462,6 +462,29 @@ Check / decide:
   Total carbon pattern 'C', so its six values (TC 20.8, TIC 0.82, TOC 20, N 1.59, S 2.82, P 0.15) are written as Total
   carbon, with the row labels as ids and the bbox centre (+-714 km) though the table gives DMS coordinates. Open:
   send transposed tables to review (first column = property names with units, value column = a sample label).
+- PDF reading (documents.py, 2026-10-14): a missing pypdf now gives one warning per run instead of a silent skip. The
+  outputs were made with /Users/ukaraoz/miniconda3/bin/python, which has pypdf 6.20.1; the repo's .venv (Python 3.14)
+  has neither pypdf nor pandas, so it cannot run the harmonizer, and pyproject.toml declares no dependencies (no
+  [project] table yet). Dry run with pypdf blocked: 16 package columns (1,765 rows) lose their method and nothing else
+  changes (Total carbon SPRUCE.005, 1109232, 1185213, 1342956, 1346200, 1464956, 1618325; Total nitrogen SPRUCE.005,
+  1618325; soil pH 1618325; clay / sand / silt 1346200, 1860505). Open: declare the dependencies.
+- Soil pH method names (variable_config.csv; auto.py NOT_BULK; 2026-10-14): 'potassium / calcium / barium chloride'
+  count as KCl / CaCl2 / BaCl2, and only 'soil solution' / 'in solution' (not any 'solution') exclude a sentence, so
+  '... 1 M KCl solution' is read. doi:10.5440/1618325 ('Soil pH in 1 M potassium chloride (1:5)') unknown -> pH_KCl;
+  dry run over the 74 written variables: no other change.
+- Soil pH packages still unknown (pH method check 2026-10-14), open:
+  reported but not set: 1959350 (0.1 M CaCl2, another sentence adds water), 2405147 (1 M KCl; water only 'to verify
+  ... data not shown'), 2283432 (two columns 'Soil pH', 'Soil pH 1:1'; 'pH in water and KCl'), 1725884 (pH of the
+  water-extract filtrate, likely H2O);
+  probably not soil pH: 1960313 ec1_water_ph_L2.csv (surface water), spruce.043/1434643 (porewater), 1647038
+  (hyporheic / floodplain water, field probe), 2529428 and 1898913 (WHONDRS surface water), 3016270 (in situ water
+  chemistry), 1544760 and 1735757 (Kougarok soil water), 2523672 (Soil_pH from SoilGrids; Site_soil_pH is measured);
+  not reported: 1454273, 1785525, 1659482, 1810163, 1811604, 1813869, 2572883, 2587101.
+- Method from the clause that names the variable (auto.py `_methods_in`, `_clauses`; user decision 2026-10-14): when one
+  sentence gives several methods, only those in the clause naming the variable count (clauses split at , ; | outside
+  parentheses); with none there, the sentence's methods as before. doi:10.15485/1577267 'soil pH measurements (1:1
+  w/vol in ddH2O), dissolved nitrogen pools measured in soil extracts (2M KCl extractant)' gave pH_H2O and pH_KCl
+  ('several methods', unknown); now pH_H2O (312 rows). Dry run over the 74 written variables: no other change.
 - Id order with last-resort ids (fields.py `ids`, `_key_columns`, `_measurement`; user decision 2026-10-14): the
   descriptive columns first (informative ones, then number-only ones such as Replicate), each only when it tells
   more rows apart; then the depth, then the date; as a last resort the id columns of numbers only (a lab number)

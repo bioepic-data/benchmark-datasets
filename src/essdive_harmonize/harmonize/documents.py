@@ -32,11 +32,18 @@ MAX_PAGES = 60
 __all__ = ["document_text", "package_documents"]
 
 
+_LOG = logging.getLogger(__name__)
+_warned: list[bool] = []
+
+
 def _pdf_text(path: Path) -> str:
-    """Text of a PDF ('' without pypdf); line breaks inside a sentence are joined."""
+    """Text of a PDF ('' without pypdf, with a warning the first time); line breaks inside a sentence are joined."""
     try:
         import pypdf
     except ImportError:
+        if not _warned:   # once per run: methods described only in package PDFs are then not found
+            _LOG.warning("pypdf is not installed: package PDF documents are not read for methods (pip install pypdf)")
+            _warned.append(True)
         return ""
     logging.getLogger("pypdf").setLevel(logging.ERROR)   # 'Ignoring wrong pointing object' on damaged PDFs
     reader = pypdf.PdfReader(str(path))

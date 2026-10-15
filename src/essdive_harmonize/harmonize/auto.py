@@ -479,7 +479,7 @@ def _element(v: Variable) -> str | None:
 # ('μ-XRF imaging ... of Ca', 2350835) and compound-specific lipids ('13C value of methylated fatty acid', 2483574).
 # Applied to the sentences found by the loose patterns below and to every sentence of a package document.
 NOT_BULK = re.compile(r"(?i)dissolved|extract|leach|pore ?water|water.?soluble|filtrate|surface water|stream water|"
-                      r"\bsolution|\b(DOC|DIC|DON|TDN|WSOC|WEOC)\b|\bgas(es)?\b|\bCO2\b|\bCH4\b|efflux|headspace|"
+                      r"soil solution|\bin solution\b|\b(DOC|DIC|DON|TDN|WSOC|WEOC)\b|\bgas(es)?\b|\bCO2\b|\bCH4\b|efflux|headspace|"
                       r"water (quality|temperature|samples?|column)|turbidity|alkalinity|salinity|\bORP|"
                       r"\bwater_?ph\b|ph of (the )?(surface )?water|"
                       r"imaging|micro-?x-?ray|μ-?XRF|XANES|microprobe|\bPLFA|fatty acid|\bFAME|n-alkane|lipid")
@@ -545,7 +545,34 @@ def _methods_in(key: str, text: str, rules: list, document: bool = False) -> set
     # 'N/A' (a missing-value code in dictionaries) is not the element pair 'N / A'
     sents = [s for s in sents if any(re.search(p, s, re.I) for p in strict)
              or (any(re.search(p, re.sub(r"\bN/A\b", "", s), re.I) for p in loose) and not NOT_BULK.search(s))]
-    return {m for rx, m in rules if rx for s in sents if re.search(rx, s, re.I)}
+    found: set[str] = set()
+    for s in sents:
+        here = {m for rx, m in rules if rx and re.search(rx, s, re.I)}
+        if len(here) > 1:   # several methods in one sentence: those in the clause that names the variable
+            near = {m for c in _clauses(s, strict + loose) for rx, m in rules if rx and re.search(rx, c, re.I)}
+            here = near or here
+        found |= here
+    return found
+
+
+def _clauses(sentence: str, patterns: list[str]) -> list[str]:
+    r"""The clauses of a sentence that name the variable: between ',' ';' '|' outside parentheses.
+
+    doi:10.15485/1577267 'soil pH measurements (1:1 w/vol in ddH2O), dissolved nitrogen pools measured in soil extracts
+    (2M KCl extractant)' gives pH in water, not KCl (user decision 2026-10-14).
+
+    Examples:
+        >>> _clauses("soil pH measurements (1:1 w/vol in ddH2O), N pools in extracts (2M KCl)", [r"\bpH\b"])
+        ['soil pH measurements (1:1 w/vol in ddH2O)']
+    """
+    parts, depth, start = [], 0, 0
+    for i, ch in enumerate(sentence):
+        depth += (ch == "(") - (ch == ")")
+        if ch in ",;|" and depth <= 0:
+            parts.append(sentence[start:i])
+            start, depth = i + 1, 0
+    parts.append(sentence[start:])
+    return [c.strip() for c in parts if any(re.search(p, c, re.I) for p in patterns)]
 
 
 def method_for(key: str, column: str, doi: str, definition: str = "") -> tuple[str, str]:

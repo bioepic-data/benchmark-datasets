@@ -1,8 +1,26 @@
-# Tool settings for the code under src/ (no build or packaging metadata yet).
+# Project metadata and tool settings for the code under src/ (no build backend: run with PYTHONPATH=src).
+#
+#   install the dependencies:   uv pip install --python .venv/bin/python -r pyproject.toml
+#                               (or pip install -r <the list below> in another environment)
 #
 #   ruff check                                docstrings: PEP 257 with the Google convention
 #   pytest                                    doctest examples of every module in src/essdive_harmonize
 #   mypy                                      type annotations (every function fully annotated)
+
+[project]
+name = "essdive-harmonize"
+version = "0.1.0"
+description = "Select ESS-DIVE packages and harmonize soil variables from them"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.1",
+    "numpy>=2.0",
+    "openpyxl>=3.1",      # .xlsx tables and the Excel copies of the outputs
+    "pandas>=2.2,<3",     # the outputs were made and checked with pandas 2.3; 3.0 changes string dtypes
+    "pypdf>=5.0",         # package PDF documents (methods); without it PDFs are skipped with a warning
+    "requests>=2.31",
+    "xlrd>=2.0",          # .xls tables
+]
 
 [tool.ruff]
 line-length = 120

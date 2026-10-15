@@ -220,6 +220,9 @@ pip install -e .
 - requests
 - aiohttp
 - pyproj (for coordinate transformations)
+- pypdf (reads the package PDF documents for measurement methods; without it PDFs are skipped with a warning)
+
+The essdive_harmonize dependencies are listed in pyproject.toml: `uv pip install --python .venv/bin/python -r pyproject.toml`.
 
 ## Usage Examples
 

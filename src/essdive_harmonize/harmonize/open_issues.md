@@ -462,6 +462,18 @@ Check / decide:
   Total carbon pattern 'C', so its six values (TC 20.8, TIC 0.82, TOC 20, N 1.59, S 2.82, P 0.15) are written as Total
   carbon, with the row labels as ids and the bbox centre (+-714 km) though the table gives DMS coordinates. Open:
   send transposed tables to review (first column = property names with units, value column = a sample label).
+- Methods from cited papers (papers.py; auto.py method_for, last source; user decision 2026-10-14): `papers plan`
+  collects the works a package with an unknown method cites (metadata citation / description / methods text and
+  package documents; references without a DOI searched by text) and looks them up in OpenAlex; plan.csv lists
+  package, cited DOI, title, PDF URL, file name, size; `papers download` fetches only rows with approve = 1 into
+  data/source/papers/ (PDF only, at most 60 MB) and extracts the text. Paper text counts only in the clause naming
+  the variable ('the soil bulk density, porosity, organic matter' is no porosity method, 2298998). Plan of
+  2026-10-14: 82 packages (60 variables) cite 806 works, 75 with an open PDF; the user approved the 58 cited in the
+  packages' own metadata; 33 downloaded, 25 refused by publishers (20 HTTP 403, 5 a web page instead of the PDF).
+  Result: soil pH 1960313 unknown -> pH_H2O ('shaken with deionized MilliQ water (1:10)'), Total carbon 1631979 and
+  1960313 unknown -> dry_combustion (Shimadzu SSM-5000A; ECS 8020 elemental analyzer); no other change. The 1454273
+  paper (Grossiord et al. 2018, tmp/papers/) does not mention pH. Open: the 25 refused papers (other open copies in
+  OpenAlex locations, e.g. repositories, need a new plan); 1960313 ec1_water_ph_L2.csv is surface water.
 - PDF reading (documents.py, 2026-10-14): a missing pypdf now gives one warning per run instead of a silent skip. The
   outputs were made with /Users/ukaraoz/miniconda3/bin/python, which has pypdf 6.20.1; the repo's .venv (Python 3.14)
   has neither pypdf nor pandas, so it cannot run the harmonizer, and pyproject.toml declares no dependencies (no

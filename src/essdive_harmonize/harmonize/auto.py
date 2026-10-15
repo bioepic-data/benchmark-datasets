@@ -50,6 +50,7 @@ from .candidates import headers, matched_columns
 from .fields import detect, dates, depths, ids, time_series, unit_of
 from .locate import locate
 from .documents import package_documents
+from .papers import paper_texts
 from .metadata import coverage_date, package_text, title
 from .tables import dictionary_tables, read_table, source_name, stacked_blocks
 from .variables import VarConfig, VARIABLES, config
@@ -533,7 +534,7 @@ def _sentences(text: str) -> list[str]:
 MAX_DOC_SENTENCE = 500   # longer 'sentences' of a document are table rows run together
 
 
-def _methods_in(key: str, text: str, rules: list, document: bool = False) -> set[str]:
+def _methods_in(key: str, text: str, rules: list, document: bool = False, clause_only: bool = False) -> set[str]:
     """The methods whose patterns occur in the sentences of a text that name the variable.
 
     In a package document (document=True) only sentences of at most MAX_DOC_SENTENCE characters count, and none about
@@ -547,6 +548,10 @@ def _methods_in(key: str, text: str, rules: list, document: bool = False) -> set
              or (any(re.search(p, re.sub(r"\bN/A\b", "", s), re.I) for p in loose) and not NOT_BULK.search(s))]
     found: set[str] = set()
     for s in sents:
+        if clause_only:   # a cited paper: only the clause naming the variable ('the soil bulk density, porosity, ...'
+            #               is no porosity method, 2298998)
+            found |= {m for c in _clauses(s, strict + loose) for rx, m in rules if rx and re.search(rx, c, re.I)}
+            continue
         here = {m for rx, m in rules if rx and re.search(rx, s, re.I)}
         if len(here) > 1:   # several methods in one sentence: those in the clause that names the variable
             near = {m for c in _clauses(s, strict + loose) for rx, m in rules if rx and re.search(rx, c, re.I)}
@@ -580,8 +585,8 @@ def method_for(key: str, column: str, doi: str, definition: str = "") -> tuple[s
 
     The variable's method patterns (variable_config.csv) are tried, in order, on the column name, on its data
     dictionary definition ('Soil carbon from combustion analyzer', doi:10.15485/2588765), on the sentences of the
-    package text that name the variable, and on those of the package's own documents (user guides, methods files,
-    documents.package_documents). The first source with exactly one method gives it; several methods in one source
+    package text that name the variable, on those of the package's own documents (user guides, methods files,
+    documents.package_documents), and last on the papers the package cites, once downloaded (papers.py). The first source with exactly one method gives it; several methods in one source
     give the default (or 'unknown'). User decision 2026-10-13 for the dictionary and the documents.
 
     Args:
@@ -617,6 +622,13 @@ def method_for(key: str, column: str, doi: str, definition: str = "") -> tuple[s
         found = set().union(*(f for _, f in per_doc)) if per_doc else set()
         if len(found) == 1:
             return found.pop(), f"method from {per_doc[0][0]}"
+    if not found:   # last: papers the package cites, downloaded after the user approved them (papers.py)
+        per_paper = [(cited, _methods_in(key, text, rules, document=True, clause_only=True))
+                     for cited, text in paper_texts(doi)]
+        per_paper = [(cited, f) for cited, f in per_paper if f]
+        found = set().union(*(f for _, f in per_paper)) if per_paper else set()
+        if len(found) == 1:
+            return found.pop(), f"method from cited paper doi:{per_paper[0][0]}"
     if default:
         return default, ""
     return UNKNOWN, ("several methods described in the package" if len(found) > 1 else "")
